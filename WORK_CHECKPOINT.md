@@ -1,7 +1,7 @@
 # Current work checkpoint — October 23, 2026
 
-**Phase:** 1 — first prototype implemented and checks passing; GitHub Pages activation awaits owner action.  
-**Next authorized action:** Enable Pages under Settings → Pages → Source: GitHub Actions, manually run the Publish mathThm workflow, test live site usability and refine the prototype with the user. **Do not begin aggressive collection or mathematical proof audits without further authorization.**
+**Phase:** 1 — first prototype deployed; automated checks and UI boot test passed. Awaiting user review of live interface.  
+**Next authorized action:** Review live site at https://zengez.github.io/mathThm/ , test interactions/visuals and refine the prototype with the user. **Do not begin aggressive collection or mathematical proof audits without further authorization.**
 
 ## Implemented
 
@@ -15,14 +15,16 @@
 
 ## Verified GitHub Actions results
 
+- **Latest validated and deployed code**: https://github.com/Zengez/mathThm/actions/runs/39978765020 — **success**: syntax, Node search and UI boot tests, Python corpus checks, generation, SHA-256 mathDef snapshot, upload and Pages deployment. GitHub repository metadata now reports Pages enabled.
+
 - Initial build: https://github.com/Zengez/mathThm/actions/runs/39977407748 — **all script syntax, Node search, Python data, build, SHA-256 snapshot, output-file steps passed**; configure-pages failed because GitHub Pages was not enabled.
 - Automatic Pages enablement attempt: https://github.com/Zengez/mathThm/actions/runs/39977542990 — build steps passed; configure-pages failed with **"Resource not accessible by integration"**, requiring owner activation in repository settings.
 - Repo owner should go to https://github.com/Zengez/mathThm/settings/pages and select **GitHub Actions** under Build and deployment → Source, then run https://github.com/Zengez/mathThm/actions/workflows/pages.yml on main.
-- Intended site URL: https://zengez.github.io/mathThm/ — **not yet verified live**. Do not claim publication succeeded before a green deployment.
+- Intended site URL: https://zengez.github.io/mathThm/ — **deployment reported successful** by GitHub Actions; end-to-end live-browser visual testing is still outstanding.
 
 ## Tests/next review tasks
 
-1. Once the owner enables Pages, check latest workflow run and deployed URL; inspect if the bundled mathDef snapshot is included.
+1. GitHub Pages is enabled and latest tested deployment succeeded; independently exercise the live URL and verify the bundled mathDef snapshot in browser.
 2. Test literal and normalized searches, tags, AND vs blank-side behavior, compact/full at 10 results, one-result-per-theorem, Heine–Borel equivalence direction.
 3. Check mathDef in-page expansion of "compact", "continuous", and other terms, nested paths and cycle protection, and source/proof links. Confirm mobile/desktop style resembles mathDef. Automated tests do not substitute for browser testing.
 4. Fix discovered issues, update tests and checkpoint, then seek user prototype feedback and approval before starting any bulk acquisition.

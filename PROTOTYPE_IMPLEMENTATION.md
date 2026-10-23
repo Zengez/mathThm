@@ -40,11 +40,11 @@ The build fetches mathDef's production manifest and snapshot as documented at ht
 
 When a bundled snapshot is unavailable, browser code tries the live public mathDef feed. Without either, the theorem search remains usable but definition expansion is disabled with a clear notice. The nightly GitHub Actions schedule refreshes the production snapshot regularly; downloading the full snapshot on each scheduled runner build is deliberately simple for now. Content-hash-aware cross-run caching is deferred.
 
-## Initial publication is blocked by repository Pages settings
+## Historical publication blocker (now resolved)
 
 On October 23, 2026 the first workflow run passed JavaScript syntax, Node search tests, Python corpus tests, static build, SHA-256 verification of mathDef data, and artifact presence checks. It failed at actions/configure-pages because this new repository does not have GitHub Pages enabled. An automatic enablement attempt also failed: GitHub said **Resource not accessible by integration**.
 
-**Manual owner setup:**
+**Historical owner setup instructions (already resolved; no action needed unless Pages is disabled again):**
 
 1. Visit https://github.com/Zengez/mathThm/settings/pages
 2. Under **Build and deployment → Source**, select **GitHub Actions** (save if prompted).
@@ -52,7 +52,7 @@ On October 23, 2026 the first workflow run passed JavaScript syntax, Node search
 4. Choose **Run workflow**, on branch main.
 5. Confirm the Pages deployment succeeds, then view https://zengez.github.io/mathThm/
 
-Do not report the website as publicly live until the Pages workflow actually succeeds.
+**Update:** GitHub Pages is now enabled. The full test and deployment workflow succeeded: https://github.com/Zengez/mathThm/actions/runs/39978765020 . Intended live website: https://zengez.github.io/mathThm/ . Browser-level visual and interaction testing remains outstanding.
 
 ## Known limitations and next decision gate
 

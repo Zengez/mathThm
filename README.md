@@ -1,6 +1,6 @@
 # mathThm — mathematical theorems and proven results
 
-**Current status (2026-10-23): the 20-result theorem prototype, search interface, proof links, mathDef snapshot consumer and GitHub Actions workflow are implemented.** Automated build/tests passed, including a verified mathDef snapshot containing 1,014 definitions. **Public deployment still requires the repository owner to enable GitHub Pages**, as described in [PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md). Mathematical statements/proofs are NOT rigorously verified.
+**Current status (2026-10-23): the 20-result theorem prototype, search interface, proof links, mathDef snapshot consumer and GitHub Actions workflow are implemented.** Automated build/tests passed, including a verified mathDef snapshot containing 1,014 definitions. **GitHub Pages is enabled and deployed successfully**, with the initial live URL at https://zengez.github.io/mathThm/ . See [PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md) for testing and current limitations. Mathematical statements/proofs are NOT rigorously verified.
 
 mathThm is a companion to [mathDef](https://github.com/Zengez/mathDef). Its goal is a searchable, source-attributed collection of mathematical results, with separate searches for hypotheses and conclusions and contextual, expandable definitions provided by mathDef.
 
@@ -21,4 +21,4 @@ The projects are to share a recognizable visual identity, but mathThm will requi
 
 ## Current implementation / next decision gate
 
-The user subsequently explicitly authorized building the prototype. The present code, dataset, workflow and checks are described in [PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md). The next step is for the owner to enable Pages, run the publication workflow, and review the live interface. Bulk theorem collection and deep proof auditing remain deferred until the user approves proceeding.
+The user subsequently explicitly authorized building the prototype. The present code, dataset, workflow and checks are described in [PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md). GitHub Pages setup is complete and publication succeeded (workflow run 39978765020); the next step is to review the live interface. Bulk theorem collection and deep proof auditing remain deferred until the user approves proceeding.
