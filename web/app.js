@@ -81,7 +81,9 @@
   }
   function appendDefinition(target,id,path=[]){
     if(path.includes(id)||path.length>=8)return;
-    const existing=target.nextElementSibling;
+    // Insert beneath the containing paragraph (or dependency controls), not mid-sentence.
+    const host=target.closest("p") || target.closest(".def-dependencies") || target;
+    const existing=host.nextElementSibling;
     if(existing?.classList.contains("definition-insert")){
       existing.remove();target.setAttribute("aria-expanded","false");
       if(existing.dataset.definitionId===id)return;
@@ -106,7 +108,7 @@
         el.append(wrap);
       }
     }
-    target.after(el);target.setAttribute("aria-expanded","true");math(el);
+    host.after(el);target.setAttribute("aria-expanded","true");math(el);
   }
   async function json(url){
     const response=await fetch(url,{cache:"no-cache"});
