@@ -8,7 +8,8 @@
     delimiters:[{left:"$$",right:"$$",display:true},{left:"\\[",right:"\\]",display:true},
       {left:"\\(",right:"\\)",display:false},{left:"$",right:"$",display:false}],throwOnError:false,strict:"ignore"})};
   const splitMath=s=>String(s).split(/(\$\$[\s\S]*?\$\$|\$[^$]*\$|\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\])/g);
-  const regexFor=label=>new RegExp("(^|[^\\p{L}\\p{N}_])("+label.replace(/[.*+?^\x24{}()|[\]\\]/g,"\\  let labels=[];")+")(?=$|[^\\p{L}\\p{N}_])","giu");
+  const escapeRE=label=>[...label].map(c=>"\\^$.*+?()[]{}|".includes(c)?"\\"+c:c).join("");
+  const regexFor=label=>new RegExp("(^|[^\\p{L}\\p{N}_])("+escapeRE(label)+")(?=$|[^\\p{L}\\p{N}_])","giu");
   let labels=[];
   function rebuildLabels(){
     labels=[];
