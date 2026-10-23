@@ -1,3 +1,39 @@
+# Current work checkpoint — October 23, 2026
+
+**Phase:** 1 — first prototype implemented and checks passing; GitHub Pages activation awaits owner action.  
+**Next authorized action:** Enable Pages under Settings → Pages → Source: GitHub Actions, manually run the Publish mathThm workflow, test live site usability and refine the prototype with the user. **Do not begin aggressive collection or mathematical proof audits without further authorization.**
+
+## Implemented
+
+- 20 genuine, source-attributed, cursory-screened mathematical results in data/theorems.json, across nine subject labels. Each contains a source/proof URL and explicit unverified status; no deep mathematical correctness claims.
+- mathDef-themed website (web/index.html and styles.css), two side-specific searches joined by AND, blank-side unrestricted, lemma/theorem/proposition-ready record structure, proof links, term definitions expandable in page.
+- web/search-core.js: conservative inflection/alias handling, side-specific tags, equivalence indexing, and 10-result compact/full cutoff.
+- web/app.js: theorem cards, full/compact controls, source/proof links, mathematical rendering and recursive mathDef expansion.
+- scripts/build_site.py: builds _site and verifies/publicly bundles the mathDef **production** snapshot. In its first CI build, it successfully bundled 1,014 mathDef definitions. Independent Wave 1/2 mathDef experimental data remains separate and untouched.
+- tests/test_data.py and tests/test_search.cjs; GitHub workflow .github/workflows/pages.yml executes them on main, manually, and on a nightly schedule.
+- PROTOTYPE_IMPLEMENTATION.md records implementation, corpus and setup/limitations.
+
+## Verified GitHub Actions results
+
+- Initial build: https://github.com/Zengez/mathThm/actions/runs/39977407748 — **all script syntax, Node search, Python data, build, SHA-256 snapshot, output-file steps passed**; configure-pages failed because GitHub Pages was not enabled.
+- Automatic Pages enablement attempt: https://github.com/Zengez/mathThm/actions/runs/39977542990 — build steps passed; configure-pages failed with **"Resource not accessible by integration"**, requiring owner activation in repository settings.
+- Repo owner should go to https://github.com/Zengez/mathThm/settings/pages and select **GitHub Actions** under Build and deployment → Source, then run https://github.com/Zengez/mathThm/actions/workflows/pages.yml on main.
+- Intended site URL: https://zengez.github.io/mathThm/ — **not yet verified live**. Do not claim publication succeeded before a green deployment.
+
+## Tests/next review tasks
+
+1. Once the owner enables Pages, check latest workflow run and deployed URL; inspect if the bundled mathDef snapshot is included.
+2. Test literal and normalized searches, tags, AND vs blank-side behavior, compact/full at 10 results, one-result-per-theorem, Heine–Borel equivalence direction.
+3. Check mathDef in-page expansion of "compact", "continuous", and other terms, nested paths and cycle protection, and source/proof links. Confirm mobile/desktop style resembles mathDef. Automated tests do not substitute for browser testing.
+4. Fix discovered issues, update tests and checkpoint, then seek user prototype feedback and approval before starting any bulk acquisition.
+5. Keep FUTURE_FEATURES.md deferred; write a distinct resumable collection pipeline only when approved.
+
+**Mathematical and provenance caveats:** The 20 sources were assessed solely for the existence of a superficially completed accessible proof. Statement wording is flagged as condensed/restated with original source links; formal equivalence, correctness and proof reasoning were NOT audited. Some source pages explicitly warn that they need mathematical proofreading.
+
+---
+
+## Historical Phase 0 checkpoint (superseded below)
+
 # mathThm — durable work checkpoint / resume instructions
 
 **Checkpoint date:** 2026-10-23  

@@ -3,8 +3,8 @@
 **Established:** 2026-10-23  
 **Repository:** https://github.com/Zengez/mathThm  
 **Companion repository:** https://github.com/Zengez/mathDef  
-**Document status:** planning contract, not a report of implemented functionality.  
-**Implementation authorization as of this entry:** documentation only. The user expressly requested that no prototype or collection work begin yet.
+**Document status:** original planning contract. For the current implementation state see [WORK_CHECKPOINT.md](WORK_CHECKPOINT.md) and [PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md).  
+**Historical authorization when first written:** documentation only. The user subsequently authorized Phase 1 prototype implementation on 2026-10-23. Do not interpret this older planning note as the current status; read WORK_CHECKPOINT.md.
 
 This document reconstructs the decisions from the design discussions that preceded implementation. A new chat should read this document, WORK_CHECKPOINT.md, and FUTURE_FEATURES.md before making changes. Where this document calls something a **decision**, treat it as settled unless the user changes it. Where it calls something a **recommendation**, **proposal**, or **deferred choice**, use engineering judgment or discuss if material. Do not silently expand scope.
 
@@ -284,4 +284,4 @@ When resuming in a new chat:
 4. Restate what is built versus only planned, and what the user has authorized next.
 5. Continue from the last durable checkpoint. Before stopping, update the checkpoint with file paths, tests, pending actions, and explicit next step.
 
-**As of this document's creation:** no mathThm implementation has been authorized or begun. The only authorized repository change is the creation of planning/handoff documents.
+**Historical note:** when this plan was first written, only documentation was authorized. Phase 1 implementation was subsequently authorized and begun. See WORK_CHECKPOINT.md.
