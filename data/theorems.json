@@ -1,0 +1,772 @@
+{
+  "schema": "maththm.theorems.v1",
+  "scope": "demonstration draft, NOT mathematical verification",
+  "total": 20,
+  "records": [
+    {
+      "id": "thm.topology.continuous-compact-image",
+      "title": "Continuous image of a compact space",
+      "area": "Topology",
+      "hypotheses": [
+        "$X,Y$ are topological spaces; $X$ is compact.",
+        "$f:X\\to Y$ is continuous."
+      ],
+      "conclusions": [
+        "The image $f(X)$ is compact."
+      ],
+      "hypothesis_tags": [
+        "compactness",
+        "compact",
+        "continuous",
+        "topological space"
+      ],
+      "conclusion_tags": [
+        "compactness",
+        "compact image",
+        "continuous invariant"
+      ],
+      "statement": "Assume $X,Y$ are topological spaces; $X$ is compact. $f:X\\to Y$ is continuous.\n\nThen The image $f(X)$ is compact.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Continuous_Image_of_Compact_Space_is_Compact",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Continuous_Image_of_Compact_Space_is_Compact",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": [
+        [
+          "compact",
+          "topology.compactness"
+        ],
+        [
+          "continuous",
+          "topology.continuity"
+        ]
+      ]
+    },
+    {
+      "id": "thm.topology.closed-compact-subspace",
+      "title": "Closed subspace of a compact space",
+      "area": "Topology",
+      "hypotheses": [
+        "$X$ is a compact topological space.",
+        "$F\\subseteq X$ is closed."
+      ],
+      "conclusions": [
+        "The subspace $F$ is compact."
+      ],
+      "hypothesis_tags": [
+        "compactness",
+        "closed subset",
+        "topological space"
+      ],
+      "conclusion_tags": [
+        "compactness",
+        "compact subspace"
+      ],
+      "statement": "Assume $X$ is a compact topological space. $F\\subseteq X$ is closed.\n\nThen The subspace $F$ is compact.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Closed_Subspace_of_Compact_Space_is_Compact",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Closed_Subspace_of_Compact_Space_is_Compact",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": [
+        [
+          "compact",
+          "topology.compactness"
+        ],
+        [
+          "closed",
+          "topology.closed-set"
+        ]
+      ]
+    },
+    {
+      "id": "thm.topology.continuous-connected-image",
+      "title": "Continuous image of a connected space",
+      "area": "Topology",
+      "hypotheses": [
+        "$X,Y$ are topological spaces.",
+        "$A\\subseteq X$ is connected.",
+        "$f:X\\to Y$ is continuous."
+      ],
+      "conclusions": [
+        "$f(A)$ is connected."
+      ],
+      "hypothesis_tags": [
+        "connectedness",
+        "continuous function",
+        "topology"
+      ],
+      "conclusion_tags": [
+        "connectedness",
+        "connected image"
+      ],
+      "statement": "Assume $X,Y$ are topological spaces. $A\\subseteq X$ is connected. $f:X\\to Y$ is continuous.\n\nThen $f(A)$ is connected.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Continuous_Image_of_Connected_Space_is_Connected/Proof_2",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Continuous_Image_of_Connected_Space_is_Connected/Proof_2",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": [
+        [
+          "connected",
+          "topology.connected-space"
+        ],
+        [
+          "continuous",
+          "topology.continuity"
+        ]
+      ]
+    },
+    {
+      "id": "thm.analysis.heine-cantor",
+      "title": "Heine–Cantor theorem",
+      "area": "Analysis",
+      "hypotheses": [
+        "$X$ is a compact metric space.",
+        "$Y$ is a metric space.",
+        "$f:X\\to Y$ is continuous."
+      ],
+      "conclusions": [
+        "$f$ is uniformly continuous."
+      ],
+      "hypothesis_tags": [
+        "compactness",
+        "compact metric space",
+        "continuity"
+      ],
+      "conclusion_tags": [
+        "uniform continuity",
+        "uniformly continuous"
+      ],
+      "statement": "Assume $X$ is a compact metric space. $Y$ is a metric space. $f:X\\to Y$ is continuous.\n\nThen $f$ is uniformly continuous.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Heine-Cantor_Theorem",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Heine-Cantor_Theorem",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": [
+        [
+          "compact",
+          "topology.compactness"
+        ]
+      ]
+    },
+    {
+      "id": "thm.topology.heine-borel",
+      "title": "Heine–Borel theorem",
+      "area": "Topology",
+      "hypotheses": [
+        "$K$ is a subset of Euclidean space $\\mathbb R^n$, with $n\\ge1$."
+      ],
+      "conclusions": [
+        "$K$ is compact if and only if $K$ is closed and bounded."
+      ],
+      "hypothesis_tags": [
+        "euclidean space",
+        "compact",
+        "closed",
+        "bounded"
+      ],
+      "conclusion_tags": [
+        "compactness",
+        "closed bounded",
+        "equivalence"
+      ],
+      "statement": "Assume $K$ is a subset of Euclidean space $\\mathbb R^n$, with $n\\ge1$.\n\nThen $K$ is compact if and only if $K$ is closed and bounded.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Heine-Borel_Theorem/Euclidean_Space",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Heine-Borel_Theorem/Euclidean_Space",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": [
+        [
+          "compact",
+          "topology.compactness"
+        ],
+        [
+          "closed",
+          "topology.closed-set"
+        ]
+      ],
+      "equivalence_sides": [
+        [
+          "closed",
+          "bounded"
+        ],
+        [
+          "compact"
+        ]
+      ],
+      "proofs_additional": [
+        "https://proofwiki.org/wiki/Heine-Borel_Theorem/Euclidean_Space/Necessary_Condition"
+      ]
+    },
+    {
+      "id": "thm.analysis.intermediate-value",
+      "title": "Intermediate value theorem",
+      "area": "Analysis",
+      "hypotheses": [
+        "$f:[a,b]\\to\\mathbb R$ is continuous.",
+        "$u$ lies between $f(a)$ and $f(b)$."
+      ],
+      "conclusions": [
+        "There exists $c\\in[a,b]$ with $f(c)=u$ (and $c\\in(a,b)$ if $u$ lies strictly between the endpoint values)."
+      ],
+      "hypothesis_tags": [
+        "continuity",
+        "continuous function",
+        "interval"
+      ],
+      "conclusion_tags": [
+        "intermediate value",
+        "existence",
+        "root",
+        "image interval"
+      ],
+      "statement": "Assume $f:[a,b]\\to\\mathbb R$ is continuous. $u$ lies between $f(a)$ and $f(b)$.\n\nThen There exists $c\\in[a,b]$ with $f(c)=u$ (and $c\\in(a,b)$ if $u$ lies strictly between the endpoint values).",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Intermediate_Value_Theorem",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Intermediate_Value_Theorem",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": [
+        [
+          "continuous",
+          "topology.continuity"
+        ]
+      ]
+    },
+    {
+      "id": "thm.analysis.extreme-value",
+      "title": "Extreme value theorem",
+      "area": "Analysis",
+      "hypotheses": [
+        "$K$ is a nonempty compact metric space.",
+        "$f:K\\to\\mathbb R$ is continuous."
+      ],
+      "conclusions": [
+        "There exist $x_{\\min},x_{\\max}\\in K$ with $f(x_{\\min})\\le f(x)\\le f(x_{\\max})$ for every $x\\in K$."
+      ],
+      "hypothesis_tags": [
+        "compactness",
+        "nonempty",
+        "continuous"
+      ],
+      "conclusion_tags": [
+        "maximum",
+        "minimum",
+        "extreme value",
+        "bounded",
+        "optimization"
+      ],
+      "statement": "Assume $K$ is a nonempty compact metric space. $f:K\\to\\mathbb R$ is continuous.\n\nThen There exist $x_{\\min},x_{\\max}\\in K$ with $f(x_{\\min})\\le f(x)\\le f(x_{\\max})$ for every $x\\in K$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Extreme_Value_Theorem",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Extreme_Value_Theorem",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": [
+        [
+          "compact",
+          "topology.compactness"
+        ],
+        [
+          "continuous",
+          "topology.continuity"
+        ]
+      ]
+    },
+    {
+      "id": "thm.analysis.rolle",
+      "title": "Rolle's theorem",
+      "area": "Calculus",
+      "hypotheses": [
+        "$a<b$; $f$ is continuous on $[a,b]$ and differentiable on $(a,b)$.",
+        "$f(a)=f(b)$."
+      ],
+      "conclusions": [
+        "There exists $c\\in(a,b)$ such that $f'(c)=0$."
+      ],
+      "hypothesis_tags": [
+        "continuous",
+        "differentiable",
+        "equal endpoint"
+      ],
+      "conclusion_tags": [
+        "zero derivative",
+        "stationary point",
+        "existence"
+      ],
+      "statement": "Assume $a<b$; $f$ is continuous on $[a,b]$ and differentiable on $(a,b)$. $f(a)=f(b)$.\n\nThen There exists $c\\in(a,b)$ such that $f'(c)=0$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Rolle%27s_Theorem",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Rolle%27s_Theorem",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.analysis.mean-value",
+      "title": "Mean value theorem",
+      "area": "Calculus",
+      "hypotheses": [
+        "$a<b$; $f$ is continuous on $[a,b]$ and differentiable on $(a,b)$."
+      ],
+      "conclusions": [
+        "For some $c\\in(a,b)$, $f'(c)=\\frac{f(b)-f(a)}{b-a}$."
+      ],
+      "hypothesis_tags": [
+        "continuity",
+        "differentiability",
+        "interval"
+      ],
+      "conclusion_tags": [
+        "derivative",
+        "average rate of change",
+        "secant slope"
+      ],
+      "statement": "Assume $a<b$; $f$ is continuous on $[a,b]$ and differentiable on $(a,b)$.\n\nThen For some $c\\in(a,b)$, $f'(c)=\\frac{f(b)-f(a)}{b-a}$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Mean_Value_Theorem/Proof_1",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Mean_Value_Theorem/Proof_1",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.analysis.bolzano-weierstrass",
+      "title": "Bolzano–Weierstrass theorem",
+      "area": "Analysis",
+      "hypotheses": [
+        "$(x_n)$ is a bounded sequence of real numbers."
+      ],
+      "conclusions": [
+        "There is a convergent subsequence $(x_{n_k})$."
+      ],
+      "hypothesis_tags": [
+        "bounded",
+        "real sequence"
+      ],
+      "conclusion_tags": [
+        "convergent subsequence",
+        "sequential compactness",
+        "convergence"
+      ],
+      "statement": "Assume $(x_n)$ is a bounded sequence of real numbers.\n\nThen There is a convergent subsequence $(x_{n_k})$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Bolzano-Weierstrass_Theorem",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Bolzano-Weierstrass_Theorem",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.analysis.banach-fixed-point",
+      "title": "Banach fixed-point theorem",
+      "area": "Analysis",
+      "hypotheses": [
+        "$(X,d)$ is a nonempty complete metric space.",
+        "$f:X\\to X$ is a contraction: for some $0\\le q<1$, $d(f(x),f(y))\\le qd(x,y)$ for all $x,y\\in X$."
+      ],
+      "conclusions": [
+        "$f$ has exactly one fixed point. Iteration of $f$ from any starting point converges to it."
+      ],
+      "hypothesis_tags": [
+        "completeness",
+        "complete metric",
+        "contraction mapping"
+      ],
+      "conclusion_tags": [
+        "fixed point",
+        "unique",
+        "iteration",
+        "convergence"
+      ],
+      "statement": "Assume $(X,d)$ is a nonempty complete metric space. $f:X\\to X$ is a contraction: for some $0\\le q<1$, $d(f(x),f(y))\\le qd(x,y)$ for all $x,y\\in X$.\n\nThen $f$ has exactly one fixed point. Iteration of $f$ from any starting point converges to it.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Banach_Fixed-Point_Theorem",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Banach_Fixed-Point_Theorem",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.linear.rank-nullity",
+      "title": "Rank–nullity theorem",
+      "area": "Linear algebra",
+      "hypotheses": [
+        "$V$ is a finite-dimensional vector space and $W$ a vector space over the same field.",
+        "$T:V\\to W$ is linear."
+      ],
+      "conclusions": [
+        "$\\dim(\\ker T)+\\dim(\\operatorname{im}T)=\\dim V$."
+      ],
+      "hypothesis_tags": [
+        "linear map",
+        "finite dimensional",
+        "vector space"
+      ],
+      "conclusion_tags": [
+        "rank",
+        "nullity",
+        "dimension",
+        "kernel",
+        "image"
+      ],
+      "statement": "Assume $V$ is a finite-dimensional vector space and $W$ a vector space over the same field. $T:V\\to W$ is linear.\n\nThen $\\dim(\\ker T)+\\dim(\\operatorname{im}T)=\\dim V$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Rank_Plus_Nullity_Theorem",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Rank_Plus_Nullity_Theorem",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.algebra.lagrange-group",
+      "title": "Lagrange's theorem (groups)",
+      "area": "Algebra",
+      "hypotheses": [
+        "$G$ is a finite group.",
+        "$H\\le G$ is a subgroup."
+      ],
+      "conclusions": [
+        "$|H|$ divides $|G|$, and $[G:H]=|G|/|H|$."
+      ],
+      "hypothesis_tags": [
+        "finite group",
+        "subgroup"
+      ],
+      "conclusion_tags": [
+        "group order",
+        "divisibility",
+        "index",
+        "cosets"
+      ],
+      "statement": "Assume $G$ is a finite group. $H\\le G$ is a subgroup.\n\nThen $|H|$ divides $|G|$, and $[G:H]=|G|/|H|$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Lagrange%27s_Theorem_%28Group_Theory%29/Proof_1",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Lagrange%27s_Theorem_%28Group_Theory%29/Proof_1",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.algebra.orbit-stabilizer",
+      "title": "Orbit–stabilizer theorem",
+      "area": "Algebra",
+      "hypotheses": [
+        "A finite group $G$ acts on a finite set $X$.",
+        "Fix $x\\in X$."
+      ],
+      "conclusions": [
+        "$|\\operatorname{Orb}_G(x)|=[G:\\operatorname{Stab}_G(x)]=|G|/|\\operatorname{Stab}_G(x)|$."
+      ],
+      "hypothesis_tags": [
+        "group action",
+        "finite group",
+        "orbit",
+        "stabilizer"
+      ],
+      "conclusion_tags": [
+        "orbit",
+        "orbit cardinality",
+        "stabilizer",
+        "cosets"
+      ],
+      "statement": "Assume A finite group $G$ acts on a finite set $X$. Fix $x\\in X$.\n\nThen $|\\operatorname{Orb}_G(x)|=[G:\\operatorname{Stab}_G(x)]=|G|/|\\operatorname{Stab}_G(x)|$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Orbit-Stabilizer_Theorem/Proof_1",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Orbit-Stabilizer_Theorem/Proof_1",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.number.fermat-little",
+      "title": "Fermat's little theorem",
+      "area": "Number theory",
+      "hypotheses": [
+        "$p$ is prime.",
+        "$a$ is an integer and $p\\nmid a$."
+      ],
+      "conclusions": [
+        "$a^{p-1}\\equiv1\\pmod p$."
+      ],
+      "hypothesis_tags": [
+        "prime",
+        "coprime",
+        "integer"
+      ],
+      "conclusion_tags": [
+        "modular arithmetic",
+        "congruence",
+        "exponent"
+      ],
+      "statement": "Assume $p$ is prime. $a$ is an integer and $p\\nmid a$.\n\nThen $a^{p-1}\\equiv1\\pmod p$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Fermat%27s_Little_Theorem/Proof_1",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Fermat%27s_Little_Theorem/Proof_1",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.sets.cantor",
+      "title": "Cantor's theorem",
+      "area": "Set theory",
+      "hypotheses": [
+        "$S$ is a set."
+      ],
+      "conclusions": [
+        "There is no surjection $S\\to\\mathcal P(S)$; in particular $|S|<|\\mathcal P(S)|$."
+      ],
+      "hypothesis_tags": [
+        "set",
+        "mapping"
+      ],
+      "conclusion_tags": [
+        "power set",
+        "cardinality",
+        "surjection",
+        "uncountability"
+      ],
+      "statement": "Assume $S$ is a set.\n\nThen There is no surjection $S\\to\\mathcal P(S)$; in particular $|S|<|\\mathcal P(S)|$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Cantor%27s_Theorem",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Cantor%27s_Theorem",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.probability.bayes",
+      "title": "Bayes' theorem",
+      "area": "Probability",
+      "hypotheses": [
+        "$A,B$ are events in a probability space with $P(A)>0$ and $P(B)>0$."
+      ],
+      "conclusions": [
+        "$P(B\\mid A)=\\frac{P(A\\mid B)P(B)}{P(A)}$."
+      ],
+      "hypothesis_tags": [
+        "probability",
+        "conditional probability",
+        "positive probability"
+      ],
+      "conclusion_tags": [
+        "conditional probability",
+        "posterior",
+        "bayes formula"
+      ],
+      "statement": "Assume $A,B$ are events in a probability space with $P(A)>0$ and $P(B)>0$.\n\nThen $P(B\\mid A)=\\frac{P(A\\mid B)P(B)}{P(A)}$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Bayes%27_Theorem",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Bayes%27_Theorem",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.combin.pigeonhole",
+      "title": "Pigeonhole principle",
+      "area": "Combinatorics",
+      "hypotheses": [
+        "$n$ distinct objects are partitioned among $k$ classes with integers $0<k<n$."
+      ],
+      "conclusions": [
+        "Some class contains at least two objects."
+      ],
+      "hypothesis_tags": [
+        "finite set",
+        "partition",
+        "more objects than boxes"
+      ],
+      "conclusion_tags": [
+        "repeated class",
+        "collision",
+        "pigeonhole"
+      ],
+      "statement": "Assume $n$ distinct objects are partitioned among $k$ classes with integers $0<k<n$.\n\nThen Some class contains at least two objects.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Pigeon-Hole_Principle",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Pigeon-Hole_Principle",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.analysis.cauchy-inequality",
+      "title": "Cauchy's inequality (real sequences)",
+      "area": "Analysis",
+      "hypotheses": [
+        "$r_1,\\ldots,r_n$ and $s_1,\\ldots,s_n$ are finite real sequences."
+      ],
+      "conclusions": [
+        "$\\bigl(\\sum_{i=1}^n r_i s_i\\bigr)^2\\le\\bigl(\\sum_{i=1}^n r_i^2\\bigr)\\bigl(\\sum_{i=1}^n s_i^2\\bigr)$."
+      ],
+      "hypothesis_tags": [
+        "real numbers",
+        "finite sequence"
+      ],
+      "conclusion_tags": [
+        "cauchy schwarz",
+        "inequality",
+        "inner product"
+      ],
+      "statement": "Assume $r_1,\\ldots,r_n$ and $s_1,\\ldots,s_n$ are finite real sequences.\n\nThen $\\bigl(\\sum_{i=1}^n r_i s_i\\bigr)^2\\le\\bigl(\\sum_{i=1}^n r_i^2\\bigr)\\bigl(\\sum_{i=1}^n s_i^2\\bigr)$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Cauchy%27s_Inequality",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Cauchy%27s_Inequality",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    },
+    {
+      "id": "thm.analysis.triangle-inequality",
+      "title": "Triangle inequality for real numbers",
+      "area": "Analysis",
+      "hypotheses": [
+        "$x,y$ are real numbers."
+      ],
+      "conclusions": [
+        "$|x+y|\\le|x|+|y|$."
+      ],
+      "hypothesis_tags": [
+        "real",
+        "absolute value"
+      ],
+      "conclusion_tags": [
+        "triangle inequality",
+        "bound",
+        "absolute value"
+      ],
+      "statement": "Assume $x,y$ are real numbers.\n\nThen $|x+y|\\le|x|+|y|$.",
+      "statement_editorial": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited.",
+      "source_url": "https://proofwiki.org/wiki/Triangle_Inequality/Real_Numbers",
+      "proofs": [
+        {
+          "url": "https://proofwiki.org/wiki/Triangle_Inequality/Real_Numbers",
+          "locator": "Proof section",
+          "screening": "cursory_screened",
+          "accessed_on": "2026-10-23"
+        }
+      ],
+      "review_status": "cursory_screened_unverified",
+      "link_hints": []
+    }
+  ]
+}
