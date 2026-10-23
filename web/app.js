@@ -1,7 +1,7 @@
 "use strict";
 (() => {
   const $=id=>document.getElementById(id), core=window.MathThmSearch;
-  const state={records:[],mode:"auto",expanded:new Set(),defs:new Map()};
+  const state={records:[],mode:"auto",expanded:new Set(),defs:new Map(),fullHtmlCache:new Map()};
   const esc=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const href=u=>/^https:\/\//i.test(String(u))?esc(u):"#";
   const math=root=>{if(window.renderMathInElement)window.renderMathInElement(root,{
@@ -20,6 +20,7 @@
     }
     for(const [label,ids] of index)if(ids.size===1)labels.push({label,id:[...ids][0]});
     labels.sort((a,b)=>b.label.length-a.label.length);
+    for(const c of labels)c.regex=new RegExp("(^|[^\\p{L}\\p{N}_])("+c.label.replace(/[.*+?^\x24{}()|[\]\\]/g,"\\    labels.sort((a,b)=>b.label.length-a.label.length);")+")(?=$|[^\\p{L}\\p{N}_])","giu");
   }
   function linkified(text,theorem){
     const hints=(theorem?.link_hints||[]).filter(h=>Array.isArray(h)&&state.defs.has(h[1]))
@@ -30,7 +31,8 @@
       if(/^(?:\$|\\\(|\\\[)/.test(part))return esc(part);
       const chosen=[];
       for(const c of candidates){
-        const regex=new RegExp("(^|[^\\p{L}\\p{N}_])("+c.label.replace(/[.*+?^\x24{}()|[\]\\]/g,"\\$&")+")(?=$|[^\\p{L}\\p{N}_])","giu");
+        const regex=c.regex || new RegExp("(^|[^\\p{L}\\p{N}_])("+c.label.replace(/[.*+?^\x24{}()|[\]\\]/g,"\\        const regex=new RegExp("(^|[^\\p{L}\\p{N}_])("+c.label.replace(/[.*+?^\x24{}()|[\]\\]/g,"\\$&")+")(?=$|[^\\p{L}\\p{N}_])","giu");")+")(?=$|[^\\p{L}\\p{N}_])","giu");
+        regex.lastIndex=0;
         let m;
         while((m=regex.exec(part))){
           const start=m.index+m[1].length,end=start+m[2].length;
@@ -55,7 +57,7 @@
     const hq=$("hypothesis-query").value.trim(),cq=$("conclusion-query").value.trim();
     const tags=[hq&&hit.hypothesisHit.why==="tag"?"Hypothesis tag: "+hit.hypothesisHit.tag:"",
       cq&&hit.conclusionHit.why==="tag"?"Conclusion tag: "+hit.conclusionHit.tag:""].filter(Boolean);
-    const body=full?'<div class="statement">'+paras(t.statement,t)+'</div>':
+    const body=full?'<div class="statement">'+(state.fullHtmlCache.get(t.id)||(()=>{const h=paras(t.statement,t);state.fullHtmlCache.set(t.id,h);return h;})())+'</div>':
       '<div class="preview-layout"><div class="preview-column"><h5>Hypotheses</h5><p>'+esc(preview(t.hypotheses.join(" ")))+'</p></div>'+
       '<div class="preview-column"><h5>Conclusions</h5><p>'+esc(preview(t.conclusions.join(" ")))+'</p></div></div>';
     const proofs=(t.proofs||[]).map((p,i)=>'<a href="'+href(p.url)+'" target="_blank" rel="noopener noreferrer">Proof '+(i+1)+' ↗</a>').join("");
@@ -125,7 +127,7 @@
       from="live snapshot";
     }catch(_e2){/* Search still works without optional definition service. */}}
     if(Array.isArray(defs?.definitions)&&defs.definitions.length){
-      state.defs=new Map(defs.definitions.map(d=>[d.id,d]));rebuildLabels();
+      state.defs=new Map(defs.definitions.map(d=>[d.id,d]));state.fullHtmlCache.clear();rebuildLabels();
       $("definitions-status").textContent="mathDef definitions loaded ("+state.defs.size+
         "; "+from+"). Click a linked mathematical term to expand its definition here.";render();
     }else $("definitions-status").textContent="mathDef definitions unavailable. Search and proof links work; definition expansion requires the snapshot.";
