@@ -1,0 +1,57 @@
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#20314b;background:#f6f8fc;color-scheme:light}
+*{box-sizing:border-box}body{margin:0}button,input{font:inherit}button{cursor:pointer}a{color:#28619c}a:hover{color:#183c76}
+.shell{max-width:1500px;margin:auto;padding:32px clamp(16px,3vw,44px) 18px}
+.masthead{display:flex;align-items:start;justify-content:space-between;gap:20px;padding-bottom:34px}
+.eyebrow{color:#607fa8;font-size:11px;font-weight:800;letter-spacing:.14em;margin:0 0 9px}
+h1{font-family:Georgia,serif;font-size:clamp(38px,4vw,52px);color:#162741;margin:0;letter-spacing:-.04em;line-height:1.14}
+.logo{color:#4279b6}.subtitle{font-size:14px;color:#647891;max-width:760px;line-height:1.7;margin:13px 0 0}
+.github{flex-shrink:0;background:white;border:1px solid #d5dfec;border-radius:11px;padding:11px 15px;text-decoration:none;color:#40546e;font-size:13px;font-weight:650}
+.research-stage-notice{border:1px solid #d9e4f0;border-radius:11px;background:#eef4fb;color:#56718e;font-size:12px;padding:12px 15px;line-height:1.6;margin:-12px 0 26px}
+.research-stage-notice strong{color:#244e7b}
+.intro{display:flex;justify-content:space-between;gap:14px;align-items:end;margin-bottom:16px}
+.intro h2{font-size:21px;letter-spacing:-.025em;margin:0 0 5px}.intro p{font-size:13px;color:#79899d;margin:0;line-height:1.5}
+.badge{font-size:12px;font-weight:750;color:#3e628b;background:#e7eefb;border-radius:30px;padding:7px 13px;white-space:nowrap}
+.searches{display:grid;grid-template-columns:minmax(0,1fr) 62px minmax(0,1fr);gap:12px;align-items:stretch}
+.search-box{border:1px solid #d8e2ee;border-radius:15px;background:white;padding:17px 19px;box-shadow:0 4px 15px #25477306}
+.search-box label{display:block;font-size:15px;font-weight:770;color:#243b5b}.search-box p{font-size:12px;color:#7e8da2;margin:8px 0 12px;min-height:18px}
+.search-box input{width:100%;padding:12px 14px;border:1px solid #cddbec;border-radius:9px;background:#fbfcff;color:#243854;outline:0}
+.search-box input:focus{border-color:#5b89c3;box-shadow:0 0 0 3px #dceafb}.search-box input::placeholder{color:#a0adbb}
+.column-join{display:flex;align-items:center;justify-content:center;position:relative;color:#3e628b;font-weight:850;letter-spacing:.08em;font-size:12px}
+.column-join:before{content:"";position:absolute;top:8px;bottom:8px;width:1px;background:#cedbea}.column-join span{position:relative;padding:10px 7px;border:1px solid #cbdcf0;border-radius:30px;background:#e7eefb}
+.toolbar{display:flex;align-items:center;gap:12px;margin:22px 0 14px;flex-wrap:wrap}
+#view-hint{font-size:12px;color:#8995a7;flex:1;line-height:1.6}.buttons{display:flex;gap:3px;border-radius:11px;padding:3px;background:#eaf0f8;border:1px solid #d9e2ed}
+.buttons button{background:transparent;border:0;border-radius:8px;padding:9px 12px;font-size:12px;font-weight:750;color:#708198}
+.buttons button.active{background:white;box-shadow:0 1px 5px #18335b1a;color:#275689}
+.subtle-button{background:white;border:1px solid #d5dfec;border-radius:8px;padding:9px 12px;color:#42678d;font-size:12px;font-weight:650}
+button:focus-visible,a:focus-visible{outline:2px solid #4679b4;outline-offset:2px}
+.pane{background:white;border:1px solid #dbe4ee;border-radius:16px;overflow:hidden;min-width:0;box-shadow:0 7px 23px #163c6909}
+.pane-head{display:flex;align-items:center;justify-content:space-between;padding:19px 20px 15px;gap:9px;border-bottom:1px solid #eaf0f6}
+.pane-head small{font-size:10px;font-weight:800;color:#6188b6;letter-spacing:.14em}.pane-head h3{font-size:17px;margin:5px 0 0;letter-spacing:-.02em}
+.result-count{background:#f6f9fc;border:1px solid #e2eaf3;border-radius:20px;padding:5px 9px;color:#70829b;font-size:12px;white-space:nowrap}
+.results-summary{font-size:12px;color:#7b8ea5;padding:11px 21px;background:#fbfcfe;border-bottom:1px solid #edf2f8}
+.theorem-results{padding:16px;display:grid;gap:13px}.theorem-card{border:1px solid #dce6f1;border-radius:13px;background:#fff;padding:19px 20px;overflow:hidden}
+.card-top{display:flex;gap:12px;justify-content:space-between;align-items:start}.subject{color:#5d81ab;font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.theorem-card h4{font-family:Georgia,serif;color:#1c3553;font-size:21px;line-height:1.3;margin:7px 0 10px}
+.proof-status{color:#8797aa;font-size:11px}.statement{font-family:Georgia,"Times New Roman",serif;font-size:16px;color:#394e65;line-height:1.85;overflow-wrap:anywhere;margin:12px 0}
+.statement p{margin:0 0 11px}.statement .katex-display{overflow-x:auto;overflow-y:hidden;padding:5px 0}
+.preview-layout{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.preview-column{background:#f9fbfe;border:1px solid #e9eef5;border-radius:10px;padding:12px}
+.preview-column h5{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:#6385af;margin:0 0 8px}
+.preview-column p{font-size:13px;color:#4d6480;line-height:1.6;margin:0;overflow-wrap:anywhere}
+.tag-hit{display:inline-block;margin-top:8px;font-size:11px;background:#e8f1ff;border-radius:6px;color:#275b8c;padding:4px 7px}
+.card-footer{display:flex;gap:14px;flex-wrap:wrap;align-items:center;border-top:1px solid #edf2f8;padding-top:12px;margin-top:14px}
+.card-footer a,.expand-button{font-size:12px;color:#376898;text-decoration:none;font-weight:650}
+.expand-button{background:#edf4fc;border:1px solid #dce8f5;border-radius:8px;padding:7px 10px}.card-footer a:hover{text-decoration:underline}
+.empty{padding:35px 18px;color:#8493a5;font-size:13px;line-height:1.6;text-align:center}
+.definition-link{border:0;border-bottom:1px dashed #5680ac;background:#eef5fd;color:#225b94;padding:0 3px;font-family:inherit;font-size:inherit;line-height:inherit;border-radius:3px}
+.definition-link:hover{background:#d9eafa}
+.definition-insert{margin:12px 0 15px 18px;padding:13px 15px;border:1px solid #dce6f1;border-radius:10px;background:#f8fbff}
+.definition-insert h5{margin:0 0 8px;color:#305f90;font:750 13px ui-sans-serif,system-ui,sans-serif}
+.definition-insert p{font:15px/1.75 Georgia,serif;color:#3b526b}
+.definition-insert .source{font:650 11px ui-sans-serif,system-ui,sans-serif}
+.def-dependencies{display:flex;flex-wrap:wrap;gap:8px;margin-top:11px}.def-dependencies button{font-size:11px;border:1px solid #d5e5f7;background:#eaf2fd;color:#325f91;border-radius:7px;padding:5px 8px}
+.sync-status{color:#7f8da0;font-size:12px;margin:16px 0}
+.suggest-shortcuts{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:16px}.suggest-shortcuts a{text-decoration:none;font-size:12px;font-weight:700}.suggest-new{padding:9px 13px;background:#eef5fd;border:1px solid #d5e5f6;border-radius:9px;color:#27598e}.suggest-view{color:#6386ad}
+#error{background:#fff0f0;color:#9e2f3b;padding:12px;border-radius:10px}
+footer{color:#8797aa;font-size:12px;margin:32px 0 8px;line-height:1.6}
+@media(max-width:760px){.searches{grid-template-columns:1fr;gap:3px}.column-join{min-height:43px}.column-join:before{top:0;bottom:0}.search-box p{min-height:0}.preview-layout{grid-template-columns:1fr}}
+@media(max-width:600px){.shell{padding-top:22px}.masthead{display:block;padding-bottom:28px}.github{display:inline-block;margin-top:17px}.theorem-results{padding:10px}.theorem-card{padding:14px}.card-top{display:block}.definition-insert{margin-left:8px}.toolbar{align-items:start}}
