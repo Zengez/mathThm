@@ -1,0 +1,50 @@
+name: Publish mathThm
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Rebuild nightly so mathDef definition snapshots can refresh automatically.
+    - cron: '17 5 * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: maththm-pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: https://zengez.github.io/mathThm/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check frontend scripts
+        run: |
+          node --check web/search-core.js
+          node --check web/app.js
+      - name: Test theorem search
+        run: node --test tests/test_search.cjs
+      - name: Validate theorem records
+        run: python -m unittest discover -s tests -v
+      - name: Build site and optionally bundle mathDef definitions
+        run: python scripts/build_site.py
+      - name: Verify generated site
+        run: |
+          test -f _site/index.html
+          test -f _site/theorems.json
+          test -f _site/search-core.js
+          test -f _site/app.js
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
