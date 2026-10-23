@@ -8,6 +8,7 @@
     delimiters:[{left:"$$",right:"$$",display:true},{left:"\\[",right:"\\]",display:true},
       {left:"\\(",right:"\\)",display:false},{left:"$",right:"$",display:false}],throwOnError:false,strict:"ignore"})};
   const splitMath=s=>String(s).split(/(\$\$[\s\S]*?\$\$|\$[^$]*\$|\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\])/g);
+  const regexFor=label=>new RegExp("(^|[^\\p{L}\\p{N}_])("+label.replace(/[.*+?^\x24{}()|[\]\\]/g,"\\  let labels=[];")+")(?=$|[^\\p{L}\\p{N}_])","giu");
   let labels=[];
   function rebuildLabels(){
     labels=[];
@@ -20,7 +21,7 @@
     }
     for(const [label,ids] of index)if(ids.size===1)labels.push({label,id:[...ids][0]});
     labels.sort((a,b)=>b.label.length-a.label.length);
-    for(const c of labels)c.regex=new RegExp("(^|[^\\p{L}\\p{N}_])("+c.label.replace(/[.*+?^\x24{}()|[\]\\]/g,"\\    labels.sort((a,b)=>b.label.length-a.label.length);")+")(?=$|[^\\p{L}\\p{N}_])","giu");
+    for(const c of labels)c.regex=regexFor(c.label);
   }
   function linkified(text,theorem){
     const hints=(theorem?.link_hints||[]).filter(h=>Array.isArray(h)&&state.defs.has(h[1]))
@@ -31,7 +32,7 @@
       if(/^(?:\$|\\\(|\\\[)/.test(part))return esc(part);
       const chosen=[];
       for(const c of candidates){
-        const regex=c.regex || new RegExp("(^|[^\\p{L}\\p{N}_])("+c.label.replace(/[.*+?^\x24{}()|[\]\\]/g,"\\        const regex=new RegExp("(^|[^\\p{L}\\p{N}_])("+c.label.replace(/[.*+?^\x24{}()|[\]\\]/g,"\\$&")+")(?=$|[^\\p{L}\\p{N}_])","giu");")+")(?=$|[^\\p{L}\\p{N}_])","giu");
+        const regex=c.regex || regexFor(c.label);
         regex.lastIndex=0;
         let m;
         while((m=regex.exec(part))){
