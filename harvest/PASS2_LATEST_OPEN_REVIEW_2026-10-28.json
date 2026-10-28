@@ -5,14 +5,6 @@
       "as_in_general": [
         {
           "first_refs": [
-            "lemma-descend-finite-presentation"
-          ],
-          "id": "candidate.stacks.04f0ee68e835190c4c990a4a",
-          "ref_count": 1,
-          "statement": "With notation and assumptions as in\nLemma \\ref{lemma-descend-finite-presentation}.\nLet $i \\in I$.\nSuppose that $\\varphi_i : X_i \\to Y_i$ is a morphism of schemes\nof finite presentation over $S_i$ and that $\\mathcal{F}_i$ is a\nquasi-coherent $\\mathcal{O}_{X_i}$-module of finite presentation.\nIf the pullback of $\\mathcal{F}_i$ to $X_i \\times_{S_i} S$ is flat\nover $Y_i \\times_{S_i} S$, then there exists an index $i' \\geq i$\nsuch that the pullback of $\\mathcal{F}_i$ to $X_i \\times_{S_i} S_{i'}$\nis flat over $Y_i \\times_{S_i} S_{i'}$."
-        },
-        {
-          "first_refs": [
             "equation-towards-constructible-sets"
           ],
           "id": "candidate.stacks.25e6dbdf2e97e34c525179bc",
@@ -119,41 +111,17 @@
           "id": "candidate.stacks.c0438e3c00d848203fea6db2",
           "ref_count": 0,
           "statement": "Let $\\mathcal{I}$ be a cofiltered index category.\nLet $i \\mapsto X_i$ be a diagram of spectral spaces such\nthat for $a : j \\to i$ in $\\mathcal{I}$ the corresponding map\n$f_a : X_j \\to X_i$ is spectral. Set $X = \\lim X_i$ and denote\n$p_i : X \\to X_i$ the projection.\n\\begin{enumerate}\n\\item Given any quasi-compact open $U \\subset X$\nthere exists an $i \\in \\Ob(\\mathcal{I})$ and a quasi-compact open\n$U_i \\subset X_i$ such that $p_i^{-1}(U_i) = U$.\n\\item Given $U_i \\subset X_i$ and $U_j \\subset X_j$\nquasi-compact opens such that $p_i^{-1}(U_i) \\subset p_j^{-1}(U_j)$\nthere exist $k \\in \\Ob(\\mathcal{I})$ and morphisms\n$a : k \\to i$ and $b : k \\to j$ such that $f_a^{-1}(U_i) \\subset f_b^{-1}(U_j)$.\n\\item If $U_i, U_{1, i}, \\ldots, U_{n, i} \\subset X_i$ are quasi-compact\nopens and\n$p_i^{-1}(U_i) = p_i^{-1}(U_{1, i}) \\cup \\ldots \\cup p_i^{-1}(U_{n, i})$\nthen\n$f_a^{-1}(U_i) = f_a^{-1}(U_{1, i}) \\cup \\ldots \\cup f_a^{-1}(U_{n, i})$\nfor some morphis"
+        },
+        {
+          "first_refs": [
+            "lemma-glueing-near-point"
+          ],
+          "id": "candidate.stacks.c164f9b91e57569a78edd63a",
+          "ref_count": 1,
+          "statement": "Notation and assumptions as in Lemma \\ref{lemma-glueing-near-point}.\nLet $U \\subset U' \\subset X$ be an open containing $s$.\n\\begin{enumerate}\n\\item  Let $f' : X \\to U'$ correspond to $f : X' \\to U$ and\n$g : Y \\to \\Spec(\\mathcal{O}_{S, s})$\nvia the equivalence. If $f$ and $g$ are separated, proper, finite, \\'etale,\nthen after possibly shrinking $U'$ the morphism $f'$ has the same property.\n\\item Let $a : X_1 \\to X_2$\nbe a morphism of schemes of finite presentation over $U'$\nwith base change $a' : X'_1 \\to X'_2$ over $U$ and\n$b : Y_1 \\to Y_2$ over $\\Spec(\\mathcal{O}_{S, s})$.\nIf $a'$ and $b$ are separated, proper, finite, \\'etale,\nthen after possibly shrinking $U'$ the morphism $a$ has the same property.\n\\end{enumerate}"
         }
       ],
       "explicit_situation": [
-        {
-          "first_refs": [
-            "situation-descent-property"
-          ],
-          "id": "candidate.stacks.09bb4b67092360209c68eef4",
-          "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is surjective, and\n\\item $f_0$ is locally of finite presentation,\n\\end{enumerate}\nthen there exists an $i \\geq 0$ such that $f_i$ is surjective."
-        },
-        {
-          "first_refs": [
-            "situation-descent-property"
-          ],
-          "id": "candidate.stacks.0aaa49ad5081a4574b572af2",
-          "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is finite locally free (of degree $d$),\n\\item $f_0$ is locally of finite presentation,\n\\end{enumerate}\nthen $f_i$ is finite locally free (of degree $d$) for some $i \\geq 0$."
-        },
-        {
-          "first_refs": [
-            "situation-descent-property"
-          ],
-          "id": "candidate.stacks.0ab44ba99cc44331d48e60ef",
-          "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ has relative dimension $d$, and\n\\item $f_0$ is locally of finite presentation,\n\\end{enumerate}\nthen there exists an $i \\geq 0$ such that $f_i$\nhas relative dimension $d$."
-        },
-        {
-          "first_refs": [
-            "situation-descent-property"
-          ],
-          "id": "candidate.stacks.29ec8e6acd98f5a7d62a18d4",
-          "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is smooth,\n\\item $f_0$ is locally of finite presentation,\n\\end{enumerate}\nthen $f_i$ is smooth for some $i \\geq 0$."
-        },
         {
           "first_refs": [
             "situation-finitely-generated"
@@ -172,14 +140,6 @@
         },
         {
           "first_refs": [
-            "situation-descent-property"
-          ],
-          "id": "candidate.stacks.545063d082b426a8510531f0",
-          "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is an immersion, and\n\\item $f_0$ is locally of finite type,\n\\end{enumerate}\nthen $f_i$ is an immersion for some $i \\geq 0$."
-        },
-        {
-          "first_refs": [
             "situation-descent-property",
             "morphisms-definition-relative-dimension-d"
           ],
@@ -191,57 +151,33 @@
           "first_refs": [
             "situation-descent-property"
           ],
-          "id": "candidate.stacks.5b48969d657d048f912ae4f5",
-          "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf $f$ is separated, then $f_i$ is separated for some $i \\geq 0$."
-        },
-        {
-          "first_refs": [
-            "situation-descent-property"
-          ],
-          "id": "candidate.stacks.67e3071903a22d2caeec448f",
-          "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is flat,\n\\item $f_0$ is locally of finite presentation,\n\\end{enumerate}\nthen $f_i$ is flat for some $i \\geq 0$."
-        },
-        {
-          "first_refs": [
-            "situation-descent-property"
-          ],
-          "id": "candidate.stacks.6a790c686ae25113ef35732e",
-          "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is an open immersion, and\n\\item $f_0$ is locally of finite presentation,\n\\end{enumerate}\nthen $f_i$ is an open immersion for some $i \\geq 0$."
-        },
-        {
-          "first_refs": [
-            "situation-descent-property"
-          ],
-          "id": "candidate.stacks.702b89a680e236ccf6523258",
-          "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is syntomic, and\n\\item $f_0$ is locally of finite presentation,\n\\end{enumerate}\nthen there exists an $i \\geq 0$ such that $f_i$ is syntomic."
-        },
-        {
-          "first_refs": [
-            "situation-descent-property"
-          ],
           "id": "candidate.stacks.7f7be25c4db27d9a0239455f",
           "ref_count": 1,
           "statement": "Assumptions and notation as in Situation \\ref{situation-descent-property}.\nLet $\\mathcal{F}_0$ be a quasi-coherent $\\mathcal{O}_{X_0}$-module.\nDenote $\\mathcal{F}$ and $\\mathcal{F}_i$ the pullbacks of\n$\\mathcal{F}_0$ to $X$ and $X_i$. Assume\n\\begin{enumerate}\n\\item $f_0$ is locally of finite type,\n\\item $\\mathcal{F}_0$ is of finite type,\n\\item the scheme theoretic support of $\\mathcal{F}$ is proper over $Y$.\n\\end{enumerate}\nThen the scheme theoretic support of $\\mathcal{F}_i$ is proper over $Y_i$\nfor some $i$."
         },
         {
           "first_refs": [
-            "situation-descent-property"
+            "situation-descent"
           ],
-          "id": "candidate.stacks.81e2723114af7d141db0b9c3",
+          "id": "candidate.stacks.8a30a5742614d925b89f87fc",
           "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf $f$ is affine, then there exists an index $i \\geq 0$\nsuch that $f_i$ is affine."
+          "statement": "In Situation \\ref{situation-descent}.\n\\begin{enumerate}\n\\item We have $S_{set} = \\lim_i S_{i, set}$ where $S_{set}$\nindicates the underlying set of the scheme $S$.\n\\item We have $S_{top} = \\lim_i S_{i, top}$ where $S_{top}$\nindicates the underlying topological space of the scheme $S$.\n\\item If $s, s' \\in S$ and $s'$ is not a specialization of $s$\nthen for some $i \\in I$ the image $s'_i \\in S_i$ of $s'$ is not\na specialization of the image $s_i \\in S_i$ of $s$.\n\\item Add more easy facts on topology of $S$ here.\n(Requirement: whatever is added should be easy in the affine case.)\n\\end{enumerate}"
         },
         {
           "first_refs": [
             "situation-descent-property"
           ],
-          "id": "candidate.stacks.85e66c42d0fd867bf6bb7b73",
+          "id": "candidate.stacks.c7e0476aef7f638d5e4e9ab9",
           "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is a monomorphism, and\n\\item $f_0$ is locally of finite type,\n\\end{enumerate}\nthen $f_i$ is a monomorphism for some $i \\geq 0$."
+          "statement": "Assumptions and notation as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is proper, and\n\\item $f_0$ is locally of finite type,\n\\end{enumerate}\nthen there exists an $i$ such that $f_i$ is proper."
+        },
+        {
+          "first_refs": [
+            "situation-descent"
+          ],
+          "id": "candidate.stacks.ef6394fe06071c8fd6d51db7",
+          "ref_count": 1,
+          "statement": "In Situation \\ref{situation-descent} we have the following:\n\\begin{enumerate}\n\\item Given any quasi-compact open $V \\subset S = \\lim_i S_i$\nthere exists an $i \\in I$ and a quasi-compact open $V_i \\subset S_i$\nsuch that $f_i^{-1}(V_i) = V$.\n\\item Given $V_i \\subset S_i$ and $V_{i'} \\subset S_{i'}$\nquasi-compact opens such that $f_i^{-1}(V_i) = f_{i'}^{-1}(V_{i'})$\nthere exists an index $i'' \\geq i, i'$ such that\n$f_{i''i}^{-1}(V_i) = f_{i''i'}^{-1}(V_{i'})$.\n\\item If $V_{1, i}, \\ldots, V_{n, i} \\subset S_i$ are quasi-compact\nopens and $S = f_i^{-1}(V_{1, i}) \\cup \\ldots \\cup f_i^{-1}(V_{n, i})$\nthen $S_{i'} = f_{i'i}^{-1}(V_{1, i}) \\cup \\ldots \\cup f_{i'i}^{-1}(V_{n, i})$\nfor some $i' \\geq i$.\n\\end{enumerate}"
         }
       ],
       "lemma_context": [
@@ -442,16 +378,6 @@
         },
         {
           "first_refs": [
-            "lemma-pullback-presheaf-module",
-            "lemma-pushforward-presheaf-module",
-            "lemma-pullback-presheaves"
-          ],
-          "id": "candidate.stacks.cb945fe9b95e97a75085a7f1",
-          "ref_count": 3,
-          "statement": "Let $f : X \\to Y$ be a continuous map of topological spaces.\nLet $\\mathcal{O}$ be a presheaf of rings on $Y$.\nLet $\\mathcal{G}$ be a presheaf of $\\mathcal{O}$-modules.\nLet $\\mathcal{F}$ be a presheaf of $f_p\\mathcal{O}$-modules.\nThen\n$$\n\\Mor_{\\textit{PMod}(f_p\\mathcal{O})}(f_p\\mathcal{G}, \\mathcal{F})\n=\n\\Mor_{\\textit{PMod}(\\mathcal{O})}(\\mathcal{G}, f_*\\mathcal{F}).\n$$\nHere we use\nLemmas \\ref{lemma-pullback-presheaf-module}\nand \\ref{lemma-pushforward-presheaf-module}, and we think of\n$f_*\\mathcal{F}$ as an $\\mathcal{O}$-module via the map\n$i_\\mathcal{O} : \\mathcal{O} \\to f_*f_p\\mathcal{O}$\n(defined first in the proof of Lemma \\ref{lemma-pullback-presheaves})."
-        },
-        {
-          "first_refs": [
             "lemma-f-open",
             "algebra-definition-spectrum-ring"
           ],
@@ -468,25 +394,15 @@
       ]
     },
     "context_groups": {
-      "as_in_general": 19,
-      "explicit_situation": 25,
+      "as_in_general": 18,
+      "explicit_situation": 7,
       "lemma_context": 1,
       "source_internal_diagram": 1,
       "standalone_above": 17,
-      "uncategorized_context": 13
+      "uncategorized_context": 12
     },
     "hard_examples": {
-      "conditional": [
-        {
-          "id": "candidate.stacks.56b488899e5fb52bf732e992",
-          "statement": "Suppose $\\Sch_{fppf}$ is contained in $\\Sch'_{fppf}$.\nLet $S$ be an object of $\\Sch_{fppf}$. Denote\n$\\textit{Spaces}/S$ the category of algebraic spaces over $S$\ndefined using $\\Sch_{fppf}$. Similarly, denote\n$\\textit{Spaces}'/S$ the category of algebraic spaces over $S$\ndefined using $\\Sch'_{fppf}$. The construction of\nLemma \\ref{lemma-change-big-site}\ndefines a fully faithful functor\n$$\n\\textit{Spaces}/S \\longrightarrow \\textit{Spaces}'/S\n$$\nwhose essential image consists of those $X' \\in \\Ob(\\textit{Spaces}'/S)$\nsuch that there exist $U, R \\in \\Ob((\\Sch/S)_{fppf})$\\footnote{Requiring the\nexistence of $R$ is necessary because of our choice of the function $Bound$ in\nSets, Equation (\\ref{sets-equation-bound}). The size of the fibre product\n$U \\times_{X'} U$ can grow faster than $Bound$ in terms of the size of $U$. We\ncan illustrate this by setting $S = \\Spec(A)$, $U = \\Spec(A[x_i, i \\in I])$ and\n$R = \\coprod_{(\\lambda_i) \\in A^I} \\Spec(A[x_i, y_i]/(x_i - \\lambda_i y_i))$.\nIn this case the size of $R$ grows like $\\kappa^\\kappa$ where $\\kappa$ is the\nsize of $U$.} and morphisms\n$$\nU \\longrightarrow X'\n\\quad\\text{and}\\quad\nR \\longrightarrow U \\times_{X'} U\n$$\nin $\\Sh((\\Sch'/S)_{fppf}"
-        }
-      ],
       "enumerate": [
-        {
-          "id": "candidate.stacks.063628acbfbbb1201c26f138",
-          "statement": "Elementary properties of geometrically reduced algebras.\nLet $k$ be a field. Let $S$ be a $k$-algebra.\n\\begin{enumerate}\n\\item If $S$ is geometrically reduced over $k$ so is every\n$k$-subalgebra.\n\\item If all finitely generated $k$-subalgebras of $S$ are\ngeometrically reduced, then $S$ is geometrically reduced.\n\\item A directed colimit of geometrically reduced $k$-algebras\nis geometrically reduced.\n\\item If $S$ is geometrically reduced over $k$, then any localization\nof $S$ is geometrically reduced over $k$.\n\\end{enumerate}"
-        },
         {
           "id": "candidate.stacks.06837e3b3729ddab01e4b31e",
           "statement": "Let $X$ be a spectral space. The following are equivalent:\n\\begin{enumerate}\n\\item $X$ is profinite,\n\\item $X$ is Hausdorff,\n\\item $X$ is totally disconnected,\n\\item every quasi-compact open is closed,\n\\item there are no nontrivial specializations between points,\n\\item every point of $X$ is closed,\n\\item every point of $X$ is the generic point of an irreducible component\nof $X$,\n\\item the constructible topology equals the given topology on $X$, and\n\\item add more here.\n\\end{enumerate}"
@@ -498,10 +414,6 @@
         {
           "id": "candidate.stacks.128c92cdfd0e8671800a4570",
           "statement": "Let $\\mathcal{C}$ be a category.\nThe $(2, 1)$-category of categories\nover $\\mathcal{C}$ has 2-fibre products.\nSuppose that\n$F : \\mathcal{X} \\to \\mathcal{S}$ and\n$G : \\mathcal{Y} \\to \\mathcal{S}$ are morphisms of categories over\n$\\mathcal{C}$.\nAn explicit 2-fibre product\n$\\mathcal{X} \\times_\\mathcal{S}\\mathcal{Y}$ is given by the following\ndescription\n\\begin{enumerate}\n\\item an object of $\\mathcal{X} \\times_\\mathcal{S} \\mathcal{Y}$ is a quadruple\n$(U, x, y, f)$, where $U \\in \\Ob(\\mathcal{C})$,\n$x\\in \\Ob(\\mathcal{X}_U)$, $y\\in \\Ob(\\mathcal{Y}_U)$,\nand $f : F(x) \\to G(y)$ is an isomorphism in $\\mathcal{S}_U$,\n\\item a morphism $(U, x, y, f) \\to (U', x', y', f')$ is given by a pair\n$(a, b)$, where $a : x \\to x'$ is a morphism in $\\mathcal{X}$, and\n$b : y \\to y'$ is a\nmorphism in $\\mathcal{Y}$ such that\n\\begin{enumerate}\n\\item $a$ and $b$ induce the same morphism $U \\to U'$, and\n\\item the diagram\n$$\n\\xymatrix{\nF(x) \\ar[r]^f \\ar[d]^{F(a)} & G(y) \\ar[d]^{G(b)} \\\\\nF(x') \\ar[r]^{f'} & G(y')\n}\n$$\nis commutative.\n\\end{enumerate}\n\\end{enumerate}\nThe functors $p : \\mathcal{X} \\times_\\mathcal{S}\\mathcal{Y} \\to \\mathcal{X}$\nand $q : \\mathcal{X} \\times_\\mathcal{S}\\mathcal{Y} \\to \\mathcal{Y}$ are th"
-        },
-        {
-          "id": "candidate.stacks.146a9a46ca7526b855b3ea8a",
-          "statement": "Exactness and $\\Hom_R$. Let $R$ be a ring. Let $M_1$, $M_2$, $M_3$\nbe $R$-modules. Let $M_1 \\to M_2$ and $M_2 \\to M_3$ be $R$-module maps.\n\\begin{enumerate}\n\\item $M_1 \\to M_2 \\to M_3 \\to 0$ is exact if and only if\n$0 \\to \\Hom_R(M_3, N) \\to \\Hom_R(M_2, N) \\to \\Hom_R(M_1, N)$\nis exact for all $R$-modules $N$.\n\\item $0 \\to M_1 \\to M_2 \\to M_3$ is exact if and only if\n$0 \\to \\Hom_R(N, M_1) \\to \\Hom_R(N, M_2) \\to \\Hom_R(N, M_3)$\nis exact for all $R$-modules $N$.\n\\end{enumerate}"
         },
         {
           "id": "candidate.stacks.1b12ff9bca14ef2be13f6d52",
@@ -562,6 +474,14 @@
         {
           "id": "candidate.stacks.cc464d8f74065305dcc0a9ba",
           "statement": "Let $X$ be a topological space.\nThe following are equivalent\n\\begin{enumerate}\n\\item $X$ is a profinite space, and\n\\item $X$ is Hausdorff, quasi-compact, and totally disconnected.\n\\end{enumerate}\nIf this is true, then $X$ is a cofiltered limit of finite discrete\nspaces."
+        },
+        {
+          "id": "candidate.stacks.cec9d5b9aa4be39165542d56",
+          "statement": "Let $R$ be a ring.\n\\begin{enumerate}\n\\item The spectrum of a ring $R$ is empty if and only if $R$\nis the zero ring.\n\\item Every nonzero ring has a maximal ideal.\n\\item Every nonzero ring has a minimal prime ideal.\n\\item Given an ideal $I \\subset R$ and a prime ideal\n$I \\subset \\mathfrak p$ there exists a prime\n$I \\subset \\mathfrak q \\subset \\mathfrak p$ such\nthat $\\mathfrak q$ is minimal over $I$.\n\\item If $T \\subset R$, and if $(T)$ is the ideal generated by\n$T$ in $R$, then $V((T)) = V(T)$.\n\\item If $I$ is an ideal and $\\sqrt{I}$ is its radical,\nsee basic notion (\\ref{item-radical-ideal}), then $V(I) = V(\\sqrt{I})$.\n\\item Given an ideal $I$ of $R$ we have $\\sqrt{I} =\n\\bigcap_{I \\subset \\mathfrak p} \\mathfrak p$.\n\\item If $I$ is an ideal then $V(I) = \\emptyset$ if and only\nif $I$ is the unit ideal.\n\\item If $I$, $J$ are ideals of $R$ then $V(I) \\cup V(J) =\nV(I \\cap J)$.\n\\item If $(I_a)_{a\\in A}$ is a set of ideals of $R$ then\n$\\bigcap_{a\\in A} V(I_a) = V(\\bigcup_{a\\in A} I_a)$.\n\\item If $f \\in R$, then $D(f) \\amalg V(f) = \\Spec(R)$.\n\\item If $f \\in R$ then $D(f) = \\emptyset$ if and only if $f$\nis nilpotent.\n\\item If $f = u f'$ for some unit $u \\in R$, then $D(f) = D(f')$.\n\\item If"
+        },
+        {
+          "id": "candidate.stacks.e25501f48acb13b55e259625",
+          "statement": "The notions finite type and finite presentation have the following\npermanence properties.\n\\begin{enumerate}\n\\item A composition of ring maps of finite type is of finite type.\n\\item A composition of ring maps of finite presentation is of finite\npresentation.\n\\item Given $R \\to S' \\to S$ with $R \\to S$ of finite type,\nthen $S' \\to S$ is of finite type.\n\\item Given $R \\to S' \\to S$, with $R \\to S$ of finite presentation,\nand $R \\to S'$ of finite type, then $S' \\to S$ is of finite presentation.\n\\end{enumerate}"
         }
       ],
       "unconditional": [
@@ -612,14 +532,25 @@
       ]
     },
     "hard_groups": {
-      "conditional": 1,
-      "enumerate": 25,
+      "enumerate": 23,
       "unconditional": 11
     },
+    "higher_thinking_review": {
+      "classification": 0,
+      "context": 56,
+      "do_not_autopromote": true,
+      "priority": [
+        "conjecture_or_unproven_claim",
+        "inherited_assumptions",
+        "nested_scopes_or_unconditional_result"
+      ],
+      "source_of_truth": "pass2.jsonl",
+      "structure": 34
+    },
     "statuses": {
-      "needs_context": 76,
-      "needs_structure": 37,
-      "resolved": 987
+      "needs_context": 56,
+      "needs_structure": 34,
+      "resolved": 1010
     }
   },
   "stacks-remaining-2026-10-28": {
@@ -651,15 +582,6 @@
     ],
     "context_examples": {
       "as_in_general": [
-        {
-          "first_refs": [
-            "lemma-cd-one",
-            "lemma-cd-one-extend"
-          ],
-          "id": "candidate.stacks.00743da7ddbe388932db739e",
-          "ref_count": 2,
-          "statement": "Let $I = (f_1, \\ldots, f_r)$ be an ideal of a Noetherian ring $A$\nwith $\\text{cd}(A, I) = 1$. Let $c \\geq 1$ and $\\varphi_j : I^c \\to A$,\n$j = 1, \\ldots, r$ be as in Lemma \\ref{lemma-cd-one}.\nLet $A \\to B$ be a ring map with $B$ Noetherian and let $N$ be\na finite $B$-module. Then, after possibly increasing $c$\nand adjusting $\\varphi_j$ accordingly, there is a unique\nunique graded $B$-module map\n$$\n\\Phi_N : \\bigoplus\\nolimits_{n \\geq 0} I^{nc}N \\to N[T_1, \\ldots, T_r]\n$$\nwith $\\Phi_N(g x) = \\Phi(g) x$ for $g \\in I^{nc}$ and $x \\in N$\nwhere $\\Phi$ is as in Lemma \\ref{lemma-cd-one-extend}.\nThe composition of $\\Phi_N$ with the map\n$N[T_1, \\ldots, T_r] \\to \\bigoplus_{n \\geq 0} I^nN$,\n$T_j \\mapsto f_j$ is the inclusion map\n$\\bigoplus_{n \\geq 0} I^{nc}N \\to \\bigoplus_{n \\geq 0} I^nN$."
-        },
         {
           "first_refs": [
             "lemma-alternating-spectral-sequence"
@@ -775,6 +697,14 @@
           "id": "candidate.stacks.0fa87bbe0ed0d26ed7c36dd1",
           "ref_count": 2,
           "statement": "With notation as in More on Morphisms, Lemma \\ref{more-morphisms-lemma-blowup}\nand denoting $f : X \\to S$ the structure morphism there is a canonical\ndistinguished triangle\n$$\n\\Omega^\\bullet_{X/S} \\to\nRb_*(\\Omega^\\bullet_{X'/S}) \\oplus i_*\\Omega^\\bullet_{Z/S} \\to\ni_*Rp_*(\\Omega^\\bullet_{E/S}) \\to\n\\Omega^\\bullet_{X/S}[1]\n$$\nin $D(X, f^{-1}\\mathcal{O}_S)$ where the four maps\n$$\n\\begin{matrix}\n\\Omega^\\bullet_{X/S} & \\to & Rb_*(\\Omega^\\bullet_{X'/S}), \\\\\n\\Omega^\\bullet_{X/S} & \\to & i_*\\Omega^\\bullet_{Z/S}, \\\\\nRb_*(\\Omega^\\bullet_{X'/S}) & \\to & i_*Rp_*(\\Omega^\\bullet_{E/S}), \\\\\ni_*\\Omega^\\bullet_{Z/S} & \\to & i_*Rp_*(\\Omega^\\bullet_{E/S})\n\\end{matrix}\n$$\nare the canonical ones (Section \\ref{section-de-rham-complex}),\nexcept with sign reversed for one of them."
+        },
+        {
+          "first_refs": [
+            "lemma-inverse-limit-sets"
+          ],
+          "id": "candidate.stacks.10416b4c8793915ec4c116bc",
+          "ref_count": 1,
+          "statement": "With same notation and assumptions as in Lemma \\ref{lemma-inverse-limit-sets}\nwe have $|X| = \\lim_i |X_i|$ as topological spaces."
         }
       ],
       "definition_reference": [
@@ -921,31 +851,6 @@
         },
         {
           "first_refs": [
-            "situation-dualizing",
-            "lemma-twisted-inverse-image"
-          ],
-          "id": "candidate.stacks.06c889cf91bb6e0b3098d36f",
-          "ref_count": 2,
-          "statement": "Let $(S, \\omega_S^\\bullet)$ be as in Situation \\ref{situation-dualizing}.\nLet $f : X \\to Y$ be a proper morphism of schemes of finite type over $S$.\nLet $\\omega_X^\\bullet$ and $\\omega_Y^\\bullet$ be dualizing complexes\nnormalized relative to $\\omega_S^\\bullet$. Let $a$ be the\nright adjoint of Lemma \\ref{lemma-twisted-inverse-image} for\n$f$. Then there is a canonical isomorphism\n$a(\\omega_Y^\\bullet) = \\omega_X^\\bullet$."
-        },
-        {
-          "first_refs": [
-            "situation-setup"
-          ],
-          "id": "candidate.stacks.06ef8e1545f8328af5c42397",
-          "ref_count": 1,
-          "statement": "Let $(S, \\delta)$ be as in Situation \\ref{situation-setup}.\nLet $X$ be locally of finite type over $S$.\nLet $\\mathcal{L}$ be an invertible $\\mathcal{O}_X$-module.\nThen\n\\begin{enumerate}\n\\item $c_1(\\mathcal{L}) \\in A^1(X)$ is in the center of $A^*(X)$ and\n\\item if $f : X' \\to X$ is locally of finite type and $c \\in A^*(X' \\to X)$,\nthen $c \\circ c_1(\\mathcal{L}) = c_1(f^*\\mathcal{L}) \\circ c$.\n\\end{enumerate}"
-        },
-        {
-          "first_refs": [
-            "situation-pre-pure"
-          ],
-          "id": "candidate.stacks.077f6c974bf820b63ab5aa18",
-          "ref_count": 1,
-          "statement": "In Situation \\ref{situation-pre-pure}.\nLet $(g : T \\to S, t' \\leadsto t, \\xi)$ be an impurity of\n$\\mathcal{F}$ above $y$. Assume $T = \\lim_{i \\in I} T_i$ is a directed limit\nof affine schemes over $Y$. Then for some $i$ the triple\n$(T_i \\to Y, t'_i \\leadsto t_i, \\xi_i)$ is an impurity of\n$\\mathcal{F}$ above $y$."
-        },
-        {
-          "first_refs": [
             "situation-shriek",
             "remark-composition-lower-shriek"
           ],
@@ -955,61 +860,11 @@
         },
         {
           "first_refs": [
-            "situation-flat-at-point"
-          ],
-          "id": "candidate.stacks.0804fe88fecdeb07ec537514",
-          "ref_count": 1,
-          "statement": "In Situation \\ref{situation-flat-at-point}.\n\\begin{enumerate}\n\\item If $A' \\to A''$ is a flat morphism in $\\mathcal{C}$\nthen $F_{lf}(A') = F_{lf}(A'')$.\n\\item If $A \\to B$ is essentially of finite presentation and\n$M$ is a $B$-module of finite presentation, then $F_{lf}$ is limit\npreserving: If $\\{A_i\\}_{i \\in I}$ is a\ndirected system of objects of $\\mathcal{C}$, then\n$F_{lf}(\\colim_i A_i) = \\colim_i F_{lf}(A_i)$.\n\\end{enumerate}"
-        },
-        {
-          "first_refs": [
-            "situation-morphism-thickenings"
-          ],
-          "id": "candidate.stacks.08e497c7c3b6a8f317a8c1e3",
-          "ref_count": 1,
-          "statement": "Let $(f, f')$ be a morphism of first order thickenings as in\nSituation \\ref{situation-morphism-thickenings}.\nLet $\\mathcal{F}$ be an $\\mathcal{O}_X$-module.\nAssume $(f, f')$ is a strict morphism of thickenings and\n$\\mathcal{F}$ flat over $S$. If there exists a pair\n$(\\mathcal{F}', \\alpha)$ consisting of an\n$\\mathcal{O}_{X'}$-module $\\mathcal{F}'$ flat over $S'$ and an isomorphism\n$\\alpha : i^*\\mathcal{F}' \\to \\mathcal{F}$, then the set of\nisomorphism classes of such pairs is principal homogeneous\nunder\n$\\Ext^1_{\\mathcal{O}_X}(\n\\mathcal{F}, \\mathcal{I} \\otimes_{\\mathcal{O}_X} \\mathcal{F})$."
-        },
-        {
-          "first_refs": [
-            "situation-setup",
-            "remark-restriction-bivariant",
-            "remark-bivariant-commute"
-          ],
-          "id": "candidate.stacks.09022f04f9e117d0f3b7380d",
-          "ref_count": 3,
-          "statement": "Let $(S, \\delta)$ be as in Situation \\ref{situation-setup}.\nConsider a commutative diagram\n$$\n\\xymatrix{\nX'' \\ar[d] \\ar[r] &\nX' \\ar[d] \\ar[r] &\nX \\ar[d]^f \\\\\nY'' \\ar[r] &\nY' \\ar[r] &\nY\n}\n$$\nof schemes locally of finite type over $S$ with both square cartesian.\nAssume $f : X \\to Y$ is a local complete intersection morphism\nsuch that the Gysin map exists for $f$. Let $c \\in A^*(Y'' \\to Y')$. Denote\n$res(f^!) \\in A^*(X' \\to Y')$ the restriction of $f^!$ to $Y'$\n(Remark \\ref{remark-restriction-bivariant}). Then $c$ and $res(f^!)$ commute\n(Remark \\ref{remark-bivariant-commute})."
-        },
-        {
-          "first_refs": [
-            "situation-descent-property"
-          ],
-          "id": "candidate.stacks.0b0b6ec58d4588f211208127",
-          "ref_count": 1,
-          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}. If\n\\begin{enumerate}\n\\item $f$ is finite,\n\\item $f_0$ is locally of finite type,\n\\end{enumerate}\nthen $f_i$ is finite for some $i \\geq 0$."
-        },
-        {
-          "first_refs": [
-            "situation-setup"
-          ],
-          "id": "candidate.stacks.0b0e871492a50836355bcb0c",
-          "ref_count": 1,
-          "statement": "Let $(S, \\delta)$ be as in Situation \\ref{situation-setup}.\nLet $f : X \\to Y$ and $g : Y \\to Z$ be local complete intersection morphisms\nof schemes locally of finite type over $S$. Assume the Gysin\nmap exists for $g \\circ f$ and $g$. Then the Gysin map exists for $f$\nand $(g \\circ f)^! = f^! \\circ g^!$."
-        },
-        {
-          "first_refs": [
             "situation-simplicial-site"
           ],
           "id": "candidate.stacks.0c28b420ab11db7c787c8cce",
           "ref_count": 1,
           "statement": "In Situation \\ref{situation-simplicial-site} the functor\n$\\mathcal{C}_n \\to \\mathcal{C}_{total}$, $U \\mapsto U$ is continuous\nand cocontinuous. The associated morphism of\ntopoi $g_n : \\Sh(\\mathcal{C}_n) \\to \\Sh(\\mathcal{C}_{total})$ satisfies\n\\begin{enumerate}\n\\item $g_n^{-1}$ associates to the sheaf $\\mathcal{F}$ on $\\mathcal{C}_{total}$\nthe sheaf $\\mathcal{F}_n$ on $\\mathcal{C}_n$,\n\\item $g_n^{-1} : \\Sh(\\mathcal{C}_{total}) \\to \\Sh(\\mathcal{C}_n)$\nhas a left adjoint $g^{Sh}_{n!}$,\n\\item for $\\mathcal{G}$ in $\\Sh(\\mathcal{C}_n)$ the restriction of\n$g_{n!}^{Sh}\\mathcal{G}$ to $\\mathcal{C}_m$ is\n$\\coprod\\nolimits_{\\varphi : [n] \\to [m]} f_\\varphi^{-1}\\mathcal{G}$,\n\\item $g_{n!}^{Sh}$ commutes with finite connected limits,\n\\item $g_n^{-1} : \\textit{Ab}(\\mathcal{C}_{total}) \\to\n\\textit{Ab}(\\mathcal{C}_n)$ has a left adjoint $g_{n!}$,\n\\item for $\\mathcal{G}$ in $\\textit{Ab}(\\mathcal{C}_n)$ the restriction of\n$g_{n!}\\mathcal{G}$ to $\\mathcal"
-        },
-        {
-          "first_refs": [
-            "situation-numerical"
-          ],
-          "id": "candidate.stacks.0cb48412cebcc4d577f50f96",
-          "ref_count": 1,
-          "statement": "Let $f : X \\to B$ be as in the introduction to this section.\nLet $E_1, \\ldots, E_r \\in D(\\mathcal{O}_X)$ be perfect.\nLet $I = \\mathbf{Z}^{\\oplus r}$ and consider the map\n$$\nI \\longrightarrow D(\\mathcal{O}_X),\\quad\n(n_1, \\ldots, n_r) \\longmapsto\nE_1^{\\otimes n_1}\n\\otimes \\ldots \\otimes\nE_r^{\\otimes n_r}\n$$\nLet $P : I \\to \\mathbf{Z}$ be a map. Then\n$\\Cohstack^P_{X/B} \\subset \\Cohstack_{X/B}$\nas defined in Situation \\ref{situation-numerical}\nis an open and closed substack."
         },
         {
           "first_refs": [
@@ -1034,6 +889,84 @@
           "id": "candidate.stacks.0fa4be0df4786edbf67844ae",
           "ref_count": 1,
           "statement": "In Situation \\ref{situation-loc-chern}\nif $\\alpha \\in \\CH_k(X)$ has support disjoint from $Z$, then\n$P_p(Z \\to X, E) \\cap \\alpha = 0$, resp.\\ $c_p(Z \\to X, E) \\cap \\alpha = 0$."
+        },
+        {
+          "first_refs": [
+            "situation-change-of-fields"
+          ],
+          "id": "candidate.stacks.0fc056454d33ce45d39216aa",
+          "ref_count": 1,
+          "statement": "With notation and assumptions as in Situation \\ref{situation-change-of-fields}.\n\\begin{enumerate}\n\\item We have $\\overline{\\mathcal{F}_{l/k}} = (\\overline{\\mathcal{F}})_{l/k}$.\n\\item If $\\mathcal{F}$ is a predeformation category, then $\\mathcal{F}_{l/k}$\nis a predeformation category.\n\\item If $\\mathcal{F}$ satisfies (S1), then $\\mathcal{F}_{l/k}$\nsatisfies (S1).\n\\item If $\\mathcal{F}$ satisfies (S2), then $\\mathcal{F}_{l/k}$\nsatisfies (S2).\n\\item If $\\mathcal{F}$ satisfies (RS), then $\\mathcal{F}_{l/k}$\nsatisfies (RS).\n\\end{enumerate}"
+        },
+        {
+          "first_refs": [
+            "situation-loc-chern"
+          ],
+          "id": "candidate.stacks.10753c2e82bd37c497e92598",
+          "ref_count": 1,
+          "statement": "In Situation \\ref{situation-loc-chern} we have\n$$\nP_p(Z \\to X, E) \\cap i_*\\alpha = P_p(E|_Z) \\cap \\alpha,\n\\quad\\text{resp.}\\quad\nc_p(Z \\to X, E) \\cap i_*\\alpha = c_p(E|_Z) \\cap \\alpha\n$$\nin $\\CH_*(Z)$ for any $\\alpha \\in \\CH_*(Z)$."
+        },
+        {
+          "first_refs": [
+            "situation-regular-model"
+          ],
+          "id": "candidate.stacks.10fdf015aa25e22402070b41",
+          "ref_count": 1,
+          "statement": "In Situation \\ref{situation-regular-model} with\n$\\kappa_i = H^0(C_i, \\mathcal{O}_{C_i})$ and $g_i$ the genus of $C_i$\nthe data\n$$\nn, m_i, (C_i \\cdot C_j), [\\kappa_i : k], g_i\n$$\nis a numerical type of genus equal to the genus of $C$."
+        },
+        {
+          "first_refs": [
+            "situation-loc-chern",
+            "remark-ring-loc-classes"
+          ],
+          "id": "candidate.stacks.17fbfa0e66da9891060f276e",
+          "ref_count": 2,
+          "statement": "In Situation \\ref{situation-loc-chern} assume $E|_{X \\setminus Z}$ is zero.\nThen\n\\begin{align*}\nP_1(Z \\to X, E) & = c_1(Z \\to X, E), \\\\\nP_2(Z \\to X, E) & = c_1(Z \\to X, E)^2 - 2c_2(Z \\to X, E), \\\\\nP_3(Z \\to X, E) & = c_1(Z \\to X, E)^3 - 3c_1(Z \\to X, E)c_2(Z \\to X, E)\n+ 3c_3(Z \\to X, E),\n\\end{align*}\nand so on where the products are taken in the algebra $A^{(1)}(Z \\to X)$\nof Remark \\ref{remark-ring-loc-classes}."
+        },
+        {
+          "first_refs": [
+            "situation-affine",
+            "item-complete",
+            "item-connection"
+          ],
+          "id": "candidate.stacks.18ff611f59e472b10cb6c3e8",
+          "ref_count": 10,
+          "statement": "In Situation \\ref{situation-affine}.\nLet $A \\to P' \\to C$ be ring maps with $A \\to P'$ smooth and $P' \\to C$\nsurjective with kernel $J'$. Let $D'$ be the $p$-adic completion of\n$D_{P', \\gamma}(J')$. Then there are a choice of the data $A \\to P \\to C$\nas above and homomorphisms of divided power $A$-algebras\n$$\na : D \\longrightarrow D',\\quad b : D' \\longrightarrow D\n$$\ncompatible with the maps $D \\to C$ and $D' \\to C$ such that\n$a \\circ b = \\text{id}_{D'}$. These maps induce\nan equivalence of categories of pairs $(M, \\nabla)$ satisfying\n(\\ref{item-complete}), (\\ref{item-connection}),\n(\\ref{item-integrable}), and (\\ref{item-topologically-quasi-nilpotent})\nover $D$ and pairs $(M', \\nabla')$  satisfying\n(\\ref{item-complete}), (\\ref{item-connection}),\n(\\ref{item-integrable}), and\n(\\ref{item-topologically-quasi-nilpotent})\\footnote{This condition\nis tricky to formulate for $(M', \\nabla')$ over $D'$. See proof.} over $D'$.\nIn particular, the eq"
+        },
+        {
+          "first_refs": [
+            "situation-simplicial-site",
+            "remark-augmentation-site",
+            "section-cohomology-augmentation-ringed-simplicial-sites"
+          ],
+          "id": "candidate.stacks.1a333aca048c1b81d3ae6732",
+          "ref_count": 3,
+          "statement": "In Situation \\ref{situation-simplicial-site} let\n$a_0$ be an augmentation towards a site $\\mathcal{D}$ as in\nRemark \\ref{remark-augmentation-site}.\n\\begin{enumerate}\n\\item The pullback $a^{-1}\\mathcal{G}$ of a sheaf of sets or abelian groups\non $\\mathcal{D}$ is cartesian.\n\\item The pullback $a^{-1}K$ of an object $K$ of $D(\\mathcal{D})$\nis cartesian.\n\\end{enumerate}\nLet $\\mathcal{O}$ be a sheaf of rings on $\\mathcal{C}_{total}$ and\n$\\mathcal{O}_\\mathcal{D}$ a sheaf of rings on $\\mathcal{D}$\nand $a^\\sharp : \\mathcal{O}_\\mathcal{D} \\to a_*\\mathcal{O}$ a\nmorphism as in\nSection \\ref{section-cohomology-augmentation-ringed-simplicial-sites}.\n\\begin{enumerate}\n\\item[(3)] The pullback $a^*\\mathcal{F}$ of a sheaf of\n$\\mathcal{O}_\\mathcal{D}$-modules is cartesian.\n\\item[(4)] The derived pullback $La^*K$ of an object\n$K$ of $D(\\mathcal{O}_\\mathcal{D})$ is cartesian.\n\\end{enumerate}"
+        },
+        {
+          "first_refs": [
+            "situation-flat-dimension-n"
+          ],
+          "id": "candidate.stacks.1b26b4d46bb692c301cc7e1e",
+          "ref_count": 1,
+          "statement": "In Situation \\ref{situation-flat-dimension-n}.\n\\begin{enumerate}\n\\item The functor $F_n$ satisfies the sheaf property for the fpqc topology.\n\\item If $f$ is quasi-compact and locally of finite presentation\nand $\\mathcal{F}$ is of finite presentation, then the functor $F_n$ is\nlimit preserving.\n\\end{enumerate}"
+        },
+        {
+          "first_refs": [
+            "situation-setup-base-change"
+          ],
+          "id": "candidate.stacks.1b768a7f3bd7c33565d0cbfa",
+          "ref_count": 1,
+          "statement": "In Situation \\ref{situation-setup-base-change} let $X \\to S$ be locally\nof finite type and let $X' \\to S'$ be the base change by $S' \\to S$.\nLet $\\mathcal{E}$ be a finite locally free $\\mathcal{O}_X$-module of\nrank $r$ with base change $\\mathcal{E}'$ on $X'$. Then the\ndiagram\n$$\n\\xymatrix{\n\\CH_k(X) \\ar[r]_{g^*} \\ar[d]_{c_i(\\mathcal{E}) \\cap -} &\n\\CH_{k + c}(X') \\ar[d]^{c_i(\\mathcal{E}') \\cap -} \\\\\n\\CH_{k - i}(X) \\ar[r]^{g^*} & \\CH_{k + c - i}(X')\n}\n$$\nof chow groups commutes for all $i$."
+        },
+        {
+          "first_refs": [
+            "situation-loc-chern",
+            "lemma-push-proper-bivariant"
+          ],
+          "id": "candidate.stacks.1d0bcd98111982d6f161923b",
+          "ref_count": 2,
+          "statement": "In Situation \\ref{situation-loc-chern} there exists a canonical bivariant class\n$$\nP_p(Z \\to X, E) \\in A^p(Z \\to X),\n\\quad\\text{resp.}\\quad\nc_p(Z \\to X, E) \\in A^p(Z \\to X)\n$$\nwith the property that\n\\begin{equation}\n\ni_* \\circ P_p(Z \\to X, E) = P_p(E),\n\\quad\\text{resp.}\\quad\ni_* \\circ c_p(Z \\to X, E) = c_p(E)\n\\end{equation}\nas bivariant classes on $X$ (with $\\circ$ as in\nLemma \\ref{lemma-push-proper-bivariant})."
         }
       ],
       "lemma_context": [
@@ -1052,14 +985,6 @@
           "id": "candidate.stacks.0bbad67591e2fb491fe5180c",
           "ref_count": 1,
           "statement": "With notation as in Lemma \\ref{lemma-complete-and-local}.\nFor objects $K, L$ in $D(A)$ there is a canonical isomorphism\n$$\nR\\Hom_A(K^\\wedge, L^\\wedge) \\longrightarrow R\\Hom_A(R\\Gamma_Z(K), R\\Gamma_Z(L))\n$$\nin $D(A)$."
-        },
-        {
-          "first_refs": [
-            "lemma-internal-hom-fp-into-qcoh"
-          ],
-          "id": "candidate.stacks.1a54ffa585107c5eb190b369",
-          "ref_count": 1,
-          "statement": "Let $f : \\mathcal{X} \\to \\mathcal{Y}$ be a flat morphism of algebraic stacks.\nLet $\\mathcal{F}$ be an\n$\\mathcal{O}_\\mathcal{Y}$-module of finite presentation and let\n$\\mathcal{G}$ be a quasi-coherent $\\mathcal{O}_\\mathcal{Y}$-module.\nThen $f^*hom(\\mathcal{F}, \\mathcal{G}) = hom(f^*\\mathcal{F}, f^*\\mathcal{G})$\nwith notation as in Lemma \\ref{lemma-internal-hom-fp-into-qcoh}."
         },
         {
           "first_refs": [
@@ -1095,22 +1020,6 @@
         },
         {
           "first_refs": [
-            "lemma-orthogonal-direct-sum"
-          ],
-          "id": "candidate.stacks.8a3467322b98e73ea04ecc63",
-          "ref_count": 1,
-          "statement": "Let $L_0$, $L_1$ be a finite free $\\mathbf{Z}$-modules endowed\nwith integral symmetric bilinear positive definite\nforms $\\langle\\ ,\\ \\rangle : L_i \\times L_i \\to \\mathbf{Z}$.\nLet $\\text{d} : L_0 \\to L_1$ and $\\text{d}^* : L_1 \\to L_0$\nbe adjoint. If $\\langle\\ ,\\ \\rangle$ on $L_0$ is unimodular, then\nthere is an isomorphism\n$$\n\\Phi :\n\\Coker(\\text{d}^*\\text{d})_{torsion}\n\\longrightarrow\n\\Im(\\text{d})^\\#/\\Im(\\text{d})\n$$\nwith notation as in Lemma \\ref{lemma-orthogonal-direct-sum}."
-        },
-        {
-          "first_refs": [
-            "lemma-lisse-etale-functorial"
-          ],
-          "id": "candidate.stacks.be882c220e237ba93d81cb1b",
-          "ref_count": 1,
-          "statement": "With assumptions and notation as in Lemma \\ref{lemma-lisse-etale-functorial}.\nLet $\\mathcal{H}$  be an abelian sheaf on $\\mathcal{X}_{lisse,\\etale}$\n(resp.\\ $\\mathcal{X}_{flat,fppf}$). Then\n\\begin{equation}\n\nR^pf'_*\\mathcal{H} =\n\\text{sheaf associated to }y \\longmapsto\nH^p((V \\times_{y, \\mathcal{Y}} \\mathcal{X})', (\\text{pr}')^{-1}\\mathcal{H})\n\\end{equation}\nHere $y$ is an object of $\\mathcal{Y}_{lisse,\\etale}$\n(resp.\\ $\\mathcal{Y}_{flat,fppf}$) lying over the scheme $V$\nand the notation $(V \\times_{y, \\mathcal{Y}} \\mathcal{X})'$\nand $\\text{pr}'$ are explained in the proof."
-        },
-        {
-          "first_refs": [
             "lemma-ext-perfect"
           ],
           "id": "candidate.stacks.c64cf404a0482abf0faecf45",
@@ -1129,14 +1038,6 @@
       "section_reference": [
         {
           "first_refs": [
-            "section-notation"
-          ],
-          "id": "candidate.stacks.00cecb93ee755f41d9c693e7",
-          "ref_count": 1,
-          "statement": "Let $B \\to S$ as in Section \\ref{section-notation}.\nConsider a morphism\n$f : (U, R, s, t, c) \\to (U', R', s', t', c')$\nof groupoid in algebraic spaces over $B$. Then pullback $f^*$ given by\n$$\n(\\mathcal{F}, \\alpha) \\mapsto (f^*\\mathcal{F}, f^*\\alpha)\n$$\ndefines a functor from the category of quasi-coherent sheaves on\n$(U', R', s', t', c')$ to the category of quasi-coherent sheaves on\n$(U, R, s, t, c)$."
-        },
-        {
-          "first_refs": [
             "section-simplicial-algebraic-spaces"
           ],
           "id": "candidate.stacks.02bebcbb0ace6a17daa036b6",
@@ -1145,36 +1046,11 @@
         },
         {
           "first_refs": [
-            "section-notation",
-            "lemma-pullback"
-          ],
-          "id": "candidate.stacks.02f95c5e6f85846db5863d05",
-          "ref_count": 2,
-          "statement": "Let $B \\to S$ as in Section \\ref{section-notation}.\nConsider a morphism\n$f : (U, R, s, t, c) \\to (U', R', s', t', c')$\nof groupoids in algebraic spaces over $B$. Assume that\n\\begin{enumerate}\n\\item $f : U \\to U'$ is quasi-compact and quasi-separated,\n\\item the square\n$$\n\\xymatrix{\nR \\ar[d]_t \\ar[r]_f & R' \\ar[d]^{t'} \\\\\nU \\ar[r]^f & U'\n}\n$$\nis cartesian, and\n\\item $s'$ and $t'$ are flat.\n\\end{enumerate}\nThen pushforward $f_*$ given by\n$$\n(\\mathcal{F}, \\alpha) \\mapsto (f_*\\mathcal{F}, f_*\\alpha)\n$$\ndefines a functor from the category of quasi-coherent sheaves on\n$(U, R, s, t, c)$ to the category of quasi-coherent sheaves on\n$(U', R', s', t', c')$ which is right adjoint to pullback as defined in\nLemma \\ref{lemma-pullback}."
-        },
-        {
-          "first_refs": [
-            "section-conventions-notation"
-          ],
-          "id": "candidate.stacks.034f9653c1477e77bafe8da1",
-          "ref_count": 1,
-          "statement": "Let $B \\to S$ as in Section \\ref{section-conventions-notation}.\nLet $j : R \\to U \\times_B U$ be a pre-equivalence relation\nof algebraic spaces over $B$. Then\n$$\nO_u =\n\\{u' \\in |U| \\text{ such that } \\exists r \\in |R|, \\ s(r) = u, \\ t(r) = u'\\}.\n$$"
-        },
-        {
-          "first_refs": [
             "section-notation"
           ],
           "id": "candidate.stacks.06eac14c0822dfb7f37b44d6",
           "ref_count": 1,
           "statement": "Let $B \\to S$ be as in Section \\ref{section-notation}.\nLet $(U, R, s, t, c, e, i)$ be a groupoid in algebraic spaces over $B$.\nThe diagram\n\\begin{equation}\n\n\\xymatrix{\nR \\times_{t, U, t} R\n\\ar@<1ex>[r]^-{\\text{pr}_1} \\ar@<-1ex>[r]_-{\\text{pr}_0}\n\\ar[d]_{\\text{pr}_0 \\times c \\circ (i, 1)} &\nR \\ar[r]^t \\ar[d]^{\\text{id}_R} &\nU \\ar[d]^{\\text{id}_U} \\\\\nR \\times_{s, U, t} R\n\\ar@<1ex>[r]^-c \\ar@<-1ex>[r]_-{\\text{pr}_0} \\ar[d]_{\\text{pr}_1} &\nR \\ar[r]^t \\ar[d]^s &\nU \\\\\nR \\ar@<1ex>[r]^s \\ar@<-1ex>[r]_t &\nU\n}\n\\end{equation}\nis commutative. The two top rows are isomorphic via the vertical maps given.\nThe two lower left squares are cartesian."
-        },
-        {
-          "first_refs": [
-            "section-notation"
-          ],
-          "id": "candidate.stacks.1049f930d2328feb8d1bcecd",
-          "ref_count": 1,
-          "statement": "Let $B \\to S$ as in Section \\ref{section-notation}.\nLet $(U, R, s, t, c)$ be a groupoid in algebraic spaces over $B$.\nIf $s$, $t$ are flat, then the category of quasi-coherent modules on\n$(U, R, s, t, c)$ is abelian."
         },
         {
           "first_refs": [
@@ -1210,28 +1086,11 @@
         },
         {
           "first_refs": [
-            "section-notation",
-            "groupoids-section-restrict-groupoid"
-          ],
-          "id": "candidate.stacks.2be084c9646c228ae6bef8ca",
-          "ref_count": 2,
-          "statement": "Let $B \\to S$ as in Section \\ref{section-notation}.\nLet $(U, R, s, t, c)$ be a groupoid in algebraic spaces over $B$.\nLet $g : U' \\to U$ be a morphism of algebraic spaces.\nConsider the following diagram\n$$\n\\xymatrix{\nR' \\ar[d] \\ar[r] \\ar@/_3pc/[dd]_{t'} \\ar@/^1pc/[rr]^{s'}&\nR \\times_{s, U} U' \\ar[r] \\ar[d] &\nU' \\ar[d]^g \\\\\nU' \\times_{U, t} R \\ar[d] \\ar[r] &\nR \\ar[r]^s \\ar[d]_t &\nU \\\\\nU' \\ar[r]^g &\nU\n}\n$$\nwhere all the squares are fibre product squares. Then there is a\ncanonical composition law $c' : R' \\times_{s', U', t'} R' \\to R'$\nsuch that $(U', R', s', t', c')$ is a groupoid in algebraic spaces over\n$B$ and such that $U' \\to U$, $R' \\to R$ defines a morphism\n$(U', R', s', t', c') \\to (U, R, s, t, c)$ of groupoids in algebraic spaces\nover $B$. Moreover, for any scheme $T$ over $B$ the functor of groupoids\n$$\n(U'(T), R'(T), s', t', c') \\to (U(T), R(T), s, t, c)\n$$\nis the restriction (see\nGroupoids, Section \\ref{groupoids-section-restr"
-        },
-        {
-          "first_refs": [
             "section-notation"
           ],
           "id": "candidate.stacks.30520d107b46e1051dcc075c",
           "ref_count": 1,
           "statement": "Let $B \\to S$ as in Section \\ref{section-notation}.\nGiven an equivalence relation $j : R \\to U \\times_B U$ over $B$\nthere is a unique way to extend it to a groupoid in algebraic spaces\n$(U, R, s, t, c)$ over $B$."
-        },
-        {
-          "first_refs": [
-            "section-notation"
-          ],
-          "id": "candidate.stacks.339fc5822a7e42f29685569c",
-          "ref_count": 1,
-          "statement": "Let $B \\to S$ be as in Section \\ref{section-notation}.\nLet $(U, R, s, t, c)$ be a groupoid in algebraic spaces over $B$.\nLet $B' \\to B$ be a morphism of algebraic spaces.\nThen the base changes $U' = B' \\times_B U$,\n$R' = B' \\times_B R$ endowed with the base changes $s'$, $t'$, $c'$\nof the morphisms $s, t, c$ form a groupoid in algebraic spaces\n$(U', R', s', t', c')$ over $B'$ and the projections\ndetermine a morphism\n$(U', R', s', t', c') \\to (U, R, s, t, c)$\nof groupoids in algebraic spaces over $B$."
         },
         {
           "first_refs": [
@@ -1248,6 +1107,56 @@
           "id": "candidate.stacks.3806180068a87a5cbee718f4",
           "ref_count": 1,
           "statement": "Let $S$ be a scheme. Let $X$ be an algebraic space over $S$.\nLet $U$ be a simplicial algebraic space over $S$. Let $a : U \\to X$\nbe an augmentation. If $a : U \\to X$ is a proper hypercovering of $X$, then\n$$\nR\\Gamma(X_\\etale, K) = R\\Gamma(U_\\etale, a^{-1}K)\n$$\nfor $K \\in D^+(X_\\etale)$. Here $a : \\Sh(U_\\etale) \\to \\Sh(X_\\etale)$\nis as in Section \\ref{section-simplicial-algebraic-spaces}."
+        },
+        {
+          "first_refs": [
+            "section-notation"
+          ],
+          "id": "candidate.stacks.3a7618d5e64c8ce610aa4b26",
+          "ref_count": 1,
+          "statement": "Let $B \\to S$ be as in Section \\ref{section-notation}.\nLet $(U, R, s, t, c)$ be a groupoid in algebraic spaces over $B$.\nLet $K$ be a field and let $r, r' : \\Spec(K) \\to R$\nbe morphisms such that $t \\circ r = t \\circ r' : \\Spec(K) \\to U$.\nSet $u = s \\circ r$, $u' = s \\circ r'$ and denote\n$F_u = \\Spec(K) \\times_{u, U, s} R$ and\n$F_{u'} = \\Spec(K) \\times_{u', U, s} R$ the fibre products.\nThen $F_u \\cong F_{u'}$ as algebraic spaces over $K$."
+        },
+        {
+          "first_refs": [
+            "section-simplicial-algebraic-spaces"
+          ],
+          "id": "candidate.stacks.3b4afe1906e3ab7faa5d68b7",
+          "ref_count": 1,
+          "statement": "Let $S$ be a scheme. Let $X$ be an algebraic space over $S$.\nLet $U$ be a simplicial algebraic space over $S$. Let $a : U \\to X$\nbe an augmentation. If $a : U \\to X$ is a proper hypercovering of $X$,\nthen\n$$\na^{-1} : \\Sh(X_\\etale) \\to \\Sh(U_\\etale)\n\\quad\\text{and}\\quad\na^{-1} : \\textit{Ab}(X_\\etale) \\to \\textit{Ab}(U_\\etale)\n$$\nare fully faithful with essential image the cartesian sheaves and\nquasi-inverse given by $a_*$. Here $a : \\Sh(U_\\etale) \\to \\Sh(X_\\etale)$\nis as in Section \\ref{section-simplicial-algebraic-spaces}."
+        },
+        {
+          "first_refs": [
+            "section-action"
+          ],
+          "id": "candidate.stacks.3cb43e0c36cbfb1a96becb27",
+          "ref_count": 1,
+          "statement": "Let $(S, \\delta)$ be as in Section \\ref{section-action}. Let $X \\to Y$\nbe a morphism of schemes locally of finite type over $S$. Let $r \\geq 0$\nand let $\\alpha \\in z(X/Y, r)$ be a relative $r$-cycle on $X/Y$.\nThe rule that to every morphism $g : Y' \\to Y$ locally of finite type\nand every $e \\in \\mathbf{Z}$ associates the operation\n$$\ng^*\\alpha \\cap - : Z_e(Y') \\to Z_{r + e}(X')\n$$\nwhere $X' = Y' \\times_Y X$ factors through rational equivalence to\ndefine a bivariant class $c(\\alpha) \\in A^{-r}(X \\to Y)$."
+        },
+        {
+          "first_refs": [
+            "section-conventions-notation"
+          ],
+          "id": "candidate.stacks.3e8462dcd2922732bccdbddc",
+          "ref_count": 1,
+          "statement": "Let $B \\to S$ as in Section \\ref{section-conventions-notation}.\nLet $j : R \\to U \\times_B U$ be a set-theoretic pre-equivalence\nrelation. A morphism $\\phi : U \\to X$ is an orbit space for $R$ if and only if\n\\begin{enumerate}\n\\item $\\phi \\circ s = \\phi \\circ t$, i.e., $\\phi$ is invariant,\n\\item the induced morphism $(t, s) : R \\to U \\times_X U$ is surjective, and\n\\item the morphism $\\phi : U \\to X$ is surjective.\n\\end{enumerate}\nThis characterization applies for example if $j$ is a pre-equivalence relation,\nor comes from a groupoid in algebraic spaces over $B$, or comes from the action\nof a group algebraic space over $B$ on $U$."
+        },
+        {
+          "first_refs": [
+            "section-notation"
+          ],
+          "id": "candidate.stacks.3ff6970f2c323f2c5172f239",
+          "ref_count": 1,
+          "statement": "Let $B \\to S$ as in Section \\ref{section-notation}.\nLet $U$ be an algebraic space over $B$.\nLet $j : R \\to U \\times_B U$ be a pre-relation.\nLet $g : U' \\to U$ be a morphism of algebraic spaces over $B$.\nFinally, set\n$$\nR' = (U' \\times_B U')\\times_{U \\times_B U} R\n\\xrightarrow{j'}\nU' \\times_B U'\n$$\nThen $j'$ is a pre-relation on $U'$ over $B$.\nIf $j$ is a relation, then $j'$ is a relation.\nIf $j$ is a pre-equivalence relation, then $j'$ is a pre-equivalence relation.\nIf $j$ is an equivalence relation, then $j'$ is an equivalence relation."
+        },
+        {
+          "first_refs": [
+            "section-notation",
+            "spaces-descent-definition-property-morphisms-local",
+            "spaces-groupoids-definition-invariant-open"
+          ],
+          "id": "candidate.stacks.442fcf21bc959c49919919a7",
+          "ref_count": 3,
+          "statement": "Let $B \\to S$ be as in Section \\ref{section-notation}.\nLet $(U, R, s, t, c)$ be a groupoid in algebraic spaces over $B$.\nLet\n$\\tau \\in \\{fppf, \\linebreak[0] \\etale, \\linebreak[0]\nsmooth, \\linebreak[0] syntomic\\}$.\nLet $\\mathcal{P}$ be a property of morphisms of algebraic spaces\nwhich is $\\tau$-local on the target\n(Descent on Spaces,\nDefinition \\ref{spaces-descent-definition-property-morphisms-local}).\nAssume $\\{s : R \\to U\\}$ and $\\{t : R \\to U\\}$ are coverings for the\n$\\tau$-topology. Let $W \\subset U$ be the maximal open subspace such that\n$s^{-1}(W) \\to W$ has property $\\mathcal{P}$.\nThen $W$ is $R$-invariant\n(Groupoids in Spaces,\nDefinition \\ref{spaces-groupoids-definition-invariant-open})."
         }
       ],
       "source_metadata": [
@@ -1286,29 +1195,12 @@
         },
         {
           "first_refs": [
-            "lemma-morphism-proj"
-          ],
-          "id": "candidate.stacks.2bef3d250e1abbf0944379ec",
-          "ref_count": 1,
-          "statement": "\\begin{reference}\n\\cite[II, Proposition 2.8.10]{EGA}\n\\end{reference}\nWith hypotheses and notation as in Lemma \\ref{lemma-morphism-proj} above.\nAssume there exists a ring map $R \\to A_0$ and a ring map\n$R \\to R'$ such that $B = R' \\otimes_R A$. Then\n\\begin{enumerate}\n\\item $U(\\psi) = Y$,\n\\item the diagram\n$$\n\\xymatrix{\nY = \\text{Proj}(B) \\ar[r]_{r_\\psi} \\ar[d] &\n\\text{Proj}(A) = X \\ar[d] \\\\\n\\Spec(R') \\ar[r] &\n\\Spec(R)\n}\n$$\nis a fibre product square, and\n\\item the maps $\\theta : r_\\psi^*\\mathcal{O}_X(n) \\to \\mathcal{O}_Y(n)$\nare isomorphisms.\n\\end{enumerate}"
-        },
-        {
-          "first_refs": [
             "example-from-C-F-to-G-sets",
             "equation-remember"
           ],
           "id": "candidate.stacks.57130749744c31b690c9314d",
           "ref_count": 2,
           "statement": "\\begin{reference}\nThis is a weak version of \\cite[Expos\\'e V]{SGA1}.\nThe proof is borrowed from \\cite[Theorem 7.2.5]{BS}.\n\\end{reference}\nLet $(\\mathcal{C}, F)$ be a Galois category. Let $G = \\text{Aut}(F)$\nbe as in Example \\ref{example-from-C-F-to-G-sets}. The functor\n$F : \\mathcal{C} \\to \\textit{Finite-}G\\textit{-Sets}$\n(\\ref{equation-remember}) an equivalence."
-        },
-        {
-          "first_refs": [
-            "situation-olsson-laszlo",
-            "situation-olsson-laszlo-prime"
-          ],
-          "id": "candidate.stacks.5f30ec36873e11fb61eb2a0a",
-          "ref_count": 2,
-          "statement": "\\begin{reference}\nThis is a version of \\cite[Lemma 2.1.10]{six-I} with slightly changed\nhypotheses.\n\\end{reference}\nLet $f : (\\mathcal{C}, \\mathcal{O}) \\to (\\mathcal{C}', \\mathcal{O}')$\nbe a morphism of ringed sites.\nassume moreover there is an integer $N$ such that\n\\begin{enumerate}\n\\item $\\mathcal{C}, \\mathcal{O}, \\mathcal{A}$ satisfy the\nassumption of Situation \\ref{situation-olsson-laszlo},\n\\item $f : (\\mathcal{C}, \\mathcal{O}) \\to (\\mathcal{C}', \\mathcal{O}')$\nand $\\mathcal{A}$ satisfy the assumption of\nSituation \\ref{situation-olsson-laszlo-prime},\n\\item $R^pf_*\\mathcal{F} = 0$ for\n$p > N$ and $\\mathcal{F} \\in \\Ob(\\mathcal{A})$,\n\\end{enumerate}\nThen for $K$ in $D_\\mathcal{A}(\\mathcal{O})$ the map\n$H^j(Rf_*K) \\to H^j(Rf_*(\\tau_{\\geq -n}K))$ is an isomorphism\nfor $j \\geq N - n$."
         },
         {
           "first_refs": [
@@ -1327,15 +1219,6 @@
           "id": "candidate.stacks.7584d5c5fa51728bb56e4925",
           "ref_count": 2,
           "statement": "\\begin{reference}\nThis is analogous to \\cite[Theorem 2.2.3]{six-I}.\n\\end{reference}\nLet $f : (\\Sh(\\mathcal{C}), \\mathcal{O}) \\to (\\Sh(\\mathcal{C}'), \\mathcal{O}')$\nbe a morphism of ringed topoi.\nLet $\\mathcal{A} \\subset \\textit{Mod}(\\mathcal{O})$\nand $\\mathcal{A}' \\subset \\textit{Mod}(\\mathcal{O}')$\nbe weak Serre subcategories. Assume\n\\begin{enumerate}\n\\item $f$ is flat,\n\\item $f^*$ induces an equivalence of categories\n$\\mathcal{A}' \\to \\mathcal{A}$,\n\\item $\\mathcal{F}' \\to Rf_*f^*\\mathcal{F}'$ is an isomorphism\nfor $\\mathcal{F}' \\in \\Ob(\\mathcal{A}')$,\n\\item $\\mathcal{C}, \\mathcal{O}, \\mathcal{A}$ satisfy the\nassumption of Situation \\ref{situation-olsson-laszlo},\n\\item $\\mathcal{C}', \\mathcal{O}', \\mathcal{A}'$ satisfy the\nassumption of Situation \\ref{situation-olsson-laszlo}.\n\\end{enumerate}\nThen $f^* : D_{\\mathcal{A}'}(\\mathcal{O}') \\to D_\\mathcal{A}(\\mathcal{O})$\nis an equivalence of categories with quasi-inverse given by\n$Rf_* : D_"
-        },
-        {
-          "first_refs": [
-            "situation-olsson-laszlo",
-            "situation-olsson-laszlo"
-          ],
-          "id": "candidate.stacks.91a1137f82c8544e6947b968",
-          "ref_count": 2,
-          "statement": "\\begin{reference}\nThis is a version of \\cite[Lemma 2.1.10]{six-I} with slightly changed\nhypotheses.\n\\end{reference}\nLet $f : (\\Sh(\\mathcal{C}), \\mathcal{O}) \\to (\\Sh(\\mathcal{C}'), \\mathcal{O}')$\nbe a morphism of ringed topoi.\nLet $\\mathcal{A} \\subset \\textit{Mod}(\\mathcal{O})$\nand $\\mathcal{A}' \\subset \\textit{Mod}(\\mathcal{O}')$\nbe weak Serre subcategories. Assume there is an integer $N$ such that\n\\begin{enumerate}\n\\item $\\mathcal{C}, \\mathcal{O}, \\mathcal{A}$ satisfy the\nassumption of Situation \\ref{situation-olsson-laszlo},\n\\item $\\mathcal{C}', \\mathcal{O}', \\mathcal{A}'$ satisfy the\nassumption of Situation \\ref{situation-olsson-laszlo},\n\\item $R^pf_*\\mathcal{F} \\in \\Ob(\\mathcal{A}')$ for\n$p \\geq 0$ and $\\mathcal{F} \\in \\Ob(\\mathcal{A})$,\n\\item $R^pf_*\\mathcal{F} = 0$ for\n$p > N$ and $\\mathcal{F} \\in \\Ob(\\mathcal{A})$,\n\\end{enumerate}\nThen for $K$ in $D_\\mathcal{A}(\\mathcal{O})$ we have\n\\begin{enumerate}\n\\item[(a)] $Rf_*K$ is in $D_"
         },
         {
           "first_refs": [
@@ -1491,14 +1374,6 @@
         },
         {
           "first_refs": [
-            "proposition-conclusion"
-          ],
-          "id": "candidate.stacks.19f21e6be015bbd8459762b6",
-          "ref_count": 1,
-          "statement": "In the situation of Proposition \\ref{proposition-conclusion}, if\n$X \\to \\Spec(\\Lambda)$ is locally of finite type and $\\Lambda$ is Noetherian,\nthen $L$ is pseudo-coherent."
-        },
-        {
-          "first_refs": [
             "lemma-map-hilbert"
           ],
           "id": "candidate.stacks.1b6702c433fa538210adda63",
@@ -1536,28 +1411,11 @@
         },
         {
           "first_refs": [
-            "lemma-colim-sites-injective"
-          ],
-          "id": "candidate.stacks.2cd4e761d28af978efec7ba2",
-          "ref_count": 1,
-          "statement": "In the situation of Lemma \\ref{lemma-colim-sites-injective} set\n$\\mathcal{F} = \\colim f_i^{-1}\\mathcal{F}_i$.\nLet $i \\in \\Ob(\\mathcal{I})$, $X_i \\in \\text{Ob}(\\mathcal{C}_i)$. Then\n$$\n\\colim_{a : j \\to i} H^p(u_a(X_i), \\mathcal{F}_j) =\nH^p(u_i(X_i), \\mathcal{F})\n$$\nfor all $p \\geq 0$."
-        },
-        {
-          "first_refs": [
             "remark-construction-ob"
           ],
           "id": "candidate.stacks.2d1fa35180e0588a35dd6b76",
           "ref_count": 1,
           "statement": "In the situation of Remark \\ref{remark-construction-ob} assume that\n$\\mathcal{F}$ is flat over $U$. Then the vanishing of the class\n$\\xi_{U'}$ is a necessary and sufficient condition for the existence of a\n$\\mathcal{O}_{X \\times_B U'}$-module $\\mathcal{F}'$ flat over $U'$\nwith $i^*\\mathcal{F}' \\cong \\mathcal{F}$."
-        },
-        {
-          "first_refs": [
-            "situation-bootstrap",
-            "lemma-algebraize-local-cohomology-general"
-          ],
-          "id": "candidate.stacks.34a689a99ed62288c4223a1e",
-          "ref_count": 2,
-          "statement": "Let $I \\subset \\mathfrak a \\subset A$ be ideals of a Noetherian ring $A$\nand let $M$ be a finite $A$-module. Let $s$ and $d$ be integers.\nSuppose that\n\\begin{enumerate}\n\\item $A, I, V(\\mathfrak a), M$ satisfy the assumptions of\nSituation \\ref{situation-bootstrap} for $s$ and $d$, and\n\\item $A, I, \\mathfrak a, M$ satisfy the conditions of\nLemma \\ref{lemma-algebraize-local-cohomology-general}\nfor $s + 1$ and $d$ with $J = \\mathfrak a$.\n\\end{enumerate}\nThen there exists an ideal\n$J_0 \\subset \\mathfrak a$ with $V(J_0) \\cap V(I) = V(\\mathfrak a)$\nsuch that for any $J \\subset J_0$ with $V(J) \\cap V(I) = V(\\mathfrak a)$\nthe map\n$$\nH^{s + 1}_J(M) \\longrightarrow \\lim H^{s + 1}_\\mathfrak a(M/I^nM)\n$$\nis an isomorphism."
         },
         {
           "first_refs": [],
@@ -1572,18 +1430,38 @@
           "id": "candidate.stacks.3915e39aabecac69f862fd43",
           "ref_count": 1,
           "statement": "In the situation of\nLemma \\ref{lemma-map-hilbert}\nassume\n\\begin{enumerate}\n\\item $\\mathcal{Y}' = \\mathcal{Y}$ and $H = \\text{id}_\\mathcal{Y}$,\n\\item $G$ is representable by algebraic spaces and \\'etale.\n\\end{enumerate}\nThen $\\mathcal{H}_d(\\mathcal{X}'/\\mathcal{Y}) \\to\n\\mathcal{H}_d(\\mathcal{X}/\\mathcal{Y})$ is representable by\nalgebraic spaces and \\'etale.\nIf $G$ is also surjective, then\n$\\mathcal{H}_d(\\mathcal{X}'/\\mathcal{Y}) \\to\n\\mathcal{H}_d(\\mathcal{X}/\\mathcal{Y})$ is surjective."
+        },
+        {
+          "first_refs": [],
+          "id": "candidate.stacks.3e81ce3d32aa850ef2173c47",
+          "ref_count": 0,
+          "statement": "Let $I \\subset \\mathfrak a \\subset A$ be ideals of a Noetherian ring $A$.\nLet $U = \\Spec(A) \\setminus V(\\mathfrak a)$. Let $\\mathcal{V}$ be the set\nof open subschemes of $U$ containing $U \\cap V(I)$ ordered by reverse\ninclusion. Let $\\mathcal{F}$ and\n$\\mathcal{G}$ be coherent $\\mathcal{O}_V$-modules for some\n$V \\in \\mathcal{V}$. The map\n$$\n\\colim_{V' \\geq V} \\Hom_V(\\mathcal{G}|_{V'}, \\mathcal{F}|_{V'})\n\\longrightarrow\n\\Hom_{\\textit{Coh}(U, I\\mathcal{O}_U)}(\\mathcal{G}^\\wedge, \\mathcal{F}^\\wedge)\n$$\nis bijective if the following assumptions hold:\n\\begin{enumerate}\n\\item $A$ is $I$-adically complete and has a dualizing complex,\n\\item if $x \\in \\text{Ass}(\\mathcal{F})$, $x \\not \\in V(I)$,\n$\\overline{\\{x\\}} \\cap V(I) \\not \\subset V(\\mathfrak a)$\nand $z \\in \\overline{\\{x\\}} \\cap V(\\mathfrak a)$, then\n$\\dim(\\mathcal{O}_{\\overline{\\{x\\}}, z}) > \\text{cd}(A, I) + 1$.\n\\end{enumerate}"
+        },
+        {
+          "first_refs": [
+            "definition-strict-transform"
+          ],
+          "id": "candidate.stacks.4ce0379b8684c4744ad6c012",
+          "ref_count": 1,
+          "statement": "In the situation of Definition \\ref{definition-strict-transform}.\nSuppose that\n$$\n0 \\to \\mathcal{F}_1 \\to \\mathcal{F}_2 \\to \\mathcal{F}_3 \\to 0\n$$\nis an exact sequence of quasi-coherent sheaves on $X$ which remains\nexact after any base change $T \\to B$. Then the strict transforms of\n$\\mathcal{F}_i'$ relative to any blowup $B' \\to B$\nform a short exact sequence\n$0 \\to \\mathcal{F}'_1 \\to \\mathcal{F}'_2 \\to \\mathcal{F}'_3 \\to 0$ too."
+        },
+        {
+          "first_refs": [],
+          "id": "candidate.stacks.4e18079956c3254573faf84b",
+          "ref_count": 0,
+          "statement": "Let $S$ be a locally Noetherian scheme. Let $f : X \\to S$ be a locally\nquasi-finite morphism of schemes.\n\\begin{enumerate}\n\\item For $\\alpha \\in z(X/S, 0)$ the map $w_\\alpha : X \\to \\mathbf{Z}$\nconstructed above is a weighting.\n\\item If $X$ is quasi-compact, then given a weighting\n$w : X \\to \\mathbf{Z}$ there exists an integer $n > 0$ such\nthat $nw = w_\\alpha$ for some $\\alpha \\in z(X/S, 0)$.\n\\item The integer $n$ in (2) may be chosen to be a power of\nthe prime $p$ if $S$ is a scheme over $\\mathbf{F}_p$.\n\\end{enumerate}"
         }
       ]
     },
     "context_groups": {
-      "as_in_general": 320,
-      "definition_reference": 34,
-      "explicit_situation": 312,
-      "lemma_context": 11,
-      "section_reference": 57,
-      "source_metadata": 13,
+      "as_in_general": 241,
+      "definition_reference": 32,
+      "explicit_situation": 117,
+      "lemma_context": 8,
+      "section_reference": 43,
+      "source_metadata": 10,
       "standalone_above": 246,
-      "uncategorized_context": 81
+      "uncategorized_context": 70
     },
     "hard_examples": {
       "conditional": [
@@ -1716,10 +1594,6 @@
           "statement": "There exists a quasi-compact and quasi-separated scheme $X$ which does\nnot contain a separated quasi-compact dense open."
         },
         {
-          "id": "candidate.stacks.021448cd1d63bc67c087d3a0",
-          "statement": "The base change of a morphism which is unramified is unramified.\nThe same holds for G-unramified morphisms."
-        },
-        {
           "id": "candidate.stacks.0260c17e708ea846c6f2da7b",
           "statement": "The property of morphisms of germs of schemes\n\\begin{align*}\n& \\mathcal{P}((X, x) \\to (S, s)) = \\\\\n& \\text{the local ring }\n\\mathcal{O}_{X_s, x}\n\\text{ of the fibre is Noetherian and Gorenstein}\n\\end{align*}\nis \\'etale local on the source-and-target (Descent, Definition\n\\ref{descent-definition-local-source-target-at-point})."
         },
@@ -1730,14 +1604,6 @@
         {
           "id": "candidate.stacks.079c5b6c631ea0f19212d790",
           "statement": "Example \\ref{example-finite-projective-modules}\nsatisfies the Rim-Schlessinger condition (RS).\nIn particular, $\\Deformationcategory_V$ is a deformation category\nfor any finite dimensional vector space $V$ over $k$."
-        },
-        {
-          "id": "candidate.stacks.081cf628edce63cc5563621c",
-          "statement": "Proper morphisms of formal algebraic spaces are preserved by base change."
-        },
-        {
-          "id": "candidate.stacks.0c7842d3d43201aa1a90d343",
-          "statement": "The composition of two morphisms of algebraic spaces which satisfy the\n(existence part of, resp.\\ uniqueness part of) the valuative criterion\nsatisfies the (existence part of, resp.\\ uniqueness part of) the valuative\ncriterion."
         },
         {
           "id": "candidate.stacks.0c7f07b4295c3b6d51fd8e56",
@@ -1772,10 +1638,6 @@
           "statement": "In Cohomology of Spaces, Situation \\ref{spaces-cohomology-situation-vanishing}\nthe morphism $p : X \\to \\Spec(A)$ is surjective."
         },
         {
-          "id": "candidate.stacks.197bfc2178ef0eac23e47219",
-          "statement": "Let $f : Y \\to X$ be a morphism of smooth projective schemes over $k$.\nAssume $X$ and $Y$ equidimensional of dimensions $d$ and $e$.\nDenote $a = [\\Gamma_f] \\in \\text{Corr}^0(X, Y)$ and\n$a^t = [\\Gamma_f^t] \\in \\text{Corr}^{d - e}(Y, X)$.\nSet\n$\\eta_X = [\\Gamma_{X \\to X \\times X}] \\in \\text{Corr}^0(X \\times X, X)$,\n$\\eta_Y = [\\Gamma_{Y \\to Y \\times Y}] \\in \\text{Corr}^0(Y \\times Y, Y)$,\n$[X] \\in \\text{Corr}^{-d}(X, \\Spec(k))$, and\n$[Y] \\in \\text{Corr}^{-e}(Y, \\Spec(k))$. The diagram\n$$\n\\xymatrix{\nX \\otimes Y \\ar[r]_{a \\otimes \\text{id}} \\ar[d]_{\\text{id} \\otimes a^t} &\nY \\otimes Y \\ar[r]_{\\eta_Y} &\nY \\ar[d]^{[Y]} \\\\\nX \\otimes X \\ar[r]^{\\eta_X} &\nX \\ar[r]^{[X]} &\n\\Spec(k)\n}\n$$\nis commutative in the category of correspondences."
-        },
-        {
           "id": "candidate.stacks.1aa6924ab43995b6b7d2c7b8",
           "statement": "Having property $(\\beta)$, being decent, or being reasonable\nis preserved under arbitrary base change."
         },
@@ -1784,25 +1646,53 @@
           "statement": "In Example \\ref{example-spaces} let $X$ be an algebraic space over $k$. Then\n$$\n\\text{Inf}(\\Deformationcategory_X) =\n\\text{Ext}^0_{\\mathcal{O}_X}(\\NL_{X/k}, \\mathcal{O}_X) =\n\\Hom_{\\mathcal{O}_X}(\\Omega_{X/k}, \\mathcal{O}_X) =\n\\text{Der}_k(\\mathcal{O}_X, \\mathcal{O}_X)\n$$\nand\n$$\nT\\Deformationcategory_X =\n\\text{Ext}^1_{\\mathcal{O}_X}(\\NL_{X/k}, \\mathcal{O}_X)\n$$"
         },
         {
-          "id": "candidate.stacks.1c73504c3f8248ad4da228f6",
-          "statement": "Compositions of monomorphisms of algebraic stacks are monomorphisms."
-        },
-        {
           "id": "candidate.stacks.1d0dad4daae7b65300954758",
           "statement": "There exists a local homomorphism $A \\to B$ of local domains which is\nessentially of finite type and such that $A/\\mathfrak m_A \\to B/\\mathfrak m_B$\nis finite such that for every prime\n$\\mathfrak q \\not = \\mathfrak m_B$ of $B$ the ring map\n$A \\to B/\\mathfrak q$ is not the localization of a quasi-finite ring map."
+        },
+        {
+          "id": "candidate.stacks.1f4a4b8bf5315b9f9781df55",
+          "statement": "Example \\ref{example-rings}\nsatisfies the Rim-Schlessinger condition (RS).\nIn particular, $\\Deformationcategory_P$ is a deformation category\nfor any $k$-algebra $P$."
+        },
+        {
+          "id": "candidate.stacks.1f7e5c429713796eeb4f9773",
+          "statement": "For any morphism (\\ref{equation-morphism}) the map $f' : V' \\to U'$ is \\'etale."
+        },
+        {
+          "id": "candidate.stacks.1f8df2ae262b1616b807a0a3",
+          "statement": "With $S = \\Spec(\\mathbf{F}_p)$ the inclusion functor\n$(\\textit{Noetherian}/S)_{fppf} \\to (\\Sch/S)_{fppf}$\ndoes not define a morphism of sites."
+        },
+        {
+          "id": "candidate.stacks.2239cc2db45b09a6b288449a",
+          "statement": "The \\'etale cover $U \\to X$ cannot be refined by any finite composition\nof open immersions and finite \\'etale morphisms."
+        },
+        {
+          "id": "candidate.stacks.224c37b524fafa34b750fb58",
+          "statement": "In Algebraic and Formal Geometry, Situation\n\\ref{algebraization-situation-bootstrap}\nwe have $H^s_\\mathfrak a(M) = \\lim H^s_\\mathfrak a(M/I^nM)$."
         }
       ]
     },
     "hard_groups": {
       "conditional": 10,
-      "enumerate": 198,
-      "unconditional": 203
+      "enumerate": 195,
+      "unconditional": 184
+    },
+    "higher_thinking_review": {
+      "classification": 3,
+      "context": 767,
+      "do_not_autopromote": true,
+      "priority": [
+        "conjecture_or_unproven_claim",
+        "inherited_assumptions",
+        "nested_scopes_or_unconditional_result"
+      ],
+      "source_of_truth": "pass2.jsonl",
+      "structure": 389
     },
     "statuses": {
       "needs_classification": 3,
-      "needs_context": 1074,
-      "needs_structure": 411,
-      "resolved": 6377
+      "needs_context": 767,
+      "needs_structure": 389,
+      "resolved": 6706
     }
   },
   "stacks-second-2026-10-28": {
@@ -1829,14 +1719,6 @@
         },
         {
           "first_refs": [
-            "lemma-norm-invertible"
-          ],
-          "id": "candidate.stacks.0920b158ba3ad6f45e1713c0",
-          "ref_count": 1,
-          "statement": "Let $\\pi : X \\to Y$ be a finite morphism of schemes. Assume there exists\na norm of degree $d$ for $\\pi$. For any $\\mathcal{O}_X$-linear map\n$\\varphi : \\mathcal{L} \\to \\mathcal{L}'$\nof invertible $\\mathcal{O}_X$-modules there is an $\\mathcal{O}_Y$-linear\nmap\n$$\n\\text{Norm}_\\pi(\\varphi) :\n\\text{Norm}_\\pi(\\mathcal{L})\n\\longrightarrow\n\\text{Norm}_\\pi(\\mathcal{L}')\n$$\nwith $\\text{Norm}_\\pi(\\mathcal{L})$, $\\text{Norm}_\\pi(\\mathcal{L}')$\nas in Lemma \\ref{lemma-norm-invertible}. Moreover, for\n$y \\in Y$ the following are equivalent\n\\begin{enumerate}\n\\item $\\varphi$ is zero at a point of $x \\in X$ with $\\pi(x) = y$, and\n\\item $\\text{Norm}_\\pi(\\varphi)$ is zero at $y$.\n\\end{enumerate}"
-        },
-        {
-          "first_refs": [
             "lemma-point-localize"
           ],
           "id": "candidate.stacks.0af8b6d2d7c17046230f4d10",
@@ -1853,27 +1735,11 @@
         },
         {
           "first_refs": [
-            "lemma-module-over-fibre-product"
-          ],
-          "id": "candidate.stacks.0b6dc4a2017b672e416cd532",
-          "ref_count": 1,
-          "statement": "Let $A, A', B, B', I, M, M', N, \\varphi$ be as in\nLemma \\ref{lemma-module-over-fibre-product}.\nIf $N$ finite over $B$ and $M'$ finite over $A'$, then\n$N' = N \\times_{\\varphi, M} M'$ is finite over $B'$."
-        },
-        {
-          "first_refs": [
             "example-Gm-on-affine"
           ],
           "id": "candidate.stacks.105001f08f51b2239bda335d",
           "ref_count": 1,
           "statement": "Let $a : \\mathbf{G}_m \\times X \\to X$ be an action on an affine scheme.\nThen $X$ is the spectrum of a $\\mathbf{Z}$-graded ring\nand the action is as in Example \\ref{example-Gm-on-affine}."
-        },
-        {
-          "first_refs": [
-            "lemma-equation-plane-curve"
-          ],
-          "id": "candidate.stacks.1540e2b85511c4c321a547fb",
-          "ref_count": 1,
-          "statement": "Let $Z \\subset \\mathbf{P}^2_k$ be as in Lemma \\ref{lemma-equation-plane-curve}\nand let $I(Z) = (F)$ for some $F \\in k[T_0, T_1, T_2]$.\nIf $Z \\to \\Spec(k)$ is smooth in at least one point and $k$ is infinite, then\nthere exists a closed point $z \\in Z$ contained in the smooth\nlocus such that $\\kappa(z)/k$ is finite separable of degree\nat most $d$."
         },
         {
           "first_refs": [
@@ -1919,20 +1785,45 @@
         },
         {
           "first_refs": [
-            "lemma-nodal-algebraic"
-          ],
-          "id": "candidate.stacks.29cf925a0a379e3e1f8e075f",
-          "ref_count": 1,
-          "statement": "Let $k$ be a field. Let $A = k[[x_1, \\ldots, x_n]]$. Let\n$I = (f_1, \\ldots, f_m) \\subset \\mathfrak m_A$ be an ideal. The following\nare equivalent\n\\begin{enumerate}\n\\item $k \\to A/I$ is as in Lemma \\ref{lemma-nodal-algebraic},\n\\item $A/I$ is reduced and the\n$(n - 1) \\times (n - 1)$ minors of the matrix\n$(\\partial f_j/\\partial x_i)$ generate $I + \\mathfrak m_A$,\n\\item $\\text{depth}(A/I) = 1$ and the\n$(n - 1) \\times (n - 1)$ minors of the matrix\n$(\\partial f_j/\\partial x_i)$ generate $I + \\mathfrak m_A$.\n\\end{enumerate}"
-        },
-        {
-          "first_refs": [
             "equation-complete-local-ring",
             "equation-complete-local-ring"
           ],
           "id": "candidate.stacks.2b4677ce183ce55a94cf9f3f",
           "ref_count": 2,
           "statement": "Let $K/k$ be an extension of fields. Let $X$ be a locally algebraic\n$k$-scheme. Set $Y = X_K$. Let $y \\in Y$ be a point with image $x \\in X$.\nAssume that $\\dim(\\mathcal{O}_{X, x}) = \\dim(\\mathcal{O}_{Y, y})$\nand that $\\kappa(x)/k$ is separable.\nChoose an isomorphism\n$$\n\\kappa(x)[[x_1, \\ldots, x_n]]/(g_1, \\ldots, g_m) \\longrightarrow\n\\mathcal{O}_{X, x}^\\wedge\n$$\nof $k$-algebras as in (\\ref{equation-complete-local-ring}).\nThen we have an isomorphism\n$$\n\\kappa(y)[[x_1, \\ldots, x_n]]/(g_1, \\ldots, g_m) \\longrightarrow\n\\mathcal{O}_{Y, y}^\\wedge\n$$\nof $K$-algebras as in (\\ref{equation-complete-local-ring}). Here we use\n$\\kappa(x) \\to \\kappa(y)$ to view $g_j$ as a power series\nover $\\kappa(y)$."
+        },
+        {
+          "first_refs": [
+            "equation-d-cech"
+          ],
+          "id": "candidate.stacks.3048a7de4915316d45cbd968",
+          "ref_count": 1,
+          "statement": "Let $X$ be a ringed space. Let $\\mathcal{U} : X = \\bigcup_{i \\in I} U_i$\nbe an open covering of $X$. Let $\\mathcal{F}$ be an $\\mathcal{O}_X$-module.\nDenote $\\mathcal{F}_{i_0 \\ldots i_p}$ the restriction of\n$\\mathcal{F}$ to $U_{i_0 \\ldots i_p}$. There exists a complex\n${\\mathfrak C}^\\bullet(\\mathcal{U}, \\mathcal{F})$\nof $\\mathcal{O}_X$-modules with\n$$\n{\\mathfrak C}^p(\\mathcal{U}, \\mathcal{F}) =\n\\prod\\nolimits_{i_0 \\ldots i_p}\n(j_{i_0 \\ldots i_p})_* \\mathcal{F}_{i_0 \\ldots i_p}\n$$\nand differential\n$d : {\\mathfrak C}^p(\\mathcal{U}, \\mathcal{F})\n\\to {\\mathfrak C}^{p + 1}(\\mathcal{U}, \\mathcal{F})$\nas in Equation (\\ref{equation-d-cech}). Moreover, there exists a canonical\nmap\n$$\n\\mathcal{F} \\to {\\mathfrak C}^\\bullet(\\mathcal{U}, \\mathcal{F})\n$$\nwhich is a quasi-isomorphism, i.e.,\n${\\mathfrak C}^\\bullet(\\mathcal{U}, \\mathcal{F})$\nis a resolution of $\\mathcal{F}$."
+        },
+        {
+          "first_refs": [
+            "equation-invariants"
+          ],
+          "id": "candidate.stacks.35a17a7c083ec8ef51a93376",
+          "ref_count": 1,
+          "statement": "Let $S$ be a scheme. Let $(U, R, s, t, c)$ be a groupoid scheme over $S$.\nAssume $U = \\Spec(A)$ and $R = \\Spec(B)$ are affine and\n$s, t : R \\to U$ finite locally free. Let $C \\subset A$ be as in\n(\\ref{equation-invariants}). Let $C \\to C'$ be a ring map, and set\n$U' = \\Spec(A \\otimes_C C')$,\n$R' = \\Spec(B \\otimes_C C')$.\nThen\n\\begin{enumerate}\n\\item The maps $s, t, c$ induce maps $s', t', c'$ such that\n$(U', R', s', t', c')$ is a groupoid scheme. Let $C^1 \\subset A'$\nbe the $R'$-invariant functions on $U'$.\n\\item The canonical map $\\varphi : C' \\to C^1$ satisfies\n\\begin{enumerate}\n\\item for every $f \\in C^1$ there exists an $n > 0$ and a\npolynomial $P \\in C'[x]$ whose image in $C^1[x]$ is\n$(x - f)^n$, and\n\\item for every $f \\in \\Ker(\\varphi)$ there exists\nan $n > 0$ such that $f^n = 0$.\n\\end{enumerate}\n\\item If $C \\to C'$ is flat then $\\varphi$ is an isomorphism.\n\\end{enumerate}"
+        },
+        {
+          "first_refs": [
+            "lemma-localize-cocontinuous"
+          ],
+          "id": "candidate.stacks.480ac2c1fe30f05025064aae",
+          "ref_count": 1,
+          "statement": "Let $\\mathcal{C}$, $\\mathcal{D}$ be sites.\nLet $u : \\mathcal{C} \\to \\mathcal{D}$ be a special cocontinuous functor.\nFor every object $U$ of $\\mathcal{C}$ we have a commutative diagram\n$$\n\\xymatrix{\n\\mathcal{C}/U \\ar[r]_{j_U} \\ar[d] & \\mathcal{C} \\ar[d]^u \\\\\n\\mathcal{D}/u(U) \\ar[r]^-{j_{u(U)}} & \\mathcal{D}\n}\n$$\nas in Lemma \\ref{lemma-localize-cocontinuous}.\nThe left vertical arrow is a special cocontinuous functor.\nHence in the commutative diagram of topoi\n$$\n\\xymatrix{\n\\Sh(\\mathcal{C}/U) \\ar[r]_{j_U} \\ar[d] &\n\\Sh(\\mathcal{C}) \\ar[d]^u \\\\\n\\Sh(\\mathcal{D}/u(U)) \\ar[r]^-{j_{u(U)}} &\n\\Sh(\\mathcal{D})\n}\n$$\nthe vertical arrows are equivalences."
+        },
+        {
+          "first_refs": [
+            "lemma-ses-termwise-split-cochain",
+            "lemma-long-exact-sequence-cochain"
+          ],
+          "id": "candidate.stacks.52adfb8dbd6f037524063bc0",
+          "ref_count": 2,
+          "statement": "Notation and assumptions as in\nLemma \\ref{lemma-ses-termwise-split-cochain} above.\nAssume in addition that $\\mathcal{A}$ is abelian.\nThe morphism of complexes $\\delta : C^\\bullet \\to A[1]^\\bullet$\ninduces the maps\n$$\nH^i(\\delta) :\nH^i(C^\\bullet) \\longrightarrow H^i(A[1]^\\bullet) = H^{i + 1}(A^\\bullet)\n$$\nwhich occur in the long exact homology sequence associated\nto the short exact sequence of cochain complexes by\nLemma \\ref{lemma-long-exact-sequence-cochain}."
         }
       ],
       "definition_reference": [
@@ -2115,14 +2006,6 @@
           "id": "candidate.stacks.691715b836f2a28460f3ce4a",
           "ref_count": 1,
           "statement": "Assumptions and notation as in Lemma \\ref{lemma-first-observation}.\nThere exists an $R$-invariant open $V \\subset U$ and a quasi-compact\nopen $W'$ such that $W \\subset V \\subset W' \\subset U$."
-        },
-        {
-          "first_refs": [
-            "lemma-write-as-colimit"
-          ],
-          "id": "candidate.stacks.dddb2ad135e6ad3b969b39a2",
-          "ref_count": 1,
-          "statement": "With assumptions and notation as in Lemma \\ref{lemma-write-as-colimit}.\nIf $C$ is a compact object and $C \\to X_n$ is a morphism, then\nthere is a factorization $C \\to E \\to X_n$ where\n$E$ is an object of $\\langle E_{i_1} \\oplus \\ldots \\oplus E_{i_t} \\rangle$\nfor some $i_1, \\ldots, i_t \\in I$."
         }
       ],
       "section_reference": [
@@ -2249,14 +2132,6 @@
         },
         {
           "first_refs": [
-            "lemma-pullback"
-          ],
-          "id": "candidate.stacks.074764ecf2555e099ef3d653",
-          "ref_count": 1,
-          "statement": "In the situation of Lemma \\ref{lemma-pullback}\nassume that $f : X' \\to X$ is surjective\nand flat. Then the pullback functor is faithful."
-        },
-        {
-          "first_refs": [
             "definition-intersection-number"
           ],
           "id": "candidate.stacks.1459726f136737244ffc20a3",
@@ -2284,14 +2159,6 @@
           "id": "candidate.stacks.22b698b34656f64af2d8d3e7",
           "ref_count": 1,
           "statement": "In the situation of Definition \\ref{definition-quotient-sheaf}.\nAssume there is a scheme $M$, and a morphism $U \\to M$ such that\n\\begin{enumerate}\n\\item the morphism $U \\to M$ equalizes $s, t$,\n\\item the morphism $U \\to M$ induces a surjection of sheaves\n$h_U \\to h_M$ in the $\\tau$-topology, and\n\\item the induced map $(t, s) : R \\to U \\times_M U$ induces a\nsurjection of sheaves $h_R \\to h_{U \\times_M U}$ in the $\\tau$-topology.\n\\end{enumerate}\nIn this case $M$ represents the quotient sheaf $U/R$."
-        },
-        {
-          "first_refs": [
-            "lemma-exact-sequence-induction"
-          ],
-          "id": "candidate.stacks.22e43cc4798c8fabd00ac590",
-          "ref_count": 1,
-          "statement": "In the situation of Lemma \\ref{lemma-exact-sequence-induction},\nif $\\mathcal{F}$ is $m$-regular, then $\\mathcal{G}$ is $m$-regular\non $H \\cong \\mathbf{P}^{n - 1}_k$."
         },
         {
           "first_refs": [
@@ -2348,24 +2215,37 @@
           "id": "candidate.stacks.662e7f5c669160da568b077f",
           "ref_count": 1,
           "statement": "In the situation of Definition \\ref{definition-strict-transform}.\nSuppose that\n$$\n0 \\to \\mathcal{F}_1 \\to \\mathcal{F}_2 \\to \\mathcal{F}_3 \\to 0\n$$\nis an exact sequence of quasi-coherent sheaves on $X$ which remains\nexact after any base change $T \\to S$. Then the strict transforms of\n$\\mathcal{F}_i'$ relative to any blowup $S' \\to S$\nform a short exact sequence\n$0 \\to \\mathcal{F}'_1 \\to \\mathcal{F}'_2 \\to \\mathcal{F}'_3 \\to 0$ too."
+        },
+        {
+          "first_refs": [
+            "lemma-is-limit",
+            "equation-into-candidate-K-injective"
+          ],
+          "id": "candidate.stacks.68996c22a8951b72a86fce6d",
+          "ref_count": 2,
+          "statement": "In the situation described above.\nDenote $\\mathcal{H}^m = H^m(\\mathcal{F}^\\bullet)$ the $m$th cohomology sheaf.\nLet $\\mathcal{B}$ be a set of open subsets of $X$.\nLet $d \\in \\mathbf{N}$.\nAssume\n\\begin{enumerate}\n\\item every open in $X$ has a covering whose members are\nelements of $\\mathcal{B}$,\n\\item for every $U \\in \\mathcal{B}$ we have $H^p(U, \\mathcal{H}^q) = 0$\nfor $p > d$ and $q < 0$\\footnote{It suffices if\n$\\forall m$, $\\exists p(m)$, $H^p(U. \\mathcal{H}^{m - p}) = 0$ for\n$p > p(m)$, see Lemma \\ref{lemma-is-limit}.}.\n\\end{enumerate}\nThen (\\ref{equation-into-candidate-K-injective}) is a quasi-isomorphism."
+        },
+        {
+          "first_refs": [
+            "lemma-localize-topos"
+          ],
+          "id": "candidate.stacks.70cce52238834bbbe458e842",
+          "ref_count": 1,
+          "statement": "In the situation of Lemma \\ref{lemma-localize-topos}, the functor\n$j_{\\mathcal{F}, *}$ is the one associates to\n$\\varphi : \\mathcal{G} \\to \\mathcal{F}$ the sheaf\n$$\nU\n\\longmapsto\n\\{\\alpha : \\mathcal{F}|_U \\to \\mathcal{G}|_U\n\\text{ such that } \\alpha \\text{ is a right inverse to }\\varphi|_U \\}.\n$$"
         }
       ]
     },
     "context_groups": {
-      "as_in_general": 75,
+      "as_in_general": 44,
       "definition_reference": 5,
-      "explicit_situation": 22,
-      "lemma_context": 2,
+      "explicit_situation": 21,
+      "lemma_context": 1,
       "section_reference": 2,
       "standalone_above": 26,
-      "uncategorized_context": 30
+      "uncategorized_context": 26
     },
     "hard_examples": {
       "enumerate": [
-        {
-          "id": "candidate.stacks.0715d47a5f83b15986d1fdd9",
-          "statement": "Let $X$ be a scheme.\nLet $\\mathcal{L}$ be an invertible $\\mathcal{O}_X$-module.\nIn each of the following cases $\\mathcal{L}$ has a regular meromorphic\nsection:\n\\begin{enumerate}\n\\item $X$ is integral,\n\\item $X$ is reduced and any quasi-compact open has a finite\nnumber of irreducible components,\n\\item $X$ is locally Noetherian and has no embedded points.\n\\end{enumerate}"
-        },
         {
           "id": "candidate.stacks.135c81ccc6bba5392dcf94d7",
           "statement": "Let $X$ be a scheme.\n\\begin{enumerate}\n\\item If $D \\subset X$ is an effective Cartier divisor, then\nthe canonical section $1_D$ of $\\mathcal{O}_X(D)$ is regular.\n\\item Conversely, if $s$ is a regular section of the invertible\nsheaf $\\mathcal{L}$, then there exists a unique effective\nCartier divisor $D = Z(s) \\subset X$ and a unique isomorphism\n$\\mathcal{O}_X(D) \\to \\mathcal{L}$ which maps $1_D$ to $s$.\n\\end{enumerate}\nThe constructions\n$D \\mapsto (\\mathcal{O}_X(D), 1_D)$ and $(\\mathcal{L}, s) \\mapsto Z(s)$\ngive mutually inverse maps\n$$\n\\left\\{\n\\begin{matrix}\n\\text{effective Cartier divisors on }X\n\\end{matrix}\n\\right\\}\n\\leftrightarrow\n\\left\\{\n\\begin{matrix}\n\\text{isomorphism classes of pairs }(\\mathcal{L}, s)\\\\\n\\text{consisting of an invertible }\n\\mathcal{O}_X\\text{-module}\\\\\n\\mathcal{L}\\text{ and a regular global section }s\n\\end{matrix}\n\\right\\}\n$$"
@@ -2385,10 +2265,6 @@
         {
           "id": "candidate.stacks.44e5bccc1d9dd9b0b8de1b03",
           "statement": "Let $(A, \\mathfrak m)$ be a Noetherian $1$-dimensional local ring.\nLet $f \\in \\mathfrak m$. The following are equivalent\n\\begin{enumerate}\n\\item $\\mathfrak m = \\sqrt{(f)}$,\n\\item $f$ is not contained in any minimal prime of $A$, and\n\\item $A_f = \\prod_{\\mathfrak p\\text{ minimal}} A_\\mathfrak p$ as $A$-algebras.\n\\end{enumerate}\nSuch an $f \\in \\mathfrak m$ exists. If $\\text{depth}(A) = 1$ (for example\n$A$ is reduced), then (1) -- (3) are also equivalent to\n\\begin{enumerate}\n\\item[(4)] $f$ is a nonzerodivisor,\n\\item[(5)] $A_f$ is the total ring of fractions of $A$.\n\\end{enumerate}\nIf $A$ is reduced, then (1) -- (5) are also equivalent to\n\\begin{enumerate}\n\\item[(6)] $A_f$ is the product of the residue fields at the minimal\nprimes of $A$.\n\\end{enumerate}"
-        },
-        {
-          "id": "candidate.stacks.47e02390a94bfe1a1bb06876",
-          "statement": "Let $f : X \\to Y$ be a morphism of schemes.\nIn each of the following cases pullbacks of meromorphic\nfunctions are defined.\n\\begin{enumerate}\n\\item every weakly associated point of $X$ maps to\na generic point of an irreducible component of $Y$,\n\\item $X$, $Y$ are integral and $f$ is dominant,\n\\item $X$ is integral and the generic point of $X$ maps\nto a generic point of an irreducible component of $Y$,\n\\item $X$ is reduced and every generic point of every irreducible\ncomponent of $X$ maps to the generic point of an irreducible component\nof $Y$,\n\\item $X$ is locally Noetherian, and any associated point of\n$X$ maps to a generic point of an irreducible component of $Y$,\n\\item $X$ is locally Noetherian, has no embedded points and\nany generic point of an irreducible component of\n$X$ maps to the generic point of an irreducible component of $Y$, and\n\\item $f$ is flat.\n\\end{enumerate}"
         },
         {
           "id": "candidate.stacks.4b89e6c924b085fd82ab9a7e",
@@ -2441,6 +2317,14 @@
         {
           "id": "candidate.stacks.bc5e2d13c8096b7f389d6340",
           "statement": "For any ring $A$ there exists an extension $A \\subset B$ such that\n\\begin{enumerate}\n\\item $B$ is a filtered colimit of finite free $A$-algebras,\n\\item $B$ is free as an $A$-module, and\n\\item $B$ is absolutely integrally closed.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.c0cbfb8a059938bee7331992",
+          "statement": "Let $\\mathcal{C}$ be a category. Let $T$ be a set. For $t \\in T$\nlet $X_t$, $Y_t$ be simplicial objects of $\\mathcal{C}$. Assume\n$X = \\prod_{t \\in T} X_t$ and $Y = \\prod_{t \\in T} Y_t$ exist.\n\\begin{enumerate}\n\\item If $X_t$ and $Y_t$ are homotopy equivalent for all $t \\in T$\nand $T$ is finite, then $X$ and $Y$ are homotopy equivalent.\n\\end{enumerate}\nFor $t \\in T$ let $a_t, b_t : X_t \\to Y_t$ be morphisms.\nSet $a = \\prod a_t : X \\to Y$ and $b = \\prod b_t : X \\to Y$.\n\\begin{enumerate}\n\\item[(2)] If there exists a homotopy from $a_t$ to $b_t$ for\nall $t \\in T$, then there exists a homotopy from $a$ to $b$.\n\\item[(3)] If $T$ is finite and $a_t, b_t : X_t \\to Y_t$ for $t \\in T$\nare homotopic, then $a$ and $b$ are homotopic.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.d5544f360908e31ab226ff18",
+          "statement": "Let $S$ be a scheme. Let $\\mathcal{A}$ be a quasi-coherent graded\n$\\mathcal{O}_S$-algebra. Let\n$p : X = \\underline{\\text{Proj}}_S(\\mathcal{A}) \\to S$ be the relative\nProj of $\\mathcal{A}$. The following conditions are equivalent\n\\begin{enumerate}\n\\item $\\mathcal{A}_0$ is a finite type $\\mathcal{O}_S$-module\nand $\\mathcal{A}$ is of finite type as an $\\mathcal{A}_0$-algebra,\n\\item $\\mathcal{A}_0$ is a finite type $\\mathcal{O}_S$-module\nand $\\mathcal{A}$ is of finite type as an $\\mathcal{O}_S$-algebra\n\\end{enumerate}\nIf these conditions hold, then $p$ is locally projective and in\nparticular proper."
         }
       ],
       "unconditional": [
@@ -2527,13 +2411,25 @@
       ]
     },
     "hard_groups": {
-      "enumerate": 28,
+      "enumerate": 26,
       "unconditional": 26
     },
+    "higher_thinking_review": {
+      "classification": 0,
+      "context": 125,
+      "do_not_autopromote": true,
+      "priority": [
+        "conjecture_or_unproven_claim",
+        "inherited_assumptions",
+        "nested_scopes_or_unconditional_result"
+      ],
+      "source_of_truth": "pass2.jsonl",
+      "structure": 52
+    },
     "statuses": {
-      "needs_context": 162,
-      "needs_structure": 54,
-      "resolved": 1806
+      "needs_context": 125,
+      "needs_structure": 52,
+      "resolved": 1845
     }
   }
 }
