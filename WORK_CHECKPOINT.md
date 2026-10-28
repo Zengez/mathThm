@@ -1,3 +1,11 @@
+## October 28, 2026 — three-pass theorem harvesting design (discussion only)
+
+**New reference:** [HARVEST_DESIGN.md](HARVEST_DESIGN.md). The user endorsed a very low-reasoning Pass 1 that saves full theorem statements and merely **apparent** proof locations (no proof reading), followed by Pass 2 to separate hypotheses/results and cheaply resolve local assumptions such as “as in Lemma 4.2,” followed by a strict-stop Pass 3 that scans the actual proof only for immediately evident issues. Pass 3 outcomes are **plausible/provisionally true** (quick scan completed without evident issue), **questionable** (scan truncated because necessary follow-up exceeded budget), and **rejected** (positive identifiable issue). Preserve the distinction between source confidence and proof-screening confidence and between rejected *proof evidence* and a false *theorem*.
+
+**Not authorized:** harvesting-engine implementation, corpus harvesting, proof research, interface redesign. These remain for the next design/implementation decisions. Recommended default (pending user approval): only fully structured plausible entries enter public accepted records; questionable/needs-context/rejected-evidence candidates are retained separately. Collect 200–300 provisional results before revisiting UI decisions. See HARVEST_DESIGN.md for assumptions, caveats and open questions.
+
+---
+
 ## October 28, 2026 — linking and theorem schema completed; harvesting-engine design is NEXT
 
 **User direction:** Finish definition linking and theorem-record schema now. Explicitly **do not build the collection engine yet**; discuss a much smaller, more efficient engine first because mathDef's initial pipeline grew disproportionately complicated. After the engine is agreed, collect at least a couple of hundred real theorems BEFORE revisiting substantial UI/performance design choices. No bulk theorem collection performed in this tranche.
