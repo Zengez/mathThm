@@ -38,6 +38,7 @@ def validate():
     entering=Counter()
     leaving=Counter()
     candidate_scopes=[]
+    lemma_end_lines=[]
     for event in events:
         kind=event["kind"]
         if kind=="enter_local_environment":
@@ -47,6 +48,8 @@ def validate():
             assert stack and stack[-1]["kind"]==event["environment"],(stack,event)
             prior=stack.pop()
             leaving[event["environment"]]+=1
+            if prior["kind"]=="lemma":
+                lemma_end_lines.append(event["line"])
             if prior["kind"]=="definition" and prior["line"]==4639:
                 named_defs.append({"kind":"definition","label":"definition-flat",
                                    "source_url":"https://github.com/stacks/stacks-project/blob/"
@@ -96,7 +99,8 @@ def validate():
             assert not stack or stack[-1]["kind"]=="lemma"
     assert not stack, stack
     assert seen==all_ids
-    assert len(candidate_scopes)==15
+    assert len(candidate_scopes)==len(lemma_end_lines)==15
+    assert all(end>candidate_scopes[i]["source_line"] for i,end in enumerate(lemma_end_lines))
     assert entering["definition"]==leaving["definition"]==1
     assert entering["lemma"]==leaving["lemma"]==15
     assert all("source_url" in x for x in named_defs)
@@ -105,11 +109,13 @@ def validate():
     # definition is available by label but no individual lemma's variables
     # persist into subsequent lemmas.
     checkpoints=[]
-    for x in candidate_scopes:
+    for idx,x in enumerate(candidate_scopes):
         checkpoints.append({
             "section_id":"morphisms:section-flat",
             "after_candidate_id":x["candidate_id"],
-            "next_statement_line":x["source_line"]+1,
+            "last_completed_environment_end_line":lemma_end_lines[idx],
+            "resume_source_line_after_environment":lemma_end_lines[idx]+1,
+            "next_statement_line":lemma_end_lines[idx]+1,
             "active_local_environment_hypotheses":[],
             "effective_section_hypotheses":[],
             "available_named_source_definitions":named_defs,
