@@ -59,16 +59,17 @@ def closure_statement(base,body):
         if k and re.fullmatch(r"(?i)The same (?:holds|is true) for [^.]+\.?",part):
             # Scope is inherited from first sentence; source-specific
             # property is retained as an independent follow-up case.
+            named_subject=re.sub(r"(?i)^The same (?:holds|is true) for ", "",part).strip(" .")
             cases.append({"logical_form":"parallel_closure_property",
-                "hypotheses":[segments[0],"source follow-up property: "+part],
+                "hypotheses":[named_subject],
                 "conclusions":[part],"source_clause":part})
-            hypotheses.append("source follow-up property: "+part)
+            hypotheses.append(named_subject)
             conclusions.append(part)
             continue
         m=PROPERTIES.fullmatch(part) or COMPOSITION.fullmatch(part) or BASED.fullmatch(part)
         if not m:return None
         subject=m.group("subject").strip()
-        if not subject or len(subject)>350 or "if and only if" in part.lower():return None
+        if not subject or len(subject)>350 or "if and only if" in part.lower() or re.search(r"(?i)\bis another\b",subject):return None
         # Explicit subject property is the hypothesis search target; the
         # entire statement is retained in results to avoid rewording an
         # algebraic/geometric condition.
@@ -122,6 +123,16 @@ def explicit_listed_conditional_results(base,body):
         return None
     items=list_items(body,blocks[0])
     if not items or len(items)>14 or any(ELLIPSIS.search(x) for x in items):
+        return None
+    # These lists are not independent theorem assertions: (i) a list of
+    # conditions jointly equivalent to a prior predicate; (ii) fragments
+    # such as "\item are given by"; (iii) independent item-level setups.
+    if re.search(r"(?i)\bif\s+and\s+only\s+if\b",mask_math(pre)):
+        return None
+    if len(re.findall(r"(?i)\bthen\b",mask_math(pre)))>1:
+        return None
+    if any(re.match(r"(?i)^(?:are\s+given\s+by|Let\b|Suppose\b)",item.strip())
+           for item in items):
         return None
     # Avoid title-only metadata becoming the shared assumptions.
     m=re.search(r"\b(?:Let|Given|Suppose|Fix|Consider|Assume)\b",mask_math(pre),re.I)
