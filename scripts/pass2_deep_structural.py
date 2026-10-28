@@ -18,6 +18,7 @@ try:
     from .pass2_remaining_targeted import source_body
     from .pass2_hard_structures import mask_math, enum_blocks, list_items,logical_item,interpret as interpret_hard
     from .pass2_hard_followup import interpret_followup
+    from .pass2_structural_light import split as source_split
     from .pass2_remaining_targeted import interpret_targeted
 except ImportError:
     import harvest_pipeline as p
@@ -25,6 +26,7 @@ except ImportError:
     from pass2_remaining_targeted import source_body,interpret_targeted
     from pass2_hard_structures import mask_math,enum_blocks,list_items,logical_item,interpret as interpret_hard
     from pass2_hard_followup import interpret_followup
+    from pass2_structural_light import split as source_split
 
 IFFF=re.compile(r"\bif\s+and\s+only\s+if\b",re.I)
 TAIL_NOTE=re.compile(r"^(?:Moreover|In\s+particular|In\s+this\s+case|"
@@ -146,7 +148,7 @@ def reverse_if(base,body):
         return None
     if not re.search(r"\b(?:is|are|exists?|has|have|can|admits|defines)\b",plain[:m.start()],re.I):
         return None
-    if re.search(r"\b(?:is|are|has|have|exists?)\b",plain[m.end():],re.I) is None:
+    if re.search(r"\b(?:is|are|has|have|exists?|implies|holds|satisfies)\b|=",plain[m.end():],re.I) is None:
         return None
     if before.endswith((":","such that","and","or")) or after.endswith((":","if")):
         return None
@@ -203,6 +205,13 @@ def try_hard(base):
                          cases=out.get("structured_cases",[])),"metadata_normalized"
             except (KeyError,ValueError,TypeError,IndexError):
                 pass
+    # Retry explicit grammar after source-only citation metadata is removed.
+    # This never fabricates an antecedent, and excludes top-level 'then'
+    # inside a mathematical formula under the established splitter.
+    h,c,spl_reason=source_split(body)
+    if h and c:
+        return make(base,[h],[c],"explicit_grammar_after_metadata",
+                    "Source-native assumption/then boundary; "+spl_reason),"explicit_then"
     for fn in (iff_plus_scoped_tail,independent_list,explicit_result_after_source_setup,
                reverse_if,independent_short_claims):
         out=fn(base,body)
