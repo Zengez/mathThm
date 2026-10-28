@@ -1,0 +1,54 @@
+name: Scoped Stacks section walk contrast — Limits
+on:
+  push:
+    paths:
+      - .github/workflows/run-stacks-section-walk-limits.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: stacks/stacks-project
+          ref: a04446e57ec1fbc252a871afcec7752fb2807b14
+          path: upstream/stacks
+          persist-credentials: false
+      - run: test "$(git -C upstream/stacks rev-parse HEAD)" = "a04446e57ec1fbc252a871afcec7752fb2807b14"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m scripts.stacks_section_walk_pilot pack --file limits.tex --line 1729 --source-root upstream/stacks --output-prefix SECTION_WALK_PILOT_LIMITS
+      - name: Check positive-scope declaration is seen and all candidates preserved
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          from scripts import harvest_pipeline as p
+          pre="SECTION_WALK_PILOT_LIMITS"
+          m=json.loads(Path("harvest/"+pre+"_MANIFEST_2026-10-28.json").read_text())
+          events=p.read_jsonl(Path("harvest/"+pre+"_EVENTS_2026-10-28.jsonl"))
+          rows=p.read_jsonl(Path("harvest/"+pre+"_PACKETS_2026-10-28.jsonl"))
+          assert m["candidate_count"]==len(rows)==15
+          assert m["section"]["file"]=="limits.tex"
+          assert m["section"]["line_start"]==1729
+          assert any(e["kind"]=="potential_durable_scope_change" and "following situation" in e["text_excerpt"].lower() for e in events)
+          assert any(e["kind"]=="enter_local_environment" and e["environment"]=="situation" for e in events)
+          assert not m["proofs_read"] and not m["scope_changes_validated"]
+          print({"candidates":len(rows),"durable_leads":m["scope_review_leads"],
+                 "events":m["event_counts"]})
+          PY
+      - name: Save contrasting source context leads only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/SECTION_WALK_PILOT_LIMITS_PACKETS_2026-10-28.jsonl harvest/SECTION_WALK_PILOT_LIMITS_EVENTS_2026-10-28.jsonl harvest/SECTION_WALK_PILOT_LIMITS_MANIFEST_2026-10-28.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record explicit standing Situation and local scope events in Limits"
+            git pull --rebase origin main
+            git push origin main
+          fi
