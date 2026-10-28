@@ -44,7 +44,8 @@ def validate():
         assert row["published"] is False
         assert row["proof_screened"] is False
         assert row["original_pass1_pass2_unchanged"] is True
-        assert row["mathematical_standalone_equivalence_approved"] is False
+        assert row["mathematical_standalone_equivalence_approved"] is row["standalone_source_context_validated"]
+        assert row["standalone_source_context_validated"] in (True,False)
         assert row["source_merge_final_approved"] is False
         assert row["hypotheses"] and row["conclusions"]
         assert row["standalone_statement_latex"].strip()
@@ -62,15 +63,23 @@ def validate():
             with_variants+=1
         else:
             assert len(row["source_candidate_ids"])==1
-        if row["status"]=="standalone_draft_ready_for_validation":
+        if row["status"]=="standalone_source_context_validated":
+            assert row["standalone_source_context_validated"]
             assert not row["unresolved_source_specific_context"]
+            assert row["standalone_validation_basis"]
+            assert row["standalone_validation_source_positions"]
+        elif row["status"]=="standalone_draft_ready_for_validation":
+            assert not row["unresolved_source_specific_context"]
+            assert not row["standalone_source_context_validated"]
         elif row["status"]=="context_resolution_pending":
             assert row["unresolved_source_specific_context"]
             blocked_terms.update(row["terminology_to_check"])
         else:
             raise ValueError(f"Unrecognized status {row['status']}")
     assert groups==PROVISIONAL_GROUPS
-    assert counts=={"standalone_draft_ready_for_validation":6,"context_resolution_pending":7}
+    assert counts=={"standalone_source_context_validated":5,
+                    "standalone_draft_ready_for_validation":1,
+                    "context_resolution_pending":7}
     result={
         "schema":"maththm.standalone-expansion-batch01-manifest.v1",
         "source_revision":REV,
@@ -84,9 +93,10 @@ def validate():
         "pass3_eligible":0,
         "source_pass1_pass2_mutated":False,
         "theorem_proofs_screened":0,
-        "source_mathematical_equivalence_certified":0,
+        "source_mathematical_equivalence_certified":counts["standalone_source_context_validated"],
+        "source_context_validated_without_proof_screening":True,
         "canonical_or_published_records_edited":False,
-        "next_step":"Validate six clean standalone drafts mathematically; locally resolve 7 targeted holds or defer individually; recompare provisional duplicate aliases; no proof screening until the standalone gate is passed",
+        "next_step":"One draft still needs standalone terminology validation; seven candidates need focused context resolution. Five have passed standalone source-context checks (not proof checks). Recompare provisional merged aliases before Pass 3.",
     }
     p.atomic_text(MANIFEST,json.dumps(result,indent=2,sort_keys=True)+"\n")
     print(json.dumps(result,sort_keys=True))
