@@ -1,0 +1,77 @@
+{
+  "batches": [
+    {
+      "after_context": 50,
+      "batch": "stacks-bulk-2026-10-28",
+      "before_context": 56,
+      "math_validity_audited": false,
+      "newly_resolved": 6,
+      "proofs_read": false,
+      "remaining_reasons": {
+        "no exact cited-context header": 3,
+        "no explicit named inherited context label": 24,
+        "reference label absent or non-unique globally": 10,
+        "unexpanded unlabelled previous context": 13
+      },
+      "statuses_after": {
+        "needs_context": 50,
+        "needs_structure": 34,
+        "resolved": 1016
+      }
+    },
+    {
+      "after_context": 108,
+      "batch": "stacks-second-2026-10-28",
+      "before_context": 125,
+      "math_validity_audited": false,
+      "newly_resolved": 17,
+      "proofs_read": false,
+      "remaining_reasons": {
+        "no exact cited-context header": 16,
+        "no explicit named inherited context label": 49,
+        "reference label absent or non-unique globally": 17,
+        "remaining clause is logically complex": 4,
+        "unexpanded unlabelled previous context": 22
+      },
+      "statuses_after": {
+        "needs_context": 108,
+        "needs_structure": 52,
+        "resolved": 1862
+      }
+    },
+    {
+      "after_context": 686,
+      "batch": "stacks-remaining-2026-10-28",
+      "before_context": 767,
+      "math_validity_audited": false,
+      "newly_resolved": 81,
+      "proofs_read": false,
+      "remaining_reasons": {
+        "no exact cited-context header": 47,
+        "no explicit named inherited context label": 257,
+        "reference label absent or non-unique globally": 148,
+        "remaining clause is logically complex": 7,
+        "unexpanded unlabelled previous context": 227
+      },
+      "statuses_after": {
+        "needs_classification": 3,
+        "needs_context": 686,
+        "needs_structure": 389,
+        "resolved": 6787
+      }
+    }
+  ],
+  "globally_indexed_labels": 13158,
+  "new_context_resolutions": 104,
+  "pass3_started": false,
+  "proofs_read": false,
+  "public_catalog_unchanged": true,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_tex_files_scanned": 119,
+  "status_totals": {
+    "needs_classification": 3,
+    "needs_context": 844,
+    "needs_structure": 475,
+    "resolved": 9665
+  }
+}

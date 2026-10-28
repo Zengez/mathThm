@@ -1,0 +1,21 @@
+{
+  "after_context": 686,
+  "batch": "stacks-remaining-2026-10-28",
+  "before_context": 767,
+  "math_validity_audited": false,
+  "newly_resolved": 81,
+  "proofs_read": false,
+  "remaining_reasons": {
+    "no exact cited-context header": 47,
+    "no explicit named inherited context label": 257,
+    "reference label absent or non-unique globally": 148,
+    "remaining clause is logically complex": 7,
+    "unexpanded unlabelled previous context": 227
+  },
+  "statuses_after": {
+    "needs_classification": 3,
+    "needs_context": 686,
+    "needs_structure": 389,
+    "resolved": 6787
+  }
+}

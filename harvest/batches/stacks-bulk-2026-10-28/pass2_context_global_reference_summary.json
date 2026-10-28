@@ -1,0 +1,19 @@
+{
+  "after_context": 50,
+  "batch": "stacks-bulk-2026-10-28",
+  "before_context": 56,
+  "math_validity_audited": false,
+  "newly_resolved": 6,
+  "proofs_read": false,
+  "remaining_reasons": {
+    "no exact cited-context header": 3,
+    "no explicit named inherited context label": 24,
+    "reference label absent or non-unique globally": 10,
+    "unexpanded unlabelled previous context": 13
+  },
+  "statuses_after": {
+    "needs_context": 50,
+    "needs_structure": 34,
+    "resolved": 1016
+  }
+}

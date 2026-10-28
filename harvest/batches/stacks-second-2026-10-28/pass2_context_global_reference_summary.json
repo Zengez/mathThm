@@ -1,0 +1,20 @@
+{
+  "after_context": 108,
+  "batch": "stacks-second-2026-10-28",
+  "before_context": 125,
+  "math_validity_audited": false,
+  "newly_resolved": 17,
+  "proofs_read": false,
+  "remaining_reasons": {
+    "no exact cited-context header": 16,
+    "no explicit named inherited context label": 49,
+    "reference label absent or non-unique globally": 17,
+    "remaining clause is logically complex": 4,
+    "unexpanded unlabelled previous context": 22
+  },
+  "statuses_after": {
+    "needs_context": 108,
+    "needs_structure": 52,
+    "resolved": 1862
+  }
+}
