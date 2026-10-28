@@ -14,7 +14,10 @@ import re
 from datetime import date
 from pathlib import Path
 
-from harvest_pipeline import load_rows, merge_rows, save_checkpoint
+if __package__:
+    from .harvest_pipeline import load_rows, merge_rows, save_checkpoint
+else:
+    from harvest_pipeline import load_rows, merge_rows, save_checkpoint
 
 ENV = re.compile(r"\\begin\{(lemma|theorem|proposition|corollary)\}(?:\[[^\]\n]*\])?\s*"
                  r"([\s\S]*?)\\end\{\1\}", re.IGNORECASE)
@@ -98,6 +101,8 @@ def discover(text: str, *, filename: str, source_ref: str, batch: str,
 
 
 def run(args):
+    if args.max_candidates_per_file < 1 or args.max_file_bytes < 1:
+        raise ValueError("file/candidate bounds must be positive")
     out = Path(args.output_dir)
     out.mkdir(parents=True, exist_ok=True)
     existing = load_rows(out / "pass1.jsonl", "candidate_id")
