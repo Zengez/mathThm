@@ -8,10 +8,11 @@ mathThm is a companion to [mathDef](https://github.com/Zengez/mathDef). Its goal
 
 1. **[PROJECT_PLAN.md](PROJECT_PLAN.md)** — authoritative consolidated design, requirements, phased workflow, acceptance criteria, and decisions from the October 23, 2026 discussions. Read this first.
 2. **[WORK_CHECKPOINT.md](WORK_CHECKPOINT.md)** — current implementation state, next authorized action, and restart instructions. Update it whenever work begins, pauses, or completes a major stage.
-3. **[HARVEST_DESIGN.md](HARVEST_DESIGN.md)** — agreed three-pass acquisition strategy, strict Pass 3 triage, and open decisions (design only).
-4. **[THEOREM_RECORD_CONTRACT.md](THEOREM_RECORD_CONTRACT.md)** — current lightweight accepted-theorem schema, screening/provenance rules and automated validation.
-5. **[PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md)** — what has actually been built, what passed, manual GitHub Pages setup, and remaining limitations.
-6. **[FUTURE_FEATURES.md](FUTURE_FEATURES.md)** — explicitly postponed ideas, with particular care not to mistake these for prototype requirements.
+3. **[HARVEST_RUNBOOK.md](HARVEST_RUNBOOK.md)** — implemented bounded Pass 1/2/3 scripts, exact commands, investigation queue and safety gates.
+4. **[HARVEST_DESIGN.md](HARVEST_DESIGN.md)** — agreed three-pass acquisition strategy, strict Pass 3 triage, and open decisions (design only).
+5. **[THEOREM_RECORD_CONTRACT.md](THEOREM_RECORD_CONTRACT.md)** — current lightweight accepted-theorem schema, screening/provenance rules and automated validation.
+6. **[PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md)** — what has actually been built, what passed, manual GitHub Pages setup, and remaining limitations.
+7. **[FUTURE_FEATURES.md](FUTURE_FEATURES.md)** — explicitly postponed ideas, with particular care not to mistake these for prototype requirements.
 
 ## Coordination with mathDef
 
@@ -23,4 +24,4 @@ The projects are to share a recognizable visual identity, but mathThm will requi
 
 ## Current implementation / next decision gate
 
-The user subsequently explicitly authorized building the prototype. The present code, dataset, workflow and checks are described in [PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md). GitHub Pages setup is complete and publication succeeded (workflow run 39978765020); the next step is to review the live interface. The current linking and accepted-record schema are ready. **Next discuss a deliberately minimal harvesting engine**; no bulk collection has begun. The user wants to collect a couple hundred theorems before revisiting interface design; deep proof audits remain deferred.
+The user subsequently explicitly authorized building the prototype. The present code, dataset, workflow and checks are described in [PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md). GitHub Pages setup is complete and publication succeeded (workflow run 39978765020); the next step is to review the live interface. The current linking and accepted-record schema are ready. **The minimal three-pass harvesting scripts are now implemented and one 20-candidate raw-source smoke pass succeeded; Pass 2/3 review and multi-hundred-record collection have not begun.** The user wants to collect a couple hundred theorems before revisiting interface design; deep proof audits remain deferred.

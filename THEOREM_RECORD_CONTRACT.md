@@ -1,6 +1,6 @@
 # mathThm theorem record contract — revision 2
 
-**Adopted October 28, 2026.** This is a data contract, **not** a harvesting-engine implementation. The catalog retains the outer schema name maththm.theorems.v1 so the existing website remains compatible, and sets contract_revision to 2.
+**Adopted October 28, 2026.** This is the data contract used by the now-implemented lightweight harvesting scripts in HARVEST_RUNBOOK.md; it is **not** a mathematical proof-verification contract. The catalog retains the outer schema name maththm.theorems.v1 so the existing website remains compatible, and sets contract_revision to 2.
 
 ## Guiding rules
 

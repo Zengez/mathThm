@@ -1,3 +1,20 @@
+## October 28, 2026 — minimal three-pass harvesting tools implemented; live Pass 1 smoke succeeded
+
+**Authorization:** The user approved implementing a deliberately small acquisition toolset and confirmed that plausible results may move to a provisional published list, while questionable, rejected-proof and unresolved-context candidates go to a separate **needs_more_investigation.jsonl** queue. The goal is a few hundred provisional theorems before tuning the UI.
+
+**Implemented:**
+- `scripts/harvest_stacks.py`: a bounded, idempotent source-native Pass 1 extractor from Stacks Project LaTeX files, requiring a pinned 40-character upstream revision. It detects theorem/proposition/lemma/corollary statement environments immediately followed by an apparent proof. It saves full source LaTeX statement, exact source and proof line citations, source confidence and detection metadata, but **does not read or evaluate proofs**.
+- `scripts/harvest_pipeline.py`: atomic keyed JSONL stage files, quick Pass 2 statement-extraction packets with at most two same-file reference excerpts, Pass 3 bounded proof-review packets, reviewer decisions for plausible/questionable/rejected, a derived investigation queue, checkpoint counters, and explicit **unpublished** promotion to the validated theorem-record contract. Review judgments are supplied by a human/model; the scripts do not pretend to perform mathematical reasoning or run an autonomous AI agent.
+- `tests/test_harvest_pipeline.py`: offline extraction, rerun, local-reference, plausible/uncertain/rejected triage, proof-truncation guard, precise proof-line citations, duplicate prevention, staging and non-publication tests.
+- `.github/workflows/harvest-stacks.yml`: manual single-file Stacks extraction with a 1–500 cap; downloadable candidates/checkpoint artifact. No code or website publication; no push to production theorem corpus.
+- `HARVEST_RUNBOOK.md`: exact scripts, reviewer packet/decision structure, restart instructions, limits and licensing safeguards. `.gitignore` keeps local scratch and third-party source downloads out of repo by default.
+
+**Real-source smoke:** [Harvest Stacks candidates run 40717915087](https://github.com/Zengez/mathThm/actions/runs/40717915087) completed successfully. It fetched a pinned `categories.tex` revision, produced **20 real raw candidates** with statement and proof locations (no proof reading), and uploaded artifact `stacks-raw-candidates`, artifact ID 12828148138 (expires November 27, 2026). A one-time push trigger was removed; harvesting now runs manually only. **These 20 are raw candidates, not new published theorems and not Pass 2/3 accepted.** The published data/theorems.json remains at its preexisting 20 records.
+
+**Immediate next phase:** Use larger manual Pass 1 source selections (e.g. 100 per chapter), then supply bounded Pass 2 extraction and Pass 3 plausibility decisions in batches; compare yield and cost. Preserve questionable/rejected/needs-context separately and only stage plausible fully structured entries. A substantial 200–300 theorem corpus is still a target, not yet collected. No mathDef files changed; no elaborate research framework was added.
+
+---
+
 ## October 28, 2026 — three-pass theorem harvesting design (discussion only)
 
 **New reference:** [HARVEST_DESIGN.md](HARVEST_DESIGN.md). The user endorsed a very low-reasoning Pass 1 that saves full theorem statements and merely **apparent** proof locations (no proof reading), followed by Pass 2 to separate hypotheses/results and cheaply resolve local assumptions such as “as in Lemma 4.2,” followed by a strict-stop Pass 3 that scans the actual proof only for immediately evident issues. Pass 3 outcomes are **plausible/provisionally true** (quick scan completed without evident issue), **questionable** (scan truncated because necessary follow-up exceeded budget), and **rejected** (positive identifiable issue). Preserve the distinction between source confidence and proof-screening confidence and between rejected *proof evidence* and a false *theorem*.

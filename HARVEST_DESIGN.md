@@ -1,6 +1,6 @@
 # mathThm — initial bulk harvesting design discussion
 
-**Discussion state: October 28, 2026.** This file records a proposed minimal three-pass acquisition process and the decisions the user has explicitly agreed to. It is **not an implementation**, engine authorization, or permission to begin harvesting. The user wants to avoid the mathDef research-pipeline scope escalation. Aim first for at least a couple hundred real results before redesigning the theorem UI.
+**Implementation update: October 28, 2026.** The user approved a minimal three-pass toolkit, including keeping questionable/rejected/needs-context cases in a separate investigation file and publishing only fully structured plausible results. The scripts and manual harvesting action are now implemented; see HARVEST_RUNBOOK.md. This file still preserves the design reasoning and deferred decisions, not a record of harvested verified mathematics. The user wants to avoid the mathDef research-pipeline scope escalation. Aim first for at least a couple hundred real results before redesigning the theorem UI.
 
 ## Settled principles
 
@@ -51,7 +51,7 @@ Pass 3 may include only minimal additional mathematical reference consultation n
 
 - Use a source-specific batch and stage outputs, rather than a general autonomous theorem-research framework. A small persistent file/manifest for each stage should suffice; do not build a complex dependency graph or adjudication system.
 - Stage 1 creates candidates, Stage 2 adds searchable annotations and context-needed flags, Stage 3 records evidence and the verdict. Keep the original extract immutable and attach supplemental fields.
-- Proposed public catalog policy: **only provisional/plausible, fully structured results** are promoted to the current accepted JSON schema. Keep questionable, rejected-evidence and needs-context items in separate audit/candidate queues, retaining complete provenance. This is a recommendation, not yet specifically confirmed by the user.
+- **Agreed public catalog policy:** only provisionally plausible, fully structured results may be promoted to the current accepted JSON schema. Questionable, rejected-evidence and needs-context items go to a separate needs_more_investigation.jsonl queue with original citations. User explicitly approved this policy; scripts enforce it.
 - Do not make accepted-schema validator treat a Pass 1 proof-heading detection as equivalent to an inspected Pass 3 proof. Existing `acquisition.status=cursory_screened` is assigned only after actual inspection; a future Pass 3 verdict may require an additive metadata field for `plausible`, `questionable`, or `rejected` with a brief issue note.
 - Prefer first bulk pass targeting hundreds of source-backed candidate items and **at least 200–300 provisionally accepted results** if available. This is a target, not a guaranteed yield.
 - Measure actual time and accepted yield per stage and reject/stop reasons. If Pass 3 dominates cost, keep its strict limit rather than adding deeper mathematics. Checkpoint each source or bounded batch, not individual tokens or research subproblems.
@@ -59,11 +59,11 @@ Pass 3 may include only minimal additional mathematical reference consultation n
 
 ## Remaining choices worth settling
 
-1. **Visibility of questionable items**: recommendation is to keep them in the separate candidate queue (with reasons) and publish only plausible/structured entries in the current site. The user has not explicitly decided whether to display questionable entries with an extra warning.
+1. **Visibility of questionable items — resolved:** user approved a separate needs_more_investigation.jsonl file, not publication until plausibility/structure gates have been satisfied.
 2. **Exact per-proof screening budget**: choose a small fixed bound for follow-up lookups / extra time / maximum dependency depth when implementing. It can be source-adjusted but must remain explicit and measured; no unlimited research.
 3. **Candidate storage and source strategy**: select the simplest transport (JSONL or similarly simple files), source-locator conventions and batch checkpoint format after deciding which initial sources to use. Avoid re-creating mathDef's multi-phase research framework.
 4. **Copyright/licensing**: use source-level attribution/reuse rules for full-text candidate capture and eventual public display; where verbatim publication is inappropriate, retain locator and a faithful restatement with a transcription flag, rather than silently mislabeling it an exact quote.
 
 ## Next gate
 
-Discuss the remaining choices, especially the public treatment of `questionable` candidates, and explicitly approve the minimal implementation before creating a harvesting engine or starting the bulk pass. Update WORK_CHECKPOINT.md with subsequent decisions.
+Implementation of the minimal toolkit and one artifact-only Stacks Pass 1 smoke is complete. The next substantive work is bounded Pass 2/3 review of actual candidates and wider sourcing; do not confuse an extracted raw candidate with a provisionally accepted theorem. Update WORK_CHECKPOINT.md with subsequent decisions.
