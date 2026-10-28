@@ -1,3 +1,15 @@
+## October 28, 2026 — Pass 2 continued across all three Stacks batches: 8,373 → 9,383 resolved
+
+**Full report:** [PASS2_CONTINUATION_REPORT_2026-10-28.md](PASS2_CONTINUATION_REPORT_2026-10-28.md). The user authorized additional Pass 2 statement-context and structural interpretation for all outstanding candidates, **not** Pass 3 or publication. Recovered **1,010 additional** source-level Pass 2 splits: 495 via exact pinned source Situation recovery; 164 via definitional-reference/internal-diagram/named-lemma context triage; 138 via deeper source-structure logic; 213 via embedded named Situation source-context interpretation. All are unverified mathematical source interpretations; no proofs read or independently checked.
+
+**Canonical counts:** **10,987** total original Stacks Pass 1 candidates, **9,383 resolved** (1,005 first batch, 1,807 second, 6,571 remaining), with **502 needs_structure** (37+54+411), **1,099 needs_context** (58+161+880), and **3 needs_classification** (all from `trace.tex`). Thus **1,604 Pass 2 cases remain**. `harvest/PASS2_RESUME_INVENTORY_2026-10-28.json` is the latest validated source of totals and classification examples.
+
+**Important resumption rule:** The canonical `harvest/batches/<batch>/pass2.jsonl` is the source of truth, **not dated interim pending files**. Fresh exact 502/1099/3 review queues were regenerated into `pass2_current_structure_queue.jsonl`, `pass2_current_context_queue.jsonl`, and `pass2_current_classification_queue.jsonl` in each batch. Earlier queues may include items now resolved; don't reuse them without filtering. `pass2_current_nonresult_queue.jsonl` is also present.
+
+**Validation:** All four successful passes ran the Python regression suite and retained bidirectional equivalence search fields. The last resume audit [40738980505](https://github.com/Zengez/mathThm/actions/runs/40738980505) succeeded. No Pass 3, no newly accepted or published theorem entries. One design issue is truly unconditional existence results: the current required-nonempty-hypothesis contract should not be satisfied with fabricated premises. Next: careful human/model-level statement reading for the remaining structure/context, not merely adding broader regexes; do not treat conjecture statements as verified.
+
+---
+
 ## October 28, 2026 — all three Stacks harvests: 8,373/10,987 Pass 2 structured; 710 → 510 latest hard queue
 
 The user requested one bounded follow-up Pass 2 effort on the **710** still-structurally-difficult candidates from the **7,865**-candidate `stacks-remaining-2026-10-28` harvest, and updated counts across all prior Stacks batches. **GitHub Actions run [40731430593](https://github.com/Zengez/mathThm/actions/runs/40731430593) succeeded**, running all Python tests, `pass2_hard_followup.py` (86 additional splits) and `pass2_remaining_targeted.py` (114 additional splits), validating coverage and equivalence indexing, and committing outputs and the global counts file.
