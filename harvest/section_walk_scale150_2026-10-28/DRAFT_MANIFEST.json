@@ -1,0 +1,327 @@
+{
+  "schema": "maththm.consecutive-section-standalone-drafts-manifest.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "file": "algebra.tex",
+  "source_start": 4284,
+  "source_end": 10036,
+  "consecutive_complete_sections": 19,
+  "distinct_active_candidates_with_drafts": 150,
+  "per_section": [
+    {
+      "section": "s01",
+      "title": "Glueing functions",
+      "candidates": 4,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 3,
+        "context_resolution_pending": 1
+      },
+      "definitions_present_before_section_start": [],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s02",
+      "title": "Zerodivisors and total rings of fractions",
+      "candidates": 4,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 3,
+        "context_resolution_pending": 1
+      },
+      "definitions_present_before_section_start": [],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s03",
+      "title": "Irreducible components of spectra",
+      "candidates": 4,
+      "review_status": {
+        "context_resolution_pending": 1,
+        "standalone_draft_ready_for_validation": 3
+      },
+      "definitions_present_before_section_start": [],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s04",
+      "title": "Examples of spectra of rings",
+      "candidates": 0,
+      "review_status": {},
+      "definitions_present_before_section_start": [],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s05",
+      "title": "A meta-observation about prime ideals",
+      "candidates": 6,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 5,
+        "context_resolution_pending": 1
+      },
+      "definitions_present_before_section_start": [],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s06",
+      "title": "Images of ring maps of finite presentation",
+      "candidates": 10,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 9,
+        "context_resolution_pending": 1
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s07",
+      "title": "More on images",
+      "candidates": 8,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 6,
+        "context_resolution_pending": 2
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s08",
+      "title": "Noetherian rings",
+      "candidates": 10,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 10
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s09",
+      "title": "Locally nilpotent ideals",
+      "candidates": 6,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 5,
+        "context_resolution_pending": 1
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s10",
+      "title": "Curiosity",
+      "candidates": 2,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 1,
+        "context_resolution_pending": 1
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family",
+        "definition-locally-nilpotent-ideal"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s11",
+      "title": "Hilbert Nullstellensatz",
+      "candidates": 1,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 1
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family",
+        "definition-locally-nilpotent-ideal"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s12",
+      "title": "Jacobson rings",
+      "candidates": 14,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 11,
+        "context_resolution_pending": 3
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family",
+        "definition-locally-nilpotent-ideal"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s13",
+      "title": "Finite and integral ring extensions",
+      "candidates": 22,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 20,
+        "context_resolution_pending": 2
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family",
+        "definition-locally-nilpotent-ideal",
+        "definition-ring-jacobson"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s14",
+      "title": "Normal rings",
+      "candidates": 14,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 13,
+        "context_resolution_pending": 1
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family",
+        "definition-locally-nilpotent-ideal",
+        "definition-ring-jacobson",
+        "definition-integral-ring-map",
+        "definition-integral-closure"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s15",
+      "title": "Going down for integral over normal",
+      "candidates": 6,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 5,
+        "context_resolution_pending": 1
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family",
+        "definition-locally-nilpotent-ideal",
+        "definition-ring-jacobson",
+        "definition-integral-ring-map",
+        "definition-integral-closure",
+        "definition-domain-normal",
+        "definition-almost-integral",
+        "definition-ring-normal"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s16",
+      "title": "Flat modules and flat ring maps",
+      "candidates": 19,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 17,
+        "context_resolution_pending": 2
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family",
+        "definition-locally-nilpotent-ideal",
+        "definition-ring-jacobson",
+        "definition-integral-ring-map",
+        "definition-integral-closure",
+        "definition-domain-normal",
+        "definition-almost-integral",
+        "definition-ring-normal",
+        "definition-integral-over-ideal"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s17",
+      "title": "Supports and annihilators",
+      "candidates": 7,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 7
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family",
+        "definition-locally-nilpotent-ideal",
+        "definition-ring-jacobson",
+        "definition-integral-ring-map",
+        "definition-integral-closure",
+        "definition-domain-normal",
+        "definition-almost-integral",
+        "definition-ring-normal",
+        "definition-integral-over-ideal",
+        "definition-flat"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s18",
+      "title": "Going up and going down",
+      "candidates": 10,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 10
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family",
+        "definition-locally-nilpotent-ideal",
+        "definition-ring-jacobson",
+        "definition-integral-ring-map",
+        "definition-integral-closure",
+        "definition-domain-normal",
+        "definition-almost-integral",
+        "definition-ring-normal",
+        "definition-integral-over-ideal",
+        "definition-flat",
+        "definition-support-module",
+        "definition-annihilator"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    },
+    {
+      "section": "s19",
+      "title": "Separable extensions",
+      "candidates": 3,
+      "review_status": {
+        "standalone_draft_ready_for_validation": 3
+      },
+      "definitions_present_before_section_start": [
+        "definition-oka-family",
+        "definition-locally-nilpotent-ideal",
+        "definition-ring-jacobson",
+        "definition-integral-ring-map",
+        "definition-integral-closure",
+        "definition-domain-normal",
+        "definition-almost-integral",
+        "definition-ring-normal",
+        "definition-integral-over-ideal",
+        "definition-flat",
+        "definition-support-module",
+        "definition-annihilator",
+        "definition-going-up-down"
+      ],
+      "no_leaked_lemma_hypotheses": true,
+      "source_section_entirely_traversed": true
+    }
+  ],
+  "status_counts": {
+    "context_resolution_pending": 18,
+    "standalone_draft_ready_for_validation": 132
+  },
+  "no_pass1_pass2_changes": true,
+  "original_corpus_unchanged": true,
+  "proofs_reviewed": 0,
+  "final_source_equivalence_approvals": 0,
+  "pass3_eligible": 0,
+  "published": 0,
+  "statement_normalization": "Keep source mathematical LaTeX and full enumerations; strip only source label, slogan and reference metadata; apply bounded manually reviewed patches. Source original always preserved separately.",
+  "stage": "standalone_editorial_draft_and_semantic_context_triage_not_proof_verification"
+}
