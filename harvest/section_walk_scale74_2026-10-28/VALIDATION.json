@@ -1,0 +1,179 @@
+{
+  "additional_nonactive_source_lemmas_not_processed": 1,
+  "all_proofs_screened": 0,
+  "all_sections_completed_without_split": true,
+  "all_source_equivalence_approvals": 0,
+  "chapter": "morphisms.tex",
+  "complete_section_checkpoints": 5,
+  "complete_sections_processed": 5,
+  "distinct_original_candidate_ids": 74,
+  "exact_source_label_reference_uses": 10,
+  "limitations": [
+    "Source-order events and semantic draft reviews are not proofs.",
+    "A draft-ready status is not final mathematical source equivalence validation.",
+    "These five sections are nonconsecutive within one chapter; assumptions in skipped sections were not automatically inherited.",
+    "Global/chapter conventions and named definitions are available as context references but not automatically imported as extra hypotheses.",
+    "If future samples show internal context changes, scope adjudication must precede use.",
+    "No wall-clock A/B benchmark or safe cap has yet been established."
+  ],
+  "mid_section_notation_scope_changes_adjudicated": 1,
+  "original_source_pass1_pass2_changed": false,
+  "pass3_eligible": 0,
+  "provisional_duplicate_decisions_changed": false,
+  "published_theorems_changed": false,
+  "reviewed_nontrivial_logical_forms": {
+    "base_change_plus_corollary": 1,
+    "biconditional": 4,
+    "canonical_bijection": 1,
+    "categorical_anti_equivalence": 1,
+    "categorical_equivalence_with_addendum": 1,
+    "conditional_with_consequence": 1,
+    "four_separate_implications": 1,
+    "four_way_equivalence": 1,
+    "four_way_equivalence_with_addendum": 2,
+    "implication": 19,
+    "implication_or_biconditional": 8,
+    "implication_or_canonical_map": 13,
+    "implication_with_addendum": 1,
+    "implication_with_biconditional": 1,
+    "implication_with_global_corollary": 1,
+    "natural_isomorphism_of_functors": 1,
+    "open_locus_base_change_with_variant": 1,
+    "three_related_conclusions": 1,
+    "three_separately_quantified_implications": 2,
+    "three_way_equivalence": 4,
+    "two_implications": 1,
+    "two_independent_implications": 1,
+    "two_parallel_four_way_equivalences": 1,
+    "two_parallel_implications": 3,
+    "two_parallel_six_way_equivalences": 1,
+    "two_separate_biconditionals": 1,
+    "two_separate_implications": 1
+  },
+  "reviewed_standalone_drafts": 74,
+  "schema": "maththm.section-walk-scale74-validation.v1",
+  "scope_event_counts": {
+    "candidate_location": 74,
+    "enter_local_environment": 84,
+    "exit_local_environment": 84,
+    "potential_durable_scope_change": 1,
+    "proof_skipped": 75
+  },
+  "sections": [
+    {
+      "all_source_lemma_frames_popped": 13,
+      "candidates": 13,
+      "end_line": 2110,
+      "event_counts": {
+        "candidate_location": 13,
+        "enter_local_environment": 15,
+        "exit_local_environment": 15,
+        "proof_skipped": 13
+      },
+      "local_lemma_scope_frames_popped": 13,
+      "nonactive_source_lemma_start_lines": [],
+      "review_status_counts": {
+        "context_resolution_pending": 2,
+        "standalone_draft_ready_for_validation": 11
+      },
+      "section_key": "affine",
+      "section_title": "Affine morphisms",
+      "source_lines": 401,
+      "start_line": 1710
+    },
+    {
+      "all_source_lemma_frames_popped": 17,
+      "candidates": 17,
+      "end_line": 4053,
+      "event_counts": {
+        "candidate_location": 17,
+        "enter_local_environment": 18,
+        "exit_local_environment": 18,
+        "proof_skipped": 17
+      },
+      "local_lemma_scope_frames_popped": 17,
+      "nonactive_source_lemma_start_lines": [],
+      "review_status_counts": {
+        "context_resolution_pending": 1,
+        "standalone_draft_ready_for_validation": 16
+      },
+      "section_key": "quasi_finite",
+      "section_title": "Quasi-finite morphisms",
+      "source_lines": 532,
+      "start_line": 3522
+    },
+    {
+      "all_source_lemma_frames_popped": 14,
+      "candidates": 14,
+      "end_line": 6136,
+      "event_counts": {
+        "candidate_location": 14,
+        "enter_local_environment": 16,
+        "exit_local_environment": 16,
+        "proof_skipped": 14
+      },
+      "local_lemma_scope_frames_popped": 14,
+      "nonactive_source_lemma_start_lines": [],
+      "review_status_counts": {
+        "context_resolution_pending": 4,
+        "standalone_draft_ready_for_validation": 10
+      },
+      "section_key": "syntomic",
+      "section_title": "Syntomic morphisms",
+      "source_lines": 419,
+      "start_line": 5718
+    },
+    {
+      "all_source_lemma_frames_popped": 15,
+      "candidates": 15,
+      "end_line": 6858,
+      "event_counts": {
+        "candidate_location": 15,
+        "enter_local_environment": 18,
+        "exit_local_environment": 18,
+        "potential_durable_scope_change": 1,
+        "proof_skipped": 15
+      },
+      "local_lemma_scope_frames_popped": 15,
+      "nonactive_source_lemma_start_lines": [],
+      "review_status_counts": {
+        "context_resolution_pending": 1,
+        "standalone_draft_ready_for_validation": 14
+      },
+      "section_key": "differentials",
+      "section_title": "Sheaf of differentials of a morphism",
+      "source_lines": 522,
+      "start_line": 6337
+    },
+    {
+      "all_source_lemma_frames_popped": 16,
+      "candidates": 15,
+      "end_line": 8033,
+      "event_counts": {
+        "candidate_location": 15,
+        "enter_local_environment": 17,
+        "exit_local_environment": 17,
+        "proof_skipped": 16
+      },
+      "local_lemma_scope_frames_popped": 15,
+      "nonactive_source_lemma_start_lines": [
+        7789
+      ],
+      "review_status_counts": {
+        "context_resolution_pending": 1,
+        "standalone_draft_ready_for_validation": 14
+      },
+      "section_key": "unramified",
+      "section_title": "Unramified morphisms",
+      "source_lines": 431,
+      "start_line": 7603
+    }
+  ],
+  "source_lines_scanned": 2305,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "status_counts": {
+    "context_resolution_pending": 9,
+    "standalone_draft_ready_for_validation": 65
+  },
+  "temporary_lemma_frames_popped": 74
+}
