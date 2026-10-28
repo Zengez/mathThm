@@ -1,0 +1,240 @@
+{
+  "schema": "maththm.pass2-editorial-spotchecks.v1",
+  "description": "20 limited statement-only editorial spot checks; no proof read and no mathematical verification",
+  "decisions": [
+    {
+      "candidate_id": "candidate.stacks.0c8ad7a5a67874765820103b",
+      "expect_prefix": "A composition of monomorphisms",
+      "hypotheses": [
+        "Two composable monomorphisms."
+      ],
+      "conclusions": [
+        "Their composition is a monomorphism."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.19d6c7c22ac8481285015c47",
+      "expect_prefix": "A monomorphism of schemes",
+      "hypotheses": [
+        "A monomorphism of schemes."
+      ],
+      "conclusions": [
+        "The morphism is separated."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.25667acc64e03cab24674507",
+      "expect_prefix": "Any localization of a normal domain",
+      "hypotheses": [
+        "A normal integral domain and a localization of that domain."
+      ],
+      "conclusions": [
+        "The localization is normal."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.2a2faf69cff294e500657e54",
+      "expect_prefix": "A composition of quasi-compact maps",
+      "hypotheses": [
+        "Two composable quasi-compact maps."
+      ],
+      "conclusions": [
+        "Their composition is quasi-compact."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.3dc07e7bd113956854067642",
+      "expect_prefix": "The composition of quasi-compact morphisms",
+      "hypotheses": [
+        "Two composable quasi-compact morphisms."
+      ],
+      "conclusions": [
+        "Their composition is quasi-compact."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.43778836eb8c18d1d767f684",
+      "expect_prefix": "An immersion of schemes",
+      "hypotheses": [
+        "An immersion of schemes."
+      ],
+      "conclusions": [
+        "It is a monomorphism, and in particular it is separated."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.467c30791fb5be47d95349b8",
+      "expect_prefix": "The base change of a monomorphism",
+      "hypotheses": [
+        "A monomorphism and a base-change morphism."
+      ],
+      "conclusions": [
+        "The induced base change is a monomorphism."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.5999f2b1c7f6c6953201906d",
+      "expect_prefix": "A product of quasi-compact spaces",
+      "hypotheses": [
+        "A family of quasi-compact topological spaces."
+      ],
+      "conclusions": [
+        "Their product is quasi-compact."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.5d90d680b8c2a5afb520ab7c",
+      "expect_prefix": "A principal ideal domain",
+      "hypotheses": [
+        "A principal ideal domain."
+      ],
+      "conclusions": [
+        "The domain is normal."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.d0a2dbd1e1a4ddb6d62b5899",
+      "expect_prefix": "A limit of profinite spaces",
+      "hypotheses": [
+        "An inverse system of profinite spaces."
+      ],
+      "conclusions": [
+        "Its inverse limit is profinite."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.d7578270777df4256e0b1662",
+      "expect_prefix": "A closed immersion",
+      "hypotheses": [
+        "A closed immersion."
+      ],
+      "conclusions": [
+        "The morphism is quasi-compact."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.e4b384bb55339dfb60f4534a",
+      "expect_prefix": "A composition of immersions",
+      "hypotheses": [
+        "Two composable immersions of schemes, or two composable closed immersions, or two composable open immersions."
+      ],
+      "conclusions": [
+        "Their composite is respectively an immersion, a closed immersion, or an open immersion."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.ed337fee50c9dd968af1a82c",
+      "expect_prefix": "The product of two spectral spaces",
+      "hypotheses": [
+        "Two spectral spaces."
+      ],
+      "conclusions": [
+        "Their product is spectral."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.f26842adc6b2f373c30525a3",
+      "expect_prefix": "Being quasi-compact",
+      "hypotheses": [
+        "A quasi-compact morphism of schemes over a base and an arbitrary base change."
+      ],
+      "conclusions": [
+        "The resulting base-changed morphism is quasi-compact."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.3d19fa6477a52cd6583e00dc",
+      "expect_prefix": "A quasi-regular ideal",
+      "hypotheses": [
+        "A quasi-regular ideal."
+      ],
+      "conclusions": [
+        "The ideal is finitely generated."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.5c560de42704477bca08fd73",
+      "expect_prefix": "The composition of two trivial Kan fibrations",
+      "hypotheses": [
+        "Two composable trivial Kan fibrations."
+      ],
+      "conclusions": [
+        "Their composition is a trivial Kan fibration."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.dbaed70ee7b40772a88bc651",
+      "expect_prefix": "The sum of two effective Cartier divisors",
+      "hypotheses": [
+        "Two effective Cartier divisors on a common scheme."
+      ],
+      "conclusions": [
+        "Their sum is an effective Cartier divisor."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.e4f04202f14fc2b116df31b7",
+      "expect_prefix": "The composition of two Kan fibrations",
+      "hypotheses": [
+        "Two composable Kan fibrations."
+      ],
+      "conclusions": [
+        "Their composition is a Kan fibration."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.f27f8d1509af35cca5a0ce60",
+      "expect_prefix": "A filtered colimit of trivial Kan fibrations",
+      "hypotheses": [
+        "A filtered system of trivial Kan fibrations."
+      ],
+      "conclusions": [
+        "Its filtered colimit is a trivial Kan fibration."
+      ],
+      "context_status": "resolved",
+      "review_note": "Light editorial statement split only; mathematical truth and proof not assessed."
+    },
+    {
+      "candidate_id": "candidate.stacks.ca742fcc317ecfd4ab2f8914",
+      "expect_prefix": "This construction gives the cup product.",
+      "context_status": "needs_context",
+      "review_note": "The referent of 'This construction' is outside the statement. Source context must be collected before hypotheses/results can be represented faithfully."
+    }
+  ]
+}
