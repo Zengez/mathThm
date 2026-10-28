@@ -1,0 +1,35 @@
+name: Pass 2 grammatical triage for remaining Stacks harvest
+on:
+  push:
+    paths:
+      - .github/workflows/pass2-stacks-remaining.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  pass2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate existing grammar extraction and pipeline
+        run: python -m unittest discover -s tests -v
+      - name: Grammar-only Pass 2 of full remaining Stacks batch
+        run: |
+          set -euo pipefail
+          python scripts/pass2_fast_stacks.py --workdir harvest/batches/stacks-remaining-2026-10-28
+          python scripts/harvest_pipeline.py status --workdir harvest/batches/stacks-remaining-2026-10-28
+      - name: Save Pass 2 decisions and unresolved queue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/batches/stacks-remaining-2026-10-28
+          git diff --cached --quiet || (git commit -m "Grammar-only Pass 2 on 7865 remaining Stacks candidates" && git push)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stacks-remaining-pass2-grammar-summary
+          path: harvest/batches/stacks-remaining-2026-10-28/pass2_summary.json
+          retention-days: 90
