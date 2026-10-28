@@ -1,0 +1,43 @@
+name: Bulk Pass 1 Stacks candidates
+on:
+  push:
+    paths:
+      - .github/workflows/harvest-bulk-pass1.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch pinned Stacks chapters and extract raw candidates
+        run: |
+          set -euo pipefail
+          REF=$(git ls-remote https://github.com/stacks/stacks-project.git refs/heads/master | cut -f1)
+          test ${#REF} -eq 40
+          mkdir -p upstream/stacks harvest/batches/stacks-bulk-2026-10-28
+          files=(categories.tex fields.tex algebra.tex topology.tex modules.tex groups.tex schemes.tex comm-algebra.tex sets.tex spaces.tex limits.tex sheaves.tex)
+          for file in "${files[@]}"; do
+            if curl --fail --location --silent --show-error --retry 2 --max-time 100 "https://raw.githubusercontent.com/stacks/stacks-project/$REF/$file" -o "upstream/stacks/$file"; then
+              python scripts/harvest_stacks.py --source-root upstream/stacks --source-ref "$REF" --files "upstream/stacks/$file" --batch-id "stacks-bulk-2026-10-28" --max-candidates-per-file 250 --output-dir harvest/batches/stacks-bulk-2026-10-28
+            else
+              echo "Source unavailable: $file"
+            fi
+          done
+          python scripts/harvest_pipeline.py status --workdir harvest/batches/stacks-bulk-2026-10-28
+          echo "$REF" > harvest/batches/stacks-bulk-2026-10-28/source_ref.txt
+      - name: Commit raw candidates outside published data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/batches/stacks-bulk-2026-10-28
+          git diff --cached --quiet || (git commit -m "Save bulk Stacks Pass 1 raw candidate batch (no reviews)" && git push)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stacks-bulk-pass1
+          path: harvest/batches/stacks-bulk-2026-10-28/
+          retention-days: 90
