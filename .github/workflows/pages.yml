@@ -65,6 +65,12 @@ jobs:
             'version':manifest['version'],
           },sort_keys=True))
           PY
+      - name: Install browser smoke adapter
+        run: npm install --prefix /tmp/maththm-browser --no-audit --no-fund playwright-core@1.56.1
+      - name: Browser-test canonical v2 theorem definition expansion
+        run: |
+          python -m http.server 8766 --directory _site >/tmp/maththm-http.log 2>&1 &
+          MATHTHM_SITE_ROOT=_site MATHTHM_SITE_URL=http://127.0.0.1:8766/ node tests/test_v2_browser.cjs
       - uses: actions/configure-pages@v5
         with:
           enablement: true
