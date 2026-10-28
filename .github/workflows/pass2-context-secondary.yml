@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - .github/workflows/pass2-context-secondary.yml
+      - scripts/pass2_context_secondary.py
+      - tests/test_pass2_context_secondary.py
   workflow_dispatch:
 permissions:
   contents: write
