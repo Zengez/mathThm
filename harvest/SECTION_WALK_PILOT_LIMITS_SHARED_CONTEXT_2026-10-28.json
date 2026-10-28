@@ -1,0 +1,33 @@
+{
+  "schema": "maththm.section-walk-reviewed-standing-context.v1",
+  "context_id": "limits:situation-descent-property",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_filename": "limits.tex",
+  "section_id": "limits:section-descent-of-properties",
+  "scope_start_line": 1738,
+  "scope_end_line": 2127,
+  "named_situation_source_line": 1738,
+  "declaring_sentence_line": 1733,
+  "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/limits.tex#L1729-L1747",
+  "scope_class": "section_ambient_situation_with_explicit_references",
+  "scope_justification": "The section's introductory prose says 'We will work in the following situation.' Every theorem in this 15-candidate group explicitly begins 'Notation and assumptions as in Situation ...', independently confirming applicability. The Situation environment itself closes; its contents are reused as an explicitly designated setting, not because assumptions in arbitrary prior lemmas accumulate.",
+  "hypotheses": [
+    "I is a directed indexing set, 0\\in I, and (S_i)_{i\\in I} is an inverse system of schemes with affine transition morphisms.",
+    "S=\\varprojlim_{i\\in I}S_i.",
+    "f_0:X_0\\to Y_0 is a morphism of schemes over S_0.",
+    "S_0, X_0, Y_0 are quasi-compact and quasi-separated.",
+    "For every i\\ge 0, f_i:X_i\\to Y_i is obtained from f_0 by base change along S_i\\to S_0.",
+    "f:X\\to Y is the corresponding base change of f_0 along S\\to S_0."
+  ],
+  "summary": "Fixed inverse-system setting; no assumption that f, f0, or any fi has a specific descent property unless that is included in the individual lemma.",
+  "assumptions_that_must_not_inherit": [
+    "f_0 locally of finite type (only stated in certain individual lemmas)",
+    "f_0 locally of finite presentation (only stated in certain individual lemmas)",
+    "f affine, flat, finite, smooth, etale, etc. (always specific to one lemma)",
+    "The existence index i for a prior candidate does not bind the choice for another candidate"
+  ],
+  "source_definition_status": "mathematical_setting_read_and_scoped_for_this_section",
+  "source_proofs_read": false,
+  "applies_beyond_this_section": false,
+  "automatic_scope_propagation": false
+}
