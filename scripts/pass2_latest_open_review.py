@@ -57,6 +57,17 @@ def main():
             "hard_groups":dict(sorted(hard_groups.items())),
             "hard_examples":dict(hardexamples),
             "classification_cases":questionable}
+    # All ambiguous statements remain explicitly assigned for higher-thinking review.
+    # This queue is derived from canonical Pass 2, not stale follow-up snapshots.
+    for batch, entry in output.items():
+        entry["higher_thinking_review"] = {
+            "context": entry["statuses"].get("needs_context", 0),
+            "structure": entry["statuses"].get("needs_structure", 0),
+            "classification": entry["statuses"].get("needs_classification", 0),
+            "priority": ["conjecture_or_unproven_claim", "inherited_assumptions", "nested_scopes_or_unconditional_result"],
+            "source_of_truth": "pass2.jsonl",
+            "do_not_autopromote": True,
+        }
     p.atomic_text(Path("harvest/PASS2_LATEST_OPEN_REVIEW_2026-10-28.json"),
                   json.dumps(output,indent=2,sort_keys=True,ensure_ascii=False)+"\n")
     print(json.dumps({k:{name:row[name] for name in ('statuses','context_groups','hard_groups','classification_cases')}
