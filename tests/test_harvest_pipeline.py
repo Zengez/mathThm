@@ -112,6 +112,15 @@ class HarvestTests(unittest.TestCase):
         needs=pipeline.read_jsonl(self.w/"needs_more_investigation.jsonl")
         self.assertEqual(needs[0]["status"],"needs_context")
         self.assertEqual(needs[0]["candidate_id"],self.two)
+        # Unresolved candidates must remain available to an editorial Pass 2
+        # reviewer after automated syntax triage; resolved ones must not.
+        pipeline.pass2_packets(argparse.Namespace(
+            workdir=str(self.w),source_root=str(self.root),
+            max_local_references=2,max_context_chars=1000))
+        pending=pipeline.load_rows(self.w/"pass2_packets.jsonl","candidate_id")
+        self.assertEqual(set(pending),{self.two})
+        self.assertEqual(pending[self.two]["prior_context_status"],"needs_context")
+
 
     def test_pass3_plausible_promotes_only_accepted_candidate(self):
         self.run_pass2()
