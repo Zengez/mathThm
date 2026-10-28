@@ -1,0 +1,69 @@
+name: Pass 2 source semantic structural case review
+on:
+  push:
+    paths:
+      - .github/workflows/pass2-semantic-statements.yml
+      - scripts/pass2_semantic_statements.py
+      - tests/test_pass2_semantic_statements.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: All existing and new Python regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Explicit source closure/casewise/conditional Pass 2 interpretation
+        run: python -m scripts.pass2_semantic_statements
+      - name: Regenerate canonical current unresolved queues after this stage
+        run: python -m scripts.pass2_resume_queues
+      - name: Validate bidirectional equivalences and all Stacks totals
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from collections import Counter
+          from scripts import harvest_pipeline as p
+          allcounts=Counter()
+          for batch in ('stacks-bulk-2026-10-28','stacks-second-2026-10-28','stacks-remaining-2026-10-28'):
+              w=Path('harvest/batches')/batch
+              raw=p.load_rows(w/'pass1.jsonl','candidate_id')
+              review=p.load_rows(w/'pass2.jsonl','candidate_id')
+              assert set(raw)==set(review)
+              assert len(p.load_rows(w/'pass3.jsonl','candidate_id'))==0
+              state=Counter(v['context_status'] for v in review.values())
+              allcounts.update(state)
+              for v in review.values():
+                  if v['context_status']=='resolved':
+                      assert v['hypotheses'] and v['conclusions']
+                  if 'equivalence' in v.get('logical_form',''):
+                      assert all(s in v['hypotheses'] and s in v['conclusions']
+                                 for cond in v.get('equivalence_sides',[]) for s in cond)
+          assert sum(allcounts.values())==10987
+          stat=json.loads(Path('harvest/PASS2_RESUME_INVENTORY_2026-10-28.json').read_text())
+          assert stat['all_statuses']==dict(sorted(allcounts.items()))
+          print(dict(sorted(allcounts.items())))
+          PY
+      - name: Persist Pass 2 decisions and fresh audit queues
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/batches/stacks-bulk-2026-10-28 harvest/batches/stacks-second-2026-10-28 harvest/batches/stacks-remaining-2026-10-28 harvest/PASS2_RESUME_INVENTORY_2026-10-28.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Pass 2: resolve source semantic closure and explicit casewise statements"
+            git pull --rebase origin main
+            git push origin main
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pass2-semantic-stacks-and-current-queues
+          path: |
+            harvest/batches/*/pass2_semantic_source_summary.json
+            harvest/PASS2_RESUME_INVENTORY_2026-10-28.json
+          retention-days: 90
