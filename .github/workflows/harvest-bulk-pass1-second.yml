@@ -1,0 +1,43 @@
+name: Bulk Pass 1 Stacks second subjects
+on:
+  push:
+    paths:
+      - .github/workflows/harvest-bulk-pass1-second.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Harvest additional pinned Stacks source chapters
+        run: |
+          set -euo pipefail
+          REF=$(git ls-remote https://github.com/stacks/stacks-project.git refs/heads/master | cut -f1)
+          test ${#REF} -eq 40
+          mkdir -p upstream/stacks harvest/batches/stacks-second-2026-10-28
+          files=(number-theory.tex groupoids.tex homology.tex homotopy.tex derived.tex etale.tex descent.tex cohomology.tex varieties.tex curves.tex divisors.tex sites.tex simplicial.tex more-algebra.tex)
+          for file in "${files[@]}"; do
+            if curl --fail --location --silent --show-error --retry 2 --max-time 100 "https://raw.githubusercontent.com/stacks/stacks-project/$REF/$file" -o "upstream/stacks/$file"; then
+              python scripts/harvest_stacks.py --source-root upstream/stacks --source-ref "$REF" --files "upstream/stacks/$file" --batch-id "stacks-second-2026-10-28" --max-candidates-per-file 250 --output-dir harvest/batches/stacks-second-2026-10-28
+            else
+              echo "Unavailable chapter: $file"
+            fi
+          done
+          python scripts/harvest_pipeline.py status --workdir harvest/batches/stacks-second-2026-10-28
+          echo "$REF" > harvest/batches/stacks-second-2026-10-28/source_ref.txt
+      - name: Persist only raw candidates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/batches/stacks-second-2026-10-28
+          git diff --cached --quiet || (git commit -m "Save second Stacks Pass 1 candidate batch" && git push)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stacks-second-pass1
+          path: harvest/batches/stacks-second-2026-10-28/
+          retention-days: 90
