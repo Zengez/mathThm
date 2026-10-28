@@ -23,6 +23,18 @@ BATCH="two_full_chapters_2026-10-28"
 READY=r300.READY
 HOLD=r300.HOLD
 KINDS={"definition","situation","notation","setup","construction"}
+ADJUDICATED_DURABLE={
+  ("varieties.tex",35):{
+    "scope":"through chapter 33, discharged at transition to chapter 34",
+    "type":"chapter_notation_convention",
+    "meaning":"The symbol k denotes the ground field",
+    "candidate_hypothesis":False},
+  ("topologies.tex",384):{
+    "scope":"from topologies.tex line 384 through chapter 34",
+    "type":"standing_terminological_identification",
+    "meaning":"Identify sheaves on the small Zariski site S_Zar with sheaves on S through the specified equivalence",
+    "candidate_hypothesis":False},
+}
 
 def write(path, value):
     hp.atomic_text(path,json.dumps(value,ensure_ascii=False,indent=2,sort_keys=True)+"\n")
@@ -38,6 +50,16 @@ def inventory():
         assert number not in chapters,("duplicate chapter index",number)
         chapters[number]=(filename,sections)
     used=completed_section_starts()
+    old=json.loads((ROOT/"SELECTION.json").read_text()) if (ROOT/"SELECTION.json").exists() else None
+    registered=json.loads(REGISTRY.read_text())
+    current=[x for x in registered["sections"] if x.get("batch")==BATCH]
+    if old:
+        PAIR=tuple(x["order"] for x in old["chapters"])
+        assert len(PAIR)==2 and PAIR[1]==PAIR[0]+1
+        assert len(current)==old["section_count"],"Registered replay batch incomplete or inconsistent"
+        assert sum(x["active_candidate_count"] for x in current)==old["candidate_count"]
+        for entry in current:
+            used.get(entry["source_file"],set()).discard(entry["section_start_line"])
     choices=[]
     options=[]
     for first in sorted(chapters):
@@ -50,11 +72,14 @@ def inventory():
         count=sum(len(grouped.get((filename,s["section_start_line"]),[]))
                   for filename,sections in files for s in sections)
         options.append((first,count))
-    assert options,"No adjacent pair of fully unprocessed chapters"
-    # Prefer the first untouched pair with >300 active candidates. If none
-    # has that density, still honor the two-whole-chapter request.
-    pick=next(((n,count) for n,count in options if count>300),options[0])
-    PAIR=(pick[0],pick[0]+1)
+    if old:
+        pick=(PAIR[0],old["candidate_count"])
+        assert any(n==PAIR[0] and count==old["candidate_count"] for n,count in options),            "Registered replay selection is not eligible after own-batch exclusions"
+    else:
+        assert options,"No adjacent pair of fully unprocessed chapters"
+        # Prefer first untouched pair exceeding previous 300-candidate run.
+        pick=next(((n,count) for n,count in options if count>300),options[0])
+        PAIR=(pick[0],pick[0]+1)
     print("SELECTED COMPLETE CHAPTERS",PAIR,"ACTIVE CANDIDATES",pick[1],
           "OTHER ELIGIBLE PAIRS",options[:12],flush=True)
     for n in PAIR:
@@ -145,6 +170,18 @@ def extract(manifest):
     source_context=hp.read_jsonl(ROOT/"SHARED_CONTEXT_EXCERPTS.jsonl")
     # Scope signals are leads, not automatically inherited standing assumptions.
     leads=[q for q in source_context if q["kind"]=="unadjudicated_prose"]
+    flagged={(q["source_filename"],q["source_start_line"]) for q in leads
+             if q["signal"]=="potential_durable_scope_change"}
+    assert flagged==set(ADJUDICATED_DURABLE),("Unexpected durable source scope lead",flagged)
+    write(ROOT/"SCOPES_REVIEWED.json",{
+        "source_revision":REV,"adjudicated_durable_count":len(flagged),
+        "reviewed_signals":[{"source_filename":f,"line":line,**decision}
+                            for (f,line),decision in ADJUDICATED_DURABLE.items()],
+        "remaining_local_or_unclassified_prose_leads":len(leads)-len(flagged),
+        "approved_new_theorem_hypotheses":0,
+        "chapter_boundary_discards_varieties_notation":True,
+        "note":"Reviewed the actual pinned-source excerpts: ground-field naming and the small-Zariski-sheaf equivalence are not extra universally imposed theorem assumptions."
+    })
     write(ROOT/"SCOPE_LEADS.json",{
         "source_revision":REV,"unadjudicated_lead_count":len(leads),
         "automatically_inherited_hypotheses":0,
@@ -201,7 +238,9 @@ def draft(manifest,source_context):
             # Persistent prose is NEVER made true by merely being scanned.
             preceding=[x for x in leads_by_section.get(key,[]) if
                        x["source_start_line"]<=p["source_statement_line"]]
-            durable=[x for x in preceding+chapter_durable_leads if x["signal"]=="potential_durable_scope_change"]
+            durable=[x for x in preceding+chapter_durable_leads
+                     if x["signal"]=="potential_durable_scope_change"
+                     and (x["source_filename"],x["source_start_line"]) not in ADJUDICATED_DURABLE]
             if durable:
                 holds.append("Unadjudicated potentially durable source context; determine start/end and whether it applies.")
             loc=frames[p["source_statement_line"]]
@@ -233,6 +272,11 @@ def draft(manifest,source_context):
                "applicable_prior_named_definition_ids":available,
                "named_definitions_are_not_ambient_assumptions":True,
                "section_ambient_hypotheses_auto_inherited":[],
+               "available_source_notation_conventions":[
+                   {"source_filename":f,"source_start_line":line,
+                    "type":meta["type"],"meaning":meta["meaning"]}
+                   for (f,line),meta in ADJUDICATED_DURABLE.items()
+                   if f==file and p["source_statement_line"]>line],
                "local_lemma_hypotheses_expire_at_end":True,
                "source_named_reference_labels":[x["reference"] for x in p["explicit_refs"]],
                "source_inline_reference_labels":refs,
@@ -258,7 +302,8 @@ def draft(manifest,source_context):
             "section_complete":True})
         # Keep unresolved potentially chapter-durable signals on the review stack.
         chapter_durable_leads.extend(x for x in leads_by_section.get(key,[])
-                                     if x["signal"]=="potential_durable_scope_change")
+                                     if x["signal"]=="potential_durable_scope_change"
+                                     and (x["source_filename"],x["source_start_line"]) not in ADJUDICATED_DURABLE)
     assert len(all_ids)==manifest["active_candidate_count"]
     out={"schema":"maththm.two-complete-chapters.editorial-drafts.v1",
          "source_revision":REV,"source_chapters":manifest["source_chapters"],
@@ -281,6 +326,11 @@ def validate_and_register(manifest,draft_manifest,context):
     assert manifest["source_events_by_kind"]["enter_local_environment"]==manifest["source_events_by_kind"]["exit_local_environment"]
     registry=json.loads(REGISTRY.read_text())
     assert registry["source_revision"]==REV
+    old_batch=[x for x in registry["sections"] if x.get("batch")==BATCH]
+    assert len(old_batch) in (0,selection["section_count"])
+    assert (not old_batch or
+            sum(x["active_candidate_count"] for x in old_batch)==selection["candidate_count"])
+    registry["sections"]=[x for x in registry["sections"] if x.get("batch")!=BATCH]
     used={(x["source_file"],x["section_start_line"]) for x in registry["sections"]}
     checkpoints=[]
     seen=set()
@@ -370,7 +420,7 @@ Pinned source: `{REV}`
 - Preliminary draft-ready (pending mathematical equivalence review): **{draft_manifest['status_counts'].get(READY,0)}**.
 - Held for source-context/logic review: **{draft_manifest['status_counts'].get(HOLD,0)}**.
 - Named source context records: **{sum(q['kind'] in KINDS for q in context)}**.
-- Unadjudicated source prose/scope leads: **{sum(q['kind']=='unadjudicated_prose' for q in context)}**.
+- Source prose/scope leads captured: **{sum(q['kind']=='unadjudicated_prose' for q in context)}**; **{len(ADJUDICATED_DURABLE)}** durable-looking convention signals source-adjudicated, not inherited as premises.
 - Complete-section checkpoints: **{len(checkpoints)}**.
 - Cumulative section-draft registry: **{registry['sections_completed_for_draft']}** sections and **{registry['active_candidate_drafts_in_these_sections']}** candidates.
 
@@ -386,7 +436,7 @@ status is not a truth certificate.
 
 Reproduce with `python -m scripts.stacks_two_complete_chapters` after
 checking out the pinned Stacks source in `upstream/stacks`; this command
-refuses an overlapping new batch and is not a registered-batch replay mode.
+permits deterministic replay of its own registered batch while refusing overlaps with others.
 """
     hp.atomic_text(ROOT/"REPORT.md",report)
     return registry
