@@ -1,0 +1,38 @@
+{
+  "canonical_or_published_records_edited": false,
+  "next_step": "Validate six clean standalone drafts mathematically; locally resolve 7 targeted holds or defer individually; recompare provisional duplicate aliases; no proof screening until the standalone gate is passed",
+  "open_context_issues": 14,
+  "open_terminology_leads": {
+    "affine formal algebraic space": 1,
+    "coherent-sheaf stack": 1,
+    "cycle groups relative to dimension function": 1,
+    "homotopy colimit": 1,
+    "naive cotangent complex": 2,
+    "negative tensor powers": 1,
+    "pseudo-coherent complex": 1,
+    "unramified local homomorphism": 1
+  },
+  "original_source_occurrences_preserved": 21,
+  "pass3_eligible": 0,
+  "provisional_source_merge_groups_finalized": 0,
+  "provisional_source_merge_groups_included": [
+    26,
+    38,
+    50,
+    55,
+    60,
+    84,
+    92,
+    96
+  ],
+  "reviewed_candidates": 13,
+  "schema": "maththm.standalone-expansion-batch01-manifest.v1",
+  "source_mathematical_equivalence_certified": 0,
+  "source_pass1_pass2_mutated": false,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "status_counts": {
+    "context_resolution_pending": 7,
+    "standalone_draft_ready_for_validation": 6
+  },
+  "theorem_proofs_screened": 0
+}
