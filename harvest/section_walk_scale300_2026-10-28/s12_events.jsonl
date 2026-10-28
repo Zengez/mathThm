@@ -1,0 +1,45 @@
+{"kind": "local_or_unclassified_prose", "line": 6264, "review_required": true, "scope_stack": [], "text_excerpt": "A morphism of such inverse systems is defined as usual. Let us denote the category of these inverse systems with $\\textit{Coh}(X, \\mathcal{I})$. We are going to proceed by proving a bunch of lemmas about objects in this category. In fact, most of the lemmas that follow are straightforward consequences of the following description of the category in the affine case."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6271, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6271, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6278, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6280, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6312, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6312, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6324, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6326, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6395, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6395, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6402, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6404, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6422, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6422, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6425, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6427, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6437, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6437, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6449, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6451, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6486, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6486, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6516, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6518, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6548, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6548, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6567, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6569, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6611, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6611, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6619, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6621, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6630, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6630, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6641, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6643, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6665, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6665, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6677, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6679, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6705, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6705, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6713, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6715, "scope_stack": []}

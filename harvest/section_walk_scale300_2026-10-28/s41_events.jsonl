@@ -1,0 +1,29 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 5882, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 5889, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "example", "kind": "enter_local_environment", "line": 5896, "persists_after_end": false, "scope_stack": ["example"]}
+{"environment": "example", "kind": "exit_local_environment", "line": 5907, "persists_after_end": false, "scope_stack_before_pop": ["example"]}
+{"environment": "definition", "kind": "enter_local_environment", "line": 5917, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 5932, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "definition", "kind": "enter_local_environment", "line": 5956, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 5965, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 5983, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 5983, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6004, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6006, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6034, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6034, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6073, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6075, "scope_stack": []}
+{"environment": "definition", "kind": "enter_local_environment", "line": 6134, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 6145, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"kind": "local_or_unclassified_prose", "line": 6148, "review_required": true, "scope_stack": [], "text_excerpt": "Let us spell out when (regular) meromorphic sections can be pulled back."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6150, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6150, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6166, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6168, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6172, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6172, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6194, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6196, "scope_stack": []}
+{"environment": "definition", "kind": "enter_local_environment", "line": 6219, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 6227, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}

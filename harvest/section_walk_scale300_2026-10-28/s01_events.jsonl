@@ -1,0 +1,33 @@
+{"kind": "potential_durable_scope_change", "line": 2936, "review_required": true, "scope_stack": [], "text_excerpt": "Throughout this section we will use that a coherent sheaf is the same thing as a finite type quasi-coherent sheaf and that a quasi-coherent subquotient of a coherent sheaf is coherent, see Section \\ref{section-coherent-sheaves}. The support of a coherent sheaf is closed, see Modules, Lemma \\ref{modules-lemma-support-finite-type-closed}."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2943, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2943, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2954, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2956, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2981, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2981, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2995, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2997, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3050, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3050, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3067, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3069, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3143, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3143, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3161, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3163, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3178, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3178, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3201, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3203, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3269, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3269, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3289, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3291, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3306, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3306, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3338, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3340, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3424, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3424, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3453, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3455, "scope_stack": []}

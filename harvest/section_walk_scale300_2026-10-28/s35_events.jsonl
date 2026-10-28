@@ -1,0 +1,41 @@
+{"kind": "local_or_unclassified_prose", "line": 3590, "review_required": true, "scope_stack": [], "text_excerpt": "Let $\\pi : X \\to Y$ be a finite morphism of schemes and let $d \\geq 1$ be an integer. Let us say there exists a {\\it norm of degree $d$ for $\\pi$}\\footnote{This is nonstandard notation.} if there exists a multiplicative map $$"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3616, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3616, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3622, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3624, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3654, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3654, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3664, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3666, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3695, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3695, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3715, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3717, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3737, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3737, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3742, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3744, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3772, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3772, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3776, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3778, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3788, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3788, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3793, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3795, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3825, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3825, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3830, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3832, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3869, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3869, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3875, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3877, "scope_stack": []}
+{"environment": "proposition", "kind": "enter_local_environment", "line": 3892, "persists_after_end": false, "scope_stack": ["proposition"]}
+{"kind": "candidate_location", "line": 3892, "scope_stack": ["proposition"]}
+{"environment": "proposition", "kind": "exit_local_environment", "line": 3902, "persists_after_end": false, "scope_stack_before_pop": ["proposition"]}
+{"kind": "proof_skipped", "line": 3904, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3915, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3915, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3924, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3926, "scope_stack": []}

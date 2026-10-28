@@ -1,0 +1,17 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 4324, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 4330, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"kind": "local_or_unclassified_prose", "line": 4341, "review_required": true, "scope_stack": [], "text_excerpt": "where $i : Z \\to X \\setminus \\partial Z$ and $\\mathcal{I}$ is the ideal sheaf of $i$ as above. Finally, note that there is a canonical surjective map"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4351, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4351, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4373, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4375, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4381, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4381, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4412, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4414, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4453, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4453, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4467, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4469, "scope_stack": []}
+{"environment": "definition", "kind": "enter_local_environment", "line": 4476, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 4495, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}

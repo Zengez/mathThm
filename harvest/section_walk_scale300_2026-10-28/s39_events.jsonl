@@ -1,0 +1,45 @@
+{"kind": "local_or_unclassified_prose", "line": 4893, "review_required": true, "scope_stack": [], "text_excerpt": "Let $i : Z \\to X$ be an immersion of schemes. By definition this means there exists an open subscheme $U \\subset X$ such that $Z$ is identified with a closed subscheme of $U$. Let $\\mathcal{I} \\subset \\mathcal{O}_U$ be the corresponding quasi-coherent sheaf of ideals. Suppose $U' \\subset X$ is a second such open subscheme, and denote $\\mathcal{I}' \\subset \\mathcal{O}_{U'}$ the corresponding quasi-coherent sheaf of ideals. Then $\\mathcal{I}|_{U \\cap U'} = \\mathcal{I}'|_{U \\cap U'}$. Moreover, the support of $\\mathcal{O}_U/\\mathcal{I}$ is $Z$ which is contained in $U \\cap U'$ and is also the support of $\\mathcal{O}_{U'}/\\mathcal{I}'$. Hence it follows from Definition \\ref{definition-regular-ideal-sheaf} that $\\mathcal{I}$ is a regular ideal if and only if $\\mathcal{I}'$ is a regular ideal. Similarly for being Koszul-regular, $H_1$-regular, "}
+{"environment": "definition", "kind": "enter_local_environment", "line": 4909, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 4930, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4941, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4941, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4949, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4951, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4956, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4956, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4964, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4966, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4973, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4973, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4980, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4982, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4993, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4993, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 5002, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 5004, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 5017, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 5017, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 5028, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 5030, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 5052, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 5052, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 5062, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 5064, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 5075, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 5075, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 5092, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 5094, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 5144, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 5144, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 5163, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 5165, "scope_stack": []}
+{"environment": "remark", "kind": "enter_local_environment", "line": 5199, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 5207, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 5209, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 5209, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 5215, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 5217, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 5227, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 5227, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 5231, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 5233, "scope_stack": []}

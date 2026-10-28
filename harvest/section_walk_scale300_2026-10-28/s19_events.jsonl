@@ -1,0 +1,40 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 38, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 52, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"kind": "local_or_unclassified_prose", "line": 55, "review_required": true, "scope_stack": [], "text_excerpt": "These definitions are most useful when $X$ is locally Noetherian and $\\mathcal{F}$ of finite type. For example it may happen that a generic point of an irreducible component of $X$ is not associated to $X$, see Example \\ref{example-no-associated-prime}. In the non-Noetherian case it may be more convenient to use weakly associated points, see Section \\ref{section-weakly-associated}. Let us link the scheme theoretic notion with the algebraic notion on affine opens; note that this correspondence works perfectly only for locally Noetherian schemes."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 67, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 84, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 86, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 119, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 119, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 124, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 126, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 130, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 130, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 140, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 142, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 150, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 150, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 156, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 158, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 171, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 171, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 178, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 180, "scope_stack": []}
+{"environment": "example", "kind": "enter_local_environment", "line": 189, "persists_after_end": false, "scope_stack": ["example"]}
+{"environment": "example", "kind": "exit_local_environment", "line": 196, "persists_after_end": false, "scope_stack_before_pop": ["example"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 198, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 198, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 204, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 206, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 219, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 219, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 228, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 230, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 249, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 249, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 261, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 263, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 268, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 268, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 280, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 282, "scope_stack": []}

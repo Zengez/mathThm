@@ -1,0 +1,12 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 1056, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 1068, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"kind": "local_or_unclassified_prose", "line": 1071, "review_required": true, "scope_stack": [], "text_excerpt": "Again there is a caveat that this is best used when the fibres of $f$ are locally Noetherian and $\\mathcal{F}$ is of finite type. In the general case we should probably use the relative weak assassin (defined in the next section). Let us link the scheme theoretic notion with the algebraic notion on affine opens; note that this correspondence works perfectly only for morphisms of schemes whose fibres are locally Noetherian."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 1078, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 1095, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 1097, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 1119, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 1119, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 1138, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 1140, "scope_stack": []}
+{"environment": "remark", "kind": "enter_local_environment", "line": 1169, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 1189, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}

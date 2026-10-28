@@ -1,0 +1,6 @@
+{"environment": "theorem", "kind": "enter_local_environment", "line": 7639, "persists_after_end": false, "scope_stack": ["theorem"]}
+{"kind": "candidate_location", "line": 7639, "scope_stack": ["theorem"]}
+{"environment": "theorem", "kind": "exit_local_environment", "line": 7654, "persists_after_end": false, "scope_stack_before_pop": ["theorem"]}
+{"kind": "proof_skipped", "line": 7656, "scope_stack": []}
+{"environment": "remark", "kind": "enter_local_environment", "line": 7779, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 7818, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}
