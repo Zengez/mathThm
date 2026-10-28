@@ -56,7 +56,7 @@ def main():
         stack=[]
         lemma_count=0
         candidate_event_count=0
-        local_end_lines=[]
+        lemma_bounds=[]
         beginnings=[]
         for e in events:
             total_events[e["kind"]]+=1
@@ -67,16 +67,24 @@ def main():
                 kind,begin=stack.pop()
                 assert begin<=e["line"]
                 if kind=="lemma":
-                    local_end_lines.append(e["line"])
+                    lemma_bounds.append((begin,e["line"]))
                     lemma_count+=1
             elif e["kind"]=="candidate_location":
                 assert stack and stack[-1][0]=="lemma",(key,e,stack)
                 candidate_event_count+=1
                 beginnings.append(e["line"])
         assert not stack,(key,stack)
-        assert lemma_count==candidate_event_count==expected
-        assert len(local_end_lines)==expected
-        assert all(beginnings[i]<local_end_lines[i] for i in range(expected))
+        assert candidate_event_count==expected
+        assert lemma_count>=expected
+        assert len(lemma_bounds)==lemma_count
+        assert all(begin<end for begin,end in lemma_bounds)
+        assert all(beginnings[i] in {begin for begin,end in lemma_bounds}
+                   for i in range(expected))
+        # Every candidate is processed; a source section can also contain
+        # nonactive/deferred lemmas. Preserve their scope events and record
+        # them without silently adding them to the active candidate pool.
+        nonactive_source_lemma_lines=sorted(
+            begin for begin,end in lemma_bounds if begin not in beginnings)
         sorted_reviews=sorted(reviews.values(),key=lambda v:v["source_line"])
         assert [r["source_line"] for r in sorted_reviews]==beginnings
         section_kind=Counter()
@@ -167,6 +175,8 @@ def main():
             "candidates":expected,
             "review_status_counts":dict(section_kind),
             "local_lemma_scope_frames_popped":expected,
+            "all_source_lemma_frames_popped":lemma_count,
+            "nonactive_source_lemma_start_lines":nonactive_source_lemma_lines,
             "source_lines":end-start+1,
             "event_counts":dict(Counter(e["kind"] for e in events)),
         })
@@ -190,6 +200,8 @@ def main():
         "exact_source_label_reference_uses":total_reference_uses,
         "scope_event_counts":dict(sorted(total_events.items())),
         "temporary_lemma_frames_popped":74,
+        "additional_nonactive_source_lemmas_not_processed":sum(
+            len(x["nonactive_source_lemma_start_lines"]) for x in sections),
         "mid_section_notation_scope_changes_adjudicated":1,
         "complete_section_checkpoints":5,
         "all_source_equivalence_approvals":0,
