@@ -83,5 +83,29 @@
       return 0;
     }).map(x=>x.form);
   }
-  return Object.freeze({index,orderedForms});
+  // Mirrors mathDef's *current* portable recursive UI: block only canonical
+  // definition headings on the active ancestry path, not unrelated siblings.
+  // Resolve redirects before comparing IDs, so an old ID cannot re-open its
+  // own canonical v2 heading through another spelling or alias.
+  function branchPath(reference, ancestors, nextId, maxDepth=8){
+    if(!reference || !Array.isArray(ancestors))return null;
+    const path=ancestors.map(id=>reference.resolveId(id)).filter(Boolean);
+    if(path.length!==ancestors.length || path.length>=maxDepth)return null;
+    const next=reference.resolveId(nextId);
+    if(!next || path.includes(next))return null;
+    return [...path,next];
+  }
+  function visibleDependencies(reference, path, dependencies){
+    if(!reference || !Array.isArray(path) || !Array.isArray(dependencies))return [];
+    const blocked=new Set(path.map(id=>reference.resolveId(id)).filter(Boolean));
+    const seen=new Set();
+    return dependencies.flatMap(dep=>{
+      const canonical=dep?.id && reference.resolveId(dep.id);
+      if(!canonical || blocked.has(canonical) || seen.has(canonical) ||
+         !branchPath(reference,path,canonical))return [];
+      seen.add(canonical);
+      return [{...dep,id:canonical}];
+    });
+  }
+  return Object.freeze({index,orderedForms,branchPath,visibleDependencies});
 });
