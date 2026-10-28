@@ -2,6 +2,24 @@
 
 **Status: October 28, 2026.** A lightweight, bounded Python toolkit exists. It is NOT a mathematical proof checker or autonomous research engine. No raw candidates or questionable cases are published automatically. See HARVEST_DESIGN.md and THEOREM_RECORD_CONTRACT.md.
 
+## CURRENT CAMPAIGN OVERRIDE — prototype population and Pass 3
+
+The initial Pass 2 bulk-discovery campaign is closed for the prototype. **Only the 9,683 candidate IDs in [harvest/active_candidate_ids.jsonl](harvest/active_candidate_ids.jsonl) are considered active.** The separate [active-pool manifest](harvest/ACTIVE_CANDIDATE_POOL.json) records the current recognized intake and batch membership. The historical Pass 1/2 files intentionally retain all original sources; they are NOT active-pool counts.
+
+The deferred cases live exclusively for future discovery in [harvest/problem_candidates.jsonl](harvest/problem_candidates.jsonl) with difficulty groups and a [manifest](harvest/PROBLEM_CANDIDATES_MANIFEST.json). Pass 3 packets, manual Pass 3 decisions and staging ignore those IDs; routine status reports track only active intake. If a new separate research phase chooses to revisit these cases, start it deliberately and rebuild the pool only after accepted canonical decisions change.
+
+For the existing three Stacks batches, the following commands now respect the allowlist:
+
+```bash
+python -m scripts.active_candidate_pool
+python -m scripts.harvest_pipeline pass3-packets --workdir harvest/batches/stacks-bulk-2026-10-28 --source-root /path/to/pinned-stacks-source
+python -m scripts.harvest_pipeline status --workdir harvest/batches/stacks-bulk-2026-10-28
+```
+
+Repeat Pass 3 for the other active Stacks batches. The pinned upstream source must be present for nontruncated proof excerpts. This transition does not read, screen, or publish any theorem proof.
+
+---
+
 ## What each pass does
 
 1. **Pass 1:** Scripts scan explicitly selected Stacks Project LaTeX chapter files for theorem/lemma/proposition/corollary environments followed by an apparent proof environment. They capture complete source statements, pinned source revision, source URL, exact source line, proof location and source confidence. They **do not read or assess the proof**. Pass 1 false positives are acceptable.
