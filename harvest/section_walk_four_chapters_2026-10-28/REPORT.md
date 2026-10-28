@@ -6,10 +6,10 @@ Pinned source: `a04446e57ec1fbc252a871afcec7752fb2807b14`
 - Fully processed source sections: **205**. No section skipped or truncated.
 - Source lines traversed: **58,046**.
 - Distinct active canonical candidates drafted: **781**.
-- Preliminary draft-ready (pending mathematical equivalence review): **367**.
-- Held for source-context/logic review: **414**.
+- Preliminary draft-ready (pending mathematical equivalence review): **550**.
+- Held for source-context/logic review: **231**.
 - Named source context records: **88**.
-- Source prose/scope leads captured: **36**; **0** durable-looking convention signals source-adjudicated, not inherited as premises.
+- Source prose/scope leads captured: **36**; **5** durable-looking convention signals source-adjudicated, not inherited as premises.
 - Complete-section checkpoints: **205**.
 - Cumulative section-draft registry: **346** sections and **1650** candidates.
 

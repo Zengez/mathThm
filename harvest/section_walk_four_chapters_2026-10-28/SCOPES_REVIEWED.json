@@ -2,9 +2,60 @@
   "adjudicated_durable_count": 5,
   "approved_new_theorem_hypotheses": 0,
   "chapter_boundaries_discharge_local_context": true,
-  "note": "No unreviewed prose standing-scope lead is automatically inherited as a theorem hypothesis; each requires source adjudication.",
-  "remaining_local_or_unclassified_prose_leads": 36,
-  "reviewed_signals": [],
+  "note": "The five chapter-wide-looking signals were reviewed at their source: two harmless section conventions, one section-local construction, and two formal named Situations requiring statement-specific expansion. No context is inherited outside its justified scope.",
+  "remaining_local_or_unclassified_prose_leads": 31,
+  "reviewed_signals": [
+    {
+      "candidate_hypothesis": false,
+      "line": 1760,
+      "meaning": "Identify a sheaf on the thickening X' with a sheaf on X in this section",
+      "requires_statement_specific_expansion": false,
+      "scope": "section",
+      "section_key": "s089",
+      "source_filename": "more-morphisms.tex",
+      "type": "section_notation_convention"
+    },
+    {
+      "candidate_hypothesis": false,
+      "line": 10129,
+      "meaning": "Standard functorial facts about etale neighbourhoods invoked within this section",
+      "requires_statement_specific_expansion": false,
+      "scope": "section",
+      "section_key": "s115",
+      "source_filename": "more-morphisms.tex",
+      "type": "section_reusable_known_facts"
+    },
+    {
+      "candidate_hypothesis": false,
+      "line": 14358,
+      "meaning": "Local U-to-L identification within an extended construction; not globally imported",
+      "requires_statement_specific_expansion": true,
+      "scope": "section",
+      "section_key": "s131",
+      "source_filename": "more-morphisms.tex",
+      "type": "section_local_construction"
+    },
+    {
+      "candidate_hypothesis": false,
+      "line": 8033,
+      "meaning": "Formal Situation situation-existence supplies explicit setup and conditional assumptions to statements invoking it",
+      "requires_statement_specific_expansion": true,
+      "scope": "section",
+      "section_key": "s189",
+      "source_filename": "flat.tex",
+      "type": "section_named_situation"
+    },
+    {
+      "candidate_hypothesis": false,
+      "line": 8376,
+      "meaning": "Formal Situation situation-existence-derived supplies its own setup to statements invoking it",
+      "requires_statement_specific_expansion": true,
+      "scope": "section",
+      "section_key": "s190",
+      "source_filename": "flat.tex",
+      "type": "section_named_situation"
+    }
+  ],
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "unadjudicated_potentially_durable_leads": 5
+  "unadjudicated_potentially_durable_leads": 0
 }

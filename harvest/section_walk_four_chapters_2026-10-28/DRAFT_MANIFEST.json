@@ -813,8 +813,8 @@
     {
       "active_candidates": 6,
       "chapter": "more-morphisms.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 5,
+      "draft_ready": 1,
       "key": "s089",
       "section_complete": true,
       "section_title": "Infinitesimal deformations of maps"
@@ -822,8 +822,8 @@
     {
       "active_candidates": 4,
       "chapter": "more-morphisms.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 3,
       "key": "s090",
       "section_complete": true,
       "section_title": "Infinitesimal deformations of schemes"
@@ -831,8 +831,8 @@
     {
       "active_candidates": 11,
       "chapter": "more-morphisms.tex",
-      "context_held": 11,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 8,
       "key": "s091",
       "section_complete": true,
       "section_title": "Formally smooth morphisms"
@@ -840,8 +840,8 @@
     {
       "active_candidates": 3,
       "chapter": "more-morphisms.tex",
-      "context_held": 3,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 3,
       "key": "s092",
       "section_complete": true,
       "section_title": "Smoothness over a Noetherian base"
@@ -849,8 +849,8 @@
     {
       "active_candidates": 14,
       "chapter": "more-morphisms.tex",
-      "context_held": 14,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 13,
       "key": "s093",
       "section_complete": true,
       "section_title": "The naive cotangent complex"
@@ -858,8 +858,8 @@
     {
       "active_candidates": 4,
       "chapter": "more-morphisms.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 2,
       "key": "s094",
       "section_complete": true,
       "section_title": "Pushouts in the category of schemes, I"
@@ -867,8 +867,8 @@
     {
       "active_candidates": 2,
       "chapter": "more-morphisms.tex",
-      "context_held": 2,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 1,
       "key": "s095",
       "section_complete": true,
       "section_title": "Openness of the flat locus"
@@ -876,8 +876,8 @@
     {
       "active_candidates": 8,
       "chapter": "more-morphisms.tex",
-      "context_held": 8,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 7,
       "key": "s096",
       "section_complete": true,
       "section_title": "Crit\\`ere de platitude par fibres"
@@ -885,8 +885,8 @@
     {
       "active_candidates": 2,
       "chapter": "more-morphisms.tex",
-      "context_held": 2,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 2,
       "key": "s097",
       "section_complete": true,
       "section_title": "Closed immersions between smooth schemes"
@@ -894,8 +894,8 @@
     {
       "active_candidates": 5,
       "chapter": "more-morphisms.tex",
-      "context_held": 5,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 3,
       "key": "s098",
       "section_complete": true,
       "section_title": "Flat modules and relative assassins"
@@ -903,8 +903,8 @@
     {
       "active_candidates": 4,
       "chapter": "more-morphisms.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 4,
       "key": "s099",
       "section_complete": true,
       "section_title": "Normalization revisited"
@@ -912,8 +912,8 @@
     {
       "active_candidates": 4,
       "chapter": "more-morphisms.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 4,
       "key": "s100",
       "section_complete": true,
       "section_title": "Normal morphisms"
@@ -921,8 +921,8 @@
     {
       "active_candidates": 3,
       "chapter": "more-morphisms.tex",
-      "context_held": 3,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 3,
       "key": "s101",
       "section_complete": true,
       "section_title": "Regular morphisms"
@@ -930,8 +930,8 @@
     {
       "active_candidates": 10,
       "chapter": "more-morphisms.tex",
-      "context_held": 10,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 9,
       "key": "s102",
       "section_complete": true,
       "section_title": "Cohen-Macaulay morphisms"
@@ -939,8 +939,8 @@
     {
       "active_candidates": 6,
       "chapter": "more-morphisms.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 4,
       "key": "s103",
       "section_complete": true,
       "section_title": "Slicing Cohen-Macaulay morphisms"
@@ -948,8 +948,8 @@
     {
       "active_candidates": 8,
       "chapter": "more-morphisms.tex",
-      "context_held": 8,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 6,
       "key": "s104",
       "section_complete": true,
       "section_title": "Generic fibres"
@@ -957,8 +957,8 @@
     {
       "active_candidates": 4,
       "chapter": "more-morphisms.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 4,
       "key": "s105",
       "section_complete": true,
       "section_title": "Relative assassins"
@@ -966,8 +966,8 @@
     {
       "active_candidates": 7,
       "chapter": "more-morphisms.tex",
-      "context_held": 7,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 7,
       "key": "s106",
       "section_complete": true,
       "section_title": "Reduced fibres"
@@ -975,8 +975,8 @@
     {
       "active_candidates": 7,
       "chapter": "more-morphisms.tex",
-      "context_held": 7,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 5,
       "key": "s107",
       "section_complete": true,
       "section_title": "Irreducible components of fibres"
@@ -984,8 +984,8 @@
     {
       "active_candidates": 7,
       "chapter": "more-morphisms.tex",
-      "context_held": 7,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 5,
       "key": "s108",
       "section_complete": true,
       "section_title": "Connected components of fibres"
@@ -1002,8 +1002,8 @@
     {
       "active_candidates": 6,
       "chapter": "more-morphisms.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 4,
+      "draft_ready": 2,
       "key": "s110",
       "section_complete": true,
       "section_title": "Dimension of fibres"
@@ -1011,8 +1011,8 @@
     {
       "active_candidates": 3,
       "chapter": "more-morphisms.tex",
-      "context_held": 3,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 3,
       "key": "s111",
       "section_complete": true,
       "section_title": "Weak relative Noether normalization"
@@ -1020,8 +1020,8 @@
     {
       "active_candidates": 2,
       "chapter": "more-morphisms.tex",
-      "context_held": 2,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 2,
       "key": "s112",
       "section_complete": true,
       "section_title": "Bertini theorems"
@@ -1029,8 +1029,8 @@
     {
       "active_candidates": 7,
       "chapter": "more-morphisms.tex",
-      "context_held": 7,
-      "draft_ready": 0,
+      "context_held": 4,
+      "draft_ready": 3,
       "key": "s113",
       "section_complete": true,
       "section_title": "Theorem of the cube"
@@ -1038,8 +1038,8 @@
     {
       "active_candidates": 11,
       "chapter": "more-morphisms.tex",
-      "context_held": 11,
-      "draft_ready": 0,
+      "context_held": 10,
+      "draft_ready": 1,
       "key": "s114",
       "section_complete": true,
       "section_title": "Limit arguments"
@@ -1047,8 +1047,8 @@
     {
       "active_candidates": 5,
       "chapter": "more-morphisms.tex",
-      "context_held": 5,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 4,
       "key": "s115",
       "section_complete": true,
       "section_title": "\\'Etale neighbourhoods"
@@ -1056,8 +1056,8 @@
     {
       "active_candidates": 4,
       "chapter": "more-morphisms.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 3,
       "key": "s116",
       "section_complete": true,
       "section_title": "\\'Etale neighbourhoods and branches"
@@ -1065,8 +1065,8 @@
     {
       "active_candidates": 4,
       "chapter": "more-morphisms.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 4,
       "key": "s117",
       "section_complete": true,
       "section_title": "Unramified and \\'etale morphisms"
@@ -1074,8 +1074,8 @@
     {
       "active_candidates": 7,
       "chapter": "more-morphisms.tex",
-      "context_held": 7,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 5,
       "key": "s118",
       "section_complete": true,
       "section_title": "Slicing smooth morphisms"
@@ -1083,8 +1083,8 @@
     {
       "active_candidates": 7,
       "chapter": "more-morphisms.tex",
-      "context_held": 7,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 4,
       "key": "s119",
       "section_complete": true,
       "section_title": "\\'Etale neighbourhoods and Artin approximation"
@@ -1092,8 +1092,8 @@
     {
       "active_candidates": 2,
       "chapter": "more-morphisms.tex",
-      "context_held": 2,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 2,
       "key": "s120",
       "section_complete": true,
       "section_title": "Finite free locally dominates \\'etale"
@@ -1101,8 +1101,8 @@
     {
       "active_candidates": 6,
       "chapter": "more-morphisms.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 3,
       "key": "s121",
       "section_complete": true,
       "section_title": "\\'Etale localization of quasi-finite morphisms"
@@ -1119,8 +1119,8 @@
     {
       "active_candidates": 4,
       "chapter": "more-morphisms.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 1,
       "key": "s123",
       "section_complete": true,
       "section_title": "Zariski's Main Theorem"
@@ -1128,8 +1128,8 @@
     {
       "active_candidates": 3,
       "chapter": "more-morphisms.tex",
-      "context_held": 3,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 3,
       "key": "s124",
       "section_complete": true,
       "section_title": "Applications of Zariski's Main Theorem, I"
@@ -1137,8 +1137,8 @@
     {
       "active_candidates": 3,
       "chapter": "more-morphisms.tex",
-      "context_held": 3,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 3,
       "key": "s125",
       "section_complete": true,
       "section_title": "Applications of Zariski's Main Theorem, II"
@@ -1731,8 +1731,8 @@
     {
       "active_candidates": 6,
       "chapter": "flat.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 5,
       "key": "s191",
       "section_complete": true,
       "section_title": "Blowing up and flatness"
@@ -1740,8 +1740,8 @@
     {
       "active_candidates": 5,
       "chapter": "flat.tex",
-      "context_held": 5,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 5,
       "key": "s192",
       "section_complete": true,
       "section_title": "Applications"
@@ -1749,8 +1749,8 @@
     {
       "active_candidates": 4,
       "chapter": "flat.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 1,
       "key": "s193",
       "section_complete": true,
       "section_title": "Compactifications"
@@ -1758,8 +1758,8 @@
     {
       "active_candidates": 8,
       "chapter": "flat.tex",
-      "context_held": 8,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 8,
       "key": "s194",
       "section_complete": true,
       "section_title": "Nagata compactification"
@@ -1767,8 +1767,8 @@
     {
       "active_candidates": 13,
       "chapter": "flat.tex",
-      "context_held": 13,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 11,
       "key": "s195",
       "section_complete": true,
       "section_title": "The h topology"
@@ -1794,8 +1794,8 @@
     {
       "active_candidates": 8,
       "chapter": "flat.tex",
-      "context_held": 8,
-      "draft_ready": 0,
+      "context_held": 7,
+      "draft_ready": 1,
       "key": "s198",
       "section_complete": true,
       "section_title": "Almost blow up squares and the h topology"
@@ -1803,8 +1803,8 @@
     {
       "active_candidates": 5,
       "chapter": "flat.tex",
-      "context_held": 5,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 2,
       "key": "s199",
       "section_complete": true,
       "section_title": "Absolute weak normalization and h coverings"
@@ -1812,8 +1812,8 @@
     {
       "active_candidates": 5,
       "chapter": "flat.tex",
-      "context_held": 5,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 5,
       "key": "s200",
       "section_complete": true,
       "section_title": "Descent vector bundles in positive characteristic"
@@ -1821,8 +1821,8 @@
     {
       "active_candidates": 3,
       "chapter": "flat.tex",
-      "context_held": 3,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 3,
       "key": "s201",
       "section_complete": true,
       "section_title": "Blowing up complexes"
@@ -1830,8 +1830,8 @@
     {
       "active_candidates": 4,
       "chapter": "flat.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 4,
       "key": "s202",
       "section_complete": true,
       "section_title": "Blowing up perfect modules"
@@ -1839,8 +1839,8 @@
     {
       "active_candidates": 2,
       "chapter": "flat.tex",
-      "context_held": 2,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 1,
       "key": "s203",
       "section_complete": true,
       "section_title": "An operator introduced by Berthelot and Ogus"
@@ -1872,7 +1872,7 @@
   ],
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
   "status_counts": {
-    "context_resolution_pending": 414,
-    "standalone_draft_ready_for_validation": 367
+    "context_resolution_pending": 231,
+    "standalone_draft_ready_for_validation": 550
   }
 }
