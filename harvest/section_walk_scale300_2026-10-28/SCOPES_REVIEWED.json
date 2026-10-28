@@ -1,0 +1,120 @@
+{
+  "schema": "maththm.scoped-consecutive-300-context-adjudication.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapters": [
+    "coherent.tex",
+    "divisors.tex"
+  ],
+  "chapter_boundary_after_section": "s17",
+  "chapter_boundary_before_section": "s18",
+  "chapter_assumptions_reset": true,
+  "global_conventions": "In the Stacks Project, rings are commutative and unital unless explicitly otherwise stated, zero ring permitted; modules unitary. These are terminology conventions not extra theorem-specific assumptions.",
+  "section_context_leads": [
+    {
+      "section": "s01",
+      "file": "coherent.tex",
+      "line": 2936,
+      "classification": "declared_reusable_known_facts_not_extra_hypotheses",
+      "scope": "coherent.tex s01 only",
+      "content": "Coherent sheaf equals finite type quasi-coherent sheaf on a Noetherian scheme; quasi-coherent subquotients of coherent sheaves are coherent; supports of coherent sheaves are closed.",
+      "hypotheses_added": [],
+      "note": "The introduction considers a Noetherian X for examples. A candidate without an explicit X-hypothesis still needs independent assessment; do not retroactively impose X Noetherian on every lemma."
+    },
+    {
+      "section": "s12",
+      "file": "coherent.tex",
+      "line": 6264,
+      "classification": "section_concept_definition_in_prose",
+      "scope": "s12 and named Coh(X,I) references afterwards",
+      "content": "For a Noetherian scheme X and quasi-coherent ideal sheaf I, Coh(X,I) is the category of inverse systems (F_n) of coherent O_X-modules, each annihilated by I^n, with transition-induced isomorphisms F_{n+1}/I^n F_{n+1} ≅ F_n.",
+      "hypotheses_added": [],
+      "note": "A candidate using Coh(X,I) must state X Noetherian and I quasi-coherent, unless the theorem itself fixes them; some references to the completion functor still require expansion."
+    },
+    {
+      "section": "s19",
+      "file": "divisors.tex",
+      "line": 55,
+      "classification": "scope_caveat_not_assumption",
+      "scope": "s19",
+      "content": "Scheme-theoretic associated points correspond most directly to affine associated primes under local Noetherian/finite type assumptions; the author warns about weaker general hypotheses.",
+      "hypotheses_added": [],
+      "note": "Do not make X Noetherian for the entire section; individual lemmas state their own restrictions."
+    },
+    {
+      "section": "s24",
+      "file": "divisors.tex",
+      "line": 1071,
+      "classification": "scope_caveat_not_assumption",
+      "scope": "s24",
+      "content": "Relative assassin behaves most conveniently when fibres are locally Noetherian; the source expressly warns that general cases differ.",
+      "hypotheses_added": [],
+      "note": "Do not import local Noetherianity of fibres unconditionally."
+    },
+    {
+      "section": "s35",
+      "file": "divisors.tex",
+      "line": 3590,
+      "classification": "section_concept_definition_in_prose",
+      "scope": "Norms section and later linked use",
+      "content": "For a finite morphism π:X→Y and integer d≥1, a norm of degree d consists of a multiplicative map Norm_π:π_*O_X→O_Y of sheaves, restricting to g↦g^d on O_Y, and satisfying the stated vanishing condition for functions vanishing at points above y.",
+      "hypotheses_added": [],
+      "note": "The source explicitly distinguishes norm property (1) from extra vanishing property (2) and indicates some constructions only need (1). Do not silently require a norm in theorems whose conclusion constructs it."
+    },
+    {
+      "section": "s37",
+      "file": "divisors.tex",
+      "line": 4341,
+      "classification": "mathematical_notation_derived_from_preceding_conormal_construction",
+      "scope": "s37",
+      "content": "Conormal algebra C_{Z/X,*}=⊕_{n≥0} I^n/I^{n+1}; grade n C_{Z/X,n}; canonical Sym(C_{Z/X})→C_{Z/X,*}.",
+      "hypotheses_added": [],
+      "note": "Initial Z→X immersion in explanatory prose is schematic; the candidate's own immersion supplies actual variables."
+    },
+    {
+      "section": "s39",
+      "file": "divisors.tex",
+      "line": 4893,
+      "classification": "notation_invariance_explanation_not_ambient_hypothesis",
+      "scope": "s39",
+      "content": "Regularity conditions on the ideal sheaf representing an immersion are independent of the chosen open neighborhood where it becomes a closed immersion.",
+      "hypotheses_added": [],
+      "note": "Do not carry specific U or I from expository paragraph into a lemma."
+    },
+    {
+      "section": "s41",
+      "file": "divisors.tex",
+      "line": 6148,
+      "classification": "editorial_transition",
+      "scope": "s41",
+      "content": "Introduces following lemmas concerning pullbacks of regular meromorphic sections.",
+      "hypotheses_added": [],
+      "note": "Local scheme maps and their meromorphic pullback conditions remain theorem-specific."
+    }
+  ],
+  "named_context_with_nonformal_definition": [
+    {
+      "context_id": "coherent:s12:Coh(X,I)",
+      "file": "coherent.tex",
+      "start": 6254,
+      "end": 6270,
+      "kind": "defined_construction_in_section_opening",
+      "label": null,
+      "scope": "s12 and references after line 6270",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/coherent.tex#L6254-L6270"
+    },
+    {
+      "context_id": "divisors:s35:norm-degree-d",
+      "file": "divisors.tex",
+      "start": 3588,
+      "end": 3614,
+      "kind": "defined_term_in_section_opening",
+      "label": null,
+      "scope": "s35 and future explicit references",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/divisors.tex#L3588-L3614"
+    }
+  ],
+  "source_formal_context_excerpts": "harvest/section_walk_scale300_2026-10-28/SHARED_CONTEXT_EXCERPTS.jsonl",
+  "source_section_openings": "harvest/section_walk_scale300_2026-10-28/SECTION_OPENINGS.jsonl",
+  "all_context_decisions_are_source_scoped": true,
+  "no_proof_research_performed": true
+}
