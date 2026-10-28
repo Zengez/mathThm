@@ -1,0 +1,28 @@
+{
+  "batches": [
+    {
+      "batch": "stacks-bulk-2026-10-28",
+      "structural_resolved": 3,
+      "structure_remaining": 27
+    },
+    {
+      "batch": "stacks-second-2026-10-28",
+      "structural_resolved": 5,
+      "structure_remaining": 38
+    },
+    {
+      "batch": "stacks-remaining-2026-10-28",
+      "structural_resolved": 6,
+      "structure_remaining": 374
+    }
+  ],
+  "newly_structured": 14,
+  "proofs_read": false,
+  "published_catalog_untouched": true,
+  "statuses": {
+    "needs_classification": 3,
+    "needs_context": 862,
+    "needs_structure": 439,
+    "resolved": 9683
+  }
+}
