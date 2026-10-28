@@ -1,0 +1,338 @@
+{
+  "schema": "maththm.consecutive-150-section-walk-validation.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "algebra.tex",
+  "source_range": [
+    4284,
+    10036
+  ],
+  "source_lines_traversed": 5753,
+  "complete_consecutive_sections": 19,
+  "zero_candidate_sections_also_processed": 1,
+  "active_candidates_with_saved_draft_overlay": 150,
+  "draft_status_counts": {
+    "context_resolution_pending": 15,
+    "standalone_draft_ready_for_validation": 135
+  },
+  "source_environment_frames_entered_and_closed": 189,
+  "active_candidate_local_frames_closed": 150,
+  "other_formal_statement_frames_traversed_not_promoted": 6,
+  "source_proof_environments_skipped_without_reading_bodies": 157,
+  "cross_section_named_term_definitions_tracked": 14,
+  "nonhypothesis_prose_leads_adjudicated": 2,
+  "complete_section_checkpoints": 19,
+  "source_reference_uses": 9,
+  "statement_logical_shapes": {
+    "single_statement": 110,
+    "source_multi_part": 40
+  },
+  "all_hypotheses_scoped_without_leakage": true,
+  "all_candidates_final_source_equivalence_validated": false,
+  "proofs_reviewed": 0,
+  "pass3_eligible": 0,
+  "original_pass1_pass2_and_active_pool_unchanged": true,
+  "published_corpus_unchanged": true,
+  "per_section": [
+    {
+      "key": "s01",
+      "title": "Glueing functions",
+      "count": 4,
+      "source_range": [
+        4284,
+        4535
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 3,
+        "context_resolution_pending": 1
+      },
+      "source_formal_environments": 5,
+      "source_reference_uses": 1,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s02",
+      "title": "Zerodivisors and total rings of fractions",
+      "count": 4,
+      "source_range": [
+        4536,
+        4655
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 3,
+        "context_resolution_pending": 1
+      },
+      "source_formal_environments": 4,
+      "source_reference_uses": 0,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s03",
+      "title": "Irreducible components of spectra",
+      "count": 4,
+      "source_range": [
+        4656,
+        4815
+      ],
+      "draft_status_counts": {
+        "context_resolution_pending": 1,
+        "standalone_draft_ready_for_validation": 3
+      },
+      "source_formal_environments": 5,
+      "source_reference_uses": 2,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s04",
+      "title": "Examples of spectra of rings",
+      "count": 0,
+      "source_range": [
+        4816,
+        5088
+      ],
+      "draft_status_counts": {},
+      "source_formal_environments": 0,
+      "source_reference_uses": 0,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s05",
+      "title": "A meta-observation about prime ideals",
+      "count": 6,
+      "source_range": [
+        5089,
+        5370
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 6
+      },
+      "source_formal_environments": 6,
+      "source_reference_uses": 0,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s06",
+      "title": "Images of ring maps of finite presentation",
+      "count": 10,
+      "source_range": [
+        5371,
+        5720
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 10
+      },
+      "source_formal_environments": 10,
+      "source_reference_uses": 0,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s07",
+      "title": "More on images",
+      "count": 8,
+      "source_range": [
+        5721,
+        5979
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 6,
+        "context_resolution_pending": 2
+      },
+      "source_formal_environments": 8,
+      "source_reference_uses": 0,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s08",
+      "title": "Noetherian rings",
+      "count": 10,
+      "source_range": [
+        5980,
+        6237
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 10
+      },
+      "source_formal_environments": 10,
+      "source_reference_uses": 1,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s09",
+      "title": "Locally nilpotent ideals",
+      "count": 6,
+      "source_range": [
+        6238,
+        6444
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 5,
+        "context_resolution_pending": 1
+      },
+      "source_formal_environments": 6,
+      "source_reference_uses": 0,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s10",
+      "title": "Curiosity",
+      "count": 2,
+      "source_range": [
+        6445,
+        6519
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 1,
+        "context_resolution_pending": 1
+      },
+      "source_formal_environments": 2,
+      "source_reference_uses": 0,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s11",
+      "title": "Hilbert Nullstellensatz",
+      "count": 1,
+      "source_range": [
+        6520,
+        6648
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 1
+      },
+      "source_formal_environments": 2,
+      "source_reference_uses": 0,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s12",
+      "title": "Jacobson rings",
+      "count": 14,
+      "source_range": [
+        6649,
+        7433
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 11,
+        "context_resolution_pending": 3
+      },
+      "source_formal_environments": 16,
+      "source_reference_uses": 1,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s13",
+      "title": "Finite and integral ring extensions",
+      "count": 22,
+      "source_range": [
+        7434,
+        7970
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 21,
+        "context_resolution_pending": 1
+      },
+      "source_formal_environments": 22,
+      "source_reference_uses": 1,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s14",
+      "title": "Normal rings",
+      "count": 14,
+      "source_range": [
+        7971,
+        8338
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 13,
+        "context_resolution_pending": 1
+      },
+      "source_formal_environments": 14,
+      "source_reference_uses": 1,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s15",
+      "title": "Going down for integral over normal",
+      "count": 6,
+      "source_range": [
+        8339,
+        8586
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 5,
+        "context_resolution_pending": 1
+      },
+      "source_formal_environments": 6,
+      "source_reference_uses": 1,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s16",
+      "title": "Flat modules and flat ring maps",
+      "count": 19,
+      "source_range": [
+        8587,
+        9306
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 17,
+        "context_resolution_pending": 2
+      },
+      "source_formal_environments": 19,
+      "source_reference_uses": 0,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s17",
+      "title": "Supports and annihilators",
+      "count": 7,
+      "source_range": [
+        9307,
+        9513
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 7
+      },
+      "source_formal_environments": 7,
+      "source_reference_uses": 0,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s18",
+      "title": "Going up and going down",
+      "count": 10,
+      "source_range": [
+        9514,
+        9905
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 10
+      },
+      "source_formal_environments": 11,
+      "source_reference_uses": 1,
+      "complete_without_cut": true
+    },
+    {
+      "key": "s19",
+      "title": "Separable extensions",
+      "count": 3,
+      "source_range": [
+        9906,
+        10036
+      ],
+      "draft_status_counts": {
+        "standalone_draft_ready_for_validation": 3
+      },
+      "source_formal_environments": 3,
+      "source_reference_uses": 0,
+      "complete_without_cut": true
+    }
+  ],
+  "limits": [
+    "Editorial draft-ready is a triage status; it is not mathematical source equivalence approval.",
+    "Preserving a source-complete statement is not the same as expanding all technical definitions inline; encountered definitions are attached by label and provenance.",
+    "The source-order event scan does not inspect proof bodies and cannot validate theorem truth.",
+    "No measured wall-clock benchmark or maximum sustainable batch size has been established."
+  ],
+  "suggested_next_batch": "Increase only after checking quality and effort of current 150-candidate drafts; keep whole consecutive sections and independent final math gate."
+}
