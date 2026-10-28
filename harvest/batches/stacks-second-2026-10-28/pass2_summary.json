@@ -1,15 +1,13 @@
 {
   "context_status": {
-    "needs_classification": 6,
-    "needs_context": 164,
-    "needs_structure": 856,
-    "resolved": 996
+    "needs_context": 212,
+    "needs_structure": 828,
+    "resolved": 982
   },
   "mathematical_validity_assessed": false,
   "proofs_read": false,
   "result_classification": {
-    "mathematical_result": 2016,
-    "uncertain": 6
+    "mathematical_result": 2022
   },
   "review_method": "mechanical_syntax",
   "source_files": {

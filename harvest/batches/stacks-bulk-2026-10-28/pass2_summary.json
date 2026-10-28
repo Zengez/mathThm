@@ -1,15 +1,13 @@
 {
   "context_status": {
-    "needs_classification": 14,
-    "needs_context": 84,
-    "needs_structure": 416,
-    "resolved": 586
+    "needs_context": 105,
+    "needs_structure": 422,
+    "resolved": 573
   },
   "mathematical_validity_assessed": false,
   "proofs_read": false,
   "result_classification": {
-    "mathematical_result": 1086,
-    "uncertain": 14
+    "mathematical_result": 1100
   },
   "review_method": "mechanical_syntax",
   "source_files": {
