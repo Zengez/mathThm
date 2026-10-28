@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "needs_more_investigation": 0,
+    "pass1": 1100,
+    "pass2": 0,
+    "pass3": 0
+  },
+  "pass3_outcomes": {},
+  "records_in_multiple_stages_expected": true,
+  "schema": "maththm.harvest-checkpoint.v1",
+  "source_of_truth": [
+    "pass1.jsonl",
+    "pass2.jsonl",
+    "pass3.jsonl",
+    "needs_more_investigation.jsonl"
+  ]
+}
