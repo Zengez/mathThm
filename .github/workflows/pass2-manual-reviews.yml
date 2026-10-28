@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - .github/workflows/pass2-manual-reviews.yml
+      - scripts/pass2_apply_manual_review.py
   workflow_dispatch:
 permissions:
   contents: write
