@@ -3,6 +3,7 @@ const test=require("node:test"), assert=require("node:assert/strict");
 const fs=require("node:fs"), path=require("node:path"), vm=require("node:vm");
 const core=require("../web/search-core.js");
 const adapter=require("../web/mathdef-v2.js");
+const linker=require("../web/definition-links.js");
 const records=JSON.parse(fs.readFileSync(path.join(__dirname,"../data/theorems.json"),"utf8"));
 function element(){
   return {value:"",textContent:"",innerHTML:"",hidden:true,listeners:{},addEventListener(type,fn){this.listeners[type]=fn;},
@@ -24,7 +25,7 @@ test("browser-like boot renders live theorem and mathDef-linked full statement",
      body:"A continuous function.",source:"https://example.org/continuous",dependencies:[]}]},
   ]};
   const sandbox={
-    window:{MathThmSearch:core,MathThmDefinitions:adapter},
+    window:{MathThmSearch:core,MathThmDefinitions:adapter,MathThmLinks:linker},
     document:{getElementById:id=>els[id],querySelectorAll:()=>[]},
     fetch:async url=>({ok:true,json:async()=>url.includes("theorems.json")?records:snapshot}),
     console,encodeURIComponent,
@@ -75,7 +76,7 @@ test("expanded v2 definitions hide self and ancestors; other branches stay avail
     setAttribute(){}
   });
   const sandbox={
-    window:{MathThmSearch:core,MathThmDefinitions:adapter},
+    window:{MathThmSearch:core,MathThmDefinitions:adapter,MathThmLinks:linker},
     document:{getElementById:id=>els[id],querySelectorAll:()=>[],
       createElement:()=>makeNode()},
     fetch:async url=>({ok:true,json:async()=>url.includes("theorems.json")?records:snapshot}),
