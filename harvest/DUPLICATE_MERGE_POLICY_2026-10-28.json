@@ -1,0 +1,73 @@
+{
+  "schema": "maththm.prototype-duplicate-adjudication.v1",
+  "date": "2026-10-28",
+  "review_scope": "102 exact-structured-statement duplicate groups, source text, indexed premises and conclusions, source chapter/category, source labels and proof links; not proof correctness",
+  "selectivity": "Only exact matching source statement and full hypothesis/conclusion fields with explicitly matching ambient objects and result; no cross-category generalization",
+  "approved_merge_groups": [
+    {
+      "group_number": 26,
+      "reason": "Both formulations explicitly assume the same scheme X, closed subset T and object K and give identical two-way pseudo-coherence criterion."
+    },
+    {
+      "group_number": 38,
+      "reason": "Both state exactly the same formally étale criterion for a morphism of schemes, not different implicit categories."
+    },
+    {
+      "group_number": 50,
+      "reason": "Both explicitly assert base-change stability of étale morphisms of algebraic spaces."
+    },
+    {
+      "group_number": 55,
+      "reason": "Both impose the same Noetherian local-domain and alteration assumptions and assert the identical four consequences."
+    },
+    {
+      "group_number": 60,
+      "reason": "Both state the same cotangent-complex criterion for a morphism of schemes with identical equivalence sides."
+    },
+    {
+      "group_number": 84,
+      "reason": "Both state the same cotangent-complex smoothness criterion for a morphism of schemes with identical equivalence sides."
+    },
+    {
+      "group_number": 92,
+      "reason": "Both explicitly concern the composition of étale morphisms of algebraic spaces."
+    },
+    {
+      "group_number": 96,
+      "reason": "Both explicitly state descent of regularity for algebraic spaces under the same morphism hypotheses."
+    }
+  ],
+  "explicit_separations": [
+    {
+      "group_number": 82,
+      "reason": "The two separate lemmas have fppf versus ph labels in a topology-specific chapter; identical f_big notation does not prove an identical functor across topologies."
+    },
+    {
+      "group_number": 97,
+      "reason": "Effective Cartier divisors in scheme versus algebraic-space chapters have differing inferred ambient settings and even different indexed premises."
+    },
+    {
+      "group_number": 14,
+      "reason": "A locally referenced equivalence F (equation-equivalence) is not necessarily the same functor in distinct chapters."
+    },
+    {
+      "group_number": 73,
+      "reason": "The expression equation-completion-functor is locally scoped and may denote a different functor in each chapter."
+    },
+    {
+      "group_number": 101,
+      "reason": "The referenced Cech functor equation is locally scoped to sites/cohomology versus cohomology."
+    },
+    {
+      "group_number": 98,
+      "reason": "Strictly perfect complexes live in potentially different ringed site/scheme contexts; explicit common ambient was not established."
+    },
+    {
+      "group_number": 51,
+      "reason": "Strictly perfect complexes in sites/cohomology and cohomology are not automatically the same ambient assertion."
+    }
+  ],
+  "fallback_separation_reason": "Different source chapters/ambient mathematical categories, inherited local Situation/Definition/Equation references, or insufficient explicit context; statement-wording match alone does not establish logical identity.",
+  "provenance_policy": "Retain all original Pass 1/2 records, all candidate IDs as aliases, all source citations, all distinct proof URLs as uninspected proof candidates. Only primary proof undergoes Pass 3 screen unless separately reviewed.",
+  "no_proofs_screened": true
+}
