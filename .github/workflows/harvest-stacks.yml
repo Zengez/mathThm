@@ -1,7 +1,5 @@
 name: Harvest Stacks candidates (Pass 1 only)
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
     inputs:
       source_file:
@@ -26,8 +24,6 @@ permissions:
   contents: read
 jobs:
   collect:
-    # Single live-source smoke run; normal use remains workflow_dispatch.
-    if: github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'One-time live Stacks source smoke'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
