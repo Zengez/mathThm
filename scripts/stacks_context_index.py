@@ -224,7 +224,7 @@ def get_candidate_context_leads(filename, *, statement_line=None):
     leads=[]
     for ident in list(record["global_context_ids"])+list(record["direct_context_ids"]):
         r=byid[ident]
-        if r["scope_assessment"]=="not_applicable":
+        if r["scope_assessment"]=="not_applicable" or r["context_kind"]=="source_note":
             continue
         if r["scope_assessment"]=="from_here_only" and statement_line is not None:
             if statement_line < r["section_first_line"]:
