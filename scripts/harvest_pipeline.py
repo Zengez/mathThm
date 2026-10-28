@@ -303,6 +303,11 @@ def pass3_packets(args):
         load_rows(w / "pass3.jsonl","candidate_id"))
     packets = []
     active=discovery_active_ids(w)
+    if __package__:
+        from .candidate_consolidation import load_merged_by_canonical
+    else:
+        from candidate_consolidation import load_merged_by_canonical
+    merged=load_merged_by_canonical() if active is not None else {}
     for ident,p2 in sorted(structured.items()):
         if active is not None and ident not in active:
             continue
@@ -325,6 +330,10 @@ def pass3_packets(args):
             "proof_url": proof["proof_url"], "proof_locator": proof["proof_locator"],
             "proof_excerpt": excerpt, "excerpt_truncated": truncated,
             "proof_end_marker_found": cand["proof_end_marker_found"],
+            "merged_candidate_ids":merged.get(ident,{}).get("member_candidate_ids",[ident]),
+            "source_references":merged.get(ident,{}).get("source_references",[]),
+            "proof_references":merged.get(ident,{}).get("proof_references",[]),
+            "uninspected_alternative_proof_count":max(0,len(merged.get(ident,{}).get("proof_references",[]))-1),
             "instruction": "Quick proof-plausibility scan ONLY. Plausible if no evident issue after full brief scan; questionable if necessary follow-up exceeds budget; rejected only for a positive identifiable issue. Do not claim proof is verified.",
             "required_decision": {"candidate_id": ident,
                 "outcome": "plausible | questionable | rejected",
@@ -384,13 +393,13 @@ def apply_pass3(args):
                       "needs_more_investigation":state["counts"]["needs_more_investigation"]}))
 
 
-def provisional_record(raw: dict, structured: dict, checked: dict):
+def provisional_record(raw: dict, structured: dict, checked: dict, *, merged=None):
     if structured["context_status"]!="resolved" or structured.get("result_classification","mathematical_result")!="mathematical_result" or checked["outcome"]!="plausible":
         raise ValueError("only fully structured plausible evidence may be promoted")
     if not checked["scan_completed"]:
         raise ValueError("proof scan not completed")
     s=raw["source"]
-    return {
+    accepted={
         "logical_form": structured.get("logical_form", "single_implication"),
         "equivalence_sides": structured.get("equivalence_sides", []),
         "structured_cases": structured.get("structured_cases", []),
@@ -428,6 +437,18 @@ def provisional_record(raw: dict, structured: dict, checked: dict):
         "proof_plausibility":{"status":"plausible","screening":"brief_scan_only",
                              "reason":checked["reason"]},
     }
+    if merged:
+        if raw["candidate_id"]!=merged["canonical_candidate_id"]:
+            raise ValueError("Only a canonical candidate can be provisionally accepted")
+        accepted["merged_candidate_ids"]=merged["member_candidate_ids"]
+        accepted["source_references"]=merged["source_references"]
+        accepted["proof_candidates"]=[
+            {"url":source["proof_url"],"locator":source["proof_locator"],
+             "candidate_id":source["candidate_id"],"status":"uninspected"}
+            for source in merged["proof_references"]
+            if source["candidate_id"]!=raw["candidate_id"]
+        ]
+    return accepted
 
 
 def promote(args):
@@ -444,6 +465,11 @@ def promote(args):
     existing_ids={r["id"]:r for r in catalog["records"]}
     before=len(catalog["records"])
     active=discovery_active_ids(w)
+    if __package__:
+        from .candidate_consolidation import load_merged_by_canonical
+    else:
+        from candidate_consolidation import load_merged_by_canonical
+    merged=load_merged_by_canonical() if active is not None else {}
     for ident, p3 in sorted(review.items()):
         if active is not None and ident not in active:
             continue
@@ -451,7 +477,7 @@ def promote(args):
             continue
         if ident not in raw or ident not in structured:
             raise ValueError(f"incomplete candidate data: {ident}")
-        accepted=provisional_record(raw[ident],structured[ident],p3)
+        accepted=provisional_record(raw[ident],structured[ident],p3,merged=merged.get(ident))
         old=existing_ids.get(accepted["id"])
         if old:
             if old!=accepted:
