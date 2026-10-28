@@ -84,10 +84,10 @@ def main():
                     } for x in sections],
                 }
                 # Avoid massive segments and extremely high per-candidate
-                # complexity. First preference fewer source lines/section.
+                # complexity. Prefer near 300 (not 270 edge), then source efficiency.
                 value["selection_score"]=round(
                     (all_lines/total)+len(sections)*0.8+
-                    abs(total-TARGET)*0.1+refs*0.15,2)
+                    abs(total-TARGET)*2.0+refs*0.15,2)
                 windows.append(value)
     windows.sort(key=lambda w:(w["selection_score"],w["source_lines"],
                                 w["section_count"],w["chapter_order"][0]))
