@@ -1,12 +1,6 @@
 {
   "batch": "stacks-second-2026-10-28",
-  "by_logical_form": {
-    "conjunction_of_source_clauses": 193,
-    "equivalence": 100,
-    "implication_with_structured_clauses": 2,
-    "source_setup_then_assertion": 59,
-    "source_universal_predicate": 73
-  },
+  "by_logical_form": {},
   "confidence": "source_structure_interpretation_unverified",
   "final_pass2_statuses": {
     "needs_context": 212,
@@ -15,7 +9,7 @@
   },
   "initial_higher_thinking_queue": 532,
   "math_validity_assessed": false,
-  "newly_resolved": 427,
+  "newly_resolved": 0,
   "proofs_read": false,
   "stage": "pass2_hard_structures",
   "still_higher_thinking": 105
