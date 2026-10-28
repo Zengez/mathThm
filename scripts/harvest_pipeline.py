@@ -86,25 +86,55 @@ def merge_rows(path: Path, rows, key: str, *, replace: bool = False):
     return len(current)
 
 
+def discovery_active_ids(workdir: Path):
+    """Current Stacks campaign uses an explicit allowlist; other runs stay local.
+
+    Import lazily to leave standalone source-extraction utilities and
+    preexisting independent-workdir tests unaffected.
+    """
+    if __package__:
+        from .active_candidate_pool import active_ids_for_workdir
+    else:
+        from active_candidate_pool import active_ids_for_workdir
+    return active_ids_for_workdir(Path(workdir))
+
+
 def save_checkpoint(workdir: Path):
     """Derived local counts; source of truth remains stage files, not counters."""
     workdir = Path(workdir)
     rows = {stage: load_rows(workdir / (stage + ".jsonl"), "candidate_id")
             for stage in STAGES}
+    active=discovery_active_ids(workdir)
+    if active is None:
+        counts={k:len(rows[k]) for k in STAGES}
+        outcomes=Counter(x["outcome"] for x in rows["pass3"].values())
+    else:
+        # Historical Pass 1/2 rows remain on disk, but they are NOT part
+        # of this prototype campaign's recognized active population.
+        counts={
+            "pass1":len(active),
+            "pass2":len(active),
+            "pass3":sum(ident in active for ident in rows["pass3"]),
+            "needs_more_investigation":sum(ident in active for ident in rows["needs_more_investigation"]),
+        }
+        outcomes=Counter(x["outcome"] for ident,x in rows["pass3"].items() if ident in active)
     payload = {
         "schema": "maththm.harvest-checkpoint.v1",
-        "counts": {k: len(rows[k]) for k in STAGES},
-        "pass3_outcomes": dict(sorted(Counter(x["outcome"] for x in rows["pass3"].values()).items())),
-        "records_in_multiple_stages_expected": True,
-        "source_of_truth": [stage + ".jsonl" for stage in STAGES],
+        "counts":counts,
+        "pass3_outcomes": dict(sorted(outcomes.items())),
+        "records_in_multiple_stages_expected":True,
+        "source_of_truth":[stage + ".jsonl" for stage in STAGES],
+        "population_scope":"prototype_active_only" if active is not None else "local_workspace",
     }
     atomic_text(workdir / "checkpoint.json", json.dumps(payload, indent=2, sort_keys=True) + "\n")
     return payload
 
 
-def needs_rows(raw: dict, structured: dict, reviewed: dict):
+def needs_rows(raw: dict, structured: dict, reviewed: dict, *, active_ids=None):
     result = []
     for ident, candidate in sorted(raw.items()):
+        if active_ids is not None and ident not in active_ids:
+            continue
         p2 = structured.get(ident)
         p3 = reviewed.get(ident)
         status, reason = None, None
@@ -132,7 +162,7 @@ def refresh_needs(workdir: Path):
     # This queue is intentionally generated from canonical stage records.
     # Rebuilding cannot lose rejected and questionable proof decisions.
     merge_rows(workdir / "needs_more_investigation.jsonl", [], "candidate_id")
-    payload = needs_rows(raw, p2, p3)
+    payload = needs_rows(raw, p2, p3, active_ids=discovery_active_ids(workdir))
     atomic_text(workdir / "needs_more_investigation.jsonl",
                 "".join(json.dumps(x, ensure_ascii=False, sort_keys=True) + "\n" for x in payload))
     return save_checkpoint(workdir)
@@ -158,7 +188,10 @@ def pass2_packets(args):
     raw, reviewed = load_rows(w / "pass1.jsonl", "candidate_id"), load_rows(w / "pass2.jsonl", "candidate_id")
     packets = []
     local_cache = {}
+    active=discovery_active_ids(w)
     for ident, cand in sorted(raw.items()):
+        if active is not None and ident not in active:
+            continue
         # Only a completed split exits Pass 2 review. Syntax triage entries
         # with inherited context or unsafe structure MUST stay reviewable.
         if ident in reviewed and reviewed[ident].get("context_status") == "resolved":
@@ -269,7 +302,10 @@ def pass3_packets(args):
         load_rows(w / "pass2.jsonl","candidate_id"),
         load_rows(w / "pass3.jsonl","candidate_id"))
     packets = []
+    active=discovery_active_ids(w)
     for ident,p2 in sorted(structured.items()):
+        if active is not None and ident not in active:
+            continue
         if ident in reviewed or p2["context_status"] != "resolved" or p2.get("result_classification","mathematical_result") != "mathematical_result":
             continue
         cand = raw[ident]
@@ -307,9 +343,12 @@ def apply_pass3(args):
     raw = load_rows(w/"pass1.jsonl","candidate_id")
     structured=load_rows(w/"pass2.jsonl","candidate_id")
     packets=load_rows(w/"pass3_packets.jsonl","candidate_id")
+    active=discovery_active_ids(w)
     decisions=[]
     for d in read_jsonl(Path(args.decisions)):
         ident = d.get("candidate_id")
+        if active is not None and ident not in active:
+            raise ValueError(f"candidate is outside active prototype population: {ident}")
         if ident not in raw or ident not in structured or structured[ident]["context_status"]!="resolved":
             raise ValueError(f"candidate {ident}: Pass 2 must be resolved before Pass 3")
         outcome=d.get("outcome")
@@ -404,7 +443,10 @@ def promote(args):
     validate_accepted(catalog)
     existing_ids={r["id"]:r for r in catalog["records"]}
     before=len(catalog["records"])
+    active=discovery_active_ids(w)
     for ident, p3 in sorted(review.items()):
+        if active is not None and ident not in active:
+            continue
         if p3["outcome"]!="plausible":
             continue
         if ident not in raw or ident not in structured:
