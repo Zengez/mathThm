@@ -1,14 +1,20 @@
 {
-  "schema": "maththm.phase2.semantic-gate.v1",
-  "date": "2026-10-28",
   "active_population": 9675,
-  "source_reconstruction_drafts": 1650,
-  "preliminary_draft_ready": 1242,
-  "individually_source_equivalence_approved": 68,
-  "individually_flagged_reconstruction_defects": 8,
+  "all_draft_ready_ids_individually_indexed": true,
+  "counts_reconciled_against_original_section_files": {
+    "individual_review_pending": 1166,
+    "phase3_eligible": 68,
+    "reconstruction_revision_required": 8
+  },
+  "date": "2026-10-28",
   "individual_semantic_review_pending": 1166,
-  "reviewed_decisions": 76,
+  "individually_flagged_reconstruction_defects": 8,
+  "individually_source_equivalence_approved": 68,
+  "notes": "Phase 3 eligibility applies only to individually approved cases; remaining preliminary drafts do not pass the full mathematical source-equivalence gate. This is a partial pass.",
   "phase3_proof_reviews_done": 0,
+  "preliminary_draft_ready": 1242,
   "proofs_published": 0,
-  "notes": "Phase 3 eligibility applies only to individually approved cases; remaining preliminary drafts do not pass the full mathematical source-equivalence gate. This is a partial pass."
+  "reviewed_decisions": 76,
+  "schema": "maththm.phase2.semantic-gate.v1",
+  "source_reconstruction_drafts": 1650
 }
