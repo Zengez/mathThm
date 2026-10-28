@@ -96,9 +96,11 @@
       for(const o of opts){
         if(selected.some(s=>o.start<s.end && o.end>s.start))continue;
         const canonical=o.id;
-        const branch=canonical && !excludedSet.has(canonical) ?
-          reference.branchPath?.(path,canonical) : null;
-        selected.push({...o,blocked:!branch});
+        const ancestors=path.map(id=>reference.resolveId(id));
+        const available=canonical && !excludedSet.has(canonical) &&
+          ancestors.length===path.length && ancestors.length<8 &&
+          !ancestors.includes(canonical);
+        selected.push({...o,blocked:!available});
       }
       return selected.sort((a,b)=>a.start-b.start);
     }
