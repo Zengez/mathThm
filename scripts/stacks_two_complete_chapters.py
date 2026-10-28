@@ -18,7 +18,7 @@ from scripts.stacks_context_recon import REV
 
 ROOT=Path("harvest/section_walk_two_chapters_2026-10-28")
 REGISTRY=Path("harvest/SECTION_WALK_COMPLETED_SECTIONS.json")
-PAIR=(32,33) # Immediately following the previously used chapter 31.
+PAIR=None # Deterministically selected adjacent wholly unprocessed chapters.
 BATCH="two_full_chapters_2026-10-28"
 READY=r300.READY
 HOLD=r300.HOLD
@@ -28,6 +28,7 @@ def write(path, value):
     hp.atomic_text(path,json.dumps(value,ensure_ascii=False,indent=2,sort_keys=True)+"\n")
 
 def inventory():
+    global PAIR
     grouped,byfile,unmatched=sp.groups()
     assert not unmatched, ("unmatched active candidates",len(unmatched))
     chapters={}
@@ -36,10 +37,26 @@ def inventory():
         number=sections[0]["chapter_number"]
         assert number not in chapters,("duplicate chapter index",number)
         chapters[number]=(filename,sections)
-    for n in PAIR:
-        assert n in chapters,("missing chapter",n)
     used=completed_section_starts()
     choices=[]
+    options=[]
+    for first in sorted(chapters):
+        if first<=31 or first+1 not in chapters:
+            continue
+        files=(chapters[first],chapters[first+1])
+        if any(any(s["section_start_line"] in used.get(filename,set())
+                   for s in sections) for filename,sections in files):
+            continue
+        count=sum(len(grouped.get((filename,s["section_start_line"]),[]))
+                  for filename,sections in files for s in sections)
+        options.append((first,count))
+    assert options,"No adjacent pair of fully unprocessed chapters"
+    # Prefer the first untouched pair with >300 active candidates. If none
+    # has that density, still honor the two-whole-chapter request.
+    pick=next(((n,count) for n,count in options if count>300),options[0])
+    PAIR=(pick[0],pick[0]+1)
+    print("SELECTED COMPLETE CHAPTERS",PAIR,"ACTIVE CANDIDATES",pick[1],
+          "OTHER ELIGIBLE PAIRS",options[:12],flush=True)
     for n in PAIR:
         filename,sections=chapters[n]
         assert sections,filename
@@ -55,11 +72,11 @@ def inventory():
                 "section_label":s["section_label"],
                 "active_candidate_count":len(grouped.get((filename,s["section_start_line"]),[])),
             })
-    assert choices[0]["chapter_order"]==32 and choices[-1]["chapter_order"]==33
+    assert choices[0]["chapter_order"]==PAIR[0] and choices[-1]["chapter_order"]==PAIR[1]
     assert all(choices[i]["chapter_order"]<=choices[i+1]["chapter_order"] for i in range(len(choices)-1))
     assert sum(s["active_candidate_count"] for s in choices)>0
-    assert all(choices[0]["section_start_line"]==chapters[32][1][0]["section_start_line"] for _ in [0])
-    assert choices[-1]["section_end_line"]==chapters[33][1][-1]["section_end_line"]
+    assert choices[0]["section_start_line"]==chapters[PAIR[0]][1][0]["section_start_line"]
+    assert choices[-1]["section_end_line"]==chapters[PAIR[1]][1][-1]["section_end_line"]
     return grouped,byfile,unmatched,choices,chapters
 
 def stage():
@@ -344,9 +361,9 @@ def validate_and_register(manifest,draft_manifest,context):
     write(REGISTRY,registry)
     report=f"""# Two complete adjacent Stacks chapters — draft reconstruction
 
-Pinned source: \`{REV}\`
+Pinned source: `{REV}`
 
-- Chapters: **{manifest['source_chapters'][0]}** and **{manifest['source_chapters'][1]}** (source chapters 32 and 33).
+- Chapters: **{manifest['source_chapters'][0]}** and **{manifest['source_chapters'][1]}** (source chapter orders {manifest['chapter_order'][0]} and {manifest['chapter_order'][1]}).
 - Fully processed source sections: **{manifest['sections']}**. No section skipped or truncated.
 - Source lines traversed: **{manifest['source_lines']:,}**.
 - Distinct active canonical candidates drafted: **{manifest['active_candidate_count']}**.
@@ -367,8 +384,8 @@ remain usable as terminology only.
 proof correctness checks, Pass 3 screening, or publication. A draft-ready
 status is not a truth certificate.
 
-Reproduce with \`python -m scripts.stacks_two_complete_chapters\` after
-checking out the pinned Stacks source in \`upstream/stacks\`; this command
+Reproduce with `python -m scripts.stacks_two_complete_chapters` after
+checking out the pinned Stacks source in `upstream/stacks`; this command
 refuses an overlapping new batch and is not a registered-batch replay mode.
 """
     hp.atomic_text(ROOT/"REPORT.md",report)
