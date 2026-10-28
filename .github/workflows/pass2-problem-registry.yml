@@ -1,0 +1,73 @@
+name: Refresh all deferred Pass 2 problem candidates
+on:
+  push:
+    paths:
+      - scripts/pass2_problem_candidates_unified.py
+      - .github/workflows/pass2-problem-registry.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run current test suite
+        run: python -m unittest discover -s tests -q
+      - name: Rebuild grouped deferred registry from canonical Pass 2
+        run: python -m scripts.pass2_problem_candidates
+      - name: Verify all unresolved candidates exactly match registry
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from collections import Counter
+          from scripts import harvest_pipeline as p
+          batches=("stacks-bulk-2026-10-28","stacks-second-2026-10-28","stacks-remaining-2026-10-28")
+          manifest=json.loads(Path("harvest/PROBLEM_CANDIDATES_MANIFEST.json").read_text())
+          allrows=[json.loads(line) for line in Path("harvest/problem_candidates.jsonl").read_text().splitlines()]
+          oldrows=[json.loads(line) for line in Path("harvest/problem_candidates_inherited_context.jsonl").read_text().splitlines()]
+          assert allrows==oldrows
+          open_by_id={}
+          counts=Counter()
+          for batch in batches:
+            w=Path("harvest/batches")/batch
+            pass1=p.load_rows(w/"pass1.jsonl","candidate_id")
+            pass2=p.load_rows(w/"pass2.jsonl","candidate_id")
+            assert set(pass1)==set(pass2)
+            for ident,record in pass2.items():
+              counts[record["context_status"]]+=1
+              if record["context_status"]!="resolved":
+                assert ident not in open_by_id
+                open_by_id[ident]=record["context_status"]
+          in_registry={r["candidate_id"]:r["original_status"] for r in allrows}
+          assert len(in_registry)==len(allrows)
+          assert in_registry==open_by_id
+          groups={"needs_context":"inherited_context","needs_structure":"structural_complexity","needs_classification":"classification_uncertain"}
+          assert all(r["difficulty_group"]==groups[r["original_status"]] for r in allrows)
+          assert counts["needs_context"]==862 and counts["needs_structure"]==439 and counts["needs_classification"]==3
+          assert counts["resolved"]==9683 and len(allrows)==1304
+          assert manifest["count"]==len(allrows)
+          assert manifest["by_difficulty"]=={"inherited_context":862,"structural_complexity":439,"classification_uncertain":3}
+          assert manifest["archive_covers_all_unresolved"] and manifest["unarchived_open_count"]==0
+          assert manifest["canonical_status_totals"]==dict(sorted(counts.items()))
+          inventory=json.loads(Path("harvest/PASS2_RESUME_INVENTORY_2026-10-28.json").read_text())
+          assert inventory["all_statuses"]==dict(sorted(counts.items()))
+          print(json.dumps({"total_candidates":sum(counts.values()),"deferred":len(allrows),
+                            "unarchived_open":len(set(open_by_id)-set(in_registry)),
+                            "groups":manifest["by_difficulty"]},sort_keys=True))
+          PY
+      - name: Commit the registry and manifest only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/problem_candidates.jsonl harvest/problem_candidates_inherited_context.jsonl harvest/PROBLEM_CANDIDATES_MANIFEST.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Archive all 1304 unresolved Pass 2 candidates, including classification cases"
+            git pull --rebase origin main
+            git push origin main
+          fi
