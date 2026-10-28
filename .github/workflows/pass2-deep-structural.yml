@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - .github/workflows/pass2-deep-structural.yml
+      - scripts/pass2_deep_structural.py
+      - tests/test_pass2_deep_structural.py
   workflow_dispatch:
 permissions:
   contents: write
