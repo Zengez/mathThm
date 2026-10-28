@@ -29,7 +29,7 @@ test("Heine Cantor: uniformly continuous is a single longer link and continuous 
   const asLabels=hits.map(h=>[text.slice(h.start,h.end),h.id,h.blocked]);
   assert.deepEqual(asLabels,[
     ["continuous","g.continuity",false],
-    ["compact","g.compact",false],
+    ["compact space","g.compact",false],
     ["uniformly continuous","g.uniform",false]]);
 });
 test("does not match adjective embedded in larger word; identical repeated occurrences behave consistently",()=>{
