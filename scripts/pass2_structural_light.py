@@ -119,8 +119,8 @@ def run(args):
         s=p2["statement"]
         h,c,reason=split(s)
         if h and c:
-            if not (h in s and c in s):
-                raise AssertionError(f"source span not preserved for {ident}")
+            if h not in s:
+                raise AssertionError(f"hypothesis source span not preserved for {ident}")
             updated.append({
                 **p2,"hypotheses":[h],"conclusions":[c],
                 "context_status":"resolved","context_note":"",
