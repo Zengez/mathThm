@@ -1,3 +1,21 @@
+## October 28, 2026 — recursive mathDef expansion path fix
+
+**User report:** Expanding "subspace topology" in mathThm could offer a clickable link to itself inside the newly expanded definition, allowing repeated recursive expansion. Requested parity with mathDef's currently implemented ancestry exclusion.
+
+**Root cause:** mathThm's general prose auto-linker did not receive the current expansion ancestry, whereas its separate structured dependency buttons had partial path filtering. The two paths disagreed, and V2 canonical/legacy aliases were not uniformly checked.
+
+**Implemented in mathThm only:**
+- `web/mathdef-v2.js`: exported `branchPath` and `visibleDependencies` helpers. They canonicalize IDs using the published V2 adapter, suppress ancestors on the active expansion path (including the current term), reject missing/duplicate dependencies, and enforce the existing depth limit.
+- `web/app.js`: carries `data-def-path` on all generated inline definition buttons, passes the canonical branch to every displayed formulation (including alternatives), filters both phrase links and explicit nested dependency buttons, and rejects programmatic cyclic clicks. Longest-phrase matching reserves an unavailable ancestor phrase as plain text, avoiding a misleading smaller link within the blocked phrase.
+- `tests/test_mathdef_v2.cjs`: canonical-alias self-link, A→B→A, depth, separate-branch reuse, duplicate dependency checks.
+- `tests/test_ui_smoke.cjs`: simulated browser clicks opening "Subspace topology" then "Topology"; checks the self and ancestor links are absent in the generated HTML while non-ancestor links remain accessible.
+
+**Behavioral scope:** Followed mathDef's **current** `research_pipeline/ui/app.js` code, which explicitly suppresses only ancestors on the active path and permits a sibling term in another sibling's definition. Older `DEPENDENCY_LINKING.md` text describes broader sibling blocking; the current code governs this implementation. No changes were made to mathDef.
+
+**Verification:** `https://github.com/Zengez/mathThm/actions/runs/40707944171` completed successfully, including JavaScript syntax, Node/ Python tests, verified mathDef V2 snapshot bundling and GitHub Pages deployment. The public mathThm URL remains `https://zengez.github.io/mathThm/`. A manual browser visual follow-up is useful, but automatic regression checks pass. Continue normal prototype feedback; bulk theorem acquisition is not authorized by this bug fix.
+
+---
+
 ## October 28, 2026 — mathDef v2 consumer migration
 
 **User authorization:** Update mathThm to use the *published cleaned mathDef v2* feed, not v1. Preserve theorem corpus and search behavior; do not undertake bulk theorem collection. This entry supersedes the older October 23 prototype v1 notes below.
