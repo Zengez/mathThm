@@ -3,8 +3,8 @@
   "all_statuses": {
     "needs_classification": 3,
     "needs_context": 862,
-    "needs_structure": 475,
-    "resolved": 9647
+    "needs_structure": 463,
+    "resolved": 9659
   },
   "batches": [
     {
@@ -21,8 +21,8 @@
       "candidates": 2022,
       "states": {
         "needs_context": 111,
-        "needs_structure": 52,
-        "resolved": 1859
+        "needs_structure": 44,
+        "resolved": 1867
       }
     },
     {
@@ -31,8 +31,8 @@
       "states": {
         "needs_classification": 3,
         "needs_context": 701,
-        "needs_structure": 389,
-        "resolved": 6772
+        "needs_structure": 385,
+        "resolved": 6776
       }
     }
   ],
@@ -88,7 +88,7 @@
     }
   ],
   "mathematical_validity_audited": false,
-  "open_total": 1340,
+  "open_total": 1328,
   "pass3_started": false,
   "proofs_read": false,
   "published_theorem_corpus_edited": false,

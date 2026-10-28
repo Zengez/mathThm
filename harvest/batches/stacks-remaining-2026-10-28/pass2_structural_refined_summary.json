@@ -1,0 +1,17 @@
+{
+  "batch": "stacks-remaining-2026-10-28",
+  "before_structure": 389,
+  "new_resolved": 4,
+  "proofs_read": false,
+  "published_catalog_unchanged": true,
+  "recovery_methods": {
+    "subject_assertion": 4
+  },
+  "remaining_structure": 385,
+  "status_after": {
+    "needs_classification": 3,
+    "needs_context": 701,
+    "needs_structure": 385,
+    "resolved": 6776
+  }
+}

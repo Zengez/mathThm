@@ -1,0 +1,18 @@
+{
+  "active_bulk_prototype_policy": "EXCLUDE all problem_candidates_inherited_context IDs; consider only canonical Pass 2 resolved mathematical_result records, subject to all later validation and publishing gates",
+  "by_batch": {
+    "stacks-bulk-2026-10-28": 50,
+    "stacks-remaining-2026-10-28": 701,
+    "stacks-second-2026-10-28": 111
+  },
+  "count": 862,
+  "deferred_file": "harvest/problem_candidates_inherited_context.jsonl",
+  "deferred_status": "needs_context",
+  "future_rebuild_command": "python -m scripts.pass2_problem_candidates",
+  "future_work": "Revisit after initial bulk discovery and prototype; do not delete or treat as false positives",
+  "proofs_read": false,
+  "published_catalog_untouched": true,
+  "quarantined_ids_are_in_active_resolved_set": false,
+  "schema": "maththm.deferred-inherited-context.v1",
+  "source_of_truth": "harvest/batches/<batch>/pass2.jsonl plus pass1.jsonl"
+}
