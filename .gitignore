@@ -1,0 +1,6 @@
+# Local scratch and downloaded third-party sources are not part of the published site.
+.harvest_runs/
+upstream/
+__pycache__/
+*.pyc
+_site/
