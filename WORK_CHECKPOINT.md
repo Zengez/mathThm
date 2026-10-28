@@ -1,3 +1,25 @@
+# CURRENT EXECUTION CHECKPOINT — 300 consecutive Stacks candidates in 54 full sections (October 28, 2026)
+
+**Latest user direction:** Increase the source-order whole-section batch to **roughly 300 ±10%** active candidates, never truncating a source section or skipping intervening sections. Preserve both positive and negative mathematical context scoping; avoid deep recursive mathematical research as a preparatory cost.
+
+**Completed batch:** Exactly **300 distinct new active candidates**, over **54 physically consecutive, complete Stacks Project source sections** in adjacent maintained chapters `coherent.tex` (last **17** sections, lines **2923–8138**, **78 candidates**) and `divisors.tex` (first **37** sections, lines **17–9492**, **222 candidates**). Total **14,692 source lines**. The zero-active Divisors Introduction was traversed, not skipped. A chapter boundary was unavoidable: no unused chapter-local uninterrupted span has 270 candidates.
+
+**Editable draft overlays saved:** **300 complete original source-grounded statement drafts** with source IDs, original source theorem text, reconstructed standalone-display LaTeX, provisional structured hypotheses and conclusions, enumeration logical form, exact formal environment scope, and source definition references. **242 draft-ready for separate mathematical source-equivalence validation; 58 held with explicit reference/quantifier/context notes.** These are *editorial preparation statuses*, **not** mathematical verification. **0 final mathematical equivalence approvals; 0 proofs screened; 0 Pass 3 eligible or published**. The original 9,675 active canonical candidate IDs, Pass 1/2 source files, provisional duplicate merges and published seed catalog remain unchanged.
+
+**Source scope validation:** **364** matched source environment entries/exits; **311** source proof environments skipped unread. **35** actual named source definition contexts and two additional prose-defined constructs (`Coh(X,I)` and degree-`d` norm) captured. **8** section prose signals were source-reviewed and were not mistaken for automatic hypotheses. Chapter-specific context resets between Coherent and Divisors. Definitions remain accessible as terminology, without copying their local variables or earlier theorem premises into later statements. **54 complete-section checkpoints**, real source-end positions; final checkpoint is after `divisors.tex:9492`.
+
+**Logical-form safeguard:** The batch flagged ambiguous nested enumerations and existential witness conditions. During the audit, we found that source “Assume” plus an enumerated list was at risk of being put into conclusion fields; fixed in `scripts/stacks_section_walk_scale300_reconstruct.py` and added `tests/test_stacks_scale300_logic.py`, with regression validation passing. Source equivalences are not inherited as premises, and unverified embedded source references remain on hold.
+
+**Primary files:** [Detailed report](harvest/section_walk_scale300_2026-10-28/REPORT.md), [source intake](harvest/section_walk_scale300_2026-10-28/MANIFEST.json), [draft outcome counts](harvest/section_walk_scale300_2026-10-28/DRAFT_MANIFEST.json), [validation checks](harvest/section_walk_scale300_2026-10-28/VALIDATION.json), [54 restart checkpoints](harvest/section_walk_scale300_2026-10-28/SECTION_CHECKPOINTS.jsonl), [formal source definitions and prose](harvest/section_walk_scale300_2026-10-28/SHARED_CONTEXT_EXCERPTS.jsonl), and [scope decisions](harvest/section_walk_scale300_2026-10-28/SCOPES_REVIEWED.json). Source packets, event streams and individual drafts are `s01_*` through `s54_*` files in the same directory. [Final full regression and section-scope workflow](https://github.com/Zengez/mathThm/actions/runs/40782149931) succeeded.
+
+**Cross-batch progress registry:** [`harvest/SECTION_WALK_COMPLETED_SECTIONS.json`](harvest/SECTION_WALK_COMPLETED_SECTIONS.json) now tracks **80 completely drafted source sections and 554 active candidate drafts**: earlier 30, 74, 150 plus this 300. This registry excludes already-completed sections in subsequent new-work selection. Source scans and validators remain explicitly replayable for their own registered batches.
+
+**Recommended next action:** Before further increasing raw draft batch size, consider a bounded semantic-equivalence and source-definition-link cleanup pass on the **58 held** and a sample of **242 draft-ready** candidates, to validate actual mathematical precision. A later full-section scaling experiment can still be run if desired. No proof Pass 3 until mathematical source-equivalence and duplicate gates are met. Do not expand universal context metadata for its own sake.
+
+---
+
+## Prior checkpoint (historical)
+
 # CURRENT EXECUTION CHECKPOINT — 150 consecutive Algebra candidates, 19 full sections (October 28, 2026)
 
 **Latest user instruction:** Test roughly 150 active candidates (±10 acceptable) by taking only **consecutive, complete source sections**, not stopping inside a section. Preserve both positive and negative context changes, and keep mathematical research scoped to the statements being processed.
