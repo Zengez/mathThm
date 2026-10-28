@@ -3,6 +3,9 @@ on:
   push:
     paths:
       - .github/workflows/pass2-hard-followup.yml
+      - scripts/pass2_hard_followup.py
+      - tests/test_pass2_hard_followup.py
+      - tests/test_pass2_hard_structures.py
   workflow_dispatch:
 permissions:
   contents: write
