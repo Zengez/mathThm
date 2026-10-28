@@ -1,0 +1,29 @@
+{
+  "candidate_count": 11,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "candidate_location": 11,
+    "enter_local_environment": 11,
+    "exit_local_environment": 11,
+    "proof_skipped": 11
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 0,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 0,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [],
+  "section": {
+    "file": "varieties.tex",
+    "label": "section-smooth",
+    "line_end": 4836,
+    "line_start": 4524,
+    "title": "Schemes smooth over fields"
+  },
+  "source_lines_in_section": 313,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 0
+}

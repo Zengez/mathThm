@@ -1,0 +1,32 @@
+{
+  "candidate_count": 6,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "candidate_location": 6,
+    "enter_local_environment": 10,
+    "exit_local_environment": 10,
+    "local_or_unclassified_prose": 1,
+    "proof_skipped": 6
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 4,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 0,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [
+    1743
+  ],
+  "section": {
+    "file": "topologies.tex",
+    "label": "section-syntomic",
+    "line_end": 1900,
+    "line_start": 1642,
+    "title": "The syntomic topology"
+  },
+  "source_lines_in_section": 259,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 2
+}

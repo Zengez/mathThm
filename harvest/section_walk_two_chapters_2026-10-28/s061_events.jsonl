@@ -1,0 +1,16 @@
+{"kind": "local_or_unclassified_prose", "line": 4092, "review_required": true, "scope_stack": [], "text_excerpt": "Let us start with a simple example which explains what we are doing. Let $R$ be a ring. Suppose $F$ is a functor defined on the category $\\mathcal{C}$ of $R$-algebras of the form $$ A = R[x_1, \\ldots, x_n]/(f_1, \\ldots, f_m) $$ for $n, m \\geq 0$ integers and $f_1, \\ldots, f_m \\in R[x_1, \\ldots, x_n]$ elements. Then for any $R$-algebra $B$ we can define $$ F'(B) = \\colim_{A \\to B,\\ A \\in \\mathcal{C}} F(A) $$ It turns out $F'$ is the unique functor on the category of all $R$-algebras which extends $F$ and commutes with filtered colimits. The same procedure works in the category of schemes if we impose that our functor is a Zariski sheaf."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4108, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4108, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4141, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4143, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4291, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4324, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4326, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4366, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4366, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4381, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4383, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4472, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4472, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4481, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4483, "scope_stack": []}

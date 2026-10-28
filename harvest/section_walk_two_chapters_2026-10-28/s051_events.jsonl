@@ -1,0 +1,68 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 80, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 86, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 93, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 93, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 106, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 108, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 112, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 112, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 121, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 123, "scope_stack": []}
+{"environment": "definition", "kind": "enter_local_environment", "line": 132, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 139, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "definition", "kind": "enter_local_environment", "line": 141, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 156, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"kind": "local_or_unclassified_prose", "line": 179, "review_required": true, "scope_stack": [], "text_excerpt": "Before we continue with the introduction of the big Zariski site of a scheme $S$, let us point out that the topology on a big Zariski site $\\Sch_{Zar}$ is in some sense induced from the Zariski topology on the category of all schemes."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 184, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 184, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 194, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 196, "scope_stack": []}
+{"environment": "definition", "kind": "enter_local_environment", "line": 207, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 233, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 240, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 245, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 247, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 280, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 280, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 290, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 292, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 313, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 313, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 321, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 323, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 341, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 341, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 347, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 349, "scope_stack": []}
+{"kind": "local_or_unclassified_prose", "line": 355, "review_required": true, "scope_stack": [], "text_excerpt": "Let us check that the notion of a sheaf on the small Zariski site corresponds to notion of a sheaf on $S$."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 358, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 358, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 362, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 364, "scope_stack": []}
+{"kind": "potential_durable_scope_change", "line": 384, "review_required": true, "scope_stack": [], "text_excerpt": "From now on we will not make any distinction between a sheaf on $S_{Zar}$ or a sheaf on $S$. We will always use the procedures of the proof of the lemma to go between the two notions. Next, we establish some relationships between the topoi associated to these sites."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 390, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 390, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 406, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 408, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 423, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 441, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 443, "scope_stack": []}
+{"environment": "definition", "kind": "enter_local_environment", "line": 451, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 459, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 477, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 477, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 504, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 506, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 523, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 556, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 558, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 589, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 595, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 597, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 606, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 606, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 618, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 620, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 636, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 656, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 658, "scope_stack": []}

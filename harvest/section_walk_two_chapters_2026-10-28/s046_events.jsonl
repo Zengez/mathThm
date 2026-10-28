@@ -1,0 +1,5 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 10720, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 10726, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "definition", "kind": "enter_local_environment", "line": 10785, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 10790, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"kind": "local_or_unclassified_prose", "line": 10793, "review_required": true, "scope_stack": [], "text_excerpt": "If $(A, \\mathfrak m, \\kappa)$ is a Noetherian local ring the {\\it embedding dimension of $A$} is sometimes defined as the dimension of $\\mathfrak m/\\mathfrak m^2$ over $\\kappa$. Above we have seen that if $A$ is given as an algebra over a field $k$, it may be preferable to use $\\dim_\\kappa(\\Omega_{A/k} \\otimes_A \\kappa)$. Let us call this quantity the {\\it embedding dimension of $A/k$}. With this terminology in place we have $$"}

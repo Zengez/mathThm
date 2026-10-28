@@ -1,0 +1,4 @@
+{"environment": "proposition", "kind": "enter_local_environment", "line": 5964, "persists_after_end": false, "scope_stack": ["proposition"]}
+{"kind": "candidate_location", "line": 5964, "scope_stack": ["proposition"]}
+{"environment": "proposition", "kind": "exit_local_environment", "line": 5972, "persists_after_end": false, "scope_stack_before_pop": ["proposition"]}
+{"kind": "proof_skipped", "line": 5974, "scope_stack": []}

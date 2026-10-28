@@ -1,0 +1,32 @@
+{
+  "candidate_count": 3,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "candidate_location": 3,
+    "enter_local_environment": 4,
+    "exit_local_environment": 4,
+    "local_or_unclassified_prose": 1,
+    "proof_skipped": 4
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 0,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 1,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [
+    4092
+  ],
+  "section": {
+    "file": "topologies.tex",
+    "label": "section-extending-functors",
+    "line_end": 4512,
+    "line_start": 4088,
+    "title": "Extending functors"
+  },
+  "source_lines_in_section": 425,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 1
+}

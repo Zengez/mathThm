@@ -1,732 +1,1281 @@
 {
-  "schema": "maththm.section-walk-completed-draft-section-registry.v1",
-  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "meaning": "All sections that were fully traversed and given standalone editorial candidate drafts, not proof-screened or final math-validated. Exclude these from subsequent new-work section selection.",
-  "sections_completed_for_draft": 80,
-  "active_candidate_drafts_in_these_sections": 554,
-  "sections": [
-    {
-      "source_file": "morphisms.tex",
-      "section_start_line": 4615,
-      "section_end_line": 4994,
-      "active_candidate_count": 15,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/SECTION_WALK_PILOT_STANDALONE_REVIEWS_2026-10-28.jsonl",
-      "batch": "two_section_pilot_2026-10-28"
-    },
-    {
-      "source_file": "limits.tex",
-      "section_start_line": 1729,
-      "section_end_line": 2127,
-      "active_candidate_count": 15,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/SECTION_WALK_PILOT_LIMITS_STANDALONE_REVIEWS_2026-10-28.jsonl",
-      "batch": "two_section_pilot_2026-10-28"
-    },
-    {
-      "source_file": "morphisms.tex",
-      "section_start_line": 1710,
-      "section_end_line": 2110,
-      "active_candidate_count": 13,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale74_2026-10-28/affine_reviews.jsonl",
-      "batch": "scale74_2026-10-28"
-    },
-    {
-      "source_file": "morphisms.tex",
-      "section_start_line": 3522,
-      "section_end_line": 4053,
-      "active_candidate_count": 17,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale74_2026-10-28/quasi_finite_reviews.jsonl",
-      "batch": "scale74_2026-10-28"
-    },
-    {
-      "source_file": "morphisms.tex",
-      "section_start_line": 5718,
-      "section_end_line": 6136,
-      "active_candidate_count": 14,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale74_2026-10-28/syntomic_reviews.jsonl",
-      "batch": "scale74_2026-10-28"
-    },
-    {
-      "source_file": "morphisms.tex",
-      "section_start_line": 6337,
-      "section_end_line": 6858,
-      "active_candidate_count": 15,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale74_2026-10-28/differentials_reviews.jsonl",
-      "batch": "scale74_2026-10-28"
-    },
-    {
-      "source_file": "morphisms.tex",
-      "section_start_line": 7603,
-      "section_end_line": 8033,
-      "active_candidate_count": 15,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale74_2026-10-28/unramified_reviews.jsonl",
-      "batch": "scale74_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 4284,
-      "section_end_line": 4535,
-      "active_candidate_count": 4,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s01_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 4536,
-      "section_end_line": 4655,
-      "active_candidate_count": 4,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s02_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 4656,
-      "section_end_line": 4815,
-      "active_candidate_count": 4,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s03_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 4816,
-      "section_end_line": 5088,
-      "active_candidate_count": 0,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s04_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 5089,
-      "section_end_line": 5370,
-      "active_candidate_count": 6,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s05_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 5371,
-      "section_end_line": 5720,
-      "active_candidate_count": 10,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s06_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 5721,
-      "section_end_line": 5979,
-      "active_candidate_count": 8,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s07_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 5980,
-      "section_end_line": 6237,
-      "active_candidate_count": 10,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s08_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 6238,
-      "section_end_line": 6444,
-      "active_candidate_count": 6,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s09_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 6445,
-      "section_end_line": 6519,
-      "active_candidate_count": 2,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s10_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 6520,
-      "section_end_line": 6648,
-      "active_candidate_count": 1,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s11_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 6649,
-      "section_end_line": 7433,
-      "active_candidate_count": 14,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s12_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 7434,
-      "section_end_line": 7970,
-      "active_candidate_count": 22,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s13_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 7971,
-      "section_end_line": 8338,
-      "active_candidate_count": 14,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s14_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 8339,
-      "section_end_line": 8586,
-      "active_candidate_count": 6,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s15_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 8587,
-      "section_end_line": 9306,
-      "active_candidate_count": 19,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s16_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 9307,
-      "section_end_line": 9513,
-      "active_candidate_count": 7,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s17_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 9514,
-      "section_end_line": 9905,
-      "active_candidate_count": 10,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s18_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "algebra.tex",
-      "section_start_line": 9906,
-      "section_end_line": 10036,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale150_2026-10-28/s19_reviews.jsonl",
-      "batch": "scale150_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 2923,
-      "section_end_line": 3467,
-      "active_candidate_count": 8,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s01_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 3468,
-      "section_end_line": 3629,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s02_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 3630,
-      "section_end_line": 4008,
-      "active_candidate_count": 4,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s03_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 4009,
-      "section_end_line": 4320,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s04_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 4321,
-      "section_end_line": 4507,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s05_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 4508,
-      "section_end_line": 4911,
-      "active_candidate_count": 8,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s06_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 4912,
-      "section_end_line": 5098,
-      "active_candidate_count": 1,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s07_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 5099,
-      "section_end_line": 5322,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s08_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 5323,
-      "section_end_line": 5871,
-      "active_candidate_count": 9,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s09_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 5872,
-      "section_end_line": 6159,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s10_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 6160,
-      "section_end_line": 6246,
-      "active_candidate_count": 1,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s11_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 6247,
-      "section_end_line": 6748,
-      "active_candidate_count": 11,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s12_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 6749,
-      "section_end_line": 6875,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s13_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 6876,
-      "section_end_line": 7203,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s14_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 7204,
-      "section_end_line": 7601,
-      "active_candidate_count": 10,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s15_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 7602,
-      "section_end_line": 7821,
-      "active_candidate_count": 1,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s16_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "coherent.tex",
-      "section_start_line": 7822,
-      "section_end_line": 8138,
-      "active_candidate_count": 4,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s17_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 17,
-      "section_end_line": 25,
-      "active_candidate_count": 0,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s18_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 26,
-      "section_end_line": 290,
-      "active_candidate_count": 8,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s19_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 291,
-      "section_end_line": 346,
-      "active_candidate_count": 1,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s20_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 347,
-      "section_end_line": 547,
-      "active_candidate_count": 6,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s21_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 548,
-      "section_end_line": 809,
-      "active_candidate_count": 11,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s22_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 810,
-      "section_end_line": 1043,
-      "active_candidate_count": 6,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s23_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 1044,
-      "section_end_line": 1193,
-      "active_candidate_count": 1,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s24_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 1194,
-      "section_end_line": 1245,
-      "active_candidate_count": 2,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s25_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 1246,
-      "section_end_line": 1528,
-      "active_candidate_count": 7,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s26_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 1529,
-      "section_end_line": 1640,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s27_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 1641,
-      "section_end_line": 1868,
-      "active_candidate_count": 12,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s28_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 1869,
-      "section_end_line": 1991,
-      "active_candidate_count": 5,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s29_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 1992,
-      "section_end_line": 2375,
-      "active_candidate_count": 12,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s30_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 2376,
-      "section_end_line": 2650,
-      "active_candidate_count": 10,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s31_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 2651,
-      "section_end_line": 2916,
-      "active_candidate_count": 5,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s32_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 2917,
-      "section_end_line": 3340,
-      "active_candidate_count": 13,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s33_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 3341,
-      "section_end_line": 3585,
-      "active_candidate_count": 6,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s34_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 3586,
-      "section_end_line": 3937,
-      "active_candidate_count": 10,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s35_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 3938,
-      "section_end_line": 4294,
-      "active_candidate_count": 7,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s36_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 4295,
-      "section_end_line": 4512,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s37_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 4513,
-      "section_end_line": 4888,
-      "active_candidate_count": 7,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s38_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 4889,
-      "section_end_line": 5245,
-      "active_candidate_count": 10,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s39_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 5246,
-      "section_end_line": 5854,
-      "active_candidate_count": 9,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s40_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 5855,
-      "section_end_line": 6231,
-      "active_candidate_count": 4,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s41_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 6232,
-      "section_end_line": 6416,
-      "active_candidate_count": 5,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s42_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 6417,
-      "section_end_line": 6548,
-      "active_candidate_count": 4,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s43_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 6549,
-      "section_end_line": 6706,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s44_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 6707,
-      "section_end_line": 6960,
-      "active_candidate_count": 5,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s45_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 6961,
-      "section_end_line": 7307,
-      "active_candidate_count": 5,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s46_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 7308,
-      "section_end_line": 7636,
-      "active_candidate_count": 5,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s47_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 7637,
-      "section_end_line": 7896,
-      "active_candidate_count": 6,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s48_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 7897,
-      "section_end_line": 8276,
-      "active_candidate_count": 5,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s49_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 8277,
-      "section_end_line": 8746,
-      "active_candidate_count": 13,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s50_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 8747,
-      "section_end_line": 9080,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s51_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 9081,
-      "section_end_line": 9291,
-      "active_candidate_count": 5,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s52_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 9292,
-      "section_end_line": 9402,
-      "active_candidate_count": 3,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s53_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    },
-    {
-      "source_file": "divisors.tex",
-      "section_start_line": 9403,
-      "section_end_line": 9492,
-      "active_candidate_count": 2,
-      "review_level": "standalone_drafts_without_final_source_equivalence",
-      "artifacts": "harvest/section_walk_scale300_2026-10-28/s54_reviews.jsonl",
-      "batch": "scale300_2026-10-28"
-    }
-  ],
+  "active_candidate_drafts_in_these_sections": 869,
   "all_final_standalone_equivalence_approved": false,
   "all_pass3_eligible": false,
-  "public_corpus_changed": false
+  "meaning": "All sections that were fully traversed and given standalone editorial candidate drafts, not proof-screened or final math-validated. Exclude these from subsequent new-work section selection.",
+  "public_corpus_changed": false,
+  "schema": "maththm.section-walk-completed-draft-section-registry.v1",
+  "sections": [
+    {
+      "active_candidate_count": 15,
+      "artifacts": "harvest/SECTION_WALK_PILOT_STANDALONE_REVIEWS_2026-10-28.jsonl",
+      "batch": "two_section_pilot_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4994,
+      "section_start_line": 4615,
+      "source_file": "morphisms.tex"
+    },
+    {
+      "active_candidate_count": 15,
+      "artifacts": "harvest/SECTION_WALK_PILOT_LIMITS_STANDALONE_REVIEWS_2026-10-28.jsonl",
+      "batch": "two_section_pilot_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2127,
+      "section_start_line": 1729,
+      "source_file": "limits.tex"
+    },
+    {
+      "active_candidate_count": 13,
+      "artifacts": "harvest/section_walk_scale74_2026-10-28/affine_reviews.jsonl",
+      "batch": "scale74_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2110,
+      "section_start_line": 1710,
+      "source_file": "morphisms.tex"
+    },
+    {
+      "active_candidate_count": 17,
+      "artifacts": "harvest/section_walk_scale74_2026-10-28/quasi_finite_reviews.jsonl",
+      "batch": "scale74_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4053,
+      "section_start_line": 3522,
+      "source_file": "morphisms.tex"
+    },
+    {
+      "active_candidate_count": 14,
+      "artifacts": "harvest/section_walk_scale74_2026-10-28/syntomic_reviews.jsonl",
+      "batch": "scale74_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6136,
+      "section_start_line": 5718,
+      "source_file": "morphisms.tex"
+    },
+    {
+      "active_candidate_count": 15,
+      "artifacts": "harvest/section_walk_scale74_2026-10-28/differentials_reviews.jsonl",
+      "batch": "scale74_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6858,
+      "section_start_line": 6337,
+      "source_file": "morphisms.tex"
+    },
+    {
+      "active_candidate_count": 15,
+      "artifacts": "harvest/section_walk_scale74_2026-10-28/unramified_reviews.jsonl",
+      "batch": "scale74_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 8033,
+      "section_start_line": 7603,
+      "source_file": "morphisms.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s01_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4535,
+      "section_start_line": 4284,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s02_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4655,
+      "section_start_line": 4536,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s03_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4815,
+      "section_start_line": 4656,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s04_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5088,
+      "section_start_line": 4816,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s05_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5370,
+      "section_start_line": 5089,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s06_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5720,
+      "section_start_line": 5371,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s07_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5979,
+      "section_start_line": 5721,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s08_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6237,
+      "section_start_line": 5980,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s09_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6444,
+      "section_start_line": 6238,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s10_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6519,
+      "section_start_line": 6445,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s11_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6648,
+      "section_start_line": 6520,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 14,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s12_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 7433,
+      "section_start_line": 6649,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 22,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s13_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 7970,
+      "section_start_line": 7434,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 14,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s14_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 8338,
+      "section_start_line": 7971,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s15_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 8586,
+      "section_start_line": 8339,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 19,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s16_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 9306,
+      "section_start_line": 8587,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s17_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 9513,
+      "section_start_line": 9307,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s18_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 9905,
+      "section_start_line": 9514,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s19_reviews.jsonl",
+      "batch": "scale150_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 10036,
+      "section_start_line": 9906,
+      "source_file": "algebra.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s01_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3467,
+      "section_start_line": 2923,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s02_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3629,
+      "section_start_line": 3468,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s03_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4008,
+      "section_start_line": 3630,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s04_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4320,
+      "section_start_line": 4009,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s05_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4507,
+      "section_start_line": 4321,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s06_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4911,
+      "section_start_line": 4508,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s07_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5098,
+      "section_start_line": 4912,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s08_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5322,
+      "section_start_line": 5099,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 9,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s09_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5871,
+      "section_start_line": 5323,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s10_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6159,
+      "section_start_line": 5872,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s11_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6246,
+      "section_start_line": 6160,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s12_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6748,
+      "section_start_line": 6247,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s13_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6875,
+      "section_start_line": 6749,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s14_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 7203,
+      "section_start_line": 6876,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s15_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 7601,
+      "section_start_line": 7204,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s16_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 7821,
+      "section_start_line": 7602,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s17_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 8138,
+      "section_start_line": 7822,
+      "source_file": "coherent.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s18_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 25,
+      "section_start_line": 17,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s19_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 290,
+      "section_start_line": 26,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s20_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 346,
+      "section_start_line": 291,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s21_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 547,
+      "section_start_line": 347,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s22_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 809,
+      "section_start_line": 548,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s23_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1043,
+      "section_start_line": 810,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s24_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1193,
+      "section_start_line": 1044,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s25_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1245,
+      "section_start_line": 1194,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s26_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1528,
+      "section_start_line": 1246,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s27_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1640,
+      "section_start_line": 1529,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 12,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s28_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1868,
+      "section_start_line": 1641,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s29_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1991,
+      "section_start_line": 1869,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 12,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s30_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2375,
+      "section_start_line": 1992,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s31_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2650,
+      "section_start_line": 2376,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s32_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2916,
+      "section_start_line": 2651,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 13,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s33_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3340,
+      "section_start_line": 2917,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s34_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3585,
+      "section_start_line": 3341,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s35_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3937,
+      "section_start_line": 3586,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s36_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4294,
+      "section_start_line": 3938,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s37_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4512,
+      "section_start_line": 4295,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s38_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4888,
+      "section_start_line": 4513,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s39_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5245,
+      "section_start_line": 4889,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 9,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s40_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5854,
+      "section_start_line": 5246,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s41_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6231,
+      "section_start_line": 5855,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s42_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6416,
+      "section_start_line": 6232,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s43_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6548,
+      "section_start_line": 6417,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s44_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6706,
+      "section_start_line": 6549,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s45_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6960,
+      "section_start_line": 6707,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s46_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 7307,
+      "section_start_line": 6961,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s47_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 7636,
+      "section_start_line": 7308,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s48_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 7896,
+      "section_start_line": 7637,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s49_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 8276,
+      "section_start_line": 7897,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 13,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s50_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 8746,
+      "section_start_line": 8277,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s51_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 9080,
+      "section_start_line": 8747,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s52_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 9291,
+      "section_start_line": 9081,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s53_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 9402,
+      "section_start_line": 9292,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "artifacts": "harvest/section_walk_scale300_2026-10-28/s54_reviews.jsonl",
+      "batch": "scale300_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 9492,
+      "section_start_line": 9403,
+      "source_file": "divisors.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s001_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 30,
+      "section_start_line": 17,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s002_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 45,
+      "section_start_line": 31,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s003_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 147,
+      "section_start_line": 46,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s004_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 229,
+      "section_start_line": 148,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s005_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 321,
+      "section_start_line": 230,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s006_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 678,
+      "section_start_line": 322,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 17,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s007_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1328,
+      "section_start_line": 679,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 16,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s008_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1889,
+      "section_start_line": 1329,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s009_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2092,
+      "section_start_line": 1890,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s010_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2299,
+      "section_start_line": 2093,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s011_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2340,
+      "section_start_line": 2300,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s012_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2624,
+      "section_start_line": 2341,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s013_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2660,
+      "section_start_line": 2625,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s014_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2732,
+      "section_start_line": 2661,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s015_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2910,
+      "section_start_line": 2733,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s016_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3178,
+      "section_start_line": 2911,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s017_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3383,
+      "section_start_line": 3179,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s018_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3568,
+      "section_start_line": 3384,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s019_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3711,
+      "section_start_line": 3569,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s020_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4036,
+      "section_start_line": 3712,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s021_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4195,
+      "section_start_line": 4037,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s022_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4301,
+      "section_start_line": 4196,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s023_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4417,
+      "section_start_line": 4302,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s024_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4523,
+      "section_start_line": 4418,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s025_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4836,
+      "section_start_line": 4524,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s026_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4895,
+      "section_start_line": 4837,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s027_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5146,
+      "section_start_line": 4896,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s028_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5431,
+      "section_start_line": 5147,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s029_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5734,
+      "section_start_line": 5432,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s030_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 5894,
+      "section_start_line": 5735,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s031_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6061,
+      "section_start_line": 5895,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s032_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6152,
+      "section_start_line": 6062,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s033_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6318,
+      "section_start_line": 6153,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s034_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 6427,
+      "section_start_line": 6319,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s035_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 7004,
+      "section_start_line": 6428,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s036_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 7294,
+      "section_start_line": 7005,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s037_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 7736,
+      "section_start_line": 7295,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 12,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s038_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 8223,
+      "section_start_line": 7737,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s039_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 8566,
+      "section_start_line": 8224,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s040_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 8762,
+      "section_start_line": 8567,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s041_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 8875,
+      "section_start_line": 8763,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s042_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 9160,
+      "section_start_line": 8876,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s043_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 9525,
+      "section_start_line": 9161,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 16,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s044_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 10184,
+      "section_start_line": 9526,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s045_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 10711,
+      "section_start_line": 10185,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s046_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 10811,
+      "section_start_line": 10712,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s047_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 11063,
+      "section_start_line": 10812,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s048_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 11343,
+      "section_start_line": 11064,
+      "source_file": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s049_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 30,
+      "section_start_line": 18,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s050_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 76,
+      "section_start_line": 31,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s051_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 715,
+      "section_start_line": 77,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s052_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1381,
+      "section_start_line": 716,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s053_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1641,
+      "section_start_line": 1382,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s054_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 1900,
+      "section_start_line": 1642,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s055_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2277,
+      "section_start_line": 1901,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s056_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 2883,
+      "section_start_line": 2278,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s057_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3374,
+      "section_start_line": 2884,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s058_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3885,
+      "section_start_line": 3375,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s059_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 3984,
+      "section_start_line": 3886,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s060_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4087,
+      "section_start_line": 3985,
+      "source_file": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "artifacts": "harvest/section_walk_two_chapters_2026-10-28/s061_reviews.jsonl",
+      "batch": "two_full_chapters_2026-10-28",
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "section_end_line": 4512,
+      "section_start_line": 4088,
+      "source_file": "topologies.tex"
+    }
+  ],
+  "sections_completed_for_draft": 141,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
 }

@@ -1,0 +1,113 @@
+{
+  "automatically_inherited_hypotheses": 0,
+  "leads": [
+    {
+      "section_key": "s002",
+      "signal": "potential_durable_scope_change",
+      "source_filename": "varieties.tex",
+      "source_start_line": 35,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/varieties.tex#L35"
+    },
+    {
+      "section_key": "s003",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "varieties.tex",
+      "source_start_line": 61,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/varieties.tex#L61"
+    },
+    {
+      "section_key": "s046",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "varieties.tex",
+      "source_start_line": 10793,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/varieties.tex#L10793"
+    },
+    {
+      "section_key": "s050",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "topologies.tex",
+      "source_start_line": 35,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L35"
+    },
+    {
+      "section_key": "s051",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "topologies.tex",
+      "source_start_line": 179,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L179"
+    },
+    {
+      "section_key": "s051",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "topologies.tex",
+      "source_start_line": 355,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L355"
+    },
+    {
+      "section_key": "s051",
+      "signal": "potential_durable_scope_change",
+      "source_filename": "topologies.tex",
+      "source_start_line": 384,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L384"
+    },
+    {
+      "section_key": "s052",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "topologies.tex",
+      "source_start_line": 824,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L824"
+    },
+    {
+      "section_key": "s053",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "topologies.tex",
+      "source_start_line": 1486,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L1486"
+    },
+    {
+      "section_key": "s054",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "topologies.tex",
+      "source_start_line": 1743,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L1743"
+    },
+    {
+      "section_key": "s055",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "topologies.tex",
+      "source_start_line": 2019,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L2019"
+    },
+    {
+      "section_key": "s056",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "topologies.tex",
+      "source_start_line": 2574,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L2574"
+    },
+    {
+      "section_key": "s057",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "topologies.tex",
+      "source_start_line": 3067,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L3067"
+    },
+    {
+      "section_key": "s059",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "topologies.tex",
+      "source_start_line": 3930,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L3930"
+    },
+    {
+      "section_key": "s061",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "topologies.tex",
+      "source_start_line": 4092,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/topologies.tex#L4092"
+    }
+  ],
+  "note": "All durable section/chapter premise signals require semantic review; no prior lemma assumptions survive their closing environment.",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unadjudicated_lead_count": 15
+}

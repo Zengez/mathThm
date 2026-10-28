@@ -1,0 +1,9 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 53, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 58, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"kind": "local_or_unclassified_prose", "line": 61, "review_required": true, "scope_stack": [], "text_excerpt": "This definition has the following drawback. Suppose that $k'/k$ is an extension of fields. Suppose that $X$ is a variety over $k$. Then the base change $X_{k'} = X \\times_{\\Spec(k)} \\Spec(k')$ is not necessarily a variety over $k'$. This phenomenon (in greater generality) will be discussed in detail in the following sections. The product of two varieties need not be a variety (this is really the same phenomenon). Here is an example."}
+{"environment": "example", "kind": "enter_local_environment", "line": 70, "persists_after_end": false, "scope_stack": ["example"]}
+{"environment": "example", "kind": "exit_local_environment", "line": 77, "persists_after_end": false, "scope_stack_before_pop": ["example"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 85, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 85, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 93, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 95, "scope_stack": []}

@@ -1,0 +1,572 @@
+{
+  "all_source_sections_included": true,
+  "candidate_count": 315,
+  "chapters": [
+    {
+      "order": 33,
+      "section_count": 48,
+      "source_filename": "varieties.tex"
+    },
+    {
+      "order": 34,
+      "section_count": 13,
+      "source_filename": "topologies.tex"
+    }
+  ],
+  "no_candidate_target_or_cutoff": true,
+  "schema": "maththm.two-complete-chapters.selection.v1",
+  "section_count": 61,
+  "sections": [
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 33,
+      "section_end_line": 30,
+      "section_label": "section-introduction",
+      "section_start_line": 17,
+      "section_title": "Introduction",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 33,
+      "section_end_line": 45,
+      "section_label": "section-notation",
+      "section_start_line": 31,
+      "section_title": "Notation",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 33,
+      "section_end_line": 147,
+      "section_label": "section-varieties",
+      "section_start_line": 46,
+      "section_title": "Varieties",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 33,
+      "section_end_line": 229,
+      "section_label": "section-varieties-rational-maps",
+      "section_start_line": 148,
+      "section_title": "Varieties and rational maps",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 33,
+      "section_end_line": 321,
+      "section_label": "section-local-rings",
+      "section_start_line": 230,
+      "section_title": "Change of fields and local rings",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 33,
+      "section_end_line": 678,
+      "section_label": "section-geometrically-reduced",
+      "section_start_line": 322,
+      "section_title": "Geometrically reduced schemes",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 17,
+      "chapter_order": 33,
+      "section_end_line": 1328,
+      "section_label": "section-geometrically-connected",
+      "section_start_line": 679,
+      "section_title": "Geometrically connected schemes",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 16,
+      "chapter_order": 33,
+      "section_end_line": 1889,
+      "section_label": "section-geometrically-irreducible",
+      "section_start_line": 1329,
+      "section_title": "Geometrically irreducible schemes",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 33,
+      "section_end_line": 2092,
+      "section_label": "section-geometrically-integral",
+      "section_start_line": 1890,
+      "section_title": "Geometrically integral schemes",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 33,
+      "section_end_line": 2299,
+      "section_label": "section-geometrically-normal",
+      "section_start_line": 2093,
+      "section_title": "Geometrically normal schemes",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 33,
+      "section_end_line": 2340,
+      "section_label": "section-locally-Noetherian",
+      "section_start_line": 2300,
+      "section_title": "Change of fields and locally Noetherian schemes",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 33,
+      "section_end_line": 2624,
+      "section_label": "section-geometrically-regular",
+      "section_start_line": 2341,
+      "section_title": "Geometrically regular schemes",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 33,
+      "section_end_line": 2660,
+      "section_label": "section-CM",
+      "section_start_line": 2625,
+      "section_title": "Change of fields and the Cohen-Macaulay property",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 33,
+      "section_end_line": 2732,
+      "section_label": "section-overfield",
+      "section_start_line": 2661,
+      "section_title": "Change of fields and the Jacobson property",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 33,
+      "section_end_line": 2910,
+      "section_label": "section-change-fields-ample",
+      "section_start_line": 2733,
+      "section_title": "Change of fields and ample invertible sheaves",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 33,
+      "section_end_line": 3178,
+      "section_label": "section-tangent-spaces",
+      "section_start_line": 2911,
+      "section_title": "Tangent spaces",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 33,
+      "section_end_line": 3383,
+      "section_label": "section-generically-finite",
+      "section_start_line": 3179,
+      "section_title": "Generically finite morphisms",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 33,
+      "section_end_line": 3568,
+      "section_label": "section-noether-normalization",
+      "section_start_line": 3384,
+      "section_title": "Variants of Noether normalization",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 33,
+      "section_end_line": 3711,
+      "section_label": "section-dimension-fibres",
+      "section_start_line": 3569,
+      "section_title": "Dimension of fibres",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 33,
+      "section_end_line": 4036,
+      "section_label": "section-algebraic-schemes",
+      "section_start_line": 3712,
+      "section_title": "Algebraic schemes",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 33,
+      "section_end_line": 4195,
+      "section_label": "section-complete-local-rings",
+      "section_start_line": 4037,
+      "section_title": "Complete local rings",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 33,
+      "section_end_line": 4301,
+      "section_label": "section-global-generation",
+      "section_start_line": 4196,
+      "section_title": "Global generation",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 33,
+      "section_end_line": 4417,
+      "section_label": "section-separating-points-tangent-vectors",
+      "section_start_line": 4302,
+      "section_title": "Separating points and tangent vectors",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 33,
+      "section_end_line": 4523,
+      "section_label": "section-closure-of-products",
+      "section_start_line": 4418,
+      "section_title": "Closures of products",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "chapter_order": 33,
+      "section_end_line": 4836,
+      "section_label": "section-smooth",
+      "section_start_line": 4524,
+      "section_title": "Schemes smooth over fields",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 33,
+      "section_end_line": 4895,
+      "section_label": "section-types",
+      "section_start_line": 4837,
+      "section_title": "Types of varieties",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 33,
+      "section_end_line": 5146,
+      "section_label": "section-normalization",
+      "section_start_line": 4896,
+      "section_title": "Normalization",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 33,
+      "section_end_line": 5431,
+      "section_label": "section-units",
+      "section_start_line": 5147,
+      "section_title": "Groups of invertible functions",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 33,
+      "section_end_line": 5734,
+      "section_label": "section-kunneth",
+      "section_start_line": 5432,
+      "section_title": "K\\\"unneth formula, I",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 33,
+      "section_end_line": 5894,
+      "section_label": "section-picard-groups",
+      "section_start_line": 5735,
+      "section_title": "Picard groups of varieties",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 33,
+      "section_end_line": 6061,
+      "section_label": "section-base-field",
+      "section_start_line": 5895,
+      "section_title": "Uniqueness of base field",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 33,
+      "section_end_line": 6152,
+      "section_label": "section-automorphisms",
+      "section_start_line": 6062,
+      "section_title": "Automorphisms",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 33,
+      "section_end_line": 6318,
+      "section_label": "section-euler",
+      "section_start_line": 6153,
+      "section_title": "Euler characteristics",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 33,
+      "section_end_line": 6427,
+      "section_label": "section-projective-space",
+      "section_start_line": 6319,
+      "section_title": "Projective space",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "chapter_order": 33,
+      "section_end_line": 7004,
+      "section_label": "section-coherent-Pn",
+      "section_start_line": 6428,
+      "section_title": "Coherent sheaves on projective space",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 33,
+      "section_end_line": 7294,
+      "section_label": "section-frobenius",
+      "section_start_line": 7005,
+      "section_title": "Frobenii",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "chapter_order": 33,
+      "section_end_line": 7736,
+      "section_label": "section-glueing-dim-1",
+      "section_start_line": 7295,
+      "section_title": "Glueing dimension one rings",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 12,
+      "chapter_order": 33,
+      "section_end_line": 8223,
+      "section_label": "section-dimension-one",
+      "section_start_line": 7737,
+      "section_title": "One dimensional Noetherian schemes",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 33,
+      "section_end_line": 8566,
+      "section_label": "section-delta-invariant",
+      "section_start_line": 8224,
+      "section_title": "The delta invariant",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 33,
+      "section_end_line": 8762,
+      "section_label": "section-number-of-branches",
+      "section_start_line": 8567,
+      "section_title": "The number of branches",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 33,
+      "section_end_line": 8875,
+      "section_label": "section-normalization-one-dimensional",
+      "section_start_line": 8763,
+      "section_title": "Normalization of one dimensional schemes",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 33,
+      "section_end_line": 9160,
+      "section_label": "section-finding-affine-opens",
+      "section_start_line": 8876,
+      "section_title": "Finding affine opens",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 33,
+      "section_end_line": 9525,
+      "section_label": "section-curves",
+      "section_start_line": 9161,
+      "section_title": "Curves",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 16,
+      "chapter_order": 33,
+      "section_end_line": 10184,
+      "section_label": "section-divisors-curves",
+      "section_start_line": 9526,
+      "section_title": "Degrees on curves",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 33,
+      "section_end_line": 10711,
+      "section_label": "section-num",
+      "section_start_line": 10185,
+      "section_title": "Numerical intersections",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 33,
+      "section_end_line": 10811,
+      "section_label": "section-embedding-dimension",
+      "section_start_line": 10712,
+      "section_title": "Embedding dimension",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 33,
+      "section_end_line": 11063,
+      "section_label": "section-bertini",
+      "section_start_line": 10812,
+      "section_title": "Bertini theorems",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 33,
+      "section_end_line": 11343,
+      "section_label": "section-vanishing-negative",
+      "section_start_line": 11064,
+      "section_title": "Enriques-Severi-Zariski",
+      "source_filename": "varieties.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 34,
+      "section_end_line": 30,
+      "section_label": "section-introduction",
+      "section_start_line": 18,
+      "section_title": "Introduction",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 34,
+      "section_end_line": 76,
+      "section_label": "section-procedure",
+      "section_start_line": 31,
+      "section_title": "The general procedure",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "chapter_order": 34,
+      "section_end_line": 715,
+      "section_label": "section-zariski",
+      "section_start_line": 77,
+      "section_title": "The Zariski topology",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "chapter_order": 34,
+      "section_end_line": 1381,
+      "section_label": "section-etale",
+      "section_start_line": 716,
+      "section_title": "The \\'etale topology",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 34,
+      "section_end_line": 1641,
+      "section_label": "section-smooth",
+      "section_start_line": 1382,
+      "section_title": "The smooth topology",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 34,
+      "section_end_line": 1900,
+      "section_label": "section-syntomic",
+      "section_start_line": 1642,
+      "section_title": "The syntomic topology",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 34,
+      "section_end_line": 2277,
+      "section_label": "section-fppf",
+      "section_start_line": 1901,
+      "section_title": "The fppf topology",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "chapter_order": 34,
+      "section_end_line": 2883,
+      "section_label": "section-ph",
+      "section_start_line": 2278,
+      "section_title": "The ph topology",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "chapter_order": 34,
+      "section_end_line": 3374,
+      "section_label": "section-fpqc",
+      "section_start_line": 2884,
+      "section_title": "The fpqc topology",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "chapter_order": 34,
+      "section_end_line": 3885,
+      "section_label": "section-V",
+      "section_start_line": 3375,
+      "section_title": "The V topology",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 34,
+      "section_end_line": 3984,
+      "section_label": "section-change-topologies",
+      "section_start_line": 3886,
+      "section_title": "Change of topologies",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 34,
+      "section_end_line": 4087,
+      "section_label": "section-change-alpha",
+      "section_start_line": 3985,
+      "section_title": "Change of big sites",
+      "source_filename": "topologies.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 34,
+      "section_end_line": 4512,
+      "section_label": "section-extending-functors",
+      "section_start_line": 4088,
+      "section_title": "Extending functors",
+      "source_filename": "topologies.tex"
+    }
+  ],
+  "source_lines": 15822,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+}
