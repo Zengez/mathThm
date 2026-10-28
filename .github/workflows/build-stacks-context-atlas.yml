@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - .github/workflows/build-stacks-context-atlas.yml
+      - scripts/stacks_context_index.py
+      - tests/test_stacks_context_index.py
   workflow_dispatch:
 permissions:
   contents: write
