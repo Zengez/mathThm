@@ -73,7 +73,30 @@ def main():
                                 abs(w["candidate_count"]-300)*0.65,
                                 w["source_lines"],
                                 w["source_file"],w["first_line"]))
+    maximal=[]
+    for filename,sections in chapters.items():
+        counts=[len(g.get((filename,ss["section_start_line"]),[])) for ss in sections]
+        running=[]
+        for ss,n in zip(sections,counts):
+            if ss["section_start_line"] in exclusions.get(filename,set()):
+                if running:
+                    maximal.append({"file":filename,"candidates":sum(x[1] for x in running),
+                                    "sections":len(running),
+                                    "first":running[0][0]["section_start_line"],
+                                    "last":running[-1][0]["section_end_line"],
+                                    "chapter_order":running[0][0]["chapter_number"]})
+                    running=[]
+            else:
+                running.append((ss,n))
+        if running:
+            maximal.append({"file":filename,"candidates":sum(x[1] for x in running),
+                            "sections":len(running),
+                            "first":running[0][0]["section_start_line"],
+                            "last":running[-1][0]["section_end_line"],
+                            "chapter_order":running[0][0]["chapter_number"]})
+    maximal.sort(key=lambda q:-q["candidates"])
     report={
+        "largest_within_chapter_contiguous_unused_runs":maximal[:35],
         "schema":"maththm.consecutive-full-section-window-options.v1",
         "total_valid_windows":len(windows),
         "target_band":[270,330],
