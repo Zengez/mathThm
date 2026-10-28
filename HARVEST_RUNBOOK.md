@@ -20,6 +20,29 @@ Repeat Pass 3 for the other active Stacks batches. The pinned upstream source mu
 
 ---
 
+## CURRENT SCALE EXPERIMENT — 300 consecutive candidates across adjacent chapters
+
+The [latest 300-candidate source-context reconstruction](harvest/section_walk_scale300_2026-10-28/REPORT.md) spans **54 complete consecutive sections**, not a selected collection of disconnected sections. The source pair is **coherent.tex, chapter 30, lines 2923–8138**, followed immediately by **divisors.tex, chapter 31, lines 17–9492**, including the chapter's zero-candidate Introduction. No single remaining uninterrupted chapter-local span was long enough to reach the user's requested 270–330 candidate window.
+
+**Outcome:** 300 independent draft overlays saved: **242 structurally draft-ready for separate mathematical equivalence validation and 58 on explicit source/context/logical-scope holds**. None is proof-verified, finally source-equivalence approved, Pass 3 eligible or published. Original Pass 1/2 and 9,675-member intake remain unchanged. The [cross-batch registry](harvest/SECTION_WALK_COMPLETED_SECTIONS.json) tracks **80 completely drafted sections and 554 candidate drafts** across the 30, 74, 150 and 300 candidate pilots. It must be consulted before selecting new source sections.
+
+**Practical commands**, when using the pinned Stacks source checkout and the saved source-selection manifest:
+
+```bash
+python -m scripts.stacks_cross_chapter_section_window300
+python -m scripts.stacks_section_walk_scale300
+python -m scripts.stacks_scale300_context_passages
+python -m scripts.stacks_section_walk_scale300_reconstruct
+python -m scripts.validate_stacks_section_walk_scale300
+python -m unittest discover -s tests -q
+```
+
+These stages are explicitly distinct: adjacent-chapter selection, pinned source traversal, limited section/source context collection, theorem-specific draft creation with contextual holds, then structural and scope validation. The actions reproduce them without reading proof bodies. Source-level definitions `Coh(X,I)` and norms of degree `d` were recorded as term meanings, not inherited hypotheses; other named definitions retain chronological source scope. Chapter-specific conventions reset at the physical chapter boundary.
+
+**Important regression gate:** A theorem with `Assume \begin{enumerate} ... \end{enumerate} Then ...` has the list as **premises**, not conclusions. Equivalence conditions are not hypotheses; clauses with a joint existential witness must remain grouped. Tests in `tests/test_stacks_scale300_logic.py` and the batch validator guard against these errors. The 58 held cases are documented per-candidate (not lost); 43 have source-reference expansion needs, with overlapping nested enumeration and existential logic issues. Do not mistake draft-ready for verified mathematical equivalence.
+
+---
+
 ## CURRENT METHOD: consecutive full-section standalone reconstruction (latest 150)
 
 The agreed source-context reconstruction unit is a **whole source section**, processed along with its neighboring sections in physical source order. To measure scaling, select a run containing approximately the requested candidate count but **never cut through a section**; include intervening sections even if they have zero active candidates.
