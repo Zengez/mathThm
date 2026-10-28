@@ -20,8 +20,8 @@ jobs:
       - name: Pass 2 over saved raw Stacks batches (never read proofs)
         run: |
           set -euo pipefail
-          python scripts/pass2_fast_stacks.py --workdir harvest/batches/stacks-bulk-2026-10-28
-          python scripts/pass2_fast_stacks.py --workdir harvest/batches/stacks-second-2026-10-28
+          python scripts/pass2_fast_stacks.py --workdir harvest/batches/stacks-bulk-2026-10-28 --replace
+          python scripts/pass2_fast_stacks.py --workdir harvest/batches/stacks-second-2026-10-28 --replace
           python scripts/harvest_pipeline.py status --workdir harvest/batches/stacks-bulk-2026-10-28
           python scripts/harvest_pipeline.py status --workdir harvest/batches/stacks-second-2026-10-28
       - name: Commit extracted Pass 2 data and investigation queues only
