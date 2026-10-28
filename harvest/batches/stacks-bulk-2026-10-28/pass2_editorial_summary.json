@@ -1,0 +1,10 @@
+{
+  "spotchecks_applied": 14,
+  "updated_context_status": {
+    "needs_context": 105,
+    "needs_structure": 408,
+    "resolved": 587
+  },
+  "proofs_read": false,
+  "review_scope": "statement_only_light_editorial"
+}
