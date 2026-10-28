@@ -2,10 +2,10 @@
 
 **Status:** Set aside during the initial bulk discovery and prototype build. These are *not* rejected theorems or failed proofs. All canonical Pass 1 and Pass 2 decisions remain intact.
 
-## One combined registry, two difficulty groups
+## One combined registry, three difficulty groups
 
-- **[problem_candidates.jsonl](problem_candidates.jsonl)** — canonical unified registry: **1,301** records.
-- **[problem_candidates_inherited_context.jsonl](problem_candidates_inherited_context.jsonl)** — legacy path retained as an *identical copy of the unified registry*, despite its historical filename. It now includes both groups.
+- **[problem_candidates.jsonl](problem_candidates.jsonl)** — canonical unified registry: **1,304** records.
+- **[problem_candidates_inherited_context.jsonl](problem_candidates_inherited_context.jsonl)** — legacy path retained as an *identical copy of the unified registry*, despite its historical filename. It now includes all three groups.
 - **[PROBLEM_CANDIDATES_MANIFEST.json](PROBLEM_CANDIDATES_MANIFEST.json)** — current counts by difficulty, source batch, and structural subtype, plus the active-intake rule.
 
 JSON Lines cannot contain prose section headings without breaking its data format. Instead, the records are ordered by `difficulty_group`, each record carries that field and a more granular `difficulty_subtype`, and the groups are described below. Each record also retains its stable candidate ID, original Stacks source statement and pinned URL, references, review notes, and available recovered source context.
@@ -31,16 +31,24 @@ JSON Lines cannot contain prose section headings without breaking its data forma
 
 Particularly, do not silently interpret joint premises as independent alternatives, upgrade a corollary to an equivalence, or fabricate a hypothesis for an unconditional theorem.
 
-## Separate classification queue
+### Group 3 — Uncertain mathematical-result classification (`classification_uncertain`)
 
-**Three** `needs_classification` candidates, all from `trace.tex`, remain separate pending an editorial/user decision. Their precise statements and provenance appear in [PASS2_RESUME_INVENTORY_2026-10-28.json](PASS2_RESUME_INVENTORY_2026-10-28.json) under `classification_details`. They are not among the 1,301 archived problems until a later explicit decision requires that.
+**3 records**, all in `trace.tex`, whose original Pass 2 status is `needs_classification`. They involve a conjecture known or asserted only in special cases, a conditional result assuming a conjecture, or an explicitly incomplete statement relying on unspecified unproven facts. These are **not** yet accepted mathematical results or rejected false positives.
+
+| Original source label | Difficulty subtype |
+| --- | --- |
+| `theorem-conjecture-n-2` | `conjecture_special_case_claim` |
+| `theorem-weil-II` | `conditional_result_assuming_conjecture` |
+| `theorem-conjecture-l-bigger-2n` | `claim_dependent_on_unproven_assumptions` |
+
+The three full statements are preserved in the same JSONL archive, along with their pinned source links and canonical IDs, and remain available for later review.
 
 ## Initial bulk discovery and prototype policy
 
-1. Exclude **both** difficulty groups in the registry from the active prototype/bulk candidate intake.
+1. Exclude **all three** difficulty groups in the registry from the active prototype/bulk candidate intake.
 2. Only records currently marked `resolved` and classified `mathematical_result` in the canonical Pass 2 records may be *considered* for the later Pass 3 validation pipeline. A Pass 2 split is not independent mathematical or proof verification.
 3. Do not delete, mislabel as a false positive, or auto-promote any deferred candidate.
-4. Do not conflate the three separate classification cases with either deferred difficulty group.
+4. Keep classification-uncertain records distinct from structural/context difficulties; their archival inclusion is not a classification decision.
 
 ## Rebuild for a later discovery phase
 
@@ -50,4 +58,4 @@ Canonical source: `harvest/batches/<batch>/pass1.jsonl` and `pass2.jsonl`. This 
 python -m scripts.pass2_problem_candidates
 ```
 
-Regenerate after future Pass 2 adjudications, and again before starting a later discovery phase. Resolved cases automatically disappear from both copies on rebuild. The source revision is pinned at `a04446e57ec1fbc252a871afcec7752fb2807b14`. No proofs were read or public theorem entries changed for this registry update.
+**Coverage invariant:** the registry must include exactly every candidate whose canonical Pass 2 status is not `resolved`, with zero unarchived unresolved IDs. Regenerate after future Pass 2 adjudications, and again before starting a later discovery phase. Resolved cases automatically disappear from both copies on rebuild. The source revision is pinned at `a04446e57ec1fbc252a871afcec7752fb2807b14`. No proofs were read or public theorem entries changed for this registry update.
