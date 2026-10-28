@@ -2,9 +2,9 @@
   "all_candidates": 10987,
   "all_statuses": {
     "needs_classification": 3,
-    "needs_context": 842,
+    "needs_context": 862,
     "needs_structure": 475,
-    "resolved": 9667
+    "resolved": 9647
   },
   "batches": [
     {
@@ -20,9 +20,9 @@
       "batch": "stacks-second-2026-10-28",
       "candidates": 2022,
       "states": {
-        "needs_context": 108,
+        "needs_context": 111,
         "needs_structure": 52,
-        "resolved": 1862
+        "resolved": 1859
       }
     },
     {
@@ -30,9 +30,9 @@
       "candidates": 7865,
       "states": {
         "needs_classification": 3,
-        "needs_context": 684,
+        "needs_context": 701,
         "needs_structure": 389,
-        "resolved": 6789
+        "resolved": 6772
       }
     }
   ],
@@ -88,7 +88,7 @@
     }
   ],
   "mathematical_validity_audited": false,
-  "open_total": 1320,
+  "open_total": 1340,
   "pass3_started": false,
   "proofs_read": false,
   "published_theorem_corpus_edited": false,

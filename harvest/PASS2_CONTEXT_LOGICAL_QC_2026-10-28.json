@@ -1,0 +1,36 @@
+{
+  "batches": [
+    {
+      "batch": "stacks-bulk-2026-10-28",
+      "deferred_for_logical_review": 0,
+      "new_context_introduced": 6,
+      "reasons": {}
+    },
+    {
+      "batch": "stacks-second-2026-10-28",
+      "deferred_for_logical_review": 3,
+      "new_context_introduced": 17,
+      "reasons": {
+        "biconditional or enumerated equivalence not completely indexed bidirectionally": 3
+      }
+    },
+    {
+      "batch": "stacks-remaining-2026-10-28",
+      "deferred_for_logical_review": 17,
+      "new_context_introduced": 83,
+      "reasons": {
+        "biconditional or enumerated equivalence not completely indexed bidirectionally": 10,
+        "source contains an editorial placeholder": 7
+      }
+    }
+  ],
+  "proofs_read": false,
+  "published_catalog_unchanged": true,
+  "quality_deferred_total": 20,
+  "status_totals": {
+    "needs_classification": 3,
+    "needs_context": 862,
+    "needs_structure": 475,
+    "resolved": 9647
+  }
+}
