@@ -1,0 +1,96 @@
+{
+  "schema": "maththm.scoped-consecutive-sections-context-adjudication.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "algebra.tex",
+  "source_range": [
+    4284,
+    10036
+  ],
+  "complete_section_count": 19,
+  "chapter_conventions": {
+    "ring": "commutative with identity, zero ring allowed",
+    "module": "unitary module",
+    "natural_numbers": "positive integers N={1,2,...}",
+    "role": "terminology only; not an extra theorem-specific assumption"
+  },
+  "section_scope_policy": "Section starts/ends are true source boundaries. Named definitions remain available as referenced terminology after introduction; their example variables are not ambient hypotheses. Each lemma, proposition and theorem owns its own assumptions and discards them when its environment ends. No assumption is inferred from the title of a section.",
+  "prose_scope_leads_reviewed": [
+    {
+      "section_key": "s05",
+      "source_line": 5143,
+      "type": "editorial_transition_not_mathematical_hypothesis",
+      "text": "Let us give some examples of Oka families.",
+      "effect": "No persistent assumption; Oka family remains a named definition from line 5134.",
+      "persistent_hypotheses_added": []
+    },
+    {
+      "section_key": "s18",
+      "source_line": 9518,
+      "type": "generic_topological_correspondence_not_fixed_ring_or_prime_hypothesis",
+      "text": "For prime ideals p,p' in any ring R, specialization in Spec(R) is reverse to inclusion of primes.",
+      "effect": "This supplies the standard specialization-order interpretation; the illustrative R,p,p' are local bound variables, not ambient assumptions for subsequent theorems.",
+      "persistent_hypotheses_added": []
+    }
+  ],
+  "cross_section_named_definition_policy": "For this consecutive run, a mathematical definition that appears in one section becomes a referenceable term from its source line onward in later sections. No theorem-premise data is inherited across section boundaries. The concepts normal domain (line 7978) and normal ring (line 8205) are different definitions; latter cannot apply before 8205.",
+  "relevant_source_labels": [
+    {
+      "label": "definition-oka-family",
+      "line": 5134
+    },
+    {
+      "label": "definition-locally-nilpotent-ideal",
+      "line": 6244
+    },
+    {
+      "label": "definition-ring-jacobson",
+      "line": 6659
+    },
+    {
+      "label": "definition-integral-ring-map",
+      "line": 7441
+    },
+    {
+      "label": "definition-integral-closure",
+      "line": 7568
+    },
+    {
+      "label": "definition-domain-normal",
+      "line": 7978
+    },
+    {
+      "label": "definition-almost-integral",
+      "line": 7999
+    },
+    {
+      "label": "definition-ring-normal",
+      "line": 8205
+    },
+    {
+      "label": "definition-integral-over-ideal",
+      "line": 8347
+    },
+    {
+      "label": "definition-flat",
+      "line": 8620
+    },
+    {
+      "label": "definition-support-module",
+      "line": 9313
+    },
+    {
+      "label": "definition-annihilator",
+      "line": 9346
+    },
+    {
+      "label": "definition-going-up-down",
+      "line": 9531
+    },
+    {
+      "label": "definition-separable-field-extension",
+      "line": 9914
+    }
+  ],
+  "note": "Definitions are references/meanings, not automatically imported restrictions. Source revision pinned; no proof research performed.",
+  "proofs_inspected": false
+}
