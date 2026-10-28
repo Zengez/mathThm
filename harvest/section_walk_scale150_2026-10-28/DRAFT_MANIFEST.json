@@ -57,8 +57,7 @@
       "title": "A meta-observation about prime ideals",
       "candidates": 6,
       "review_status": {
-        "standalone_draft_ready_for_validation": 5,
-        "context_resolution_pending": 1
+        "standalone_draft_ready_for_validation": 6
       },
       "definitions_present_before_section_start": [],
       "no_leaked_lemma_hypotheses": true,
@@ -69,8 +68,7 @@
       "title": "Images of ring maps of finite presentation",
       "candidates": 10,
       "review_status": {
-        "standalone_draft_ready_for_validation": 9,
-        "context_resolution_pending": 1
+        "standalone_draft_ready_for_validation": 10
       },
       "definitions_present_before_section_start": [
         "definition-oka-family"
@@ -168,8 +166,8 @@
       "title": "Finite and integral ring extensions",
       "candidates": 22,
       "review_status": {
-        "standalone_draft_ready_for_validation": 20,
-        "context_resolution_pending": 2
+        "standalone_draft_ready_for_validation": 21,
+        "context_resolution_pending": 1
       },
       "definitions_present_before_section_start": [
         "definition-oka-family",
@@ -313,8 +311,8 @@
     }
   ],
   "status_counts": {
-    "context_resolution_pending": 18,
-    "standalone_draft_ready_for_validation": 132
+    "context_resolution_pending": 15,
+    "standalone_draft_ready_for_validation": 135
   },
   "no_pass1_pass2_changes": true,
   "original_corpus_unchanged": true,
