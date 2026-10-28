@@ -1,0 +1,1664 @@
+{
+  "count_by_batch": {
+    "stacks-bulk-2026-10-28": {
+      "no_labeled_reference": 23,
+      "no_same_file_statement_label": 5,
+      "other_statement_label_available": 40,
+      "situation_notation_or_setup_available": 37
+    },
+    "stacks-remaining-2026-10-28": {
+      "no_labeled_reference": 236,
+      "no_same_file_statement_label": 260,
+      "other_statement_label_available": 389,
+      "situation_notation_or_setup_available": 769
+    },
+    "stacks-second-2026-10-28": {
+      "no_labeled_reference": 37,
+      "no_same_file_statement_label": 28,
+      "other_statement_label_available": 87,
+      "situation_notation_or_setup_available": 60
+    }
+  },
+  "exact_label_hits": 15926,
+  "examples": {
+    "stacks-bulk-2026-10-28": {
+      "no_labeled_reference": [
+        {
+          "id": "candidate.stacks.03419b384e18d1d053af2213",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $f : X \\to Y$ be a continuous map of topological spaces.\nLet $\\mathcal{O}$ be a presheaf of rings on $X$. Let\n$\\mathcal{F}$ be a presheaf of $\\mathcal{O}$-modules.\nThere is a natural map of underlying presheaves of sets\n$$\nf_*\\mathcal{O} \\times f_*\\mathcal{F}\n\\longrightarrow\nf_*\\mathcal{F}\n$$\nwhich turns $f_*\\mathcal{F}$ into a presheaf of\n$f_*\\mathcal{O}$-modules. This construction is\nfunctorial in $\\mathcal{F}$."
+        },
+        {
+          "id": "candidate.stacks.1976b71d5a7892e9d0305492",
+          "matches": [],
+          "refs": [],
+          "statement": "In the situation above there is a canonical isomorphism\n$\\NL(\\alpha) = \\NL_{\\mathcal{B}/\\mathcal{A}}$ in $D(\\mathcal{B})$."
+        },
+        {
+          "id": "candidate.stacks.2546d7bec74d5f9ccadf2289",
+          "matches": [],
+          "refs": [],
+          "statement": "With $X$, $\\mathcal{O}_1$, $\\mathcal{O}_2$, $\\mathcal{F}$ and\n$\\mathcal{G}$ as above there exists a canonical bijection\n$$\n\\Hom_{\\mathcal{O}_1}(\\mathcal{G}, \\mathcal{F}_{\\mathcal{O}_1})\n=\n\\Hom_{\\mathcal{O}_2}(\n\\mathcal{O}_2 \\otimes_{\\mathcal{O}_1} \\mathcal{G},\n\\mathcal{F}\n)\n$$\nIn other words, the restriction and change of rings functors\nare adjoint to each other."
+        },
+        {
+          "id": "candidate.stacks.254e6613d7fea26b17f8da4c",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $(X, \\mathcal{O}_X)$ be ringed space.\nLet $\\alpha : R \\to \\Gamma(X, \\mathcal{O}_X)$ be a ring homomorphism from\na ring $R$ into the ring of global sections on $X$.\nLet $M$ be an $R$-module.\nThe following three constructions give canonically isomorphic\nsheaves of $\\mathcal{O}_X$-modules:\n\\begin{enumerate}\n\\item Let $\\pi : (X, \\mathcal{O}_X) \\longrightarrow (\\{*\\}, R)$\nbe the morphism of ringed spaces with $\\pi : X \\to \\{*\\}$\nthe unique map and with $\\pi$-map $\\pi^\\sharp$ the given map\n$\\alpha : R \\to \\Gamma(X, \\mathcal{O}_X)$. Set $\\mathcal{F}_1 = \\pi^*M$.\n\\item Choose a presentation\n$\\bigoplus_{j \\in J} R \\to \\bigoplus_{i \\in I} R \\to M \\to 0$.\nSet\n$$\n\\mathcal{F}_2 = \\Coker\\left(\n\\bigoplus\\nolimits_{j \\in J} \\mathcal{O}_X\n\\to\n\\bigoplus\\nolimits_{i \\in I} \\mathcal{O}_X\n\\right).\n$$\nHere the map on the component $\\mathcal{O}_X$ corresponding to $j \\in J$\ngiven by the section $\\sum_i \\alpha(r_{ij})$ where the $r_{ij}$\nare the matrix coefficients of the map in the presentation of $M$.\n\\item Set $\\mathcal{F}_3$ equal to the sheaf associated to the presheaf\n$U \\mapsto \\mathcal{O}_X(U) \\"
+        },
+        {
+          "id": "candidate.stacks.34963fd0c504ceb65a56d283",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $f : X \\to Y$ be a continuous map of topological spaces.\nLet $\\mathcal{O}$ be a presheaf of rings on $Y$. Let\n$\\mathcal{G}$ be a presheaf of $\\mathcal{O}$-modules.\nThere is a natural map of underlying presheaves of sets\n$$\nf_p\\mathcal{O} \\times f_p\\mathcal{G}\n\\longrightarrow\nf_p\\mathcal{G}\n$$\nwhich turns $f_p\\mathcal{G}$ into a presheaf of $f_p\\mathcal{O}$-modules.\nThis construction is functorial in $\\mathcal{G}$."
+        },
+        {
+          "id": "candidate.stacks.4d60296237488d9e99bbc208",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $f : A \\to B$ be a ring map that sends every element in $S$ to a unit\nof $B$. Then there is a unique homomorphism $g : S^{-1}A \\to B$ such\nthat the following diagram commutes.\n$$\n\\xymatrix{\nA \\ar[rr]^{f} \\ar[dr] & & B \\\\\n& S^{-1}A \\ar[ur]_g\n}\n$$"
+        },
+        {
+          "id": "candidate.stacks.59ff9162c0abd828ea41e806",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $\\mathcal{C}$ be a category and let $S$ be a left multiplicative\nsystem.\n\\begin{enumerate}\n\\item The relation on pairs defined above is an equivalence relation.\n\\item The composition rule given above is well defined on equivalence\nclasses.\n\\item Composition is associative (and the identity morphisms satisfy\nthe identity axioms), and hence $S^{-1}\\mathcal{C}$ is a category.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.69607a6f0c5c2787a583bd98",
+          "matches": [],
+          "refs": [],
+          "statement": "With notations $\\text{size}$, $Bound$ and $\\Sch_\\alpha$ as above.\nLet $S_0$ be a set of schemes. There exists a limit ordinal\n$\\alpha$ with the following properties:\n\\begin{enumerate}\n\\item\n\nWe have $S_0 \\subset V_\\alpha$; in other words,\n$S_0 \\subset \\Ob(\\Sch_\\alpha)$.\n\\item\n\nFor any $S \\in \\Ob(\\Sch_\\alpha)$ and any\nscheme $T$ with $\\text{size}(T) \\leq Bound(\\text{size}(S))$,\nthere exists a scheme $S' \\in \\Ob(\\Sch_\\alpha)$\nsuch that $T \\cong S'$.\n\\item\n\nFor any countable\\footnote{Both the set of objects and\nthe morphism sets are countable. In fact you can prove the lemma with\n$\\aleph_0$ replaced by any cardinal whatsoever in (3) and (4).} diagram\ncategory $\\mathcal{I}$ and\nany functor $F : \\mathcal{I} \\to \\Sch_\\alpha$, the limit\n$\\lim_\\mathcal{I} F$ exists in $\\Sch_\\alpha$ if and\nonly if it exists in $\\Sch$ and moreover, in this case,\nthe natural morphism between them is an isomorphism.\n\\item\n\nFor any countable index category $\\mathcal{I}$ and\nany functor $F : \\mathcal{I} \\to \\Sch_\\alpha$, the colimit\n$\\colim_\\mathcal{I} F$ exists in $\\Sch_\\alpha$ if and\nonly if it exists in $\\Sch$ "
+        },
+        {
+          "id": "candidate.stacks.70de2e3871a31c5c2259cb8a",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $(X, \\mathcal{O})$ be a ringed space.\nLet $j : (U, \\mathcal{O}|_U) \\to (X, \\mathcal{O})$\nbe an open subspace.\nConsider the functors of restriction and extension\nby $0$ for (pre)sheaves of modules defined above.\n\\begin{enumerate}\n\\item The functor $j_{p!}$ is a left adjoint to restriction,\nin a formula\n$$\n\\Mor_{\\textit{PMod}(\\mathcal{O})}(j_{p!}\\mathcal{F}, \\mathcal{G})\n=\n\\Mor_{\\textit{PMod}(\\mathcal{O}|_U)}(\\mathcal{F}, \\mathcal{G}|_U)\n$$\nbifunctorially in $\\mathcal{F}$ and $\\mathcal{G}$.\n\\item The functor $j_!$ is a left adjoint to restriction,\nin a formula\n$$\n\\Mor_{\\textit{Mod}(\\mathcal{O})}(j_!\\mathcal{F}, \\mathcal{G})\n=\n\\Mor_{\\textit{Mod}(\\mathcal{O}|_U)}(\\mathcal{F}, \\mathcal{G}|_U)\n$$\nbifunctorially in $\\mathcal{F}$ and $\\mathcal{G}$.\n\\item Let $\\mathcal{F}$ be a sheaf of $\\mathcal{O}$-modules on $U$.\nThe stalks of the sheaf $j_!\\mathcal{F}$ are described\nas follows\n$$\nj_{!}\\mathcal{F}_x =\n\\left\\{\n\\begin{matrix}\n0 & \\text{if} & x \\not \\in U \\\\\n\\mathcal{F}_x & \\text{if} & x \\in U\n\\end{matrix}\n\\right.\n$$\n\\item On the category of sheaves of $\\mathcal{O}|_U$-modules on $U$\nwe h"
+        },
+        {
+          "id": "candidate.stacks.7dd06b337a8c0341fd010bdd",
+          "matches": [],
+          "refs": [],
+          "statement": "In the situation described above, let $i \\in \\Ob(\\mathcal{I})$ and let\n$U_i \\subset X_i$ be a quasi-compact open. Then\n$$\n\\colim_{a : j \\to i} \\mathcal{F}_j(f_a^{-1}(U_i)) = \\mathcal{F}(p_i^{-1}(U_i))\n$$"
+        },
+        {
+          "id": "candidate.stacks.880c24a1733bd12402fc71f3",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $f : X \\to Y$ be a morphism of locally ringed spaces.\nLet $U \\subset X$, and $V \\subset Y$ be open subsets.\nSuppose that $f(U) \\subset V$. There exists a unique\nmorphism of locally ringed spaces $f|_U : U \\to V$ such\nthat the following diagram is a commutative square of\nlocally ringed spaces\n$$\n\\xymatrix{\nU \\ar[d]_{f|_U} \\ar[r] & X \\ar[d]^f \\\\\nV \\ar[r] & Y\n}\n$$"
+        },
+        {
+          "id": "candidate.stacks.99b3ea48bcb3b89aaac6cc57",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $(\\mathcal{C}, \\otimes, \\phi)$ be as above. There is a 1-to-1\ncorrespondence between units $(\\mathbf{1}, l, r)$ in $\\mathcal{C}$ and pairs\n$(\\mathbf{1}, 1)$ where $\\mathbf{1}$ is an object of $\\mathcal{C}$ and\n$1 : \\mathbf{1} \\otimes \\mathbf{1} \\to \\mathbf{1}$\nis an isomorphism such that the functors $L : X \\mapsto \\mathbf{1} \\otimes X$\nand $R : X \\mapsto X \\otimes \\mathbf{1}$ are equivalences."
+        }
+      ],
+      "no_same_file_statement_label": [
+        {
+          "id": "candidate.stacks.0a25443ee58b690e34076845",
+          "matches": [],
+          "refs": [
+            "topology-lemma-jacobson-equivalent-constructible"
+          ],
+          "statement": "With notation as above. Assume that $R$ is a Noetherian Jacobson ring.\nFurther assume $R \\to S$ is of finite type.\nThere is a commutative diagram\n$$\n\\xymatrix{\n\\text{Constr}(Y) \\ar[r]^{E \\mapsto E_0} \\ar[d]^{E \\mapsto f(E)} &\n\\text{Constr}(Y_0) \\ar[d]^{E \\mapsto f(E)} \\\\\n\\text{Constr}(X) \\ar[r]^{E \\mapsto E_0} &\n\\text{Constr}(X_0)\n}\n$$\nwhere the horizontal arrows are the bijections from\nTopology, Lemma \\ref{topology-lemma-jacobson-equivalent-constructible}."
+        },
+        {
+          "id": "candidate.stacks.18cb49a55c7c6a6802e97f05",
+          "matches": [],
+          "refs": [
+            "sites-definition-site"
+          ],
+          "statement": "With notations as above.\nLet $\\text{Cov}_0 \\subset \\text{Cov}(\\mathcal{C})$\nbe a set contained in $\\text{Cov}(\\mathcal{C})$.\nThere exist a cardinal $\\kappa$ and a limit ordinal $\\alpha$\nwith the following properties:\n\\begin{enumerate}\n\\item We have $\\text{Cov}_0 \\subset \\text{Cov}(\\mathcal{C})_{\\kappa, \\alpha}$.\n\\item The set of coverings\n$\\text{Cov}(\\mathcal{C})_{\\kappa, \\alpha}$ satisfies\n(1), (2), and (3) of Sites, Definition \\ref{sites-definition-site} (see above).\nIn other words $(\\mathcal{C}, \\text{Cov}(\\mathcal{C})_{\\kappa, \\alpha})$\nis a site.\n\\item Every covering in $\\text{Cov}(\\mathcal{C})$\nis combinatorially equivalent\nto a covering in $\\text{Cov}(\\mathcal{C})_{\\kappa, \\alpha}$.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.25e6dbdf2e97e34c525179bc",
+          "matches": [],
+          "refs": [
+            "equation-towards-constructible-sets"
+          ],
+          "statement": "Let $X$ be a spectral topological space. Let $\\mathcal{B}$ be\nthe set of quasi-compact open subsets of $X$.\nLet $\\mathcal{F}$ be a sheaf of sets as in\nEquation (\\ref{equation-towards-constructible-sets}).\nThen there exists a continuous spectral map $f : X \\to Y$\nto a finite sober topological space $Y$ and a sheaf\nof sets $\\mathcal{G}$ on $Y$ with finite stalks\nsuch that $f^{-1}\\mathcal{G} \\cong \\mathcal{F}$."
+        },
+        {
+          "id": "candidate.stacks.4d619eb93588859f2077a748",
+          "matches": [],
+          "refs": [
+            "algebra-section-tensor-algebra"
+          ],
+          "statement": "In the situation described above.\nThe sheaf $\\wedge^n\\mathcal{F}$ is the sheafification of the\npresheaf\n$$\nU \\longmapsto \\wedge^n_{\\mathcal{O}_X(U)}(\\mathcal{F}(U)).\n$$\nSee Algebra, Section \\ref{algebra-section-tensor-algebra}.\nSimilarly, the sheaf $\\text{Sym}^n\\mathcal{F}$ is the sheafification\nof the presheaf\n$$\nU \\longmapsto \\text{Sym}^n_{\\mathcal{O}_X(U)}(\\mathcal{F}(U)).\n$$"
+        },
+        {
+          "id": "candidate.stacks.74c4c104c88534bc8636ff4b",
+          "matches": [],
+          "refs": [
+            "equation-towards-constructible-sets"
+          ],
+          "statement": "Let $X$ be a spectral topological space. Let $\\mathcal{B}$ be\nthe set of quasi-compact open subsets of $X$.\nLet $\\mathcal{F}$ be a sheaf of sets as in\nEquation (\\ref{equation-towards-constructible-sets}).\nThen there exist finitely many constructible closed subsets\n$Z_1, \\ldots, Z_n \\subset X$ and finite sets $S_i$\nsuch that $\\mathcal{F}$ is isomorphic to a subsheaf of\n$\\prod (Z_i \\to X)_*\\underline{S_i}$."
+        }
+      ],
+      "other_statement_label_available": [
+        {
+          "id": "candidate.stacks.0049e1b4a65ac51868e9f05b",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-pullback-presheaf-module",
+              "length": 421,
+              "text": "Let $f : X \\to Y$ be a continuous map of topological spaces.\nLet $\\mathcal{O}$ be a presheaf of rings on $Y$. Let\n$\\mathcal{G}$ be a presheaf of $\\mathcal{O}$-modules.\nThere is a natural map of underlying presheaves of sets\n$$\nf_p\\mathcal{O} \\times f_p\\mathcal{G}\n\\longrightarrow\nf_p\\mathcal{G}\n$$\nwhich turns $f_p\\mathcal{G}$ into a presheaf of $f_p\\mathcal{O}$-modules.\nThis construction is functorial in $\\mathcal{G}$."
+            },
+            {
+              "kind": "lemma",
+              "label": "lemma-pushforward-presheaf-module",
+              "length": 421,
+              "text": "Let $f : X \\to Y$ be a continuous map of topological spaces.\nLet $\\mathcal{O}$ be a presheaf of rings on $X$. Let\n$\\mathcal{F}$ be a presheaf of $\\mathcal{O}$-modules.\nThere is a natural map of underlying presheaves of sets\n$$\nf_*\\mathcal{O} \\times f_*\\mathcal{F}\n\\longrightarrow\nf_*\\mathcal{F}\n$$\nwhich turns $f_*\\mathcal{F}$ into a presheaf of\n$f_*\\mathcal{O}$-modules. This construction is\nfunctorial in $\\mathcal{F}$."
+            }
+          ],
+          "refs": [
+            "lemma-pullback-presheaf-module",
+            "lemma-pushforward-presheaf-module"
+          ],
+          "statement": "Let $f : X \\to Y$ be a continuous map of topological spaces.\nLet $\\mathcal{O}$ be a presheaf of rings on $X$.\nLet $\\mathcal{F}$ be a presheaf of $\\mathcal{O}$-modules.\nLet $\\mathcal{G}$ be a presheaf of $f_*\\mathcal{O}$-modules.\nThen\n$$\n\\Mor_{\\textit{PMod}(\\mathcal{O})}(\n\\mathcal{O} \\otimes_{p, f_pf_*\\mathcal{O}} f_p\\mathcal{G}, \\mathcal{F})\n=\n\\Mor_{\\textit{PMod}(f_*\\mathcal{O})}(\\mathcal{G}, f_*\\mathcal{F}).\n$$\nHere we use\nLemmas \\ref{lemma-pullback-presheaf-module}\nand \\ref{lemma-pushforward-presheaf-module}, and we use\nthe map $c_\\mathcal{O} : f_pf_*\\mathcal{O} \\to \\mathcal{O}$\nin the definition of the tensor product."
+        },
+        {
+          "id": "candidate.stacks.02ab08198a4042c6876a9cdd",
+          "matches": [
+            {
+              "kind": "definition",
+              "label": "definition-adjoint",
+              "length": 396,
+              "text": "Let $\\mathcal{C}$, $\\mathcal{D}$ be categories.\nLet $u : \\mathcal{C} \\to \\mathcal{D}$ and\n$v : \\mathcal{D} \\to \\mathcal{C}$ be functors.\nWe say that $u$ is a {\\it left adjoint} of $v$, or that\n$v$ is a {\\it right adjoint} to $u$ if there are bijections\n$$\n\\Mor_\\mathcal{D}(u(X), Y)\n\\longrightarrow\n\\Mor_\\mathcal{C}(X, v(Y))\n$$\nfunctorial in $X \\in \\Ob(\\mathcal{C})$, and\n$Y \\in \\Ob(\\mathcal{D})$."
+            }
+          ],
+          "refs": [
+            "definition-adjoint"
+          ],
+          "statement": "Let $u$ be a left adjoint to $v$ as in Definition \\ref{definition-adjoint}.\n\\begin{enumerate}\n\\item Suppose that $M : \\mathcal{I} \\to \\mathcal{C}$ is a diagram,\nand suppose that $\\colim_\\mathcal{I} M$ exists in\n$\\mathcal{C}$. Then $u(\\colim_\\mathcal{I} M) =\n\\colim_\\mathcal{I} u \\circ M$. In other words,\n$u$ commutes with (representable) colimits.\n\\item Suppose that $M : \\mathcal{I} \\to \\mathcal{D}$ is a diagram,\nand suppose that $\\lim_\\mathcal{I} M$ exists in\n$\\mathcal{D}$. Then $v(\\lim_\\mathcal{I} M) =\n\\lim_\\mathcal{I} v \\circ M$. In other words $v$ commutes\nwith representable limits.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.04f0ee68e835190c4c990a4a",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-descend-finite-presentation",
+              "length": 1262,
+              "text": "Let $I$ be a directed set.\nLet $(S_i, f_{ii'})$ be an inverse system of schemes over $I$.\nAssume\n\\begin{enumerate}\n\\item the morphisms $f_{ii'} : S_i \\to S_{i'}$ are affine,\n\\item the schemes $S_i$ are quasi-compact and quasi-separated.\n\\end{enumerate}\nLet $S = \\lim_i S_i$. Then we have the following:\n\\begin{enumerate}\n\\item For any morphism of finite presentation $X \\to S$\nthere exists an index $i \\in I$ and a morphism of finite\npresentation $X_i \\to S_i$ such that $X \\cong X_{i, S}$ as\nschemes over $S$.\n\\item Given an index $i \\in I$, schemes\n$X_i$, $Y_i$ of finite presentation over $S_i$, and a morphism\n$\\varphi : X_{i, S} \\to Y_{i, S}$ over $S$, there exists an index\n$i' \\geq i$ and a morphism\n$\\varphi_{i'} : X_{i, S_{i'}} \\to Y_{i, S_{i'}}$\nwhose base change to $S$ is $\\varphi$.\n\\item Given an index $i \\in I$, schemes $X_i$, $Y_i$ of finite presentation\nover $S_i$ and a pair of morphisms $\\varphi_i, \\psi_i : X_i \\to Y_i$\nwhose base changes $\\varphi_{i, S} = \\psi_{i, S}$ are equal,\nthere exists an index $i' \\geq i$ such that\n$\\varphi_{i, S_{i'}} = \\psi_{i, S_{i'}}$.\n\\end{enumerate}\nIn other words, the category of schemes of finite presentation over\n$S$ is the colimit over $I$ of the categories of schemes of finite\npresentation over $S_i$."
+            }
+          ],
+          "refs": [
+            "lemma-descend-finite-presentation"
+          ],
+          "statement": "With notation and assumptions as in\nLemma \\ref{lemma-descend-finite-presentation}.\nLet $i \\in I$.\nSuppose that $\\varphi_i : X_i \\to Y_i$ is a morphism of schemes\nof finite presentation over $S_i$ and that $\\mathcal{F}_i$ is a\nquasi-coherent $\\mathcal{O}_{X_i}$-module of finite presentation.\nIf the pullback of $\\mathcal{F}_i$ to $X_i \\times_{S_i} S$ is flat\nover $Y_i \\times_{S_i} S$, then there exists an index $i' \\geq i$\nsuch that the pullback of $\\mathcal{F}_i$ to $X_i \\times_{S_i} S_{i'}$\nis flat over $Y_i \\times_{S_i} S_{i'}$."
+        },
+        {
+          "id": "candidate.stacks.1d088b2887fbfe7b3108a9a7",
+          "matches": [
+            {
+              "kind": "definition",
+              "label": "definition-f-map",
+              "length": 575,
+              "text": "Let $f : X \\to Y$ be a continuous map.\nLet $\\mathcal{F}$ be a sheaf of sets on $X$ and\nlet $\\mathcal{G}$ be a sheaf of sets on $Y$.\nAn {\\it $f$-map $\\xi : \\mathcal{G} \\to \\mathcal{F}$}\nis a collection of maps\n$\\xi_V : \\mathcal{G}(V) \\to \\mathcal{F}(f^{-1}(V))$\nindexed by open subsets $V \\subset Y$ such that\n$$\n\\xymatrix{\n\\mathcal{G}(V) \\ar[r]_{\\xi_V} \\ar[d]_{\\text{restriction of }\\mathcal{G}} &\n\\mathcal{F}(f^{-1}V) \\ar[d]^{\\text{restriction of }\\mathcal{F}} \\\\\n\\mathcal{G}(V') \\ar[r]^{\\xi_{V'}} &\n\\mathcal{F}(f^{-1}V')\n}\n$$\ncommutes for all $V' \\subset V \\subset Y$ open."
+            }
+          ],
+          "refs": [
+            "definition-f-map",
+            "section-presheaves-structures-functorial"
+          ],
+          "statement": "Let $f : X \\to Y$ be a continuous map of topological spaces.\nLet $(\\mathcal{C}, F)$ be a type of algebraic structures.\nLet $\\mathcal{F}$ be a sheaf with values in $\\mathcal{C}$ on $X$.\nLet $\\mathcal{G}$ be a sheaf with values in $\\mathcal{C}$ on $Y$.\nLet $\\mathcal{B}_Y$ be a basis for the topology on $Y$.\nLet $\\mathcal{B}_X$ be a basis for the topology on $X$.\nSuppose given for every $V \\in \\mathcal{B}_Y$, and\n$U \\in \\mathcal{B}_X$ such that $f(U) \\subset V$ a morphism\n$$\n\\varphi_V^U :\n\\mathcal{G}(V)\n\\longrightarrow\n\\mathcal{F}(U)\n$$\nof $\\mathcal{C}$ compatible with restriction mappings.\nThen there is a unique $f$-map (see\nDefinition \\ref{definition-f-map} and the discussion\nof $f$-maps in Section \\ref{section-presheaves-structures-functorial})\n$\\varphi : \\mathcal{G} \\to \\mathcal{F}$\nrecovering $\\varphi_V^U$ as the composition\n$$\n\\mathcal{G}(V) \\xrightarrow{\\varphi_V}\n\\mathcal{F}(f^{-1}(V)) \\xrightarrow{\\text{restr.}}\n\\mathcal{F}(U)\n$$\nfor every pair $(U, V)$ as above."
+        },
+        {
+          "id": "candidate.stacks.24932803e3e6ce9869291995",
+          "matches": [
+            {
+              "kind": "definition",
+              "label": "definition-relative-representable-property",
+              "length": 579,
+              "text": "With $S$, and $a : F \\to G$ representable as above.\nLet $\\mathcal{P}$ be a property of morphisms of schemes which\n\\begin{enumerate}\n\\item is preserved under any base change,\nsee Schemes, Definition \\ref{schemes-definition-preserved-by-base-change},\nand\n\\item is fppf local on the base, see\nDescent, Definition \\ref{descent-definition-property-morphisms-local}.\n\\end{enumerate}\nIn this case we say that $a$ has {\\it property $\\mathcal{P}$} if for every\n$U \\in \\Ob((\\Sch/S)_{fppf})$ and\nany $\\xi \\in G(U)$ the resulting morphism of schemes\n$V_\\xi \\to U$ has property $\\mathcal{P}$."
+            }
+          ],
+          "refs": [
+            "definition-relative-representable-property"
+          ],
+          "statement": "Let $S$ be a scheme contained in $\\Sch_{fppf}$.\nLet $F, G, H : (\\Sch/S)_{fppf}^{opp} \\to \\textit{Sets}$.\nLet $\\mathcal{P}$ be a property as in\nDefinition \\ref{definition-relative-representable-property}\nwhich is stable under composition.\nLet $a : F \\to G$, $b : G \\to H$ be representable transformations of functors.\nIf $a$ and $b$ have property $\\mathcal{P}$ so does\n$b \\circ a : F \\longrightarrow H$."
+        },
+        {
+          "id": "candidate.stacks.4056224516be8e150c87f38f",
+          "matches": [
+            {
+              "kind": "definition",
+              "label": "definition-relative-representable-property",
+              "length": 579,
+              "text": "With $S$, and $a : F \\to G$ representable as above.\nLet $\\mathcal{P}$ be a property of morphisms of schemes which\n\\begin{enumerate}\n\\item is preserved under any base change,\nsee Schemes, Definition \\ref{schemes-definition-preserved-by-base-change},\nand\n\\item is fppf local on the base, see\nDescent, Definition \\ref{descent-definition-property-morphisms-local}.\n\\end{enumerate}\nIn this case we say that $a$ has {\\it property $\\mathcal{P}$} if for every\n$U \\in \\Ob((\\Sch/S)_{fppf})$ and\nany $\\xi \\in G(U)$ the resulting morphism of schemes\n$V_\\xi \\to U$ has property $\\mathcal{P}$."
+            }
+          ],
+          "refs": [
+            "definition-relative-representable-property"
+          ],
+          "statement": "Let $S$ be a scheme contained in $\\Sch_{fppf}$.\nLet $F, G : (\\Sch/S)_{fppf}^{opp} \\to \\textit{Sets}$.\nLet $a : F \\to G$ be a representable transformation of functors.\nLet $\\mathcal{P}$, $\\mathcal{P}'$ be properties as in\nDefinition \\ref{definition-relative-representable-property}.\nSuppose that for any morphism of schemes $f : X \\to Y$\nwe have $\\mathcal{P}(f) \\Rightarrow \\mathcal{P}'(f)$.\nIf $a$ has property $\\mathcal{P}$ then\n$a$ has property $\\mathcal{P}'$."
+        },
+        {
+          "id": "candidate.stacks.441fc9a2aa7df2c6302fb39c",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-quotient",
+              "length": 549,
+              "text": "Let $U \\to S$ be a morphism of $\\Sch_{fppf}$.\nLet $G$ be an abstract group. Let $G \\to \\text{Aut}_S(U)$\nbe a group homomorphism. Assume\n\\begin{itemize}\n\\item[(*)] if $u \\in U$ is a point, and $g(u) = u$\nfor some non-identity element $g \\in G$, then $g$\ninduces a nontrivial automorphism of $\\kappa(u)$.\n\\end{itemize}\nThen\n$$\nj :\nR = \\coprod\\nolimits_{g \\in G} U\n\\longrightarrow\nU \\times_S U,\n\\quad\n(g, x) \\longmapsto (g(x), x)\n$$\nis an \\'etale equivalence relation and hence\n$$\nF = U/R\n$$\nis an algebraic space by Theorem \\ref{theorem-presentation}."
+            }
+          ],
+          "refs": [
+            "lemma-quotient"
+          ],
+          "statement": "Notation and assumptions as in Lemma \\ref{lemma-quotient}.\nIf $\\Spec(k) \\to U/G$ is a morphism, then there exist\n\\begin{enumerate}\n\\item a finite Galois extension $k'/k$,\n\\item a finite subgroup $H \\subset G$,\n\\item an isomorphism $H \\to \\text{Gal}(k'/k)$, and\n\\item an $H$-equivariant morphism $\\Spec(k') \\to U$.\n\\end{enumerate}\nConversely, such data determine a morphism $\\Spec(k) \\to U/G$."
+        },
+        {
+          "id": "candidate.stacks.451a8745f1f5b175134cd235",
+          "matches": [
+            {
+              "kind": "definition",
+              "label": "definition-relative-representable-property",
+              "length": 579,
+              "text": "With $S$, and $a : F \\to G$ representable as above.\nLet $\\mathcal{P}$ be a property of morphisms of schemes which\n\\begin{enumerate}\n\\item is preserved under any base change,\nsee Schemes, Definition \\ref{schemes-definition-preserved-by-base-change},\nand\n\\item is fppf local on the base, see\nDescent, Definition \\ref{descent-definition-property-morphisms-local}.\n\\end{enumerate}\nIn this case we say that $a$ has {\\it property $\\mathcal{P}$} if for every\n$U \\in \\Ob((\\Sch/S)_{fppf})$ and\nany $\\xi \\in G(U)$ the resulting morphism of schemes\n$V_\\xi \\to U$ has property $\\mathcal{P}$."
+            }
+          ],
+          "refs": [
+            "definition-relative-representable-property"
+          ],
+          "statement": "Let $S$ be a scheme contained in $\\Sch_{fppf}$.\nLet $F, G, H : (\\Sch/S)_{fppf}^{opp} \\to \\textit{Sets}$.\nLet $\\mathcal{P}$ be a property as in\nDefinition \\ref{definition-relative-representable-property}.\nLet $a : F \\to G$ be a representable transformation of functors.\nLet $b : H \\to G$ be any transformation of functors.\nConsider the fibre product diagram\n$$\n\\xymatrix{\nH \\times_{b, G, a} F \\ar[r]_-{b'} \\ar[d]_{a'} & F \\ar[d]^a \\\\\nH \\ar[r]^b & G\n}\n$$\nAssume that $b$ induces a surjective map of fppf sheaves $H^\\# \\to G^\\#$.\nIn this case, if $a'$ has property $\\mathcal{P}$, then also $a$\nhas property $\\mathcal{P}$."
+        },
+        {
+          "id": "candidate.stacks.4ec5d38d2c94f0e7545e52db",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-pullback-module",
+              "length": 377,
+              "text": "Let $f : X \\to Y$ be a continuous map of topological spaces.\nLet $\\mathcal{O}$ be a sheaf of rings on $Y$. Let\n$\\mathcal{G}$ be a sheaf of $\\mathcal{O}$-modules.\nThere is a natural map of underlying presheaves of sets\n$$\nf^{-1}\\mathcal{O} \\times f^{-1}\\mathcal{G}\n\\longrightarrow\nf^{-1}\\mathcal{G}\n$$\nwhich turns $f^{-1}\\mathcal{G}$ into a\nsheaf of $f^{-1}\\mathcal{O}$-modules."
+            },
+            {
+              "kind": "lemma",
+              "label": "lemma-pushforward-module",
+              "length": 295,
+              "text": "Let $f : X \\to Y$ be a continuous map of topological spaces.\nLet $\\mathcal{O}$ be a sheaf of rings on $X$. Let\n$\\mathcal{F}$ be a sheaf of $\\mathcal{O}$-modules.\nThe pushforward $f_*\\mathcal{F}$, as defined in\nLemma \\ref{lemma-pushforward-presheaf-module}\nis a sheaf of $f_*\\mathcal{O}$-modules."
+            }
+          ],
+          "refs": [
+            "lemma-pullback-module",
+            "lemma-pushforward-module"
+          ],
+          "statement": "Let $f : X \\to Y$ be a continuous map of topological spaces.\nLet $\\mathcal{O}$ be a sheaf of rings on $Y$.\nLet $\\mathcal{G}$ be a sheaf of $\\mathcal{O}$-modules.\nLet $\\mathcal{F}$ be a sheaf of $f^{-1}\\mathcal{O}$-modules.\nThen\n$$\n\\Mor_{\\textit{Mod}(f^{-1}\\mathcal{O})}(f^{-1}\\mathcal{G}, \\mathcal{F})\n=\n\\Mor_{\\textit{Mod}(\\mathcal{O})}(\\mathcal{G}, f_*\\mathcal{F}).\n$$\nHere we use\nLemmas \\ref{lemma-pullback-module}\nand \\ref{lemma-pushforward-module}, and we think of\n$f_*\\mathcal{F}$ as an $\\mathcal{O}$-module by restriction via\n$\\mathcal{O} \\to f_*f^{-1}\\mathcal{O}$."
+        },
+        {
+          "id": "candidate.stacks.532d9b77ca47a9413ea039c8",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-morphism-good-diagram",
+              "length": 960,
+              "text": "In Situation \\ref{situation-limit-noetherian}.\nLet $f : X \\to Y$ be a morphism of schemes quasi-separated\nand of finite type over $S$. Let\n$$\n\\vcenter{\n\\xymatrix{\nX \\ar[r] \\ar[d] & W \\ar[d] \\\\\nS \\ar[r] & S_{i_1}\n}\n}\n\\quad\\text{and}\\quad\n\\vcenter{\n\\xymatrix{\nY \\ar[r] \\ar[d] & V \\ar[d] \\\\\nS \\ar[r] & S_{i_2}\n}\n}\n$$\nbe diagrams as in (\\ref{equation-good-diagram}). Let\n$X = \\lim_{i \\geq i_1} X_i$ and\n$Y = \\lim_{i \\geq i_2} Y_i$ be the corresponding\nlimit descriptions as in Lemma \\ref{lemma-limit-from-good-diagram}.\nThen there exists an $i_0 \\geq \\max(i_1, i_2)$ and a morphism\n$$\n(f_i)_{i \\geq i_0} : (X_i)_{i \\geq i_0} \\to (Y_i)_{i \\geq i_0}\n$$\nof inverse systems over $(S_i)_{i \\geq i_0}$ such that\nsuch that $f = \\lim_{i \\geq i_0} f_i$.\nIf $(g_i)_{i \\geq i_0} : (X_i)_{i \\geq i_0} \\to (Y_i)_{i \\geq i_0}$\nis a second morphism of inverse systems over $(S_i)_{i \\geq i_0}$ such that\nsuch that $f = \\lim_{i \\geq i_0} g_i$\nthen $f_i = g_i$ for all $i \\gg i_0$."
+            }
+          ],
+          "refs": [
+            "lemma-morphism-good-diagram"
+          ],
+          "statement": "Notation and assumptions as in Lemma \\ref{lemma-morphism-good-diagram}.\nIf $f$ is flat and of finite presentation, then\nthere exists an $i_3 \\geq i_0$ such that for $i \\geq i_3$ we have\n$f_i$ is flat, $X_i = Y_i \\times_{Y_{i_3}} X_{i_3}$, and\n$X = Y \\times_{Y_{i_3}} X_{i_3}$."
+        },
+        {
+          "id": "candidate.stacks.55b744311ee05d93372a638f",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-sets-with-group-action",
+              "length": 746,
+              "text": "With notations $G$, $G\\textit{-Sets}_\\alpha$, $\\text{size}$,\nand $Bound$ as above. Let $S_0$ be a set of $G$-sets.\nThere exists a limit ordinal $\\alpha$ with the following properties:\n\\begin{enumerate}\n\\item We have $S_0 \\cup \\{{}_GG\\} \\subset \\Ob(G\\textit{-Sets}_\\alpha)$.\n\\item For any $S \\in \\Ob(G\\textit{-Sets}_\\alpha)$ and any\n$G$-set $T$ with $\\text{size}(T) \\leq Bound(\\text{size}(S))$,\nthere exists an $S' \\in \\Ob(G\\textit{-Sets}_\\alpha)$\nthat is isomorphic to $T$.\n\\item For any countable index category $\\mathcal{I}$ and\nany functor $F : \\mathcal{I} \\to G\\textit{-Sets}_\\alpha$, the\nlimit $\\lim_\\mathcal{I} F$ and colimit\n$\\colim_\\mathcal{I} F$ exist in $G\\textit{-Sets}_\\alpha$\nand are the same as in $G\\textit{-Sets}$.\n\\end{enumerate}"
+            }
+          ],
+          "refs": [
+            "lemma-sets-with-group-action"
+          ],
+          "statement": "Let $\\alpha$ be an ordinal as in Lemma \\ref{lemma-sets-with-group-action}\nabove. The category $G\\textit{-Sets}_\\alpha$ satisfies the following\nproperties:\n\\begin{enumerate}\n\\item The $G$-set ${}_GG$ is an object of $G\\textit{-Sets}_\\alpha$.\n\\item (Co)Products, fibre products, and pushouts\nexist in $G\\textit{-Sets}_\\alpha$\nand are the same as their counterparts in $G\\textit{-Sets}$.\n\\item Given an object $U$ of $G\\textit{-Sets}_\\alpha$,\nany $G$-stable subset $O \\subset U$  is isomorphic to an object\nof $G\\textit{-Sets}_\\alpha$.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.55f066c79bdb467ce5d7ab3a",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-construct-category",
+              "length": 1196,
+              "text": "With notations $\\text{size}$, $Bound$ and $\\Sch_\\alpha$ as above.\nLet $S_0$ be a set of schemes. There exists a limit ordinal\n$\\alpha$ with the following properties:\n\\begin{enumerate}\n\\item\n\nWe have $S_0 \\subset V_\\alpha$; in other words,\n$S_0 \\subset \\Ob(\\Sch_\\alpha)$.\n\\item\n\nFor any $S \\in \\Ob(\\Sch_\\alpha)$ and any\nscheme $T$ with $\\text{size}(T) \\leq Bound(\\text{size}(S))$,\nthere exists a scheme $S' \\in \\Ob(\\Sch_\\alpha)$\nsuch that $T \\cong S'$.\n\\item\n\nFor any countable\\footnote{Both the set of objects and\nthe morphism sets are countable. In fact you can prove the lemma with\n$\\aleph_0$ replaced by any cardinal whatsoever in (3) and (4).} diagram\ncategory $\\mathcal{I}$ and\nany functor $F : \\mathcal{I} \\to \\Sch_\\alpha$, the limit\n$\\lim_\\mathcal{I} F$ exists in $\\Sch_\\alpha$ if and\nonly if it exists in $\\Sch$ and moreover, in this case,\nthe natural morphism between them is an isomorphism.\n\\item\n\nFor any countable index category $\\mathcal{I}$ and\nany functor $F : \\mathcal{I} \\to \\Sch_\\alpha$, the colimit\n$\\colim_\\mathcal{I} F$ exists in $\\Sch_\\alpha$ if and\nonly if it exists in $\\Sch$ and moreover, in this case,\nthe natural morphism between them is an isomorphism.\n\\end{enumerate}"
+            }
+          ],
+          "refs": [
+            "lemma-construct-category"
+          ],
+          "statement": "Let $\\alpha$ be an ordinal as in Lemma \\ref{lemma-construct-category} above.\nThe category $\\Sch_\\alpha$ satisfies the following\nproperties:\n\\begin{enumerate}\n\\item If $X, Y, S \\in \\Ob(\\Sch_\\alpha)$, then\nfor any morphisms $f : X \\to S$, $g : Y \\to S$ the fibre\nproduct $X \\times_S Y$ in $\\Sch_\\alpha$ exists\nand is a fibre product in the category of schemes.\n\\item Given any at most countable collection $S_1, S_2, \\ldots$\nof elements of $\\Ob(\\Sch_\\alpha)$, the coproduct\n$\\coprod_i S_i$ exists in $\\Ob(\\Sch_\\alpha)$ and\nis a coproduct in the category of schemes.\n\\item For any $S \\in \\Ob(\\Sch_\\alpha)$ and\nany open immersion $U \\to S$, there exists a\n$V \\in \\Ob(\\Sch_\\alpha)$ with $V \\cong U$.\n\\item For any $S \\in \\Ob(\\Sch_\\alpha)$ and\nany closed immersion $T \\to S$, there exists an\n$S' \\in \\Ob(\\Sch_\\alpha)$ with $S' \\cong T$.\n\\item For any $S \\in \\Ob(\\Sch_\\alpha)$ and\nany finite type morphism $T \\to S$, there exists an\n$S' \\in \\Ob(\\Sch_\\alpha)$ with $S' \\cong T$.\n\\item Suppose $S$ is a scheme which has an open covering\n$S = \\bigcup_{i \\in I} S_i$ such that there exists\na $T \\in \\Ob(\\Sch_\\al"
+        }
+      ],
+      "situation_notation_or_setup_available": [
+        {
+          "id": "candidate.stacks.00e879914e6b458e5eedf601",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-descent",
+              "length": 346,
+              "text": "Let $S = \\lim_{i \\in I} S_i$ be the limit of a directed system of schemes\nwith affine transition morphisms $f_{i'i} : S_{i'} \\to S_i$\n(Lemma \\ref{lemma-directed-inverse-system-has-limit}).\nWe assume that $S_i$ is quasi-compact and quasi-separated for all $i \\in I$.\nWe denote $f_i : S \\to S_i$ the projection.\nWe also choose an element $0 \\in I$."
+            }
+          ],
+          "refs": [
+            "situation-descent"
+          ],
+          "statement": "In Situation \\ref{situation-descent} if $S$ is affine,\nthen for some $i_0 \\in I$ the schemes $S_i$ for $i \\geq i_0$\nare affine."
+        },
+        {
+          "id": "candidate.stacks.07243514f98b9c653bc554f5",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-descent",
+              "length": 346,
+              "text": "Let $S = \\lim_{i \\in I} S_i$ be the limit of a directed system of schemes\nwith affine transition morphisms $f_{i'i} : S_{i'} \\to S_i$\n(Lemma \\ref{lemma-directed-inverse-system-has-limit}).\nWe assume that $S_i$ is quasi-compact and quasi-separated for all $i \\in I$.\nWe denote $f_i : S \\to S_i$ the projection.\nWe also choose an element $0 \\in I$."
+            }
+          ],
+          "refs": [
+            "situation-descent"
+          ],
+          "statement": "In Situation \\ref{situation-descent}.\nSuppose for each $i$ we are given a nonempty closed subset\n$Z_i \\subset S_i$ with $f_{i'i}(Z_{i'}) \\subset Z_i$ for all\n$i' \\geq i$.\nThen there exists a point $s \\in S$ with $f_i(s) \\in Z_i$ for\nall $i$."
+        },
+        {
+          "id": "candidate.stacks.09bb4b67092360209c68eef4",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-descent-property",
+              "length": 413,
+              "text": "Let $S = \\lim S_i$ be a limit of a directed system of schemes\nwith affine transition morphisms\n(Lemma \\ref{lemma-directed-inverse-system-has-limit}).\nLet $0 \\in I$ and let $f_0 : X_0 \\to Y_0$ be a morphism of schemes over $S_0$.\nAssume $S_0$, $X_0$, $Y_0$ are quasi-compact and quasi-separated.\nLet $f_i : X_i \\to Y_i$ be the base change of $f_0$ to $S_i$ and\nlet $f : X \\to Y$ be the base change of $f_0$ to $S$."
+            }
+          ],
+          "refs": [
+            "situation-descent-property"
+          ],
+          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is surjective, and\n\\item $f_0$ is locally of finite presentation,\n\\end{enumerate}\nthen there exists an $i \\geq 0$ such that $f_i$ is surjective."
+        },
+        {
+          "id": "candidate.stacks.0aaa49ad5081a4574b572af2",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-descent-property",
+              "length": 413,
+              "text": "Let $S = \\lim S_i$ be a limit of a directed system of schemes\nwith affine transition morphisms\n(Lemma \\ref{lemma-directed-inverse-system-has-limit}).\nLet $0 \\in I$ and let $f_0 : X_0 \\to Y_0$ be a morphism of schemes over $S_0$.\nAssume $S_0$, $X_0$, $Y_0$ are quasi-compact and quasi-separated.\nLet $f_i : X_i \\to Y_i$ be the base change of $f_0$ to $S_i$ and\nlet $f : X \\to Y$ be the base change of $f_0$ to $S$."
+            }
+          ],
+          "refs": [
+            "situation-descent-property"
+          ],
+          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is finite locally free (of degree $d$),\n\\item $f_0$ is locally of finite presentation,\n\\end{enumerate}\nthen $f_i$ is finite locally free (of degree $d$) for some $i \\geq 0$."
+        },
+        {
+          "id": "candidate.stacks.0ab44ba99cc44331d48e60ef",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-descent-property",
+              "length": 413,
+              "text": "Let $S = \\lim S_i$ be a limit of a directed system of schemes\nwith affine transition morphisms\n(Lemma \\ref{lemma-directed-inverse-system-has-limit}).\nLet $0 \\in I$ and let $f_0 : X_0 \\to Y_0$ be a morphism of schemes over $S_0$.\nAssume $S_0$, $X_0$, $Y_0$ are quasi-compact and quasi-separated.\nLet $f_i : X_i \\to Y_i$ be the base change of $f_0$ to $S_i$ and\nlet $f : X \\to Y$ be the base change of $f_0$ to $S$."
+            }
+          ],
+          "refs": [
+            "situation-descent-property"
+          ],
+          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ has relative dimension $d$, and\n\\item $f_0$ is locally of finite presentation,\n\\end{enumerate}\nthen there exists an $i \\geq 0$ such that $f_i$\nhas relative dimension $d$."
+        },
+        {
+          "id": "candidate.stacks.203f43258c5c8e7b7cd91621",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-descent",
+              "length": 346,
+              "text": "Let $S = \\lim_{i \\in I} S_i$ be the limit of a directed system of schemes\nwith affine transition morphisms $f_{i'i} : S_{i'} \\to S_i$\n(Lemma \\ref{lemma-directed-inverse-system-has-limit}).\nWe assume that $S_i$ is quasi-compact and quasi-separated for all $i \\in I$.\nWe denote $f_i : S \\to S_i$ the projection.\nWe also choose an element $0 \\in I$."
+            }
+          ],
+          "refs": [
+            "situation-descent"
+          ],
+          "statement": "In Situation \\ref{situation-descent}.\nSuppose we are given an $i$ and a morphism $T \\to S_i$ such that\n\\begin{enumerate}\n\\item $T \\times_{S_i} S = \\emptyset$, and\n\\item $T$ is quasi-compact.\n\\end{enumerate}\nThen $T \\times_{S_i} S_{i'} = \\emptyset$ for all sufficiently large $i'$."
+        },
+        {
+          "id": "candidate.stacks.29ec8e6acd98f5a7d62a18d4",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-descent-property",
+              "length": 413,
+              "text": "Let $S = \\lim S_i$ be a limit of a directed system of schemes\nwith affine transition morphisms\n(Lemma \\ref{lemma-directed-inverse-system-has-limit}).\nLet $0 \\in I$ and let $f_0 : X_0 \\to Y_0$ be a morphism of schemes over $S_0$.\nAssume $S_0$, $X_0$, $Y_0$ are quasi-compact and quasi-separated.\nLet $f_i : X_i \\to Y_i$ be the base change of $f_0$ to $S_i$ and\nlet $f : X \\to Y$ be the base change of $f_0$ to $S$."
+            }
+          ],
+          "refs": [
+            "situation-descent-property"
+          ],
+          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is smooth,\n\\item $f_0$ is locally of finite presentation,\n\\end{enumerate}\nthen $f_i$ is smooth for some $i \\geq 0$."
+        },
+        {
+          "id": "candidate.stacks.390b1db57e461c700a5f49b5",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-limit-noetherian",
+              "length": 151,
+              "text": "Let $S = \\lim_{i \\in I} S_i$ be the limit of a directed system of\nNoetherian schemes with affine transition morphisms $S_{i'} \\to S_i$\nfor $i' \\geq i$."
+            }
+          ],
+          "refs": [
+            "situation-limit-noetherian",
+            "equation-good-diagram"
+          ],
+          "statement": "In Situation \\ref{situation-limit-noetherian}.\nLet $X \\to S$ be quasi-separated and of finite type.\nGiven $i \\in I$ and a diagram\n$$\n\\vcenter{\n\\xymatrix{\nX \\ar[r] \\ar[d] & W \\ar[d] \\\\\nS \\ar[r] & S_i\n}\n}\n$$\nas in (\\ref{equation-good-diagram}) for $i' \\geq i$ let\n$X_{i'}$ be the scheme theoretic image of $X \\to S_{i'} \\times_{S_i} W$.\nThen $X = \\lim_{i' \\geq i} X_{i'}$."
+        },
+        {
+          "id": "candidate.stacks.3bd67bbff418e298dafc0fb5",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-finitely-generated",
+              "length": 381,
+              "text": "Here $F$ be a field and $K/F$ is a finite extension generated by elements\n$\\alpha_1, \\ldots, \\alpha_n \\in K$. We set $K_0 = F$ and\n$$\nK_i = F(\\alpha_1, \\ldots, \\alpha_i)\n$$\nto obtain a tower of finite extensions\n$K = K_n / K_{n - 1} / \\ldots / K_0 = F$.\nDenote $P_i$ the minimal polynomial of $\\alpha_i$ over $K_{i - 1}$.\nFinally, we fix an algebraic closure $\\overline{F}$ of $F$."
+            }
+          ],
+          "refs": [
+            "situation-finitely-generated"
+          ],
+          "statement": "In Situation \\ref{situation-finitely-generated} the correspondence\n$$\n\\Mor_F(K, \\overline{F})\n\\longrightarrow\n\\{(\\beta_1, \\ldots, \\beta_n)\\text{ as below}\\},\n\\quad\n\\varphi \\longmapsto (\\varphi(\\alpha_1), \\ldots, \\varphi(\\alpha_n))\n$$\nis a bijection. Here the right hand side is the set of $n$-tuples\n$(\\beta_1, \\ldots, \\beta_n)$ of elements of $\\overline{F}$ having\nthe following property:\n\\begin{enumerate}\n\\item $\\beta_1 \\in \\overline{F}$ is a root of $P_1$;\nlet $\\varphi_1 : K_1 \\to \\overline{F}$ be the homomorphism\nover $F$ sending $\\alpha_1$ to $\\beta_1$,\n\\item $\\beta_2 \\in \\overline{F}$ is a root of $P_2^{\\varphi_1}$;\nlet $\\varphi_2 : K_2 \\to \\overline{F}$ be the homomorphism\nextending $\\varphi_1$ sending $\\alpha_2$ to $\\beta_2$,\n\\item and so on until,\n\\item $\\beta_n \\in \\overline{F}$ is a root of $P_n^{\\varphi_{n - 1}}$.\n\\end{enumerate}\nIn each step the homorphism $\\varphi_i$ exists and is unique because\n$K_i = K_{i - 1}[x]/(P_i)$ and $\\beta_i$ is a root of $P_i^{\\varphi_{i - 1}}$."
+        },
+        {
+          "id": "candidate.stacks.43243279670b23c4dbc862a0",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-descent",
+              "length": 346,
+              "text": "Let $S = \\lim_{i \\in I} S_i$ be the limit of a directed system of schemes\nwith affine transition morphisms $f_{i'i} : S_{i'} \\to S_i$\n(Lemma \\ref{lemma-directed-inverse-system-has-limit}).\nWe assume that $S_i$ is quasi-compact and quasi-separated for all $i \\in I$.\nWe denote $f_i : S \\to S_i$ the projection.\nWe also choose an element $0 \\in I$."
+            }
+          ],
+          "refs": [
+            "situation-descent"
+          ],
+          "statement": "In Situation \\ref{situation-descent}.\nSuppose that $\\mathcal{F}_0$ is a quasi-coherent sheaf on $S_0$.\nSet $\\mathcal{F}_i = f_{i0}^*\\mathcal{F}_0$ for $i \\geq 0$ and set\n$\\mathcal{F} = f_0^*\\mathcal{F}_0$.\nThen\n$$\n\\Gamma(S, \\mathcal{F}) = \\colim_{i \\geq 0} \\Gamma(S_i, \\mathcal{F}_i)\n$$"
+        },
+        {
+          "id": "candidate.stacks.47f325e1012c00c815b8e022",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-finitely-generated",
+              "length": 381,
+              "text": "Here $F$ be a field and $K/F$ is a finite extension generated by elements\n$\\alpha_1, \\ldots, \\alpha_n \\in K$. We set $K_0 = F$ and\n$$\nK_i = F(\\alpha_1, \\ldots, \\alpha_i)\n$$\nto obtain a tower of finite extensions\n$K = K_n / K_{n - 1} / \\ldots / K_0 = F$.\nDenote $P_i$ the minimal polynomial of $\\alpha_i$ over $K_{i - 1}$.\nFinally, we fix an algebraic closure $\\overline{F}$ of $F$."
+            }
+          ],
+          "refs": [
+            "situation-finitely-generated"
+          ],
+          "statement": "Assumptions and notation as in Situation \\ref{situation-finitely-generated}.\nIf each $P_i$ is separable, i.e., each $\\alpha_i$ is separable over\n$K_{i - 1}$, then\n$$\n|\\Mor_F(K, \\overline{F})| = [K : F]\n$$\nand the field extension $K/F$ is separable. If one of the $\\alpha_i$ is\nnot separable over $K_{i - 1}$, then\n$|\\Mor_F(K, \\overline{F})| < [K : F]$."
+        },
+        {
+          "id": "candidate.stacks.545063d082b426a8510531f0",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-descent-property",
+              "length": 413,
+              "text": "Let $S = \\lim S_i$ be a limit of a directed system of schemes\nwith affine transition morphisms\n(Lemma \\ref{lemma-directed-inverse-system-has-limit}).\nLet $0 \\in I$ and let $f_0 : X_0 \\to Y_0$ be a morphism of schemes over $S_0$.\nAssume $S_0$, $X_0$, $Y_0$ are quasi-compact and quasi-separated.\nLet $f_i : X_i \\to Y_i$ be the base change of $f_0$ to $S_i$ and\nlet $f : X \\to Y$ be the base change of $f_0$ to $S$."
+            }
+          ],
+          "refs": [
+            "situation-descent-property"
+          ],
+          "statement": "Notation and assumptions as in Situation \\ref{situation-descent-property}.\nIf\n\\begin{enumerate}\n\\item $f$ is an immersion, and\n\\item $f_0$ is locally of finite type,\n\\end{enumerate}\nthen $f_i$ is an immersion for some $i \\geq 0$."
+        }
+      ]
+    },
+    "stacks-remaining-2026-10-28": {
+      "no_labeled_reference": [
+        {
+          "id": "candidate.stacks.00d1327cab3971729004851e",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $\\mathcal{C}$ be a site with fibre products and $X \\in \\Ob(\\mathcal{C})$.\nLet $a : U \\to X$ be a hypercovering of $X$ in $\\mathcal{C}$ as defined above.\nThen we have a canonical isomorphism\n$$\nR\\Gamma(X, E) = R\\Gamma((\\mathcal{C}/U)_{total}, a^{-1}E)\n$$\nfor $E \\in D(\\mathcal{C}/X)$."
+        },
+        {
+          "id": "candidate.stacks.0182b92c978313904008d817",
+          "matches": [],
+          "refs": [],
+          "statement": "In the situation above. If $f$ is \\'etale, then $f_{/T}$ is \\'etale."
+        },
+        {
+          "id": "candidate.stacks.018e5a0a0149a199ef894cec",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $R \\to S$ be a ring map.\nLet $\\mathfrak p \\subset R$ be a prime.\nLet $\\mathfrak q \\subset S$ be a prime lying over $\\mathfrak p$.\nAssume $S_{\\mathfrak q}$ is essentially of finite type over $R_\\mathfrak p$.\nAssume given\n\\begin{enumerate}\n\\item an integer $n \\geq 0$,\n\\item a prime $\\mathfrak a \\subset \\kappa(\\mathfrak p)[x_1, \\ldots, x_n]$,\n\\item a surjective $\\kappa(\\mathfrak p)$-homomorphism\n$$\n\\psi : (\\kappa(\\mathfrak p)[x_1, \\ldots, x_n])_{\\mathfrak a}\n\\longrightarrow\nS_{\\mathfrak q}/\\mathfrak p S_{\\mathfrak q},\n$$\nand\n\\item elements $\\overline{f}_1, \\ldots, \\overline{f}_e$ in $\\Ker(\\psi)$.\n\\end{enumerate}\nThen there exist\n\\begin{enumerate}\n\\item an integer $m \\geq 0$,\n\\item and element $g \\in S$, $g \\not\\in \\mathfrak q$,\n\\item a map\n$$\n\\Psi :\nR[x_1, \\ldots, x_n, x_{n + 1}, \\ldots, x_{n + m}]\n\\longrightarrow\nS_g,\n$$\nand\n\\item elements $f_1, \\ldots, f_e, f_{e + 1}, \\ldots, f_{e + m}$\nof $\\Ker(\\Psi)$\n\\end{enumerate}\nsuch that\n\\begin{enumerate}\n\\item the following diagram commutes\n$$\n\\xymatrix{\nR[x_1, \\ldots, x_{n + m}] \\ar[d]_\\Psi\n\\ar[rr]_-{x_{n + j} \\mapsto 0} & &\n(\\kappa(\\math"
+        },
+        {
+          "id": "candidate.stacks.02616b2b35b5914e387a2e47",
+          "matches": [],
+          "refs": [],
+          "statement": "The product defined above is associative. More precisely, with\n$(S, \\delta)$ as above, let $X$ be smooth over $S$,\nlet $Y, Z, W$ be schemes locally of finite type over $X$, let\n$\\alpha \\in \\CH_*(Y)$, $\\beta \\in \\CH_*(Z)$, $\\gamma \\in \\CH_*(W)$.\nThen $(\\alpha \\cdot \\beta) \\cdot \\gamma =\n\\alpha \\cdot (\\beta \\cdot \\gamma)$ in $\\CH_*(Y \\times_X Z \\times_X W)$."
+        },
+        {
+          "id": "candidate.stacks.09369527f9e2fc1019c13ee5",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $S$ be a scheme. Let $X$ be a locally Noetherian algebraic space over $S$.\nLet $K$ be an object of $D_\\QCoh(\\mathcal{O}_X)$. The following are equivalent\n\\begin{enumerate}\n\\item For every \\'etale morphism $U \\to X$ where $U$ is a scheme\nthe restriction $K|_U$ is a dualizing complex for $U$ (as discussed above).\n\\item There exists a surjective \\'etale morphism $U \\to X$ where $U$ is a\nscheme such that $K|_U$ is a dualizing complex for $U$.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.0a345306f0c3d3b7ba9ee146",
+          "matches": [],
+          "refs": [],
+          "statement": "In the situation described just above assume $\\dim_\\delta(Y) = n$\nand that $\\mathcal{C}_{Y \\times_X Z/Z}$ has constant rank $r$.\nThen\n$$\nc(Z \\to X, \\mathcal{N}) \\cap [Y]_n =\nc_{top}(\\mathcal{E}) \\cap [Z \\times_X Y]_{n - r}\n$$\nin $\\CH_*(Z \\times_X Y)$."
+        },
+        {
+          "id": "candidate.stacks.0aee233b68193d7ad0c5a4f8",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $f : \\mathcal{X} \\to \\mathcal{Y}$ be a morphism of algebraic stacks.\nLet $x \\in |\\mathcal{X}|$. Consider commutative diagrams\n$$\n\\vcenter{\n\\xymatrix{\nU \\ar[d]_a \\ar[r]_h & V \\ar[d]^b \\\\\n\\mathcal{X} \\ar[r]^f & \\mathcal{Y}\n}\n}\n\\quad\\text{with points}\n\\vcenter{\n\\xymatrix{\nu \\in |U| \\ar[d] \\\\\nx \\in |\\mathcal{X}|\n}\n}\n$$\nwhere $U$ and $V$ are algebraic spaces, $b$ is flat, and\n$(a, h) : U \\to \\mathcal{X} \\times_\\mathcal{Y} V$\nis flat. The following are equivalent\n\\begin{enumerate}\n\\item $h$ is flat at $u$ for one diagram as above,\n\\item $h$ is flat at $u$ for every diagram as above.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.0b43f4d7d14c9a62c731ba51",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $S$ be a scheme. Let $\\mathcal{I} \\to (\\Sch/S)_{fppf}$, $i \\mapsto X_i$\nbe a diagram of schemes over $S$ as above. Assume that\n\\begin{enumerate}\n\\item $X = \\colim X_i$ exists in the category of schemes,\n\\item $\\coprod X_i \\to X$ is surjective,\n\\item if $U \\to X$ is \\'etale and $U_i = X_i \\times_X U$, then\n$U = \\colim U_i$ in the category of schemes, and\n\\item every object $(U_i \\to X_i)$ of $\\lim X_{i, \\etale}$\nwith $U_i \\to X_i$ separated is in the essential image of\nthe functor $X_\\etale \\to \\lim X_{i, \\etale}$.\n\\end{enumerate}\nThen $X = \\colim X_i$ in the category of algebraic spaces over $S$ also."
+        },
+        {
+          "id": "candidate.stacks.0b5569dc8ecec15c58ce92fa",
+          "matches": [],
+          "refs": [],
+          "statement": "In the situation above we have the following cohomology groups\n\\begin{enumerate}\n\\item $H^q(\\mathbf{P}^n_A, \\Omega^p) = 0$\nunless $0 \\leq p = q \\leq n$,\n\\item for $0 \\leq p \\leq n$ the $A$-module\n$H^p(\\mathbf{P}^n_A, \\Omega^p)$ free of rank $1$.\n\\item for $q > 0$, $k > 0$, and $p$ arbitrary we have\n$H^q(\\mathbf{P}^n_A, \\Omega^p(k)) = 0$, and\n\\item add more here.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.0b8762b8b33462e177cf5d06",
+          "matches": [],
+          "refs": [],
+          "statement": "With $d = d(S)$ and $q_0 = q(S)$ as above. Then\n\\begin{enumerate}\n\\item for integers $n \\geq c \\geq 0$ with\n$n \\geq \\max(q_0 + (1 + d)c, (2 + d)c)$,\n\\item for $K$ of $D(A/I^n)$ with $H^i(K) = 0$ for $i \\not = -1, 0$\nand $H^i(K)$ finite for $i = -1, 0$ such that $\\Ext^1_{A/I^c}(K, N)$\nis annihilated by $I^c$ for all finite $A/I^n$-modules $N$\n\\end{enumerate}\nthe map\n$$\n\\Ext^1_{A/I^n}(K, I^n/I^{2n})\n\\longrightarrow\n\\Ext^1_{A/I^n}(K, I^{n - (1 + d)c}/I^{2n - 2(1 + d)c})\n$$\nis zero."
+        },
+        {
+          "id": "candidate.stacks.0cd5406ad3d6ec2afe2274f0",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $S$ be a scheme. Let $X$ be an algebraic space over $S$.\nFor $K \\in D_\\QCoh(\\mathcal{O}_X)$ the maps\n$$\nL\\pi_X^*K \\longrightarrow R\\epsilon_{X, *}(La_X^*K)\n\\quad\\text{and}\\quad\nK \\longrightarrow Ra_{X, *}(La_X^*K)\n$$\nare isomorphisms. Here\n$a_X : \\Sh((\\textit{Spaces}/X)_{fppf}) \\to \\Sh(X_\\etale)$ is as above."
+        },
+        {
+          "id": "candidate.stacks.0d392c7a491a2aed3adada63",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $f : X \\to S$ be a proper morphism with geometrically connected fibres.\nLet $s' \\leadsto s$ be a specialization of points of $S$ and let\n$sp : \\pi_1(X_{\\overline{s}'}) \\to \\pi_1(X_{\\overline{s}})$\nbe a specialization map. Then there exists a strictly henselian\nvaluation ring $R$ over $S$ with algebraically closed fraction field\nsuch that $sp$ is isomorphic to $sp_R$ defined above."
+        }
+      ],
+      "no_same_file_statement_label": [
+        {
+          "id": "candidate.stacks.00cecb93ee755f41d9c693e7",
+          "matches": [],
+          "refs": [
+            "section-notation"
+          ],
+          "statement": "Let $B \\to S$ as in Section \\ref{section-notation}.\nConsider a morphism\n$f : (U, R, s, t, c) \\to (U', R', s', t', c')$\nof groupoid in algebraic spaces over $B$. Then pullback $f^*$ given by\n$$\n(\\mathcal{F}, \\alpha) \\mapsto (f^*\\mathcal{F}, f^*\\alpha)\n$$\ndefines a functor from the category of quasi-coherent sheaves on\n$(U', R', s', t', c')$ to the category of quasi-coherent sheaves on\n$(U, R, s, t, c)$."
+        },
+        {
+          "id": "candidate.stacks.00d1c69459627e42b4777874",
+          "matches": [],
+          "refs": [
+            "equation-Ud",
+            "schemes-section-representable"
+          ],
+          "statement": "Let $S$ be a graded ring.\nLet $X = \\text{Proj}(S)$.\nThe open subscheme $U_d \\subset X$ (\\ref{equation-Ud}) represents the\nfunctor $F_d$ and the triple $(d, \\mathcal{O}_{U_d}(d), \\psi^d)$\ndefined above is the universal family (see\nSchemes, Section \\ref{schemes-section-representable})."
+        },
+        {
+          "id": "candidate.stacks.02bebcbb0ace6a17daa036b6",
+          "matches": [],
+          "refs": [
+            "section-simplicial-algebraic-spaces"
+          ],
+          "statement": "Let $S$ be a scheme. Let $X$ be an algebraic space over $S$.\nLet $U$ be a simplicial algebraic space over $S$. Let $a : U \\to X$\nbe an augmentation. If $a : U \\to X$ is an fppf hypercovering of $X$, then\n$$\nR\\Gamma(X_\\etale, K) = R\\Gamma(U_\\etale, a^{-1}K)\n$$\nfor $K \\in D^+(X_\\etale)$. Here $a : \\Sh(U_\\etale) \\to \\Sh(X_\\etale)$\nis as in Section \\ref{section-simplicial-algebraic-spaces}."
+        },
+        {
+          "id": "candidate.stacks.034f9653c1477e77bafe8da1",
+          "matches": [],
+          "refs": [
+            "section-conventions-notation"
+          ],
+          "statement": "Let $B \\to S$ as in Section \\ref{section-conventions-notation}.\nLet $j : R \\to U \\times_B U$ be a pre-equivalence relation\nof algebraic spaces over $B$. Then\n$$\nO_u =\n\\{u' \\in |U| \\text{ such that } \\exists r \\in |R|, \\ s(r) = u, \\ t(r) = u'\\}.\n$$"
+        },
+        {
+          "id": "candidate.stacks.059d4a39a0149f7a3eea3a5b",
+          "matches": [],
+          "refs": [
+            "formal-spaces-definition-formal-algebraic-space",
+            "formal-spaces-definition-formal-algebraic-space",
+            "formal-spaces-definition-formal-algebraic-space"
+          ],
+          "statement": "Let $S$ be a scheme. Let $f : X \\to Y$ be a morphism of\nlocally Noetherian formal algebraic spaces over $S$.\nThe following are equivalent\n\\begin{enumerate}\n\\item $f$ is flat,\n\\item for every commutative diagram\n$$\n\\xymatrix{\nU \\ar[d] \\ar[r] & V \\ar[d] \\\\\nX \\ar[r] & Y\n}\n$$\nwith $U$ and $V$ affine formal algebraic spaces, $U \\to X$ and $V \\to Y$\nrepresentable by algebraic spaces and \\'etale, the morphism $U \\to V$\ncorresponds to a flat map in $\\textit{WAdm}^{Noeth}$,\n\\item there exists a covering $\\{Y_j \\to Y\\}$ as in\nFormal Spaces,\nDefinition \\ref{formal-spaces-definition-formal-algebraic-space}\nand for each $j$\na covering $\\{X_{ji} \\to Y_j \\times_Y X\\}$ as in\nFormal Spaces,\nDefinition \\ref{formal-spaces-definition-formal-algebraic-space}\nsuch that each $X_{ji} \\to Y_j$  corresponds\nto a flat map in $\\textit{WAdm}^{Noeth}$, and\n\\item there exist a covering $\\{X_i \\to X\\}$ as in\nFormal Spaces,\nDefinition \\ref{formal-spaces-definition-formal-algebraic-space}\nand for each $i$ a factorization $X_i \\to Y_i \\to Y$ where $Y_i$\nis an affine formal algebraic space, $Y_i \\to Y$ is representable"
+        },
+        {
+          "id": "candidate.stacks.05aef47d2d01832605cffb23",
+          "matches": [],
+          "refs": [
+            "equation-cutoff"
+          ],
+          "statement": "\\begin{reference}\nThis is a special case of \\cite[Satz 2]{Faltings-finiteness}.\n\\end{reference}\nLet $A$ be a Noetherian ring and let $I \\subset A$ be an ideal.\nSet $Z = V(I) \\subset \\Spec(A)$. Let $M$ be a finite $A$-module.\nSet $s = s_{A, I}(M)$ as in (\\ref{equation-cutoff}).\nAssume that\n\\begin{enumerate}\n\\item $A$ is universally catenary,\n\\item the formal fibres of the local rings of $A$ are Cohen-Macaulay.\n\\end{enumerate}\nThen $H^i_Z(M)$ is finite for $0 \\leq i < s$ and\n$H^s_Z(M)$ is not finite."
+        },
+        {
+          "id": "candidate.stacks.06eac14c0822dfb7f37b44d6",
+          "matches": [],
+          "refs": [
+            "section-notation"
+          ],
+          "statement": "Let $B \\to S$ be as in Section \\ref{section-notation}.\nLet $(U, R, s, t, c, e, i)$ be a groupoid in algebraic spaces over $B$.\nThe diagram\n\\begin{equation}\n\n\\xymatrix{\nR \\times_{t, U, t} R\n\\ar@<1ex>[r]^-{\\text{pr}_1} \\ar@<-1ex>[r]_-{\\text{pr}_0}\n\\ar[d]_{\\text{pr}_0 \\times c \\circ (i, 1)} &\nR \\ar[r]^t \\ar[d]^{\\text{id}_R} &\nU \\ar[d]^{\\text{id}_U} \\\\\nR \\times_{s, U, t} R\n\\ar@<1ex>[r]^-c \\ar@<-1ex>[r]_-{\\text{pr}_0} \\ar[d]_{\\text{pr}_1} &\nR \\ar[r]^t \\ar[d]^s &\nU \\\\\nR \\ar@<1ex>[r]^s \\ar@<-1ex>[r]_t &\nU\n}\n\\end{equation}\nis commutative. The two top rows are isomorphic via the vertical maps given.\nThe two lower left squares are cartesian."
+        },
+        {
+          "id": "candidate.stacks.06ed3d0010369390c116e073",
+          "matches": [],
+          "refs": [
+            "spaces-properties-lemma-quotient"
+          ],
+          "statement": "Let $S$ be a scheme. Let $X$ be an algebraic space over $S$ and\nlet $G$ be a finite group acting freely on $X$. Set $Y = X/G$ as\nin Properties of Spaces, Lemma \\ref{spaces-properties-lemma-quotient}.\nFor $y \\in |Y|$ the following are equivalent\n\\begin{enumerate}\n\\item $y$ is in the schematic locus of $Y$, and\n\\item there exists an affine open $U \\subset X$\ncontaining the preimage of $y$.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.08ab94fb77494ad95ccf0e0d",
+          "matches": [],
+          "refs": [
+            "stacks-cohomology-lemma-lisse-etale",
+            "stacks-cohomology-lemma-lisse-etale"
+          ],
+          "statement": "Let $\\mathcal{X}$ be an algebraic stack. Set\n$\\mathcal{P}_\\mathcal{X} = \\textit{Parasitic}(\\mathcal{O}_\\mathcal{X}) \\cap\n\\textit{LQCoh}^{fbc}(\\mathcal{O}_\\mathcal{X})$.\n\\begin{enumerate}\n\\item\nLet $\\mathcal{F}^\\bullet$ be an object of\n$D_{\\textit{LQCoh}^{fbc}(\\mathcal{O}_\\mathcal{X})}\n(\\mathcal{X}_\\etale, \\mathcal{O}_\\mathcal{X})$.\nWith $g$ as in\nCohomology of Stacks,\nLemma \\ref{stacks-cohomology-lemma-lisse-etale}\nfor the lisse-\\'etale site we have\n\\begin{enumerate}\n\\item $g^*\\mathcal{F}^\\bullet$ is in\n$D_\\QCoh(\\mathcal{O}_{\\mathcal{X}_{lisse,\\etale}})$,\n\\item $g^*\\mathcal{F}^\\bullet = 0$ if and only if\n$\\mathcal{F}^\\bullet$ is in\n$D_{\\mathcal{P}_\\mathcal{X}}(\\mathcal{X}_\\etale, \\mathcal{O}_\\mathcal{X})$,\n\\item $Lg_!\\mathcal{H}^\\bullet$ is in\n$D_{\\textit{LQCoh}^{fbc}(\\mathcal{O}_\\mathcal{X})}(\n\\mathcal{X}_\\etale, \\mathcal{O}_\\mathcal{X})$\nfor $\\mathcal{H}^\\bullet$ in\n$D_\\QCoh(\\mathcal{O}_{\\mathcal{X}_{lisse,\\etale}})$, and\n\\item the functors $g^*$ and $Lg_!$ define mutually inverse functors\n$$\n\\xymatrix{\nD_\\QCoh(\\mathcal{O}_\\mathcal{X}) \\ar@<1ex>[r]^-{g^*} &\nD_\\QCoh(\\mathcal{O}_{\\ma"
+        },
+        {
+          "id": "candidate.stacks.09847222a1404f5b4d19835e",
+          "matches": [],
+          "refs": [
+            "stacks-remark-stack-make-small"
+          ],
+          "statement": "Up to a replacement as in\nStacks, Remark \\ref{stacks-remark-stack-make-small}\nthe functor\n$$\np : G\\textit{-Torsors} \\longrightarrow (\\Sch/S)_{fppf}\n$$\ndefines a stack in groupoids over $(\\Sch/S)_{fppf}$."
+        },
+        {
+          "id": "candidate.stacks.0ae8d4f07e8427f8166b5aba",
+          "matches": [],
+          "refs": [
+            "more-morphisms-lemma-blowup"
+          ],
+          "statement": "With notation as in More on Morphisms, Lemma \\ref{more-morphisms-lemma-blowup}\nfor $a \\geq 0$ we have\n\\begin{enumerate}\n\\item the map\n$\\Omega^a_{X/S} \\to b_*\\Omega^a_{X'/S}$ is an isomorphism,\n\\item the map $\\Omega^a_{Z/S} \\to p_*\\Omega^a_{E/S}$ is an isomorphism,\n\\item the map $Rb_*\\Omega^a_{X'/S} \\to i_*Rp_*\\Omega^a_{E/S}$ is an isomorphism\non cohomology sheaves in degree $\\geq 1$.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.0cd34734308e4581b63531df",
+          "matches": [],
+          "refs": [
+            "equation-three-maps"
+          ],
+          "statement": "With notation as in (\\ref{equation-three-maps}) set\n$$\n\\begin{matrix}\n\\Omega_1 = \\Omega_{\\mathcal{O}/A} \\otimes_\\mathcal{O} \\underline{B}\n\\text{ on }\\mathcal{C}_{B/A} \\\\\n\\Omega_2 = \\Omega_{\\mathcal{O}/A} \\otimes_\\mathcal{O} \\underline{C}\n\\text{ on }\\mathcal{C}_{C/A} \\\\\n\\Omega_3 = \\Omega_{\\mathcal{O}/B} \\otimes_\\mathcal{O} \\underline{C}\n\\text{ on }\\mathcal{C}_{C/B}\n\\end{matrix}\n$$\nThen we have a canonical short exact sequence of sheaves\nof $\\underline{C}$-modules\n$$\n0 \\to g_1^{-1}\\Omega_1 \\otimes_{\\underline{B}} \\underline{C} \\to\ng_2^{-1}\\Omega_2 \\to\ng_3^{-1}\\Omega_3 \\to 0\n$$\non $\\mathcal{C}_{C/B/A}$."
+        }
+      ],
+      "other_statement_label_available": [
+        {
+          "id": "candidate.stacks.001090ed3873a361dd1d0203",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-duality",
+              "length": 242,
+              "text": "Let $(R, \\mathfrak m, \\kappa)$ be an artinian local ring.\nLet $E$ be an injective hull of $\\kappa$.\nThe functor $D(-) = \\Hom_R(-, E)$ induces an exact anti-equivalence\n$\\text{Mod}^{fg}_R \\to \\text{Mod}^{fg}_R$ and\n$D \\circ D \\cong \\text{id}$."
+            }
+          ],
+          "refs": [
+            "lemma-duality"
+          ],
+          "statement": "Assumptions and notation as in Lemma \\ref{lemma-duality}.\nLet $I \\subset R$ be an ideal and $M$ a finite $R$-module.\nThen\n$$\nD(M[I]) = D(M)/ID(M) \\quad\\text{and}\\quad D(M/IM) = D(M)[I]\n$$"
+        },
+        {
+          "id": "candidate.stacks.00743da7ddbe388932db739e",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-cd-one",
+              "length": 218,
+              "text": "Let $I = (f_1, \\ldots, f_r)$ be an ideal of a Noetherian ring $A$.\nIf $\\text{cd}(A, I) = 1$, then there exist $c \\geq 1$ and maps\n$\\varphi_j : I^c \\to A$ such that $\\sum f_j \\varphi_j : I^c \\to I$\nis the inclusion map."
+            },
+            {
+              "kind": "lemma",
+              "label": "lemma-cd-one-extend",
+              "length": 567,
+              "text": "Let $I = (f_1, \\ldots, f_r)$ be an ideal of a Noetherian ring $A$\nwith $\\text{cd}(A, I) = 1$. Let $c \\geq 1$ and $\\varphi_j : I^c \\to A$,\n$j = 1, \\ldots, r$ be as in Lemma \\ref{lemma-cd-one}.\nThen there is a unique graded $A$-algebra map\n$$\n\\Phi : \\bigoplus\\nolimits_{n \\geq 0} I^{nc} \\to A[T_1, \\ldots, T_r]\n$$\nwith $\\Phi(g) = \\sum \\varphi_j(g) T_j$ for $g \\in I^c$.\nMoreover, the composition of $\\Phi$ with the map\n$A[T_1, \\ldots, T_r] \\to \\bigoplus_{n \\geq 0} I^n$,\n$T_j \\mapsto f_j$ is the inclusion map\n$\\bigoplus_{n \\geq 0} I^{nc} \\to \\bigoplus_{n \\geq 0} I^n$."
+            }
+          ],
+          "refs": [
+            "lemma-cd-one",
+            "lemma-cd-one-extend"
+          ],
+          "statement": "Let $I = (f_1, \\ldots, f_r)$ be an ideal of a Noetherian ring $A$\nwith $\\text{cd}(A, I) = 1$. Let $c \\geq 1$ and $\\varphi_j : I^c \\to A$,\n$j = 1, \\ldots, r$ be as in Lemma \\ref{lemma-cd-one}.\nLet $A \\to B$ be a ring map with $B$ Noetherian and let $N$ be\na finite $B$-module. Then, after possibly increasing $c$\nand adjusting $\\varphi_j$ accordingly, there is a unique\nunique graded $B$-module map\n$$\n\\Phi_N : \\bigoplus\\nolimits_{n \\geq 0} I^{nc}N \\to N[T_1, \\ldots, T_r]\n$$\nwith $\\Phi_N(g x) = \\Phi(g) x$ for $g \\in I^{nc}$ and $x \\in N$\nwhere $\\Phi$ is as in Lemma \\ref{lemma-cd-one-extend}.\nThe composition of $\\Phi_N$ with the map\n$N[T_1, \\ldots, T_r] \\to \\bigoplus_{n \\geq 0} I^nN$,\n$T_j \\mapsto f_j$ is the inclusion map\n$\\bigoplus_{n \\geq 0} I^{nc}N \\to \\bigoplus_{n \\geq 0} I^nN$."
+        },
+        {
+          "id": "candidate.stacks.0258bfbaf862e42a84ad3e59",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-restriction-module-to-components-site",
+              "length": 946,
+              "text": "In Situation \\ref{situation-simplicial-site}. Let $\\mathcal{O}$\nbe a sheaf of rings on $\\mathcal{C}_{total}$.\nThere is a canonical morphism of ringed topoi\n$g_n : (\\Sh(\\mathcal{C}_n), \\mathcal{O}_n) \\to\n(\\Sh(\\mathcal{C}_{total}), \\mathcal{O})$\nagreeing with the morphism $g_n$ of\nLemma \\ref{lemma-restriction-to-components-site} on underlying topoi.\nThe functor\n$g_n^* : \\textit{Mod}(\\mathcal{O}) \\to \\textit{Mod}(\\mathcal{O}_n)$\nhas a left adjoint $g_{n!}$.\nFor $\\mathcal{G}$ in $\\textit{Mod}(\\mathcal{O}_n)$-modules the\nrestriction of $g_{n!}\\mathcal{G}$ to $\\mathcal{C}_m$ is\n$$\n\\bigoplus\\nolimits_{\\varphi : [n] \\to [m]} f_\\varphi^*\\mathcal{G}\n$$\nwhere $f_\\varphi : (\\Sh(\\mathcal{C}_m), \\mathcal{O}_m) \\to\n(\\Sh(\\mathcal{C}_n), \\mathcal{O}_n)$ is the morphism of ringed topoi\nagreeing with the previously defined $f_\\varphi$ on topoi and\nusing the map\n$\\mathcal{O}(\\varphi) : f_\\varphi^{-1}\\mathcal{O}_n \\to \\mathcal{O}_m$\non sheaves of rings."
+            }
+          ],
+          "refs": [
+            "lemma-restriction-module-to-components-site"
+          ],
+          "statement": "With notation as above. For a $\\mathcal{O}_\\mathcal{D}$-module $\\mathcal{G}$\nthere is an exact complex\n$$\n\\ldots \\to\ng_{2!}(a_2^*\\mathcal{G}) \\to\ng_{1!}(a_1^*\\mathcal{G}) \\to\ng_{0!}(a_0^*\\mathcal{G}) \\to\na^*\\mathcal{G} \\to 0\n$$\nof sheaves of $\\mathcal{O}$-modules on $\\mathcal{C}_{total}$.\nHere $g_{n!}$ is as in Lemma \\ref{lemma-restriction-module-to-components-site}."
+        },
+        {
+          "id": "candidate.stacks.02c6b3edc6c5b2231b71dada",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-alternating-spectral-sequence",
+              "length": 662,
+              "text": "Let $S$ be a scheme. Let $f : U \\to X$ be a surjective, \\'etale, and\nseparated morphism of algebraic spaces over $S$. For $p \\geq 0$ set\n$$\nW_p = U \\times_X \\ldots \\times_X U \\setminus \\text{all diagonals}\n$$\n(with $p + 1$ factors) as in Lemma \\ref{lemma-compute}.\nLet $\\chi_p : S_{p + 1} \\to \\{+1, -1\\}$ be the sign character.\nLet $U_p = W_p/S_{p + 1}$ and $\\underline{\\mathbf{Z}}(\\chi_p)$ be as in\nLemma \\ref{lemma-twist}.\nThen the spectral sequence of\nLemma \\ref{lemma-alternating-cech-to-cohomology}\nhas $E_1$-page\n$$\nE_1^{p, q} =\nH^q(U_p, \\mathcal{F}|_{U_p} \\otimes_\\mathbf{Z} \\underline{\\mathbf{Z}}(\\chi_p))\n$$\nand converges to $H^{p + q}(X, \\mathcal{F})$."
+            }
+          ],
+          "refs": [
+            "lemma-alternating-spectral-sequence"
+          ],
+          "statement": "Let $S$ be a scheme. Let $X$ be an algebraic space over $S$.\nAssume $X$ is quasi-compact and quasi-separated.\nThen we can choose\n\\begin{enumerate}\n\\item an affine scheme $U$,\n\\item a surjective \\'etale morphism $f : U \\to X$,\n\\item an integer $d$ bounding the degrees of the fibres of $U \\to X$,\n\\item for every $p = 0, 1, \\ldots, d$ a surjective \\'etale morphism\n$V_p \\to U_p$ from an affine scheme $V_p$ where $U_p$ is as in\nLemma \\ref{lemma-alternating-spectral-sequence}, and\n\\item an integer $d_p$ bounding the degree of the fibres of $V_p \\to U_p$.\n\\end{enumerate}\nMoreover, whenever we have (1) -- (5), then for any quasi-coherent\n$\\mathcal{O}_X$-module $\\mathcal{F}$ we have $H^q(X, \\mathcal{F}) = 0$ for\n$q \\geq \\max(d_p + p)$."
+        },
+        {
+          "id": "candidate.stacks.02f95c5e6f85846db5863d05",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-pullback",
+              "length": 405,
+              "text": "Let $B \\to S$ as in Section \\ref{section-notation}.\nConsider a morphism\n$f : (U, R, s, t, c) \\to (U', R', s', t', c')$\nof groupoid in algebraic spaces over $B$. Then pullback $f^*$ given by\n$$\n(\\mathcal{F}, \\alpha) \\mapsto (f^*\\mathcal{F}, f^*\\alpha)\n$$\ndefines a functor from the category of quasi-coherent sheaves on\n$(U', R', s', t', c')$ to the category of quasi-coherent sheaves on\n$(U, R, s, t, c)$."
+            }
+          ],
+          "refs": [
+            "section-notation",
+            "lemma-pullback"
+          ],
+          "statement": "Let $B \\to S$ as in Section \\ref{section-notation}.\nConsider a morphism\n$f : (U, R, s, t, c) \\to (U', R', s', t', c')$\nof groupoids in algebraic spaces over $B$. Assume that\n\\begin{enumerate}\n\\item $f : U \\to U'$ is quasi-compact and quasi-separated,\n\\item the square\n$$\n\\xymatrix{\nR \\ar[d]_t \\ar[r]_f & R' \\ar[d]^{t'} \\\\\nU \\ar[r]^f & U'\n}\n$$\nis cartesian, and\n\\item $s'$ and $t'$ are flat.\n\\end{enumerate}\nThen pushforward $f_*$ given by\n$$\n(\\mathcal{F}, \\alpha) \\mapsto (f_*\\mathcal{F}, f_*\\alpha)\n$$\ndefines a functor from the category of quasi-coherent sheaves on\n$(U, R, s, t, c)$ to the category of quasi-coherent sheaves on\n$(U', R', s', t', c')$ which is right adjoint to pullback as defined in\nLemma \\ref{lemma-pullback}."
+        },
+        {
+          "id": "candidate.stacks.042689e6fe38c77a47bc726b",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-enough-injectives",
+              "length": 642,
+              "text": "Let $A$ be a ring. Denote $\\mathcal{P}$ the category of module-valued\nfunctors on $\\textit{Alg}_A$ and $\\mathcal{A}$ the category of adequate\nfunctors on $\\textit{Alg}_A$. Denote $i : \\mathcal{A} \\to \\mathcal{P}$\nthe inclusion functor. Denote $Q : \\mathcal{P} \\to \\mathcal{A}$\nthe construction of Lemma \\ref{lemma-adjoint}.\nThen\n\\begin{enumerate}\n\\item $i$ is fully faithful, exact, and its image is a weak Serre subcategory,\n\\item $\\mathcal{P}$ has enough injectives,\n\\item the functor $Q$ is a right adjoint to $i$ hence left exact,\n\\item $Q$ transforms injectives into injectives,\n\\item $\\mathcal{A}$ has enough injectives.\n\\end{enumerate}"
+            }
+          ],
+          "refs": [
+            "lemma-enough-injectives"
+          ],
+          "statement": "With notation as in\nLemma \\ref{lemma-enough-injectives}\nwe have $R^pQ(F) = 0$ for all $p > 0$ and any adequate functor $F$."
+        },
+        {
+          "id": "candidate.stacks.04eb3d88140c2ffead832da0",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-extensions-of-algebras",
+              "length": 255,
+              "text": "Let $A$ be a ring. Let $B$ be an $A$-algebra. Let $N$ be a $B$-module.\nThe set of isomorphism classes of extensions of $A$-algebras\n$$\n0 \\to N \\to B' \\to B \\to 0\n$$\nwhere $N$ is an ideal of square zero is canonically bijective to\n$\\Ext^1_B(\\NL_{B/A}, N)$."
+            }
+          ],
+          "refs": [
+            "equation-to-solve",
+            "lemma-extensions-of-algebras"
+          ],
+          "statement": "Let $0 \\to I \\to A' \\to A \\to 0$, $A \\to B$, and $c : I \\to N$ be as in\n(\\ref{equation-to-solve}). Denote $\\xi \\in \\Ext^1_A(\\NL_{A/A'}, I)$\nthe element corresponding to the extension $A'$ of $A$ by $I$ via\nLemma \\ref{lemma-extensions-of-algebras}. The set of isomorphism\nclasses of solutions is canonically bijective to the fibre of\n$$\n\\Ext^1_B(\\NL_{B/A'}, N) \\to \\Ext^1_A(\\NL_{A/A'}, N)\n$$\nover the image of $\\xi$."
+        },
+        {
+          "id": "candidate.stacks.04ff8b3ba3e4ce775df65729",
+          "matches": [
+            {
+              "kind": "remark",
+              "label": "remark-support-c-equations",
+              "length": 1264,
+              "text": "Let $X$ be a scheme. Let $f_1, \\ldots, f_c \\in \\Gamma(X, \\mathcal{O}_X)$.\nDenote $Z \\subset X$ the closed subscheme cut out by $f_1, \\ldots, f_c$.\nFor $0 \\leq p < c$ and $1 \\leq i_0 < \\ldots < i_p \\leq c$ we denote\n$U_{i_0 \\ldots i_p} \\subset X$ the open subscheme where\n$f_{i_0} \\ldots f_{i_p}$ is invertible. For any $\\mathcal{O}_X$-module\n$\\mathcal{F}$ we set\n$$\n\\mathcal{F}_{i_0 \\ldots i_p} =\n(U_{i_0 \\ldots i_p} \\to X)_*(\\mathcal{F}|_{U_{i_0 \\ldots i_p}})\n$$\nIn this situation the {\\it extended alternating {\\v C}ech complex}\nis the complex of $\\mathcal{O}_X$-modules\n\\begin{equation}\n\n0 \\to \\mathcal{F} \\to\n\\bigoplus\\nolimits_{i_0} \\mathcal{F}_{i_0} \\to\n\\ldots \\to\n\\bigoplus\\nolimits_{i_0 < \\ldots < i_p} \\mathcal{F}_{i_0 \\ldots i_p} \\to\n\\ldots \\to \\mathcal{F}_{1 \\ldots c} \\to 0\n\\end{equation}\nwhere $\\mathcal{F}$ is put in degree $0$. The maps are constructed as\nfollows. Given\n$1 \\leq i_0 < \\ldots < i_{p + 1} \\leq c$ and $0 \\leq j \\leq p + 1$ we\nhave the canonical map\n$$\n\\mathcal{F}_{i_0 \\ldots \\hat i_j \\ldots i_{p + 1}} \\to\n\\mathcal{F}_{i_0 \\ldots i_p}\n$$\ncoming from the inclusion\n$U_{i_0 \\ldots i_p} \\subset U_{i_0 \\ldots \\hat i_j \\ldots i_{p + 1}}$.\nThe differentials in the extended alternating complex use these\ncanonical maps with sign $(-1)^j$."
+            },
+            {
+              "kind": "remark",
+              "label": "remark-supported-map-c-equations",
+              "length": 1363,
+              "text": "With $X$, $f_1, \\ldots, f_c \\in \\Gamma(X, \\mathcal{O}_X)$, and\n$\\mathcal{F}$ as in Remark \\ref{remark-support-c-equations}.\nThere is a canonical $\\mathcal{O}_X|_Z$-linear map\n$$\nc_{f_1, \\ldots, f_c} :\ni^*\\mathcal{F}\n\\longrightarrow\n\\mathcal{H}^c_Z(\\mathcal{F})\n$$\nfunctorial in $\\mathcal{F}$. Namely, denoting $\\mathcal{F}^\\bullet$ the\nextended alternating {\\v C}ech complex (\\ref{equation-extended-alternating})\nwe have the canonical map\n$\\mathcal{F}^\\bullet \\to i_*R\\mathcal{H}_Z(\\mathcal{F})$\nof Remark \\ref{remark-extended-alternating-map-to-support}.\nThis determines a canonical map\n$$\n\\Coker\\left(\\bigoplus \\mathcal{F}_{1 \\ldots \\hat i \\ldots c} \\to\n\\mathcal{F}_{1 \\ldots c}\\right)\n\\longrightarrow\ni_*\\mathcal{H}^c_Z(\\mathcal{F})\n$$\non cohomology sheaves in degree $c$.\nGiven a local section $s$ of $\\mathcal{F}$ we can consider the\nlocal section\n$$\n\\frac{s}{f_1 \\ldots f_c}\n$$\nof $\\mathcal{F}_{1 \\ldots c}$. The class of this section in the cokernel\ndisplayed above depends only on $s$ modulo the image of\n$(f_1, \\ldots, f_c) : \\mathcal{F}^{\\oplus c} \\to \\mathcal{F}$.\nSince $i_*i^*\\mathcal{F}$ is equal to the cokernel of\n$(f_1, \\ldots, f_c) : \\mathcal{F}^{\\oplus c} \\to \\mathcal{F}$\nwe see that we get an $\\mathcal{O}_X$-module map\n$i_*i^*\\mathcal{F} \\to i_*\\mathcal{H}_Z^c(\\mathcal{F})$.\nAs $i_*$ is fully faithful we get the map $c_{f_1, \\ldots, f_c}$."
+            }
+          ],
+          "refs": [
+            "remark-support-c-equations",
+            "remark-supported-map-c-equations"
+          ],
+          "statement": "With $X$, $f_1, \\ldots, f_c \\in \\Gamma(X, \\mathcal{O}_X)$, and\n$\\mathcal{F}$ as in Remark \\ref{remark-support-c-equations}.\nLet $a_{ji} \\in \\Gamma(X, \\mathcal{O}_X)$ for $1 \\leq i, j \\leq c$\nand set $g_j = \\sum_{i = 1, \\ldots, c} a_{ji}f_i$. Assume $g_1, \\ldots, g_c$\nscheme theoretically cut out $Z$. If $\\mathcal{F}$ is quasi-coherent, then\n$$\nc_{f_1, \\ldots, f_c} = \\det(a_{ji}) c_{g_1, \\ldots, g_c}\n$$\nwhere $c_{f_1, \\ldots, f_c}$ and $c_{g_1, \\ldots, g_c}$ are as in\nRemark \\ref{remark-supported-map-c-equations}."
+        },
+        {
+          "id": "candidate.stacks.06db7b5ff23985a9110ed287",
+          "matches": [
+            {
+              "kind": "definition",
+              "label": "definition-cartesian",
+              "length": 419,
+              "text": "In the situation above, we denote $\\mathit{QC}(\\mathcal{C}, \\mathcal{O})$\nor simply {\\it $\\mathit{QC}(\\mathcal{O})$}\nthe full subcategory of $D(\\mathcal{O}) = D(\\mathcal{C}, \\mathcal{O})$\nconsisting of objects $K$ such that\nfor all $U \\to V$ in $\\mathcal{C}$ the canonical map\n$$\nR\\Gamma(V, K) \\otimes_{\\mathcal{O}(V)}^\\mathbf{L} \\mathcal{O}(U)\n\\longrightarrow\nR\\Gamma(U, K)\n$$\nis an isomorphism in $D(\\mathcal{O}(U))$."
+            }
+          ],
+          "refs": [
+            "definition-cartesian"
+          ],
+          "statement": "Let $\\mathcal{C}$ be a category viewed as a site with\nthe chaotic topology. Let $\\mathcal{O}$ be a sheaf of rings on $\\mathcal{C}$.\nWith $\\mathit{QC}(\\mathcal{O})$ as in\nDefinition \\ref{definition-cartesian} we have\n\\begin{enumerate}\n\\item $\\mathit{QC}(\\mathcal{O})$ is a strictly full, saturated, triangulated\nsubcategory of $D(\\mathcal{O})$ preserved by arbitrary direct sums,\n\\item any contravariant cohomological functor\n$H : \\mathit{QC}(\\mathcal{O}) \\to \\textit{Ab}$\nwhich transforms direct sums into products is representable,\n\\item any exact functor $F : \\mathit{QC}(\\mathcal{O}) \\to \\mathcal{D}$\nof triangulated categories which transforms direct sums into direct sums\nhas an exact right adjoint, and\n\\item the inclusion functor $\\mathit{QC}(\\mathcal{O}) \\to D(\\mathcal{O})$ has\nan exact right adjoint.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.0732865f5984e554967706d5",
+          "matches": [
+            {
+              "kind": "remark",
+              "label": "remark-extension-by-zero",
+              "length": 515,
+              "text": "Let $j : U \\to X$ be an open immersion of Noetherian schemes.\nSending $K \\in D^b_{\\textit{Coh}}(\\mathcal{O}_U)$ to a Deligne\nsystem whose restriction to $U$ is $K$ determines a functor\n$$\nRj_! :\nD^b_{\\textit{Coh}}(\\mathcal{O}_U)\n\\longrightarrow\n\\text{Pro-}D^b_{\\textit{Coh}}(\\mathcal{O}_X)\n$$\nwhich is ``exact'' by Lemma \\ref{lemma-extension-by-zero-triangle} and\nwhich is\n``left adjoint'' to the functor\n$j^* : D^b_{\\textit{Coh}}(\\mathcal{O}_X) \\to\nD^b_{\\textit{Coh}}(\\mathcal{O}_U)$ by Lemma \\ref{lemma-lift-map}."
+            }
+          ],
+          "refs": [
+            "remark-extension-by-zero"
+          ],
+          "statement": "Let $j : U \\to X$ be an open immersion of Noetherian schemes.\nLet $j' : U \\to X'$ be a compactification of $U$ over $X$ (see proof)\nand denote $f : X' \\to X$ the structure morphism.\nThen we have a canonical isomorphism $Rj_! \\to Rf_* \\circ R(j')_!$\nof functors $D^b_{\\textit{Coh}}(\\mathcal{O}_U) \\to\n\\text{Pro-}D^b_{\\textit{Coh}}(\\mathcal{O}_X)$ where\n$Rj_!$ and $Rj'_!$ are as in Remark \\ref{remark-extension-by-zero}."
+        },
+        {
+          "id": "candidate.stacks.07e45e89d9df70788504f4e1",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-augmentation-cech-complex",
+              "length": 455,
+              "text": "In Situation \\ref{situation-simplicial-site} let\n$a_0$ be an augmentation towards a site $\\mathcal{D}$\nas in Remark \\ref{remark-augmentation-site}.\nFor an abelian sheaf $\\mathcal{F}$ on $\\mathcal{C}_{total}$\nthere is a canonical complex\n$$\n0 \\to a_*\\mathcal{F} \\to a_{0, *}\\mathcal{F}_0 \\to a_{1, *}\\mathcal{F}_1 \\to\na_{2, *}\\mathcal{F}_2 \\to \\ldots\n$$\non $\\mathcal{D}$ which is exact in degrees $-1, 0$ and\nexact everywhere if $\\mathcal{F}$ is injective."
+            }
+          ],
+          "refs": [
+            "lemma-augmentation-cech-complex",
+            "hypercovering-definition-homology"
+          ],
+          "statement": "Let $\\mathcal{C}$ be a site with equalizers and fibre products.\nLet $K$ be a hypercovering. The {\\v C}ech complex\nof Lemma \\ref{lemma-augmentation-cech-complex} associated to\n$a^{-1}\\mathcal{F}$\n$$\na_{0, *}a_0^{-1}\\mathcal{F} \\to a_{1, *}a_1^{-1}\\mathcal{F} \\to\na_{2, *}a_2^{-1}\\mathcal{F} \\to \\ldots\n$$\nis equal to the complex $\\SheafHom(s(\\mathbf{Z}_{F(K)}^\\#), \\mathcal{F})$.\nHere $s(\\mathbf{Z}_{F(K)}^\\#)$ is as in\nHypercoverings, Definition \\ref{hypercovering-definition-homology}."
+        },
+        {
+          "id": "candidate.stacks.0a87776c776ea7c8ccd978f0",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-c-square",
+              "length": 917,
+              "text": "In the situation above, choose a K-injective complex $\\mathcal{I}^\\bullet$\nof $\\mathcal{O}$-modules representing $K$. Using $-1$ times the canonical map\nfor one of the four arrows we get maps of complexes\n$$\n\\mathcal{I}^\\bullet(X) \\xrightarrow{\\alpha}\n\\mathcal{I}^\\bullet(Z) \\oplus\n\\mathcal{I}^\\bullet(Y) \\xrightarrow{\\beta}\n\\mathcal{I}^\\bullet(E)\n$$\nwith $\\beta \\circ \\alpha = 0$. Thus a canonical map\n$$\nc^K_{X, Z, Y, E} :\n\\mathcal{I}^\\bullet(X)\n\\longrightarrow\nC(\\beta)^\\bullet[-1]\n$$\nThis map is canonical in the sense that a different choice\nof K-injective complex representing $K$ determines an isomorphic\narrow in the derived category of abelian groups. If $c^K_{X, Z, Y, E}$\nis an isomorphism, then using its inverse we obtain a canonical\ndistinguished triangle\n$$\nR\\Gamma(X, K) \\to\nR\\Gamma(Z, K) \\oplus\nR\\Gamma(Y, K) \\to\nR\\Gamma(E, K) \\to\nR\\Gamma(X, K)[1]\n$$\nAll of these constructions are functorial in $K$."
+            }
+          ],
+          "refs": [
+            "lemma-c-square"
+          ],
+          "statement": "With $\\epsilon : (\\mathcal{C}_\\tau, \\mathcal{O}_\\tau) \\to\n(\\mathcal{C}_{\\tau'}, \\mathcal{O}_{\\tau'})$ as above. Let\n$$\n\\xymatrix{\nE \\ar[d] \\ar[r] & Y \\ar[d] \\\\\nZ \\ar[r] & X\n}\n$$\nbe a commutative diagram in the category $\\mathcal{C}$ such that\n\\begin{enumerate}\n\\item $h_X^\\# = h_Y^\\# \\amalg_{h_E^\\#} h_Z^\\#$, and\n\\item $h_E^\\# \\to h_Y^\\#$ is injective\n\\end{enumerate}\nwhere ${}^\\#$ denotes $\\tau$-sheafification. Then for\n$K' \\in D(\\mathcal{O}_{\\tau'})$ in the essential image of\n$R\\epsilon_*$ the map $c^{K'}_{X, Z, Y, E}$ of Lemma \\ref{lemma-c-square}\n(using the $\\tau'$-topology) is an isomorphism."
+        }
+      ],
+      "situation_notation_or_setup_available": [
+        {
+          "id": "candidate.stacks.005dd3e3b12257043d08e0a1",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-flat-at-point",
+              "length": 1325,
+              "text": "Let $(A, \\mathfrak m_A)$ be a local ring.\nDenote $\\mathcal{C}$ the category whose objects are $A$-algebras\n$A'$ which are local rings such that the algebra structure\n$A \\to A'$ is a local homomorphism of local rings.\nA morphism between objects $A', A''$ of $\\mathcal{C}$ is a\nlocal homomorphism $A' \\to A''$ of $A$-algebras.\nLet $A \\to B$ be a local ring map of local rings and let $M$ be a $B$-module.\nIf $A'$ is an object of $\\mathcal{C}$ we set $B' = B \\otimes_A A'$\nand we set $M' = M \\otimes_A A'$ as a $B'$-module.\nGiven $A' \\in \\Ob(\\mathcal{C})$, consider the condition\n\\begin{equation}\n\n\\forall \\mathfrak q \\in V(\\mathfrak m_{A'}B' + \\mathfrak m_B B')\n\\subset \\Spec(B') :\nM'_{\\mathfrak q}\\text{ is flat over }A'.\n\\end{equation}\nNote the similarity with\nMore on Algebra, Equation (\\ref{more-algebra-equation-flat-at-primes}).\nIn particular, if $A' \\to A''$ is a morphism of $\\mathcal{C}$ and\n(\\ref{equation-flat-at-primes}) holds for $A'$, then it holds for $A''$, see\nMore on Algebra,\nLemma \\ref{more-algebra-lemma-base-change-flat-at-primes}.\nHence we obtain a functor\n\\begin{equation}\n\nF_{lf} : \\mathcal{C} \\longrightarrow \\textit{Sets}, \\quad\nA' \\longrightarrow \\left\\{\n\\begin{matrix}\n\\{*\\} & \\text{if }(\\ref{equation-flat-at-primes})\\text{ holds}, \\\\\n\\emptyset & \\text{else.} &\n\\end{matrix}\n\\right.\n\\end{equation}"
+            }
+          ],
+          "refs": [
+            "situation-flat-at-point"
+          ],
+          "statement": "In Situation \\ref{situation-flat-at-point}. Let $B \\to C$ is a local map of\nlocal $A$-algebras and $N$ a $C$-module. Denote\n$F'_{lf} : \\mathcal{C} \\to \\textit{Sets}$ the functor associated to the pair\n$(C, N)$. If $M \\cong N$ as $B$-modules and $B \\to C$ is finite, then\n$F_{lf} = F'_{lf}$."
+        },
+        {
+          "id": "candidate.stacks.00deadd4685a8a8b390f4f06",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-setup",
+              "length": 855,
+              "text": "Here $S$ is a scheme and $B$ is an algebraic space over $S$.\nWe assume $B$ is quasi-separated, locally Noetherian, and\nuniversally catenary (Decent Spaces, Definition\n\\ref{decent-spaces-definition-universally-catenary}).\nMoreover, we assume given a dimension function\n$\\delta : |B| \\longrightarrow \\mathbf{Z}$.\nWe say $X/B$ is {\\it good} if $X$ is an algebraic space\nover $B$ whose structure morphism $f : X \\to B$ is\nquasi-separated and locally of finite type.\nIn this case we define\n$$\n\\delta = \\delta_{X/B} : |X| \\longrightarrow \\mathbf{Z}\n$$\nas the map sending $x$ to $\\delta(f(x))$ plus the transcendence degree\nof $x/f(x)$ (Morphisms of Spaces, Definition\n\\ref{spaces-morphisms-definition-dimension-fibre}).\nThis is a dimension function by\nMore on Morphisms of Spaces, Lemma\n\\ref{spaces-more-morphisms-lemma-universally-catenary-dimension-function}."
+            }
+          ],
+          "refs": [
+            "situation-setup"
+          ],
+          "statement": "In Situation \\ref{situation-setup} let $X/B$ be good.\nAssume $X$ integral and $\\dim_\\delta(X) = n$.\nLet $\\mathcal{L}$, $\\mathcal{N}$ be invertible on $X$.\nChoose a nonzero meromorphic section $s$ of $\\mathcal{L}$\nand a nonzero meromorphic section $t$ of $\\mathcal{N}$.\nSet $\\alpha = \\text{div}_\\mathcal{L}(s)$ and\n$\\beta = \\text{div}_\\mathcal{N}(t)$.\nThen\n$$\nc_1(\\mathcal{N}) \\cap \\alpha\n=\nc_1(\\mathcal{L}) \\cap \\beta\n$$\nin $\\CH_{n - 2}(X)$."
+        },
+        {
+          "id": "candidate.stacks.0130ade20e44210301043b03",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-existence-derived",
+              "length": 649,
+              "text": "Here we have an inverse system of rings $(A_n)$ with surjective transition\nmaps whose kernels are locally nilpotent. Set $A = \\lim A_n$. We have a\nscheme $X$ proper, flat, and of finite presentation over $A$.\nWe set $X_n = X \\times_{\\Spec(A)} \\Spec(A_n)$ and we\nview it as a closed subscheme of $X$. We assume further given a system\n$(K_n, \\varphi_n)$ where $K_n$ is a pseudo-coherent object of\n$D(\\mathcal{O}_{X_n})$ and\n$$\n\\varphi_n : K_n \\longrightarrow K_{n - 1}\n$$\nis a map in $D(\\mathcal{O}_{X_n})$ which induces an isomorphism\n$K_n \\otimes_{\\mathcal{O}_{X_n}}^\\mathbf{L} \\mathcal{O}_{X_{n - 1}}\n\\to K_{n - 1}$ in $D(\\mathcal{O}_{X_{n - 1}})$."
+            },
+            {
+              "kind": "lemma",
+              "label": "lemma-compute-what-it-should-be-derived",
+              "length": 183,
+              "text": "In Situation \\ref{situation-existence-derived} consider\n$$\nK = R\\lim_{D_\\QCoh(\\mathcal{O}_X)}(K_n) =\nDQ_X(R\\lim_{D(\\mathcal{O}_X)} K_n)\n$$\nThen $K$ is in $D^-_{\\QCoh}(\\mathcal{O}_X)$."
+            }
+          ],
+          "refs": [
+            "situation-existence-derived",
+            "lemma-compute-what-it-should-be-derived"
+          ],
+          "statement": "In Situation \\ref{situation-existence-derived} let $K$ be as in\nLemma \\ref{lemma-compute-what-it-should-be-derived}. For any quasi-compact\nopen $U \\subset X$ we have\n$$\nR\\Gamma(U, K) \\otimes_A^\\mathbf{L} A_n =\nR\\Gamma(U_n, K_n)\n$$\nin $D(A_n)$ where $U_n = U \\cap X_n$."
+        },
+        {
+          "id": "candidate.stacks.0333d07bea7bec90eaa88db4",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-iso",
+              "length": 787,
+              "text": "Let $S$ be a scheme.\nLet $f : X \\to B$ be a morphism of algebraic spaces over $S$.\nLet $u : \\mathcal{F} \\to \\mathcal{G}$ be a homomorphism of\nquasi-coherent $\\mathcal{O}_X$-modules. For any scheme $T$ over\n$B$ we will denote $u_T : \\mathcal{F}_T \\to \\mathcal{G}_T$ the\nbase change of $u$ to $T$, in other words, $u_T$ is the pullback\nof $u$ via the projection morphism $X_T = X \\times_B T \\to X$.\nIn this situation we can consider the functor\n\\begin{equation}\n\nF_{iso} : (\\Sch/B)^{opp} \\longrightarrow \\textit{Sets}, \\quad\nT \\longrightarrow \\left\\{\n\\begin{matrix}\n\\{*\\} & \\text{if }u_T\\text{ is an isomorphism}, \\\\\n\\emptyset & \\text{else.}\n\\end{matrix}\n\\right.\n\\end{equation}\nThere are variants $F_{inj}$, $F_{surj}$, $F_{zero}$ where we ask that\n$u_T$ is injective, surjective, or zero."
+            }
+          ],
+          "refs": [
+            "situation-iso"
+          ],
+          "statement": "In Situation \\ref{situation-iso}. Assume\n\\begin{enumerate}\n\\item $f$ is locally of finite presentation,\n\\item $\\mathcal{G}$ is an $\\mathcal{O}_X$-module of finite presentation\nflat over $B$,\n\\item the support of $\\mathcal{G}$ is proper over $B$.\n\\end{enumerate}\nThen the functor $F_{zero}$ is an algebraic space and $F_{zero} \\to B$\nis a closed immersion. If $\\mathcal{F}$ is of finite type, then\n$F_{zero} \\to B$ is of finite presentation."
+        },
+        {
+          "id": "candidate.stacks.03988650e702d461a471be22",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-shriek",
+              "length": 313,
+              "text": "Here $S$ is a Noetherian scheme and $\\textit{FTS}_S$ is the category whose\n\\begin{enumerate}\n\\item objects are schemes $X$ over $S$ such that the structure\nmorphism $X \\to S$ is both separated and of finite type, and\n\\item morphisms $f : X \\to Y$ between objects are morphisms\nof schemes over $S$.\n\\end{enumerate}"
+            }
+          ],
+          "refs": [
+            "situation-shriek"
+          ],
+          "statement": "In Situation \\ref{situation-shriek} let $f : X \\to Y$ be a morphism of\n$\\textit{FTS}_S$. Then $f^!$ maps\n$D_{\\textit{Coh}}^+(\\mathcal{O}_Y)$ into $D_{\\textit{Coh}}^+(\\mathcal{O}_X)$."
+        },
+        {
+          "id": "candidate.stacks.03d8c1c848aa884ec8834a86",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-iso",
+              "length": 787,
+              "text": "Let $S$ be a scheme.\nLet $f : X \\to B$ be a morphism of algebraic spaces over $S$.\nLet $u : \\mathcal{F} \\to \\mathcal{G}$ be a homomorphism of\nquasi-coherent $\\mathcal{O}_X$-modules. For any scheme $T$ over\n$B$ we will denote $u_T : \\mathcal{F}_T \\to \\mathcal{G}_T$ the\nbase change of $u$ to $T$, in other words, $u_T$ is the pullback\nof $u$ via the projection morphism $X_T = X \\times_B T \\to X$.\nIn this situation we can consider the functor\n\\begin{equation}\n\nF_{iso} : (\\Sch/B)^{opp} \\longrightarrow \\textit{Sets}, \\quad\nT \\longrightarrow \\left\\{\n\\begin{matrix}\n\\{*\\} & \\text{if }u_T\\text{ is an isomorphism}, \\\\\n\\emptyset & \\text{else.}\n\\end{matrix}\n\\right.\n\\end{equation}\nThere are variants $F_{inj}$, $F_{surj}$, $F_{zero}$ where we ask that\n$u_T$ is injective, surjective, or zero."
+            }
+          ],
+          "refs": [
+            "situation-iso"
+          ],
+          "statement": "In Situation \\ref{situation-iso}.\nEach of the functors $F_{iso}$, $F_{inj}$, $F_{surj}$, $F_{zero}$\nsatisfies the sheaf property for the fpqc topology."
+        },
+        {
+          "id": "candidate.stacks.03e5d078a5824c9492b65840",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-setup",
+              "length": 168,
+              "text": "Here $S$ is a locally Noetherian, and universally catenary scheme.\nMoreover, we assume $S$ is endowed with a dimension function\n$\\delta : S \\longrightarrow \\mathbf{Z}$."
+            }
+          ],
+          "refs": [
+            "situation-setup"
+          ],
+          "statement": "In Situation \\ref{situation-setup} let $X$ be locally of finite type over $S$.\nLet $\\mathcal{E}$ be a finite locally free $\\mathcal{O}_X$-module\nwith dual $\\mathcal{E}^\\vee$. Then\n$ch_i(\\mathcal{E}^\\vee) = (-1)^i ch_i(\\mathcal{E})$ in\n$A^i(X) \\otimes \\mathbf{Q}$."
+        },
+        {
+          "id": "candidate.stacks.046145ce28c08cc84ea78b17",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-morphism-thickenings",
+              "length": 972,
+              "text": "A morphism of thickenings $(f, f')$ is given by a commutative diagram\n\\begin{equation}\n\n\\vcenter{\n\\xymatrix{\n(X, \\mathcal{O}_X) \\ar[r]_i \\ar[d]_f & (X', \\mathcal{O}_{X'}) \\ar[d]^{f'} \\\\\n(S, \\mathcal{O}_S) \\ar[r]^t & (S', \\mathcal{O}_{S'})\n}\n}\n\\end{equation}\nof ringed spaces whose horizontal arrows are thickenings. In this\nsituation we set\n$\\mathcal{I} = \\Ker(i^\\sharp) \\subset \\mathcal{O}_{X'}$ and\n$\\mathcal{J} = \\Ker(t^\\sharp) \\subset \\mathcal{O}_{S'}$.\nAs $f = f'$ on underlying topological spaces we will identify\nthe (topological) pullback functors $f^{-1}$ and $(f')^{-1}$.\nObserve that $(f')^\\sharp : f^{-1}\\mathcal{O}_{S'} \\to \\mathcal{O}_{X'}$\ninduces in particular a map $f^{-1}\\mathcal{J} \\to \\mathcal{I}$\nand therefore a map of $\\mathcal{O}_{X'}$-modules\n$$\n(f')^*\\mathcal{J} \\longrightarrow \\mathcal{I}\n$$\nIf $i$ and $t$ are first order thickenings, then\n$(f')^*\\mathcal{J} = f^*\\mathcal{J}$ and the map above becomes a\nmap $f^*\\mathcal{J} \\to \\mathcal{I}$."
+            },
+            {
+              "kind": "lemma",
+              "label": "lemma-inf-obs-ext",
+              "length": 535,
+              "text": "Let $i : (X, \\mathcal{O}_X) \\to (X', \\mathcal{O}_{X'})$\nbe a first order thickening of ringed spaces. Assume given\n$\\mathcal{O}_X$-modules $\\mathcal{F}$, $\\mathcal{K}$\nand an $\\mathcal{O}_X$-linear map\n$c : \\mathcal{I} \\otimes_{\\mathcal{O}_X} \\mathcal{F} \\to \\mathcal{K}$.\nThen there exists an element\n$$\no(\\mathcal{F}, \\mathcal{K}, c) \\in\n\\Ext^2_{\\mathcal{O}_X}(\\mathcal{F}, \\mathcal{K})\n$$\nwhose vanishing is a necessary and sufficient condition for the existence\nof a sequence (\\ref{equation-extension}) with $c_{\\mathcal{F}'} = c$."
+            }
+          ],
+          "refs": [
+            "situation-morphism-thickenings",
+            "lemma-inf-obs-ext"
+          ],
+          "statement": "Let $(f, f')$ be a morphism of first order thickenings as in\nSituation \\ref{situation-morphism-thickenings}.\nLet $\\mathcal{F}$ be an $\\mathcal{O}_X$-module. Assume\n$(f, f')$ is a strict morphism of thickenings\nand $\\mathcal{F}$ flat over $S$. There exists an\n$\\mathcal{O}_{X'}$-module $\\mathcal{F}'$ flat over $S'$ with\n$i^*\\mathcal{F}' \\cong \\mathcal{F}$, if and only if\n\\begin{enumerate}\n\\item the canonical map $\nf^*\\mathcal{J} \\otimes_{\\mathcal{O}_X} \\mathcal{F} \\to\n\\mathcal{I} \\otimes_{\\mathcal{O}_X} \\mathcal{F}$\nis an isomorphism, and\n\\item the class\n$o(\\mathcal{F}, \\mathcal{I} \\otimes_{\\mathcal{O}_X} \\mathcal{F}, 1)\n\\in \\Ext^2_{\\mathcal{O}_X}(\n\\mathcal{F}, \\mathcal{I} \\otimes_{\\mathcal{O}_X} \\mathcal{F})$\nof Lemma \\ref{lemma-inf-obs-ext} is zero.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.0518905948f9534c6d57d74f",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-setup",
+              "length": 855,
+              "text": "Here $S$ is a scheme and $B$ is an algebraic space over $S$.\nWe assume $B$ is quasi-separated, locally Noetherian, and\nuniversally catenary (Decent Spaces, Definition\n\\ref{decent-spaces-definition-universally-catenary}).\nMoreover, we assume given a dimension function\n$\\delta : |B| \\longrightarrow \\mathbf{Z}$.\nWe say $X/B$ is {\\it good} if $X$ is an algebraic space\nover $B$ whose structure morphism $f : X \\to B$ is\nquasi-separated and locally of finite type.\nIn this case we define\n$$\n\\delta = \\delta_{X/B} : |X| \\longrightarrow \\mathbf{Z}\n$$\nas the map sending $x$ to $\\delta(f(x))$ plus the transcendence degree\nof $x/f(x)$ (Morphisms of Spaces, Definition\n\\ref{spaces-morphisms-definition-dimension-fibre}).\nThis is a dimension function by\nMore on Morphisms of Spaces, Lemma\n\\ref{spaces-more-morphisms-lemma-universally-catenary-dimension-function}."
+            },
+            {
+              "kind": "lemma",
+              "label": "lemma-Gm-torsor",
+              "length": 1260,
+              "text": "In Situation \\ref{situation-setup} let $X/B$ be good.\nLet $\\mathcal{L}$ be an invertible $\\mathcal{O}_X$-module.\nThe morphism\n$$\nq :\nT = \\underline{\\Spec}\\left(\n\\bigoplus\\nolimits_{n \\in \\mathbf{Z}} \\mathcal{L}^{\\otimes n}\\right)\n\\longrightarrow\nX\n$$\nhas the following properties:\n\\begin{enumerate}\n\\item $q$ is surjective, smooth, affine, of relative dimension $1$,\n\\item there is an isomorphism $\\alpha : q^*\\mathcal{L} \\cong \\mathcal{O}_T$,\n\\item formation of $(q : T \\to X, \\alpha)$ commutes with base change,\n\\item $q^* : Z_k(X) \\to Z_{k + 1}(T)$ is injective,\n\\item if $Z \\subset X$ is an integral closed subspace, then\n$q^{-1}(Z) \\subset T$ is an integral closed subspace,\n\\item if $Z \\subset X$ is a closed subspace of $X$\nof $\\delta$-dimension $\\leq k$, then $q^{-1}(Z)$ is a closed subspace of $T$\nof $\\delta$-dimension $\\leq k + 1$ and\n$q^*[Z]_k = [q^{-1}(Z)]_{k + 1}$,\n\\item if $\\xi' \\in |T|$ is the generic point of the fibre of $|T| \\to |X|$\nover $\\xi$, then the ring map\n$\\mathcal{O}_{X, \\xi}^h \\to \\mathcal{O}_{T, \\xi'}^h$ is flat,\nwe have $\\mathfrak m_{\\xi'}^h = \\mathfrak m_\\xi^h \\mathcal{O}_{T, \\xi'}^h$, and\nthe residue field extension is purely transcendental of\ntranscendence degree $1$, and\n\\item add more here as needed.\n\\end{enumerate}"
+            }
+          ],
+          "refs": [
+            "situation-setup",
+            "lemma-Gm-torsor"
+          ],
+          "statement": "In Situation \\ref{situation-setup} let $X/B$ be good.\nLet $\\mathcal{L}$ be an invertible $\\mathcal{O}_X$-module.\nAssume $X$ is integral. Let $s$ be a nonzero meromorphic\nsection of $\\mathcal{L}$. Let $q : T \\to X$ be the morphism\nof Lemma \\ref{lemma-Gm-torsor}. Then\n$$\nq^*\\text{div}_\\mathcal{L}(s) = \\text{div}_T(q^*(s))\n$$\nwhere we view the pullback $q^*(s)$\nas a nonzero meromorphic function on $T$\nusing the isomorphism $q^*\\mathcal{L} \\to \\mathcal{O}_T$"
+        },
+        {
+          "id": "candidate.stacks.055c777fc4824a900bd5b1ca",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-setup",
+              "length": 855,
+              "text": "Here $S$ is a scheme and $B$ is an algebraic space over $S$.\nWe assume $B$ is quasi-separated, locally Noetherian, and\nuniversally catenary (Decent Spaces, Definition\n\\ref{decent-spaces-definition-universally-catenary}).\nMoreover, we assume given a dimension function\n$\\delta : |B| \\longrightarrow \\mathbf{Z}$.\nWe say $X/B$ is {\\it good} if $X$ is an algebraic space\nover $B$ whose structure morphism $f : X \\to B$ is\nquasi-separated and locally of finite type.\nIn this case we define\n$$\n\\delta = \\delta_{X/B} : |X| \\longrightarrow \\mathbf{Z}\n$$\nas the map sending $x$ to $\\delta(f(x))$ plus the transcendence degree\nof $x/f(x)$ (Morphisms of Spaces, Definition\n\\ref{spaces-morphisms-definition-dimension-fibre}).\nThis is a dimension function by\nMore on Morphisms of Spaces, Lemma\n\\ref{spaces-more-morphisms-lemma-universally-catenary-dimension-function}."
+            }
+          ],
+          "refs": [
+            "situation-setup"
+          ],
+          "statement": "In Situation \\ref{situation-setup} let $X/B$ be good.\nAssume $X$ is integral and $n = \\dim_\\delta(X)$.\nLet $\\mathcal{L}$ be an invertible $\\mathcal{O}_X$-module.\nLet $s \\in \\Gamma(X, \\mathcal{L})$ be a nonzero global section.\nThen\n$$\n\\text{div}_\\mathcal{L}(s) = [Z(s)]_{n - 1}\n$$\nin $Z_{n - 1}(X)$ and\n$$\nc_1(\\mathcal{L}) \\cap [X] = [Z(s)]_{n - 1}\n$$\nin $\\CH_{n - 1}(X)$."
+        },
+        {
+          "id": "candidate.stacks.05793077ed6f41b3be5d2269",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-groupoid-on-field",
+              "length": 153,
+              "text": "Here $S$ is a scheme, $B$ is an algebraic space, and\n$(U, R, s, t, c)$ is a groupoid in algebraic spaces over $B$\nwith $U = \\Spec(k)$ for some field $k$."
+            }
+          ],
+          "refs": [
+            "situation-groupoid-on-field"
+          ],
+          "statement": "In\nSituation \\ref{situation-groupoid-on-field}\nassume $s, t$ are locally of finite type.\nFor all $r \\in |R|$\n\\begin{enumerate}\n\\item $\\dim(R) = \\dim_r(R)$,\n\\item the transcendence degree of $r$ over $\\Spec(k)$\nvia $s$ equals the transcendence degree of $r$ over $\\Spec(k)$\nvia $t$, and\n\\item if the transcendence degree mentioned in (2) is $0$, then\n$\\dim(R) = \\dim(\\mathcal{O}_{R, \\overline{r}})$.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.06c70a13826a82e87c17fbbc",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-vanishing",
+              "length": 257,
+              "text": "Here $S$ is a scheme and $X$ is a quasi-compact and quasi-separated\nalgebraic space over $S$ with the following property: For every\nquasi-coherent $\\mathcal{O}_X$-module $\\mathcal{F}$ we have\n$H^1(X, \\mathcal{F}) = 0$. We set $A = \\Gamma(X, \\mathcal{O}_X)$."
+            }
+          ],
+          "refs": [
+            "situation-vanishing"
+          ],
+          "statement": "In Situation \\ref{situation-vanishing} the morphism $p : X \\to \\Spec(A)$ is\nuniversally injective."
+        }
+      ]
+    },
+    "stacks-second-2026-10-28": {
+      "no_labeled_reference": [
+        {
+          "id": "candidate.stacks.00ad8cae01973aa14539033a",
+          "matches": [],
+          "refs": [],
+          "statement": "The extended alternating {\\v C}ech complexes defined above\nare complexes of $R$-modules."
+        },
+        {
+          "id": "candidate.stacks.0ffab08149a86b1e776755c2",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $k$ be a field. Let $n \\geq 2$. For $1 \\leq i, j \\leq n$ with\n$i \\not = j$ and $d \\geq 0$ denote $T_{i, j, d}$ the automorphism\nof $\\mathbf{A}^n_k$ given in coordinates by\n$$\n(x_1, \\ldots, x_n) \\longmapsto\n(x_1, \\ldots, x_{i - 1}, x_i + x_j^d, x_{i + 1}, \\ldots, x_n)\n$$\nLet $W \\subset \\mathbf{A}^n_k$ be a nonempty open subscheme\nsuch that $T_{i, j, d}(W) = W$ for all $i, j, d$ as above.\nThen either $W = \\mathbf{A}^n_k$ or the characteristic of $k$\nis $p > 0$ and $\\mathbf{A}^n_k \\setminus W$ is a finite set\nof closed points whose coordinates are algebraic over $\\mathbf{F}_p$."
+        },
+        {
+          "id": "candidate.stacks.126800c30617a052cc7d9bc2",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $\\mathcal{C}$ be a site.\nLet $(J, \\geq, V_j, g_{jj'})$ be a system as above with associated\npair of functors $(u', p')$.\nLet $\\mathcal{F}$ be a sheaf on $\\mathcal{C}$.\nLet $s, s' \\in \\mathcal{F}_{p'}$ be distinct elements.\nThere exists a refinement $(I, \\geq, U_i, f_{ii'})$\nof $(J, \\geq, V_j, g_{jj'})$ such that $s, s'$ map\nto distinct elements of $\\mathcal{F}_p$ and such that\nfor every finite covering $\\{W_k \\to W\\}$ of the site\n$\\mathcal{C}$, and any $f \\in u'(W)$ the image of $f$ in $u(W)$\nis in the image of one of the $u(W_k)$."
+        },
+        {
+          "id": "candidate.stacks.13102ce4462ab091fc86b58b",
+          "matches": [],
+          "refs": [],
+          "statement": "In the situation above, we have the following relations:\n\\begin{enumerate}\n\\item We have $h_{n, 0} = b_n$ and $h_{n, n + 1} = a_n$.\n\\item We have $d^n_j \\circ h_{n, i} = h_{n - 1, i - 1} \\circ d^n_j$\nfor $i > j$.\n\\item We have $d^n_j \\circ h_{n, i} = h_{n - 1, i} \\circ d^n_j$\nfor $i \\leq j$.\n\\item We have $s^n_j \\circ h_{n, i} = h_{n + 1, i + 1} \\circ s^n_j$\nfor $i > j$.\n\\item We have $s^n_j \\circ h_{n, i} = h_{n + 1, i} \\circ s^n_j$\nfor $i \\leq j$.\n\\end{enumerate}\nConversely, given a system of maps $h_{n, i}$ satisfying the\nproperties listed above, then these define a morphism\n$h$ which is a homotopy from $a$ to $b$."
+        },
+        {
+          "id": "candidate.stacks.2116b82f99865eff5d2427fd",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $\\mathcal{A}$ be an abelian category. Let $(K^\\bullet, F)$ be a\nfiltered complex of $\\mathcal{A}$. There is a spectral sequence\n$(E_r, d_r)_{r \\geq 0}$ in the category of bigraded objects of $\\mathcal{A}$\nassociated to $(K^\\bullet, F)$ such that $d_r$ has bidegree $(r, - r + 1)$\nand such that $E_r$ has bigraded pieces $E_r^{p, q}$ and maps\n$d_r^{p, q} : E_r^{p, q} \\to E_r^{p + r, q - r + 1}$ as given above.\nFurthermore, we have $E_0^{p, q} = \\text{gr}^p(K^{p + q})$,\n$d_0^{p, q} = \\text{gr}^p(d^{p + q})$,\nand $E_1^{p, q} = H^{p + q}(\\text{gr}^p(K^\\bullet))$."
+        },
+        {
+          "id": "candidate.stacks.2ffd8c7db6c6eb5696d4c67d",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $\\mathcal{A}$ be an additive category.\nThe category $K(\\mathcal{A})$ of complexes up to\nhomotopy with its natural translation functors\nand distinguished triangles as defined above\nis a triangulated category."
+        },
+        {
+          "id": "candidate.stacks.3e9f5586c6ed812a6e2c55c0",
+          "matches": [],
+          "refs": [],
+          "statement": "In the situation discussed above.\nLet $i \\in \\Ob(\\mathcal{I})$ and let $U_i \\subset X_i$ be quasi-compact open.\nThen\n$$\n\\colim_{a : j \\to i} H^p(f_a^{-1}(U_i), \\mathcal{F}_j) =\nH^p(p_i^{-1}(U_i), \\mathcal{F})\n$$\nfor all $p \\geq 0$. In particular we have\n$H^p(X, \\mathcal{F}) = \\colim H^p(X_i, \\mathcal{F}_i)$."
+        },
+        {
+          "id": "candidate.stacks.4060b5b86f0e6601c4ebc2cb",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $\\mathcal{D}$ be a triangulated category. The operations described above\nhave the following properties\n\\begin{enumerate}\n\\item $S(\\mathcal{B}(S))$ is the ``saturation'' of $S$, i.e., it is the\nsmallest saturated multiplicative system in $\\mathcal{D}$ containing $S$, and\n\\item $\\mathcal{B}(S(\\mathcal{B}))$ is the ``saturation'' of $\\mathcal{B}$,\ni.e., it is the smallest strictly full saturated triangulated subcategory of\n$\\mathcal{D}$ containing $\\mathcal{B}$.\n\\end{enumerate}\nIn particular, the constructions define mutually inverse maps between\nthe (partially ordered) set of saturated multiplicative systems in\n$\\mathcal{D}$ compatible with the triangulated structure on $\\mathcal{D}$\nand\nthe (partially ordered) set of strictly full saturated triangulated\nsubcategories of $\\mathcal{D}$."
+        },
+        {
+          "id": "candidate.stacks.48003da4bad0e95362ea2fcc",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $\\mathcal{C}$ be a site. Let\n$\\mathcal{I} \\to \\Sh(\\mathcal{C})$, $i \\mapsto \\mathcal{F}_i$\nbe a filtered diagram of sheaves of sets.\nLet $U \\in \\Ob(\\mathcal{C})$.\nConsider the canonical map\n$$\n\\Psi :\n\\colim_i \\mathcal{F}_i(U)\n\\longrightarrow\n\\left(\\colim_i \\mathcal{F}_i\\right)(U)\n$$\nWith the terminology introduced above:\n\\begin{enumerate}\n\\item If all the transition maps are injective then\n$\\Psi$ is injective for any $U$.\n\\item If $U$ is quasi-compact, then $\\Psi$ is injective.\n\\item If $U$ is quasi-compact and all the transition maps are injective\nthen $\\Psi$ is an isomorphism.\n\\item If $U$ has a cofinal system of coverings\n$\\{U_j \\to U\\}_{j \\in J}$ with\n$J$ finite and $U_j \\times_U U_{j'}$ quasi-compact\nfor all $j, j' \\in J$, then $\\Psi$ is bijective.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.4b3cb58feaeca7048cc27979",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $(U, R, s, t, c)$ be a groupoid scheme over $S$.\nAssume $s, t$ are flat, quasi-compact, and quasi-separated.\nFor any quasi-coherent module $\\mathcal{G}$ on $U$, there exists\na canonical isomorphism\n$\\alpha : t^*s_*t^*\\mathcal{G} \\to s^*s_*t^*\\mathcal{G}$\nwhich turns $(s_*t^*\\mathcal{G}, \\alpha)$ into a quasi-coherent module\non $(U, R, s, t, c)$. This construction defines a functor\n$$\n\\QCoh(\\mathcal{O}_U) \\longrightarrow \\QCoh(U, R, s, t, c)\n$$\nwhich is a right adjoint to the forgetful functor\n$(\\mathcal{F}, \\beta) \\mapsto \\mathcal{F}$."
+        },
+        {
+          "id": "candidate.stacks.4ee456a90261f57fe2b1610e",
+          "matches": [],
+          "refs": [],
+          "statement": "In the situation above, assume {\\v C}ech cohomology agrees with cohomology\nfor the sheaves $\\mathcal{F}_i^p$ and $\\mathcal{G}_j^q$.\nLet $a_3 \\in H^n(X, \\mathcal{F}_3^\\bullet)$ and\n$b_1 \\in H^m(X, \\mathcal{G}_1^\\bullet)$. Then we have\n$$\n\\gamma_1( \\partial a_3 \\cup b_1) =\n(-1)^{n + 1} \\gamma_3( a_3 \\cup \\partial b_1)\n$$\nin $H^{n + m + 1}(X, \\mathcal{H}^\\bullet)$ where $\\partial$ indicates the\nboundary map on cohomology associated to the short exact sequences of\ncomplexes above."
+        },
+        {
+          "id": "candidate.stacks.4f96e611a07fedee5ad639a1",
+          "matches": [],
+          "refs": [],
+          "statement": "Let $X$ be a scheme. Let $\\mathcal{F}$ be a quasi-coherent sheaf on $X$.\nLet $\\Spec(A) = U \\subset X$ be an affine open, and set\n$M = \\Gamma(U, \\mathcal{F})$.\nLet $x \\in U$, and let $\\mathfrak p \\subset A$ be the corresponding prime.\n\\begin{enumerate}\n\\item If $\\mathfrak p$ is associated to $M$, then $x$ is associated\nto $\\mathcal{F}$.\n\\item If $\\mathfrak p$ is finitely generated, then the converse holds\nas well.\n\\end{enumerate}\nIn particular, if $X$ is locally Noetherian, then the equivalence\n$$\n\\mathfrak p \\in \\text{Ass}(M) \\Leftrightarrow x \\in \\text{Ass}(\\mathcal{F})\n$$\nholds for all pairs $(\\mathfrak p, x)$ as above."
+        }
+      ],
+      "no_same_file_statement_label": [
+        {
+          "id": "candidate.stacks.024d325e580493641d0aae79",
+          "matches": [],
+          "refs": [
+            "section-morphism-sites",
+            "section-cocontinuous-morphism-topoi"
+          ],
+          "statement": "Assume given sites $\\mathcal{C}', \\mathcal{C}, \\mathcal{D}', \\mathcal{D}$\nand functors\n$$\n\\xymatrix{\n\\mathcal{C}' \\ar[r]_{v'} &\n\\mathcal{C} \\\\\n\\mathcal{D}' \\ar[r]^v \\ar[u]^{u'} &\n\\mathcal{D} \\ar[u]_u\n}\n$$\nWith notation as in Sections \\ref{section-morphism-sites}\nand \\ref{section-cocontinuous-morphism-topoi} assume\n\\begin{enumerate}\n\\item $u$ and $u'$ are continuous giving rise to morphisms of\nsites $f$ and $f'$,\n\\item $v$ and $v'$ are cocontinuous giving rise to morphisms\nof topoi $g$ and $g'$,\n\\item $u \\circ v = v' \\circ u'$, and\n\\item $v$ and $v'$ are continuous as well as cocontinuous.\n\\end{enumerate}\nThen\\footnote{In this generality\nwe don't know $f \\circ g'$ is equal to $g \\circ f'$\nas morphisms of topoi (there is a canonical $2$-arrow from\nthe first to the second which may not be an isomorphism).}\n$f'_* \\circ (g')^{-1} = g^{-1} \\circ f_*$ and\n$g'_! \\circ (f')^{-1} = f^{-1} \\circ g_!$."
+        },
+        {
+          "id": "candidate.stacks.0b6652a49969094505b5b331",
+          "matches": [],
+          "refs": [
+            "example-glue-points"
+          ],
+          "statement": "Let $k$ be an algebraically closed field. If $f : X' \\to X$ is the\nglueing of two points $a, b$ as in Example \\ref{example-glue-points}, then\nthere is an exact sequence\n$$\nk^* \\to \\Pic(X) \\to \\Pic(X') \\to 0\n$$\nThe first map is zero if $a$ and $b$ are on different\nconnected components of $X'$ and injective\nif $X'$ is proper and $a$ and $b$ are on the same connected component of $X'$."
+        },
+        {
+          "id": "candidate.stacks.105001f08f51b2239bda335d",
+          "matches": [],
+          "refs": [
+            "example-Gm-on-affine"
+          ],
+          "statement": "Let $a : \\mathbf{G}_m \\times X \\to X$ be an action on an affine scheme.\nThen $X$ is the spectrum of a $\\mathbf{Z}$-graded ring\nand the action is as in Example \\ref{example-Gm-on-affine}."
+        },
+        {
+          "id": "candidate.stacks.1ac336369a93e6c64532471a",
+          "matches": [],
+          "refs": [
+            "sites-modules-definition-site-local",
+            "equation-alternative-ringed",
+            "section-quasi-coherent-sheaves"
+          ],
+          "statement": "Let $S$ be a scheme. Let $\\mathcal{F}$ be a presheaf\nof $\\mathcal{O}_{\\textit{Aff}}$-modules on $(\\textit{Aff}/S)_{fppf}$.\nThe following are equivalent\n\\begin{enumerate}\n\\item for every morphism $U \\to U'$ of $(\\textit{Aff}/S)_{fppf}$ the map\n$\\mathcal{F}(U') \\otimes_{\\mathcal{O}(U')} \\mathcal{O}(U) \\to \\mathcal{F}(U)$\nis an isomorphism,\n\\item $\\mathcal{F}$ is a sheaf on $(\\textit{Aff}/S)_{Zar}$ and\na quasi-coherent module on the ringed site\n$((\\textit{Aff}/S)_{Zar}, \\mathcal{O}_{\\textit{Aff}})$ in the sense of\nModules on Sites, Definition \\ref{sites-modules-definition-site-local},\n\\item same as in (2) for the \\'etale topology,\n\\item same as in (2) for the smooth topology,\n\\item same as in (2) for the syntomic topology,\n\\item same as in (2) for the fppf topology,\n\\item $\\mathcal{F}$ corresponds to a quasi-coherent module on\n$(\\Sch/S)_{Zar}$,\n$(\\Sch/S)_\\etale$,\n$(\\Sch/S)_{smooth}$,\n$(\\Sch/S)_{syntomic}$, or\n$(\\Sch/S)_{fppf}$\nvia the equivalence (\\ref{equation-alternative-ringed}),\n\\item $\\mathcal{F}$ comes from a unique quasi-coherent\n$\\mathcal{O}_S$-module $\\mathcal{G}$ by the proced"
+        },
+        {
+          "id": "candidate.stacks.1e8803a5df9d37646176d009",
+          "matches": [],
+          "refs": [
+            "morphisms-definition-degree"
+          ],
+          "statement": "Let $k$ be a field. Let $f : Y \\to X$ be a finite\ndominant morphism of proper varieties over $k$. Let $\\mathcal{L}$\nbe an ample invertible $\\mathcal{O}_X$-module.\nThen\n$$\n\\deg_{f^*\\mathcal{L}}(Y) = \\deg(f) \\deg_\\mathcal{L}(X)\n$$\nwhere $\\deg(f)$ is as in\nMorphisms, Definition \\ref{morphisms-definition-degree}."
+        },
+        {
+          "id": "candidate.stacks.20c2528877b0736cd39b7e5c",
+          "matches": [],
+          "refs": [
+            "example-graded-vector-spaces"
+          ],
+          "statement": "Let $F$ be a field. Let $\\mathcal{C}$ be the category of graded\n$F$-vector spaces viewed as a monoidal category as in\nExample \\ref{example-graded-vector-spaces}. If $V$ in $\\mathcal{C}$\nhas a left dual $W$, then $\\sum_n \\dim_F V^n < \\infty$\nand the map $\\epsilon$ defines nondegenerate pairings\n$W^{-n} \\times V^n \\to F$."
+        },
+        {
+          "id": "candidate.stacks.26adc22553933e66c3f8456c",
+          "matches": [],
+          "refs": [
+            "equation-invariants"
+          ],
+          "statement": "Let $S$ be a scheme. Let $(U, R, s, t, c)$ be a groupoid scheme over $S$.\nAssume $U = \\Spec(A)$ and $R = \\Spec(B)$ are affine and\n$s, t : R \\to U$ finite locally free. Let $C \\subset A$ be as in\n(\\ref{equation-invariants}). Then $U \\to M = \\Spec(C)$ has\nthe following properties:\n\\begin{enumerate}\n\\item the map on points $|U| \\to |M|$ is surjective and\n$u_0, u_1 \\in |U|$ map to the same point if and only if\nthere exists a $r \\in |R|$ with $t(r) = u_0$ and $s(r) = u_1$, in\na formula\n$$\n|M| = |U|/|R|\n$$\n\\item for any algebraically closed field $k$ we have\n$$\nM(k) = U(k)/R(k)\n$$\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.284ec32ab601464c057ad1b8",
+          "matches": [],
+          "refs": [
+            "example-godement-functorial"
+          ],
+          "statement": "Let $\\mathcal{A}$, $\\mathcal{B}$, $\\mathcal{C}$, $Y$, $d$, $s$, $F$, $G$\nbe as in Example \\ref{example-godement-functorial}. Given a transformation\nof functors $h_0 : G \\circ F \\to G \\circ Y \\circ F$ such that\n$$\n1_{G \\circ F} = (1_G \\star d \\star 1_F) \\circ h_0\n$$\nThen there is a morphism $h : G \\circ F \\to G \\circ X \\circ F$\nof simplicial objects such that $\\epsilon \\circ h = \\text{id}$ where\n$\\epsilon : G \\circ X \\circ F \\to G \\circ F$ is the augmentation."
+        },
+        {
+          "id": "candidate.stacks.2b4677ce183ce55a94cf9f3f",
+          "matches": [],
+          "refs": [
+            "equation-complete-local-ring",
+            "equation-complete-local-ring"
+          ],
+          "statement": "Let $K/k$ be an extension of fields. Let $X$ be a locally algebraic\n$k$-scheme. Set $Y = X_K$. Let $y \\in Y$ be a point with image $x \\in X$.\nAssume that $\\dim(\\mathcal{O}_{X, x}) = \\dim(\\mathcal{O}_{Y, y})$\nand that $\\kappa(x)/k$ is separable.\nChoose an isomorphism\n$$\n\\kappa(x)[[x_1, \\ldots, x_n]]/(g_1, \\ldots, g_m) \\longrightarrow\n\\mathcal{O}_{X, x}^\\wedge\n$$\nof $k$-algebras as in (\\ref{equation-complete-local-ring}).\nThen we have an isomorphism\n$$\n\\kappa(y)[[x_1, \\ldots, x_n]]/(g_1, \\ldots, g_m) \\longrightarrow\n\\mathcal{O}_{Y, y}^\\wedge\n$$\nof $K$-algebras as in (\\ref{equation-complete-local-ring}). Here we use\n$\\kappa(x) \\to \\kappa(y)$ to view $g_j$ as a power series\nover $\\kappa(y)$."
+        },
+        {
+          "id": "candidate.stacks.3048a7de4915316d45cbd968",
+          "matches": [],
+          "refs": [
+            "equation-d-cech"
+          ],
+          "statement": "Let $X$ be a ringed space. Let $\\mathcal{U} : X = \\bigcup_{i \\in I} U_i$\nbe an open covering of $X$. Let $\\mathcal{F}$ be an $\\mathcal{O}_X$-module.\nDenote $\\mathcal{F}_{i_0 \\ldots i_p}$ the restriction of\n$\\mathcal{F}$ to $U_{i_0 \\ldots i_p}$. There exists a complex\n${\\mathfrak C}^\\bullet(\\mathcal{U}, \\mathcal{F})$\nof $\\mathcal{O}_X$-modules with\n$$\n{\\mathfrak C}^p(\\mathcal{U}, \\mathcal{F}) =\n\\prod\\nolimits_{i_0 \\ldots i_p}\n(j_{i_0 \\ldots i_p})_* \\mathcal{F}_{i_0 \\ldots i_p}\n$$\nand differential\n$d : {\\mathfrak C}^p(\\mathcal{U}, \\mathcal{F})\n\\to {\\mathfrak C}^{p + 1}(\\mathcal{U}, \\mathcal{F})$\nas in Equation (\\ref{equation-d-cech}). Moreover, there exists a canonical\nmap\n$$\n\\mathcal{F} \\to {\\mathfrak C}^\\bullet(\\mathcal{U}, \\mathcal{F})\n$$\nwhich is a quasi-isomorphism, i.e.,\n${\\mathfrak C}^\\bullet(\\mathcal{U}, \\mathcal{F})$\nis a resolution of $\\mathcal{F}$."
+        },
+        {
+          "id": "candidate.stacks.35a17a7c083ec8ef51a93376",
+          "matches": [],
+          "refs": [
+            "equation-invariants"
+          ],
+          "statement": "Let $S$ be a scheme. Let $(U, R, s, t, c)$ be a groupoid scheme over $S$.\nAssume $U = \\Spec(A)$ and $R = \\Spec(B)$ are affine and\n$s, t : R \\to U$ finite locally free. Let $C \\subset A$ be as in\n(\\ref{equation-invariants}). Let $C \\to C'$ be a ring map, and set\n$U' = \\Spec(A \\otimes_C C')$,\n$R' = \\Spec(B \\otimes_C C')$.\nThen\n\\begin{enumerate}\n\\item The maps $s, t, c$ induce maps $s', t', c'$ such that\n$(U', R', s', t', c')$ is a groupoid scheme. Let $C^1 \\subset A'$\nbe the $R'$-invariant functions on $U'$.\n\\item The canonical map $\\varphi : C' \\to C^1$ satisfies\n\\begin{enumerate}\n\\item for every $f \\in C^1$ there exists an $n > 0$ and a\npolynomial $P \\in C'[x]$ whose image in $C^1[x]$ is\n$(x - f)^n$, and\n\\item for every $f \\in \\Ker(\\varphi)$ there exists\nan $n > 0$ such that $f^n = 0$.\n\\end{enumerate}\n\\item If $C \\to C'$ is flat then $\\varphi$ is an isomorphism.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.5449c6bf9bf4d2e4d7c7b484",
+          "matches": [],
+          "refs": [
+            "example-godement-functorial"
+          ],
+          "statement": "Let $\\mathcal{A}$, $\\mathcal{B}$, $\\mathcal{C}$, $Y$, $d$, $s$, $F$, $G$\nbe as in Example \\ref{example-godement-functorial}. Let\n$F' : \\mathcal{A} \\to \\mathcal{C}$ and\n$G' : \\mathcal{C} \\to \\mathcal{B}$ be two functors.\nLet $(a_n) : G \\circ X \\to G' \\circ X$ be a morphism of simplicial objects\ncompatible via augmentations with $a : G \\to G'$.\nLet $(b_n) : X \\circ F \\to X \\circ F'$ be a morphism of simplicial objects\ncompatible via augmentations with $b : F \\to F'$. Then the two maps\n$$\na \\star (b_n), (a_n) \\star b : G \\circ X \\circ F \\to G' \\circ X \\circ F'\n$$\nare homotopic."
+        }
+      ],
+      "other_statement_label_available": [
+        {
+          "id": "candidate.stacks.0049ce1b520d4b2064fb90d4",
+          "matches": [
+            {
+              "kind": "definition",
+              "label": "definition-strict-transform",
+              "length": 567,
+              "text": "With $Z \\subset S$ and $f : X \\to S$ as above.\n\\begin{enumerate}\n\\item Given a quasi-coherent $\\mathcal{O}_X$-module $\\mathcal{F}$\nthe {\\it strict transform} of $\\mathcal{F}$ with respect to the blowup\nof $S$ in $Z$ is the quotient $\\mathcal{F}'$ of $\\text{pr}_X^*\\mathcal{F}$\nby the submodule of sections supported on $\\text{pr}_{S'}^{-1}E$.\n\\item The {\\it strict transform} of $X$ is the closed subscheme\n$X' \\subset X \\times_S S'$ cut out by the quasi-coherent ideal of\nsections of $\\mathcal{O}_{X \\times_S S'}$ supported on $\\text{pr}_{S'}^{-1}E$.\n\\end{enumerate}"
+            }
+          ],
+          "refs": [
+            "definition-strict-transform"
+          ],
+          "statement": "In the situation of Definition \\ref{definition-strict-transform}.\n\\begin{enumerate}\n\\item The strict transform $X'$ of $X$ is the blowup of $X$ in the closed\nsubscheme $f^{-1}Z$ of $X$.\n\\item For a quasi-coherent $\\mathcal{O}_X$-module $\\mathcal{F}$ the\nstrict transform $\\mathcal{F}'$ is canonically isomorphic to\nthe pushforward along $X' \\to X \\times_S S'$ of the strict transform of\n$\\mathcal{F}$ relative to the blowing up $X' \\to X$.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.014862a0d3153401c136f48f",
+          "matches": [
+            {
+              "kind": "remark",
+              "label": "remark-homotopy-cosimplicial-better",
+              "length": 1301,
+              "text": "Let $\\mathcal{C}$ be any category (no assumptions whatsoever). Let\n$U$ and $V$ be cosimplicial objects of $\\mathcal{C}$. Let $a, b : U \\to V$\nbe morphisms of cosimplicial objects of $\\mathcal{C}$. A\n{\\it homotopy from $a$ to $b$} is given by morphisms\n$h_{n, \\alpha} : U_n \\to V_n$, for $n \\geq 0$, $\\alpha \\in \\Delta[1]_n$\nsatisfying (\\ref{equation-property-homotopy-cosimplicial})\nfor all morphisms $f$ of $\\Delta$ and such that\n$a_n = h_{n, 0 : [n] \\to [1]}$ and $b_n = h_{n, 1 : [n] \\to [1]}$\nfor all $n \\geq 0$.\nAs in Definition \\ref{definition-homotopy-cosimplicial}\nwe say the morphisms $a$ and $b$\nare {\\it homotopic} if there exists a sequence of morphisms\n$a = a_0, a_1, \\ldots, a_n = b$ from $U$ to $V$ such that for each\n$i = 1, \\ldots, n$ there either exists a homotopy from $a_{i - 1}$ to $a_i$\nor there exists a homotopy from $a_i$ to $a_{i - 1}$.\nClearly, if $F : \\mathcal{C} \\to \\mathcal{C}'$ is any functor\nand $\\{h_{n, i}\\}$ is a homotopy from $a$ to $b$, then\n$\\{F(h_{n, i})\\}$ is a homotopy from $F(a)$ to $F(b)$.\nSimilarly, if $a$ and $b$ are homotopic, then $F(a)$ and $F(b)$\nare homotopic. This new notion is the same\nas the old one in case finite products exist. We deduce\nin particular that functors preserve the original notion\nwhenever both categories have finite products."
+            },
+            {
+              "kind": "remark",
+              "label": "remark-homotopy-better",
+              "length": 1422,
+              "text": "Let $\\mathcal{C}$ be any category (no assumptions whatsoever). Let\n$U$ and $V$ be simplicial objects of $\\mathcal{C}$. Let $a, b : U \\to V$\nbe morphisms of simplicial objects of $\\mathcal{C}$. A\n{\\it homotopy from $a$ to $b$} is given by\nmorphisms\\footnote{In the literature, often the maps\n$h_{n + 1, i} \\circ s_i : U_n \\to V_{n + 1}$ are used instead\nof the maps $h_{n, i}$. Of course the relations these maps satisfy\nare different from the ones in Lemma \\ref{lemma-relations-homotopy}.}\n$h_{n, i} : U_n \\to V_n$, for $n \\geq 0$, $i = 0, \\ldots, n + 1$\nsatisfying the relations of Lemma \\ref{lemma-relations-homotopy}.\nAs in Definition \\ref{definition-homotopy} we say the morphisms $a$ and $b$\nare {\\it homotopic} if there exists a sequence of morphisms\n$a = a_0, a_1, \\ldots, a_n = b$ from $U$ to $V$ such that for each\n$i = 1, \\ldots, n$ there either exists a homotopy from $a_{i - 1}$ to $a_i$\nor there exists a homotopy from $a_i$ to $a_{i - 1}$.\nClearly, if $F : \\mathcal{C} \\to \\mathcal{C}'$ is any functor\nand $\\{h_{n, i}\\}$ is a homotopy from $a$ to $b$, then\n$\\{F(h_{n, i})\\}$ is a homotopy from $F(a)$ to $F(b)$.\nSimilarly, if $a$ and $b$ are homotopic, then $F(a)$ and $F(b)$\nare homotopic.\nSince the lemma says that the newer notion is the same\nas the old one in case finite coproduct exist, we deduce\nin particular that functors preserve the original notion\nwhenever both categories have finite coproducts."
+            }
+          ],
+          "refs": [
+            "remark-homotopy-cosimplicial-better",
+            "remark-homotopy-better"
+          ],
+          "statement": "Let $\\mathcal{C}, \\mathcal{C}', \\mathcal{D}, \\mathcal{D}'$ be categories.\nWith terminology as in Remarks \\ref{remark-homotopy-cosimplicial-better} and\n\\ref{remark-homotopy-better}.\n\\begin{enumerate}\n\\item Let $a, b : U \\to V$ be morphisms of simplicial objects\nof $\\mathcal{D}$. Let $F : \\mathcal{D} \\to \\mathcal{D}'$ be a covariant\nfunctor. If $a$ and $b$ are homotopic, then $F(a)$, $F(b)$\nare homotopic morphisms $F(U) \\to F(V)$ of simplicial objects.\n\\item Let $a, b : U \\to V$ be morphisms of cosimplicial objects\nof $\\mathcal{C}$. Let $F : \\mathcal{C} \\to \\mathcal{C}'$ be a covariant\nfunctor. If $a$ and $b$ are homotopic, then $F(a)$, $F(b)$\nare homotopic morphisms $F(U) \\to F(V)$ of cosimplicial objects.\n\\item Let $a, b : U \\to V$ be morphisms of simplicial objects of $\\mathcal{D}$.\nLet $F : \\mathcal{D} \\to \\mathcal{C}$ be a contravariant\nfunctor. If $a$ and $b$ are homotopic, then $F(a)$, $F(b)$\nare homotopic morphisms $F(V) \\to F(U)$ of cosimplicial objects.\n\\item Let $a, b : U \\to V$ be morphisms of cosimplicial objects of\n$\\mathcal{C}$.\nLet $F : \\mathcal{C} \\to \\mathcal{D}$ be a"
+        },
+        {
+          "id": "candidate.stacks.074764ecf2555e099ef3d653",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-pullback",
+              "length": 991,
+              "text": "Pullback of descent data for schemes over schemes.\n\\begin{enumerate}\n\\item Let\n$$\n\\xymatrix{\nX' \\ar[r]_f \\ar[d]_{a'} & X \\ar[d]^a \\\\\nS' \\ar[r]^h & S\n}\n$$\nbe a commutative diagram of morphisms of schemes.\nThe construction\n$$\n(V \\to X, \\varphi) \\longmapsto f^*(V \\to X, \\varphi) = (V' \\to X', \\varphi')\n$$\nwhere $V' = X' \\times_X V$ and where\n$\\varphi'$ is defined as the composition\n$$\n\\xymatrix{\nV' \\times_{S'} X' \\ar@{=}[r] &\n(X' \\times_X V) \\times_{S'} X' \\ar@{=}[r] &\n(X' \\times_{S'} X') \\times_{X \\times_S X} (V \\times_S X)\n\\ar[d]^{\\text{id} \\times \\varphi} \\\\\nX' \\times_{S'} V' \\ar@{=}[r] &\nX' \\times_{S'} (X' \\times_X V) &\n(X' \\times_{S'} X') \\times_{X \\times_S X} (X \\times_S V) \\ar@{=}[l]\n}\n$$\ndefines a functor from the category of descent data\nrelative to $X \\to S$ to the category of descent data\nrelative to $X' \\to S'$.\n\\item Given two morphisms $f_i : X' \\to X$, $i = 0, 1$ making the\ndiagram commute the functors $f_0^*$ and $f_1^*$ are\ncanonically isomorphic.\n\\end{enumerate}"
+            }
+          ],
+          "refs": [
+            "lemma-pullback"
+          ],
+          "statement": "In the situation of Lemma \\ref{lemma-pullback}\nassume that $f : X' \\to X$ is surjective\nand flat. Then the pullback functor is faithful."
+        },
+        {
+          "id": "candidate.stacks.0920b158ba3ad6f45e1713c0",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-norm-invertible",
+              "length": 329,
+              "text": "Let $\\pi : X \\to Y$ be a finite morphism of schemes. If there exists\na norm of degree $d$ for $\\pi$, then there exists a homomorphism of\nabelian groups\n$$\n\\text{Norm}_\\pi : \\Pic(X) \\to \\Pic(Y)\n$$\nsuch that $\\text{Norm}_\\pi(\\pi^*\\mathcal{N}) \\cong \\mathcal{N}^{\\otimes d}$\nfor all invertible $\\mathcal{O}_Y$-modules $\\mathcal{N}$."
+            }
+          ],
+          "refs": [
+            "lemma-norm-invertible"
+          ],
+          "statement": "Let $\\pi : X \\to Y$ be a finite morphism of schemes. Assume there exists\na norm of degree $d$ for $\\pi$. For any $\\mathcal{O}_X$-linear map\n$\\varphi : \\mathcal{L} \\to \\mathcal{L}'$\nof invertible $\\mathcal{O}_X$-modules there is an $\\mathcal{O}_Y$-linear\nmap\n$$\n\\text{Norm}_\\pi(\\varphi) :\n\\text{Norm}_\\pi(\\mathcal{L})\n\\longrightarrow\n\\text{Norm}_\\pi(\\mathcal{L}')\n$$\nwith $\\text{Norm}_\\pi(\\mathcal{L})$, $\\text{Norm}_\\pi(\\mathcal{L}')$\nas in Lemma \\ref{lemma-norm-invertible}. Moreover, for\n$y \\in Y$ the following are equivalent\n\\begin{enumerate}\n\\item $\\varphi$ is zero at a point of $x \\in X$ with $\\pi(x) = y$, and\n\\item $\\text{Norm}_\\pi(\\varphi)$ is zero at $y$.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.0af8b6d2d7c17046230f4d10",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-point-localize",
+              "length": 584,
+              "text": "Let $\\mathcal{C}$ be a site. Let $p$ be a point of $\\mathcal{C}$ given by\n$u : \\mathcal{C} \\to \\textit{Sets}$. Let $U$ be an object of $\\mathcal{C}$\nand let $x \\in u(U)$. The functor\n$$\nv : \\mathcal{C}/U \\longrightarrow \\textit{Sets}, \\quad\n(\\varphi : V \\to U) \\longmapsto \\{y \\in u(V) \\mid u(\\varphi)(y) = x\\}\n$$\ndefines a point $q$ of the site $\\mathcal{C}/U$ such that the diagram\n$$\n\\xymatrix{\n& \\Sh(pt) \\ar[d]^p \\ar[ld]_q \\\\\n\\Sh(\\mathcal{C}/U) \\ar[r]^{j_U} &\n\\Sh(\\mathcal{C})\n}\n$$\ncommutes. In other words\n$\\mathcal{F}_p = (j_U^{-1}\\mathcal{F})_q$ for any\nsheaf on $\\mathcal{C}$."
+            }
+          ],
+          "refs": [
+            "lemma-point-localize"
+          ],
+          "statement": "Let $\\mathcal{C}$ be a site. Let $p$ be a point of $\\mathcal{C}$ given by\n$u : \\mathcal{C} \\to \\textit{Sets}$. Let $U$ be an object of $\\mathcal{C}$.\nFor any sheaf $\\mathcal{G}$ on $\\mathcal{C}/U$ we have\n$$\n(j_{U!}\\mathcal{G})_p =\n\\coprod\\nolimits_q \\mathcal{G}_q\n$$\nwhere the coproduct is over the points $q$ of $\\mathcal{C}/U$\nassociated to elements $x \\in u(U)$ as in\nLemma \\ref{lemma-point-localize}."
+        },
+        {
+          "id": "candidate.stacks.0b6dc4a2017b672e416cd532",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-module-over-fibre-product",
+              "length": 478,
+              "text": "In Situation \\ref{situation-module-over-fibre-product}\nthe functor (\\ref{equation-functor}) has a right adjoint, namely\nthe functor\n$$\nF : (N, M', \\varphi) \\longmapsto N \\times_{\\varphi, M} M'\n$$\nwhere $M = M'/IM'$. Moreover, the composition of $F$ with\n(\\ref{equation-functor}) is the identity functor on\n$\\text{Mod}_B \\times_{\\text{Mod}_A} \\text{Mod}_{A'}$. In other words,\nsetting $N' = N \\times_{\\varphi, M} M'$ we have\n$N' \\otimes_{B'} B = N$ and $N' \\otimes_{B'} A' = M'$."
+            }
+          ],
+          "refs": [
+            "lemma-module-over-fibre-product"
+          ],
+          "statement": "Let $A, A', B, B', I, M, M', N, \\varphi$ be as in\nLemma \\ref{lemma-module-over-fibre-product}.\nIf $N$ finite over $B$ and $M'$ finite over $A'$, then\n$N' = N \\times_{\\varphi, M} M'$ is finite over $B'$."
+        },
+        {
+          "id": "candidate.stacks.0bb5aa148517ab47d4f8c76e",
+          "matches": [
+            {
+              "kind": "remark",
+              "label": "remark-easier-family",
+              "length": 745,
+              "text": "Let $S$ be a scheme.\nLet $\\{X_i \\to S\\}_{i \\in I}$ be a family of morphisms with target $S$.\nLet $(V_i, \\varphi_{ij})$ be a descent datum relative to\n$\\{X_i \\to S\\}$. We may think of the isomorphisms $\\varphi_{ij}$\nas isomorphisms\n$$\n(X_i \\times_S X_j) \\times_{\\text{pr}_0, X_i} V_i\n\\longrightarrow\n(X_i \\times_S X_j) \\times_{\\text{pr}_1, X_j} V_j\n$$\nof schemes over $X_i \\times_S X_j$. So loosely speaking one may\nthink of $\\varphi_{ij}$ as an isomorphism\n$\\text{pr}_0^*V_i \\to \\text{pr}_1^*V_j$ over $X_i \\times_S X_j$.\nThe cocycle condition then says that\n$\\text{pr}_{02}^*\\varphi_{ik} =\n\\text{pr}_{12}^*\\varphi_{jk} \\circ \\text{pr}_{01}^*\\varphi_{ij}$.\nIn this way it is very similar to the case of a descent datum on\nquasi-coherent sheaves."
+            },
+            {
+              "kind": "lemma",
+              "label": "lemma-family-is-one",
+              "length": 557,
+              "text": "Let $S$ be a scheme.\nLet $\\{X_i \\to S\\}_{i \\in I}$ be a family of morphisms with target $S$.\nSet $X = \\coprod_{i \\in I} X_i$, and consider it as an $S$-scheme.\nThere is a canonical equivalence of categories\n$$\n\\begin{matrix}\n\\text{category of descent data } \\\\\n\\text{relative to the family } \\{X_i \\to S\\}_{i \\in I}\n\\end{matrix}\n\\longrightarrow\n\\begin{matrix}\n\\text{ category of descent data} \\\\\n\\text{ relative to } X/S\n\\end{matrix}\n$$\nwhich maps $(V_i, \\varphi_{ij})$ to $(V, \\varphi)$ with\n$V = \\coprod_{i\\in I} V_i$ and $\\varphi = \\coprod \\varphi_{ij}$."
+            }
+          ],
+          "refs": [
+            "sites-definition-morphism-coverings",
+            "remark-easier-family",
+            "lemma-family-is-one",
+            "lemma-pullback"
+          ],
+          "statement": "Let $\\mathcal{U} = \\{U_i \\to S'\\}_{i \\in I}$ and\n$\\mathcal{V} = \\{V_j \\to S\\}_{j \\in J}$ be families of morphisms with\nfixed target. Let $\\alpha : I \\to J$, $h : S' \\to S$ and\n$g_i : U_i \\to V_{\\alpha(i)}$ be a morphism of families\nof maps with fixed target, see\nSites, Definition \\ref{sites-definition-morphism-coverings}.\n\\begin{enumerate}\n\\item Let $(Y_j, \\varphi_{jj'})$ be a descent datum relative to the\nfamily $\\{V_j \\to S'\\}$. The system\n$$\n\\left(\ng_i^*Y_{\\alpha(i)},\n(g_i \\times g_{i'})^*\\varphi_{\\alpha(i)\\alpha(i')}\n\\right)\n$$\n(with notation as in Remark \\ref{remark-easier-family})\nis a descent datum relative to $\\mathcal{V}$.\n\\item This construction defines a functor between descent data relative\nto $\\mathcal{U}$ and descent data relative to $\\mathcal{V}$.\n\\item Given a second $\\alpha' : I \\to J$, $h' : S' \\to S$ and\n$g'_i : U_i \\to V_{\\alpha'(i)}$ morphism of families\nof maps with fixed target, then if $h = h'$ the two resulting functors\nbetween descent data are canonically isomorphic.\n\\item These functors agree, via Lemma \\ref{lemma-family-is-one},\nwith the pullback functors "
+        },
+        {
+          "id": "candidate.stacks.1459726f136737244ffc20a3",
+          "matches": [
+            {
+              "kind": "definition",
+              "label": "definition-intersection-number",
+              "length": 678,
+              "text": "Let $k$ be a field. Let $X$ be a proper scheme over $k$. Let\n$i : Z \\to X$ be a closed subscheme of dimension $d$. Let\n$\\mathcal{L}_1, \\ldots, \\mathcal{L}_d$ be invertible\n$\\mathcal{O}_X$-modules. We define the {\\it intersection number}\n$(\\mathcal{L}_1 \\cdots \\mathcal{L}_d \\cdot Z)$\nas the coefficient of $n_1 \\ldots n_d$ in the numerical polynomial\n$$\n\\chi(X, i_*\\mathcal{O}_Z \\otimes \\mathcal{L}_1^{\\otimes n_1} \\otimes\n\\ldots \\otimes \\mathcal{L}_d^{\\otimes n_d}) =\n\\chi(Z, \\mathcal{L}_1^{\\otimes n_1} \\otimes\n\\ldots \\otimes \\mathcal{L}_d^{\\otimes n_d}|_Z)\n$$\nIn the special\ncase that $\\mathcal{L}_1 = \\ldots = \\mathcal{L}_d = \\mathcal{L}$\nwe write $(\\mathcal{L}^d \\cdot Z)$."
+            }
+          ],
+          "refs": [
+            "definition-intersection-number"
+          ],
+          "statement": "In the situation of Definition \\ref{definition-intersection-number}\nthe intersection number\n$(\\mathcal{L}_1 \\cdots \\mathcal{L}_d \\cdot Z)$\nis additive: if $\\mathcal{L}_i = \\mathcal{L}_i' \\otimes \\mathcal{L}_i''$,\nthen we have\n$$\n(\\mathcal{L}_1 \\cdots \\mathcal{L}_i \\cdots \\mathcal{L}_d \\cdot Z) =\n(\\mathcal{L}_1 \\cdots \\mathcal{L}_i' \\cdots \\mathcal{L}_d \\cdot Z) +\n(\\mathcal{L}_1 \\cdots \\mathcal{L}_i'' \\cdots \\mathcal{L}_d \\cdot Z)\n$$"
+        },
+        {
+          "id": "candidate.stacks.14ee74bb350a3ba239d672c8",
+          "matches": [
+            {
+              "kind": "definition",
+              "label": "definition-local-source-target-at-point",
+              "length": 359,
+              "text": "Let $\\mathcal{Q}$ be a property of morphisms of germs of schemes.\nWe say $\\mathcal{Q}$ is  {\\it \\'etale local on the source-and-target}\nif for any commutative diagram\n$$\n\\xymatrix{\n(U', u') \\ar[d]_a \\ar[r]_{h'} & (V', v') \\ar[d]^b \\\\\n(U, u) \\ar[r]^h & (V, v)\n}\n$$\nof germs with \\'etale vertical arrows we have\n$\\mathcal{Q}(h) \\Leftrightarrow \\mathcal{Q}(h')$."
+            }
+          ],
+          "refs": [
+            "definition-local-source-target-at-point"
+          ],
+          "statement": "Let $\\mathcal{P}$ be a property of morphisms of schemes\nwhich is \\'etale local on the source-and-target.\nConsider the property $\\mathcal{Q}$ of\nmorphisms of germs defined by the rule\n$$\n\\mathcal{Q}((X, x) \\to (S, s))\n\\Leftrightarrow\n\\text{there exists a representative }U \\to S\n\\text{ which has }\\mathcal{P}\n$$\nThen $\\mathcal{Q}$ is \\'etale local on the source-and-target as in\nDefinition \\ref{definition-local-source-target-at-point}."
+        },
+        {
+          "id": "candidate.stacks.1540e2b85511c4c321a547fb",
+          "matches": [
+            {
+              "kind": "lemma",
+              "label": "lemma-equation-plane-curve",
+              "length": 241,
+              "text": "Let $Z \\subset \\mathbf{P}^2_k$ be a closed subscheme which\nis equidimensional of dimension $1$ and has no embedded points\n(equivalently $Z$ is Cohen-Macaulay).\nThen the ideal $I(Z) \\subset k[T_0, T_1, T_2]$ corresponding\nto $Z$ is principal."
+            }
+          ],
+          "refs": [
+            "lemma-equation-plane-curve"
+          ],
+          "statement": "Let $Z \\subset \\mathbf{P}^2_k$ be as in Lemma \\ref{lemma-equation-plane-curve}\nand let $I(Z) = (F)$ for some $F \\in k[T_0, T_1, T_2]$.\nIf $Z \\to \\Spec(k)$ is smooth in at least one point and $k$ is infinite, then\nthere exists a closed point $z \\in Z$ contained in the smooth\nlocus such that $\\kappa(z)/k$ is finite separable of degree\nat most $d$."
+        },
+        {
+          "id": "candidate.stacks.17fc792c51603ca34f250090",
+          "matches": [
+            {
+              "kind": "theorem",
+              "label": "theorem-topology-and-topos",
+              "length": 239,
+              "text": "Let $\\mathcal{C}$ be a category.\nLet $J$, $J'$ be topologies on $\\mathcal{C}$.\nThe following are equivalent\n\\begin{enumerate}\n\\item $J = J'$,\n\\item sheaves for the topology $J$ are the same as\nsheaves for the topology $J'$.\n\\end{enumerate}"
+            }
+          ],
+          "refs": [
+            "theorem-topology-and-topos"
+          ],
+          "statement": "Assumption and notation as in Theorem \\ref{theorem-topology-and-topos}.\nThen $J \\subset J'$ if and only if every sheaf for the\ntopology $J'$ is a sheaf for the topology $J$."
+        },
+        {
+          "id": "candidate.stacks.19b3d545aa856bbfed13a5e1",
+          "matches": [
+            {
+              "kind": "definition",
+              "label": "definition-intersection-number",
+              "length": 678,
+              "text": "Let $k$ be a field. Let $X$ be a proper scheme over $k$. Let\n$i : Z \\to X$ be a closed subscheme of dimension $d$. Let\n$\\mathcal{L}_1, \\ldots, \\mathcal{L}_d$ be invertible\n$\\mathcal{O}_X$-modules. We define the {\\it intersection number}\n$(\\mathcal{L}_1 \\cdots \\mathcal{L}_d \\cdot Z)$\nas the coefficient of $n_1 \\ldots n_d$ in the numerical polynomial\n$$\n\\chi(X, i_*\\mathcal{O}_Z \\otimes \\mathcal{L}_1^{\\otimes n_1} \\otimes\n\\ldots \\otimes \\mathcal{L}_d^{\\otimes n_d}) =\n\\chi(Z, \\mathcal{L}_1^{\\otimes n_1} \\otimes\n\\ldots \\otimes \\mathcal{L}_d^{\\otimes n_d}|_Z)\n$$\nIn the special\ncase that $\\mathcal{L}_1 = \\ldots = \\mathcal{L}_d = \\mathcal{L}$\nwe write $(\\mathcal{L}^d \\cdot Z)$."
+            }
+          ],
+          "refs": [
+            "definition-intersection-number"
+          ],
+          "statement": "In the situation of Definition \\ref{definition-intersection-number}\nlet $Z_i \\subset Z$ be the irreducible components of dimension $d$. Let\n$m_i = \\text{length}_{\\mathcal{O}_{X, \\xi_i}}(\\mathcal{O}_{Z, \\xi_i})$\nwhere $\\xi_i \\in Z_i$ is the generic point. Then\n$$\n(\\mathcal{L}_1 \\cdots \\mathcal{L}_d \\cdot Z) =\n\\sum m_i(\\mathcal{L}_1 \\cdots \\mathcal{L}_d \\cdot Z_i)\n$$"
+        }
+      ],
+      "situation_notation_or_setup_available": [
+        {
+          "id": "candidate.stacks.0a9d9e002cd6c18e09ef8178",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-derived-functor",
+              "length": 221,
+              "text": "Here $F : \\mathcal{D} \\to \\mathcal{D}'$ is an exact functor of triangulated\ncategories and $S$ is a saturated multiplicative\nsystem in $\\mathcal{D}$ compatible with the structure\nof triangulated category on $\\mathcal{D}$."
+            }
+          ],
+          "refs": [
+            "situation-derived-functor"
+          ],
+          "statement": "Assumptions and notation as in\nSituation \\ref{situation-derived-functor}.\nLet $s : X \\to Y$ be an element of $S$.\n\\begin{enumerate}\n\\item $RF$ is defined at $X$ if and only if it is defined at $Y$.\nIn this case the map $RF(s) : RF(X) \\to RF(Y)$ between values\nis an isomorphism.\n\\item $LF$ is defined at $X$ if and only if it is defined at $Y$.\nIn this case the map $LF(s) : LF(X) \\to LF(Y)$ between values\nis an isomorphism.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.0bffe96482ec386e47b7a67a",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-adjoint-functors",
+              "length": 156,
+              "text": "Let $\\mathcal{A}$, $\\mathcal{S}$ be categories and let\n$V : \\mathcal{A} \\to \\mathcal{S}$ be a functor with a left adjoint\n$U : \\mathcal{S} \\to \\mathcal{A}$."
+            }
+          ],
+          "refs": [
+            "situation-adjoint-functors"
+          ],
+          "statement": "In Situation \\ref{situation-adjoint-functors} the maps\n$$\n1_V \\star \\epsilon : V \\circ X \\to V,\n\\quad\\text{and}\\quad\n\\epsilon \\star 1_U : X \\circ U \\to U\n$$\nare homotopy equivalences."
+        },
+        {
+          "id": "candidate.stacks.0eda72fe8f3f41705492961d",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-derived-functor",
+              "length": 221,
+              "text": "Here $F : \\mathcal{D} \\to \\mathcal{D}'$ is an exact functor of triangulated\ncategories and $S$ is a saturated multiplicative\nsystem in $\\mathcal{D}$ compatible with the structure\nof triangulated category on $\\mathcal{D}$."
+            }
+          ],
+          "refs": [
+            "situation-derived-functor"
+          ],
+          "statement": "Assumptions and notation as in\nSituation \\ref{situation-derived-functor}.\nLet $(X, Y, Z, f, g, h)$ be a distinguished triangle of $\\mathcal{D}$.\nIf $RF$ is defined at two out of three of $X, Y, Z$, then it is defined\nat the third. Moreover, in this case\n$$\n(RF(X), RF(Y), RF(Z), RF(f), RF(g), RF(h))\n$$\nis a distinguished triangle in $\\mathcal{D}'$. Similarly for $LF$."
+        },
+        {
+          "id": "candidate.stacks.0fc2ab4a39d7ad20bb94ba01",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-derived-functor",
+              "length": 221,
+              "text": "Here $F : \\mathcal{D} \\to \\mathcal{D}'$ is an exact functor of triangulated\ncategories and $S$ is a saturated multiplicative\nsystem in $\\mathcal{D}$ compatible with the structure\nof triangulated category on $\\mathcal{D}$."
+            }
+          ],
+          "refs": [
+            "situation-derived-functor"
+          ],
+          "statement": "Assumptions and notation as in Situation \\ref{situation-derived-functor}.\nLet $X, Y$ be objects of $\\mathcal{D}$. If $X \\oplus Y$ computes $RF$, then\n$X$ and $Y$ compute $RF$. Similarly for $LF$."
+        },
+        {
+          "id": "candidate.stacks.141ac13b398595ec325dd245",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-Cohen-Macaulay-curve",
+              "length": 106,
+              "text": "Here $k$ is a field, $X$ is a proper scheme over $k$ having dimension $1$\nand $H^0(X, \\mathcal{O}_X) = k$."
+            }
+          ],
+          "refs": [
+            "situation-Cohen-Macaulay-curve"
+          ],
+          "statement": "In Situation \\ref{situation-Cohen-Macaulay-curve},\nassume $X$ is geometrically integral over $k$ and has genus $g$.\nLet $\\mathcal{L}$ be an invertible $\\mathcal{O}_X$-module.\nIf $\\deg(\\mathcal{L}) \\geq 2g + 1$, then $\\mathcal{L}$\nis very ample."
+        },
+        {
+          "id": "candidate.stacks.1ad5d6ad735cebc494c65649",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-locally-given",
+              "length": 458,
+              "text": "Let $(X, \\mathcal{O}_X)$ be a ringed space. We are given\n\\begin{enumerate}\n\\item a collection of opens $\\mathcal{B}$ of $X$,\n\\item for $U \\in \\mathcal{B}$ an object $K_U$ in $D(\\mathcal{O}_U)$,\n\\item for $V \\subset U$ with $V, U \\in \\mathcal{B}$ an isomorphism\n$\\rho^U_V : K_U|_V \\to K_V$ in $D(\\mathcal{O}_V)$,\n\\end{enumerate}\nsuch that whenever we have $W \\subset V \\subset U$ with $U, V, W$ in\n$\\mathcal{B}$, then $\\rho^U_W = \\rho^V_W \\circ \\rho ^U_V|_W$."
+            }
+          ],
+          "refs": [
+            "situation-locally-given"
+          ],
+          "statement": "\\begin{reference}\nSpecial case of \\cite[Theorem 3.2.4]{BBD}\nwithout boundedness assumption.\n\\end{reference}\nIn Situation \\ref{situation-locally-given} assume\n\\begin{enumerate}\n\\item $X = \\bigcup_{U \\in \\mathcal{B}} U$,\n\\item for $U, V \\in \\mathcal{B}$ we have\n$U \\cap V = \\bigcup_{W \\in \\mathcal{B}, W \\subset U \\cap V} W$,\n\\item for any $U \\in \\mathcal{B}$ we have $\\Ext^i(K_U, K_U) = 0$\nfor $i < 0$.\n\\end{enumerate}\nThen there exists an object $K$ of $D(\\mathcal{O}_X)$\nand isomorphisms $\\rho_U : K|_U \\to K_U$ in $D(\\mathcal{O}_U)$ for\n$U \\in \\mathcal{B}$ such that $\\rho^U_V \\circ \\rho_U|_V = \\rho_V$\nfor all $V \\subset U$ with $U, V \\in \\mathcal{B}$.\nThe pair $(K, \\rho_U)$ is unique up to unique isomorphism."
+        },
+        {
+          "id": "candidate.stacks.1c8c8950198b25f0d1adb011",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-derived-functor",
+              "length": 221,
+              "text": "Here $F : \\mathcal{D} \\to \\mathcal{D}'$ is an exact functor of triangulated\ncategories and $S$ is a saturated multiplicative\nsystem in $\\mathcal{D}$ compatible with the structure\nof triangulated category on $\\mathcal{D}$."
+            }
+          ],
+          "refs": [
+            "situation-derived-functor"
+          ],
+          "statement": "Assumptions and notation as in Situation \\ref{situation-derived-functor}.\n\\begin{enumerate}\n\\item The full subcategory $\\mathcal{E}$ of $\\mathcal{D}$ consisting of\nobjects at which $RF$ is defined is a strictly full triangulated\nsubcategory of $\\mathcal{D}$.\n\\item We obtain an exact functor\n$RF : \\mathcal{E} \\longrightarrow \\mathcal{D}'$\nof triangulated categories.\n\\item Elements of $S$ with either source or target\nin $\\mathcal{E}$ are morphisms of $\\mathcal{E}$.\n\\item Any element of $S_\\mathcal{E} = \\text{Arrows}(\\mathcal{E}) \\cap S$\nis mapped to an isomorphism by $RF$.\n\\item The set $S_\\mathcal{E}$ is a saturated multiplicative system in\n$\\mathcal{E}$ compatible with the triangulated structure.\n\\item The functor $S_\\mathcal{E}^{-1}\\mathcal{E} \\to S^{-1}\\mathcal{D}$\nis a fully faithful exact functor of triangulated categories.\n\\item We obtain an exact functor\n$$\nRF : S_\\mathcal{E}^{-1}\\mathcal{E} \\longrightarrow \\mathcal{D}'.\n$$\n\\item If $\\mathcal{D}'$ is Karoubian, then $\\mathcal{E}$ is a saturated\ntriangulated subcategory of $\\mathcal{D}$.\n\\end{enumerate}\nA similar result holds fo"
+        },
+        {
+          "id": "candidate.stacks.25f8ba8f2736f1e1eeb95cbb",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-derived-functor",
+              "length": 221,
+              "text": "Here $F : \\mathcal{D} \\to \\mathcal{D}'$ is an exact functor of triangulated\ncategories and $S$ is a saturated multiplicative\nsystem in $\\mathcal{D}$ compatible with the structure\nof triangulated category on $\\mathcal{D}$."
+            }
+          ],
+          "refs": [
+            "situation-derived-functor"
+          ],
+          "statement": "Assumptions and notation as in\nSituation \\ref{situation-derived-functor}.\nLet $X$ be an object of $\\mathcal{D}$ and $n \\in \\mathbf{Z}$.\n\\begin{enumerate}\n\\item $X$ computes $RF$ if and only if $X[n]$ computes $RF$.\n\\item $X$ computes $LF$ if and only if $X[n]$ computes $LF$.\n\\end{enumerate}"
+        },
+        {
+          "id": "candidate.stacks.2b335cec7520439b961fefba",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-derived-functor",
+              "length": 221,
+              "text": "Here $F : \\mathcal{D} \\to \\mathcal{D}'$ is an exact functor of triangulated\ncategories and $S$ is a saturated multiplicative\nsystem in $\\mathcal{D}$ compatible with the structure\nof triangulated category on $\\mathcal{D}$."
+            }
+          ],
+          "refs": [
+            "situation-derived-functor"
+          ],
+          "statement": "Assumptions and notation as in\nSituation \\ref{situation-derived-functor}.\nLet $(X, Y, Z, f, g, h)$ be a distinguished triangle of $\\mathcal{D}$.\nIf $X, Y$ compute $RF$ then so does $Z$. Similar for $LF$."
+        },
+        {
+          "id": "candidate.stacks.326f67ca46da237e7232f9bd",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-derived-functor",
+              "length": 221,
+              "text": "Here $F : \\mathcal{D} \\to \\mathcal{D}'$ is an exact functor of triangulated\ncategories and $S$ is a saturated multiplicative\nsystem in $\\mathcal{D}$ compatible with the structure\nof triangulated category on $\\mathcal{D}$."
+            }
+          ],
+          "refs": [
+            "situation-derived-functor"
+          ],
+          "statement": "Assumptions and notation as in Situation \\ref{situation-derived-functor}.\nLet $X, Y$ be objects of $\\mathcal{D}$.\n\\begin{enumerate}\n\\item If $RF$ is defined at $X$ and $Y$, then $RF$ is defined at $X \\oplus Y$.\n\\item If $\\mathcal{D}'$ is Karoubian and $RF$ is defined at $X \\oplus Y$,\nthen $RF$ is defined at both $X$ and $Y$.\n\\end{enumerate}\nIn either case we have $RF(X \\oplus Y) = RF(X) \\oplus RF(Y)$.\nSimilarly for $LF$."
+        },
+        {
+          "id": "candidate.stacks.353ce46e9eab067736173eae",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-Cohen-Macaulay-curve",
+              "length": 106,
+              "text": "Here $k$ is a field, $X$ is a proper scheme over $k$ having dimension $1$\nand $H^0(X, \\mathcal{O}_X) = k$."
+            }
+          ],
+          "refs": [
+            "situation-Cohen-Macaulay-curve"
+          ],
+          "statement": "In Situation \\ref{situation-Cohen-Macaulay-curve} assume that\n$X$ is integral. Let $0 \\to \\omega_X \\to \\mathcal{F} \\to \\mathcal{Q} \\to 0$\nbe a short exact sequence of coherent $\\mathcal{O}_X$-modules with\n$\\mathcal{F}$ torsion free, $\\dim(\\text{Supp}(\\mathcal{Q})) = 0$,\nand $\\dim_k H^0(X, \\mathcal{Q}) \\geq 2$. Then $\\mathcal{F}$\nis globally generated."
+        },
+        {
+          "id": "candidate.stacks.39d2e77e7748dd24e388ddb9",
+          "matches": [
+            {
+              "kind": "situation",
+              "label": "situation-eta",
+              "length": 394,
+              "text": "Let $(X, \\mathcal{O}_X)$ be a ringed space. Let\n$\\mathcal{I} \\subset \\mathcal{O}_X$ be a sheaf of ideals\nsatisfying condition (1) of\nLemma \\ref{lemma-invertible-ideal-sheaf}\\footnote{The discussion\nin this section can be generalized to the case where all we\nrequire is that $\\mathcal{I}$ is an invertible $\\mathcal{O}_X$-module\nas defined in Modules, Section \\ref{modules-section-invertible}.}."
+            }
+          ],
+          "refs": [
+            "situation-eta"
+          ],
+          "statement": "In Situation \\ref{situation-eta} there is an additive\nfunctor\\footnote{Beware that this functor isn't exact, i.e.,\ndoes not transform distinguished triangles into distinguished triangles.}\n$L\\eta_\\mathcal{I} : D(\\mathcal{O}_X) \\to D(\\mathcal{O}_X)$\nsuch that if $M$ in $D(\\mathcal{O}_X)$ is represented by a complex\n$\\mathcal{F}^\\bullet$ of $\\mathcal{I}$-torsion free $\\mathcal{O}_X$-modules,\nthen $L\\eta_\\mathcal{I}M = \\eta_\\mathcal{I}\\mathcal{F}^\\bullet$.\nSimilarly for morphisms."
+        }
+      ]
+    }
+  },
+  "files_scanned": 108,
+  "proofs_read_or_scanned": false,
+  "revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+}
