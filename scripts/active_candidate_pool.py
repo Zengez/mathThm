@@ -19,6 +19,7 @@ IDS=Path("harvest/active_candidate_ids.jsonl")
 MANIFEST=Path("harvest/ACTIVE_CANDIDATE_POOL.json")
 ARCHIVE=Path("harvest/problem_candidates.jsonl")
 SOURCE_STATUS="resolved"
+EXPECTED_SOURCE_COUNT=10987
 
 def active_workdir(workdir: Path) -> bool:
     w=Path(workdir).resolve()
@@ -69,7 +70,7 @@ def main():
                 counts[batch]+=1
             else:
                 expected_open[ident]=row["context_status"]
-    assert len(all_ids)==10987
+    assert len(all_ids)==EXPECTED_SOURCE_COUNT
     assert set(expected_open)==deferred_ids, "Deferred archive must cover ALL excluded source records"
     assert all(deferred[k]["original_status"]==expected_open[k] for k in deferred)
     assert len(records)+len(expected_open)==len(all_ids)
