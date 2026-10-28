@@ -1,0 +1,32 @@
+{
+  "active_candidates_in_section": 15,
+  "active_candidates_modified": false,
+  "candidate_context_reviewed": 15,
+  "candidate_standalone_drafts": 15,
+  "chapter": "morphisms.tex",
+  "checkpoint_count": 15,
+  "duplicate_or_proof_records_modified": false,
+  "durable_scope_changes_unresolved": 0,
+  "equivalence_results_preserved_as_equivalences": 2,
+  "final_standalone_source_equivalence_approvals": 0,
+  "local_lemma_frames_pushed_and_popped": 15,
+  "named_definition_interpreted_once": 1,
+  "named_definition_reuse_opportunities": 14,
+  "note": "All source-context drafts require final source-equivalence judgement; no correctness/proof or publication claim.",
+  "other_nontrivial_conclusion_addenda_preserved": 4,
+  "pass3_eligible": 0,
+  "proof_reviews": 0,
+  "schema": "maththm.section-walk-scoped-pilot-review.v1",
+  "scope_events": {
+    "candidate_location": 15,
+    "enter_local_environment": 16,
+    "exit_local_environment": 16,
+    "proof_skipped": 15
+  },
+  "section_end_line": 4994,
+  "section_start_line": 4615,
+  "section_title": "Flat morphisms",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_durable_hypotheses": 0,
+  "staged_for_review_only": true
+}
