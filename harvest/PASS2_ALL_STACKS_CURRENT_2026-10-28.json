@@ -3,39 +3,39 @@
     {
       "batch": "stacks-bulk-2026-10-28",
       "candidates": 1100,
-      "statuses": {
-        "needs_context": 76,
+      "status": {
+        "needs_context": 58,
         "needs_structure": 37,
-        "resolved": 987
+        "resolved": 1005
       }
     },
     {
       "batch": "stacks-second-2026-10-28",
       "candidates": 2022,
-      "statuses": {
-        "needs_context": 162,
+      "status": {
+        "needs_context": 161,
         "needs_structure": 54,
-        "resolved": 1806
+        "resolved": 1807
       }
     },
     {
       "batch": "stacks-remaining-2026-10-28",
       "candidates": 7865,
-      "statuses": {
+      "status": {
         "needs_classification": 3,
-        "needs_context": 1074,
+        "needs_context": 880,
         "needs_structure": 411,
-        "resolved": 6377
+        "resolved": 6571
       }
     }
   ],
-  "no_proof_review": true,
-  "no_publication": true,
+  "candidates": 10987,
+  "proofs_read": false,
+  "public_catalog_untouched": true,
   "statuses": {
     "needs_classification": 3,
-    "needs_context": 1312,
+    "needs_context": 1099,
     "needs_structure": 502,
-    "resolved": 9170
-  },
-  "total_candidates": 10987
+    "resolved": 9383
+  }
 }

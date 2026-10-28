@@ -1,0 +1,20 @@
+{
+  "deferred_reasons": {
+    "Situation itself has inherited Situation dependencies": 16,
+    "no early direct Situation reference": 702,
+    "no source Situation setup": 72,
+    "separate external assumptions may also be required": 11,
+    "statement still requires contextual editorial interpretation": 79
+  },
+  "initial_context_pending": 1074,
+  "mathematical_validity_assessed": false,
+  "newly_resolved": 194,
+  "proofs_read": false,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "statuses": {
+    "needs_classification": 3,
+    "needs_context": 880,
+    "needs_structure": 411,
+    "resolved": 6571
+  }
+}

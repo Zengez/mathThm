@@ -1,0 +1,17 @@
+{
+  "deferred_reasons": {
+    "no early direct Situation reference": 49,
+    "no source Situation setup": 6,
+    "statement still requires contextual editorial interpretation": 3
+  },
+  "initial_context_pending": 76,
+  "mathematical_validity_assessed": false,
+  "newly_resolved": 18,
+  "proofs_read": false,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "statuses": {
+    "needs_context": 58,
+    "needs_structure": 37,
+    "resolved": 1005
+  }
+}
