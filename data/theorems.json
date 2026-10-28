@@ -46,7 +46,29 @@
           "continuous",
           "topology.continuity"
         ]
-      ]
+      ],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.topology.closed-compact-subspace",
@@ -89,7 +111,29 @@
           "closed",
           "topology.closed-set"
         ]
-      ]
+      ],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.topology.continuous-connected-image",
@@ -133,7 +177,29 @@
           "continuous",
           "topology.continuity"
         ]
-      ]
+      ],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.analysis.heine-cantor",
@@ -173,7 +239,29 @@
           "compact",
           "topology.compactness"
         ]
-      ]
+      ],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.topology.heine-borel",
@@ -227,8 +315,34 @@
           "compact"
         ]
       ],
-      "proofs_additional": [
-        "https://proofwiki.org/wiki/Heine-Borel_Theorem/Euclidean_Space/Necessary_Condition"
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": [],
+      "proof_candidates": [
+        {
+          "url": "https://proofwiki.org/wiki/Heine-Borel_Theorem/Euclidean_Space/Necessary_Condition",
+          "status": "uninspected",
+          "note": "Alternate link retained from initial prototype; proof has not been screened."
+        }
       ]
     },
     {
@@ -270,7 +384,29 @@
           "continuous",
           "topology.continuity"
         ]
-      ]
+      ],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.analysis.extreme-value",
@@ -316,7 +452,29 @@
           "continuous",
           "topology.continuity"
         ]
-      ]
+      ],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.analysis.rolle",
@@ -351,7 +509,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.analysis.mean-value",
@@ -385,7 +565,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.analysis.bolzano-weierstrass",
@@ -418,7 +620,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.analysis.banach-fixed-point",
@@ -454,7 +678,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.linear.rank-nullity",
@@ -491,7 +737,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.algebra.lagrange-group",
@@ -526,7 +794,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.algebra.orbit-stabilizer",
@@ -563,7 +853,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.number.fermat-little",
@@ -598,7 +910,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.sets.cantor",
@@ -632,7 +966,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.probability.bayes",
@@ -666,7 +1022,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.combin.pigeonhole",
@@ -700,7 +1078,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.analysis.cauchy-inequality",
@@ -733,7 +1133,29 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     },
     {
       "id": "thm.analysis.triangle-inequality",
@@ -766,7 +1188,30 @@
         }
       ],
       "review_status": "cursory_screened_unverified",
-      "link_hints": []
+      "link_hints": [],
+      "entry_type": "theorem",
+      "statement_provenance": {
+        "basis": "editorial_restatement_unverified",
+        "transcription_status": "not_transcribed",
+        "source_text": null,
+        "locator": "Statement on the linked source page",
+        "editorial_notes": "Source-faithful condensed restatement for prototype; exact source wording at source_url. Mathematical equivalence not yet independently audited."
+      },
+      "acquisition": {
+        "status": "cursory_screened",
+        "batch_id": "prototype-initial-20",
+        "collected_on": "2026-10-23"
+      },
+      "mathematical_audit": {
+        "status": "not_audited"
+      },
+      "tag_provenance_defaults": {
+        "hypotheses": "initial_editorial",
+        "conclusions": "initial_editorial"
+      },
+      "tag_annotations": [],
+      "link_exclusions": []
     }
-  ]
+  ],
+  "contract_revision": 2
 }
