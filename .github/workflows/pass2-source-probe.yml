@@ -25,7 +25,7 @@ jobs:
           fi
           test "$(git -C upstream/stacks rev-parse HEAD)" = "$REF"
       - name: Inventory source-native named statement context
-        run: python scripts/pass2_context_source_probe.py
+        run: python -m scripts.pass2_context_source_probe
       - name: Store bounded context samples, no candidate decisions
         run: |
           git config user.name "github-actions[bot]"
