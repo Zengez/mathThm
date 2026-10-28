@@ -1,0 +1,552 @@
+{
+  "cap_warning": "Chapters at cap may have further results; never assume fully exhausted.",
+  "chapters": {
+    "adequate.tex": {
+      "cap_reached": false,
+      "new_candidates": 51,
+      "status": "harvested"
+    },
+    "algebraic.tex": {
+      "cap_reached": false,
+      "new_candidates": 46,
+      "status": "harvested"
+    },
+    "algebraization.tex": {
+      "cap_reached": false,
+      "new_candidates": 123,
+      "status": "harvested"
+    },
+    "artin.tex": {
+      "cap_reached": false,
+      "new_candidates": 67,
+      "status": "harvested"
+    },
+    "bibliography.tex": {
+      "cap_reached": false,
+      "new_candidates": 0,
+      "status": "harvested"
+    },
+    "bootstrap.tex": {
+      "cap_reached": false,
+      "new_candidates": 36,
+      "status": "harvested"
+    },
+    "brauer.tex": {
+      "cap_reached": false,
+      "new_candidates": 27,
+      "status": "harvested"
+    },
+    "chapters.tex": {
+      "cap_reached": false,
+      "new_candidates": 0,
+      "status": "harvested"
+    },
+    "chow.tex": {
+      "cap_reached": true,
+      "new_candidates": 250,
+      "status": "harvested"
+    },
+    "coding.tex": {
+      "cap_reached": false,
+      "new_candidates": 0,
+      "status": "harvested"
+    },
+    "coherent.tex": {
+      "cap_reached": false,
+      "new_candidates": 126,
+      "status": "harvested"
+    },
+    "constructions.tex": {
+      "cap_reached": false,
+      "new_candidates": 74,
+      "status": "harvested"
+    },
+    "conventions.tex": {
+      "cap_reached": false,
+      "new_candidates": 0,
+      "status": "harvested"
+    },
+    "cotangent.tex": {
+      "cap_reached": false,
+      "new_candidates": 73,
+      "status": "harvested"
+    },
+    "criteria.tex": {
+      "cap_reached": false,
+      "new_candidates": 52,
+      "status": "harvested"
+    },
+    "crystalline.tex": {
+      "cap_reached": false,
+      "new_candidates": 54,
+      "status": "harvested"
+    },
+    "decent-spaces.tex": {
+      "cap_reached": false,
+      "new_candidates": 113,
+      "status": "harvested"
+    },
+    "defos.tex": {
+      "cap_reached": false,
+      "new_candidates": 60,
+      "status": "harvested"
+    },
+    "derham.tex": {
+      "cap_reached": false,
+      "new_candidates": 64,
+      "status": "harvested"
+    },
+    "desirables.tex": {
+      "cap_reached": false,
+      "new_candidates": 0,
+      "status": "harvested"
+    },
+    "dga.tex": {
+      "cap_reached": false,
+      "new_candidates": 103,
+      "status": "harvested"
+    },
+    "discriminant.tex": {
+      "cap_reached": false,
+      "new_candidates": 59,
+      "status": "harvested"
+    },
+    "dpa.tex": {
+      "cap_reached": false,
+      "new_candidates": 49,
+      "status": "harvested"
+    },
+    "duality.tex": {
+      "cap_reached": false,
+      "new_candidates": 143,
+      "status": "harvested"
+    },
+    "dualizing.tex": {
+      "cap_reached": false,
+      "new_candidates": 148,
+      "status": "harvested"
+    },
+    "equiv.tex": {
+      "cap_reached": false,
+      "new_candidates": 63,
+      "status": "harvested"
+    },
+    "etale-cohomology.tex": {
+      "cap_reached": true,
+      "new_candidates": 250,
+      "status": "harvested"
+    },
+    "examples-defos.tex": {
+      "cap_reached": false,
+      "new_candidates": 61,
+      "status": "harvested"
+    },
+    "examples-stacks.tex": {
+      "cap_reached": false,
+      "new_candidates": 20,
+      "status": "harvested"
+    },
+    "examples.tex": {
+      "cap_reached": false,
+      "new_candidates": 94,
+      "status": "harvested"
+    },
+    "exercises.tex": {
+      "cap_reached": false,
+      "new_candidates": 0,
+      "status": "harvested"
+    },
+    "fdl.tex": {
+      "cap_reached": false,
+      "new_candidates": 0,
+      "status": "harvested"
+    },
+    "flat.tex": {
+      "cap_reached": false,
+      "new_candidates": 245,
+      "status": "harvested"
+    },
+    "formal-defos.tex": {
+      "cap_reached": false,
+      "new_candidates": 100,
+      "status": "harvested"
+    },
+    "formal-spaces.tex": {
+      "cap_reached": false,
+      "new_candidates": 157,
+      "status": "harvested"
+    },
+    "functors.tex": {
+      "cap_reached": false,
+      "new_candidates": 35,
+      "status": "harvested"
+    },
+    "groupoids-quotients.tex": {
+      "cap_reached": false,
+      "new_candidates": 20,
+      "status": "harvested"
+    },
+    "guide.tex": {
+      "cap_reached": false,
+      "new_candidates": 0,
+      "status": "harvested"
+    },
+    "hypercovering.tex": {
+      "cap_reached": false,
+      "new_candidates": 34,
+      "status": "harvested"
+    },
+    "injectives.tex": {
+      "cap_reached": false,
+      "new_candidates": 45,
+      "status": "harvested"
+    },
+    "intersection.tex": {
+      "cap_reached": false,
+      "new_candidates": 48,
+      "status": "harvested"
+    },
+    "introduction.tex": {
+      "cap_reached": false,
+      "new_candidates": 0,
+      "status": "harvested"
+    },
+    "local-cohomology.tex": {
+      "cap_reached": false,
+      "new_candidates": 98,
+      "status": "harvested"
+    },
+    "models.tex": {
+      "cap_reached": false,
+      "new_candidates": 77,
+      "status": "harvested"
+    },
+    "moduli-curves.tex": {
+      "cap_reached": false,
+      "new_candidates": 59,
+      "status": "harvested"
+    },
+    "moduli.tex": {
+      "cap_reached": false,
+      "new_candidates": 48,
+      "status": "harvested"
+    },
+    "more-etale.tex": {
+      "cap_reached": false,
+      "new_candidates": 67,
+      "status": "harvested"
+    },
+    "more-groupoids.tex": {
+      "cap_reached": false,
+      "new_candidates": 49,
+      "status": "harvested"
+    },
+    "more-morphisms.tex": {
+      "cap_reached": true,
+      "new_candidates": 250,
+      "status": "harvested"
+    },
+    "morphisms.tex": {
+      "cap_reached": true,
+      "new_candidates": 250,
+      "status": "harvested"
+    },
+    "obsolete.tex": {
+      "cap_reached": false,
+      "new_candidates": 96,
+      "status": "harvested"
+    },
+    "perfect.tex": {
+      "cap_reached": false,
+      "new_candidates": 181,
+      "status": "harvested"
+    },
+    "pic.tex": {
+      "cap_reached": false,
+      "new_candidates": 23,
+      "status": "harvested"
+    },
+    "pione.tex": {
+      "cap_reached": false,
+      "new_candidates": 122,
+      "status": "harvested"
+    },
+    "preamble.tex": {
+      "cap_reached": false,
+      "new_candidates": 0,
+      "status": "harvested"
+    },
+    "proetale.tex": {
+      "cap_reached": false,
+      "new_candidates": 135,
+      "status": "harvested"
+    },
+    "properties.tex": {
+      "cap_reached": false,
+      "new_candidates": 134,
+      "status": "harvested"
+    },
+    "quot.tex": {
+      "cap_reached": false,
+      "new_candidates": 85,
+      "status": "harvested"
+    },
+    "relative-cycles.tex": {
+      "cap_reached": false,
+      "new_candidates": 64,
+      "status": "harvested"
+    },
+    "resolve.tex": {
+      "cap_reached": false,
+      "new_candidates": 77,
+      "status": "harvested"
+    },
+    "restricted.tex": {
+      "cap_reached": false,
+      "new_candidates": 140,
+      "status": "harvested"
+    },
+    "sdga.tex": {
+      "cap_reached": false,
+      "new_candidates": 69,
+      "status": "harvested"
+    },
+    "sites-cohomology.tex": {
+      "cap_reached": true,
+      "new_candidates": 250,
+      "status": "harvested"
+    },
+    "sites-modules.tex": {
+      "cap_reached": false,
+      "new_candidates": 149,
+      "status": "harvested"
+    },
+    "smoothing.tex": {
+      "cap_reached": false,
+      "new_candidates": 42,
+      "status": "harvested"
+    },
+    "spaces-chow.tex": {
+      "cap_reached": false,
+      "new_candidates": 75,
+      "status": "harvested"
+    },
+    "spaces-cohomology.tex": {
+      "cap_reached": false,
+      "new_candidates": 78,
+      "status": "harvested"
+    },
+    "spaces-descent.tex": {
+      "cap_reached": false,
+      "new_candidates": 82,
+      "status": "harvested"
+    },
+    "spaces-divisors.tex": {
+      "cap_reached": false,
+      "new_candidates": 112,
+      "status": "harvested"
+    },
+    "spaces-duality.tex": {
+      "cap_reached": false,
+      "new_candidates": 26,
+      "status": "harvested"
+    },
+    "spaces-flat.tex": {
+      "cap_reached": false,
+      "new_candidates": 57,
+      "status": "harvested"
+    },
+    "spaces-groupoids.tex": {
+      "cap_reached": false,
+      "new_candidates": 57,
+      "status": "harvested"
+    },
+    "spaces-limits.tex": {
+      "cap_reached": false,
+      "new_candidates": 111,
+      "status": "harvested"
+    },
+    "spaces-more-cohomology.tex": {
+      "cap_reached": false,
+      "new_candidates": 31,
+      "status": "harvested"
+    },
+    "spaces-more-groupoids.tex": {
+      "cap_reached": false,
+      "new_candidates": 43,
+      "status": "harvested"
+    },
+    "spaces-more-morphisms.tex": {
+      "cap_reached": true,
+      "new_candidates": 250,
+      "status": "harvested"
+    },
+    "spaces-morphisms.tex": {
+      "cap_reached": true,
+      "new_candidates": 250,
+      "status": "harvested"
+    },
+    "spaces-over-fields.tex": {
+      "cap_reached": false,
+      "new_candidates": 62,
+      "status": "harvested"
+    },
+    "spaces-perfect.tex": {
+      "cap_reached": false,
+      "new_candidates": 125,
+      "status": "harvested"
+    },
+    "spaces-properties.tex": {
+      "cap_reached": false,
+      "new_candidates": 110,
+      "status": "harvested"
+    },
+    "spaces-pushouts.tex": {
+      "cap_reached": false,
+      "new_candidates": 54,
+      "status": "harvested"
+    },
+    "spaces-resolve.tex": {
+      "cap_reached": false,
+      "new_candidates": 19,
+      "status": "harvested"
+    },
+    "spaces-simplicial.tex": {
+      "cap_reached": false,
+      "new_candidates": 141,
+      "status": "harvested"
+    },
+    "spaces-topologies.tex": {
+      "cap_reached": false,
+      "new_candidates": 31,
+      "status": "harvested"
+    },
+    "stacks-cohomology.tex": {
+      "cap_reached": false,
+      "new_candidates": 54,
+      "status": "harvested"
+    },
+    "stacks-geometry.tex": {
+      "cap_reached": false,
+      "new_candidates": 30,
+      "status": "harvested"
+    },
+    "stacks-introduction.tex": {
+      "cap_reached": false,
+      "new_candidates": 2,
+      "status": "harvested"
+    },
+    "stacks-limits.tex": {
+      "cap_reached": false,
+      "new_candidates": 13,
+      "status": "harvested"
+    },
+    "stacks-more-morphisms.tex": {
+      "cap_reached": false,
+      "new_candidates": 60,
+      "status": "harvested"
+    },
+    "stacks-morphisms.tex": {
+      "cap_reached": false,
+      "new_candidates": 232,
+      "status": "harvested"
+    },
+    "stacks-perfect.tex": {
+      "cap_reached": false,
+      "new_candidates": 14,
+      "status": "harvested"
+    },
+    "stacks-properties.tex": {
+      "cap_reached": false,
+      "new_candidates": 57,
+      "status": "harvested"
+    },
+    "stacks-sheaves.tex": {
+      "cap_reached": false,
+      "new_candidates": 67,
+      "status": "harvested"
+    },
+    "stacks.tex": {
+      "cap_reached": false,
+      "new_candidates": 58,
+      "status": "harvested"
+    },
+    "topologies.tex": {
+      "cap_reached": false,
+      "new_candidates": 92,
+      "status": "harvested"
+    },
+    "trace.tex": {
+      "cap_reached": false,
+      "new_candidates": 38,
+      "status": "harvested"
+    },
+    "weil.tex": {
+      "cap_reached": false,
+      "new_candidates": 79,
+      "status": "harvested"
+    }
+  },
+  "max_candidates_per_file": 250,
+  "mode": "pass1_only",
+  "new_chapters_examined": 97,
+  "pass2_started": false,
+  "pass3_started": false,
+  "previously_attempted_but_empty_chapters_rechecked": 0,
+  "previously_attempted_chapters": [
+    "algebra.tex",
+    "categories.tex",
+    "cohomology.tex",
+    "comm-algebra.tex",
+    "curves.tex",
+    "derived.tex",
+    "descent.tex",
+    "divisors.tex",
+    "etale.tex",
+    "fields.tex",
+    "groupoids.tex",
+    "groups.tex",
+    "homology.tex",
+    "homotopy.tex",
+    "limits.tex",
+    "modules.tex",
+    "more-algebra.tex",
+    "number-theory.tex",
+    "schemes.tex",
+    "sets.tex",
+    "sheaves.tex",
+    "simplicial.tex",
+    "sites.tex",
+    "spaces.tex",
+    "topology.tex",
+    "varieties.tex"
+  ],
+  "previously_harvested_chapters": [
+    "algebra.tex",
+    "categories.tex",
+    "cohomology.tex",
+    "curves.tex",
+    "derived.tex",
+    "descent.tex",
+    "divisors.tex",
+    "etale.tex",
+    "fields.tex",
+    "groupoids.tex",
+    "homology.tex",
+    "limits.tex",
+    "modules.tex",
+    "more-algebra.tex",
+    "schemes.tex",
+    "sets.tex",
+    "sheaves.tex",
+    "simplicial.tex",
+    "sites.tex",
+    "spaces.tex",
+    "topology.tex",
+    "varieties.tex"
+  ],
+  "proofs_read": false,
+  "source_ref": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "total_candidates_in_new_batch": 7865,
+  "upstream_root_tex_files": 119
+}
