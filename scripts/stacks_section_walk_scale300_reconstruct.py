@@ -108,6 +108,35 @@ def source_logical_shape(cleaned,orig,prior_hyp,prior_conc):
             hyp=[intro] if intro else []
             conc=items
             if tail: aux=[tail]
+        elif re.search(r"(?i)\b(?:assume|suppose)\s+(?:that\s+)?there\s+exist",intro):
+            # Hypotheses for the theorem consist of one quantified witness
+            # satisfying *all* listed conditions. Theorem conclusion
+            # follows "Then" after the enumeration, not each item.
+            shape="shared_existential_witness_hypotheses"
+            split=re.split(r"(?i)\bthen\b",tail,maxsplit=1)
+            grouped=intro+" "+r"\begin{enumerate}"+" "+" ".join(
+                r"\item "+x for x in items)+" "+r"\end{enumerate}"
+            if len(split)==2:
+                hyp=[grouped+" "+split[0].strip()]
+                conc=[split[1].strip()]
+            else:
+                hyp=[grouped]
+                conc=[tail] if tail else [cleaned]
+                holds.append("Shared existential premise list has no unambiguous following conclusion.")
+            holds.append("Verify the existential premise quantifier and logical scope before mathematical source-equivalence approval.")
+        elif re.search(r"(?i)\b(?:assume|suppose|given)\s*(?:that\s*)?$",intro):
+            # Source 'Assume [items] Then conclusion' means all listed
+            # items are assumptions; NONE becomes a free conclusion.
+            shape="listed_premises_then_conclusion"
+            hyp=[intro]+items
+            split=re.split(r"(?i)\bthen\b",tail,maxsplit=1)
+            if len(split)==2:
+                if split[0].strip():hyp.append(split[0].strip())
+                conc=[split[1].strip()]
+            else:
+                conc=[tail] if tail else [cleaned]
+                if not tail or re.match(r"(?i)\s*(?:let|set|write|denote)\b",tail):
+                    holds.append("The text after enumerated premises contains definitions or no explicit consequent; review quantifier split.")
         elif EXISTENTIAL.search(intro):
             # One shared witness with multiple properties; cannot split
             # the listed properties into unrelated existential conclusions.
