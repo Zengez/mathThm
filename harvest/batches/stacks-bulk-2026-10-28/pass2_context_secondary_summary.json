@@ -1,0 +1,19 @@
+{
+  "batch": "stacks-bulk-2026-10-28",
+  "deferred_reasons": {
+    "external context or structure still needs editorial work": 76
+  },
+  "initial_context_pending": 93,
+  "math_validity_assessed": false,
+  "new_resolved": 17,
+  "proofs_read": false,
+  "resolution_types": {
+    "definition_citation": 14,
+    "internal_diagram": 3
+  },
+  "status_after": {
+    "needs_context": 76,
+    "needs_structure": 58,
+    "resolved": 966
+  }
+}

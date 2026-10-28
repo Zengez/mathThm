@@ -1,0 +1,21 @@
+{
+  "batch": "stacks-second-2026-10-28",
+  "deferred_reasons": {
+    "external context or structure still needs editorial work": 161,
+    "named lemma available, but current statement's structure ambiguous": 1
+  },
+  "initial_context_pending": 174,
+  "math_validity_assessed": false,
+  "new_resolved": 12,
+  "proofs_read": false,
+  "resolution_types": {
+    "definition_citation": 8,
+    "internal_diagram": 2,
+    "named_lemma": 2
+  },
+  "status_after": {
+    "needs_context": 162,
+    "needs_structure": 72,
+    "resolved": 1788
+  }
+}

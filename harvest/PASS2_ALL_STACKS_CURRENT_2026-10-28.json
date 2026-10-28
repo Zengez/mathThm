@@ -1,42 +1,42 @@
 {
-  "all_batches": [
+  "batches": [
     {
       "batch": "stacks-bulk-2026-10-28",
-      "candidate_count": 1100,
+      "candidates": 1100,
       "statuses": {
-        "needs_context": 93,
+        "needs_context": 76,
         "needs_structure": 58,
-        "resolved": 949
+        "resolved": 966
       }
     },
     {
       "batch": "stacks-second-2026-10-28",
-      "candidate_count": 2022,
+      "candidates": 2022,
       "statuses": {
-        "needs_context": 174,
+        "needs_context": 162,
         "needs_structure": 72,
-        "resolved": 1776
+        "resolved": 1788
       }
     },
     {
       "batch": "stacks-remaining-2026-10-28",
-      "candidate_count": 7865,
+      "candidates": 7865,
       "statuses": {
         "needs_classification": 3,
-        "needs_context": 1209,
+        "needs_context": 1074,
         "needs_structure": 510,
-        "resolved": 6143
+        "resolved": 6278
       }
     }
   ],
-  "all_candidates": 10987,
-  "all_statuses": {
-    "needs_classification": 3,
-    "needs_context": 1476,
-    "needs_structure": 640,
-    "resolved": 8868
-  },
-  "pass3_started": false,
+  "pass3_unchanged": true,
   "proofs_read": false,
-  "publication_changed": false
+  "published_catalog_unchanged": true,
+  "statuses": {
+    "needs_classification": 3,
+    "needs_context": 1312,
+    "needs_structure": 640,
+    "resolved": 9032
+  },
+  "total_candidates": 10987
 }

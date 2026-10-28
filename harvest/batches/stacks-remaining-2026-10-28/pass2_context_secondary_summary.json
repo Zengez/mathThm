@@ -1,0 +1,25 @@
+{
+  "batch": "stacks-remaining-2026-10-28",
+  "deferred_reasons": {
+    "external context or structure still needs editorial work": 1061,
+    "named lemma available, but current statement's structure ambiguous": 5,
+    "named theorem context not available in same source": 5,
+    "referenced theorem does not expose a safe standing setup": 3
+  },
+  "initial_context_pending": 1209,
+  "math_validity_assessed": false,
+  "new_resolved": 135,
+  "proofs_read": false,
+  "resolution_types": {
+    "definition_citation": 122,
+    "internal_diagram": 9,
+    "metadata_only": 1,
+    "named_lemma": 3
+  },
+  "status_after": {
+    "needs_classification": 3,
+    "needs_context": 1074,
+    "needs_structure": 510,
+    "resolved": 6278
+  }
+}
