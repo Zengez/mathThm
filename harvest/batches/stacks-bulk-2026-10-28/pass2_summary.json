@@ -1,0 +1,30 @@
+{
+  "context_status": {
+    "needs_classification": 14,
+    "needs_context": 84,
+    "needs_structure": 416,
+    "resolved": 586
+  },
+  "mathematical_validity_assessed": false,
+  "proofs_read": false,
+  "result_classification": {
+    "mathematical_result": 1086,
+    "uncertain": 14
+  },
+  "review_method": "mechanical_syntax",
+  "source_files": {
+    "algebra.tex": 250,
+    "categories.tex": 137,
+    "fields.tex": 81,
+    "limits.tex": 111,
+    "modules.tex": 119,
+    "schemes.tex": 92,
+    "sets.tex": 18,
+    "sheaves.tex": 82,
+    "spaces.tex": 49,
+    "topology.tex": 161
+  },
+  "split_confidence": "syntax_only; requires editorial QA before treating as final",
+  "stage": "pass2_syntax_triage",
+  "total": 1100
+}

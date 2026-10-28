@@ -1,0 +1,32 @@
+{
+  "context_status": {
+    "needs_classification": 6,
+    "needs_context": 164,
+    "needs_structure": 856,
+    "resolved": 996
+  },
+  "mathematical_validity_assessed": false,
+  "proofs_read": false,
+  "result_classification": {
+    "mathematical_result": 2016,
+    "uncertain": 6
+  },
+  "review_method": "mechanical_syntax",
+  "source_files": {
+    "cohomology.tex": 243,
+    "curves.tex": 116,
+    "derived.tex": 217,
+    "descent.tex": 177,
+    "divisors.tex": 232,
+    "etale.tex": 53,
+    "groupoids.tex": 94,
+    "homology.tex": 127,
+    "more-algebra.tex": 250,
+    "simplicial.tex": 106,
+    "sites.tex": 161,
+    "varieties.tex": 246
+  },
+  "split_confidence": "syntax_only; requires editorial QA before treating as final",
+  "stage": "pass2_syntax_triage",
+  "total": 2022
+}
