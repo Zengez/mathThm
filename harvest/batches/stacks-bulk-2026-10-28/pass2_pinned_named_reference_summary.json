@@ -1,0 +1,22 @@
+{
+  "batch": "stacks-bulk-2026-10-28",
+  "by_logical_form": {
+    "pinned_named_reference_implication": 2
+  },
+  "current_states": {
+    "needs_context": 56,
+    "needs_structure": 37,
+    "resolved": 1007
+  },
+  "mathematical_validity_assessed": false,
+  "new_resolved": 2,
+  "not_resolved_reasons": {
+    "Ambiguous or absent top-level Then": 7,
+    "No explicit main setup": 7,
+    "No named lemma/proposition/theorem reference": 40,
+    "Reference unavailable in same source file": 1,
+    "Unfinished or explicitly unresolved prior-context source": 1
+  },
+  "previous_context_open": 58,
+  "proofs_read": false
+}

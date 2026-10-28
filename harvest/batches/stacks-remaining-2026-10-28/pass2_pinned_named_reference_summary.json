@@ -1,0 +1,28 @@
+{
+  "batch": "stacks-remaining-2026-10-28",
+  "by_logical_form": {
+    "pinned_named_reference_conditional_equivalence": 5,
+    "pinned_named_reference_equivalence": 1,
+    "pinned_named_reference_existential": 3,
+    "pinned_named_reference_implication": 91
+  },
+  "current_states": {
+    "needs_classification": 3,
+    "needs_context": 780,
+    "needs_structure": 411,
+    "resolved": 6671
+  },
+  "mathematical_validity_assessed": false,
+  "new_resolved": 100,
+  "not_resolved_reasons": {
+    "Ambiguous or absent top-level Then": 54,
+    "More than two named lemma references": 5,
+    "No explicit main setup": 34,
+    "No named lemma/proposition/theorem reference": 630,
+    "Reference does not point to earlier source statement": 1,
+    "Reference unavailable in same source file": 39,
+    "Unfinished or explicitly unresolved prior-context source": 17
+  },
+  "previous_context_open": 880,
+  "proofs_read": false
+}
