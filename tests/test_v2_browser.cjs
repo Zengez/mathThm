@@ -33,6 +33,23 @@ assert(chromiumPath,"Chromium is required to verify real theorem definition expa
   // discoverable when a term has multiple formulations.
   const html=await page.locator(".definition-insert").first().innerHTML();
   assert(!html.includes("not currently available"),"No broken historical v1 target");
+  // Real deployed V2 snapshot: adjective and compound phrase must link to
+  // DISTINCT meanings, without swallowing the shorter occurrence.
+  await page.locator("#hypothesis-query").fill("compactness");
+  await page.locator("#conclusion-query").fill("uniform continuity");
+  const heine=page.locator(".theorem-card").filter({hasText:"Heine–Cantor theorem"});
+  await heine.waitFor();
+  const heineLinks=heine.locator(".statement .definition-link");
+  const allTexts=await heineLinks.allTextContents();
+  assert(allTexts.some(t=>t.trim().toLowerCase()==="continuous"),
+    "ordinary continuous should link to mathDef V2");
+  assert(allTexts.some(t=>t.trim().toLowerCase()==="uniformly continuous"),
+    "uniformly continuous should link as a complete phrase");
+  const continuous=heineLinks.filter({hasText:/^continuous$/i}).first();
+  const uniform=heineLinks.filter({hasText:/^uniformly continuous$/i}).first();
+  assert.notEqual(await continuous.getAttribute("data-def-id"),
+                  await uniform.getAttribute("data-def-id"),
+                  "continuity and uniform continuity must have distinct V2 targets");
   await page.setViewportSize({width:390,height:844});
   assert(await page.locator("#results .theorem-card").count()>0);
   assert.deepEqual(errors,[],"No JS errors in v2 definition expansion");
