@@ -29,3 +29,5 @@ jobs:
           git commit -m "Index each preliminary draft by individual Phase 2 semantic review state"
           git pull --rebase origin main
           git push origin main
+
+# One-time first activation after registration.
