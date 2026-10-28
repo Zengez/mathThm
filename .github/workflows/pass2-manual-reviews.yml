@@ -4,6 +4,7 @@ on:
     paths:
       - .github/workflows/pass2-manual-reviews.yml
       - scripts/pass2_apply_manual_review.py
+      - harvest/pass2_manual_statement_review_2026-10-28.json
   workflow_dispatch:
 permissions:
   contents: write
