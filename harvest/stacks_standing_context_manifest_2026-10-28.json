@@ -1,0 +1,37 @@
+{
+  "bounded_source_section_review_completed": true,
+  "candidate_records_modified": false,
+  "chapter_and_section_intro_extraction_done": false,
+  "designated_sections_reviewed": 55,
+  "explicit_inheritance_edges": 21,
+  "limitations": [
+    "Chapter-level conventions may be overridden later in the chapter or for individual theorems.",
+    "A convention heading alone does not certify the scope of every declaration.",
+    "The named Situation in Chow chapters requires per-theorem citation or scope review.",
+    "Explicit inheritance references are only mapped one hop; no recursive inference.",
+    "A referenced theorem is never silently converted into a standing hypothesis.",
+    "Site-size/set-theoretic conventions often belong in metadata, not a theorem's visible hypotheses.",
+    "See pinned source and GNU FDL attribution before redistributing extracted excerpts."
+  ],
+  "maintained_chapters_indexed": 115,
+  "proofs_read_or_verified": false,
+  "provisional_mergers_rechecked": false,
+  "published_corpus_unchanged": true,
+  "repeated_context_families": {
+    "commutative_unital_ring": 2,
+    "spaces_big_fppf": 12,
+    "stacks_source_conventions": 8
+  },
+  "review_scope_counts": {
+    "chapter_claim_with_late_section": 1,
+    "chapter_explicit": 41,
+    "chapter_heading": 6,
+    "from_here_only": 1,
+    "global": 5,
+    "not_applicable": 1
+  },
+  "schema": "maththm.stacks-standing-context-review.v1",
+  "semantic_theorem_context_expansion_done": false,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_chapters_reviewed": 48
+}

@@ -1,0 +1,2111 @@
+{
+  "atlas_file": "harvest/stacks_standing_context_atlas_2026-10-28.jsonl",
+  "chapter_contexts": {
+    "adequate": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 46,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "adequate:section-conventions"
+      ],
+      "filename": "adequate.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Adequate Modules"
+    },
+    "algebra": {
+      "book_part": "Preliminaries",
+      "chapter_number": 10,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "algebra:section-conventions"
+      ],
+      "filename": "algebra.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Commutative Algebra"
+    },
+    "algebraic": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 94,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "algebraic:section-conventions",
+        "algebraic:section-notation"
+      ],
+      "filename": "algebraic.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Algebraic Stacks"
+    },
+    "algebraization": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 52,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "algebraization.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Algebraic and Formal Geometry"
+    },
+    "artin": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 98,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "artin:section-conventions"
+      ],
+      "filename": "artin.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Artin's Axioms"
+    },
+    "bootstrap": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 80,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "bootstrap:section-conventions"
+      ],
+      "filename": "bootstrap.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Bootstrap"
+    },
+    "brauer": {
+      "book_part": "Preliminaries",
+      "chapter_number": 11,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "brauer.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Brauer groups"
+    },
+    "categories": {
+      "book_part": "Preliminaries",
+      "chapter_number": 4,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "categories.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Categories"
+    },
+    "chow": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 42,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "chow:section-setup"
+      ],
+      "filename": "chow.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Chow Homology and Chern Classes"
+    },
+    "coding": {
+      "book_part": "Miscellany",
+      "chapter_number": 114,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "coding.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Coding Style"
+    },
+    "coherent": {
+      "book_part": "Schemes",
+      "chapter_number": 30,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "coherent.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Cohomology of Schemes"
+    },
+    "cohomology": {
+      "book_part": "Preliminaries",
+      "chapter_number": 20,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "cohomology.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Cohomology of Sheaves"
+    },
+    "constructions": {
+      "book_part": "Schemes",
+      "chapter_number": 27,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "constructions.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Constructions of Schemes"
+    },
+    "conventions": {
+      "book_part": "Preliminaries",
+      "chapter_number": 2,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "filename": "conventions.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Conventions"
+    },
+    "cotangent": {
+      "book_part": "Deformation Theory",
+      "chapter_number": 92,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "cotangent.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "The Cotangent Complex"
+    },
+    "criteria": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 97,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "criteria:section-conventions"
+      ],
+      "filename": "criteria.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Criteria for Representability"
+    },
+    "crystalline": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 60,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "crystalline.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Crystalline Cohomology"
+    },
+    "curves": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 53,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "curves.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Algebraic Curves"
+    },
+    "decent-spaces": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 68,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "decent-spaces:section-conventions"
+      ],
+      "filename": "decent-spaces.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Decent Algebraic Spaces"
+    },
+    "defos": {
+      "book_part": "Deformation Theory",
+      "chapter_number": 91,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "defos.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Deformation Theory"
+    },
+    "derham": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 50,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "derham.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "de Rham Cohomology"
+    },
+    "derived": {
+      "book_part": "Preliminaries",
+      "chapter_number": 13,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "derived.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Derived Categories"
+    },
+    "descent": {
+      "book_part": "Schemes",
+      "chapter_number": 35,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "descent.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Descent"
+    },
+    "desirables": {
+      "book_part": "Miscellany",
+      "chapter_number": 113,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "desirables:section-conventions"
+      ],
+      "filename": "desirables.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Desirables"
+    },
+    "dga": {
+      "book_part": "Preliminaries",
+      "chapter_number": 22,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "dga:section-conventions"
+      ],
+      "filename": "dga.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Differential Graded Algebra"
+    },
+    "discriminant": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 49,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "discriminant.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Discriminants and Differents"
+    },
+    "divisors": {
+      "book_part": "Schemes",
+      "chapter_number": 31,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "divisors.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Divisors"
+    },
+    "dpa": {
+      "book_part": "Preliminaries",
+      "chapter_number": 23,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "dpa.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Divided Power Algebra"
+    },
+    "duality": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 48,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "duality.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Duality for Schemes"
+    },
+    "dualizing": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 47,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "dualizing.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Dualizing Complexes"
+    },
+    "equiv": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 57,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "equiv:section-conventions"
+      ],
+      "filename": "equiv.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Derived Categories of Varieties"
+    },
+    "etale": {
+      "book_part": "Schemes",
+      "chapter_number": 41,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "etale:section-conventions"
+      ],
+      "filename": "etale.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "\\'Etale Morphisms of Schemes"
+    },
+    "etale-cohomology": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 59,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "etale-cohomology.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "\\'Etale Cohomology"
+    },
+    "examples": {
+      "book_part": "Miscellany",
+      "chapter_number": 110,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "examples.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Examples"
+    },
+    "examples-defos": {
+      "book_part": "Deformation Theory",
+      "chapter_number": 93,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "examples-defos.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Deformation Problems"
+    },
+    "examples-stacks": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 95,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "examples-stacks:section-notation"
+      ],
+      "filename": "examples-stacks.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Examples of Stacks"
+    },
+    "exercises": {
+      "book_part": "Miscellany",
+      "chapter_number": 111,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "exercises.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Exercises"
+    },
+    "fields": {
+      "book_part": "Preliminaries",
+      "chapter_number": 9,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "fields.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Fields"
+    },
+    "flat": {
+      "book_part": "Schemes",
+      "chapter_number": 38,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "flat.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "More on Flatness"
+    },
+    "formal-defos": {
+      "book_part": "Deformation Theory",
+      "chapter_number": 90,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "formal-defos:section-notations-conventions"
+      ],
+      "filename": "formal-defos.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Formal Deformation Theory"
+    },
+    "formal-spaces": {
+      "book_part": "Topics in Geometry",
+      "chapter_number": 87,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "formal-spaces:section-conventions"
+      ],
+      "filename": "formal-spaces.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Formal Algebraic Spaces"
+    },
+    "functors": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 56,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "functors.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Functors and Morphisms"
+    },
+    "groupoids": {
+      "book_part": "Schemes",
+      "chapter_number": 39,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "groupoids:section-notation"
+      ],
+      "filename": "groupoids.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Groupoid Schemes"
+    },
+    "groupoids-quotients": {
+      "book_part": "Topics in Geometry",
+      "chapter_number": 83,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "groupoids-quotients:section-conventions-notation"
+      ],
+      "filename": "groupoids-quotients.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Quotients of Groupoids"
+    },
+    "guide": {
+      "book_part": "Miscellany",
+      "chapter_number": 112,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "guide.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "A Guide to the Literature"
+    },
+    "homology": {
+      "book_part": "Preliminaries",
+      "chapter_number": 12,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "homology.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Homological Algebra"
+    },
+    "hypercovering": {
+      "book_part": "Preliminaries",
+      "chapter_number": 25,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "hypercovering.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Hypercoverings"
+    },
+    "injectives": {
+      "book_part": "Preliminaries",
+      "chapter_number": 19,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "injectives.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Injectives"
+    },
+    "intersection": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 43,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "intersection:section-conventions"
+      ],
+      "filename": "intersection.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Intersection Theory"
+    },
+    "introduction": {
+      "book_part": "Preliminaries",
+      "chapter_number": 1,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "introduction.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Introduction"
+    },
+    "limits": {
+      "book_part": "Schemes",
+      "chapter_number": 32,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "limits.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Limits of Schemes"
+    },
+    "local-cohomology": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 51,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "local-cohomology.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Local Cohomology"
+    },
+    "models": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 55,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "models.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Semistable Reduction"
+    },
+    "modules": {
+      "book_part": "Preliminaries",
+      "chapter_number": 17,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "modules.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Sheaves of Modules"
+    },
+    "moduli": {
+      "book_part": "Topics in Moduli Theory",
+      "chapter_number": 108,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "moduli:section-conventions"
+      ],
+      "filename": "moduli.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Moduli Stacks"
+    },
+    "moduli-curves": {
+      "book_part": "Topics in Moduli Theory",
+      "chapter_number": 109,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "moduli-curves:section-conventions"
+      ],
+      "filename": "moduli-curves.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Moduli of Curves"
+    },
+    "more-algebra": {
+      "book_part": "Preliminaries",
+      "chapter_number": 15,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "more-algebra.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "More on Algebra"
+    },
+    "more-etale": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 63,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "more-etale.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "More \\'Etale Cohomology"
+    },
+    "more-groupoids": {
+      "book_part": "Schemes",
+      "chapter_number": 40,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "more-groupoids:section-notation"
+      ],
+      "filename": "more-groupoids.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "More on Groupoid Schemes"
+    },
+    "more-morphisms": {
+      "book_part": "Schemes",
+      "chapter_number": 37,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "more-morphisms.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "More on Morphisms"
+    },
+    "morphisms": {
+      "book_part": "Schemes",
+      "chapter_number": 29,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "morphisms.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Morphisms of Schemes"
+    },
+    "obsolete": {
+      "book_part": "Miscellany",
+      "chapter_number": 115,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "obsolete.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Obsolete"
+    },
+    "perfect": {
+      "book_part": "Schemes",
+      "chapter_number": 36,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "perfect:section-conventions"
+      ],
+      "filename": "perfect.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Derived Categories of Schemes"
+    },
+    "pic": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 44,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "pic.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Picard Schemes of Curves"
+    },
+    "pione": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 58,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "pione.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Fundamental Groups of Schemes"
+    },
+    "proetale": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 61,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "proetale.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Pro-\\'etale Cohomology"
+    },
+    "properties": {
+      "book_part": "Schemes",
+      "chapter_number": 28,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "properties.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Properties of Schemes"
+    },
+    "quot": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 99,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "quot:section-conventions"
+      ],
+      "filename": "quot.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Quot and Hilbert Spaces"
+    },
+    "relative-cycles": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 62,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "relative-cycles:section-conventions"
+      ],
+      "filename": "relative-cycles.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Relative Cycles"
+    },
+    "resolve": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 54,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "resolve.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Resolution of Surfaces"
+    },
+    "restricted": {
+      "book_part": "Topics in Geometry",
+      "chapter_number": 88,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "restricted.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Algebraization of Formal Spaces"
+    },
+    "schemes": {
+      "book_part": "Schemes",
+      "chapter_number": 26,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "schemes.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Schemes"
+    },
+    "sdga": {
+      "book_part": "Preliminaries",
+      "chapter_number": 24,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "sdga:section-conventions"
+      ],
+      "filename": "sdga.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Differential Graded Sheaves"
+    },
+    "sets": {
+      "book_part": "Preliminaries",
+      "chapter_number": 3,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "sets.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Set Theory"
+    },
+    "sheaves": {
+      "book_part": "Preliminaries",
+      "chapter_number": 6,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "sheaves.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Sheaves on Spaces"
+    },
+    "simplicial": {
+      "book_part": "Preliminaries",
+      "chapter_number": 14,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "simplicial.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Simplicial Methods"
+    },
+    "sites": {
+      "book_part": "Preliminaries",
+      "chapter_number": 7,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "sites.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Sites and Sheaves"
+    },
+    "sites-cohomology": {
+      "book_part": "Preliminaries",
+      "chapter_number": 21,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "sites-cohomology.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Cohomology on Sites"
+    },
+    "sites-modules": {
+      "book_part": "Preliminaries",
+      "chapter_number": 18,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "sites-modules.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Modules on Sites"
+    },
+    "smoothing": {
+      "book_part": "Preliminaries",
+      "chapter_number": 16,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "smoothing.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Smoothing Ring Maps"
+    },
+    "spaces": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 65,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "spaces.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Algebraic Spaces"
+    },
+    "spaces-chow": {
+      "book_part": "Topics in Geometry",
+      "chapter_number": 82,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-chow:section-setup"
+      ],
+      "filename": "spaces-chow.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Chow Groups of Spaces"
+    },
+    "spaces-cohomology": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 69,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-cohomology:section-conventions"
+      ],
+      "filename": "spaces-cohomology.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Cohomology of Algebraic Spaces"
+    },
+    "spaces-descent": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 74,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-descent:section-conventions"
+      ],
+      "filename": "spaces-descent.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Descent and Algebraic Spaces"
+    },
+    "spaces-divisors": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 71,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "spaces-divisors.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Divisors on Algebraic Spaces"
+    },
+    "spaces-duality": {
+      "book_part": "Topics in Geometry",
+      "chapter_number": 86,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "spaces-duality.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Duality for Spaces"
+    },
+    "spaces-flat": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 77,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "spaces-flat.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Flatness on Algebraic Spaces"
+    },
+    "spaces-groupoids": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 78,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-groupoids:section-conventions",
+        "spaces-groupoids:section-notation"
+      ],
+      "filename": "spaces-groupoids.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Groupoids in Algebraic Spaces"
+    },
+    "spaces-limits": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 70,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-limits:section-conventions"
+      ],
+      "filename": "spaces-limits.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Limits of Algebraic Spaces"
+    },
+    "spaces-more-cohomology": {
+      "book_part": "Topics in Geometry",
+      "chapter_number": 84,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-more-cohomology:section-conventions"
+      ],
+      "filename": "spaces-more-cohomology.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "More on Cohomology of Spaces"
+    },
+    "spaces-more-groupoids": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 79,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-more-groupoids:section-notation"
+      ],
+      "filename": "spaces-more-groupoids.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "More on Groupoids in Spaces"
+    },
+    "spaces-more-morphisms": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 76,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-more-morphisms:section-conventions"
+      ],
+      "filename": "spaces-more-morphisms.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "More on Morphisms of Spaces"
+    },
+    "spaces-morphisms": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 67,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-morphisms:section-conventions"
+      ],
+      "filename": "spaces-morphisms.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Morphisms of Algebraic Spaces"
+    },
+    "spaces-over-fields": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 72,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-over-fields:section-conventions"
+      ],
+      "filename": "spaces-over-fields.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Algebraic Spaces over Fields"
+    },
+    "spaces-perfect": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 75,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-perfect:section-conventions"
+      ],
+      "filename": "spaces-perfect.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Derived Categories of Spaces"
+    },
+    "spaces-properties": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 66,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-properties:section-conventions"
+      ],
+      "filename": "spaces-properties.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Properties of Algebraic Spaces"
+    },
+    "spaces-pushouts": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 81,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "spaces-pushouts:section-conventions"
+      ],
+      "filename": "spaces-pushouts.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Pushouts of Algebraic Spaces"
+    },
+    "spaces-resolve": {
+      "book_part": "Topics in Geometry",
+      "chapter_number": 89,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "spaces-resolve.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Resolution of Surfaces Revisited"
+    },
+    "spaces-simplicial": {
+      "book_part": "Topics in Geometry",
+      "chapter_number": 85,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "spaces-simplicial.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Simplicial Spaces"
+    },
+    "spaces-topologies": {
+      "book_part": "Algebraic Spaces",
+      "chapter_number": 73,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "spaces-topologies.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Topologies on Algebraic Spaces"
+    },
+    "stacks": {
+      "book_part": "Preliminaries",
+      "chapter_number": 8,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "stacks.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Stacks"
+    },
+    "stacks-cohomology": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 103,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "stacks-cohomology:section-conventions",
+        "stacks-cohomology:section-notation"
+      ],
+      "filename": "stacks-cohomology.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Cohomology of Algebraic Stacks"
+    },
+    "stacks-geometry": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 107,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "stacks-geometry.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "The Geometry of Algebraic Stacks"
+    },
+    "stacks-introduction": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 105,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "stacks-introduction.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Introducing Algebraic Stacks"
+    },
+    "stacks-limits": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 102,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "stacks-limits:section-conventions"
+      ],
+      "filename": "stacks-limits.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Limits of Algebraic Stacks"
+    },
+    "stacks-more-morphisms": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 106,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "stacks-more-morphisms:section-conventions"
+      ],
+      "filename": "stacks-more-morphisms.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "More on Morphisms of Stacks"
+    },
+    "stacks-morphisms": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 101,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "stacks-morphisms:section-conventions"
+      ],
+      "filename": "stacks-morphisms.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Morphisms of Algebraic Stacks"
+    },
+    "stacks-perfect": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 104,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "stacks-perfect:section-conventions"
+      ],
+      "filename": "stacks-perfect.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Derived Categories of Stacks"
+    },
+    "stacks-properties": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 100,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "stacks-properties:section-conventions"
+      ],
+      "filename": "stacks-properties.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Properties of Algebraic Stacks"
+    },
+    "stacks-sheaves": {
+      "book_part": "Algebraic Stacks",
+      "chapter_number": 96,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "stacks-sheaves:section-conventions"
+      ],
+      "filename": "stacks-sheaves.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Sheaves on Algebraic Stacks"
+    },
+    "topologies": {
+      "book_part": "Schemes",
+      "chapter_number": 34,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "topologies.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Topologies on Schemes"
+    },
+    "topology": {
+      "book_part": "Preliminaries",
+      "chapter_number": 5,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "topology.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "Topology"
+    },
+    "trace": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 64,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [],
+      "filename": "trace.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": false,
+      "title": "The Trace Formula"
+    },
+    "varieties": {
+      "book_part": "Schemes",
+      "chapter_number": 33,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "varieties:section-notation"
+      ],
+      "filename": "varieties.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Varieties"
+    },
+    "weil": {
+      "book_part": "Topics in Scheme Theory",
+      "chapter_number": 45,
+      "context_uncovered_by_this_pass": "chapter/section introductions and theorem-neighborhood references",
+      "direct_context_ids": [
+        "weil:section-conventions"
+      ],
+      "filename": "weil.tex",
+      "global_context_ids": [
+        "conventions:section-comments",
+        "conventions:section-sets",
+        "conventions:section-categories",
+        "conventions:section-algebra",
+        "conventions:section-notation"
+      ],
+      "has_reviewed_designated_context_section": true,
+      "title": "Weil Cohomology Theories"
+    }
+  },
+  "explicit_inheritance_edges": [
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "artin:section-conventions",
+      "to_context_id": "algebraic:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "criteria:section-conventions",
+      "to_context_id": "algebraic:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "desirables:section-conventions",
+      "to_context_id": "conventions:section-comments"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "examples-stacks:section-notation",
+      "to_context_id": "algebraic:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "formal-spaces:section-conventions",
+      "to_context_id": "spaces-properties:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "groupoids-quotients:section-conventions-notation",
+      "to_context_id": "spaces-groupoids:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "groupoids-quotients:section-conventions-notation",
+      "to_context_id": "spaces-groupoids:section-notation"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "moduli-curves:section-conventions",
+      "to_context_id": "stacks-properties:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "moduli:section-conventions",
+      "to_context_id": "stacks-properties:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "more-groupoids:section-notation",
+      "to_context_id": "groupoids:section-notation"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "quot:section-conventions",
+      "to_context_id": "algebraic:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "relative-cycles:section-conventions",
+      "to_context_id": "chow:section-setup"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "spaces-more-groupoids:section-notation",
+      "to_context_id": "spaces-groupoids:section-notation"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "stacks-cohomology:section-conventions",
+      "to_context_id": "stacks-properties:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "stacks-cohomology:section-notation",
+      "to_context_id": "stacks-properties:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "stacks-limits:section-conventions",
+      "to_context_id": "stacks-properties:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "stacks-more-morphisms:section-conventions",
+      "to_context_id": "stacks-properties:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "stacks-morphisms:section-conventions",
+      "to_context_id": "stacks-properties:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "stacks-perfect:section-conventions",
+      "to_context_id": "stacks-properties:section-conventions"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "stacks-perfect:section-conventions",
+      "to_context_id": "stacks-cohomology:section-notation"
+    },
+    {
+      "edge_type": "explicit_source_convention_inheritance_or_reuse",
+      "followed_for_math": false,
+      "from_context_id": "stacks-sheaves:section-conventions",
+      "to_context_id": "algebraic:section-conventions"
+    }
+  ],
+  "no_auto_hypothesis_expansion": true,
+  "no_inherited_assumptions_auto_propagated": true,
+  "repeated_context_families": {
+    "commutative_unital_ring": [
+      "conventions:section-algebra",
+      "algebra:section-conventions"
+    ],
+    "spaces_big_fppf": [
+      "spaces-properties:section-conventions",
+      "spaces-morphisms:section-conventions",
+      "decent-spaces:section-conventions",
+      "spaces-cohomology:section-conventions",
+      "spaces-limits:section-conventions",
+      "spaces-over-fields:section-conventions",
+      "spaces-descent:section-conventions",
+      "spaces-more-morphisms:section-conventions",
+      "spaces-groupoids:section-conventions",
+      "bootstrap:section-conventions",
+      "spaces-pushouts:section-conventions",
+      "spaces-more-cohomology:section-conventions"
+    ],
+    "stacks_source_conventions": [
+      "stacks-sheaves:section-conventions",
+      "stacks-properties:section-conventions",
+      "stacks-morphisms:section-conventions",
+      "stacks-limits:section-conventions",
+      "stacks-cohomology:section-conventions",
+      "stacks-cohomology:section-notation",
+      "stacks-perfect:section-conventions",
+      "stacks-more-morphisms:section-conventions"
+    ]
+  },
+  "schema": "maththm.stacks-standing-context-lookup.v1",
+  "source_packet_file": "harvest/stacks_context_sections_2026-10-28_packets.jsonl",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+}
