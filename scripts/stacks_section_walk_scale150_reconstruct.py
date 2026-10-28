@@ -47,6 +47,11 @@ PATCHES={
 "lemma-characteristic-polynomial-prime":{
  "note":"The complete source already quantifies R, a finite free R-algebra A, its element f and the prime p; nilpotence iff vanishing of all nonleading characteristic-polynomial coefficients is the conclusion.",
 },
+"lemma-qc-open":{
+ "tex":r"Let \(R\) be a ring and \(U\subseteq\operatorname{Spec}(R)\) an open subset. The following are equivalent: (1) \(U\) is retrocompact in \(\operatorname{Spec}(R)\); (2) \(U\) is quasi-compact; (3) \(U\) is a finite union of standard opens; (4) there is a finitely generated ideal \(I\subseteq R\) with \(U=\operatorname{Spec}(R)\setminus V(I)\).",
+ "hyp":[r"R is a ring.",r"U is an open subset of \operatorname{Spec}(R)."],
+ "note":"Resolves source section's unbound X in the fourth equivalence as Spec(R); all four conditions are conclusions, not hypotheses.",
+},
 "lemma-colon":{
  "hyp":[r"R is a commutative unital ring.",r"J\subseteq R is principal.",r"I\subseteq J is an ideal."],
  "conc":[r"I=J(I:J)."],
@@ -148,6 +153,42 @@ def normalized(tex):
     t="\n".join(x.rstrip() for x in t.splitlines()).strip()
     return t
 
+def split_source_enumeration(source_tex):
+    """Return source-scope preamble, top-level items and optional addendum.
+
+    The source statement remains independently preserved verbatim.
+    Nested enumerations trigger later explicit review rather than guessing.
+    """
+    t=normalized(source_tex)
+    b=t.find(r"\begin{enumerate}")
+    if b<0:
+        return None
+    e=t.find(r"\end{enumerate}",b)
+    if e<0:return {"shape":"malformed","intro":t,"items":[],"tail":""}
+    intro=t[:b].strip()
+    within=t[b+len(r"\begin{enumerate}"):e]
+    tail=t[e+len(r"\end{enumerate}"):].strip()
+    items=[x.strip() for x in ITEM.split(within)[1:] if x.strip()]
+    if "following are equivalent" in intro.lower():
+        shape="equivalent_conditions"
+    elif re.search(r"(?is)(?:assume|suppose)\s+that\s*$",intro):
+        shape="listed_premises_then_conclusion"
+    elif re.search(r"(?is)(?:there exist|there exists)\b.+\bsuch\s+that\s*:$",intro):
+        shape="existential_witness_properties"
+    elif re.search(r"(?is)\bsuch\s+that\s*:$",intro):
+        shape="witness_properties"
+    elif re.search(r"(?is)\bthe\s+following\s+(?:hold|conditions)\s*:?$",intro):
+        shape="assertion_conjunction_with_quantified_witnesses"
+    else:
+        shape="listed_assertions_with_individual_guards"
+    clean_intro=intro
+    if shape=="equivalent_conditions":
+        clean_intro=re.sub(
+            r"(?is)(?:then\s+)?the\s+following\s+are\s+equivalent\s*:?$", "",
+            intro).strip()
+    return {"shape":shape,"intro":clean_intro,
+            "items":items,"tail":tail}
+
 def semantic_issues(tex,pkt):
     flags=[]
     refs=REF.findall(tex)
@@ -238,16 +279,57 @@ def main():
                 extra_issues.append("Pass 2 has no explicit hypothesis rows: manually confirm quantified variables.")
             # No source lemma premise persists after its source environment.
             loc=bounds[pkt["source_statement_line"]]
-            asserts=[
-                re.sub(r"(?s)\\begin\{enumerate\}|\\end\{enumerate\}","",x).strip()
-                for x in ITEM.split(normalized(original))[1:]
-            ]
-            if any(not x for x in asserts):
-                extra_issues.append("Empty source-item segment requires manual review.")
+            parsed=split_source_enumeration(original)
+            asserts=parsed["items"] if parsed else []
+            if parsed and (not asserts or parsed["shape"]=="malformed"):
+                extra_issues.append("Enumerated source statement cannot be segmented safely.")
             hypotheses=patch.get("hyp",pkt["prior_hypotheses"])
             conclusions=patch.get("conc",pkt["prior_conclusions"])
+            additional=[]
+            source_logical_form="no_enumeration"
+            if parsed:
+                source_logical_form=parsed["shape"]
+                if parsed["shape"]=="equivalent_conditions":
+                    if "hyp" not in patch:
+                        hypotheses=[parsed["intro"]] if parsed["intro"] else []
+                    if "conc" not in patch:
+                        conclusions=asserts
+                    if parsed["tail"]:
+                        additional=[parsed["tail"]]
+                elif parsed["shape"]=="listed_premises_then_conclusion":
+                    if "hyp" not in patch:
+                        hypotheses=([parsed["intro"]] if parsed["intro"] else [])+asserts
+                    if "conc" not in patch:
+                        conclusions=[parsed["tail"]] if parsed["tail"] else []
+                elif parsed["shape"] in (
+                    "existential_witness_properties","witness_properties",
+                    "assertion_conjunction_with_quantified_witnesses"):
+                    # The items are constraints on one existential witness,
+                    # not separately quantified conclusions; retain their
+                    # grouping in the original source statement.
+                    if "hyp" not in patch:
+                        hypotheses=[parsed["intro"]] if parsed["intro"] else []
+                    if "conc" not in patch:
+                        conclusions=[parsed["intro"]+" "+
+                                     r"\begin{enumerate}"+" "+
+                                     " ".join(r"\item "+x for x in asserts)+
+                                     " "+r"\end{enumerate}"]
+                    if parsed["tail"]:additional=[parsed["tail"]]
+                    extra_issues.append("Review existential or shared-witness quantification before final approval.")
+                else:
+                    # Independent clauses can each carry their own premise;
+                    # none of their 'If ...' fragments is inherited globally.
+                    if "hyp" not in patch:
+                        hypotheses=[parsed["intro"]] if parsed["intro"] else []
+                    if "conc" not in patch:
+                        conclusions=asserts
+                    if parsed["tail"]:additional=[parsed["tail"]]
             if not conclusions and not asserts:
                 extra_issues.append("Neither Pass 2 conclusion nor an explicit enumerate clause is available.")
+            if label in ("lemma-flat","lemma-ff","lemma-flat-base-change") and not statement.startswith("Let $R$ be a ring"):
+                statement="Let $R$ be a ring. "+statement
+            if label=="lemma-characterize-jacobson":
+                extra_issues.append("The enumerated conditions belong to a single existential witness; verify logical grouping against the whole source sentence.")
             if pkt["statement_truncated"]:
                 extra_issues.append("Full statement must be recovered from the pinned source before any promotion.")
             status=("context_resolution_pending" if extra_issues else
@@ -272,6 +354,8 @@ def main():
                 "original_source_statement_tex":original,
                 "draft_hypotheses":hypotheses,
                 "draft_conclusions":conclusions,
+                "additional_conclusions":additional,
+                "source_enumeration_logical_form":source_logical_form,
                 "source_enumerated_clauses":asserts,
                 "source_has_equivalence_form":bool(re.search(
                     r"(?i)following\s+are\s+equivalent|if\s+and\s+only\s+if|\\Leftrightarrow",original)),
