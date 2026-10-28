@@ -38,7 +38,8 @@ class HardStructuresTests(unittest.TestCase):
         self.assertEqual(len(out["conclusions"]),2)
         self.assertEqual(len(out["structured_cases"]),2)
         self.assertTrue(out["structured_cases"][0]["clause_is_conditional"])
-        self.assertIn("If $X$ is compact",out["conclusions"][0])
+        self.assertIn("If $X$ is compact",out["hypotheses"][1])
+        self.assertIn("$X$ is quasi-compact",out["conclusions"][0])
 
     def test_nested_enumeration_not_flattened(self):
         s=r"Let $X$ be a space. Then \begin{enumerate}\item $P$.\item If $Q$ then \begin{enumerate}\item $R$\end{enumerate}\end{enumerate}"
