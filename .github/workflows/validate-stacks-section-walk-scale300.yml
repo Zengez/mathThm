@@ -5,6 +5,8 @@ on:
       - .github/workflows/validate-stacks-section-walk-scale300.yml
       - scripts/validate_stacks_section_walk_scale300.py
       - scripts/stacks_section_walk_scale300_reconstruct.py
+      - harvest/SECTION_WALK_COMPLETED_SECTIONS.json
+      - harvest/section_walk_scale300_2026-10-28/SCOPES_REVIEWED.json
   workflow_dispatch:
 permissions:
   contents: write
