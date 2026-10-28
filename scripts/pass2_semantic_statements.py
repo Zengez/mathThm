@@ -25,7 +25,7 @@ SOURCE_TOP=re.compile(r"(?i)^(?:Let|Suppose|Assume|Fix|Consider|Given|Take|For)\
 PROPERTIES=re.compile(r"(?i)^The\s+base\s+change\s+of\s+(?P<subject>.+?)\s+is\s+(?P<predicate>[^.]+)\.?$")
 COMPOSITION=re.compile(
     r"(?i)^(?:(?:The\s+)?compositions?\s+of)\s+(?P<subject>.+?)\s+"
-    r"(?P<verb>is|are|satisfies)\s+(?P<predicate>[^.]+)\.?$")
+    r"(?P<verb>is|are|satisfies)\s+(?P<predicate>.+?)\.?$")
 BASED=re.compile(r"(?i)^(?P<subject>(?:[A-Z][^\n.]{6,300}?))\s+"
                  r"(?:are|is)\s+preserved\s+by\s+base\s+change\.?$")
 SPLIT= re.compile(r"\b(?:The|This|These|There|We|Any|Every|Each|A|An)\b",re.I)
