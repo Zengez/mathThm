@@ -62,6 +62,7 @@ def independent_list(base,body):
     after=body[b:].strip()
     items=list_items(body,blocks[0])
     if not items or after or len(items)>14:return None
+    if any(re.search(r"(?i)\b(?:and\s+so\s+on|etc\.?|add\s+more\s+here|to\s+do)\b",z) for z in items):return None
     if not CASE_HEAD.match(before):return None
     if IFFF.search(body) or re.search(r"\b(?:are|is)\s+equivalent\b",before,re.I):
         return None
