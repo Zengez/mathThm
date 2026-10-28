@@ -1,0 +1,2642 @@
+{
+  "candidate_count": 9683,
+  "groups": {
+    "pass2_statement_exact": {
+      "all_groups": [
+        {
+          "candidate_ids": [
+            "candidate.stacks.02ce53f3a130017d37fe5693",
+            "candidate.stacks.c05e1a168f62aa180fde95c2",
+            "candidate.stacks.f0e7dbb58e5c1ac52197bf9c"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1cf57041816ed62448653c87",
+            "candidate.stacks.2917191cbf2a677673a110ae",
+            "candidate.stacks.99282baae8b7dc4378b96c93"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2e25a74204df4ba698b4200d",
+            "candidate.stacks.4414abc954fb4a525c4aa13e",
+            "candidate.stacks.7665f2197f38b9c0ae46d887"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3f4156f3e6ca46ec5563c7f3",
+            "candidate.stacks.900ff37d35436007e55ca15c",
+            "candidate.stacks.aeb6f8964e76bf7bfa721cc7"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5e4ca48235379cf42e4e560f",
+            "candidate.stacks.a88e6c2932a7db1bccf377d1",
+            "candidate.stacks.c1874dcd6296c17568c3cee2"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.68456864c13765d84862fbe1",
+            "candidate.stacks.83edb2e4ae81452ce8211ab5",
+            "candidate.stacks.f7837826ea776d892bb56ecd"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.074ad774246f9f50422a06fb",
+            "candidate.stacks.f8a7c369f11841659c5ae93f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.07cf0c4d43024031ec5ef193",
+            "candidate.stacks.92445580cebb396b58aeaeba"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.090348566bee0564680757e1",
+            "candidate.stacks.3808b3ec2ad3539482a2ad5e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0a98fdc5ee6bbaccf90d1c1c",
+            "candidate.stacks.66a6e1c2c9f01a45d4690f42"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0bdc66026904a29bb3d322d0",
+            "candidate.stacks.b3302b96c08ba0a53e675d9a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0c8ad7a5a67874765820103b",
+            "candidate.stacks.cefc8c0542821946c71b2dd9"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.10f44c2c6dc13c31a79f73e6",
+            "candidate.stacks.69b12a6dc9fece9b4c0dbbbe"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.114a759bf687d888a673138d",
+            "candidate.stacks.2dee1b713e4a8db066f6a57e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.138f71f0a854b19416e13db4",
+            "candidate.stacks.3441f8abb9ebad000bb65577"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.13af5389db1e0cd59b875822",
+            "candidate.stacks.46f40b90d051b5a771592254"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.15a60f1c490e2135552d6683",
+            "candidate.stacks.97cfefae0e1eb8530ce76256"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1812a6b4e200b18e736f20f4",
+            "candidate.stacks.815241c57a95f6768607f653"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1e8e5d926be2ea3b7dfb5494",
+            "candidate.stacks.c3b2a778377831d8f43c3ad4"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.276ec5cc7709a4c02715c0f6",
+            "candidate.stacks.4cdccbc9f4645b6dc40767a1"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.280100bcc48749d85046ab6b",
+            "candidate.stacks.8f44d82b5ee413f3c25703a3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28cfedd0f8ccd6ce9af8bb2c",
+            "candidate.stacks.6be7be004ae1ffa9b5b2f9c7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28e9090ad299526454044ffa",
+            "candidate.stacks.ba117bd746811b14e019846c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28eb24ec703a367c948f7e4a",
+            "candidate.stacks.a6bdc424d268b07f210839c0"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2a7e970d1b36192d36efcf4b",
+            "candidate.stacks.957959f034b2098ded5c3a42"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2cf92a11585a8b5752c6c63a",
+            "candidate.stacks.2d084afb70bfc1da6a866717"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.348217635b074dd8b611e990",
+            "candidate.stacks.ac9748526b29d81459121209"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.34b1e6088b16518eb00b6455",
+            "candidate.stacks.2df24534efa33837481b6b51"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.36e71897caffb7a7ed1818fc",
+            "candidate.stacks.f57345a670861cb69785d96c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.37be377986edef1afd50e5f0",
+            "candidate.stacks.d8d39c1bd817eebfc591e972"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3a8ba7122f9332887028fa56",
+            "candidate.stacks.bdc103855ea7f9af29b6fd65"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3b10b6a8c55e14e46421f06b",
+            "candidate.stacks.f0a23849523fe09e2dc1edd7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3b3222f29770321841928a97",
+            "candidate.stacks.f63e7771e900118c99ea02d5"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3c8afa489d6957daebab1c84",
+            "candidate.stacks.a233f6ea7ee4c755ac8f878f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3e7c4bad9bdfe9328759b6b1",
+            "candidate.stacks.76c619e5860dc52eb4408e6d"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4030d9c197ca7d7192906d4a",
+            "candidate.stacks.d4aa3c02eacc48c5e1612ecb"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.40ab4127b5db79e6cc2a3294",
+            "candidate.stacks.3f453bd8280997b503bbf5d4"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4216b776d34de114ca5c81ab",
+            "candidate.stacks.d740d785f659addbfd114afa"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.467c30791fb5be47d95349b8",
+            "candidate.stacks.a147bf6f046fe2725cc77838"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4981f0ea8380c98170ec3dfd",
+            "candidate.stacks.5bd41b57ea8163079584a0c5"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4cd2c727f85c69efd7862aa6",
+            "candidate.stacks.29ad747460f3bae5d0804973"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.507418e2223d205d14ff3c87",
+            "candidate.stacks.421830df4e87400c1c9a1804"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.50ad815da5a9356ccf05aa41",
+            "candidate.stacks.a5d1e0b5863530697fd5e807"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.53588572b99da05cd310d116",
+            "candidate.stacks.ab64526e63d1c32b88a35d0d"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.536ae8468f50b193b3cee4c8",
+            "candidate.stacks.6bc34f9ab82de00b6d7e12ae"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.584221b7228ce4882f1ff7c0",
+            "candidate.stacks.b35fc92f613fc6b0e7cd7e5f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5991c3a4dda67ecfada28077",
+            "candidate.stacks.457d138b8e1548fede2d967e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.59c403108ff5b2c5ccdd91d4",
+            "candidate.stacks.dd6a95a43968e40a61e6921a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5b48969d657d048f912ae4f5",
+            "candidate.stacks.4c991d63d0c85f95b0e60818"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5bbd77e2a4498435beb98705",
+            "candidate.stacks.ef30d5b02c2a826a694d3ac5"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5dc3cd5f04ae0585249c6143",
+            "candidate.stacks.0a87d47cd231af44c93cb2f1"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5e79b215fa85139f2ae13c8b",
+            "candidate.stacks.900140b75326993dda4cdbee"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5fefbf39f24bacb979f200d1",
+            "candidate.stacks.dbbd35ad150d7b56c852ea6f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.61ef86afd2b99d7502e757e0",
+            "candidate.stacks.604d174e90b15bacf741ed64"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.61fb9ef632d0e75561487532",
+            "candidate.stacks.62055493cf8951a6724cd438"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.63e2e62ee2d7793ac8b0c7f0",
+            "candidate.stacks.cfdc47984da628824be35f84"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.64cf438fbaddd300aa2f9d5d",
+            "candidate.stacks.653d8e0723f37b2a96e6cda3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.653cd011b7f669bcb9033276",
+            "candidate.stacks.f060c06e44e49b360d2cbafb"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6640e84a697c3cf5e180a52c",
+            "candidate.stacks.144a64abfabeb046dca53f1d"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6c2b0a7b5526f35f6ddd9a06",
+            "candidate.stacks.a0a305bf5d93241ffad29742"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6ceee8337d4773bf72957757",
+            "candidate.stacks.27ba8c6dd729d59f3b1b9920"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6e3b7b4718cbfd369f1e4026",
+            "candidate.stacks.c4d1db9301066ec89caef781"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6e3df3845447aaec13d7cac2",
+            "candidate.stacks.b629f6f29988bec39440b1e8"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6f5b47080a68d785f42755cd",
+            "candidate.stacks.80003a7dbb2daa68409ca22b"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.72684e0e51fec2e6de259eff",
+            "candidate.stacks.9c5e8a899df6a732ae2b0bce"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.78f8d1995c27bcd2ac25cff0",
+            "candidate.stacks.85369cd690c98e6bdff4c2fa"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.7bc0c2726839732dbc3a285e",
+            "candidate.stacks.eedd29d6bcdd903788e7397c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.7e16513051aea7e819d67f23",
+            "candidate.stacks.63c4498912e707abbdad196a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.7e19e5a24fa7352c5abb888d",
+            "candidate.stacks.ae6e45c09d7721b6c70700f7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.84664eb184ce07b301d2d0ae",
+            "candidate.stacks.f1c64548b350de2da7be1046"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.8bb81d697148942e224152f5",
+            "candidate.stacks.7dfd1168ff2f8695730fa01e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.8c21163139e0e59731bb4a4b",
+            "candidate.stacks.f912f53ed6daf02a78cb97eb"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.8c5c5411d915ee57cae093d3",
+            "candidate.stacks.efcbfe92ee4466eb84c6c919"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.903adbbcd2fadd4fba434713",
+            "candidate.stacks.0670f3c5555f073330b72ab3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.959af842c237f8f23456a506",
+            "candidate.stacks.f72fa75f4a14f4609eed2f27"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.963ffa976c0fc2634fa45945",
+            "candidate.stacks.cb452a60967910dd3bf51b54"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.9c4d192a669e72cf562a8430",
+            "candidate.stacks.abcbb782ff991cc82e95386a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.9da36d6fd8f2d8806de05668",
+            "candidate.stacks.fcd976ad05bcdde903b2b45b"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.a55f9d7c24ccff68585906d2",
+            "candidate.stacks.67a4b4e1301c5bb0da9afe6a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.af57e5600231c6d205bc0e68",
+            "candidate.stacks.d54e1bb6473235564175c680"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b26da507edc6e3a8ea1a9e59",
+            "candidate.stacks.b6edffb5489a8fc876b255e3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b2eb5e6287b4f5ec0543ed47",
+            "candidate.stacks.dc68ea309b0480e323cb6ce6"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b5da9d7396d3d82821a9b062",
+            "candidate.stacks.d6a57dd667ab7f7406d43b9e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b958b6d1e73319850ccf02d0",
+            "candidate.stacks.be7cfac76041ec7c0712da5f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.baf39500c841d11e1ab47a3a",
+            "candidate.stacks.d45e82ec62c6d63024ae2f67"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c33ca95a1c4783d60181794b",
+            "candidate.stacks.b9a7d9b0b2a04fc89f47e3dc"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c518d6da2d1392c38511cac5",
+            "candidate.stacks.24fb18d86d5a76d481eec60c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c7e3b78166c1f2bd36ba9ff6",
+            "candidate.stacks.f9e2e63b45571a5616f656c6"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c8e094646c80ae2600f412ce",
+            "candidate.stacks.1f834e7d15f33269e1b5c772"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.ca24e1b07a0b26d7cb09960e",
+            "candidate.stacks.7cef34d1c63cbad27895318b"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.cb0e70d423661a10e414bdd5",
+            "candidate.stacks.f07ec39ae8c62fa24faad719"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.d53862fe35cda396b49986cd",
+            "candidate.stacks.d63a426600abc837086f0534"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.d7578270777df4256e0b1662",
+            "candidate.stacks.882cae499db0309dce937795"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.d7eac993aa6f814f198370c7",
+            "candidate.stacks.e07d8fb9fd0580e339f197d2"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.d8295cf415df4edb8f4d611a",
+            "candidate.stacks.41c44ce3113303fb2e9726ea"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.dadd9964d25b32f43d24286e",
+            "candidate.stacks.b9bfe18d83ad37fd5fa236d4"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.dbaed70ee7b40772a88bc651",
+            "candidate.stacks.127b8ecbe45bdfa462705258"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.e5a5157832542b2441df26e4",
+            "candidate.stacks.6fea53a5e4e633be59bd52b2"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.eb9821ec7b5534271f630480",
+            "candidate.stacks.1dccb0e96a8b53c121b1eed3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.f5e5d251ad6b6902ff7d1e24",
+            "candidate.stacks.079444b35622c7c26e355b61"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.f65b9454fa41946a8a7c4cdc",
+            "candidate.stacks.afd38006afdfc7658b8dc064"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.fc5f802dc76ce817c54429cd",
+            "candidate.stacks.d01f3dbf16abefc58d58c0ec"
+          ],
+          "count": 2
+        }
+      ],
+      "candidates_in_groups": 210,
+      "duplicate_groups": 102,
+      "examples": [
+        {
+          "candidate_ids": [
+            "candidate.stacks.02ce53f3a130017d37fe5693",
+            "candidate.stacks.c05e1a168f62aa180fde95c2",
+            "candidate.stacks.f0e7dbb58e5c1ac52197bf9c"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1cf57041816ed62448653c87",
+            "candidate.stacks.2917191cbf2a677673a110ae",
+            "candidate.stacks.99282baae8b7dc4378b96c93"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2e25a74204df4ba698b4200d",
+            "candidate.stacks.4414abc954fb4a525c4aa13e",
+            "candidate.stacks.7665f2197f38b9c0ae46d887"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3f4156f3e6ca46ec5563c7f3",
+            "candidate.stacks.900ff37d35436007e55ca15c",
+            "candidate.stacks.aeb6f8964e76bf7bfa721cc7"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5e4ca48235379cf42e4e560f",
+            "candidate.stacks.a88e6c2932a7db1bccf377d1",
+            "candidate.stacks.c1874dcd6296c17568c3cee2"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.68456864c13765d84862fbe1",
+            "candidate.stacks.83edb2e4ae81452ce8211ab5",
+            "candidate.stacks.f7837826ea776d892bb56ecd"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.074ad774246f9f50422a06fb",
+            "candidate.stacks.f8a7c369f11841659c5ae93f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.07cf0c4d43024031ec5ef193",
+            "candidate.stacks.92445580cebb396b58aeaeba"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.090348566bee0564680757e1",
+            "candidate.stacks.3808b3ec2ad3539482a2ad5e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0a98fdc5ee6bbaccf90d1c1c",
+            "candidate.stacks.66a6e1c2c9f01a45d4690f42"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0bdc66026904a29bb3d322d0",
+            "candidate.stacks.b3302b96c08ba0a53e675d9a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0c8ad7a5a67874765820103b",
+            "candidate.stacks.cefc8c0542821946c71b2dd9"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.10f44c2c6dc13c31a79f73e6",
+            "candidate.stacks.69b12a6dc9fece9b4c0dbbbe"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.114a759bf687d888a673138d",
+            "candidate.stacks.2dee1b713e4a8db066f6a57e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.138f71f0a854b19416e13db4",
+            "candidate.stacks.3441f8abb9ebad000bb65577"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.13af5389db1e0cd59b875822",
+            "candidate.stacks.46f40b90d051b5a771592254"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.15a60f1c490e2135552d6683",
+            "candidate.stacks.97cfefae0e1eb8530ce76256"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1812a6b4e200b18e736f20f4",
+            "candidate.stacks.815241c57a95f6768607f653"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1e8e5d926be2ea3b7dfb5494",
+            "candidate.stacks.c3b2a778377831d8f43c3ad4"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.276ec5cc7709a4c02715c0f6",
+            "candidate.stacks.4cdccbc9f4645b6dc40767a1"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.280100bcc48749d85046ab6b",
+            "candidate.stacks.8f44d82b5ee413f3c25703a3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28cfedd0f8ccd6ce9af8bb2c",
+            "candidate.stacks.6be7be004ae1ffa9b5b2f9c7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28e9090ad299526454044ffa",
+            "candidate.stacks.ba117bd746811b14e019846c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28eb24ec703a367c948f7e4a",
+            "candidate.stacks.a6bdc424d268b07f210839c0"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2a7e970d1b36192d36efcf4b",
+            "candidate.stacks.957959f034b2098ded5c3a42"
+          ],
+          "count": 2
+        }
+      ],
+      "possible_redundant_entries": 108
+    },
+    "source_statement_exact": {
+      "all_groups": [
+        {
+          "candidate_ids": [
+            "candidate.stacks.02ce53f3a130017d37fe5693",
+            "candidate.stacks.c05e1a168f62aa180fde95c2",
+            "candidate.stacks.f0e7dbb58e5c1ac52197bf9c"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1cf57041816ed62448653c87",
+            "candidate.stacks.2917191cbf2a677673a110ae",
+            "candidate.stacks.99282baae8b7dc4378b96c93"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2e25a74204df4ba698b4200d",
+            "candidate.stacks.4414abc954fb4a525c4aa13e",
+            "candidate.stacks.7665f2197f38b9c0ae46d887"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3f4156f3e6ca46ec5563c7f3",
+            "candidate.stacks.900ff37d35436007e55ca15c",
+            "candidate.stacks.aeb6f8964e76bf7bfa721cc7"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5e4ca48235379cf42e4e560f",
+            "candidate.stacks.a88e6c2932a7db1bccf377d1",
+            "candidate.stacks.c1874dcd6296c17568c3cee2"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.68456864c13765d84862fbe1",
+            "candidate.stacks.83edb2e4ae81452ce8211ab5",
+            "candidate.stacks.f7837826ea776d892bb56ecd"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.074ad774246f9f50422a06fb",
+            "candidate.stacks.f8a7c369f11841659c5ae93f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.07cf0c4d43024031ec5ef193",
+            "candidate.stacks.92445580cebb396b58aeaeba"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.090348566bee0564680757e1",
+            "candidate.stacks.3808b3ec2ad3539482a2ad5e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0a98fdc5ee6bbaccf90d1c1c",
+            "candidate.stacks.66a6e1c2c9f01a45d4690f42"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0bdc66026904a29bb3d322d0",
+            "candidate.stacks.b3302b96c08ba0a53e675d9a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0c8ad7a5a67874765820103b",
+            "candidate.stacks.cefc8c0542821946c71b2dd9"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.10f44c2c6dc13c31a79f73e6",
+            "candidate.stacks.69b12a6dc9fece9b4c0dbbbe"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.114a759bf687d888a673138d",
+            "candidate.stacks.2dee1b713e4a8db066f6a57e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.138f71f0a854b19416e13db4",
+            "candidate.stacks.3441f8abb9ebad000bb65577"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.13af5389db1e0cd59b875822",
+            "candidate.stacks.46f40b90d051b5a771592254"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.15a60f1c490e2135552d6683",
+            "candidate.stacks.97cfefae0e1eb8530ce76256"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1812a6b4e200b18e736f20f4",
+            "candidate.stacks.815241c57a95f6768607f653"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.276ec5cc7709a4c02715c0f6",
+            "candidate.stacks.4cdccbc9f4645b6dc40767a1"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.280100bcc48749d85046ab6b",
+            "candidate.stacks.8f44d82b5ee413f3c25703a3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28cfedd0f8ccd6ce9af8bb2c",
+            "candidate.stacks.6be7be004ae1ffa9b5b2f9c7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28e9090ad299526454044ffa",
+            "candidate.stacks.ba117bd746811b14e019846c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28eb24ec703a367c948f7e4a",
+            "candidate.stacks.a6bdc424d268b07f210839c0"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2a7e970d1b36192d36efcf4b",
+            "candidate.stacks.957959f034b2098ded5c3a42"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2cf92a11585a8b5752c6c63a",
+            "candidate.stacks.2d084afb70bfc1da6a866717"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.348217635b074dd8b611e990",
+            "candidate.stacks.ac9748526b29d81459121209"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.34b1e6088b16518eb00b6455",
+            "candidate.stacks.2df24534efa33837481b6b51"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.36e71897caffb7a7ed1818fc",
+            "candidate.stacks.f57345a670861cb69785d96c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.37be377986edef1afd50e5f0",
+            "candidate.stacks.d8d39c1bd817eebfc591e972"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3a8ba7122f9332887028fa56",
+            "candidate.stacks.bdc103855ea7f9af29b6fd65"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3b10b6a8c55e14e46421f06b",
+            "candidate.stacks.f0a23849523fe09e2dc1edd7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3b3222f29770321841928a97",
+            "candidate.stacks.f63e7771e900118c99ea02d5"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3c8afa489d6957daebab1c84",
+            "candidate.stacks.a233f6ea7ee4c755ac8f878f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3e7c4bad9bdfe9328759b6b1",
+            "candidate.stacks.76c619e5860dc52eb4408e6d"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4030d9c197ca7d7192906d4a",
+            "candidate.stacks.d4aa3c02eacc48c5e1612ecb"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.40ab4127b5db79e6cc2a3294",
+            "candidate.stacks.3f453bd8280997b503bbf5d4"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4216b776d34de114ca5c81ab",
+            "candidate.stacks.d740d785f659addbfd114afa"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.467c30791fb5be47d95349b8",
+            "candidate.stacks.a147bf6f046fe2725cc77838"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4981f0ea8380c98170ec3dfd",
+            "candidate.stacks.5bd41b57ea8163079584a0c5"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4cd2c727f85c69efd7862aa6",
+            "candidate.stacks.29ad747460f3bae5d0804973"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.507418e2223d205d14ff3c87",
+            "candidate.stacks.421830df4e87400c1c9a1804"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.50ad815da5a9356ccf05aa41",
+            "candidate.stacks.a5d1e0b5863530697fd5e807"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.53588572b99da05cd310d116",
+            "candidate.stacks.ab64526e63d1c32b88a35d0d"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.536ae8468f50b193b3cee4c8",
+            "candidate.stacks.6bc34f9ab82de00b6d7e12ae"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.584221b7228ce4882f1ff7c0",
+            "candidate.stacks.b35fc92f613fc6b0e7cd7e5f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5991c3a4dda67ecfada28077",
+            "candidate.stacks.457d138b8e1548fede2d967e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.59c403108ff5b2c5ccdd91d4",
+            "candidate.stacks.dd6a95a43968e40a61e6921a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5b48969d657d048f912ae4f5",
+            "candidate.stacks.4c991d63d0c85f95b0e60818"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5bbd77e2a4498435beb98705",
+            "candidate.stacks.ef30d5b02c2a826a694d3ac5"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5dc3cd5f04ae0585249c6143",
+            "candidate.stacks.0a87d47cd231af44c93cb2f1"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5e79b215fa85139f2ae13c8b",
+            "candidate.stacks.900140b75326993dda4cdbee"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5fefbf39f24bacb979f200d1",
+            "candidate.stacks.dbbd35ad150d7b56c852ea6f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.61ef86afd2b99d7502e757e0",
+            "candidate.stacks.604d174e90b15bacf741ed64"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.61fb9ef632d0e75561487532",
+            "candidate.stacks.62055493cf8951a6724cd438"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.63e2e62ee2d7793ac8b0c7f0",
+            "candidate.stacks.cfdc47984da628824be35f84"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.64cf438fbaddd300aa2f9d5d",
+            "candidate.stacks.653d8e0723f37b2a96e6cda3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.653cd011b7f669bcb9033276",
+            "candidate.stacks.f060c06e44e49b360d2cbafb"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6640e84a697c3cf5e180a52c",
+            "candidate.stacks.144a64abfabeb046dca53f1d"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6c2b0a7b5526f35f6ddd9a06",
+            "candidate.stacks.a0a305bf5d93241ffad29742"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6ceee8337d4773bf72957757",
+            "candidate.stacks.27ba8c6dd729d59f3b1b9920"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6e3b7b4718cbfd369f1e4026",
+            "candidate.stacks.c4d1db9301066ec89caef781"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6e3df3845447aaec13d7cac2",
+            "candidate.stacks.b629f6f29988bec39440b1e8"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6f5b47080a68d785f42755cd",
+            "candidate.stacks.80003a7dbb2daa68409ca22b"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.72684e0e51fec2e6de259eff",
+            "candidate.stacks.9c5e8a899df6a732ae2b0bce"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.78f8d1995c27bcd2ac25cff0",
+            "candidate.stacks.85369cd690c98e6bdff4c2fa"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.7bc0c2726839732dbc3a285e",
+            "candidate.stacks.eedd29d6bcdd903788e7397c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.7e16513051aea7e819d67f23",
+            "candidate.stacks.63c4498912e707abbdad196a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.7e19e5a24fa7352c5abb888d",
+            "candidate.stacks.ae6e45c09d7721b6c70700f7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.84664eb184ce07b301d2d0ae",
+            "candidate.stacks.f1c64548b350de2da7be1046"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.8bb81d697148942e224152f5",
+            "candidate.stacks.7dfd1168ff2f8695730fa01e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.8c21163139e0e59731bb4a4b",
+            "candidate.stacks.f912f53ed6daf02a78cb97eb"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.8c5c5411d915ee57cae093d3",
+            "candidate.stacks.efcbfe92ee4466eb84c6c919"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.903adbbcd2fadd4fba434713",
+            "candidate.stacks.0670f3c5555f073330b72ab3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.959af842c237f8f23456a506",
+            "candidate.stacks.f72fa75f4a14f4609eed2f27"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.963ffa976c0fc2634fa45945",
+            "candidate.stacks.cb452a60967910dd3bf51b54"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.9c4d192a669e72cf562a8430",
+            "candidate.stacks.abcbb782ff991cc82e95386a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.9da36d6fd8f2d8806de05668",
+            "candidate.stacks.fcd976ad05bcdde903b2b45b"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.a55f9d7c24ccff68585906d2",
+            "candidate.stacks.67a4b4e1301c5bb0da9afe6a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.af57e5600231c6d205bc0e68",
+            "candidate.stacks.d54e1bb6473235564175c680"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b26da507edc6e3a8ea1a9e59",
+            "candidate.stacks.b6edffb5489a8fc876b255e3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b2eb5e6287b4f5ec0543ed47",
+            "candidate.stacks.dc68ea309b0480e323cb6ce6"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b5da9d7396d3d82821a9b062",
+            "candidate.stacks.d6a57dd667ab7f7406d43b9e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b958b6d1e73319850ccf02d0",
+            "candidate.stacks.be7cfac76041ec7c0712da5f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.baf39500c841d11e1ab47a3a",
+            "candidate.stacks.d45e82ec62c6d63024ae2f67"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c33ca95a1c4783d60181794b",
+            "candidate.stacks.b9a7d9b0b2a04fc89f47e3dc"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c518d6da2d1392c38511cac5",
+            "candidate.stacks.24fb18d86d5a76d481eec60c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c7e3b78166c1f2bd36ba9ff6",
+            "candidate.stacks.f9e2e63b45571a5616f656c6"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c8e094646c80ae2600f412ce",
+            "candidate.stacks.1f834e7d15f33269e1b5c772"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.ca24e1b07a0b26d7cb09960e",
+            "candidate.stacks.7cef34d1c63cbad27895318b"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.cb0e70d423661a10e414bdd5",
+            "candidate.stacks.f07ec39ae8c62fa24faad719"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.d53862fe35cda396b49986cd",
+            "candidate.stacks.d63a426600abc837086f0534"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.d7578270777df4256e0b1662",
+            "candidate.stacks.882cae499db0309dce937795"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.d7eac993aa6f814f198370c7",
+            "candidate.stacks.e07d8fb9fd0580e339f197d2"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.d8295cf415df4edb8f4d611a",
+            "candidate.stacks.41c44ce3113303fb2e9726ea"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.dadd9964d25b32f43d24286e",
+            "candidate.stacks.b9bfe18d83ad37fd5fa236d4"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.dbaed70ee7b40772a88bc651",
+            "candidate.stacks.127b8ecbe45bdfa462705258"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.e5a5157832542b2441df26e4",
+            "candidate.stacks.6fea53a5e4e633be59bd52b2"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.eb9821ec7b5534271f630480",
+            "candidate.stacks.1dccb0e96a8b53c121b1eed3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.f5e5d251ad6b6902ff7d1e24",
+            "candidate.stacks.079444b35622c7c26e355b61"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.f65b9454fa41946a8a7c4cdc",
+            "candidate.stacks.afd38006afdfc7658b8dc064"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.fc5f802dc76ce817c54429cd",
+            "candidate.stacks.d01f3dbf16abefc58d58c0ec"
+          ],
+          "count": 2
+        }
+      ],
+      "candidates_in_groups": 208,
+      "duplicate_groups": 101,
+      "examples": [
+        {
+          "candidate_ids": [
+            "candidate.stacks.02ce53f3a130017d37fe5693",
+            "candidate.stacks.c05e1a168f62aa180fde95c2",
+            "candidate.stacks.f0e7dbb58e5c1ac52197bf9c"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1cf57041816ed62448653c87",
+            "candidate.stacks.2917191cbf2a677673a110ae",
+            "candidate.stacks.99282baae8b7dc4378b96c93"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2e25a74204df4ba698b4200d",
+            "candidate.stacks.4414abc954fb4a525c4aa13e",
+            "candidate.stacks.7665f2197f38b9c0ae46d887"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3f4156f3e6ca46ec5563c7f3",
+            "candidate.stacks.900ff37d35436007e55ca15c",
+            "candidate.stacks.aeb6f8964e76bf7bfa721cc7"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5e4ca48235379cf42e4e560f",
+            "candidate.stacks.a88e6c2932a7db1bccf377d1",
+            "candidate.stacks.c1874dcd6296c17568c3cee2"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.68456864c13765d84862fbe1",
+            "candidate.stacks.83edb2e4ae81452ce8211ab5",
+            "candidate.stacks.f7837826ea776d892bb56ecd"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.074ad774246f9f50422a06fb",
+            "candidate.stacks.f8a7c369f11841659c5ae93f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.07cf0c4d43024031ec5ef193",
+            "candidate.stacks.92445580cebb396b58aeaeba"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.090348566bee0564680757e1",
+            "candidate.stacks.3808b3ec2ad3539482a2ad5e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0a98fdc5ee6bbaccf90d1c1c",
+            "candidate.stacks.66a6e1c2c9f01a45d4690f42"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0bdc66026904a29bb3d322d0",
+            "candidate.stacks.b3302b96c08ba0a53e675d9a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0c8ad7a5a67874765820103b",
+            "candidate.stacks.cefc8c0542821946c71b2dd9"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.10f44c2c6dc13c31a79f73e6",
+            "candidate.stacks.69b12a6dc9fece9b4c0dbbbe"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.114a759bf687d888a673138d",
+            "candidate.stacks.2dee1b713e4a8db066f6a57e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.138f71f0a854b19416e13db4",
+            "candidate.stacks.3441f8abb9ebad000bb65577"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.13af5389db1e0cd59b875822",
+            "candidate.stacks.46f40b90d051b5a771592254"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.15a60f1c490e2135552d6683",
+            "candidate.stacks.97cfefae0e1eb8530ce76256"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1812a6b4e200b18e736f20f4",
+            "candidate.stacks.815241c57a95f6768607f653"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.276ec5cc7709a4c02715c0f6",
+            "candidate.stacks.4cdccbc9f4645b6dc40767a1"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.280100bcc48749d85046ab6b",
+            "candidate.stacks.8f44d82b5ee413f3c25703a3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28cfedd0f8ccd6ce9af8bb2c",
+            "candidate.stacks.6be7be004ae1ffa9b5b2f9c7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28e9090ad299526454044ffa",
+            "candidate.stacks.ba117bd746811b14e019846c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28eb24ec703a367c948f7e4a",
+            "candidate.stacks.a6bdc424d268b07f210839c0"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2a7e970d1b36192d36efcf4b",
+            "candidate.stacks.957959f034b2098ded5c3a42"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2cf92a11585a8b5752c6c63a",
+            "candidate.stacks.2d084afb70bfc1da6a866717"
+          ],
+          "count": 2
+        }
+      ],
+      "possible_redundant_entries": 107
+    },
+    "split_sides_exact": {
+      "all_groups": [
+        {
+          "candidate_ids": [
+            "candidate.stacks.02ce53f3a130017d37fe5693",
+            "candidate.stacks.c05e1a168f62aa180fde95c2",
+            "candidate.stacks.f0e7dbb58e5c1ac52197bf9c"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1cf57041816ed62448653c87",
+            "candidate.stacks.2917191cbf2a677673a110ae",
+            "candidate.stacks.99282baae8b7dc4378b96c93"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2e25a74204df4ba698b4200d",
+            "candidate.stacks.4414abc954fb4a525c4aa13e",
+            "candidate.stacks.7665f2197f38b9c0ae46d887"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3f4156f3e6ca46ec5563c7f3",
+            "candidate.stacks.900ff37d35436007e55ca15c",
+            "candidate.stacks.aeb6f8964e76bf7bfa721cc7"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5e4ca48235379cf42e4e560f",
+            "candidate.stacks.a88e6c2932a7db1bccf377d1",
+            "candidate.stacks.c1874dcd6296c17568c3cee2"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.68456864c13765d84862fbe1",
+            "candidate.stacks.83edb2e4ae81452ce8211ab5",
+            "candidate.stacks.f7837826ea776d892bb56ecd"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.074ad774246f9f50422a06fb",
+            "candidate.stacks.f8a7c369f11841659c5ae93f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.07cf0c4d43024031ec5ef193",
+            "candidate.stacks.92445580cebb396b58aeaeba"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.090348566bee0564680757e1",
+            "candidate.stacks.3808b3ec2ad3539482a2ad5e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0bdc66026904a29bb3d322d0",
+            "candidate.stacks.b3302b96c08ba0a53e675d9a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.114a759bf687d888a673138d",
+            "candidate.stacks.2dee1b713e4a8db066f6a57e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.138f71f0a854b19416e13db4",
+            "candidate.stacks.3441f8abb9ebad000bb65577"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.13af5389db1e0cd59b875822",
+            "candidate.stacks.46f40b90d051b5a771592254"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.15a60f1c490e2135552d6683",
+            "candidate.stacks.97cfefae0e1eb8530ce76256"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1812a6b4e200b18e736f20f4",
+            "candidate.stacks.815241c57a95f6768607f653"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1e8e5d926be2ea3b7dfb5494",
+            "candidate.stacks.c3b2a778377831d8f43c3ad4"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.276ec5cc7709a4c02715c0f6",
+            "candidate.stacks.4cdccbc9f4645b6dc40767a1"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.280100bcc48749d85046ab6b",
+            "candidate.stacks.8f44d82b5ee413f3c25703a3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28cfedd0f8ccd6ce9af8bb2c",
+            "candidate.stacks.6be7be004ae1ffa9b5b2f9c7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28e9090ad299526454044ffa",
+            "candidate.stacks.ba117bd746811b14e019846c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28eb24ec703a367c948f7e4a",
+            "candidate.stacks.a6bdc424d268b07f210839c0"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2a7e970d1b36192d36efcf4b",
+            "candidate.stacks.957959f034b2098ded5c3a42"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2cf92a11585a8b5752c6c63a",
+            "candidate.stacks.2d084afb70bfc1da6a866717"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.34b1e6088b16518eb00b6455",
+            "candidate.stacks.2df24534efa33837481b6b51"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.36e71897caffb7a7ed1818fc",
+            "candidate.stacks.f57345a670861cb69785d96c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.37be377986edef1afd50e5f0",
+            "candidate.stacks.d8d39c1bd817eebfc591e972"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3a8ba7122f9332887028fa56",
+            "candidate.stacks.bdc103855ea7f9af29b6fd65"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3b10b6a8c55e14e46421f06b",
+            "candidate.stacks.f0a23849523fe09e2dc1edd7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3b3222f29770321841928a97",
+            "candidate.stacks.f63e7771e900118c99ea02d5"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3c8afa489d6957daebab1c84",
+            "candidate.stacks.a233f6ea7ee4c755ac8f878f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3e7c4bad9bdfe9328759b6b1",
+            "candidate.stacks.76c619e5860dc52eb4408e6d"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4030d9c197ca7d7192906d4a",
+            "candidate.stacks.d4aa3c02eacc48c5e1612ecb"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.40ab4127b5db79e6cc2a3294",
+            "candidate.stacks.3f453bd8280997b503bbf5d4"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4216b776d34de114ca5c81ab",
+            "candidate.stacks.d740d785f659addbfd114afa"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4981f0ea8380c98170ec3dfd",
+            "candidate.stacks.5bd41b57ea8163079584a0c5"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.4cd2c727f85c69efd7862aa6",
+            "candidate.stacks.29ad747460f3bae5d0804973"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.507418e2223d205d14ff3c87",
+            "candidate.stacks.421830df4e87400c1c9a1804"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.50ad815da5a9356ccf05aa41",
+            "candidate.stacks.a5d1e0b5863530697fd5e807"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.53588572b99da05cd310d116",
+            "candidate.stacks.ab64526e63d1c32b88a35d0d"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.536ae8468f50b193b3cee4c8",
+            "candidate.stacks.6bc34f9ab82de00b6d7e12ae"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.584221b7228ce4882f1ff7c0",
+            "candidate.stacks.b35fc92f613fc6b0e7cd7e5f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5991c3a4dda67ecfada28077",
+            "candidate.stacks.457d138b8e1548fede2d967e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.59c403108ff5b2c5ccdd91d4",
+            "candidate.stacks.dd6a95a43968e40a61e6921a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5bbd77e2a4498435beb98705",
+            "candidate.stacks.ef30d5b02c2a826a694d3ac5"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5dc3cd5f04ae0585249c6143",
+            "candidate.stacks.0a87d47cd231af44c93cb2f1"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5fefbf39f24bacb979f200d1",
+            "candidate.stacks.dbbd35ad150d7b56c852ea6f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.61ef86afd2b99d7502e757e0",
+            "candidate.stacks.604d174e90b15bacf741ed64"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.61fb9ef632d0e75561487532",
+            "candidate.stacks.62055493cf8951a6724cd438"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.63e2e62ee2d7793ac8b0c7f0",
+            "candidate.stacks.cfdc47984da628824be35f84"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.64cf438fbaddd300aa2f9d5d",
+            "candidate.stacks.653d8e0723f37b2a96e6cda3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6640e84a697c3cf5e180a52c",
+            "candidate.stacks.144a64abfabeb046dca53f1d"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6c2b0a7b5526f35f6ddd9a06",
+            "candidate.stacks.a0a305bf5d93241ffad29742"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6ceee8337d4773bf72957757",
+            "candidate.stacks.27ba8c6dd729d59f3b1b9920"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6e3df3845447aaec13d7cac2",
+            "candidate.stacks.b629f6f29988bec39440b1e8"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.6f5b47080a68d785f42755cd",
+            "candidate.stacks.80003a7dbb2daa68409ca22b"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.72684e0e51fec2e6de259eff",
+            "candidate.stacks.9c5e8a899df6a732ae2b0bce"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.78f8d1995c27bcd2ac25cff0",
+            "candidate.stacks.85369cd690c98e6bdff4c2fa"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.7bc0c2726839732dbc3a285e",
+            "candidate.stacks.eedd29d6bcdd903788e7397c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.7e16513051aea7e819d67f23",
+            "candidate.stacks.63c4498912e707abbdad196a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.7e19e5a24fa7352c5abb888d",
+            "candidate.stacks.ae6e45c09d7721b6c70700f7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.84664eb184ce07b301d2d0ae",
+            "candidate.stacks.f1c64548b350de2da7be1046"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.8bb81d697148942e224152f5",
+            "candidate.stacks.7dfd1168ff2f8695730fa01e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.8c21163139e0e59731bb4a4b",
+            "candidate.stacks.f912f53ed6daf02a78cb97eb"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.8c5c5411d915ee57cae093d3",
+            "candidate.stacks.efcbfe92ee4466eb84c6c919"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.903adbbcd2fadd4fba434713",
+            "candidate.stacks.0670f3c5555f073330b72ab3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.959af842c237f8f23456a506",
+            "candidate.stacks.f72fa75f4a14f4609eed2f27"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.963ffa976c0fc2634fa45945",
+            "candidate.stacks.cb452a60967910dd3bf51b54"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.9da36d6fd8f2d8806de05668",
+            "candidate.stacks.fcd976ad05bcdde903b2b45b"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.a55f9d7c24ccff68585906d2",
+            "candidate.stacks.67a4b4e1301c5bb0da9afe6a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.af57e5600231c6d205bc0e68",
+            "candidate.stacks.d54e1bb6473235564175c680"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b26da507edc6e3a8ea1a9e59",
+            "candidate.stacks.b6edffb5489a8fc876b255e3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b2eb5e6287b4f5ec0543ed47",
+            "candidate.stacks.dc68ea309b0480e323cb6ce6"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b5da9d7396d3d82821a9b062",
+            "candidate.stacks.d6a57dd667ab7f7406d43b9e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.b958b6d1e73319850ccf02d0",
+            "candidate.stacks.be7cfac76041ec7c0712da5f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.baf39500c841d11e1ab47a3a",
+            "candidate.stacks.d45e82ec62c6d63024ae2f67"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c33ca95a1c4783d60181794b",
+            "candidate.stacks.b9a7d9b0b2a04fc89f47e3dc"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c518d6da2d1392c38511cac5",
+            "candidate.stacks.24fb18d86d5a76d481eec60c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c7e3b78166c1f2bd36ba9ff6",
+            "candidate.stacks.f9e2e63b45571a5616f656c6"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.c8e094646c80ae2600f412ce",
+            "candidate.stacks.1f834e7d15f33269e1b5c772"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.ca24e1b07a0b26d7cb09960e",
+            "candidate.stacks.7cef34d1c63cbad27895318b"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.d53862fe35cda396b49986cd",
+            "candidate.stacks.d63a426600abc837086f0534"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.d7eac993aa6f814f198370c7",
+            "candidate.stacks.e07d8fb9fd0580e339f197d2"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.d8295cf415df4edb8f4d611a",
+            "candidate.stacks.41c44ce3113303fb2e9726ea"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.dadd9964d25b32f43d24286e",
+            "candidate.stacks.b9bfe18d83ad37fd5fa236d4"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.e5a5157832542b2441df26e4",
+            "candidate.stacks.6fea53a5e4e633be59bd52b2"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.eb9821ec7b5534271f630480",
+            "candidate.stacks.1dccb0e96a8b53c121b1eed3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.f5e5d251ad6b6902ff7d1e24",
+            "candidate.stacks.079444b35622c7c26e355b61"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.f65b9454fa41946a8a7c4cdc",
+            "candidate.stacks.afd38006afdfc7658b8dc064"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.fc5f802dc76ce817c54429cd",
+            "candidate.stacks.d01f3dbf16abefc58d58c0ec"
+          ],
+          "count": 2
+        }
+      ],
+      "candidates_in_groups": 184,
+      "duplicate_groups": 89,
+      "examples": [
+        {
+          "candidate_ids": [
+            "candidate.stacks.02ce53f3a130017d37fe5693",
+            "candidate.stacks.c05e1a168f62aa180fde95c2",
+            "candidate.stacks.f0e7dbb58e5c1ac52197bf9c"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1cf57041816ed62448653c87",
+            "candidate.stacks.2917191cbf2a677673a110ae",
+            "candidate.stacks.99282baae8b7dc4378b96c93"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2e25a74204df4ba698b4200d",
+            "candidate.stacks.4414abc954fb4a525c4aa13e",
+            "candidate.stacks.7665f2197f38b9c0ae46d887"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.3f4156f3e6ca46ec5563c7f3",
+            "candidate.stacks.900ff37d35436007e55ca15c",
+            "candidate.stacks.aeb6f8964e76bf7bfa721cc7"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.5e4ca48235379cf42e4e560f",
+            "candidate.stacks.a88e6c2932a7db1bccf377d1",
+            "candidate.stacks.c1874dcd6296c17568c3cee2"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.68456864c13765d84862fbe1",
+            "candidate.stacks.83edb2e4ae81452ce8211ab5",
+            "candidate.stacks.f7837826ea776d892bb56ecd"
+          ],
+          "count": 3
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.074ad774246f9f50422a06fb",
+            "candidate.stacks.f8a7c369f11841659c5ae93f"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.07cf0c4d43024031ec5ef193",
+            "candidate.stacks.92445580cebb396b58aeaeba"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.090348566bee0564680757e1",
+            "candidate.stacks.3808b3ec2ad3539482a2ad5e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.0bdc66026904a29bb3d322d0",
+            "candidate.stacks.b3302b96c08ba0a53e675d9a"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.114a759bf687d888a673138d",
+            "candidate.stacks.2dee1b713e4a8db066f6a57e"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.138f71f0a854b19416e13db4",
+            "candidate.stacks.3441f8abb9ebad000bb65577"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.13af5389db1e0cd59b875822",
+            "candidate.stacks.46f40b90d051b5a771592254"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.15a60f1c490e2135552d6683",
+            "candidate.stacks.97cfefae0e1eb8530ce76256"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1812a6b4e200b18e736f20f4",
+            "candidate.stacks.815241c57a95f6768607f653"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.1e8e5d926be2ea3b7dfb5494",
+            "candidate.stacks.c3b2a778377831d8f43c3ad4"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.276ec5cc7709a4c02715c0f6",
+            "candidate.stacks.4cdccbc9f4645b6dc40767a1"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.280100bcc48749d85046ab6b",
+            "candidate.stacks.8f44d82b5ee413f3c25703a3"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28cfedd0f8ccd6ce9af8bb2c",
+            "candidate.stacks.6be7be004ae1ffa9b5b2f9c7"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28e9090ad299526454044ffa",
+            "candidate.stacks.ba117bd746811b14e019846c"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.28eb24ec703a367c948f7e4a",
+            "candidate.stacks.a6bdc424d268b07f210839c0"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2a7e970d1b36192d36efcf4b",
+            "candidate.stacks.957959f034b2098ded5c3a42"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.2cf92a11585a8b5752c6c63a",
+            "candidate.stacks.2d084afb70bfc1da6a866717"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.34b1e6088b16518eb00b6455",
+            "candidate.stacks.2df24534efa33837481b6b51"
+          ],
+          "count": 2
+        },
+        {
+          "candidate_ids": [
+            "candidate.stacks.36e71897caffb7a7ed1818fc",
+            "candidate.stacks.f57345a670861cb69785d96c"
+          ],
+          "count": 2
+        }
+      ],
+      "possible_redundant_entries": 95
+    }
+  },
+  "method": "lowercase/whitespace-normalized exact matches, plus exact normalized two-side splits; no semantic equivalence detection",
+  "no_candidate_excluded_or_merged": true,
+  "pass3_proofs_read": false,
+  "schema": "maththm.prototype-surface-duplicate-scan.v1",
+  "scope": "active candidate pool only"
+}
