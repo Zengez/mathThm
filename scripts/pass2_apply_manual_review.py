@@ -1,7 +1,10 @@
 import argparse,json
 from pathlib import Path
 from collections import Counter
-from scripts import harvest_pipeline as p
+try:
+    from scripts import harvest_pipeline as p
+except ImportError:
+    import harvest_pipeline as p
 
 def run():
     review=json.loads(Path('harvest/pass2_manual_statement_review_2026-10-28.json').read_text())['decisions']
