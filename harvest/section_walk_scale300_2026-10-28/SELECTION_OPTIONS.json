@@ -1,0 +1,48 @@
+{
+  "schema": "maththm.consecutive-full-section-window-options.v1",
+  "total_valid_windows": 0,
+  "target_band": [
+    270,
+    330
+  ],
+  "excluded_prior_section_starts": {
+    "morphisms.tex": [
+      1710,
+      3522,
+      4615,
+      5718,
+      6337,
+      7603
+    ],
+    "limits.tex": [
+      1729
+    ],
+    "algebra.tex": [
+      4284,
+      4536,
+      4656,
+      4816,
+      5089,
+      5371,
+      5721,
+      5980,
+      6238,
+      6445,
+      6520,
+      6649,
+      7434,
+      7971,
+      8339,
+      8587,
+      9307,
+      9514,
+      9906
+    ]
+  },
+  "top_35": [],
+  "all_windows_statistics": {
+    "chapters_with_windows": 0,
+    "smallest_source_lines": null
+  },
+  "nothing_processed_or_published": true
+}
