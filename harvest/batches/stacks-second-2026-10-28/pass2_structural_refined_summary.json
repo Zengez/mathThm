@@ -1,17 +1,14 @@
 {
   "batch": "stacks-second-2026-10-28",
-  "before_structure": 52,
-  "new_resolved": 8,
+  "before_structure": 38,
+  "new_resolved": 0,
   "proofs_read": false,
   "published_catalog_unchanged": true,
-  "recovery_methods": {
-    "enumerated_premises": 1,
-    "subject_assertion": 7
-  },
-  "remaining_structure": 44,
+  "recovery_methods": {},
+  "remaining_structure": 38,
   "status_after": {
     "needs_context": 111,
-    "needs_structure": 44,
-    "resolved": 1867
+    "needs_structure": 38,
+    "resolved": 1873
   }
 }

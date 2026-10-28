@@ -1,14 +1,14 @@
 {
   "batch": "stacks-bulk-2026-10-28",
-  "before_structure": 34,
+  "before_structure": 27,
   "new_resolved": 0,
   "proofs_read": false,
   "published_catalog_unchanged": true,
   "recovery_methods": {},
-  "remaining_structure": 34,
+  "remaining_structure": 27,
   "status_after": {
     "needs_context": 50,
-    "needs_structure": 34,
-    "resolved": 1016
+    "needs_structure": 27,
+    "resolved": 1023
   }
 }
