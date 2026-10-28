@@ -16,7 +16,10 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 
-from theorem_schema import validate as validate_accepted
+if __package__:
+    from .theorem_schema import validate as validate_accepted
+else:
+    from theorem_schema import validate as validate_accepted
 
 STAGES = ("pass1", "pass2", "pass3", "needs_more_investigation")
 OUTCOMES = {"plausible", "questionable", "rejected"}
@@ -137,7 +140,10 @@ def refresh_needs(workdir: Path):
 
 def parse_local_statements(source: Path):
     """One local file, one pass; no recursive cross-source link chasing."""
-    from harvest_stacks import ENV, LABEL, COMMENT
+    if __package__:
+        from .harvest_stacks import ENV, LABEL, COMMENT
+    else:
+        from harvest_stacks import ENV, LABEL, COMMENT
     text = COMMENT.sub("\n", source.read_text(encoding="utf-8"))
     result = {}
     for match in ENV.finditer(text):
@@ -282,6 +288,7 @@ def apply_pass3(args):
     w = Path(args.workdir)
     raw = load_rows(w/"pass1.jsonl","candidate_id")
     structured=load_rows(w/"pass2.jsonl","candidate_id")
+    packets=load_rows(w/"pass3_packets.jsonl","candidate_id")
     decisions=[]
     for d in read_jsonl(Path(args.decisions)):
         ident = d.get("candidate_id")
@@ -299,6 +306,8 @@ def apply_pass3(args):
             raise ValueError(f"candidate {ident}: checked_on must be YYYY-MM-DD")
         if outcome == "plausible" and not completed:
             raise ValueError(f"candidate {ident}: plausible requires full brief scan")
+        if outcome == "plausible" and packets.get(ident,{}).get("excerpt_truncated") and not d.get("full_proof_reviewed_externally"):
+            raise ValueError(f"candidate {ident}: truncated proof packet cannot be plausible without full external review")
         if outcome != "plausible" and not reason.strip():
             raise ValueError(f"candidate {ident}: questionable/rejected requires concrete explanation")
         if outcome == "plausible" and not raw[ident]["proof_end_marker_found"] and not d.get("manually_verified_proof_completion"):
@@ -373,6 +382,7 @@ def promote(args):
     catalog=json.loads(catalog_path.read_text(encoding="utf-8"))
     validate_accepted(catalog)
     existing_ids={r["id"]:r for r in catalog["records"]}
+    before=len(catalog["records"])
     for ident, p3 in sorted(review.items()):
         if p3["outcome"]!="plausible":
             continue
@@ -390,7 +400,7 @@ def promote(args):
     validate_accepted(catalog)
     atomic_text(output, json.dumps(catalog,ensure_ascii=False,indent=2)+"\n")
     print(json.dumps({"stage":"promote","accepted_records":catalog["total"],
-                      "new_provisional_records":len(catalog["records"])-len(existing_ids)+0,
+                      "new_provisional_records":len(catalog["records"])-before,
                       "output":str(output),"published_to_site":False}))
     # Even an explicit in-place update modifies only the local source file;
     # the website is published separately via reviewed Git commit/Pages CI.
