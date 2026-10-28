@@ -1,3 +1,11 @@
+## October 28, 2026 — second bounded Pass 2 structural attempt (404 additional splits)
+
+**Report:** [PASS2_STRUCTURAL_REPORT_2026-10-28.md](PASS2_STRUCTURAL_REPORT_2026-10-28.md). User requested light Pass 2 on only the **1,231** `needs_structure` candidates from the original 3,122 Stacks batch, deferring anything needing substantial thinking. **404** additional mechanically obvious hypothesis/result boundaries were recorded (113 first batch, 291 second); **827** are retained in dedicated `pass2_higher_thinking.jsonl` files with exact source and reason. Overall Pass 2 resolved increases **1,574 → 1,978**, with 317 inherited-context cases still separate; **1,144** total await further Pass 2 attention.
+
+Script `scripts/pass2_structural_light.py` preserves source text and marks results `structural_syntax_only`. It does **not** establish mathematically correct semantic decompositions or proof validity. GitHub Actions [40726195072](https://github.com/Zengez/mathThm/actions/runs/40726195072) succeeded including regression tests and data commits. **No Pass 3, no theorem publication.** Next: bounded higher-thinking review of 827 complex cases, plus separate context-resolution work on 317 entries.
+
+---
+
 ## October 28, 2026 — Pass 2 first bulk triage completed across 3,122 Stacks candidates
 
 **Report:** [PASS2_REPORT_2026-10-28.md](PASS2_REPORT_2026-10-28.md). Both Stacks Pass 1 batches have now undergone source-driven mathematical-result classification and a conservative hypothesis/conclusion extraction pass. Raw 1,100 + 2,022 = **3,122**; 3,122 Pass 2 classification records; **1,574** syntax/editorially split; **317** needs inherited context; **1,231** needs more structural parsing; **1,548** retained in separate Pass 2 investigation queues. None rejected as a non-result at the superficial source-check level, but classifications and the 1,555 mechanical splits are **not mathematical verification**. 20 statements had additional light editorial inspection; 19 short splits were completed and one remained context-dependent. **Pass 3 = 0; no new public theorem entries.**
