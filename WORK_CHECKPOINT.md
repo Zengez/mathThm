@@ -1,3 +1,20 @@
+## October 28, 2026 — linking and theorem schema completed; harvesting-engine design is NEXT
+
+**User direction:** Finish definition linking and theorem-record schema now. Explicitly **do not build the collection engine yet**; discuss a much smaller, more efficient engine first because mathDef's initial pipeline grew disproportionately complicated. After the engine is agreed, collect at least a couple of hundred real theorems BEFORE revisiting substantial UI/performance design choices. No bulk theorem collection performed in this tranche.
+
+**Definition linking completed (mathThm only):**
+- Introduced indexed trie-based source-text phrase matching in `web/definition-links.js`; built once from mathDef V2 term headings and aliases rather than evaluating thousands of regexes against each rendered theorem. It preserves repeated occurrences, matches whole phrases only, and always prefers the longest relevant phrase. It reserves ambiguous/ancestor-blocked spans as plain text so their interior words cannot generate misleading links.
+- Small explicit, reviewed-in-code adjective aliases include `continuous` → original ID `topology.continuity` and `uniformly continuous` → `analysis.uniform-continuity`, plus compact/connected/closed, resolved through the **canonical mathDef V2** index. Auto names are indexed, with subject-based disambiguation only if uniquely resolvable; explicit per-theorem link hints override same-length automatic matches. Unresolved ambiguous terms are left unlinked rather than guessed.
+- General UI `web/app.js` uses this matcher in theorem text and every expanded formulation. Existing V2 ancestor suppression remains active, including legacy aliases; no mathDef changes.
+- Regression tests in `tests/test_definition_links.cjs` cover Heine–Cantor, multiword preference, multiple occurrences, ambiguous labels and ancestor protection; `tests/test_v2_browser.cjs` also checks with the real V2 snapshot that `continuous` and `uniformly continuous` are distinct clickable targets.
+
+**Theorem schema completed (additive/backward-compatible):**
+- Kept outer `maththm.theorems.v1` for frontend compatibility; added `contract_revision:2`, explicit `entry_type`, statement/source provenance (including nullable verbatim transcription and exact locator), minimal proof inspection evidence, acquisition batch and screening status, independent mathematical audit state, tag origins/annotations and optional link exclusions/proof candidates.
+- Converted all **existing 20** sample records without editing theorem statements, side tags or accepted proof links. One previously listed alternate proof URL is now explicitly an `uninspected` candidate, not falsely called screened. The original statements are recorded as **editorial restatements not independently audited** and no verbatim source transcription is fabricated.
+- Wrote the contract in `THEOREM_RECORD_CONTRACT.md`. Added `scripts/theorem_schema.py` validation integrated into `scripts/build_site.py`, and `tests/test_record_schema.py` negative and positive regression coverage. The validator enforces accepted proofs genuinely marked cursory-screened, stable IDs, traceability and separate mathematical audit, but NEVER assesses mathematical truth.
+- Removed a few literal "20 theorems" assumptions from tests/site notices so the accepted catalog can grow, without undertaking interface redesign.
+- **Current gate:** finish verifying the latest CI browser and GitHub Pages deployment, then obtain the user's preferences for a minimally bureaucratic bulk harvesting process. **Do not write such an engine or begin harvesting until discussed.** The user prefers collecting 200+ real results before revisiting the interface.
+
 ## October 28, 2026 — recursive mathDef expansion path fix
 
 **User report:** Expanding "subspace topology" in mathThm could offer a clickable link to itself inside the newly expanded definition, allowing repeated recursive expansion. Requested parity with mathDef's currently implemented ancestry exclusion.
