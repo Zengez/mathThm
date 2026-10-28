@@ -4,11 +4,9 @@
     "genuine_or_complex_structure": 46,
     "source_edit_or_outside_context": 6
   },
-  "forms": {
-    "explicit_casewise": 2
-  },
+  "forms": {},
   "mathematical_validity_assessed": false,
-  "new_resolved": 2,
+  "new_resolved": 0,
   "proofs_read": false,
   "statuses": {
     "needs_context": 125,
