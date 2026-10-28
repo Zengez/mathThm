@@ -1,18 +1,52 @@
 {
-  "active_bulk_prototype_policy": "EXCLUDE all problem_candidates_inherited_context IDs; consider only canonical Pass 2 resolved mathematical_result records, subject to all later validation and publishing gates",
+  "active_bulk_prototype_policy": "Exclude every ID in the unified registry. Only canonical resolved mathematical_result records are eligible for further validation.",
   "by_batch": {
-    "stacks-bulk-2026-10-28": 50,
-    "stacks-remaining-2026-10-28": 701,
-    "stacks-second-2026-10-28": 111
+    "stacks-bulk-2026-10-28": 77,
+    "stacks-remaining-2026-10-28": 1075,
+    "stacks-second-2026-10-28": 149
   },
-  "count": 862,
-  "deferred_file": "harvest/problem_candidates_inherited_context.jsonl",
-  "deferred_status": "needs_context",
+  "by_batch_and_difficulty": {
+    "stacks-bulk-2026-10-28": {
+      "inherited_context": 50,
+      "structural_complexity": 27
+    },
+    "stacks-remaining-2026-10-28": {
+      "inherited_context": 701,
+      "structural_complexity": 374
+    },
+    "stacks-second-2026-10-28": {
+      "inherited_context": 111,
+      "structural_complexity": 38
+    }
+  },
+  "by_difficulty": {
+    "inherited_context": 862,
+    "structural_complexity": 439
+  },
+  "by_subtype": {
+    "conditional_scope": 33,
+    "diagram_scope": 18,
+    "editorial_placeholder": 40,
+    "enumerated_conditions_or_results": 94,
+    "equivalence_or_scope": 48,
+    "inherited_assumptions_notation_or_references": 862,
+    "nested_lists": 54,
+    "unconditional_result_or_source_boundary": 152
+  },
+  "classification_cases_remaining_separate": true,
+  "count": 1301,
+  "deferred_file": "harvest/problem_candidates.jsonl",
+  "deferred_statuses": {
+    "needs_context": "inherited_context",
+    "needs_structure": "structural_complexity"
+  },
   "future_rebuild_command": "python -m scripts.pass2_problem_candidates",
-  "future_work": "Revisit after initial bulk discovery and prototype; do not delete or treat as false positives",
+  "future_work": "Review both groups after prototyping; neither signifies a rejected theorem",
+  "legacy_compatibility_file": "harvest/problem_candidates_inherited_context.jsonl",
+  "legacy_filename_now_includes_both_groups": true,
   "proofs_read": false,
   "published_catalog_untouched": true,
   "quarantined_ids_are_in_active_resolved_set": false,
-  "schema": "maththm.deferred-inherited-context.v1",
-  "source_of_truth": "harvest/batches/<batch>/pass2.jsonl plus pass1.jsonl"
+  "schema": "maththm.deferred-problems.v2",
+  "source_of_truth": "Each batch's pass2.jsonl and pass1.jsonl"
 }
