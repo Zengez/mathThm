@@ -22,9 +22,9 @@ CROSS_CONTEXT=re.compile(r"(?i)\b(?:as\s+(?:above|before)|in\s+the\s+situation\s
                          r"with\s+(?:the\s+)?notation\s+as\s+in|"
                          r"under\s+the\s+assumptions\s+of)\b")
 SOURCE_TOP=re.compile(r"(?i)^(?:Let|Suppose|Assume|Fix|Consider|Given|Take|For)\b")
-PROPERTIES=re.compile(r"(?i)^The\s+base\s+change\s+of\s+(?P<subject>.+?)\s+is\s+(?P<predicate>[^.]+)\.?$")
+PROPERTIES=re.compile(r"(?i)^The\s+base\s+change\s+of\s+(?P<subject>.+)\s+is\s+(?P<predicate>[^.]+)\.?$")
 COMPOSITION=re.compile(
-    r"(?i)^(?:(?:The\s+)?compositions?\s+of)\s+(?P<subject>.+?)\s+"
+    r"(?i)^(?:(?:The\s+)?compositions?\s+of)\s+(?P<subject>.+)\s+"
     r"(?P<verb>is|are|satisfies)\s+(?P<predicate>.+?)\.?$")
 BASED=re.compile(r"(?i)^(?P<subject>(?:[A-Z][^\n.]{6,300}?))\s+"
                  r"(?:are|is)\s+preserved\s+by\s+base\s+change\.?$")
