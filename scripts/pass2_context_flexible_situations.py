@@ -44,6 +44,24 @@ def from_source(original):
     return body
 
 def boundaries(body):
+    # The inherited named Situation is already recovered. Prior general
+    # parsers reject any literal "in Situation" to prevent missing context,
+    # so source-native equivalences need a narrow standalone recognition here.
+    blocks0=enum_blocks(body)
+    if blocks0 is not None and len(blocks0)==1:
+        a,b=blocks0[0]
+        pre=body[:a].strip()
+        tail=body[b:].strip(" .\n\t")
+        marker=re.search(r"(?i)\bthe\s+following\s+are\s+equivalent\b",pre)
+        if marker and not tail and pre[marker.end():].strip(" :\n\t")=="":
+            cases0=list_items(body,blocks0[0])
+            if cases0 and len(cases0)>=2 and len(cases0)<=18 and INTRO.match(pre):
+                common=pre[:marker.start()].strip()
+                return {"hypotheses":[common]+cases0,
+                    "conclusions":list(cases0),
+                    "logical_form":"equivalence_under_pinned_situation",
+                    "equivalence_sides":[[v] for v in cases0],
+                    "structured_cases":[]}, "All equivalent conditions indexed in both fields"
     # Explicit condition/result divide. Prefer prior reviewed grammatical
     # interpreters that retain equivalence and structured-case provenance.
     for fn in (interpret_followup,interpret_hard):
