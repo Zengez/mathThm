@@ -1,0 +1,58 @@
+name: Remaining Stacks Pass 2 structural follow-up
+on:
+  push:
+    paths:
+      - .github/workflows/pass2-remaining-structural.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  interpret:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run Python regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Source-faithful grammatical structural follow-up
+        run: |
+          set -euo pipefail
+          python scripts/pass2_structural_light.py --workdir harvest/batches/stacks-remaining-2026-10-28
+      - name: Handle explicit equivalences, separate enumerated clauses, and straightforward source setups
+        run: |
+          set -euo pipefail
+          python scripts/pass2_hard_structures.py --workdir harvest/batches/stacks-remaining-2026-10-28
+          python scripts/harvest_pipeline.py status --workdir harvest/batches/stacks-remaining-2026-10-28
+      - name: Verify all Pass 1 records retain a Pass 2 classification
+        run: |
+          python - <<'PY'
+          from collections import Counter
+          from pathlib import Path
+          from scripts.harvest_pipeline import load_rows
+          w=Path('harvest/batches/stacks-remaining-2026-10-28')
+          a=load_rows(w/'pass1.jsonl','candidate_id')
+          b=load_rows(w/'pass2.jsonl','candidate_id')
+          assert len(a)==len(b)==7865
+          assert set(a)==set(b)
+          statuses=Counter(x['context_status'] for x in b.values())
+          assert sum(statuses.values())==len(a)
+          assert all(x['hypotheses'] and x['conclusions'] for x in b.values() if x['context_status']=='resolved')
+          assert all(not x['hypotheses'] and not x['conclusions'] for x in b.values() if x['context_status'] in ('needs_structure','needs_context','needs_classification'))
+          print(dict(statuses))
+          PY
+      - name: Commit Pass 2 results without modifying public catalog or other batches
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/batches/stacks-remaining-2026-10-28
+          git diff --cached --quiet || (git commit -m "Interpret remaining Stacks structural Pass 2 candidates; defer uncertain statements" && git push)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stacks-remaining-pass2-structural-results
+          path: |
+            harvest/batches/stacks-remaining-2026-10-28/pass2_structural_summary.json
+            harvest/batches/stacks-remaining-2026-10-28/pass2_hard_summary.json
+          retention-days: 90
