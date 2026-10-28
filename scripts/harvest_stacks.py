@@ -50,7 +50,12 @@ def discover(text: str, *, filename: str, source_ref: str, batch: str,
         begin = PROOF.match(tail)
         if not begin:
             continue
-        proof_start = match.end() + begin.start()
+        # Anchor the proof URL at the actual proof command, not the newline
+        # or whitespace between the result statement and its proof.
+        marker = re.search(r"\\begin\{proof\}", tail[:begin.end()], re.IGNORECASE)
+        if marker is None:
+            continue
+        proof_start = match.end() + marker.start()
         end = PROOF_END.search(text, match.end() + begin.end())
         statement = match.group(2).strip()
         if len(statement) < 10:
