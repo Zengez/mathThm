@@ -1,0 +1,5956 @@
+{
+  "schema": "maththm.consecutive-full-section-window-options.v1",
+  "total_valid_windows": 3082,
+  "target_band": [
+    140,
+    160
+  ],
+  "excluded_prior_section_starts": {
+    "morphisms.tex": [
+      1710,
+      3522,
+      4615,
+      5718,
+      6337,
+      7603
+    ],
+    "limits.tex": [
+      1729
+    ]
+  },
+  "top_35": [
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 16,
+      "candidate_count": 141,
+      "source_lines": 5199,
+      "source_refs": 7,
+      "empty_sections": 0,
+      "first_line": 5089,
+      "last_line": 10287,
+      "titles": [
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras"
+      ],
+      "sections": [
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 17,
+      "candidate_count": 143,
+      "source_lines": 5370,
+      "source_refs": 9,
+      "empty_sections": 1,
+      "first_line": 4536,
+      "last_line": 9905,
+      "titles": [
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down"
+      ],
+      "sections": [
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 17,
+      "candidate_count": 142,
+      "source_lines": 5381,
+      "source_refs": 9,
+      "empty_sections": 1,
+      "first_line": 4656,
+      "last_line": 10036,
+      "titles": [
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions"
+      ],
+      "sections": [
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 17,
+      "candidate_count": 141,
+      "source_lines": 5393,
+      "source_refs": 7,
+      "empty_sections": 1,
+      "first_line": 5089,
+      "last_line": 10481,
+      "titles": [
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras",
+        "Separable extensions, continued"
+      ],
+      "sections": [
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        },
+        {
+          "first": 10288,
+          "last": 10481,
+          "label": "section-separability-continued",
+          "title": "Separable extensions, continued",
+          "count": 0
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 17,
+      "candidate_count": 141,
+      "source_lines": 5472,
+      "source_refs": 7,
+      "empty_sections": 1,
+      "first_line": 4816,
+      "last_line": 10287,
+      "titles": [
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras"
+      ],
+      "sections": [
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 18,
+      "candidate_count": 147,
+      "source_lines": 5622,
+      "source_refs": 10,
+      "empty_sections": 1,
+      "first_line": 4284,
+      "last_line": 9905,
+      "titles": [
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down"
+      ],
+      "sections": [
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 18,
+      "candidate_count": 146,
+      "source_lines": 5501,
+      "source_refs": 9,
+      "empty_sections": 1,
+      "first_line": 4536,
+      "last_line": 10036,
+      "titles": [
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions"
+      ],
+      "sections": [
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 18,
+      "candidate_count": 145,
+      "source_lines": 5632,
+      "source_refs": 9,
+      "empty_sections": 1,
+      "first_line": 4656,
+      "last_line": 10287,
+      "titles": [
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras"
+      ],
+      "sections": [
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 19,
+      "candidate_count": 150,
+      "source_lines": 5753,
+      "source_refs": 10,
+      "empty_sections": 1,
+      "first_line": 4284,
+      "last_line": 10036,
+      "titles": [
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions"
+      ],
+      "sections": [
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 19,
+      "candidate_count": 150,
+      "source_lines": 5865,
+      "source_refs": 10,
+      "empty_sections": 1,
+      "first_line": 4041,
+      "last_line": 9905,
+      "titles": [
+        "Glueing properties",
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down"
+      ],
+      "sections": [
+        {
+          "first": 4041,
+          "last": 4283,
+          "label": "section-more-glueing",
+          "title": "Glueing properties",
+          "count": 3
+        },
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 19,
+      "candidate_count": 149,
+      "source_lines": 5752,
+      "source_refs": 9,
+      "empty_sections": 1,
+      "first_line": 4536,
+      "last_line": 10287,
+      "titles": [
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras"
+      ],
+      "sections": [
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 18,
+      "candidate_count": 141,
+      "source_lines": 5515,
+      "source_refs": 7,
+      "empty_sections": 2,
+      "first_line": 5089,
+      "last_line": 10603,
+      "titles": [
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras",
+        "Separable extensions, continued",
+        "Perfect fields"
+      ],
+      "sections": [
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        },
+        {
+          "first": 10288,
+          "last": 10481,
+          "label": "section-separability-continued",
+          "title": "Separable extensions, continued",
+          "count": 0
+        },
+        {
+          "first": 10482,
+          "last": 10603,
+          "label": "section-perfect-fields",
+          "title": "Perfect fields",
+          "count": 0
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 18,
+      "candidate_count": 141,
+      "source_lines": 5666,
+      "source_refs": 7,
+      "empty_sections": 2,
+      "first_line": 4816,
+      "last_line": 10481,
+      "titles": [
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras",
+        "Separable extensions, continued"
+      ],
+      "sections": [
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        },
+        {
+          "first": 10288,
+          "last": 10481,
+          "label": "section-separability-continued",
+          "title": "Separable extensions, continued",
+          "count": 0
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 18,
+      "candidate_count": 140,
+      "source_lines": 5473,
+      "source_refs": 8,
+      "empty_sections": 1,
+      "first_line": 4041,
+      "last_line": 9513,
+      "titles": [
+        "Glueing properties",
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators"
+      ],
+      "sections": [
+        {
+          "first": 4041,
+          "last": 4283,
+          "label": "section-more-glueing",
+          "title": "Glueing properties",
+          "count": 3
+        },
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 19,
+      "candidate_count": 145,
+      "source_lines": 5826,
+      "source_refs": 9,
+      "empty_sections": 2,
+      "first_line": 4656,
+      "last_line": 10481,
+      "titles": [
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras",
+        "Separable extensions, continued"
+      ],
+      "sections": [
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        },
+        {
+          "first": 10288,
+          "last": 10481,
+          "label": "section-separability-continued",
+          "title": "Separable extensions, continued",
+          "count": 0
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 19,
+      "candidate_count": 142,
+      "source_lines": 5556,
+      "source_refs": 8,
+      "empty_sections": 1,
+      "first_line": 3958,
+      "last_line": 9513,
+      "titles": [
+        "Connected components of spectra",
+        "Glueing properties",
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators"
+      ],
+      "sections": [
+        {
+          "first": 3958,
+          "last": 4040,
+          "label": "section-connected-components",
+          "title": "Connected components of spectra",
+          "count": 2
+        },
+        {
+          "first": 4041,
+          "last": 4283,
+          "label": "section-more-glueing",
+          "title": "Glueing properties",
+          "count": 3
+        },
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 20,
+      "candidate_count": 149,
+      "source_lines": 5946,
+      "source_refs": 9,
+      "empty_sections": 2,
+      "first_line": 4536,
+      "last_line": 10481,
+      "titles": [
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras",
+        "Separable extensions, continued"
+      ],
+      "sections": [
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        },
+        {
+          "first": 10288,
+          "last": 10481,
+          "label": "section-separability-continued",
+          "title": "Separable extensions, continued",
+          "count": 0
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 20,
+      "candidate_count": 152,
+      "source_lines": 5948,
+      "source_refs": 10,
+      "empty_sections": 1,
+      "first_line": 3958,
+      "last_line": 9905,
+      "titles": [
+        "Connected components of spectra",
+        "Glueing properties",
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down"
+      ],
+      "sections": [
+        {
+          "first": 3958,
+          "last": 4040,
+          "label": "section-connected-components",
+          "title": "Connected components of spectra",
+          "count": 2
+        },
+        {
+          "first": 4041,
+          "last": 4283,
+          "label": "section-more-glueing",
+          "title": "Glueing properties",
+          "count": 3
+        },
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 20,
+      "candidate_count": 147,
+      "source_lines": 5747,
+      "source_refs": 8,
+      "empty_sections": 1,
+      "first_line": 3767,
+      "last_line": 9513,
+      "titles": [
+        "Open and closed subsets of spectra",
+        "Connected components of spectra",
+        "Glueing properties",
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators"
+      ],
+      "sections": [
+        {
+          "first": 3767,
+          "last": 3957,
+          "label": "section-open-and-closed",
+          "title": "Open and closed subsets of spectra",
+          "count": 5
+        },
+        {
+          "first": 3958,
+          "last": 4040,
+          "label": "section-connected-components",
+          "title": "Connected components of spectra",
+          "count": 2
+        },
+        {
+          "first": 4041,
+          "last": 4283,
+          "label": "section-more-glueing",
+          "title": "Glueing properties",
+          "count": 3
+        },
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 19,
+      "candidate_count": 140,
+      "source_lines": 5540,
+      "source_refs": 8,
+      "empty_sections": 1,
+      "first_line": 3767,
+      "last_line": 9306,
+      "titles": [
+        "Open and closed subsets of spectra",
+        "Connected components of spectra",
+        "Glueing properties",
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps"
+      ],
+      "sections": [
+        {
+          "first": 3767,
+          "last": 3957,
+          "label": "section-open-and-closed",
+          "title": "Open and closed subsets of spectra",
+          "count": 5
+        },
+        {
+          "first": 3958,
+          "last": 4040,
+          "label": "section-connected-components",
+          "title": "Connected components of spectra",
+          "count": 2
+        },
+        {
+          "first": 4041,
+          "last": 4283,
+          "label": "section-more-glueing",
+          "title": "Glueing properties",
+          "count": 3
+        },
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 19,
+      "candidate_count": 141,
+      "source_lines": 5788,
+      "source_refs": 7,
+      "empty_sections": 3,
+      "first_line": 4816,
+      "last_line": 10603,
+      "titles": [
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras",
+        "Separable extensions, continued",
+        "Perfect fields"
+      ],
+      "sections": [
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        },
+        {
+          "first": 10288,
+          "last": 10481,
+          "label": "section-separability-continued",
+          "title": "Separable extensions, continued",
+          "count": 0
+        },
+        {
+          "first": 10482,
+          "last": 10603,
+          "label": "section-perfect-fields",
+          "title": "Perfect fields",
+          "count": 0
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 20,
+      "candidate_count": 153,
+      "source_lines": 5996,
+      "source_refs": 10,
+      "empty_sections": 1,
+      "first_line": 4041,
+      "last_line": 10036,
+      "titles": [
+        "Glueing properties",
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions"
+      ],
+      "sections": [
+        {
+          "first": 4041,
+          "last": 4283,
+          "label": "section-more-glueing",
+          "title": "Glueing properties",
+          "count": 3
+        },
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 20,
+      "candidate_count": 153,
+      "source_lines": 6004,
+      "source_refs": 10,
+      "empty_sections": 1,
+      "first_line": 4284,
+      "last_line": 10287,
+      "titles": [
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras"
+      ],
+      "sections": [
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 19,
+      "candidate_count": 141,
+      "source_lines": 5984,
+      "source_refs": 7,
+      "empty_sections": 3,
+      "first_line": 5089,
+      "last_line": 11072,
+      "titles": [
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras",
+        "Separable extensions, continued",
+        "Perfect fields",
+        "Universal homeomorphisms"
+      ],
+      "sections": [
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        },
+        {
+          "first": 10288,
+          "last": 10481,
+          "label": "section-separability-continued",
+          "title": "Separable extensions, continued",
+          "count": 0
+        },
+        {
+          "first": 10482,
+          "last": 10603,
+          "label": "section-perfect-fields",
+          "title": "Perfect fields",
+          "count": 0
+        },
+        {
+          "first": 10604,
+          "last": 11072,
+          "label": "section-universal-homeomorphism",
+          "title": "Universal homeomorphisms",
+          "count": 0
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "divisors.tex",
+      "chapter_number": 31,
+      "section_count": 20,
+      "candidate_count": 145,
+      "source_lines": 5508,
+      "source_refs": 12,
+      "empty_sections": 0,
+      "first_line": 347,
+      "last_line": 5854,
+      "titles": [
+        "Embedded points",
+        "Weakly associated points",
+        "Morphisms and weakly associated points",
+        "Relative assassin",
+        "Relative weak assassin",
+        "Fitting ideals",
+        "The singular locus of a morphism",
+        "Torsion free modules",
+        "Ranks of modules",
+        "Reflexive modules",
+        "Effective Cartier divisors",
+        "Effective Cartier divisors and invertible sheaves",
+        "Effective Cartier divisors on Noetherian schemes",
+        "Complements of affine opens",
+        "Norms",
+        "Relative effective Cartier divisors",
+        "The normal cone of an immersion",
+        "Regular ideal sheaves",
+        "Regular immersions",
+        "Relative regular immersions"
+      ],
+      "sections": [
+        {
+          "first": 347,
+          "last": 547,
+          "label": "section-embedded",
+          "title": "Embedded points",
+          "count": 6
+        },
+        {
+          "first": 548,
+          "last": 809,
+          "label": "section-weakly-associated",
+          "title": "Weakly associated points",
+          "count": 11
+        },
+        {
+          "first": 810,
+          "last": 1043,
+          "label": "section-morphisms-weakly-associated",
+          "title": "Morphisms and weakly associated points",
+          "count": 6
+        },
+        {
+          "first": 1044,
+          "last": 1193,
+          "label": "section-relative-assassin",
+          "title": "Relative assassin",
+          "count": 1
+        },
+        {
+          "first": 1194,
+          "last": 1245,
+          "label": "section-relative-weak-assassin",
+          "title": "Relative weak assassin",
+          "count": 2
+        },
+        {
+          "first": 1246,
+          "last": 1528,
+          "label": "section-fitting-ideals",
+          "title": "Fitting ideals",
+          "count": 7
+        },
+        {
+          "first": 1529,
+          "last": 1640,
+          "label": "section-singular-locus-morphism",
+          "title": "The singular locus of a morphism",
+          "count": 3
+        },
+        {
+          "first": 1641,
+          "last": 1868,
+          "label": "section-torsion-free",
+          "title": "Torsion free modules",
+          "count": 12
+        },
+        {
+          "first": 1869,
+          "last": 1991,
+          "label": "section-rank",
+          "title": "Ranks of modules",
+          "count": 5
+        },
+        {
+          "first": 1992,
+          "last": 2375,
+          "label": "section-reflexive",
+          "title": "Reflexive modules",
+          "count": 12
+        },
+        {
+          "first": 2376,
+          "last": 2650,
+          "label": "section-effective-Cartier-divisors",
+          "title": "Effective Cartier divisors",
+          "count": 10
+        },
+        {
+          "first": 2651,
+          "last": 2916,
+          "label": "section-effective-Cartier-invertible",
+          "title": "Effective Cartier divisors and invertible sheaves",
+          "count": 5
+        },
+        {
+          "first": 2917,
+          "last": 3340,
+          "label": "section-Noetherian-effective-Cartier",
+          "title": "Effective Cartier divisors on Noetherian schemes",
+          "count": 13
+        },
+        {
+          "first": 3341,
+          "last": 3585,
+          "label": "section-complement-affine-open",
+          "title": "Complements of affine opens",
+          "count": 6
+        },
+        {
+          "first": 3586,
+          "last": 3937,
+          "label": "section-norms",
+          "title": "Norms",
+          "count": 10
+        },
+        {
+          "first": 3938,
+          "last": 4294,
+          "label": "section-effective-Cartier-morphisms",
+          "title": "Relative effective Cartier divisors",
+          "count": 7
+        },
+        {
+          "first": 4295,
+          "last": 4512,
+          "label": "section-normal-cone",
+          "title": "The normal cone of an immersion",
+          "count": 3
+        },
+        {
+          "first": 4513,
+          "last": 4888,
+          "label": "section-regular-ideal-sheaves",
+          "title": "Regular ideal sheaves",
+          "count": 7
+        },
+        {
+          "first": 4889,
+          "last": 5245,
+          "label": "section-regular-immersions",
+          "title": "Regular immersions",
+          "count": 10
+        },
+        {
+          "first": 5246,
+          "last": 5854,
+          "label": "section-relative-regular-immersion",
+          "title": "Relative regular immersions",
+          "count": 9
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 20,
+      "candidate_count": 145,
+      "source_lines": 5948,
+      "source_refs": 9,
+      "empty_sections": 3,
+      "first_line": 4656,
+      "last_line": 10603,
+      "titles": [
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras",
+        "Separable extensions, continued",
+        "Perfect fields"
+      ],
+      "sections": [
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        },
+        {
+          "first": 10288,
+          "last": 10481,
+          "label": "section-separability-continued",
+          "title": "Separable extensions, continued",
+          "count": 0
+        },
+        {
+          "first": 10482,
+          "last": 10603,
+          "label": "section-perfect-fields",
+          "title": "Perfect fields",
+          "count": 0
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 21,
+      "candidate_count": 150,
+      "source_lines": 5908,
+      "source_refs": 8,
+      "empty_sections": 1,
+      "first_line": 3606,
+      "last_line": 9513,
+      "titles": [
+        "Nakayama's lemma",
+        "Open and closed subsets of spectra",
+        "Connected components of spectra",
+        "Glueing properties",
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators"
+      ],
+      "sections": [
+        {
+          "first": 3606,
+          "last": 3766,
+          "label": "section-nakayama",
+          "title": "Nakayama's lemma",
+          "count": 3
+        },
+        {
+          "first": 3767,
+          "last": 3957,
+          "label": "section-open-and-closed",
+          "title": "Open and closed subsets of spectra",
+          "count": 5
+        },
+        {
+          "first": 3958,
+          "last": 4040,
+          "label": "section-connected-components",
+          "title": "Connected components of spectra",
+          "count": 2
+        },
+        {
+          "first": 4041,
+          "last": 4283,
+          "label": "section-more-glueing",
+          "title": "Glueing properties",
+          "count": 3
+        },
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 20,
+      "candidate_count": 143,
+      "source_lines": 5701,
+      "source_refs": 8,
+      "empty_sections": 1,
+      "first_line": 3606,
+      "last_line": 9306,
+      "titles": [
+        "Nakayama's lemma",
+        "Open and closed subsets of spectra",
+        "Connected components of spectra",
+        "Glueing properties",
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps"
+      ],
+      "sections": [
+        {
+          "first": 3606,
+          "last": 3766,
+          "label": "section-nakayama",
+          "title": "Nakayama's lemma",
+          "count": 3
+        },
+        {
+          "first": 3767,
+          "last": 3957,
+          "label": "section-open-and-closed",
+          "title": "Open and closed subsets of spectra",
+          "count": 5
+        },
+        {
+          "first": 3958,
+          "last": 4040,
+          "label": "section-connected-components",
+          "title": "Connected components of spectra",
+          "count": 2
+        },
+        {
+          "first": 4041,
+          "last": 4283,
+          "label": "section-more-glueing",
+          "title": "Glueing properties",
+          "count": 3
+        },
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "divisors.tex",
+      "chapter_number": 31,
+      "section_count": 20,
+      "candidate_count": 143,
+      "source_lines": 5684,
+      "source_refs": 14,
+      "empty_sections": 0,
+      "first_line": 548,
+      "last_line": 6231,
+      "titles": [
+        "Weakly associated points",
+        "Morphisms and weakly associated points",
+        "Relative assassin",
+        "Relative weak assassin",
+        "Fitting ideals",
+        "The singular locus of a morphism",
+        "Torsion free modules",
+        "Ranks of modules",
+        "Reflexive modules",
+        "Effective Cartier divisors",
+        "Effective Cartier divisors and invertible sheaves",
+        "Effective Cartier divisors on Noetherian schemes",
+        "Complements of affine opens",
+        "Norms",
+        "Relative effective Cartier divisors",
+        "The normal cone of an immersion",
+        "Regular ideal sheaves",
+        "Regular immersions",
+        "Relative regular immersions",
+        "Meromorphic functions and sections"
+      ],
+      "sections": [
+        {
+          "first": 548,
+          "last": 809,
+          "label": "section-weakly-associated",
+          "title": "Weakly associated points",
+          "count": 11
+        },
+        {
+          "first": 810,
+          "last": 1043,
+          "label": "section-morphisms-weakly-associated",
+          "title": "Morphisms and weakly associated points",
+          "count": 6
+        },
+        {
+          "first": 1044,
+          "last": 1193,
+          "label": "section-relative-assassin",
+          "title": "Relative assassin",
+          "count": 1
+        },
+        {
+          "first": 1194,
+          "last": 1245,
+          "label": "section-relative-weak-assassin",
+          "title": "Relative weak assassin",
+          "count": 2
+        },
+        {
+          "first": 1246,
+          "last": 1528,
+          "label": "section-fitting-ideals",
+          "title": "Fitting ideals",
+          "count": 7
+        },
+        {
+          "first": 1529,
+          "last": 1640,
+          "label": "section-singular-locus-morphism",
+          "title": "The singular locus of a morphism",
+          "count": 3
+        },
+        {
+          "first": 1641,
+          "last": 1868,
+          "label": "section-torsion-free",
+          "title": "Torsion free modules",
+          "count": 12
+        },
+        {
+          "first": 1869,
+          "last": 1991,
+          "label": "section-rank",
+          "title": "Ranks of modules",
+          "count": 5
+        },
+        {
+          "first": 1992,
+          "last": 2375,
+          "label": "section-reflexive",
+          "title": "Reflexive modules",
+          "count": 12
+        },
+        {
+          "first": 2376,
+          "last": 2650,
+          "label": "section-effective-Cartier-divisors",
+          "title": "Effective Cartier divisors",
+          "count": 10
+        },
+        {
+          "first": 2651,
+          "last": 2916,
+          "label": "section-effective-Cartier-invertible",
+          "title": "Effective Cartier divisors and invertible sheaves",
+          "count": 5
+        },
+        {
+          "first": 2917,
+          "last": 3340,
+          "label": "section-Noetherian-effective-Cartier",
+          "title": "Effective Cartier divisors on Noetherian schemes",
+          "count": 13
+        },
+        {
+          "first": 3341,
+          "last": 3585,
+          "label": "section-complement-affine-open",
+          "title": "Complements of affine opens",
+          "count": 6
+        },
+        {
+          "first": 3586,
+          "last": 3937,
+          "label": "section-norms",
+          "title": "Norms",
+          "count": 10
+        },
+        {
+          "first": 3938,
+          "last": 4294,
+          "label": "section-effective-Cartier-morphisms",
+          "title": "Relative effective Cartier divisors",
+          "count": 7
+        },
+        {
+          "first": 4295,
+          "last": 4512,
+          "label": "section-normal-cone",
+          "title": "The normal cone of an immersion",
+          "count": 3
+        },
+        {
+          "first": 4513,
+          "last": 4888,
+          "label": "section-regular-ideal-sheaves",
+          "title": "Regular ideal sheaves",
+          "count": 7
+        },
+        {
+          "first": 4889,
+          "last": 5245,
+          "label": "section-regular-immersions",
+          "title": "Regular immersions",
+          "count": 10
+        },
+        {
+          "first": 5246,
+          "last": 5854,
+          "label": "section-relative-regular-immersion",
+          "title": "Relative regular immersions",
+          "count": 9
+        },
+        {
+          "first": 5855,
+          "last": 6231,
+          "label": "section-meromorphic-functions",
+          "title": "Meromorphic functions and sections",
+          "count": 4
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 21,
+      "candidate_count": 149,
+      "source_lines": 6068,
+      "source_refs": 9,
+      "empty_sections": 3,
+      "first_line": 4536,
+      "last_line": 10603,
+      "titles": [
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras",
+        "Separable extensions, continued",
+        "Perfect fields"
+      ],
+      "sections": [
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        },
+        {
+          "first": 10288,
+          "last": 10481,
+          "label": "section-separability-continued",
+          "title": "Separable extensions, continued",
+          "count": 0
+        },
+        {
+          "first": 10482,
+          "last": 10603,
+          "label": "section-perfect-fields",
+          "title": "Perfect fields",
+          "count": 0
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "divisors.tex",
+      "chapter_number": 31,
+      "section_count": 21,
+      "candidate_count": 149,
+      "source_lines": 5885,
+      "source_refs": 15,
+      "empty_sections": 0,
+      "first_line": 347,
+      "last_line": 6231,
+      "titles": [
+        "Embedded points",
+        "Weakly associated points",
+        "Morphisms and weakly associated points",
+        "Relative assassin",
+        "Relative weak assassin",
+        "Fitting ideals",
+        "The singular locus of a morphism",
+        "Torsion free modules",
+        "Ranks of modules",
+        "Reflexive modules",
+        "Effective Cartier divisors",
+        "Effective Cartier divisors and invertible sheaves",
+        "Effective Cartier divisors on Noetherian schemes",
+        "Complements of affine opens",
+        "Norms",
+        "Relative effective Cartier divisors",
+        "The normal cone of an immersion",
+        "Regular ideal sheaves",
+        "Regular immersions",
+        "Relative regular immersions",
+        "Meromorphic functions and sections"
+      ],
+      "sections": [
+        {
+          "first": 347,
+          "last": 547,
+          "label": "section-embedded",
+          "title": "Embedded points",
+          "count": 6
+        },
+        {
+          "first": 548,
+          "last": 809,
+          "label": "section-weakly-associated",
+          "title": "Weakly associated points",
+          "count": 11
+        },
+        {
+          "first": 810,
+          "last": 1043,
+          "label": "section-morphisms-weakly-associated",
+          "title": "Morphisms and weakly associated points",
+          "count": 6
+        },
+        {
+          "first": 1044,
+          "last": 1193,
+          "label": "section-relative-assassin",
+          "title": "Relative assassin",
+          "count": 1
+        },
+        {
+          "first": 1194,
+          "last": 1245,
+          "label": "section-relative-weak-assassin",
+          "title": "Relative weak assassin",
+          "count": 2
+        },
+        {
+          "first": 1246,
+          "last": 1528,
+          "label": "section-fitting-ideals",
+          "title": "Fitting ideals",
+          "count": 7
+        },
+        {
+          "first": 1529,
+          "last": 1640,
+          "label": "section-singular-locus-morphism",
+          "title": "The singular locus of a morphism",
+          "count": 3
+        },
+        {
+          "first": 1641,
+          "last": 1868,
+          "label": "section-torsion-free",
+          "title": "Torsion free modules",
+          "count": 12
+        },
+        {
+          "first": 1869,
+          "last": 1991,
+          "label": "section-rank",
+          "title": "Ranks of modules",
+          "count": 5
+        },
+        {
+          "first": 1992,
+          "last": 2375,
+          "label": "section-reflexive",
+          "title": "Reflexive modules",
+          "count": 12
+        },
+        {
+          "first": 2376,
+          "last": 2650,
+          "label": "section-effective-Cartier-divisors",
+          "title": "Effective Cartier divisors",
+          "count": 10
+        },
+        {
+          "first": 2651,
+          "last": 2916,
+          "label": "section-effective-Cartier-invertible",
+          "title": "Effective Cartier divisors and invertible sheaves",
+          "count": 5
+        },
+        {
+          "first": 2917,
+          "last": 3340,
+          "label": "section-Noetherian-effective-Cartier",
+          "title": "Effective Cartier divisors on Noetherian schemes",
+          "count": 13
+        },
+        {
+          "first": 3341,
+          "last": 3585,
+          "label": "section-complement-affine-open",
+          "title": "Complements of affine opens",
+          "count": 6
+        },
+        {
+          "first": 3586,
+          "last": 3937,
+          "label": "section-norms",
+          "title": "Norms",
+          "count": 10
+        },
+        {
+          "first": 3938,
+          "last": 4294,
+          "label": "section-effective-Cartier-morphisms",
+          "title": "Relative effective Cartier divisors",
+          "count": 7
+        },
+        {
+          "first": 4295,
+          "last": 4512,
+          "label": "section-normal-cone",
+          "title": "The normal cone of an immersion",
+          "count": 3
+        },
+        {
+          "first": 4513,
+          "last": 4888,
+          "label": "section-regular-ideal-sheaves",
+          "title": "Regular ideal sheaves",
+          "count": 7
+        },
+        {
+          "first": 4889,
+          "last": 5245,
+          "label": "section-regular-immersions",
+          "title": "Regular immersions",
+          "count": 10
+        },
+        {
+          "first": 5246,
+          "last": 5854,
+          "label": "section-relative-regular-immersion",
+          "title": "Relative regular immersions",
+          "count": 9
+        },
+        {
+          "first": 5855,
+          "last": 6231,
+          "label": "section-meromorphic-functions",
+          "title": "Meromorphic functions and sections",
+          "count": 4
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "divisors.tex",
+      "chapter_number": 31,
+      "section_count": 21,
+      "candidate_count": 145,
+      "source_lines": 5220,
+      "source_refs": 12,
+      "empty_sections": 0,
+      "first_line": 26,
+      "last_line": 5245,
+      "titles": [
+        "Associated points",
+        "Morphisms and associated points",
+        "Embedded points",
+        "Weakly associated points",
+        "Morphisms and weakly associated points",
+        "Relative assassin",
+        "Relative weak assassin",
+        "Fitting ideals",
+        "The singular locus of a morphism",
+        "Torsion free modules",
+        "Ranks of modules",
+        "Reflexive modules",
+        "Effective Cartier divisors",
+        "Effective Cartier divisors and invertible sheaves",
+        "Effective Cartier divisors on Noetherian schemes",
+        "Complements of affine opens",
+        "Norms",
+        "Relative effective Cartier divisors",
+        "The normal cone of an immersion",
+        "Regular ideal sheaves",
+        "Regular immersions"
+      ],
+      "sections": [
+        {
+          "first": 26,
+          "last": 290,
+          "label": "section-associated",
+          "title": "Associated points",
+          "count": 8
+        },
+        {
+          "first": 291,
+          "last": 346,
+          "label": "section-morphisms-associated",
+          "title": "Morphisms and associated points",
+          "count": 1
+        },
+        {
+          "first": 347,
+          "last": 547,
+          "label": "section-embedded",
+          "title": "Embedded points",
+          "count": 6
+        },
+        {
+          "first": 548,
+          "last": 809,
+          "label": "section-weakly-associated",
+          "title": "Weakly associated points",
+          "count": 11
+        },
+        {
+          "first": 810,
+          "last": 1043,
+          "label": "section-morphisms-weakly-associated",
+          "title": "Morphisms and weakly associated points",
+          "count": 6
+        },
+        {
+          "first": 1044,
+          "last": 1193,
+          "label": "section-relative-assassin",
+          "title": "Relative assassin",
+          "count": 1
+        },
+        {
+          "first": 1194,
+          "last": 1245,
+          "label": "section-relative-weak-assassin",
+          "title": "Relative weak assassin",
+          "count": 2
+        },
+        {
+          "first": 1246,
+          "last": 1528,
+          "label": "section-fitting-ideals",
+          "title": "Fitting ideals",
+          "count": 7
+        },
+        {
+          "first": 1529,
+          "last": 1640,
+          "label": "section-singular-locus-morphism",
+          "title": "The singular locus of a morphism",
+          "count": 3
+        },
+        {
+          "first": 1641,
+          "last": 1868,
+          "label": "section-torsion-free",
+          "title": "Torsion free modules",
+          "count": 12
+        },
+        {
+          "first": 1869,
+          "last": 1991,
+          "label": "section-rank",
+          "title": "Ranks of modules",
+          "count": 5
+        },
+        {
+          "first": 1992,
+          "last": 2375,
+          "label": "section-reflexive",
+          "title": "Reflexive modules",
+          "count": 12
+        },
+        {
+          "first": 2376,
+          "last": 2650,
+          "label": "section-effective-Cartier-divisors",
+          "title": "Effective Cartier divisors",
+          "count": 10
+        },
+        {
+          "first": 2651,
+          "last": 2916,
+          "label": "section-effective-Cartier-invertible",
+          "title": "Effective Cartier divisors and invertible sheaves",
+          "count": 5
+        },
+        {
+          "first": 2917,
+          "last": 3340,
+          "label": "section-Noetherian-effective-Cartier",
+          "title": "Effective Cartier divisors on Noetherian schemes",
+          "count": 13
+        },
+        {
+          "first": 3341,
+          "last": 3585,
+          "label": "section-complement-affine-open",
+          "title": "Complements of affine opens",
+          "count": 6
+        },
+        {
+          "first": 3586,
+          "last": 3937,
+          "label": "section-norms",
+          "title": "Norms",
+          "count": 10
+        },
+        {
+          "first": 3938,
+          "last": 4294,
+          "label": "section-effective-Cartier-morphisms",
+          "title": "Relative effective Cartier divisors",
+          "count": 7
+        },
+        {
+          "first": 4295,
+          "last": 4512,
+          "label": "section-normal-cone",
+          "title": "The normal cone of an immersion",
+          "count": 3
+        },
+        {
+          "first": 4513,
+          "last": 4888,
+          "label": "section-regular-ideal-sheaves",
+          "title": "Regular ideal sheaves",
+          "count": 7
+        },
+        {
+          "first": 4889,
+          "last": 5245,
+          "label": "section-regular-immersions",
+          "title": "Regular immersions",
+          "count": 10
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "divisors.tex",
+      "chapter_number": 31,
+      "section_count": 21,
+      "candidate_count": 146,
+      "source_lines": 5564,
+      "source_refs": 12,
+      "empty_sections": 0,
+      "first_line": 291,
+      "last_line": 5854,
+      "titles": [
+        "Morphisms and associated points",
+        "Embedded points",
+        "Weakly associated points",
+        "Morphisms and weakly associated points",
+        "Relative assassin",
+        "Relative weak assassin",
+        "Fitting ideals",
+        "The singular locus of a morphism",
+        "Torsion free modules",
+        "Ranks of modules",
+        "Reflexive modules",
+        "Effective Cartier divisors",
+        "Effective Cartier divisors and invertible sheaves",
+        "Effective Cartier divisors on Noetherian schemes",
+        "Complements of affine opens",
+        "Norms",
+        "Relative effective Cartier divisors",
+        "The normal cone of an immersion",
+        "Regular ideal sheaves",
+        "Regular immersions",
+        "Relative regular immersions"
+      ],
+      "sections": [
+        {
+          "first": 291,
+          "last": 346,
+          "label": "section-morphisms-associated",
+          "title": "Morphisms and associated points",
+          "count": 1
+        },
+        {
+          "first": 347,
+          "last": 547,
+          "label": "section-embedded",
+          "title": "Embedded points",
+          "count": 6
+        },
+        {
+          "first": 548,
+          "last": 809,
+          "label": "section-weakly-associated",
+          "title": "Weakly associated points",
+          "count": 11
+        },
+        {
+          "first": 810,
+          "last": 1043,
+          "label": "section-morphisms-weakly-associated",
+          "title": "Morphisms and weakly associated points",
+          "count": 6
+        },
+        {
+          "first": 1044,
+          "last": 1193,
+          "label": "section-relative-assassin",
+          "title": "Relative assassin",
+          "count": 1
+        },
+        {
+          "first": 1194,
+          "last": 1245,
+          "label": "section-relative-weak-assassin",
+          "title": "Relative weak assassin",
+          "count": 2
+        },
+        {
+          "first": 1246,
+          "last": 1528,
+          "label": "section-fitting-ideals",
+          "title": "Fitting ideals",
+          "count": 7
+        },
+        {
+          "first": 1529,
+          "last": 1640,
+          "label": "section-singular-locus-morphism",
+          "title": "The singular locus of a morphism",
+          "count": 3
+        },
+        {
+          "first": 1641,
+          "last": 1868,
+          "label": "section-torsion-free",
+          "title": "Torsion free modules",
+          "count": 12
+        },
+        {
+          "first": 1869,
+          "last": 1991,
+          "label": "section-rank",
+          "title": "Ranks of modules",
+          "count": 5
+        },
+        {
+          "first": 1992,
+          "last": 2375,
+          "label": "section-reflexive",
+          "title": "Reflexive modules",
+          "count": 12
+        },
+        {
+          "first": 2376,
+          "last": 2650,
+          "label": "section-effective-Cartier-divisors",
+          "title": "Effective Cartier divisors",
+          "count": 10
+        },
+        {
+          "first": 2651,
+          "last": 2916,
+          "label": "section-effective-Cartier-invertible",
+          "title": "Effective Cartier divisors and invertible sheaves",
+          "count": 5
+        },
+        {
+          "first": 2917,
+          "last": 3340,
+          "label": "section-Noetherian-effective-Cartier",
+          "title": "Effective Cartier divisors on Noetherian schemes",
+          "count": 13
+        },
+        {
+          "first": 3341,
+          "last": 3585,
+          "label": "section-complement-affine-open",
+          "title": "Complements of affine opens",
+          "count": 6
+        },
+        {
+          "first": 3586,
+          "last": 3937,
+          "label": "section-norms",
+          "title": "Norms",
+          "count": 10
+        },
+        {
+          "first": 3938,
+          "last": 4294,
+          "label": "section-effective-Cartier-morphisms",
+          "title": "Relative effective Cartier divisors",
+          "count": 7
+        },
+        {
+          "first": 4295,
+          "last": 4512,
+          "label": "section-normal-cone",
+          "title": "The normal cone of an immersion",
+          "count": 3
+        },
+        {
+          "first": 4513,
+          "last": 4888,
+          "label": "section-regular-ideal-sheaves",
+          "title": "Regular ideal sheaves",
+          "count": 7
+        },
+        {
+          "first": 4889,
+          "last": 5245,
+          "label": "section-regular-immersions",
+          "title": "Regular immersions",
+          "count": 10
+        },
+        {
+          "first": 5246,
+          "last": 5854,
+          "label": "section-relative-regular-immersion",
+          "title": "Relative regular immersions",
+          "count": 9
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "divisors.tex",
+      "chapter_number": 31,
+      "section_count": 21,
+      "candidate_count": 148,
+      "source_lines": 5869,
+      "source_refs": 16,
+      "empty_sections": 0,
+      "first_line": 548,
+      "last_line": 6416,
+      "titles": [
+        "Weakly associated points",
+        "Morphisms and weakly associated points",
+        "Relative assassin",
+        "Relative weak assassin",
+        "Fitting ideals",
+        "The singular locus of a morphism",
+        "Torsion free modules",
+        "Ranks of modules",
+        "Reflexive modules",
+        "Effective Cartier divisors",
+        "Effective Cartier divisors and invertible sheaves",
+        "Effective Cartier divisors on Noetherian schemes",
+        "Complements of affine opens",
+        "Norms",
+        "Relative effective Cartier divisors",
+        "The normal cone of an immersion",
+        "Regular ideal sheaves",
+        "Regular immersions",
+        "Relative regular immersions",
+        "Meromorphic functions and sections",
+        "Meromorphic functions and sections; Noetherian case"
+      ],
+      "sections": [
+        {
+          "first": 548,
+          "last": 809,
+          "label": "section-weakly-associated",
+          "title": "Weakly associated points",
+          "count": 11
+        },
+        {
+          "first": 810,
+          "last": 1043,
+          "label": "section-morphisms-weakly-associated",
+          "title": "Morphisms and weakly associated points",
+          "count": 6
+        },
+        {
+          "first": 1044,
+          "last": 1193,
+          "label": "section-relative-assassin",
+          "title": "Relative assassin",
+          "count": 1
+        },
+        {
+          "first": 1194,
+          "last": 1245,
+          "label": "section-relative-weak-assassin",
+          "title": "Relative weak assassin",
+          "count": 2
+        },
+        {
+          "first": 1246,
+          "last": 1528,
+          "label": "section-fitting-ideals",
+          "title": "Fitting ideals",
+          "count": 7
+        },
+        {
+          "first": 1529,
+          "last": 1640,
+          "label": "section-singular-locus-morphism",
+          "title": "The singular locus of a morphism",
+          "count": 3
+        },
+        {
+          "first": 1641,
+          "last": 1868,
+          "label": "section-torsion-free",
+          "title": "Torsion free modules",
+          "count": 12
+        },
+        {
+          "first": 1869,
+          "last": 1991,
+          "label": "section-rank",
+          "title": "Ranks of modules",
+          "count": 5
+        },
+        {
+          "first": 1992,
+          "last": 2375,
+          "label": "section-reflexive",
+          "title": "Reflexive modules",
+          "count": 12
+        },
+        {
+          "first": 2376,
+          "last": 2650,
+          "label": "section-effective-Cartier-divisors",
+          "title": "Effective Cartier divisors",
+          "count": 10
+        },
+        {
+          "first": 2651,
+          "last": 2916,
+          "label": "section-effective-Cartier-invertible",
+          "title": "Effective Cartier divisors and invertible sheaves",
+          "count": 5
+        },
+        {
+          "first": 2917,
+          "last": 3340,
+          "label": "section-Noetherian-effective-Cartier",
+          "title": "Effective Cartier divisors on Noetherian schemes",
+          "count": 13
+        },
+        {
+          "first": 3341,
+          "last": 3585,
+          "label": "section-complement-affine-open",
+          "title": "Complements of affine opens",
+          "count": 6
+        },
+        {
+          "first": 3586,
+          "last": 3937,
+          "label": "section-norms",
+          "title": "Norms",
+          "count": 10
+        },
+        {
+          "first": 3938,
+          "last": 4294,
+          "label": "section-effective-Cartier-morphisms",
+          "title": "Relative effective Cartier divisors",
+          "count": 7
+        },
+        {
+          "first": 4295,
+          "last": 4512,
+          "label": "section-normal-cone",
+          "title": "The normal cone of an immersion",
+          "count": 3
+        },
+        {
+          "first": 4513,
+          "last": 4888,
+          "label": "section-regular-ideal-sheaves",
+          "title": "Regular ideal sheaves",
+          "count": 7
+        },
+        {
+          "first": 4889,
+          "last": 5245,
+          "label": "section-regular-immersions",
+          "title": "Regular immersions",
+          "count": 10
+        },
+        {
+          "first": 5246,
+          "last": 5854,
+          "label": "section-relative-regular-immersion",
+          "title": "Relative regular immersions",
+          "count": 9
+        },
+        {
+          "first": 5855,
+          "last": 6231,
+          "label": "section-meromorphic-functions",
+          "title": "Meromorphic functions and sections",
+          "count": 4
+        },
+        {
+          "first": 6232,
+          "last": 6416,
+          "label": "section-meromorphic-noetherian",
+          "title": "Meromorphic functions and sections; Noetherian case",
+          "count": 5
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    },
+    {
+      "source_file": "algebra.tex",
+      "chapter_number": 10,
+      "section_count": 21,
+      "candidate_count": 153,
+      "source_lines": 6198,
+      "source_refs": 10,
+      "empty_sections": 2,
+      "first_line": 4284,
+      "last_line": 10481,
+      "titles": [
+        "Glueing functions",
+        "Zerodivisors and total rings of fractions",
+        "Irreducible components of spectra",
+        "Examples of spectra of rings",
+        "A meta-observation about prime ideals",
+        "Images of ring maps of finite presentation",
+        "More on images",
+        "Noetherian rings",
+        "Locally nilpotent ideals",
+        "Curiosity",
+        "Hilbert Nullstellensatz",
+        "Jacobson rings",
+        "Finite and integral ring extensions",
+        "Normal rings",
+        "Going down for integral over normal",
+        "Flat modules and flat ring maps",
+        "Supports and annihilators",
+        "Going up and going down",
+        "Separable extensions",
+        "Geometrically reduced algebras",
+        "Separable extensions, continued"
+      ],
+      "sections": [
+        {
+          "first": 4284,
+          "last": 4535,
+          "label": "section-tilde-module-sheaf",
+          "title": "Glueing functions",
+          "count": 4
+        },
+        {
+          "first": 4536,
+          "last": 4655,
+          "label": "section-total-quotient-ring",
+          "title": "Zerodivisors and total rings of fractions",
+          "count": 4
+        },
+        {
+          "first": 4656,
+          "last": 4815,
+          "label": "section-irreducible",
+          "title": "Irreducible components of spectra",
+          "count": 4
+        },
+        {
+          "first": 4816,
+          "last": 5088,
+          "label": "section-examples-spectra",
+          "title": "Examples of spectra of rings",
+          "count": 0
+        },
+        {
+          "first": 5089,
+          "last": 5370,
+          "label": "section-oka-families",
+          "title": "A meta-observation about prime ideals",
+          "count": 6
+        },
+        {
+          "first": 5371,
+          "last": 5720,
+          "label": "section-images-finite-presentation",
+          "title": "Images of ring maps of finite presentation",
+          "count": 10
+        },
+        {
+          "first": 5721,
+          "last": 5979,
+          "label": "section-more-images",
+          "title": "More on images",
+          "count": 8
+        },
+        {
+          "first": 5980,
+          "last": 6237,
+          "label": "section-Noetherian",
+          "title": "Noetherian rings",
+          "count": 10
+        },
+        {
+          "first": 6238,
+          "last": 6444,
+          "label": "section-locally-nilpotent",
+          "title": "Locally nilpotent ideals",
+          "count": 6
+        },
+        {
+          "first": 6445,
+          "last": 6519,
+          "label": "section-curiosity",
+          "title": "Curiosity",
+          "count": 2
+        },
+        {
+          "first": 6520,
+          "last": 6648,
+          "label": "section-nullstellensatz",
+          "title": "Hilbert Nullstellensatz",
+          "count": 1
+        },
+        {
+          "first": 6649,
+          "last": 7433,
+          "label": "section-ring-jacobson",
+          "title": "Jacobson rings",
+          "count": 14
+        },
+        {
+          "first": 7434,
+          "last": 7970,
+          "label": "section-finite-ring-extensions",
+          "title": "Finite and integral ring extensions",
+          "count": 22
+        },
+        {
+          "first": 7971,
+          "last": 8338,
+          "label": "section-normal-rings",
+          "title": "Normal rings",
+          "count": 14
+        },
+        {
+          "first": 8339,
+          "last": 8586,
+          "label": "section-going-down-integral-over-normal",
+          "title": "Going down for integral over normal",
+          "count": 6
+        },
+        {
+          "first": 8587,
+          "last": 9306,
+          "label": "section-flat",
+          "title": "Flat modules and flat ring maps",
+          "count": 19
+        },
+        {
+          "first": 9307,
+          "last": 9513,
+          "label": "section-supp-and-ann",
+          "title": "Supports and annihilators",
+          "count": 7
+        },
+        {
+          "first": 9514,
+          "last": 9905,
+          "label": "section-going-up",
+          "title": "Going up and going down",
+          "count": 10
+        },
+        {
+          "first": 9906,
+          "last": 10036,
+          "label": "section-separability",
+          "title": "Separable extensions",
+          "count": 3
+        },
+        {
+          "first": 10037,
+          "last": 10287,
+          "label": "section-geometrically-reduced",
+          "title": "Geometrically reduced algebras",
+          "count": 3
+        },
+        {
+          "first": 10288,
+          "last": 10481,
+          "label": "section-separability-continued",
+          "title": "Separable extensions, continued",
+          "count": 0
+        }
+      ],
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+    }
+  ],
+  "all_windows_statistics": {
+    "chapters_with_windows": 18,
+    "smallest_source_lines": 5105
+  },
+  "nothing_processed_or_published": true
+}
