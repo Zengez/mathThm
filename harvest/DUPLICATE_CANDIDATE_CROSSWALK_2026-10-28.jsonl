@@ -1,0 +1,16 @@
+{"candidate_id": "candidate.stacks.2cf92a11585a8b5752c6c63a", "canonical_candidate_id": "candidate.stacks.2cf92a11585a8b5752c6c63a", "is_primary": true, "merge_group": 26}
+{"candidate_id": "candidate.stacks.2d084afb70bfc1da6a866717", "canonical_candidate_id": "candidate.stacks.2cf92a11585a8b5752c6c63a", "is_primary": false, "merge_group": 26}
+{"candidate_id": "candidate.stacks.4216b776d34de114ca5c81ab", "canonical_candidate_id": "candidate.stacks.4216b776d34de114ca5c81ab", "is_primary": true, "merge_group": 38}
+{"candidate_id": "candidate.stacks.5bbd77e2a4498435beb98705", "canonical_candidate_id": "candidate.stacks.5bbd77e2a4498435beb98705", "is_primary": true, "merge_group": 50}
+{"candidate_id": "candidate.stacks.61fb9ef632d0e75561487532", "canonical_candidate_id": "candidate.stacks.61fb9ef632d0e75561487532", "is_primary": true, "merge_group": 55}
+{"candidate_id": "candidate.stacks.62055493cf8951a6724cd438", "canonical_candidate_id": "candidate.stacks.61fb9ef632d0e75561487532", "is_primary": false, "merge_group": 55}
+{"candidate_id": "candidate.stacks.6c2b0a7b5526f35f6ddd9a06", "canonical_candidate_id": "candidate.stacks.6c2b0a7b5526f35f6ddd9a06", "is_primary": true, "merge_group": 60}
+{"candidate_id": "candidate.stacks.a0a305bf5d93241ffad29742", "canonical_candidate_id": "candidate.stacks.6c2b0a7b5526f35f6ddd9a06", "is_primary": false, "merge_group": 60}
+{"candidate_id": "candidate.stacks.b958b6d1e73319850ccf02d0", "canonical_candidate_id": "candidate.stacks.b958b6d1e73319850ccf02d0", "is_primary": true, "merge_group": 84}
+{"candidate_id": "candidate.stacks.b9bfe18d83ad37fd5fa236d4", "canonical_candidate_id": "candidate.stacks.b9bfe18d83ad37fd5fa236d4", "is_primary": true, "merge_group": 96}
+{"candidate_id": "candidate.stacks.be7cfac76041ec7c0712da5f", "canonical_candidate_id": "candidate.stacks.b958b6d1e73319850ccf02d0", "is_primary": false, "merge_group": 84}
+{"candidate_id": "candidate.stacks.d53862fe35cda396b49986cd", "canonical_candidate_id": "candidate.stacks.d53862fe35cda396b49986cd", "is_primary": true, "merge_group": 92}
+{"candidate_id": "candidate.stacks.d63a426600abc837086f0534", "canonical_candidate_id": "candidate.stacks.d53862fe35cda396b49986cd", "is_primary": false, "merge_group": 92}
+{"candidate_id": "candidate.stacks.d740d785f659addbfd114afa", "canonical_candidate_id": "candidate.stacks.4216b776d34de114ca5c81ab", "is_primary": false, "merge_group": 38}
+{"candidate_id": "candidate.stacks.dadd9964d25b32f43d24286e", "canonical_candidate_id": "candidate.stacks.b9bfe18d83ad37fd5fa236d4", "is_primary": false, "merge_group": 96}
+{"candidate_id": "candidate.stacks.ef30d5b02c2a826a694d3ac5", "canonical_candidate_id": "candidate.stacks.5bbd77e2a4498435beb98705", "is_primary": false, "merge_group": 50}

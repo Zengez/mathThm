@@ -1,13 +1,26 @@
 {
+  "active_representation": "one canonical candidate for each reviewed confirmed duplicate theorem",
   "by_batch": {
     "stacks-bulk-2026-10-28": 1023,
-    "stacks-remaining-2026-10-28": 6787,
-    "stacks-second-2026-10-28": 1873
+    "stacks-remaining-2026-10-28": 6780,
+    "stacks-second-2026-10-28": 1872
   },
   "campaign": "2026-10-28-stacks-bulk-prototype",
   "candidate_pool_file": "harvest/active_candidate_ids.jsonl",
-  "eligible_rule": "Only Pass 2 resolved mathematical_result records; apply archive exclusion",
-  "eligible_total": 9683,
+  "deduplication": {
+    "alternate_proofs_retained_uninspected": 8,
+    "crosswalk_file": "harvest/DUPLICATE_CANDIDATE_CROSSWALK_2026-10-28.jsonl",
+    "decision_file": "harvest/DUPLICATE_ADJUDICATION_DECISIONS_2026-10-28.jsonl",
+    "every_original_source_and_proof_preserved": true,
+    "flagged_groups_kept_separate": 94,
+    "merged_aliases": 8,
+    "merged_groups": 8,
+    "merged_records_file": "harvest/CONSOLIDATED_CANDIDATES.jsonl",
+    "reviewed_flagged_groups": 102,
+    "source_active_total": 9683
+  },
+  "eligible_rule": "Only Pass 2 resolved mathematical_result records; exclude deferred cases and aliases of adjudicated duplicates",
+  "eligible_total": 9675,
   "excluded_registry": "harvest/problem_candidates.jsonl",
   "exclusion_is_nondestructive": true,
   "next_stage": "Pass 3 proof screening, not mathematical verification",
