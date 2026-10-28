@@ -1,0 +1,39 @@
+name: Rank active Stacks candidate sections for scoped sweep
+on:
+  push:
+    paths:
+      - .github/workflows/rank-stacks-section-walk.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m scripts.stacks_section_walk_pilot rank
+      - name: Validate source-group coverage
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("harvest/SECTION_WALK_PILOT_RANK_2026-10-28.json")
+          m=json.loads(p.read_text())
+          assert m["active_canonical_candidate_ids"]==9675
+          assert m["candidates_with_indexed_section"]+m["candidates_before_first_section"]==9675
+          assert m["populated_sections"]>=200
+          print({k:m[k] for k in ("candidates_with_indexed_section","populated_sections","sections_with_at_least_8_candidates")})
+          PY
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/SECTION_WALK_PILOT_RANK_2026-10-28.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record ranked Stacks candidate-section groups for scoped sweep pilot"
+            git pull --rebase origin main
+            git push origin main
+          fi
