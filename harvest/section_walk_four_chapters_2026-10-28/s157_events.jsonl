@@ -1,0 +1,6 @@
+{"environment": "lemma", "kind": "enter_local_environment", "line": 22965, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 22975, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 22977, "scope_stack": []}
+{"environment": "proposition", "kind": "enter_local_environment", "line": 23079, "persists_after_end": false, "scope_stack": ["proposition"]}
+{"environment": "proposition", "kind": "exit_local_environment", "line": 23087, "persists_after_end": false, "scope_stack_before_pop": ["proposition"]}
+{"kind": "proof_skipped", "line": 23089, "scope_stack": []}

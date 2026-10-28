@@ -1,0 +1,9 @@
+{"kind": "local_or_unclassified_prose", "line": 10859, "review_required": true, "scope_stack": [], "text_excerpt": "Let $X$ be a scheme. Let $Z \\subset X$ be a closed subscheme such that the inclusion morphism is of finite presentation, i.e., the quasi-coherent sheaf of ideals corresponding to $Z$ is of finite type. Let $b : X' \\to X$ be the blowup of $X$ in $Z$ and let $E = b^{-1}(Z)$ be the exceptional divisor. See Divisors, Section \\ref{divisors-section-blowing-up}. In this situation and in this section, let us say"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 10877, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 10877, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 10890, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 10892, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 10920, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 10920, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 10927, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 10929, "scope_stack": []}

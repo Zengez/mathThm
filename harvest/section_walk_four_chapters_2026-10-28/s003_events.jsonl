@@ -1,0 +1,38 @@
+{"kind": "local_or_unclassified_prose", "line": 227, "review_required": true, "scope_stack": [], "text_excerpt": "} $$ Let us denote this $(A/R)_\\bullet$ so that $(A/R)_n$ is the $(n + 1)$-fold tensor product of $A$ over $R$. Given a map $\\varphi : [n] \\to [m]$ the $R$-algebra map $(A/R)_\\bullet(\\varphi)$ is the map $$ a_0 \\otimes \\ldots \\otimes a_n"}
+{"environment": "definition", "kind": "enter_local_environment", "line": 270, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 306, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"kind": "local_or_unclassified_prose", "line": 309, "review_required": true, "scope_stack": [], "text_excerpt": "In the definition we use the notation that $\\varphi_{01} = \\varphi \\otimes \\text{id}_A$, $\\varphi_{12} = \\text{id}_A \\otimes \\varphi$, and $\\varphi_{02}(n \\otimes 1 \\otimes 1) = \\sum a_i \\otimes 1 \\otimes n_i$ if $\\varphi(n \\otimes 1) = \\sum a_i \\otimes n_i$. All three are $A \\otimes_R A \\otimes_R A$-module homomorphisms. Equivalently we have $$"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 373, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 373, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 386, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 388, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 462, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 462, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 468, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 470, "scope_stack": []}
+{"environment": "definition", "kind": "enter_local_environment", "line": 474, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 481, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 523, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 523, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 528, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 530, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 556, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 556, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 562, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 564, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 589, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 589, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 599, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 601, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 615, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 615, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 620, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 622, "scope_stack": []}
+{"environment": "proposition", "kind": "enter_local_environment", "line": 641, "persists_after_end": false, "scope_stack": ["proposition"]}
+{"kind": "candidate_location", "line": 641, "scope_stack": ["proposition"]}
+{"environment": "proposition", "kind": "exit_local_environment", "line": 655, "persists_after_end": false, "scope_stack_before_pop": ["proposition"]}
+{"kind": "proof_skipped", "line": 657, "scope_stack": []}
+{"environment": "remark", "kind": "enter_local_environment", "line": 705, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 722, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}
+{"environment": "remark", "kind": "enter_local_environment", "line": 724, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 758, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}

@@ -1,0 +1,16 @@
+{"environment": "lemma", "kind": "enter_local_environment", "line": 10465, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 10465, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 10477, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 10479, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 10495, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 10495, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 10508, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 10510, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 10529, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 10529, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 10540, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 10542, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 10555, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 10555, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 10566, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 10568, "scope_stack": []}

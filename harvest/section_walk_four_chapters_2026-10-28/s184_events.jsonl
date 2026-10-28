@@ -1,0 +1,16 @@
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6597, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6597, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6609, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6611, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6645, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6645, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6656, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6658, "scope_stack": []}
+{"environment": "theorem", "kind": "enter_local_environment", "line": 6670, "persists_after_end": false, "scope_stack": ["theorem"]}
+{"kind": "candidate_location", "line": 6670, "scope_stack": ["theorem"]}
+{"environment": "theorem", "kind": "exit_local_environment", "line": 6684, "persists_after_end": false, "scope_stack_before_pop": ["theorem"]}
+{"kind": "proof_skipped", "line": 6686, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6752, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6752, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6769, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6771, "scope_stack": []}

@@ -1,0 +1,260 @@
+{
+  "automatically_inherited_hypotheses": 0,
+  "leads": [
+    {
+      "section_key": "s002",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "descent.tex",
+      "source_start_line": 87,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/descent.tex#L87"
+    },
+    {
+      "section_key": "s003",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "descent.tex",
+      "source_start_line": 227,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/descent.tex#L227"
+    },
+    {
+      "section_key": "s003",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "descent.tex",
+      "source_start_line": 309,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/descent.tex#L309"
+    },
+    {
+      "section_key": "s006",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "descent.tex",
+      "source_start_line": 1839,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/descent.tex#L1839"
+    },
+    {
+      "section_key": "s011",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "descent.tex",
+      "source_start_line": 3514,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/descent.tex#L3514"
+    },
+    {
+      "section_key": "s011",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "descent.tex",
+      "source_start_line": 3640,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/descent.tex#L3640"
+    },
+    {
+      "section_key": "s022",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "descent.tex",
+      "source_start_line": 5286,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/descent.tex#L5286"
+    },
+    {
+      "section_key": "s048",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "perfect.tex",
+      "source_start_line": 1895,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/perfect.tex#L1895"
+    },
+    {
+      "section_key": "s048",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "perfect.tex",
+      "source_start_line": 1998,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/perfect.tex#L1998"
+    },
+    {
+      "section_key": "s063",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "perfect.tex",
+      "source_start_line": 6019,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/perfect.tex#L6019"
+    },
+    {
+      "section_key": "s064",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "perfect.tex",
+      "source_start_line": 6293,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/perfect.tex#L6293"
+    },
+    {
+      "section_key": "s065",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "perfect.tex",
+      "source_start_line": 6395,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/perfect.tex#L6395"
+    },
+    {
+      "section_key": "s067",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "perfect.tex",
+      "source_start_line": 6896,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/perfect.tex#L6896"
+    },
+    {
+      "section_key": "s077",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "perfect.tex",
+      "source_start_line": 9972,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/perfect.tex#L9972"
+    },
+    {
+      "section_key": "s077",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "perfect.tex",
+      "source_start_line": 9990,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/perfect.tex#L9990"
+    },
+    {
+      "section_key": "s077",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "perfect.tex",
+      "source_start_line": 9993,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/perfect.tex#L9993"
+    },
+    {
+      "section_key": "s085",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 675,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L675"
+    },
+    {
+      "section_key": "s089",
+      "signal": "potential_durable_scope_change",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 1760,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L1760"
+    },
+    {
+      "section_key": "s104",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 6644,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L6644"
+    },
+    {
+      "section_key": "s115",
+      "signal": "potential_durable_scope_change",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 10129,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L10129"
+    },
+    {
+      "section_key": "s121",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 11901,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L11901"
+    },
+    {
+      "section_key": "s131",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 14210,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L14210"
+    },
+    {
+      "section_key": "s131",
+      "signal": "potential_durable_scope_change",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 14358,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L14358"
+    },
+    {
+      "section_key": "s131",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 14453,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L14453"
+    },
+    {
+      "section_key": "s134",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 15764,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L15764"
+    },
+    {
+      "section_key": "s142",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 18055,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L18055"
+    },
+    {
+      "section_key": "s142",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 18094,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L18094"
+    },
+    {
+      "section_key": "s142",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 18125,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L18125"
+    },
+    {
+      "section_key": "s148",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "more-morphisms.tex",
+      "source_start_line": 20095,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/more-morphisms.tex#L20095"
+    },
+    {
+      "section_key": "s175",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "flat.tex",
+      "source_start_line": 4436,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/flat.tex#L4436"
+    },
+    {
+      "section_key": "s189",
+      "signal": "potential_durable_scope_change",
+      "source_filename": "flat.tex",
+      "source_start_line": 8033,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/flat.tex#L8033"
+    },
+    {
+      "section_key": "s190",
+      "signal": "potential_durable_scope_change",
+      "source_filename": "flat.tex",
+      "source_start_line": 8376,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/flat.tex#L8376"
+    },
+    {
+      "section_key": "s195",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "flat.tex",
+      "source_start_line": 10477,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/flat.tex#L10477"
+    },
+    {
+      "section_key": "s197",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "flat.tex",
+      "source_start_line": 10859,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/flat.tex#L10859"
+    },
+    {
+      "section_key": "s200",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "flat.tex",
+      "source_start_line": 12196,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/flat.tex#L12196"
+    },
+    {
+      "section_key": "s204",
+      "signal": "local_or_unclassified_prose",
+      "source_filename": "flat.tex",
+      "source_start_line": 13478,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/flat.tex#L13478"
+    }
+  ],
+  "note": "All durable section/chapter premise signals require semantic review; no prior lemma assumptions survive their closing environment.",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unadjudicated_lead_count": 36
+}

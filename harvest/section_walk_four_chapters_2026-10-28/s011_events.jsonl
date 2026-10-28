@@ -1,0 +1,9 @@
+{"kind": "local_or_unclassified_prose", "line": 3514, "review_required": true, "scope_stack": [], "text_excerpt": "we have an equivalence of topoi $g : \\Sh((\\textit{Aff}/S)_\\tau) \\to \\Sh((\\Sch/S)_\\tau)$ whose pullback functor is given by restriction. Recalling that $\\mathcal{O}$ denotes the structure sheaf on $(\\Sch/S)_\\tau$, let us temporarily and pedantically denote $\\mathcal{O}_{\\textit{Aff}}$ the restriction of $\\mathcal{O}$ to $(\\textit{Aff}/S)_\\tau$. Then we obtain an equivalence"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3531, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3559, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3561, "scope_stack": []}
+{"kind": "local_or_unclassified_prose", "line": 3640, "review_required": true, "scope_stack": [], "text_excerpt": "By Topologies, Lemmas \\ref{topologies-lemma-alternative-zariski}, resp.\\  \\ref{topologies-lemma-alternative} we have an equivalence of topoi $g : \\Sh(S_{affine, \\tau}) \\to \\Sh(S_\\tau)$, whose pullback functor is given by restriction. Recalling that $\\mathcal{O}$ denotes the structure sheaf on $S_\\tau$ let us temporarily and pedantically denote $\\mathcal{O}_{affine}$ the restriction of $\\mathcal{O}$ to $S_{affine, \\tau}$. Then we obtain an equivalence"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3657, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3657, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3676, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3678, "scope_stack": []}

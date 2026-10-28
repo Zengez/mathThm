@@ -1,0 +1,31 @@
+{
+  "candidate_count": 0,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "enter_local_environment": 2,
+    "exit_local_environment": 2,
+    "local_or_unclassified_prose": 1,
+    "proof_skipped": 2
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 0,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 0,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [
+    1839
+  ],
+  "section": {
+    "file": "descent.tex",
+    "label": "section-galois-descent",
+    "line_end": 1886,
+    "line_start": 1701,
+    "title": "Galois descent for quasi-coherent sheaves"
+  },
+  "source_lines_in_section": 186,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 0
+}

@@ -1,0 +1,13 @@
+{"kind": "local_or_unclassified_prose", "line": 6896, "review_required": true, "scope_stack": [], "text_excerpt": "Lemma \\ref{lemma-compute-ext} (or similar results in the literature) is sometimes used to verify one of Artin's criteria for Quot functors, Hilbert schemes, and other moduli problems. Suppose that $f : X \\to S$ is a proper, flat, finitely presented morphism of schemes and $E \\in D(\\mathcal{O}_X)$ is perfect. Here the lemma says $$"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6911, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6923, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6925, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6993, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 7005, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 7007, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 7057, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 7057, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 7091, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 7093, "scope_stack": []}
+{"environment": "remark", "kind": "enter_local_environment", "line": 7182, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 7206, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}

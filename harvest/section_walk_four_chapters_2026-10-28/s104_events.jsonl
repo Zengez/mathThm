@@ -1,0 +1,33 @@
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6495, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6495, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6501, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6503, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6509, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6509, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6515, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6517, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6523, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6523, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6530, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6532, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6562, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6562, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6570, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6572, "scope_stack": []}
+{"kind": "local_or_unclassified_prose", "line": 6644, "review_required": true, "scope_stack": [], "text_excerpt": "Suppose given a morphism of schemes $f : X \\to Y$ and a point $y \\in Y$. Recall that the fibre $X_y$ is homeomorphic to the subset $f^{-1}(\\{y\\})$ of $X$ with induced topology, see Schemes, Lemma \\ref{schemes-lemma-fibre-topological}. Suppose given a closed subset $T(y) \\subset X_y$. Let $T$ be the closure of $T(y)$ in $X$. Endow $T$ with the induced reduced scheme structure. Then $T$ is a closed subscheme of $X$ with the property that $T_y = T(y)$ set-theoretically. In fact $T$ is the smallest closed subscheme of $X$ with this property. Thus it is ``harmless'' to denote a closed subset of $X_y$ by $T_y$ if we so desire. In the following lemma we apply this to the generic fibre of $f$."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6657, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6657, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6666, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6668, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6689, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6689, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6694, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6696, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6718, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6718, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6740, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6742, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6771, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6771, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6793, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6795, "scope_stack": []}

@@ -1,0 +1,21 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 21437, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 21443, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 21469, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 21474, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 21476, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 21511, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 21518, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 21520, "scope_stack": []}
+{"environment": "definition", "kind": "enter_local_environment", "line": 21568, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 21580, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 21588, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 21593, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 21595, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 21607, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 21611, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 21613, "scope_stack": []}
+{"environment": "proposition", "kind": "enter_local_environment", "line": 21638, "persists_after_end": false, "scope_stack": ["proposition"]}
+{"environment": "proposition", "kind": "exit_local_environment", "line": 21643, "persists_after_end": false, "scope_stack_before_pop": ["proposition"]}
+{"kind": "proof_skipped", "line": 21645, "scope_stack": []}
+{"environment": "example", "kind": "enter_local_environment", "line": 21695, "persists_after_end": false, "scope_stack": ["example"]}
+{"environment": "example", "kind": "exit_local_environment", "line": 21710, "persists_after_end": false, "scope_stack_before_pop": ["example"]}

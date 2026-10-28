@@ -1,0 +1,41 @@
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2355, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2355, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2379, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2381, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2425, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2425, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2440, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2442, "scope_stack": []}
+{"environment": "proposition", "kind": "enter_local_environment", "line": 2476, "persists_after_end": false, "scope_stack": ["proposition"]}
+{"kind": "candidate_location", "line": 2476, "scope_stack": ["proposition"]}
+{"environment": "proposition", "kind": "exit_local_environment", "line": 2496, "persists_after_end": false, "scope_stack_before_pop": ["proposition"]}
+{"kind": "proof_skipped", "line": 2498, "scope_stack": []}
+{"kind": "proof_skipped", "line": 2617, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2675, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2675, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2684, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2686, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2700, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2700, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2720, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2722, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2744, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2744, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2763, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2765, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2794, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2794, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2812, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2814, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2844, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2844, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2857, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2859, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2878, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2878, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2884, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2886, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2908, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2908, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2914, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2916, "scope_stack": []}

@@ -1,0 +1,4 @@
+{"kind": "local_or_unclassified_prose", "line": 6019, "review_required": true, "scope_stack": [], "text_excerpt": "Let $X, Y, S, a, b, p, q, f$ be as in the introduction to Section \\ref{section-kunneth}. In this section, given an $\\mathcal{O}_X$-module $\\mathcal{F}$ and a $\\mathcal{O}_Y$-module $\\mathcal{G}$ let us set $$"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6163, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6175, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6177, "scope_stack": []}

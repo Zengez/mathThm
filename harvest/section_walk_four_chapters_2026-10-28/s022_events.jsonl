@@ -1,0 +1,17 @@
+{"kind": "local_or_unclassified_prose", "line": 5286, "review_required": true, "scope_stack": [], "text_excerpt": "Suppose that $f : X \\to Y$ is a morphism of schemes. Let $g : Y' \\to Y$ be a morphism of schemes. Let $f' : X' \\to Y'$ be the base change of $f$ by $g$: $$"}
+{"environment": "definition", "kind": "enter_local_environment", "line": 5309, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 5325, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 5335, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 5335, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 5344, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 5346, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 5359, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 5359, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 5376, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 5378, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 5406, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 5406, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 5427, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 5429, "scope_stack": []}
+{"environment": "remark", "kind": "enter_local_environment", "line": 5447, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 5454, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}

@@ -1,0 +1,7 @@
+{"environment": "lemma", "kind": "enter_local_environment", "line": 1815, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 1829, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 1831, "scope_stack": []}
+{"kind": "local_or_unclassified_prose", "line": 1839, "review_required": true, "scope_stack": [], "text_excerpt": "A slightly more general case of the above is the following. Suppose we have a surjective finite \\'etale morphism $X \\to Y$ and a finite group $G$ together with a group homomorphism $G^{opp} \\to \\text{Aut}_Y(X), \\sigma \\mapsto f_\\sigma$ such that the map $$ G \\times X \\longrightarrow X \\times_Y X,\\quad (\\sigma, x) \\longmapsto (x, f_\\sigma(x)) $$ is an isomorphism. Then the same result as above holds."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 1850, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 1863, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 1865, "scope_stack": []}

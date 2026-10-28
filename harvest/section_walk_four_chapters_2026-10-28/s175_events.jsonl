@@ -1,0 +1,17 @@
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4314, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4314, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4327, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4329, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4348, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4348, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4355, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4357, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4378, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4378, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4386, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4388, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4418, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4418, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4426, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4428, "scope_stack": []}
+{"kind": "local_or_unclassified_prose", "line": 4436, "review_required": true, "scope_stack": [], "text_excerpt": "Suppose $f : X \\to S$ is a morphism of schemes and $\\mathcal{F}$ is a quasi-coherent module on $X$. Let $\\xi \\in \\text{Ass}_{X/S}(\\mathcal{F})$ and let $Z = \\overline{\\{\\xi\\}}$. Picture $$"}

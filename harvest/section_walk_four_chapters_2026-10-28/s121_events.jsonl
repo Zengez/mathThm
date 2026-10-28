@@ -1,0 +1,25 @@
+{"kind": "local_or_unclassified_prose", "line": 11901, "review_required": true, "scope_stack": [], "text_excerpt": "Now we come to a series of lemmas around the theme ``quasi-finite morphisms become finite after \\'etale localization''. The general idea is the following. Suppose given a morphism of schemes $f : X \\to S$ and a point $s \\in S$. Let $\\varphi : (U, u) \\to (S, s)$ be an \\'etale neighbourhood of $s$ in $S$. Consider the fibre product $X_U = U \\times_S X$ and the basic diagram"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 11923, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 11923, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 11953, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 11955, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 11973, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 11973, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 11995, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 11997, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 12018, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 12018, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 12044, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 12046, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 12093, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 12093, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 12112, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 12114, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 12135, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 12135, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 12159, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 12161, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 12171, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 12171, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 12189, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 12191, "scope_stack": []}

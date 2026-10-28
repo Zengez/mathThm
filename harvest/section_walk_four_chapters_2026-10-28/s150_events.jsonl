@@ -1,0 +1,9 @@
+{"environment": "lemma", "kind": "enter_local_environment", "line": 20630, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 20637, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 20639, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 20682, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 20689, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 20691, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 20699, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 20708, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 20710, "scope_stack": []}

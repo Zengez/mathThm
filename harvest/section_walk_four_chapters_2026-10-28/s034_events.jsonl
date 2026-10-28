@@ -1,0 +1,26 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 8100, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 8134, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "remark", "kind": "enter_local_environment", "line": 8146, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 8170, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}
+{"environment": "definition", "kind": "enter_local_environment", "line": 8176, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 8216, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "remark", "kind": "enter_local_environment", "line": 8223, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 8243, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 8249, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 8249, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 8268, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 8270, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 8278, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 8314, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 8316, "scope_stack": []}
+{"environment": "definition", "kind": "enter_local_environment", "line": 8343, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 8350, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 8352, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 8380, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 8382, "scope_stack": []}
+{"environment": "definition", "kind": "enter_local_environment", "line": 8387, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 8399, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "definition", "kind": "enter_local_environment", "line": 8411, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 8429, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "definition", "kind": "enter_local_environment", "line": 8443, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 8459, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}

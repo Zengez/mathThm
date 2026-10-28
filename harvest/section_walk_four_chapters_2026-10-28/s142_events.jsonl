@@ -1,0 +1,71 @@
+{"kind": "local_or_unclassified_prose", "line": 18055, "review_required": true, "scope_stack": [], "text_excerpt": "X \\ar[rr]_i \\ar[rd] & & \\mathbf{A}^n_S \\ar[ld] \\\\ & S } $$ where $i$ is a $*$-regular immersion for $* \\in \\{\\emptyset, Koszul, H_1, quasi\\}$. However, we don't know how to prove that this condition is independent of the factorization if $* = \\emptyset$, i.e., when we require $i$ to be a regular immersion. On the other hand, we want a local complete intersection morphism to be perfect, which is only going to be true if $* = Koszul$ or $* = \\emptyset$. Hence we will define a {\\it local complete intersection morphism} or {\\it Koszul morphism} to be a morphism of schemes $f : X \\to S$ that locally on $X$ has a factorization as above with $i$ a Koszul-regular immersion. To see that this works we first prove this is independent of the chosen factorizations."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18072, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18081, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18083, "scope_stack": []}
+{"kind": "local_or_unclassified_prose", "line": 18094, "review_required": true, "scope_stack": [], "text_excerpt": "Before we state the definition, let us make the following simple remark. Let $f : X \\to S$ be a morphism of schemes which is locally of finite type. Let $x \\in X$. Then there exist an open neighbourhood $U \\subset X$ and a factorization of $f|_U$ as the composition of an immersion $i : U \\to \\mathbf{A}^n_S$ followed by the projection $\\mathbf{A}^n_S \\to S$ which is smooth. Picture $$"}
+{"environment": "definition", "kind": "enter_local_environment", "line": 18110, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 18122, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"kind": "local_or_unclassified_prose", "line": 18125, "review_required": true, "scope_stack": [], "text_excerpt": "We have seen above that the choice of the factorization $f|_U = \\pi \\circ i$ is irrelevant, i.e., given a factorization of $f|_U$ as an immersion $i$ followed by a smooth morphism $\\pi$, whether or not $i$ is Koszul regular in a neighbourhood of $x$ is an intrinsic property of $f$ at $x$. Let us record this here explicitly as a lemma so that we can refer to it"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18132, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18138, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18140, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18149, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18158, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18160, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18177, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18184, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18186, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18194, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18198, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18200, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18207, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18211, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18213, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18244, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18255, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18257, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18305, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18310, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18312, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18319, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18331, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18333, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18337, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18342, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18344, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18356, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18374, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18376, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18420, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18434, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18436, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18442, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18451, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18453, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18458, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18463, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18465, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18477, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18486, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18488, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18500, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18510, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18512, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18528, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18540, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18542, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18558, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18562, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18564, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18589, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18593, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18595, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18656, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18666, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18668, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18708, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18714, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18716, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 18730, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 18743, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 18745, "scope_stack": []}

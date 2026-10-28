@@ -1,0 +1,36 @@
+{"kind": "potential_durable_scope_change", "line": 1760, "review_required": true, "scope_stack": [], "text_excerpt": "In this section we explain how a derivation can be used to infinitesimally move a map. Throughout this section we use that a sheaf on a thickening $X'$ of $X$ can be seen as a sheaf on $X$."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 1764, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 1764, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 1782, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 1784, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 1822, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 1822, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 1837, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 1839, "scope_stack": []}
+{"environment": "remark", "kind": "enter_local_environment", "line": 1851, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 1858, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 1860, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 1860, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 1882, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 1884, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 1897, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 1907, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 1909, "scope_stack": []}
+{"environment": "remark", "kind": "enter_local_environment", "line": 1916, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 1933, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}
+{"environment": "remark", "kind": "enter_local_environment", "line": 1935, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 1967, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 1969, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 1969, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 1988, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 1990, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2005, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2005, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2018, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2020, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2031, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2031, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2077, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2079, "scope_stack": []}
+{"environment": "remark", "kind": "enter_local_environment", "line": 2139, "persists_after_end": false, "scope_stack": ["remark"]}
+{"environment": "remark", "kind": "exit_local_environment", "line": 2165, "persists_after_end": false, "scope_stack_before_pop": ["remark"]}

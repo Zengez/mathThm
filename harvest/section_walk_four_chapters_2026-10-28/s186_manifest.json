@@ -1,0 +1,29 @@
+{
+  "candidate_count": 7,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "candidate_location": 7,
+    "enter_local_environment": 13,
+    "exit_local_environment": 13,
+    "proof_skipped": 12
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 1,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 1,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [],
+  "section": {
+    "file": "flat.tex",
+    "label": "section-variants-mod-injective",
+    "line_end": 7551,
+    "line_start": 6995,
+    "title": "Variants of a lemma"
+  },
+  "source_lines_in_section": 557,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 1
+}

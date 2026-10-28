@@ -1,0 +1,29 @@
+{
+  "candidate_count": 7,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "candidate_location": 7,
+    "enter_local_environment": 7,
+    "exit_local_environment": 7,
+    "proof_skipped": 7
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 0,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 0,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [],
+  "section": {
+    "file": "flat.tex",
+    "label": "section-applications-purity",
+    "line_end": 5884,
+    "line_start": 5539,
+    "title": "How purity is used"
+  },
+  "source_lines_in_section": 346,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 1
+}

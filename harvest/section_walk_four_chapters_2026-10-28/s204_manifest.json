@@ -1,0 +1,32 @@
+{
+  "candidate_count": 12,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "candidate_location": 12,
+    "enter_local_environment": 14,
+    "exit_local_environment": 14,
+    "local_or_unclassified_prose": 1,
+    "proof_skipped": 13
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 1,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 16,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [
+    13478
+  ],
+  "section": {
+    "file": "flat.tex",
+    "label": "section-blowup-complexes-II",
+    "line_end": 13996,
+    "line_start": 13452,
+    "title": "Blowing up complexes, II"
+  },
+  "source_lines_in_section": 545,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 6
+}

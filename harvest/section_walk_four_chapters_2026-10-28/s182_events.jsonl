@@ -1,0 +1,6 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 6476, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 6485, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "example", "kind": "enter_local_environment", "line": 6498, "persists_after_end": false, "scope_stack": ["example"]}
+{"environment": "example", "kind": "exit_local_environment", "line": 6509, "persists_after_end": false, "scope_stack_before_pop": ["example"]}
+{"environment": "definition", "kind": "enter_local_environment", "line": 6534, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 6544, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}

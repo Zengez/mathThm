@@ -1,0 +1,10 @@
+{
+  "adjudicated_durable_count": 5,
+  "approved_new_theorem_hypotheses": 0,
+  "chapter_boundaries_discharge_local_context": true,
+  "note": "No unreviewed prose standing-scope lead is automatically inherited as a theorem hypothesis; each requires source adjudication.",
+  "remaining_local_or_unclassified_prose_leads": 36,
+  "reviewed_signals": [],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unadjudicated_potentially_durable_leads": 5
+}

@@ -1,0 +1,32 @@
+{
+  "candidate_count": 3,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "candidate_location": 3,
+    "enter_local_environment": 5,
+    "exit_local_environment": 5,
+    "local_or_unclassified_prose": 1,
+    "proof_skipped": 5
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 0,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 1,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [
+    6395
+  ],
+  "section": {
+    "file": "perfect.tex",
+    "label": "section-cohomology-base-change",
+    "line_end": 6762,
+    "line_start": 6382,
+    "title": "Cohomology and base change, V"
+  },
+  "source_lines_in_section": 381,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 1
+}

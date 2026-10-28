@@ -1,0 +1,20 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 3596, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 3608, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "definition", "kind": "enter_local_environment", "line": 3623, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 3635, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3644, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3644, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3656, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3658, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3667, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3667, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3678, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3680, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 3727, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 3727, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 3733, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 3735, "scope_stack": []}
+{"environment": "theorem", "kind": "enter_local_environment", "line": 3813, "persists_after_end": false, "scope_stack": ["theorem"]}
+{"kind": "candidate_location", "line": 3813, "scope_stack": ["theorem"]}
+{"environment": "theorem", "kind": "exit_local_environment", "line": 3817, "persists_after_end": false, "scope_stack_before_pop": ["theorem"]}
+{"kind": "proof_skipped", "line": 3819, "scope_stack": []}

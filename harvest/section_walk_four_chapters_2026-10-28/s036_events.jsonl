@@ -1,0 +1,6 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 8992, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 9004, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 9027, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 9027, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 9046, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 9048, "scope_stack": []}

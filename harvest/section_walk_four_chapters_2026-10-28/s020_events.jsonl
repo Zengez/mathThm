@@ -1,0 +1,4 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 5117, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 5131, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "definition", "kind": "enter_local_environment", "line": 5136, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 5142, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}

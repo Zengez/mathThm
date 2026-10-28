@@ -1,0 +1,29 @@
+{
+  "candidate_count": 8,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "candidate_location": 8,
+    "enter_local_environment": 23,
+    "exit_local_environment": 23,
+    "proof_skipped": 11
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 10,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 0,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [],
+  "section": {
+    "file": "descent.tex",
+    "label": "section-descent-universally-injective",
+    "line_end": 1540,
+    "line_start": 767,
+    "title": "Descent for universally injective morphisms"
+  },
+  "source_lines_in_section": 774,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 1
+}

@@ -1,0 +1,20 @@
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2686, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2686, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2714, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2716, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2730, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2730, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2748, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2750, "scope_stack": []}
+{"environment": "proposition", "kind": "enter_local_environment", "line": 2772, "persists_after_end": false, "scope_stack": ["proposition"]}
+{"kind": "candidate_location", "line": 2772, "scope_stack": ["proposition"]}
+{"environment": "proposition", "kind": "exit_local_environment", "line": 2793, "persists_after_end": false, "scope_stack_before_pop": ["proposition"]}
+{"kind": "proof_skipped", "line": 2795, "scope_stack": []}
+{"environment": "proposition", "kind": "enter_local_environment", "line": 2891, "persists_after_end": false, "scope_stack": ["proposition"]}
+{"kind": "candidate_location", "line": 2891, "scope_stack": ["proposition"]}
+{"environment": "proposition", "kind": "exit_local_environment", "line": 2918, "persists_after_end": false, "scope_stack_before_pop": ["proposition"]}
+{"kind": "proof_skipped", "line": 2920, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 2947, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 2947, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 2953, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 2955, "scope_stack": []}

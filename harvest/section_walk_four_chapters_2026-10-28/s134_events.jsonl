@@ -1,0 +1,16 @@
+{"environment": "lemma", "kind": "enter_local_environment", "line": 15565, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 15577, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 15579, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 15614, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 15625, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 15627, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 15632, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 15643, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 15645, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 15700, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 15706, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 15708, "scope_stack": []}
+{"kind": "local_or_unclassified_prose", "line": 15764, "review_required": true, "scope_stack": [], "text_excerpt": "Let $f : X \\to Y$ be a morphism of schemes over a base scheme $S$. Let $Z \\subset Y$ be the scheme theoretic image of $f$, see Morphisms, Section \\ref{morphisms-section-scheme-theoretic-image}. Let $g : S' \\to S$ be a morphism of schemes and let $f' : X \\times_S S' \\to Y \\times_S S'$ be the base change of $f$ by $g$. It is not always true that $Z \\times_S S' \\subset Y \\times_S S'$ is the scheme theoretic image of $f'$. Let us say that {\\it formation of the scheme theoretic image of $f/S$ commutes with arbitrary base change} if for every $g$ as above the scheme theoretic image of $f'$ is equal to $Z \\times_S S'$."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 15775, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 15793, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 15795, "scope_stack": []}

@@ -1,0 +1,27 @@
+{"kind": "local_or_unclassified_prose", "line": 12196, "review_required": true, "scope_stack": [], "text_excerpt": "For a scheme $S$ let us denote $\\textit{Vect}(S)$ the category of finite locally free $\\mathcal{O}_S$-modules. Let $p$ be a prime number. Let $S$ be a quasi-compact and quasi-separated scheme over $\\mathbf{F}_p$. In this section we will work with the category $$"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 12222, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 12222, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 12228, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 12230, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 12234, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 12247, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 12249, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 12302, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 12316, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 12318, "scope_stack": []}
+{"environment": "proposition", "kind": "enter_local_environment", "line": 12439, "persists_after_end": false, "scope_stack": ["proposition"]}
+{"kind": "candidate_location", "line": 12439, "scope_stack": ["proposition"]}
+{"environment": "proposition", "kind": "exit_local_environment", "line": 12450, "persists_after_end": false, "scope_stack_before_pop": ["proposition"]}
+{"kind": "proof_skipped", "line": 12452, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 12485, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 12485, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 12496, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 12498, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 12640, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 12640, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 12653, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 12655, "scope_stack": []}
+{"environment": "theorem", "kind": "enter_local_environment", "line": 12685, "persists_after_end": false, "scope_stack": ["theorem"]}
+{"kind": "candidate_location", "line": 12685, "scope_stack": ["theorem"]}
+{"environment": "theorem", "kind": "exit_local_environment", "line": 12707, "persists_after_end": false, "scope_stack_before_pop": ["theorem"]}
+{"kind": "proof_skipped", "line": 12709, "scope_stack": []}

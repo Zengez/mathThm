@@ -1,0 +1,12 @@
+{"environment": "definition", "kind": "enter_local_environment", "line": 45, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 84, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"kind": "local_or_unclassified_prose", "line": 87, "review_required": true, "scope_stack": [], "text_excerpt": "A good example to keep in mind is the following. Suppose that $S = \\bigcup S_i$ is an open covering. In that case we have seen descent data for sheaves of sets in Sheaves, Section \\ref{sheaves-section-glueing-sheaves} where we called them ``glueing data for sheaves of sets with respect to the given covering''. Moreover, we proved that the category of glueing data is equivalent to the category of sheaves on $S$. We will show the analogue in the setting above when $\\{S_i \\to S\\}_{i\\in I}$ is an fpqc covering."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 107, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 138, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 140, "scope_stack": []}
+{"environment": "definition", "kind": "enter_local_environment", "line": 155, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 173, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 175, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 175, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 184, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 186, "scope_stack": []}

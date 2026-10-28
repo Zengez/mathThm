@@ -1,0 +1,8 @@
+{"environment": "theorem", "kind": "enter_local_environment", "line": 4445, "persists_after_end": false, "scope_stack": ["theorem"]}
+{"kind": "candidate_location", "line": 4445, "scope_stack": ["theorem"]}
+{"environment": "theorem", "kind": "exit_local_environment", "line": 4458, "persists_after_end": false, "scope_stack_before_pop": ["theorem"]}
+{"kind": "proof_skipped", "line": 4460, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 4467, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 4467, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 4492, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 4494, "scope_stack": []}

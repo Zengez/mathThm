@@ -1,0 +1,29 @@
+{
+  "candidate_count": 5,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "candidate_location": 5,
+    "enter_local_environment": 7,
+    "exit_local_environment": 7,
+    "proof_skipped": 5
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 2,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 0,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [],
+  "section": {
+    "file": "flat.tex",
+    "label": "section-pure",
+    "line_end": 5008,
+    "line_start": 4801,
+    "title": "Relatively pure modules"
+  },
+  "source_lines_in_section": 208,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 0
+}

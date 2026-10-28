@@ -1,0 +1,29 @@
+{
+  "candidate_count": 9,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "candidate_location": 9,
+    "enter_local_environment": 14,
+    "exit_local_environment": 14,
+    "proof_skipped": 9
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 4,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 1,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [],
+  "section": {
+    "file": "perfect.tex",
+    "label": "section-relatively-perfect",
+    "line_end": 9200,
+    "line_start": 8695,
+    "title": "Relatively perfect objects"
+  },
+  "source_lines_in_section": 506,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 2
+}

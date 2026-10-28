@@ -1,0 +1,54 @@
+{"environment": "situation", "kind": "enter_local_environment", "line": 13459, "persists_after_end": false, "scope_stack": ["situation"]}
+{"environment": "situation", "kind": "exit_local_environment", "line": 13464, "persists_after_end": false, "scope_stack_before_pop": ["situation"]}
+{"kind": "local_or_unclassified_prose", "line": 13478, "review_required": true, "scope_stack": [], "text_excerpt": "We will say that $(U, A, f, M^\\bullet)$ is an {\\it affine chart} for $(X, D, M)$. Consider the ideals $I_i(M^\\bullet, f) \\subset A$ defined in More on Algebra, Section \\ref{more-algebra-section-perfect-eta}. Let us say $(X, S, M)$ is a {\\it good triple} if for every $x \\in D$ there exists an affine chart $(U, A, f, M^\\bullet)$ with $x \\in U$ and $I_i(M^\\bullet, f)$ principal ideals for all $i \\in \\mathbf{Z}$."}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13487, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13487, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13503, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13505, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13519, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13519, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13526, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13528, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13534, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13534, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13544, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13546, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13569, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13569, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13578, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13580, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13587, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13603, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13605, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13716, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13716, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13723, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13725, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13730, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13730, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13747, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13749, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13791, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13791, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13798, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13800, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13809, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13809, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13829, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13831, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13859, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13859, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13876, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13878, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13888, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13888, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13901, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13903, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13911, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13911, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13920, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13922, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 13932, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 13932, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 13972, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 13974, "scope_stack": []}

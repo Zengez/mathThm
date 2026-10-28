@@ -1,0 +1,19 @@
+{"kind": "local_or_unclassified_prose", "line": 6395, "review_required": true, "scope_stack": [], "text_excerpt": "To make this work, suppose we have a commutative diagram $$"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6436, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6467, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6469, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6531, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6531, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6552, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6554, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6606, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6606, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6633, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6635, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6662, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6662, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6672, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6674, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6710, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6727, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6729, "scope_stack": []}

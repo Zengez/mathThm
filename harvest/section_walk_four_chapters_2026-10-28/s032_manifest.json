@@ -1,0 +1,29 @@
+{
+  "candidate_count": 4,
+  "candidate_rewrites_completed": 0,
+  "event_counts": {
+    "candidate_location": 4,
+    "enter_local_environment": 11,
+    "exit_local_environment": 11,
+    "proof_skipped": 6
+  },
+  "mathematical_statements_interpreted": false,
+  "named_reference_environments_seen": 3,
+  "note": "Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
+  "number_of_candidate_ref_reuses": 1,
+  "original_source_modified": false,
+  "proofs_read": false,
+  "schema": "maththm.section-walk-pilot.v1",
+  "scope_changes_validated": false,
+  "scope_review_leads": [],
+  "section": {
+    "file": "descent.tex",
+    "label": "section-properties-etale-local-source-target",
+    "line_end": 7828,
+    "line_start": 7040,
+    "title": "Properties of morphisms \\'etale local on source-and-target"
+  },
+  "source_lines_in_section": 789,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_explicit_refs": 1
+}

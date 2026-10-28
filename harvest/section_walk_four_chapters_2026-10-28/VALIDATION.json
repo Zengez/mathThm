@@ -1,0 +1,19 @@
+{
+  "all_four_chapters_whole": true,
+  "candidate_identity_unique": true,
+  "candidates": 781,
+  "chapter_reset_applied": true,
+  "chapters": [
+    "descent.tex",
+    "perfect.tex",
+    "more-morphisms.tex",
+    "flat.tex"
+  ],
+  "no_registry_overlap": true,
+  "passed": true,
+  "proofs_screened": 0,
+  "published": 0,
+  "sections": 205,
+  "source_environment_frames_balanced": true,
+  "source_equivalence_approvals": 0
+}

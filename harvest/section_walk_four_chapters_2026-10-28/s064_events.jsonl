@@ -1,0 +1,4 @@
+{"kind": "local_or_unclassified_prose", "line": 6293, "review_required": true, "scope_stack": [], "text_excerpt": "& X \\times_S Y \\ar[ld]^p \\ar[rd]_q \\ar[dd]^f \\\\ X \\ar[rd]_a & & Y \\ar[ld]^b \\\\ & S } $$ For $K \\in D(\\mathcal{O}_X)$ and $M \\in D(\\mathcal{O}_Y)$ in this section let us define $$ K \\boxtimes M = Lp^*K \\otimes_{\\mathcal{O}_{X \\times_S Y}}^\\mathbf{L} Lq^*M $$ We claim there is a canonical map"}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6350, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6357, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6359, "scope_stack": []}

@@ -1,0 +1,1878 @@
+{
+  "all_source_sections_included": true,
+  "candidate_count": 781,
+  "chapters": [
+    {
+      "order": 35,
+      "section_count": 39,
+      "source_filename": "descent.tex"
+    },
+    {
+      "order": 36,
+      "section_count": 41,
+      "source_filename": "perfect.tex"
+    },
+    {
+      "order": 37,
+      "section_count": 81,
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "order": 38,
+      "section_count": 44,
+      "source_filename": "flat.tex"
+    }
+  ],
+  "no_candidate_target_or_cutoff": true,
+  "schema": "maththm.four-complete-chapters.selection.v1",
+  "section_count": 205,
+  "sections": [
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 35,
+      "section_end_line": 32,
+      "section_label": "section-introduction",
+      "section_start_line": 16,
+      "section_title": "Introduction",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 35,
+      "section_end_line": 204,
+      "section_label": "section-equivalence",
+      "section_start_line": 33,
+      "section_title": "Descent data for quasi-coherent sheaves",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 35,
+      "section_end_line": 766,
+      "section_label": "section-descent-modules",
+      "section_start_line": 205,
+      "section_title": "Descent for modules",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 35,
+      "section_end_line": 1540,
+      "section_label": "section-descent-universally-injective",
+      "section_start_line": 767,
+      "section_title": "Descent for universally injective morphisms",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 35,
+      "section_end_line": 1700,
+      "section_label": "section-fpqc-descent-quasi-coherent",
+      "section_start_line": 1541,
+      "section_title": "Fpqc descent of quasi-coherent sheaves",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 35,
+      "section_end_line": 1886,
+      "section_label": "section-galois-descent",
+      "section_start_line": 1701,
+      "section_title": "Galois descent for quasi-coherent sheaves",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 9,
+      "chapter_order": 35,
+      "section_end_line": 2136,
+      "section_label": "section-descent-finiteness",
+      "section_start_line": 1887,
+      "section_title": "Descent of finiteness properties of modules",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 35,
+      "section_end_line": 2678,
+      "section_label": "section-quasi-coherent-sheaves",
+      "section_start_line": 2137,
+      "section_title": "Quasi-coherent sheaves and topologies, I",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 35,
+      "section_end_line": 2993,
+      "section_label": "section-quasi-coherent-cohomology",
+      "section_start_line": 2679,
+      "section_title": "Cohomology of quasi-coherent modules and topologies",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 35,
+      "section_end_line": 3494,
+      "section_label": "section-quasi-coherent-sheaves-bis",
+      "section_start_line": 2994,
+      "section_title": "Quasi-coherent sheaves and topologies, II",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 35,
+      "section_end_line": 3759,
+      "section_label": "section-alternative-quasi-coherent",
+      "section_start_line": 3495,
+      "section_title": "Quasi-coherent modules and affines",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 35,
+      "section_end_line": 3892,
+      "section_label": "section-parasitic",
+      "section_start_line": 3760,
+      "section_title": "Parasitic modules",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 35,
+      "section_end_line": 4248,
+      "section_label": "section-fpqc-universal-effective-epimorphisms",
+      "section_start_line": 3893,
+      "section_title": "Fpqc coverings are universal effective epimorphisms",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 35,
+      "section_end_line": 4615,
+      "section_label": "section-descent-finiteness-morphisms",
+      "section_start_line": 4249,
+      "section_title": "Descent of finiteness and smoothness properties of morphisms",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 35,
+      "section_end_line": 4753,
+      "section_label": "section-descending-properties",
+      "section_start_line": 4616,
+      "section_title": "Local properties of schemes",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 35,
+      "section_end_line": 4884,
+      "section_label": "section-descending-properties-fppf",
+      "section_start_line": 4754,
+      "section_title": "Properties of schemes local in the fppf topology",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 35,
+      "section_end_line": 4943,
+      "section_label": "section-descending-properties-syntomic",
+      "section_start_line": 4885,
+      "section_title": "Properties of schemes local in the syntomic topology",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 35,
+      "section_end_line": 5065,
+      "section_label": "section-descending-properties-smooth",
+      "section_start_line": 4944,
+      "section_title": "Properties of schemes local in the smooth topology",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 35,
+      "section_end_line": 5113,
+      "section_label": "section-variants",
+      "section_start_line": 5066,
+      "section_title": "Variants on descending properties",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 35,
+      "section_end_line": 5150,
+      "section_label": "section-germs",
+      "section_start_line": 5114,
+      "section_title": "Germs of schemes",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 35,
+      "section_end_line": 5281,
+      "section_label": "section-properties-germs-local",
+      "section_start_line": 5151,
+      "section_title": "Local properties of germs",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 35,
+      "section_end_line": 5458,
+      "section_label": "section-descending-properties-morphisms",
+      "section_start_line": 5282,
+      "section_title": "Properties of morphisms local on the target",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 33,
+      "chapter_order": 35,
+      "section_end_line": 6305,
+      "section_label": "section-descending-properties-morphisms-fpqc",
+      "section_start_line": 5459,
+      "section_title": "Properties of morphisms local in the fpqc topology on the target",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 35,
+      "section_end_line": 6373,
+      "section_label": "section-descending-properties-morphisms-fppf",
+      "section_start_line": 6306,
+      "section_title": "Properties of morphisms local in the fppf topology on the target",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 35,
+      "section_end_line": 6620,
+      "section_label": "section-application-descending-properties-morphisms",
+      "section_start_line": 6374,
+      "section_title": "Application of fpqc descent of properties of morphisms",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 35,
+      "section_end_line": 6757,
+      "section_label": "section-properties-morphisms-local-source",
+      "section_start_line": 6621,
+      "section_title": "Properties of morphisms local on the source",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 35,
+      "section_end_line": 6803,
+      "section_label": "section-fpqc-local-source",
+      "section_start_line": 6758,
+      "section_title": "Properties of morphisms local in the fpqc topology on the source",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 35,
+      "section_end_line": 6894,
+      "section_label": "section-fppf-local-source",
+      "section_start_line": 6804,
+      "section_title": "Properties of morphisms local in the fppf topology on the source",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 35,
+      "section_end_line": 6917,
+      "section_label": "section-syntomic-local-source",
+      "section_start_line": 6895,
+      "section_title": "Properties of morphisms local in the syntomic topology on the source",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 35,
+      "section_end_line": 6942,
+      "section_label": "section-smooth-local-source",
+      "section_start_line": 6918,
+      "section_title": "Properties of morphisms local in the smooth topology on the source",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 35,
+      "section_end_line": 7039,
+      "section_label": "section-etale-local-source",
+      "section_start_line": 6943,
+      "section_title": "Properties of morphisms local in the \\'etale topology on the source",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 35,
+      "section_end_line": 7828,
+      "section_label": "section-properties-etale-local-source-target",
+      "section_start_line": 7040,
+      "section_title": "Properties of morphisms \\'etale local on source-and-target",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 35,
+      "section_end_line": 8089,
+      "section_label": "section-local-source-target-at-point",
+      "section_start_line": 7829,
+      "section_title": "Properties of morphisms of germs local on source-and-target",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 35,
+      "section_end_line": 8471,
+      "section_label": "section-descent-datum",
+      "section_start_line": 8090,
+      "section_title": "Descent data for schemes over schemes",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 12,
+      "chapter_order": 35,
+      "section_end_line": 8970,
+      "section_label": "section-fully-faithful",
+      "section_start_line": 8472,
+      "section_title": "Fully faithfulness of the pullback functors",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 35,
+      "section_end_line": 9138,
+      "section_label": "section-descending-types-morphisms",
+      "section_start_line": 8971,
+      "section_title": "Descending types of morphisms",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 35,
+      "section_end_line": 9223,
+      "section_label": "section-affine",
+      "section_start_line": 9139,
+      "section_title": "Descending affine morphisms",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 35,
+      "section_end_line": 9325,
+      "section_label": "section-quasi-affine",
+      "section_start_line": 9224,
+      "section_title": "Descending quasi-affine morphisms",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 35,
+      "section_end_line": 9456,
+      "section_label": "section-descent-data-sheaves",
+      "section_start_line": 9326,
+      "section_title": "Descent data in terms of sheaves",
+      "source_filename": "descent.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 36,
+      "section_end_line": 26,
+      "section_label": "section-introduction",
+      "section_start_line": 17,
+      "section_title": "Introduction",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 36,
+      "section_end_line": 52,
+      "section_label": "section-conventions",
+      "section_start_line": 27,
+      "section_title": "Conventions",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 9,
+      "chapter_order": 36,
+      "section_end_line": 434,
+      "section_label": "section-derived-quasi-coherent",
+      "section_start_line": 53,
+      "section_title": "Derived category of quasi-coherent modules",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 36,
+      "section_end_line": 627,
+      "section_label": "section-total-direct-image",
+      "section_start_line": 435,
+      "section_title": "Total direct image",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 36,
+      "section_end_line": 777,
+      "section_label": "section-affine-morphisms",
+      "section_start_line": 628,
+      "section_title": "Affine morphisms",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 36,
+      "section_end_line": 1324,
+      "section_label": "section-cohomology-support",
+      "section_start_line": 778,
+      "section_title": "Cohomology with support in a closed subset",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 36,
+      "section_end_line": 1727,
+      "section_label": "section-coherator",
+      "section_start_line": 1325,
+      "section_title": "The coherator",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 36,
+      "section_end_line": 1828,
+      "section_label": "section-coherator-Noetherian",
+      "section_start_line": 1728,
+      "section_title": "The coherator for Noetherian schemes",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 36,
+      "section_end_line": 2187,
+      "section_label": "section-koszul",
+      "section_start_line": 1829,
+      "section_title": "Koszul complexes",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 9,
+      "chapter_order": 36,
+      "section_end_line": 2538,
+      "section_label": "section-spell-out",
+      "section_start_line": 2188,
+      "section_title": "Pseudo-coherent and perfect complexes",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 36,
+      "section_end_line": 2796,
+      "section_label": "section-derived-coherent",
+      "section_start_line": 2539,
+      "section_title": "Derived category of coherent modules",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 36,
+      "section_end_line": 3025,
+      "section_label": "section-descent-finiteness",
+      "section_start_line": 2797,
+      "section_title": "Descent finiteness properties of complexes",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "chapter_order": 36,
+      "section_end_line": 3588,
+      "section_label": "section-lift",
+      "section_start_line": 3026,
+      "section_title": "Lifting complexes",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 36,
+      "section_end_line": 3829,
+      "section_label": "section-approximation",
+      "section_start_line": 3589,
+      "section_title": "Approximation by perfect complexes",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 36,
+      "section_end_line": 4054,
+      "section_label": "section-generating",
+      "section_start_line": 3830,
+      "section_title": "Generating derived categories",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 36,
+      "section_end_line": 4229,
+      "section_label": "section-example-generator",
+      "section_start_line": 4055,
+      "section_title": "An example generator",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 36,
+      "section_end_line": 4424,
+      "section_label": "section-compact",
+      "section_start_line": 4230,
+      "section_title": "Compact and perfect objects",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 36,
+      "section_end_line": 4588,
+      "section_label": "section-derived-is-dga",
+      "section_start_line": 4425,
+      "section_title": "Derived categories as module categories",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 36,
+      "section_end_line": 4685,
+      "section_label": "section-pseudo-coherent-hocolim",
+      "section_start_line": 4589,
+      "section_title": "Characterizing pseudo-coherent complexes, I",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 36,
+      "section_end_line": 4803,
+      "section_label": "section-example-equivalence",
+      "section_start_line": 4686,
+      "section_title": "An example equivalence",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 36,
+      "section_end_line": 5039,
+      "section_label": "section-better-coherator",
+      "section_start_line": 4804,
+      "section_title": "The coherator revisited",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 36,
+      "section_end_line": 5375,
+      "section_label": "section-cohomology-and-base-change-perfect",
+      "section_start_line": 5040,
+      "section_title": "Cohomology and base change, IV",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 36,
+      "section_end_line": 6014,
+      "section_label": "section-kunneth",
+      "section_start_line": 5376,
+      "section_title": "K\\\"unneth formula, II",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 36,
+      "section_end_line": 6285,
+      "section_label": "section-kunneth-complexes",
+      "section_start_line": 6015,
+      "section_title": "K\\\"unneth formula, III",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 36,
+      "section_end_line": 6381,
+      "section_label": "section-kunneth-Ext",
+      "section_start_line": 6286,
+      "section_title": "K\\\"unneth formula for Ext",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 36,
+      "section_end_line": 6762,
+      "section_label": "section-cohomology-base-change",
+      "section_start_line": 6382,
+      "section_title": "Cohomology and base change, V",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 36,
+      "section_end_line": 6891,
+      "section_label": "section-producing-perfect",
+      "section_start_line": 6763,
+      "section_title": "Producing perfect complexes",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 36,
+      "section_end_line": 7212,
+      "section_label": "section-ext",
+      "section_start_line": 6892,
+      "section_title": "A projection formula for Ext",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 36,
+      "section_end_line": 7383,
+      "section_label": "section-limits",
+      "section_start_line": 7213,
+      "section_title": "Limits and derived categories",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 36,
+      "section_end_line": 7679,
+      "section_label": "section-cohomology-and-base-change-final",
+      "section_start_line": 7384,
+      "section_title": "Cohomology and base change, VI",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 36,
+      "section_end_line": 7922,
+      "section_label": "section-perfect-complexes",
+      "section_start_line": 7680,
+      "section_title": "Perfect complexes",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 36,
+      "section_end_line": 8268,
+      "section_label": "section-applications",
+      "section_start_line": 7923,
+      "section_title": "Applications",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 36,
+      "section_end_line": 8457,
+      "section_label": "section-other-applications",
+      "section_start_line": 8269,
+      "section_title": "Other applications",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 36,
+      "section_end_line": 8694,
+      "section_label": "section-pseudo-coherent",
+      "section_start_line": 8458,
+      "section_title": "Characterizing pseudo-coherent complexes, II",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 9,
+      "chapter_order": 36,
+      "section_end_line": 9200,
+      "section_label": "section-relatively-perfect",
+      "section_start_line": 8695,
+      "section_title": "Relatively perfect objects",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 9,
+      "chapter_order": 36,
+      "section_end_line": 9564,
+      "section_label": "section-resolution-property",
+      "section_start_line": 9201,
+      "section_title": "The resolution property",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 36,
+      "section_end_line": 9846,
+      "section_label": "section-resolution-property-perfect",
+      "section_start_line": 9565,
+      "section_title": "The resolution property and perfect complexes",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 36,
+      "section_end_line": 10255,
+      "section_label": "section-K-groups",
+      "section_start_line": 9847,
+      "section_title": "K-groups",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 36,
+      "section_end_line": 10356,
+      "section_label": "section-det-two-terms",
+      "section_start_line": 10256,
+      "section_title": "Determinants of complexes",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 36,
+      "section_end_line": 10743,
+      "section_label": "section-detecting-boundedness",
+      "section_start_line": 10357,
+      "section_title": "Detecting Boundedness",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 36,
+      "section_end_line": 10895,
+      "section_label": "section-QC",
+      "section_start_line": 10744,
+      "section_title": "Quasi-coherent objects in the derived category",
+      "source_filename": "perfect.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 28,
+      "section_label": "section-introduction",
+      "section_start_line": 17,
+      "section_title": "Introduction",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 37,
+      "section_end_line": 260,
+      "section_label": "section-thickenings",
+      "section_start_line": 29,
+      "section_title": "Thickenings",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 37,
+      "section_end_line": 591,
+      "section_label": "section-morphisms-thickenings",
+      "section_start_line": 261,
+      "section_title": "Morphisms of thickenings",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 37,
+      "section_end_line": 670,
+      "section_label": "section-picard-group-thickening",
+      "section_start_line": 592,
+      "section_title": "Picard groups of thickenings",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 37,
+      "section_end_line": 779,
+      "section_label": "section-first-order-infinitesimal-neighbourhood",
+      "section_start_line": 671,
+      "section_title": "Infinitesimal neighbourhoods",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 37,
+      "section_end_line": 1001,
+      "section_label": "section-formally-unramified",
+      "section_start_line": 780,
+      "section_title": "Formally unramified morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "chapter_order": 37,
+      "section_end_line": 1490,
+      "section_label": "section-universal-thickening",
+      "section_start_line": 1002,
+      "section_title": "Universal first order thickenings",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 9,
+      "chapter_order": 37,
+      "section_end_line": 1755,
+      "section_label": "section-formally-etale",
+      "section_start_line": 1491,
+      "section_title": "Formally \\'etale morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 37,
+      "section_end_line": 2173,
+      "section_label": "section-action-by-derivations",
+      "section_start_line": 1756,
+      "section_title": "Infinitesimal deformations of maps",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 37,
+      "section_end_line": 3050,
+      "section_label": "section-deform",
+      "section_start_line": 2174,
+      "section_title": "Infinitesimal deformations of schemes",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "chapter_order": 37,
+      "section_end_line": 3565,
+      "section_label": "section-formally-smooth",
+      "section_start_line": 3051,
+      "section_title": "Formally smooth morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 37,
+      "section_end_line": 3716,
+      "section_label": "section-smooth-Noetherian",
+      "section_start_line": 3566,
+      "section_title": "Smoothness over a Noetherian base",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 14,
+      "chapter_order": 37,
+      "section_end_line": 4087,
+      "section_label": "section-netherlander",
+      "section_start_line": 3717,
+      "section_title": "The naive cotangent complex",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 37,
+      "section_end_line": 4437,
+      "section_label": "section-pushouts",
+      "section_start_line": 4088,
+      "section_title": "Pushouts in the category of schemes, I",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 37,
+      "section_end_line": 4515,
+      "section_label": "section-open-flat",
+      "section_start_line": 4438,
+      "section_title": "Openness of the flat locus",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 37,
+      "section_end_line": 4853,
+      "section_label": "section-criterion-flat-fibres",
+      "section_start_line": 4516,
+      "section_title": "Crit\\`ere de platitude par fibres",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 37,
+      "section_end_line": 5032,
+      "section_label": "section-closed-immersions-smooth",
+      "section_start_line": 4854,
+      "section_title": "Closed immersions between smooth schemes",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 37,
+      "section_end_line": 5351,
+      "section_label": "section-flat-relative-assassin",
+      "section_start_line": 5033,
+      "section_title": "Flat modules and relative assassins",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 37,
+      "section_end_line": 5504,
+      "section_label": "section-normalization",
+      "section_start_line": 5352,
+      "section_title": "Normalization revisited",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 37,
+      "section_end_line": 5653,
+      "section_label": "section-normal",
+      "section_start_line": 5505,
+      "section_title": "Normal morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 37,
+      "section_end_line": 5803,
+      "section_label": "section-regular",
+      "section_start_line": 5654,
+      "section_title": "Regular morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "chapter_order": 37,
+      "section_end_line": 6154,
+      "section_label": "section-CM",
+      "section_start_line": 5804,
+      "section_title": "Cohen-Macaulay morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 37,
+      "section_end_line": 6487,
+      "section_label": "section-slicing-CM",
+      "section_start_line": 6155,
+      "section_title": "Slicing Cohen-Macaulay morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 37,
+      "section_end_line": 6836,
+      "section_label": "section-generic",
+      "section_start_line": 6488,
+      "section_title": "Generic fibres",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 37,
+      "section_end_line": 7105,
+      "section_label": "section-assassin",
+      "section_start_line": 6837,
+      "section_title": "Relative assassins",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 37,
+      "section_end_line": 7388,
+      "section_label": "section-reduced",
+      "section_start_line": 7106,
+      "section_title": "Reduced fibres",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 37,
+      "section_end_line": 7842,
+      "section_label": "section-irreducible",
+      "section_start_line": 7389,
+      "section_title": "Irreducible components of fibres",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 37,
+      "section_end_line": 8170,
+      "section_label": "section-connected",
+      "section_start_line": 7843,
+      "section_title": "Connected components of fibres",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 37,
+      "section_end_line": 8407,
+      "section_label": "section-connected-components",
+      "section_start_line": 8171,
+      "section_title": "Connected components meeting a section",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 37,
+      "section_end_line": 8557,
+      "section_label": "section-dimension",
+      "section_start_line": 8408,
+      "section_title": "Dimension of fibres",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 37,
+      "section_end_line": 8895,
+      "section_label": "section-relative-noether-normalization",
+      "section_start_line": 8558,
+      "section_title": "Weak relative Noether normalization",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 37,
+      "section_end_line": 9189,
+      "section_label": "section-bertini",
+      "section_start_line": 8896,
+      "section_title": "Bertini theorems",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 37,
+      "section_end_line": 9729,
+      "section_label": "section-theorem-cube",
+      "section_start_line": 9190,
+      "section_title": "Theorem of the cube",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 11,
+      "chapter_order": 37,
+      "section_end_line": 10084,
+      "section_label": "section-limits",
+      "section_start_line": 9730,
+      "section_title": "Limit arguments",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 37,
+      "section_end_line": 10290,
+      "section_label": "section-etale-neighbourhoods",
+      "section_start_line": 10085,
+      "section_title": "\\'Etale neighbourhoods",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 37,
+      "section_end_line": 10458,
+      "section_label": "section-etale-nbhds-branches",
+      "section_start_line": 10291,
+      "section_title": "\\'Etale neighbourhoods and branches",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 37,
+      "section_end_line": 10581,
+      "section_label": "section-unramified-is-etale",
+      "section_start_line": 10459,
+      "section_title": "Unramified and \\'etale morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 37,
+      "section_end_line": 11005,
+      "section_label": "section-etale-over-smooth",
+      "section_start_line": 10582,
+      "section_title": "Slicing smooth morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 37,
+      "section_end_line": 11813,
+      "section_label": "section-etale-nbhds-artin",
+      "section_start_line": 11006,
+      "section_title": "\\'Etale neighbourhoods and Artin approximation",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 37,
+      "section_end_line": 11896,
+      "section_label": "section-finite-free-over-etale",
+      "section_start_line": 11814,
+      "section_title": "Finite free locally dominates \\'etale",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 37,
+      "section_end_line": 12202,
+      "section_label": "section-etale-localization",
+      "section_start_line": 11897,
+      "section_title": "\\'Etale localization of quasi-finite morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 37,
+      "section_end_line": 12303,
+      "section_label": "section-etale-localization-integral",
+      "section_start_line": 12203,
+      "section_title": "\\'Etale localization of integral morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 37,
+      "section_end_line": 12535,
+      "section_label": "section-application-etale-neighbourhoods",
+      "section_start_line": 12304,
+      "section_title": "Zariski's Main Theorem",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 37,
+      "section_end_line": 12653,
+      "section_label": "section-applications-zmt",
+      "section_start_line": 12536,
+      "section_title": "Applications of Zariski's Main Theorem, I",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 37,
+      "section_end_line": 13077,
+      "section_label": "section-applications-zmt-II",
+      "section_start_line": 12654,
+      "section_title": "Applications of Zariski's Main Theorem, II",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 13370,
+      "section_label": "section-application-geometrically-connected",
+      "section_start_line": 13078,
+      "section_title": "Application to morphisms with connected fibres",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 13597,
+      "section_label": "section-application-finite-type",
+      "section_start_line": 13371,
+      "section_title": "Application to the structure of finite type morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 13823,
+      "section_label": "section-application-fppf",
+      "section_start_line": 13598,
+      "section_title": "Application to the fppf topology",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 14019,
+      "section_label": "section-quasi-projective",
+      "section_start_line": 13824,
+      "section_title": "Quasi-projective schemes",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 14201,
+      "section_label": "section-projective",
+      "section_start_line": 14020,
+      "section_title": "Projective schemes",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 14529,
+      "section_label": "section-proj-spec",
+      "section_start_line": 14202,
+      "section_title": "Proj and Spec",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 15078,
+      "section_label": "section-closed-points-fibres",
+      "section_start_line": 14530,
+      "section_title": "Closed points in fibres",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 15556,
+      "section_label": "section-stein-factorization",
+      "section_start_line": 15079,
+      "section_title": "Stein factorization",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 15872,
+      "section_label": "section-generic-flatness-stratification",
+      "section_start_line": 15557,
+      "section_title": "Generic flatness stratification",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 16070,
+      "section_label": "section-stratifying-morphisms",
+      "section_start_line": 15873,
+      "section_title": "Stratifying a morphism",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 16261,
+      "section_label": "section-make-good-curves",
+      "section_start_line": 16071,
+      "section_title": "Improving morphisms of relative dimension one",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 16362,
+      "section_label": "section-separated-locally-quasi-finite",
+      "section_start_line": 16262,
+      "section_title": "Descending separated locally quasi-finite morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 16584,
+      "section_label": "section-finite-type-finite-presentation",
+      "section_start_line": 16363,
+      "section_title": "Relative finite presentation",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 17315,
+      "section_label": "section-relative-pseudo-coherence",
+      "section_start_line": 16585,
+      "section_title": "Relative pseudo-coherence",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 17685,
+      "section_label": "section-pseudo-coherent",
+      "section_start_line": 17316,
+      "section_title": "Pseudo-coherent morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 18043,
+      "section_label": "section-perfect",
+      "section_start_line": 17686,
+      "section_title": "Perfect morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 18793,
+      "section_label": "section-lci",
+      "section_start_line": 18044,
+      "section_title": "Local complete intersection morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 18863,
+      "section_label": "section-exact",
+      "section_start_line": 18794,
+      "section_title": "Exact sequences of differentials and conormal sheaves",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 19234,
+      "section_label": "section-weakly-etale",
+      "section_start_line": 18864,
+      "section_title": "Weakly \\'etale morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 19514,
+      "section_label": "section-reduced-fibre-theorem",
+      "section_start_line": 19235,
+      "section_title": "Reduced fibre theorem",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 19696,
+      "section_label": "section-ind-quasi-affine",
+      "section_start_line": 19515,
+      "section_title": "Ind-quasi-affine morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 20055,
+      "section_label": "section-pushouts-II",
+      "section_start_line": 19697,
+      "section_title": "Pushouts in the category of schemes, II",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 20277,
+      "section_label": "section-relative-morphisms",
+      "section_start_line": 20056,
+      "section_title": "Relative morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 20622,
+      "section_label": "section-characterize-pseudo-coherent",
+      "section_start_line": 20278,
+      "section_title": "Characterizing pseudo-coherent complexes, III",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 20727,
+      "section_label": "section-descent-finiteness",
+      "section_start_line": 20623,
+      "section_title": "Descent finiteness properties of complexes",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 20904,
+      "section_label": "section-relatively-perfect",
+      "section_start_line": 20728,
+      "section_title": "Relatively perfect objects",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 21420,
+      "section_label": "section-contracting",
+      "section_start_line": 20905,
+      "section_title": "Contracting rational curves",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 21718,
+      "section_label": "section-affine-stratifications",
+      "section_start_line": 21421,
+      "section_title": "Affine stratifications",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 22068,
+      "section_label": "section-universally-open",
+      "section_start_line": 21719,
+      "section_title": "Universally open morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 22503,
+      "section_label": "section-weightings",
+      "section_start_line": 22069,
+      "section_title": "Weightings",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 22957,
+      "section_label": "section-more-weightings",
+      "section_start_line": 22504,
+      "section_title": "More on weightings",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 23127,
+      "section_label": "section-bounds-asn",
+      "section_start_line": 22958,
+      "section_title": "Weightings and affine stratification numbers",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 23294,
+      "section_label": "section-completely-decomposed",
+      "section_start_line": 23128,
+      "section_title": "Completely decomposed morphisms",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 23353,
+      "section_label": "section-families-ample-invertible-modules",
+      "section_start_line": 23295,
+      "section_title": "Families of ample invertible modules",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 23487,
+      "section_label": "section-ample-family-by-blowing-up",
+      "section_start_line": 23354,
+      "section_title": "Blowing up and ample families of invertible modules",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 37,
+      "section_end_line": 23669,
+      "section_label": "section-extensive-criterion-closed-immersions",
+      "section_start_line": 23488,
+      "section_title": "The extensive criterion for closed immersions",
+      "source_filename": "more-morphisms.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 38,
+      "section_end_line": 75,
+      "section_label": "section-introduction",
+      "section_start_line": 18,
+      "section_title": "Introduction",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 38,
+      "section_end_line": 436,
+      "section_label": "section-etale-localization",
+      "section_start_line": 76,
+      "section_title": "Lemmas on \\'etale localization",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 38,
+      "section_end_line": 769,
+      "section_label": "section-local-structure-module",
+      "section_start_line": 437,
+      "section_title": "The local structure of a finite type module",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 38,
+      "section_end_line": 1185,
+      "section_label": "section-one-step-devissage",
+      "section_start_line": 770,
+      "section_title": "One step d\\'evissage",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 38,
+      "section_end_line": 1620,
+      "section_label": "section-complete-devissage",
+      "section_start_line": 1186,
+      "section_title": "Complete d\\'evissage",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 38,
+      "section_end_line": 1777,
+      "section_label": "section-translation",
+      "section_start_line": 1621,
+      "section_title": "Translation into algebra",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 38,
+      "section_end_line": 1997,
+      "section_label": "section-localize-universally-injective",
+      "section_start_line": 1778,
+      "section_title": "Localization and universally injective maps",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 38,
+      "section_end_line": 2135,
+      "section_label": "section-completion-ML",
+      "section_start_line": 1998,
+      "section_title": "Completion and Mittag-Leffler modules",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 38,
+      "section_end_line": 2341,
+      "section_label": "section-projective",
+      "section_start_line": 2136,
+      "section_title": "Projective modules",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "chapter_order": 38,
+      "section_end_line": 2933,
+      "section_label": "section-finite-type-flat-I",
+      "section_start_line": 2342,
+      "section_title": "Flat finite type modules, Part I",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 38,
+      "section_end_line": 3129,
+      "section_label": "section-extending-properties",
+      "section_start_line": 2934,
+      "section_title": "Extending properties from an open",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 10,
+      "chapter_order": 38,
+      "section_end_line": 3697,
+      "section_label": "section-finitely-presented-flat",
+      "section_start_line": 3130,
+      "section_title": "Flat finitely presented modules",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 12,
+      "chapter_order": 38,
+      "section_end_line": 4296,
+      "section_label": "section-finite-type-flat-II",
+      "section_start_line": 3698,
+      "section_title": "Flat finite type modules, Part II",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 38,
+      "section_end_line": 4461,
+      "section_label": "section-examples-pure-modules",
+      "section_start_line": 4297,
+      "section_title": "Examples of relatively pure modules",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 38,
+      "section_end_line": 4800,
+      "section_label": "section-impure",
+      "section_start_line": 4462,
+      "section_title": "Impurities",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 38,
+      "section_end_line": 5008,
+      "section_label": "section-pure",
+      "section_start_line": 4801,
+      "section_title": "Relatively pure modules",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 38,
+      "section_end_line": 5164,
+      "section_label": "section-examples-pure-sheaves",
+      "section_start_line": 5009,
+      "section_title": "Examples of relatively pure sheaves",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 38,
+      "section_end_line": 5538,
+      "section_label": "section-criterion-purity",
+      "section_start_line": 5165,
+      "section_title": "A criterion for purity",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 38,
+      "section_end_line": 5884,
+      "section_label": "section-applications-purity",
+      "section_start_line": 5539,
+      "section_title": "How purity is used",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 38,
+      "section_end_line": 6466,
+      "section_label": "section-flattening-functors",
+      "section_start_line": 5885,
+      "section_title": "Flattening functors",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 38,
+      "section_end_line": 6557,
+      "section_label": "section-flattening",
+      "section_start_line": 6467,
+      "section_title": "Flattening stratifications",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 38,
+      "section_end_line": 6589,
+      "section_label": "section-flattening-artinian",
+      "section_start_line": 6558,
+      "section_title": "Flattening stratification over an Artinian ring",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 38,
+      "section_end_line": 6781,
+      "section_label": "section-flattening-map",
+      "section_start_line": 6590,
+      "section_title": "Flattening a map",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 38,
+      "section_end_line": 6994,
+      "section_label": "section-flattening-local",
+      "section_start_line": 6782,
+      "section_title": "Flattening in the local case",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 38,
+      "section_end_line": 7551,
+      "section_label": "section-variants-mod-injective",
+      "section_start_line": 6995,
+      "section_title": "Variants of a lemma",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 38,
+      "section_end_line": 7621,
+      "section_label": "section-finite-type-flat-III",
+      "section_start_line": 7552,
+      "section_title": "Flat finite type modules, Part III",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 38,
+      "section_end_line": 8024,
+      "section_label": "section-flattening-final",
+      "section_start_line": 7622,
+      "section_title": "Universal flattening",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 7,
+      "chapter_order": 38,
+      "section_end_line": 8364,
+      "section_label": "section-existence",
+      "section_start_line": 8025,
+      "section_title": "Grothendieck's Existence Theorem, IV",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 38,
+      "section_end_line": 8594,
+      "section_label": "section-existence-derived",
+      "section_start_line": 8365,
+      "section_title": "Grothendieck's Existence Theorem, V",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 6,
+      "chapter_order": 38,
+      "section_end_line": 9115,
+      "section_label": "section-blowup-flat",
+      "section_start_line": 8595,
+      "section_title": "Blowing up and flatness",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 38,
+      "section_end_line": 9277,
+      "section_label": "section-applications",
+      "section_start_line": 9116,
+      "section_title": "Applications",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 38,
+      "section_end_line": 9531,
+      "section_label": "section-compactify",
+      "section_start_line": 9278,
+      "section_title": "Compactifications",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 38,
+      "section_end_line": 10001,
+      "section_label": "section-compactifications",
+      "section_start_line": 9532,
+      "section_title": "Nagata compactification",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 13,
+      "chapter_order": 38,
+      "section_end_line": 10735,
+      "section_label": "section-h",
+      "section_start_line": 10002,
+      "section_title": "The h topology",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 1,
+      "chapter_order": 38,
+      "section_end_line": 10854,
+      "section_label": "section-h-more",
+      "section_start_line": 10736,
+      "section_title": "More on the h topology",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 38,
+      "section_end_line": 10944,
+      "section_label": "section-blow-up-ph",
+      "section_start_line": 10855,
+      "section_title": "Blow up squares and the ph topology",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 8,
+      "chapter_order": 38,
+      "section_end_line": 11770,
+      "section_label": "section-blow-up-h",
+      "section_start_line": 10945,
+      "section_title": "Almost blow up squares and the h topology",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 38,
+      "section_end_line": 12188,
+      "section_label": "section-h-and-weak-normalization",
+      "section_start_line": 11771,
+      "section_title": "Absolute weak normalization and h coverings",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 5,
+      "chapter_order": 38,
+      "section_end_line": 12954,
+      "section_label": "section-descent-vectorbundles-h",
+      "section_start_line": 12189,
+      "section_title": "Descent vector bundles in positive characteristic",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 3,
+      "chapter_order": 38,
+      "section_end_line": 13215,
+      "section_label": "section-blowup-complexes",
+      "section_start_line": 12955,
+      "section_title": "Blowing up complexes",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 4,
+      "chapter_order": 38,
+      "section_end_line": 13395,
+      "section_label": "section-blowup-perfect-modules",
+      "section_start_line": 13216,
+      "section_title": "Blowing up perfect modules",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 2,
+      "chapter_order": 38,
+      "section_end_line": 13451,
+      "section_label": "section-eta",
+      "section_start_line": 13396,
+      "section_title": "An operator introduced by Berthelot and Ogus",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 12,
+      "chapter_order": 38,
+      "section_end_line": 13996,
+      "section_label": "section-blowup-complexes-II",
+      "section_start_line": 13452,
+      "section_title": "Blowing up complexes, II",
+      "source_filename": "flat.tex"
+    },
+    {
+      "active_candidate_count": 0,
+      "chapter_order": 38,
+      "section_end_line": 14090,
+      "section_label": "section-blowup-complexes-III",
+      "section_start_line": 13997,
+      "section_title": "Blowing up complexes, III",
+      "source_filename": "flat.tex"
+    }
+  ],
+  "source_lines": 58046,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+}

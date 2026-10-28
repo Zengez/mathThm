@@ -1,0 +1,4 @@
+{"environment": "lemma", "kind": "enter_local_environment", "line": 6927, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 6927, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 6931, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 6933, "scope_stack": []}

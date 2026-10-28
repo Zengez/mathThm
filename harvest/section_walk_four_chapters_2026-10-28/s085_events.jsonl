@@ -1,0 +1,11 @@
+{"kind": "local_or_unclassified_prose", "line": 675, "review_required": true, "scope_stack": [], "text_excerpt": "A natural construction of finite order thickenings is the following. Suppose that $i : Z \\to X$ be an immersion of schemes. Choose an open subscheme $U \\subset X$ such that $i$ identifies $Z$ with a closed subscheme $Z \\subset U$. Let $\\mathcal{I} \\subset \\mathcal{O}_U$ be the quasi-coherent sheaf of ideals defining $Z$ in $U$. For $n \\geq 1$ we can consider the closed subscheme $Z_n \\subset U$ defined by the quasi-coherent sheaf of ideals $\\mathcal{I}^{n + 1}$."}
+{"environment": "definition", "kind": "enter_local_environment", "line": 683, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 692, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 699, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 699, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 727, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 729, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 745, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 745, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 759, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 761, "scope_stack": []}
