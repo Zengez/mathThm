@@ -1,0 +1,32 @@
+{
+  "schema": "maththm.section-walk-context-scope.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "section_id": "morphisms:section-differentials",
+  "source_file": "morphisms.tex",
+  "scope_declarations": [
+    {
+      "kind": "reusable_definition",
+      "source_label": "definition-sheaf-differentials",
+      "source_start_line": 6347,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/morphisms.tex#L6347",
+      "meaning": "For a morphism of schemes f:X→S, Ω_{X/S} is the sheaf of relative Kähler differentials equipped with universal S-derivation d_{X/S}:O_X→Ω_{X/S}.",
+      "applies_as_added_hypothesis": false,
+      "scope_start": 6347,
+      "scope_end": 6858
+    },
+    {
+      "kind": "notation_override",
+      "source_start_line": 6404,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/morphisms.tex#L6404",
+      "meaning": "After the restriction lemma, Ω_{U/S} or Ω_{U/V} may denote the canonically identified restriction Ω_{X/S}|_U for compatible opens U⊆X,V⊆S.",
+      "applies_as_added_hypothesis": false,
+      "scope_start": 6404,
+      "scope_end": 6858,
+      "scope_certainty": "explicit_from_now_on",
+      "before_line_has_no_such_notation_override": true
+    }
+  ],
+  "unconditional_section_hypotheses": [],
+  "candidate_local_assumptions_must_expire": true,
+  "mathematical_proofs_inspected": false
+}
