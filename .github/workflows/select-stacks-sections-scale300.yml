@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - .github/workflows/select-stacks-sections-scale300.yml
+      - scripts/stacks_consecutive_section_window300.py
   workflow_dispatch:
 permissions:
   contents: write
