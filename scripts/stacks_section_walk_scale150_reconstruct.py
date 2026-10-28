@@ -40,6 +40,13 @@ PATCHES={
  "conc":[r"Every element of the maximal ideal of R_{\mathfrak p} is nilpotent.",r"If R is reduced, then R_{\mathfrak p} is a field."],
  "note":"Corrects earlier Pass 2 misclassification: the nilpotence assertion is a conclusion, not an assumption.",
 },
+"lemma-cohen":{
+ "tex":r"Let \(R\) be a commutative unital ring. (1) If \(I\subseteq R\) is maximal among ideals of \(R\) that are not finitely generated, then \(I\) is prime. (2) If every prime ideal of \(R\) is finitely generated, then every ideal of \(R\) is finitely generated.",
+ "note":"Retains the two independent statements; removes only an editorial footnote identifying the later term Noetherian ring.",
+},
+"lemma-characteristic-polynomial-prime":{
+ "note":"The complete source already quantifies R, a finite free R-algebra A, its element f and the prime p; nilpotence iff vanishing of all nonleading characteristic-polynomial coefficients is the conclusion.",
+},
 "lemma-colon":{
  "hyp":[r"R is a commutative unital ring.",r"J\subseteq R is principal.",r"I\subseteq J is an ideal."],
  "conc":[r"I=J(I:J)."],
@@ -64,7 +71,8 @@ PATCHES={
  "note":"Expands implicit domain and removes editorial source-definition citation.",
 },
 "lemma-integral-over-field":{
- "note":"The external reference offers further consequences rather than supplying the stated hypotheses; it is kept in provenance and removed from display.",
+ "tex":r"Let \(k\) be a field and let \(S\) be a \(k\)-algebra. (1) If \(S\) is an integral domain and a finite-dimensional \(k\)-vector space, then \(S\) is a field. (2) If \(S\) is an integral domain and integral over \(k\), then \(S\) is a field. (3) If \(S\) is integral over \(k\), then every prime ideal of \(S\) is maximal.",
+ "note":"The external reference merely offers further consequences and is preserved separately as provenance. All three conclusions, including their different hypotheses, are explicitly retained.",
 },
 "lemma-colimit-normal-ring":{
  "tex":r"Let \((R_i,\varphi_{ii'})\) be a directed system of commutative unital rings, and let \(R=\operatorname*{colim}_iR_i\). If every \(R_i\) is a normal ring, then \(R\) is normal.",
@@ -114,7 +122,7 @@ UNRESOLVED_LABEL_HOLDS={
 }
 MANUAL_HOLDS={
  "lemma-characterize-image-finite-type":"Confirm constructible set image and generic-point closure notation have matching source convention.",
- "lemma-characteristic-polynomial-prime":"Check which characteristic-polynomial conditions are hypotheses versus conclusions; preserve exact quantifiers.",
+
  "lemma-flat":"Large multi-criterion flatness equivalence; verify every equivalence clause separately.",
  "lemma-flat-eq":"Define 'trivial relation' with exact quantifier structure.",
  "lemma-when-injective-covering":"Check the precise equivalence of localization injectivity and the multiplication-family map.",
