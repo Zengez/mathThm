@@ -4,7 +4,7 @@ from scripts.pass2_fast_stacks import classify, clean_statement, grammatical_spl
 
 def candidate(s, label="lemma-test", kind="lemma", file="algebra.tex"):
     return {"candidate_id":"candidate.stacks.test",
-            "entry_type":kind,"statement_tex":r"\label{"+label+"}\n"+s,
+            "entry_type":kind,"statement_tex":(r"\label{"+label+"}\n"+s) if label else s,
             "detected_local_references":[],
             "source":{"label":label,"filename":file}}
 
