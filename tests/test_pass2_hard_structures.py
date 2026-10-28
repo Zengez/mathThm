@@ -16,7 +16,8 @@ class HardStructuresTests(unittest.TestCase):
         s=r"Let $M$ be an $R$-module. The following are equivalent:"+"\n"+r"\begin{enumerate}"+"\n"+r"\item $M$ is flat."+"\n"+r"\item Tensoring with $M$ preserves injections."+"\n"+r"\end{enumerate}"
         out=self.assertInterpret(s,"equivalence")
         self.assertEqual(len(out["equivalence_sides"]),2)
-        self.assertIn("equivalent",out["conclusions"][0])
+        self.assertEqual(out["hypotheses"][1:],out["conclusions"])
+        self.assertIn("flat",out["conclusions"][0])
         self.assertIn("$M$",out["hypotheses"][0])
 
     def test_equivalence_with_add_more_here_is_deferred(self):
@@ -71,7 +72,7 @@ class HardStructuresTests(unittest.TestCase):
         s=r"Under the assumptions of Lemma \ref{foo}, the claim holds."
         out,why=interpret(make(s))
         self.assertIsNone(out)
-        self.assertIn("context",why)
+        self.assertIn("source setup",why)
 
     def test_math_equation_does_not_break_setup(self):
         s=r"Let $f$ be a map. If $a.b$ occurs in the equation, the map is continuous."
