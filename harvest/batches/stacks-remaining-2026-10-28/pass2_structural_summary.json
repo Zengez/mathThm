@@ -1,0 +1,15 @@
+{
+  "batch": "stacks-remaining-2026-10-28",
+  "current_statuses": {
+    "needs_classification": 3,
+    "needs_context": 1654,
+    "needs_structure": 2028,
+    "resolved": 4180
+  },
+  "needs_higher_thinking": 2028,
+  "proofs_read": false,
+  "review_method": "source-faithful bounded syntactic split, NOT semantic verification",
+  "split_now": 1084,
+  "stage": "pass2_structural_light",
+  "target_before": 3112
+}

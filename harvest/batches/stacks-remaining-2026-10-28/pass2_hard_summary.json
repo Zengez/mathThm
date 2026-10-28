@@ -1,0 +1,23 @@
+{
+  "batch": "stacks-remaining-2026-10-28",
+  "by_logical_form": {
+    "conjunction_of_source_clauses": 491,
+    "equivalence": 364,
+    "implication_with_structured_clauses": 19,
+    "source_setup_then_assertion": 114,
+    "source_universal_predicate": 330
+  },
+  "confidence": "source_structure_interpretation_unverified",
+  "final_pass2_statuses": {
+    "needs_classification": 3,
+    "needs_context": 1654,
+    "needs_structure": 710,
+    "resolved": 5498
+  },
+  "initial_higher_thinking_queue": 2028,
+  "math_validity_assessed": false,
+  "newly_resolved": 1318,
+  "proofs_read": false,
+  "stage": "pass2_hard_structures",
+  "still_higher_thinking": 710
+}
