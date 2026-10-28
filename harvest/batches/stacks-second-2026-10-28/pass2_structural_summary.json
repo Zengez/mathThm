@@ -1,0 +1,14 @@
+{
+  "batch": "stacks-second-2026-10-28",
+  "current_statuses": {
+    "needs_context": 212,
+    "needs_structure": 532,
+    "resolved": 1278
+  },
+  "needs_higher_thinking": 532,
+  "proofs_read": false,
+  "review_method": "source-faithful bounded syntactic split, NOT semantic verification",
+  "split_now": 291,
+  "stage": "pass2_structural_light",
+  "target_before": 823
+}
