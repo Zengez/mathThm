@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - .github/workflows/consolidate-reviewed-duplicates.yml
+      - scripts/candidate_consolidation.py
   workflow_dispatch:
 permissions:
   contents: write
