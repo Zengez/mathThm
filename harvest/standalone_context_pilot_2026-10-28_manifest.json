@@ -1,0 +1,33 @@
+{
+  "candidate_selection_policy": "One context-heavy but bounded example from each listed chapter plus all provisional merger group canonicals, with pre-midchapter formal spaces contrast",
+  "chapters_in_sample": 17,
+  "exact_reference_leads": 14,
+  "pass2_candidates_modified": false,
+  "pilot_candidates": 19,
+  "proof_review_performed": false,
+  "provisional_duplicate_groups_included": 8,
+  "resolved_exact_reference_leads": 14,
+  "schema": "maththm.standalone-context-pilot.v1",
+  "selected_files": [
+    "chow.tex",
+    "etale.tex",
+    "formal-defos.tex",
+    "formal-spaces.tex",
+    "intersection.tex",
+    "moduli.tex",
+    "more-morphisms.tex",
+    "perfect.tex",
+    "resolve.tex",
+    "spaces-chow.tex",
+    "spaces-descent.tex",
+    "spaces-more-morphisms.tex",
+    "spaces-morphisms.tex",
+    "spaces-properties.tex",
+    "stacks-cohomology.tex",
+    "stacks-morphisms.tex",
+    "varieties.tex"
+  ],
+  "semantic_standalone_reviews_complete": 0,
+  "source_context_lead_rows": 35,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+}
