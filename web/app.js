@@ -27,7 +27,7 @@
     labels.sort((a,b)=>b.label.length-a.label.length);
     for(const c of labels)c.regex=regexFor(c.label);
   }
-  function linkified(text,theorem){
+  function linkified(text,theorem,path=[]){
     const hints=(theorem?.link_hints||[]).filter(h=>Array.isArray(h)&&resolve(h[1]))
       .map(h=>({label:h[0],id:resolve(h[1]).id,originalId:h[1]}));
     const candidates=[...hints,...labels];
@@ -36,6 +36,9 @@
       if(/^(?:\$|\\\(|\\\[)/.test(part))return esc(part);
       const chosen=[];
       for(const c of candidates){
+        // Phrase matches inside expanded definitions must respect the same
+        // ancestry exclusion as mathDef's recursive explorer.
+        if(state.definitions && !mathdef.branchPath(state.definitions,path,c.id))continue;
         const regex=c.regex || regexFor(c.label);
         regex.lastIndex=0;
         let m;
@@ -50,6 +53,7 @@
       for(const c of chosen){
         result+=esc(part.slice(pos,c.start));
         result+='<button type="button" class="definition-link" data-def-id="'+esc(c.id)+
+          '" data-def-path="'+esc(JSON.stringify(path))+
           '" data-source-subject="'+esc(theorem?.area||"")+
           '" data-original-def-id="'+esc(c.originalId||"")+
           '" title="Expand mathDef v2 definition">'+esc(part.slice(c.start,c.end))+'</button>';
@@ -58,7 +62,7 @@
       return result+esc(part.slice(pos));
     }).join("");
   }
-  const paras=(text,theorem)=>String(text).split(/\n\s*\n/).map(p=>"<p>"+linkified(p,theorem).replace(/\n/g," ")+"</p>").join("");
+  const paras=(text,theorem,path=[])=>String(text).split(/\n\s*\n/).map(p=>"<p>"+linkified(p,theorem,path).replace(/\n/g," ")+"</p>").join("");
   const preview=(text,n=175)=>text.length<=n?text:text.slice(0,Math.max(90,text.slice(0,n).lastIndexOf(" ")))+"…";
   function card(hit,total){
     const t=hit.theorem,full=core.modeFor(state.mode,total,state.expanded.has(t.id))==="full";
@@ -90,9 +94,9 @@
     math($("results"));
   }
   function appendDefinition(target,id,path=[]){
-    const selected=resolve(id);
-    if(selected)id=selected.id;
-    if(path.includes(id)||path.length>=8)return;
+    const branch=mathdef.branchPath(state.definitions,path,id);
+    if(!branch)return; // suppress self-links, ancestors, aliases and over-deep links
+    id=branch[branch.length-1];
     // Insert beneath the containing paragraph (or dependency controls), not mid-sentence.
     const host=target.closest("p") || target.closest(".def-dependencies") || target;
     const existing=host.nextElementSibling;
@@ -111,7 +115,9 @@
         legacyOriginalId:target.dataset.originalDefId||null,
       });
       const best=forms[0];
-      const formBody=(f)=>paras(f.body||d.body||"",{area:f.subject||""});
+      // Every inline cue in every formulation carries the canonical path,
+      // including this currently open definition, not just its parents.
+      const formBody=(f)=>paras(f.body||d.body||"",{area:f.subject||""},branch);
       const cited=best?.source||d.source;
       const sourceLink=cited&&/^https:\/\//i.test(cited)?
         '<a class="source" href="'+href(cited)+'" target="_blank" rel="noopener noreferrer">Definition source ↗</a>':
@@ -124,14 +130,13 @@
           '</details>':"");
       // Reference per-formulation dependencies, not group-wide dependencies
       // from a possibly different mathematical context.
-      const deps=(best?.dependencies||[]).filter(v=>v?.id&&resolve(v.id)&&
-        !path.includes(resolve(v.id).id)&&resolve(v.id).id!==id);
+      const deps=mathdef.visibleDependencies(state.definitions,branch,best?.dependencies||[]);
       if(deps.length){
         const wrap=document.createElement("div");wrap.className="def-dependencies";const seen=new Set();
         for(const v of deps.slice(0,16)){
           const resolved=resolve(v.id);if(seen.has(resolved.id))continue;seen.add(resolved.id);
           const b=document.createElement("button");b.type="button";b.dataset.defId=resolved.id;
-          b.dataset.defPath=JSON.stringify([...path,id]);
+          b.dataset.defPath=JSON.stringify(branch);
           b.dataset.sourceSubject=best.subject||"";
           b.dataset.preferredMeaning=v.target_meaning||"";
           b.dataset.preferredFormulation=v.preferred_formulation||"";
