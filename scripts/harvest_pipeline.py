@@ -159,7 +159,9 @@ def pass2_packets(args):
     packets = []
     local_cache = {}
     for ident, cand in sorted(raw.items()):
-        if ident in reviewed:
+        # Only a completed split exits Pass 2 review. Syntax triage entries
+        # with inherited context or unsafe structure MUST stay reviewable.
+        if ident in reviewed and reviewed[ident].get("context_status") == "resolved":
             continue
         source = cand["source"]
         refs = cand.get("detected_local_references", [])[:args.max_local_references]
@@ -183,6 +185,9 @@ def pass2_packets(args):
             "candidate_id": ident,
             "source_url": source["source_url"],
             "statement_tex": cand["statement_tex"],
+            "prior_classification": reviewed.get(ident, {}).get("result_classification", "unclassified"),
+            "prior_context_status": reviewed.get(ident, {}).get("context_status", "not_reviewed"),
+            "prior_context_note": reviewed.get(ident, {}).get("context_note", ""),
             "entry_type": cand["entry_type"],
             "source_confidence": source["confidence"],
             "local_context_excerpts": local,
