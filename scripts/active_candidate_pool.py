@@ -65,7 +65,7 @@ def main():
                 records.append({"candidate_id":ident,"origin_batch":batch,
                                 "source_revision":raw[ident]["source"]["revision"],
                                 "pass2_status":"resolved",
-                                "pass3_status":"eligible_unreviewed"})
+                                "next_stage":"pass3_screening"})
                 counts[batch]+=1
             else:
                 expected_open[ident]=row["context_status"]
