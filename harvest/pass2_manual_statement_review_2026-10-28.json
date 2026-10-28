@@ -1,0 +1,291 @@
+{
+  "schema": "maththm.pass2-manual-decisions.v1",
+  "description": "25 bounded editorial statement interpretations from already unresolved Stacks candidates; proof statements not accessed",
+  "decisions": [
+    {
+      "candidate_id": "candidate.stacks.01f615a44b9f4afa252c6b3e",
+      "expect_prefix": "Let $f : Z \\to X$ be a morphism",
+      "hypotheses": [
+        "A morphism $f:Z\\to X$ of locally ringed spaces; an open cover $X=\\bigcup U_i$ such that each $f^{-1}(U_i)\\to U_i$ is a closed immersion."
+      ],
+      "conclusions": [
+        "The morphism $f$ is a closed immersion."
+      ],
+      "logical_form": "sufficient_condition"
+    },
+    {
+      "candidate_id": "candidate.stacks.0282435b4cf3176c57e00869",
+      "expect_prefix": "Any submodule $N'$",
+      "hypotheses": [
+        "A module $M$ and a multiplicative subset $S$ of its base ring; a submodule $N'\\subset S^{-1}M$."
+      ],
+      "conclusions": [
+        "There exists a submodule $N\\subset M$ such that $S^{-1}N=N'$."
+      ],
+      "logical_form": "existence"
+    },
+    {
+      "candidate_id": "candidate.stacks.0bf9df3453d52068b80173f4",
+      "expect_prefix": "The category of schemes has",
+      "hypotheses": [
+        "The category of schemes."
+      ],
+      "conclusions": [
+        "The category of schemes has a final object, products, and fibre products; equivalently, it has finite limits."
+      ],
+      "logical_form": "unconditional_result"
+    },
+    {
+      "candidate_id": "candidate.stacks.2062880bcb2166b40101a8be",
+      "expect_prefix": "A finite Jacobson space",
+      "hypotheses": [
+        "A finite Jacobson space.",
+        "A Jacobson space with finitely many closed points."
+      ],
+      "conclusions": [
+        "The space is discrete."
+      ],
+      "logical_form": "collection_of_implications"
+    },
+    {
+      "candidate_id": "candidate.stacks.209b1eadade60ec531f0a071",
+      "expect_prefix": "The spectrum of a ring",
+      "hypotheses": [
+        "A ring."
+      ],
+      "conclusions": [
+        "Its prime spectrum is a spectral space."
+      ],
+      "logical_form": "unconditional_result"
+    },
+    {
+      "candidate_id": "candidate.stacks.298e813a9ff2e00dd3c82c3",
+      "expect_prefix": "A scheme is an algebraic space",
+      "hypotheses": [
+        "A scheme $T$."
+      ],
+      "conclusions": [
+        "The representable functor $h_T$ is an algebraic space."
+      ],
+      "logical_form": "unconditional_result"
+    },
+    {
+      "candidate_id": "candidate.stacks.5d2695bcc94c1e133c744a8e",
+      "expect_prefix": "Two polynomials in $k[x]$",
+      "hypotheses": [
+        "Two polynomials in $k[x]$ are relatively prime.",
+        "They have no common root in an algebraic closure of $k$."
+      ],
+      "conclusions": [
+        "Two polynomials in $k[x]$ are relatively prime.",
+        "They have no common root in an algebraic closure of $k$."
+      ],
+      "logical_form": "equivalence"
+    },
+    {
+      "candidate_id": "candidate.stacks.65089f61e797b9aa99e0b5c6",
+      "expect_prefix": "The category of affine schemes",
+      "hypotheses": [
+        "The category of affine schemes and the category of rings."
+      ],
+      "conclusions": [
+        "The first is equivalent to the opposite of the second, via global sections of the structure sheaf."
+      ],
+      "logical_form": "categorical_equivalence"
+    },
+    {
+      "candidate_id": "candidate.stacks.75d519ba13206af2ed649ac5",
+      "expect_prefix": "Every set is an element",
+      "hypotheses": [
+        "An arbitrary set."
+      ],
+      "conclusions": [
+        "It belongs to $V_\\alpha$ for some ordinal $\\alpha$."
+      ],
+      "logical_form": "universal_existence"
+    },
+    {
+      "candidate_id": "candidate.stacks.81756a5e47422add2f4514aa",
+      "expect_prefix": "For any three $R$-modules",
+      "hypotheses": [
+        "A ring $R$ and three $R$-modules $M,N,P$."
+      ],
+      "conclusions": [
+        "$\\Hom_R(M\\otimes_R N,P)\\cong\\Hom_R(M,\\Hom_R(N,P))$."
+      ],
+      "logical_form": "tensor_hom_adjunction"
+    },
+    {
+      "candidate_id": "candidate.stacks.84bf1a70606e1f6b35add4cb",
+      "expect_prefix": "Any finitely generated ring",
+      "hypotheses": [
+        "A finitely generated algebra over a Noetherian ring.",
+        "A localization of a Noetherian ring."
+      ],
+      "conclusions": [
+        "The resulting ring is Noetherian."
+      ],
+      "logical_form": "collection_of_implications"
+    },
+    {
+      "candidate_id": "candidate.stacks.8d173ba452ab47a44ce2ab8f",
+      "expect_prefix": "Any finite type algebra",
+      "hypotheses": [
+        "A finite-type algebra over a field.",
+        "A finite-type algebra over $\\mathbf{Z}$."
+      ],
+      "conclusions": [
+        "The algebra is Noetherian."
+      ],
+      "logical_form": "collection_of_implications"
+    },
+    {
+      "candidate_id": "candidate.stacks.945c058878ff7f3ea89fa767",
+      "expect_prefix": "The underlying topological space",
+      "hypotheses": [
+        "A scheme."
+      ],
+      "conclusions": [
+        "Its underlying topological space is locally quasi-compact."
+      ],
+      "logical_form": "unconditional_result"
+    },
+    {
+      "candidate_id": "candidate.stacks.450146537fe1ca45f2ff0b60",
+      "expect_prefix": "An affine scheme is separated",
+      "hypotheses": [
+        "An affine scheme.",
+        "A morphism from an affine scheme to a scheme."
+      ],
+      "conclusions": [
+        "The scheme is separated.",
+        "The morphism is separated."
+      ],
+      "logical_form": "collection_of_implications"
+    },
+    {
+      "candidate_id": "candidate.stacks.b9849ac83411dfcad9008e32",
+      "expect_prefix": "Let $\\mathcal{A}$ be an abelian category",
+      "hypotheses": [
+        "An abelian category $\\mathcal{A}$."
+      ],
+      "conclusions": [
+        "All finite limits and finite colimits exist in $\\mathcal{A}$."
+      ],
+      "logical_form": "unconditional_result"
+    },
+    {
+      "candidate_id": "candidate.stacks.bf430b9cdb113c61c0f3612b",
+      "expect_prefix": "Given a pair of coverings",
+      "hypotheses": [
+        "Two coverings of the same object $U$ in a site $\\mathcal{C}$."
+      ],
+      "conclusions": [
+        "There exists a covering refining both given coverings."
+      ],
+      "logical_form": "existence"
+    },
+    {
+      "candidate_id": "candidate.stacks.c3515e81e365c0e95c3366d4",
+      "expect_prefix": "Given an equivalence relation",
+      "hypotheses": [
+        "An equivalence relation $j:R\\to U\\times_S U$ over $S$."
+      ],
+      "conclusions": [
+        "It extends uniquely to a groupoid $(U,R,s,t,c)$ over $S$."
+      ],
+      "logical_form": "existence_uniqueness"
+    },
+    {
+      "candidate_id": "candidate.stacks.761983ef4a14946db9202ba7",
+      "expect_prefix": "In a Karoubian additive monoidal category",
+      "hypotheses": [
+        "A Karoubian additive monoidal category; a direct summand of an object with a left dual."
+      ],
+      "conclusions": [
+        "That direct summand has a left dual."
+      ],
+      "logical_form": "implication"
+    },
+    {
+      "candidate_id": "candidate.stacks.614ae2fd4769230c8868b725",
+      "expect_prefix": "Given a groupoid scheme",
+      "hypotheses": [
+        "A groupoid scheme $(U,R,s,t,c)$ over $S$."
+      ],
+      "conclusions": [
+        "The morphism $j:R\\to U\\times_S U$ is a pre-equivalence relation."
+      ],
+      "logical_form": "unconditional_result"
+    },
+    {
+      "candidate_id": "candidate.stacks.23630ffd8fac6a98a10b67d8",
+      "expect_prefix": "For a ring $R$",
+      "hypotheses": [
+        "A ring $R$ and the functor $C:\\mathrm{Mod}_R\\to\\mathrm{Mod}_R$."
+      ],
+      "conclusions": [
+        "The functor $C$ is exact and reflects injections and surjections."
+      ],
+      "logical_form": "unconditional_result"
+    },
+    {
+      "candidate_id": "candidate.stacks.41d6464aaa6960ec4866babb",
+      "expect_prefix": "An abelian variety is",
+      "hypotheses": [
+        "An abelian variety."
+      ],
+      "conclusions": [
+        "It is an abelian group scheme; its group law is commutative."
+      ],
+      "logical_form": "unconditional_result"
+    },
+    {
+      "candidate_id": "candidate.stacks.f43c387d21a1aa425c5c958a",
+      "expect_prefix": "Given a morphism of sites",
+      "hypotheses": [
+        "A morphism of sites $f:\\mathcal{D}\\to\\mathcal{C}$ corresponding to $u:\\mathcal{C}\\to\\mathcal{D}$."
+      ],
+      "conclusions": [
+        "The associated adjoint functors $(f^{-1}=u_s,f_*=u^s)$ form a morphism of topoi."
+      ],
+      "logical_form": "unconditional_result"
+    },
+    {
+      "candidate_id": "candidate.stacks.a641e47dff5e85ef94a4c07d",
+      "expect_prefix": "A $M$-Koszul-regular sequence",
+      "hypotheses": [
+        "An $M$-Koszul-regular sequence.",
+        "A Koszul-regular sequence."
+      ],
+      "conclusions": [
+        "The respective sequence is $M$-$H_1$-regular.",
+        "The respective sequence is $H_1$-regular."
+      ],
+      "logical_form": "collection_of_implications"
+    },
+    {
+      "candidate_id": "candidate.stacks.bde8177386612c55335e953d",
+      "expect_prefix": "The category $\\Delta$ is the universal category",
+      "hypotheses": [
+        "The simplex category $\\Delta$ with objects $[n]$ and its face and degeneracy morphisms."
+      ],
+      "conclusions": [
+        "It satisfies the stated universal generation and relations properties."
+      ],
+      "logical_form": "universal_property"
+    },
+    {
+      "candidate_id": "candidate.stacks.c80fa62ca582643eea739363",
+      "expect_prefix": "The property $\\mathcal{P}(f)",
+      "hypotheses": [
+        "The property that a morphism is unramified.",
+        "The property that a morphism is G-unramified."
+      ],
+      "conclusions": [
+        "Each property is fpqc-local on the base."
+      ],
+      "logical_form": "collection_of_implications"
+    }
+  ]
+}
