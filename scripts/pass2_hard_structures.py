@@ -203,12 +203,14 @@ def split_equivalence(text, block, items):
     if head.endswith("if") or head.endswith("such that"):
         return None,"equivalence context has open condition"
     return {
-        "hypotheses":[head],
-        "conclusions":[(before[m[-1].start():].strip()+"\n"+text[a:b]).strip()],
+        # MathThm decision (2026-10-23): for an equivalence each condition
+        # belongs to BOTH searchable sides. Do not create duplicate entries.
+        "hypotheses":[head]+items,
+        "conclusions":list(items),
         "logical_form":"equivalence",
         "equivalence_sides":[[item] for item in items],
         "structured_cases":[],
-        "reason":"Explicit bidirectional equivalence; each source item recorded as a distinct equivalent condition",
+        "reason":"Bidirectional equivalence: every equivalent condition appears on both search sides, one canonical theorem",
     },None
 
 
