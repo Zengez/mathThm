@@ -1,0 +1,20 @@
+{
+  "all_files_report": "stacks_context_recon_2026-10-28_files.jsonl",
+  "candidate_hypotheses_modified": false,
+  "false_positive_tolerance": "high",
+  "files_with_context_headings": 54,
+  "files_with_strong_phrases": 112,
+  "files_with_strong_phrases_or_headings": 112,
+  "heading_leads": 57,
+  "main_book_chapters": 115,
+  "mathematical_context_interpreted": false,
+  "method": "Whole-file quick regex reconnaissance; proof bodies skipped; headings and phrase hits only",
+  "priority_report": "stacks_context_recon_2026-10-28_priority.md",
+  "schema": "maththm.stacks-context-recon.v1",
+  "scope_inferred": false,
+  "soft_phrase_occurrences": 1079,
+  "source_files_scanned": 119,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "strong_phrase_occurrences": 1210,
+  "theorem_proofs_reviewed": false
+}
