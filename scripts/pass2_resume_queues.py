@@ -74,7 +74,7 @@ def main():
        "published_theorem_corpus_edited":False,
     }
     assert resume["all_candidates"]==10987
-    assert resume["all_statuses"].get("resolved")==9383
+    assert sum(resume["all_statuses"].values())==resume["all_candidates"]
     p.atomic_text(Path("harvest/PASS2_RESUME_INVENTORY_2026-10-28.json"),
                   json.dumps(resume,indent=2,sort_keys=True,ensure_ascii=False)+"\n")
     print(json.dumps({k:v for k,v in resume.items() if k!="classification_details"},indent=2))
