@@ -34,29 +34,40 @@
     return splitMath(text).map(part=>{
       if(!part)return "";
       if(/^(?:\$|\\\(|\\\[)/.test(part))return esc(part);
-      const chosen=[];
+      const options=[];
       for(const c of candidates){
-        // Phrase matches inside expanded definitions must respect the same
-        // ancestry exclusion as mathDef's recursive explorer.
-        if(state.definitions && !mathdef.branchPath(state.definitions,path,c.id))continue;
+        const blocked=Boolean(state.definitions &&
+          !mathdef.branchPath(state.definitions,path,c.id));
         const regex=c.regex || regexFor(c.label);
         regex.lastIndex=0;
         let m;
         while((m=regex.exec(part))){
           const start=m.index+m[1].length,end=start+m[2].length;
-          if(chosen.some(x=>start<x.end&&end>x.start))continue;
-          chosen.push({start,end,id:c.id,originalId:c.originalId});
+          options.push({start,end,id:c.id,originalId:c.originalId,
+            blocked,explicit:Boolean(c.originalId)});
         }
+      }
+      // Longest whole phrase wins, even when its link is blocked by ancestry.
+      // Reserve the span so e.g. the 'topology' inside an unavailable
+      // 'subspace topology' link does not acquire a misleading shorter link.
+      options.sort((a,b)=>(b.end-b.start)-(a.end-a.start)||
+        Number(b.explicit)-Number(a.explicit)||a.start-b.start);
+      const chosen=[];
+      for(const c of options){
+        if(chosen.some(x=>c.start<x.end&&c.end>x.start))continue;
+        chosen.push(c);
       }
       chosen.sort((a,b)=>a.start-b.start);
       let result="",pos=0;
       for(const c of chosen){
         result+=esc(part.slice(pos,c.start));
-        result+='<button type="button" class="definition-link" data-def-id="'+esc(c.id)+
-          '" data-def-path="'+esc(JSON.stringify(path))+
-          '" data-source-subject="'+esc(theorem?.area||"")+
-          '" data-original-def-id="'+esc(c.originalId||"")+
-          '" title="Expand mathDef v2 definition">'+esc(part.slice(c.start,c.end))+'</button>';
+        if(!c.blocked){
+          result+='<button type="button" class="definition-link" data-def-id="'+esc(c.id)+
+            '" data-def-path="'+esc(JSON.stringify(path))+
+            '" data-source-subject="'+esc(theorem?.area||"")+
+            '" data-original-def-id="'+esc(c.originalId||"")+
+            '" title="Expand mathDef v2 definition">'+esc(part.slice(c.start,c.end))+'</button>';
+        }else result+=esc(part.slice(c.start,c.end));
         pos=c.end;
       }
       return result+esc(part.slice(pos));
