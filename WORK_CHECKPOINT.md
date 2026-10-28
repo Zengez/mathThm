@@ -1,3 +1,15 @@
+## October 28, 2026 — all three Stacks harvests: 8,373/10,987 Pass 2 structured; 710 → 510 latest hard queue
+
+The user requested one bounded follow-up Pass 2 effort on the **710** still-structurally-difficult candidates from the **7,865**-candidate `stacks-remaining-2026-10-28` harvest, and updated counts across all prior Stacks batches. **GitHub Actions run [40731430593](https://github.com/Zengez/mathThm/actions/runs/40731430593) succeeded**, running all Python tests, `pass2_hard_followup.py` (86 additional splits) and `pass2_remaining_targeted.py` (114 additional splits), validating coverage and equivalence indexing, and committing outputs and the global counts file.
+
+**Remaining Stacks 7,865 batch:** 5,698 `resolved`; 510 `needs_structure`; 1,654 `needs_context`; 3 `needs_classification`. This session recovered **200 of 710** structurally difficult statements. The still-open structural queue is `harvest/batches/stacks-remaining-2026-10-28/pass2_higher_thinking_remaining_v3.jsonl`. The original 710 queue and intermediate 624 queue remain saved. Canonical Pass 2 data are in `pass2.jsonl`; no Pass 3 or theorem publication. No proof text was opened or mathematically validated.
+
+**All three batches combined:** 10,987 harvested candidates; **8,373 resolved** (937 + 1,738 + 5,698); **640 structural cases open** (58 + 72 + 510); **1,971 inherited-context cases open** (105 + 212 + 1,654); **3 classification checks open**. Thus **2,614 total remain unresolved**. Detailed machine-readable snapshot: [harvest/PASS2_ALL_STACKS_COUNTS_2026-10-28.json](harvest/PASS2_ALL_STACKS_COUNTS_2026-10-28.json).
+
+The new source-driven interpretations are **provisional** (`bounded_semantic_structure_unverified` or `bounded_source_interpretation_unverified`), not confirmed mathematically valid theorems; equivalences are searchable in both hypothesis and conclusion fields. Do not re-run initial Pass 2 using `--replace` on any completed batch. Follow-up priority: actual editorial review of the remaining 640 structural cases and separately recover local context on the 1,971 context-dependent cases; then Pass 3 proof plausibility checks **only when authorized**.
+
+---
+
 ## October 28, 2026 — higher-thinking Pass 2 hard-case review completed (827 → 130)
 
 **Full audit/report:** [PASS2_HARD_REVIEW_REPORT_2026-10-28.md](PASS2_HARD_REVIEW_REPORT_2026-10-28.md).
