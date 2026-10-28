@@ -1,0 +1,46 @@
+{"kind": "local_or_unclassified_prose", "line": 9518, "review_required": true, "scope_stack": [], "text_excerpt": "Suppose $\\mathfrak p$, $\\mathfrak p'$ are primes of the ring $R$. Let $X = \\Spec(R)$ with the Zariski topology. Denote $x \\in X$ the point corresponding to $\\mathfrak p$ and $x' \\in X$ the point corresponding to $\\mathfrak p'$. Then we have: $$ x' \\leadsto x \\Leftrightarrow \\mathfrak p' \\subset \\mathfrak p. $$ In words: $x$ is a specialization of $x'$ if and only if $\\mathfrak p' \\subset \\mathfrak p$. See Topology, Section \\ref{topology-section-specialization} for terminology and notation."}
+{"environment": "definition", "kind": "enter_local_environment", "line": 9531, "persists_after_end": false, "scope_stack": ["definition"]}
+{"environment": "definition", "kind": "exit_local_environment", "line": 9548, "persists_after_end": false, "scope_stack_before_pop": ["definition"]}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 9566, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 9566, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 9571, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 9573, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 9588, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 9588, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 9599, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 9601, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 9605, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 9605, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 9609, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 9611, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 9617, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 9617, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 9622, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 9624, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 9651, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 9651, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 9658, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 9660, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 9681, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 9681, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 9688, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 9690, "scope_stack": []}
+{"environment": "proposition", "kind": "enter_local_environment", "line": 9707, "persists_after_end": false, "scope_stack": ["proposition"]}
+{"kind": "candidate_location", "line": 9707, "scope_stack": ["proposition"]}
+{"environment": "proposition", "kind": "exit_local_environment", "line": 9713, "persists_after_end": false, "scope_stack_before_pop": ["proposition"]}
+{"kind": "proof_skipped", "line": 9715, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 9739, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 9739, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 9752, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 9754, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 9774, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 9774, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 9780, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 9782, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 9796, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 9812, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 9814, "scope_stack": []}
+{"environment": "lemma", "kind": "enter_local_environment", "line": 9851, "persists_after_end": false, "scope_stack": ["lemma"]}
+{"kind": "candidate_location", "line": 9851, "scope_stack": ["lemma"]}
+{"environment": "lemma", "kind": "exit_local_environment", "line": 9856, "persists_after_end": false, "scope_stack_before_pop": ["lemma"]}
+{"kind": "proof_skipped", "line": 9858, "scope_stack": []}
