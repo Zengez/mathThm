@@ -1,0 +1,42 @@
+{
+  "all_batches": [
+    {
+      "batch": "stacks-bulk-2026-10-28",
+      "candidate_count": 1100,
+      "statuses": {
+        "needs_context": 93,
+        "needs_structure": 58,
+        "resolved": 949
+      }
+    },
+    {
+      "batch": "stacks-second-2026-10-28",
+      "candidate_count": 2022,
+      "statuses": {
+        "needs_context": 174,
+        "needs_structure": 72,
+        "resolved": 1776
+      }
+    },
+    {
+      "batch": "stacks-remaining-2026-10-28",
+      "candidate_count": 7865,
+      "statuses": {
+        "needs_classification": 3,
+        "needs_context": 1209,
+        "needs_structure": 510,
+        "resolved": 6143
+      }
+    }
+  ],
+  "all_candidates": 10987,
+  "all_statuses": {
+    "needs_classification": 3,
+    "needs_context": 1476,
+    "needs_structure": 640,
+    "resolved": 8868
+  },
+  "pass3_started": false,
+  "proofs_read": false,
+  "publication_changed": false
+}

@@ -1,0 +1,21 @@
+{
+  "context_found_but_structure_pending": 79,
+  "initial_context_candidates": 1654,
+  "proofs_read": false,
+  "reason_counts": {
+    "context_and_structure_resolved": 445,
+    "context_itself_inherits_another_situation": 16,
+    "context_recovered_but_structure_complex": 79,
+    "no_direct_named_situation_header": 1110,
+    "secondary_external_context_dependency": 4
+  },
+  "resolved_via_pinned_situation": 445,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "statement_source_only": true,
+  "statuses_after": {
+    "needs_classification": 3,
+    "needs_context": 1209,
+    "needs_structure": 510,
+    "resolved": 6143
+  }
+}

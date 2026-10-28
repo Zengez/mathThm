@@ -1,0 +1,18 @@
+{
+  "context_found_but_structure_pending": 4,
+  "initial_context_candidates": 105,
+  "proofs_read": false,
+  "reason_counts": {
+    "context_and_structure_resolved": 12,
+    "context_recovered_but_structure_complex": 4,
+    "no_direct_named_situation_header": 89
+  },
+  "resolved_via_pinned_situation": 12,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "statement_source_only": true,
+  "statuses_after": {
+    "needs_context": 93,
+    "needs_structure": 58,
+    "resolved": 949
+  }
+}
