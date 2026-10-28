@@ -1,0 +1,97 @@
+{
+  "all_candidates": 10987,
+  "all_statuses": {
+    "needs_classification": 3,
+    "needs_context": 1099,
+    "needs_structure": 502,
+    "resolved": 9383
+  },
+  "batches": [
+    {
+      "batch": "stacks-bulk-2026-10-28",
+      "candidates": 1100,
+      "states": {
+        "needs_context": 58,
+        "needs_structure": 37,
+        "resolved": 1005
+      }
+    },
+    {
+      "batch": "stacks-second-2026-10-28",
+      "candidates": 2022,
+      "states": {
+        "needs_context": 161,
+        "needs_structure": 54,
+        "resolved": 1807
+      }
+    },
+    {
+      "batch": "stacks-remaining-2026-10-28",
+      "candidates": 7865,
+      "states": {
+        "needs_classification": 3,
+        "needs_context": 880,
+        "needs_structure": 411,
+        "resolved": 6571
+      }
+    }
+  ],
+  "canonical_source": "Each batch's pass2.jsonl, not prior review queues",
+  "classification_details": [
+    {
+      "candidate_id": "candidate.stacks.9cc30fdb023b0794310d4929",
+      "context_status": "needs_classification",
+      "current_review_note": "Statement contains an exercise/conjecture/problem term; check context",
+      "detected_references": [],
+      "local_context_used": [],
+      "next_stage": "Pass 2 textual context/structure review only",
+      "original_provenance_label": "theorem-conjecture-n-2",
+      "proofs_read": false,
+      "result_classification": "uncertain",
+      "source_entry_type": "theorem",
+      "source_filename": "trace.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_statement": "The Conjecture holds if $n\\leq 2$.",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/trace.tex#L3725"
+    },
+    {
+      "candidate_id": "candidate.stacks.e3b1843129b2c607294eb1f7",
+      "context_status": "needs_classification",
+      "current_review_note": "Statement contains an exercise/conjecture/problem term; check context",
+      "detected_references": [],
+      "local_context_used": [],
+      "next_stage": "Pass 2 textual context/structure review only",
+      "original_provenance_label": "theorem-weil-II",
+      "proofs_read": false,
+      "result_classification": "uncertain",
+      "source_entry_type": "theorem",
+      "source_filename": "trace.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_statement": "For a sheaf\n$\\mathcal{F}_\\rho$ with $\\rho$ satisfying the conclusions of the conjecture\nabove then the eigenvalues of $\\pi_X^*$ on $H_c^i(X_{\\overline{k}},\n\\mathcal{F}_{\\rho})$ are algebraic numbers $\\alpha$ with absolute values\n$$\n|\\alpha|=q^{w/2}, \\text{ for }w\\in \\mathbf{Z},\\ w\\leq i\n$$\nMoreover, if $X$ smooth and proj. then $w = i$.",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/trace.tex#L3074"
+    },
+    {
+      "candidate_id": "candidate.stacks.ee32251fd689e9411c7ce1c4",
+      "context_status": "needs_classification",
+      "current_review_note": "Statement contains an exercise/conjecture/problem term; check context",
+      "detected_references": [],
+      "local_context_used": [],
+      "next_stage": "Pass 2 textual context/structure review only",
+      "original_provenance_label": "theorem-conjecture-l-bigger-2n",
+      "proofs_read": false,
+      "result_classification": "uncertain",
+      "source_entry_type": "theorem",
+      "source_filename": "trace.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_statement": "Conjecture holds if $l > 2n$ modulo some unproven things.",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/trace.tex#L3734"
+    }
+  ],
+  "mathematical_validity_audited": false,
+  "open_total": 1604,
+  "pass3_started": false,
+  "proofs_read": false,
+  "published_theorem_corpus_edited": false,
+  "schema": "maththm.pass2-resume.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+}
