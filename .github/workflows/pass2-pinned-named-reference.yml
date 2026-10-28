@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - .github/workflows/pass2-pinned-named-reference.yml
+      - scripts/pass2_pinned_named_reference.py
+      - tests/test_pass2_pinned_named_reference.py
   workflow_dispatch:
 permissions:
   contents: write
