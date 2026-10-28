@@ -2,21 +2,21 @@
   "batches": [
     {
       "batch": "stacks-bulk-2026-10-28",
-      "structural_resolved": 3,
+      "structural_resolved": 0,
       "structure_remaining": 27
     },
     {
       "batch": "stacks-second-2026-10-28",
-      "structural_resolved": 5,
+      "structural_resolved": 0,
       "structure_remaining": 38
     },
     {
       "batch": "stacks-remaining-2026-10-28",
-      "structural_resolved": 6,
+      "structural_resolved": 0,
       "structure_remaining": 374
     }
   ],
-  "newly_structured": 14,
+  "newly_structured": 0,
   "proofs_read": false,
   "published_catalog_untouched": true,
   "statuses": {
