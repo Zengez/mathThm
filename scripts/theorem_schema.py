@@ -69,7 +69,8 @@ def validate(corpus: dict) -> dict:
         ids.add(ident)
         if r.get("entry_type") not in KINDS:
             bad(prefix+".entry_type", "unknown result type")
-        required_text(r.get("title"), prefix+".title")
+        if r.get("title") is not None and not isinstance(r.get("title"), str):
+            bad(prefix+".title", "optional title must be text or null")
         required_text(r.get("area"), prefix+".area")
         required_text(r.get("statement"), prefix+".statement")
         https(r.get("source_url"), prefix+".source_url")
