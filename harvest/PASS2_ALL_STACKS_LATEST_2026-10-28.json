@@ -1,42 +1,40 @@
 {
   "batches": [
     {
-      "batch": "stacks-bulk-2026-10-28",
       "count": 1100,
-      "statuses": {
+      "name": "stacks-bulk-2026-10-28",
+      "status": {
         "needs_context": 56,
         "needs_structure": 37,
         "resolved": 1007
       }
     },
     {
-      "batch": "stacks-second-2026-10-28",
       "count": 2022,
-      "statuses": {
+      "name": "stacks-second-2026-10-28",
+      "status": {
         "needs_context": 125,
         "needs_structure": 54,
         "resolved": 1843
       }
     },
     {
-      "batch": "stacks-remaining-2026-10-28",
       "count": 7865,
-      "statuses": {
+      "name": "stacks-remaining-2026-10-28",
+      "status": {
         "needs_classification": 3,
-        "needs_context": 780,
+        "needs_context": 767,
         "needs_structure": 411,
-        "resolved": 6671
+        "resolved": 6684
       }
     }
   ],
-  "candidates": 10987,
-  "no_pass3_records": true,
-  "no_proofs_read": true,
-  "no_published_catalog_changes": true,
-  "statuses": {
+  "no_pass3_or_catalog_updates": true,
+  "status_totals": {
     "needs_classification": 3,
-    "needs_context": 961,
+    "needs_context": 948,
     "needs_structure": 502,
-    "resolved": 9521
-  }
+    "resolved": 9534
+  },
+  "total_candidates": 10987
 }

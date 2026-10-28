@@ -1,0 +1,23 @@
+{
+  "batch": "stacks-remaining-2026-10-28",
+  "blocked": {
+    "Additional separate inherited context references": 1,
+    "Ambiguous or absent top-level Then": 15,
+    "Complex implication containing biconditional": 1,
+    "Needs exactly one explicit early Section reference": 719,
+    "Section is not a known notation/setup header": 28,
+    "Section preamble too long/short or lacks explicit standing context": 3
+  },
+  "forms": {
+    "pinned_named_reference_conditional_equivalence": 1,
+    "pinned_named_reference_implication": 12
+  },
+  "newly_resolved": 13,
+  "no_proof_review": true,
+  "statuses": {
+    "needs_classification": 3,
+    "needs_context": 767,
+    "needs_structure": 411,
+    "resolved": 6684
+  }
+}

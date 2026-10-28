@@ -1,0 +1,15 @@
+{
+  "batch": "stacks-second-2026-10-28",
+  "blocked": {
+    "Needs exactly one explicit early Section reference": 122,
+    "Section is not a known notation/setup header": 3
+  },
+  "forms": {},
+  "newly_resolved": 0,
+  "no_proof_review": true,
+  "statuses": {
+    "needs_context": 125,
+    "needs_structure": 54,
+    "resolved": 1843
+  }
+}

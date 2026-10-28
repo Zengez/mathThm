@@ -1,0 +1,14 @@
+{
+  "batch": "stacks-bulk-2026-10-28",
+  "blocked": {
+    "Needs exactly one explicit early Section reference": 56
+  },
+  "forms": {},
+  "newly_resolved": 0,
+  "no_proof_review": true,
+  "statuses": {
+    "needs_context": 56,
+    "needs_structure": 37,
+    "resolved": 1007
+  }
+}
