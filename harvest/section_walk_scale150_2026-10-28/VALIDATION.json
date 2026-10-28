@@ -11,8 +11,8 @@
   "zero_candidate_sections_also_processed": 1,
   "active_candidates_with_saved_draft_overlay": 150,
   "draft_status_counts": {
-    "context_resolution_pending": 15,
-    "standalone_draft_ready_for_validation": 135
+    "context_resolution_pending": 16,
+    "standalone_draft_ready_for_validation": 134
   },
   "source_environment_frames_entered_and_closed": 189,
   "active_candidate_local_frames_closed": 150,
@@ -26,6 +26,9 @@
     "single_statement": 110,
     "source_multi_part": 40
   },
+  "equivalence_clause_scope_crosschecks_applied": true,
+  "standalone_ready_hypotheses_and_conclusions_have_no_source_ref_placeholders": true,
+  "joint_existential_witness_claims_kept_grouped": true,
   "all_hypotheses_scoped_without_leakage": true,
   "all_candidates_final_source_equivalence_validated": false,
   "proofs_reviewed": 0,
@@ -211,8 +214,8 @@
         7433
       ],
       "draft_status_counts": {
-        "standalone_draft_ready_for_validation": 11,
-        "context_resolution_pending": 3
+        "standalone_draft_ready_for_validation": 10,
+        "context_resolution_pending": 4
       },
       "source_formal_environments": 16,
       "source_reference_uses": 1,
