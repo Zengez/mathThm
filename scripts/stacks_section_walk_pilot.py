@@ -226,10 +226,13 @@ def walk_events(lines, section, candlines):
         raise ValueError(f"Unbalanced source context at {section['filename']}:{last}: {frames} proof={inproof}")
     return events,scope_candidates,available_named
 
-def pack(file,section_start,source_root,limit=24,output_prefix="SECTION_WALK_PILOT"):
-    grouped,sections,unmatched=groups()
+def pack(file,section_start,source_root,limit=24,output_prefix="SECTION_WALK_PILOT",
+         group_data=None):
+    grouped,sections,unmatched=group_data if group_data is not None else groups()
     key=(file,section_start)
-    if key not in grouped:raise ValueError(f"Section not populated: {key}")
+    if file not in sections or not any(
+            s["section_start_line"]==section_start for s in sections[file]):
+        raise ValueError(f"Section not indexed: {key}")
     section=next(s for s in sections[file] if s["section_start_line"]==section_start)
     cands=sorted(grouped[key],key=lambda r:(r[1]["source"]["statement_line"],r[0]))
     if len(cands)>limit:
