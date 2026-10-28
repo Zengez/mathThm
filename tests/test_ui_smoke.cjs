@@ -33,7 +33,7 @@ test("browser-like boot renders live theorem and mathDef-linked full statement",
   vm.runInNewContext(fs.readFileSync(path.join(__dirname,"../web/app.js"),"utf8"),sandbox);
   await new Promise(resolve=>setImmediate(resolve));
   await new Promise(resolve=>setImmediate(resolve));
-  assert.equal(els.total.textContent,"20 draft results");
+  assert.equal(els.total.textContent,records.records.length+" draft results");
   assert.match(els["definitions-status"].textContent,/v2 definitions loaded \(2 terms;/);
   els["hypothesis-query"].value="compactness";
   els["conclusion-query"].value="maximum";
