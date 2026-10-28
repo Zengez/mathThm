@@ -1,0 +1,60 @@
+name: Pass 2 structural scoped equivalence follow-up
+on:
+  push:
+    paths:
+      - .github/workflows/pass2-structural-followup.yml
+      - scripts/pass2_structural_followup.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run-pass2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run Pass 2 regression tests
+        run: python -m unittest discover -s tests -q
+      - name: Run bounded follow-up on remaining structural cases
+        run: python -m scripts.pass2_structural_followup
+      - name: Regenerate canonical queues and deferred-context snapshot
+        run: |
+          python -m scripts.pass2_resume_queues
+          python -m scripts.pass2_problem_candidates
+      - name: Validate equivalence indexing, counts and archive
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import harvest_pipeline as p
+          results=json.loads(Path("harvest/PASS2_STRUCTURAL_FOLLOWUP_2026-10-28.json").read_text())
+          status=results["statuses"]
+          inventory=json.loads(Path("harvest/PASS2_RESUME_INVENTORY_2026-10-28.json").read_text())
+          manifest=json.loads(Path("harvest/PROBLEM_CANDIDATES_MANIFEST.json").read_text())
+          assert status==inventory["all_statuses"]
+          assert status["needs_context"]==862 and manifest["count"]==862
+          assert status["needs_classification"]==3 and status["needs_structure"]<=463
+          assert sum(status.values())==10987
+          for batch in ("stacks-bulk-2026-10-28","stacks-second-2026-10-28","stacks-remaining-2026-10-28"):
+            f=Path("harvest/batches")/batch/"pass2_structural_followup_decisions.jsonl"
+            if not f.exists(): continue
+            for d in p.load_rows(f,"candidate_id").values():
+              if "equivalence" in d["logical_form"]:
+                assert d["equivalence_sides"]
+                assert all(side in d["hypotheses"] and side in d["conclusions"]
+                           for sub in d["equivalence_sides"] for side in sub)
+          assert not results["proofs_read"] and results["catalog_unchanged"]
+          PY
+      - name: Commit Pass 2 follow-up decisions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/batches/stacks-bulk-2026-10-28 harvest/batches/stacks-second-2026-10-28 harvest/batches/stacks-remaining-2026-10-28 harvest/PASS2_RESUME_INVENTORY_2026-10-28.json harvest/PASS2_STRUCTURAL_FOLLOWUP_2026-10-28.json harvest/problem_candidates_inherited_context.jsonl harvest/PROBLEM_CANDIDATES_MANIFEST.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Pass 2: resolve source-equivalence addenda and quantify remaining structure"
+            git pull --rebase origin main
+            git push origin main
+          fi
