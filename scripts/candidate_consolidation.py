@@ -95,6 +95,8 @@ def merge_candidate_sources(active_records, *, batches, archive_ids):
         for fld in ("hypotheses","conclusions","equivalence_sides",
                     "structured_cases"):
             values=[structured[k].get(fld) for k in members]
+            if fld in ("equivalence_sides","structured_cases"):
+                values=[v or [] for v in values]
             if any(v!=values[0] for v in values[1:]):
                 raise ValueError(f"group {number}: different {fld}; cannot merge")
         if len({original[k]["entry_type"] for k in members})!=1:
