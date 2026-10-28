@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - .github/workflows/pass2-context-flexible.yml
+      - scripts/pass2_context_flexible_situations.py
+      - tests/test_pass2_context_flexible_situations.py
   workflow_dispatch:
 permissions:
   contents: write
