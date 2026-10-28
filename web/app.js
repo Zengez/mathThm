@@ -1,7 +1,10 @@
 "use strict";
 (() => {
   const $=id=>document.getElementById(id), core=window.MathThmSearch;
-  const state={records:[],mode:"auto",expanded:new Set(),defs:new Map(),fullHtmlCache:new Map()};
+  const mathdef=window.MathThmDefinitions;
+  const state={records:[],mode:"auto",expanded:new Set(),defs:new Map(),
+    definitions:null,fullHtmlCache:new Map(),snapshotVersion:null};
+  const resolve=id=>state.definitions?.resolve(id)||state.defs.get(id)||null;
   const esc=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const href=u=>/^https:\/\//i.test(String(u))?esc(u):"#";
   const math=root=>{if(window.renderMathInElement)window.renderMathInElement(root,{
@@ -25,8 +28,8 @@
     for(const c of labels)c.regex=regexFor(c.label);
   }
   function linkified(text,theorem){
-    const hints=(theorem?.link_hints||[]).filter(h=>Array.isArray(h)&&state.defs.has(h[1]))
-      .map(h=>({label:h[0],id:h[1]}));
+    const hints=(theorem?.link_hints||[]).filter(h=>Array.isArray(h)&&resolve(h[1]))
+      .map(h=>({label:h[0],id:resolve(h[1]).id,originalId:h[1]}));
     const candidates=[...hints,...labels];
     return splitMath(text).map(part=>{
       if(!part)return "";
@@ -39,14 +42,17 @@
         while((m=regex.exec(part))){
           const start=m.index+m[1].length,end=start+m[2].length;
           if(chosen.some(x=>start<x.end&&end>x.start))continue;
-          chosen.push({start,end,id:c.id});
+          chosen.push({start,end,id:c.id,originalId:c.originalId});
         }
       }
       chosen.sort((a,b)=>a.start-b.start);
       let result="",pos=0;
       for(const c of chosen){
         result+=esc(part.slice(pos,c.start));
-        result+='<button type="button" class="definition-link" data-def-id="'+esc(c.id)+'" title="Expand mathDef definition">'+esc(part.slice(c.start,c.end))+'</button>';
+        result+='<button type="button" class="definition-link" data-def-id="'+esc(c.id)+
+          '" data-source-subject="'+esc(theorem?.area||"")+
+          '" data-original-def-id="'+esc(c.originalId||"")+
+          '" title="Expand mathDef v2 definition">'+esc(part.slice(c.start,c.end))+'</button>';
         pos=c.end;
       }
       return result+esc(part.slice(pos));
@@ -84,6 +90,8 @@
     math($("results"));
   }
   function appendDefinition(target,id,path=[]){
+    const selected=resolve(id);
+    if(selected)id=selected.id;
     if(path.includes(id)||path.length>=8)return;
     // Insert beneath the containing paragraph (or dependency controls), not mid-sentence.
     const host=target.closest("p") || target.closest(".def-dependencies") || target;
@@ -92,22 +100,42 @@
       existing.remove();target.setAttribute("aria-expanded","false");
       if(existing.dataset.definitionId===id)return;
     }
-    const d=state.defs.get(id),el=document.createElement("div");
+    const d=resolve(id),el=document.createElement("div");
     el.className="definition-insert";el.dataset.definitionId=id;
     if(!d)el.textContent="This mathDef definition is not currently available: "+id;
     else{
-      const forms=d.formulations?.length?d.formulations:[{key:"primary",body:d.body,source:d.source,label:"Definition"}],best=forms[0];
-      el.innerHTML='<h5>Definition: '+esc(d.term)+'</h5><div class="definition">'+paras(best.body||d.body||"",null)+'</div>'+
-        '<a class="source" href="'+href(best.source||d.source)+'" target="_blank" rel="noopener noreferrer">Definition source ↗</a>'+
+      const forms=mathdef.orderedForms(d,{
+        sourceSubject:target.dataset.sourceSubject||"",
+        preferredMeaningId:target.dataset.preferredMeaning||null,
+        preferredFormulationId:target.dataset.preferredFormulation||null,
+        legacyOriginalId:target.dataset.originalDefId||null,
+      });
+      const best=forms[0];
+      const formBody=(f)=>paras(f.body||d.body||"",{area:f.subject||""});
+      const cited=best?.source||d.source;
+      const sourceLink=cited&&/^https:\/\//i.test(cited)?
+        '<a class="source" href="'+href(cited)+'" target="_blank" rel="noopener noreferrer">Definition source ↗</a>':
+        '<a class="source" href="https://zengez.github.io/mathDef/" target="_blank" rel="noopener noreferrer">View mathDef ↗</a>';
+      el.innerHTML='<h5>Definition: '+esc(d.term)+'</h5><div class="definition">'+
+        formBody(best)+'</div>'+sourceLink+
         (forms.length>1?'<details><summary>'+forms.length+' contextual formulations</summary>'+
-          forms.slice(1).map(f=>'<div class="definition"><p><strong>'+esc(f.label||"Alternative")+'</strong></p>'+paras(f.body||"",null)+'</div>').join("")+'</details>':"");
-      const deps=(d.dependencies||[]).filter(v=>v?.id&&state.defs.has(v.id)&&!path.includes(v.id)&&v.id!==id);
+          forms.slice(1).map(f=>'<div class="definition"><p><strong>'+
+            esc(f.label||f.subject||"Alternative")+'</strong></p>'+formBody(f)+'</div>').join("")+
+          '</details>':"");
+      // Reference per-formulation dependencies, not group-wide dependencies
+      // from a possibly different mathematical context.
+      const deps=(best?.dependencies||[]).filter(v=>v?.id&&resolve(v.id)&&
+        !path.includes(resolve(v.id).id)&&resolve(v.id).id!==id);
       if(deps.length){
         const wrap=document.createElement("div");wrap.className="def-dependencies";const seen=new Set();
         for(const v of deps.slice(0,16)){
-          if(seen.has(v.id))continue;seen.add(v.id);
-          const b=document.createElement("button");b.type="button";b.dataset.defId=v.id;
-          b.dataset.defPath=JSON.stringify([...path,id]);b.textContent="Definition: "+state.defs.get(v.id).term;wrap.append(b);
+          const resolved=resolve(v.id);if(seen.has(resolved.id))continue;seen.add(resolved.id);
+          const b=document.createElement("button");b.type="button";b.dataset.defId=resolved.id;
+          b.dataset.defPath=JSON.stringify([...path,id]);
+          b.dataset.sourceSubject=best.subject||"";
+          b.dataset.preferredMeaning=v.target_meaning||"";
+          b.dataset.preferredFormulation=v.preferred_formulation||"";
+          b.textContent="Definition: "+resolved.term;wrap.append(b);
         }
         el.append(wrap);
       }
@@ -119,20 +147,54 @@
     if(!response.ok)throw new Error("HTTP "+response.status+" for "+url);
     return response.json();
   }
+  async function liveV2(){
+    const base="https://zengez.github.io/mathDef/api/definitions/v2/";
+    const manifest=await json(base+"manifest.json");
+    if(manifest.schema!=="mathdef.definition-manifest.v2" ||
+       manifest.snapshot_schema!=="mathdef.definition-snapshot.v2" ||
+       manifest.dataset!=="merged" ||
+       !/^[0-9a-f]{64}$/.test(manifest.sha256||"") ||
+       manifest.version!=="sha256:"+manifest.sha256 ||
+       manifest.snapshot_path!=="snapshot.json")throw Error("Unexpected mathDef v2 manifest");
+    const response=await fetch(base+manifest.snapshot_path+"?v="+manifest.sha256,
+                               {cache:"no-cache"});
+    if(!response.ok)throw Error("HTTP "+response.status);
+    const raw=await response.arrayBuffer();
+    if(!globalThis.crypto?.subtle)throw Error("Web Crypto checksum unavailable");
+    const digest=Array.from(new Uint8Array(await globalThis.crypto.subtle.digest("SHA-256",raw)))
+      .map(x=>x.toString(16).padStart(2,"0")).join("");
+    if(digest!==manifest.sha256)throw Error("mathDef v2 snapshot integrity check failed");
+    const defs=JSON.parse(new TextDecoder().decode(raw));
+    if(defs.definitions?.length!==manifest.definition_count)throw Error("Incomplete mathDef v2");
+    return defs;
+  }
   async function loadMathDef(){
     let defs,from="";
-    try{defs=await json("./mathdef-snapshot.json");from="site-build snapshot";}
-    catch(_e){try{
-      const base="https://zengez.github.io/mathDef/api/definitions/v1/";
-      const manifest=await json(base+"manifest.json");
-      defs=await json(base+manifest.snapshot_path+"?v="+encodeURIComponent(manifest.sha256));
-      from="live snapshot";
-    }catch(_e2){/* Search still works without optional definition service. */}}
-    if(Array.isArray(defs?.definitions)&&defs.definitions.length){
-      state.defs=new Map(defs.definitions.map(d=>[d.id,d]));state.fullHtmlCache.clear();rebuildLabels();
-      $("definitions-status").textContent="mathDef definitions loaded ("+state.defs.size+
-        "; "+from+"). Click a linked mathematical term to expand its definition here.";render();
-    }else $("definitions-status").textContent="mathDef definitions unavailable. Search and proof links work; definition expansion requires the snapshot.";
+    try{
+      defs=await json("./mathdef-snapshot.json");from="verified site-build v2 snapshot";
+      if(defs?.schema!=="mathdef.definition-snapshot.v2")
+        throw Error("Old or invalid site-build snapshot");
+    }catch(_e){
+      try{defs=await liveV2();from="live verified v2 snapshot";}
+      catch(_e2){/* Theorem search remains usable if feed is unavailable. */}
+    }
+    try{
+      if(!defs)throw Error("No available mathDef feed");
+      const reference=mathdef.index(defs);
+      state.definitions=reference;
+      state.defs=reference.groups;
+      state.fullHtmlCache.clear();
+      state.snapshotVersion="v2";
+      rebuildLabels();
+      $("definitions-status").textContent="mathDef v2 definitions loaded ("+
+        state.defs.size+" terms; "+from+
+        "). Click a linked mathematical term to expand its definition here.";
+      render();
+    }catch(error){
+      $("definitions-status").textContent=
+        "mathDef v2 definitions unavailable. Theorem search still works; definition expansion requires a verified v2 snapshot.";
+      console.warn("mathThm mathDef v2 loader:",error.message);
+    }
   }
   async function init(){
     try{
