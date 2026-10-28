@@ -1,0 +1,31 @@
+name: Reconcile Phase 2 individual semantic statuses
+on:
+  push:
+    paths:
+      - .github/workflows/reconcile-phase2-semantic-statuses.yml
+      - scripts/phase2_semantic_reconcile.py
+      - harvest/phase2_semantic_gate_2026-10-28/INDIVIDUAL_DECISIONS.jsonl
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reconcile every draft-ready candidate by original candidate ID
+        run: python -m scripts.phase2_semantic_reconcile
+      - name: Run regression suite
+        run: python -m unittest discover -s tests -q
+      - name: Store per-candidate Phase 2 states
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/phase2_semantic_gate_2026-10-28/ALL_DRAFT_READY_STATES.jsonl harvest/phase2_semantic_gate_2026-10-28/VALIDATION.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Index each preliminary draft by individual Phase 2 semantic review state"
+          git pull --rebase origin main
+          git push origin main
