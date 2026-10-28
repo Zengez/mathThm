@@ -3,6 +3,9 @@ on:
   push:
     paths:
       - .github/workflows/run-stacks-section-walk-pilot.yml
+      - scripts/stacks_section_walk_pilot.py
+      - scripts/validate_section_walk_pilot.py
+      - harvest/SECTION_WALK_PILOT_STANDALONE_REVIEWS_2026-10-28.jsonl
   workflow_dispatch:
 permissions:
   contents: write
@@ -44,11 +47,16 @@ jobs:
           assert all(e["kind"]!="proof_body" for e in events)
           print(json.dumps(m,sort_keys=True))
           PY
-      - name: Save pilot packet and scope events only
+      - name: Audit reviewed standalone statements and strict lexical scope expiration
+        run: python -m scripts.validate_section_walk_pilot
+      - name: Run full Python regression suite
+        run: python -m unittest discover -s tests -q
+      - name: Save pilot packets, scope events, checkpoints and metrics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add harvest/SECTION_WALK_PILOT_PACKETS_2026-10-28.jsonl harvest/SECTION_WALK_PILOT_EVENTS_2026-10-28.jsonl harvest/SECTION_WALK_PILOT_MANIFEST_2026-10-28.json
+          git add harvest/SECTION_WALK_PILOT_PACKETS_2026-10-28.jsonl harvest/SECTION_WALK_PILOT_EVENTS_2026-10-28.jsonl harvest/SECTION_WALK_PILOT_MANIFEST_2026-10-28.json harvest/SECTION_WALK_PILOT_CONTEXT_CHECKPOINTS_2026-10-28.jsonl harvest/SECTION_WALK_PILOT_VALIDATION_2026-10-28.json
+          test -z "$(git diff --name-only -- data/theorems.json harvest/batches harvest/active_candidate_ids.jsonl)"
           if ! git diff --cached --quiet; then
             git commit -m "Record bounded scoped section walkthrough of Stacks flat morphisms"
             git pull --rebase origin main
