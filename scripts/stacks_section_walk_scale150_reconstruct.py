@@ -67,16 +67,20 @@ PATCHES={
  "note":"The external reference offers further consequences rather than supplying the stated hypotheses; it is kept in provenance and removed from display.",
 },
 "lemma-colimit-normal-ring":{
- "note":"Directed system is a standard explicit mathematical quantifier; the source category-definition reference is preserved as provenance, not an additional premise.",
+ "tex":r"Let \((R_i,\varphi_{ii'})\) be a directed system of commutative unital rings, and let \(R=\operatorname*{colim}_iR_i\). If every \(R_i\) is a normal ring, then \(R\) is normal.",
+ "note":"Directed system and normality are defined mathematical terms; this theorem needs no extra hypothesis from the categories reference.",
 },
 "lemma-going-up-down-specialization":{
- "note":"Going up and going down are defined at line 9531; specialization order on Spec(R) is given in the section introduction. Preserve the equivalences of these two source notions.",
+ "tex":r"Let \(R\to S\) be a ring map and \(f:\operatorname{Spec}(S)\to\operatorname{Spec}(R)\) its induced continuous map. The ring map satisfies going down if and only if generalizations lift along \(f\); it satisfies going up if and only if specializations lift along \(f\).",
+ "note":"Uses the exact prime-ideal specialization order given in this section and the two going-up/down definitions at line 9531.",
 },
 "proposition-going-down-normal-integral":{
- "note":"Going-down is a locally defined property of ring maps, and the full quantified prime-lifting condition is already in the original statement.",
+ "tex":r"Let \(R\subseteq S\) be an integral extension of domains with \(R\) normal. If \(\mathfrak p\subseteq\mathfrak p'\) are prime ideals of \(R\), and \(\mathfrak q'\subseteq S\) is prime with \(\mathfrak q'\cap R=\mathfrak p'\), then there exists a prime ideal \(\mathfrak q\subseteq\mathfrak q'\) with \(\mathfrak q\cap R=\mathfrak p\). Thus \(R\to S\) satisfies going down.",
+ "note":"Preserves the complete source prime-lifting quantifiers; the final property name uses the precise definition encountered later in the consecutive section sequence.",
 },
 "lemma-disjoint-implies-product":{
- "note":"The source's product-spectrum lemma identifies the canonical maps. Its source reference is explanatory, but the actual product decomposition and both localization/quotient properties must be retained.",
+ "tex":r"Let \(R\) be a ring and let \(\operatorname{Spec}(R)=U\amalg V\) be a disjoint union of two open subsets. Then there are rings \(R_1,R_2\) with \(R\cong R_1\times R_2\), under which \(U\cong\operatorname{Spec}(R_1)\) and \(V\cong\operatorname{Spec}(R_2)\); moreover each \(R_i\) is both a localization and a quotient of \(R\).",
+ "note":"Explicitly states the product decomposition and both ring-theoretic properties without a source lemma cross-reference.",
 },
 "lemma-flat":{
  "hyp":[r"R is a ring.",r"M is an R-module."],
@@ -201,13 +205,13 @@ def main():
             # Editorial label citations may be stripped only after manual
             # review of their role. Store the source refs separately.
             if label in EDITORIAL_REFS and r"\ref{" in statement:
-                # For these cases preserve the underlying literal source
-                # in source_statement_tex; remove only the explicit cross
-                # reference marker in the independent draft.
-                statement=REF.sub(r"(see the cited mathematical definition)",statement)
-                flags=[x for x in flags if x!="unexpanded_source_label_reference"]
-                # A source reference without full semantic expansion still
-                # requires a final definition-link review.
+                # Specific references here are editorial and may be omitted
+                # only when the source claim remains completely intact.
+                if label=="lemma-integral-over-field":
+                    statement=re.sub(
+                        r"\s*\(see Lemma \\ref\{lemma-ring-with-only-minimal-primes\} for more consequences\)",
+                        "",statement)
+                flags=semantic_issues(statement,pkt)
             local_notes=patch.get("note")
             in_scope=[z for z in references if z["source_start_line"]<=pkt["source_statement_line"]]
             extra_issues=[]
