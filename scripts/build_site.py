@@ -15,7 +15,10 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-from scripts.theorem_schema import validate as validate_theorem_catalog
+if __package__:
+    from .theorem_schema import validate as validate_theorem_catalog
+else:
+    from theorem_schema import validate as validate_theorem_catalog
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "_site"
