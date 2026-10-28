@@ -1,0 +1,27 @@
+{
+  "all_pass3_eligible": false,
+  "candidate_count": 15,
+  "checkpoint_count": 15,
+  "drafts_require_final_source_equivalence_validation": true,
+  "durable_scope_rules": 1,
+  "local_condition_by_category": {
+    "locally_of_finite_presentation": 8,
+    "locally_of_finite_type": 5,
+    "none": 2
+  },
+  "local_lemma_scopes_popped": 15,
+  "mathematical_truth_checked": false,
+  "no_local_finiteness_leak": true,
+  "note": "Persistent Situation justified by explicit section introduction and per-lemma citations; none of the lemma-local finiteness requirements persists to later lemmas.",
+  "one_explicit_section_wide_named_situation_reviewed": true,
+  "original_source_pass2_modified": false,
+  "persistent_section_context_must_expire_at_line": 2127,
+  "proofs_reviewed": 0,
+  "schema": "maththm.section-walk-limits-validation.v1",
+  "scope_reference_reuse_opportunities": 14,
+  "section": "limits.tex:1729-2127",
+  "source_lines": 399,
+  "source_reference_resolution_per_candidate": 15,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "standalone_drafts": 15
+}
