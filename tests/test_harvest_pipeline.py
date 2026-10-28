@@ -95,6 +95,8 @@ class HarvestTests(unittest.TestCase):
             self.assertEqual(row["status"],"raw_candidate_unreviewed")
             self.assertNotIn("proof_text",row)
             self.assertIn("#L",row["source"]["proof_url"])
+            proof_line=row["source"]["proof_start_line"]
+            self.assertEqual(self.source.read_text().splitlines()[proof_line-1].strip(),r"\begin{proof}")
             self.assertEqual(row["source"]["revision"],REF)
         harvest_stacks.run(argparse.Namespace(
             source_root=str(self.root),source_ref=REF,files=[str(self.source)],
