@@ -40,6 +40,7 @@ def main():
     situation_seen=False
     situation_live=False
     candidate_rows=[]
+    lemma_end_lines=[]
     local_types=Counter()
     entered=Counter()
     exited=Counter()
@@ -56,6 +57,8 @@ def main():
             assert stack and stack[-1][0]==event["environment"],(stack,event)
             env,line=stack.pop()
             exited[env]+=1
+            if env=="lemma":
+                lemma_end_lines.append(event["line"])
             if env=="situation":
                 assert situation_seen and line==1738
                 # The ambient content is now established *only because*
@@ -117,6 +120,8 @@ def main():
             })
     assert not stack and situation_live
     assert seen==set(drafts)
+    assert len(candidate_rows)==len(lemma_end_lines)==15
+    assert all(end>candidate_rows[i]["source_line"] for i,end in enumerate(lemma_end_lines))
     assert entered["situation"]==exited["situation"]==1
     assert entered["lemma"]==exited["lemma"]==15
     assert local_types=={"none":2,"locally_of_finite_type":5,
@@ -133,6 +138,8 @@ def main():
             "section_id":"limits:section-descent-of-properties",
             "after_candidate_id":item["candidate_id"],
             "after_candidate_source_start_line":item["source_line"],
+            "after_candidate_environment_end_line":lemma_end_lines[i],
+            "resume_source_line_after_environment":lemma_end_lines[i]+1,
             "completed_candidates_in_section":[r["candidate_id"] for r in candidate_rows[:i+1]],
             "current_standing_context_ids":[scope["context_id"]],
             "standing_hypotheses":scope["hypotheses"],
