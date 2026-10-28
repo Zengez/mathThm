@@ -53,6 +53,14 @@ def main():
     exited=Counter()
     extra_source_formals=0
     excluded=completed_section_starts()
+    # Once the successful batch is registered, allow revalidation of its
+    # own sections; reject only overlap with *other* completed batches.
+    registry_file=Path("harvest/SECTION_WALK_COMPLETED_SECTIONS.json")
+    if registry_file.exists():
+        registry=json.loads(registry_file.read_text(encoding="utf-8"))
+        for old in registry.get("sections",[]):
+            if old.get("batch")=="scale300_2026-10-28":
+                excluded.setdefault(old["source_file"],set()).discard(old["section_start_line"])
     for s in m["section_inventory"]:
         key=s["key"]
         file=s["source_filename"]
