@@ -6,10 +6,10 @@ Pinned source: `a04446e57ec1fbc252a871afcec7752fb2807b14`
 - Fully processed source sections: **61**. No section skipped or truncated.
 - Source lines traversed: **15,822**.
 - Distinct active canonical candidates drafted: **315**.
-- Preliminary draft-ready (pending mathematical equivalence review): **5**.
-- Held for source-context/logic review: **310**.
+- Preliminary draft-ready (pending mathematical equivalence review): **251**.
+- Held for source-context/logic review: **64**.
 - Named source context records: **59**.
-- Unadjudicated source prose/scope leads: **15**.
+- Source prose/scope leads captured: **15**; **2** durable-looking convention signals source-adjudicated, not inherited as premises.
 - Complete-section checkpoints: **61**.
 - Cumulative section-draft registry: **141** sections and **869** candidates.
 
@@ -25,4 +25,4 @@ status is not a truth certificate.
 
 Reproduce with `python -m scripts.stacks_two_complete_chapters` after
 checking out the pinned Stacks source in `upstream/stacks`; this command
-refuses an overlapping new batch and is not a registered-batch replay mode.
+permits deterministic replay of its own registered batch while refusing overlaps with others.

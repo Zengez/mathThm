@@ -37,8 +37,8 @@
     {
       "active_candidates": 1,
       "chapter": "varieties.tex",
-      "context_held": 1,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 1,
       "key": "s003",
       "section_complete": true,
       "section_title": "Varieties"
@@ -46,8 +46,8 @@
     {
       "active_candidates": 2,
       "chapter": "varieties.tex",
-      "context_held": 2,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 2,
       "key": "s004",
       "section_complete": true,
       "section_title": "Varieties and rational maps"
@@ -55,8 +55,8 @@
     {
       "active_candidates": 1,
       "chapter": "varieties.tex",
-      "context_held": 1,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 1,
       "key": "s005",
       "section_complete": true,
       "section_title": "Change of fields and local rings"
@@ -64,8 +64,8 @@
     {
       "active_candidates": 8,
       "chapter": "varieties.tex",
-      "context_held": 8,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 6,
       "key": "s006",
       "section_complete": true,
       "section_title": "Geometrically reduced schemes"
@@ -73,8 +73,8 @@
     {
       "active_candidates": 17,
       "chapter": "varieties.tex",
-      "context_held": 17,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 14,
       "key": "s007",
       "section_complete": true,
       "section_title": "Geometrically connected schemes"
@@ -82,8 +82,8 @@
     {
       "active_candidates": 16,
       "chapter": "varieties.tex",
-      "context_held": 16,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 13,
       "key": "s008",
       "section_complete": true,
       "section_title": "Geometrically irreducible schemes"
@@ -91,8 +91,8 @@
     {
       "active_candidates": 4,
       "chapter": "varieties.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 4,
       "key": "s009",
       "section_complete": true,
       "section_title": "Geometrically integral schemes"
@@ -100,8 +100,8 @@
     {
       "active_candidates": 6,
       "chapter": "varieties.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 4,
       "key": "s010",
       "section_complete": true,
       "section_title": "Geometrically normal schemes"
@@ -109,8 +109,8 @@
     {
       "active_candidates": 1,
       "chapter": "varieties.tex",
-      "context_held": 1,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 1,
       "key": "s011",
       "section_complete": true,
       "section_title": "Change of fields and locally Noetherian schemes"
@@ -118,8 +118,8 @@
     {
       "active_candidates": 5,
       "chapter": "varieties.tex",
-      "context_held": 5,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 2,
       "key": "s012",
       "section_complete": true,
       "section_title": "Geometrically regular schemes"
@@ -127,8 +127,8 @@
     {
       "active_candidates": 1,
       "chapter": "varieties.tex",
-      "context_held": 1,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 1,
       "key": "s013",
       "section_complete": true,
       "section_title": "Change of fields and the Cohen-Macaulay property"
@@ -145,8 +145,8 @@
     {
       "active_candidates": 5,
       "chapter": "varieties.tex",
-      "context_held": 5,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 5,
       "key": "s015",
       "section_complete": true,
       "section_title": "Change of fields and ample invertible sheaves"
@@ -154,8 +154,8 @@
     {
       "active_candidates": 6,
       "chapter": "varieties.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 3,
       "key": "s016",
       "section_complete": true,
       "section_title": "Tangent spaces"
@@ -163,8 +163,8 @@
     {
       "active_candidates": 3,
       "chapter": "varieties.tex",
-      "context_held": 3,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 3,
       "key": "s017",
       "section_complete": true,
       "section_title": "Generically finite morphisms"
@@ -172,8 +172,8 @@
     {
       "active_candidates": 5,
       "chapter": "varieties.tex",
-      "context_held": 5,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 4,
       "key": "s018",
       "section_complete": true,
       "section_title": "Variants of Noether normalization"
@@ -181,8 +181,8 @@
     {
       "active_candidates": 3,
       "chapter": "varieties.tex",
-      "context_held": 3,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 3,
       "key": "s019",
       "section_complete": true,
       "section_title": "Dimension of fibres"
@@ -190,8 +190,8 @@
     {
       "active_candidates": 4,
       "chapter": "varieties.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 2,
       "key": "s020",
       "section_complete": true,
       "section_title": "Algebraic schemes"
@@ -208,8 +208,8 @@
     {
       "active_candidates": 3,
       "chapter": "varieties.tex",
-      "context_held": 3,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 3,
       "key": "s022",
       "section_complete": true,
       "section_title": "Global generation"
@@ -217,8 +217,8 @@
     {
       "active_candidates": 2,
       "chapter": "varieties.tex",
-      "context_held": 2,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 1,
       "key": "s023",
       "section_complete": true,
       "section_title": "Separating points and tangent vectors"
@@ -226,8 +226,8 @@
     {
       "active_candidates": 3,
       "chapter": "varieties.tex",
-      "context_held": 3,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 2,
       "key": "s024",
       "section_complete": true,
       "section_title": "Closures of products"
@@ -235,8 +235,8 @@
     {
       "active_candidates": 11,
       "chapter": "varieties.tex",
-      "context_held": 11,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 11,
       "key": "s025",
       "section_complete": true,
       "section_title": "Schemes smooth over fields"
@@ -244,8 +244,8 @@
     {
       "active_candidates": 1,
       "chapter": "varieties.tex",
-      "context_held": 1,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 1,
       "key": "s026",
       "section_complete": true,
       "section_title": "Types of varieties"
@@ -253,8 +253,8 @@
     {
       "active_candidates": 6,
       "chapter": "varieties.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 4,
       "key": "s027",
       "section_complete": true,
       "section_title": "Normalization"
@@ -262,8 +262,8 @@
     {
       "active_candidates": 6,
       "chapter": "varieties.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 6,
       "key": "s028",
       "section_complete": true,
       "section_title": "Groups of invertible functions"
@@ -271,8 +271,8 @@
     {
       "active_candidates": 2,
       "chapter": "varieties.tex",
-      "context_held": 2,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 1,
       "key": "s029",
       "section_complete": true,
       "section_title": "K\\\"unneth formula, I"
@@ -280,8 +280,8 @@
     {
       "active_candidates": 4,
       "chapter": "varieties.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 4,
       "key": "s030",
       "section_complete": true,
       "section_title": "Picard groups of varieties"
@@ -289,8 +289,8 @@
     {
       "active_candidates": 1,
       "chapter": "varieties.tex",
-      "context_held": 1,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 1,
       "key": "s031",
       "section_complete": true,
       "section_title": "Uniqueness of base field"
@@ -298,8 +298,8 @@
     {
       "active_candidates": 1,
       "chapter": "varieties.tex",
-      "context_held": 1,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 1,
       "key": "s032",
       "section_complete": true,
       "section_title": "Automorphisms"
@@ -307,8 +307,8 @@
     {
       "active_candidates": 4,
       "chapter": "varieties.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 4,
       "key": "s033",
       "section_complete": true,
       "section_title": "Euler characteristics"
@@ -316,8 +316,8 @@
     {
       "active_candidates": 4,
       "chapter": "varieties.tex",
-      "context_held": 4,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 4,
       "key": "s034",
       "section_complete": true,
       "section_title": "Projective space"
@@ -325,8 +325,8 @@
     {
       "active_candidates": 10,
       "chapter": "varieties.tex",
-      "context_held": 10,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 9,
       "key": "s035",
       "section_complete": true,
       "section_title": "Coherent sheaves on projective space"
@@ -334,8 +334,8 @@
     {
       "active_candidates": 8,
       "chapter": "varieties.tex",
-      "context_held": 8,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 8,
       "key": "s036",
       "section_complete": true,
       "section_title": "Frobenii"
@@ -343,8 +343,8 @@
     {
       "active_candidates": 11,
       "chapter": "varieties.tex",
-      "context_held": 11,
-      "draft_ready": 0,
+      "context_held": 5,
+      "draft_ready": 6,
       "key": "s037",
       "section_complete": true,
       "section_title": "Glueing dimension one rings"
@@ -352,8 +352,8 @@
     {
       "active_candidates": 12,
       "chapter": "varieties.tex",
-      "context_held": 12,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 12,
       "key": "s038",
       "section_complete": true,
       "section_title": "One dimensional Noetherian schemes"
@@ -361,8 +361,8 @@
     {
       "active_candidates": 6,
       "chapter": "varieties.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 4,
       "key": "s039",
       "section_complete": true,
       "section_title": "The delta invariant"
@@ -370,8 +370,8 @@
     {
       "active_candidates": 5,
       "chapter": "varieties.tex",
-      "context_held": 5,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 5,
       "key": "s040",
       "section_complete": true,
       "section_title": "The number of branches"
@@ -379,8 +379,8 @@
     {
       "active_candidates": 2,
       "chapter": "varieties.tex",
-      "context_held": 2,
-      "draft_ready": 0,
+      "context_held": 0,
+      "draft_ready": 2,
       "key": "s041",
       "section_complete": true,
       "section_title": "Normalization of one dimensional schemes"
@@ -388,8 +388,8 @@
     {
       "active_candidates": 7,
       "chapter": "varieties.tex",
-      "context_held": 7,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 4,
       "key": "s042",
       "section_complete": true,
       "section_title": "Finding affine opens"
@@ -397,8 +397,8 @@
     {
       "active_candidates": 8,
       "chapter": "varieties.tex",
-      "context_held": 8,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 5,
       "key": "s043",
       "section_complete": true,
       "section_title": "Curves"
@@ -406,8 +406,8 @@
     {
       "active_candidates": 16,
       "chapter": "varieties.tex",
-      "context_held": 16,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 15,
       "key": "s044",
       "section_complete": true,
       "section_title": "Degrees on curves"
@@ -415,8 +415,8 @@
     {
       "active_candidates": 8,
       "chapter": "varieties.tex",
-      "context_held": 8,
-      "draft_ready": 0,
+      "context_held": 3,
+      "draft_ready": 5,
       "key": "s045",
       "section_complete": true,
       "section_title": "Numerical intersections"
@@ -433,8 +433,8 @@
     {
       "active_candidates": 2,
       "chapter": "varieties.tex",
-      "context_held": 2,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 1,
       "key": "s047",
       "section_complete": true,
       "section_title": "Bertini theorems"
@@ -442,8 +442,8 @@
     {
       "active_candidates": 3,
       "chapter": "varieties.tex",
-      "context_held": 3,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 2,
       "key": "s048",
       "section_complete": true,
       "section_title": "Enriques-Severi-Zariski"
@@ -469,8 +469,8 @@
     {
       "active_candidates": 10,
       "chapter": "topologies.tex",
-      "context_held": 5,
-      "draft_ready": 5,
+      "context_held": 2,
+      "draft_ready": 8,
       "key": "s051",
       "section_complete": true,
       "section_title": "The Zariski topology"
@@ -478,8 +478,8 @@
     {
       "active_candidates": 11,
       "chapter": "topologies.tex",
-      "context_held": 11,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 10,
       "key": "s052",
       "section_complete": true,
       "section_title": "The \\'etale topology"
@@ -487,8 +487,8 @@
     {
       "active_candidates": 6,
       "chapter": "topologies.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 4,
       "key": "s053",
       "section_complete": true,
       "section_title": "The smooth topology"
@@ -496,8 +496,8 @@
     {
       "active_candidates": 6,
       "chapter": "topologies.tex",
-      "context_held": 6,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 4,
       "key": "s054",
       "section_complete": true,
       "section_title": "The syntomic topology"
@@ -505,8 +505,8 @@
     {
       "active_candidates": 8,
       "chapter": "topologies.tex",
-      "context_held": 8,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 7,
       "key": "s055",
       "section_complete": true,
       "section_title": "The fppf topology"
@@ -514,8 +514,8 @@
     {
       "active_candidates": 11,
       "chapter": "topologies.tex",
-      "context_held": 11,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 9,
       "key": "s056",
       "section_complete": true,
       "section_title": "The ph topology"
@@ -523,8 +523,8 @@
     {
       "active_candidates": 10,
       "chapter": "topologies.tex",
-      "context_held": 10,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 9,
       "key": "s057",
       "section_complete": true,
       "section_title": "The fpqc topology"
@@ -532,8 +532,8 @@
     {
       "active_candidates": 11,
       "chapter": "topologies.tex",
-      "context_held": 11,
-      "draft_ready": 0,
+      "context_held": 2,
+      "draft_ready": 9,
       "key": "s058",
       "section_complete": true,
       "section_title": "The V topology"
@@ -550,8 +550,8 @@
     {
       "active_candidates": 2,
       "chapter": "topologies.tex",
-      "context_held": 2,
-      "draft_ready": 0,
+      "context_held": 1,
+      "draft_ready": 1,
       "key": "s060",
       "section_complete": true,
       "section_title": "Change of big sites"
@@ -572,7 +572,7 @@
   ],
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
   "status_counts": {
-    "context_resolution_pending": 310,
-    "standalone_draft_ready_for_validation": 5
+    "context_resolution_pending": 64,
+    "standalone_draft_ready_for_validation": 251
   }
 }

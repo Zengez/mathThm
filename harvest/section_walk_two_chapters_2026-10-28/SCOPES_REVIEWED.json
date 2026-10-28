@@ -1,0 +1,26 @@
+{
+  "adjudicated_durable_count": 2,
+  "approved_new_theorem_hypotheses": 0,
+  "chapter_boundary_discards_varieties_notation": true,
+  "note": "Reviewed the actual pinned-source excerpts: ground-field naming and the small-Zariski-sheaf equivalence are not extra universally imposed theorem assumptions.",
+  "remaining_local_or_unclassified_prose_leads": 13,
+  "reviewed_signals": [
+    {
+      "candidate_hypothesis": false,
+      "line": 35,
+      "meaning": "The symbol k denotes the ground field",
+      "scope": "through chapter 33, discharged at transition to chapter 34",
+      "source_filename": "varieties.tex",
+      "type": "chapter_notation_convention"
+    },
+    {
+      "candidate_hypothesis": false,
+      "line": 384,
+      "meaning": "Identify sheaves on the small Zariski site S_Zar with sheaves on S through the specified equivalence",
+      "scope": "from topologies.tex line 384 through chapter 34",
+      "source_filename": "topologies.tex",
+      "type": "standing_terminological_identification"
+    }
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14"
+}
