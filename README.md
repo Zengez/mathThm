@@ -2,6 +2,8 @@
 
 **Current status (2026-10-23): the 20-result theorem prototype, search interface, proof links, mathDef snapshot consumer and GitHub Actions workflow are implemented.** Automated prototype build/tests passed; the consumer has now been upgraded to mathDef's canonical v2 merged snapshot. **GitHub Pages is enabled and deployed successfully**, with the initial live URL at https://zengez.github.io/mathThm/ . See [PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md) for testing and current limitations. Mathematical statements/proofs are NOT rigorously verified.
 
+**Current acquisition checkpoint — October 28, 2026:** The prototype's recognized working population is now **9,683 source-structured candidates**, recorded in [the active Pass 3 intake pool](harvest/ACTIVE_CANDIDATE_POOL.json) and [its candidate-ID file](harvest/active_candidate_ids.jsonl). Any harder historical cases have been set aside in [the future-discovery problem registry](harvest/problem_candidates.jsonl); they are not active backlog or routine progress figures. Pass 3 proof screening has not begun and none of these indexed candidates is automatically published or independently verified. Read the latest [work checkpoint](WORK_CHECKPOINT.md) before using older dated Pass 2 summaries.
+
 mathThm is a companion to [mathDef](https://github.com/Zengez/mathDef). Its goal is a searchable, source-attributed collection of mathematical results, with separate searches for hypotheses and conclusions and contextual, expandable definitions provided by mathDef.
 
 ## Read these before doing any work
