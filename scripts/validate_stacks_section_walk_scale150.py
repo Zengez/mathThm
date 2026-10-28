@@ -120,8 +120,17 @@ def main():
             if r["status"]==READY:
                 assert not r["context_resolution_needed"],r["source_label"]
                 assert r"\ref{" not in r["standalone_statement_tex"],r["source_label"]
+                assert all(r"\ref{" not in fragment for fragment in
+                           r["draft_hypotheses"]+r["draft_conclusions"]+
+                           r["additional_conclusions"]),r["source_label"]
             else:
                 assert r["context_resolution_needed"]
+            if r["source_enumeration_logical_form"]=="equivalent_conditions":
+                assert len(r["draft_conclusions"])>=len(r["source_enumerated_clauses"]),r["source_label"]
+                assert not set(r["draft_hypotheses"]) & set(r["source_enumerated_clauses"]),r["source_label"]
+            if r["source_enumeration_logical_form"]=="existential_witness_properties":
+                assert r["draft_conclusions"]
+                assert "simultaneously" in " ".join(r["draft_conclusions"]),r["source_label"]
             assert set(r["applicable_named_definition_ids"])=={
                 d["label"] for d in definitions
                 if d["source_start_line"]<=r["source_statement_line"]
@@ -228,6 +237,9 @@ def main():
         "complete_section_checkpoints":19,
         "source_reference_uses":all_refs,
         "statement_logical_shapes":dict(sorted(logical.items())),
+        "equivalence_clause_scope_crosschecks_applied":True,
+        "standalone_ready_hypotheses_and_conclusions_have_no_source_ref_placeholders":True,
+        "joint_existential_witness_claims_kept_grouped":True,
         "all_hypotheses_scoped_without_leakage":True,
         "all_candidates_final_source_equivalence_validated":False,
         "proofs_reviewed":0,
