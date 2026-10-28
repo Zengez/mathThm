@@ -1,0 +1,246 @@
+{
+  "schema": "maththm.section-walk-completed-draft-section-registry.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "meaning": "All sections that were fully traversed and given standalone editorial candidate drafts, not proof-screened or final math-validated. Exclude these from subsequent new-work section selection.",
+  "sections_completed_for_draft": 26,
+  "active_candidate_drafts_in_these_sections": 254,
+  "sections": [
+    {
+      "source_file": "morphisms.tex",
+      "section_start_line": 4615,
+      "section_end_line": 4994,
+      "active_candidate_count": 15,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/SECTION_WALK_PILOT_STANDALONE_REVIEWS_2026-10-28.jsonl",
+      "batch": "two_section_pilot_2026-10-28"
+    },
+    {
+      "source_file": "limits.tex",
+      "section_start_line": 1729,
+      "section_end_line": 2127,
+      "active_candidate_count": 15,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/SECTION_WALK_PILOT_LIMITS_STANDALONE_REVIEWS_2026-10-28.jsonl",
+      "batch": "two_section_pilot_2026-10-28"
+    },
+    {
+      "source_file": "morphisms.tex",
+      "section_start_line": 1710,
+      "section_end_line": 2110,
+      "active_candidate_count": 13,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale74_2026-10-28/affine_reviews.jsonl",
+      "batch": "scale74_2026-10-28"
+    },
+    {
+      "source_file": "morphisms.tex",
+      "section_start_line": 3522,
+      "section_end_line": 4053,
+      "active_candidate_count": 17,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale74_2026-10-28/quasi_finite_reviews.jsonl",
+      "batch": "scale74_2026-10-28"
+    },
+    {
+      "source_file": "morphisms.tex",
+      "section_start_line": 5718,
+      "section_end_line": 6136,
+      "active_candidate_count": 14,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale74_2026-10-28/syntomic_reviews.jsonl",
+      "batch": "scale74_2026-10-28"
+    },
+    {
+      "source_file": "morphisms.tex",
+      "section_start_line": 6337,
+      "section_end_line": 6858,
+      "active_candidate_count": 15,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale74_2026-10-28/differentials_reviews.jsonl",
+      "batch": "scale74_2026-10-28"
+    },
+    {
+      "source_file": "morphisms.tex",
+      "section_start_line": 7603,
+      "section_end_line": 8033,
+      "active_candidate_count": 15,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale74_2026-10-28/unramified_reviews.jsonl",
+      "batch": "scale74_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 4284,
+      "section_end_line": 4535,
+      "active_candidate_count": 4,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s01_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 4536,
+      "section_end_line": 4655,
+      "active_candidate_count": 4,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s02_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 4656,
+      "section_end_line": 4815,
+      "active_candidate_count": 4,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s03_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 4816,
+      "section_end_line": 5088,
+      "active_candidate_count": 0,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s04_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 5089,
+      "section_end_line": 5370,
+      "active_candidate_count": 6,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s05_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 5371,
+      "section_end_line": 5720,
+      "active_candidate_count": 10,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s06_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 5721,
+      "section_end_line": 5979,
+      "active_candidate_count": 8,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s07_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 5980,
+      "section_end_line": 6237,
+      "active_candidate_count": 10,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s08_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 6238,
+      "section_end_line": 6444,
+      "active_candidate_count": 6,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s09_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 6445,
+      "section_end_line": 6519,
+      "active_candidate_count": 2,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s10_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 6520,
+      "section_end_line": 6648,
+      "active_candidate_count": 1,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s11_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 6649,
+      "section_end_line": 7433,
+      "active_candidate_count": 14,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s12_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 7434,
+      "section_end_line": 7970,
+      "active_candidate_count": 22,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s13_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 7971,
+      "section_end_line": 8338,
+      "active_candidate_count": 14,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s14_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 8339,
+      "section_end_line": 8586,
+      "active_candidate_count": 6,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s15_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 8587,
+      "section_end_line": 9306,
+      "active_candidate_count": 19,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s16_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 9307,
+      "section_end_line": 9513,
+      "active_candidate_count": 7,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s17_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 9514,
+      "section_end_line": 9905,
+      "active_candidate_count": 10,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s18_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    },
+    {
+      "source_file": "algebra.tex",
+      "section_start_line": 9906,
+      "section_end_line": 10036,
+      "active_candidate_count": 3,
+      "review_level": "standalone_drafts_without_final_source_equivalence",
+      "artifacts": "harvest/section_walk_scale150_2026-10-28/s19_reviews.jsonl",
+      "batch": "scale150_2026-10-28"
+    }
+  ],
+  "all_final_standalone_equivalence_approved": false,
+  "all_pass3_eligible": false,
+  "public_corpus_changed": false
+}
