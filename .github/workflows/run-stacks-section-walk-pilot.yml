@@ -1,0 +1,56 @@
+name: Scoped Stacks section walk pilot — flat morphisms
+on:
+  push:
+    paths:
+      - .github/workflows/run-stacks-section-walk-pilot.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: stacks/stacks-project
+          ref: a04446e57ec1fbc252a871afcec7752fb2807b14
+          path: upstream/stacks
+          persist-credentials: false
+      - run: test "$(git -C upstream/stacks rev-parse HEAD)" = "a04446e57ec1fbc252a871afcec7752fb2807b14"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate scoped event stream and candidate work packets
+        run: python -m scripts.stacks_section_walk_pilot pack --file morphisms.tex --line 4615 --source-root upstream/stacks
+      - name: Assert complete bounded sample
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          from scripts import harvest_pipeline as p
+          base=Path("harvest")
+          m=json.loads((base/"SECTION_WALK_PILOT_MANIFEST_2026-10-28.json").read_text())
+          rows=p.read_jsonl(base/"SECTION_WALK_PILOT_PACKETS_2026-10-28.jsonl")
+          events=p.read_jsonl(base/"SECTION_WALK_PILOT_EVENTS_2026-10-28.jsonl")
+          assert m["candidate_count"]==len(rows)==15
+          assert m["section"]["file"]=="morphisms.tex"
+          assert m["section"]["line_start"]==4615
+          assert not m["proofs_read"] and not m["mathematical_statements_interpreted"]
+          assert not m["original_source_modified"]
+          assert len({r["candidate_id"] for r in rows})==15
+          assert all(r["candidate_review_status"]=="needs_actual_mathematical_standalone_reconstruction" for r in rows)
+          assert all(e["kind"]!="proof_body" for e in events)
+          print(json.dumps(m,sort_keys=True))
+          PY
+      - name: Save pilot packet and scope events only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/SECTION_WALK_PILOT_PACKETS_2026-10-28.jsonl harvest/SECTION_WALK_PILOT_EVENTS_2026-10-28.jsonl harvest/SECTION_WALK_PILOT_MANIFEST_2026-10-28.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record bounded scoped section walkthrough of Stacks flat morphisms"
+            git pull --rebase origin main
+            git push origin main
+          fi
