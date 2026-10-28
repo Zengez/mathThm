@@ -1,8 +1,9 @@
 {
-  "active_bulk_prototype_policy": "Exclude every ID in the unified registry. Only canonical resolved mathematical_result records are eligible for further validation.",
+  "active_bulk_prototype_policy": "Exclude every unresolved candidate ID in the unified registry, including all classification uncertainties. Only canonical resolved mathematical_result records are eligible for further validation.",
+  "archive_covers_all_unresolved": true,
   "by_batch": {
     "stacks-bulk-2026-10-28": 77,
-    "stacks-remaining-2026-10-28": 1075,
+    "stacks-remaining-2026-10-28": 1078,
     "stacks-second-2026-10-28": 149
   },
   "by_batch_and_difficulty": {
@@ -11,6 +12,7 @@
       "structural_complexity": 27
     },
     "stacks-remaining-2026-10-28": {
+      "classification_uncertain": 3,
       "inherited_context": 701,
       "structural_complexity": 374
     },
@@ -20,11 +22,15 @@
     }
   },
   "by_difficulty": {
+    "classification_uncertain": 3,
     "inherited_context": 862,
     "structural_complexity": 439
   },
   "by_subtype": {
+    "claim_dependent_on_unproven_assumptions": 1,
+    "conditional_result_assuming_conjecture": 1,
     "conditional_scope": 33,
+    "conjecture_special_case_claim": 1,
     "diagram_scope": 18,
     "editorial_placeholder": 40,
     "enumerated_conditions_or_results": 94,
@@ -33,20 +39,29 @@
     "nested_lists": 54,
     "unconditional_result_or_source_boundary": 152
   },
-  "classification_cases_remaining_separate": true,
-  "count": 1301,
+  "canonical_status_totals": {
+    "needs_classification": 3,
+    "needs_context": 862,
+    "needs_structure": 439,
+    "resolved": 9683
+  },
+  "classification_cases_included_in_registry": true,
+  "count": 1304,
   "deferred_file": "harvest/problem_candidates.jsonl",
   "deferred_statuses": {
+    "needs_classification": "classification_uncertain",
     "needs_context": "inherited_context",
     "needs_structure": "structural_complexity"
   },
   "future_rebuild_command": "python -m scripts.pass2_problem_candidates",
-  "future_work": "Review both groups after prototyping; neither signifies a rejected theorem",
+  "future_work": "Review all three difficulty groups after prototyping; deferral is not rejection or validity verification",
   "legacy_compatibility_file": "harvest/problem_candidates_inherited_context.jsonl",
-  "legacy_filename_now_includes_both_groups": true,
+  "legacy_filename_now_includes_all_groups": true,
   "proofs_read": false,
   "published_catalog_untouched": true,
   "quarantined_ids_are_in_active_resolved_set": false,
-  "schema": "maththm.deferred-problems.v2",
-  "source_of_truth": "Each batch's pass2.jsonl and pass1.jsonl"
+  "schema": "maththm.deferred-problems.v3",
+  "source_of_truth": "Each batch's pass2.jsonl and pass1.jsonl",
+  "unarchived_open_count": 0,
+  "unarchived_open_statuses": {}
 }
