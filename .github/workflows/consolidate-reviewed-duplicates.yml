@@ -1,0 +1,86 @@
+name: Consolidate reviewed duplicate theorem candidates
+on:
+  push:
+    paths:
+      - .github/workflows/consolidate-reviewed-duplicates.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  consolidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run full existing and new regression tests
+        run: python -m unittest discover -s tests -q
+      - name: Build reviewed canonical pool and provenance
+        run: python -m scripts.active_candidate_pool
+      - name: Audit merger decisions, source evidence and unchanged historical corpus
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from collections import Counter
+          from scripts import harvest_pipeline as p
+          from scripts.active_candidate_pool import IDS,MANIFEST,ARCHIVE,BATCHES
+          from scripts.candidate_consolidation import MERGED,DECISIONS,CROSSWALK
+          active=p.load_rows(IDS,"candidate_id")
+          archived=p.load_rows(ARCHIVE,"candidate_id")
+          manifest=json.loads(MANIFEST.read_text())
+          merged=p.load_rows(MERGED,"canonical_candidate_id")
+          decisions=p.read_jsonl(DECISIONS)
+          crosswalk=p.load_rows(CROSSWALK,"candidate_id")
+          assert len(active)==manifest["eligible_total"]==9675
+          assert len(merged)==8
+          assert len(decisions)==102
+          assert Counter(x["decision"] for x in decisions)=={"keep_separate":94,"merge":8}
+          assert len(crosswalk)==16
+          assert manifest["deduplication"]["source_active_total"]==9683
+          assert manifest["deduplication"]["merged_aliases"]==8
+          assert manifest["deduplication"]["alternate_proofs_retained_uninspected"]==8
+          assert not set(active)&set(archived)
+          primary=set()
+          allmembers=set()
+          for ident,m in merged.items():
+            assert ident in active
+            assert len(m["member_candidate_ids"])==2
+            assert len(m["source_references"])==2
+            assert len(m["proof_references"])==2
+            assert not m["proof_validity_assessed"]
+            assert {s["candidate_id"] for s in m["source_references"]}==set(m["member_candidate_ids"])
+            assert {s["candidate_id"] for s in m["proof_references"]}==set(m["member_candidate_ids"])
+            assert len({s["source_url"] for s in m["source_references"]})==2
+            assert len({s["proof_url"] for s in m["proof_references"]})==2
+            assert all(s["status"]=="uninspected" for s in m["proof_references"])
+            assert allmembers.update(m["member_candidate_ids"]) is None
+            primary.add(ident)
+          assert set(crosswalk)==allmembers
+          assert len(allmembers)==16
+          assert all(x["canonical_candidate_id"] in primary for x in crosswalk.values())
+          assert not (set(crosswalk)-primary)&set(active)
+          flagged={g["group_number"]:g for g in decisions}
+          assert flagged[82]["decision"]=="keep_separate"
+          assert flagged[97]["decision"]=="keep_separate"
+          assert not (Path("data/theorems.json") in
+                      [Path("harvest/ACTIVE_CANDIDATE_POOL.json"),IDS,MERGED,DECISIONS,CROSSWALK])
+          print(json.dumps({"canonical_candidates":len(active),
+              "merged_groups":len(merged),"reviewed_flagged_groups":len(decisions),
+              "distinct_source_links_in_merges":sum(len(x["source_references"]) for x in merged.values()),
+              "distinct_proof_links_in_merges":sum(len(x["proof_references"]) for x in merged.values()),
+              "proofs_screened":0},sort_keys=True))
+          PY
+      - name: Save active pool, group decisions and source/proof mappings only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/active_candidate_ids.jsonl harvest/ACTIVE_CANDIDATE_POOL.json harvest/CONSOLIDATED_CANDIDATES.jsonl harvest/DUPLICATE_ADJUDICATION_DECISIONS_2026-10-28.jsonl harvest/DUPLICATE_CANDIDATE_CROSSWALK_2026-10-28.jsonl
+          test -z "$(git diff --name-only -- data/theorems.json harvest/batches)" 
+          if ! git diff --cached --quiet; then
+            git commit -m "Consolidate source-confirmed duplicate theorem candidates and retain all proofs"
+            git pull --rebase origin main
+            git push origin main
+          fi
