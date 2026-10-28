@@ -8,7 +8,7 @@ The initial Pass 2 bulk-discovery campaign is closed for the prototype. **Only t
 
 The deferred cases live exclusively for future discovery in [harvest/problem_candidates.jsonl](harvest/problem_candidates.jsonl) with difficulty groups and a [manifest](harvest/PROBLEM_CANDIDATES_MANIFEST.json). Pass 3 packets, manual Pass 3 decisions and staging ignore those IDs; routine status reports track only active intake. If a new separate research phase chooses to revisit these cases, start it deliberately and rebuild the pool only after accepted canonical decisions change.
 
-For the existing three Stacks batches, the following commands now respect the allowlist:
+**Current gating decision:** Do not begin Pass 3 proof screening of this Stacks campaign merely because a candidate was marked Pass 2 resolved. Every candidate needs standalone-source-context validation first, and the eight provisional duplicate mergers need another mathematical-context comparison. The following Pass 3 commands are retained for use **after** the standalone gate is met; they are not the current next action:
 
 ```bash
 python -m scripts.active_candidate_pool
@@ -54,6 +54,25 @@ leads = get_candidate_context_leads("formal-spaces.tex", statement_line=900)
 ```
 
 This retrieves global/chapter convention *leads only*. The next lightweight step is to index chapter/section opening paragraphs and exact source labels; deeper contextual resolution remains per-candidate, and Pass 3 remains blocked until standalone semantics are checked.
+
+---
+
+## LIGHTWEIGHT CONTEXT LOOKUPS AND FIRST PILOT — completed
+
+The indexed pinned source has **115 chapters**, **3,288 section openings**, and **21,297 exact source labels with no collisions**. No mathematical assertions were inferred. See [section-opening preview index](harvest/stacks_context_openings_2026-10-28.jsonl), [exact source-label locator](harvest/stacks_context_labels_2026-10-28.json), and [index summary](harvest/stacks_context_light_index_summary_2026-10-28.md).
+
+For a candidate with a filename, source line number, and optional `detected_local_references`, retrieve the source and standing-convention *leads* in one operation:
+
+```python
+from scripts.stacks_context_light_index import candidate_context_bundle
+packet = candidate_context_bundle("moduli.tex", 409, ["situation-numerical"])
+```
+
+The lookup chooses the source section by physical file/line and resolves references **only** by an exact same-chapter short label or an exact, chapter-qualified full label. It does not read proof bodies, follow reference chains, auto-propagate chapter assumptions, or create new theorem hypotheses. Any excerpt truncated at the index's 1,800-character cap may be fetched from the same pinned Stacks source if relevant.
+
+The [19-candidate context pilot](harvest/standalone_context_pilot_2026-10-28_summary.md), [packets](harvest/standalone_context_pilot_2026-10-28_packets.jsonl), and [first-pass editorial notes](harvest/standalone_context_pilot_2026-10-28_first_review.jsonl) document 11 candidate-specific screens and 8 merger-context comparisons. **14/14 explicit labels in the pilot resolved exactly**; six candidates have preliminary expanded hypothesis language, but none has passed final standalone validation. This pilot shows that a named Situation copied by Pass 2 can still leave local assumptions or notation unresolved—for example, the missing separated/finitely presented morphism assumption stated in Moduli's section introduction.
+
+**Next step:** Stop adding meta-index infrastructure. Process standalone candidates in bounded batches, recording explicit hypotheses, conclusions, source pointers, unresolved local terminology, and the outcome of candidate-specific scope checks. Do not spend extensive effort chasing a single difficult reference; mark it for later. Only after standalone review should the provisional source-duplicate mergers be re-adjudicated and Pass 3 resume.
 
 ---
 
