@@ -8,9 +8,10 @@ mathThm is a companion to [mathDef](https://github.com/Zengez/mathDef). Its goal
 
 1. **[PROJECT_PLAN.md](PROJECT_PLAN.md)** — authoritative consolidated design, requirements, phased workflow, acceptance criteria, and decisions from the October 23, 2026 discussions. Read this first.
 2. **[WORK_CHECKPOINT.md](WORK_CHECKPOINT.md)** — current implementation state, next authorized action, and restart instructions. Update it whenever work begins, pauses, or completes a major stage.
-3. **[THEOREM_RECORD_CONTRACT.md](THEOREM_RECORD_CONTRACT.md)** — current lightweight accepted-theorem schema, screening/provenance rules and automated validation.
-4. **[PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md)** — what has actually been built, what passed, manual GitHub Pages setup, and remaining limitations.
-5. **[FUTURE_FEATURES.md](FUTURE_FEATURES.md)** — explicitly postponed ideas, with particular care not to mistake these for prototype requirements.
+3. **[HARVEST_DESIGN.md](HARVEST_DESIGN.md)** — agreed three-pass acquisition strategy, strict Pass 3 triage, and open decisions (design only).
+4. **[THEOREM_RECORD_CONTRACT.md](THEOREM_RECORD_CONTRACT.md)** — current lightweight accepted-theorem schema, screening/provenance rules and automated validation.
+5. **[PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md)** — what has actually been built, what passed, manual GitHub Pages setup, and remaining limitations.
+6. **[FUTURE_FEATURES.md](FUTURE_FEATURES.md)** — explicitly postponed ideas, with particular care not to mistake these for prototype requirements.
 
 ## Coordination with mathDef
 
