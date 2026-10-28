@@ -1,0 +1,583 @@
+{
+  "schema": "maththm.scale300.standalone-draft-manifest.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_chapters": [
+    "coherent.tex",
+    "divisors.tex"
+  ],
+  "consecutive_complete_source_sections": 54,
+  "distinct_active_candidates_with_drafts": 300,
+  "status_counts": {
+    "context_resolution_pending": 58,
+    "standalone_draft_ready_for_validation": 242
+  },
+  "logical_forms": {
+    "alternative_conditional_cases": 4,
+    "equivalent_conditions": 23,
+    "listed_assertions_with_individual_guards": 62,
+    "listed_premises_then_conclusion": 8,
+    "nested_or_multi_enumeration_needs_review": 8,
+    "plain_source_statement": 190,
+    "shared_existential_witness_properties": 5
+  },
+  "context_hold_categories": {
+    "Source uses named references not yet semantically expanded in the standalone displayed statement": 43,
+    "Nested/multiple enumerations require source-specific quantifier and condition grouping; entire original statem": 8,
+    "Confirm the joint quantifier binding the listed properties to the same existential witness.": 5,
+    "List items are alternative theorem hypotheses, not independent conclusions; verify their disjunction and any f": 4,
+    "List may encode conditional alternatives whose parent antecedent remains in the source introductory phrase.": 2,
+    "Source uses contextual or deictic wording; identify exact antecedents and their mathematical scope.": 2,
+    "Theorem imports a named external situation; expand before final standalone approval.": 2,
+    "Source statement only refers to the completion functor by equation label; its full domain, codomain and action": 1,
+    "Source footnote may contain a mathematical caveat": 1
+  },
+  "section_results": [
+    {
+      "key": "s01",
+      "chapter": "coherent.tex",
+      "section_title": "Devissage of coherent sheaves",
+      "active_candidates": 8,
+      "draft_ready": 4,
+      "context_held": 4,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s02",
+      "chapter": "coherent.tex",
+      "section_title": "Finite morphisms and affines",
+      "active_candidates": 3,
+      "draft_ready": 3,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s03",
+      "chapter": "coherent.tex",
+      "section_title": "Coherent sheaves on Proj, I",
+      "active_candidates": 4,
+      "draft_ready": 3,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s04",
+      "chapter": "coherent.tex",
+      "section_title": "Coherent sheaves on Proj, II",
+      "active_candidates": 3,
+      "draft_ready": 3,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s05",
+      "chapter": "coherent.tex",
+      "section_title": "Higher direct images along projective morphisms",
+      "active_candidates": 3,
+      "draft_ready": 3,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s06",
+      "chapter": "coherent.tex",
+      "section_title": "Ample invertible sheaves and cohomology",
+      "active_candidates": 8,
+      "draft_ready": 7,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s07",
+      "chapter": "coherent.tex",
+      "section_title": "Chow's Lemma",
+      "active_candidates": 1,
+      "draft_ready": 1,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s08",
+      "chapter": "coherent.tex",
+      "section_title": "Higher direct images of coherent sheaves",
+      "active_candidates": 3,
+      "draft_ready": 3,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s09",
+      "chapter": "coherent.tex",
+      "section_title": "The theorem on formal functions",
+      "active_candidates": 9,
+      "draft_ready": 6,
+      "context_held": 3,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s10",
+      "chapter": "coherent.tex",
+      "section_title": "Applications of the theorem on formal functions",
+      "active_candidates": 3,
+      "draft_ready": 1,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s11",
+      "chapter": "coherent.tex",
+      "section_title": "Cohomology and base change, III",
+      "active_candidates": 1,
+      "draft_ready": 1,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s12",
+      "chapter": "coherent.tex",
+      "section_title": "Coherent formal modules",
+      "active_candidates": 11,
+      "draft_ready": 7,
+      "context_held": 4,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s13",
+      "chapter": "coherent.tex",
+      "section_title": "Grothendieck's existence theorem, I",
+      "active_candidates": 3,
+      "draft_ready": 1,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s14",
+      "chapter": "coherent.tex",
+      "section_title": "Grothendieck's existence theorem, II",
+      "active_candidates": 3,
+      "draft_ready": 1,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s15",
+      "chapter": "coherent.tex",
+      "section_title": "Being proper over a base",
+      "active_candidates": 10,
+      "draft_ready": 7,
+      "context_held": 3,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s16",
+      "chapter": "coherent.tex",
+      "section_title": "Grothendieck's existence theorem, III",
+      "active_candidates": 1,
+      "draft_ready": 0,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s17",
+      "chapter": "coherent.tex",
+      "section_title": "Grothendieck's algebraization theorem",
+      "active_candidates": 4,
+      "draft_ready": 3,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s18",
+      "chapter": "divisors.tex",
+      "section_title": "Introduction",
+      "active_candidates": 0,
+      "draft_ready": 0,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s19",
+      "chapter": "divisors.tex",
+      "section_title": "Associated points",
+      "active_candidates": 8,
+      "draft_ready": 8,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s20",
+      "chapter": "divisors.tex",
+      "section_title": "Morphisms and associated points",
+      "active_candidates": 1,
+      "draft_ready": 1,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s21",
+      "chapter": "divisors.tex",
+      "section_title": "Embedded points",
+      "active_candidates": 6,
+      "draft_ready": 5,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s22",
+      "chapter": "divisors.tex",
+      "section_title": "Weakly associated points",
+      "active_candidates": 11,
+      "draft_ready": 11,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s23",
+      "chapter": "divisors.tex",
+      "section_title": "Morphisms and weakly associated points",
+      "active_candidates": 6,
+      "draft_ready": 6,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s24",
+      "chapter": "divisors.tex",
+      "section_title": "Relative assassin",
+      "active_candidates": 1,
+      "draft_ready": 1,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s25",
+      "chapter": "divisors.tex",
+      "section_title": "Relative weak assassin",
+      "active_candidates": 2,
+      "draft_ready": 2,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s26",
+      "chapter": "divisors.tex",
+      "section_title": "Fitting ideals",
+      "active_candidates": 7,
+      "draft_ready": 6,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s27",
+      "chapter": "divisors.tex",
+      "section_title": "The singular locus of a morphism",
+      "active_candidates": 3,
+      "draft_ready": 3,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s28",
+      "chapter": "divisors.tex",
+      "section_title": "Torsion free modules",
+      "active_candidates": 12,
+      "draft_ready": 12,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s29",
+      "chapter": "divisors.tex",
+      "section_title": "Ranks of modules",
+      "active_candidates": 5,
+      "draft_ready": 5,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s30",
+      "chapter": "divisors.tex",
+      "section_title": "Reflexive modules",
+      "active_candidates": 12,
+      "draft_ready": 10,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s31",
+      "chapter": "divisors.tex",
+      "section_title": "Effective Cartier divisors",
+      "active_candidates": 10,
+      "draft_ready": 10,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s32",
+      "chapter": "divisors.tex",
+      "section_title": "Effective Cartier divisors and invertible sheaves",
+      "active_candidates": 5,
+      "draft_ready": 4,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s33",
+      "chapter": "divisors.tex",
+      "section_title": "Effective Cartier divisors on Noetherian schemes",
+      "active_candidates": 13,
+      "draft_ready": 12,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s34",
+      "chapter": "divisors.tex",
+      "section_title": "Complements of affine opens",
+      "active_candidates": 6,
+      "draft_ready": 5,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s35",
+      "chapter": "divisors.tex",
+      "section_title": "Norms",
+      "active_candidates": 10,
+      "draft_ready": 7,
+      "context_held": 3,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s36",
+      "chapter": "divisors.tex",
+      "section_title": "Relative effective Cartier divisors",
+      "active_candidates": 7,
+      "draft_ready": 5,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s37",
+      "chapter": "divisors.tex",
+      "section_title": "The normal cone of an immersion",
+      "active_candidates": 3,
+      "draft_ready": 2,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s38",
+      "chapter": "divisors.tex",
+      "section_title": "Regular ideal sheaves",
+      "active_candidates": 7,
+      "draft_ready": 6,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s39",
+      "chapter": "divisors.tex",
+      "section_title": "Regular immersions",
+      "active_candidates": 10,
+      "draft_ready": 7,
+      "context_held": 3,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s40",
+      "chapter": "divisors.tex",
+      "section_title": "Relative regular immersions",
+      "active_candidates": 9,
+      "draft_ready": 9,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s41",
+      "chapter": "divisors.tex",
+      "section_title": "Meromorphic functions and sections",
+      "active_candidates": 4,
+      "draft_ready": 2,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s42",
+      "chapter": "divisors.tex",
+      "section_title": "Meromorphic functions and sections; Noetherian case",
+      "active_candidates": 5,
+      "draft_ready": 3,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s43",
+      "chapter": "divisors.tex",
+      "section_title": "Meromorphic functions and sections; reduced case",
+      "active_candidates": 4,
+      "draft_ready": 2,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s44",
+      "chapter": "divisors.tex",
+      "section_title": "Weil divisors",
+      "active_candidates": 3,
+      "draft_ready": 3,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s45",
+      "chapter": "divisors.tex",
+      "section_title": "The Weil divisor class associated to an invertible module",
+      "active_candidates": 5,
+      "draft_ready": 3,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s46",
+      "chapter": "divisors.tex",
+      "section_title": "More on invertible modules",
+      "active_candidates": 5,
+      "draft_ready": 5,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s47",
+      "chapter": "divisors.tex",
+      "section_title": "Weil divisors on normal schemes",
+      "active_candidates": 5,
+      "draft_ready": 3,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s48",
+      "chapter": "divisors.tex",
+      "section_title": "Relative Proj",
+      "active_candidates": 6,
+      "draft_ready": 4,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s49",
+      "chapter": "divisors.tex",
+      "section_title": "Closed subschemes of relative proj",
+      "active_candidates": 5,
+      "draft_ready": 5,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s50",
+      "chapter": "divisors.tex",
+      "section_title": "Blowing up",
+      "active_candidates": 13,
+      "draft_ready": 11,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s51",
+      "chapter": "divisors.tex",
+      "section_title": "Strict transform",
+      "active_candidates": 3,
+      "draft_ready": 3,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s52",
+      "chapter": "divisors.tex",
+      "section_title": "Admissible blowups",
+      "active_candidates": 5,
+      "draft_ready": 5,
+      "context_held": 0,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s53",
+      "chapter": "divisors.tex",
+      "section_title": "Blowing up and flatness",
+      "active_candidates": 3,
+      "draft_ready": 1,
+      "context_held": 2,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    },
+    {
+      "key": "s54",
+      "chapter": "divisors.tex",
+      "section_title": "Modifications",
+      "active_candidates": 2,
+      "draft_ready": 1,
+      "context_held": 1,
+      "source_environment_frames_complete": true,
+      "section_complete": true
+    }
+  ],
+  "final_mathematical_source_equivalence_approvals": 0,
+  "proofs_screened": 0,
+  "pass3_eligible": 0,
+  "published": 0,
+  "original_pass1_pass2_unchanged": true,
+  "stage": "source_grounded_mathematical_context_drafts_with_conservative_holds_not_proof_verification",
+  "quality_note": "A draft-ready status means no mechanically identified source-context blocker, NOT a mathematical verification. Complex references and context-dependent statements have explicit holds. Original source statement is always retained."
+}
