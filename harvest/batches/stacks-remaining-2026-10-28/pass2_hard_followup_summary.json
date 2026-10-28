@@ -1,0 +1,21 @@
+{
+  "current_statuses": {
+    "needs_classification": 3,
+    "needs_context": 1654,
+    "needs_structure": 624,
+    "resolved": 5584
+  },
+  "mathematical_validity_assessed": false,
+  "new_logical_forms": {
+    "equivalence": 36,
+    "equivalence_with_additional_assertion": 48,
+    "equivalence_with_enumerated_premises": 2
+  },
+  "newly_resolved": 86,
+  "previous_structured_case_reannotations": 0,
+  "proofs_read": false,
+  "remaining_higher_thinking": 624,
+  "source": "Stacks original statement texts and existing Pass 2 records",
+  "stage": "pass2_hard_followup",
+  "target": 710
+}

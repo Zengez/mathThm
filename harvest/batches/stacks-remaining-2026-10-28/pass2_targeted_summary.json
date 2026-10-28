@@ -1,0 +1,21 @@
+{
+  "mathematical_validity_assessed": false,
+  "new_forms": {
+    "equivalence_with_enumerated_premises": 5,
+    "implication_with_enumerated_premises": 2,
+    "source_setup_existential": 16,
+    "source_subject_and_assertion": 90,
+    "source_universal_predicate": 1
+  },
+  "newly_resolved": 114,
+  "proofs_read": false,
+  "stage": "pass2_targeted_statement_review",
+  "started_from": 624,
+  "statuses": {
+    "needs_classification": 3,
+    "needs_context": 1654,
+    "needs_structure": 510,
+    "resolved": 5698
+  },
+  "structurally_unresolved": 510
+}

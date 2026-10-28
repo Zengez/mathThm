@@ -1,0 +1,49 @@
+{
+  "additional_splits_this_run": 200,
+  "batch_summaries": [
+    {
+      "batch": "stacks-bulk-2026-10-28",
+      "candidates": 1100,
+      "pass3": 0,
+      "statuses": {
+        "needs_context": 105,
+        "needs_structure": 58,
+        "resolved": 937
+      }
+    },
+    {
+      "batch": "stacks-second-2026-10-28",
+      "candidates": 2022,
+      "pass3": 0,
+      "statuses": {
+        "needs_context": 212,
+        "needs_structure": 72,
+        "resolved": 1738
+      }
+    },
+    {
+      "batch": "stacks-remaining-2026-10-28",
+      "candidates": 7865,
+      "pass3": 0,
+      "statuses": {
+        "needs_classification": 3,
+        "needs_context": 1654,
+        "needs_structure": 510,
+        "resolved": 5698
+      }
+    }
+  ],
+  "mathematical_validity_assessed": false,
+  "new_harvest_structural_queue_remaining": 510,
+  "original_new_harvest_structural_queue": 710,
+  "pass3_unchanged": true,
+  "proofs_read": false,
+  "public_catalog_unchanged": true,
+  "status_totals": {
+    "needs_classification": 3,
+    "needs_context": 1971,
+    "needs_structure": 640,
+    "resolved": 8373
+  },
+  "total_candidates": 10987
+}
