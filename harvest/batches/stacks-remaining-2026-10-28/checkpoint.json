@@ -1,8 +1,8 @@
 {
   "counts": {
-    "needs_more_investigation": 0,
+    "needs_more_investigation": 4769,
     "pass1": 7865,
-    "pass2": 0,
+    "pass2": 7865,
     "pass3": 0
   },
   "pass3_outcomes": {},
