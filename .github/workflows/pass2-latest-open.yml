@@ -1,0 +1,24 @@
+name: Pass 2 latest unresolved audit
+on:
+  push:
+    paths:
+      - .github/workflows/pass2-latest-open.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Review remaining statement and context categories
+        run: python -m scripts.pass2_latest_open_review
+      - name: Persist source-only open review for next bounded pass
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/PASS2_LATEST_OPEN_REVIEW_2026-10-28.json
+          git diff --cached --quiet || (git commit -m "Inventory latest unresolved Pass 2 classes and context references" && git push)
