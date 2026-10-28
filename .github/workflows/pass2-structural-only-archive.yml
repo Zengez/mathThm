@@ -5,6 +5,7 @@ on:
       - .github/workflows/pass2-structural-only-archive.yml
       - scripts/pass2_structural_refined.py
       - scripts/pass2_problem_candidates.py
+      - scripts/pass2_problem_candidates_unified.py
   workflow_dispatch:
 permissions:
   contents: write
@@ -59,15 +60,22 @@ jobs:
           manifest=json.loads(Path("harvest/PROBLEM_CANDIDATES_MANIFEST.json").read_text())
           groups=manifest.get("by_difficulty",{"inherited_context":allcounts["needs_context"]})
           assert groups["inherited_context"]==allcounts["needs_context"]
-          assert groups.get("structural_complexity",0)==(allcounts["needs_structure"] if "by_difficulty" in manifest else 0)
+          assert groups.get("structural_complexity",0)==allcounts["needs_structure"]
+          assert groups.get("classification_uncertain",0)==allcounts["needs_classification"]
           assert manifest["count"]==sum(groups.values())==sum(manifest["by_batch"].values())
           queue=[json.loads(q) for q in Path("harvest/problem_candidates_inherited_context.jsonl").read_text().splitlines()]
           assert len(queue)==manifest["count"] and len({q["candidate_id"] for q in queue})==len(queue)
-          assert all(q["original_status"] in ("needs_context","needs_structure") for q in queue)
+          assert all(q["original_status"] in ("needs_context","needs_structure","needs_classification") for q in queue)
           if "by_difficulty" in manifest:
-            assert all(q["difficulty_group"] in ("inherited_context","structural_complexity") for q in queue)
+            assert all(q["difficulty_group"] in ("inherited_context","structural_complexity","classification_uncertain") for q in queue)
           inventory=json.loads(Path("harvest/PASS2_RESUME_INVENTORY_2026-10-28.json").read_text())
           assert inventory["all_statuses"]==dict(sorted(allcounts.items()))
+          assert manifest.get("archive_covers_all_unresolved") is True
+          assert manifest.get("unarchived_open_count")==0
+          assert {q["candidate_id"] for q in queue}=={
+              k for name in batches for k,v in p.load_rows(root/name/"pass2.jsonl","candidate_id").items()
+              if v["context_status"]!="resolved"
+          }
           assert not any(x["candidate_id"] in {v["candidate_id"] for v in queue}
                          for name in batches for x in p.load_rows(root/name/"pass2.jsonl","candidate_id").values()
                          if x["context_status"]=="resolved")
