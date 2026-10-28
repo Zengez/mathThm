@@ -1,0 +1,62 @@
+name: Reconnaissance of pinned Stacks context conventions
+on:
+  push:
+    paths:
+      - .github/workflows/recon-stacks-context.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout mathThm
+        uses: actions/checkout@v4
+      - name: Checkout exact historical Stacks revision
+        uses: actions/checkout@v4
+        with:
+          repository: stacks/stacks-project
+          ref: a04446e57ec1fbc252a871afcec7752fb2807b14
+          path: upstream/stacks
+          persist-credentials: false
+      - name: Check exact historical revision
+        run: |
+          test "$(git -C upstream/stacks rev-parse HEAD)" = "a04446e57ec1fbc252a871afcec7752fb2807b14"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Scan convention and standing-assumption leads (no content interpretation)
+        run: python -m scripts.stacks_context_recon --source-root upstream/stacks --output-dir harvest
+      - name: Check scanner coverage and preserve all source data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import harvest_pipeline as p
+          prefix=Path("harvest/stacks_context_recon_2026-10-28")
+          summary=json.loads((Path(str(prefix)+"_manifest.json")).read_text())
+          rows=p.read_jsonl(Path(str(prefix)+"_files.jsonl"))
+          assert summary["source_files_scanned"]==len(rows)>=115
+          assert summary["main_book_chapters"]>=110
+          assert sum(q["is_global_conventions"] for q in rows)==1
+          assert summary["files_with_strong_phrases_or_headings"]>0
+          assert summary["heading_leads"]>0
+          assert not summary["scope_inferred"]
+          assert not summary["mathematical_context_interpreted"]
+          assert not summary["candidate_hypotheses_modified"]
+          assert not summary["theorem_proofs_reviewed"]
+          assert all(q["source_revision"]==summary["source_revision"] for q in rows)
+          print(json.dumps(summary,sort_keys=True))
+          PY
+      - name: Commit only reconnaissance notes and lead index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/stacks_context_recon_2026-10-28_files.jsonl harvest/stacks_context_recon_2026-10-28_manifest.json harvest/stacks_context_recon_2026-10-28_priority.md
+          test -z "$(git diff --name-only -- data/theorems.json harvest/batches harvest/active_candidate_ids.jsonl)"
+          if ! git diff --cached --quiet; then
+            git commit -m "Record source-only Stacks standing-context reconnaissance"
+            git pull --rebase origin main
+            git push origin main
+          fi
