@@ -25,7 +25,33 @@ HOLD=r300.HOLD
 KINDS={"definition","situation","notation","setup","construction"}
 # Add entries only after reviewing the actual pinned source.
 # Unreviewed potential standing scopes are explicit holds, never assumptions.
-ADJUDICATED_DURABLE={}
+ADJUDICATED_DURABLE={
+  ("more-morphisms.tex",1760):{
+    "type":"section_notation_convention",
+    "scope":"section","section_key":"s089",
+    "meaning":"Identify a sheaf on the thickening X' with a sheaf on X in this section",
+    "candidate_hypothesis":False,"requires_statement_specific_expansion":False},
+  ("more-morphisms.tex",10129):{
+    "type":"section_reusable_known_facts",
+    "scope":"section","section_key":"s115",
+    "meaning":"Standard functorial facts about etale neighbourhoods invoked within this section",
+    "candidate_hypothesis":False,"requires_statement_specific_expansion":False},
+  ("more-morphisms.tex",14358):{
+    "type":"section_local_construction",
+    "scope":"section","section_key":"s131",
+    "meaning":"Local U-to-L identification within an extended construction; not globally imported",
+    "candidate_hypothesis":False,"requires_statement_specific_expansion":True},
+  ("flat.tex",8033):{
+    "type":"section_named_situation",
+    "scope":"section","section_key":"s189",
+    "meaning":"Formal Situation situation-existence supplies explicit setup and conditional assumptions to statements invoking it",
+    "candidate_hypothesis":False,"requires_statement_specific_expansion":True},
+  ("flat.tex",8376):{
+    "type":"section_named_situation",
+    "scope":"section","section_key":"s190",
+    "meaning":"Formal Situation situation-existence-derived supplies its own setup to statements invoking it",
+    "candidate_hypothesis":False,"requires_statement_specific_expansion":True},
+}
 
 def write(path, value):
     hp.atomic_text(path,json.dumps(value,ensure_ascii=False,indent=2,sort_keys=True)+"\n")
@@ -166,14 +192,14 @@ def extract(manifest):
     unknown=flagged-set(ADJUDICATED_DURABLE)
     assert not (set(ADJUDICATED_DURABLE)-flagged),"Stale scope overrides"
     write(ROOT/"SCOPES_REVIEWED.json",{
-        "source_revision":REV,"adjudicated_durable_count":len(flagged),
+        "source_revision":REV,"adjudicated_durable_count":len(ADJUDICATED_DURABLE),
         "reviewed_signals":[{"source_filename":f,"line":line,**decision}
                             for (f,line),decision in ADJUDICATED_DURABLE.items()],
         "remaining_local_or_unclassified_prose_leads":len(leads)-len(ADJUDICATED_DURABLE),
         "unadjudicated_potentially_durable_leads":len(unknown),
         "approved_new_theorem_hypotheses":0,
         "chapter_boundaries_discharge_local_context":True,
-        "note":"No unreviewed prose standing-scope lead is automatically inherited as a theorem hypothesis; each requires source adjudication."
+        "note":"The five chapter-wide-looking signals were reviewed at their source: two harmless section conventions, one section-local construction, and two formal named Situations requiring statement-specific expansion. No context is inherited outside its justified scope."
     })
     write(ROOT/"SCOPE_LEADS.json",{
         "source_revision":REV,"unadjudicated_lead_count":len(leads),
@@ -236,6 +262,10 @@ def draft(manifest,source_context):
                      and (x["source_filename"],x["source_start_line"]) not in ADJUDICATED_DURABLE]
             if durable:
                 holds.append("Unadjudicated potentially durable source context; determine start/end and whether it applies.")
+            for lead in preceding:
+                meta=ADJUDICATED_DURABLE.get((lead["source_filename"],lead["source_start_line"]))
+                if meta and meta.get("requires_statement_specific_expansion"):
+                    holds.append("Section-local source setup or named Situation may need explicit hypotheses or notation: "+meta["meaning"])
             loc=frames[p["source_statement_line"]]
             available=[x["label"] for x in named if x["label"] and (
                 (x["source_filename"]==file and x["source_end_line"]<p["source_statement_line"]) or
@@ -267,11 +297,12 @@ def draft(manifest,source_context):
                "applicable_prior_named_definition_ids":available,
                "named_definitions_are_not_ambient_assumptions":True,
                "section_ambient_hypotheses_auto_inherited":[],
-               "available_source_notation_conventions":[
+               "source_scoped_conventions_and_situations":[
                    {"source_filename":f,"source_start_line":line,
                     "type":meta["type"],"meaning":meta["meaning"]}
                    for (f,line),meta in ADJUDICATED_DURABLE.items()
-                   if f==file and p["source_statement_line"]>line],
+                   if f==file and p["source_statement_line"]>line
+                   and (meta["scope"]=="chapter" or meta["section_key"]==key)],
                "local_lemma_hypotheses_expire_at_end":True,
                "source_named_reference_labels":[x["reference"] for x in p["explicit_refs"]],
                "source_inline_reference_labels":refs,
