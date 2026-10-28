@@ -4,7 +4,7 @@
 
 ## CURRENT CAMPAIGN OVERRIDE — prototype population and Pass 3
 
-The initial Pass 2 bulk-discovery campaign is closed for the prototype. **Only the 9,683 candidate IDs in [harvest/active_candidate_ids.jsonl](harvest/active_candidate_ids.jsonl) are considered active.** The separate [active-pool manifest](harvest/ACTIVE_CANDIDATE_POOL.json) records the current recognized intake and batch membership. The historical Pass 1/2 files intentionally retain all original sources; they are NOT active-pool counts.
+The initial Pass 2 bulk-discovery campaign is closed for the prototype. **Only the 9,675 canonical candidate IDs in [harvest/active_candidate_ids.jsonl](harvest/active_candidate_ids.jsonl) are considered active.** The separate [active-pool manifest](harvest/ACTIVE_CANDIDATE_POOL.json) records the current recognized intake and batch membership. The historical Pass 1/2 files intentionally retain all original sources; they are NOT active-pool counts.
 
 The deferred cases live exclusively for future discovery in [harvest/problem_candidates.jsonl](harvest/problem_candidates.jsonl) with difficulty groups and a [manifest](harvest/PROBLEM_CANDIDATES_MANIFEST.json). Pass 3 packets, manual Pass 3 decisions and staging ignore those IDs; routine status reports track only active intake. If a new separate research phase chooses to revisit these cases, start it deliberately and rebuild the pool only after accepted canonical decisions change.
 
@@ -17,6 +17,22 @@ python -m scripts.harvest_pipeline status --workdir harvest/batches/stacks-bulk-
 ```
 
 Repeat Pass 3 for the other active Stacks batches. The pinned upstream source must be present for nontruncated proof excerpts. This transition does not read, screen, or publish any theorem proof.
+
+---
+
+## SOURCE-CONTEXT RECONNAISSANCE — before standalone Pass 2 validation
+
+Before Pass 3, make the canonical theorem hypotheses/conclusions self-contained relative to unambiguous mathematical terminology. Use the lightweight Stacks scan at [harvest/stacks_context_recon_2026-10-28_priority.md](harvest/stacks_context_recon_2026-10-28_priority.md), [per-file source-line leads](harvest/stacks_context_recon_2026-10-28_files.jsonl) and the [scan manifest](harvest/stacks_context_recon_2026-10-28_manifest.json).
+
+This is a **high-recall lead scan only**, not parsed standing context. The pinned source's maintained Makefile provides chapter ordering; source section headings and broad phrase matches flag possible conventions. A chapter occurring earlier does **not** make its assumptions applicable later. Review true scope before promoting anything to theorem hypotheses, and distinguish source definitions, standing assumptions and facts used only in proofs. Check provisional duplicate mergers again after standalone expansion.
+
+Rebuild the source-line lead scan (requires the pinned Stacks checkout):
+
+```bash
+python -m scripts.stacks_context_recon --source-root upstream/stacks --output-dir harvest
+```
+
+Deliberately stop at global/chapter conventions, short section introductions, and a basic label lookup; resolve additional local dependencies per-candidate rather than constructing a large universal context graph.
 
 ---
 
