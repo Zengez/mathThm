@@ -22,7 +22,7 @@ try:
     from . import harvest_pipeline as p
     from .pass2_context_source_probe import get_index,BATCHES
     from .pass2_fast_stacks import CONTEXT_DEPENDENCY
-    from .pass2_hard_structures import interpret as interpret_hard,mask_math
+    from .pass2_hard_structures import interpret as interpret_hard,mask_math,enum_blocks
     from .pass2_hard_followup import interpret_followup
     from .pass2_remaining_targeted import interpret_targeted,source_body
     from .pass2_structural_light import split as source_split
@@ -30,7 +30,7 @@ except ImportError:
     import harvest_pipeline as p
     from pass2_context_source_probe import get_index,BATCHES
     from pass2_fast_stacks import CONTEXT_DEPENDENCY
-    from pass2_hard_structures import interpret as interpret_hard,mask_math
+    from pass2_hard_structures import interpret as interpret_hard,mask_math,enum_blocks
     from pass2_hard_followup import interpret_followup
     from pass2_remaining_targeted import interpret_targeted,source_body
     from pass2_structural_light import split as source_split
@@ -80,6 +80,19 @@ def parse_statement(body):
         return {"hypotheses":[h],"conclusions":[c],
                 "logical_form":"explicit_source_grammar",
                 "equivalence_sides":[],"structured_cases":[]},reason
+    # A source's own introductory Let/Assume/If and top-level Then remains
+    # recognizable even if a definition citation elsewhere in the sentence
+    # was marked as an inherited-context trigger by the older triage regex.
+    blocks=enum_blocks(body)
+    if blocks is not None:
+        for m in re.finditer(r"\bthen\b",mask_math(body),re.I):
+            if any(a<=m.start()<b for a,b in blocks):
+                continue
+            h,c=body[:m.start()].strip(),body[m.end():].strip()
+            if h and c and re.match(r"^(?:Let|Suppose|Assume|If|Given|Consider|Fix)\b",h,re.I):
+                return {"hypotheses":[h],"conclusions":[c],
+                        "logical_form":"source_explicit_then_with_citation",
+                        "equivalence_sides":[],"structured_cases":[]}, "explicit top-level Then with cited definitions"
     return None,reason
 
 
