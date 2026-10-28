@@ -1,0 +1,17 @@
+{
+  "schema": "maththm.scale300.local-context-extraction.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "sections_scanned": 54,
+  "source_context_records": 43,
+  "named_source_context_records": 35,
+  "named_source_definitions": 35,
+  "prose_leads": 8,
+  "context_kinds": {
+    "unadjudicated_prose": 8,
+    "definition": 35
+  },
+  "both_chapters_covered": true,
+  "no_proof_bodies_included": true,
+  "source_definition_hypotheses_auto_inherited": false,
+  "source_chapter_boundary_reset": true
+}
