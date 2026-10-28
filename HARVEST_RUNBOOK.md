@@ -20,6 +20,31 @@ Repeat Pass 3 for the other active Stacks batches. The pinned upstream source mu
 
 ---
 
+## CURRENT METHOD: consecutive full-section standalone reconstruction (latest 150)
+
+The agreed source-context reconstruction unit is a **whole source section**, processed along with its neighboring sections in physical source order. To measure scaling, select a run containing approximately the requested candidate count but **never cut through a section**; include intervening sections even if they have zero active candidates.
+
+The latest run is [150 active candidates across 19 consecutive `algebra.tex` sections](harvest/section_walk_scale150_2026-10-28/REPORT.md), lines 4284–10036. It contains **134 editorial standalone drafts ready for final source-equivalence checking, 16 held for mathematical/contextual issues, and 0 approved Pass 3 proofs**. [Checkpoints](harvest/section_walk_scale150_2026-10-28/SECTION_CHECKPOINTS.jsonl) record all 19 complete sections, including a zero-active section, and keep only definitions and context still in valid scope. The original Pass 1/2 data and active-pool IDs were untouched.
+
+**Scope rules:** A section and its named definition environments contribute term meanings, not automatically theorem hypotheses. Temporary assumptions of a lemma/proposition are popped when that environment ends. An explicit chapter/section convention persists only within its justified scope. The two source prose signals in this run were adjudicated (not auto-inherited) in [SCOPES_REVIEWED.json](harvest/section_walk_scale150_2026-10-28/SCOPES_REVIEWED.json). Definitions enter only on or after their original source line; *normal domain* and *normal ring* have different definitions and must not be conflated. All proof environments are omitted during this stage.
+
+**Actual executable machinery** (pinned Stacks source checkout required for source traversal):
+
+```bash
+python -m scripts.stacks_consecutive_section_window150
+python -m scripts.stacks_section_walk_scale150
+python -m scripts.stacks_scale150_context_passages
+python -m scripts.stacks_section_walk_scale150_reconstruct
+python -m scripts.validate_stacks_section_walk_scale150
+python -m unittest discover -s tests -q
+```
+
+The first command produces candidate windows from *physically consecutive* complete sections and excludes previously processed sections. For future batch sizes, adapt the selected window and manifest rather than relying on exactly 150 or choosing separate high-density sections. The next scripts produce source-order event packets, review only encountered local definitions, create source-faithful standalone statements and record uncertainty, then validate context expiration, complete-section boundaries, candidate IDs, and regressions.
+
+**Quality gate:** A `standalone_draft_ready_for_validation` flag is an editorial draft status **not** a final mathematical source-equivalence certificate. Mathematical statements with enumerated alternatives must preserve the correct logical form: the alternatives are *conclusions* of an equivalence, not global hypotheses; separately guarded implications keep their guards; and multiple properties of one existential witness stay grouped. This was explicitly corrected in the scale-150 code. The final semantic verification and all theorem proofs remain separate tasks, and no draft is automatically promoted to the public catalog.
+
+---
+
 ## SOURCE-CONTEXT RECONNAISSANCE — before standalone Pass 2 validation
 
 Before Pass 3, make the canonical theorem hypotheses/conclusions self-contained relative to unambiguous mathematical terminology. Use the lightweight Stacks scan at [harvest/stacks_context_recon_2026-10-28_priority.md](harvest/stacks_context_recon_2026-10-28_priority.md), [per-file source-line leads](harvest/stacks_context_recon_2026-10-28_files.jsonl) and the [scan manifest](harvest/stacks_context_recon_2026-10-28_manifest.json).
