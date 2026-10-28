@@ -142,6 +142,60 @@ MANUAL_HOLDS={
  "lemma-characterize-reduced-ring-normal":"Check finite-minimal-prime assumptions and precise distinction normal ring/normal domain.",
  "lemma-universal-undefined":"Reserved no-op.",
 }
+# Manual mathematical-context checks correcting legacy Pass 2 splits or
+# removing editorial source links without losing a conclusion.
+STRUCTURED_PATCHES={
+ "lemma-qc-open":{
+   "conc":[r"U is retrocompact in Spec(R).",r"U is quasi-compact.",
+           r"U is a finite union of standard open subsets D(f).",
+           r"There exists a finitely generated ideal I of R such that U=Spec(R)\setminus V(I)."],
+ },
+ "lemma-reduced-ring-sub-product-fields":{
+   "hyp":[r"R is a reduced commutative unital ring."],
+ },
+ "lemma-disjoint-implies-product":{
+   "hyp":[r"R is a ring.",r"Spec(R)=U\amalg V with U,V open and disjoint."],
+   "conc":[r"There are rings R_1,R_2 with R\cong R_1\times R_2 corresponding to the two open-and-closed pieces U,V.",
+           r"Both R_1 and R_2 are localizations and quotients of R."],
+ },
+ "lemma-integral-over-field":{
+   "hyp":[r"k is a field.",r"S is a k-algebra."],
+   "conc":[r"If S is a domain finite-dimensional over k, then S is a field.",
+           r"If S is a domain integral over k, then S is a field.",
+           r"If S is integral over k, every prime ideal of S is maximal."],
+ },
+ "lemma-colimit-normal-ring":{
+   "hyp":[r"(R_i,\varphi_{ii'}) is a directed system of commutative unital rings."],
+   "conc":[r"If every R_i is a normal ring then the directed colimit R=colim_i R_i is normal."],
+ },
+ "proposition-going-down-normal-integral":{
+   "hyp":[r"R\subseteq S is an integral extension of integral domains.",
+          r"R is normal.",r"\mathfrak p\subseteq\mathfrak p' are primes in R.",
+          r"\mathfrak q'\subset S lies over \mathfrak p'."],
+   "conc":[r"There exists a prime \mathfrak q\subseteq\mathfrak q' of S contracting to \mathfrak p.",
+           r"Consequently R\to S satisfies going down."],
+ },
+ "lemma-going-up-down-specialization":{
+   "hyp":[r"R\to S is a commutative unital ring map and f:Spec(S)\to Spec(R) is its induced continuous map."],
+   "conc":[r"Going down for R\to S is equivalent to lifting generalizations along f.",
+           r"Going up for R\to S is equivalent to lifting specializations along f."],
+ },
+ "lemma-ff":{
+   "hyp":[r"R is a ring.",r"M is a flat R-module."],
+ },
+ "lemma-flat-base-change":{
+   "hyp":[r"R is a ring.",r"M is a flat (respectively faithfully flat) R-module.",
+          r"R\to R' is a ring map."],
+ },
+ "lemma-generating-finitely-generated-separable-field-extensions":{
+   "hyp":[r"K/k is a finitely generated separably generated field extension.",
+          r"r=\operatorname{trdeg}_k(K)."],
+   "conc":[r"There exist elements x_1,\ldots,x_{r+1}\in K simultaneously satisfying: x_1,\ldots,x_r form a transcendence basis; K=k(x_1,\ldots,x_{r+1}); and x_{r+1} is separable over k(x_1,\ldots,x_r)."],
+   "shape":"existential_witness_properties",
+   "quantifier_checked":True,
+   "note":"All three enumerated conditions apply to one jointly quantified family of generators, not independent existential claims.",
+ },
+}
 SOURCE_REVIEWED_REFS=set(EDITORIAL_REFS)
 
 def normalized(tex):
@@ -247,7 +301,7 @@ def main():
             assert ident not in all_ids
             all_ids.add(ident)
             label=pkt["source_label"]
-            patch=PATCHES.get(label,{})
+            patch={**PATCHES.get(label,{}),**STRUCTURED_PATCHES.get(label,{})}
             original=pkt["statement_tex"]
             statement=patch.get("tex",normalized(original))
             flags=semantic_issues(statement,pkt)
@@ -288,20 +342,20 @@ def main():
             additional=[]
             source_logical_form="no_enumeration"
             if parsed:
-                source_logical_form=parsed["shape"]
-                if parsed["shape"]=="equivalent_conditions":
+                source_logical_form=patch.get("shape",parsed["shape"])
+                if source_logical_form=="equivalent_conditions":
                     if "hyp" not in patch:
                         hypotheses=[parsed["intro"]] if parsed["intro"] else []
                     if "conc" not in patch:
                         conclusions=asserts
                     if parsed["tail"]:
                         additional=[parsed["tail"]]
-                elif parsed["shape"]=="listed_premises_then_conclusion":
+                elif source_logical_form=="listed_premises_then_conclusion":
                     if "hyp" not in patch:
                         hypotheses=([parsed["intro"]] if parsed["intro"] else [])+asserts
                     if "conc" not in patch:
                         conclusions=[parsed["tail"]] if parsed["tail"] else []
-                elif parsed["shape"] in (
+                elif source_logical_form in (
                     "existential_witness_properties","witness_properties",
                     "assertion_conjunction_with_quantified_witnesses"):
                     # The items are constraints on one existential witness,
@@ -315,7 +369,8 @@ def main():
                                      " ".join(r"\item "+x for x in asserts)+
                                      " "+r"\end{enumerate}"]
                     if parsed["tail"]:additional=[parsed["tail"]]
-                    extra_issues.append("Review existential or shared-witness quantification before final approval.")
+                    if not patch.get("quantifier_checked"):
+                        extra_issues.append("Review existential or shared-witness quantification before final approval.")
                 else:
                     # Independent clauses can each carry their own premise;
                     # none of their 'If ...' fragments is inherited globally.
