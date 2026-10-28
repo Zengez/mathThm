@@ -1,3 +1,17 @@
+## October 28, 2026 — higher-thinking Pass 2 hard-case review completed (827 → 130)
+
+**Full audit/report:** [PASS2_HARD_REVIEW_REPORT_2026-10-28.md](PASS2_HARD_REVIEW_REPORT_2026-10-28.md).
+
+The user authorized work on the 827 complex statement-only Pass 2 cases and reminded us of the **October 23 mathThm decision**: every condition in an equivalence must be indexed in BOTH hypothesis and conclusion search fields, with a single canonical theorem. Recovered **697/827**: 633 explicitly structured, 39 follow-up, 25 individually authored light editorial splits. Original batches now total **2,675/3,122** structurally resolved (937 first + 1,738 second), with **130** structurally unresolved (58+72) and **317** separate inherited-context cases still pending. Pass 3 remains **0**; NO additional published theorem records.
+
+Canonical Pass 2 data: `harvest/batches/{stacks-bulk-2026-10-28,stacks-second-2026-10-28}/pass2.jsonl`. Outstanding hard-case files are `pass2_higher_thinking_remaining_v3.jsonl` (58/72). Original source is preserved. Source-driven logical forms and per-case implication search indexing are recorded, with explicitly unverified split confidence. Audited **195 theorem-level equivalences for dual-column indexing** (0 failures) and all 2,675 resolved entries for non-empty two search sides (0 failures). No proofs were read; no mathematical validation was claimed. Scripts `pass2_hard_structures.py`, `pass2_hard_followup.py`, `pass2_apply_manual_review.py` and corresponding regression tests are present.
+
+Validated workflow runs: [633](https://github.com/Zengez/mathThm/actions/runs/40727429255), [39 + per-case repair](https://github.com/Zengez/mathThm/actions/runs/40728140910), [25 editorial](https://github.com/Zengez/mathThm/actions/runs/40728886377). The later third Stacks Pass 1 batch is outside this accounting.
+
+**Next work:** bounded semantic review of the remaining 130, then a separate context-expansion pass for the 317. Do NOT launch Pass 3 automatically or treat any split as an accepted theorem.
+
+---
+
 ## October 28, 2026 — second bounded Pass 2 structural attempt (404 additional splits)
 
 **Report:** [PASS2_STRUCTURAL_REPORT_2026-10-28.md](PASS2_STRUCTURAL_REPORT_2026-10-28.md). User requested light Pass 2 on only the **1,231** `needs_structure` candidates from the original 3,122 Stacks batch, deferring anything needing substantial thinking. **404** additional mechanically obvious hypothesis/result boundaries were recorded (113 first batch, 291 second); **827** are retained in dedicated `pass2_higher_thinking.jsonl` files with exact source and reason. Overall Pass 2 resolved increases **1,574 → 1,978**, with 317 inherited-context cases still separate; **1,144** total await further Pass 2 attention.
