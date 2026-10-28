@@ -14,21 +14,23 @@
   "logical_forms": {
     "alternative_conditional_cases": 4,
     "equivalent_conditions": 23,
-    "listed_assertions_with_individual_guards": 62,
-    "listed_premises_then_conclusion": 8,
+    "listed_assertions_with_individual_guards": 48,
+    "listed_premises_then_conclusion": 22,
     "nested_or_multi_enumeration_needs_review": 8,
     "plain_source_statement": 190,
-    "shared_existential_witness_properties": 5
+    "shared_existential_witness_hypotheses": 1,
+    "shared_existential_witness_properties": 4
   },
   "context_hold_categories": {
     "Source uses named references not yet semantically expanded in the standalone displayed statement": 43,
     "Nested/multiple enumerations require source-specific quantifier and condition grouping; entire original statem": 8,
-    "Confirm the joint quantifier binding the listed properties to the same existential witness.": 5,
+    "Confirm the joint quantifier binding the listed properties to the same existential witness.": 4,
     "List items are alternative theorem hypotheses, not independent conclusions; verify their disjunction and any f": 4,
     "List may encode conditional alternatives whose parent antecedent remains in the source introductory phrase.": 2,
     "Source uses contextual or deictic wording; identify exact antecedents and their mathematical scope.": 2,
     "Theorem imports a named external situation; expand before final standalone approval.": 2,
     "Source statement only refers to the completion functor by equation label; its full domain, codomain and action": 1,
+    "Verify the existential premise quantifier and logical scope before mathematical source-equivalence approval.": 1,
     "Source footnote may contain a mathematical caveat": 1
   },
   "section_results": [
