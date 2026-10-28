@@ -33,7 +33,7 @@ jobs:
           i=json.loads(Path("harvest/PASS2_RESUME_INVENTORY_2026-10-28.json").read_text())
           m=json.loads(Path("harvest/PROBLEM_CANDIDATES_MANIFEST.json").read_text())
           assert d["statuses"]==i["all_statuses"]
-          assert d["statuses"]["needs_context"]==m["count"]==862
+          assert d["statuses"]["needs_context"]==m["by_difficulty"]["inherited_context"] and d["statuses"]["needs_structure"]==m["by_difficulty"]["structural_complexity"]
           assert d["statuses"]["needs_classification"]==3
           assert d["statuses"]["needs_structure"]<=453
           assert sum(d["statuses"].values())==10987
@@ -43,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add harvest/batches/stacks-bulk-2026-10-28 harvest/batches/stacks-second-2026-10-28 harvest/batches/stacks-remaining-2026-10-28 harvest/PASS2_RESUME_INVENTORY_2026-10-28.json harvest/PASS2_STRUCTURAL_PLAIN_FINAL_2026-10-28.json harvest/PROBLEM_CANDIDATES_MANIFEST.json harvest/problem_candidates_inherited_context.jsonl
+          git add harvest/batches/stacks-bulk-2026-10-28 harvest/batches/stacks-second-2026-10-28 harvest/batches/stacks-remaining-2026-10-28 harvest/PASS2_RESUME_INVENTORY_2026-10-28.json harvest/PASS2_STRUCTURAL_PLAIN_FINAL_2026-10-28.json harvest/PROBLEM_CANDIDATES_MANIFEST.json harvest/problem_candidates_inherited_context.jsonl harvest/problem_candidates.jsonl
           if ! git diff --cached --quiet; then
             git commit -m "Pass 2: finish bounded plain-source structural review"
             git pull --rebase origin main
