@@ -59,7 +59,7 @@
       "logical_form": "unconditional_result"
     },
     {
-      "candidate_id": "candidate.stacks.298e813a9ff2e00dd3c82c3",
+      "candidate_id": "candidate.stacks.298e813a9ff2e00dd3c1f9c3",
       "expect_prefix": "A scheme is an algebraic space",
       "hypotheses": [
         "A scheme $T$."
