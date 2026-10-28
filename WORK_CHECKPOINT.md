@@ -1,3 +1,21 @@
+# CURRENT EXECUTION CHECKPOINT — lightweight Stacks context index and candidate pilot (October 28, 2026)
+
+**User goal:** Make theorem candidates mathematically standalone without spending days on a pre-research meta-resource. The 55 designated sections in the existing standing-conventions atlas have already been reviewed. Do not treat earlier proved results as added hypotheses. Do not conflate a Pass 2 "resolved" split with a complete standalone assertion.
+
+**Lightweight indexing complete:** Pinned source revision `a04446e57ec1fbc252a871afcec7752fb2807b14`: **115 chapters, 3,288 indexed section openings, 21,297 exact source-label identifiers with 0 collisions**, 3,122 nonempty previews, and 298 intentionally capped previews. Artifacts: [section previews](harvest/stacks_context_openings_2026-10-28.jsonl), [exact labels](harvest/stacks_context_labels_2026-10-28.json), [index manifest](harvest/stacks_context_light_index_manifest_2026-10-28.json). Source code `scripts/stacks_context_light_index.py`, with `candidate_context_bundle(filename, statement_line, refs)`. Lookup uses exact local or fully chapter-qualified references; no recursive research, proof inspection or automatic hypotheses were performed.
+
+**Bounded candidate pilot complete:** [19 context packets](harvest/standalone_context_pilot_2026-10-28_packets.jsonl) across 17 chapters, including all eight provisional duplicate canonical groups. **14/14 source references resolved exactly.** [First-review notes](harvest/standalone_context_pilot_2026-10-28_first_review.jsonl) cover **11 candidate-specific context screens and 8 provisional merge comparisons**, yielding **6 explicit hypothesis proposals or supplements** and **0 final approved standalone theorems**. See [pilot summary](harvest/standalone_context_pilot_2026-10-28_summary.md). Important finding: a Moduli theorem's phrase "as in the introduction" hides a separated/finitely-presented algebraic-space morphism hypothesis. Several source-defined terms need local resolution even when Pass 2 copied a named Situation. The eight earlier mergers remain provisional and must be revisited after actual standalone reconstruction.
+
+**Population and safety:** **9,675** canonical Pass-2-structured active candidate IDs. Original source Pass 1/2, the active candidate pool, extra source/proof links, and published theorem data were not modified. **Pass 3 remains conceptually blocked until standalone context validation and duplicate review are completed**, even though older automation calls the next stage Pass 3. No proof screened or theorem verified.
+
+**Next work (do not enlarge the atlas further):** Process bounded batches of standalone candidates with the existing convention/section-opening/label lookup; incorporate *only applicable* standing assumptions and local definitions; keep source-specific mathematics needing deeper investigation separate. Save proposed standalone hypotheses, conclusions, context provenance, and unresolved terms incrementally. After matching standalone mathematical content across provisional duplicates, decide merges or splits. Only then begin Pass 3 plausibility screening. Favor straightforward candidate work over further global meta-research.
+
+**Recovery and tests:** `python -m scripts.stacks_context_light_index --source-root upstream/stacks` rebuilds the pinned mechanical index. `python -m scripts.stacks_standalone_pilot` rebuilds the pilot packets; editorial first-review annotations are separately committed. [Index workflow passed](https://github.com/Zengez/mathThm/actions/runs/40763597518); [pilot and full regression suite passed](https://github.com/Zengez/mathThm/actions/runs/40764449954).
+
+---
+
+## Previous context-atlas checkpoint (historical)
+
 # CURRENT EXECUTION CHECKPOINT — bounded Stacks standing-context atlas complete (October 28, 2026)
 
 **Task decision:** Before Pass 3, theorem candidates must have self-contained hypotheses/conclusions. Source-local assumptions, notation, definitions and ambient categories must be resolved, without importing earlier proof results as new hypotheses. The context atlas is a *lookup aid*, not a mathematical justification or automatic hypothesis expansion.
