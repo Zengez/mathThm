@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - .github/workflows/pass2-harder-structures.yml
+      - scripts/pass2_hard_structures.py
+      - tests/test_pass2_hard_structures.py
   workflow_dispatch:
 permissions:
   contents: write
