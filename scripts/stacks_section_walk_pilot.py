@@ -30,7 +30,8 @@ BROAD_SCOPE=re.compile(r"(?i)\b(?:throughout (?:this|the|whole) (?:section|chapt
  r"|for the (?:rest|remainder) of (?:this|the) (?:section|chapter)"
  r"|in this (?:section|chapter) we (?:assume|fix|work)"
  r"|in what follows we (?:assume|fix|work)"
- r"|unless otherwise (?:specified|stated)|from now on)\b")
+ r"|unless otherwise (?:specified|stated)|from now on"
+ r"|we (?:will|shall) work in the following situation)\b")
 MAYBE_SCOPE=re.compile(r"(?i)\b(?:we (?:assume|fix|work with|shall assume)|"
  r"let (?:us|the following)|suppose|we use the notation|as above)\b")
 FORMAL_SET={"lemma","proposition","theorem","corollary"}
@@ -225,7 +226,7 @@ def walk_events(lines, section, candlines):
         raise ValueError(f"Unbalanced source context at {section['filename']}:{last}: {frames} proof={inproof}")
     return events,scope_candidates,available_named
 
-def pack(file,section_start,source_root,limit=24):
+def pack(file,section_start,source_root,limit=24,output_prefix="SECTION_WALK_PILOT"):
     grouped,sections,unmatched=groups()
     key=(file,section_start)
     if key not in grouped:raise ValueError(f"Section not populated: {key}")
@@ -296,9 +297,14 @@ def pack(file,section_start,source_root,limit=24):
         "candidate_rewrites_completed":0,
         "note":"Physical scope stack pops at end of each local environment; durable prose signals require human adjudication before any persistent state is activated.",
     }
-    p.atomic_text(PACKETS,"".join(json.dumps(r,ensure_ascii=False,sort_keys=True)+"\n" for r in output))
-    p.atomic_text(EVENTS,"".join(json.dumps(r,ensure_ascii=False,sort_keys=True)+"\n" for r in events))
-    p.atomic_text(SUMMARY,json.dumps(manifest,indent=2,sort_keys=True)+"\n")
+    if not re.fullmatch(r"[A-Z0-9_]+",output_prefix):
+        raise ValueError("Unsafe output_prefix")
+    p.atomic_text(OUT/(output_prefix+"_PACKETS_2026-10-28.jsonl"),"".join(
+        json.dumps(r,ensure_ascii=False,sort_keys=True)+"\n" for r in output))
+    p.atomic_text(OUT/(output_prefix+"_EVENTS_2026-10-28.jsonl"),"".join(
+        json.dumps(r,ensure_ascii=False,sort_keys=True)+"\n" for r in events))
+    p.atomic_text(OUT/(output_prefix+"_MANIFEST_2026-10-28.json"),
+                  json.dumps(manifest,indent=2,sort_keys=True)+"\n")
     print(json.dumps(manifest,sort_keys=True))
     return manifest
 
@@ -308,11 +314,12 @@ def main():
     parser.add_argument("--file")
     parser.add_argument("--line",type=int)
     parser.add_argument("--source-root",default="upstream/stacks")
+    parser.add_argument("--output-prefix",default="SECTION_WALK_PILOT")
     args=parser.parse_args()
     if args.mode=="rank":rank()
     else:
         if not args.file or not args.line:
             parser.error("pack requires --file and --line")
-        pack(args.file,args.line,Path(args.source_root))
+        pack(args.file,args.line,Path(args.source_root),output_prefix=args.output_prefix)
 
 if __name__=="__main__": main()
