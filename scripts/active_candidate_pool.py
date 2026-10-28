@@ -11,6 +11,7 @@ import json
 from pathlib import Path
 from collections import Counter
 from scripts import harvest_pipeline as p
+from scripts.candidate_consolidation import merge_candidate_sources
 
 BATCHES=("stacks-bulk-2026-10-28",
          "stacks-second-2026-10-28",
@@ -75,6 +76,9 @@ def main():
     assert all(deferred[k]["original_status"]==expected_open[k] for k in deferred)
     assert len(records)+len(expected_open)==len(all_ids)
     assert not ({r["candidate_id"] for r in records}&deferred_ids)
+    records,merge_metrics=merge_candidate_sources(records,batches=BATCHES,archive_ids=deferred_ids)
+    assert len(records)+merge_metrics["merged_aliases"]+len(expected_open)==len(all_ids)
+    counts=Counter(x["origin_batch"] for x in records)
     records.sort(key=lambda r:r["candidate_id"])
     p.atomic_text(IDS,"".join(json.dumps(x,sort_keys=True)+"\n" for x in records))
     manifest={
@@ -82,9 +86,11 @@ def main():
         "campaign":"2026-10-28-stacks-bulk-prototype",
         "candidate_pool_file":str(IDS),
         "eligible_total":len(records),
+        "deduplication":merge_metrics,
+        "active_representation":"one canonical candidate for each reviewed confirmed duplicate theorem",
         "by_batch":dict(sorted(counts.items())),
         "next_stage":"Pass 3 proof screening, not mathematical verification",
-        "eligible_rule":"Only Pass 2 resolved mathematical_result records; apply archive exclusion",
+        "eligible_rule":"Only Pass 2 resolved mathematical_result records; exclude deferred cases and aliases of adjudicated duplicates",
         "excluded_registry":str(ARCHIVE),
         "exclusion_is_nondestructive":True,
         "source_pass1_pass2_immutable":True,
