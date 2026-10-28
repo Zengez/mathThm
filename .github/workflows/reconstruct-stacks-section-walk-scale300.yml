@@ -1,0 +1,58 @@
+name: Draft 300 standalone Stacks statements in consecutive whole sections
+on:
+  push:
+    paths:
+      - .github/workflows/reconstruct-stacks-section-walk-scale300.yml
+      - scripts/stacks_section_walk_scale300_reconstruct.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reconstruct all 300 source statements and conservative logical form
+        run: python -m scripts.stacks_section_walk_scale300_reconstruct
+      - name: Check all full-section draft files, no source/corpus mutation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import harvest_pipeline as hp
+          folder=Path("harvest/section_walk_scale300_2026-10-28")
+          m=json.loads((folder/"DRAFT_MANIFEST.json").read_text())
+          assert m["consecutive_complete_source_sections"]==54
+          assert m["distinct_active_candidates_with_drafts"]==300
+          ids=set()
+          for s in m["section_results"]:
+              a=hp.read_jsonl(folder/(s["key"]+"_reviews.jsonl"))
+              assert len(a)==s["active_candidates"]
+              assert s["section_complete"]
+              for r in a:
+                  assert r["candidate_id"] not in ids
+                  ids.add(r["candidate_id"])
+                  assert r["standalone_statement_tex"]
+                  assert r["draft_hypotheses"] and r["draft_conclusions"]
+                  assert r["local_lemma_hypotheses_expire_at_end"]
+                  assert not r["pass3_eligible"] and not r["source_proof_screened"]
+          assert len(ids)==300
+          print(m["status_counts"])
+          PY
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -q
+      - name: Persist standalone draft overlays per section
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/section_walk_scale300_2026-10-28/s*_reviews.jsonl harvest/section_walk_scale300_2026-10-28/DRAFT_MANIFEST.json
+          test -z "$(git diff --name-only -- data/theorems.json harvest/batches harvest/active_candidate_ids.jsonl)"
+          if ! git diff --cached --quiet; then
+            git commit -m "Save 300 scoped standalone theorem drafts across consecutive coherent/divisors source sections"
+            git pull --rebase origin main
+            git push origin main
+          fi
