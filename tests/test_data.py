@@ -12,8 +12,9 @@ class CorpusTests(unittest.TestCase):
 
     def test_records_and_unique_ids(self):
         self.assertEqual(self.data["schema"],"maththm.theorems.v1")
-        self.assertEqual(len(self.items),20)
-        self.assertEqual(len({r["id"] for r in self.items}),20)
+        self.assertGreaterEqual(len(self.items),20)
+        self.assertEqual(self.data.get("total"),len(self.items))
+        self.assertEqual(len({r["id"] for r in self.items}),len(self.items))
         self.assertGreaterEqual(len({r["area"] for r in self.items}),7)
 
     def test_minimum_proof_provenance(self):
