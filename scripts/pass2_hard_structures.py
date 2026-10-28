@@ -214,6 +214,35 @@ def split_equivalence(text, block, items):
     },None
 
 
+def logical_item(item, shared_setup):
+    """Annotate one enumerated clause without merging distinct implications.
+
+    Each item retains its exact original source. For explicit if/then, extract
+    the item-local antecedent and consequent; an embedded iff is bidirectional.
+    """
+    text=item.strip()
+    math=mask_math(text)
+    iff=re.search(r"\bif\s+and\s+only\s+if\b",math,re.I)
+    if iff:
+        left,right=text[:iff.start()].strip(),text[iff.end():].strip()
+        if left and right:
+            return {"hypotheses":[shared_setup,left,right],
+                    "conclusions":[left,right],"clause_is_conditional":True,
+                    "logical_form":"equivalence_subcase",
+                    "equivalence_sides":[left,right],
+                    "source_clause":text}
+    then=re.search(r"\bthen\b",math,re.I)
+    if then and re.search(r"\b(?:if|suppose|assume|whenever)\b",math[:then.start()],re.I):
+        left,right=text[:then.start()].strip(),text[then.end():].strip()
+        if left and right:
+            return {"hypotheses":[shared_setup,left],"conclusions":[right],
+                    "clause_is_conditional":True,
+                    "logical_form":"conditional_subcase","source_clause":text}
+    return {"hypotheses":[shared_setup],"conclusions":[text],
+            "clause_is_conditional":False,
+            "logical_form":"asserted_subcase","source_clause":text}
+
+
 def split_enumeration(text, block, items):
     a,b=block
     before=text[:a].strip()
@@ -248,14 +277,17 @@ def split_enumeration(text, block, items):
             return None,"additional clauses following list require scope interpretation"
     else:
         clauses=items
-    cases=[]
-    for item in clauses:
-        cases.append({"hypotheses":[h],
-                      "conclusions":[item],
-                      "clause_is_conditional":bool(re.search(r"\b(?:if|whenever|provided)\b",item,re.I))})
+    cases=[logical_item(item,h) for item in clauses]
+    # Search both sides for each source-level implication or equivalence,
+    # but preserve case correspondence in structured_cases.
+    hypothesis_search=[h]
+    conclusion_search=[]
+    for case in cases:
+        hypothesis_search.extend(x for x in case["hypotheses"][1:] if x not in hypothesis_search)
+        conclusion_search.extend(case["conclusions"])
     return {
-        "hypotheses":[h],
-        "conclusions":clauses,
+        "hypotheses":hypothesis_search,
+        "conclusions":conclusion_search,
         "logical_form":"conjunction_of_source_clauses",
         "equivalence_sides":[],
         "structured_cases":cases,
