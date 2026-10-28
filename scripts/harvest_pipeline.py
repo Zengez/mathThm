@@ -108,9 +108,9 @@ def needs_rows(raw: dict, structured: dict, reviewed: dict):
         p2 = structured.get(ident)
         p3 = reviewed.get(ident)
         status, reason = None, None
-        if p2 and p2.get("context_status") == "needs_context":
-            status = "needs_context"
-            reason = p2.get("context_note") or "Unresolved local statement assumptions"
+        if p2 and p2.get("context_status") in ("needs_context", "needs_structure", "needs_classification", "not_result"):
+            status = p2["context_status"]
+            reason = p2.get("context_note") or "Requires manual investigation before Pass 3"
         if p3 and p3["outcome"] in ("questionable", "rejected"):
             status, reason = p3["outcome"], p3["reason"]
         if status:
@@ -210,11 +210,11 @@ def apply_pass2(args):
         if ident not in raw:
             raise ValueError(f"unknown Pass 1 candidate: {ident}")
         status = decision.get("context_status")
-        if status not in ("resolved", "needs_context"):
-            raise ValueError(f"candidate {ident}: context_status must be resolved/needs_context")
+        if status not in ("resolved", "needs_context", "needs_structure", "needs_classification", "not_result"):
+            raise ValueError(f"candidate {ident}: unknown Pass 2 status")
         note = decision.get("context_note", "")
-        if not isinstance(note, str) or (status == "needs_context" and not note.strip()):
-            raise ValueError(f"candidate {ident}: needs_context requires explanation")
+        if not isinstance(note, str) or (status != "resolved" and not note.strip()):
+            raise ValueError(f"candidate {ident}: unresolved Pass 2 requires explanation")
         # A needs-context candidate can be retained even without a confident split.
         values = {}
         for field in ("hypotheses", "conclusions", "hypothesis_tags", "conclusion_tags"):
@@ -227,9 +227,19 @@ def apply_pass2(args):
             raise ValueError(f"candidate {ident}: resolved statement required")
         if status == "resolved" and (not values["hypotheses"] or not values["conclusions"]):
             raise ValueError(f"candidate {ident}: both searchable sides required")
+        classification=decision.get("result_classification","mathematical_result")
+        if classification not in ("mathematical_result", "not_mathematical_result", "uncertain"):
+            raise ValueError(f"candidate {ident}: invalid result classification")
+        if status == "resolved" and classification != "mathematical_result":
+            raise ValueError(f"candidate {ident}: only mathematical results may be marked resolved")
+        review_method=decision.get("review_method","editorial")
+        if review_method not in ("editorial","mechanical_syntax"):
+            raise ValueError(f"candidate {ident}: invalid Pass 2 review method")
         rows.append({
             "candidate_id": ident, "context_status": status,
-            "context_note": note,
+            "context_note": note, "result_classification":classification,
+            "review_method":review_method,
+            "split_confidence":decision.get("split_confidence","editorial" if review_method=="editorial" else "syntax_only"),
             "statement": statement,
             "title": decision.get("title"),
             "area": decision.get("area") or "Unclassified",
@@ -252,7 +262,7 @@ def pass3_packets(args):
         load_rows(w / "pass3.jsonl","candidate_id"))
     packets = []
     for ident,p2 in sorted(structured.items()):
-        if ident in reviewed or p2["context_status"] != "resolved":
+        if ident in reviewed or p2["context_status"] != "resolved" or p2.get("result_classification","mathematical_result") != "mathematical_result":
             continue
         cand = raw[ident]
         proof = cand["source"]
@@ -328,7 +338,7 @@ def apply_pass3(args):
 
 
 def provisional_record(raw: dict, structured: dict, checked: dict):
-    if structured["context_status"]!="resolved" or checked["outcome"]!="plausible":
+    if structured["context_status"]!="resolved" or structured.get("result_classification","mathematical_result")!="mathematical_result" or checked["outcome"]!="plausible":
         raise ValueError("only fully structured plausible evidence may be promoted")
     if not checked["scan_completed"]:
         raise ValueError("proof scan not completed")
