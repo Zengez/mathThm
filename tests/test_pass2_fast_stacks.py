@@ -37,6 +37,17 @@ class FastPass2Tests(unittest.TestCase):
         d=classify(candidate("\\\\begin{enumerate}\n\\\\item $P$.\n\\\\item $Q$.\n\\\\end{enumerate}"))
         self.assertEqual(d["context_status"],"needs_structure")
 
+
+    def test_inherited_situation_reference_is_not_marked_resolved(self):
+        d=classify(candidate(r"In Situation \ref{situation-descent} if $S$ is affine, then $T$ is affine."))
+        self.assertEqual(d["result_classification"],"mathematical_result")
+        self.assertEqual(d["context_status"],"needs_context")
+
+    def test_short_named_mathematical_assertion_is_result_but_needs_split(self):
+        d=classify(candidate("A composition of monomorphisms is a monomorphism."))
+        self.assertEqual(d["result_classification"],"mathematical_result")
+        self.assertEqual(d["context_status"],"needs_structure")
+
     def test_questions_are_flagged_uncertain(self):
         d=classify(candidate("Open question: is every ring Noetherian?"))
         self.assertEqual(d["context_status"],"needs_classification")
