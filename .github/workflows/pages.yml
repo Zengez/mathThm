@@ -31,8 +31,9 @@ jobs:
         run: |
           node --check web/search-core.js
           node --check web/app.js
+          node --check web/mathdef-v2.js
       - name: Test theorem search
-        run: node --test tests/test_search.cjs tests/test_ui_smoke.cjs
+        run: node --test tests/test_search.cjs tests/test_ui_smoke.cjs tests/test_mathdef_v2.cjs
       - name: Validate theorem records
         run: python -m unittest discover -s tests -v
       - name: Build site and optionally bundle mathDef definitions
@@ -43,6 +44,27 @@ jobs:
           test -f _site/theorems.json
           test -f _site/search-core.js
           test -f _site/app.js
+          test -f _site/mathdef-v2.js
+          test -f _site/mathdef-snapshot.json
+          test -f _site/mathdef-manifest.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts.build_site import validate_v2,verify_theorem_hints
+          root=Path('_site')
+          manifest=json.loads((root/'mathdef-manifest.json').read_text())
+          snapshot=validate_v2(manifest,(root/'mathdef-snapshot.json').read_bytes())
+          corpus=json.loads((root/'theorems.json').read_text())
+          assert manifest['dataset']=='merged'
+          assert verify_theorem_hints(snapshot,corpus)>0
+          print("PUBLISHED_MATHTHM_DEFINITIONS="+json.dumps({
+            'terms':len(snapshot['definitions']),
+            'meanings':manifest['meaning_count'],
+            'formulations':manifest['formulation_count'],
+            'historic_original_ids':manifest['original_definition_count'],
+            'version':manifest['version'],
+          },sort_keys=True))
+          PY
       - uses: actions/configure-pages@v5
         with:
           enablement: true

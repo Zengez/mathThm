@@ -1,3 +1,17 @@
+## October 28, 2026 — mathDef v2 consumer migration
+
+**User authorization:** Update mathThm to use the *published cleaned mathDef v2* feed, not v1. Preserve theorem corpus and search behavior; do not undertake bulk theorem collection. This entry supersedes the older October 23 prototype v1 notes below.
+
+- `scripts/build_site.py` consumes `https://zengez.github.io/mathDef/api/definitions/v2/`: validates manifest schema (`merged`), SHA-256, payload shape, all meanings and formulations, official Subject metadata, historical original IDs, and redirect registry. It bundles the verified `mathdef-snapshot.json` and `mathdef-manifest.json` on every main-branch/nightly Pages build.
+- `web/mathdef-v2.js` resolves canonical group headings, original mathDef IDs and all three retired ID aliases from `consolidated_ids`; `web/app.js` uses the adapter for theorem hints, auto phrase links, and recursive context-specific expansions. An exact official Subject is preferred; explicit target-formulation overrides are honored for nested links; all other formulations remain available in the expandable alternatives. Actual per-formulation links are followed, rather than the possibly unrelated heading aggregate.
+- When the bundled snapshot cannot be fetched, the browser attempts the LIVE **v2** endpoint with SHA-256 integrity checking, never silently reverting to the old original-only v1 feed. Theorem search and source/proof links stay usable without mathDef.
+- New tests: `tests/test_mathdef_feed.py`, `tests/test_mathdef_v2.cjs`, updated browser-like `tests/test_ui_smoke.cjs`; GitHub Pages workflow now refuses release without a verified v2 bundle, validates theorem hint IDs against its original aliases, checks SHA and field counts, and retains the nightly schedule.
+- The canonical source of definitions remains mathDef. No mathDef content is imported into mathThm's theorem dataset or edited by this migration.
+
+**Next task:** continue normal mathThm prototype review when user returns. Future mathDef publishes will be consumed on mathThm's next nightly or manual site build. In particular, historical theorem IDs should be resolved by mathDef's v2 `original_ids` and consolidated redirect tables, not copied into new mathThm sources.
+
+---
+
 # Current work checkpoint — October 23, 2026
 
 **Phase:** 1 — first prototype deployed; automated checks and UI boot test passed. Awaiting user review of live interface.  

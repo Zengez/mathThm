@@ -1,3 +1,7 @@
+## October 28, 2026 — mathDef v2 integration
+
+mathThm has been upgraded from the original-only v1 mathDef API to the **complete cleaned canonical v2 feed**. The production/nightly build uses the v2 SHA-256 content manifest and verifies the entire snapshot and historical original-ID redirects before bundling. The theorem in-page definition viewer resolves old original IDs and relocated group/meaning/formulation IDs, prioritizes exact Subject matches and curated link-specific target formulations, and retains alternate definitions and recursively linked terms. The live fallback only uses the verified v2 feed. This integrates mathDef's newly published merged definitions without adding or modifying any mathematical theorem research.
+
 # mathThm prototype implementation (2026-10-23)
 
 This records **built features**. For the full intended system see PROJECT_PLAN.md and FUTURE_FEATURES.md. This corpus is a **cursory-screened research prototype**, not a mathematically verified reference.
