@@ -1,0 +1,79 @@
+name: Pass 2 exact source notation-section context
+on:
+  push:
+    paths:
+      - .github/workflows/pass2-source-section-notation.yml
+      - scripts/pass2_pinned_section.py
+      - tests/test_pass2_pinned_section.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Pass 2 and pipeline regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Get pinned original Stacks text, no proof examination
+        run: |
+          git clone --quiet --depth 1 --filter=blob:none https://github.com/stacks/stacks-project.git upstream/stacks
+          REF=a04446e57ec1fbc252a871afcec7752fb2807b14
+          if [ "$(git -C upstream/stacks rev-parse HEAD)" != "$REF" ]; then
+            git -C upstream/stacks fetch --quiet --depth 1 origin "$REF"
+            git -C upstream/stacks checkout --quiet --detach "$REF"
+          fi
+          test "$(git -C upstream/stacks rev-parse HEAD)" = "$REF"
+      - name: Review local Section notation references and complete safe Pass 2 splits
+        run: python -m scripts.pass2_pinned_section --source-root upstream/stacks
+      - name: Audit conservation of all 10987 Stacks candidates
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from collections import Counter
+          from scripts import harvest_pipeline as p
+          overall=Counter();batches=[]
+          for batch in ('stacks-bulk-2026-10-28','stacks-second-2026-10-28','stacks-remaining-2026-10-28'):
+              w=Path('harvest/batches')/batch
+              raw=p.load_rows(w/'pass1.jsonl','candidate_id')
+              reviewed=p.load_rows(w/'pass2.jsonl','candidate_id')
+              assert set(raw)==set(reviewed)
+              assert not p.load_rows(w/'pass3.jsonl','candidate_id')
+              statuses=Counter(v['context_status'] for v in reviewed.values())
+              overall.update(statuses)
+              for v in reviewed.values():
+                  if v['context_status']=='resolved':
+                      assert v['hypotheses'] and v['conclusions']
+                  if 'equivalence' in v.get('logical_form',''):
+                      assert all(s in v['hypotheses'] and s in v['conclusions']
+                             for group in v.get('equivalence_sides',[]) for s in group)
+              batches.append({'name':batch,'count':len(raw),'status':dict(statuses)})
+          out={'batches':batches,'total_candidates':sum(v['count'] for v in batches),
+               'status_totals':dict(sorted(overall.items())),
+               'no_pass3_or_catalog_updates':True}
+          assert out['total_candidates']==10987
+          p.atomic_text(Path('harvest/PASS2_ALL_STACKS_LATEST_2026-10-28.json'),json.dumps(out,indent=2,sort_keys=True)+'\n')
+          print(json.dumps(out,indent=2,sort_keys=True))
+          PY
+      - name: Commit scoped Pass 2 source decisions and counters
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/batches/stacks-bulk-2026-10-28 harvest/batches/stacks-second-2026-10-28 harvest/batches/stacks-remaining-2026-10-28 harvest/PASS2_ALL_STACKS_LATEST_2026-10-28.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Pass 2: resolve exact local Stacks notation section contexts"
+            git pull --rebase origin main
+            git push origin main
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stacks-pass2-pinned-section-review
+          path: |
+            harvest/batches/*/pass2_pinned_section_summary.json
+            harvest/PASS2_ALL_STACKS_LATEST_2026-10-28.json
+          retention-days: 90
