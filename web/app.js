@@ -11,56 +11,26 @@
     delimiters:[{left:"$$",right:"$$",display:true},{left:"\\[",right:"\\]",display:true},
       {left:"\\(",right:"\\)",display:false},{left:"$",right:"$",display:false}],throwOnError:false,strict:"ignore"})};
   const splitMath=s=>String(s).split(/(\$\$[\s\S]*?\$\$|\$[^$]*\$|\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\])/g);
-  const escapeRE=label=>[...label].map(c=>"\\^$.*+?()[]{}|".includes(c)?"\\"+c:c).join("");
-  const regexFor=label=>new RegExp("(^|[^\\p{L}\\p{N}_])("+escapeRE(label)+")(?=$|[^\\p{L}\\p{N}_])","giu");
-  let labels=[];
+  let linker=null;
   function rebuildLabels(){
-    labels=[];
-    const index=new Map();
-    for(const d of state.defs.values())for(const label of [d.term,...(d.aliases||[])]){
-      if(typeof label!=="string"||label.length<5||/[$\\]/.test(label))continue;
-      const key=label.toLowerCase();
-      if(!index.has(key))index.set(key,new Set());
-      index.get(key).add(d.id);
-    }
-    for(const [label,ids] of index)if(ids.size===1)labels.push({label,id:[...ids][0]});
-    labels.sort((a,b)=>b.label.length-a.label.length);
-    for(const c of labels)c.regex=regexFor(c.label);
+    linker=window.MathThmLinks.create(state.definitions);
+    if(linker.diagnostics.unresolvedCurated.length)
+      console.warn("mathThm curated V2 aliases unavailable:",linker.diagnostics.unresolvedCurated);
   }
   function linkified(text,theorem,path=[]){
-    const hints=(theorem?.link_hints||[]).filter(h=>Array.isArray(h)&&resolve(h[1]))
-      .map(h=>({label:h[0],id:resolve(h[1]).id,originalId:h[1]}));
-    const candidates=[...hints,...labels];
     return splitMath(text).map(part=>{
       if(!part)return "";
       if(/^(?:\$|\\\(|\\\[)/.test(part))return esc(part);
-      const options=[];
-      for(const c of candidates){
-        const blocked=Boolean(state.definitions &&
-          !mathdef.branchPath(state.definitions,path,c.id));
-        const regex=c.regex || regexFor(c.label);
-        regex.lastIndex=0;
-        let m;
-        while((m=regex.exec(part))){
-          const start=m.index+m[1].length,end=start+m[2].length;
-          options.push({start,end,id:c.id,originalId:c.originalId,
-            blocked,explicit:Boolean(c.originalId)});
-        }
-      }
-      // Longest whole phrase wins, even when its link is blocked by ancestry.
-      // Reserve the span so e.g. the 'topology' inside an unavailable
-      // 'subspace topology' link does not acquire a misleading shorter link.
-      options.sort((a,b)=>(b.end-b.start)-(a.end-a.start)||
-        Number(b.explicit)-Number(a.explicit)||a.start-b.start);
-      const chosen=[];
-      for(const c of options){
-        if(chosen.some(x=>c.start<x.end&&c.end>x.start))continue;
-        chosen.push(c);
-      }
-      chosen.sort((a,b)=>a.start-b.start);
-      let result="",pos=0;
+      if(!linker)return esc(part);
+      const chosen=linker.match(part,{
+        subject:theorem?.area||"",
+        path,
+        hints:theorem?.link_hints||[],
+        excluded:theorem?.link_exclusions||[]
+      });
+      let result="",position=0;
       for(const c of chosen){
-        result+=esc(part.slice(pos,c.start));
+        result+=esc(part.slice(position,c.start));
         if(!c.blocked){
           result+='<button type="button" class="definition-link" data-def-id="'+esc(c.id)+
             '" data-def-path="'+esc(JSON.stringify(path))+
@@ -68,9 +38,9 @@
             '" data-original-def-id="'+esc(c.originalId||"")+
             '" title="Expand mathDef v2 definition">'+esc(part.slice(c.start,c.end))+'</button>';
         }else result+=esc(part.slice(c.start,c.end));
-        pos=c.end;
+        position=c.end;
       }
-      return result+esc(part.slice(pos));
+      return result+esc(part.slice(position));
     }).join("");
   }
   const paras=(text,theorem,path=[])=>String(text).split(/\n\s*\n/).map(p=>"<p>"+linkified(p,theorem,path).replace(/\n/g," ")+"</p>").join("");
