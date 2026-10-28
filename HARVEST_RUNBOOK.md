@@ -34,6 +34,27 @@ python -m scripts.stacks_context_recon --source-root upstream/stacks --output-di
 
 Deliberately stop at global/chapter conventions, short section introductions, and a basic label lookup; resolve additional local dependencies per-candidate rather than constructing a large universal context graph.
 
+### First bounded conventions review — complete
+
+The [reviewed standing-context atlas](harvest/stacks_standing_context_atlas_2026-10-28.jsonl) now contains **55** designated convention/notation/setup source-section reviews from **48** chapters. The companion [chapter lookup](harvest/stacks_standing_context_lookup_2026-10-28.json) covers all **115** maintained chapters and records **21** explicitly documented inheritance/reference links without recursively resolving them. A [short explanatory summary](harvest/stacks_standing_context_summary_2026-10-28.md) records useful repeated-context families and noninheritance/override safeguards; [source review packets](harvest/stacks_context_sections_2026-10-28_packets.jsonl) preserve pinned-source excerpts and links.
+
+These are **source-context leads**, not assertions already imported into any theorem hypotheses. Read each section's `scope_assessment`, `candidate_action`, `guards` and `inherit_context_ids` before using it. A headline such as "Conventions" does not prove that every listed fact applies globally; a phrase "we will often assume" does not establish an assumption for an individual theorem. The formal-spaces new convention starts only at the marked section line; Chow chapter Situation setups must be checked for applicability; moduli base conventions may override the inherited setting.
+
+To rebuild the reference from the committed review annotations (without source browsing or proof reading):
+
+```bash
+python -m scripts.stacks_context_index
+```
+
+Example read-only retrieval from a candidate's pinned filename and source line:
+
+```python
+from scripts.stacks_context_index import get_candidate_context_leads
+leads = get_candidate_context_leads("formal-spaces.tex", statement_line=900)
+```
+
+This retrieves global/chapter convention *leads only*. The next lightweight step is to index chapter/section opening paragraphs and exact source labels; deeper contextual resolution remains per-candidate, and Pass 3 remains blocked until standalone semantics are checked.
+
 ---
 
 ## What each pass does
