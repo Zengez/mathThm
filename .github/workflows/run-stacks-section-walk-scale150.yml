@@ -1,0 +1,58 @@
+name: Traverse 19 consecutive Algebra sections / 150 candidates
+on:
+  push:
+    paths:
+      - .github/workflows/run-stacks-section-walk-scale150.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: stacks/stacks-project
+          ref: a04446e57ec1fbc252a871afcec7752fb2807b14
+          path: upstream/stacks
+          persist-credentials: false
+      - run: test "$(git -C upstream/stacks rev-parse HEAD)" = "a04446e57ec1fbc252a871afcec7752fb2807b14"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Traverse every source section in sequence, excluding proof bodies
+        run: python -m scripts.stacks_section_walk_scale150
+      - name: Assert all 19 entire sections, 150 distinct canonical IDs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import harvest_pipeline as p
+          root=Path("harvest/section_walk_scale150_2026-10-28")
+          m=json.loads((root/"MANIFEST.json").read_text())
+          rows=m["section_inventory"]
+          assert len(rows)==m["sections"]==19
+          assert m["active_candidate_count"]==150
+          assert m["consecutive_full_sections"]
+          assert m["sections_with_zero_active_candidates"]==1
+          assert all(a["source_end_line"]+1==b["source_start_line"] for a,b in zip(rows,rows[1:]))
+          assert sum(r["active_candidate_count"] for r in rows)==150
+          assert all(len(p.read_jsonl(Path(r["packets"])))==r["active_candidate_count"] for r in rows)
+          assert all(r["all_lemma_local_assumptions_popped_after_environment"] for r in rows)
+          print([(r["section_index"],r["active_candidate_count"],r["section_title"]) for r in rows])
+          PY
+      - name: Run full regression suite
+        run: python -m unittest discover -s tests -q
+      - name: Save source-sweep packets and checkpoints
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/section_walk_scale150_2026-10-28/
+          test -z "$(git diff --name-only -- data/theorems.json harvest/batches harvest/active_candidate_ids.jsonl)"
+          if ! git diff --cached --quiet; then
+            git commit -m "Save 19 consecutive Algebra sections and 150 source-ordered candidate packets"
+            git pull --rebase origin main
+            git push origin main
+          fi
