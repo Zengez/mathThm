@@ -1,3 +1,26 @@
+# CURRENT EXECUTION CHECKPOINT — bounded Stacks standing-context atlas complete (October 28, 2026)
+
+**Task decision:** Before Pass 3, theorem candidates must have self-contained hypotheses/conclusions. Source-local assumptions, notation, definitions and ambient categories must be resolved, without importing earlier proof results as new hypotheses. The context atlas is a *lookup aid*, not a mathematical justification or automatic hypothesis expansion.
+
+**Active working population:** **9,675** Pass 2-structured candidate IDs (see [active pool](harvest/ACTIVE_CANDIDATE_POOL.json)). The eight provisional exact-source mergers retain all alternate proof/source citations and must be re-reviewed for standalone mathematical equivalence. Neither the source Pass 1/2 files nor the published theorem corpus were changed during this context work.
+
+**Completed in this bounded pass:** Examined source excerpts for **55 designated Conventions / Notation / Setup sections** in **48** Stacks Project chapters, including all five sections of global `conventions.tex`. Built a machine-readable source-anchored atlas, a direct-inheritance map with **21** contextual links, and a lightweight lookup for **all 115 ordered Stacks book chapters**. Repeated fppf-site conventions and later stack-theory inheritance are grouped into reusable families. Review also recorded key exceptions: mid-chapter change in `formal-spaces.tex`, named situations in the Chow chapters, non-standing Noetherian assumptions in `etale.tex`, and default base overrides in moduli chapters. No proof reading or recursive mathematical research was done.
+
+**Authoritative artifacts:**
+- [Reviewed source-context atlas](harvest/stacks_standing_context_atlas_2026-10-28.jsonl)
+- [Chapter lookup and direct inheritance map](harvest/stacks_standing_context_lookup_2026-10-28.json)
+- [Review summary](harvest/stacks_standing_context_summary_2026-10-28.md) and [manifest](harvest/stacks_standing_context_manifest_2026-10-28.json)
+- [Original bounded convention-source review packets](harvest/stacks_context_sections_2026-10-28_packets.jsonl) and [55 editorial annotations](harvest/stacks_context_sections_2026-10-28_reviewed_annotations.jsonl)
+- Earlier [wide-recall reconnaissance inventory](harvest/stacks_context_recon_2026-10-28_files.jsonl)
+
+**Current next step:** Add a *small* mechanical index of chapter/section opening context and a simple exact source-label locator to the existing context lookup; do not parse every intermediate paragraph or follow recursive dependencies. Then conduct bounded standalone-context review of active candidates, retrieving extra local context on demand. Confirm or revoke the eight provisional mergers *after* standalone reconstruction; only then begin Pass 3 proof-plausibility screening. Stop expanding the meta resource once it is sufficiently useful.
+
+**Restart:** The pinned Stacks source revision is `a04446e57ec1fbc252a871afcec7752fb2807b14`. The reviewed atlas can be rebuilt from the committed reviews using `python -m scripts.stacks_context_index`; source packets are regenerated using `python -m scripts.stacks_context_sections --source-root upstream/stacks`. Full regression checks passed in [the context atlas build workflow](https://github.com/Zengez/mathThm/actions/workflows/build-stacks-context-atlas.yml). Existing deferred Pass 2 history remains archived, not the current work queue.
+
+---
+
+## Previous pre-atlas checkpoint (archival)
+
 # CURRENT EXECUTION CHECKPOINT — pre-Pass 3 standalone-context preparation (October 28, 2026)
 
 **Latest user decision:** The active theorem candidates must be mathematically standalone, with source-local definitions, ambient objects, and standing assumptions resolved into the hypotheses (or linked to an unambiguous mathDef definition) before final canonical duplicate detection and Pass 3 proof screening. Do **not** interpret earlier proof results as additional hypotheses.
