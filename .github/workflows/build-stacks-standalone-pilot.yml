@@ -4,6 +4,8 @@ on:
     paths:
       - .github/workflows/build-stacks-standalone-pilot.yml
       - scripts/stacks_standalone_pilot.py
+      - tests/test_standalone_context_pilot.py
+      - harvest/standalone_context_pilot_2026-10-28_first_review.jsonl
   workflow_dispatch:
 permissions:
   contents: write
@@ -18,6 +20,8 @@ jobs:
           python-version: '3.12'
       - name: Assemble read-only canonical candidate source-context packets
         run: python -m scripts.stacks_standalone_pilot
+      - name: Full Python regression suite
+        run: python -m unittest discover -s tests -q
       - name: Check all provisional merges and no original mutation
         run: |
           python - <<'PY'
