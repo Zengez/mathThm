@@ -1,0 +1,64 @@
+name: Traverse 54 consecutive complete Stacks sections / 300 candidates
+on:
+  push:
+    paths:
+      - .github/workflows/run-stacks-section-walk-scale300.yml
+      - scripts/stacks_section_walk_scale300.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: stacks/stacks-project
+          ref: a04446e57ec1fbc252a871afcec7752fb2807b14
+          path: upstream/stacks
+          persist-credentials: false
+      - run: test "$(git -C upstream/stacks rev-parse HEAD)" = "a04446e57ec1fbc252a871afcec7752fb2807b14"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Save 300 source statements across every full section and both chapters
+        run: python -m scripts.stacks_section_walk_scale300
+      - name: Validate candidate counts, source order, no skip
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import harvest_pipeline as hp
+          folder=Path("harvest/section_walk_scale300_2026-10-28")
+          m=json.loads((folder/"MANIFEST.json").read_text())
+          assert m["sections"]==54 and m["active_candidate_count"]==300
+          assert m["all_sections_consecutive_and_complete"]
+          assert m["all_chapters_adjacent_in_source_order"]
+          ids=set()
+          for s in m["section_inventory"]:
+              packets=hp.read_jsonl(Path(s["packets"]))
+              events=hp.read_jsonl(Path(s["events"]))
+              assert len(packets)==s["active_candidate_count"]
+              assert sum(x["kind"]=="candidate_location" for x in events)==len(packets)
+              assert sum(x["kind"]=="enter_local_environment" for x in events)==sum(x["kind"]=="exit_local_environment" for x in events)
+              for p in packets:
+                  assert p["candidate_id"] not in ids
+                  ids.add(p["candidate_id"])
+          assert len(ids)==300
+          print("Section-complete source traversal succeeded",len(ids),"active candidates")
+          PY
+      - name: Full unit regressions
+        run: python -m unittest discover -s tests -q
+      - name: Persist candidate packets section by section
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/section_walk_scale300_2026-10-28/
+          test -z "$(git diff --name-only -- data/theorems.json harvest/batches harvest/active_candidate_ids.jsonl)"
+          if ! git diff --cached --quiet; then
+            git commit -m "Record 300 candidate source packets across 54 consecutive coherent/divisors sections"
+            git pull --rebase origin main
+            git push origin main
+          fi
