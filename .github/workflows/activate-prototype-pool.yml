@@ -1,0 +1,75 @@
+name: Activate mathThm prototype candidate pool
+on:
+  push:
+    paths:
+      - .github/workflows/activate-prototype-pool.yml
+      - scripts/active_candidate_pool.py
+      - scripts/harvest_pipeline.py
+      - tests/test_active_candidate_pool.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  activation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run full Python regression suite
+        run: python -m unittest discover -s tests -q
+      - name: Generate recognized active population
+        run: python -m scripts.active_candidate_pool
+      - name: Check active candidate IDs against source and archived registry
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import harvest_pipeline as p
+          from scripts.active_candidate_pool import BATCHES,IDS,MANIFEST,ARCHIVE,active_ids_for_workdir
+          active=p.load_rows(IDS,"candidate_id")
+          archive=p.load_rows(ARCHIVE,"candidate_id")
+          manifest=json.loads(MANIFEST.read_text())
+          raw_ids=set()
+          eligible=set()
+          status_by_id={}
+          for batch in BATCHES:
+            w=Path("harvest/batches")/batch
+            source=p.load_rows(w/"pass1.jsonl","candidate_id")
+            reviewed=p.load_rows(w/"pass2.jsonl","candidate_id")
+            assert set(source)==set(reviewed)
+            assert not raw_ids.intersection(source)
+            raw_ids.update(source)
+            for ident,row in reviewed.items():
+              status_by_id[ident]=row["context_status"]
+              if row["context_status"]=="resolved" and row["result_classification"]=="mathematical_result":
+                eligible.add(ident)
+            assert active_ids_for_workdir(w)=={
+                ident for ident,row in reviewed.items()
+                if row["context_status"]=="resolved" and row["result_classification"]=="mathematical_result"
+            }
+          assert len(raw_ids)==10987
+          assert len(active)==manifest["eligible_total"]==9683
+          assert set(active)==eligible
+          assert set(archive)==set(raw_ids)-set(active)
+          assert not set(archive)&set(active)
+          assert all(status_by_id[k]!="resolved" for k in archive)
+          assert all(status_by_id[k]=="resolved" for k in active)
+          assert not manifest["proofs_read_by_this_step"]
+          assert not manifest["pass3_screening_started_by_this_step"]
+          assert manifest["source_pass1_pass2_immutable"]
+          print(json.dumps({"active_population":len(active),"pass3_ready":True,
+                            "archive_disjoint":True},sort_keys=True))
+          PY
+      - name: Commit active intake list and manifest, not the theorem corpus
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/active_candidate_ids.jsonl harvest/ACTIVE_CANDIDATE_POOL.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Set active mathThm prototype discovery pool for Pass 3"
+            git pull --rebase origin main
+            git push origin main
+          fi
