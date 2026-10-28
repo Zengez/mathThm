@@ -1,0 +1,40 @@
+name: Pass 2 Stacks candidate syntax triage
+on:
+  push:
+    paths:
+      - .github/workflows/pass2-stacks.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  pass2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check Pass 2 syntax/triage rules
+        run: |
+          python -m unittest tests.test_pass2_fast_stacks tests.test_harvest_pipeline -v
+      - name: Pass 2 over saved raw Stacks batches (never read proofs)
+        run: |
+          set -euo pipefail
+          python scripts/pass2_fast_stacks.py --workdir harvest/batches/stacks-bulk-2026-10-28
+          python scripts/pass2_fast_stacks.py --workdir harvest/batches/stacks-second-2026-10-28
+          python scripts/harvest_pipeline.py status --workdir harvest/batches/stacks-bulk-2026-10-28
+          python scripts/harvest_pipeline.py status --workdir harvest/batches/stacks-second-2026-10-28
+      - name: Commit extracted Pass 2 data and investigation queues only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/batches/stacks-bulk-2026-10-28 harvest/batches/stacks-second-2026-10-28
+          git diff --cached --quiet || (git commit -m "Pass 2 syntax triage for 3122 Stacks candidates (no proofs)" && git push)
+      - name: Retain both Pass 2 summaries
+        uses: actions/upload-artifact@v4
+        with:
+          name: stacks-pass2-summaries
+          path: |
+            harvest/batches/stacks-bulk-2026-10-28/pass2_summary.json
+            harvest/batches/stacks-second-2026-10-28/pass2_summary.json
+          retention-days: 90
