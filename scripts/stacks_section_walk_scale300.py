@@ -31,6 +31,14 @@ def main():
     grouped,byfile,unmatched=sw.groups()
     assert not unmatched
     excluded=completed_section_starts()
+    # An exact replay of this saved batch must remain reproducible after
+    # it has been added to the cross-batch completed-section registry.
+    registry=Path("harvest/SECTION_WALK_COMPLETED_SECTIONS.json")
+    if registry.exists():
+        previous=json.loads(registry.read_text(encoding="utf-8"))
+        for prior in previous["sections"]:
+            if prior.get("batch")=="scale300_2026-10-28":
+                excluded.setdefault(prior["source_file"],set()).discard(prior["section_start_line"])
     actual=set()
     assert chosen["source_chapter_boundary_is_contiguous"]
     assert chosen["chapter_context_reset_required"]
