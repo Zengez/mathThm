@@ -1,0 +1,19 @@
+{
+  "batch": "stacks-bulk-2026-10-28",
+  "deferred_reasons": {
+    "genuine_or_complex_structure": 32,
+    "source_edit_or_outside_context": 2
+  },
+  "forms": {
+    "explicit_listed_conditional_results": 2,
+    "explicit_setup_followed_by_claim": 1
+  },
+  "mathematical_validity_assessed": false,
+  "new_resolved": 3,
+  "proofs_read": false,
+  "statuses": {
+    "needs_context": 56,
+    "needs_structure": 34,
+    "resolved": 1010
+  }
+}

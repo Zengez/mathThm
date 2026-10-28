@@ -1,0 +1,18 @@
+{
+  "batch": "stacks-second-2026-10-28",
+  "deferred_reasons": {
+    "genuine_or_complex_structure": 46,
+    "source_edit_or_outside_context": 6
+  },
+  "forms": {
+    "explicit_casewise": 2
+  },
+  "mathematical_validity_assessed": false,
+  "new_resolved": 2,
+  "proofs_read": false,
+  "statuses": {
+    "needs_context": 125,
+    "needs_structure": 52,
+    "resolved": 1845
+  }
+}

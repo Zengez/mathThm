@@ -1,0 +1,21 @@
+{
+  "batch": "stacks-remaining-2026-10-28",
+  "deferred_reasons": {
+    "genuine_or_complex_structure": 346,
+    "source_edit_or_outside_context": 36
+  },
+  "forms": {
+    "closure_statement": 17,
+    "explicit_listed_conditional_results": 10,
+    "explicit_setup_followed_by_claim": 2
+  },
+  "mathematical_validity_assessed": false,
+  "new_resolved": 29,
+  "proofs_read": false,
+  "statuses": {
+    "needs_classification": 3,
+    "needs_context": 767,
+    "needs_structure": 382,
+    "resolved": 6713
+  }
+}
