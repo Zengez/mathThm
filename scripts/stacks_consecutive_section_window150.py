@@ -12,9 +12,21 @@ USED={
     "morphisms.tex":{1710,3522,4615,5718,6337,7603},
     "limits.tex":{1729},
 }
+REGISTRY=Path("harvest/SECTION_WALK_COMPLETED_SECTIONS.json")
+def completed_section_starts():
+    result={key:set(value) for key,value in USED.items()}
+    if REGISTRY.exists():
+        entries=json.loads(REGISTRY.read_text(encoding="utf-8"))
+        for entry in entries["sections"]:
+            if entries["source_revision"]!=entry.get("source_revision",entries["source_revision"]):
+                raise ValueError("Completed registry source revision mismatch")
+            result.setdefault(entry["source_file"],set()).add(entry["section_start_line"])
+    return result
+
 def main():
     g,chapters,unmatched=sp.groups()
     assert not unmatched
+    exclusions=completed_section_starts()
     windows=[]
     for filename,sections in chapters.items():
         if len(sections)<8:continue
@@ -24,7 +36,7 @@ def main():
             for hi in range(lo,len(sections)):
                 s=sections[hi]
                 n=counts[hi]
-                if s["section_start_line"] in USED.get(filename,set()):
+                if s["section_start_line"] in exclusions.get(filename,set()):
                     break
                 total+=n
                 if total>160:break
@@ -65,7 +77,7 @@ def main():
         "schema":"maththm.consecutive-full-section-window-options.v1",
         "total_valid_windows":len(windows),
         "target_band":[140,160],
-        "excluded_prior_section_starts":{k:sorted(v) for k,v in USED.items()},
+        "excluded_prior_section_starts":{k:sorted(v) for k,v in exclusions.items()},
         "top_35":windows[:35],
         "all_windows_statistics":{
             "chapters_with_windows":len({w["source_file"] for w in windows}),
