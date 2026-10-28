@@ -9,7 +9,21 @@ from scripts.pass2_context_source_probe import BATCHES
 PATH=Path("harvest/problem_candidates.jsonl")
 OLD_PATH=Path("harvest/problem_candidates_inherited_context.jsonl")
 MANIFEST=Path("harvest/PROBLEM_CANDIDATES_MANIFEST.json")
-GROUPS={"needs_context":"inherited_context","needs_structure":"structural_complexity"}
+GROUPS={
+    "needs_context":"inherited_context",
+    "needs_structure":"structural_complexity",
+    "needs_classification":"classification_uncertain",
+}
+CLASSIFICATION_SUBTYPES={
+    "candidate.stacks.9cc30fdb023b0794310d4929":"conjecture_special_case_claim",
+    "candidate.stacks.e3b1843129b2c607294eb1f7":"conditional_result_assuming_conjecture",
+    "candidate.stacks.ee32251fd689e9411c7ce1c4":"claim_dependent_on_unproven_assumptions",
+}
+DIFFICULTY_DESCRIPTIONS={
+    "inherited_context":"Source assumptions or notation need contextual reconstruction",
+    "structural_complexity":"Hypothesis/conclusion logic is not yet safely indexed",
+    "classification_uncertain":"Mathematical-result status unresolved, including conjecture dependencies or unproven qualifications",
+}
 
 def structure_type(s):
     if re.search(r"add more here|to do|we should prove",s,re.I):
@@ -34,6 +48,8 @@ def main():
     by_batch_group=defaultdict(Counter)
     seen=set()
     active=set()
+    non_archived_open=Counter()
+    canonical_statuses=Counter()
     for batch in BATCHES:
         workdir=Path("harvest/batches")/batch
         raw=p.load_rows(workdir/"pass1.jsonl","candidate_id")
@@ -45,19 +61,27 @@ def main():
             assert ident not in seen
             seen.add(ident)
             status=decision["context_status"]
+            canonical_statuses[status]+=1
             if status=="resolved":
                 active.add(ident)
             if status not in GROUPS:
+                if status!="resolved":
+                    non_archived_open[status]+=1
                 continue
             group=GROUPS[status]
-            subtype=(structure_type(decision["statement"]) if status=="needs_structure"
-                     else "inherited_assumptions_notation_or_references")
+            if status=="needs_structure":
+                subtype=structure_type(decision["statement"])
+            elif status=="needs_classification":
+                subtype=CLASSIFICATION_SUBTYPES.get(ident,"other_classification_uncertainty")
+            else:
+                subtype="inherited_assumptions_notation_or_references"
             source=raw[ident]["source"]
             entries.append({
                 "candidate_id":ident,
                 "origin_batch":batch,
                 "difficulty_group":group,
                 "difficulty_subtype":subtype,
+                "difficulty_description":DIFFICULTY_DESCRIPTIONS[group],
                 "deferred_until":"later_discovery_after_prototype",
                 "original_status":status,
                 "result_classification":decision["result_classification"],
@@ -77,8 +101,12 @@ def main():
             by_batch[batch]+=1
             by_subtype[subtype]+=1
             by_batch_group[batch][group]+=1
-    entries.sort(key=lambda r:(0 if r["difficulty_group"]=="inherited_context" else 1,r["candidate_id"]))
+    order={"inherited_context":0,"structural_complexity":1,"classification_uncertain":2}
+    entries.sort(key=lambda r:(order[r["difficulty_group"]],r["candidate_id"]))
     assert len(seen)==10987
+    assert not non_archived_open, f"Unarchived open Pass 2 statuses: {dict(non_archived_open)}"
+    assert len(entries)==sum(n for status,n in canonical_statuses.items() if status!="resolved")
+    assert all(by_group[GROUPS[status]]==n for status,n in canonical_statuses.items() if status in GROUPS)
     assert len({r["candidate_id"] for r in entries})==len(entries)
     assert not active.intersection(r["candidate_id"] for r in entries)
     payload="".join(json.dumps(r,sort_keys=True,ensure_ascii=False)+"\n" for r in entries)
@@ -86,20 +114,24 @@ def main():
     p.atomic_text(OLD_PATH,payload)
     assert PATH.read_bytes()==OLD_PATH.read_bytes()
     manifest={
-        "schema":"maththm.deferred-problems.v2",
+        "schema":"maththm.deferred-problems.v3",
         "source_of_truth":"Each batch's pass2.jsonl and pass1.jsonl",
         "deferred_file":str(PATH),
         "legacy_compatibility_file":str(OLD_PATH),
-        "legacy_filename_now_includes_both_groups":True,
+        "legacy_filename_now_includes_all_groups":True,
         "count":len(entries),
         "by_difficulty":dict(sorted(by_group.items())),
         "by_batch":dict(sorted(by_batch.items())),
         "by_batch_and_difficulty":{k:dict(sorted(v.items())) for k,v in sorted(by_batch_group.items())},
         "by_subtype":dict(sorted(by_subtype.items())),
         "deferred_statuses":GROUPS,
-        "active_bulk_prototype_policy":"Exclude every ID in the unified registry. Only canonical resolved mathematical_result records are eligible for further validation.",
-        "classification_cases_remaining_separate":True,
-        "future_work":"Review both groups after prototyping; neither signifies a rejected theorem",
+        "canonical_status_totals":dict(sorted(canonical_statuses.items())),
+        "unarchived_open_count":sum(non_archived_open.values()),
+        "unarchived_open_statuses":dict(sorted(non_archived_open.items())),
+        "archive_covers_all_unresolved":True,
+        "active_bulk_prototype_policy":"Exclude every unresolved candidate ID in the unified registry, including all classification uncertainties. Only canonical resolved mathematical_result records are eligible for further validation.",
+        "classification_cases_included_in_registry":True,
+        "future_work":"Review all three difficulty groups after prototyping; deferral is not rejection or validity verification",
         "future_rebuild_command":"python -m scripts.pass2_problem_candidates",
         "quarantined_ids_are_in_active_resolved_set":False,
         "proofs_read":False,
