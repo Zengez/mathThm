@@ -1,0 +1,48 @@
+{
+  "batches": [
+    {
+      "batch": "stacks-bulk-2026-10-28",
+      "context_after": 50,
+      "context_before": 50,
+      "deferred_reasons": {
+        "additional unlabelled prior context": 13,
+        "no single explicit Section reference": 37
+      },
+      "new_resolved": 0
+    },
+    {
+      "batch": "stacks-second-2026-10-28",
+      "context_after": 108,
+      "context_before": 108,
+      "deferred_reasons": {
+        "additional unlabelled prior context": 22,
+        "broad section without explicit notation/setup scope": 2,
+        "no single explicit Section reference": 82,
+        "section label missing or non-unique": 2
+      },
+      "new_resolved": 0
+    },
+    {
+      "batch": "stacks-remaining-2026-10-28",
+      "context_after": 684,
+      "context_before": 686,
+      "deferred_reasons": {
+        "additional unlabelled prior context": 227,
+        "broad section without explicit notation/setup scope": 20,
+        "no single explicit Section reference": 411,
+        "section label missing or non-unique": 26
+      },
+      "new_resolved": 2
+    }
+  ],
+  "indexed_section_labels": 2117,
+  "new_context_resolved": 2,
+  "proofs_read": false,
+  "public_catalog_unchanged": true,
+  "status_totals": {
+    "needs_classification": 3,
+    "needs_context": 842,
+    "needs_structure": 475,
+    "resolved": 9667
+  }
+}

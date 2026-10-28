@@ -2,9 +2,9 @@
   "all_candidates": 10987,
   "all_statuses": {
     "needs_classification": 3,
-    "needs_context": 844,
+    "needs_context": 842,
     "needs_structure": 475,
-    "resolved": 9665
+    "resolved": 9667
   },
   "batches": [
     {
@@ -30,9 +30,9 @@
       "candidates": 7865,
       "states": {
         "needs_classification": 3,
-        "needs_context": 686,
+        "needs_context": 684,
         "needs_structure": 389,
-        "resolved": 6787
+        "resolved": 6789
       }
     }
   ],
@@ -88,7 +88,7 @@
     }
   ],
   "mathematical_validity_audited": false,
-  "open_total": 1322,
+  "open_total": 1320,
   "pass3_started": false,
   "proofs_read": false,
   "published_theorem_corpus_edited": false,
