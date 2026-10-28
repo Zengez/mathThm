@@ -17,7 +17,7 @@ from .pass2_remaining_targeted import source_body
 
 HEADING=re.compile(r"\\section\{(?P<title>[^{}\n]+)\}\s*\\label\{(?P<label>section-[^{}\n]+)\}")
 CUTOFF=re.compile(r"\\(?:section|subsection)\{|\\begin\{(?:lemma|proposition|theorem|corollary|definition|example|remark|proof)\}",re.I)
-SECREF=re.compile(r"\b(?:as|from|of|in)\s+(?:the\s+)?Section\s*\\ref\{(?P<label>section-[^{}]+)\}",re.I)
+SECREF=re.compile(r"\b(?:as\s+in|from|of|in)\s+(?:the\s+)?Section\s*\\ref\{(?P<label>section-[^{}]+)\}",re.I)
 QUAL=re.compile(r"^(?:section-(?:notation|conventions(?:-notation)?|setup|preliminaries))$",re.I)
 INTRO=re.compile(r"(?i)(?:^|\n)(?:\\noindent\s*)?(?:Let|Fix|Throughout|We\s+(?:fix|assume)|In\s+this\s+(?:section|chapter))\b")
 UNSAFE=re.compile(r"(?i)\b(?:as\s+above|in\s+the\s+situation\s+above|"
