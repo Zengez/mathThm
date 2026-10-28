@@ -71,7 +71,7 @@
     $("results-summary").textContent=(hits.length===state.records.length?"All prototype results":"Filtered results")+
       " · "+(mode==="compact"?"Compact previews":"Full statements")+" · Populated search columns are joined by AND.";
     $("results").innerHTML=hits.length?hits.map(h=>card(h,hits.length)).join(""):
-      '<div class="empty">No matching results among the 20 prototype theorems. Try a broader term or clear one side.</div>';
+      '<div class="empty">No matching results among the available theorems. Try a broader term or clear one side.</div>';
     math($("results"));
   }
   function appendDefinition(target,id,path=[]){
