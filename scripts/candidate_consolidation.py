@@ -89,7 +89,10 @@ def merge_candidate_sources(active_records, *, batches, archive_ids):
         statements=[norm(structured[k]["statement"]) for k in members]
         if len(set(texts))!=1 or len(set(statements))!=1:
             raise ValueError(f"group {number}: wording has diverged")
-        for fld in ("hypotheses","conclusions","logical_form","equivalence_sides",
+        forms={structured[k].get("logical_form") or "single_implication" for k in members}
+        if len(forms)!=1:
+            raise ValueError(f"group {number}: genuinely different logical forms")
+        for fld in ("hypotheses","conclusions","equivalence_sides",
                     "structured_cases"):
             values=[structured[k].get(fld) for k in members]
             if any(v!=values[0] for v in values[1:]):
