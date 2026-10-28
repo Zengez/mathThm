@@ -1,4 +1,286 @@
 {
+  "largest_within_chapter_contiguous_unused_runs": [
+    {
+      "file": "spaces-morphisms.tex",
+      "candidates": 240,
+      "sections": 53,
+      "first": 17,
+      "last": 11063,
+      "chapter_order": 67
+    },
+    {
+      "file": "varieties.tex",
+      "candidates": 237,
+      "sections": 48,
+      "first": 17,
+      "last": 11343,
+      "chapter_order": 33
+    },
+    {
+      "file": "more-morphisms.tex",
+      "candidates": 236,
+      "sections": 81,
+      "first": 17,
+      "last": 23669,
+      "chapter_order": 37
+    },
+    {
+      "file": "cohomology.tex",
+      "candidates": 231,
+      "sections": 55,
+      "first": 17,
+      "last": 14528,
+      "chapter_order": 20
+    },
+    {
+      "file": "more-algebra.tex",
+      "candidates": 229,
+      "sections": 130,
+      "first": 19,
+      "last": 39222,
+      "chapter_order": 15
+    },
+    {
+      "file": "divisors.tex",
+      "candidates": 222,
+      "sections": 37,
+      "first": 17,
+      "last": 9492,
+      "chapter_order": 31
+    },
+    {
+      "file": "etale-cohomology.tex",
+      "candidates": 222,
+      "sections": 107,
+      "first": 18,
+      "last": 23764,
+      "chapter_order": 59
+    },
+    {
+      "file": "spaces-more-morphisms.tex",
+      "candidates": 220,
+      "sections": 57,
+      "first": 17,
+      "last": 13949,
+      "chapter_order": 76
+    },
+    {
+      "file": "stacks-morphisms.tex",
+      "candidates": 218,
+      "sections": 51,
+      "first": 17,
+      "last": 10675,
+      "chapter_order": 101
+    },
+    {
+      "file": "sites-cohomology.tex",
+      "candidates": 216,
+      "sections": 53,
+      "first": 17,
+      "last": 14428,
+      "chapter_order": 21
+    },
+    {
+      "file": "flat.tex",
+      "candidates": 213,
+      "sections": 44,
+      "first": 18,
+      "last": 14090,
+      "chapter_order": 38
+    },
+    {
+      "file": "derived.tex",
+      "candidates": 199,
+      "sections": 42,
+      "first": 17,
+      "last": 12604,
+      "chapter_order": 13
+    },
+    {
+      "file": "chow.tex",
+      "candidates": 181,
+      "sections": 69,
+      "first": 18,
+      "last": 18951,
+      "chapter_order": 42
+    },
+    {
+      "file": "perfect.tex",
+      "candidates": 170,
+      "sections": 41,
+      "first": 17,
+      "last": 10895,
+      "chapter_order": 36
+    },
+    {
+      "file": "descent.tex",
+      "candidates": 162,
+      "sections": 39,
+      "first": 16,
+      "last": 9456,
+      "chapter_order": 35
+    },
+    {
+      "file": "topology.tex",
+      "candidates": 156,
+      "sections": 30,
+      "first": 17,
+      "last": 6020,
+      "chapter_order": 5
+    },
+    {
+      "file": "formal-spaces.tex",
+      "candidates": 143,
+      "sections": 38,
+      "first": 17,
+      "last": 8123,
+      "chapter_order": 87
+    },
+    {
+      "file": "dualizing.tex",
+      "candidates": 139,
+      "sections": 27,
+      "first": 17,
+      "last": 5659,
+      "chapter_order": 47
+    },
+    {
+      "file": "sites.tex",
+      "candidates": 137,
+      "sections": 52,
+      "first": 17,
+      "last": 11860,
+      "chapter_order": 7
+    },
+    {
+      "file": "properties.tex",
+      "candidates": 129,
+      "sections": 30,
+      "first": 17,
+      "last": 5424,
+      "chapter_order": 28
+    },
+    {
+      "file": "duality.tex",
+      "candidates": 126,
+      "sections": 34,
+      "first": 17,
+      "last": 9233,
+      "chapter_order": 48
+    },
+    {
+      "file": "categories.tex",
+      "candidates": 125,
+      "sections": 44,
+      "first": 18,
+      "last": 9855,
+      "chapter_order": 4
+    },
+    {
+      "file": "sites-modules.tex",
+      "candidates": 122,
+      "sections": 45,
+      "first": 17,
+      "last": 8769,
+      "chapter_order": 18
+    },
+    {
+      "file": "coherent.tex",
+      "candidates": 121,
+      "sections": 28,
+      "first": 17,
+      "last": 8138,
+      "chapter_order": 30
+    },
+    {
+      "file": "proetale.tex",
+      "candidates": 121,
+      "sections": 31,
+      "first": 17,
+      "last": 6463,
+      "chapter_order": 61
+    },
+    {
+      "file": "homology.tex",
+      "candidates": 119,
+      "sections": 32,
+      "first": 17,
+      "last": 7945,
+      "chapter_order": 12
+    },
+    {
+      "file": "restricted.tex",
+      "candidates": 115,
+      "sections": 30,
+      "first": 17,
+      "last": 7364,
+      "chapter_order": 88
+    },
+    {
+      "file": "algebraization.tex",
+      "candidates": 111,
+      "sections": 28,
+      "first": 17,
+      "last": 9523,
+      "chapter_order": 52
+    },
+    {
+      "file": "modules.tex",
+      "candidates": 110,
+      "sections": 31,
+      "first": 17,
+      "last": 5939,
+      "chapter_order": 17
+    },
+    {
+      "file": "decent-spaces.tex",
+      "candidates": 109,
+      "sections": 25,
+      "first": 17,
+      "last": 5699,
+      "chapter_order": 68
+    },
+    {
+      "file": "spaces-perfect.tex",
+      "candidates": 109,
+      "sections": 30,
+      "first": 17,
+      "last": 7483,
+      "chapter_order": 75
+    },
+    {
+      "file": "curves.tex",
+      "candidates": 107,
+      "sections": 26,
+      "first": 17,
+      "last": 6786,
+      "chapter_order": 53
+    },
+    {
+      "file": "pione.tex",
+      "candidates": 103,
+      "sections": 32,
+      "first": 17,
+      "last": 7699,
+      "chapter_order": 58
+    },
+    {
+      "file": "spaces-simplicial.tex",
+      "candidates": 102,
+      "sections": 36,
+      "first": 17,
+      "last": 8037,
+      "chapter_order": 85
+    },
+    {
+      "file": "spaces-divisors.tex",
+      "candidates": 101,
+      "sections": 19,
+      "first": 17,
+      "last": 4375,
+      "chapter_order": 71
+    }
+  ],
   "schema": "maththm.consecutive-full-section-window-options.v1",
   "total_valid_windows": 0,
   "target_band": [
