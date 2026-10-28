@@ -251,6 +251,9 @@ def apply_pass2(args):
             "statement_basis": "editorial_restatement_unverified",
             "statement_editorial_notes": decision.get("statement_editorial_notes", ""),
             "local_context_used": decision.get("local_context_used", []),
+            "logical_form": decision.get("logical_form", "single_implication"),
+            "equivalence_sides": decision.get("equivalence_sides", []),
+            "structured_cases": decision.get("structured_cases", []),
             **values,
         })
     total = merge_rows(w / "pass2.jsonl", rows, "candidate_id", replace=args.replace)
@@ -349,6 +352,9 @@ def provisional_record(raw: dict, structured: dict, checked: dict):
         raise ValueError("proof scan not completed")
     s=raw["source"]
     return {
+        "logical_form": structured.get("logical_form", "single_implication"),
+        "equivalence_sides": structured.get("equivalence_sides", []),
+        "structured_cases": structured.get("structured_cases", []),
         "id": raw["candidate_id"].replace("candidate.stacks.","thm.stacks.",1),
         "entry_type": raw["entry_type"],
         "title": structured.get("title") or (raw["entry_type"].title()+" (Stacks: "+str(s["label"] or s["statement_locator"])+")"),
