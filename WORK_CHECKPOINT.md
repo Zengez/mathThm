@@ -1,3 +1,11 @@
+## October 28, 2026 — Pass 2 first bulk triage completed across 3,122 Stacks candidates
+
+**Report:** [PASS2_REPORT_2026-10-28.md](PASS2_REPORT_2026-10-28.md). Both Stacks Pass 1 batches have now undergone source-driven mathematical-result classification and a conservative hypothesis/conclusion extraction pass. Raw 1,100 + 2,022 = **3,122**; 3,122 Pass 2 classification records; **1,574** syntax/editorially split; **317** needs inherited context; **1,231** needs more structural parsing; **1,548** retained in separate Pass 2 investigation queues. None rejected as a non-result at the superficial source-check level, but classifications and the 1,555 mechanical splits are **not mathematical verification**. 20 statements had additional light editorial inspection; 19 short splits were completed and one remained context-dependent. **Pass 3 = 0; no new public theorem entries.**
+
+Added `scripts/pass2_fast_stacks.py`, regression coverage, and the Pass 2 GitHub Actions workflow; updated `scripts/harvest_pipeline.py` to distinguish classification from source-context/structural completeness. Crucial resumability fix: `pass2-packets` now continues to emit previously triaged but unresolved entries. Use `pass2_editorial_summary.json` for final counts after editorial corrections; `pass2_summary.json` reflects the preceding mechanical run. **Do not start Pass 3 on unresolved statements or claim the source-labeled theorem is independently true.**
+
+---
+
 ## October 28, 2026 — minimal three-pass harvesting tools implemented; live Pass 1 smoke succeeded
 
 **Authorization:** The user approved implementing a deliberately small acquisition toolset and confirmed that plausible results may move to a provisional published list, while questionable, rejected-proof and unresolved-context candidates go to a separate **needs_more_investigation.jsonl** queue. The goal is a few hundred provisional theorems before tuning the UI.
