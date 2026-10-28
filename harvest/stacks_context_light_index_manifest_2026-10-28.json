@@ -1,0 +1,831 @@
+{
+  "candidate_statements_modified": false,
+  "chapter_introduction_sections": 109,
+  "chapters_scanned": 115,
+  "duplicate_full_labels": 0,
+  "files": {
+    "labels": "harvest/stacks_context_labels_2026-10-28.json",
+    "openings": "harvest/stacks_context_openings_2026-10-28.jsonl"
+  },
+  "hypotheses_inferred": false,
+  "opening_previews_nonempty": 3122,
+  "opening_previews_truncated": 298,
+  "opening_previews_with_context_clues": 1596,
+  "per_chapter": {
+    "adequate": {
+      "labels": 82,
+      "lines": 2990,
+      "sections": 10,
+      "subsections": 0,
+      "title": "Adequate Modules"
+    },
+    "algebra": {
+      "labels": 1616,
+      "lines": 47885,
+      "sections": 168,
+      "subsections": 0,
+      "title": "Commutative Algebra"
+    },
+    "algebraic": {
+      "labels": 82,
+      "lines": 2665,
+      "sections": 19,
+      "subsections": 0,
+      "title": "Algebraic Stacks"
+    },
+    "algebraization": {
+      "labels": 188,
+      "lines": 9523,
+      "sections": 28,
+      "subsections": 0,
+      "title": "Algebraic and Formal Geometry"
+    },
+    "artin": {
+      "labels": 138,
+      "lines": 6373,
+      "sections": 27,
+      "subsections": 0,
+      "title": "Artin's Axioms"
+    },
+    "bootstrap": {
+      "labels": 51,
+      "lines": 2359,
+      "sections": 12,
+      "subsections": 0,
+      "title": "Bootstrap"
+    },
+    "brauer": {
+      "labels": 43,
+      "lines": 817,
+      "sections": 8,
+      "subsections": 0,
+      "title": "Brauer groups"
+    },
+    "categories": {
+      "labels": 317,
+      "lines": 9855,
+      "sections": 44,
+      "subsections": 0,
+      "title": "Categories"
+    },
+    "chow": {
+      "labels": 448,
+      "lines": 18951,
+      "sections": 69,
+      "subsections": 7,
+      "title": "Chow Homology and Chern Classes"
+    },
+    "coding": {
+      "labels": 3,
+      "lines": 182,
+      "sections": 1,
+      "subsections": 0,
+      "title": "Coding Style"
+    },
+    "coherent": {
+      "labels": 167,
+      "lines": 8138,
+      "sections": 28,
+      "subsections": 0,
+      "title": "Cohomology of Schemes"
+    },
+    "cohomology": {
+      "labels": 374,
+      "lines": 14528,
+      "sections": 55,
+      "subsections": 0,
+      "title": "Cohomology of Sheaves"
+    },
+    "constructions": {
+      "labels": 142,
+      "lines": 5168,
+      "sections": 22,
+      "subsections": 0,
+      "title": "Constructions of Schemes"
+    },
+    "conventions": {
+      "labels": 6,
+      "lines": 71,
+      "sections": 5,
+      "subsections": 0,
+      "title": "Conventions"
+    },
+    "cotangent": {
+      "labels": 150,
+      "lines": 4649,
+      "sections": 28,
+      "subsections": 0,
+      "title": "The Cotangent Complex"
+    },
+    "criteria": {
+      "labels": 83,
+      "lines": 3403,
+      "sections": 19,
+      "subsections": 0,
+      "title": "Criteria for Representability"
+    },
+    "crystalline": {
+      "labels": 170,
+      "lines": 5655,
+      "sections": 26,
+      "subsections": 0,
+      "title": "Crystalline Cohomology"
+    },
+    "curves": {
+      "labels": 171,
+      "lines": 6786,
+      "sections": 26,
+      "subsections": 0,
+      "title": "Algebraic Curves"
+    },
+    "decent-spaces": {
+      "labels": 178,
+      "lines": 5699,
+      "sections": 25,
+      "subsections": 0,
+      "title": "Decent Algebraic Spaces"
+    },
+    "defos": {
+      "labels": 118,
+      "lines": 5722,
+      "sections": 16,
+      "subsections": 0,
+      "title": "Deformation Theory"
+    },
+    "derham": {
+      "labels": 119,
+      "lines": 6342,
+      "sections": 24,
+      "subsections": 0,
+      "title": "de Rham Cohomology"
+    },
+    "derived": {
+      "labels": 347,
+      "lines": 12604,
+      "sections": 42,
+      "subsections": 0,
+      "title": "Derived Categories"
+    },
+    "descent": {
+      "labels": 286,
+      "lines": 9456,
+      "sections": 39,
+      "subsections": 4,
+      "title": "Descent"
+    },
+    "desirables": {
+      "labels": 21,
+      "lines": 313,
+      "sections": 20,
+      "subsections": 0,
+      "title": "Desirables"
+    },
+    "dga": {
+      "labels": 195,
+      "lines": 7209,
+      "sections": 38,
+      "subsections": 0,
+      "title": "Differential Graded Algebra"
+    },
+    "discriminant": {
+      "labels": 94,
+      "lines": 3388,
+      "sections": 16,
+      "subsections": 0,
+      "title": "Discriminants and Differents"
+    },
+    "divisors": {
+      "labels": 326,
+      "lines": 9492,
+      "sections": 37,
+      "subsections": 0,
+      "title": "Divisors"
+    },
+    "dpa": {
+      "labels": 78,
+      "lines": 2986,
+      "sections": 12,
+      "subsections": 0,
+      "title": "Divided Power Algebra"
+    },
+    "duality": {
+      "labels": 234,
+      "lines": 9233,
+      "sections": 34,
+      "subsections": 0,
+      "title": "Duality for Schemes"
+    },
+    "dualizing": {
+      "labels": 194,
+      "lines": 5659,
+      "sections": 27,
+      "subsections": 0,
+      "title": "Dualizing Complexes"
+    },
+    "equiv": {
+      "labels": 95,
+      "lines": 4412,
+      "sections": 18,
+      "subsections": 0,
+      "title": "Derived Categories of Varieties"
+    },
+    "etale": {
+      "labels": 88,
+      "lines": 2767,
+      "sections": 21,
+      "subsections": 0,
+      "title": "\\'Etale Morphisms of Schemes"
+    },
+    "etale-cohomology": {
+      "labels": 622,
+      "lines": 23764,
+      "sections": 107,
+      "subsections": 0,
+      "title": "\\'Etale Cohomology"
+    },
+    "examples": {
+      "labels": 188,
+      "lines": 7017,
+      "sections": 82,
+      "subsections": 0,
+      "title": "Examples"
+    },
+    "examples-defos": {
+      "labels": 88,
+      "lines": 3246,
+      "sections": 17,
+      "subsections": 0,
+      "title": "Deformation Problems"
+    },
+    "examples-stacks": {
+      "labels": 57,
+      "lines": 1876,
+      "sections": 18,
+      "subsections": 6,
+      "title": "Examples of Stacks"
+    },
+    "exercises": {
+      "labels": 517,
+      "lines": 6914,
+      "sections": 66,
+      "subsections": 0,
+      "title": "Exercises"
+    },
+    "fields": {
+      "labels": 168,
+      "lines": 3792,
+      "sections": 28,
+      "subsections": 0,
+      "title": "Fields"
+    },
+    "flat": {
+      "labels": 350,
+      "lines": 14090,
+      "sections": 44,
+      "subsections": 0,
+      "title": "More on Flatness"
+    },
+    "formal-defos": {
+      "labels": 238,
+      "lines": 7563,
+      "sections": 29,
+      "subsections": 0,
+      "title": "Formal Deformation Theory"
+    },
+    "formal-spaces": {
+      "labels": 263,
+      "lines": 8123,
+      "sections": 38,
+      "subsections": 0,
+      "title": "Formal Algebraic Spaces"
+    },
+    "functors": {
+      "labels": 57,
+      "lines": 2149,
+      "sections": 7,
+      "subsections": 0,
+      "title": "Functors and Morphisms"
+    },
+    "groupoids": {
+      "labels": 158,
+      "lines": 5124,
+      "sections": 25,
+      "subsections": 0,
+      "title": "Groupoid Schemes"
+    },
+    "groupoids-quotients": {
+      "labels": 52,
+      "lines": 1468,
+      "sections": 10,
+      "subsections": 0,
+      "title": "Quotients of Groupoids"
+    },
+    "guide": {
+      "labels": 22,
+      "lines": 1077,
+      "sections": 7,
+      "subsections": 14,
+      "title": "A Guide to the Literature"
+    },
+    "homology": {
+      "labels": 238,
+      "lines": 7945,
+      "sections": 32,
+      "subsections": 0,
+      "title": "Homological Algebra"
+    },
+    "hypercovering": {
+      "labels": 69,
+      "lines": 3047,
+      "sections": 12,
+      "subsections": 0,
+      "title": "Hypercoverings"
+    },
+    "injectives": {
+      "labels": 79,
+      "lines": 2843,
+      "sections": 15,
+      "subsections": 0,
+      "title": "Injectives"
+    },
+    "intersection": {
+      "labels": 84,
+      "lines": 3229,
+      "sections": 28,
+      "subsections": 0,
+      "title": "Intersection Theory"
+    },
+    "introduction": {
+      "labels": 3,
+      "lines": 158,
+      "sections": 2,
+      "subsections": 0,
+      "title": "Introduction"
+    },
+    "limits": {
+      "labels": 145,
+      "lines": 5703,
+      "sections": 22,
+      "subsections": 0,
+      "title": "Limits of Schemes"
+    },
+    "local-cohomology": {
+      "labels": 132,
+      "lines": 5340,
+      "sections": 22,
+      "subsections": 0,
+      "title": "Local Cohomology"
+    },
+    "models": {
+      "labels": 179,
+      "lines": 6708,
+      "sections": 18,
+      "subsections": 0,
+      "title": "Semistable Reduction"
+    },
+    "modules": {
+      "labels": 199,
+      "lines": 5939,
+      "sections": 31,
+      "subsections": 0,
+      "title": "Sheaves of Modules"
+    },
+    "moduli": {
+      "labels": 66,
+      "lines": 2076,
+      "sections": 12,
+      "subsections": 0,
+      "title": "Moduli Stacks"
+    },
+    "moduli-curves": {
+      "labels": 94,
+      "lines": 3412,
+      "sections": 25,
+      "subsections": 0,
+      "title": "Moduli of Curves"
+    },
+    "more-algebra": {
+      "labels": 1138,
+      "lines": 39222,
+      "sections": 130,
+      "subsections": 0,
+      "title": "More on Algebra"
+    },
+    "more-etale": {
+      "labels": 116,
+      "lines": 4966,
+      "sections": 16,
+      "subsections": 0,
+      "title": "More \\'Etale Cohomology"
+    },
+    "more-groupoids": {
+      "labels": 75,
+      "lines": 3205,
+      "sections": 15,
+      "subsections": 0,
+      "title": "More on Groupoid Schemes"
+    },
+    "more-morphisms": {
+      "labels": 647,
+      "lines": 23669,
+      "sections": 81,
+      "subsections": 0,
+      "title": "More on Morphisms"
+    },
+    "morphisms": {
+      "labels": 586,
+      "lines": 15653,
+      "sections": 59,
+      "subsections": 0,
+      "title": "Morphisms of Schemes"
+    },
+    "obsolete": {
+      "labels": 168,
+      "lines": 4729,
+      "sections": 26,
+      "subsections": 1,
+      "title": "Obsolete"
+    },
+    "perfect": {
+      "labels": 276,
+      "lines": 10895,
+      "sections": 41,
+      "subsections": 0,
+      "title": "Derived Categories of Schemes"
+    },
+    "pic": {
+      "labels": 35,
+      "lines": 1512,
+      "sections": 7,
+      "subsections": 0,
+      "title": "Picard Schemes of Curves"
+    },
+    "pione": {
+      "labels": 176,
+      "lines": 7699,
+      "sections": 32,
+      "subsections": 0,
+      "title": "Fundamental Groups of Schemes"
+    },
+    "proetale": {
+      "labels": 201,
+      "lines": 6463,
+      "sections": 31,
+      "subsections": 0,
+      "title": "Pro-\\'etale Cohomology"
+    },
+    "properties": {
+      "labels": 204,
+      "lines": 5424,
+      "sections": 30,
+      "subsections": 0,
+      "title": "Properties of Schemes"
+    },
+    "quot": {
+      "labels": 133,
+      "lines": 5783,
+      "sections": 16,
+      "subsections": 0,
+      "title": "Quot and Hilbert Spaces"
+    },
+    "relative-cycles": {
+      "labels": 97,
+      "lines": 3083,
+      "sections": 17,
+      "subsections": 0,
+      "title": "Relative Cycles"
+    },
+    "resolve": {
+      "labels": 107,
+      "lines": 5009,
+      "sections": 17,
+      "subsections": 0,
+      "title": "Resolution of Surfaces"
+    },
+    "restricted": {
+      "labels": 213,
+      "lines": 7364,
+      "sections": 30,
+      "subsections": 0,
+      "title": "Algebraization of Formal Spaces"
+    },
+    "schemes": {
+      "labels": 163,
+      "lines": 4914,
+      "sections": 24,
+      "subsections": 0,
+      "title": "Schemes"
+    },
+    "sdga": {
+      "labels": 131,
+      "lines": 6536,
+      "sections": 35,
+      "subsections": 0,
+      "title": "Differential Graded Sheaves"
+    },
+    "sets": {
+      "labels": 39,
+      "lines": 1169,
+      "sections": 12,
+      "subsections": 0,
+      "title": "Set Theory"
+    },
+    "sheaves": {
+      "labels": 162,
+      "lines": 5337,
+      "sections": 33,
+      "subsections": 0,
+      "title": "Sheaves on Spaces"
+    },
+    "simplicial": {
+      "labels": 200,
+      "lines": 7007,
+      "sections": 34,
+      "subsections": 0,
+      "title": "Simplicial Methods"
+    },
+    "sites": {
+      "labels": 329,
+      "lines": 11860,
+      "sections": 52,
+      "subsections": 0,
+      "title": "Sites and Sheaves"
+    },
+    "sites-cohomology": {
+      "labels": 376,
+      "lines": 14428,
+      "sections": 53,
+      "subsections": 0,
+      "title": "Cohomology on Sites"
+    },
+    "sites-modules": {
+      "labels": 246,
+      "lines": 8769,
+      "sections": 45,
+      "subsections": 0,
+      "title": "Modules on Sites"
+    },
+    "smoothing": {
+      "labels": 68,
+      "lines": 3444,
+      "sections": 14,
+      "subsections": 0,
+      "title": "Smoothing Ring Maps"
+    },
+    "spaces": {
+      "labels": 86,
+      "lines": 2971,
+      "sections": 16,
+      "subsections": 0,
+      "title": "Algebraic Spaces"
+    },
+    "spaces-chow": {
+      "labels": 137,
+      "lines": 5069,
+      "sections": 32,
+      "subsections": 0,
+      "title": "Chow Groups of Spaces"
+    },
+    "spaces-cohomology": {
+      "labels": 110,
+      "lines": 4567,
+      "sections": 23,
+      "subsections": 0,
+      "title": "Cohomology of Algebraic Spaces"
+    },
+    "spaces-descent": {
+      "labels": 123,
+      "lines": 3675,
+      "sections": 23,
+      "subsections": 0,
+      "title": "Descent and Algebraic Spaces"
+    },
+    "spaces-divisors": {
+      "labels": 153,
+      "lines": 4375,
+      "sections": 19,
+      "subsections": 0,
+      "title": "Divisors on Algebraic Spaces"
+    },
+    "spaces-duality": {
+      "labels": 47,
+      "lines": 2184,
+      "sections": 10,
+      "subsections": 0,
+      "title": "Duality for Spaces"
+    },
+    "spaces-flat": {
+      "labels": 87,
+      "lines": 2679,
+      "sections": 13,
+      "subsections": 0,
+      "title": "Flatness on Algebraic Spaces"
+    },
+    "spaces-groupoids": {
+      "labels": 116,
+      "lines": 3611,
+      "sections": 29,
+      "subsections": 0,
+      "title": "Groupoids in Algebraic Spaces"
+    },
+    "spaces-limits": {
+      "labels": 147,
+      "lines": 5362,
+      "sections": 23,
+      "subsections": 0,
+      "title": "Limits of Algebraic Spaces"
+    },
+    "spaces-more-cohomology": {
+      "labels": 42,
+      "lines": 1942,
+      "sections": 8,
+      "subsections": 0,
+      "title": "More on Cohomology of Spaces"
+    },
+    "spaces-more-groupoids": {
+      "labels": 79,
+      "lines": 2635,
+      "sections": 15,
+      "subsections": 0,
+      "title": "More on Groupoids in Spaces"
+    },
+    "spaces-more-morphisms": {
+      "labels": 432,
+      "lines": 13949,
+      "sections": 57,
+      "subsections": 0,
+      "title": "More on Morphisms of Spaces"
+    },
+    "spaces-morphisms": {
+      "labels": 386,
+      "lines": 11063,
+      "sections": 53,
+      "subsections": 0,
+      "title": "Morphisms of Algebraic Spaces"
+    },
+    "spaces-over-fields": {
+      "labels": 105,
+      "lines": 3344,
+      "sections": 18,
+      "subsections": 0,
+      "title": "Algebraic Spaces over Fields"
+    },
+    "spaces-perfect": {
+      "labels": 186,
+      "lines": 7483,
+      "sections": 30,
+      "subsections": 0,
+      "title": "Derived Categories of Spaces"
+    },
+    "spaces-properties": {
+      "labels": 191,
+      "lines": 6032,
+      "sections": 34,
+      "subsections": 0,
+      "title": "Properties of Algebraic Spaces"
+    },
+    "spaces-pushouts": {
+      "labels": 78,
+      "lines": 3676,
+      "sections": 14,
+      "subsections": 0,
+      "title": "Pushouts of Algebraic Spaces"
+    },
+    "spaces-resolve": {
+      "labels": 38,
+      "lines": 1100,
+      "sections": 9,
+      "subsections": 0,
+      "title": "Resolution of Surfaces Revisited"
+    },
+    "spaces-simplicial": {
+      "labels": 203,
+      "lines": 8037,
+      "sections": 36,
+      "subsections": 0,
+      "title": "Simplicial Spaces"
+    },
+    "spaces-topologies": {
+      "labels": 56,
+      "lines": 1406,
+      "sections": 9,
+      "subsections": 0,
+      "title": "Topologies on Algebraic Spaces"
+    },
+    "stacks": {
+      "labels": 90,
+      "lines": 3600,
+      "sections": 13,
+      "subsections": 0,
+      "title": "Stacks"
+    },
+    "stacks-cohomology": {
+      "labels": 84,
+      "lines": 3918,
+      "sections": 18,
+      "subsections": 0,
+      "title": "Cohomology of Algebraic Stacks"
+    },
+    "stacks-geometry": {
+      "labels": 54,
+      "lines": 2249,
+      "sections": 6,
+      "subsections": 0,
+      "title": "The Geometry of Algebraic Stacks"
+    },
+    "stacks-introduction": {
+      "labels": 14,
+      "lines": 555,
+      "sections": 7,
+      "subsections": 0,
+      "title": "Introducing Algebraic Stacks"
+    },
+    "stacks-limits": {
+      "labels": 23,
+      "lines": 1115,
+      "sections": 7,
+      "subsections": 0,
+      "title": "Limits of Algebraic Stacks"
+    },
+    "stacks-more-morphisms": {
+      "labels": 97,
+      "lines": 4750,
+      "sections": 16,
+      "subsections": 0,
+      "title": "More on Morphisms of Stacks"
+    },
+    "stacks-morphisms": {
+      "labels": 334,
+      "lines": 10675,
+      "sections": 51,
+      "subsections": 0,
+      "title": "Morphisms of Algebraic Stacks"
+    },
+    "stacks-perfect": {
+      "labels": 26,
+      "lines": 1443,
+      "sections": 8,
+      "subsections": 0,
+      "title": "Derived Categories of Stacks"
+    },
+    "stacks-properties": {
+      "labels": 101,
+      "lines": 3213,
+      "sections": 14,
+      "subsections": 0,
+      "title": "Properties of Algebraic Stacks"
+    },
+    "stacks-sheaves": {
+      "labels": 124,
+      "lines": 5002,
+      "sections": 26,
+      "subsections": 0,
+      "title": "Sheaves on Algebraic Stacks"
+    },
+    "topologies": {
+      "labels": 140,
+      "lines": 4512,
+      "sections": 13,
+      "subsections": 0,
+      "title": "Topologies on Schemes"
+    },
+    "topology": {
+      "labels": 263,
+      "lines": 6020,
+      "sections": 30,
+      "subsections": 0,
+      "title": "Topology"
+    },
+    "trace": {
+      "labels": 129,
+      "lines": 4082,
+      "sections": 35,
+      "subsections": 0,
+      "title": "The Trace Formula"
+    },
+    "varieties": {
+      "labels": 352,
+      "lines": 11343,
+      "sections": 48,
+      "subsections": 4,
+      "title": "Varieties"
+    },
+    "weil": {
+      "labels": 106,
+      "lines": 5420,
+      "sections": 14,
+      "subsections": 0,
+      "title": "Weil Cohomology Theories"
+    }
+  },
+  "preview_limit_chars": 1800,
+  "preview_limit_nonblank_lines": 55,
+  "recursive_context_research": false,
+  "schema": "maththm.stacks-light-context-index.v1",
+  "section_openings": 3288,
+  "source_labels_indexed": 21297,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "subsections_located": 36,
+  "theorem_proofs_read": false,
+  "unique_full_label_keys": 21297
+}
