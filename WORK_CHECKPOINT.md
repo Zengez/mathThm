@@ -1,3 +1,21 @@
+# CURRENT EXECUTION CHECKPOINT — scaled complete-section standalone trial: 74 candidates (October 28, 2026)
+
+**Most recent user direction:** Increase the number of source-ordered standalone theorem candidates processed *per entire section batch*; do not split a section just to hit a candidate count. Test approximate 75 candidate capacity and increase later until an empirically sensible limit emerges. Preserve positive and negative scope changes (temporary lemma assumptions pop, durable section definitions or notation persist only for their real source scope). Keep context indexing lightweight; actual theorems are the main work.
+
+**Just completed:** A full **74-active-candidate, 5-complete-section** scoped batch covering `morphisms.tex`: Affine (13), Quasi-finite (17), Syntomic (14), Differentials (15), Unramified (15). **2,305 source lines** across five complete, nonconsecutive sections. **74 individual source-context reconstructed statement drafts** with explicit structured hypotheses and conclusions; **65 drafts ready for final mathematical source-equivalence validation, 9 on specific source-defined-context holds**. **No candidate received final source-equivalence approval, proof review or Pass 3 eligibility in this scaling run.** One source lemma in the Unramified section is nonactive (line 7789), traversed but not added to the pool. All scope and full Python regression checks passed.
+
+**Source scope:** Named definitions of affine, quasi-finite, syntomic, relative differentials and unramified morphisms are shared references, **not inherited extra hypotheses**. 74 candidate-local lemma assumption frames were discarded after their environments. The Differentials section introduces a real **mid-section notation override at line 6404**, valid for later statements only. Five completed-section checkpoints record the final source positions, active IDs, and no lingering lemma-local premises. Nonconsecutive skipped source sections were not assumed read.
+
+**Primary sources:** [scaled pilot report](harvest/section_walk_scale74_2026-10-28/REPORT.md), [74-candidate source intake](harvest/section_walk_scale74_2026-10-28/MANIFEST.json), [validated metrics](harvest/section_walk_scale74_2026-10-28/VALIDATION.json), [completed-section checkpoints](harvest/section_walk_scale74_2026-10-28/SECTION_CHECKPOINTS.jsonl). Standalone drafts are in five files: `affine_reviews.jsonl`, `quasi_finite_reviews.jsonl`, `syntomic_reviews.jsonl`, `differentials_reviews.jsonl`, and `unramified_reviews.jsonl` in the same folder. Mechanisms: `scripts/stacks_section_walk_pilot.py` (scoped events), `scripts/stacks_section_walk_scale74.py` (whole-section selection), `scripts/validate_stacks_section_walk_scale74.py` (provenance and scope checks). [Successful validation run](https://github.com/Zengez/mathThm/actions/runs/40775527398).
+
+**Next substantive run:** Try **approximately 100–120 active candidates** from complete source sections (no forced exact count). Prefer adjacent source sections when available. Continue stage distinction between source-context reconstruction, source-equivalence validation, and Pass 3 proof scrutiny. Do not claim a safe global upper cap yet: this trial demonstrates 74 drafts in one bounded round, not statistically comparable wall-clock performance or proof verification. Review the nine specific held definitions only as they arise from theorem work; avoid another broad meta-resource expansion.
+
+**Safety and population:** The existing **9,675 canonical active candidate IDs**, Pass 1/2 records, eight preliminary source duplicate groups, published 20-theorem seed corpus, and source/proof references remain unchanged by this pilot.
+
+---
+
+## Previous checkpoint (historical)
+
 # CURRENT EXECUTION CHECKPOINT — scoped chapter/section walkthrough pilot complete (October 28, 2026)
 
 **User direction:** Prioritize efficient actual candidate standalone reconstruction by grouping the candidates in the same Stacks chapter/section, processing them in source order, and maintaining *bidirectional scoped context* (add and remove hypotheses according to their actual logical extent). Avoid turning the meta-resource into a separate long-running research project.
