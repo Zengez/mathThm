@@ -115,8 +115,7 @@ def source_grammar(body):
                 "logical_form":"pinned_named_reference_conditional_equivalence",
                 "equivalence_sides":[[left],[right]],
                 "structured_cases":[{"logical_form":"equivalence","hypotheses":[head,left,right],
-                                     "conclusions":[left,right],"source_clause":claim}]},
-                "Explicit biconditional consequence of named context"
+                                     "conclusions":[left,right],"source_clause":claim}]}, "Explicit biconditional consequence of named context"
     if IFF.search(masked):
         return None,"Theorem involves iff outside the asserted result"
     return {"hypotheses":[head],"conclusions":[claim],
