@@ -45,6 +45,8 @@ class StacksContextIndexTests(unittest.TestCase):
         common=atlas.get_candidate_context_leads("morphisms.tex",statement_line=1000)
         self.assertIn("conventions:section-algebra",
                       {x["context_id"] for x in common["context_leads"]})
+        self.assertNotIn("conventions:section-comments",
+                         {x["context_id"] for x in common["context_leads"]})
 
 if __name__=="__main__":
     unittest.main()
