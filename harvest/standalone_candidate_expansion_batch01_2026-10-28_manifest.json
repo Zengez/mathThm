@@ -1,6 +1,6 @@
 {
   "canonical_or_published_records_edited": false,
-  "next_step": "Validate six clean standalone drafts mathematically; locally resolve 7 targeted holds or defer individually; recompare provisional duplicate aliases; no proof screening until the standalone gate is passed",
+  "next_step": "One draft still needs standalone terminology validation; seven candidates need focused context resolution. Five have passed standalone source-context checks (not proof checks). Recompare provisional merged aliases before Pass 3.",
   "open_context_issues": 14,
   "open_terminology_leads": {
     "affine formal algebraic space": 1,
@@ -27,12 +27,14 @@
   ],
   "reviewed_candidates": 13,
   "schema": "maththm.standalone-expansion-batch01-manifest.v1",
-  "source_mathematical_equivalence_certified": 0,
+  "source_context_validated_without_proof_screening": true,
+  "source_mathematical_equivalence_certified": 5,
   "source_pass1_pass2_mutated": false,
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
   "status_counts": {
     "context_resolution_pending": 7,
-    "standalone_draft_ready_for_validation": 6
+    "standalone_draft_ready_for_validation": 1,
+    "standalone_source_context_validated": 5
   },
   "theorem_proofs_screened": 0
 }
