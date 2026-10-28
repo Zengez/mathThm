@@ -1,0 +1,13 @@
+{
+  "chapters_represented": 48,
+  "conventions_chapter_sections": 5,
+  "no_candidate_edits": true,
+  "no_scope_or_mathematical_interpretation": true,
+  "other_designated_sections": 50,
+  "packets_file": "stacks_context_sections_2026-10-28_packets.jsonl",
+  "schema": "maththm.stacks-context-section-packets.v1",
+  "section_packets": 55,
+  "sections_with_proofs_omitted": 2,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "truncated_excerpts": 0
+}
