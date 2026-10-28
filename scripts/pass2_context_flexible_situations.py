@@ -113,8 +113,10 @@ def interpret(base,raw,index):
     # hypothesis, to the canonical Pass 2 record.
     result=prepare(base,info,name,file,raw["source"]["revision"],body,out,why)
     result["split_confidence"]="pinned_situation_flexible_source_interpretation_unverified"
-    result["statement_editorial_notes"]="Flexible named Situation Pass 2 source lookup. "+why+
+    result["statement_editorial_notes"]=(
+        "Flexible named Situation Pass 2 source lookup. "+why+
         "; preserved original statement. No mathematical validation or proof reading."
+    )
     return result,"source_situation_expanded"
 
 def run(args):
