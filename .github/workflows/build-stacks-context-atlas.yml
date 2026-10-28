@@ -1,0 +1,55 @@
+name: Build pinned Stacks standing-context atlas
+on:
+  push:
+    paths:
+      - .github/workflows/build-stacks-context-atlas.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build bounded atlas from reviewed convention sections
+        run: python -m scripts.stacks_context_index
+      - name: Full regression suite
+        run: python -m unittest discover -s tests -q
+      - name: Verify candidate and source safeguards
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import harvest_pipeline as p
+          a=Path("harvest")
+          m=json.loads((a/"stacks_standing_context_manifest_2026-10-28.json").read_text())
+          r=p.load_rows(a/"stacks_standing_context_atlas_2026-10-28.jsonl","context_id")
+          l=json.loads((a/"stacks_standing_context_lookup_2026-10-28.json").read_text())
+          assert m["designated_sections_reviewed"]==len(r)==55
+          assert m["maintained_chapters_indexed"]==len(l["chapter_contexts"])==115
+          assert all(x["source_revision"]==m["source_revision"] for x in r.values())
+          assert not m["semantic_theorem_context_expansion_done"]
+          assert not m["candidate_records_modified"]
+          assert not m["proofs_read_or_verified"]
+          assert not m["provisional_mergers_rechecked"]
+          assert not m["published_corpus_unchanged"] is False
+          assert l["no_auto_hypothesis_expansion"]
+          assert all(x["scope_assessment"]!="not_applicable"
+                     or x["candidate_action"]=="never_auto_add" for x in r.values())
+          print("Atlas checks passed:",len(r),"reviewed convention sections")
+          PY
+      - name: Save compact atlas, lookup, summary and manifest only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add harvest/stacks_standing_context_atlas_2026-10-28.jsonl harvest/stacks_standing_context_lookup_2026-10-28.json harvest/stacks_standing_context_manifest_2026-10-28.json harvest/stacks_standing_context_summary_2026-10-28.md
+          test -z "$(git diff --name-only -- data/theorems.json harvest/batches harvest/active_candidate_ids.jsonl)"
+          if ! git diff --cached --quiet; then
+            git commit -m "Save bounded reviewed Stacks standing-context atlas"
+            git pull --rebase origin main
+            git push origin main
+          fi
