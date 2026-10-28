@@ -1,0 +1,114 @@
+{
+  "schema": "maththm.section-walk-scale-pilot.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "section_count": 5,
+  "selected_by_complete_section": true,
+  "selected_chapter": "morphisms.tex",
+  "target_approximate_candidates": 75,
+  "actual_candidate_count": 74,
+  "source_section_ranges_do_not_overlap": true,
+  "sections": [
+    {
+      "source_file": "morphisms.tex",
+      "section_start": 1710,
+      "section_end": 2110,
+      "section_title": "Affine morphisms",
+      "section_label": "section-affine",
+      "candidate_count": 13,
+      "packets_path": "harvest/section_walk_scale74_2026-10-28/affine_packets.jsonl",
+      "events_path": "harvest/section_walk_scale74_2026-10-28/affine_events.jsonl",
+      "manifest_path": "harvest/section_walk_scale74_2026-10-28/affine_manifest.json",
+      "event_counts": {
+        "candidate_location": 13,
+        "enter_local_environment": 15,
+        "exit_local_environment": 15,
+        "proof_skipped": 13
+      },
+      "scope_lead_lines": [],
+      "named_reference_environments_seen": 2
+    },
+    {
+      "source_file": "morphisms.tex",
+      "section_start": 3522,
+      "section_end": 4053,
+      "section_title": "Quasi-finite morphisms",
+      "section_label": "section-quasi-finite",
+      "candidate_count": 17,
+      "packets_path": "harvest/section_walk_scale74_2026-10-28/quasi_finite_packets.jsonl",
+      "events_path": "harvest/section_walk_scale74_2026-10-28/quasi_finite_events.jsonl",
+      "manifest_path": "harvest/section_walk_scale74_2026-10-28/quasi_finite_manifest.json",
+      "event_counts": {
+        "candidate_location": 17,
+        "enter_local_environment": 18,
+        "exit_local_environment": 18,
+        "proof_skipped": 17
+      },
+      "scope_lead_lines": [],
+      "named_reference_environments_seen": 1
+    },
+    {
+      "source_file": "morphisms.tex",
+      "section_start": 5718,
+      "section_end": 6136,
+      "section_title": "Syntomic morphisms",
+      "section_label": "section-syntomic",
+      "candidate_count": 14,
+      "packets_path": "harvest/section_walk_scale74_2026-10-28/syntomic_packets.jsonl",
+      "events_path": "harvest/section_walk_scale74_2026-10-28/syntomic_events.jsonl",
+      "manifest_path": "harvest/section_walk_scale74_2026-10-28/syntomic_manifest.json",
+      "event_counts": {
+        "candidate_location": 14,
+        "enter_local_environment": 16,
+        "exit_local_environment": 16,
+        "proof_skipped": 14
+      },
+      "scope_lead_lines": [],
+      "named_reference_environments_seen": 2
+    },
+    {
+      "source_file": "morphisms.tex",
+      "section_start": 6337,
+      "section_end": 6858,
+      "section_title": "Sheaf of differentials of a morphism",
+      "section_label": "section-sheaf-differentials",
+      "candidate_count": 15,
+      "packets_path": "harvest/section_walk_scale74_2026-10-28/differentials_packets.jsonl",
+      "events_path": "harvest/section_walk_scale74_2026-10-28/differentials_events.jsonl",
+      "manifest_path": "harvest/section_walk_scale74_2026-10-28/differentials_manifest.json",
+      "event_counts": {
+        "candidate_location": 15,
+        "enter_local_environment": 18,
+        "exit_local_environment": 18,
+        "potential_durable_scope_change": 1,
+        "proof_skipped": 15
+      },
+      "scope_lead_lines": [
+        6404
+      ],
+      "named_reference_environments_seen": 3
+    },
+    {
+      "source_file": "morphisms.tex",
+      "section_start": 7603,
+      "section_end": 8033,
+      "section_title": "Unramified morphisms",
+      "section_label": "section-unramified",
+      "candidate_count": 15,
+      "packets_path": "harvest/section_walk_scale74_2026-10-28/unramified_packets.jsonl",
+      "events_path": "harvest/section_walk_scale74_2026-10-28/unramified_events.jsonl",
+      "manifest_path": "harvest/section_walk_scale74_2026-10-28/unramified_manifest.json",
+      "event_counts": {
+        "candidate_location": 15,
+        "enter_local_environment": 17,
+        "exit_local_environment": 17,
+        "proof_skipped": 16
+      },
+      "scope_lead_lines": [],
+      "named_reference_environments_seen": 1
+    }
+  ],
+  "original_candidate_ids_unchanged": true,
+  "theorem_proofs_read": false,
+  "scope_assumptions_auto_imported": false,
+  "standalone_drafts_not_yet_done": true
+}
