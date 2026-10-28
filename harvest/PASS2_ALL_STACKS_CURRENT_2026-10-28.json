@@ -5,8 +5,8 @@
       "candidates": 1100,
       "statuses": {
         "needs_context": 76,
-        "needs_structure": 58,
-        "resolved": 966
+        "needs_structure": 37,
+        "resolved": 987
       }
     },
     {
@@ -14,8 +14,8 @@
       "candidates": 2022,
       "statuses": {
         "needs_context": 162,
-        "needs_structure": 72,
-        "resolved": 1788
+        "needs_structure": 54,
+        "resolved": 1806
       }
     },
     {
@@ -24,19 +24,18 @@
       "statuses": {
         "needs_classification": 3,
         "needs_context": 1074,
-        "needs_structure": 510,
-        "resolved": 6278
+        "needs_structure": 411,
+        "resolved": 6377
       }
     }
   ],
-  "pass3_unchanged": true,
-  "proofs_read": false,
-  "published_catalog_unchanged": true,
+  "no_proof_review": true,
+  "no_publication": true,
   "statuses": {
     "needs_classification": 3,
     "needs_context": 1312,
-    "needs_structure": 640,
-    "resolved": 9032
+    "needs_structure": 502,
+    "resolved": 9170
   },
   "total_candidates": 10987
 }

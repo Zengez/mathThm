@@ -1,0 +1,27 @@
+{
+  "forms": {
+    "explicit_result_after_source_setup": 28,
+    "explicit_then": 29,
+    "iff_plus_scoped_tail": 5,
+    "independent_list": 3,
+    "independent_short_claims": 8,
+    "metadata_normalized": 22,
+    "reverse_if": 4
+  },
+  "initial_structural_candidates": 510,
+  "newly_resolved": 99,
+  "proofs_read": false,
+  "statement_only": true,
+  "status_after": {
+    "needs_classification": 3,
+    "needs_context": 1074,
+    "needs_structure": 411,
+    "resolved": 6377
+  },
+  "structural_still_open": 411,
+  "unresolved_reasons": {
+    "needs_mathematical_editorial_interpretation": 378,
+    "source_editorial_placeholder": 32,
+    "too_long_for_bounded_pass": 1
+  }
+}
