@@ -56,7 +56,8 @@ class ActivePoolTests(unittest.TestCase):
         self.mock=patch.object(pool,"BATCHES",(self.batch,))
         self.mock.start()
         self.addCleanup(self.mock.stop)
-        pool.main()
+        with patch.object(pool,"EXPECTED_SOURCE_COUNT",2):
+            pool.main()
 
     def test_deferred_records_never_enter_active_pass3_packets(self):
         candidates=pipeline.load_rows(pool.IDS,"candidate_id")
