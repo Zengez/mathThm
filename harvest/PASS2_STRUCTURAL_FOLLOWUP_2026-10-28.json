@@ -1,0 +1,11 @@
+{
+  "catalog_unchanged": true,
+  "newly_resolved": 10,
+  "proofs_read": false,
+  "statuses": {
+    "needs_classification": 3,
+    "needs_context": 862,
+    "needs_structure": 453,
+    "resolved": 9669
+  }
+}

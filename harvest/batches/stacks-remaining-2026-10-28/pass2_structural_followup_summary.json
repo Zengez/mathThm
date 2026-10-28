@@ -1,0 +1,12 @@
+{
+  "batch": "stacks-remaining-2026-10-28",
+  "before_structure": 385,
+  "new_resolved": 5,
+  "proofs_read": false,
+  "recovery_methods": {
+    "equivalence_with_tail": 2,
+    "iff_with_joint_list": 1,
+    "universal_context_assertion": 2
+  },
+  "remaining_structure": 380
+}

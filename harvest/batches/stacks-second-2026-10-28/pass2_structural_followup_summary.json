@@ -1,0 +1,10 @@
+{
+  "batch": "stacks-second-2026-10-28",
+  "before_structure": 44,
+  "new_resolved": 1,
+  "proofs_read": false,
+  "recovery_methods": {
+    "equivalence_with_tail": 1
+  },
+  "remaining_structure": 43
+}

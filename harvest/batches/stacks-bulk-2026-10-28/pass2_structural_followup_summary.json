@@ -1,0 +1,11 @@
+{
+  "batch": "stacks-bulk-2026-10-28",
+  "before_structure": 34,
+  "new_resolved": 4,
+  "proofs_read": false,
+  "recovery_methods": {
+    "equivalence_with_tail": 3,
+    "universal_context_assertion": 1
+  },
+  "remaining_structure": 30
+}
