@@ -1,3 +1,15 @@
+# CURRENT EXECUTION CHECKPOINT — active prototype discovery population (October 28, 2026)
+
+**User decision:** The previous Pass 2 review campaign is closed for initial bulk discovery. The canonical Stacks Pass 1/2 source files remain intact for historical provenance and future recovery, but they are **not the recognized active candidate pool** for the prototype or Pass 3.
+
+**Active intake:** [harvest/ACTIVE_CANDIDATE_POOL.json](harvest/ACTIVE_CANDIDATE_POOL.json) and [harvest/active_candidate_ids.jsonl](harvest/active_candidate_ids.jsonl) are the sole allowed current-campaign population: **9,683** structured candidates from three Stacks batches (1,023 first, 1,873 second, 6,787 remaining). Pass 3 packets and decisions, staging/promotion, and active harvest status use this allowlist. Run `python -m scripts.active_candidate_pool` to rebuild it if canonical source decisions are legitimately changed during a future phase.
+
+**Deferred history, NOT active work:** [harvest/problem_candidates.jsonl](harvest/problem_candidates.jsonl) and [harvest/PROBLEM_CANDIDATES_MANIFEST.json](harvest/PROBLEM_CANDIDATES_MANIFEST.json) preserve the distinct difficult-context, difficult-structure, and classification-uncertain records for a future separate research campaign. Do not delete or reclassify them, but **do not carry their counts into routine ongoing Pass 3 or prototype progress reports**. The older `PASS2_RESUME_INVENTORY_2026-10-28.json` and the historical sections below are archival records, not active open-item tracking.
+
+**Status:** Active-population generation and full Python test suite passed in [GitHub Actions run 40748960972](https://github.com/Zengez/mathThm/actions/runs/40748960972). No Pass 3 proof review or promotion has yet been performed by this transition; no published theorem catalog content changed. The next authorized work is **Pass 3 proof-screening of active records** only, with separate explicit reviewer decisions and the existing proof/truncation gates. Do not call structurally indexed statements mathematically verified.
+
+---
+
 ## October 28, 2026 — Pass 2 continued across all three Stacks batches: 8,373 → 9,383 resolved
 
 **Full report:** [PASS2_CONTINUATION_REPORT_2026-10-28.md](PASS2_CONTINUATION_REPORT_2026-10-28.md). The user authorized additional Pass 2 statement-context and structural interpretation for all outstanding candidates, **not** Pass 3 or publication. Recovered **1,010 additional** source-level Pass 2 splits: 495 via exact pinned source Situation recovery; 164 via definitional-reference/internal-diagram/named-lemma context triage; 138 via deeper source-structure logic; 213 via embedded named Situation source-context interpretation. All are unverified mathematical source interpretations; no proofs read or independently checked.
