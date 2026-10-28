@@ -20,7 +20,7 @@ assert(chromiumPath,"Chromium is required to verify real theorem definition expa
   const errors=[];
   page.on("pageerror",e=>errors.push(e.message));
   await page.goto(base,{waitUntil:"domcontentloaded"});
-  await page.locator("#definitions-status").filter({hasText:"mathDef v2 definitions loaded (1986 terms"}).waitFor();
+  await page.locator("#definitions-status").filter({hasText:"mathDef v2 definitions loaded ("+snapshot.definitions.length+" terms"}).waitFor();
   await page.locator("#hypothesis-query").fill("compactness");
   await page.locator("#conclusion-query").fill("maximum");
   await page.locator("#results .definition-link").first().waitFor();
