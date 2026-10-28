@@ -5,7 +5,7 @@ const core=require("../web/search-core.js");
 const catalog=JSON.parse(fs.readFileSync(path.join(__dirname,"../data/theorems.json"),"utf8")).records;
 test("empty queries select all once",()=>{
   const hits=core.search(catalog,"","");
-  assert.equal(hits.length,20);
+  assert.equal(hits.length,catalog.length);
   assert.equal(new Set(hits.map(h=>h.theorem.id)).size,20);
 });
 test("hypothesis/conclusion AND is directional",()=>{
