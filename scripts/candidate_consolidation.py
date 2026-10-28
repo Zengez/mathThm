@@ -6,11 +6,16 @@ source-scope-based decision list; proof validity is not inspected here.
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter
 from pathlib import Path
 
 from scripts import harvest_pipeline as p
-from scripts.pass3_surface_duplicate_precheck import norm
+
+def norm(s):
+    s=re.sub(r"\\label\{[^{}]*\}","",s or "")
+    s=re.sub(r"\\(?:begin|end)\{[^{}]*\}","",s)
+    return re.sub(r"\s+","",s).lower()
 
 POLICY=Path("harvest/DUPLICATE_MERGE_POLICY_2026-10-28.json")
 REVIEW=Path("harvest/DUPLICATE_GROUP_REVIEW_2026-10-28.jsonl")
