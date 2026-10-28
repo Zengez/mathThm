@@ -30,7 +30,11 @@ CONTEXT_DEPENDENCY = re.compile(
     r"\b(?:defined|constructed|introduced|described|discussed|chosen|fixed|given)\s+(?:just\s+)?(?:above|earlier|previously|before)\b"
     r"|\b(?:with|using|under|in)\s+(?:the\s+)?(?:notation|assumptions|setup|hypotheses|situation|setting)\s+(?:of|from|as\s+in|above|below|introduced|established)\b"
     r"|\b(?:the|this|these|those)\s+(?:above|preceding|previous|following)\s+(?:lemma|proposition|construction|setup|notation|assumptions|definition|diagram)\b"
-    r"|\b(?:as\s+in|as\s+above|from\s+the\s+previous)\b", re.I)
+    r"|\b(?:as\s+in|as\s+above|from\s+the\s+previous)\b"
+    r"|\b(?:in|under)\s+(?:the\s+)?(?:Situation|setup|setting)\b"
+    r"|\\ref\{(?:situation|setup|construction)-[^{}]+\}"
+    r"|\b(?:this|these|those)\s+(?:construction|diagram|data|setup)\b"
+    r"|\bHere\s+we\s+use\b", re.I)
 INTRO = re.compile(r"^(?:Let|Suppose|Assume|Fix|Given|Consider|Write|Take)\b", re.I)
 THEN = re.compile(r"\bthen\b", re.I)
 # A sentence starting after an explicit 'Let/Assume/...' introduction,
@@ -134,9 +138,9 @@ def classify(row: dict) -> dict:
         decision.update(result_classification="uncertain",context_status="needs_classification",
                         context_note="Missing named result label or unexpected environment")
         return decision
-    if not text or len(text)<15 or not MATH_SIGNAL.search(text):
+    if not text or len(text)<15:
         decision.update(result_classification="uncertain",context_status="needs_classification",
-                        context_note="Extracted text lacks readily identifiable mathematical content")
+                        context_note="Extracted statement is too short to classify safely")
         return decision
     if QUESTION.search(text):
         decision.update(result_classification="uncertain",context_status="needs_classification",
