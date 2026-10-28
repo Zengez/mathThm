@@ -1,31 +1,53 @@
-# Deferred problem candidates — inherited Stacks source context
+# Deferred mathThm problem candidates — future discovery queue
 
-**Status:** Explicitly deferred to a later mathThm discovery phase, after the initial bulk discovery and prototype build. These are **not** rejected theorems, and they have not failed proof verification.
+**Status:** Set aside during the initial bulk discovery and prototype build. These are *not* rejected theorems or failed proofs. All canonical Pass 1 and Pass 2 decisions remain intact.
 
-## Source of truth and snapshot
+## One combined registry, two difficulty groups
 
-- [`problem_candidates_inherited_context.jsonl`](problem_candidates_inherited_context.jsonl) is the separate source-pinned registry of all currently deferred `needs_context` candidates (**862** on October 28, 2026).
-- [`PROBLEM_CANDIDATES_MANIFEST.json`](PROBLEM_CANDIDATES_MANIFEST.json) contains exact batch counts, status, rebuild command, and the active-intake exclusion policy.
-- Every record carries its stable `candidate_id`, original statement, Stacks source URL and pinned revision, context note, any previously recovered context, and detected references.
-- Canonical, changeable Pass 2 decisions remain in `harvest/batches/<batch>/pass2.jsonl`; this registry is a **rebuildable snapshot**, not a replacement for them.
+- **[problem_candidates.jsonl](problem_candidates.jsonl)** — canonical unified registry: **1,301** records.
+- **[problem_candidates_inherited_context.jsonl](problem_candidates_inherited_context.jsonl)** — legacy path retained as an *identical copy of the unified registry*, despite its historical filename. It now includes both groups.
+- **[PROBLEM_CANDIDATES_MANIFEST.json](PROBLEM_CANDIDATES_MANIFEST.json)** — current counts by difficulty, source batch, and structural subtype, plus the active-intake rule.
 
-## Initial prototype / active discovery policy
+JSON Lines cannot contain prose section headings without breaking its data format. Instead, the records are ordered by `difficulty_group`, each record carries that field and a more granular `difficulty_subtype`, and the groups are described below. Each record also retains its stable candidate ID, original Stacks source statement and pinned URL, references, review notes, and available recovered source context.
 
-1. **Exclude every record whose current canonical Pass 2 status is `needs_context`**, including every ID in this snapshot.
-2. Do not treat these records as solved, as mathematical false positives, or as proof-screened.
-3. Only canonical `resolved` records classified as `mathematical_result` are eligible for subsequent Pass 3 consideration; all additional review and publication gates remain in force.
-4. **Do not silently change the canonical status to `not_result` or delete deferred candidates.** Their deferred status allows later recovery without reharvesting.
+### Group 1 — Inherited source context (`inherited_context`)
 
-The independent `needs_structure` and `needs_classification` queues are *not* included in the inherited-context problem registry. The source of truth for those queues is each batch's current Pass 2 status. They require their own decisions before possible promotion.
+**862 records**. Statements refer to incomplete or unexpanded prior notation, standing assumptions, preceding definitions/constructions, or other source-dependent context. Their canonical status is `needs_context`. They require later source reconstruction rather than a guess at premises.
 
-## Future discovery
+### Group 2 — Structurally difficult statements (`structural_complexity`)
 
-After the prototype phase, revisit the registry by candidate ID and source revision, recover inherited notation or assumptions, then replace individual Pass 2 decisions only when reliable hypothesis/conclusion structure is supported. To synchronize this snapshot with the current canonical records:
+**439 records**. Statements are available, but the hypotheses and conclusions cannot yet be separated with sufficient confidence. Their canonical status is `needs_structure`. Subtypes are *routing hints*, not formal verdicts:
+
+| Structural difficulty subtype | Records |
+| --- | ---: |
+| Unconditional assertion or missing source boundary | 152 |
+| Enumerated hypotheses, conclusions, or cases | 94 |
+| Nested lists and case scopes | 54 |
+| Equivalences or scope of an additional assertion | 48 |
+| Editorially incomplete placeholders | 40 |
+| Conditional scope | 33 |
+| Diagrams or display-math scope | 18 |
+| **Structural group total** | **439** |
+
+Particularly, do not silently interpret joint premises as independent alternatives, upgrade a corollary to an equivalence, or fabricate a hypothesis for an unconditional theorem.
+
+## Separate classification queue
+
+**Three** `needs_classification` candidates, all from `trace.tex`, remain separate pending an editorial/user decision. Their precise statements and provenance appear in [PASS2_RESUME_INVENTORY_2026-10-28.json](PASS2_RESUME_INVENTORY_2026-10-28.json) under `classification_details`. They are not among the 1,301 archived problems until a later explicit decision requires that.
+
+## Initial bulk discovery and prototype policy
+
+1. Exclude **both** difficulty groups in the registry from the active prototype/bulk candidate intake.
+2. Only records currently marked `resolved` and classified `mathematical_result` in the canonical Pass 2 records may be *considered* for the later Pass 3 validation pipeline. A Pass 2 split is not independent mathematical or proof verification.
+3. Do not delete, mislabel as a false positive, or auto-promote any deferred candidate.
+4. Do not conflate the three separate classification cases with either deferred difficulty group.
+
+## Rebuild for a later discovery phase
+
+Canonical source: `harvest/batches/<batch>/pass1.jsonl` and `pass2.jsonl`. This combined registry is a reproducible snapshot, not a replacement for them.
 
 ```bash
 python -m scripts.pass2_problem_candidates
 ```
 
-When an item is resolved later, regeneration removes it from the deferred snapshot automatically while retaining its original Pass 1 statement and updated canonical Pass 2 record. Rebuild before each new discovery tranche; older snapshots must not be mistaken for the current queue.
-
-**Current Stacks source revision:** `a04446e57ec1fbc252a871afcec7752fb2807b14`. No proofs were opened for this archive, and the public theorem catalog was not changed.
+Regenerate after future Pass 2 adjudications, and again before starting a later discovery phase. Resolved cases automatically disappear from both copies on rebuild. The source revision is pinned at `a04446e57ec1fbc252a871afcec7752fb2807b14`. No proofs were read or public theorem entries changed for this registry update.
