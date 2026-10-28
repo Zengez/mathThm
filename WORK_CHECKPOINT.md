@@ -1,3 +1,19 @@
+# CURRENT EXECUTION CHECKPOINT — first standalone candidate reconstruction batch (October 28, 2026)
+
+**Current decision:** Stop expanding the Stacks context atlas and process source-context reconstruction in small batches. The validated atlas (55 designated context sections, 115 chapter entries), 3,288 section-opening previews, and 21,297 exact Stacks source-label locators are now sufficient. Avoid recursive research unless specifically needed for an individual theorem and cheap enough to resolve.
+
+**Just completed:** [First 13-candidate standalone expansion batch](harvest/standalone_candidate_expansion_batch01_2026-10-28.jsonl), [audit report](harvest/STANDALONE_EXPANSION_BATCH01_README.md), and [integrity manifest](harvest/standalone_candidate_expansion_batch01_2026-10-28_manifest.json). **5** theorem statements have source-faithful standalone mathematical context validated (not proofs); **1** alteration theorem has a full draft awaiting targeted terminology check; **7** have partial reconstructions with exact unresolved terms, including two involving the naive cotangent complex. Eight provisional duplicate groups are included but none finally merge-adjudicated. Full source-integrity checks and regression suite pass. **All 13 have Pass 3 eligibility false.**
+
+**Scope of achievement:** Source-faithful canonical *drafts and review overlays*, not publication or proof verification. Each record contains explicit hypotheses, conclusions, standalone statement text, inherited context interpretation, exact original source links, candidate/merged IDs, unresolved questions and stage status. Original Pass 1/2, canonical active pool and source/proof citations, and public theorem catalog remain unchanged.
+
+**Next execution:** Use the same small-batch workflow with the new context lookup, beginning with a single local review of the naive cotangent complex (potentially resolves two held candidates) and the alteration definition. Do not chase unrelated references. Continue progressing easy candidate statements; leave difficult ones as `context_resolution_pending`. When enough source-complete records are ready, check each provisional merged source pair for complete mathematical equivalence and update the pre-Pass3 gate accordingly. **Do not begin Pass 3 based merely on the old Pass 2 resolved status.**
+
+**Resume locations:** `scripts/stacks_context_light_index.py` supplies `candidate_context_bundle(filename,statement_line,refs)`; `scripts/validate_standalone_expansion_batch01.py` verifies current overlays against the original candidate intake; [batch source-context report](harvest/STANDALONE_EXPANSION_BATCH01_README.md) explains current outcomes. The exact Stacks revision remains `a04446e57ec1fbc252a871afcec7752fb2807b14`. [Validation workflow](https://github.com/Zengez/mathThm/actions/workflows/validate-stacks-standalone-batch01.yml).
+
+---
+
+## Prior checkpoint (historical)
+
 # CURRENT EXECUTION CHECKPOINT — lightweight Stacks context index and candidate pilot (October 28, 2026)
 
 **User goal:** Make theorem candidates mathematically standalone without spending days on a pre-research meta-resource. The 55 designated sections in the existing standing-conventions atlas have already been reviewed. Do not treat earlier proved results as added hypotheses. Do not conflate a Pass 2 "resolved" split with a complete standalone assertion.
