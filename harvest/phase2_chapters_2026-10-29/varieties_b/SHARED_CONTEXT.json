@@ -1,0 +1,223 @@
+{
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "earlier_chapter_context": "harvest/phase2_chapters_2026-10-29/varieties_a/SHARED_CONTEXT.json",
+  "scope_rule": "Only k denotes ground field chapterwide. Setup7303 and10908 apply only to statements citing them. Definitions are terminology, not global hypotheses. All excerpt proof environments excluded.",
+  "contexts": [
+    {
+      "context_id": "definition-euler-characteristic",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 6160,
+      "end_line": 6169,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-euler-characteristic}\nLet $k$ be a field. Let $X$ be a proper scheme over $k$. Let $\\mathcal{F}$\nbe a coherent $\\mathcal{O}_X$-module. In this situation the\n{\\it Euler characteristic of $\\mathcal{F}$} is the integer\n$$\n\\chi(X, \\mathcal{F}) = \\sum\\nolimits_i (-1)^i \\dim_k H^i(X, \\mathcal{F}).\n$$\nFor justification of the formula see below.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-regularity",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 6600,
+      "end_line": 6609,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-regularity}\nLet $k$ be a field. Let $n \\geq 0$. Let $\\mathcal{F}$ be a coherent\nsheaf on $\\mathbf{P}^n_k$. We say $\\mathcal{F}$ is {\\it $m$-regular}\nif\n$$\nH^i(\\mathbf{P}^n_k, \\mathcal{F}(m - i)) = 0\n$$\nfor $i = 1, \\ldots, n$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-hilbert-polynomial",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 6806,
+      "end_line": 6812,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-hilbert-polynomial}\nLet $k$ be a field. Let $n \\geq 0$. Let $\\mathcal{F}$ be a coherent sheaf\non $\\mathbf{P}^n_k$. The function\n$d \\mapsto \\chi(\\mathbf{P}^n_k, \\mathcal{F}(d))$ is called the\n{\\it Hilbert polynomial} of $\\mathcal{F}$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-absolute-frobenius",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 7013,
+      "end_line": 7019,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-absolute-frobenius}\nLet $p$ be a prime number. Let $X$ be a scheme in characteristic $p$.\nThe {\\it absolute frobenius of $X$} is the morphism $F_X : X \\to X$\ngiven by the identity on the underlying topological space and\nwith $F_X^\\sharp : \\mathcal{O}_X \\to \\mathcal{O}_X$ given by $g \\mapsto g^p$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-relative-frobenius",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 7070,
+      "end_line": 7090,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-relative-frobenius}\nLet $p > 0$ be a prime number. Let $S$ be a scheme in characteristic $p$.\nLet $X$ be a scheme over $S$. We define\n$$\nX^{(p)} = X^{(p/S)} = X \\times_{S, F_S} S\n$$\nviewed as a scheme over $S$. Applying\nLemma \\ref{lemma-frobenius-endomorphism-identity}\nwe see there is a unique morphism $F_{X/S} : X \\longrightarrow X^{(p)}$\nover $S$ fitting into the commutative diagram\n$$\n\\xymatrix{\nX \\ar[rr]_{F_{X/S}} \\ar[rrd] \\ar@/^1em/[rrrr]^{F_X}\n& & X^{(p)} \\ar[rr] \\ar[d] & & X \\ar[d] \\\\\n& & S \\ar[rr]^{F_S} & & S\n}\n$$\nwhere the right square is cartesian. The morphism $F_{X/S}$ is called the\n{\\it relative Frobenius morphism of $X/S$}.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-delta-invariant-algebra",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 8317,
+      "end_line": 8322,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-delta-invariant-algebra}\nLet $A$ be a reduced Nagata local ring of dimension $1$.\nThe {\\it $\\delta$-invariant of $A$} is $\\text{length}_A(A'/A)$\nwhere $A'$ is as in Lemma \\ref{lemma-pre-delta-invariant}.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-delta-invariant",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 8446,
+      "end_line": 8454,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-delta-invariant}\nLet $k$ be a field. Let $X$ be a locally algebraic $k$-scheme.\nLet $x \\in X$ be a point such that $\\mathcal{O}_{X, x}$\nis reduced and $\\dim(\\mathcal{O}_{X, x}) = 1$.\nThe {\\it $\\delta$-invariant of $X$ at $x$} is the\n$\\delta$-invariant of $\\mathcal{O}_{X, x}$ as defined in\nDefinition \\ref{definition-delta-invariant-algebra}.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-wedge",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 8672,
+      "end_line": 8683,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-wedge}\nLet $A$ and $A_i$, $1 \\leq i \\leq n$ be local rings. We say\n{\\it $A$ is a wedge of $A_1, \\ldots, A_n$}\nif there exist isomorphisms\n$$\n\\kappa_{A_1} \\to \\kappa_{A_2} \\to \\ldots \\to \\kappa_{A_n}\n$$\nand $A$ is isomorphic to the ring consisting of $n$-tuples\n$(a_1, \\ldots, a_n) \\in A_1 \\times \\ldots \\times A_n$ which map to the\nsame element of $\\kappa_{A_n}$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-curve",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 9168,
+      "end_line": 9171,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-curve}\nLet $k$ be a field. A {\\it curve} is a variety of dimension $1$ over $k$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-degree-invertible-sheaf",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 9540,
+      "end_line": 9553,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-degree-invertible-sheaf}\nLet $k$ be a field, let $X$ be a proper scheme of dimension $\\leq 1$\nover $k$, and let $\\mathcal{L}$ be an invertible $\\mathcal{O}_X$-module.\nThe {\\it degree} of $\\mathcal{L}$ is defined by\n$$\n\\deg(\\mathcal{L}) = \\chi(X, \\mathcal{L}) - \\chi(X, \\mathcal{O}_X)\n$$\nMore generally, if $\\mathcal{E}$ is a locally free sheaf of rank $n$\nwe define the {\\it degree} of $\\mathcal{E}$ by\n$$\n\\deg(\\mathcal{E}) = \\chi(X, \\mathcal{E}) - n\\chi(X, \\mathcal{O}_X)\n$$\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-intersection-number",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 10388,
+      "end_line": 10405,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-intersection-number}\nLet $k$ be a field. Let $X$ be a proper scheme over $k$. Let\n$i : Z \\to X$ be a closed subscheme of dimension $d$. Let\n$\\mathcal{L}_1, \\ldots, \\mathcal{L}_d$ be invertible\n$\\mathcal{O}_X$-modules. We define the {\\it intersection number}\n$(\\mathcal{L}_1 \\cdots \\mathcal{L}_d \\cdot Z)$\nas the coefficient of $n_1 \\ldots n_d$ in the numerical polynomial\n$$\n\\chi(X, i_*\\mathcal{O}_Z \\otimes \\mathcal{L}_1^{\\otimes n_1} \\otimes\n\\ldots \\otimes \\mathcal{L}_d^{\\otimes n_d}) =\n\\chi(Z, \\mathcal{L}_1^{\\otimes n_1} \\otimes\n\\ldots \\otimes \\mathcal{L}_d^{\\otimes n_d}|_Z)\n$$\nIn the special\ncase that $\\mathcal{L}_1 = \\ldots = \\mathcal{L}_d = \\mathcal{L}$\nwe write $(\\mathcal{L}^d \\cdot Z)$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-degree",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 10621,
+      "end_line": 10629,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-degree}\nLet $k$ be a field. Let $X$ be a proper scheme over $k$. Let\n$\\mathcal{L}$ be an ample invertible $\\mathcal{O}_X$-module.\nFor any closed subscheme the {\\it degree of $Z$ with respect to\n$\\mathcal{L}$}, denoted $\\deg_\\mathcal{L}(Z)$, is\nthe intersection number $(\\mathcal{L}^d \\cdot Z)$\nwhere $d = \\dim(Z)$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-embed-dim",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 10720,
+      "end_line": 10726,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-embed-dim}\nLet $k$ be an algebraically closed field. Let $X$ be a locally algebraic\n$k$-scheme and let $x \\in X$ be a closed point. The\n{\\it embedding dimension of $X$ at $x$} is\n$\\dim_k \\mathfrak m_x/\\mathfrak m_x^2$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-embedding-dimension",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 10785,
+      "end_line": 10790,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-embedding-dimension}\nLet $k$ be a field. Let $X$ be a locally algebraic $k$-scheme.\nLet $x \\in X$ be a point. The {\\it embedding dimension of $X/k$ at $x$}\nis $\\dim_{\\kappa(x)}(T_{X/k, x})$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "situation-glue",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 7303,
+      "end_line": 7314,
+      "source_excerpt_tex": "\\begin{situation}\n\\label{situation-glue}\nHere we are given a commutative diagram of rings\n$$\n\\xymatrix{\nA \\ar[r] & K \\\\\nR \\ar[u] \\ar[r] & B \\ar[u]\n}\n$$\nwhere $K$ is a field and $A$, $B$ are subrings of $K$ with fraction\nfield $K$. Finally, $R = A \\times_K B = A \\cap B$.\n\\end{situation}",
+      "used_as_extra_hypotheses": true
+    },
+    {
+      "context_id": "situation-family-divisors",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 10908,
+      "end_line": 10949,
+      "source_excerpt_tex": "\\begin{situation}\n\\label{situation-family-divisors}\nLet $k$ be a field,\nlet $X$ be a scheme over $k$,\nlet $\\mathcal{L}$ be an invertible $\\mathcal{O}_X$-module,\nlet $V$ be a finite dimensional $k$-vector space, and\nlet $\\psi : V \\to \\Gamma(X, \\mathcal{L})$ be a $k$-linear map.\nSay $\\dim(V) = r$ and we have a basis $v_1, \\ldots, v_r$ of $V$.\nThen we obtain a ``universal divisor''\n$$\nH_{univ} = Z(s_{univ}) \\subset  \\mathbf{A}^r \\times_k X\n$$\nas the zero scheme\n(Divisors, Definition \\ref{divisors-definition-zero-scheme-s}) of the section\n$$\ns_{univ} = \\sum\\nolimits_{i = 1, \\ldots, r} x_i \\psi(v_i) \\in\n\\Gamma(\\mathbf{A}^r \\times_k X, \\text{pr}_2^*\\mathcal{L})\n$$\nFor a field extension $k'/k$ the $k'$-points $v \\in \\mathbf{A}^r_k(k')$\ncorrespond to vectors $(a_1, \\ldots, a_r)$ of elements of $k'$.\nThus we may on the one hand think of $v$ as the element\n$v = \\sum_{i = 1, \\ldots, r} a_i v_i \\in V \\otimes_k k'$\nand on the other hand we may assign to $v$ the section\n$$\n\\psi(v) = \\sum\\nolimits_{i = 1, \\ldots, r} a_i \\psi(v_i) \\in\n\\Gamma(X_{k'}, \\mathcal{L}|_{X_{k'}})\n$$\nWith this notation it is clear that the fibre of $H_{univ}$ over\n$v \\in V \\otimes k'$ is the zero scheme of $\\psi(v)$.\nIn a formula:\n$$\nH_v = H_{univ, v} = Z(\\psi(v))\n$$\nWe will denote this common value by $H_v$ as indicated. Finally, in\nthis situation let $P$ be a property of vectors $v \\in V \\otimes_k k'$\nfor $k'/k$ an arbitrary field extension\\footnote{For example we could\nconsider the condition that $H_v$ is smooth over $k'$, or geometrically\nirreducible over $k'$.}. We say $P$ {\\it holds for general}\n$v \\in V \\otimes_k k'$ if there exists a nonempty Zariski open\n$U \\subset \\mathbf{A}^r_k$ such that if $v$ corresponds to a $k'$-point\nof $U$ for any $k'/k$ then $P(v)$ holds.\n\\end{situation}",
+      "used_as_extra_hypotheses": true
+    },
+    {
+      "context_id": "prose6440",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 6440,
+      "end_line": 6452,
+      "source_excerpt_tex": "\\noindent\nLet $k$ be a field, $n \\geq 1$, $d \\geq 1$, and let\n$s \\in \\Gamma(\\mathbf{P}_k^n, \\mathcal{O}(d))$\nbe a nonzero section. In this section we will write $\\mathcal{O}(d)$\nfor the $d$th twist of the structure sheaf on projective space\n(Constructions, Definitions \\ref{constructions-definition-twist} and\n\\ref{constructions-definition-projective-space}).\nSince $\\mathbf{P}^n_k$ is a variety this section is regular, hence\n$s$ is a regular section of $\\mathcal{O}(d)$ and defines an effective\nCartier divisor $H = Z(s) \\subset \\mathbf{P}^n_k$, see\nDivisors, Section \\ref{divisors-section-effective-Cartier-divisors}.\nSuch a divisor $H$ is called a {\\it hypersurface} and if $d = 1$\nit is called a {\\it hyperplane}.",
+      "interpretation": "Twist O(d) projective-space convention. n>=1,d>=1 and nonzero s belong this hypersurface setup; subsequent explicit n>=0 statements override and do not inherit them."
+    },
+    {
+      "context_id": "prose695",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 695,
+      "end_line": 696,
+      "source_excerpt_tex": "By convention a connected topological space is nonempty; hence a fortiori\ngeometrically connected schemes are nonempty.",
+      "interpretation": "Source connected spaces NONEMPTY, including reduced connected schemes in degree statements."
+    },
+    {
+      "context_id": "prose8685",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 8685,
+      "end_line": 8696,
+      "source_excerpt_tex": "\\noindent\nIf we are given a base ring $\\Lambda$ and $A$ and $A_i$ are $\\Lambda$-algebras,\nthen we require $\\kappa_{A_i} \\to \\kappa_{A_{i + 1}}$\nto be a $\\Lambda$-algebra isomorphisms\nand $A$ to be isomorphic as a $\\Lambda$-algebra to the $\\Lambda$-algebra\nconsisting  of $n$-tuples\n$(a_1, \\ldots, a_n) \\in A_1 \\times \\ldots \\times A_n$ which map to the\nsame element of $\\kappa_{A_n}$. In particular, if $\\Lambda = k$ is a field\nand the maps $k \\to \\kappa_{A_i}$ are isomorphisms, then\nthere is a unique choice for the isomorphisms\n$\\kappa_{A_i} \\to \\kappa_{A_{i + 1}}$ and\nwe often speak of {\\it the wedge of $A_1, \\ldots, A_n$}.",
+      "interpretation": "Wedge base-algebra compatibility on residue identifications."
+    },
+    {
+      "context_id": "prose9529",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 9529,
+      "end_line": 9565,
+      "source_excerpt_tex": "\\noindent\nWe start defining the degree of an invertible sheaf and more generally\na locally free sheaf on a proper scheme\nof dimension $1$ over a field. In Section \\ref{section-euler}\nwe defined the Euler characteristic\nof a coherent sheaf $\\mathcal{F}$ on a proper scheme $X$ over a field\n$k$ by the formula\n$$\n\\chi(X, \\mathcal{F}) = \\sum (-1)^i \\dim_k H^i(X, \\mathcal{F}).\n$$\n\n\\begin{definition}\n\\label{definition-degree-invertible-sheaf}\nLet $k$ be a field, let $X$ be a proper scheme of dimension $\\leq 1$\nover $k$, and let $\\mathcal{L}$ be an invertible $\\mathcal{O}_X$-module.\nThe {\\it degree} of $\\mathcal{L}$ is defined by\n$$\n\\deg(\\mathcal{L}) = \\chi(X, \\mathcal{L}) - \\chi(X, \\mathcal{O}_X)\n$$\nMore generally, if $\\mathcal{E}$ is a locally free sheaf of rank $n$\nwe define the {\\it degree} of $\\mathcal{E}$ by\n$$\n\\deg(\\mathcal{E}) = \\chi(X, \\mathcal{E}) - n\\chi(X, \\mathcal{O}_X)\n$$\n\\end{definition}\n\n\\noindent\nObserve that this depends on the triple $\\mathcal{E}/X/k$.\nIf $X$ is disconnected and $\\mathcal{E}$ is finite locally free (but not\nof constant rank), then one can modify the definition by summing the degrees\nof the restriction of $\\mathcal{E}$ to the connected components of $X$.\nIf $\\mathcal{E}$ is just a coherent sheaf, there are several different\nways of extending the definition\\footnote{If $X$ is a proper curve\nand $\\mathcal{F}$ is a coherent sheaf on $X$, then one often defines\nthe degree as $\\chi(X, \\mathcal{F}) - r\\chi(X, \\mathcal{O}_X)$\nwhere $r = \\dim_{\\kappa(\\xi)} \\mathcal{F}_\\xi$ is the rank of $\\mathcal{F}$\nat the generic point $\\xi$ of $X$.}.",
+      "interpretation": "Degree(E)=chi(E)-rankE chi(O) defined proper DIMENSION<=1 only; local freely rank constant."
+    },
+    {
+      "context_id": "prose9695",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 9695,
+      "end_line": 9707,
+      "source_excerpt_tex": "\\noindent\nLet $k$ be a field. Let $X$ be a finite type scheme over $k$ of\ndimension $\\leq 1$. Let $C_i \\subset X$, $i = 1, \\ldots, t$ be\nthe irreducible components of dimension $1$. We view $C_i$ as a scheme\nby using the induced reduced scheme structure. Let $\\xi_i \\in C_i$ be the\ngeneric point. The {\\it multiplicity of $C_i$ in $X$} is defined\nas the length\n$$\nm_i = \\text{length}_{\\mathcal{O}_{X, \\xi_i}} \\mathcal{O}_{X, \\xi_i}\n$$\nThis makes sense because $\\mathcal{O}_{X, \\xi_i}$ is a zero dimensional\nNoetherian local ring and hence has finite length over itself\n(Algebra, Proposition \\ref{algebra-proposition-dimension-zero-ring}).",
+      "interpretation": "Multiplicity of dimension1 reduced component is length of ambient local ring at generic point."
+    },
+    {
+      "context_id": "prose10623",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 10623,
+      "end_line": 10640,
+      "source_excerpt_tex": "Let $k$ be a field. Let $X$ be a proper scheme over $k$. Let\n$\\mathcal{L}$ be an ample invertible $\\mathcal{O}_X$-module.\nFor any closed subscheme the {\\it degree of $Z$ with respect to\n$\\mathcal{L}$}, denoted $\\deg_\\mathcal{L}(Z)$, is\nthe intersection number $(\\mathcal{L}^d \\cdot Z)$\nwhere $d = \\dim(Z)$.\n\\end{definition}\n\n\\noindent\nBy Lemma \\ref{lemma-ample-positive} the degree of a subscheme is always a\npositive integer. We note that $\\deg_\\mathcal{L}(Z) = d$ if and only if\n$$\n\\chi(Z, \\mathcal{L}^{\\otimes n}|_Z) = \\frac{d}{\\dim(Z)!} n^{\\dim(Z)} + l.o.t\n$$\nas can be seen using that\n$$\n(n_1 + \\ldots + n_{\\dim(Z)})^{\\dim(Z)} =\n\\dim(Z)!\\ n_1 \\ldots n_{\\dim(Z)} + \\text{other terms}",
+      "interpretation": "Polarized degree uses intersection with d line bundles where d=dimension; zero-dimensional degree positive length, different from degree of line bundle on0dim."
+    },
+    {
+      "context_id": "more-algebra.tex:definition-number-of-branches",
+      "source_file": "more-algebra.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 31552,
+      "end_line": 31560,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-number-of-branches}\nLet $A$ be a local ring with henselization $A^h$ and\nstrict henselization $A^{sh}$. The {\\it number of branches of $A$}\nis the number of minimal primes of $A^h$ if finite and $\\infty$\notherwise. The {\\it number of geometric branches of $A$}\nis the number of minimal primes of $A^{sh}$ if finite and $\\infty$\notherwise.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "morphisms.tex:definition-degree",
+      "source_file": "morphisms.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 13461,
+      "end_line": 13472,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-degree}\nLet $X$ and $Y$ be integral schemes.\nLet $f : X \\to Y$ be locally of finite type and dominant.\nAssume $[R(X) : R(Y)] < \\infty$, or any other of the equivalent\nconditions (1) -- (4) of Lemma \\ref{lemma-finite-degree}.\nThen the positive integer\n$$\n\\deg(X/Y) = [R(X) : R(Y)]\n$$\nis called the {\\it degree of $X$ over $Y$}.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    }
+  ]
+}

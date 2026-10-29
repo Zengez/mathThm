@@ -37,6 +37,34 @@ class ChapterReviewRegressionTests(unittest.TestCase):
                 self.assertTrue(v['source_first_review'])
                 self.assertFalse(v['proof_reviewed'])
 
+    def test_varieties_first_batch_review_corrections(self):
+        path=BASE/'varieties_a/RECONSTRUCTIONS.jsonl'
+        rows={r['source_label']:r for r in map(json.loads,path.read_text().splitlines())}
+        self.assertIn('as $k$-fields',' '.join(rows['lemma-birational-varieties']['conclusions']))
+        tangent=rows['lemma-tangent-space-rational-point']
+        self.assertNotIn('\\kappa', ' '.join(tangent['hypotheses']))
+        self.assertEqual(len(tangent['conclusions']),2)
+        self.assertIn('separable algebraic',tangent['conclusions'][1])
+        diagram=rows['lemma-geometric-structure-unramified']
+        self.assertNotIn('Y & & V',' '.join(diagram['conclusions']))
+        self.assertIn('S & & V',' '.join(diagram['conclusions']))
+
+    def test_varieties_source_ambiguities_stay_out_of_authority(self):
+        from scripts.phase2_authoritative import load_approved
+        approved=load_approved()
+        rows={r['source_label']:r for r in map(json.loads,(BASE/'varieties_a/RECONSTRUCTIONS.jsonl').read_text().splitlines())}
+        for label in ['theorem-varieties-rational-maps','lemma-geometrically-irreducible-local','lemma-units-variety']:
+            self.assertEqual(rows[label]['decision'],'context_resolution_pending')
+            self.assertNotIn(rows[label]['candidate_id'],approved)
+
+    def test_varieties_degree_scope_holds_are_not_silently_repaired(self):
+        from scripts.phase2_authoritative import load_approved
+        approved=load_approved()
+        rows={r['source_label']:r for r in map(json.loads,(BASE/'varieties_b/RECONSTRUCTIONS.jsonl').read_text().splitlines())}
+        for label in ['lemma-divisible','lemma-intersection-numbers-and-degrees-on-curves']:
+            self.assertEqual(rows[label]['decision'],'context_resolution_pending')
+            self.assertNotIn(rows[label]['candidate_id'],approved)
+
     def test_varieties_coverage_includes_zero_active_sections(self):
         coverage=json.loads((BASE/'VARIETIES_COVERAGE.json').read_text())
         self.assertEqual(coverage['active_canonical_candidates'],237)

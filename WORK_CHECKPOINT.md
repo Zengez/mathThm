@@ -1,3 +1,17 @@
+# CURRENT EXECUTION CHECKPOINT — full Varieties chapter independently reviewed (October 29, 2026)
+
+**Branch:** `codex/phase2-validation`, started at91c2aab. **Current authoritative total655**, +245 from250 independent reviews. Requested Algebra tail13/13 approved. All237 Varieties candidates across48 complete sections reviewed in123/114 batches:232approved5precise source holds. Zero unreviewed candidates or pending independent reconstructions in these assignments; five holds still require deliberate source adjudication. Prior410 preserved. No Phase3, proof screening or publication.
+
+**Population:** 655 approved +669 awaiting mathematical validation +296 contextual holds +30 earlier pilot reconstructions awaiting reconciliation +8,025 not reconstructed =9,675. Eight provisional duplicate groups stay blocked as a secondary flag. Original statements, historical Pass1/2, active IDs and production data unchanged. Source pinned a04446e57ec1fbc252a871afcec7752fb2807b14.
+
+**Artifacts:** [Final chapter report](harvest/phase2_chapters_2026-10-29/REPORT.md), [metrics](harvest/phase2_chapters_2026-10-29/METRICS.json), [five exact holds](harvest/phase2_chapters_2026-10-29/HOLDS.jsonl), [coverage](harvest/phase2_chapters_2026-10-29/VARIETIES_COVERAGE.json). All three batches have final candidate-level independent decisions, hashes and independent section checkpoints. Established authoritative registry consumes approved corrected formulations. Do not repeat any of the250 reviews or automatically promote holds.
+
+**Checks/efficiency:** 163 Python tests pass. Same chapter reviewer pair retained context across both internal batches;51 source-context spans reused, local deterministic processing, no pipeline code changes. Per-credit improvement unmeasured; do not treat219 packaging/context-expansion flags as219 mathematical errors. Periodic commits9b3896f(Algebra) and83ffaa9(VarietiesA); final checkpoint completesB.
+
+**Next:** source-adjudicate the five holds deliberately or take next existing drafted chapter, e.g. Topologies78 candidates/13sections18–4512, first nonempty77–715 (`s051_reviews.jsonl` in section_walk_two_chapters_2026-10-28). No new chapter work started. Set fresh run baseline; preserve old approvals, exact content binding, independent source-first validation, complete-section scope and duplicate gates.
+
+---
+
 # CURRENT EXECUTION CHECKPOINT — Varieties A complete; B continuing (October 29, 2026)
 
 **Branch:** `codex/phase2-validation`; current **543 authoritative Phase2 approvals**, +133 from starting410. Algebra tail13 approved; VarietiesA123 independently reviewed,120approved3precise source holds. Prior approvals preserved. Full Python160tests pass. No Phase3/proofscreening/publication.

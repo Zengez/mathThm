@@ -1,46 +1,79 @@
 {
   "starting_commit": "91c2aab",
   "starting_approvals": 410,
-  "current_approvals": 543,
-  "new_approvals": 133,
-  "independently_reviewed": 136,
-  "holds": 3,
-  "algebra_tail": {
-    "candidates": 13,
-    "approved": 13,
-    "sections": 2,
-    "structured_corrections": 3
-  },
+  "ending_approvals": 655,
+  "new_approvals": 245,
+  "independently_reviewed": 250,
+  "new_holds": 5,
+  "newly_reconstructed_awaiting_independent_review": 0,
+  "source_sections_independently_reviewed": 50,
+  "physical_source_lines_covered": 11850,
+  "physical_source_lines_include_proof_bodies_mechanically_excluded_from_review": true,
+  "distinct_saved_varieties_context_spans": 51,
+  "batches": [
+    {
+      "name": "algebra_tail",
+      "candidates": 13,
+      "approved": 13,
+      "holds": 0,
+      "complete_sections": 2,
+      "original_drafts_reused": true,
+      "materialization_or_context_expansion_flags": 3
+    },
+    {
+      "name": "varieties_a",
+      "candidates": 123,
+      "approved": 120,
+      "holds": 3,
+      "complete_sections": 28,
+      "original_drafts_reused": true,
+      "materialization_or_context_expansion_flags": 113
+    },
+    {
+      "name": "varieties_b",
+      "candidates": 114,
+      "approved": 112,
+      "holds": 2,
+      "complete_sections": 20,
+      "original_drafts_reused": true,
+      "materialization_or_context_expansion_flags": 106
+    }
+  ],
   "varieties": {
     "active_candidates": 237,
-    "source_sections": 48,
-    "independently_reviewed": 123,
-    "remaining": 114,
-    "batches": [
-      {
-        "name": "varieties_a",
-        "candidates": 123,
-        "sections": 28,
-        "start_line": 17,
-        "end_line": 5431,
-        "state": "independently_reviewed_and_materialized",
-        "approved": 120,
-        "holds": 3
-      },
-      {
-        "name": "varieties_b",
-        "candidates": 114,
-        "sections": 20,
-        "start_line": 5432,
-        "end_line": 11343,
-        "state": "in_progress"
-      }
-    ],
-    "approved": 120,
-    "holds": 3,
-    "sections_independently_reviewed": 28
+    "chapter_sections": 48,
+    "source_start_line": 17,
+    "source_end_line": 11343,
+    "independently_reviewed": 237,
+    "approved": 232,
+    "holds": 5,
+    "unreviewed_candidates": 0,
+    "sections_independently_reviewed": 48,
+    "chapter_review_complete": true,
+    "all_candidates_phase2_eligible": false
   },
   "reliable_token_or_credit_usage": null,
-  "proofs_screened": 0,
-  "full_python_tests_passed": 160
+  "proofs_read_or_screened": 0,
+  "full_python_tests_passed": 163,
+  "prior_divisors_comparison": {
+    "independently_reviewed": 222,
+    "approved": 220,
+    "held": 2,
+    "sections": 37,
+    "reliable_comparable_cost_denominator_available": false
+  },
+  "efficiency_note": "Chapter assignment finished in two internally validated complete-section batches with shared context retained; no pipeline/infrastructure code changed. Per-credit improvement is unmeasured, and contextual expansions/materialization flags are not mathematical error counts.",
+  "next_action": "Five source ambiguities require deliberate adjudication; do not repeat237 reviewed Varieties candidates. Next unreviewed drafted chapter can be selected from registry, for example Topologies.",
+  "next_unreviewed_chapter_candidate": {
+    "source_file": "topologies.tex",
+    "active_candidates": 78,
+    "complete_source_sections": 13,
+    "start_line": 18,
+    "end_line": 4512,
+    "first_nonempty_section": [
+      77,
+      715
+    ],
+    "first_draft": "harvest/section_walk_two_chapters_2026-10-28/s051_reviews.jsonl"
+  }
 }
