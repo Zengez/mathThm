@@ -1,0 +1,52 @@
+{
+  "candidate_count": 101,
+  "candidate_ids_sha256": "72031501b71ebf8485360d288d2041dafae8c244422900084d07b4c877db0e9a",
+  "candidate_inputs_sha256": "184e5eff540ad507528b5173a2698cf66970b99bdcbbeb939a2957f42e3f338c",
+  "chapter_number": 71,
+  "chapter_title": "Divisors on Algebraic Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1600,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Divisors on Algebraic Spaces}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 19,
+  "section_inputs_sha256": "5afbdfc45a9bb326ba1fd5589fa1f204f2018a66f94e7042a6f510c78ded2f1e",
+  "source_file": "spaces-divisors.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "b31b315f2946bc9c06fee6322a2fa9117d9dda9cdca5726625fcd5bda280ce58",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
