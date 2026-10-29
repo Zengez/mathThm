@@ -1,0 +1,52 @@
+{
+  "candidate_count": 125,
+  "candidate_ids_sha256": "7db449a61bb8fb73010a3f7a8332967ac8a86255690eab3c561601011c50c187",
+  "candidate_inputs_sha256": "aae6b757a9f25357acb7b470b0c0c40ce21edafb150043d855fee808f75aa322",
+  "chapter_number": 4,
+  "chapter_title": "Categories",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2988,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 6,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 8,
+      "tex": "\\title{Categories}"
+    },
+    {
+      "line": 11,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 13,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 14,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 16,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 44,
+  "section_inputs_sha256": "ee7e55b682fa5d4be1b43dbf6ac4c37645ed917779a25763b16254020dd6632c",
+  "source_file": "categories.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "62f7611af4c3feebd041db4728b42c7112004cfbb9fa5ecb643c6f5d90db3f25",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
