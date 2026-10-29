@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 45,
-  "prepared_candidates": 5043,
+  "prepared_chapters": 46,
+  "prepared_candidates": 5090,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -321,6 +321,13 @@
       "candidate_count": 60,
       "section_count": 14,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/weil/MANIFEST.json"
+    },
+    {
+      "source_file": "adequate.tex",
+      "chapter_number": 46,
+      "candidate_count": 47,
+      "section_count": 10,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/adequate/MANIFEST.json"
     }
   ]
 }

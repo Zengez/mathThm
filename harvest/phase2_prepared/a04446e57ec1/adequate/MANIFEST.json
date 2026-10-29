@@ -1,0 +1,52 @@
+{
+  "candidate_count": 47,
+  "candidate_ids_sha256": "9e968b03df5218c503025b63ed076ea10edcafd0faa67c01804b57789627185b",
+  "candidate_inputs_sha256": "e66117c9a41dfdddea947633785901cc862ceb4afc48408cc78cd976f5b1d124",
+  "chapter_number": 46,
+  "chapter_title": "Adequate Modules",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1446,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Adequate Modules}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 10,
+  "section_inputs_sha256": "9878863a84c38821c40b8c5807e52a3dede9d2470c27a90a869eceff372ea13c",
+  "source_file": "adequate.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "f185d78d5d401b9e157dc3972c1366155823ce4a212fbb9b68901c8aacbe91ad",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
