@@ -99,6 +99,25 @@ def discovery_active_ids(workdir: Path):
     return active_ids_for_workdir(Path(workdir))
 
 
+def phase2_approved_overlays(active):
+    """Enforce semantic approval for the established active Stacks campaign."""
+    if active is None:
+        return {}
+    if __package__:
+        from .phase2_authoritative import load_approved
+    else:
+        from phase2_authoritative import load_approved
+    return load_approved()
+
+
+def authoritative_formulation(p2, overlay, raw):
+    if __package__:
+        from .phase2_authoritative import apply_overlay
+    else:
+        from phase2_authoritative import apply_overlay
+    return apply_overlay(p2, overlay, raw=raw)
+
+
 def save_checkpoint(workdir: Path):
     """Derived local counts; source of truth remains stage files, not counters."""
     workdir = Path(workdir)
@@ -303,6 +322,7 @@ def pass3_packets(args):
         load_rows(w / "pass3.jsonl","candidate_id"))
     packets = []
     active=discovery_active_ids(w)
+    approved=phase2_approved_overlays(active)
     if __package__:
         from .candidate_consolidation import load_merged_by_canonical
     else:
@@ -311,6 +331,10 @@ def pass3_packets(args):
     for ident,p2 in sorted(structured.items()):
         if active is not None and ident not in active:
             continue
+        if active is not None:
+            if ident not in approved:
+                continue
+            p2 = authoritative_formulation(p2, approved[ident], raw[ident])
         if ident in reviewed or p2["context_status"] != "resolved" or p2.get("result_classification","mathematical_result") != "mathematical_result":
             continue
         cand = raw[ident]
@@ -326,6 +350,11 @@ def pass3_packets(args):
             excerpt = portion[:args.max_proof_chars]
         packets.append({
             "candidate_id": ident, "statement": p2["statement"],
+            "hypotheses": p2["hypotheses"], "conclusions": p2["conclusions"],
+            "logical_form": p2.get("logical_form", "single_implication"),
+            "structured_cases": p2.get("structured_cases", []),
+            "equivalence_sides": p2.get("equivalence_sides", []),
+            "phase2_approved_content_sha256": p2.get("phase2_approved_content_sha256"),
             "source_confidence": proof["confidence"],
             "proof_url": proof["proof_url"], "proof_locator": proof["proof_locator"],
             "proof_excerpt": excerpt, "excerpt_truncated": truncated,
@@ -336,6 +365,7 @@ def pass3_packets(args):
             "uninspected_alternative_proof_count":max(0,len(merged.get(ident,{}).get("proof_references",[]))-1),
             "instruction": "Quick proof-plausibility scan ONLY. Plausible if no evident issue after full brief scan; questionable if necessary follow-up exceeds budget; rejected only for a positive identifiable issue. Do not claim proof is verified.",
             "required_decision": {"candidate_id": ident,
+                "phase2_approved_content_sha256": p2.get("phase2_approved_content_sha256"),
                 "outcome": "plausible | questionable | rejected",
                 "scan_completed": False,
                 "reason": "brief evidence-based note, required if questionable or rejected",
@@ -353,6 +383,7 @@ def apply_pass3(args):
     structured=load_rows(w/"pass2.jsonl","candidate_id")
     packets=load_rows(w/"pass3_packets.jsonl","candidate_id")
     active=discovery_active_ids(w)
+    approved = None
     decisions=[]
     for d in read_jsonl(Path(args.decisions)):
         ident = d.get("candidate_id")
@@ -360,6 +391,18 @@ def apply_pass3(args):
             raise ValueError(f"candidate is outside active prototype population: {ident}")
         if ident not in raw or ident not in structured or structured[ident]["context_status"]!="resolved":
             raise ValueError(f"candidate {ident}: Pass 2 must be resolved before Pass 3")
+        approved_hash = None
+        if active is not None:
+            if approved is None:
+                approved = phase2_approved_overlays(active)
+            if ident not in approved:
+                raise ValueError(f"candidate {ident}: individual Phase 2 approval required")
+            formulation = authoritative_formulation(structured[ident], approved[ident], raw[ident])
+            approved_hash = formulation["phase2_approved_content_sha256"]
+            if packets.get(ident, {}).get("phase2_approved_content_sha256") != approved_hash:
+                raise ValueError(f"candidate {ident}: regenerate packet for approved Phase 2 formulation")
+            if d.get("phase2_approved_content_sha256") != approved_hash:
+                raise ValueError(f"candidate {ident}: proof decision must identify the approved Phase 2 formulation")
         outcome=d.get("outcome")
         if outcome not in OUTCOMES:
             raise ValueError(f"candidate {ident}: invalid outcome")
@@ -380,6 +423,7 @@ def apply_pass3(args):
             raise ValueError(f"candidate {ident}: proof end not detected; completion must be explicitly confirmed")
         decisions.append({
             "candidate_id":ident, "outcome":outcome, "scan_completed":completed,
+            "phase2_approved_content_sha256": approved_hash,
             "reason":reason, "proof_checked_on":checked,
             "source_confidence":raw[ident]["source"]["confidence"],
             "proof_screening_confidence":"brief_scan_only",
@@ -437,6 +481,12 @@ def provisional_record(raw: dict, structured: dict, checked: dict, *, merged=Non
         "proof_plausibility":{"status":"plausible","screening":"brief_scan_only",
                              "reason":checked["reason"]},
     }
+    if structured.get("phase2_approved_content_sha256"):
+        accepted["phase2_approved_content_sha256"] = structured["phase2_approved_content_sha256"]
+        accepted["statement_editorial"] = "Individually source-equivalence-reviewed Phase 2 formulation; proof correctness not audited."
+        accepted["statement_provenance"]["basis"] = "editorial_restatement_reviewed"
+        accepted["statement_provenance"]["transcription_status"] = "preserved"
+        accepted["statement_provenance"]["source_text"] = raw["statement_tex"]
     if merged:
         if raw["candidate_id"]!=merged["canonical_candidate_id"]:
             raise ValueError("Only a canonical candidate can be provisionally accepted")
@@ -465,6 +515,7 @@ def promote(args):
     existing_ids={r["id"]:r for r in catalog["records"]}
     before=len(catalog["records"])
     active=discovery_active_ids(w)
+    approved=phase2_approved_overlays(active)
     if __package__:
         from .candidate_consolidation import load_merged_by_canonical
     else:
@@ -477,7 +528,14 @@ def promote(args):
             continue
         if ident not in raw or ident not in structured:
             raise ValueError(f"incomplete candidate data: {ident}")
-        accepted=provisional_record(raw[ident],structured[ident],p3,merged=merged.get(ident))
+        p2 = structured[ident]
+        if active is not None:
+            if ident not in approved:
+                raise ValueError(f"candidate {ident}: individual Phase 2 approval required")
+            p2 = authoritative_formulation(p2, approved[ident], raw[ident])
+            if p3.get("phase2_approved_content_sha256") != p2["phase2_approved_content_sha256"]:
+                raise ValueError(f"candidate {ident}: proof decision refers to a stale Phase 2 formulation")
+        accepted=provisional_record(raw[ident],p2,p3,merged=merged.get(ident))
         old=existing_ids.get(accepted["id"])
         if old:
             if old!=accepted:

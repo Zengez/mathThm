@@ -1,0 +1,33 @@
+{
+  "schema": "maththm.phase2.independent-review-batches.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "policy": "Explicit source-first mathematical decisions only. Materialization checks recorded approval and provenance; it does not certify mathematical equivalence.",
+  "review_batches": [
+    {
+      "name": "calibration-algebra-36",
+      "reconstructor": "calibration_algebra",
+      "reconstructions": "harvest/phase2_calibration_2026-10-29/algebra/RECONSTRUCTIONS.jsonl",
+      "independent_validation": "harvest/phase2_calibration_2026-10-29/geometry/ALGEBRA_VALIDATION.jsonl"
+    },
+    {
+      "name": "calibration-descent-33",
+      "reconstructor": "calibration_other",
+      "reconstructions": "harvest/phase2_calibration_2026-10-29/geometry/RECONSTRUCTIONS.jsonl",
+      "independent_validation": "harvest/phase2_calibration_2026-10-29/algebra/GEOMETRY_VALIDATION.jsonl"
+    },
+    {
+      "name": "historical-eight-defects-corrected",
+      "reconstructor": "root",
+      "reconstructions": "harvest/phase2_calibration_2026-10-29/defects/RECONSTRUCTIONS.jsonl",
+      "independent_validation": "harvest/phase2_calibration_2026-10-29/defects/INDEPENDENT_VALIDATION.jsonl"
+    }
+  ],
+  "pending_reconstruction_batches": [
+    {
+      "name": "algebra-followup-46",
+      "reconstructions": "harvest/phase2_calibration_2026-10-29/algebra_next/RECONSTRUCTIONS.jsonl",
+      "reconstructor": "calibration_algebra",
+      "independent_validation": "not_yet_completed"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Algebra calibration: reconstruction checkpoint
+
+36 candidate-level mathematical reviews across the two consecutive complete sections Jacobson rings and Finite and integral ring extensions, algebra.tex:6649–7970 at the pinned revision. These are reconstructed statements awaiting separate independent validation, not mathematical approvals. No proof environments were displayed or screened.
+
+The existing source drafts were compared directly with pinned source theorem environments. Chapter conventions (algebra.tex:32–43), the Jacobson-ring definition (6659–6665), and integral-element/map and integral-closure definitions (7441–7453, 7568–7576) were read as terminology. No lemma-local or example-local assumptions were inherited. Topology's definition-space-jacobson was read directly to resolve its one explicit definition dependency.
+
+Six records need explicit corrections relative to the existing draft: lemma-jacobson (precise source definition expansion), lemma-characterize-jacobson (one witness shared by four conditions; second guarded implication previously absent), lemma-base-change-Jacobson (explicit tensor notation), lemma-characterize-finite-in-terms-of-integral and lemma-integral-closure-stalks (structured equivalences), and lemma-integral-under-field (independent guards). Other structured-field wording was cleaned without mathematical changes. Five earlier context holds have candidate-specific proposed resolutions.
+
+Resume: independently compare RECONSTRUCTIONS.jsonl against original source and scope evidence. Approve or hold each candidate individually, then integrate only independently approved formulations into the authoritative reviewed overlay. Preserve existing history. SECTION_CHECKPOINTS.jsonl records reconstruction completion, explicitly not independent validation completion.

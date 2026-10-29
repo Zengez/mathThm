@@ -1,3 +1,17 @@
+# CURRENT EXECUTION CHECKPOINT — Phase 2 independent mathematical validation (October 29, 2026)
+
+**Branch:** `codex/phase2-validation`. **Scope:** all 9,675 active candidates through statement/context Phase 2; no Phase 3 or publication. Source: `upstream/stacks` pinned to `a04446e57ec1fbc252a871afcec7752fb2807b14`.
+
+**Current authoritative result:** **144 fully Phase 2 validated / Phase 3 eligible**, including **76 new approvals** this run. Original 68 approvals preserved and materialized with four corrected splits. All eight historical defects corrected and independently source-reviewed. Initial calibration: 69 candidates reviewed, 68 approved, one exact context hold (integrally closed map/inclusion ambiguity). Thirty-eight calibration draft corrections. Another 46 reconstruction drafts (17 corrected) are saved but **await independent validation** and do not increase approval counts.
+
+**Population:** 144 approved + 1,106 awaiting mathematical validation + 370 contextual holds + 30 earlier pilot reconstructions awaiting reconciliation + 8,025 not reconstructed = 9,675. Eight provisional duplicate groups remain a secondary blocker. Historical raw source, Pass 1/2, active IDs, published catalog unchanged. No corpus proofs screened; accidental source display exposure is disclosed in the report.
+
+**Resume here:** [Run report](harvest/phase2_calibration_2026-10-29/REPORT.md), [exact status](harvest/phase2_calibration_2026-10-29/STATUS.json), [review manifest](harvest/phase2_calibration_2026-10-29/REVIEW_BATCHES.json). Next action: independently source-review 46 `algebra_next/RECONSTRUCTIONS.jsonl` records, then materialize only explicit approvals. Final reviewed-content hashes must match `scripts.phase2_authoritative.content_digest`; do not refresh a stale hash without re-review. Explicit registry `harvest/PHASE2_AUTHORITATIVE_REGISTRY.json` controls future pipeline consumption. Scripts never certify equivalence.
+
+**Checks:** 152 Python tests pass; actual approved overlays are bound to source/draft provenance and downstream formulations. A stale-review hash correctly blocked integration until a reviewer rechecked final metadata. No production deployment/push. The run is checkpointed, not all-corpus complete. Keep subsequent user-facing updates frequent and give actual counts; the prior long silent interval was unacceptable.
+
+---
+
 # CURRENT EXECUTION CHECKPOINT — 300 consecutive Stacks candidates in 54 full sections (October 28, 2026)
 
 **Latest user direction:** Increase the source-order whole-section batch to **roughly 300 ±10%** active candidates, never truncating a source section or skipping intervening sections. Preserve both positive and negative mathematical context scoping; avoid deep recursive mathematical research as a preparatory cost.

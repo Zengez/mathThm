@@ -63,8 +63,12 @@ class ActivePoolTests(unittest.TestCase):
         candidates=pipeline.load_rows(pool.IDS,"candidate_id")
         self.assertEqual(set(candidates),{self.a})
         self.assertEqual(pool.active_ids_for_workdir(self.w),{self.a})
-        pipeline.pass3_packets(argparse.Namespace(
-            workdir=str(self.w),source_root=".",max_proof_chars=250))
+        # This test isolates the active/deferred boundary. Individual semantic
+        # approval and authoritative formulation are tested separately.
+        with patch.object(pipeline, "phase2_approved_overlays", return_value={self.a: {}}), \
+             patch.object(pipeline, "authoritative_formulation", side_effect=lambda p2, overlay, raw: p2):
+            pipeline.pass3_packets(argparse.Namespace(
+                workdir=str(self.w),source_root=".",max_proof_chars=250))
         packets=pipeline.load_rows(self.w/"pass3_packets.jsonl","candidate_id")
         self.assertEqual(set(packets),{self.a})
         self.assertFalse(packets[self.a]["excerpt_truncated"])
