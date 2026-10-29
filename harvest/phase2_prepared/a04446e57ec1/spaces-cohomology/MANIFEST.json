@@ -1,0 +1,52 @@
+{
+  "candidate_count": 73,
+  "candidate_ids_sha256": "0405338b2206cb2d27f75298aba482aa46fad2dfee529de26e09af465daf985c",
+  "candidate_inputs_sha256": "77b3749802ec45d767775eb7c452564c6699d85f2433941b4b132bb9648cc1d3",
+  "chapter_number": 69,
+  "chapter_title": "Cohomology of Algebraic Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2567,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Cohomology of Algebraic Spaces}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 23,
+  "section_inputs_sha256": "16b494bb7e74db419be52dfded84aaba54c83f35151edee876e47909002daedf",
+  "source_file": "spaces-cohomology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "63f19991b7b2bce90b5fb30fcdbb8a3b06cbbffec42fa7c413776c29ae4b69c5",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
