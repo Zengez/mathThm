@@ -1,0 +1,52 @@
+{
+  "candidate_count": 44,
+  "candidate_ids_sha256": "4540cf90893287142513413051e80119b0b5a9b9ba256332b68d2b960edeb490",
+  "candidate_inputs_sha256": "819b7a74d0c1e66f3aa928ae27e1252cbf668e091e4e9c372fc8f683ccf14bb8",
+  "chapter_number": 97,
+  "chapter_title": "Criteria for Representability",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1861,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Criteria for Representability}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 19,
+  "section_inputs_sha256": "32c5f3ea43933cb11ea99b392f3f34a5d95c9708ace086d600b6df30acdeed69",
+  "source_file": "criteria.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "97f0a5a7060c076a0447f0a813ec9a70f2d75995f5e607c90d64ff32fd0511d1",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
