@@ -1,0 +1,52 @@
+{
+  "candidate_count": 8,
+  "candidate_ids_sha256": "0d64fb9e749ead9cc89261a03cbc42b530683d33c2408c6ca9ed68b8b2f36542",
+  "candidate_inputs_sha256": "16536a025560a0be6e57ca2a48a897b62c0cbf8ca9628ea43ef2273a4942522a",
+  "chapter_number": 104,
+  "chapter_title": "Derived Categories of Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 702,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Derived Categories of Stacks}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 8,
+  "section_inputs_sha256": "004a838817a767b486417b1a613b9bc4679ba7314ac6ecc7fe0197c6c1125c91",
+  "source_file": "stacks-perfect.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "f8b7275f82661403b522d8a209fc6c6b2d1617d798b6565f31675ba4888065eb",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
