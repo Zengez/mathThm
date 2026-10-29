@@ -1,0 +1,52 @@
+{
+  "candidate_count": 35,
+  "candidate_ids_sha256": "2c9bad3030791eb025c3617ca3888aaeb6373565ee15e80325b50a99ade611fb",
+  "candidate_inputs_sha256": "1f26062cc5d992a36744185ce39acffacff748d339827d2f986813c03a5baab5",
+  "chapter_number": 60,
+  "chapter_title": "Crystalline Cohomology",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1916,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Crystalline Cohomology}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 26,
+  "section_inputs_sha256": "12ddfe0d4e16ce188040cbbd3a26ddaeea830207f6e2aa46c413eabd3b5abe4d",
+  "source_file": "crystalline.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "466c0634a5e8e3899b157a42a4b4bb5f4357199f96708caf5854f5a92be58054",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
