@@ -1,0 +1,52 @@
+{
+  "candidate_count": 38,
+  "candidate_ids_sha256": "a97c86ce8af5f153949668909e3c6bed7dfaefa31fff1cc3311d7e7b4f8c62b8",
+  "candidate_inputs_sha256": "531d4db84f38823232fa45b191405898126a503614cf4ee7fae2c92b39dcd4f4",
+  "chapter_number": 23,
+  "chapter_title": "Divided Power Algebra",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1538,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Divided Power Algebra}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 12,
+  "section_inputs_sha256": "71af5421f9d3d2ca4ec328f04c404b0e1ded9dac933c84237f183db51d45efd2",
+  "source_file": "dpa.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "1e4ed7cee878c185ea5284e176241d3428a398a25b28a56c44869c1b59f090ed",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
