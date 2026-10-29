@@ -1,0 +1,52 @@
+{
+  "candidate_count": 15,
+  "candidate_ids_sha256": "2d940afa6edd86a1f837c405786c603526b8e4a7474059f015015fac608a2b0b",
+  "candidate_inputs_sha256": "8c328af6f25c6511378432bffebdefa713a4572572ae685effdce97bbdbaede3",
+  "chapter_number": 3,
+  "chapter_title": "Set Theory",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 459,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Set Theory}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 12,
+  "section_inputs_sha256": "eae56a8a49957b13bb1ceaedeefe563b8e50bb94b08fed0c4d212b3b1405beff",
+  "source_file": "sets.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "9bcc55e7f11cf36b0665ae549d5ba76be6a0edd00f7fca36a567e367099603f9",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
