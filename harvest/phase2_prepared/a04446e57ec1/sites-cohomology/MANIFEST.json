@@ -1,0 +1,52 @@
+{
+  "candidate_count": 216,
+  "candidate_ids_sha256": "db1be20bd6e366627a65eff8044b2610acbb828f32a6f464f67e424eb16fc412",
+  "candidate_inputs_sha256": "76d751f1ba96ee75f3fe29236ab32fe5c021d01720fddf77f7dd778eb2f9f578",
+  "chapter_number": 21,
+  "chapter_title": "Cohomology on Sites",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 7083,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Cohomology on Sites}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 53,
+  "section_inputs_sha256": "153cb394573a3d007b5209cc0f202cacd157573533373719c012506e47d3534f",
+  "source_file": "sites-cohomology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "5b335ce2c7208a128b3c744b8828d93508063f41a4fabbce2e921f890928895c",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
