@@ -1,0 +1,52 @@
+{
+  "candidate_count": 52,
+  "candidate_ids_sha256": "dc82c37255e00e2fc54dcf7676e415dfed940c65227e33f2da2ec5593e7bc7e2",
+  "candidate_inputs_sha256": "827ac2704d6328fec40d77b1819ed2953bbc36eec220ea62062f7abc4531d720",
+  "chapter_number": 77,
+  "chapter_title": "Flatness on Algebraic Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1274,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Flatness on Algebraic Spaces}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 13,
+  "section_inputs_sha256": "fcccedb0d9c4de955e4b8736477fdee80d0b32a45905f42b4ed566e353abe5e4",
+  "source_file": "spaces-flat.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "091c742f281b63014e7f52ddc3e18a6c0083215b93df8c7da6b3c6d995b31d5a",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
