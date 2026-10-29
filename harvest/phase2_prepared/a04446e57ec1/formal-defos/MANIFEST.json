@@ -1,0 +1,52 @@
+{
+  "candidate_count": 91,
+  "candidate_ids_sha256": "32d2addc6d3e674ef541fb3a932eaa2497fdc2ed01d01c4a52e1d9b0bbadfaaf",
+  "candidate_inputs_sha256": "4cc68a5f8aa226fccaf936ba46ef945c9bfac993dffabbb9f2cd474e3203d733",
+  "chapter_number": 90,
+  "chapter_title": "Formal Deformation Theory",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3073,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 6,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 8,
+      "tex": "\\title{Formal Deformation Theory}"
+    },
+    {
+      "line": 11,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 13,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 14,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 16,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 29,
+  "section_inputs_sha256": "906784ee74f85de79f377d11c863be560ac7188b55f26116643df112a9484852",
+  "source_file": "formal-defos.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "48710f0116c960116c55684e1eebea948f591d4e387a641d0af7a3bb3fc9a2f9",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
