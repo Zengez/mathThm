@@ -1,0 +1,52 @@
+{
+  "candidate_count": 78,
+  "candidate_ids_sha256": "000a8696b20046d6177f98c60484090a161045dc4a353b3912fa25365968dd6f",
+  "candidate_inputs_sha256": "c386ccae24f4c3c52e3975a51081e09ea5be14c70bb649d3c335e7baf7f78341",
+  "chapter_number": 34,
+  "chapter_title": "Topologies on Schemes",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1791,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Topologies on Schemes}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 13,
+  "section_inputs_sha256": "2f2ed5ae807ad41a9247bec67755c3cb9cfa8b25899985129905578561d46fab",
+  "source_file": "topologies.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "c984c98bcd458a191880433ded32a36ac9035543bbf8c98e191ae022a260f513",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
