@@ -1,0 +1,52 @@
+{
+  "candidate_count": 57,
+  "candidate_ids_sha256": "b16e9a72b1a5699dd6bffcef7feffbbd388140828a9ed69c61027eaeb71d50ff",
+  "candidate_inputs_sha256": "a70a5854fb01f59f73a8a17aa43d5dbc27ed1cb7c3e5bf501c1af75c6d42980b",
+  "chapter_number": 57,
+  "chapter_title": "Derived Categories of Varieties",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2457,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Derived Categories of Varieties}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 18,
+  "section_inputs_sha256": "081828507cdb4bcd2651f24dda378b5a71166484988f395e2e28ed0308dcf158",
+  "source_file": "equiv.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "b087ae5e9f7197a3cbb023d0f48867221cf0da48e1c4cf5aa25a8f8fb7cb988e",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
