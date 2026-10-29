@@ -66,9 +66,10 @@ jobs:
         run: |
           set -euo pipefail
           if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
-            # Safe initial branch-only smoke run; proves one chapter can be persisted.
-            chapters="varieties.tex"
-            maximum=1
+            # Prep branch only: incrementally checkpoint every as-yet-unprepared chapter.
+            # Generated harvest/ files do not re-trigger this path-filtered workflow.
+            chapters="all"
+            maximum=0
             persist=true
           else
             chapters="$CHAPTERS_INPUT"
