@@ -1,0 +1,52 @@
+{
+  "candidate_count": 102,
+  "candidate_ids_sha256": "bc698c2a469a0aed3a59b0d8cb01b48a08ae73fe60ab16ed0060de27035e68cd",
+  "candidate_inputs_sha256": "d2c78e12e419096ca4f96972314c5c210f0986ce6f04220c25e82471c267d828",
+  "chapter_number": 85,
+  "chapter_title": "Simplicial Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3470,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Simplicial Spaces}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 36,
+  "section_inputs_sha256": "1a34c533ede37573220330d43daa9466af02ddd00f965ee18dc8f3fa19590b4f",
+  "source_file": "spaces-simplicial.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "6c9d4555fc135be169d672ef432810f53c9b2559058a2cfe0096083f2a5dade7",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
