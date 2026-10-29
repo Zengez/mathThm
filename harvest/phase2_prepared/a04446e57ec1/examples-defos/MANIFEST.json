@@ -1,0 +1,52 @@
+{
+  "candidate_count": 33,
+  "candidate_ids_sha256": "eefc7c94260b60737f9c1c4e424231014f8a0a472ecfb6743d44751c122f50e3",
+  "candidate_inputs_sha256": "0e389efb4c48a74ad5adb851dd3d92f5163bcf849aa8aa3b6538db4afcae3de7",
+  "chapter_number": 93,
+  "chapter_title": "Deformation Problems",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1740,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Deformation Problems}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 17,
+  "section_inputs_sha256": "02a6bed1412e4a1187edd2a28bb800d505d566436979c84f1964eb4344dfe4c3",
+  "source_file": "examples-defos.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "ad2948af00eccc361dc2e33314c7b1d4b3dce5e977aa153580589e2f48de5957",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
