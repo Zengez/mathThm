@@ -1,0 +1,52 @@
+{
+  "candidate_count": 65,
+  "candidate_ids_sha256": "38d334a5ee928a0b8b3011c960fc13fc3073de282be46ec2fe584e7b6744f8be",
+  "candidate_inputs_sha256": "daae867f01ead6dd1b9104bab64c8d52d142a7f208a1326a24b3aae6b3f9e050",
+  "chapter_number": 63,
+  "chapter_title": "More \\'Etale Cohomology",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2645,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{More \\'Etale Cohomology}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 16,
+  "section_inputs_sha256": "435b28e6c77663baa3299f15fdf3ca4d5585081ab4e965ec5b7a34944f4512e1",
+  "source_file": "more-etale.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "13b8345b8f4d305bdb69afcae44e23deca80507354f3b65fd2cccdc3247c61c4",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
