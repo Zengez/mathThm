@@ -1,0 +1,69 @@
+{
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_file": "divisors.tex",
+  "scopes": {
+    "norm": [
+      3590,
+      3614
+    ],
+    "relative_cartier": [
+      3979,
+      3993
+    ],
+    "conormal": [
+      4299,
+      4349
+    ],
+    "regularity": [
+      4517,
+      4642
+    ],
+    "regular_immersion": [
+      4893,
+      4939
+    ],
+    "relative_regularity": [
+      5279,
+      5306
+    ],
+    "meromorphic": [
+      5864,
+      5981
+    ],
+    "regular_meromorphic": [
+      6134,
+      6145
+    ],
+    "weil": [
+      6585,
+      6666
+    ],
+    "weil_class": [
+      6737,
+      6871
+    ],
+    "reflexive_powers": [
+      7456,
+      7476
+    ],
+    "blowup": [
+      8283,
+      8319
+    ],
+    "strict_transform": [
+      8752,
+      8797
+    ],
+    "admissible": [
+      9088,
+      9107
+    ]
+  },
+  "policy": "Definitions supply terminology only. Lemma hypotheses expire at end; no ambient premises inherited between candidates. Source-specific glossary is embedded in each relevant authoritative draft.",
+  "external_context": [
+    "morphisms.tex:2117-2132",
+    "morphisms.tex:12585-12600",
+    "morphisms.tex:13531-13536",
+    "algebra.tex:29802-29819"
+  ]
+}

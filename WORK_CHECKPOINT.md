@@ -1,3 +1,19 @@
+# CURRENT EXECUTION CHECKPOINT — optimized independent Phase 2 review (October 29, 2026)
+
+**Branch:** `codex/phase2-validation`; resumed from pushed `bf70667`. **Pinned source:** `a04446e57ec1fbc252a871afcec7752fb2807b14` in `upstream/stacks`. No Phase 3 or publication.
+
+**Current result:** **410 fully Phase 2 validated / Phase 3 eligible**, up from 144: **266 new approvals from 268 independent reviews**. All pending algebra46 approved; Divisors222 independently reviewed across the entire chapter, 220 approved and two source-parameter holds (Cartier S_k index and Pic(P^n) at n=0). All newly reconstructed records have independent outcomes; zero remain awaiting independent review in this run. Scope: 41 complete sections, original records and canonical identities unchanged.
+
+**Population:** 410 approved + 872 awaiting mathematical validation + 338 contextual holds + 30 earlier pilots awaiting reconciliation + 8,025 not reconstructed = 9,675. Eight provisional duplicate groups stay blocked as a secondary flag. No previous approvals were discarded.
+
+**Artifacts:** [Run report](harvest/phase2_optimized_2026-10-29/REPORT.md), [metrics](harvest/phase2_optimized_2026-10-29/METRICS.json), [status](harvest/phase2_optimized_2026-10-29/STATUS.json), [starting IDs](harvest/phase2_optimized_2026-10-29/BASELINE.json). The established manifest now includes algebra46 and Divisors102/120. All approved corrected statement/H/C/logical fields are materialized and hash-bound in the authoritative registry. No stale hashes or mechanical approvals accepted.
+
+**Checks and efficiency:** 157 Python tests passed. Shared context reused by source region, compact per-candidate decisions, local deterministic bookkeeping, agents reused across batches. Absolute approval output is 3.5x prior76, but per-credit improvement is not quantifiable without reliable comparable usage data. Usage interruption was resumed from disk; don't infer wall-clock throughput.
+
+**Next action:** independently reconstruct/validate **algebra.tex:9514–10036**, two full sections with 13 active candidates (`s18_reviews.jsonl`, `s19_reviews.jsonl` in `harvest/section_walk_scale150_2026-10-28`). Then choose a large source-coherent ready group such as Varieties. Preserve distinct reconstructing/reviewing agents, exact content hashes, source-specific definitions and scoped assumptions. Do not re-review the 410 approvals. Keep held source ambiguities and duplicates separate. Set a fresh explicit run baseline before new-run metrics.
+
+---
+
 # CURRENT EXECUTION CHECKPOINT — Phase 2 independent mathematical validation (October 29, 2026)
 
 **Branch:** `codex/phase2-validation`. **Scope:** all 9,675 active candidates through statement/context Phase 2; no Phase 3 or publication. Source: `upstream/stacks` pinned to `a04446e57ec1fbc252a871afcec7752fb2807b14`.

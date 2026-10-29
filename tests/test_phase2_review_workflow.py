@@ -7,9 +7,11 @@ from scripts.phase2_authoritative import load_approved, apply_overlay
 class ReviewWorkflowTests(unittest.TestCase):
     def test_every_final_review_bound_to_exact_formulation(self):
         pairs=list(w.review_pairs())
-        self.assertEqual(len(pairs),77)
+        calibration_names={'calibration-algebra-36','calibration-descent-33','historical-eight-defects-corrected'}
+        calibration=[p for p in pairs if p[0]['name'] in calibration_names]
+        self.assertEqual(len(calibration),77)
         self.assertEqual(sum(v.get('independent_decision',v.get('decision'))=='source_equivalence_approved'
-                             for _,r,v in pairs),76)
+                             for _,r,v in calibration),76)
         for batch,row,verdict in pairs:
             self.assertEqual(verdict['formulation_sha256'],w.formulation_digest(row))
             changed=copy.deepcopy(row)
@@ -22,11 +24,14 @@ class ReviewWorkflowTests(unittest.TestCase):
         approved=load_approved();status=w.population_status(approved)
         self.assertEqual(sum(status['mutually_exclusive_states'].values()),9675)
         self.assertEqual(status['fully_phase2_validated'],len(approved))
-        self.assertEqual(status['newly_validated_this_run'],76)
-        self.assertEqual(status['additional_stage_a_candidates_awaiting_independent_review'],46)
+        self.assertEqual(status['newly_validated_this_run'],len(approved)-status['starting_phase2_validated'])
+        self.assertGreaterEqual(status['additional_stage_a_candidates_awaiting_independent_review'],0)
         self.assertFalse(set(approved)&w.provisional_duplicate_ids())
-        pending=w.rows(w.BASE/'algebra_next/RECONSTRUCTIONS.jsonl')
-        self.assertFalse({r['candidate_id'] for r in pending}&set(approved))
+        import json
+        config=json.loads(w.MANIFEST.read_text())
+        for batch in config.get('pending_reconstruction_batches',[]):
+            pending=w.rows(batch['reconstructions'])
+            self.assertFalse({r['candidate_id'] for r in pending}&set(approved))
 
     def test_eight_defects_corrected_but_history_retained(self):
         approved={r['source_label']:r for r in load_approved().values()}

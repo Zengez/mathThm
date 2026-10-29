@@ -1,3 +1,5 @@
+**Updated October 29, 2026:** All 46 candidates now independently source-equivalence approved and authoritative. See `INDEPENDENT_VALIDATION.jsonl` and `INDEPENDENT_SECTION_CHECKPOINTS.jsonl`. The text below preserves the earlier Stage A checkpoint.
+
 # Algebra continued source-context review
 
 46 candidate-specific reconstructions cover four consecutive complete sections algebra.tex:7971–9513: Normal rings (14), Going down for integral over normal (6), Flat modules and flat ring maps (19), Supports and annihilators (7). All original theorem environments were directly matched against pinned source a04446e57ec1fbc252a871afcec7752fb2807b14. Proof environments were omitted. These reconstructions require independent validation before eligibility.

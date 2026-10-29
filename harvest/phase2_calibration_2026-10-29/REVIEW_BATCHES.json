@@ -20,14 +20,31 @@
       "reconstructor": "root",
       "reconstructions": "harvest/phase2_calibration_2026-10-29/defects/RECONSTRUCTIONS.jsonl",
       "independent_validation": "harvest/phase2_calibration_2026-10-29/defects/INDEPENDENT_VALIDATION.jsonl"
-    }
-  ],
-  "pending_reconstruction_batches": [
+    },
     {
       "name": "algebra-followup-46",
       "reconstructions": "harvest/phase2_calibration_2026-10-29/algebra_next/RECONSTRUCTIONS.jsonl",
       "reconstructor": "calibration_algebra",
-      "independent_validation": "not_yet_completed"
+      "independent_validation": "harvest/phase2_calibration_2026-10-29/algebra_next/INDEPENDENT_VALIDATION.jsonl"
+    },
+    {
+      "name": "optimized-divisors-a-102",
+      "reconstructor": "calibration_algebra",
+      "reconstructions": "harvest/phase2_optimized_2026-10-29/divisors_a/RECONSTRUCTIONS.jsonl",
+      "independent_validation": "harvest/phase2_optimized_2026-10-29/divisors_a/INDEPENDENT_VALIDATION.jsonl"
+    },
+    {
+      "name": "optimized-divisors-b-120",
+      "reconstructor": "root",
+      "reconstructions": "harvest/phase2_optimized_2026-10-29/divisors_b/RECONSTRUCTIONS.jsonl",
+      "independent_validation": "harvest/phase2_optimized_2026-10-29/divisors_b/INDEPENDENT_VALIDATION.jsonl"
     }
+  ],
+  "pending_reconstruction_batches": [],
+  "run_baseline_file": "harvest/phase2_optimized_2026-10-29/BASELINE.json",
+  "current_run_review_batch_names": [
+    "algebra-followup-46",
+    "optimized-divisors-a-102",
+    "optimized-divisors-b-120"
   ]
 }

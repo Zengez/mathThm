@@ -183,6 +183,15 @@ def population_status(approved=None, pairs=None):
     for cid in approved:
         states[cid]='fully_phase2_validated'
     counts=Counter(states.values())
+    historical_ids={r['candidate_id'] for r in rows('harvest/phase2_semantic_gate_2026-10-28/PHASE3_ELIGIBLE.jsonl')}
+    run_baseline=config.get('run_baseline_file')
+    starting_ids=(set(json.loads(Path(run_baseline).read_text())['starting_approved_ids'])
+                  if run_baseline else historical_ids)
+    if not starting_ids <= set(approved):
+        raise ValueError('A previously approved baseline candidate disappeared')
+    run_batches=set(config.get('current_run_review_batch_names', []))
+    run_reviewed={row['candidate_id'] for batch,row,verdict in pairs if batch['name'] in run_batches}
+
     if sum(counts.values())!=9675:
         raise ValueError('Active population changed without controlled adjudication')
     section_states=[]
@@ -197,7 +206,10 @@ def population_status(approved=None, pairs=None):
                 mutually_exclusive_states=dict(sorted(counts.items())),
                 duplicate_review_blockers=len(provisional_duplicate_ids()),
                 duplicate_blockers_are_secondary_not_additional_population=True,
-                newly_validated_this_run=len(set(approved)-{r['candidate_id'] for r in rows('harvest/phase2_semantic_gate_2026-10-28/PHASE3_ELIGIBLE.jsonl')}),
+                newly_validated_this_run=len(set(approved)-starting_ids),
+                starting_phase2_validated=len(starting_ids),
+                newly_validated_since_original_semantic_gate=len(set(approved)-historical_ids),
+                current_run_candidates_independently_reviewed=len(run_reviewed),
                 calibration_and_followup_candidates_reviewed=len(reviewed),
                 additional_stage_a_candidates_awaiting_independent_review=len(pending_reconstructed-reviewed),
                 reconstructed_registry_candidates=len(drafted),

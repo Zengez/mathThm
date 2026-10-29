@@ -1,0 +1,57 @@
+{
+  "starting_approvals": 144,
+  "ending_approvals": 410,
+  "new_approvals": 266,
+  "independently_reviewed": 268,
+  "new_holds": 2,
+  "new_reconstructions_awaiting_independent_review": 0,
+  "complete_sections_processed": 41,
+  "physical_source_lines_covered": 11019,
+  "physical_source_lines_include_mechanically_omitted_proof_bodies": true,
+  "proofs_read_or_screened": 0,
+  "batches": [
+    {
+      "batch": "divisors_a",
+      "reviewed": 102,
+      "approved": 101,
+      "held": 1,
+      "sections": 16,
+      "stage_a_records_flagged_corrected": 41,
+      "stage_a_performed_this_run": true
+    },
+    {
+      "batch": "divisors_b",
+      "reviewed": 120,
+      "approved": 119,
+      "held": 1,
+      "sections": 21,
+      "stage_a_records_flagged_corrected": 23,
+      "stage_a_performed_this_run": true
+    },
+    {
+      "batch": "algebra_next",
+      "reviewed": 46,
+      "approved": 46,
+      "held": 0,
+      "sections": 4,
+      "stage_a_records_flagged_corrected": 17,
+      "stage_a_performed_this_run": false
+    }
+  ],
+  "python_tests": 157,
+  "python_tests_passed": true,
+  "reliable_token_or_credit_usage": null,
+  "elapsed_time_per_candidate": null,
+  "usage_limit_interruption": true,
+  "efficiency_observation": "Shared proof-free source and definitions reused across entire sections; deterministic bookkeeping local; no per-candidate agents; 266 approvals versus prior76 but different content and no reliable comparable cost denominator.",
+  "next_source": {
+    "file": "algebra.tex",
+    "start_line": 9514,
+    "end_line": 10036,
+    "candidates": 13,
+    "drafts": [
+      "harvest/section_walk_scale150_2026-10-28/s18_reviews.jsonl",
+      "harvest/section_walk_scale150_2026-10-28/s19_reviews.jsonl"
+    ]
+  }
+}

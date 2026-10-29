@@ -1,0 +1,176 @@
+{
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "scope_rule": "Definitions supply meanings; local lemma assumptions expire; chapter has no inherited coherent.tex assumptions.",
+  "contexts": [
+    {
+      "context_id": "associated",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 26,
+      "end_line": 65,
+      "interpretation": "Ass(F) means points whose local maximal ideal is an annihilator of an element of stalk F; introductory usefulness statements do not impose Noetherian/coherence globally.",
+      "source_excerpt_tex": "\\section{Associated points}\n\\label{section-associated}\n\n\\noindent\nLet $R$ be a ring and let $M$ be an $R$-module.\nRecall that a prime $\\mathfrak p \\subset R$ is {\\it associated} to $M$\nif there exists an element of $M$ whose annihilator is $\\mathfrak p$.\nSee Algebra, Definition \\ref{algebra-definition-associated}.\nHere is the definition of associated points\nfor quasi-coherent sheaves on schemes\nas given in \\cite[IV Definition 3.1.1]{EGA}.\n\n\\begin{definition}\n\\label{definition-associated}\nLet $X$ be a scheme.\nLet $\\mathcal{F}$ be a quasi-coherent sheaf on $X$.\n\\begin{enumerate}\n\\item We say $x \\in X$ is {\\it associated} to $\\mathcal{F}$\nif the maximal ideal\n$\\mathfrak m_x$ is associated to the $\\mathcal{O}_{X, x}$-module\n$\\mathcal{F}_x$.\n\\item We denote $\\text{Ass}(\\mathcal{F})$ or $\\text{Ass}_X(\\mathcal{F})$\nthe set of associated points of $\\mathcal{F}$.\n\\item The {\\it associated points of $X$} are the associated\npoints of $\\mathcal{O}_X$.\n\\end{enumerate}\n\\end{definition}\n\n\\noindent\nThese definitions are most useful when $X$ is locally Noetherian\nand $\\mathcal{F}$ of finite type.\nFor example it may happen that a generic point of an irreducible\ncomponent of $X$ is not associated to $X$, see\nExample \\ref{example-no-associated-prime}.\nIn the non-Noetherian case it may be more convenient to use weakly\nassociated points, see\nSection \\ref{section-weakly-associated}.\nLet us link the scheme theoretic notion with the algebraic notion\non affine opens; note that this correspondence works perfectly only\nfor locally Noetherian schemes.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "fibre_notation",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 291,
+      "end_line": 308,
+      "interpretation": "For f:X->S, F_s denotes fibre pullback i_s^*F, not stalk; X_s scheme-theoretic fibre.",
+      "source_excerpt_tex": "\\section{Morphisms and associated points}\n\\label{section-morphisms-associated}\n\n\\noindent\nLet $f : X \\to S$ be a morphism of schemes.\nLet $\\mathcal{F}$ be a sheaf of $\\mathcal{O}_X$-modules.\nIf $s \\in S$ is a point, then it is often convenient to\ndenote $\\mathcal{F}_s$ the $\\mathcal{O}_{X_s}$-module\none gets by pulling back $\\mathcal{F}$ by the morphism\n$i_s : X_s \\to X$. Here $X_s$ is the scheme theoretic fibre of $f$ over $s$.\nIn a formula\n$$\n\\mathcal{F}_s = i_s^*\\mathcal{F}\n$$\nOf course, this notation clashes with the already existing notation\nfor the stalk of $\\mathcal{F}$ at a point $x \\in X$ if $f = \\text{id}_X$.\nHowever, the notation is often convenient, as in the formulation of\nthe following lemma.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "embedded",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 347,
+      "end_line": 378,
+      "interpretation": "Embedded associated point is specialization of another associated point; definition-local X,F do not persist as theorem assumptions.",
+      "source_excerpt_tex": "\\section{Embedded points}\n\\label{section-embedded}\n\n\\noindent\nLet $R$ be a ring and let $M$ be an $R$-module.\nRecall that a prime $\\mathfrak p \\subset R$ is an\n{\\it embedded associated prime} of $M$ if it is an associated prime of\n$M$ which is not minimal among the associated primes of $M$. See\nAlgebra, Definition \\ref{algebra-definition-embedded-primes}.\nHere is the definition of embedded associated points\nfor quasi-coherent sheaves on schemes\nas given in \\cite[IV Definition 3.1.1]{EGA}.\n\n\\begin{definition}\n\\label{definition-embedded}\nLet $X$ be a scheme.\nLet $\\mathcal{F}$ be a quasi-coherent sheaf on $X$.\n\\begin{enumerate}\n\\item An {\\it embedded associated point} of $\\mathcal{F}$\nis an associated point which is not maximal among the\nassociated points of $\\mathcal{F}$, i.e., it is the specialization\nof another associated point of $\\mathcal{F}$.\n\\item A point $x$ of $X$ is called an {\\it embedded point}\nif $x$ is an embedded associated point of $\\mathcal{O}_X$.\n\\item An {\\it embedded component} of $X$ is an irreducible\nclosed subset $Z = \\overline{\\{x\\}}$ where $x$ is an embedded\npoint of $X$.\n\\end{enumerate}\n\\end{definition}\n\n\\noindent\nIn the Noetherian case when $\\mathcal{F}$ is coherent we have",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "weakly_associated",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 548,
+      "end_line": 579,
+      "interpretation": "WeakAss uses primes minimal over annihilators; at point local maximal ideal weakly associated to stalk.",
+      "source_excerpt_tex": "\\section{Weakly associated points}\n\\label{section-weakly-associated}\n\n\\noindent\nLet $R$ be a ring and let $M$ be an $R$-module.\nRecall that a prime $\\mathfrak p \\subset R$ is {\\it weakly associated}\nto $M$ if there exists an element $m$ of $M$ such that $\\mathfrak p$ is\nminimal among the primes containing the annihilator of $m$. See\nAlgebra, Definition \\ref{algebra-definition-weakly-associated}.\nIf $R$ is a local ring with maximal ideal $\\mathfrak m$, then\n$\\mathfrak m$ is weakly associated to $M$ if and only if there exists an\nelement $m \\in M$ whose annihilator has radical $\\mathfrak m$, see\nAlgebra, Lemma \\ref{algebra-lemma-weakly-ass-local}.\n\n\\begin{definition}\n\\label{definition-weakly-associated}\nLet $X$ be a scheme.\nLet $\\mathcal{F}$ be a quasi-coherent sheaf on $X$.\n\\begin{enumerate}\n\\item We say $x \\in X$ is {\\it weakly associated} to $\\mathcal{F}$\nif the maximal ideal $\\mathfrak m_x$ is weakly associated to the\n$\\mathcal{O}_{X, x}$-module $\\mathcal{F}_x$.\n\\item We denote $\\text{WeakAss}(\\mathcal{F})$ the set of weakly associated\npoints of $\\mathcal{F}$.\n\\item The {\\it weakly associated points of $X$} are the weakly associated\npoints of $\\mathcal{O}_X$.\n\\end{enumerate}\n\\end{definition}\n\n\\noindent\nIn this case, on any affine open, this corresponds exactly to the\nweakly associated primes as defined above. Here is the precise statement.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "relative_assassin",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 1044,
+      "end_line": 1076,
+      "interpretation": "Ass_X/S(F)=union_s Ass_Xs(F_s), F_s fibre restriction.",
+      "source_excerpt_tex": "\\section{Relative assassin}\n\\label{section-relative-assassin}\n\n\\noindent\nLet $A \\to B$ be a ring map. Let $N$ be a $B$-module. Recall that\na prime $\\mathfrak q \\subset B$ is said to be in the relative assassin\nof $N$ over $B/A$ if $\\mathfrak q$ is an associated prime of\n$N \\otimes_A \\kappa(\\mathfrak p)$. Here $\\mathfrak p = A \\cap \\mathfrak q$.\nSee Algebra, Definition \\ref{algebra-definition-relative-assassin}.\nHere is the definition of the relative assassin for quasi-coherent\nsheaves over a morphism of schemes.\n\n\\begin{definition}\n\\label{definition-relative-assassin}\nLet $f : X \\to S$ be a morphism of schemes.\nLet $\\mathcal{F}$ be a quasi-coherent $\\mathcal{O}_X$-module.\nThe {\\it relative assassin of $\\mathcal{F}$ in $X$ over $S$}\nis the set\n$$\n\\text{Ass}_{X/S}(\\mathcal{F}) =\n\\bigcup\\nolimits_{s \\in S} \\text{Ass}_{X_s}(\\mathcal{F}_s)\n$$\nwhere $\\mathcal{F}_s = (X_s \\to X)^*\\mathcal{F}$ is the restriction\nof $\\mathcal{F}$ to the fibre of $f$ at $s$.\n\\end{definition}\n\n\\noindent\nAgain there is a caveat that this is best used when the fibres of $f$\nare locally Noetherian and $\\mathcal{F}$ is of finite type. In the general\ncase we should probably use the relative weak assassin (defined in the next\nsection). Let us link the scheme theoretic notion with the algebraic notion\non affine opens; note that this correspondence works perfectly only\nfor morphisms of schemes whose fibres are locally Noetherian.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "relative_weak_assassin",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 1194,
+      "end_line": 1209,
+      "interpretation": "WeakAss_X/S(F)=union_s WeakAss(F_s), F_s fibre pullback.",
+      "source_excerpt_tex": "\\section{Relative weak assassin}\n\\label{section-relative-weak-assassin}\n\n\\begin{definition}\n\\label{definition-relative-weak-assassin}\nLet $f : X \\to S$ be a morphism of schemes.\nLet $\\mathcal{F}$ be a quasi-coherent $\\mathcal{O}_X$-module.\nThe {\\it relative weak assassin of $\\mathcal{F}$ in $X$ over $S$}\nis the set\n$$\n\\text{WeakAss}_{X/S}(\\mathcal{F}) =\n\\bigcup\\nolimits_{s \\in S} \\text{WeakAss}(\\mathcal{F}_s)\n$$\nwhere $\\mathcal{F}_s = (X_s \\to X)^*\\mathcal{F}$ is the restriction\nof $\\mathcal{F}$ to the fibre of $f$ at $s$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "fitting",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 1246,
+      "end_line": 1281,
+      "interpretation": "Fit_r defined affine-locally by (n-r)-minors of presentation into free rank n; Fit_-1=0.",
+      "source_excerpt_tex": "\\section{Fitting ideals}\n\\label{section-fitting-ideals}\n\n\\noindent\nThis section is the continuation of the discussion in\nMore on Algebra, Section \\ref{more-algebra-section-fitting-ideals}.\nLet $S$ be a scheme. Let $\\mathcal{F}$ be a\nfinite type quasi-coherent $\\mathcal{O}_S$-module.\nIn this situation we can construct the Fitting ideals\n$$\n0 = \\text{Fit}_{-1}(\\mathcal{F}) \\subset \\text{Fit}_0(\\mathcal{F}) \\subset\n\\text{Fit}_1(\\mathcal{F}) \\subset \\ldots \\subset \\mathcal{O}_S\n$$\nas the sequence of quasi-coherent ideals characterized by the following\nproperty: for every affine open $U = \\Spec(A)$ of $S$ if $\\mathcal{F}|_U$\ncorresponds to the $A$-module $M$, then $\\text{Fit}_i(\\mathcal{F})|_U$\ncorresponds to the ideal $\\text{Fit}_i(M) \\subset A$.\nThis is well defined and a quasi-coherent sheaf of ideals because\nif $f \\in A$, then the $i$th Fitting ideal of $M_f$ over $A_f$\nis equal to $\\text{Fit}_i(M) A_f$ by\nMore on Algebra, Lemma \\ref{more-algebra-lemma-fitting-ideal-basics}.\n\n\\medskip\\noindent\nAlternatively, we can construct the Fitting ideals in terms of local\npresentations of $\\mathcal{F}$. Namely, if $U \\subset X$ is open, and\n$$\n\\bigoplus\\nolimits_{i \\in I} \\mathcal{O}_U \\to\n\\mathcal{O}_U^{\\oplus n} \\to \\mathcal{F}|_U \\to 0\n$$\nis a presentation of $\\mathcal{F}$ over $U$, then\n$\\text{Fit}_r(\\mathcal{F})|_U$ is generated by the\n$(n - r) \\times (n - r)$-minors\nof the matrix defining the first arrow of the presentation.\nThis is compatible with the construction above because this\nis how the Fitting ideal of a module over a ring is actually defined.\nSome details omitted.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "torsion",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 1641,
+      "end_line": 1677,
+      "interpretation": "Integral-scheme torsion section iff zero generic stalk, equivalently all local stalk elements torsion. Torsion-free means every such section zero.",
+      "source_excerpt_tex": "\\section{Torsion free modules}\n\\label{section-torsion-free}\n\n\\noindent\nThis section is the analogue of\nMore on Algebra, Section \\ref{more-algebra-section-torsion-flat}\nfor quasi-coherent modules.\n\n\\begin{lemma}\n\\label{lemma-torsion-sections}\nLet $X$ be an integral scheme with generic point $\\eta$. Let $\\mathcal{F}$\nbe a quasi-coherent $\\mathcal{O}_X$-module. Let $U \\subset X$ be nonempty\nopen and $s \\in \\mathcal{F}(U)$. The following are equivalent\n\\begin{enumerate}\n\\item for some $x \\in U$ the image of $s$ in $\\mathcal{F}_x$ is torsion,\n\\item for all $x \\in U$ the image of $s$ in $\\mathcal{F}_x$ is torsion,\n\\item the image of $s$ in $\\mathcal{F}_\\eta$ is zero,\n\\item the image of $s$ in $j_*\\mathcal{F}_\\eta$ is zero, where $j : \\eta \\to X$\nis the inclusion morphism.\n\\end{enumerate}\n\\end{lemma}\n\n\n\\begin{definition}\n\\label{definition-torsion}\nLet $X$ be an integral scheme. Let $\\mathcal{F}$ be a quasi-coherent\n$\\mathcal{O}_X$-module.\n\\begin{enumerate}\n\\item We say a local section of $\\mathcal{F}$ is {\\it torsion}\nif it satisfies the equivalent conditions of Lemma \\ref{lemma-torsion-sections}.\n\\item We say $\\mathcal{F}$ is {\\it torsion free} if every torsion section\nof $\\mathcal{F}$ is $0$.\n\\end{enumerate}\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "rank",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 1869,
+      "end_line": 1896,
+      "interpretation": "Rank means cardinal dimension of generic stalk over generic residue field, not length.",
+      "source_excerpt_tex": "\\section{Ranks of modules}\n\\label{section-rank}\n\n\\noindent\nThis section is the analogue of\nMore on Algebra, Section \\ref{more-algebra-section-rank}\nfor quasi-coherent modules.\nRecall that if $X$ is an integral scheme with generic point $\\eta$,\nthen the local ring $\\mathcal{O}_{X, \\eta}$ is equal to the\nresidue field $\\kappa(\\eta)$, see\nMorphisms, Lemma \\ref{morphisms-lemma-integral-scheme-rational-functions}.\n\n\\begin{definition}\n\\label{definition-rank}\nLet $X$ be an integral scheme with generic point $\\eta$.\nLet $\\mathcal{F}$ be a quasi-coherent $\\mathcal{O}_X$-module.\nThe {\\it rank} of $\\mathcal{F}$ is $\\dim_{\\kappa(\\eta)} \\mathcal{F}_\\eta$.\n\\end{definition}\n\n\\noindent\nThis does not conflict with the defition of the rank of a locally free module\n(in the case both definitions apply). It does not seem like a good idea\nto define the rank of a quasi-coherent module if the scheme $X$\nis not irreducible or if the local ring $\\mathcal{O}_{X, \\eta}$\nat the generic point is not a field\\footnote{If $X$ is irreducible and\n$\\mathcal{F}_\\eta$ is free over $\\mathcal{O}_{X, \\eta}$ it would appear\nnatural to use the rank of this free module. Beware that some references\ndefine rank using the length of $\\mathcal{F}_\\eta$.}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "reflexive",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 1992,
+      "end_line": 2023,
+      "interpretation": "F**=Hom(Hom(F,O_X),O_X); reflexive means natural evaluation map isomorphism. Meaning extends beyond integral schemes when source theorem explicitly does so.",
+      "source_excerpt_tex": "\\section{Reflexive modules}\n\\label{section-reflexive}\n\n\\noindent\nThis section is the analogue of\nMore on Algebra, Section \\ref{more-algebra-section-reflexive}\nfor coherent modules on locally Noetherian schemes. The reason for\nworking with coherent modules is that\n$\\SheafHom_{\\mathcal{O}_X}(\\mathcal{F}, \\mathcal{G})$ is coherent\nfor every pair of coherent $\\mathcal{O}_X$-modules $\\mathcal{F}, \\mathcal{G}$,\nsee Modules, Lemma \\ref{modules-lemma-internal-hom-locally-kernel-direct-sum}.\n\n\\begin{definition}\n\\label{definition-reflexive}\nLet $X$ be an integral locally Noetherian scheme. Let $\\mathcal{F}$\nbe a coherent $\\mathcal{O}_X$-module. The {\\it reflexive hull}\nof $\\mathcal{F}$ is the $\\mathcal{O}_X$-module\n$$\n\\mathcal{F}^{**} = \\SheafHom_{\\mathcal{O}_X}(\n\\SheafHom_{\\mathcal{O}_X}(\\mathcal{F}, \\mathcal{O}_X), \\mathcal{O}_X)\n$$\nWe say $\\mathcal{F}$ is {\\it reflexive} if the natural map\n$j : \\mathcal{F} \\longrightarrow \\mathcal{F}^{**}$\nis an isomorphism.\n\\end{definition}\n\n\\noindent\nIt follows from Lemma \\ref{lemma-dual-reflexive} that the reflexive hull\nis a reflexive $\\mathcal{O}_X$-module.\nYou can use the same definition to define reflexive modules in more\ngeneral situations, but this does not seem to be very useful.\nHere is the obligatory lemma comparing this to the usual algebraic notion.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "cartier",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2376,
+      "end_line": 2400,
+      "interpretation": "ECD is closed subscheme with invertible ideal, equivalent local equation nonzerodivisor. Locally principal does not require nonzerodivisor.",
+      "source_excerpt_tex": "\\section{Effective Cartier divisors}\n\\label{section-effective-Cartier-divisors}\n\n\\noindent\nWe define the notion of an effective Cartier divisor before any other type\nof divisor.\n\n\\begin{definition}\n\\label{definition-effective-Cartier-divisor}\nLet $S$ be a scheme.\n\\begin{enumerate}\n\\item A {\\it locally principal closed subscheme} of $S$ is a closed subscheme\nwhose sheaf of ideals is locally generated by a single element.\n\\item An {\\it effective Cartier divisor} on $S$ is a closed subscheme\n$D \\subset S$ whose ideal sheaf $\\mathcal{I}_D \\subset \\mathcal{O}_S$\nis an invertible $\\mathcal{O}_S$-module.\n\\end{enumerate}\n\\end{definition}\n\n\\noindent\nThus an effective Cartier divisor is a locally principal closed subscheme,\nbut the converse is not always true. Effective Cartier divisors are closed\nsubschemes of pure codimension $1$ in the strongest possible sense. Namely\nthey are locally cut out by a single element which is a nonzerodivisor.\nIn particular they are nowhere dense.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "cartier_sum_pullback",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2488,
+      "end_line": 2588,
+      "interpretation": "Sum defined by product of ideal sheaves; pullback defined precisely when inverse-image closed subscheme remains ECD.",
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-sum-effective-Cartier-divisors}\nLet $S$ be a scheme. Given effective Cartier divisors\n$D_1$, $D_2$ on $S$ we set $D = D_1 + D_2$ equal to the\nclosed subscheme of $S$ corresponding to the quasi-coherent\nsheaf of ideals\n$\\mathcal{I}_{D_1}\\mathcal{I}_{D_2} \\subset \\mathcal{O}_S$.\nWe call this the {\\it sum of the effective Cartier divisors\n$D_1$ and $D_2$}.\n\\end{definition}\n\n\\noindent\nIt is clear that we may define the sum $\\sum n_iD_i$ given\nfinitely many effective Cartier divisors $D_i$ on $X$\nand nonnegative integers $n_i$.\n\n\\begin{lemma}\n\\label{lemma-sum-effective-Cartier-divisors}\nThe sum of two effective Cartier divisors is an effective\nCartier divisor.\n\\end{lemma}\n\n\n\\begin{lemma}\n\\label{lemma-difference-effective-Cartier-divisors}\nLet $X$ be a scheme.\nLet $D, D'$ be two effective Cartier divisors on $X$.\nIf $D \\subset D'$ (as closed subschemes of $X$), then\nthere exists an effective Cartier divisor $D''$ such\nthat $D' = D + D''$.\n\\end{lemma}\n\n\n\\begin{lemma}\n\\label{lemma-sum-closed-subschemes-effective-Cartier}\nLet $X$ be a scheme. Let $Z, Y$ be two closed subschemes of $X$\nwith ideal sheaves $\\mathcal{I}$ and $\\mathcal{J}$. If $\\mathcal{I}\\mathcal{J}$\ndefines an effective Cartier divisor $D \\subset X$, then $Z$ and $Y$\nare effective Cartier divisors and $D = Z + Y$.\n\\end{lemma}\n\n\n\\begin{lemma}\n\\label{lemma-sum-effective-Cartier-divisors-union}\nLet $X$ be a scheme. Let $D, D' \\subset X$ be effective Cartier divisors\nsuch that the scheme theoretic intersection $D \\cap D'$ is an effective\nCartier divisor on $D'$. Then $D + D'$ is the scheme theoretic\nunion of $D$ and $D'$.\n\\end{lemma}\n\n\n\\noindent\nRecall that we have defined the inverse image of a closed subscheme\nunder any morphism of schemes in\nSchemes, Definition \\ref{schemes-definition-inverse-image-closed-subscheme}.\n\n\\begin{lemma}\n\\label{lemma-pullback-locally-principal}\nLet $f : S' \\to S$ be a morphism of schemes. Let $Z \\subset S$\nbe a locally principal closed subscheme. Then the inverse image\n$f^{-1}(Z)$ is a locally principal closed subscheme of $S'$.\n\\end{lemma}\n\n\n\\begin{definition}\n\\label{definition-pullback-effective-Cartier-divisor}\nLet $f : S' \\to S$ be a morphism of schemes. Let $D \\subset S$\nbe an effective Cartier divisor. We say the {\\it pullback of\n$D$ by $f$ is defined} if the closed subscheme $f^{-1}(D) \\subset S'$\nis an effective Cartier divisor. In this case we denote it either\n$f^*D$ or $f^{-1}(D)$ and we call it the\n{\\it pullback of the effective Cartier divisor}.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "cartier_invertible",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2659,
+      "end_line": 2680,
+      "interpretation": "O(D)=Hom(I_D,O), O(-D)=I_D; canonical1_D corresponds to inclusion I_D->O. O(D-D prime) means tensor line-bundle difference.",
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-invertible-sheaf-effective-Cartier-divisor}\nLet $S$ be a scheme. Let $D \\subset S$ be an effective Cartier divisor\nwith ideal sheaf $\\mathcal{I}_D$.\n\\begin{enumerate}\n\\item The {\\it invertible sheaf $\\mathcal{O}_S(D)$ associated to $D$}\nis defined by\n$$\n\\mathcal{O}_S(D) =\n\\SheafHom_{\\mathcal{O}_S}(\\mathcal{I}_D, \\mathcal{O}_S) =\n\\mathcal{I}_D^{\\otimes -1}.\n$$\n\\item The {\\it canonical section}, usually denoted $1$ or $1_D$, is the\nglobal section of $\\mathcal{O}_S(D)$ corresponding to\nthe inclusion mapping $\\mathcal{I}_D \\to \\mathcal{O}_S$.\n\\item We write\n$\\mathcal{O}_S(-D) = \\mathcal{O}_S(D)^{\\otimes -1} = \\mathcal{I}_D$.\n\\item Given a second effective Cartier divisor $D' \\subset S$ we define\n$\\mathcal{O}_S(D - D') =\n\\mathcal{O}_S(D) \\otimes_{\\mathcal{O}_S} \\mathcal{O}_S(-D')$.\n\\end{enumerate}\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "regular_zero",
+      "source_file": "divisors.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2777,
+      "end_line": 2825,
+      "interpretation": "Regular section s iff O->L multiplying by s injective; Z(s) dual-section-image ideal.",
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-regular-section}\nLet $(X, \\mathcal{O}_X)$ be a locally ringed space.\nLet $\\mathcal{L}$ be an invertible sheaf on $X$.\nA global section $s \\in \\Gamma(X, \\mathcal{L})$ is called a\n{\\it regular section} if the map $\\mathcal{O}_X \\to \\mathcal{L}$,\n$f \\mapsto fs$ is injective.\n\\end{definition}\n\n\\begin{lemma}\n\\label{lemma-regular-section-structure-sheaf}\nLet $X$ be a locally ringed space. Let $f \\in \\Gamma(X, \\mathcal{O}_X)$.\nThe following are equivalent:\n\\begin{enumerate}\n\\item $f$ is a regular section, and\n\\item for any $x \\in X$ the image $f \\in \\mathcal{O}_{X, x}$\nis a nonzerodivisor.\n\\end{enumerate}\nIf $X$ is a scheme these are also equivalent to\n\\begin{enumerate}\n\\item[(3)] for any affine open $\\Spec(A) = U \\subset X$\nthe image $f \\in A$ is a nonzerodivisor,\n\\item[(4)] there exists an affine open covering\n$X = \\bigcup \\Spec(A_i)$ such that\nthe image of $f$ in $A_i$ is a nonzerodivisor for all $i$.\n\\end{enumerate}\n\\end{lemma}\n\n\n\\noindent\nNote that a global section $s$ of an invertible $\\mathcal{O}_X$-module\n$\\mathcal{L}$ may be seen as an $\\mathcal{O}_X$-module map\n$s : \\mathcal{O}_X \\to \\mathcal{L}$. Its dual is therefore a\nmap $s : \\mathcal{L}^{\\otimes -1} \\to \\mathcal{O}_X$.\n(See Modules, Definition \\ref{modules-definition-powers}\nfor the definition of the dual invertible sheaf.)\n\n\\begin{definition}\n\\label{definition-zero-scheme-s}\nLet $X$ be a scheme. Let $\\mathcal{L}$ be an invertible sheaf.\nLet $s \\in \\Gamma(X, \\mathcal{L})$ be a global section.\nThe {\\it zero scheme} of $s$ is the closed subscheme $Z(s) \\subset X$\ndefined by the quasi-coherent sheaf of ideals\n$\\mathcal{I} \\subset \\mathcal{O}_X$ which is the image of the\nmap $s : \\mathcal{L}^{\\otimes -1} \\to \\mathcal{O}_X$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "Serre",
+      "source_file": "coherent.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2810,
+      "end_line": 2835,
+      "interpretation": "Sk for coherent F means depth(F_x)>=min(k,dim Supp(F_x)) for every x; X Sk means O_X Sk.",
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-depth}\nLet $X$ be a locally Noetherian scheme.\nLet $\\mathcal{F}$ be a coherent $\\mathcal{O}_X$-module.\nLet $k \\geq 0$ be an integer.\n\\begin{enumerate}\n\\item We say $\\mathcal{F}$ has {\\it depth $k$ at a point}\n$x$ of $X$ if $\\text{depth}_{\\mathcal{O}_{X, x}}(\\mathcal{F}_x) = k$.\n\\item We say $X$ has {\\it depth $k$ at a point} $x$ of $X$ if\n$\\text{depth}(\\mathcal{O}_{X, x}) = k$.\n\\item We say $\\mathcal{F}$ has property {\\it $(S_k)$} if\n$$\n\\text{depth}_{\\mathcal{O}_{X, x}}(\\mathcal{F}_x)\n\\geq \\min(k, \\dim(\\text{Supp}(\\mathcal{F}_x)))\n$$\nfor all $x \\in X$.\n\\item We say $X$ has property {\\it $(S_k)$} if $\\mathcal{O}_X$ has\nproperty $(S_k)$.\n\\end{enumerate}\n\\end{definition}\n\n\\noindent\nAny coherent sheaf satisfies condition $(S_0)$.\nCondition $(S_1)$ is equivalent to having no embedded associated\npoints, see Divisors, Lemma \\ref{divisors-lemma-S1-no-embedded}.\n",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "scheme_dense",
+      "source_file": "morphisms.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 1029,
+      "end_line": 1040,
+      "interpretation": "Open U scheme-theoretically dense if every open V has schematic closure U intersect V equal V.",
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-scheme-theoretically-dense}\nLet $X$ be a scheme. Let $U \\subset X$ be an open subscheme.\n\\begin{enumerate}\n\\item The scheme theoretic image of the morphism $U \\to X$\nis called the {\\it scheme theoretic closure of $U$ in $X$}.\n\\item We say $U$ is {\\it scheme theoretically dense in $X$}\nif for every open $V \\subset X$ the scheme theoretic closure\nof $U \\cap V$ in $V$ is equal to $V$.\n\\end{enumerate}\n\\end{definition}\n",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "codimension",
+      "source_file": "topology.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 1485,
+      "end_line": 1497,
+      "interpretation": "Irreducible closed Y codimension supremum lengths chains irreducible closed sets starting Y.",
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-codimension}\nLet $X$ be a topological space.\nLet $Y \\subset X$ be an irreducible closed subset.\nThe {\\it codimension} of $Y$ in $X$ is the supremum of\nthe lengths $e$ of chains\n$$\nY = Y_0 \\subset Y_1 \\subset \\ldots \\subset Y_e \\subset X\n$$\nof irreducible closed subsets in $X$ starting with $Y$.\nWe will denote this $\\text{codim}(Y, X)$.\n\\end{definition}\n",
+      "used_as_extra_hypotheses": false
+    }
+  ]
+}
