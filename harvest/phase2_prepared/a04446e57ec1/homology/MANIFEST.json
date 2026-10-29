@@ -1,0 +1,52 @@
+{
+  "candidate_count": 119,
+  "candidate_ids_sha256": "dc7608e5fb03da1abd79a4f7df634b88b6c17b7c6def31eae8bf99db313880a7",
+  "candidate_inputs_sha256": "743dae5d6e0ee2a34da6a0bb9d011d54a5d87825964847f8a053db4d9a2958a5",
+  "chapter_number": 12,
+  "chapter_title": "Homological Algebra",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2408,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Homological Algebra}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 32,
+  "section_inputs_sha256": "62c80c5d9737adf635c5629aaa8155bc2e200de26459ebfbc1e1e982d08d5bb4",
+  "source_file": "homology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "483caf01b4bd164dbc9103d76196e294e00efe17e706178ecf2dc2c1def4abe0",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
