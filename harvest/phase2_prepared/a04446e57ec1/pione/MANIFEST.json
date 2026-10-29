@@ -1,0 +1,52 @@
+{
+  "candidate_count": 103,
+  "candidate_ids_sha256": "f0865cf265e0659ed2ddd58bfaca7d782750b980f96feeb99c8edabb3a335941",
+  "candidate_inputs_sha256": "d8d5f3248b3b6bd354c015369dcac0daf585e039a61a7b4dea6e7ccedc86a658",
+  "chapter_number": 58,
+  "chapter_title": "Fundamental Groups of Schemes",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 4314,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Fundamental Groups of Schemes}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 32,
+  "section_inputs_sha256": "e8232a3b196dd39370889f2db7ab7196d0e6ab1900b7c7b6862530ebdfd2d700",
+  "source_file": "pione.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "947055995cd971d8c9886cbec72e90d6ec352b693eae35588e9522b74f80cdbc",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
