@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 7,
-  "prepared_candidates": 599,
+  "prepared_chapters": 8,
+  "prepared_candidates": 736,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -48,6 +48,13 @@
       "candidate_count": 66,
       "section_count": 33,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/sheaves/MANIFEST.json"
+    },
+    {
+      "source_file": "sites.tex",
+      "chapter_number": 7,
+      "candidate_count": 137,
+      "section_count": 52,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/sites/MANIFEST.json"
     },
     {
       "source_file": "varieties.tex",

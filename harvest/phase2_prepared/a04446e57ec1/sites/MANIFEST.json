@@ -1,0 +1,52 @@
+{
+  "candidate_count": 137,
+  "candidate_ids_sha256": "842fd2bf83e03643528d4b1329539d9ea03eaa334d079888197ccf70a9a75f30",
+  "candidate_inputs_sha256": "ab95d3675529580e367c01403baca69ecce6f60c494ee124ec08d8649e9e2ef0",
+  "chapter_number": 7,
+  "chapter_title": "Sites and Sheaves",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 4458,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Sites and Sheaves}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 52,
+  "section_inputs_sha256": "8b73d7ec91d53b3cdf8f739c1d969826e5d8cff33da9f4c7b8b87da3d06ff4ba",
+  "source_file": "sites.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "07ae4690c2d8eb6873837d3d14a37f07408bb14f9e0be6077ed570c220b1845d",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
