@@ -1,0 +1,52 @@
+{
+  "candidate_count": 41,
+  "candidate_ids_sha256": "b9d35349bac945603b4a254b6d1c6def0d173f6cb2919bdb8ca8628420fe6f21",
+  "candidate_inputs_sha256": "3c5b4e83e991322f04addd54c5daed1b38d968788b12c3b18468c248c4b1b42b",
+  "chapter_number": 16,
+  "chapter_title": "Smoothing Ring Maps",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2252,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Smoothing Ring Maps}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 14,
+  "section_inputs_sha256": "6bd095c13b253a0419d6b31a1c9f2dada19acd70f9c602ad491738a1c8f884a0",
+  "source_file": "smoothing.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "fd28cf874bb7dad3c5c5ff03314d1c83701613a8a98730a99b9ca7a4bcfe6068",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
