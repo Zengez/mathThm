@@ -1,0 +1,52 @@
+{
+  "candidate_count": 129,
+  "candidate_ids_sha256": "6346fe86ddd722548509a94324c5abf886c550ac72fe72d4be6e0bc7ac314a6f",
+  "candidate_inputs_sha256": "87bc78a9a9f732b591f2df50df396b64b318059e844a234c94820e6366c340ef",
+  "chapter_number": 28,
+  "chapter_title": "Properties of Schemes",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2597,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Properties of Schemes}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 30,
+  "section_inputs_sha256": "a73445fc3f9523edb2439603c674ca59685b4713d5449bb04fcfbc1855990b0f",
+  "source_file": "properties.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "52f3785b3ef80828fe135a8ce92ade6f68ebff0e13310ed91c88f95c03fdc2f0",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
