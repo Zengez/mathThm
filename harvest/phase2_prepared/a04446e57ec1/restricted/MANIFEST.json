@@ -1,0 +1,52 @@
+{
+  "candidate_count": 115,
+  "candidate_ids_sha256": "c8ef6f7c3d5a0ad6faca805c525d1473aaeb8cd151c6e18bc17bedee2d143ebd",
+  "candidate_inputs_sha256": "ee95599675dcc03b013b0b89a6a4e1586f6984a879c3dc9c4eafdeee7cc7c436",
+  "chapter_number": 88,
+  "chapter_title": "Algebraization of Formal Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3945,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Algebraization of Formal Spaces}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 30,
+  "section_inputs_sha256": "5ab997efc25a841071a6a0a22afed28b83b7772a419e96d67dee7483a7daa81b",
+  "source_file": "restricted.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "22b0e13cc9846725c165cecccdd371259e920a7befbfabad26eb674dc11db53e",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
