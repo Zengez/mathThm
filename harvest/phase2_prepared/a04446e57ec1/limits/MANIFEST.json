@@ -1,0 +1,52 @@
+{
+  "candidate_count": 100,
+  "candidate_ids_sha256": "43934e4ca4186da7166b57160fff0f666b5c9918e0e6209888bf96385eb8f98a",
+  "candidate_inputs_sha256": "58dd5ef7aec7d746163955125aa49dee3a7d5a6b829c7ec95506fe85839c384e",
+  "chapter_number": 32,
+  "chapter_title": "Limits of Schemes",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3335,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Limits of Schemes}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 22,
+  "section_inputs_sha256": "25ac68d7fb96e77be062b29f4867e53e6b7fd8f94a1b6eaf89dc3dc7b99456e0",
+  "source_file": "limits.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "dccddc3622ebad21dd6219ea50b157fcf20c574e82b9e920b7f4d1ed127e0aa4",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}

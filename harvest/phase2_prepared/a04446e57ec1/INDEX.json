@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 32,
-  "prepared_candidates": 3593,
+  "prepared_chapters": 33,
+  "prepared_candidates": 3693,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -223,6 +223,13 @@
       "candidate_count": 222,
       "section_count": 37,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/divisors/MANIFEST.json"
+    },
+    {
+      "source_file": "limits.tex",
+      "chapter_number": 32,
+      "candidate_count": 100,
+      "section_count": 22,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/limits/MANIFEST.json"
     },
     {
       "source_file": "varieties.tex",
