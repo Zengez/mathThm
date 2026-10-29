@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 83,
-  "prepared_candidates": 8149,
+  "prepared_chapters": 84,
+  "prepared_candidates": 8173,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -587,6 +587,13 @@
       "candidate_count": 12,
       "section_count": 10,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/groupoids-quotients/MANIFEST.json"
+    },
+    {
+      "source_file": "spaces-more-cohomology.tex",
+      "chapter_number": 84,
+      "candidate_count": 24,
+      "section_count": 8,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/spaces-more-cohomology/MANIFEST.json"
     }
   ]
 }

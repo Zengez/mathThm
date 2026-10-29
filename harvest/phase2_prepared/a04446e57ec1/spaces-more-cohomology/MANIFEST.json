@@ -1,0 +1,52 @@
+{
+  "candidate_count": 24,
+  "candidate_ids_sha256": "dc376d4257f8ca15b7547271569848e4ecab5fe598efe1badf87d6b74c399696",
+  "candidate_inputs_sha256": "ea801b9f00226a5220fd8c58907cbbfea0286e9ffb5f55a393277c69b8a77abe",
+  "chapter_number": 84,
+  "chapter_title": "More on Cohomology of Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1000,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{More on Cohomology of Spaces}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 8,
+  "section_inputs_sha256": "d4cf748d961f7b0adb9dd556eb771dd5c174cdcc26c76bb9fc2658dd9d673463",
+  "source_file": "spaces-more-cohomology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "9730582c4bb990d2651820f0088924bce4cd12921d92d2eb2944ea965536559b",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
