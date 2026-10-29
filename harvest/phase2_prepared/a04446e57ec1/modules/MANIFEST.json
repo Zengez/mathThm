@@ -1,0 +1,52 @@
+{
+  "candidate_count": 110,
+  "candidate_ids_sha256": "2bfcc2924ae90352c0a91c498ee59e4fa02835033cad7ff0ed8f6fcf244039b6",
+  "candidate_inputs_sha256": "68b37a6a08a43d21400496dd41cbcea0558f7ba5fc7e2845a832a26fd039a04c",
+  "chapter_number": 17,
+  "chapter_title": "Sheaves of Modules",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1940,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Sheaves of Modules}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 31,
+  "section_inputs_sha256": "47e38d9c9ed2abeb7d5f772aca8a63aa26351dfe3331505ee10c9a8071e23250",
+  "source_file": "modules.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "7bd3e9e096717ef6fd458492d8ad91fc9ffe428cfd7dd80e386fae377bb7cb0d",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
