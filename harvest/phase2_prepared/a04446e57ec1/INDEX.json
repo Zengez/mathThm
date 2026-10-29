@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 22,
-  "prepared_candidates": 2528,
+  "prepared_chapters": 23,
+  "prepared_candidates": 2615,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -153,6 +153,13 @@
       "candidate_count": 216,
       "section_count": 53,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/sites-cohomology/MANIFEST.json"
+    },
+    {
+      "source_file": "dga.tex",
+      "chapter_number": 22,
+      "candidate_count": 87,
+      "section_count": 38,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/dga/MANIFEST.json"
     },
     {
       "source_file": "varieties.tex",

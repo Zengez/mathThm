@@ -1,0 +1,52 @@
+{
+  "candidate_count": 87,
+  "candidate_ids_sha256": "766261e544faefcc5eef6541b0facf8bb7ba87298d76ddd9e8b3881ce8bbf6e8",
+  "candidate_inputs_sha256": "7457c93a06bc7ce349e1304068bdd76c2df1014c658e68a40659cc9d29ee6719",
+  "chapter_number": 22,
+  "chapter_title": "Differential Graded Algebra",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2633,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Differential Graded Algebra}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 38,
+  "section_inputs_sha256": "1749bb1966a25bd7cb19a1ed22d5a38b3a4f37e3980e5321ddcfcfb6c17759cf",
+  "source_file": "dga.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "74d8effc5693c38a1e408591fcaf5f62017c125ad636768d943dc22c55403409",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
