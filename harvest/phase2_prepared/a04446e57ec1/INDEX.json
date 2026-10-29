@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 11,
-  "prepared_candidates": 1103,
+  "prepared_chapters": 12,
+  "prepared_candidates": 1128,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -76,6 +76,13 @@
       "candidate_count": 238,
       "section_count": 168,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/algebra/MANIFEST.json"
+    },
+    {
+      "source_file": "brauer.tex",
+      "chapter_number": 11,
+      "candidate_count": 25,
+      "section_count": 8,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/brauer/MANIFEST.json"
     },
     {
       "source_file": "varieties.tex",

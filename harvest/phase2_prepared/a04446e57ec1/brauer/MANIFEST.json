@@ -1,0 +1,52 @@
+{
+  "candidate_count": 25,
+  "candidate_ids_sha256": "12cad77c7f34f611404c743f3ee183e470e3357b71bc78692ce1078c732196fe",
+  "candidate_inputs_sha256": "7d16915987b1f1a33059f953726bee58a54faed29c684bd04e499d5b22e05273",
+  "chapter_number": 11,
+  "chapter_title": "Brauer groups",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 331,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Brauer groups}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 8,
+  "section_inputs_sha256": "6da94e175e4d132f9877cfd923f0bb41c537f170f2169c0abf3770f85e01c458",
+  "source_file": "brauer.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "b2504820d769ebe4e9e33b8add78753fb30aca6e8a7f75c8d54dda885edcd682",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
