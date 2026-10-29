@@ -1,0 +1,52 @@
+{
+  "candidate_count": 143,
+  "candidate_ids_sha256": "c1bf30e83e0591dbaf3aad3b8a8749aba48b96e3519b815eb5510754a8244327",
+  "candidate_inputs_sha256": "752bf96eef2567e86e8efa099e38a8598c643b652140a5542240b46bc556077d",
+  "chapter_number": 87,
+  "chapter_title": "Formal Algebraic Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3497,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Formal Algebraic Spaces}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 38,
+  "section_inputs_sha256": "c454d7ec664492b1ae581dec8e1d936a448352da4129a8f0bf12125dd34040db",
+  "source_file": "formal-spaces.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "12155988c9ecfd84c14aa507eb55e25360ebd87124bfe239efcc9ee4187bd2c5",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
