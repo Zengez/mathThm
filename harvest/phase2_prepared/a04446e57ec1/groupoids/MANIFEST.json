@@ -1,0 +1,52 @@
+{
+  "candidate_count": 83,
+  "candidate_ids_sha256": "af194558d33f316a523168c5f6608405ea5c4229e365f356b1b00a78388331bc",
+  "candidate_inputs_sha256": "f955cb727efeebc1420afd584cc1d64efd204a148d1998b05daee69f5c9bf32e",
+  "chapter_number": 39,
+  "chapter_title": "Groupoid Schemes",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2376,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Groupoid Schemes}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 25,
+  "section_inputs_sha256": "fbbf8b7cf7e94984d066e221cfa277a9a7b65369c1cabd85d244f6cf8b962d6b",
+  "source_file": "groupoids.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "157cc1c792f41465b8249582fee0f6dff266ac4224f06b05e936c66c65db043a",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
