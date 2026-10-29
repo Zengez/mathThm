@@ -1,0 +1,52 @@
+{
+  "candidate_count": 29,
+  "candidate_ids_sha256": "d3c818393890c62122a63a66f3374ab1cf32b9bbe55742ae276cf34767fd464b",
+  "candidate_inputs_sha256": "9361403e966ae3a5cc83537f4fc111e127a3b31573e7bd1d34d92cfd14cb0952",
+  "chapter_number": 73,
+  "chapter_title": "Topologies on Algebraic Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 356,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Topologies on Algebraic Spaces}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 9,
+  "section_inputs_sha256": "8b9da9fac5f6327525aa540e0b285408982ff2c618c400f498e83102efab6721",
+  "source_file": "spaces-topologies.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "c5bae429f5f620dd1fc96c5785a8f6bb8fe1fd0703b2bec8dd47cacfe3a8ac40",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
