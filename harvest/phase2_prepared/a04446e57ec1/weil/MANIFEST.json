@@ -1,0 +1,52 @@
+{
+  "candidate_count": 60,
+  "candidate_ids_sha256": "ff85c8dd2ef993b3a2bb0a1ebff21dbadcac24254b70aca0b39a5432842a0446",
+  "candidate_inputs_sha256": "780352eed93e87f1bbb12f980fbc964526813539207324e8426d9d316250e14c",
+  "chapter_number": 45,
+  "chapter_title": "Weil Cohomology Theories",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3120,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Weil Cohomology Theories}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 14,
+  "section_inputs_sha256": "ebf69e234626cd9c14767b1f68c5432a0bde7b9d75e65ba55bd43b9d990e29a7",
+  "source_file": "weil.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "3861f2d85eb151058b6a0248e7f1b06910adf8c4f4f017e856cc76f7a439ad3b",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
