@@ -1,0 +1,52 @@
+{
+  "candidate_count": 241,
+  "candidate_ids_sha256": "dfd8b1e51e437cd74d20bce31162b71154abaa7b59eb391abd5cbdb2fd3262a3",
+  "candidate_inputs_sha256": "f4cd3c11f20f22208e822ade67ebbab1c8da087cedf93e9f577518dd3db7e74d",
+  "chapter_number": 29,
+  "chapter_title": "Morphisms of Schemes",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 7033,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Morphisms of Schemes}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 59,
+  "section_inputs_sha256": "0f7173168ef9d9fbe83433b5be18f140190846ecf0ede2e2ad010339603f9697",
+  "source_file": "morphisms.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "3350fd2c4e3abc78a4ae3bcdb32694c70a5765e500c308c7ea7d239f5a3e3b69",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
