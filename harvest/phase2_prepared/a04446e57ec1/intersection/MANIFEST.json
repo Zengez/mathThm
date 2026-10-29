@@ -1,0 +1,52 @@
+{
+  "candidate_count": 46,
+  "candidate_ids_sha256": "cedd639aa2b69b4091da5c2a2b7f5d0c5a8275e1d7fe2363aa4d558975317f08",
+  "candidate_inputs_sha256": "bfd13175f5c0a3e473b6f61237653224715cc509da47f78dec0650e391839d21",
+  "chapter_number": 43,
+  "chapter_title": "Intersection Theory",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1519,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Intersection Theory}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 28,
+  "section_inputs_sha256": "af35fc3cc263bff49d3d539856984053642ed58e1c191871ee5f6f7230e902ae",
+  "source_file": "intersection.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "d2656099596fa006cd1c468708c16c952f01037d9ad9a9354118f141905b3426",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
