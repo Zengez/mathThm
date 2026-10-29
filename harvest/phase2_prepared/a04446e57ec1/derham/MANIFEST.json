@@ -1,0 +1,52 @@
+{
+  "candidate_count": 44,
+  "candidate_ids_sha256": "1e56b064842f8e976bae9bd30e1a62464462f9e6e7c41c1065089f961fcc0062",
+  "candidate_inputs_sha256": "5a55260f5ed61816636354a22d421ddc04cf5040145263cb3e588d9189911ef7",
+  "chapter_number": 50,
+  "chapter_title": "de Rham Cohomology",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3237,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{de Rham Cohomology}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 24,
+  "section_inputs_sha256": "edb3b6ae6fedb3c7cfbfa9be221b963098a8d14f8c6437101d0ac6b115c11b47",
+  "source_file": "derham.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "2dc4e936fce0e3b2729f9d9b68d4ff5e6f188f1c25f6723d61b92fa682e90fc8",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
