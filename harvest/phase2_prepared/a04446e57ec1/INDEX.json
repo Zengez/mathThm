@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 91,
-  "prepared_candidates": 8700,
+  "prepared_chapters": 92,
+  "prepared_candidates": 8750,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -643,6 +643,13 @@
       "candidate_count": 42,
       "section_count": 16,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/defos/MANIFEST.json"
+    },
+    {
+      "source_file": "cotangent.tex",
+      "chapter_number": 92,
+      "candidate_count": 50,
+      "section_count": 28,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/cotangent/MANIFEST.json"
     }
   ]
 }

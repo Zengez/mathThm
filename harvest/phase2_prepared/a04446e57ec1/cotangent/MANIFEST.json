@@ -1,0 +1,52 @@
+{
+  "candidate_count": 50,
+  "candidate_ids_sha256": "a13462d1641e99254b1e941ece55d1a3d1143ee8be3c6f51c650852a3efbe63f",
+  "candidate_inputs_sha256": "87e0a87f0b482c144fc69353799df6fc2179b4e1b48bab679a662a2a9102bf8a",
+  "chapter_number": 92,
+  "chapter_title": "The Cotangent Complex",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1841,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{The Cotangent Complex}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 28,
+  "section_inputs_sha256": "1a11a92daf065a213d2b1a266eb3bba58f5222bdac19bd4eb35fa90fd5815c6c",
+  "source_file": "cotangent.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "39e7b361912dccc1f4c1590e9f5f7e79a47d15c5f176e6c3469a32cb4ba4b9f3",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
