@@ -1,0 +1,52 @@
+{
+  "candidate_count": 49,
+  "candidate_ids_sha256": "fd32823431b457ff3ca64f807572294a7e03941ff7791184f82ff58971b43f6b",
+  "candidate_inputs_sha256": "2e06c14fbb4a864b0767ee8a78ce1aa00f14de4e43010307b6c8a18fb71ed06b",
+  "chapter_number": 81,
+  "chapter_title": "Pushouts of Algebraic Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2232,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Pushouts of Algebraic Spaces}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 14,
+  "section_inputs_sha256": "386a2c1eb240531ddf08c37313255a3ebdc020a9a5cb684df4d53f9e824df055",
+  "source_file": "spaces-pushouts.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "b99eb8c15a534af251c0ae4dfd179c3f551e75ba367b099d196cd172d60f8ed9",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
