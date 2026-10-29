@@ -1,0 +1,52 @@
+{
+  "candidate_count": 53,
+  "candidate_ids_sha256": "41db3295963cc4cc8fc531a25a455ff5aa81eda213cf4de293758983d89221c5",
+  "candidate_inputs_sha256": "7a1be8c1f80f2ad96d7aa43db3857056836fd9378cdafd3d8e3a5735b516931a",
+  "chapter_number": 41,
+  "chapter_title": "\\'Etale Morphisms of Schemes",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1118,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{\\'Etale Morphisms of Schemes}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 21,
+  "section_inputs_sha256": "c65327edddb364068553d72a8464eea47e1b0ec9351b344d173e972709a25b0c",
+  "source_file": "etale.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "a6ae8c181a9ad46949828e842eb978f554d99d50517490f6a356089e5e7d197f",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
