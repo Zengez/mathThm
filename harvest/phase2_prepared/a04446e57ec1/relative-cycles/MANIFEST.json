@@ -1,0 +1,52 @@
+{
+  "candidate_count": 48,
+  "candidate_ids_sha256": "fc432b34a4c08200f41e1d545003dbd25faf5d4214ea8775bb095d9373586cd3",
+  "candidate_inputs_sha256": "861bd2e870dc1bfaa8c35e86ea2fa8414680cb0af5171594a82fc4ad60eb084b",
+  "chapter_number": 62,
+  "chapter_title": "Relative Cycles",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1467,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Relative Cycles}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 17,
+  "section_inputs_sha256": "03b7132d9e5ef0404e0dfa646804694053db1dde30abb2c78372b9cc890bb59e",
+  "source_file": "relative-cycles.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "f2050896436cd590d25869aff1b6024c1b49d8a763d08ebbdc747f2815618750",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
