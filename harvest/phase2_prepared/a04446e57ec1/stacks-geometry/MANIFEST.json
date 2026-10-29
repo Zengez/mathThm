@@ -1,0 +1,52 @@
+{
+  "candidate_count": 28,
+  "candidate_ids_sha256": "d6a5ba1ce75aec5aedd8da765ea6142fdde575ffbc8670765db6d29f07d6ca51",
+  "candidate_inputs_sha256": "29936d3c56c2e711406fe58b15999c6530ccdf19850078c52ff146ee472165d8",
+  "chapter_number": 107,
+  "chapter_title": "The Geometry of Algebraic Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1158,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{The Geometry of Algebraic Stacks}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 6,
+  "section_inputs_sha256": "884a0a14cd6df640f90781a834611fbbb20638655a92055be12b6e118baa194b",
+  "source_file": "stacks-geometry.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "d7bebc09039e656ebcad46293a30295603583f63a18d64f507d805c9cc7f4243",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
