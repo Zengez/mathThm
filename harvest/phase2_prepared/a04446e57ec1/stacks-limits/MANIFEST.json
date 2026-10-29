@@ -1,0 +1,52 @@
+{
+  "candidate_count": 13,
+  "candidate_ids_sha256": "2a56c9c2fc939916913d265069e4bf9671c9948f8c39b36399d151baada0f454",
+  "candidate_inputs_sha256": "08f1b32f50b53e7962829dcb2f7dbb0cc4554e457bb7f6625604ab11a4a04fb2",
+  "chapter_number": 102,
+  "chapter_title": "Limits of Algebraic Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 784,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Limits of Algebraic Stacks}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 7,
+  "section_inputs_sha256": "a467fa3c30dd5ba3c17cf38cf821d2bda61c904466339c53f5085748dd4dffe6",
+  "source_file": "stacks-limits.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "f4f5ebf02bb5922a8dff70ea507ed6f821f992c697d9c9a984b9513c39fec57a",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
