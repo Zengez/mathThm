@@ -1,0 +1,52 @@
+{
+  "candidate_count": 49,
+  "candidate_ids_sha256": "cb7526f237d75860501d3251e3eeb499e1a796f78603ed93a5dcdf5c5dc8c305",
+  "candidate_inputs_sha256": "2f552d1fdd682d179680f8f62ba689bfd998a708a94e7f19d9fdf928afb0adbd",
+  "chapter_number": 8,
+  "chapter_title": "Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1783,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Stacks}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 13,
+  "section_inputs_sha256": "c34cf25a0808c614913a36450c061d7787b87f94a13c92f4d89827ba31f2f4c9",
+  "source_file": "stacks.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "ca374cb00b1c71acf10e30faef293108d079258211d935fe0d4add1477634ba9",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
