@@ -1,0 +1,52 @@
+{
+  "candidate_count": 13,
+  "candidate_ids_sha256": "818ead80e4a9418fa7fd05152f4dea71d9a5c32340ce0a469b07d6d8621c014f",
+  "candidate_inputs_sha256": "c707ae75a3d20feca8dfb42f41d4658dafb5251f6d26e6c889ed44e60c69b610",
+  "chapter_number": 89,
+  "chapter_title": "Resolution of Surfaces Revisited",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 403,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Resolution of Surfaces Revisited}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 9,
+  "section_inputs_sha256": "33f9d86880b7574b5f6a430b4ecaeb5ab0e3ad81c7ec2115be525bb54dbdaaf0",
+  "source_file": "spaces-resolve.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "d9565fe1bd4b806058b83bb9ae31b3ab9df45950da8db89ce0bf4ce297cc0904",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
