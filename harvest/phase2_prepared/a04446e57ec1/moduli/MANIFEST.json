@@ -1,0 +1,52 @@
+{
+  "candidate_count": 43,
+  "candidate_ids_sha256": "bc1e115ee85d97c96b459f42d3fa9b94aaf4526807f8fffdd2cd13cdac9197d3",
+  "candidate_inputs_sha256": "5198afcf4071dcca31432e9c51a0516863602fe8c415637da0670ae1f87fcda9",
+  "chapter_number": 108,
+  "chapter_title": "Moduli Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1185,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Moduli Stacks}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 12,
+  "section_inputs_sha256": "ce0205d6d2a410238ac887c3fafffa790a10a8ba3384fb387189dde4de1ec90e",
+  "source_file": "moduli.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "c9e283b30207bb93ca7c71cd83df78bb7f1962c471348b28968d9fb6a01b11d5",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
