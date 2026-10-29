@@ -1,0 +1,52 @@
+{
+  "candidate_count": 82,
+  "candidate_ids_sha256": "0a38f0d65d8d88b529f1112a96a41c4f68f3e8fdee522653c9df68a7d5d044bf",
+  "candidate_inputs_sha256": "b25a6ba466aabd15967266defd8469e7022da1120cb4a59cf074a1cb12b5346b",
+  "chapter_number": 99,
+  "chapter_title": "Quot and Hilbert Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3102,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Quot and Hilbert Spaces}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 16,
+  "section_inputs_sha256": "57d60740f8edd223b5a94bd903ddb29068c76d84fca146c132249876aac14c7f",
+  "source_file": "quot.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "dd8e6fe1c77fbc372252abbfc7f449a5d9a344d1e83acabcc55a53edf3f750e0",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
