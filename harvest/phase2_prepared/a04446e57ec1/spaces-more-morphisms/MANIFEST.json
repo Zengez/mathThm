@@ -1,0 +1,52 @@
+{
+  "candidate_count": 220,
+  "candidate_ids_sha256": "fd66e2586c953e7c3948012703c207393c779f1d61e014dd8b3a1d92639269f3",
+  "candidate_inputs_sha256": "25b76f2e66d193d4e17fcaae6971158f87a793b2b22ce5a776212f36b0915df4",
+  "chapter_number": 76,
+  "chapter_title": "More on Morphisms of Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 6879,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{More on Morphisms of Spaces}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 57,
+  "section_inputs_sha256": "03ed308fb8d9120460d73c366a08f36b25660f2efb366ae03e16057b17865a8f",
+  "source_file": "spaces-more-morphisms.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "d739b3b42ce8590331c4dcf81c45d17a5f2430e46d03c004fef64034816c5081",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
