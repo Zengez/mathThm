@@ -1,0 +1,52 @@
+{
+  "candidate_count": 47,
+  "candidate_ids_sha256": "c7daf604bfa8e8a216cac07ad2a9de2666b025e0a2df1750eccb63523ebbbed2",
+  "candidate_inputs_sha256": "63d8cdc5f2a9a988b9770ce002516feb30ba616c104e32749c6ea93554b7d8fc",
+  "chapter_number": 100,
+  "chapter_title": "Properties of Algebraic Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1227,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Properties of Algebraic Stacks}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 14,
+  "section_inputs_sha256": "89e3662d7b662e368f40d6bbef131b79d8275410a75541f57b0262c04a837876",
+  "source_file": "stacks-properties.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "59d6b6df8f528ed5d3a68d9b9d74622e9b643f3622cc4d381bb46cc27a990016",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
