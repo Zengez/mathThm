@@ -1,0 +1,52 @@
+{
+  "candidate_count": 1,
+  "candidate_ids_sha256": "c4b3283b2c07a8d9a72d3115bcde91ba0e17d8f7d5cc60491132783fd909600d",
+  "candidate_inputs_sha256": "1879c59f5b325b2681bf6976162ca8d229153eba0137fb72da1af7a6f8aabf81",
+  "chapter_number": 105,
+  "chapter_title": "Introducing Algebraic Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 48,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Introducing Algebraic Stacks}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 7,
+  "section_inputs_sha256": "418ed10005fcf2e20b628d875cee8fd861862702a88a72cdc6c97212a784f1b3",
+  "source_file": "stacks-introduction.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "d4b10fd2bea9aae8a08d5d0bae3baed57094149237fcefceeaf27ba0d0c27ef2",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
