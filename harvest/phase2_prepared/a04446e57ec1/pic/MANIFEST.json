@@ -1,0 +1,52 @@
+{
+  "candidate_count": 22,
+  "candidate_ids_sha256": "c9f99dd2a7acd529cccb09afd3a0b3549045f54afc97491d73618d50e1d2e3ef",
+  "candidate_inputs_sha256": "db5fdd934004c164bdf5f1a28bf940c666581af578b3f1b953cb8c4b0a9a7fd9",
+  "chapter_number": 44,
+  "chapter_title": "Picard Schemes of Curves",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 947,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Picard Schemes of Curves}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 7,
+  "section_inputs_sha256": "f4e32e1cb6716a9f44fae70a7a5f242ccb5bad1fe4c8608b5320036742ac7c32",
+  "source_file": "pic.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "eb99495b46d3a83628c599f0d195fa90640fbfc7518727c8a427bb058f2dbff4",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
