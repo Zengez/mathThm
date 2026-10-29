@@ -1,0 +1,52 @@
+{
+  "candidate_count": 238,
+  "candidate_ids_sha256": "ebad35d7b3aaf06ece61ef56a74a1fb623c2acb8c597a90cf00f3d760219b0bf",
+  "candidate_inputs_sha256": "208369d8875513562928143e8d19827f03ccf24120e17d20e24fec9014ebd02b",
+  "chapter_number": 10,
+  "chapter_title": "Commutative Algebra",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 24380,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Commutative Algebra}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 168,
+  "section_inputs_sha256": "58fe06774d656e731702b15f30275915200f392fc3e06c242e4d5794a8f71a94",
+  "source_file": "algebra.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "fa8bb92e58a4f78a2bd01b3b6a4a87de0a0d279f5dd90641b574dd5fbfffa4f3",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
