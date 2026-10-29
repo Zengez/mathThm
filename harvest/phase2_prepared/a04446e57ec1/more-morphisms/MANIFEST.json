@@ -1,0 +1,52 @@
+{
+  "candidate_count": 236,
+  "candidate_ids_sha256": "3e59672bce053de6999f7d74dd281b18f6ec7c99bbdbed250824e8d5f6faa411",
+  "candidate_inputs_sha256": "650a5605ddc522bbccabc01ac30b57d14d95e89015bf80c08fe53cd9d4d501af",
+  "chapter_number": 37,
+  "chapter_title": "More on Morphisms",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 13635,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{More on Morphisms}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 81,
+  "section_inputs_sha256": "57a2464757f2c9043d7742ebe07f1b24eb31ff39a279fa3478bb92eb311d40c8",
+  "source_file": "more-morphisms.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "30f7b685a426bd02518cd30be6f3d8e03646c3d9c1bb7b247b983c739ecb278f",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
