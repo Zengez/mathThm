@@ -1,0 +1,52 @@
+{
+  "candidate_count": 79,
+  "candidate_ids_sha256": "8d0dc541e3030c5c722b157c598f7f3d1f15c778a51f409bf44d9d0b0d85d7f3",
+  "candidate_inputs_sha256": "2da5c250724af836b89bfbb94de2b63c71e940b2ea5a7325815bb745a7794ea7",
+  "chapter_number": 74,
+  "chapter_title": "Descent and Algebraic Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1752,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Descent and Algebraic Spaces}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 23,
+  "section_inputs_sha256": "cbe26abd28e0d210ec1ec9487e17e4b02fa451fca4cb1ec9f15ba6f292c8d1b5",
+  "source_file": "spaces-descent.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "f6ec02d079df2c809c0f1b83c80383412d3bf49d93e50f119f15ee59aa9f8459",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
