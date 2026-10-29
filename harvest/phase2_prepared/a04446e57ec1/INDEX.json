@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 19,
-  "prepared_candidates": 2041,
+  "prepared_chapters": 20,
+  "prepared_candidates": 2081,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -132,6 +132,13 @@
       "candidate_count": 122,
       "section_count": 45,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/sites-modules/MANIFEST.json"
+    },
+    {
+      "source_file": "injectives.tex",
+      "chapter_number": 19,
+      "candidate_count": 40,
+      "section_count": 15,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/injectives/MANIFEST.json"
     },
     {
       "source_file": "varieties.tex",

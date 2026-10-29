@@ -1,0 +1,52 @@
+{
+  "candidate_count": 40,
+  "candidate_ids_sha256": "e6cf8c218ef986f819d146d89cc0cdf19b1a69ca171c26b4aa1c041a09b21cb8",
+  "candidate_inputs_sha256": "fb59dd2381096ebdf5966b05e5ed7687dc1ec2509a77ac7678a78917099529ea",
+  "chapter_number": 19,
+  "chapter_title": "Injectives",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1295,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Injectives}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 15,
+  "section_inputs_sha256": "84917ea92956fe406bd8f43b7480419079f0552c2b8b7f7172036444060e91c9",
+  "source_file": "injectives.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "b1367e48800c53d72c495d386eef2d4d6c400652f9d00e69f664f17418d26520",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
