@@ -1,0 +1,52 @@
+{
+  "candidate_count": 86,
+  "candidate_ids_sha256": "729e2230318840bd7a3ccd30489535dbb4443e43d151d2d01fd6b0c2eea3abd7",
+  "candidate_inputs_sha256": "d0a08cc0d0ee9ecf6da9385e3dcfc14c5200c9ecc76548383122bd4027719b22",
+  "chapter_number": 26,
+  "chapter_title": "Schemes",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1812,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Schemes}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 24,
+  "section_inputs_sha256": "b3519863d54da4741ecf73035a521807571a6869710ce5993f7c0eaf76ceca77",
+  "source_file": "schemes.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "08475a01cf0ddf69734fd7ebc0d14d3831148c25a2ef82aaafdb65666f8fce47",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
