@@ -1,0 +1,52 @@
+{
+  "candidate_count": 70,
+  "candidate_ids_sha256": "749311dfa25dac503d43d92c0b4bbbcf1193eca01b08d1a3ed43ed88185beb56",
+  "candidate_inputs_sha256": "2ddcaff866af74c3d1360f758e53a7c96bd366b6f26e4b0366f3f6dd6f69ee3c",
+  "chapter_number": 115,
+  "chapter_title": "Obsolete",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1959,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Obsolete}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 26,
+  "section_inputs_sha256": "4c954b181fb324b4b8b087dc49a4bbec51e19b1f6e388ba9adf76be1a077c41e",
+  "source_file": "obsolete.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "533babd1f679aa9d8d5ec19c5777dc92b945c1e20d4c146324ae55d9fffc26d4",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
