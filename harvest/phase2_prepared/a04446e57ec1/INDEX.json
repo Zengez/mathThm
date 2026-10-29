@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 37,
-  "prepared_candidates": 4339,
+  "prepared_chapters": 38,
+  "prepared_candidates": 4552,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -265,6 +265,13 @@
       "candidate_count": 236,
       "section_count": 81,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/more-morphisms/MANIFEST.json"
+    },
+    {
+      "source_file": "flat.tex",
+      "chapter_number": 38,
+      "candidate_count": 213,
+      "section_count": 44,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/flat/MANIFEST.json"
     }
   ]
 }

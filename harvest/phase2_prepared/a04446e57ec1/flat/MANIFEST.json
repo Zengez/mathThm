@@ -1,0 +1,52 @@
+{
+  "candidate_count": 213,
+  "candidate_ids_sha256": "607fc6884d517f5f75cbc440497d3bc367a9a5101b690e6730a4772b69bcf366",
+  "candidate_inputs_sha256": "8ffe03f263d771b377b6ff92378b274e90871be5e7a9f5f82e2ad384d9f76edb",
+  "chapter_number": 38,
+  "chapter_title": "More on Flatness",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 8048,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{More on Flatness}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 44,
+  "section_inputs_sha256": "0ebb47ca3fdfe49ea7724faf79d7e14eaac58aa544ebe7c6a5a5edaf173fd58a",
+  "source_file": "flat.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "b4d84512290a62109009ed1a6e9ce4b58d09a566589cae90fecf88efb630a804",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
