@@ -1,0 +1,52 @@
+{
+  "candidate_count": 32,
+  "candidate_ids_sha256": "ebdad6bcf4bed04f35a6a1e4c298112570f3de13f11e949fb5c09258a4773f61",
+  "candidate_inputs_sha256": "fc59a2f5fca2325d90e0f33c3e9c49a7f0f5a7b79b26c01839c3f3085ed5d78d",
+  "chapter_number": 109,
+  "chapter_title": "Moduli of Curves",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1529,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Moduli of Curves}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 25,
+  "section_inputs_sha256": "23e61c5aebad4169820e2081183725d00476e54b4eda0c0ff7eac5cd2943c893",
+  "source_file": "moduli-curves.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "d4dba83e25d3aea239197824bca0706b650917000540ef4d324a87feaeaf41fe",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
