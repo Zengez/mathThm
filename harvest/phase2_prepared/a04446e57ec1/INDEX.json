@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 58,
-  "prepared_candidates": 6086,
+  "prepared_chapters": 59,
+  "prepared_candidates": 6308,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -412,6 +412,13 @@
       "candidate_count": 103,
       "section_count": 32,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/pione/MANIFEST.json"
+    },
+    {
+      "source_file": "etale-cohomology.tex",
+      "chapter_number": 59,
+      "candidate_count": 222,
+      "section_count": 107,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/etale-cohomology/MANIFEST.json"
     }
   ]
 }
