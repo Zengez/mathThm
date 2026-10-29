@@ -1,0 +1,52 @@
+{
+  "candidate_count": 156,
+  "candidate_ids_sha256": "970ba4dc020401f17fb41f38744a16cd58bb483e2fb3c76eb0fe718be5affd5a",
+  "candidate_inputs_sha256": "64d465fde2ea771f1eab880dacf078ccd4ae399b26888b650051d9f7e24f1509",
+  "chapter_number": 5,
+  "chapter_title": "Topology",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2929,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Topology}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 30,
+  "section_inputs_sha256": "f484d8332c370a437c34fde648e9411bfed41e3d5d09c2614fb20ed7dfc9c19b",
+  "source_file": "topology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "c6bac8dcf8ad96dc47416bf34cb45ba4a10b894e40d67d3e1fa68d8ef0d9f872",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
