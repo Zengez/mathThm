@@ -1,0 +1,52 @@
+{
+  "candidate_count": 57,
+  "candidate_ids_sha256": "cbf921bb63b9221ac9d4163618a2fdcc4da6a74e2c40d0099b01862a7e33e72d",
+  "candidate_inputs_sha256": "647c9c7754265e5996dab02d5b8e1d07f0824fbfcff618a820fc8ed36dbba62d",
+  "chapter_number": 72,
+  "chapter_title": "Algebraic Spaces over Fields",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1553,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Algebraic Spaces over Fields}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 18,
+  "section_inputs_sha256": "fa2acbb82c6799f7ace8352c645b1a7ae9053a2a9c66d6c43195f37a07e9c28b",
+  "source_file": "spaces-over-fields.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "a0afe4bc562b02d372fa02a07accd245a78601725d8010694a9b502c06c358a6",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
