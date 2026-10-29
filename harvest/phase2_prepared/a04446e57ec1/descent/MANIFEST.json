@@ -1,0 +1,52 @@
+{
+  "candidate_count": 162,
+  "candidate_ids_sha256": "5c27c696f4c586b1d9f3b541b83ef888de71c59bf53b556acf0d9ecd208df04f",
+  "candidate_inputs_sha256": "eb14651db159a5ffe37ab48ff850d400452f57ce4a913404b21bf53a5dbaeb0d",
+  "chapter_number": 35,
+  "chapter_title": "Descent",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 4456,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Descent}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 39,
+  "section_inputs_sha256": "065bfce76ddd9313111b0c6ee1adf2087eebf8f9b120b5259a6498a23232bd7f",
+  "source_file": "descent.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "49483b3bcb36427a607a8227f4ea67730fcddf1eeccb8e992ca61915ace3b31d",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
