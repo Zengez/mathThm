@@ -1,0 +1,88 @@
+{
+  "candidate_count": 0,
+  "candidate_ids_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "candidate_inputs_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "chapter_number": 1,
+  "chapter_title": "Introduction",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 0,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Introduction}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\begin{verbatim}"
+    },
+    {
+      "line": 16,
+      "tex": "Copyright (C) 2005 -- 2025 Johan de Jong"
+    },
+    {
+      "line": 17,
+      "tex": "Permission is granted to copy, distribute and/or modify this"
+    },
+    {
+      "line": 18,
+      "tex": "document under the terms of the GNU Free Documentation License,"
+    },
+    {
+      "line": 19,
+      "tex": "Version 1.2 or any later version published by the Free Software"
+    },
+    {
+      "line": 20,
+      "tex": "Foundation; with no Invariant Sections, no Front-Cover Texts,"
+    },
+    {
+      "line": 21,
+      "tex": "and no Back-Cover Texts. A copy of the license is included in"
+    },
+    {
+      "line": 22,
+      "tex": "the section entitled \"GNU Free Documentation License\"."
+    },
+    {
+      "line": 23,
+      "tex": "\\end{verbatim}"
+    },
+    {
+      "line": 25,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 2,
+  "section_inputs_sha256": "480ded1539e11dc9336811ec1f9c28b71b1ff18aab3c7bef5300c8eba5d3bfe9",
+  "source_file": "introduction.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "43abd6493bf48325878d6573966e97025770d4b4e12db1dda31da7fd181d4acf",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
