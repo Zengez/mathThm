@@ -1,0 +1,52 @@
+{
+  "candidate_count": 31,
+  "candidate_ids_sha256": "6adb064ed26dc0acb026bd72afb147f75cfbf0dc313f18004bbbecdd0056c57d",
+  "candidate_inputs_sha256": "444c8f3f5c039b1b2a82cb76a3c8066c18cd89547ffa025624fff0206219cb27",
+  "chapter_number": 80,
+  "chapter_title": "Bootstrap",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1262,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Bootstrap}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 12,
+  "section_inputs_sha256": "616e0cac43a67d23a578da3034ce9e3deeb881b6545055c3a9efd470223f27df",
+  "source_file": "bootstrap.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "dfeadba5372fa418abcc6aedb2fe160a81049e4ac6d82762a0aeddfaf9550f6b",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
