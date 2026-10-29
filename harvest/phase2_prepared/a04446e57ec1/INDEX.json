@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 93,
-  "prepared_candidates": 8783,
+  "prepared_chapters": 94,
+  "prepared_candidates": 8829,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -657,6 +657,13 @@
       "candidate_count": 33,
       "section_count": 17,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/examples-defos/MANIFEST.json"
+    },
+    {
+      "source_file": "algebraic.tex",
+      "chapter_number": 94,
+      "candidate_count": 46,
+      "section_count": 19,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/algebraic/MANIFEST.json"
     }
   ]
 }

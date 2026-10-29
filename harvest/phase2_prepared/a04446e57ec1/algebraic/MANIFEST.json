@@ -1,0 +1,52 @@
+{
+  "candidate_count": 46,
+  "candidate_ids_sha256": "a2d122b162ac35c957c51fb2cedc2eab8688c82311b4544b868a026f2460b324",
+  "candidate_inputs_sha256": "39dc92f6199ee69be34541abc8ab54f4a5e649e4a1ffdb30671dbe4bdf4ba72e",
+  "chapter_number": 94,
+  "chapter_title": "Algebraic Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 958,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Algebraic Stacks}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 19,
+  "section_inputs_sha256": "bddbc060c46b7b2672425626b4f431eb6e180914b0aede11b2648edc899e02b8",
+  "source_file": "algebraic.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "08445616a6bb3555d25b8b589daf3faaf68e8ca5aa0bd7ce85e6332740d7dfcb",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
