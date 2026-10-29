@@ -1,0 +1,257 @@
+{
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "scope_rule": "Definitions supply meanings, chapter k-field global only, lemma-local hypotheses expire. Proof environments excluded from all excerpts.",
+  "contexts": [
+    {
+      "context_id": "definition-variety",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 53,
+      "end_line": 58,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-variety}\nLet $k$ be a field. A {\\it variety} is a scheme $X$ over $k$\nsuch that $X$ is integral and the structure morphism\n$X \\to \\Spec(k)$ is separated and of finite type.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-geometrically-reduced",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 330,
+      "end_line": 343,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-geometrically-reduced}\nLet $k$ be a field.\nLet $X$ be a scheme over $k$.\n\\begin{enumerate}\n\\item Let $x \\in X$ be a point.\nWe say $X$ is {\\it geometrically reduced at $x$}\nif for any field extension $k'/k$\nand any point $x' \\in X_{k'}$ lying over $x$\nthe local ring $\\mathcal{O}_{X_{k'}, x'}$ is reduced.\n\\item We say $X$ is {\\it geometrically reduced} over $k$\nif $X$ is geometrically reduced at every point of $X$.\n\\end{enumerate}\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-geometrically-connected",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 687,
+      "end_line": 692,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-geometrically-connected}\nLet $X$ be a scheme over the field $k$. We say $X$ is\n{\\it geometrically connected} over $k$ if the scheme $X_{k'}$ is connected\nfor every field extension $k'$ of $k$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-geometrically-irreducible",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 1337,
+      "end_line": 1343,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-geometrically-irreducible}\nLet $X$ be a scheme over the field $k$.\nWe say $X$ is {\\it geometrically irreducible} over $k$ if the scheme\n$X_{k'}$ is irreducible\\footnote{An irreducible space is nonempty.}\nfor any field extension $k'$ of $k$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-geometrically-integral",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 1898,
+      "end_line": 1911,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-geometrically-integral}\nLet $X$ be a scheme over the field $k$.\n\\begin{enumerate}\n\\item Let $x \\in X$. We say $X$ is\n{\\it geometrically pointwise integral at $x$} if for every\nfield extension $k'/k$ and every $x' \\in X_{k'}$ lying over $x$\nthe local ring $\\mathcal{O}_{X_{k'}, x'}$ is integral.\n\\item We say $X$ is {\\it geometrically pointwise integral} if $X$\nis geometrically pointwise integral at every point.\n\\item We say $X$ is {\\it geometrically integral} over $k$ if the scheme\n$X_{k'}$ is integral for every field extension $k'$ of $k$.\n\\end{enumerate}\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-geometrically-normal",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2104,
+      "end_line": 2115,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-geometrically-normal}\nLet $X$ be a scheme over the field $k$.\n\\begin{enumerate}\n\\item Let $x \\in X$. We say $X$ is\n{\\it geometrically normal at $x$} if for every\nfield extension $k'/k$ and every $x' \\in X_{k'}$ lying over $x$\nthe local ring $\\mathcal{O}_{X_{k'}, x'}$ is normal.\n\\item We say $X$ is {\\it geometrically normal} over $k$ if $X$\nis geometrically normal at every $x \\in X$.\n\\end{enumerate}\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-geometrically-regular",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2363,
+      "end_line": 2374,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-geometrically-regular}\nLet $k$ be a field. Let $X$ be a locally Noetherian scheme over $k$.\n\\begin{enumerate}\n\\item Let $x \\in X$. We say $X$ is {\\it geometrically regular at $x$}\nover $k$ if for every finitely generated field extension $k'/k$\nand any $x' \\in X_{k'}$ lying over $x$ the local ring\n$\\mathcal{O}_{X_{k'}, x'}$ is regular.\n\\item We say $X$ is {\\it geometrically regular over $k$} if\n$X$ is geometrically regular at all of its points.\n\\end{enumerate}\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-dual-numbers",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2918,
+      "end_line": 2924,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-dual-numbers}\nFor any ring $R$ the {\\it dual numbers} over $R$ is the\n$R$-algebra denoted $R[\\epsilon]$. As an $R$-module it is free with\nbasis $1$, $\\epsilon$ and the $R$-algebra structure comes from setting\n$\\epsilon^2 = 0$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-tangent-space",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2987,
+      "end_line": 2994,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-tangent-space}\nLet $f : X \\to S$ be a morphism of schemes. Let $x \\in X$. The set of\ndotted arrows making (\\ref{equation-tangent-space}) commute with\nits canonical $\\kappa(x)$-vector space structure is called\nthe {\\it tangent space of $X$ over $S$ at $x$} and we denote it $T_{X/S, x}$.\nAn element of this space is called a {\\it tangent vector} of $X/S$ at $x$.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-algebraic-scheme",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 3719,
+      "end_line": 3726,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-algebraic-scheme}\nLet $k$ be a field. An {\\it algebraic $k$-scheme} is a scheme $X$ over $k$\nsuch that the structure morphism $X \\to \\Spec(k)$ is of\nfinite type. A {\\it locally algebraic $k$-scheme} is a scheme $X$ over $k$\nsuch that the structure morphism $X \\to \\Spec(k)$ is\nlocally of finite type.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "definition-variety-type",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 4843,
+      "end_line": 4865,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-variety-type}\nLet $k$ be a field. Let $X$ be a variety over $k$.\n\\begin{enumerate}\n\\item We say $X$ is an {\\it affine variety} if $X$ is an affine scheme.\nThis is equivalent to requiring $X$ to be isomorphic to a closed\nsubscheme of $\\mathbf{A}^n_k$ for some $n$.\n\\item We say $X$ is a {\\it projective variety} if the\nstructure morphism $X \\to \\Spec(k)$ is projective. By\nMorphisms, Lemma \\ref{morphisms-lemma-characterize-locally-projective}\nthis is true if and only if $X$ is isomorphic to a closed\nsubscheme of $\\mathbf{P}^n_k$ for some $n$.\n\\item We say $X$ is a {\\it quasi-projective variety} if\nthe structure morphism $X \\to \\Spec(k)$ is quasi-projective. By\nMorphisms, Lemma \\ref{morphisms-lemma-characterize-locally-quasi-projective}\nthis is true if and only if $X$ is isomorphic to a\nlocally closed subscheme of $\\mathbf{P}^n_k$ for some $n$.\n\\item A {\\it proper variety} is a variety such that the\nmorphism $X \\to \\Spec(k)$ is proper.\n\\item A {\\it smooth variety} is a variety such that the\nmorphism $X \\to \\Spec(k)$ is smooth.\n\\end{enumerate}\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "prose31",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 31,
+      "end_line": 35,
+      "source_excerpt_tex": "\\section{Notation}\n\\label{section-notation}\n\n\\noindent\nThroughout this chapter we use the letter $k$ to denote the ground field.",
+      "interpretation": "Chapter-wide k denotes ground FIELD, no algebraic-closure/perfectness standing assumption.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "prose148",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 148,
+      "end_line": 159,
+      "source_excerpt_tex": "\\section{Varieties and rational maps}\n\\label{section-varieties-rational-maps}\n\n\\noindent\nLet $k$ be a field. Let $X$ and $Y$ be varieties over $k$.\nWe will use the phrase {\\it rational map of varieties from $X$ to $Y$}\nto mean a $\\Spec(k)$-rational map from the scheme $X$ to the scheme $Y$\nas defined in Morphisms, Definition \\ref{morphisms-definition-rational-map}.\nAs is customary, the phrase ``rational map of varieties''\ndoes not refer to the (common) base field of the varieties,\neven though for general schemes we make the distinction between\nrational maps and rational maps over a given base.",
+      "interpretation": "Rational maps of varieties are over common k.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "prose195",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 195,
+      "end_line": 203,
+      "source_excerpt_tex": "\\noindent\nLet $k$ be a field. Let $X$ and $Y$ be varieties over $k$.\nWe will use the phrase {\\it $X$ and $Y$ are birational varieties}\nto mean $X$ and $Y$ are $\\Spec(k)$-birational\nas defined in Morphisms, Definition \\ref{morphisms-definition-birational}.\nAs is customary, the phrase ``birational varieties''\ndoes not refer to the (common) base field of the varieties,\neven though for general irreducible schemes we make the distinction between\nbeing birational and being birational over a given base.",
+      "interpretation": "Birational varieties means birational over common k.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "prose694",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 694,
+      "end_line": 696,
+      "source_excerpt_tex": "\\noindent\nBy convention a connected topological space is nonempty; hence a fortiori\ngeometrically connected schemes are nonempty.",
+      "interpretation": "Connected means NONEMPTY in this source; do not use convention allowing empty connected spaces.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "prose2353",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2353,
+      "end_line": 2361,
+      "source_excerpt_tex": "\\medskip\\noindent\nIn the following definition we restrict ourselves to locally Noetherian\nschemes, since the property of being a regular local ring is only\ndefined for Noetherian local rings. By\nLemma \\ref{lemma-locally-Noetherian-base-change}\nabove, if we restrict ourselves to finitely generated field extensions then\nthis property is preserved under change of base field. This comment will be\nused without further reference in this section. In particular the following\ndefinition makes sense.",
+      "interpretation": "Geometric regularity section restricts schemes to locally Noetherian and field extensions finitely generated; no such restriction inherited by geometric normality.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "prose2926",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2926,
+      "end_line": 2944,
+      "source_excerpt_tex": "\\noindent\nLet $f : X \\to S$ be a morphism of schemes.\nLet $x \\in X$ be a point with image $s = f(x)$ in $S$.\nConsider the solid commutative diagram\n\\begin{equation}\n\\label{equation-tangent-space}\n\\vcenter{\n\\xymatrix{\n\\Spec(\\kappa(x)) \\ar[r] \\ar[dr] \\ar@/^1pc/[rr] &\n\\Spec(\\kappa(x)[\\epsilon]) \\ar@{.>}[r] \\ar[d]&\nX \\ar[d] \\\\\n&\n\\Spec(\\kappa(s)) \\ar[r] &\nS\n}\n}\n\\end{equation}\nwith the curved arrow being the canonical morphism of\n$\\Spec(\\kappa(x))$ into $X$.",
+      "interpretation": "Tangent lifts fixed residue point through dual numbers over residue field of its image.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "prose2996",
+      "source_file": "varieties.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 2996,
+      "end_line": 3011,
+      "source_excerpt_tex": "\\noindent\nSince tangent vectors at $x \\in X$ live in the scheme theoretic fibre\n$X_s$ of $f : X \\to S$ over $s = f(x)$, we get a canonical identification\n\\begin{equation}\n\\label{equation-tangent-space-fibre}\nT_{X/S, x} = T_{X_s/s, x}\n\\end{equation}\nThis pleasing definition involving the functor of points has the following\nalgebraic description, which suggests defining the\n{\\it cotangent space of $X$ over $S$ at $x$} as the $\\kappa(x)$-vector\nspace\n$$\nT^*_{X/S, x} = \\Omega_{X/S, x} \\otimes_{\\mathcal{O}_{X, x}} \\kappa(x)\n$$\nsimply because it is canonically $\\kappa(x)$-dual to the tangent space of\n$X$ over $S$ at $x$.",
+      "interpretation": "Tangent identified with fibre tangent; cotangent is relative differentials tensored residue field.",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "algebra.tex:definition-geometrically-reduced",
+      "source_file": "algebra.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 10045,
+      "end_line": 10051,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-geometrically-reduced}\nLet $k$ be a field. Let $S$ be a $k$-algebra.\nWe say $S$ is {\\it geometrically reduced over $k$}\nif for every field extension $K/k$ the\n$K$-algebra $K \\otimes_k S$ is reduced.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "algebra.tex:definition-geometrically-connected",
+      "source_file": "algebra.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 11560,
+      "end_line": 11567,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-geometrically-connected}\nLet $k$ be a field.\nLet $S$ be a $k$-algebra.\nWe say $S$ is {\\it geometrically connected over $k$}\nif for every field extension $k'/k$ the spectrum\nof $S \\otimes_k k'$ is connected.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "algebra.tex:definition-geometrically-irreducible",
+      "source_file": "algebra.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 11206,
+      "end_line": 11213,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-geometrically-irreducible}\nLet $k$ be a field.\nLet $S$ be a $k$-algebra.\nWe say $S$ is {\\it geometrically irreducible over $k$}\nif for every field extension $k'/k$ the spectrum of\n$S \\otimes_k k'$ is irreducible\\footnote{An irreducible space is nonempty.}.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "algebra.tex:lemma-geometrically-normal",
+      "source_file": "algebra.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 46885,
+      "end_line": 46899,
+      "source_excerpt_tex": "\\begin{lemma}\n\\label{lemma-geometrically-normal}\nLet $k$ be a field. Let $A$ be a $k$-algebra.\nThe following properties of $A$ are equivalent:\n\\begin{enumerate}\n\\item $k' \\otimes_k A$ is a normal ring\nfor every field extension $k'/k$,\n\\item $k' \\otimes_k A$ is a normal ring\nfor every finitely generated field extension $k'/k$,\n\\item $k' \\otimes_k A$ is a normal ring\nfor every finite purely inseparable extension $k'/k$,\n\\item $k^{perf} \\otimes_k A$ is a normal ring.\n\\end{enumerate}\nHere normal ring is defined in Definition \\ref{definition-ring-normal}.\n\\end{lemma}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "algebra.tex:lemma-geometrically-regular",
+      "source_file": "algebra.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 47103,
+      "end_line": 47115,
+      "source_excerpt_tex": "\\begin{lemma}\n\\label{lemma-geometrically-regular}\nLet $k$ be a field. Let $A$ be a $k$-algebra.\nAssume $A$ is Noetherian.\nThe following properties of $A$ are equivalent:\n\\begin{enumerate}\n\\item $k' \\otimes_k A$ is regular for every finitely generated field\nextension $k'/k$, and\n\\item $k' \\otimes_k A$ is regular for every finite purely inseparable\nextension $k'/k$.\n\\end{enumerate}\nHere regular ring is as in Definition \\ref{definition-regular}.\n\\end{lemma}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "morphisms.tex:definition-scheme-theoretic-image",
+      "source_file": "morphisms.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 823,
+      "end_line": 828,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-scheme-theoretic-image}\nLet $f : X \\to Y$ be a morphism of schemes. The {\\it scheme theoretic image}\nof $f$ is the smallest closed subscheme $Z \\subset Y$ through which $f$\nfactors, see Lemma \\ref{lemma-scheme-theoretic-image} above.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "morphisms.tex:definition-normalization",
+      "source_file": "morphisms.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 14378,
+      "end_line": 14388,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-normalization}\nLet $X$ be a scheme such that every quasi-compact open has\nfinitely many irreducible components. We define the\n{\\it normalization} of $X$ as the morphism\n$$\n\\nu : X^\\nu \\longrightarrow X\n$$\nwhich is the normalization of $X$ in the morphism $f : Y \\to X$\n(\\ref{equation-generic-points}) constructed above.\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "morphisms.tex:definition-smooth",
+      "source_file": "morphisms.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 7017,
+      "end_line": 7036,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-smooth}\nLet $f : X \\to S$ be a morphism of schemes.\n\\begin{enumerate}\n\\item We say that $f$ is {\\it smooth at $x \\in X$} if\nthere exist an affine open neighbourhood $\\Spec(A) = U \\subset X$\nof $x$ and affine open $\\Spec(R) = V \\subset S$\nwith $f(U) \\subset V$ such that the induced ring map\n$R \\to A$ is smooth.\n\\item We say that $f$ is {\\it smooth} if it is smooth at every point of $X$.\n\\item A morphism of affine schemes $f : X \\to S$\nis called {\\it standard smooth} if there exists a standard smooth ring\nmap $R \\to R[x_1, \\ldots, x_n]/(f_1, \\ldots, f_c)$ (see\nAlgebra, Definition \\ref{algebra-definition-standard-smooth})\nsuch that $X \\to S$ is isomorphic to\n$$\n\\Spec(R[x_1, \\ldots, x_n]/(f_1, \\ldots, f_c)) \\to \\Spec(R).\n$$\n\\end{enumerate}\n\\end{definition}",
+      "used_as_extra_hypotheses": false
+    },
+    {
+      "context_id": "relative-normalization",
+      "source_file": "morphisms.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "start_line": 13909,
+      "end_line": 13924,
+      "source_excerpt_tex": "\\begin{definition}\n\\label{definition-normalization-X-in-Y}\nLet $f : Y \\to X$ be a quasi-compact and quasi-separated morphism of schemes.\nLet $\\mathcal{O}'$ be the integral closure of $\\mathcal{O}_X$ in\n$f_*\\mathcal{O}_Y$. The {\\it normalization of $X$ in $Y$} is the\nscheme\\footnote{The scheme $X'$ need not be normal, for example if\n$Y = X$ and $f = \\text{id}_X$, then $X' = X$.}\n$$\n\\nu : X' = \\underline{\\Spec}_X(\\mathcal{O}') \\to X\n$$\nover $X$. It comes equipped with a natural factorization\n$$\nY \\xrightarrow{f'} X' \\xrightarrow{\\nu} X\n$$\nof the initial morphism $f$.\n\\end{definition}",
+      "interpretation": "Relative normalization is relative spectrum of integral closure of O_X in f_*O_Y, not ordinary normalization of X.",
+      "used_as_extra_hypotheses": false
+    }
+  ]
+}

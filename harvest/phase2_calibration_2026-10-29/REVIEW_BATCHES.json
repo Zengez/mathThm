@@ -44,6 +44,12 @@
       "reconstructor": "root",
       "reconstructions": "harvest/phase2_chapters_2026-10-29/algebra_tail/RECONSTRUCTIONS.jsonl",
       "independent_validation": "harvest/phase2_chapters_2026-10-29/algebra_tail/INDEPENDENT_VALIDATION.jsonl"
+    },
+    {
+      "name": "chapters-varieties-a-123",
+      "reconstructor": "calibration_algebra",
+      "reconstructions": "harvest/phase2_chapters_2026-10-29/varieties_a/RECONSTRUCTIONS.jsonl",
+      "independent_validation": "harvest/phase2_chapters_2026-10-29/varieties_a/INDEPENDENT_VALIDATION.jsonl"
     }
   ],
   "pending_reconstruction_batches": [],

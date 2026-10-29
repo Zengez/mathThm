@@ -1,3 +1,13 @@
+# CURRENT EXECUTION CHECKPOINT — Varieties A complete; B continuing (October 29, 2026)
+
+**Branch:** `codex/phase2-validation`; current **543 authoritative Phase2 approvals**, +133 from starting410. Algebra tail13 approved; VarietiesA123 independently reviewed,120approved3precise source holds. Prior approvals preserved. Full Python160tests pass. No Phase3/proofscreening/publication.
+
+**Varieties:** first28 complete consecutive sections17–5431 reviewed and materialized. Remaining20sections5432–11343 have114active candidates; same reconstructor/independent validator pair continues with shared chapter context. Total chapter237 remains verified against active/raw/registry IDs. Sourceholds category variance, empty-scheme criterion, residue-field intersection must not be silently promoted.
+
+**Resume:** [Current report](harvest/phase2_chapters_2026-10-29/REPORT.md), [metrics](harvest/phase2_chapters_2026-10-29/METRICS.json), [coverage](harvest/phase2_chapters_2026-10-29/VARIETIES_COVERAGE.json). Continue varieties_b, save persection, require substantive independent decisions on exact final content before extending established review manifest. Do not repeat Algebra13 or VarietiesA. Completed sections have separate independent checkpoint files distinguishing holds from eligibility. Source pinned a04446e57ec1fbc252a871afcec7752fb2807b14.
+
+---
+
 # CURRENT EXECUTION CHECKPOINT — Algebra complete; Varieties chapter assignment (October 29, 2026)
 
 **Branch:** `codex/phase2-validation`, started at `91c2aab`. **Current authoritative approvals: 423**, +13. All remaining Algebra9514–10036 candidates independently approved with three corrected logical splits; prior410 preserved. No Phase3 or publication.
