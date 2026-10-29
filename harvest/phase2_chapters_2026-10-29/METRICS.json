@@ -1,0 +1,40 @@
+{
+  "starting_commit": "91c2aab",
+  "starting_approvals": 410,
+  "current_approvals": 423,
+  "new_approvals": 13,
+  "independently_reviewed": 13,
+  "holds": 0,
+  "algebra_tail": {
+    "candidates": 13,
+    "approved": 13,
+    "sections": 2,
+    "structured_corrections": 3
+  },
+  "varieties": {
+    "active_candidates": 237,
+    "source_sections": 48,
+    "independently_reviewed": 0,
+    "remaining": 237,
+    "batches": [
+      {
+        "name": "varieties_a",
+        "candidates": 123,
+        "sections": 28,
+        "start_line": 17,
+        "end_line": 5431,
+        "state": "in_progress"
+      },
+      {
+        "name": "varieties_b",
+        "candidates": 114,
+        "sections": 20,
+        "start_line": 5432,
+        "end_line": 11343,
+        "state": "not_yet_complete"
+      }
+    ]
+  },
+  "reliable_token_or_credit_usage": null,
+  "proofs_screened": 0
+}

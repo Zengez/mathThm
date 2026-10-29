@@ -38,13 +38,19 @@
       "reconstructor": "root",
       "reconstructions": "harvest/phase2_optimized_2026-10-29/divisors_b/RECONSTRUCTIONS.jsonl",
       "independent_validation": "harvest/phase2_optimized_2026-10-29/divisors_b/INDEPENDENT_VALIDATION.jsonl"
+    },
+    {
+      "name": "chapters-algebra-tail-13",
+      "reconstructor": "root",
+      "reconstructions": "harvest/phase2_chapters_2026-10-29/algebra_tail/RECONSTRUCTIONS.jsonl",
+      "independent_validation": "harvest/phase2_chapters_2026-10-29/algebra_tail/INDEPENDENT_VALIDATION.jsonl"
     }
   ],
   "pending_reconstruction_batches": [],
-  "run_baseline_file": "harvest/phase2_optimized_2026-10-29/BASELINE.json",
+  "run_baseline_file": "harvest/phase2_chapters_2026-10-29/BASELINE.json",
   "current_run_review_batch_names": [
-    "algebra-followup-46",
-    "optimized-divisors-a-102",
-    "optimized-divisors-b-120"
+    "chapters-algebra-tail-13",
+    "chapters-varieties-a-123",
+    "chapters-varieties-b-114"
   ]
 }

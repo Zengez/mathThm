@@ -1,22 +1,22 @@
 {
   "active_candidates": 9675,
   "additional_stage_a_candidates_awaiting_independent_review": 0,
-  "calibration_and_followup_candidates_reviewed": 345,
-  "current_run_candidates_independently_reviewed": 268,
+  "calibration_and_followup_candidates_reviewed": 358,
+  "current_run_candidates_independently_reviewed": 13,
   "date": "2026-10-29",
   "duplicate_blockers_are_secondary_not_additional_population": true,
   "duplicate_review_blockers": 8,
-  "fully_phase2_validated": 410,
+  "fully_phase2_validated": 423,
   "mutually_exclusive_states": {
-    "awaiting_mathematical_validation": 872,
+    "awaiting_mathematical_validation": 859,
     "context_reconstruction_required": 338,
     "earlier_pilot_reconciliation_required": 30,
-    "fully_phase2_validated": 410,
+    "fully_phase2_validated": 423,
     "not_yet_reconstructed": 8025
   },
-  "newly_validated_since_original_semantic_gate": 342,
-  "newly_validated_this_run": 266,
-  "phase3_eligible": 410,
+  "newly_validated_since_original_semantic_gate": 355,
+  "newly_validated_this_run": 13,
+  "phase3_eligible": 423,
   "production_corpus_changed": false,
   "proofs_screened_this_run": 0,
   "reconstructed_registry_candidates": 1650,
@@ -240,18 +240,18 @@
     },
     {
       "active_candidates": 10,
-      "all_individually_reviewed": false,
-      "all_phase3_eligible": false,
-      "recorded_this_run": 0,
+      "all_individually_reviewed": true,
+      "all_phase3_eligible": true,
+      "recorded_this_run": 10,
       "section_end_line": 9905,
       "section_start_line": 9514,
       "source_file": "algebra.tex"
     },
     {
       "active_candidates": 3,
-      "all_individually_reviewed": false,
-      "all_phase3_eligible": false,
-      "recorded_this_run": 0,
+      "all_individually_reviewed": true,
+      "all_phase3_eligible": true,
+      "recorded_this_run": 3,
       "section_end_line": 10036,
       "section_start_line": 9906,
       "source_file": "algebra.tex"
@@ -3138,5 +3138,5 @@
     }
   ],
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "starting_phase2_validated": 144
+  "starting_phase2_validated": 410
 }
