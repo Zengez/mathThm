@@ -1,0 +1,52 @@
+{
+  "candidate_count": 229,
+  "candidate_ids_sha256": "b7f6da4ee7aa6f43147ff64527831e34842df9fbdb6c25188f8e35f6a7ac9a61",
+  "candidate_inputs_sha256": "3071eb4c47604083f9931dbd04baeefd917f5bb089e07b4925e07e3c1b0cb8dc",
+  "chapter_number": 15,
+  "chapter_title": "More on Algebra",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 21406,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{More on Algebra}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 130,
+  "section_inputs_sha256": "9d7cbfa9d1679f9dd27e9d8ad515f25b431599a6272d4faf60dc660ce620750e",
+  "source_file": "more-algebra.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "0106554339e8966fe04411b2ae9f9cd856b165849feef0c7bc37634819064708",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
