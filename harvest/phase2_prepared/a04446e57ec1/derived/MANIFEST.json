@@ -1,0 +1,52 @@
+{
+  "candidate_count": 199,
+  "candidate_ids_sha256": "3a74376e1fc50e1cec3007f4d1dc22d32b027f2ce6d7e9f6370c6f0654f00d56",
+  "candidate_inputs_sha256": "851e8cd452c4a96e3c244f589ecb2be12fd0df0f9673d9e21bd2af01b7e8b404",
+  "chapter_number": 13,
+  "chapter_title": "Derived Categories",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 5596,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Derived Categories}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 42,
+  "section_inputs_sha256": "107204fdd6471b86ff610e65e89f344a931aee90d9ee1c8ec851a700775b34d6",
+  "source_file": "derived.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "efda4cb361dd40909d1991161eae716e58b6cf9e79380971502e1da12396d402",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
