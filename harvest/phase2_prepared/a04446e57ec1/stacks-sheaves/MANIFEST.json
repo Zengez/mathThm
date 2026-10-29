@@ -1,0 +1,52 @@
+{
+  "candidate_count": 63,
+  "candidate_ids_sha256": "5cd2c846d7a758b78682474aba32bda6120b9a54596c7b06f381711f03213f05",
+  "candidate_inputs_sha256": "ffdec7c97b552b82b688711eaed5db541a79b1134a62c3ad83c867260d9634f7",
+  "chapter_number": 96,
+  "chapter_title": "Sheaves on Algebraic Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1887,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Sheaves on Algebraic Stacks}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 26,
+  "section_inputs_sha256": "24df9b0add6d29a8d55b4c826c54e30c86269870bd4cecccb6b5fce293842b87",
+  "source_file": "stacks-sheaves.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "7e28b1ed25663bf5868c34b99f567e1ce49b0eebc238d39e4117ba9d5e4c2e36",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
