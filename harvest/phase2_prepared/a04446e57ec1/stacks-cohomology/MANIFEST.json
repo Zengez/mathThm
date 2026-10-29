@@ -1,0 +1,52 @@
+{
+  "candidate_count": 46,
+  "candidate_ids_sha256": "2bebeda597d18c3661e80a4f573d1852722745ac464c65d22a5f123454586dd6",
+  "candidate_inputs_sha256": "7a045e2a667e270efaaff659de2d876d94277aaeb1d555849485162bac7ee391",
+  "chapter_number": 103,
+  "chapter_title": "Cohomology of Algebraic Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2028,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Cohomology of Algebraic Stacks}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 18,
+  "section_inputs_sha256": "7c5155f10ad0bfcfa8d289878e333b9160f3e835f587d51753494bedb96228ee",
+  "source_file": "stacks-cohomology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "c0bc0aa791d2fce0fa7ecb65d2f5285884fcec9984de229b6627daee9525f165",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
