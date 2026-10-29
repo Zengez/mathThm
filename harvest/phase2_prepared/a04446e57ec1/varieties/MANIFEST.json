@@ -1,0 +1,52 @@
+{
+  "candidate_count": 237,
+  "candidate_ids_sha256": "acab43725b7c6a8006237378f2245d58354ddd05730ab1abf818af47bf26ceca",
+  "candidate_inputs_sha256": "55dd660a16723eb732526e9da1c7f5c0bc4e8d92f77b8f87601b4d5ba8754b76",
+  "chapter_number": 33,
+  "chapter_title": "Varieties",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 6277,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Varieties}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 48,
+  "section_inputs_sha256": "92b995f3fcf2625b463f2893950fc2a56dce7544cc2804ed2064687e80ee1062",
+  "source_file": "varieties.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "53d0af48818d22ae85675eff76b79fcad4335fda0b4574ec09f5c9e73cc93995",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
