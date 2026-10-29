@@ -1,0 +1,52 @@
+{
+  "candidate_count": 63,
+  "candidate_ids_sha256": "49ffaada7c4f90d3f41384ee56afe2718c737a6e96f1851dc641669fb4c69987",
+  "candidate_inputs_sha256": "e58bd315cbde3c1d5898e95c09ec6c0032de53cbdaaa9ace3479672b6ce302ff",
+  "chapter_number": 55,
+  "chapter_title": "Semistable Reduction",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2049,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Semistable Reduction}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 18,
+  "section_inputs_sha256": "19860c8d47089c705abfead1143e782b64e15a94d3193931f78077d0ce1d53f0",
+  "source_file": "models.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "5cfa014ca4381c99333043af35ed443f10e083fa601f854f78770b71c9a5f98b",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
