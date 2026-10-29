@@ -1,0 +1,52 @@
+{
+  "candidate_count": 71,
+  "candidate_ids_sha256": "8882ab0dbea3e894ad6e7579fff3c8bf0b23bf3fd859167b77a98766384d62da",
+  "candidate_inputs_sha256": "eb75eb6dff5258913523ebb7162e612fd62cb26765b469cb4cf0c90370ef252d",
+  "chapter_number": 82,
+  "chapter_title": "Chow Groups of Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2379,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Chow Groups of Spaces}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 32,
+  "section_inputs_sha256": "2781986cfd4440e90b18129bccf55216299cdaa570f155cf2dd4ae9b66255fe7",
+  "source_file": "spaces-chow.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "0ad158473819f16541967b9c307d8154f02a6fa52c65f1e6688f211443228f89",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
