@@ -1,0 +1,52 @@
+{
+  "candidate_count": 139,
+  "candidate_ids_sha256": "b9daedc673b0469d8bd09878c98f7d8a3a68bc46982f1f07c5041e480afd0fbb",
+  "candidate_inputs_sha256": "e75838c1c4a9c7991b02c338ae435804352987fddd1a01053ad7c2bfb25953a5",
+  "chapter_number": 47,
+  "chapter_title": "Dualizing Complexes",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2946,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Dualizing Complexes}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 27,
+  "section_inputs_sha256": "5c5282a3ed17158ea7962f911a43d98c3ef7564085673f81df64a417d3e40296",
+  "source_file": "dualizing.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "02cf32da2341150facae8b9961981f76bcb48c800d8d40f0b445b44a5a99915c",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
