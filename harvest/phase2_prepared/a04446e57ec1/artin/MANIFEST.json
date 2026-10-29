@@ -1,0 +1,52 @@
+{
+  "candidate_count": 57,
+  "candidate_ids_sha256": "cedf9e8b74fef785febb572a0ad6eab4ecf771e690afed63b975e47886634bc5",
+  "candidate_inputs_sha256": "6033aa8b25b72cf5af6dd1ae9aacf15292f4c6e30d0678085177fe8f8e026366",
+  "chapter_number": 98,
+  "chapter_title": "Artin's Axioms",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2955,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Artin's Axioms}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 14,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 27,
+  "section_inputs_sha256": "81132983655bc8ef31b875ae754f751bb8ac9a75bb4e6d4828295e22a15d7459",
+  "source_file": "artin.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "eba90a897b08eebff451e80925d13381b1a7f6ab883a34118733cd24cf061f47",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
