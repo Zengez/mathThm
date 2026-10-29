@@ -1,0 +1,52 @@
+{
+  "candidate_count": 87,
+  "candidate_ids_sha256": "2e64079db8bc428beee2fc8e60a58362127818a14168da79cc9569fb8cec5497",
+  "candidate_inputs_sha256": "13f54d683b6a4f6c90ef2865f930c52262afd4b097991d469804d788f729c486",
+  "chapter_number": 51,
+  "chapter_title": "Local Cohomology",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3057,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Local Cohomology}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 22,
+  "section_inputs_sha256": "3f6c18828bd10487c542c618b04d06217e1242b52eb021c84060d967fc7c65dc",
+  "source_file": "local-cohomology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "85dc2ca64cc7bb3d3ea0fa35bb3c9c9f94fbbc4ae352337ce6cec0407e781935",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
