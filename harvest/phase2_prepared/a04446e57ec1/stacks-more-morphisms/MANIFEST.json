@@ -1,0 +1,52 @@
+{
+  "candidate_count": 52,
+  "candidate_ids_sha256": "9d8df6ae268892b75a3d9298215e9078bed10f3403b3635b27a2303b0024f8c9",
+  "candidate_inputs_sha256": "bc0d92f8d9e58354a2528eaf43d92b25f6bdfae2ea07efc32ac0206a90dbcd2c",
+  "chapter_number": 106,
+  "chapter_title": "More on Morphisms of Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3133,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{More on Morphisms of Stacks}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 16,
+  "section_inputs_sha256": "b6b782587dd1bd9bf66d31a42c4359013f4ba92f14ef21e36f24cf37060f7b4f",
+  "source_file": "stacks-more-morphisms.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "d9d6c4bdfe5a21f2cb7e10f60dae9f7e3b17018f1bdeb5046d0a7d785d5fae9c",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
