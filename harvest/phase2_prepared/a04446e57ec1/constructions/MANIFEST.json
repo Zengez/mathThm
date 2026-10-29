@@ -1,0 +1,52 @@
+{
+  "candidate_count": 63,
+  "candidate_ids_sha256": "d9002754bf6747cffe79f83b2e1e90245a9047c569a0363aed96d0cb670d60eb",
+  "candidate_inputs_sha256": "cfebb73b16860299ee35b4854a5f9080b25d3990ec00cf2ab68ad3b553a6644e",
+  "chapter_number": 27,
+  "chapter_title": "Constructions of Schemes",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1713,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Constructions of Schemes}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 22,
+  "section_inputs_sha256": "d99b7c1c5a9515c749fb76145fa51788c79fa0e761341d7d51eebec8eec7a3f9",
+  "source_file": "constructions.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "a642498dbebe4b72547d8e3ac03d8c8a7c3a3c9b1e604439c2899f18beb4cddb",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
