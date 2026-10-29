@@ -1,0 +1,52 @@
+{
+  "candidate_count": 12,
+  "candidate_ids_sha256": "5bacda0e0de271c1ebe66b1f79631f9318337982d05f582834e8a689c6add3c6",
+  "candidate_inputs_sha256": "3827d62fd0b6d05068da84092376f1be4f0897015727d142ca578942cdc32a78",
+  "chapter_number": 83,
+  "chapter_title": "Quotients of Groupoids",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 420,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Quotients of Groupoids}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 10,
+  "section_inputs_sha256": "9f1ff4ed519cc4d3e5ca4b0687dcac4191896df5a671810c3bd77ddd8c1ee4f7",
+  "source_file": "groupoids-quotients.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "a3b368824ea83b283c008c8d7df4501534145b9d043c3d0a77d36ad1f1f23e9e",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}

@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 82,
-  "prepared_candidates": 8137,
+  "prepared_chapters": 83,
+  "prepared_candidates": 8149,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -580,6 +580,13 @@
       "candidate_count": 71,
       "section_count": 32,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/spaces-chow/MANIFEST.json"
+    },
+    {
+      "source_file": "groupoids-quotients.tex",
+      "chapter_number": 83,
+      "candidate_count": 12,
+      "section_count": 10,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/groupoids-quotients/MANIFEST.json"
     }
   ]
 }
