@@ -1,0 +1,52 @@
+{
+  "candidate_count": 181,
+  "candidate_ids_sha256": "f6b9bc11c2cacb7ef954802ecdf7dd0385eab4ac1f3d19099cb343b7706276f8",
+  "candidate_inputs_sha256": "a374066aeb994fa3170fdf2acd55f5c0f2c5c4d41e192f4a1bf37d72208db30f",
+  "chapter_number": 42,
+  "chapter_title": "Chow Homology and Chern Classes",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 9277,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Chow Homology and Chern Classes}"
+    },
+    {
+      "line": 9,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 11,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 12,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 69,
+  "section_inputs_sha256": "6216f5942b531559af56e79cd9d10ceb2c807f5f6377c5a737217935b7729436",
+  "source_file": "chow.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "0522bd9a5934c5a65d9fccd651c77c1e012d9937aec49737d0b7fea6190dc001",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
