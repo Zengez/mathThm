@@ -1,0 +1,57 @@
+name: Phase 2 - review integrity (read only)
+on:
+  push:
+    branches:
+      - codex/phase2-validation
+      - feature/phase2-chapter-preparation
+    paths:
+      - .github/workflows/phase2-review-integrity.yml
+      - scripts/phase2_authoritative.py
+      - scripts/phase2_review_workflow.py
+      - harvest/PHASE2_AUTHORITATIVE_REGISTRY.json
+      - harvest/phase2_calibration_2026-10-29/**
+      - harvest/phase2_optimized_2026-10-29/**
+      - harvest/phase2_prepared/**
+      - tests/test_phase2_prepare_chapters.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: stacks/stacks-project
+          ref: a04446e57ec1fbc252a871afcec7752fb2807b14
+          path: upstream/stacks
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify original source revision
+        run: test "$(git -C upstream/stacks rev-parse HEAD)" = a04446e57ec1fbc252a871afcec7752fb2807b14
+      - name: Check independently approved authoritative formulations and population
+        run: |
+          python -m scripts.phase2_review_workflow status
+          python - <<'PY'
+          from scripts.phase2_authoritative import load_approved
+          from scripts.phase2_review_workflow import population_status
+          approved = load_approved()
+          status = population_status(approved=approved)
+          assert status["phase3_eligible"] == len(approved)
+          assert status["active_candidates"] == 9675
+          assert sum(status["mutually_exclusive_states"].values()) == 9675
+          assert not status["proofs_screened_this_run"]
+          assert not status["production_corpus_changed"]
+          print("Approved mathematical review records (checked, not generated):", len(approved))
+          PY
+      - name: Run complete regression suite
+        run: python -m unittest discover -s tests -q
+      - name: Verify prepared chapters if present
+        run: |
+          if test -f harvest/phase2_prepared/a04446e57ec1/INDEX.json; then
+            python -m scripts.phase2_verify_prepared --source-root upstream/stacks
+          fi
