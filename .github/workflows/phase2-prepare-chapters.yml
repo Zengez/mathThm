@@ -1,0 +1,114 @@
+name: Phase 2 - prepare Stacks chapter review inputs
+on:
+  push:
+    branches:
+      - feature/phase2-chapter-preparation
+    paths:
+      - .github/workflows/phase2-prepare-chapters.yml
+      - scripts/phase2_prepare_chapters.py
+      - scripts/phase2_verify_prepared.py
+      - tests/test_phase2_prepare_chapters.py
+  workflow_dispatch:
+    inputs:
+      chapters:
+        description: "all, or comma-separated *.tex chapter names"
+        required: true
+        default: all
+        type: string
+      max_chapters:
+        description: "Maximum newly prepared chapters this run (0 = all)"
+        required: true
+        default: "12"
+        type: string
+      persist:
+        description: "Commit each completed chapter to an isolated preparation branch"
+        required: true
+        default: true
+        type: boolean
+permissions:
+  contents: write
+concurrency:
+  group: phase2-preparation-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Checkout mathThm (branch-local only)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Checkout pinned Stacks project
+        uses: actions/checkout@v4
+        with:
+          repository: stacks/stacks-project
+          ref: a04446e57ec1fbc252a871afcec7752fb2807b14
+          path: upstream/stacks
+          persist-credentials: false
+      - name: Verify pinned source and Python
+        run: |
+          test "$(git -C upstream/stacks rev-parse HEAD)" = a04446e57ec1fbc252a871afcec7752fb2807b14
+          test "$GITHUB_REF_NAME" != main
+          test "$GITHUB_REF_NAME" != codex/phase2-validation
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run chapter preparation tests and regression suite
+        run: python -m unittest discover -s tests -q
+      - name: Prepare source packets; checkpoint/push each completed chapter
+        env:
+          CHAPTERS_INPUT: ${{ inputs.chapters }}
+          MAX_INPUT: ${{ inputs.max_chapters }}
+          PERSIST_INPUT: ${{ inputs.persist }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+            # Safe initial branch-only smoke run; proves one chapter can be persisted.
+            chapters="varieties.tex"
+            maximum=1
+            persist=true
+          else
+            chapters="$CHAPTERS_INPUT"
+            maximum="$MAX_INPUT"
+            persist="$PERSIST_INPUT"
+          fi
+          if ! [[ "$maximum" =~ ^[0-9]+$ ]]; then
+            echo "max_chapters must be a nonnegative integer" >&2
+            exit 1
+          fi
+          if [[ "$persist" == "true" ]]; then
+            case "$GITHUB_REF_NAME" in
+              feature/phase2-chapter-preparation|data/phase2-prepared) ;;
+              *) echo "Persistent input generation is restricted to preparation branches, not main or Codex." >&2; exit 1 ;;
+            esac
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          fi
+          python -m scripts.phase2_prepare_chapters \
+            --chapters "$chapters" --only-missing --max-chapters "$maximum" --list-only > /tmp/maththm-chapters.txt
+          echo "Selected chapters:"
+          cat /tmp/maththm-chapters.txt
+          while IFS= read -r chapter; do
+            [[ -n "$chapter" ]] || continue
+            python -m scripts.phase2_prepare_chapters --chapters "$chapter" --only-missing
+            python -m scripts.phase2_verify_prepared --source-root upstream/stacks
+            if [[ "$persist" == "true" ]]; then
+              git add harvest/phase2_prepared/
+              if ! git diff --cached --quiet; then
+                git commit -m "Save mechanical Phase 2 preparation for $chapter"
+                git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"
+              fi
+            fi
+          done < /tmp/maththm-chapters.txt
+          python -m scripts.phase2_verify_prepared --source-root upstream/stacks
+      - name: Upload prepared input snapshot (temporary convenience copy)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase2-prepared-${{ github.run_id }}
+          path: harvest/phase2_prepared/
+          if-no-files-found: ignore
+          retention-days: 30
