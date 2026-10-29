@@ -1,8 +1,8 @@
 {
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
-  "prepared_chapters": 69,
-  "prepared_candidates": 7172,
+  "prepared_chapters": 70,
+  "prepared_candidates": 7271,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -489,6 +489,13 @@
       "candidate_count": 73,
       "section_count": 23,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/spaces-cohomology/MANIFEST.json"
+    },
+    {
+      "source_file": "spaces-limits.tex",
+      "chapter_number": 70,
+      "candidate_count": 99,
+      "section_count": 23,
+      "manifest": "harvest/phase2_prepared/a04446e57ec1/spaces-limits/MANIFEST.json"
     }
   ]
 }

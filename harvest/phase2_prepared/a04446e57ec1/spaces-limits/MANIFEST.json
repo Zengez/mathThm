@@ -1,0 +1,52 @@
+{
+  "candidate_count": 99,
+  "candidate_ids_sha256": "5c4e46690786632588d47bcff204b4b901c47cd57e7c0bbab4875700f2f082f2",
+  "candidate_inputs_sha256": "88e46ad48e0e83e87eda27aa84e9744166b6f2d0411d1e2e0c68d14d3ecd2179",
+  "chapter_number": 70,
+  "chapter_title": "Limits of Algebraic Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3146,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Limits of Algebraic Spaces}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 23,
+  "section_inputs_sha256": "61a2e4230c70fa49f4c498eaaea4cf962ec394fd94e1e67398f43d81ad78bca6",
+  "source_file": "spaces-limits.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "63df4873f4d309a436ee8551a480a37805344fc377f1963376219f98d07bc228",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
