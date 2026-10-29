@@ -1,0 +1,52 @@
+{
+  "candidate_count": 80,
+  "candidate_ids_sha256": "937171054ec33fe221123f201951ee292aced43ef3d57907850ce4ccbddfb353",
+  "candidate_inputs_sha256": "6681161139c1618489489b64d6f8cab4902aa5d80d4a970ad48de2c0377807c7",
+  "chapter_number": 9,
+  "chapter_title": "Fields",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1460,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Fields}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 28,
+  "section_inputs_sha256": "ab2693f2ed0d5b0914356ad7422db078ba7992234aa48623e26b03c056885e58",
+  "source_file": "fields.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "87e07f0373dc60cfc284e2f19078bc9bc7ab0b89c40eef83941f6c38c765c549",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
