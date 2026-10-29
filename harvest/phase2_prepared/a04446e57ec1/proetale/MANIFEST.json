@@ -1,0 +1,52 @@
+{
+  "candidate_count": 121,
+  "candidate_ids_sha256": "84a9478db8795fce8af95333b06a0787e2be54c4371aa7eff6af1648c0a7530e",
+  "candidate_inputs_sha256": "8f6b48bcadf479252990c9a212cf4d6f31d01623cbf5c7cbef144b0792d261eb",
+  "chapter_number": 61,
+  "chapter_title": "Pro-\\'etale Cohomology",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3008,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Pro-\\'etale Cohomology}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 31,
+  "section_inputs_sha256": "08815d1bd5def13f56fb836e6908f02f15366cc19f90462a15da8a034f65a85f",
+  "source_file": "proetale.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "e9d0db7d23b0b8c4e7209593dba600ffdd7eed50030a1a725a55912dea8a036a",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
