@@ -1,0 +1,52 @@
+{
+  "candidate_count": 70,
+  "candidate_ids_sha256": "1245fb75735a42ae86207be7aaef576a0bed4038609c7c97234552dc0e67b16e",
+  "candidate_inputs_sha256": "c49573848c03c14240931b75e5e4cddb83663e2e8a5ebacbd047a20ef39d6c19",
+  "chapter_number": 54,
+  "chapter_title": "Resolution of Surfaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 2911,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Resolution of Surfaces}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 17,
+  "section_inputs_sha256": "6888b1882508cb68d38c64e3494ca7c60f14bf93f38050e0bee0a0b594c87247",
+  "source_file": "resolve.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "4cc743f7c82f9c3845bb8c91447cb7adc27bdc3305fc2036eeddf41469320554",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
