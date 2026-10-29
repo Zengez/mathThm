@@ -1,0 +1,52 @@
+{
+  "candidate_count": 122,
+  "candidate_ids_sha256": "629a1cb48e6600d90b5d2f4e468ca0f9571ee3ef90203d37c6f91cb038c07751",
+  "candidate_inputs_sha256": "46b61dedeb43af07e701a1ce0c937894d35324beb91a70f232bbea3569334bdb",
+  "chapter_number": 18,
+  "chapter_title": "Modules on Sites",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 3103,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Modules on Sites}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 45,
+  "section_inputs_sha256": "6ec8eb01fb6590e07b5c01eee16acdbf3a50df999b3feaefbd9cb6bef77268a0",
+  "source_file": "sites-modules.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "b7cd92aff9df33f05eeab72c4b55e8aa33f3aebd947fc53160e87ca80dffb245",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
