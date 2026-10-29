@@ -1,0 +1,52 @@
+{
+  "candidate_count": 34,
+  "candidate_ids_sha256": "17fcaa9ba39cce477e9f3644df1fbcb9ed662e107f98d47fed5cee72f620dbed",
+  "candidate_inputs_sha256": "0e6c37da1729f85b2c9222e08758f2305664759f8ddd1d0437d188c513ba258e",
+  "chapter_number": 56,
+  "chapter_title": "Functors and Morphisms",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 1387,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Functors and Morphisms}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 7,
+  "section_inputs_sha256": "f9397f6a57e51fa826c777e431353b63d0063d2e0909a1d68450b82cd42e3f95",
+  "source_file": "functors.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "9089a0e803b278ac855cc898bf4fb3892df2a3d068ea252b507e61853285ad7d",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
