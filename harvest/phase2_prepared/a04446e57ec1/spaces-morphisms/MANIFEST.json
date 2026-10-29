@@ -1,0 +1,52 @@
+{
+  "candidate_count": 240,
+  "candidate_ids_sha256": "639e5392b4ad6bdad09cab19d4bc2a6a7f1854de22a7bea00b2ce91f487f8f98",
+  "candidate_inputs_sha256": "bfd4dd00c27af9d2e18a663fbf078acc22cb4f60d46e2894d470bb294fc7cbe9",
+  "chapter_number": 67,
+  "chapter_title": "Morphisms of Algebraic Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 4936,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Morphisms of Algebraic Spaces}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 53,
+  "section_inputs_sha256": "edfead1bc10dd0d5396b3eff132dccd73b624f671a07f1840fe6dc74e4055b40",
+  "source_file": "spaces-morphisms.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "22d2d9f7807d408335dd97053568304f7568144bd382e73a953ec15659de3b33",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
