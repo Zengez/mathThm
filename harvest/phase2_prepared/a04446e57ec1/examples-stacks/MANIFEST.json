@@ -1,0 +1,52 @@
+{
+  "candidate_count": 13,
+  "candidate_ids_sha256": "05be742ea4d770162943ab7385ae024a131d5ef77ddfa107985d0145c45e8eb4",
+  "candidate_inputs_sha256": "6f0bb7fb75104d4762c6aebeff4c98572ff3ca4c3ffa29f91f315f37313eb870",
+  "chapter_number": 95,
+  "chapter_title": "Examples of Stacks",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 602,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Examples of Stacks}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 18,
+  "section_inputs_sha256": "f63fa69c3078ce0176d5b8e0a78ef703d337830ffe2011dd73df0e70bdf5fa81",
+  "source_file": "examples-stacks.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "54dbc9d017b82b7c93a6ccd72a0295e5a2c1a3e535187083e4100101cd577976",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
