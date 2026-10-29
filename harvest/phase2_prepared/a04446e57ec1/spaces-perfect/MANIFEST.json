@@ -1,0 +1,52 @@
+{
+  "candidate_count": 109,
+  "candidate_ids_sha256": "48cbab735aad03d8d7d58eb007fcde4c7ee0bb7eb2e88bd6f5fdca8e0e6db2cd",
+  "candidate_inputs_sha256": "1e5f017852b91a8d38ee1bbcffbc7bd10c0aaee5c6303bd44e8572d8b6d8f0ad",
+  "chapter_number": 75,
+  "chapter_title": "Derived Categories of Spaces",
+  "complete_consecutive_sections": true,
+  "note": "Preliminary source/context evidence only; no mathematical interpretations or approvals.",
+  "omitted_proof_line_count": 4068,
+  "phase3_eligible": false,
+  "preamble_proof_free_lines": [
+    {
+      "line": 1,
+      "tex": "\\input{preamble}"
+    },
+    {
+      "line": 5,
+      "tex": "\\begin{document}"
+    },
+    {
+      "line": 7,
+      "tex": "\\title{Derived Categories of Spaces}"
+    },
+    {
+      "line": 10,
+      "tex": "\\maketitle"
+    },
+    {
+      "line": 12,
+      "tex": "\\phantomsection"
+    },
+    {
+      "line": 13,
+      "tex": "\\label{section-phantom}"
+    },
+    {
+      "line": 15,
+      "tex": "\\tableofcontents"
+    }
+  ],
+  "proof_screened": false,
+  "published": false,
+  "schema": "maththm.phase2.chapter-preparation.v1",
+  "section_count": 30,
+  "section_inputs_sha256": "ac2c8a32cb4781d5046368ea306037c24b8d411ce40ab7c1b1c3dc8eb608d4e4",
+  "source_file": "spaces-perfect.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_scope_extraction_issues": 0,
+  "source_sha256": "5791551e4c8bae909a05c066ad60fe7ff95ed07b6d4a6537cb29527d8280df34",
+  "stage_a_complete": false,
+  "stage_b_complete": false
+}
