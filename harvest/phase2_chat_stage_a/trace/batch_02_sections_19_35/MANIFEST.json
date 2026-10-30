@@ -76,5 +76,59 @@
     33,
     34,
     35
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 19,
+      "kind": "context_only",
+      "source_line": 2136,
+      "snippets": [
+        {
+          "source_line": 2139,
+          "tex": "\\begin{definition}\n\\label{definition-L-function-finite-ring}\nLet $X$ be a scheme of finite type over a finite field $k$. Let $\\Lambda$ be a\nfinite ring of order prime to the characteristic of $k$ and $\\mathcal{F}$ a\nconstructible flat $\\Lambda$-module on $X_\\etale$. Then we set\n$$\nL(X, \\mathcal{F}) :=\n\\prod\\nolimits_{x\\in |X|}\n\\det(1 - \\pi_x^*T^{\\deg x} |_{\\mathcal{F}_{\\bar x}})^{-1} \\in \\Lambda [[ T ]]\n$$\nwhere $|X|$ is the set of closed points of $X$, $\\deg x = [\\kappa(x): k]$ and\n$\\bar x$ is a geometric point lying over $x$. This definition clearly\ngeneralizes to the case where $\\mathcal{F}$ is replaced by a\n$K \\in D_{ctf}(X, \\Lambda)$. We call this the {\\it $L$-function of\n$\\mathcal{F}$}.\n\\end{definition}"
+        },
+        {
+          "source_line": 2162,
+          "tex": "\\begin{definition}\n\\label{definition-L-function-l-adic}\nNow assume that $\\mathcal{F}$ is a $\\mathbf{Q}_\\ell$-sheaf on $X$.\nIn this case we define\n$$\nL(X, \\mathcal{F}) :=\n\\prod\\nolimits_{x \\in |X|}\n\\det(1 - \\pi_x^*T^{\\deg x} |_{\\mathcal{F}_{\\bar x}})^{-1}\n\\in \\mathbf{Q}_\\ell[[T]].\n$$\nNote that this product converges since there are finitely many points of a\ngiven degree. We call this the {\\it $L$-function of\n$\\mathcal{F}$}.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 2180
+    },
+    {
+      "section": 22,
+      "kind": "context_only",
+      "source_line": 2497,
+      "snippets": [
+        {
+          "source_line": 2500,
+          "tex": "\\noindent\nWe use Theorem \\ref{theorem-B} for curves to give examples of $L$-functions"
+        }
+      ]
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 2507
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 2823
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 3167
+    },
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 3448
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

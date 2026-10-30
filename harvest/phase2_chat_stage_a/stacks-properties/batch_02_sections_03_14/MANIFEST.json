@@ -125,5 +125,84 @@
     7,
     13
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 160
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 691
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 1077
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 1155
+    },
+    {
+      "section": 7,
+      "kind": "context_only",
+      "source_line": 1218,
+      "snippets": [
+        {
+          "source_line": 1279,
+          "tex": "\\begin{definition}\n\\label{definition-type-property}\nLet $\\mathcal{X}$ be an algebraic stack.\nLet $\\mathcal{P}$ be a property of schemes which is\nlocal in the smooth topology.\nWe say $\\mathcal{X}$ {\\it has property $\\mathcal{P}$}\nif any of the equivalent conditions of\nLemma \\ref{lemma-type-property}\nhold.\n\\end{definition}"
+        },
+        {
+          "source_line": 1390,
+          "tex": "\\begin{definition}\n\\label{definition-property-at-point}\nLet $\\mathcal{P}$ be a property of germs of schemes which is\nsmooth local. Let $\\mathcal{X}$ be an algebraic stack.\nLet $x \\in |\\mathcal{X}|$.\nWe say $\\mathcal{X}$ {\\it has property $\\mathcal{P}$ at $x$}\nif any of the equivalent conditions of\nLemma \\ref{lemma-local-source-target-at-point}\nholds.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1410
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1567
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2232
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2393
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2959
+    },
+    {
+      "section": 13,
+      "kind": "context_only",
+      "source_line": 3105,
+      "snippets": [
+        {
+          "source_line": 3145,
+          "tex": "\\begin{definition}\n\\label{definition-number-of-geometric-branches}\nLet $\\mathcal{X}$ be an algebraic stack. Let $x \\in |\\mathcal{X}|$.\n\\begin{enumerate}\n\\item The {\\it number of geometric branches of $\\mathcal{X}$ at $x$}\nis either $n \\in \\mathbf{N}$ if the equivalent conditions of\nLemma \\ref{lemma-local-source-target-at-point} hold for\n$\\mathcal{P}_n$ defined above, or else $\\infty$.\n\\item We say $\\mathcal{X}$ is {\\it geometrically unibranch at $x$}\nif the number of geometric branches of $\\mathcal{X}$ at $x$ is $1$.\n\\end{enumerate}\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 3163
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

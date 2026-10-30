@@ -273,5 +273,151 @@
     26,
     34
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2609
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2875
+    },
+    {
+      "section": 16,
+      "kind": "context_only",
+      "source_line": 3011,
+      "snippets": [
+        {
+          "source_line": 3158,
+          "tex": "\\begin{definition}\n\\label{definition-P}\nLet $\\mathcal{P}$ be a property of morphisms of algebraic spaces\nwhich is smooth local on the source-and-target.\nWe say a morphism $f : \\mathcal{X} \\to \\mathcal{Y}$ of algebraic stacks\n{\\it has property $\\mathcal{P}$} if the equivalent conditions of\nLemma \\ref{lemma-local-source-target}\nhold.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3238
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3432
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 3705
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 3848
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 3949
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 4568
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 4685
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 5045
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 5119
+    },
+    {
+      "section": 26,
+      "kind": "context_only",
+      "source_line": 5277,
+      "snippets": [
+        {
+          "source_line": 5348,
+          "tex": "\\begin{definition}\n\\label{definition-flat-at-point}\nLet $f : \\mathcal{X} \\to \\mathcal{Y}$ be a morphism of algebraic stacks.\nLet $x \\in |\\mathcal{X}|$. We say $f$ is {\\it flat at $x$} if the\nequivalent conditions of Lemma \\ref{lemma-flat-at-point} hold.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 5359
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 5839
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 6509
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 6713
+    },
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 6822
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 7031
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 7357
+    },
+    {
+      "section": 34,
+      "kind": "context_only",
+      "source_line": 7539,
+      "snippets": [
+        {
+          "source_line": 7705,
+          "tex": "\\begin{definition}\n\\label{definition-etale-smooth-P}\nLet $\\mathcal{P}$ be a property of morphisms of algebraic spaces\nwhich is \\'etale-smooth local on the source-and-target.\nWe say a DM morphism $f : \\mathcal{X} \\to \\mathcal{Y}$ of algebraic stacks\n{\\it has property $\\mathcal{P}$} if the equivalent conditions of\nLemma \\ref{lemma-local-source-target}\nhold.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 35,
+      "kind": "candidates",
+      "source_line": 7800
+    },
+    {
+      "section": 36,
+      "kind": "candidates",
+      "source_line": 8025
+    },
+    {
+      "section": 37,
+      "kind": "candidates",
+      "source_line": 8363
+    },
+    {
+      "section": 38,
+      "kind": "candidates",
+      "source_line": 8516
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
