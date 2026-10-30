@@ -77,7 +77,16 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [],
+  "preliminary_source_holds": [
+    "candidate.stacks.a95183756483721d9dc5b5f1",
+    "candidate.stacks.3b818b1c1bf2f93672cb7551",
+    "candidate.stacks.1612ca775a19e808a49b2295",
+    "candidate.stacks.a88a37341086ba0b8581890a",
+    "candidate.stacks.a95d39e64a91360fa18c5652",
+    "candidate.stacks.ae9d70704d36324e4d6d7d9d",
+    "candidate.stacks.23d05f3ca54e994ed23b4cd3",
+    "candidate.stacks.3cb1195e77148927c61a8b46"
+  ],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     1,
