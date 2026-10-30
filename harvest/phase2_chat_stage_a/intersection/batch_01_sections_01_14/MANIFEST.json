@@ -1,0 +1,46 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "15-section-experiment-18",
+  "chapter": "intersection.tex",
+  "sections_ordinal": [
+    1,
+    14
+  ],
+  "additional_prior_chapter_sections": {
+    "chapter": "chow.tex",
+    "sections_ordinal": [
+      69,
+      69
+    ],
+    "active_candidates": 0
+  },
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "global_complete_sections": 15,
+  "complete_sections": true,
+  "stage_a_candidate_count": 12,
+  "candidate_ids": [
+    "candidate.stacks.a37686129f79aa631df215cc",
+    "candidate.stacks.571afd5c5368c10d90c225d0",
+    "candidate.stacks.9522185895b7153ea95bfe42",
+    "candidate.stacks.6d8edac707e78c1218b3684e",
+    "candidate.stacks.10148f312f89715f1fe3e800",
+    "candidate.stacks.d489785062f526e7cb9cea38",
+    "candidate.stacks.2ba82b63652d0f7dfdc042d5",
+    "candidate.stacks.ff42f21d127b288860e63c4e",
+    "candidate.stacks.93b13ad4595b17e2675e67c1",
+    "candidate.stacks.59fe2e0dcb62b353c420567d",
+    "candidate.stacks.55d76fdf1619be22dc3223fd",
+    "candidate.stacks.4927ab33e6b4a843fcbfb1f5"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/intersection/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.2ba82b63652d0f7dfdc042d5",
+    "candidate.stacks.59fe2e0dcb62b353c420567d",
+    "candidate.stacks.55d76fdf1619be22dc3223fd",
+    "candidate.stacks.4927ab33e6b4a843fcbfb1f5"
+  ]
+}
