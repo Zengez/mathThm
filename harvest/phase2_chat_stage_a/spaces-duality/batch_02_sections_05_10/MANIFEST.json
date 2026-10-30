@@ -1,0 +1,57 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-69",
+  "chapter": "spaces-duality.tex",
+  "sections_ordinal": [
+    5,
+    10
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    991,
+    1197,
+    1408,
+    1539,
+    1749,
+    2130
+  ],
+  "first_source_line": 991,
+  "last_source_line": 2184,
+  "complete_sections": true,
+  "stage_a_candidate_count": 13,
+  "candidate_ids": [
+    "candidate.stacks.9ea1f302d45fe4c472350e65",
+    "candidate.stacks.40179eaf9be23bb715ea3adf",
+    "candidate.stacks.b6509ca932b29e24e08bdd2c",
+    "candidate.stacks.540d489857a0fda694e71fe8",
+    "candidate.stacks.ae12ea3d39f9af95d244406f",
+    "candidate.stacks.6e4d664b9f2ddf8f1afb93a1",
+    "candidate.stacks.f058ab53993f2b9a03e087ac",
+    "candidate.stacks.1474632a2962fa294640d513",
+    "candidate.stacks.8a4ce932924271f0a16262a7",
+    "candidate.stacks.2bf9c991d69c26d777deebc4",
+    "candidate.stacks.cdc5f1af77c4068b82a5df8c",
+    "candidate.stacks.3a186fc20469da927d752fcb",
+    "candidate.stacks.17c3b020f01f1c55c17604e4"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/spaces-duality/batch_02_sections_05_10/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "stage_a_mathematical_analysis_pending": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.9ea1f302d45fe4c472350e65",
+    "candidate.stacks.40179eaf9be23bb715ea3adf",
+    "candidate.stacks.b6509ca932b29e24e08bdd2c",
+    "candidate.stacks.540d489857a0fda694e71fe8",
+    "candidate.stacks.ae12ea3d39f9af95d244406f",
+    "candidate.stacks.6e4d664b9f2ddf8f1afb93a1",
+    "candidate.stacks.f058ab53993f2b9a03e087ac",
+    "candidate.stacks.2bf9c991d69c26d777deebc4",
+    "candidate.stacks.17c3b020f01f1c55c17604e4"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": []
+}
