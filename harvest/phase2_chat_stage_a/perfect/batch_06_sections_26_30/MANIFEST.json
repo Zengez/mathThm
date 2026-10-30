@@ -1,0 +1,43 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "perfect.tex",
+  "sections_ordinal": [
+    26,
+    30
+  ],
+  "first_source_line": 6382,
+  "last_source_line": 7679,
+  "source_section_starts": [
+    6382,
+    6763,
+    6892,
+    7213,
+    7384
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 15,
+  "candidate_ids": [
+    "candidate.stacks.b8b49673ac720684cfae5dcf",
+    "candidate.stacks.20fb99d7e2d3ca3a489cb484",
+    "candidate.stacks.ab26de07f41c8380afb28486",
+    "candidate.stacks.171423128118d0d90212f0a4",
+    "candidate.stacks.1c3ee8644556584dd610c8db",
+    "candidate.stacks.77e82bf77ea0083612170f2a",
+    "candidate.stacks.a3ad02f7884763843c0e35c5",
+    "candidate.stacks.b4e546ff8b15713a8ca606ee",
+    "candidate.stacks.68388b80f49c400ac0741abd",
+    "candidate.stacks.f7498f4f5b58a1abae94edf7",
+    "candidate.stacks.fae25726167bfdfb5ed03fbe",
+    "candidate.stacks.8dac60a7f7b59c404072e391",
+    "candidate.stacks.8a79fcb4875e210a7bacb769",
+    "candidate.stacks.190dc0c8785704cf60f33473",
+    "candidate.stacks.e14747a131814d529bfec775"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/perfect/batch_06_sections_26_30/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "notes": "Source reference lemma-single-complex-base-change-condition is an unresolved Stage B dependency, plus referenced maps and derived coherator interpretations."
+}
