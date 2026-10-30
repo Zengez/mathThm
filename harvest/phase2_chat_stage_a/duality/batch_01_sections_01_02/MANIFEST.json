@@ -1,0 +1,37 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "15-section-experiment-23",
+  "chapter": "duality.tex",
+  "sections_ordinal": [
+    1,
+    2
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17,
+    80
+  ],
+  "first_source_line": 17,
+  "last_source_line": 416,
+  "complete_sections": true,
+  "stage_a_candidate_count": 7,
+  "candidate_ids": [
+    "candidate.stacks.b880a706fb14096c9a5ba158",
+    "candidate.stacks.f1ff9dad2f91887e8fed73ca",
+    "candidate.stacks.6e6a6305d4ad7813f13c41db",
+    "candidate.stacks.d79a452e4a918eb92766f82b",
+    "candidate.stacks.5daa09faa867d93cfcf27d9a",
+    "candidate.stacks.5799777b3da2e7e02ee2a0dc",
+    "candidate.stacks.81d6094cd2bcf5e3db1ec0aa"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/duality/batch_01_sections_01_02/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.b880a706fb14096c9a5ba158",
+    "candidate.stacks.6e6a6305d4ad7813f13c41db",
+    "candidate.stacks.81d6094cd2bcf5e3db1ec0aa"
+  ]
+}
