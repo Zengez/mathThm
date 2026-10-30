@@ -152,5 +152,100 @@
     15,
     16,
     17
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "snippets": [
+        {
+          "source_line": 20,
+          "tex": "\\noindent\nIn this chapter we prove the semistable reduction theorem for curves.\nWe will use the method of Artin and Winters from their paper\n\\cite{Artin-Winters}."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 80
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 421
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 888
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 1030
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 2656
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 3874
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 4110
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 4323
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 4770
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 4886
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 5395
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 5655
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 5832
+    },
+    {
+      "section": 17,
+      "kind": "context_only",
+      "source_line": 6513,
+      "snippets": [
+        {
+          "source_line": 6547,
+          "tex": "In the rest of this section we will use without further mention\nthat the conclusions of Lemma \\ref{lemma-numerical-type-rational-point}\nare true."
+        }
+      ]
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 6625
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

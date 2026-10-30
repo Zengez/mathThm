@@ -54,5 +54,56 @@
     6,
     7,
     8
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 40
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 273
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 413
+    },
+    {
+      "section": 6,
+      "kind": "context_only",
+      "source_line": 1235,
+      "snippets": [
+        {
+          "source_line": 1242,
+          "tex": "\\begin{definition}\n\\label{definition-coarse}\nLet $S$ be a scheme and $B$ an algebraic space over $S$.\nLet $j : R \\to U \\times_B U$ be a pre-relation.\nA morphism $\\phi : U \\to X$ of algebraic spaces over $B$\nis called a {\\it coarse quotient} if\n\\begin{enumerate}\n\\item $\\phi$ is a categorical quotient, and\n\\item $\\phi$ is an orbit space.\n\\end{enumerate}\nIf $S = B$, $U$, $R$ are all schemes, then we say a morphism of schemes\n$\\phi : U \\to X$ is a {\\it coarse quotient in schemes} if\n\\begin{enumerate}\n\\item $\\phi$ is a categorical quotient in schemes, and\n\\item $\\phi$ is an orbit space.\n\\end{enumerate}\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 7,
+      "kind": "context_only",
+      "source_line": 1282,
+      "snippets": [
+        {
+          "source_line": 1299,
+          "tex": "\\begin{definition}\n\\label{definition-topological}\nLet $S$ be a scheme and $B$ an algebraic space over $S$.\nLet $j : R \\to U \\times_B U$ be a pre-relation.\nLet $\\phi : U \\to X$ be an $R$-invariant morphism of algebraic spaces over $B$.\n\\begin{enumerate}\n\\item\n\\label{item-submersive}\nThe morphism $\\phi$ is submersive.\n\\item\n\\label{item-invariant-closed}\nFor any $R$-invariant closed subset $Z \\subset |U|$ the image\n$\\phi(Z)$ is closed in $|X|$.\n\\item\n\\label{item-intersect-invariant-closed}\nCondition (\\ref{item-invariant-closed}) holds and for any pair of\n$R$-invariant closed subsets $Z_1, Z_2 \\subset |U|$ we have\n$$\n\\phi(Z_1 \\cap Z_2) = \\phi(Z_1) \\cap \\phi(Z_2)\n$$\n\\item The morphism $(t, s) : R \\to U \\times_X U$ is universally submersive.\n\\label{item-strong}\n\\end{enumerate}\nFor each of these properties we can also require them to hold after any\nflat base change, or after any base change, see\nDefinition \\ref{definition-base-change}. In this case we say condition\n(\\ref{item-submersive}),\n(\\ref{item-invariant-closed}),\n(\\ref{item-intersect-invariant-closed}), or\n(\\ref{item-strong}) holds {\\it uniformly} or {\\it universally}.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 8,
+      "kind": "context_only",
+      "source_line": 1338,
+      "snippets": [
+        {
+          "source_line": 1346,
+          "tex": "\\begin{definition}\n\\label{definition-functions}\nLet $S$ be a scheme and $B$ an algebraic space over $S$.\nLet $j : R \\to U \\times_B U$ be a pre-relation.\nLet $\\phi : U \\to X$ be an $R$-invariant morphism.\nDenote $\\phi' = \\phi \\circ s = \\phi \\circ t : R \\to X$.\n\\begin{enumerate}\n\\item We denote $(\\phi_*\\mathcal{O}_U)^R$ the $\\mathcal{O}_X$-sub-algebra\nof $\\phi_*\\mathcal{O}_U$ which is the equalizer of the two maps\n$$\n\\xymatrix{\n\\phi_*\\mathcal{O}_U\n\\ar@<1ex>[rr]^{\\phi_*s^\\sharp}\n\\ar@<-1ex>[rr]_{\\phi_*t^\\sharp}\n& &\n\\phi'_*\\mathcal{O}_R\n}\n$$\non $X_\\etale$. We sometimes call this the\n{\\it sheaf of $R$-invariant functions on $X$}.\n\\item We say {\\it the functions on $X$ are the $R$-invariant functions on\n$U$} if the natural map $\\mathcal{O}_X \\to (\\phi_*\\mathcal{O}_U)^R$\nis an isomorphism.\n\\end{enumerate}\n\\end{definition}"
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
