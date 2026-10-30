@@ -210,5 +210,172 @@
     56,
     58,
     60
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 46,
+      "kind": "candidates",
+      "source_line": 6574
+    },
+    {
+      "section": 48,
+      "kind": "candidates",
+      "source_line": 6817
+    },
+    {
+      "section": 49,
+      "kind": "candidates",
+      "source_line": 6988
+    },
+    {
+      "section": 50,
+      "kind": "candidates",
+      "source_line": 7167
+    },
+    {
+      "section": 51,
+      "kind": "candidates",
+      "source_line": 7274
+    },
+    {
+      "section": 52,
+      "kind": "candidates",
+      "source_line": 7772
+    },
+    {
+      "section": 53,
+      "kind": "candidates",
+      "source_line": 8008
+    },
+    {
+      "section": 54,
+      "kind": "candidates",
+      "source_line": 8142
+    },
+    {
+      "section": 55,
+      "kind": "candidates",
+      "source_line": 8199
+    },
+    {
+      "section": 56,
+      "kind": "context_only",
+      "source_line": 8515,
+      "snippets": [
+        {
+          "source_line": 8518,
+          "tex": "\\noindent\nIn this section we define an action of the absolute Galois group of a residue\nfield of a point $s$ of $S$ on the stalk functor at any geometric point lying\nover $s$."
+        },
+        {
+          "source_line": 8523,
+          "tex": "Galois action on stalks.\nLet $S$ be a scheme.\nLet $\\overline{s}$ be a geometric point of $S$.\nLet $\\sigma \\in \\text{Aut}(\\kappa(\\overline{s})/\\kappa(s))$.\nDefine an action of $\\sigma$ on the stalk $\\mathcal{F}_{\\overline{s}}$\nof a sheaf $\\mathcal{F}$ as follows\n\\begin{equation}\n\\label{equation-galois-action}\n\\begin{matrix}\n\\mathcal{F}_{\\overline{s}} &\n\\longrightarrow &\n\\mathcal{F}_{\\overline{s}} \\\\\n(U, \\overline{u}, t) &\n\\longmapsto &\n(U, \\overline{u} \\circ \\Spec(\\sigma), t).\n\\end{matrix}\n\\end{equation}\nwhere we use the description of elements of the stalk in terms of triples\nas in the discussion following\nDefinition \\ref{definition-stalk}.\nThis is a left action, since if\n$\\sigma_i \\in \\text{Aut}(\\kappa(\\overline{s})/\\kappa(s))$\nthen\n\\begin{align*}\n\\sigma_1 \\cdot (\\sigma_2 \\cdot (U, \\overline{u}, t))\n& =\n\\sigma_1 \\cdot (U, \\overline{u} \\circ \\Spec(\\sigma_2), t) \\\\\n& =\n(U, \\overline{u} \\circ \\Spec(\\sigma_2) \\circ \\Spec(\\sigma_1), t) \\\\\n& =\n(U, \\overline{u} \\circ \\Spec(\\sigma_1 \\circ \\sigma_2), t) \\\\\n& =\n(\\sigma_1 \\circ \\sigma_2) \\cdot (U, \\overline{u}, t)\n\\end{align*}\nIt is clear that this action is functorial in the sheaf $\\mathcal{F}$.\nWe note that we could have defined this action by referring directly to\nRemark \\ref{remark-map-stalks}."
+        },
+        {
+          "source_line": 8562,
+          "tex": "\\begin{definition}\n\\label{definition-algebraic-geometric-point}\nLet $S$ be a scheme.\nLet $\\overline{s}$ be a geometric point lying over the point $s$ of $S$.\nLet $\\kappa(s) \\subset \\kappa(s)^{sep} \\subset \\kappa(\\overline{s})$\ndenote the separable algebraic closure of $\\kappa(s)$ in the algebraically\nclosed field $\\kappa(\\overline{s})$.\n\\begin{enumerate}\n\\item In this situation the {\\it absolute Galois group} of $\\kappa(s)$\nis $\\text{Gal}(\\kappa(s)^{sep}/\\kappa(s))$. It is sometimes denoted\n$\\text{Gal}_{\\kappa(s)}$.\n\\item The geometric point $\\overline{s}$ is called\n{\\it algebraic} if $\\kappa(s) \\subset \\kappa(\\overline{s})$ is\nan algebraic closure of $\\kappa(s)$.\n\\end{enumerate}\n\\end{definition}"
+        },
+        {
+          "source_line": 8586,
+          "tex": "\\noindent\nLet $\\kappa(s) \\subset \\kappa(s)^{sep} \\subset \\kappa(\\overline{s})$\nbe as in the definition. Note that as $\\kappa(\\overline{s})$ is algebraically\nclosed the map\n$$\n\\text{Aut}(\\kappa(\\overline{s})/\\kappa(s))\n\\longrightarrow\n\\text{Gal}(\\kappa(s)^{sep}/\\kappa(s)) = \\text{Gal}_{\\kappa(s)}\n$$\nis surjective. Suppose $(U, \\overline{u})$ is an\n\\'etale neighbourhood of $\\overline{s}$, and say $\\overline{u}$ lies over\nthe point $u$ of $U$. Since $U \\to S$ is \\'etale, the residue field extension\n$\\kappa(u)/\\kappa(s)$ is finite separable.\nThis implies the following\n\\begin{enumerate}\n\\item If $\\sigma \\in \\text{Aut}(\\kappa(\\overline{s})/\\kappa(s)^{sep})$\nthen $\\sigma$ acts trivially on $\\mathcal{F}_{\\overline{s}}$.\n\\item More precisely, the action of\n$\\text{Aut}(\\kappa(\\overline{s})/\\kappa(s))$\ndetermines and is determined by an action of the absolute Galois group\n$\\text{Gal}_{\\kappa(s)}$ on $\\mathcal{F}_{\\overline{s}}$.\n\\item Given $(U, \\overline{u}, t)$ representing an element $\\xi$ of\n$\\mathcal{F}_{\\overline{s}}$ any element of\n$\\text{Gal}(\\kappa(s)^{sep}/K)$ acts trivially, where\n$\\kappa(s) \\subset K \\subset \\kappa(s)^{sep}$ is the image of\n$\\overline{u}^\\sharp : \\kappa(u) \\to \\kappa(\\overline{s})$.\n\\end{enumerate}\nAltogether we see that $\\mathcal{F}_{\\overline{s}}$ becomes a\n$\\text{Gal}_{\\kappa(s)}$-set (see\nFundamental Groups, Definition \\ref{pione-definition-G-set-continuous}).\nHence we may think of the stalk functor as a functor\n$$\n\\Sh(S_\\etale) \\longrightarrow\n\\text{Gal}_{\\kappa(s)}\\textit{-Sets},\n\\quad\n\\mathcal{F} \\longmapsto \\mathcal{F}_{\\overline{s}}\n$$\nand from now on we usually do think about the stalk functor in this way."
+        }
+      ]
+    },
+    {
+      "section": 57,
+      "kind": "candidates",
+      "source_line": 8766
+    },
+    {
+      "section": 58,
+      "kind": "context_only",
+      "source_line": 9007,
+      "snippets": [
+        {
+          "source_line": 9010,
+          "tex": "\\noindent\nTate's continuous cohomology (\\cite{Tate}) is defined by the complex of\ncontinuous inhomogeneous cochains. We can define this when $M$ is an\narbitrary topological abelian group endowed with a continuous $G$-action.\nNamely, we consider the complex\n$$\nC^\\bullet_{cont}(G, M) :\nM \\to \\text{Maps}_{cont}(G, M) \\to\n\\text{Maps}_{cont}(G \\times G, M) \\to \\ldots\n$$\nwhere the boundary map is defined for $n \\geq 1$ by the rule\n\\begin{align*}\n\\text{d}(f)(g_1, \\ldots, g_{n + 1})\n& = g_1(f(g_2, \\ldots, g_{n + 1})) \\\\\n&\n+ \\sum\\nolimits_{j = 1, \\ldots, n}\n(-1)^jf(g_1, \\ldots, g_jg_{j + 1}, \\ldots, g_{n + 1}) \\\\\n&\n+ (-1)^{n + 1}f(g_1, \\ldots, g_n)\n\\end{align*}\nand for $n = 0$ sends $m \\in M$ to the map $g \\mapsto g(m) - m$. We define\n$$\nH^i_{cont}(G, M) = H^i(C^\\bullet_{cont}(G, M))\n$$\nSince the terms of the complex involve continuous maps from $G$ and\nself products of $G$ into the topological module $M$, it is not clear\nthat this turns a short exact sequence of topological modules into\na long exact cohomology sequence. Another difficulty is that the category\nof topological abelian groups isn't an abelian category!"
+        }
+      ]
+    },
+    {
+      "section": 59,
+      "kind": "candidates",
+      "source_line": 9069
+    },
+    {
+      "section": 61,
+      "kind": "candidates",
+      "source_line": 9261
+    },
+    {
+      "section": 62,
+      "kind": "candidates",
+      "source_line": 9458
+    },
+    {
+      "section": 63,
+      "kind": "candidates",
+      "source_line": 9599
+    },
+    {
+      "section": 64,
+      "kind": "candidates",
+      "source_line": 9908
+    },
+    {
+      "section": 65,
+      "kind": "candidates",
+      "source_line": 10110
+    },
+    {
+      "section": 66,
+      "kind": "candidates",
+      "source_line": 10329
+    },
+    {
+      "section": 67,
+      "kind": "candidates",
+      "source_line": 10531
+    },
+    {
+      "section": 68,
+      "kind": "candidates",
+      "source_line": 10934
+    },
+    {
+      "section": 69,
+      "kind": "candidates",
+      "source_line": 11104
+    },
+    {
+      "section": 70,
+      "kind": "candidates",
+      "source_line": 11352
+    },
+    {
+      "section": 71,
+      "kind": "candidates",
+      "source_line": 11657
+    },
+    {
+      "section": 72,
+      "kind": "candidates",
+      "source_line": 12027
+    },
+    {
+      "section": 73,
+      "kind": "candidates",
+      "source_line": 12174
+    },
+    {
+      "section": 74,
+      "kind": "candidates",
+      "source_line": 12785
+    },
+    {
+      "section": 75,
+      "kind": "candidates",
+      "source_line": 13136
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

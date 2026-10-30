@@ -110,5 +110,170 @@
     93,
     94,
     95
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 76,
+      "kind": "candidates",
+      "source_line": 13558
+    },
+    {
+      "section": 77,
+      "kind": "candidates",
+      "source_line": 13702
+    },
+    {
+      "section": 78,
+      "kind": "candidates",
+      "source_line": 13887
+    },
+    {
+      "section": 79,
+      "kind": "candidates",
+      "source_line": 13965
+    },
+    {
+      "section": 80,
+      "kind": "candidates",
+      "source_line": 14195
+    },
+    {
+      "section": 81,
+      "kind": "candidates",
+      "source_line": 14507
+    },
+    {
+      "section": 82,
+      "kind": "candidates",
+      "source_line": 14891
+    },
+    {
+      "section": 83,
+      "kind": "candidates",
+      "source_line": 15312
+    },
+    {
+      "section": 84,
+      "kind": "context_only",
+      "source_line": 15808,
+      "snippets": [
+        {
+          "source_line": 15811,
+          "tex": "\\noindent\nIn this section we repeat the arguments of\nSection \\ref{section-vanishing-torsion}\nfor constructible sheaves of modules over a Noetherian ring\nwhich are torsion. We start with the most interesting step."
+        }
+      ]
+    },
+    {
+      "section": 86,
+      "kind": "context_only",
+      "source_line": 16250,
+      "snippets": [
+        {
+          "source_line": 16253,
+          "tex": "\\noindent\nIf you are interested in either the smooth base change theorem\nor the proper base change theorem, you should skip directly to\nthe corresponding sections.\nIn this section and the next few sections we consider commutative diagrams\n$$\n\\xymatrix{\nX \\ar[d]_f & Y \\ar[l]^h \\ar[d]^e \\\\\nS & T \\ar[l]_g\n}\n$$\nof schemes; we usually assume this diagram is cartesian,\ni.e., $Y = X \\times_S T$. A commutative diagram as above\ngives rise to a commutative diagram\n$$\n\\xymatrix{\nX_\\etale \\ar[d]_{f_{small}} & Y_\\etale \\ar[d]^{e_{small}} \\ar[l]^{h_{small}} \\\\\nS_\\etale & T_\\etale \\ar[l]_{g_{small}}\n}\n$$\nof small \\'etale sites. Let us use the notation\n$$\nf^{-1} = f_{small}^{-1}, \\quad\ng_* = g_{small, *}, \\quad\ne^{-1} = e_{small}^{-1}, \\text{ and}\\quad\nh_* = h_{small, *}.\n$$\nBy Sites, Section \\ref{sites-section-pullback}\nwe get a base change or pullback map\n$$\nf^{-1}g_*\\mathcal{F}\n\\longrightarrow\nh_*e^{-1}\\mathcal{F}\n$$\nfor a sheaf $\\mathcal{F}$ on $T_\\etale$. If $\\mathcal{F}$ is an abelian\nsheaf on $T_\\etale$, then we get a derived base change map\n$$\nf^{-1}Rg_*\\mathcal{F}\n\\longrightarrow\nRh_*e^{-1}\\mathcal{F}\n$$\nsee Cohomology on Sites, Lemma\n\\ref{sites-cohomology-lemma-base-change-map-flat-case}.\nFinally, if $K$ is an arbitrary object of $D(T_\\etale)$\nthere is a base change map\n$$\nf^{-1}Rg_*K\n\\longrightarrow\nRh_*e^{-1}K\n$$\nsee\nCohomology on Sites, Remark \\ref{sites-cohomology-remark-base-change}."
+        }
+      ]
+    },
+    {
+      "section": 87,
+      "kind": "context_only",
+      "source_line": 16593,
+      "snippets": [
+        {
+          "source_line": 16596,
+          "tex": "\\noindent\nThis section is preliminary and should be skipped on a first reading.\nIn this section we discuss for what morphisms $f : X \\to S$ we have\n$f^{-1}g_* = h_*e^{-1}$ on all sheaves (of sets) for every cartesian\ndiagram\n$$\n\\xymatrix{\nX \\ar[d]_f & Y \\ar[l]^h \\ar[d]^e \\\\\nS & T \\ar[l]_g\n}\n$$\nwith $g$ quasi-compact and quasi-separated."
+        }
+      ]
+    },
+    {
+      "section": 89,
+      "kind": "context_only",
+      "source_line": 17350,
+      "snippets": [
+        {
+          "source_line": 17353,
+          "tex": "\\noindent\nIn this section we prove the smooth base change theorem."
+        }
+      ]
+    },
+    {
+      "section": 90,
+      "kind": "context_only",
+      "source_line": 18024,
+      "snippets": [
+        {
+          "source_line": 18027,
+          "tex": "\\noindent\nIn this section we discuss some more or less immediate\nconsequences of the smooth base change theorem."
+        }
+      ]
+    },
+    {
+      "section": 91,
+      "kind": "context_only",
+      "source_line": 18158,
+      "snippets": [
+        {
+          "source_line": 18309,
+          "tex": "\\noindent\nAt this point we start discussing the proper base change theorem.\nTo do so we introduce some notation. consider a commutative diagram\n\\begin{equation}\n\\label{equation-base-change-diagram}\n\\vcenter{\n\\xymatrix{\nX' \\ar[r]_{g'} \\ar[d]_{f'} & X \\ar[d]^f \\\\\nY' \\ar[r]^g & Y\n}\n}\n\\end{equation}\nof morphisms of schemes. Then we obtain a commutative diagram of sites\n$$\n\\xymatrix{\nX'_\\etale \\ar[r]_{g'_{small}} \\ar[d]_{f'_{small}} &\nX_\\etale \\ar[d]^{f_{small}} \\\\\nY'_\\etale \\ar[r]^{g_{small}} &\nY_\\etale\n}\n$$\nFor any object $E$ of $D(X_\\etale)$ we obtain a canonical base change map\n\\begin{equation}\n\\label{equation-base-change}\ng_{small}^{-1}Rf_{small, *}E \\longrightarrow Rf'_{small, *}(g'_{small})^{-1}E\n\\end{equation}\nin $D(Y'_\\etale)$. See Cohomology on Sites, Remark\n\\ref{sites-cohomology-remark-base-change} where we use the constant\nsheaf $\\mathbf{Z}$ as our sheaf of rings.\nWe will usually omit the subscripts ${}_{small}$ in this formula.\nFor example, if $E = \\mathcal{F}[0]$ where $\\mathcal{F}$ is an abelian\nsheaf on $X_\\etale$, the base change map is a map\n\\begin{equation}\n\\label{equation-base-change-sheaf}\ng^{-1}Rf_*\\mathcal{F} \\longrightarrow Rf'_*(g')^{-1}\\mathcal{F}\n\\end{equation}\nin $D(Y'_\\etale)$."
+        },
+        {
+          "source_line": 18347,
+          "tex": "The map (\\ref{equation-base-change}) has no chance of being an isomorphism\nin the generality given above. The goal is to show\nit is an isomorphism if the diagram (\\ref{equation-base-change-diagram})\nis cartesian, $f : X \\to Y$ proper, the cohomology sheaves of $E$\nare torsion, and $E$ is bounded below.\nTo study this question we introduce the following terminology.\nLet us say that {\\it cohomology commutes with base change\nfor $f : X \\to Y$} if (\\ref{equation-base-change-sheaf})\nis an isomorphism for every diagram (\\ref{equation-base-change-diagram})\nwhere $X' = Y' \\times_Y X$ and every torsion abelian sheaf $\\mathcal{F}$."
+        }
+      ]
+    },
+    {
+      "section": 92,
+      "kind": "context_only",
+      "source_line": 18762,
+      "snippets": [
+        {
+          "source_line": 18765,
+          "tex": "\\noindent\nIn this section we discuss some more or less immediate\nconsequences of the proper base change theorem."
+        }
+      ]
+    },
+    {
+      "section": 93,
+      "kind": "context_only",
+      "source_line": 19060,
+      "snippets": [
+        {
+          "source_line": 19063,
+          "tex": "\\noindent\nIn this section we deduce local acyclicity of smooth morphisms\nfrom the smooth base change theorem. In SGA 4 or SGA 4.5 the authors\nfirst prove a version of local acyclicity for smooth morphisms\nand then deduce the smooth base change theorem."
+        },
+        {
+          "source_line": 19069,
+          "tex": "We will use the formulation of local acyclicity given by\nDeligne \\cite[Definition 2.12, page 242]{SGA4.5}.\nLet $f : X \\to S$ be a morphism of schemes.\nLet $\\overline{x}$ be a geometric point of $X$ with image\n$\\overline{s} = f(\\overline{x})$ in $S$.\nLet $\\overline{t}$ be a geometric point of\n$\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})$.\nWe obtain a commutative diagram\n$$\n\\xymatrix{\nF_{\\overline{x}, \\overline{t}} =\n\\overline{t} \\times_{\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})}\n\\Spec(\\mathcal{O}^{sh}_{X, \\overline{x}}) \\ar[r] \\ar[d] &\n\\Spec(\\mathcal{O}^{sh}_{X, \\overline{x}}) \\ar[r] \\ar[d] &\nX \\ar[d] \\\\\n\\overline{t} \\ar[r] &\n\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}}) \\ar[r] &\nS\n}\n$$\nThe scheme $F_{\\overline{x}, \\overline{t}}$ is called\na {\\it variety of vanishing cycles of $f$ at $\\overline{x}$}.\nLet $K$ be an object of $D(X_\\etale)$. For any morphism of schemes\n$g : Y\\to X$ we write $R\\Gamma(Y, K)$ instead of\n$R\\Gamma(Y_\\etale, g_{small}^{-1}K)$. Since\n$\\mathcal{O}^{sh}_{X, \\overline{x}}$ is strictly henselian\nwe have\n$K_{\\overline{x}} = R\\Gamma(\\Spec(\\mathcal{O}^{sh}_{X, \\overline{x}}), K)$.\nThus we obtain a canonical map\n\\begin{equation}\n\\label{equation-alpha-K}\n\\alpha_{K, \\overline{x}, \\overline{t}} :\nK_{\\overline{x}}\n\\longrightarrow\nR\\Gamma(F_{\\overline{x}, \\overline{t}}, K)\n\\end{equation}\nby pulling back cohomology along\n$F_{\\overline{x}, \\overline{t}} \\to \\Spec(\\mathcal{O}^{sh}_{X, \\overline{x}})$."
+        },
+        {
+          "source_line": 19109,
+          "tex": "\\begin{definition}\n\\label{definition-locally-acyclic}\n\\begin{reference}\n\\cite[Definition 2.12, page 242]{SGA4.5} and\n\\cite[Definition (1.3), page 54]{SGA4.5}\n\\end{reference}\nLet $f : X \\to S$ be a morphism of schemes.\nLet $K$ be an object of $D(X_\\etale)$.\n\\begin{enumerate}\n\\item\nLet $\\overline{x}$ be a geometric point of $X$ with image\n$\\overline{s} = f(\\overline{x})$.\nWe say $f$ is {\\it locally acyclic at $\\overline{x}$ relative to $K$}\nif for every geometric point $\\overline{t}$ of\n$\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})$ the\nmap (\\ref{equation-alpha-K}) is an isomorphism\\footnote{We do not\nassume $\\overline{t}$ is an algebraic geometric point of\n$\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})$. Often using\nLemma \\ref{lemma-smooth-base-change-separably-closed}\none may reduce to this case.}.\n\\item We say $f$ is {\\it locally acyclic relative to $K$}\nif $f$ is locally acyclic at $\\overline{x}$ relative to $K$\nfor every geometric point $\\overline{x}$ of $X$.\n\\item We say $f$ is {\\it universally locally acyclic relative to $K$}\nif for any morphism $S' \\to S$ of schemes the base change $f' : X' \\to S'$\nis locally acyclic relative to the pullback of $K$ to $X'$.\n\\item We say $f$ is {\\it locally acyclic} if for all geometric\npoints $\\overline{x}$ of $X$ and any integer $n$ prime to the characteristic\nof $\\kappa(\\overline{x})$, the morphism $f$ is locally acyclic\nat $\\overline{x}$ relative to the constant sheaf with value\n$\\mathbf{Z}/n\\mathbf{Z}$.\n\\item We say $f$ is {\\it universally locally acyclic} if\nfor any morphism $S' \\to S$ of schemes the base change $f' : X' \\to S'$\nis locally acyclic.\n\\end{enumerate}\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 94,
+      "kind": "context_only",
+      "source_line": 19355,
+      "snippets": [
+        {
+          "source_line": 19358,
+          "tex": "\\noindent\nLet $f : X \\to S$ be a morphism of schemes. Let $\\overline{x}$ be a\ngeometric point of $X$ with image $\\overline{s} = f(\\overline{x})$ in $S$.\nLet $\\overline{t}$ be a geometric point of\n$\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})$.\nLet $K \\in D(X_\\etale)$. For any morphism $g : Y \\to X$ of schemes\nwe write $K|_Y$ instead of $g_{small}^{-1}K$ and $R\\Gamma(Y, K)$\ninstead of $R\\Gamma(Y_\\etale, g_{small}^{-1}K)$.\nWe claim that if\n\\begin{enumerate}\n\\item $K$ is bounded below, i.e., $K \\in D^+(X_\\etale)$,\n\\item $f$ is locally acyclic relative to $K$\n\\end{enumerate}\nthen there is a {\\it cospecialization map}\n$$\ncosp :\nR\\Gamma(X_{\\overline{t}}, K)\n\\longrightarrow\nR\\Gamma(X_{\\overline{s}}, K)\n$$\nwhich will be closely related to the specialization map\nconsidered in Section \\ref{section-specialization} and especially\nRemark \\ref{remark-specialization-map-and-fibres}."
+        }
+      ]
+    },
+    {
+      "section": 95,
+      "kind": "context_only",
+      "source_line": 19602,
+      "snippets": [
+        {
+          "source_line": 19612,
+          "tex": "\\begin{definition}\n\\label{definition-cd}\nLet $X$ be a quasi-compact and quasi-separated scheme.\nThe {\\it cohomological dimension of $X$} is the smallest\nelement\n$$\n\\text{cd}(X) \\in \\{0, 1, 2, \\ldots\\} \\cup \\{\\infty\\}\n$$\nsuch that for any abelian torsion sheaf $\\mathcal{F}$\non $X_\\etale$ we have $H^i_\\etale(X, \\mathcal{F}) = 0$\nfor $i > \\text{cd}(X)$. If $X = \\Spec(A)$ we sometimes\ncall this the cohomological dimension of $A$.\n\\end{definition}"
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -105,5 +105,92 @@
     2,
     3,
     4
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 3,
+      "kind": "context_only",
+      "source_line": 59,
+      "snippets": [
+        {
+          "source_line": 65,
+          "tex": "Step I. For each section we fix a Noetherian ring $\\Lambda$ and\nwe fix a finite ring map $\\Lambda \\to k$ where $k$ is a field.\nAs usual we let $\\mathcal{C}_\\Lambda = \\mathcal{C}_{\\Lambda, k}$\nbe our base category, see\nFormal Deformation Theory,\nDefinition \\ref{formal-defos-definition-CLambda}."
+        },
+        {
+          "source_line": 73,
+          "tex": "Step II. In each section we define a category $\\mathcal{F}$\ncofibred in groupoids over $\\mathcal{C}_\\Lambda$. Occasionally\nwe will consider instead a functor\n$F : \\mathcal{C}_\\Lambda \\to \\textit{Sets}$."
+        },
+        {
+          "source_line": 89,
+          "tex": "Step IV. Let $x_0$ be an object of $\\mathcal{F}(k)$, in other words an object\nof $\\mathcal{F}$ over $k$. In this chapter we will use the notation\n$$\n\\Deformationcategory_{x_0} = \\mathcal{F}_{x_0}\n$$\nto denote the predeformation category constructed in\nFormal Deformation Theory, Remark\n\\ref{formal-defos-remark-localize-cofibered-groupoid}.\nIf $\\mathcal{F}$ satisfies (RS), then\n$\\Deformationcategory_{x_0}$ is a deformation category\n(Formal Deformation Theory, Lemma\n\\ref{formal-defos-lemma-localize-RS})\nand satisfies (S1) and (S2)\n(Formal Deformation Theory, Lemma\n\\ref{formal-defos-lemma-RS-implies-S1-S2}).\nIf (S1) and (S2) are satisfied, then\nan important question is whether the tangent space\n$$\nT\\Deformationcategory_{x_0} = T_{x_0}\\mathcal{F} = T\\mathcal{F}_{x_0}\n$$\n(see Formal Deformation Theory, Remark\n\\ref{formal-defos-remark-tangent-space-cofibered-groupoid} and\nDefinition \\ref{formal-defos-definition-tangent-space})\nis finite dimensional. Namely, this insures that\n$\\Deformationcategory_{x_0}$ has a versal formal object\n(Formal Deformation Theory, Lemma\n\\ref{formal-defos-lemma-versal-object-existence})."
+        }
+      ]
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 259
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 474
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 598
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 805
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1201
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1488
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1771
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1944
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2306
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2467
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2649
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 2721
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 2888
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
