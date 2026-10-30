@@ -103,6 +103,8 @@
     "candidate.stacks.27690707b8f6d2f1f119ee2c",
     "candidate.stacks.3cdb0185baae12169fba5192",
     "candidate.stacks.75f2271382809156e0229e26",
+    "candidate.stacks.63f386b2fbd78ee3a259b892",
+    "candidate.stacks.1a57a6d9b68029a336fce0ec",
     "candidate.stacks.1a0843af9be85ee515c8af79",
     "candidate.stacks.19982cd64df8c6faaabdec5d",
     "candidate.stacks.73417c1e7092a5ba41dc9721",
@@ -114,5 +116,6 @@
     "candidate.stacks.7e217cf1d98bd41960dd1c6b",
     "candidate.stacks.63e1f842cd529d7576086812",
     "candidate.stacks.4215d0871d31fa058fef1fe1"
-  ]
+  ],
+  "stage_a_mathematical_analysis_pending": false
 }
