@@ -1,0 +1,68 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-70",
+  "chapter": "restricted.tex",
+  "sections_ordinal": [
+    1,
+    6
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17,
+    85,
+    262,
+    606,
+    855,
+    1136
+  ],
+  "first_source_line": 17,
+  "last_source_line": 1371,
+  "complete_sections": true,
+  "stage_a_candidate_count": 17,
+  "candidate_ids": [
+    "candidate.stacks.29a1be24d061ec62983e1a99",
+    "candidate.stacks.3bcdf15ff9dc904c59cd95cc",
+    "candidate.stacks.c79b35747d4aff9c62029495",
+    "candidate.stacks.9ae15901f33f3ff0c393ebca",
+    "candidate.stacks.6c847eeff66f62a5dfe7d0d7",
+    "candidate.stacks.525eeb7759a9ad37fcb21992",
+    "candidate.stacks.6fb2ed213379257a54d2bd8d",
+    "candidate.stacks.f11614a83c1f90ae530b66a6",
+    "candidate.stacks.05f55296266ebf507aafda9a",
+    "candidate.stacks.a9b9bd20157b5f979dccd90f",
+    "candidate.stacks.db494a04cc27404d73795c40",
+    "candidate.stacks.db29c3b7a9b58f495f58cc98",
+    "candidate.stacks.6ef980622a4482e0a40f2770",
+    "candidate.stacks.4f993cd1ff598da6480a0dd1",
+    "candidate.stacks.95f51d374aa5f8116c923059",
+    "candidate.stacks.e91ebdc22e3e1754b5f5404c",
+    "candidate.stacks.d6aaccbdda31fda62f552eda"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/restricted/batch_01_sections_01_06/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "stage_a_mathematical_analysis_pending": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.29a1be24d061ec62983e1a99",
+    "candidate.stacks.3bcdf15ff9dc904c59cd95cc",
+    "candidate.stacks.c79b35747d4aff9c62029495",
+    "candidate.stacks.9ae15901f33f3ff0c393ebca",
+    "candidate.stacks.6c847eeff66f62a5dfe7d0d7",
+    "candidate.stacks.525eeb7759a9ad37fcb21992",
+    "candidate.stacks.6fb2ed213379257a54d2bd8d",
+    "candidate.stacks.f11614a83c1f90ae530b66a6",
+    "candidate.stacks.05f55296266ebf507aafda9a",
+    "candidate.stacks.a9b9bd20157b5f979dccd90f",
+    "candidate.stacks.db494a04cc27404d73795c40",
+    "candidate.stacks.db29c3b7a9b58f495f58cc98",
+    "candidate.stacks.6ef980622a4482e0a40f2770",
+    "candidate.stacks.e91ebdc22e3e1754b5f5404c"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1
+  ]
+}
