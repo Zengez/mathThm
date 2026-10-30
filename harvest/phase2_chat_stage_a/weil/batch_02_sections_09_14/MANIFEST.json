@@ -64,24 +64,17 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.bc52e46e79d581b989712781",
-    "candidate.stacks.c327a4da36c29185c166340a",
     "candidate.stacks.fd03781da6ecce30e52980a7",
     "candidate.stacks.adfecc2438d37b7824b61190",
     "candidate.stacks.14f1429d77a8f8830853ab36",
-    "candidate.stacks.74968a1ffade401ed3b68254",
-    "candidate.stacks.fb668a7933c35578e04d5a63",
-    "candidate.stacks.91577881331a81647dddb10f",
     "candidate.stacks.ae3bef09c3fb1602dea46c48",
     "candidate.stacks.2dc713aeb2b164e04f943d82",
     "candidate.stacks.6365df7d6fc0efe0228ee455",
-    "candidate.stacks.7a47500558dcdef674d41b61",
     "candidate.stacks.76204497ecf3984270f9c530",
     "candidate.stacks.565afe4a21951ff67c9140ca",
-    "candidate.stacks.fa0c4240a362afb34918f525",
-    "candidate.stacks.9adec45a7a157c470cfff79d",
     "candidate.stacks.e1c415b048800bfdb1c8c79b",
     "candidate.stacks.62ad105b341e7911a44a194d",
     "candidate.stacks.a7fbf9837aed87961be07c50"
-  ]
+  ],
+  "stage_a_mathematical_analysis_pending": false
 }
