@@ -1,0 +1,38 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "perfect.tex",
+  "sections_ordinal": [
+    16,
+    20
+  ],
+  "first_source_line": 4055,
+  "last_source_line": 4803,
+  "source_section_starts": [
+    4055,
+    4230,
+    4425,
+    4589,
+    4686
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 10,
+  "candidate_ids": [
+    "candidate.stacks.71fe2abda64141ec66a525cf",
+    "candidate.stacks.6cb532af795d412ccec7e9d5",
+    "candidate.stacks.7d8778f61f222bcaeb074d5c",
+    "candidate.stacks.d0739b1c71e13b7a7e8daff3",
+    "candidate.stacks.09ab525d6b7d5c38b0cb39b7",
+    "candidate.stacks.c72a6fbb2461d8f5c55f02c6",
+    "candidate.stacks.9bacbc09c948f5c3f6464a68",
+    "candidate.stacks.8ac393be5b579c09cf45a4b8",
+    "candidate.stacks.f90c821a2eebd8f79911f389",
+    "candidate.stacks.2cf92a11585a8b5752c6c63a"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/perfect/batch_04_sections_16_20/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "notes": "One zero-active section traversed. All mathematical records remain preliminary."
+}
