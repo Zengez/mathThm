@@ -1,0 +1,52 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "descent.tex",
+  "sections_ordinal": [
+    6,
+    10
+  ],
+  "first_source_line": 1701,
+  "last_source_line": 3494,
+  "source_section_starts": [
+    1701,
+    1887,
+    2137,
+    2679,
+    2994
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 24,
+  "candidate_ids": [
+    "candidate.stacks.f34bb859630ccec60c7c1a5d",
+    "candidate.stacks.b443bf810653091ba0376f3b",
+    "candidate.stacks.ce692ca3a4428cf3c73af596",
+    "candidate.stacks.71c7c8275b71633b848cd503",
+    "candidate.stacks.48b765ccf669e73d5f5a2e36",
+    "candidate.stacks.edf3e38f78f4d56aad7c35ca",
+    "candidate.stacks.e9e44e3ee0597df5221a2beb",
+    "candidate.stacks.bfd6c69f6c60bd181ac5cb36",
+    "candidate.stacks.23f4e4356ea0ac3e0a00c454",
+    "candidate.stacks.152e9b93103b075e6a6f2cbf",
+    "candidate.stacks.e22b34eb84838c324a3d44ce",
+    "candidate.stacks.c8cc8bb8bd36cbed9cc6b6d7",
+    "candidate.stacks.67355ef6853858f0e1e8a82a",
+    "candidate.stacks.2d90c6ac962ed2708969cda4",
+    "candidate.stacks.8e287e71abaa125a30973fe7",
+    "candidate.stacks.f6d94f1249ff4f2ab53b916a",
+    "candidate.stacks.e12b377512ab1277a31f8d70",
+    "candidate.stacks.7e57d65904f175e4a659e1b7",
+    "candidate.stacks.598972702bac9075421605b1",
+    "candidate.stacks.08af356e5e9e88ee40ef5926",
+    "candidate.stacks.62aea0db3d65e72f02560884",
+    "candidate.stacks.7b1c9332f50a4c6445c10e56",
+    "candidate.stacks.f027b1e28104d545e5725eaa",
+    "candidate.stacks.965afe0a9792d9b7f21d73e4"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/descent/batch_02_sections_06_10/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "notes": "Preserves big vs small site exceptions, all alternatives, and source's warnings; independent Stage B still required."
+}
