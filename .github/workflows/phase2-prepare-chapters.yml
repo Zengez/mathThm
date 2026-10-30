@@ -5,9 +5,8 @@ on:
       - feature/phase2-chapter-preparation
     paths:
       - .github/workflows/phase2-prepare-chapters.yml
-      - scripts/phase2_prepare_chapters.py
-      - scripts/phase2_verify_prepared.py
-      - tests/test_phase2_prepare_chapters.py
+      - "scripts/**"
+      - "tests/**"
   workflow_dispatch:
     inputs:
       chapters:
