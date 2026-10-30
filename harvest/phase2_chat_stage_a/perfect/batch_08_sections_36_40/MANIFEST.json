@@ -1,0 +1,53 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "perfect.tex",
+  "sections_ordinal": [
+    36,
+    40
+  ],
+  "first_source_line": 9201,
+  "last_source_line": 10743,
+  "source_section_starts": [
+    9201,
+    9565,
+    9847,
+    10256,
+    10357
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 25,
+  "candidate_ids": [
+    "candidate.stacks.be823c62b873a6281631c0aa",
+    "candidate.stacks.6401d40a41ed31c7c8926e13",
+    "candidate.stacks.3d4ec04603500ac8156c027f",
+    "candidate.stacks.7efd7b32979fbd2eacfc7e8d",
+    "candidate.stacks.7c619bde1dcdfa105e4c2c65",
+    "candidate.stacks.264435ec0759081abe18a147",
+    "candidate.stacks.303fcb84c99a1309421a8fd6",
+    "candidate.stacks.939409aa9f0819fb8af87185",
+    "candidate.stacks.20fdb53b3e1861c45856f26c",
+    "candidate.stacks.d6e9d10191be0fa42bcbf6bf",
+    "candidate.stacks.61b66aacf47bd69bc4ef5e12",
+    "candidate.stacks.cb50d43a6c52d762c68884fe",
+    "candidate.stacks.018e9103f30b20b7225a59fb",
+    "candidate.stacks.54b815b4fdeb39118b06775d",
+    "candidate.stacks.b9c59e55d68bff8e91e72ab1",
+    "candidate.stacks.4d9c3e3a9854e8e3c2690a8c",
+    "candidate.stacks.31266e37a9e32e823b90f05b",
+    "candidate.stacks.0bb799a99362cd78579d7e38",
+    "candidate.stacks.3d1085583558bfc6325456c5",
+    "candidate.stacks.e9984e78790dc9114367f90c",
+    "candidate.stacks.23f18fff5e3171077839deed",
+    "candidate.stacks.fcb6a9bba902068e322f17af",
+    "candidate.stacks.5c41eccd21f7ae9b9e85c90b",
+    "candidate.stacks.3ddc9544098215ef3047ab7b",
+    "candidate.stacks.7c0bb30420d2d0fc540733ab"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/perfect/batch_08_sections_36_40/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "notes": "Source resolution-property definition and K_0 semantics restored structurally. Two Koszul truncation lemmas have offset reverse implications, not biconditionals. Stage B must verify."
+}
