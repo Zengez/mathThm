@@ -28,5 +28,28 @@
   "reviewer": "chatgpt-stage-a",
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
-  "proofs_reviewed": 0
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 36,
+      "kind": "candidates",
+      "source_line": 8971
+    },
+    {
+      "section": 37,
+      "kind": "candidates",
+      "source_line": 9139
+    },
+    {
+      "section": 38,
+      "kind": "candidates",
+      "source_line": 9224
+    },
+    {
+      "section": 39,
+      "kind": "candidates",
+      "source_line": 9326
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -33,5 +33,33 @@
   "reviewer": "chatgpt-stage-a",
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
-  "proofs_reviewed": 0
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 6621
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 6758
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 6804
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 6895
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 6918
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

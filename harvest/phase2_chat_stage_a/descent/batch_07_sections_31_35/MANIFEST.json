@@ -51,5 +51,33 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "Contains 27 source-sensitive germ, étale-locality, scheme descent-data and fully faithful pullback statements; all independent Stage B not yet performed."
+  "notes": "Contains 27 source-sensitive germ, étale-locality, scheme descent-data and fully faithful pullback statements; all independent Stage B not yet performed.",
+  "processing_sections": [
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 6943
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 7040
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 7829
+    },
+    {
+      "section": 34,
+      "kind": "candidates",
+      "source_line": 8090
+    },
+    {
+      "section": 35,
+      "kind": "candidates",
+      "source_line": 8472
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

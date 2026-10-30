@@ -79,5 +79,28 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "33 approved fpqc-locality candidates were not re-drafted; original 33 independent validations verified all approved. Remaining 14 reconstructed for future Stage B."
+  "notes": "33 approved fpqc-locality candidates were not re-drafted; original 33 independent validations verified all approved. Remaining 14 reconstructed for future Stage B.",
+  "processing_sections": [
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 5151
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 5282
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 6306
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 6374
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
