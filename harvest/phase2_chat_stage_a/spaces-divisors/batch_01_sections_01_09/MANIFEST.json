@@ -90,5 +90,48 @@
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     1
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 32
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 361
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 511
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 894
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 1126
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1364
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1555
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1736
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
