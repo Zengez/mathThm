@@ -1,0 +1,66 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-57",
+  "chapter": "spaces-over-fields.tex",
+  "sections_ordinal": [
+    11,
+    18
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    1881,
+    2066,
+    2361,
+    2394,
+    2539,
+    2676,
+    2730,
+    2826
+  ],
+  "first_source_line": 1881,
+  "last_source_line": 3344,
+  "complete_sections": true,
+  "stage_a_candidate_count": 26,
+  "candidate_ids": [
+    "candidate.stacks.563f0ae2d4a3b43981894295",
+    "candidate.stacks.9e268b06f765c7b76b5aff54",
+    "candidate.stacks.3c05f3eff01f748a08ddc272",
+    "candidate.stacks.97981a1253d026641c797c4f",
+    "candidate.stacks.3dbad4b95f5fc4c7a66e3572",
+    "candidate.stacks.cd7985edefee524d8eddb4c6",
+    "candidate.stacks.04adb0b0dfe2c22dc6c1d4b1",
+    "candidate.stacks.4086066f111703b7703b829c",
+    "candidate.stacks.8e9d2a9bcdccd8244c208bfd",
+    "candidate.stacks.6d788b3888d5c9eca12ea648",
+    "candidate.stacks.9da590ec44252e1b3caaa1d9",
+    "candidate.stacks.c7400ddd43ce3fb590e85c19",
+    "candidate.stacks.ccf0038c3e619f66ddb709f6",
+    "candidate.stacks.48ed5b616b4967a8c93d6721",
+    "candidate.stacks.e50d91c74cd136ce5d477bb4",
+    "candidate.stacks.0a2b545e48f6948b2697f1d2",
+    "candidate.stacks.83dbcce5f60e14627a5d1900",
+    "candidate.stacks.6e062131be34f5e9f38bf083",
+    "candidate.stacks.8c0389edfa3ce78a551a1ae5",
+    "candidate.stacks.53aecc62d8cfa6b0e915eb9e",
+    "candidate.stacks.f4b80c9acd2849a425e6978a",
+    "candidate.stacks.254789f9f1de7df88936b2d4",
+    "candidate.stacks.931e6e89bcd8c9ea3c5e8954",
+    "candidate.stacks.f599dc5efc036dd4ce232c8e",
+    "candidate.stacks.4aec597ef999d737f733ed38",
+    "candidate.stacks.c10074b1740c6b2dc1e52354"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/spaces-over-fields/batch_02_sections_11_18/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "stage_a_mathematical_analysis_pending": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.4aec597ef999d737f733ed38"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    13
+  ]
+}
