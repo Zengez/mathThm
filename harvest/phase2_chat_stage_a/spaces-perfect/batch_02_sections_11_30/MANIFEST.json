@@ -135,5 +135,114 @@
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     30
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2082
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2606
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2846
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 3350
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 3586
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 3871
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 4069
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 4310
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 4413
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 4658
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 5074
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 5520
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 5626
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 5949
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 6078
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 6423
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 6707
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 6878
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 7026
+    },
+    {
+      "section": 30,
+      "kind": "context_only",
+      "source_line": 7336,
+      "snippets": [
+        {
+          "source_line": 7362,
+          "tex": "In this section we denote $X_{affine}$ the underlying category of\n$X_{affine, \\etale}$ endowed with the chaotic topology, i.e., such that sheaves\nagree with presheaves. In particular, the structure sheaf $\\mathcal{O}_X$\nbecomes a sheaf on $X_{affine}$ as well.\nWe obtain a morphisms of ringed sites\n$$\n\\epsilon :\n(X_{affine, \\etale}, \\mathcal{O}_X)\n\\longrightarrow\n(X_{affine}, \\mathcal{O}_X)\n$$\nas in Cohomology on Sites, Section \\ref{sites-cohomology-section-compare}.\nIn this section we will identify $D_\\QCoh(\\mathcal{O}_X)$ with\nthe category $\\mathit{QC}(X_{affine}, \\mathcal{O}_X)$ introduced in\nCohomology on Sites, Section \\ref{sites-cohomology-section-modules-cohomology}."
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

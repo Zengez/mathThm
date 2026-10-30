@@ -81,5 +81,48 @@
   "source_sections_without_active_candidates": [
     1,
     2
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 50
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 92
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 264
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 564
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 805
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1166
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1280
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1559
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

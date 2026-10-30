@@ -64,5 +64,54 @@
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     13
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1881
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2066
+    },
+    {
+      "section": 13,
+      "kind": "context_only",
+      "source_line": 2361,
+      "snippets": [
+        {
+          "source_line": 2373,
+          "tex": "\\begin{definition}\n\\label{definition-geometrically-irreducible}\nLet $k$ be a field. \nLet $X$ be a decent algebraic space over $k$.\nWe say $X$ is {\\it geometrically irreducible} if the\ntopological space $|X_{k'}|$ is\nirreducible\\footnote{An irreducible space is nonempty.}\nfor any field extension $k'$ of $k$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2394
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2539
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 2676
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 2730
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 2826
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
