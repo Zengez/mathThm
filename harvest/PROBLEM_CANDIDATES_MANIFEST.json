@@ -53,10 +53,7 @@
     "needs_context": "inherited_context",
     "needs_structure": "structural_complexity"
   },
-  "future_rebuild_command": "python -m scripts.pass2_problem_candidates",
   "future_work": "Review all three difficulty groups after prototyping; deferral is not rejection or validity verification",
-  "legacy_compatibility_file": "harvest/problem_candidates_inherited_context.jsonl",
-  "legacy_filename_now_includes_all_groups": true,
   "proofs_read": false,
   "published_catalog_untouched": true,
   "quarantined_ids_are_in_active_resolved_set": false,

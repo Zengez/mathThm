@@ -5,7 +5,6 @@
 ## One combined registry, three difficulty groups
 
 - **[problem_candidates.jsonl](problem_candidates.jsonl)** — canonical unified registry: **1,304** records.
-- **[problem_candidates_inherited_context.jsonl](problem_candidates_inherited_context.jsonl)** — legacy path retained as an *identical copy of the unified registry*, despite its historical filename. It now includes all three groups.
 - **[PROBLEM_CANDIDATES_MANIFEST.json](PROBLEM_CANDIDATES_MANIFEST.json)** — current counts by difficulty, source batch, and structural subtype, plus the active-intake rule.
 
 JSON Lines cannot contain prose section headings without breaking its data format. Instead, the records are ordered by `difficulty_group`, each record carries that field and a more granular `difficulty_subtype`, and the groups are described below. Each record also retains its stable candidate ID, original Stacks source statement and pinned URL, references, review notes, and available recovered source context.
@@ -54,8 +53,9 @@ The three full statements are preserved in the same JSONL archive, along with th
 
 Canonical source: `harvest/batches/<batch>/pass1.jsonl` and `pass2.jsonl`. This combined registry is a reproducible snapshot, not a replacement for them.
 
-```bash
-python -m scripts.pass2_problem_candidates
-```
+The earlier generator was retired with the obsolete Pass 2 campaign. If a
+later discovery phase requires a refresh, update the canonical derived registry
+from the source Pass 1/2 data as a one-time operation—not by reviving the old
+compatibility alias or adding a runtime lookup layer.
 
-**Coverage invariant:** the registry must include exactly every candidate whose canonical Pass 2 status is not `resolved`, with zero unarchived unresolved IDs. Regenerate after future Pass 2 adjudications, and again before starting a later discovery phase. Resolved cases automatically disappear from both copies on rebuild. The source revision is pinned at `a04446e57ec1fbc252a871afcec7752fb2807b14`. No proofs were read or public theorem entries changed for this registry update.
+**Coverage invariant:** the registry must include exactly every candidate whose canonical Pass 2 status is not `resolved`, with zero unarchived unresolved IDs. Regenerate after future Pass 2 adjudications, and again before starting a later discovery phase. Resolved cases must be omitted from the single rebuilt registry. The source revision is pinned at `a04446e57ec1fbc252a871afcec7752fb2807b14`. No proofs were read or public theorem entries changed for this registry update.

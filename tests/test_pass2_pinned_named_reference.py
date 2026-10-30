@@ -12,6 +12,20 @@ def packet(s):
             "context_status":"needs_context","hypotheses":[],"conclusions":[]}
 
 class NamedReferenceTests(unittest.TestCase):
+    def test_source_index_lines_including_multiline_context(self):
+        from tempfile import TemporaryDirectory
+        from pathlib import Path
+        from scripts.pass2_context_source_probe import get_index
+        with TemporaryDirectory() as temp:
+            (Path(temp) / "local.tex").write_text(
+                "Intro\n\\begin{definition}\\label{definition-a} A\\end{definition}\n"
+                "\n\\begin{lemma}\\label{lemma-b} B\\end{lemma}\n"
+            )
+            index = get_index(Path(temp), ["local.tex"])
+            self.assertEqual(index[("local.tex", "definition-a")]["line"], 2)
+            self.assertEqual(index[("local.tex", "lemma-b")]["line"], 4)
+
+
     def test_source_native_then(self):
         s=r"Let $E$ be as in Lemma \ref{lemma-construction}. Then $F(E)$ is nonzero."
         v,why=interpret(packet(s),SOURCE,CTX)
