@@ -1,0 +1,57 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-72",
+  "chapter": "spaces-resolve.tex",
+  "sections_ordinal": [
+    2,
+    9
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    47,
+    173,
+    262,
+    423,
+    609,
+    708,
+    843,
+    963
+  ],
+  "first_source_line": 47,
+  "last_source_line": 1100,
+  "complete_sections": true,
+  "stage_a_candidate_count": 13,
+  "candidate_ids": [
+    "candidate.stacks.152b399087c8c687376bcd4e",
+    "candidate.stacks.ad268f971a64767d41ec8705",
+    "candidate.stacks.b5ee2ec53a02deb5619a3317",
+    "candidate.stacks.2dee1b713e4a8db066f6a57e",
+    "candidate.stacks.e2588391bda0dcf4811f94af",
+    "candidate.stacks.6dfdc5972df3ba3933c76e3e",
+    "candidate.stacks.3fe31028693d0d157d01e17a",
+    "candidate.stacks.87731b4c3ce2bc2df1974f0f",
+    "candidate.stacks.6bea3bfe76f4688a54f3801e",
+    "candidate.stacks.ee48cb233b067b7f558a6bcd",
+    "candidate.stacks.7597d88585fc8a0766938bb8",
+    "candidate.stacks.1061b5c473c0d718e634dfa4",
+    "candidate.stacks.8695c1a3fac67a8188bd2b0d"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/spaces-resolve/batch_02_sections_02_09/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "stage_a_mathematical_analysis_pending": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.152b399087c8c687376bcd4e",
+    "candidate.stacks.ad268f971a64767d41ec8705",
+    "candidate.stacks.2dee1b713e4a8db066f6a57e",
+    "candidate.stacks.3fe31028693d0d157d01e17a",
+    "candidate.stacks.7597d88585fc8a0766938bb8"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    9
+  ]
+}
