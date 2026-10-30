@@ -11,7 +11,6 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
-import hashlib
 import json
 from pathlib import Path
 
@@ -94,7 +93,6 @@ def generate(prepared_root: Path, codex_root: Path) -> dict:
     index = json.loads(index_path.read_text(encoding="utf-8"))
     if index["source_revision"] != REV or index["prepared_candidates"] != 9675:
         raise ValueError("Expected full pinned preparation corpus, not a partial source")
-    codex_sha = (codex_root / ".git").read_text().strip() if False else None
     all_ids: set[str] = set()
     all_pending: set[str] = set()
     all_excluded: set[str] = set()
@@ -106,6 +104,13 @@ def generate(prepared_root: Path, codex_root: Path) -> dict:
         sections = jsonl(folder / "SECTIONS.jsonl")
         if len(originals) != entry["candidate_count"] or len(sections) != entry["section_count"]:
             raise ValueError(f"Original packet count mismatch: {chapter}")
+        source_manifest = json.loads((folder / "MANIFEST.json").read_text(encoding="utf-8"))
+        import hashlib
+        for fname, digest_key in (("CANDIDATES.jsonl", "candidate_inputs_sha256"),
+                                  ("SECTIONS.jsonl", "section_inputs_sha256")):
+            got = hashlib.sha256((folder / fname).read_bytes()).hexdigest()
+            if got != source_manifest[digest_key]:
+                raise ValueError(f"Original source-packet integrity mismatch: {chapter}/{fname}")
         pending = []
         reviewed_rows = []
         for candidate in originals:
@@ -166,8 +171,8 @@ def generate(prepared_root: Path, codex_root: Path) -> dict:
             "section_count": len(sections),
             "source_packets_preserved": True,
             "approval_changes": 0,
-            "pending_file": str((folder / PENDING_FILE).relative_to(prepared_root.parent.parent)),
-            "reviewed_file": str((folder / REVIEWED_FILE).relative_to(prepared_root.parent.parent)),
+            "pending_file": str(folder / PENDING_FILE),
+            "reviewed_file": str(folder / REVIEWED_FILE),
         }
         (folder / SUMMARY_FILE).write_text(
             json.dumps(summary, indent=2, sort_keys=True) + "\n", encoding="utf-8"
