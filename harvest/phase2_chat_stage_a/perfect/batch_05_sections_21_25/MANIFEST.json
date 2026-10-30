@@ -1,0 +1,40 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "perfect.tex",
+  "sections_ordinal": [
+    21,
+    25
+  ],
+  "first_source_line": 4804,
+  "last_source_line": 6381,
+  "source_section_starts": [
+    4804,
+    5040,
+    5376,
+    6015,
+    6286
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 12,
+  "candidate_ids": [
+    "candidate.stacks.28496c9ea8b7a450282c1092",
+    "candidate.stacks.84597a7254337ec03f99bf48",
+    "candidate.stacks.49cd1d9e4e240e860fc5f4e1",
+    "candidate.stacks.7d88af066cfcba367476f772",
+    "candidate.stacks.e0d005c404efaf2cb10f279b",
+    "candidate.stacks.9d27997c58ddc2c6e55d8e55",
+    "candidate.stacks.be31c99c16e40604f81e4049",
+    "candidate.stacks.d0d548b08ba1d04f51c2a030",
+    "candidate.stacks.b98a04af5523e9ef0b4a6d10",
+    "candidate.stacks.269f8e4f4d8bd03912d6540c",
+    "candidate.stacks.696edc806abc8068fec26c49",
+    "candidate.stacks.70b58bc4418996f27acb59b7"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/perfect/batch_05_sections_21_25/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "notes": "Three mathematical source-notation issues specifically held for independent review; two zero-candidate sections included."
+}
