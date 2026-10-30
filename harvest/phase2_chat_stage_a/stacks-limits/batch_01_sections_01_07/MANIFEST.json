@@ -1,0 +1,66 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-83",
+  "chapter": "stacks-limits.tex",
+  "sections_ordinal": [
+    1,
+    7
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17,
+    26,
+    40,
+    517,
+    577,
+    666,
+    890
+  ],
+  "first_source_line": 17,
+  "last_source_line": 1113,
+  "complete_sections": true,
+  "stage_a_candidate_count": 13,
+  "candidate_ids": [
+    "candidate.stacks.fcc20bf4a5778db40deca25e",
+    "candidate.stacks.d5cdf6b1f57ea77346fd6fbb",
+    "candidate.stacks.329a49b053f2df83245b676b",
+    "candidate.stacks.6447dd4ecc1938c2f61e9e95",
+    "candidate.stacks.b036c9c4b43c2da62190eee6",
+    "candidate.stacks.b4e20085f522d45902e2fc1b",
+    "candidate.stacks.807f9cf13717e7922a709285",
+    "candidate.stacks.50bd92f79d7738e093d38ac8",
+    "candidate.stacks.2398261bdf39c8a35e5665a8",
+    "candidate.stacks.38751b7433b24bda4cffc627",
+    "candidate.stacks.9995fb4e3cf772d3d8067e0c",
+    "candidate.stacks.145b79ff09b687b0971af102",
+    "candidate.stacks.0c68a935b1548a7a4c76696e"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/stacks-limits/batch_01_sections_01_07/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "stage_a_mathematical_analysis_pending": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.fcc20bf4a5778db40deca25e",
+    "candidate.stacks.d5cdf6b1f57ea77346fd6fbb",
+    "candidate.stacks.329a49b053f2df83245b676b",
+    "candidate.stacks.6447dd4ecc1938c2f61e9e95",
+    "candidate.stacks.b036c9c4b43c2da62190eee6",
+    "candidate.stacks.b4e20085f522d45902e2fc1b",
+    "candidate.stacks.807f9cf13717e7922a709285",
+    "candidate.stacks.50bd92f79d7738e093d38ac8",
+    "candidate.stacks.2398261bdf39c8a35e5665a8",
+    "candidate.stacks.38751b7433b24bda4cffc627",
+    "candidate.stacks.9995fb4e3cf772d3d8067e0c",
+    "candidate.stacks.145b79ff09b687b0971af102",
+    "candidate.stacks.0c68a935b1548a7a4c76696e"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1,
+    2
+  ],
+  "no_semantic_or_proof_approval_in_this_batch": true
+}
