@@ -165,5 +165,83 @@
     "candidate.stacks.eab56eeb3386c3d91b2677cf",
     "candidate.stacks.aa57619def1ebf5da6ffb883"
   ],
-  "notes": "Contains h, ph, formal existence and flattening statements. All individual notes are written, complex cases held for actual source-first equivalence verification."
+  "notes": "Contains h, ph, formal existence and flattening statements. All individual notes are written, complex cases held for actual source-first equivalence verification.",
+  "processing_sections": [
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 6782
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 6995
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 7552
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 7622
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 8025
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 8365
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 8595
+    },
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 9116
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 9278
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 9532
+    },
+    {
+      "section": 34,
+      "kind": "candidates",
+      "source_line": 10002
+    },
+    {
+      "section": 35,
+      "kind": "candidates",
+      "source_line": 10736
+    },
+    {
+      "section": 36,
+      "kind": "candidates",
+      "source_line": 10855
+    },
+    {
+      "section": 37,
+      "kind": "candidates",
+      "source_line": 10945
+    },
+    {
+      "section": 38,
+      "kind": "candidates",
+      "source_line": 11771
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

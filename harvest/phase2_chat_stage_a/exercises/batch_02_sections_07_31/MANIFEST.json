@@ -75,5 +75,132 @@
     30,
     31
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 9,
+      "kind": "context_only",
+      "source_line": 790,
+      "snippets": [
+        {
+          "source_line": 793,
+          "tex": "\\begin{definition}\n\\label{definition-length}\nLet $A$ be a ring. Let $M$ be an $A$-module. The\n{\\it length} of $M$ as an $R$-module is\n$$\n\\text{length}_A(M)\n=\n\\sup\n\\{\nn\n\\mid\n\\exists\\ 0 = M_0 \\subset M_1 \\subset \\ldots \\subset M_n = M,\n\\text{ }M_i \\not = M_{i + 1}\n\\}.\n$$\nIn other words, the supremum of the lengths of chains of submodules.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 18,
+      "kind": "context_only",
+      "source_line": 1351,
+      "snippets": [
+        {
+          "source_line": 1354,
+          "tex": "\\begin{definition}\n\\label{definition-catenary}\nA Noetherian ring $A$ is said to be {\\it catenary}\nif for any triple of prime ideals\n${\\mathfrak p}_1 \\subset {\\mathfrak p}_2 \\subset {\\mathfrak p}_3$\nwe have\n$$\nht({\\mathfrak p}_3 / {\\mathfrak p}_1) = ht({\\mathfrak p}_3/{\\mathfrak p}_2) +\nht({\\mathfrak p}_2/{\\mathfrak p}_1).\n$$\nHere $ht(\\mathfrak p/\\mathfrak q)$ means the height of\n$\\mathfrak p/\\mathfrak q$ in the ring $A/\\mathfrak q$.\nIn a formula\n$$\nht(\\mathfrak p/\\mathfrak q) =\n\\dim(A_\\mathfrak p/\\mathfrak qA_\\mathfrak p) =\n\\dim((A/\\mathfrak q)_\\mathfrak p) =\n\\dim((A/\\mathfrak q)_{\\mathfrak p/\\mathfrak q})\n$$\nA topological space $X$ is {\\it catenary}, if given $T \\subset T' \\subset X$\nwith $T$ and $T'$ closed and irreducible, then there exists a maximal chain\nof irreducible closed subsets\n$$\nT = T_0 \\subset T_1 \\subset \\ldots \\subset T_n = T'\n$$\nand every such chain has the same (finite) length.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 22,
+      "kind": "context_only",
+      "source_line": 1530,
+      "snippets": [
+        {
+          "source_line": 1533,
+          "tex": "\\begin{definition}\n\\label{definition-finite-locally-free}\nLet $A$ be a ring. Recall that a {\\it finite locally free} $A$-module\n$M$ is a module such that for every ${\\mathfrak p} \\in \\Spec(A)$\nthere exists an\n$f\\in A$, $f \\not \\in {\\mathfrak p}$ such that $M_f$ is a finite free\n$A_f$-module. We say $M$ is an {\\it invertible module} if\n$M$ is finite locally free of rank $1$, i.e., for every\n${\\mathfrak p} \\in \\Spec(A)$ there exists an\n$f\\in A$, $f \\not \\in \\mathfrak p$ such that $M_f \\cong A_f$\nas an $A_f$-module.\n\\end{definition}"
+        },
+        {
+          "source_line": 1553,
+          "tex": "\\begin{definition}\n\\label{definition-class-group}\nLet $A$ be a ring. The {\\it class group of $A$}, sometimes called\nthe {\\it Picard group of $A$} is the set $\\Pic(A)$\nof isomorphism classes of invertible $A$-modules endowed with\na group operation defined by tensor product (see\nExercise \\ref{exercise-tensor-finite-locally-free}).\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 24,
+      "kind": "context_only",
+      "source_line": 1674,
+      "snippets": [
+        {
+          "source_line": 1678,
+          "tex": "\\begin{definition}\n\\label{definition-GU-GD}\nLet $\\phi : A \\to B$ be a homomorphism of rings. We say\nthat the {\\it going-up theorem} holds for $\\phi$ if the\nfollowing condition is satisfied:\n\\begin{itemize}\n\\item[(GU)] for any ${\\mathfrak p}, {\\mathfrak p}' \\in \\Spec(A)$ such that\n${\\mathfrak p} \\subset {\\mathfrak p}'$, and for any $P \\in \\Spec(B)$ lying\nover ${\\mathfrak p}$, there exists $P'\\in \\Spec(B)$ lying\nover ${\\mathfrak p}'$ such that $P \\subset P'$.\n\\end{itemize}\nSimilarly, we say that the {\\it going-down theorem} holds for $\\phi$\nif the following condition is satisfied:\n\\begin{itemize}\n\\item[(GD)] for any ${\\mathfrak p}, {\\mathfrak p}' \\in \\Spec(A)$ such that\n${\\mathfrak p} \\subset {\\mathfrak p}'$, and for any\n$P' \\in \\Spec(B)$ lying\nover ${\\mathfrak p}'$, there exists $P\\in \\Spec(B)$ lying\nover ${\\mathfrak p}$ such that $P \\subset P'$.\n\\end{itemize}\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 26,
+      "kind": "context_only",
+      "source_line": 1791,
+      "snippets": [
+        {
+          "source_line": 1794,
+          "tex": "\\begin{definition}\n\\label{definition-numerical-polynomial}\nA {\\it numerical polynomial} is a polynomial $f(x) \\in {\\mathbf Q}[x]$\nsuch that $f(n) \\in {\\mathbf Z}$ for every integer $n$.\n\\end{definition}"
+        },
+        {
+          "source_line": 1800,
+          "tex": "\\begin{definition}\n\\label{definition-graded-module}\nA {\\it graded module} $M$ over a ring $A$ is an $A$-module $M$\nendowed with a direct sum decomposition\n$\n\\bigoplus\\nolimits_{n \\in {\\mathbf Z}} M_n\n$\ninto $A$-submodules. We will say that $M$ is {\\it locally finite} if all of\nthe $M_n$ are finite $A$-modules. Suppose that $A$ is a Noetherian ring and\nthat $\\varphi$ is a {\\it Euler-Poincar\\'e function} on finite $A$-modules.\nThis means that for every finitely generated $A$-module $M$ we are given an\ninteger $\\varphi(M) \\in {\\mathbf Z}$ and for every short exact sequence\n$$\n0\n\\longrightarrow\nM'\n\\longrightarrow\nM\n\\longrightarrow\nM''\n\\longrightarrow\n0\n$$\nwe have $\\varphi(M) = \\varphi(M') + \\varphi(M'')$. The {\\it Hilbert function}\nof a locally finite graded module $M$ (with respect to $\\varphi$) is the\nfunction $\\chi_\\varphi(M, n) = \\varphi(M_n)$. We say that $M$ has a\n{\\it Hilbert polynomial} if there is some numerical polynomial\n$P_\\varphi$ such that $\\chi_\\varphi(M, n) = P_\\varphi(n)$ for all sufficiently\nlarge integers $n$.\n\\end{definition}"
+        },
+        {
+          "source_line": 1831,
+          "tex": "\\begin{definition}\n\\label{definition-graded-algebra}\nA {\\it graded $A$-algebra} is a graded $A$-module\n$B = \\bigoplus_{n \\geq 0} B_n$ together with an $A$-bilinear map\n$$\nB \\times B \\longrightarrow B, \\ (b, b') \\longmapsto bb'\n$$\nthat turns $B$ into an $A$-algebra so that $B_n \\cdot B_m \\subset B_{n + m}$.\nFinally, a {\\it graded module $M$ over a graded $A$-algebra $B$} is given\nby a graded $A$-module $M$ together with a (compatible) $B$-module structure\nsuch that $B_n \\cdot M_d \\subset M_{n + d}$. Now you can define\n{\\it homomorphisms of graded modules/rings}, {\\it graded submodules},\n{\\it graded ideals}, {\\it exact sequences of graded modules}, etc, etc.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 27,
+      "kind": "context_only",
+      "source_line": 1897,
+      "snippets": [
+        {
+          "source_line": 1900,
+          "tex": "\\begin{definition}\n\\label{definition-homogeneous-ideal}\nLet $R$ be a graded ring. A {\\it homogeneous} ideal is simply an ideal\n$I \\subset R$ which is also a graded submodule of $R$. Equivalently,\nit is an ideal generated by homogeneous elements. Equivalently, if\n$f \\in I$ and\n$$\nf = f_0 + f_1 + \\ldots + f_n\n$$\nis the decomposition of $f$ into homogeneous pieces in $R$ then $f_i \\in I$\nfor each $i$.\n\\end{definition}"
+        },
+        {
+          "source_line": 1913,
+          "tex": "\\begin{definition}\n\\label{definition-Proj-R}\nWe define the {\\it homogeneous spectrum $\\text{Proj}(R)$}\nof the graded ring $R$ to be the set of homogeneous, prime ideals\n${\\mathfrak p}$ of $R$ such that $R_{+} \\not \\subset {\\mathfrak p}$.\nNote that $\\text{Proj}(R)$ is a subset of $\\Spec(R)$ and hence has a\nnatural induced topology.\n\\end{definition}"
+        },
+        {
+          "source_line": 1922,
+          "tex": "\\begin{definition}\n\\label{definition-Dplus-Vplus}\nLet $R = \\oplus_{d \\geq 0} R_d$ be a graded ring, let $f\\in R_d$ and\nassume that $d \\geq 1$. We define {\\it $R_{(f)}$} to be the subring of\n$R_f$ consisting of elements of the form $r/f^n$ with $r$ homogeneous and\n$\\deg(r) = nd$. Furthermore, we define\n$$\nD_{+}(f) = \\{ {\\mathfrak p} \\in \\text{Proj}(R) | f \\not\\in {\\mathfrak p} \\}.\n$$\nFinally, for a homogeneous ideal $I \\subset R$ we define\n$V_{+}(I) = V(I) \\cap \\text{Proj}(R)$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 28,
+      "kind": "context_only",
+      "source_line": 2053,
+      "snippets": [
+        {
+          "source_line": 2056,
+          "tex": "\\begin{definition}\n\\label{definition-CM}\nA Noetherian local ring $A$ is said to be {\\it Cohen-Macaulay}\nof dimension $d$ if it has dimension $d$ and there exists a system\nof parameters $x_1, \\ldots, x_d$ for $A$ such that $x_i$ is a nonzerodivisor\nin $A/(x_1, \\ldots, x_{i-1})$ for $i = 1, \\ldots, d$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 30,
+      "kind": "context_only",
+      "source_line": 2360,
+      "snippets": [
+        {
+          "source_line": 2363,
+          "tex": "\\noindent\nIn order to do the exercises in this section, please read the material\nin Homology, Section \\ref{homology-section-filtrations}. We will say\n$A$ is a filtered object of $\\mathcal{A}$, to mean that $A$ comes endowed\nwith a filtration $F$ which we omit from the notation."
+        },
+        {
+          "source_line": 2414,
+          "tex": "\\begin{definition}\n\\label{definition-injective-filtered}\nLet $\\mathcal{A}$ be an abelian category.\nLet $I$ be a filtered object of $\\mathcal{A}$.\nAssume the filtration on $I$ is finite.\nWe say $I$ is {\\it filtered injective} if each $\\text{gr}^p(I)$ is\nan injective object of $\\mathcal{A}$.\n\\end{definition}"
+        },
+        {
+          "source_line": 2427,
+          "tex": "\\begin{definition}\n\\label{definition-finite-filtration-category}\nLet $\\mathcal{A}$ be an abelian category.\nWe denote {\\it $\\text{Fil}^f(\\mathcal{A})$} the full subcategory\nof $\\text{Fil}(\\mathcal{A})$ whose objects consist of\nthose $A \\in \\Ob(\\text{Fil}(\\mathcal{A}))$\nwhose filtration is finite.\n\\end{definition}"
+        },
+        {
+          "source_line": 2445,
+          "tex": "\\begin{definition}\n\\label{definition-filtered-quasi-isomorphism}\nLet $\\mathcal{A}$ be an abelian category.\nLet $\\alpha : K^\\bullet \\to L^\\bullet$ be a morphism of\ncomplexes of $\\text{Fil}(\\mathcal{A})$. We say that\n$\\alpha$ is a {\\it filtered quasi-isomorphism} if\nfor each $p \\in \\mathbf{Z}$ the morphism\n$\\text{gr}^p(K^\\bullet) \\to \\text{gr}^p(L^\\bullet)$ is\na quasi-isomorphism.\n\\end{definition}"
+        },
+        {
+          "source_line": 2456,
+          "tex": "\\begin{definition}\n\\label{definition-filtered-acyclic}\nLet $\\mathcal{A}$ be an abelian category.\nLet $K^\\bullet$ be a complex of $\\text{Fil}^f(\\mathcal{A})$.\nWe say that $K^\\bullet$ is {\\it filtered acyclic} if\nfor each $p \\in \\mathbf{Z}$ the complex $\\text{gr}^p(K^\\bullet)$ is\nacyclic.\n\\end{definition}"
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

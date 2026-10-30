@@ -61,5 +61,38 @@
     "candidate.stacks.e739dc055f62a720bb83943f",
     "candidate.stacks.473d67f8ba008cb1e2190215",
     "candidate.stacks.61219a1a5500555a7c2e706d"
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 39,
+      "kind": "candidates",
+      "source_line": 12189
+    },
+    {
+      "section": 40,
+      "kind": "candidates",
+      "source_line": 12955
+    },
+    {
+      "section": 41,
+      "kind": "candidates",
+      "source_line": 13216
+    },
+    {
+      "section": 42,
+      "kind": "candidates",
+      "source_line": 13396
+    },
+    {
+      "section": 43,
+      "kind": "candidates",
+      "source_line": 13452
+    },
+    {
+      "section": 44,
+      "kind": "candidates",
+      "source_line": 13997
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -75,5 +75,135 @@
     55,
     56
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 33,
+      "kind": "context_only",
+      "source_line": 2811,
+      "snippets": [
+        {
+          "source_line": 2915,
+          "tex": "\\begin{definition}\n\\label{definition-integral}\nA scheme $X$ is called {\\it integral} if $X$ is nonempty and\nfor every nonempty affine open $U \\subset X$ the ring\n$\\Gamma(U, \\mathcal{O}_X) = \\mathcal{O}_X(U)$ is a domain.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 35,
+      "kind": "context_only",
+      "source_line": 3158,
+      "snippets": [
+        {
+          "source_line": 3161,
+          "tex": "\\begin{definition}\n\\label{definition-dual-numbers}\nFor any ring $R$ we denote $R[\\epsilon]$ the ring\nof {\\it dual numbers}. As an $R$-module it is free with\nbasis $1$, $\\epsilon$. The ring structure comes from setting\n$\\epsilon^2 = 0$.\n\\end{definition}"
+        },
+        {
+          "source_line": 3199,
+          "tex": "\\begin{definition}\n\\label{definition-tangent-space}\nLet $f : X \\to S$ be a morphism of schemes.\nLet $x \\in X$. We dub the set of dotted arrows\nof Exercise \\ref{exercise-tangent-space-Zariski}\nthe {\\it tangent space of $X$ over $S$}\nand we denote it $T_{X/S, x}$. An element of this\nspace is called a {\\it tangent vector} of $X/S$ at $x$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 36,
+      "kind": "context_only",
+      "source_line": 3327,
+      "snippets": [
+        {
+          "source_line": 3330,
+          "tex": "\\begin{definition}\n\\label{definition-quasi-coherent}\nLet $X$ be a scheme.\nA sheaf $\\mathcal{F}$ of $\\mathcal{O}_X$-modules is {\\it quasi-coherent}\nif for every affine open $\\Spec(R) = U \\subset X$ the restriction\n$\\mathcal{F}|_U$ is of the form $\\widetilde M$ for some $R$-module\n$M$.\n\\end{definition}"
+        },
+        {
+          "source_line": 3345,
+          "tex": "\\begin{definition}\n\\label{definition-specialization}\nLet $X$ be a topological space. Let $x, x' \\in X$.\nWe say $x$ is a {\\it specialization} of $x'$\nif and only if $x \\in \\overline{\\{x'\\}}$.\n\\end{definition}"
+        },
+        {
+          "source_line": 3368,
+          "tex": "\\begin{definition}\n\\label{definition-Noetherian-scheme}\nA scheme $X$ is called {\\it locally Noetherian} if and only if\nfor every point $x \\in X$ there exists an affine open\n$\\Spec(R) = U \\subset X$ such that $R$ is Noetherian.\nA scheme is {\\it Noetherian} if it is locally Noetherian and quasi-compact.\n\\end{definition}"
+        },
+        {
+          "source_line": 3381,
+          "tex": "\\begin{definition}\n\\label{definition-coherent}\nLet $X$ be a locally Noetherian scheme.\nLet $\\mathcal{F}$ be a quasi-coherent sheaf of\n$\\mathcal{O}_X$-modules. We say $\\mathcal{F}$ is {\\it coherent}\nif for every point $x \\in X$ there exists an affine open\n$\\Spec(R) = U \\subset X$ such that $\\mathcal{F}|_U$\nis isomorphic to $\\widetilde M$ for some finite $R$-module $M$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 40,
+      "kind": "context_only",
+      "source_line": 3763,
+      "snippets": [
+        {
+          "source_line": 3766,
+          "tex": "\\begin{definition}\n\\label{definition-invertible-sheaf}\nLet $X$ be a locally ringed space.\nAn {\\it invertible ${\\mathcal O}_X$-module} on $X$\nis a sheaf of ${\\mathcal O}_X$-modules ${\\mathcal L}$ such that every point\nhas an open neighbourhood $U \\subset X$ such that ${\\mathcal L}|_U$\nis isomorphic to ${\\mathcal O}_U$ as ${\\mathcal O}_U$-module.\nWe say that ${\\mathcal L}$ is trivial if it is isomorphic to\n${\\mathcal O}_X$ as a ${\\mathcal O}_X$-module.\n\\end{definition}"
+        },
+        {
+          "source_line": 3805,
+          "tex": "\\begin{definition}\n\\label{definition-invertible-module}\nLet $R$ be a ring. An {\\it invertible module $M$} is an $R$-module\n$M$ such that $\\widetilde M$ is an invertible sheaf on the\nspectrum of $R$. We say $M$ is {\\it trivial} if $M \\cong R$ as\nan $R$-module.\n\\end{definition}"
+        },
+        {
+          "source_line": 3884,
+          "tex": "\\begin{definition}\n\\label{definition-picard-group}\nLet $X$ be a locally ringed space.\nThe {\\it Picard group of $X$} is the set $\\Pic(X)$\nof isomorphism classes of invertible $\\mathcal{O}_X$-modules\nwith addition given by tensor product.\nSee Modules, Definition \\ref{modules-definition-pic}.\nFor a ring $R$ we set $\\Pic(R) = \\Pic(\\Spec(R))$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 41,
+      "kind": "context_only",
+      "source_line": 3926,
+      "snippets": [
+        {
+          "source_line": 3957,
+          "tex": "\\begin{definition}\n\\label{definition-delta}\n(Definition of delta.) Suppose that\n$$\n0 \\to {\\mathcal F}_1 \\to {\\mathcal F}_2 \\to {\\mathcal F}_3 \\to 0\n$$\nis a short exact sequence of abelian sheaves on any topological space $X$.\nThe boundary map\n$\\delta : H^0(X, {\\mathcal F}_3) \\to {\\check H}^1(X, {\\mathcal F}_1)$\nis defined as follows. Take an element $\\tau \\in H^0(X, {\\mathcal F}_3)$.\nChoose an open covering ${\\mathcal U} : X = \\bigcup_{i\\in I} U_i$ such\nthat for each $i$ there exists a section $\\tilde \\tau_i \\in {\\mathcal F}_2$\nlifting the restriction of $\\tau$ to $U_i$. Then consider the assignment\n$$\n(i_0, i_1) \\longmapsto\n\\tilde \\tau_{i_0}|_{U_{i_0i_1}} - \\tilde \\tau_{i_1}|_{U_{i_0i_1}}.\n$$\nThis is clearly a 1-coboundary in the {\\v C}ech complex\n${\\check C}^\\ast({\\mathcal U}, {\\mathcal F}_2)$. But we observe that\n(thinking of ${\\mathcal F}_1$ as a subsheaf of ${\\mathcal F}_2$) the RHS\nalways is a section of ${\\mathcal F}_1$ over $U_{i_0i_1}$. Hence we\nsee that the assignment defines a 1-cochain in the complex\n${\\check C}^\\ast({\\mathcal U}, {\\mathcal F}_2)$. The cohomology\nclass of this 1-cochain is by definition {\\it $\\delta(\\tau)$}.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 45,
+      "kind": "context_only",
+      "source_line": 4344,
+      "snippets": [
+        {
+          "source_line": 4347,
+          "tex": "\\begin{situation}\n\\label{situation-hilbert-polynomial}\nLet $k$ be a field. Let $X = \\mathbf{P}^n_k$ be\n$n$-dimensional projective space. Let $\\mathcal{F}$\nbe a coherent $\\mathcal{O}_X$-module. Recall that\n$$\n\\chi(X, \\mathcal{F}) =\n\\sum\\nolimits_{i = 0}^n (-1)^i \\dim_k H^i(X, \\mathcal{F})\n$$\nRecall that the {\\it Hilbert polynomial} of $\\mathcal{F}$ is the function\n$$\nt \\longmapsto \\chi(X, \\mathcal{F}(t))\n$$\nWe also recall that\n$\\mathcal{F}(t) = \\mathcal{F} \\otimes_{\\mathcal{O}_X} \\mathcal{O}_X(t)$\nwhere $\\mathcal{O}_X(t)$ is the $t$th twist of the structure sheaf\nas in Constructions, Definition \\ref{constructions-definition-twist}.\nIn Varieties, Subsection \\ref{varieties-subsection-hilbert} we have\nproved the Hilbert polynomial is a polynomial in $t$.\n\\end{situation}"
+        }
+      ]
+    },
+    {
+      "section": 47,
+      "kind": "context_only",
+      "source_line": 4592,
+      "snippets": [
+        {
+          "source_line": 4595,
+          "tex": "\\noindent\nIn this section we consider some naive approaches to moduli of\nalgebraic geometric objects."
+        },
+        {
+          "source_line": 4599,
+          "tex": "Let $k$ be an algebraically closed field. Suppose that $M$ is a\nmoduli problem over $k$. We won't define exactly what this means\nhere, but in each exercise it should be clear what we mean.\nTo understand the following it suffices to know\nwhat the objects of $M$ over $k$ are, what the isomorphisms between\nobjects of $M$ over $k$ are, and what the families of object of $M$\nover a variety are. Then we say the {\\it number of moduli of $M$}\nis $d \\geq 0$ if the following are true\n\\begin{enumerate}\n\\item there is a finite number of families $X_i \\to V_i$, $i = 1, \\ldots, n$\nsuch that every object of $M$ over $k$ is isomorphic to a fibre of one\nof these and such that $\\max \\dim(V_i) = d$, and\n\\item there is no way to do this with a smaller $d$.\n\\end{enumerate}\nThis is really just a very rough approximation of better notions in\nthe literature."
+        }
+      ]
+    },
+    {
+      "section": 49,
+      "kind": "context_only",
+      "source_line": 4778,
+      "snippets": [
+        {
+          "source_line": 4784,
+          "tex": "\\begin{definition}\n\\label{definition-divisor}\nThroughout, let $S$ be any scheme and let\n$X$ be a Noetherian, integral scheme.\n\\begin{enumerate}\n\\item A {\\it Weil divisor} on $X$ is a formal linear combination\n$\\Sigma n_i[Z_i]$ of prime divisors $Z_i$ with integer coefficients.\n\\item A {\\it prime divisor} is a closed subscheme $Z \\subset X$,\nwhich is integral with generic point $\\xi \\in Z$ such that\n${\\mathcal O}_{X, \\xi}$ has dimension $1$. We will use the notation\n${\\mathcal O}_{X, Z} = {\\mathcal O}_{X, \\xi}$\nwhen $\\xi \\in Z \\subset X$ is as above. Note that ${\\mathcal O}_{X, Z} \\subset\nK(X)$ is a subring of the function field of $X$.\n\\item The {\\it Weil divisor associated to a rational function\n$f \\in K(X)^\\ast$} is the sum $\\Sigma v_Z(f)[Z]$. Here $v_Z(f)$ is\ndefined as follows\n\\begin{enumerate}\n\\item If $f \\in {\\mathcal O}_{X, Z}^\\ast$ then $v_Z(f) = 0$.\n\\item If $f \\in {\\mathcal O}_{X, Z}$ then\n$$\nv_Z(f) = \\text{length}_{{\\mathcal O}_{X, Z}}({\\mathcal O}_{X, Z}/(f)).\n$$\n\\item If $f = \\frac{a}{b}$ with $a, b \\in {\\mathcal O}_{X, Z}$\nthen\n$$\nv_Z(f) = \\text{length}_{{\\mathcal O}_{X, Z}}({\\mathcal O}_{X, Z}/(a)) -\n\\text{length}_{{\\mathcal O}_{X, Z}}({\\mathcal O}_{X, Z}/(b)).\n$$\n\\end{enumerate}\n\\item An {\\it effective Cartier divisor} on a scheme $S$\nis a closed subscheme $D \\subset S$ such that every point $d\\in D$\nhas an affine open neighbourhood $\\Spec(A) = U \\subset S$ in $S$\nso that $D \\cap U = \\Spec(A/(f))$ with $f \\in A$ a nonzerodivisor.\n\\item The {\\it Weil divisor $[D]$ associated to an effective\nCartier divisor $D \\subset X$} of our Noetherian integral\nscheme $X$ is defined as the sum $\\Sigma v_Z(D)[Z]$ where\n$v_Z(D)$ is defined as follows\n\\begin{enumerate}\n\\item If the generic point $\\xi$ of $Z$ is not in $D$\nthen $v_Z(D) = 0$.\n\\item If the generic point $\\xi$ of $Z$ is in $D$\nthen\n$$\nv_Z(D) = \\text{length}_{{\\mathcal O}_{X, Z}}({\\mathcal O}_{X, Z}/(f))\n$$\nwhere $f \\in {\\mathcal O}_{X, Z} = {\\mathcal O}_{X, \\xi}$ is the nonzerodivisor\nwhich defines $D$ in an affine neighbourhood of $\\xi$ (as in (4) above).\n\\end{enumerate}\n\\item Let $S$ be a scheme. The {\\it sheaf of total quotient\nrings ${\\mathcal K}_S$} is the sheaf of ${\\mathcal O}_S$-algebras which is\nthe sheafification of the pre-sheaf ${\\mathcal K}'$ defined as follows.\nFor $U \\subset S$ open we set ${\\mathcal K}'(U) = S_U^{-1}{\\mathcal O}_S(U)$\nwhere $S_U \\subset {\\mathcal O}_S(U)$ is the multiplicative subset\nconsisting of sections $f \\in {\\mathcal O}_S(U)$ such that the germ\nof $f$ in ${\\mathcal O}_{S, u}$ is a nonzerodivisor for every $u\\in U$.\nIn particular the elements of $S_U$ are all nonzerodivisors.\nThus ${\\mathcal O}_S$ is a subsheaf of ${\\mathcal K}_S$, and we get a\nshort exact sequence\n$$\n0 \\to {\\mathcal O}_S^\\ast \\to {\\mathcal K}_S^\\ast \\to\n{\\mathcal K}_S^\\ast/{\\mathcal O}_S^\\ast \\to 0.\n$$\n\\item A {\\it Cartier divisor} on a scheme $S$ is a global\nsection of the quotient sheaf ${\\mathcal K}_S^\\ast/{\\mathcal O}_S^\\ast$.\n\\item The {\\it Weil divisor associated to a Cartier divisor}\n$\\tau \\in \\Gamma(X, {\\mathcal K}_X^\\ast/{\\mathcal O}_X^\\ast)$ over our\nNoetherian integral scheme\n$X$ is the sum $\\Sigma v_Z(\\tau)[Z]$ where $v_Z(\\tau)$ is defined\nas by the following recipe\n\\begin{enumerate}\n\\item If the germ of $\\tau$ at the generic point $\\xi$\nof $Z$ is zero -- in other words the image of $\\tau$ in the stalk\n$({\\mathcal K}^\\ast/{\\mathcal O}^\\ast)_\\xi$ is ``zero'' -- then $v_Z(\\tau) = 0$.\n\\item Find an affine open neighbourhood $\\Spec(A) = U \\subset X$\nso that $\\tau|_U$ is the image of a section $f \\in {\\mathcal K}(U)$\nand moreover $f = a/b$ with $a, b \\in A$. Then we set\n$$\nv_Z(f) = \\text{length}_{{\\mathcal O}_{X, Z}}({\\mathcal O}_{X, Z}/(a)) -\n\\text{length}_{{\\mathcal O}_{X, Z}}({\\mathcal O}_{X, Z}/(b)).\n$$\n\\end{enumerate}\n\\end{enumerate}\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 56,
+      "kind": "context_only",
+      "source_line": 5736,
+      "snippets": [
+        {
+          "source_line": 5782,
+          "tex": "\\begin{situation}[Notation plane curve]\n\\label{situation-curve-in-the-plane}\nLet $k$ be an algebraically closed field. Let\n$F(X_0, X_1, X_2) \\in k[X_0, X_1, X_2]$ be an irreducible polynomial\nhomogeneous of degree $d$. We let\n$$\nD = V(F) \\subset \\mathbf{P}^2\n$$\nbe the projective plane curve given by the vanishing of $F$.\nSet $x = X_1/X_0$ and $y = X_2/X_0$ and\n$f(x, y) = X_0^{-d}F(X_0, X_1, X_2) = F(1, x, y)$.\nWe denote $K$ the fraction field of the domain $k[x, y]/(f)$.\nWe let $C$ be the abstract curve corresponding to $K$.\nRecall (from the lectures) that there is a surjective map $C \\to D$\nwhich is bijective over the nonsingular locus of $D$ and an\nisomorphism if $D$ is nonsingular.\nSet $f_x = \\partial f/\\partial x$ and $f_y = \\partial f/\\partial y$.\nFinally, we denote $\\omega = \\text{d}x/f_y = - \\text{d}y/f_x$ the\nelement of $\\Omega_{K/k}$ discussed in the lectures.\nDenote $K_C$ the divisor of zeros and poles of $\\omega$.\n\\end{situation}"
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -37,5 +37,66 @@
     5,
     6
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 158,
+      "snippets": [
+        {
+          "source_line": 162,
+          "tex": "\\begin{definition}\n\\label{definition-directed-poset}\nA {\\it directed set} is a nonempty set $I$ endowed with a preorder $\\leq$\nsuch that given any pair $i, j \\in I$ there exists a $k \\in I$ such that\n$i \\leq k$ and $j \\leq k$. A {\\it system of rings} over $I$ is given by a\nring $A_i$ for each $i \\in I$ and a map of rings $\\varphi_{ij} : A_i \\to A_j$\nwhenever $i \\leq j$ such that the composition $A_i \\to A_j \\to A_k$ is equal to\n$A_i \\to A_k$ whenever $i \\leq j \\leq k$.\n\\end{definition}"
+        },
+        {
+          "source_line": 189,
+          "tex": "\\begin{definition}\n\\label{definition-colimit}\nThe ring $A$ constructed in Exercise \\ref{exercise-directed-colimit}\nis called the {\\it colimit} of the system. Notation $\\colim A_i$.\n\\end{definition}"
+        },
+        {
+          "source_line": 243,
+          "tex": "\\begin{definition}\n\\label{definition-finite-presentation}\nA module $M$ over $R$ is said to be of {\\it finite presentation} over\n$R$ if it  is isomorphic to the cokernel of a map of finite free modules\n$ R^{\\oplus n} \\to R^{\\oplus m}$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 6,
+      "kind": "context_only",
+      "source_line": 455,
+      "snippets": [
+        {
+          "source_line": 482,
+          "tex": "\\begin{definition}\n\\label{definition-quasi-compact}\nA topological space $X$ is called {\\it quasi-compact}\nif for any open covering $X = \\bigcup_{i\\in I} U_i$ there is a finite\nsubset $\\{i_1, \\ldots, i_n\\}\\subset I$ such that $X = U_{i_1}\\cup\\ldots\nU_{i_n}$.\n\\end{definition}"
+        },
+        {
+          "source_line": 495,
+          "tex": "\\begin{definition}\n\\label{definition-Hausdorff}\nA topological space $X$ is said to verify the separation axiom $T_0$\nif for any pair of points $x, y\\in X$, $x\\not = y$ there is an open\nsubset of $X$ containing one but not the other.\nWe say that $X$ is {\\it Hausdorff} if for any pair $x, y\\in X$, $x\\not = y$\nthere are disjoint open subsets $U, V$ such that $x\\in U$\nand $y\\in V$.\n\\end{definition}"
+        },
+        {
+          "source_line": 518,
+          "tex": "\\begin{definition}\n\\label{definition-irreducible}\nA topological space $X$ is called {\\it irreducible} if $X$ is not empty\nand if $X = Z_1\\cup Z_2$ with $Z_1, Z_2\\subset X$ closed, then either\n$Z_1 = X$ or $Z_2 = X$. A subset $T\\subset X$ of a topological space\nis called {\\it irreducible} if it is an irreducible\ntopological space with the topology induced from $X$.\nThis definition implies $T$ is irreducible if and only\nif the closure $\\bar T$ of $T$ in $X$ is irreducible.\n\\end{definition}"
+        },
+        {
+          "source_line": 543,
+          "tex": "\\begin{definition}\n\\label{definition-generic-point}\nA point $x$ of an irreducible topological space $X$ is called\na {\\it generic point} of $X$ if $X$ is equal to the closure of\nthe subset $\\{x\\}$.\n\\end{definition}"
+        },
+        {
+          "source_line": 572,
+          "tex": "\\begin{definition}\n\\label{definition-Noetherian-space}\nA topological space $X$ is called {\\it Noetherian} if any\ndecreasing sequence $Z_1\\supset Z_2 \\supset Z_3\\supset \\ldots$\nof closed subsets of $X$ stabilizes.\n(It is called {\\it Artinian} if any increasing sequence of closed\nsubsets stabilizes.)\n\\end{definition}"
+        },
+        {
+          "source_line": 589,
+          "tex": "\\begin{definition}\n\\label{definition-irreducible-component}\nA maximal irreducible subset $T\\subset X$ is called an\n{\\it irreducible component} of the space $X$. Such an irreducible\ncomponent of $X$ is automatically a closed subset of $X$.\n\\end{definition}"
+        },
+        {
+          "source_line": 619,
+          "tex": "\\begin{definition}\n\\label{definition-closed}\nA point $x\\in X$ is called {\\it closed} if $\\overline{\\{x\\}} = \\{ x\\}$.\nLet $x, y$ be points of $X$. We say that $x$ is a {\\it specialization}\nof $y$, or that $y$ is a {\\it generalization} of $x$ if\n$x\\in \\overline{\\{y\\}}$.\n\\end{definition}"
+        },
+        {
+          "source_line": 650,
+          "tex": "\\begin{definition}\n\\label{definition-connected-component}\nA topological space $X$ is called {\\it connected} if it is nonempty and not the\nunion of two nonempty disjoint open subsets. A {\\it connected component}\nof $X$ is a maximal connected subset. Any point of $X$ is contained\nin a connected component of $X$ and any connected component of $X$ is\nclosed in $X$. (But in general a connected component need not be open in $X$.)\n\\end{definition}"
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
