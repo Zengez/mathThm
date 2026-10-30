@@ -1,0 +1,30 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-71",
+  "chapter": "spaces-resolve.tex",
+  "sections_ordinal": [
+    1,
+    1
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17
+  ],
+  "first_source_line": 17,
+  "last_source_line": 46,
+  "complete_sections": true,
+  "stage_a_candidate_count": 0,
+  "candidate_ids": [],
+  "output_file": "harvest/phase2_chat_stage_a/spaces-resolve/batch_01_sections_01_01/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "stage_a_mathematical_analysis_pending": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1
+  ]
+}
