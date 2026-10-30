@@ -1,0 +1,32 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "topologies.tex",
+  "sections_ordinal": [
+    11,
+    13
+  ],
+  "final_partial_five_section_batch": true,
+  "first_source_line": 3886,
+  "last_source_line": 4512,
+  "source_section_starts": [
+    3886,
+    3985,
+    4088
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 5,
+  "candidate_ids": [
+    "candidate.stacks.eae88f6275b25aa0d98ce012",
+    "candidate.stacks.8fdd2eece3d1a99d5040a48b",
+    "candidate.stacks.c0e37dd9d78a38fa0d7bd8e9",
+    "candidate.stacks.69b21419b38f7b9ec1474477",
+    "candidate.stacks.ef51d35c6a35c9061979312a"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/topologies/batch_03_sections_11_13/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "notes": "Final 3 remaining chapter sections; 5 original source candidates, including 2 with expanded source lemma dependencies; Stage B independent validation not performed."
+}
