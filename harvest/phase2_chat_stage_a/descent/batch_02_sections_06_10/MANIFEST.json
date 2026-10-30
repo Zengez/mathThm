@@ -48,5 +48,39 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "Preserves big vs small site exceptions, all alternatives, and source's warnings; independent Stage B still required."
+  "notes": "Preserves big vs small site exceptions, all alternatives, and source's warnings; independent Stage B still required.",
+  "processing_sections": [
+    {
+      "section": 6,
+      "kind": "context_only",
+      "source_line": 1701,
+      "snippets": [
+        {
+          "source_line": 1730,
+          "tex": "Let $k'/k$ be a finite Galois extension with Galois group\n$G = \\text{Gal}(k'/k)$. Then there are $k$-algebra isomorphisms\n$$\nk' \\otimes_k k' \\longrightarrow \\prod\\nolimits_{\\sigma \\in G} k',\\quad\na \\otimes b \\longrightarrow \\prod a\\sigma(b)\n$$\nand\n$$\nk' \\otimes_k k' \\otimes_k k' \\longrightarrow\n\\prod\\nolimits_{(\\sigma, \\tau) \\in G \\times G} k',\\quad\na \\otimes b \\otimes c \\longrightarrow \\prod a\\sigma(b)\\sigma(\\tau(c))\n$$\nThe reason for choosing here $a\\sigma(b)\\sigma(\\tau(c))$\nand not $a\\sigma(b)\\tau(c)$ is that the formulas below simplify but\nit isn't strictly necessary. Given $\\sigma \\in G$ we denote\n$$\nf_\\sigma = \\text{id}_X \\times \\Spec(\\sigma) :\nX_{k'} \\longrightarrow X_{k'}\n$$\nPlease keep in mind that because $\\Spec(-)$ is a contravariant functor we have\n$f_{\\sigma \\tau} = f_\\tau \\circ f_\\sigma$ and not the other way around.\nUsing the first isomorphism above we obtain an identification\n$$\nX_{k' \\otimes_k k'} = \\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n$$\nsuch that $\\text{pr}_0$ corresponds to the map\n$$\n\\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n\\xrightarrow{\\coprod \\text{id}}\nX_{k'}\n$$\nand such that $\\text{pr}_1$ corresponds to the map\n$$\n\\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n\\xrightarrow{\\coprod f_\\sigma}\nX_{k'}\n$$\nThus we see that a descent datum $\\varphi$ on $\\mathcal{F}$ over $X_{k'}$\ncorresponds to a family of isomorphisms\n$\\varphi_\\sigma : \\mathcal{F} \\to f_\\sigma^*\\mathcal{F}$.\nTo work out the cocycle condition we use the identification\n$$\nX_{k' \\otimes_k k' \\otimes_k k'} =\n\\coprod\\nolimits_{(\\sigma, \\tau) \\in G \\times G} X_{k'}.\n$$\nwe get from our isomorphism of algebras above.\nVia this identification the map $\\text{pr}_{01}$ corresponds to\nthe map\n$$\n\\coprod\\nolimits_{(\\sigma, \\tau) \\in G \\times G} X_{k'}\n\\longrightarrow\n\\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n$$\nwhich maps the summand with index $(\\sigma, \\tau)$ to the summand\nwith index $\\sigma$ via the identity morphism. The map $\\text{pr}_{12}$\ncorresponds to the map\n$$\n\\coprod\\nolimits_{(\\sigma, \\tau) \\in G \\times G} X_{k'}\n\\longrightarrow\n\\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n$$\nwhich maps the summand with index $(\\sigma, \\tau)$ to the summand\nwith index $\\tau$ via the morphism $f_\\sigma$. Finally, the map\n$\\text{pr}_{02}$ corresponds to the map\n$$\n\\coprod\\nolimits_{(\\sigma, \\tau) \\in G \\times G} X_{k'}\n\\longrightarrow\n\\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n$$\nwhich maps the summand with index $(\\sigma, \\tau)$ to the summand\nwith index $\\sigma\\tau$ via the identity morphism.\nThus the cocycle condition\n$$\n\\text{pr}_{02}^*\\varphi = \\text{pr}_{12}^*\\varphi \\circ \\text{pr}_{01}^*\\varphi\n$$\ntranslates into one condition for each pair $(\\sigma, \\tau)$, namely\n$$\n\\varphi_{\\sigma\\tau} = f_\\sigma^*\\varphi_\\tau \\circ \\varphi_\\sigma\n$$\nas maps $\\mathcal{F} \\to f_{\\sigma\\tau}^*\\mathcal{F}$.\n(Everything works out beautifully; for example the target of\n$\\varphi_\\sigma$ is $f_\\sigma^*\\mathcal{F}$ and the\nsource of $f_\\sigma^*\\varphi_\\tau$ is $f_\\sigma^*\\mathcal{F}$ as well.)"
+        }
+      ]
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1887
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 2137
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 2679
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2994
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

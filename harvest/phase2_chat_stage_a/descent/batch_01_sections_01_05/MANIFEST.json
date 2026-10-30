@@ -42,5 +42,28 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "New chapter; includes algebraically substantial functor and pure-descent statements with explicit source-scope reconstruction. Stage B must validate."
+  "notes": "New chapter; includes algebraically substantial functor and pure-descent statements with explicit source-scope reconstruction. Stage B must validate.",
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 33
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 205
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 767
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 1541
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -34,5 +34,43 @@
   "reviewer": "chatgpt-stage-a",
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
-  "proofs_reviewed": 0
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 4754
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 4885
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 4944
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 5066
+    },
+    {
+      "section": 20,
+      "kind": "context_only",
+      "source_line": 5114,
+      "snippets": [
+        {
+          "source_line": 5117,
+          "tex": "\\begin{definition}\n\\label{definition-germs}\nGerms of schemes.\n\\begin{enumerate}\n\\item A pair $(X, x)$ consisting of a scheme $X$ and a point $x \\in X$ is\ncalled the {\\it germ of $X$ at $x$}.\n\\item A {\\it morphism of germs} $f : (X, x) \\to (S, s)$\nis an equivalence class of morphisms of schemes $f : U \\to S$ with $f(x) = s$\nwhere $U \\subset X$ is an open neighbourhood of $x$. Two such\n$f$, $f'$ are said to be equivalent if and only if $f$ and $f'$\nagree in some open neighbourhood of $x$.\n\\item We define the {\\it composition of morphisms of germs}\nby composing representatives (this is well defined).\n\\end{enumerate}\n\\end{definition}"
+        },
+        {
+          "source_line": 5136,
+          "tex": "\\begin{definition}\n\\label{definition-etale-morphism-germs}\nLet $f : (X, x) \\to (S, s)$ be a morphism of germs.\nWe say $f$ is {\\it \\'etale} (resp.\\ {\\it smooth}) if there exists a\nrepresentative $f : U \\to S$ of $f$ which is an \\'etale morphism\n(resp.\\ a smooth morphism) of schemes.\n\\end{definition}"
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

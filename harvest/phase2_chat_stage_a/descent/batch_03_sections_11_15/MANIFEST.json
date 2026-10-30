@@ -44,5 +44,33 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "Conditions indexed to original category, local base change, and topology; independent validation remains mandatory."
+  "notes": "Conditions indexed to original category, local base change, and topology; independent validation remains mandatory.",
+  "processing_sections": [
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 3495
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 3760
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 3893
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 4249
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 4616
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
