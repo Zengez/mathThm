@@ -41,5 +41,28 @@
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     19
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2496
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 2822
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 2953
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3055
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

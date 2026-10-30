@@ -40,5 +40,23 @@
     "candidate.stacks.922804638249ff76cfe283e5"
   ],
   "previously_approved_ids_not_regenerated": [],
-  "source_sections_without_active_candidates": []
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 4648
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 4909
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 5035
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

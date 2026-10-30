@@ -161,5 +161,109 @@
   "source_sections_without_active_candidates": [
     1,
     2
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 33,
+      "snippets": [
+        {
+          "source_line": 42,
+          "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 50
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 234
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 725
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 1014
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1246
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1425
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1773
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2046
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2339
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2637
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2825
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 3265
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 3451
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 3562
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3658
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 4059
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 4499
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 4567
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

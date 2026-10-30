@@ -62,5 +62,49 @@
   "source_sections_without_active_candidates": [
     1,
     4
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 46
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 464
+    },
+    {
+      "section": 4,
+      "kind": "context_only",
+      "source_line": 600,
+      "snippets": [
+        {
+          "source_line": 608,
+          "tex": "\\begin{definition}\n\\label{definition-compatible}\nLet $(A, I, \\gamma)$ and $(B, J, \\delta)$ be divided power rings.\nLet $A \\to B$ be a ring map. We say\n{\\it $\\delta$ is compatible with $\\gamma$}\nif there exists a divided power structure $\\bar\\gamma$ on\n$J + IB$ such that\n$$\n(A, I, \\gamma) \\to (B, J + IB, \\bar \\gamma)\\quad\\text{and}\\quad\n(B, J, \\delta) \\to (B, J + IB, \\bar \\gamma)\n$$\nare homomorphisms of divided power rings.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 663
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 903
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1345
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1512
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

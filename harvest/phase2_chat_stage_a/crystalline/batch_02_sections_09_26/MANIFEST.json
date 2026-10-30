@@ -82,5 +82,106 @@
     22,
     24,
     26
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1728
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2055
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2178
+    },
+    {
+      "section": 14,
+      "kind": "context_only",
+      "source_line": 2544,
+      "snippets": [
+        {
+          "source_line": 2547,
+          "tex": "\\noindent\nIn Situation \\ref{situation-global}.\nWorking on the (small) crystalline site, we define\n$\\Omega^i_{X/S} = \\wedge^i_{\\mathcal{O}_{X/S}} \\Omega_{X/S}$\nfor $i \\geq 0$. The universal $S$-derivation $\\text{d}_{X/S}$ gives\nrise to the {\\it de Rham complex}\n$$\n\\mathcal{O}_{X/S} \\to \\Omega^1_{X/S} \\to \\Omega^2_{X/S} \\to \\ldots\n$$\non $\\text{Cris}(X/S)$, see\nLemma \\ref{lemma-module-of-differentials-on-affine} and\nRemark \\ref{remark-divided-powers-de-rham-complex}."
+        }
+      ]
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2561
+    },
+    {
+      "section": 17,
+      "kind": "context_only",
+      "source_line": 2841,
+      "snippets": [
+        {
+          "source_line": 2844,
+          "tex": "\\noindent\nIn Situation \\ref{situation-affine}.\nSet $X = \\Spec(C)$ and $S = \\Spec(A)$. We are going to\nclassify crystals in quasi-coherent modules on $\\text{Cris}(X/S)$.\nBefore we do so we fix some notation."
+        },
+        {
+          "source_line": 2850,
+          "tex": "Choose a polynomial ring $P = A[x_i]$ over $A$ and a surjection $P \\to C$\nof $A$-algebras with kernel $J = \\Ker(P \\to C)$. Set\n\\begin{equation}\n\\label{equation-D}\nD = \\lim_e D_{P, \\gamma}(J) / p^eD_{P, \\gamma}(J)\n\\end{equation}\nfor the $p$-adically completed divided power envelope.\nThis ring comes with a divided power ideal $\\bar J$ and divided power\nstructure $\\bar \\gamma$, see Lemma \\ref{lemma-list-properties}.\nSet $D_e = D/p^eD$ and denote $\\bar J_e$ the image of $\\bar J$ in $D_e$.\nWe will use the short hand\n\\begin{equation}\n\\label{equation-omega-D}\n\\Omega_D = \\lim_e \\Omega_{D_e/A, \\bar\\gamma} =\n\\lim_e \\Omega_{D/A, \\bar\\gamma}/p^e\\Omega_{D/A, \\bar\\gamma}\n\\end{equation}\nfor the $p$-adic completion of the module of divided power differentials,\nsee Lemma \\ref{lemma-differentials-completion}.\nIt is also the $p$-adic completion of\n$\\Omega_{D_{P, \\gamma}(J)/A, \\bar\\gamma}$\nwhich is free on $\\text{d}x_i$, see\nLemma \\ref{lemma-module-differentials-divided-power-envelope}.\nHence any element of $\\Omega_D$ can be written uniquely as a sum\n$\\sum f_i\\text{d}x_i$ with for all $e$ only finitely many $f_i$\nnot in $p^eD$. Moreover, the maps\n$\\text{d}_{D_e/A, \\bar\\gamma} : D_e \\to \\Omega_{D_e/A, \\bar\\gamma}$\nfit together to define a divided power $A$-derivation\n\\begin{equation}\n\\label{equation-derivation-D}\n\\text{d} : D \\longrightarrow \\Omega_D\n\\end{equation}\non $p$-adic completions."
+        },
+        {
+          "source_line": 2884,
+          "tex": "We will also need the ``products $\\Spec(D(n))$ of $\\Spec(D)$'', see\nProposition \\ref{proposition-compute-cohomology} and its proof for an\nexplanation. Formally these are defined as follows. For $n \\geq 0$ let\n$J(n) = \\Ker(P \\otimes_A \\ldots \\otimes_A P \\to C)$ where\nthe tensor product has $n + 1$ factors. We set\n\\begin{equation}\n\\label{equation-Dn}\nD(n) = \\lim_e\nD_{P \\otimes_A \\ldots \\otimes_A P, \\gamma}(J(n))/\np^eD_{P \\otimes_A \\ldots \\otimes_A P, \\gamma}(J(n))\n\\end{equation}\nequal to the $p$-adic completion of the divided power envelope.\nWe denote $\\bar J(n)$ its divided power ideal and $\\bar \\gamma(n)$\nits divided powers. We also introduce $D(n)_e = D(n)/p^eD(n)$ as well\nas the $p$-adically completed module of differentials\n\\begin{equation}\n\\label{equation-omega-Dn}\n\\Omega_{D(n)} = \\lim_e \\Omega_{D(n)_e/A, \\bar\\gamma} =\n\\lim_e \\Omega_{D(n)/A, \\bar\\gamma}/p^e\\Omega_{D(n)/A, \\bar\\gamma}\n\\end{equation}\nand derivation\n\\begin{equation}\n\\label{equation-derivation-Dn}\n\\text{d} : D(n) \\longrightarrow \\Omega_{D(n)}\n\\end{equation}\nOf course we have $D = D(0)$. Note that the rings $D(0), D(1), D(2), \\ldots$\nform a cosimplicial object in the category of divided power rings."
+        },
+        {
+          "source_line": 2967,
+          "tex": "\\noindent\nIn the lemma below we will consider pairs $(M, \\nabla)$ satisfying the\nfollowing conditions\n\\begin{enumerate}\n\\item\n\\label{item-complete}\n$M$ is a $p$-adically complete $D$-module,\n\\item\n\\label{item-connection}\n$\\nabla : M \\to M \\otimes^\\wedge_D \\Omega_D$ is a connection, i.e.,\n$\\nabla(fm) = m \\otimes \\text{d}f + f\\nabla(m)$,\n\\item\n\\label{item-integrable}\n$\\nabla$ is integrable\n(see Remark \\ref{remark-connection}), and\n\\item\n\\label{item-topologically-quasi-nilpotent}\n$\\nabla$ is {\\it topologically quasi-nilpotent}: If we write\n$\\nabla(m) = \\sum \\theta_i(m)\\text{d}x_i$ for some operators\n$\\theta_i : M \\to M$, then for any $m \\in M$ there are only finitely\nmany pairs $(i, k)$ such that $\\theta_i^k(m) \\not \\in pM$.\n\\end{enumerate}\nThe operators $\\theta_i$ are sometimes denoted\n$\\nabla_{\\partial/\\partial x_i}$ in the literature.\nIn the following lemma we construct a functor from crystals in quasi-coherent\nmodules on $\\text{Cris}(X/S)$ to the category of such pairs. We will show\nthis functor is an equivalence in\nProposition \\ref{proposition-crystals-on-affine}."
+        }
+      ]
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3297
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 3665
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 3808
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 4253
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 4979
+    },
+    {
+      "section": 26,
+      "kind": "context_only",
+      "source_line": 5492,
+      "snippets": [
+        {
+          "source_line": 5500,
+          "tex": "\\begin{situation}\n\\label{situation-F-crystal}\nIn Situation \\ref{situation-global} assume the following\n\\begin{enumerate}\n\\item $S = \\Spec(A)$ for some divided power ring $(A, I, \\gamma)$\nwith $p \\in I$,\n\\item there is given a homomorphism of divided power rings $\\sigma : A \\to A$\nsuch that $\\sigma(x) = x^p \\bmod pA$ for all $x \\in A$.\n\\end{enumerate}\n\\end{situation}"
+        },
+        {
+          "source_line": 5511,
+          "tex": "\\noindent\nIn Situation \\ref{situation-F-crystal} the morphism\n$\\Spec(\\sigma) : S \\to S$ is a lift of the absolute Frobenius\n$F_{S_0} : S_0 \\to S_0$ and since the diagram\n$$\n\\xymatrix{\nX \\ar[d] \\ar[r]_{F_X} & X \\ar[d] \\\\\nS_0 \\ar[r]^{F_{S_0}} & S_0\n}\n$$\nis commutative where $F_X : X \\to X$ is the absolute Frobenius morphism\nof $X$. Thus we obtain a morphism of crystalline topoi\n$$\n(F_X)_{\\text{cris}} :\n(X/S)_{\\text{cris}}\n\\longrightarrow\n(X/S)_{\\text{cris}}\n$$\nsee Remark \\ref{remark-functoriality-cris}. Here is the terminology concerning\n$F$-crystals following the notation of Saavedra, see\n\\cite{Saavedra}."
+        },
+        {
+          "source_line": 5533,
+          "tex": "\\begin{definition}\n\\label{definition-F-crystal}\nIn Situation \\ref{situation-F-crystal} an {\\it $F$-crystal on $X/S$\n(relative to $\\sigma$)} is a pair $(\\mathcal{E}, F_\\mathcal{E})$\ngiven by a crystal in finite locally free $\\mathcal{O}_{X/S}$-modules\n$\\mathcal{E}$ together with a map\n$$\nF_\\mathcal{E} : (F_X)_{\\text{cris}}^*\\mathcal{E} \\longrightarrow \\mathcal{E}\n$$\nAn $F$-crystal is called {\\it nondegenerate} if there exists an integer\n$i \\geq 0$ a map $V : \\mathcal{E} \\to (F_X)_{\\text{cris}}^*\\mathcal{E}$\nsuch that $V \\circ F_{\\mathcal{E}} = p^i \\text{id}$.\n\\end{definition}"
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

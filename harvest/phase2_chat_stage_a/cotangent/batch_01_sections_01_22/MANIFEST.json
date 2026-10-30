@@ -109,5 +109,129 @@
     17,
     19,
     21
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 80
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 174
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 430
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 866
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1101
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1531
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1702
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1741
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1835
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2057
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2392
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2664
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2776
+    },
+    {
+      "section": 16,
+      "kind": "context_only",
+      "source_line": 2924,
+      "snippets": [
+        {
+          "source_line": 2927,
+          "tex": "\\noindent\nThis section is the continuation of\nDeformation Theory, Section \\ref{defos-section-deformations}\nwhich we urge the reader to read first.\nWe start with a surjective ring map $A' \\to A$\nwhose kernel is an ideal $I$ of square zero. Moreover we assume\ngiven a ring map $A \\to B$, a $B$-module $N$, and an $A$-module map\n$c : I \\to N$. In this section we ask ourselves whether we can find\nthe question mark fitting into the following diagram\n\\begin{equation}\n\\label{equation-to-solve}\n\\vcenter{\n\\xymatrix{\n0 \\ar[r] & N \\ar[r] & {?} \\ar[r] & B \\ar[r] & 0 \\\\\n0 \\ar[r] & I \\ar[u]^c \\ar[r] & A' \\ar[u] \\ar[r] & A \\ar[u] \\ar[r] & 0\n}\n}\n\\end{equation}\nand moreover how unique the solution is (if it exists). More precisely,\nwe look for a surjection of $A'$-algebras $B' \\to B$ whose kernel is\nan ideal of square zero and is\nidentified with $N$ such that $A' \\to B'$ induces the given map $c$.\nWe will say $B'$ is a {\\it solution} to (\\ref{equation-to-solve})."
+        }
+      ]
+    },
+    {
+      "section": 17,
+      "kind": "context_only",
+      "source_line": 3014,
+      "snippets": [
+        {
+          "source_line": 3017,
+          "tex": "\\noindent\nLet $A \\to B$ be a ring map. Let $M$ be a $B$-module.\nLet $P \\to B$ be an object of $\\mathcal{C}_{B/A}$\n(Section \\ref{section-compute-L-pi-shriek}).\nConsider the extension of principal parts\n$$\n0 \\to \\Omega_{P/A} \\otimes_P M \\to P^1_{P/A}(M) \\to M \\to 0\n$$\nsee Algebra, Lemma \\ref{algebra-lemma-sequence-of-principal-parts}.\nThis sequence is functorial in $P$ by\nAlgebra, Remark \\ref{algebra-remark-functoriality-principal-parts}.\nThus we obtain a short exact sequence of sheaves of $\\mathcal{O}$-modules\n$$\n0 \\to \\Omega_{\\mathcal{O}/\\underline{A}} \\otimes_\\mathcal{O} \\underline{M} \\to\nP^1_{\\mathcal{O}/\\underline{A}}(M) \\to \\underline{M} \\to 0\n$$\non $\\mathcal{C}_{B/A}$. We have\n$L\\pi_!(\\Omega_{\\mathcal{O}/\\underline{A}} \\otimes_\\mathcal{O} \\underline{M})\n= L_{B/A} \\otimes_B M = L_{B/A} \\otimes_B^\\mathbf{L} M$\nby Lemma \\ref{lemma-pi-shriek-standard} and the flatness of\nthe terms of $L_{B/A}$.\nWe have $L\\pi_!(\\underline{M}) = M$ by\nLemma \\ref{lemma-pi-lower-shriek-constant-sheaf}.\nThus a distinguished triangle\n\\begin{equation}\n\\label{equation-atiyah}\nL_{B/A} \\otimes_B^\\mathbf{L} M \\to\nL\\pi_!\\left(P^1_{\\mathcal{O}/\\underline{A}}(M)\\right) \\to M\n\\to L_{B/A} \\otimes_B^\\mathbf{L} M [1]\n\\end{equation}\nin $D(B)$. Here we use Cohomology on Sites, Remark\n\\ref{sites-cohomology-remark-O-homology-B-homology-general}\nto get a distinguished triangle in $D(B)$ and not just in $D(A)$."
+        },
+        {
+          "source_line": 3051,
+          "tex": "\\begin{definition}\n\\label{definition-atiyah-class}\nLet $A \\to B$ be a ring map. Let $M$ be a $B$-module.\nThe map $M \\to L_{B/A} \\otimes_B^\\mathbf{L} M[1]$\nin (\\ref{equation-atiyah}) is called the {\\it Atiyah class} of $M$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3061
+    },
+    {
+      "section": 19,
+      "kind": "context_only",
+      "source_line": 3454,
+      "snippets": [
+        {
+          "source_line": 3457,
+          "tex": "\\noindent\nLet $\\mathcal{C}$ be a site. Let $\\mathcal{A} \\to \\mathcal{B}$ be a\nhomomorphism of sheaves of rings. Let $\\mathcal{F}$ be a\nsheaf of $\\mathcal{B}$-modules. Let $\\mathcal{P}_\\bullet \\to \\mathcal{B}$\nbe the standard resolution of $\\mathcal{B}$ over $\\mathcal{A}$\n(Section \\ref{section-cotangent-complex}).\nFor every $n \\geq 0$ consider the extension of principal parts\n\\begin{equation}\n\\label{equation-atiyah-extension}\n0 \\to\n\\Omega_{\\mathcal{P}_n/\\mathcal{A}} \\otimes_{\\mathcal{P}_n} \\mathcal{F} \\to\n\\mathcal{P}^1_{\\mathcal{P}_n/\\mathcal{A}}(\\mathcal{F}) \\to\n\\mathcal{F} \\to 0\n\\end{equation}\nsee\nModules on Sites, Lemma \\ref{sites-modules-lemma-sequence-of-principal-parts}.\nThe functoriality of this construction\n(Modules on Sites, Remark\n\\ref{sites-modules-remark-functoriality-principal-parts})\ntells us (\\ref{equation-atiyah-extension}) is the degree $n$ part of\na short exact sequence of simplicial $\\mathcal{P}_\\bullet$-modules\n(Cohomology on Sites, Section\n\\ref{sites-cohomology-section-simplicial-modules}).\nUsing the functor $L\\pi_! : D(\\mathcal{P}_\\bullet) \\to D(\\mathcal{B})$\nof Cohomology on Sites, Remark\n\\ref{sites-cohomology-remark-homology-augmentation}\n(here we use that $\\mathcal{P}_\\bullet \\to \\mathcal{A}$ is a resolution)\nwe obtain a distinguished triangle\n\\begin{equation}\n\\label{equation-atiyah-general}\nL_{\\mathcal{B}/\\mathcal{A}} \\otimes_\\mathcal{B}^\\mathbf{L} \\mathcal{F} \\to\nL\\pi_!\\left(\\mathcal{P}^1_{\\mathcal{P}_\\bullet/\\mathcal{A}}(\\mathcal{F})\\right)\n\\to \\mathcal{F} \\to\nL_{\\mathcal{B}/\\mathcal{A}} \\otimes_\\mathcal{B}^\\mathbf{L} \\mathcal{F} [1]\n\\end{equation}\nin $D(\\mathcal{B})$."
+        },
+        {
+          "source_line": 3494,
+          "tex": "\\begin{definition}\n\\label{definition-atiyah-class-general}\nLet $\\mathcal{C}$ be a site.\nLet $\\mathcal{A} \\to \\mathcal{B}$ be a homomorphism of sheaves of rings.\nLet $\\mathcal{F}$ be a sheaf of $\\mathcal{B}$-modules.\nThe map $\\mathcal{F} \\to\nL_{\\mathcal{B}/\\mathcal{A}} \\otimes_\\mathcal{B}^\\mathbf{L} \\mathcal{F}[1]$\nin (\\ref{equation-atiyah-general}) is called the {\\it Atiyah class} of\n$\\mathcal{F}$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 3513
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 3687
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
