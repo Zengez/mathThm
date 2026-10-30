@@ -1,0 +1,57 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "chapter": "chow.tex",
+  "global_batch": "15-section-experiment-13",
+  "sections_ordinal": [
+    1,
+    8
+  ],
+  "additional_prior_chapter_sections": {
+    "chapter": "etale.tex",
+    "sections_ordinal": [
+      15,
+      21
+    ]
+  },
+  "complete_sections": true,
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "stage_a_candidate_count": 18,
+  "candidate_ids": [
+    "candidate.stacks.9364dcc86d96cc06192da2af",
+    "candidate.stacks.8cecda686f77196b8e2ec463",
+    "candidate.stacks.24f6b60c02028f9cd8d35d46",
+    "candidate.stacks.e6a744a8a17c5b77c32742ad",
+    "candidate.stacks.d5eac173cb4b0e53af384846",
+    "candidate.stacks.a27a3c4405bf6e00627929bd",
+    "candidate.stacks.4a2af9b16961a0aaac3cf072",
+    "candidate.stacks.23bae3dfb672ebce1ee162b6",
+    "candidate.stacks.ec5e3db50d2e476d678abd3e",
+    "candidate.stacks.954b8df490e6d8e0175dd6e2",
+    "candidate.stacks.12ebe23fb02d32348f41b937",
+    "candidate.stacks.1882cea701c03bc0dadecc3e",
+    "candidate.stacks.d46885d4ff9644f47126347d",
+    "candidate.stacks.03e4dd89a3197796509cdd38",
+    "candidate.stacks.9aad66ab6b27cbf4dd698408",
+    "candidate.stacks.0b0f63c4559f9db2f6db66d5",
+    "candidate.stacks.0788414e8d1fcf64f1d361ab",
+    "candidate.stacks.e84fae8045f9404d52ca6a6e"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/chow/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.e6a744a8a17c5b77c32742ad",
+    "candidate.stacks.d5eac173cb4b0e53af384846",
+    "candidate.stacks.23bae3dfb672ebce1ee162b6",
+    "candidate.stacks.12ebe23fb02d32348f41b937",
+    "candidate.stacks.1882cea701c03bc0dadecc3e",
+    "candidate.stacks.d46885d4ff9644f47126347d",
+    "candidate.stacks.03e4dd89a3197796509cdd38",
+    "candidate.stacks.9aad66ab6b27cbf4dd698408",
+    "candidate.stacks.0b0f63c4559f9db2f6db66d5",
+    "candidate.stacks.0788414e8d1fcf64f1d361ab",
+    "candidate.stacks.e84fae8045f9404d52ca6a6e"
+  ]
+}
