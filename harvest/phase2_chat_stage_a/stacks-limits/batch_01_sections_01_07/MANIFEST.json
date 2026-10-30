@@ -62,5 +62,33 @@
     1,
     2
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 40
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 517
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 577
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 666
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 890
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

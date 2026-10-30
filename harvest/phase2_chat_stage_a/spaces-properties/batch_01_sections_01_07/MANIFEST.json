@@ -65,5 +65,54 @@
     1,
     2,
     7
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 46,
+      "snippets": [
+        {
+          "source_line": 55,
+          "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$. The reason is that we\nwant to avoid confusion when changing base schemes, as in\nSpaces, Section \\ref{spaces-section-change-base-scheme}."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 64
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 217
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 621
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 693
+    },
+    {
+      "section": 7,
+      "kind": "context_only",
+      "source_line": 972,
+      "snippets": [
+        {
+          "source_line": 1008,
+          "tex": "\\begin{definition}\n\\label{definition-type-property}\nLet $\\mathcal{P}$ be a property of schemes which is\nlocal in the \\'etale topology.\nLet $S$ be a scheme.\nLet $X$ be an algebraic space over $S$.\nWe say $X$ {\\it has property $\\mathcal{P}$}\nif any of the equivalent conditions of\nLemma \\ref{lemma-type-property}\nhold.\n\\end{definition}"
+        },
+        {
+          "source_line": 1075,
+          "tex": "\\begin{definition}\n\\label{definition-property-at-point}\nLet $S$ be a scheme. Let $X$ be an algebraic space over $S$.\nLet $x \\in |X|$. Let $\\mathcal{P}$ be a property of germs of schemes which is\n\\'etale local.\nWe say $X$ {\\it has property $\\mathcal{P}$ at $x$} if any of the\nequivalent conditions of\nLemma \\ref{lemma-local-source-target-at-point}\nhold.\n\\end{definition}"
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

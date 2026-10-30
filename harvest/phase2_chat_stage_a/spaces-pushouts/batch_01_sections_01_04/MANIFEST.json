@@ -45,5 +45,44 @@
   "source_sections_without_active_candidates": [
     1,
     2
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "snippets": [
+        {
+          "source_line": 20,
+          "tex": "\\noindent\nThe goal of this chapter is to discuss pushouts in the category of\nalgebraic spaces. This can be done with varying assumptions.\nA fairly general pushout construction is given in \\cite{Temkin-Tyomkin}:\none of the morphisms is affine and the other is a closed immersion.\nWe discuss a particular case of this in Section \\ref{section-pushouts}\nwhere we assume one of the morphisms is affine and the other is a\nthickening, a situation that often comes up in deformation theory."
+        },
+        {
+          "source_line": 52,
+          "tex": "In Section \\ref{section-compactifications} we use the construction\nof elementary distinguished squares\nin Section \\ref{section-elementary-dsitnguished-squares}\nto prove Nagata's theorem on compactifications in the setting\nof algebraic spaces."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 64,
+      "snippets": [
+        {
+          "source_line": 73,
+          "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 82
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 399
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

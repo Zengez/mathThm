@@ -26,5 +26,7 @@
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     1
-  ]
+  ],
+  "processing_sections": [],
+  "processing_sections_format": "inline-v1"
 }

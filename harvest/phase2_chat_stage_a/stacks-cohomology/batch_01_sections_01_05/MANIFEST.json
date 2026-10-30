@@ -40,5 +40,43 @@
     3,
     5
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 19,
+      "snippets": [
+        {
+          "source_line": 22,
+          "tex": "\\noindent\nIn this chapter we write about cohomology of algebraic stacks.\nThis means in particular cohomology of quasi-coherent sheaves, i.e.,\nwe prove analogues of the results in the chapters entitled\n``Cohomology of Schemes'' and ``Cohomology of Algebraic Spaces''.\nThe results in this chapter are different\nfrom those in \\cite{LM-B} mainly because we consistently use the\n``big sites''. Before reading this chapter please take a quick look at\nthe chapter ``Sheaves on Algebraic Stacks'' in order to become\nfamiliar with the terminology introduced there, see\nSheaves on Stacks, Section \\ref{stacks-sheaves-section-introduction}."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "context_only",
+      "source_line": 54,
+      "snippets": [
+        {
+          "source_line": 57,
+          "tex": "\\noindent\nDifferent topologies. If we indicate an algebraic stack by a calligraphic\nletter, such as $\\mathcal{X}, \\mathcal{Y}, \\mathcal{Z}$, then the notation\n$\\mathcal{X}_{Zar}, \\mathcal{X}_\\etale, \\mathcal{X}_{smooth},\n\\mathcal{X}_{syntomic}, \\mathcal{X}_{fppf}$ indicates the site introduced\nin\nSheaves on Stacks, Definition\n\\ref{stacks-sheaves-definition-inherited-topologies}.\n(Think ``big site''.) Correspondingly the structure sheaf of\n$\\mathcal{X}$ is a sheaf on $\\mathcal{X}_{fppf}$.\nOn the other hand, algebraic spaces and schemes\nare usually indicated by roman capitals, such as $X, Y, Z$, and in this case\n$X_\\etale$ indicates the small \\'etale site of $X$ (as\ndefined in\nTopologies, Definition\n\\ref{topologies-definition-big-small-etale}\nor\nProperties of Spaces, Definition\n\\ref{spaces-properties-definition-etale-site}).\nIt seems that the distinction should be clear enough."
+        },
+        {
+          "source_line": 78,
+          "tex": "The default topology is the fppf topology. Hence we will sometimes\nsay ``sheaf on $\\mathcal{X}$'' or ``sheaf of $\\mathcal{O}_\\mathcal{X}$-modules''\nwhen we mean sheaf on $\\mathcal{X}_{fppf}$ or object of\n$\\textit{Mod}(\\mathcal{X}_{fppf}, \\mathcal{O}_\\mathcal{X})$."
+        },
+        {
+          "source_line": 93,
+          "tex": "Suppose that $f : X \\to \\mathcal{Y}$ is a morphism from an algebraic\nspace $X$ to an algebraic stack $\\mathcal{Y}$. Let $\\mathcal{G}$ be\na sheaf on $\\mathcal{Y}_\\tau$ for some topology $\\tau$. In this case\n$f^{-1}\\mathcal{G}$ is a sheaf for the $\\tau$ topology on $\\mathcal{S}_X$\n(the algebraic stack associated to $X$) because (by our conventions) $f$\nreally is a $1$-morphism $f : \\mathcal{S}_X \\to \\mathcal{Y}$.\nIf $\\tau = \\etale$ or stronger, then we write\n$f^{-1}\\mathcal{G}|_{X_\\etale}$\nto denote the restriction to the \\'etale site of $X$, see\nSheaves on Stacks, Section \\ref{stacks-sheaves-section-compare}.\nIf $\\mathcal{G}$ is an $\\mathcal{O}_\\mathcal{X}$-module we sometimes\nwrite $f^*\\mathcal{G}$ and $f^*\\mathcal{G}|_{X_\\etale}$\ninstead."
+        }
+      ]
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 111
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

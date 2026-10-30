@@ -33,5 +33,23 @@
     3,
     4
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 4,
+      "kind": "context_only",
+      "source_line": 181,
+      "snippets": [
+        {
+          "source_line": 230,
+          "tex": "\\begin{definition}\n\\label{definition-smooth}\nWe say a morphism $S \\to \\mathcal{M}_{1, 1}$ is {\\it smooth} if for every\nmorphism $S' \\to \\mathcal{M}_{1, 1}$ the projection morphism\n$$\nS \\times_{\\mathcal{M}_{1, 1}} S' \\longrightarrow S'\n$$\nis smooth.\n\\end{definition}"
+        },
+        {
+          "source_line": 240,
+          "tex": "\\noindent\nNote that this is compatible with the notion of a smooth morphism\nof schemes as the base change of a smooth morphism is smooth.\nMoreover, it is clear how to extend this definition to other properties\nof morphisms into $\\mathcal{M}_{1, 1}$ (or your own favorite moduli stack).\nIn particular we will use it below for {\\it surjective} morphisms."
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

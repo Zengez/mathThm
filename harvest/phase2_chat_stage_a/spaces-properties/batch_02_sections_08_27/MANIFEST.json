@@ -123,5 +123,118 @@
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     9
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1130
+    },
+    {
+      "section": 9,
+      "kind": "context_only",
+      "source_line": 1194,
+      "snippets": [
+        {
+          "source_line": 1204,
+          "tex": "\\begin{definition}\n\\label{definition-dimension-at-point}\nLet $S$ be a scheme.\nLet $X$ be an algebraic space over $S$.\nLet $x \\in |X|$ be a point of $X$.\nWe define the {\\it dimension of $X$ at $x$} to be\nthe element $\\dim_x(X) \\in \\{0, 1, 2, \\ldots, \\infty\\}$\nsuch that $\\dim_x(X) = \\dim_u(U)$ for any (equivalently some)\npair $(a : U \\to X, u)$ consisting of an \\'etale morphism $a : U \\to X$\nfrom a scheme to $X$ and a point $u \\in U$ with $a(u) = x$.\nSee\nDefinition \\ref{definition-property-at-point},\nLemma \\ref{lemma-local-source-target-at-point}, and\nDescent, Lemma \\ref{descent-lemma-dimension-at-point-local}.\n\\end{definition}"
+        },
+        {
+          "source_line": 1229,
+          "tex": "\\begin{definition}\n\\label{definition-dimension}\nLet $S$ be a scheme. Let $X$ be an algebraic space over $S$.\nThe {\\it dimension} $\\dim(X)$ of $X$ is defined by the rule\n$$\n\\dim(X) = \\sup\\nolimits_{x \\in |X|} \\dim_x(X)\n$$\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1252
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1319
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1379
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 1553
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 1694
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 1851
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 2007
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 2287
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 2419
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 3041
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 3597
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 3748
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 3872
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 4031
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 4147
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 4254
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 4350
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 4474
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

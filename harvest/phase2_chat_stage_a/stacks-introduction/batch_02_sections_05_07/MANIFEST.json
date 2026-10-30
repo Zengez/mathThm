@@ -34,5 +34,24 @@
     5,
     7
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 5,
+      "kind": "context_only",
+      "source_line": 251,
+      "snippets": [
+        {
+          "source_line": 260,
+          "tex": "\\begin{definition}\n\\label{definition-algebraic-stack}\nWe say $\\mathcal{M}_{1, 1}$ is an {\\it algebraic stack} if and only if\n\\begin{enumerate}\n\\item We have descent for objects for the \\'etale topology on $\\Sch$.\n\\item The key fact holds.\n\\item there exists a surjective and smooth morphism\n$S \\to \\mathcal{M}_{1, 1}$.\n\\end{enumerate}\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 341
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

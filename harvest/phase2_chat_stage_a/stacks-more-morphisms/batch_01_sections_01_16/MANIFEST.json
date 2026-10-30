@@ -135,5 +135,73 @@
     2,
     4
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 41
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 438
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 636
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1341
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1650
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1888
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1977
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2438
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2957
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 3100
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 3978
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 4094
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 4251
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

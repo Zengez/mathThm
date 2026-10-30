@@ -141,5 +141,84 @@
   "source_sections_without_active_candidates": [
     1,
     11
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "snippets": [
+        {
+          "source_line": 28,
+          "tex": "We assume throughout that the reader is familiar with the basic concepts\nand results of the chapter Simplicial Methods, see\nSimplicial, Section \\ref{simplicial-section-introduction}.\nIn particular, we continue to write $X$ and not $X_\\bullet$\nfor a simplicial object."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 42
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 541
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 898
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 1020
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 1235
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1364
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1471
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1689
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1844
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2223
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2687
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 3130
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 3360
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

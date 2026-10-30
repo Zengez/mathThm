@@ -138,5 +138,124 @@
     23,
     26,
     32
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 3684
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3935
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 4456
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 4567
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 4682
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 4794
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 4968
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 5315
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 5658
+    },
+    {
+      "section": 26,
+      "kind": "context_only",
+      "source_line": 5931,
+      "snippets": [
+        {
+          "source_line": 6031,
+          "tex": "Let $h : X \\to Y$ be a morphism of simplicial schemes. Either by\nLemma \\ref{lemma-simplicial-space-site-functorial} or by\n(the proof of) Lemma \\ref{lemma-morphism-simplicial-sites}\nwe obtain a morphism of sites $h_{Zar} : X_{Zar} \\to Y_{Zar}$.\nRecall that $h_{Zar}^{-1}$ and $h_{Zar, *}$ have a simple\ndescription in terms of the components, see\nLemma \\ref{lemma-describe-functoriality} or\nLemma \\ref{lemma-morphism-simplicial-sites}.\nLet $\\mathcal{O}_X$, resp.\\ $\\mathcal{O}_Y$ denote the structure\nsheaf of $X$, resp.\\ $Y$. We define\n$h_{Zar}^\\sharp : h_{Zar, *}\\mathcal{O}_X \\to \\mathcal{O}_Y$\nto be the map of sheaves of rings on $Y_{Zar}$ given by\n$h_n^\\sharp : h_{n, *}\\mathcal{O}_{X_n} \\to \\mathcal{O}_{Y_n}$ on $Y_n$.\nWe obtain a morphism of ringed sites\n$$\nh_{Zar} : (X_{Zar}, \\mathcal{O}_X) \\longrightarrow (Y_{Zar}, \\mathcal{O}_Y)\n$$"
+        }
+      ]
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 6100
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 6313
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 6424
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 6572
+    },
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 6663
+    },
+    {
+      "section": 32,
+      "kind": "context_only",
+      "source_line": 6767,
+      "snippets": [
+        {
+          "source_line": 6820,
+          "tex": "Let $X$ be a simplicial algebraic space. For every $n$ we have the\nsite $X_{n, spaces, \\etale}$ (Properties of Spaces, Definition\n\\ref{spaces-properties-definition-spaces-etale-site})\nand for every morphism $\\varphi : [m] \\to [n]$ we have a morphism of sites\n$$\nf_\\varphi = X(\\varphi)_{spaces, \\etale} :\nX_{n, spaces, \\etale} \\to X_{m, spaces, \\etale},\n$$\nassociated to the morphism of algebraic spaces\n$X(\\varphi) : X_n \\to X_m$ (Properties of Spaces, Lemma\n\\ref{spaces-properties-lemma-functoriality-etale-site}).\nThis gives a simplicial object in the category of sites.\nIn Lemma \\ref{lemma-simplicial-site-site} we constructed an associated\nsite which we denote $X_{spaces, \\etale}$.\nAn object of the site $X_{spaces, \\etale}$ is a\nan algebraic space $U$ \\'etale over $X_n$ for some $n$\nand a morphism $(\\varphi, f) : U/X_n \\to V/X_m$ is given\nby a morphism $\\varphi : [m] \\to [n]$ in $\\Delta$ and a morphism\n$f : U \\to V$ of algebraic spaces such that the diagram\n$$\n\\xymatrix{\nU \\ar[r]_f \\ar[d] & V \\ar[d] \\\\\nX_n \\ar[r]^{f_\\varphi} & X_m\n}\n$$\nis commutative. Consider the full subcategories\n$$\nX_{affine, \\etale} \\subset X_\\etale \\subset X_{spaces, \\etale}\n$$\nwhose objects are $U/X_n$ with $U$ affine, respectively a scheme.\nEndowing these categories with their natural topologies\n(see\nProperties of Spaces, Lemma \\ref{spaces-properties-lemma-alternative},\nDefinition \\ref{spaces-properties-definition-etale-site}, and\nLemma \\ref{spaces-properties-lemma-compare-etale-sites})\nthese inclusion functors define equivalences of topoi\n$$\n\\Sh(X_{affine, \\etale}) = \\Sh(X_\\etale) = \\Sh(X_{spaces, \\etale})\n$$\nIn the following we will silently identify these topoi.\nWe will say that $X_\\etale$ is the {\\it small \\'etale site of $X$}\nand its topos is the {\\it small \\'etale topos of $X$}."
+        },
+        {
+          "source_line": 6894,
+          "tex": "Let $h : X \\to Y$ be a morphism of simplicial algebraic spaces over $S$.\nBy Lemma \\ref{lemma-morphism-simplicial-sites} applied to the morphisms\nof sites $(h_n)_{spaces, \\etale} : X_{spaces, \\etale} \\to Y_{spaces, \\etale}$\n(Properties of Spaces, Lemma\n\\ref{spaces-properties-lemma-functoriality-etale-site})\nwe obtain a morphism of small \\'etale topoi\n$h_\\etale : \\Sh(X_\\etale) \\to \\Sh(Y_\\etale)$.\nRecall that $h_\\etale^{-1}$ and $h_{\\etale, *}$ have a simple\ndescription in terms of the components, see\nLemma \\ref{lemma-morphism-simplicial-sites}.\nLet $\\mathcal{O}_X$, resp.\\ $\\mathcal{O}_Y$ denote the structure\nsheaf of $X$, resp.\\ $Y$. We define\n$h_\\etale^\\sharp : h_{\\etale, *}\\mathcal{O}_X \\to \\mathcal{O}_Y$\nto be the map of sheaves of rings on $Y_\\etale$ given by\n$h_n^\\sharp : h_{n, *}\\mathcal{O}_{X_n} \\to \\mathcal{O}_{Y_n}$ on $Y_n$.\nWe obtain a morphism of ringed topoi\n$$\nh_\\etale :\n(\\Sh(X_\\etale), \\mathcal{O}_X)\n\\longrightarrow\n(\\Sh(Y_\\etale), \\mathcal{O}_Y)\n$$"
+        }
+      ]
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 6970
+    },
+    {
+      "section": 34,
+      "kind": "candidates",
+      "source_line": 7259
+    },
+    {
+      "section": 35,
+      "kind": "candidates",
+      "source_line": 7593
+    },
+    {
+      "section": 36,
+      "kind": "candidates",
+      "source_line": 7704
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

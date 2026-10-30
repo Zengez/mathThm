@@ -65,5 +65,54 @@
   "source_sections_without_active_candidates": [
     1,
     2
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 36,
+      "snippets": [
+        {
+          "source_line": 59,
+          "tex": "Given choices as above the category of algebraic spaces over $S$\nhas a set of isomorphism classes. One way to see this is to use the\nfact that any algebraic space over $S$ is of the form $U/R$ for\nsome \\'etale equivalence relation $j : R \\to U \\times_S U$ with\n$U, R \\in \\Ob((\\Sch/S)_{fppf})$, see\nSpaces, Lemma \\ref{spaces-lemma-space-presentation}.\nHence we can find a full subcategory $\\textit{Spaces}/S$ of the category of\nalgebraic spaces over $S$ which has a set of objects\nsuch that each algebraic space is isomorphic to an object of\n$\\textit{Spaces}/S$. We fix a choice of such a category."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 105
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 162
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 608
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 680
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 753
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 948
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1237
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
