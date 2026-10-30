@@ -1,0 +1,81 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "chapter": "groupoids.tex",
+  "global_batch": "15-section-experiment-09",
+  "additional_prior_chapter_sections": {
+    "chapter": "flat.tex",
+    "sections_ordinal": [
+      39,
+      44
+    ]
+  },
+  "global_complete_sections": 15,
+  "sections_ordinal": [
+    1,
+    9
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "complete_sections": true,
+  "source_section_starts": [
+    17,
+    28,
+    67,
+    251,
+    383,
+    567,
+    716,
+    1225,
+    1587
+  ],
+  "stage_a_candidate_count": 38,
+  "candidate_ids": [
+    "candidate.stacks.65cca4d5db9f0464be627fcb",
+    "candidate.stacks.4b4db445d1136b8ae939e2e8",
+    "candidate.stacks.d5a925fbe1785808e9154079",
+    "candidate.stacks.72c21d1521311b49a4d89c81",
+    "candidate.stacks.bf2227df905712ef3bde51dc",
+    "candidate.stacks.921bbd895b668e921b10a16e",
+    "candidate.stacks.6613e6cf9a0c1bd2681d4dd7",
+    "candidate.stacks.b9b683023c89dcfcfafc3b47",
+    "candidate.stacks.a7c37d321750007666bd81aa",
+    "candidate.stacks.1e3fca560f74c6992acd5406",
+    "candidate.stacks.bb56ce76e785d6ec37af6d22",
+    "candidate.stacks.263a7d3cf359b14afea2171a",
+    "candidate.stacks.6ba7cd824317c5a7127b1a72",
+    "candidate.stacks.8958163e4723e79490dc59d1",
+    "candidate.stacks.ce9d0e80599771adccc1b3dc",
+    "candidate.stacks.b26c4e6e6c4af5eb0886f80e",
+    "candidate.stacks.1759cc2a0e66670456803242",
+    "candidate.stacks.69659c324c0094085ad233bd",
+    "candidate.stacks.6acd799f4186e890238bb1a6",
+    "candidate.stacks.d94ff9ace644594a63de75e0",
+    "candidate.stacks.21a15bff9427d806790b61c5",
+    "candidate.stacks.bc0d0171b075dc45f878096a",
+    "candidate.stacks.939d9003614221fccb91720d",
+    "candidate.stacks.13f7f474f126fd543e4be94d",
+    "candidate.stacks.8176479229bfc77cb30d9a6a",
+    "candidate.stacks.93edf918362b1dc66baf2d41",
+    "candidate.stacks.17cfbaa0ff4227e3f46f2b0f",
+    "candidate.stacks.00dc8298f7e56d0b1dde36c7",
+    "candidate.stacks.575862461949c93d8b088602",
+    "candidate.stacks.18fdfbf65b1bf3232a308712",
+    "candidate.stacks.fb865010482a6fff221a2233",
+    "candidate.stacks.41d6464aaa6960ec4866babb",
+    "candidate.stacks.171c28336e31b4646d1c6a67",
+    "candidate.stacks.836dd8e834fcb98c97252a7b",
+    "candidate.stacks.7534def95fabbf67c12c1357",
+    "candidate.stacks.d06734d22aa41eda2d742858",
+    "candidate.stacks.4fd3410d7de89840a6e451ae",
+    "candidate.stacks.31c81b78834619c6b77639c7"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/groupoids/batch_01_sections_01_09/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.d5a925fbe1785808e9154079",
+    "candidate.stacks.836dd8e834fcb98c97252a7b",
+    "candidate.stacks.7534def95fabbf67c12c1357"
+  ]
+}
