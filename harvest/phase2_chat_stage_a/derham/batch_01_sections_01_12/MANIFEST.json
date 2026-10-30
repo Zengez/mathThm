@@ -1,0 +1,49 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "15-section-experiment-27",
+  "chapter": "derham.tex",
+  "sections_ordinal": [
+    1,
+    12
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17,
+    28,
+    121,
+    265,
+    401,
+    453,
+    546,
+    613,
+    817,
+    1032,
+    1358,
+    1634
+  ],
+  "first_source_line": 17,
+  "last_source_line": 1760,
+  "complete_sections": true,
+  "stage_a_candidate_count": 10,
+  "candidate_ids": [
+    "candidate.stacks.579794d35bbd0688dd6fdb9e",
+    "candidate.stacks.282b1901eeca2acc96fc59d8",
+    "candidate.stacks.78eddf2c1c3a9af3ec64d7ad",
+    "candidate.stacks.55b9e77a7d28fc3c01455604",
+    "candidate.stacks.cd9486e2ceae9106432b2622",
+    "candidate.stacks.6ea85dfe9118d04ed566d6af",
+    "candidate.stacks.0d1d3e0885ab297fbf3e3753",
+    "candidate.stacks.37601bc6ec6e762aaa73e0f8",
+    "candidate.stacks.7aacbf5bdb236b7bd903670b",
+    "candidate.stacks.f40bcc101fa053ed03311455"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/derham/batch_01_sections_01_12/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.cd9486e2ceae9106432b2622",
+    "candidate.stacks.f40bcc101fa053ed03311455"
+  ]
+}

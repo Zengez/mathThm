@@ -1,0 +1,38 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "15-section-experiment-27",
+  "chapter": "discriminant.tex",
+  "sections_ordinal": [
+    14,
+    16
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    2960,
+    3134,
+    3284
+  ],
+  "first_source_line": 2960,
+  "last_source_line": 3388,
+  "complete_sections": true,
+  "stage_a_candidate_count": 5,
+  "candidate_ids": [
+    "candidate.stacks.c5aa1c55dbf7457c16196727",
+    "candidate.stacks.536b090b5b401816036b0705",
+    "candidate.stacks.2b1789eb6e56aff1256fcc44",
+    "candidate.stacks.68ea5f698298ec6c34232969",
+    "candidate.stacks.72810517ccea89230d753079"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/discriminant/batch_02_sections_14_16/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.c5aa1c55dbf7457c16196727",
+    "candidate.stacks.536b090b5b401816036b0705",
+    "candidate.stacks.2b1789eb6e56aff1256fcc44",
+    "candidate.stacks.68ea5f698298ec6c34232969",
+    "candidate.stacks.72810517ccea89230d753079"
+  ]
+}
