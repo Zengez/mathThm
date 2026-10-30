@@ -52,5 +52,33 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "Perfect chapter strata, relative-perfect contextual scopes, and universal properties reconstructed; unified display statement still needs standalone check in Codex Stage B."
+  "notes": "Perfect chapter strata, relative-perfect contextual scopes, and universal properties reconstructed; unified display statement still needs standalone check in Codex Stage B.",
+  "processing_sections": [
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 7680
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 7923
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 8269
+    },
+    {
+      "section": 34,
+      "kind": "candidates",
+      "source_line": 8458
+    },
+    {
+      "section": 35,
+      "kind": "candidates",
+      "source_line": 8695
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

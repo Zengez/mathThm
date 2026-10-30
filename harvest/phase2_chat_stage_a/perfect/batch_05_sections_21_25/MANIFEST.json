@@ -36,5 +36,33 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "Three mathematical source-notation issues specifically held for independent review; two zero-candidate sections included."
+  "notes": "Three mathematical source-notation issues specifically held for independent review; two zero-candidate sections included.",
+  "processing_sections": [
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 4804
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 5040
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 5376
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 6015
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 6286
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

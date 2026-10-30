@@ -56,5 +56,33 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "Context incorporated into H/C and semantic notes; unified display statement may still need expansion in independent Stage B."
+  "notes": "Context incorporated into H/C and semantic notes; unified display statement may still need expansion in independent Stage B.",
+  "processing_sections": [
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2539
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2797
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 3026
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 3589
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 3830
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

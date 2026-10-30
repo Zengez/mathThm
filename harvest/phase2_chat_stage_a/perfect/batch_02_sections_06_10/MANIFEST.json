@@ -54,5 +54,33 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "Many referred definitions expanded in structural fields; independent reviewer must validate and insert context into standalone display statement as needed. Source variable typo and other precise holds noted."
+  "notes": "Many referred definitions expanded in structural fields; independent reviewer must validate and insert context into standalone display statement as needed. Source variable typo and other precise holds noted.",
+  "processing_sections": [
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 778
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1325
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1728
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1829
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2188
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -39,5 +39,33 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "Source reference lemma-single-complex-base-change-condition is an unresolved Stage B dependency, plus referenced maps and derived coherator interpretations."
+  "notes": "Source reference lemma-single-complex-base-change-condition is an unresolved Stage B dependency, plus referenced maps and derived coherator interpretations.",
+  "processing_sections": [
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 6382
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 6763
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 6892
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 7213
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 7384
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

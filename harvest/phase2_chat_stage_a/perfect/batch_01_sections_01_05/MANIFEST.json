@@ -42,5 +42,33 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "Mathematical reconstruction of derived-category material. Stage B must check source hypotheses, source typo leads, and verify standalone statement text."
+  "notes": "Mathematical reconstruction of derived-category material. Stage B must check source hypotheses, source typo leads, and verify standalone statement text.",
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "candidates",
+      "source_line": 17
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 27
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 53
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 435
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 628
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

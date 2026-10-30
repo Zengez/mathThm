@@ -49,5 +49,33 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "Source resolution-property definition and K_0 semantics restored structurally. Two Koszul truncation lemmas have offset reverse implications, not biconditionals. Stage B must verify."
+  "notes": "Source resolution-property definition and K_0 semantics restored structurally. Two Koszul truncation lemmas have offset reverse implications, not biconditionals. Stage B must verify.",
+  "processing_sections": [
+    {
+      "section": 36,
+      "kind": "candidates",
+      "source_line": 9201
+    },
+    {
+      "section": 37,
+      "kind": "candidates",
+      "source_line": 9565
+    },
+    {
+      "section": 38,
+      "kind": "candidates",
+      "source_line": 9847
+    },
+    {
+      "section": 39,
+      "kind": "candidates",
+      "source_line": 10256
+    },
+    {
+      "section": 40,
+      "kind": "candidates",
+      "source_line": 10357
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

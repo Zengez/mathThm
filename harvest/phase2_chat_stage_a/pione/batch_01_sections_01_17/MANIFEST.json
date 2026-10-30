@@ -122,5 +122,94 @@
   "source_sections_without_active_candidates": [
     1,
     7
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 35
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 124
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 709
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 924
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 1190
+    },
+    {
+      "section": 7,
+      "kind": "context_only",
+      "source_line": 1343,
+      "snippets": [
+        {
+          "source_line": 1346,
+          "tex": "\\noindent\nLet $X$ be a connected scheme with geometric point $\\overline{x}$.\nSince $F_{\\overline{x}} : \\textit{F\\'Et}_X \\to \\textit{Sets}$ is a\nGalois category (Lemma \\ref{lemma-finite-etale-connected-galois-category})\nthe material in Section \\ref{section-galois} applies.\nIn this section we explicitly transfer some of the terminology\nand results to the setting of schemes and finite \\'etale morphisms."
+        }
+      ]
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1405
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1601
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1927
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2346
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2579
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2816
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 3418
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 3563
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 3686
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3933
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
