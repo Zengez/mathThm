@@ -1,0 +1,38 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "15-section-experiment-05",
+  "chapter": "more-morphisms.tex",
+  "sections_ordinal": [
+    60,
+    74
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17316,
+    17686,
+    18044,
+    18794,
+    18864,
+    19235,
+    19515,
+    19697,
+    20056,
+    20278,
+    20623,
+    20728,
+    20905,
+    21421,
+    21719
+  ],
+  "first_source_line": 17316,
+  "last_source_line": 22068,
+  "complete_sections": true,
+  "stage_a_candidate_count": 0,
+  "candidate_ids": [],
+  "output_file": null,
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "notes": "All 15 sections are zero-active-candidate according to source-pinned complete chapter inventory. No unvalidated statements fabricated."
+}
