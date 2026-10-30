@@ -1,0 +1,52 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "20-section-experiment-40",
+  "chapter": "etale-cohomology.tex",
+  "sections_ordinal": [
+    96,
+    107
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    20020,
+    20222,
+    20987,
+    21060,
+    21416,
+    21882,
+    22133,
+    22510,
+    22838,
+    23305,
+    23527,
+    23636
+  ],
+  "first_source_line": 20020,
+  "last_source_line": 23764,
+  "complete_sections": true,
+  "stage_a_candidate_count": 0,
+  "candidate_ids": [],
+  "output_file": "harvest/phase2_chat_stage_a/etale-cohomology/batch_05_sections_96_107/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "stage_a_mathematical_analysis_pending": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ]
+}
