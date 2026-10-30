@@ -1,0 +1,46 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "descent.tex",
+  "sections_ordinal": [
+    1,
+    5
+  ],
+  "first_source_line": 16,
+  "last_source_line": 1700,
+  "source_section_starts": [
+    16,
+    33,
+    205,
+    767,
+    1541
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 18,
+  "candidate_ids": [
+    "candidate.stacks.e959db55279c91fc2dbd6ca6",
+    "candidate.stacks.70f5a4d3d8cbc1102fede168",
+    "candidate.stacks.566e67748e0801716aadab2c",
+    "candidate.stacks.ae3bc0d944f5deb7492cf10a",
+    "candidate.stacks.5778e5522b2b9835b8b6b381",
+    "candidate.stacks.efec1a04b5be9acedc6536a9",
+    "candidate.stacks.c4be36db724cd6836e05fafc",
+    "candidate.stacks.458a9bafb90cb29b52deb372",
+    "candidate.stacks.83b951cd39a6d0cbeaf219ef",
+    "candidate.stacks.23630ffd8fac6a98a10b67d8",
+    "candidate.stacks.f41e9a78cdc97d47e1e70150",
+    "candidate.stacks.71e93d219c47a2dc26275463",
+    "candidate.stacks.fb77b1f7aedea75cd12cb326",
+    "candidate.stacks.45edaa480e99e9721db5813f",
+    "candidate.stacks.76af4d2c7d830693e876ab2c",
+    "candidate.stacks.9408ba98e614f2c0356e0532",
+    "candidate.stacks.58391cc4050690fe39fdf255",
+    "candidate.stacks.1557b3c5fa90e8e68076611c"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/descent/batch_01_sections_01_05/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "notes": "New chapter; includes algebraically substantial functor and pure-descent statements with explicit source-scope reconstruction. Stage B must validate."
+}
