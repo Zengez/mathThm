@@ -1,0 +1,71 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-67",
+  "chapter": "spaces-more-cohomology.tex",
+  "sections_ordinal": [
+    1,
+    8
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    19,
+    38,
+    59,
+    140,
+    474,
+    890,
+    1265,
+    1631
+  ],
+  "first_source_line": 19,
+  "last_source_line": 1942,
+  "complete_sections": true,
+  "stage_a_candidate_count": 24,
+  "candidate_ids": [
+    "candidate.stacks.fc98a36e60a5e5d35259d297",
+    "candidate.stacks.618dc05a0424e18059118285",
+    "candidate.stacks.25dd2a378862ffbabfcaae2d",
+    "candidate.stacks.a2863ff0c5c851cd24cd260b",
+    "candidate.stacks.4fc744dda783d4ff92528376",
+    "candidate.stacks.5797ddfafd0528b0f4e12825",
+    "candidate.stacks.3d068de6ba6d484e58694878",
+    "candidate.stacks.958c7cfcbe3805cfdd457d93",
+    "candidate.stacks.f4c481ebb1fb8a90da80e912",
+    "candidate.stacks.19071293577f701808eb609a",
+    "candidate.stacks.7025997b3cc8e680abf599b7",
+    "candidate.stacks.b246105f39f1bad9e9efd5d0",
+    "candidate.stacks.d20bc8fdad8a55a74534154a",
+    "candidate.stacks.cf6e9b2f305da3a1f8127f46",
+    "candidate.stacks.fc1bbb8e4ef5a1eee3ff997d",
+    "candidate.stacks.3dd1e9bb52c280f9027611c7",
+    "candidate.stacks.62977194107157f2e8ed4fa6",
+    "candidate.stacks.dea5522d09a832d9a9c6d201",
+    "candidate.stacks.5f1a91a1f5c3277c37f5e74d",
+    "candidate.stacks.f30b7d90a2341bb8e4fef63a",
+    "candidate.stacks.3e8cf6b22f1ba3d3b6e6eaa5",
+    "candidate.stacks.a1f3c7692c6f8530afc04f66",
+    "candidate.stacks.6b742e7e88e139358aa4d80c",
+    "candidate.stacks.f0ffbe0732f9b6279d4b5b04"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/spaces-more-cohomology/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "stage_a_mathematical_analysis_pending": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.fc98a36e60a5e5d35259d297",
+    "candidate.stacks.62977194107157f2e8ed4fa6",
+    "candidate.stacks.dea5522d09a832d9a9c6d201",
+    "candidate.stacks.5f1a91a1f5c3277c37f5e74d",
+    "candidate.stacks.f30b7d90a2341bb8e4fef63a",
+    "candidate.stacks.3e8cf6b22f1ba3d3b6e6eaa5",
+    "candidate.stacks.f0ffbe0732f9b6279d4b5b04"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1,
+    2
+  ]
+}
