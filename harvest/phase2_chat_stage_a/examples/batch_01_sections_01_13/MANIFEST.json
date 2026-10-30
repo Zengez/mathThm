@@ -64,5 +64,23 @@
     9,
     13
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 572
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 659
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 735
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

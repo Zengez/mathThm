@@ -77,5 +77,99 @@
     80,
     81
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 66,
+      "kind": "context_only",
+      "source_line": 5059,
+      "snippets": [
+        {
+          "source_line": 5070,
+          "tex": "Decomposing the rings $S_x$, $S_y$, and $S_{xy}$ by bidegree,\nwe can write\n$$\nS_x = \\bigoplus_{\\substack{(a, b) \\in \\mathbf{Z}^2 \\\\ b \\geq 0}} R'_{a, b},\n\\quad\\quad\nS_y = \\bigoplus_{\\substack{(a, b) \\in \\mathbf{Z}^2 \\\\ a \\geq 0}} R''_{a, b},\n\\quad\\quad\nS_{xy} = \\bigoplus_{\\substack{(a, b) \\in \\mathbf{Z}^2}} R/I,\n$$\nwhere the $(a, b)$-summands sit in degree $a + b$ and we have\n$$\nR'_{a, b} =\n\\left\\{\n\\begin{matrix}\nR & b = 0, \\\\\nR/I & b \\ne 0,\n\\end{matrix}\n\\right.\n\\quad\\quad\nR''_{a, b} =\n\\left\\{\n\\begin{matrix}\nR & a = 0, \\\\\nR/I & a \\ne 0.\n\\end{matrix}\n\\right.\n$$\nThe $R$-module $H^0(X, \\mathcal{O}_X)$ can be computed as the kernel of the map\n$$\n(S_x)_0 \\times (S_y)_0 \\to (S_{xy})_0\n$$\ndefined by $(F, G) \\mapsto F - G$. Here the notation $A_0$ refers to the\ndegree $0$ component of a $\\mathbf{Z}$-graded ring $A$. By our explicit\ndescription of $S_x, S_y, S_{xy}$ above, this kernel is isomorphic\nto the submodule $M \\subset R^2$ consisting of those pairs $(F, G)$\nwith $F - G \\in I$. Since the map $M \\to I$ of $R$-modules\ngiven by $(F, G) \\mapsto F - G$ is surjective,\n$M$ is not a finitely generated $R$-module."
+        }
+      ]
+    },
+    {
+      "section": 67,
+      "kind": "context_only",
+      "source_line": 5142,
+      "snippets": [
+        {
+          "source_line": 5221,
+          "tex": "\\noindent\nIn different terminology, Hironaka's 3-fold $V_Y$ is a small\nresolution of the blowup $Y'$ of $Y$ along the reduced subscheme\n$C\\cup D$; here $Y'$ has two node singularities. If we define $Z$ by blowing\nup $Y$ along $C$ and then along the strict transform\nof $D$, then $Z$ is a smooth projective 3-fold, and the non-projective\n3-fold $V_Y$ differs from $Z$ by a ``flop'' over $Y-P$."
+        }
+      ]
+    },
+    {
+      "section": 69,
+      "kind": "context_only",
+      "source_line": 5388,
+      "snippets": [
+        {
+          "source_line": 5391,
+          "tex": "\\noindent\nIn Quot, Section \\ref{quot-section-curves} we define a family of curves over\na scheme $S$ to be a proper, flat, finitely presented morphism\nof relative dimension $\\leq 1$ from an algebraic space $X$ to $S$.\nIf $S$ is the spectrum of a complete Noetherian local ring, then\n$X$ is a scheme, see\nMore on Morphisms of Spaces, Lemma\n\\ref{spaces-more-morphisms-lemma-projective-over-complete}.\nIn this section we show this is not true in general."
+        }
+      ]
+    },
+    {
+      "section": 72,
+      "kind": "context_only",
+      "source_line": 5654,
+      "snippets": [
+        {
+          "source_line": 5663,
+          "tex": "{\\bf Example I.} Let $X$ be a topological space. Denote\n$\\underline{\\mathbf{Z}}$ the constant sheaf with value $\\mathbf{Z}$.\nLet $A$ be an $\\underline{\\mathbf{Z}}$-torsor. In this setting we say\na sheaf of abelian groups $\\mathcal{F}$ is {\\it $A$-graded} if given a\nlocal section $a \\in A(U)$ there is a projector\n$p_a : \\mathcal{F}|_U \\to \\mathcal{F}|_U$ such that\nwhenever we have a local isomorphism $\\underline{\\mathbf{Z}}|_U \\to A|_U$\nthen $\\mathcal{F}|_U = \\bigoplus_{n \\in \\mathbf{Z}} p_n(\\mathcal{F})$.\nAnother way to say this is that locally on $X$ the abelian sheaf\n$\\mathcal{F}$ has a $\\mathbf{Z}$-grading, but on overlaps the different\nchoices of gradings differ by a shift in degree given by the transition\nfunctions for the torsor $A$.\nWe say that a pair $(\\mathcal{F}, \\text{d})$ is an\n{\\it $A$-graded complex of abelian sheaves}, if $\\mathcal{F}$\nis an $A$-graded abelian sheaf and $\\text{d} : \\mathcal{F} \\to \\mathcal{F}$\nis a differential, i.e., $\\text{d}^2 = 0$ such that\n$p_{a + 1} \\circ \\text{d} = \\text{d} \\circ p_a$ for every local\nsection $a$ of $A$. In other words, $\\text{d}(p_a(\\mathcal{F}))$\nis contained in $p_{a + 1}(\\mathcal{F})$."
+        }
+      ]
+    },
+    {
+      "section": 73,
+      "kind": "candidates",
+      "source_line": 5816
+    },
+    {
+      "section": 74,
+      "kind": "candidates",
+      "source_line": 5934
+    },
+    {
+      "section": 75,
+      "kind": "candidates",
+      "source_line": 6166
+    },
+    {
+      "section": 77,
+      "kind": "context_only",
+      "source_line": 6284,
+      "snippets": [
+        {
+          "source_line": 6385,
+          "tex": "Construction of $\\Phi'$ given $\\Phi$. Consider the set $U$ of\ntriples $u = (i, j, \\xi)$ where $i > j$ and $\\xi \\in \\Ker(M_i \\to M_j)$.\nWe will let $s, t : U \\to I$ denote the maps $s(i, j, \\xi) = i$\nand $t(i, j, \\xi) = j$. Then we set $\\xi_u \\in M_{s(u)}$ the third\ncomponent of $u$. We take\n$$\n\\Lambda' = \\Lambda[x_u; u \\in U]/(x_u x_{u'}; u, u' \\in U)\n$$\nwith augmentation $\\Lambda' \\to K$ given by the augmentation of $\\Lambda$\nand sending $x_u$ to zero.\nWe take $J'_k = J_k \\Lambda' + (x_{u,\\ t(u) \\geq k})$.\nWe set\n$$\nM'_i = M_i \\oplus \\bigoplus\\nolimits_{s(u) \\geq i} K\\epsilon_{i, u}\n$$\nAs transition maps $M'_i \\to M'_j$ for $i > j$ we use\nthe given map $M_i \\to M_j$ and we send $\\epsilon_{i, u}$ to\n$\\epsilon_{j, u}$. The map $M'_i \\to V_i$ induces the given map\n$M_i \\to V_i$ and sends $\\epsilon_{i, u}$ to zero.\nFinally, we let $\\Lambda'$ act on $M'_i$ as follows:\nfor $\\lambda \\in \\Lambda$ we act by the $\\Lambda$-module\nstructure on $M_i$ and via the augmentation $\\Lambda \\to K$\non $\\epsilon_{i, u}$. The element $x_u$ acts as $0$ on $M_i$\nfor all $i$. Finally, we define\n$$\nx_u \\epsilon_{i, u} = \\text{image of }\\xi_u\\text{ in }M_i\n$$\nand we set all other products $x_{u'} \\epsilon_{i, u}$ equal to zero.\nThe displayed formula makes sense because $s(u) \\geq i$ and\n$\\xi_u \\in M_{s(u)}$. The main things the check are $J'_j M'_i \\subset M'_i$\nmaps to zero in $M'_j$ for $i > j$ and that $\\Ker(M_i \\to M_j)$\nmaps to zero in $M'_i/J_j M'_i$. The reason for the last fact\nis that $\\xi = x_{(i, j, \\xi)} \\epsilon_{i, (i, j, \\xi)} \\in J'_j M'_i$\nfor any $\\xi \\in \\Ker(M_i \\to M_j)$.\nWe omit the details."
+        }
+      ]
+    },
+    {
+      "section": 78,
+      "kind": "context_only",
+      "source_line": 6441,
+      "snippets": [
+        {
+          "source_line": 6502,
+          "tex": "Let $U \\subset \\Spec(S)$ be the punctured spectrum, so there are natural\nmaps $X \\leftarrow U \\subset \\Spec(S)$. The first map gives an\nidentification $H^1(U, \\mathcal{O}_U) \\simeq H^1(X, \\mathcal{O}_X)$.\nBy passing to the Witt vectors of the perfection and using the\nArtin-Schreier sequence\\footnote{Here we use that $S$ is a strictly\nhenselian local ring of characteristic $p$ and hence\n$S \\to S$, $f \\mapsto f^p - f$ is surjective.\nAlso $S$ is a normal domain and hence\n$\\Gamma(U, \\mathcal{O}_U) = S$. Thus $H^1_\\etale(U, \\mathbf{Z}/p)$\nis the kernel of the map $H^1(U, \\mathcal{O}_U) \\to H^1(U, \\mathcal{O}_U)$\ninduced by $f \\mapsto f^p - f$.}, this gives an identification\n$H^1_\\etale(U, \\mathbf{Z}_p) \\simeq H^1_\\etale(X, \\mathbf{Z}_p)$.\nIn particular, this group is a finite free $\\mathbf{Z}_p$-module of\nrank $2$ (since $X$ is ordinary). To get a contradiction assume\nthere exists an\n$R$-flat $T$ as in (2) above. Let $V \\subset \\Spec(T)$ denote the preimage\nof $U$, and write $f : V \\to U$ for the induced finite surjective map.\nSince $U$ is normal, there is a trace map $f_*\\mathbf{Z}_p \\to \\mathbf{Z}_p$\non $U_\\etale$ whose composition with the pullback\n$\\mathbf{Z}_p \\to f_*\\mathbf{Z}_p$ is multiplication by $d = \\deg(f)$.\nPassing to cohomology, and using that $H^1_\\etale(U, \\mathbf{Z}_p)$\nis nontorsion, then shows that $H^1_\\etale(V, \\mathbf{Z}_p)$ is nonzero.\nSince $H^1_\\etale(V, \\mathbf{Z}_p) \\simeq \\lim H^1_\\etale(V, \\mathbf{Z}/p^n)$\nas there is no $R^1\\lim$ interference, the group\n$H^1(V_\\etale,\\mathbf{Z}/p)$ must be non-zero. Since $T$ is $R$-flat we\nhave $\\Gamma(V, \\mathcal{O}_V) = T$ which is strictly henselian and the\nArtin-Schreier sequence shows $H^1(V, \\mathcal{O}_V) \\neq 0$.\nThis is equivalent to $H^2_\\mathfrak m(T) \\neq 0$, where\n$\\mathfrak m \\subset R$ is the maximal ideal. Thus, we obtain\na contradiction since $T$ is finite flat (i.e., finite free) as an\n$R$-module and $H^2_\\mathfrak m(R) = 0$. This contradiction proves (2)."
+        }
+      ]
+    },
+    {
+      "section": 79,
+      "kind": "candidates",
+      "source_line": 6551
+    },
+    {
+      "section": 82,
+      "kind": "candidates",
+      "source_line": 6791
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

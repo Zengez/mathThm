@@ -87,5 +87,101 @@
     61,
     63
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 40,
+      "kind": "context_only",
+      "source_line": 2958,
+      "snippets": [
+        {
+          "source_line": 2982,
+          "tex": "First we claim that $S$ is an $S$-module which is relatively pure\nover $R$. Since on inverting $x$ we obtain an isomorphism we only need\nto check this at the maximal ideal $\\mathfrak m \\subset R$. Since\n$R$ is complete with respect to its maximal ideal it is henselian\nhence we need only check that every prime $\\mathfrak p \\subset R$,\n$\\mathfrak p \\not = \\mathfrak m$, the unique prime $\\mathfrak q$\nof $S$ lying over $\\mathfrak p$ satisfies\n$\\mathfrak mS + \\mathfrak q \\not = S$. Since $\\mathfrak p \\not = \\mathfrak m$\nit corresponds to a unique prime ideal of $k[[x, y]][1/x]$. Hence\neither $\\mathfrak p = (0)$ or $\\mathfrak p = (f)$ for some\nirreducible element $f \\in k[[x, y]]$ which is not associated to $x$\n(here we use that $k[[x, y]]$ is a UFD -- insert future reference here).\nIn the first case $\\mathfrak q = (0)$ and the result is clear. In the\nsecond case we may multiply $f$ by a unit so that $f \\in R[y]$\n(Weierstrass preparation; details omitted). Then it is easy to see that\n$R[y]/fR[y] \\cong k[[x, y]]/(f)$ hence $f$ defines a prime ideal\nof $R[y]$ and $\\mathfrak mR[y] + fR[y] \\not = R[y]$.\nSince $S \\to R[y]$ induces a universal homeomorphism on spectra we deduce the\ndesired result for $S$ also."
+        }
+      ]
+    },
+    {
+      "section": 44,
+      "kind": "candidates",
+      "source_line": 3200
+    },
+    {
+      "section": 52,
+      "kind": "candidates",
+      "source_line": 3820
+    },
+    {
+      "section": 53,
+      "kind": "candidates",
+      "source_line": 3906
+    },
+    {
+      "section": 54,
+      "kind": "candidates",
+      "source_line": 4014
+    },
+    {
+      "section": 58,
+      "kind": "context_only",
+      "source_line": 4297,
+      "snippets": [
+        {
+          "source_line": 4300,
+          "tex": "\\noindent\nIn the following we fix a big \\'etale site $\\Sch_\\etale$\nas constructed in\nTopologies, Definition \\ref{topologies-definition-big-etale-site}.\nMoreover, a scheme will be an object of this site.\nRecall that if $x, x'$ are points of a scheme $X$ we say $x$ is a\n{\\it specialization} of $x'$ or we write $x' \\leadsto x$ if\n$x \\in \\overline{\\{x'\\}}$. This is true in particular if $x = x'$."
+        },
+        {
+          "source_line": 4309,
+          "tex": "Consider the functor $F : \\Sch_\\etale \\to \\textit{Ab}$\ndefined by the following rules:\n$$\nF(X) = \\prod\\nolimits_{x \\in X}\n\\prod\\nolimits_{x' \\in X, x' \\leadsto x, x' \\not = x}\n\\mathbf{Z}/2\\mathbf{Z}\n$$\nGiven a scheme $X$ we denote $|X|$ the underlying set of points.\nAn element $a \\in F(X)$ will be viewed as a map of sets\n$|X| \\times |X| \\to \\mathbf{Z}/2\\mathbf{Z}$, $(x, x') \\mapsto a(x, x')$\nwhich is zero if $x = x'$ or if $x$ is not a specialization of $x'$.\nGiven a morphism of schemes $f : X \\to Y$ we define\n$$\nF(f) : F(Y) \\longrightarrow F(X)\n$$\nby the rule that for $b \\in F(Y)$ we set\n$$\nF(f)(b)(x, x') =\n\\left\\{\n\\begin{matrix}\n0 & \\text{if }x\\text{ is not a specialization of }x' \\\\\nb(f(x), f(x')) & \\text{else.}\n\\end{matrix}\n\\right.\n$$\nNote that this really does define an element of $F(X)$. We claim that if\n$f : X \\to Y$ and $g : Y \\to Z$ are composable morphisms then\n$F(f) \\circ F(g) = F(g \\circ f)$. Namely, let $c \\in F(Z)$ and let\n$x' \\leadsto x$ be a specialization of points in $X$, then\n$$\nF(g \\circ f)(x, x') = c(g(f(x)), g(f(x'))) = F(g)(F(f)(c))(x, x')\n$$\nbecause $f(x') \\leadsto f(x)$. (This also works if $f(x) = f(x')$.)"
+        }
+      ]
+    },
+    {
+      "section": 59,
+      "kind": "context_only",
+      "source_line": 4415,
+      "snippets": [
+        {
+          "source_line": 4418,
+          "tex": "\\noindent\nIn the following we fix a big \\'etale site $\\Sch_\\etale$ as constructed in\nTopologies, Definition \\ref{topologies-definition-big-etale-site}.\nMoreover, a scheme will be an object of this site.\nIn this section we say that a {\\it constructible partition}\nof a scheme $X$ is a locally finite disjoint union decomposition\n$X = \\coprod_{i \\in I} X_i$ such that each $X_i \\subset X$ is a\nlocally constructible subset of $X$. Locally finite means that\nfor any quasi-compact open $U \\subset X$ there are only finitely\nmany $i \\in I$ such that $X_i \\cap U$ is not empty.\nNote that if $f : X \\to Y$ is a morphism of schemes and\n$Y = \\coprod Y_j$ is a constructible partition, then\n$X = \\coprod f^{-1}(Y_j)$ is a constructible partition of $X$.\nGiven a set $S$ and a scheme $X$ a {\\it constructible function}\n$f : |X| \\to S$ is a map such that $X = \\coprod_{s \\in S} f^{-1}(s)$\nis a constructible partition of $X$.\nIf $G$ is an (abstract group) and $a, b : |X| \\to G$ are constructible\nfunctions, then $ab : |X| \\to G, x \\mapsto a(x)b(x)$ is a constructible\nfunction too. The reason is that given any two constructible partitions\nthere is a third one refining both."
+        },
+        {
+          "source_line": 4439,
+          "tex": "Let $A$ be any abelian group. For any scheme $X$ we define\n$$\nF(X) =\n\\frac{\\{a : |X| \\to A \\mid a \\text{ is a constructible function}\\}}{\\{\\text{locally constant functions }|X| \\to A\\}}\n$$\nWe think of an element $a$ of $F(X)$ simply as a function well defined\nup to adding a locally constant one. Given a morphism of schemes\n$f : X \\to Y$ and an element $b \\in F(Y)$, then we define\n$F(f)(b) = b \\circ f$. Thus $F$ is a presheaf on $\\Sch_\\etale$."
+        }
+      ]
+    },
+    {
+      "section": 60,
+      "kind": "candidates",
+      "source_line": 4514
+    },
+    {
+      "section": 61,
+      "kind": "context_only",
+      "source_line": 4584,
+      "snippets": [
+        {
+          "source_line": 4615,
+          "tex": "Let $p$ be a prime number and set $S = \\Spec(\\mathbf{F}_p)$.\nConsider the injective map of sheaves\n$$\na : \\mathcal{F} \\longrightarrow \\mathcal{G}\n$$\non $(\\textit{Noetherian}/S)_{fppf}$ defined as follows: for $U$\na locally Noetherian scheme over $S$ we define\n$$\n\\mathcal{G}(U) = \\Gamma(U, \\mathcal{O}_U)^* =\n\\Mor_S(U, \\mathbf{G}_{m, S})\n$$\nand we take\n$$\n\\mathcal{F}(U) = \\{f \\in \\mathcal{G}(U) \\mid \\text{fppf locally }f\n\\text{ has arbitrary }p\\text{-power roots}\\}\n$$\nA Noetherian $\\mathbf{F}_p$-algebra $A$ has a nilpotent nilradical\n$I \\subset A$, the $p$-power roots of $1$ in $A$ are of the\nelements of the form $1 + a$, $a \\in I$, and hence no-nontrivial\n$p$-power root of $1$ has arbitrary $p$-power roots. We conclude\nthat $\\mathcal{F}(U)$ is a $p$-torsion free abelian group for any\nlocally Noetherian scheme $U$; some details omitted. It follows that\n$p : \\mathcal{F} \\to \\mathcal{F}$\nis an injective map of abelian sheaves on $(\\textit{Noetherian}/S)_{fppf}$."
+        }
+      ]
+    },
+    {
+      "section": 62,
+      "kind": "candidates",
+      "source_line": 4699
+    },
+    {
+      "section": 63,
+      "kind": "context_only",
+      "source_line": 4857,
+      "snippets": [
+        {
+          "source_line": 4866,
+          "tex": "We define $\\mathcal{A}$ as follows. An object of $\\mathcal{A}$\nconsists of a triple $(M, \\alpha, f)$ where $M$ is an abelian group and\n$\\alpha$ is an ordinal and $f : \\alpha \\to \\text{End}(M)$ is a map.\nA morphism $(M, \\alpha, f) \\to (M', \\alpha', f')$ is given by a homomorphism\nof abelian groups $\\varphi : M \\to M'$ such that for {\\it any} ordinal $\\beta$\nwe have\n$$\n\\varphi \\circ f(\\beta) = f'(\\beta) \\circ \\varphi\n$$\nHere the rule is that we set $f(\\beta) = 0$ if $\\beta$ is not in\n$\\alpha$ and similarly we set $f'(\\beta)$ equal to zero if $\\beta$ is not an\nelement of $\\alpha'$. We omit the verification that the category so defined\nis abelian."
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

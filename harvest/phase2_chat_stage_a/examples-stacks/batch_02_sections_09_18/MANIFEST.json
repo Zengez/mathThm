@@ -51,5 +51,34 @@
     13,
     16,
     17
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 785
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 1191
+    },
+    {
+      "section": 16,
+      "kind": "context_only",
+      "source_line": 1550,
+      "snippets": [
+        {
+          "source_line": 1559,
+          "tex": "Let $S$ be a scheme.\nLet $\\pi : X \\to B$ be a morphism of algebraic spaces over $S$.\nWe define a category $\\Picardstack_{X/B}$ as follows:\n\\begin{enumerate}\n\\item An object is a triple $(U, b, \\mathcal{L})$, where\n\\begin{enumerate}\n\\item $U$ is an object of $(\\Sch/S)_{fppf}$,\n\\item $b : U \\to B$ is a morphism over $S$, and\n\\item $\\mathcal{L}$ is in invertible sheaf on the base change\n$X_U = U \\times_{b, B} X$.\n\\end{enumerate}\n\\item A morphism $(f, g) : (U, b, \\mathcal{L}) \\to (U', b', \\mathcal{L}')$\nis given by a morphism of schemes $f : U \\to U'$ over $B$ and an\nisomorphism $g : f^*\\mathcal{L}' \\to \\mathcal{L}$.\n\\end{enumerate}\nThe composition of\n$(f, g) : (U, b, \\mathcal{L}) \\to (U', b', \\mathcal{L}')$\nwith\n$(f', g') : (U', b', \\mathcal{L}') \\to (U'', b'', \\mathcal{L}'')$\nis given by $(f' \\circ f, g \\circ f^*(g'))$.\nThus we get a category $\\Picardstack_{X/B}$ and\n$$\np : \\Picardstack_{X/B} \\longrightarrow (\\Sch/S)_{fppf},\n\\quad\n(U, b, \\mathcal{L}) \\longmapsto U\n$$\nis a functor. Note that the fibre category of $\\Picardstack_{X/B}$ over $U$\nis the disjoint union over $b \\in \\Mor_S(U, B)$ of the categories\nof invertible sheaves on $X_U = U \\times_{b, B} X$. Hence the fibre\ncategories are groupoids."
+        }
+      ]
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 1705
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

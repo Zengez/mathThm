@@ -50,5 +50,55 @@
     1,
     2,
     3
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "snippets": [
+        {
+          "source_line": 27,
+          "tex": "Some of the notation, conventions and terminology in this chapter is awkward\nand may seem backwards to the more experienced reader. This is intentional.\nPlease see Quot, Section \\ref{quot-section-conventions} for an\nexplanation."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 36,
+      "snippets": [
+        {
+          "source_line": 39,
+          "tex": "\\noindent\nIn this chapter we fix a suitable big fppf site $\\Sch_{fppf}$\nas in Topologies, Definition \\ref{topologies-definition-big-fppf-site}.\nSo, if not explicitly stated otherwise all schemes will be objects\nof $\\Sch_{fppf}$.\nWe will always work relative to a base $S$ contained in $\\Sch_{fppf}$.\nAnd we will then work with the big fppf site $(\\Sch/S)_{fppf}$,\nsee Topologies, Definition \\ref{topologies-definition-big-small-fppf}.\nThe absolute case can be recovered by taking\n$S = \\Spec(\\mathbf{Z})$."
+        }
+      ]
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 64
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 185
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 319
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 370
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 520
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
