@@ -84,5 +84,86 @@
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     21
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 5470
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 5563
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 5925
+    },
+    {
+      "section": 21,
+      "kind": "context_only",
+      "source_line": 6144,
+      "snippets": [
+        {
+          "source_line": 6154,
+          "tex": "\\begin{definition}\n\\label{definition-groupoid-in-functors}\nLet $\\mathcal{C}$ be a category. The\n{\\it category of groupoids in functors on $\\mathcal{C}$}\nis the category with the following objects and morphisms.\n\\begin{enumerate}\n\\item Objects: A {\\it groupoid in functors on $\\mathcal{C}$} is a quintuple\n$(U, R, s, t, c)$ where $U, R : \\mathcal{C} \\to \\textit{Sets}$ are\nfunctors and $s, t : R \\to U$ and $c : R \\times_{s, U, t} R \\to R$\nare morphisms with the following property: For any object $T$ of $\\mathcal{C}$,\nthe quintuple\n$$\n(U(T), R(T), s, t, c)\n$$\nis a groupoid category.\n\\item Morphisms: A {\\it morphism $(U, R, s, t, c) \\to (U', R', s', t', c')$ of\ngroupoids in functors on $\\mathcal{C}$} consists of morphisms $U \\to U'$\nand $R \\to R'$ with the following property: For any object $T$ of\n$\\mathcal{C}$, the induced maps $U(T) \\to U'(T)$ and\n$R(T) \\to R'(T)$ define a functor between groupoid categories\n$$\n(U(T), R(T), s, t, c) \\to (U'(T), R'(T), s', t', c').\n$$\n\\end{enumerate}\n\\end{definition}"
+        },
+        {
+          "source_line": 6207,
+          "tex": "\\begin{definition}\n\\label{definition-representable}\nLet $\\mathcal{C}$ be a category. A groupoid in functors on $\\mathcal{C}$ is\n{\\it representable} if it is isomorphic to one of the form\n$(\\underline{U}, \\underline{R}, s, t, c)$ where $U$ and $R$ are objects of\n$\\mathcal{C}$ and the pushout $R \\amalg_{s, U, t} R$ exists.\n\\end{definition}"
+        },
+        {
+          "source_line": 6248,
+          "tex": "\\begin{definition}\n\\label{definition-restricting-groupoids-in-functors}\nLet $(U, R, s, t, c)$ be a groupoid in functors on a category $\\mathcal{C}$.\nLet $\\mathcal{C}'$ be a subcategory of $\\mathcal{C}$. The\n{\\it restriction $(U, R, s, t, c)|_{\\mathcal{C}'}$ of $(U, R, s, t, c)$\nto $\\mathcal{C}'$} is the groupoid\nin functors on $\\mathcal{C}'$ given by $(U|_{\\mathcal{C}'}, R|_{\\mathcal\nC'}, s|_{\\mathcal{C}'}, t|_{\\mathcal{C}'}, c|_{\\mathcal{C}'})$.\n\\end{definition}"
+        },
+        {
+          "source_line": 6265,
+          "tex": "\\begin{definition}\n\\label{definition-quotient}\nLet $(U, R, s, t, c)$ be a groupoid in functors on a category $\\mathcal{C}$.\n\\begin{enumerate}\n\\item The assignment $T \\mapsto  (U(T), R(T), s, t, c)$ determines a functor\n$\\mathcal{C} \\to \\textit{Groupoids}$. The {\\it quotient category\ncofibered in groupoids $[U/R] \\to \\mathcal{C}$} is the category\ncofibered in groupoids over $\\mathcal{C}$ associated to this functor (as in\nRemarks \\ref{remarks-cofibered-groupoids}\n(\\ref{item-construction-associated-cofibered-groupoid})).\n\\item The {\\it quotient morphism $U \\to [U/R]$} is the morphism of\ncategories cofibered in groupoids over $\\mathcal{C}$ defined by the\nrules\n\\begin{enumerate}\n\\item $x \\in U(T)$ maps to the object $(T, x) \\in \\Ob([U/R](T))$, and\n\\item $x \\in U(T)$ and $f : T \\to T'$ give rise to the morphism\n$(f, \\text{id}_{U(f)(x)}): (T, x) \\to (T, U(f)(x))$ lying over\n$f : T \\to T'$.\n\\end{enumerate}\n\\end{enumerate}\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 6291
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 6404
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 6488
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 6607
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 6677
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 6827
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 7091
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 7262
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -141,5 +141,143 @@
     5,
     6,
     9
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 20,
+      "snippets": [
+        {
+          "source_line": 100,
+          "tex": "In\nSection \\ref{section-schlessinger-conditions},\nwe define conditions (S1) and (S2) on $\\mathcal{F}$ generalizing\nSchlessinger's (H1) and (H2). The analogue of Schlessinger's\n(H3)---the condition that $\\mathcal{F}$ has finite dimensional\ntangent space---is not given a name.\nA key step in the development of the theory is the existence of\nversal formal objects for predeformation categories satisfying\n(S1), (S2) and (H3), see\nLemma \\ref{lemma-versal-object-existence}.\nSchlessinger's notion of a {\\it hull} for a functor\n$F : \\mathcal{C}_\\Lambda \\to \\textit{Sets}$\nis, in our terminology, a versal formal object $\\xi \\in \\widehat{F}(R)$\nsuch that the induced map of tangent spaces\n$d\\underline{\\xi} : T\\underline{R}|_{\\mathcal{C}_\\Lambda} \\to TF$\nis an isomorphism.\nIn the literature a hull is often called a ``miniversal'' object.\nWe do not do so, and here is why. It can happen that a functor has a\nversal formal object without having a hull. Moreover, we show in\nSection \\ref{section-minimal-versal}\nthat if a predeformation category has a versal formal object, then\nit always has a {\\it minimal} one (as defined in\nDefinition \\ref{definition-minimal-versal})\nwhich is unique up to isomorphism, see\nLemma \\ref{lemma-minimal-versal}.\nBut it can happen that the minimal versal formal object does not\ninduce an isomorphism on tangent spaces! (See\nExamples \\ref{example-do-not-get-S2} and\n\\ref{example-smooth-continued}.)"
+        },
+        {
+          "source_line": 141,
+          "tex": "In Section \\ref{section-RS-condition},\nwe define Rim's condition (RS) on $\\mathcal{F}$ generalizing\nSchlessinger's (H4). A {\\it deformation category} is defined as a\npredeformation category satisfying (RS).\nThe analogue to prorepresentable functors are the categories\ncofibred in groupoids over $\\mathcal{C}_\\Lambda$ which have\na {\\it presentation by a smooth prorepresentable groupoid in functors}\non $\\mathcal{C}_\\Lambda$, see\nDefinitions \\ref{definition-groupoid-in-functors},\n\\ref{definition-prorepresentable-groupoid-in-functors}, and\n\\ref{definition-smooth-groupoid-in-functors}.\nThis notion of a presentation takes into account the groupoid structure\nof the fibers of $\\mathcal{F}$. In\nTheorem \\ref{theorem-presentation-deformation-groupoid}\nwe prove that $\\mathcal{F}$ has a presentation by a smooth prorepresentable\ngroupoid in functors if and only if $\\mathcal{F}$ has a finite dimensional\ntangent space and finite dimensional infinitesimal automorphism space.\nThis is the generalization of (2) above: it reduces to Schlessinger's result\nin the case that $\\mathcal{F}$ is a functor.\nThere is a final\nSection \\ref{section-minimality}\nwhere we discuss how to use minimal versal formal objects\nto produce a (unique up to isomorphism) minimal presentation\nby a smooth prorepresentable groupoid in functors."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 193,
+      "snippets": [
+        {
+          "source_line": 196,
+          "tex": "\\noindent\nA ring is commutative with $1$. The  maximal ideal of a local ring $A$\nis denoted by $\\mathfrak{m}_A$. The set of positive integers is denoted\nby $\\mathbf{N} = \\{1, 2, 3, \\ldots\\}$. If $U$ is an object of a\ncategory $\\mathcal{C}$, we denote by $\\underline{U}$\nthe functor\n$\\Mor_\\mathcal{C}(U, -): \\mathcal{C} \\to \\textit{Sets}$, see\nRemarks \\ref{remarks-cofibered-groupoids} (\\ref{item-definition-yoneda}).\nWarning: this may conflict with the notation in other chapters where we\nsometimes use $\\underline{U}$ to denote $h_U(-) = \\Mor_\\mathcal{C}(-, U)$."
+        },
+        {
+          "source_line": 207,
+          "tex": "Throughout this chapter $\\Lambda$ is a Noetherian ring and\n$\\Lambda \\to k$ is a finite ring map from $\\Lambda$ to a field.\nThe kernel of this map is denoted $\\mathfrak m_\\Lambda$ and the\nimage $k' \\subset k$. It turns out that $\\mathfrak m_\\Lambda$ is\na maximal ideal, $k' = \\Lambda/\\mathfrak m_\\Lambda$ is a field, and\nthe extension $k/k'$ is finite. See discussion surrounding\n(\\ref{equation-k-prime})."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 217
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 809
+    },
+    {
+      "section": 5,
+      "kind": "context_only",
+      "source_line": 1132,
+      "snippets": [
+        {
+          "source_line": 1135,
+          "tex": "\\noindent\nIn developing the theory we work with categories {\\it cofibered} in groupoids.\n We assume as known the definition and basic properties of categories\n{\\it fibered} in groupoids, see\nCategories, Section \\ref{categories-section-fibred-groupoids}."
+        },
+        {
+          "source_line": 1141,
+          "tex": "\\begin{definition}\n\\label{definition-category-cofibred-groupoids}\nLet $\\mathcal{C}$ be a category.  A {\\it category cofibered in groupoids over\n$\\mathcal{C}$} is a category $\\mathcal{F}$ equipped with a functor\n$p: \\mathcal{F} \\to \\mathcal{C}$ such that $\\mathcal{F}^{opp}$ is a category\nfibered in groupoids over $\\mathcal{C}^{opp}$ via\n$p^{opp}: \\mathcal{F}^{opp} \\to \\mathcal{C}^{opp}$.\n\\end{definition}"
+        },
+        {
+          "source_line": 1163,
+          "tex": "\\begin{remarks}\n\\label{remarks-cofibered-groupoids}\nEverything about categories fibered in groupoids translates directly to the\ncofibered setting. The following remarks are meant to fix notation.\nLet $\\mathcal{C}$ be a category.\n\\begin{enumerate}\n\\item We often omit the functor $p: \\mathcal{F} \\to \\mathcal{C}$ from the\nnotation.\n\\item The fiber category over an object $U$ in $\\mathcal{C}$ is denoted by\n$\\mathcal{F}(U)$. Its objects are those of $\\mathcal{F}$ lying over $U$ and its\nmorphisms are those of $\\mathcal{F}$ lying over $\\text{id}_U$.\nIf $x, y$  are objects of $\\mathcal{F}(U)$, we sometimes write\n$\\Mor_U(x, y)$ for $\\Mor_{\\mathcal{F}(U)}(x, y)$.\n\\item The fibre categories $\\mathcal{F}(U)$ are groupoids, see\nCategories, Lemma \\ref{categories-lemma-fibred-groupoids}.\nHence the morphisms in $\\mathcal{F}(U)$ are all isomorphisms.\nWe sometimes write $\\text{Aut}_U(x)$ for $\\Mor_{\\mathcal{F}(U)}(x, x)$.\n\\item\n\\label{item-pushforward}\nLet $\\mathcal{F}$ be a category cofibered in groupoids over\n$\\mathcal{C}$, let $f: U \\to V$ be a morphism in $\\mathcal{C}$, and\nlet $x \\in \\Ob(\\mathcal{F}(U))$.\nA {\\it pushforward} of $x$ along $f$ is a morphism\n$x \\to y$ of $\\mathcal{F}$ lying over $f$. A pushforward\nis unique up to unique isomorphism (see the discussion following\nCategories, Definition \\ref{categories-definition-cartesian-over-C}).\nWe sometimes write $x \\to f_*x$ for ``the'' pushforward of $x$\nalong $f$.\n\\item A {\\it choice of pushforwards for $\\mathcal{F}$} is the choice of\na pushforward of $x$ along $f$ for every pair $(x, f)$ as above. We can make\nsuch a choice of pushforwards for $\\mathcal{F}$ by the axiom of choice.\n\\item Let $\\mathcal{F}$ be a category cofibered in groupoids over\n$\\mathcal{C}$. Given a choice of pushforwards for $\\mathcal{F}$, there\nis an associated pseudo-functor $\\mathcal{C} \\to \\textit{Groupoids}$.\nWe will never use this construction so we give no details.\n\\item\n\\label{item-cofibered-morphism}\nA morphism of categories cofibered in groupoids over $\\mathcal{C}$ is a\nfunctor commuting with the projections to $\\mathcal{C}$. If $\\mathcal{F}$\nand $\\mathcal{F}'$ are categories cofibered in groupoids over\n$\\mathcal{C}$, we denote the morphisms from $\\mathcal{F}$ to $\\mathcal{F}'$\nby $\\Mor_\\mathcal{C}(\\mathcal{F}, \\mathcal{F}')$.\n\\item\n\\label{item-definition-cofibered-groupoids-2-category}\nCategories cofibered in groupoids form a $(2, 1)$-category\n$\\text{Cof}(\\mathcal{C})$. Its 1-morphisms are the morphisms described in\n(\\ref{item-cofibered-morphism}). If $p : \\mathcal{F} \\to C$ and\n$p': \\mathcal{F}' \\to \\mathcal{C}$ are categories cofibered in groupoids\nand $\\varphi, \\psi : \\mathcal{F} \\to \\mathcal{F}'$ are $1$-morphisms, then\na 2-morphism $t : \\varphi \\to \\psi$ is a morphism of functors such that\n$p'(t_x) = \\text{id}_{p(x)}$ for all $x \\in \\Ob(\\mathcal{F})$.\n\\item\n\\label{item-construction-associated-cofibered-groupoid}\nLet $F : \\mathcal{C} \\to \\textit{Groupoids}$ be a functor. There\nis a category cofibered in groupoids $\\mathcal{F} \\to \\mathcal{C}$\nassociated to $F$ as follows. An object of $\\mathcal{F}$ is a pair $(U, x)$\nwhere $U \\in \\Ob(\\mathcal{C})$ and $x \\in \\Ob(F(U))$. A\nmorphism $(U, x) \\to (V, y)$ is a pair $(f, a)$ where\n$f \\in \\Mor_\\mathcal{C}(U, V)$ and\n$a \\in \\Mor_{F(V)}(F(f)(x), y)$.\nThe functor $\\mathcal{F} \\to \\mathcal{C}$ sends $(U, x)$ to $U$. See\nCategories, Section \\ref{categories-section-presheaves-groupoids}.\n\\item\n\\label{item-associated-functor-isomorphism-classes}\nLet $\\mathcal{F}$ be cofibered in groupoids over $\\mathcal{C}$.\nFor $U \\in \\Ob(\\mathcal{C})$ set $\\overline{\\mathcal{F}}(U)$ equal to\nthe set of isomorphisms classes of the category $\\mathcal{F}(U)$.\nIf $f : U \\to V$ is a morphism of $\\mathcal{C}$, then we obtain a\nmap of sets $\\overline{\\mathcal{F}}(U) \\to \\overline{\\mathcal{F}}(V)$ by\nmapping the isomorphism class of $x$ to the isomorphism class of a pushforward\n$f_*x$ of $x$ see (\\ref{item-pushforward}). Then\n$\\overline{\\mathcal{F}} : \\mathcal{C} \\to \\textit{Sets}$ is a\nfunctor. Similarly, if $\\varphi : \\mathcal{F} \\to \\mathcal{G}$ is a\nmorphism of cofibered categories, we denote by\n$\\overline{\\varphi}: \\overline{\\mathcal{F}} \\to  \\overline{\\mathcal{G}}$\nthe associated morphism of functors.\n\\item\n\\label{item-convention-cofibered-sets}\nLet $F: \\mathcal{C} \\to \\textit{Sets}$ be a functor. We can think of a\nset as a discrete category, i.e., as a groupoid with only identity morphisms.\nThen the construction (\\ref{item-construction-associated-cofibered-groupoid})\nassoc\n% [excerpt truncated]"
+        }
+      ]
+    },
+    {
+      "section": 6,
+      "kind": "context_only",
+      "source_line": 1298,
+      "snippets": [
+        {
+          "source_line": 1314,
+          "tex": "\\begin{definition}\n\\label{definition-prorepresentable}\nLet $F : \\mathcal{C}_\\Lambda \\to \\textit{Sets}$ be a functor.\nWe say $F$ is {\\it prorepresentable} if there exists an isomorphism\n$F \\cong \\underline{R}|_{\\mathcal{C}_\\Lambda}$ of functors for some\n$R \\in \\Ob(\\widehat{\\mathcal{C}}_\\Lambda)$.\n\\end{definition}"
+        },
+        {
+          "source_line": 1332,
+          "tex": "\\begin{definition}\n\\label{definition-predeformation-category}\nA {\\it predeformation category} $\\mathcal{F}$ is a category cofibered\nin groupoids over $\\mathcal{C}_\\Lambda$ such that $\\mathcal{F}(k)$ is\nequivalent to a category with a single object and a single morphism,\ni.e., $\\mathcal{F}(k)$ contains at least one object and there is a\nunique morphism between any two objects. A {\\it morphism of predeformation\ncategories} is a morphism of categories cofibered in groupoids over\n$\\mathcal{C}_\\Lambda$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1390
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1888
+    },
+    {
+      "section": 9,
+      "kind": "context_only",
+      "source_line": 2251,
+      "snippets": [
+        {
+          "source_line": 2263,
+          "tex": "\\begin{definition}\n\\label{definition-cofibered-groupoid-projection-smooth}\nLet $p : \\mathcal{F} \\to \\mathcal{C}_\\Lambda$ be a category cofibered in\ngroupoids. We say $\\mathcal{F}$ is {\\it smooth} or {\\it unobstructed}\nif its structure morphism $p$ is smooth\nin the sense of Definition \\ref{definition-smooth-morphism}.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2491
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 3109
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 3425
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 3669
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 4063
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 4387
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 4770
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 5243
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

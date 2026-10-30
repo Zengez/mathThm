@@ -100,5 +100,83 @@
     "candidate.stacks.56f872d2cbe9685188423134",
     "candidate.stacks.757f54eef90de35455b3bcdb"
   ],
-  "notes": "Groupoid categorical coherence reconstructed in semantic notes; unresolved diagram transcription flagged for independent validation."
+  "notes": "Groupoid categorical coherence reconstructed in semantic notes; unresolved diagram transcription flagged for independent validation.",
+  "processing_sections": [
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2008
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2100
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2235
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2403
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2614
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2814
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 3272
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3338
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3447
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 3564
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 3682
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 3977
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 4104
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 4193
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 4914
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -178,5 +178,114 @@
     1,
     3,
     8
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 48
+    },
+    {
+      "section": 3,
+      "kind": "context_only",
+      "source_line": 620,
+      "snippets": [
+        {
+          "source_line": 623,
+          "tex": "\\noindent\nThe conventions from now on will be similar to the conventions in\nProperties of Spaces, Section \\ref{spaces-properties-section-conventions}.\nThus from now on the standing assumption is that all schemes are contained\nin a big fppf site $\\Sch_{fppf}$. And all rings $A$ considered have the\nproperty that $\\Spec(A)$ is (isomorphic) to an object of this big site.\nFor topological rings $A$ we assume only that all discrete quotients have\nthis property (but usually we assume more, compare with\nRemark \\ref{remark-set-theoretic})."
+        },
+        {
+          "source_line": 633,
+          "tex": "Let $S$ be a scheme and let $X$ be a ``space'' over $S$, i.e., a sheaf on\n$(\\Sch/S)_{fppf}$. In this chapter we will write $X \\times_S X$ for the\nproduct of $X$ with itself in the category of sheaves on $(\\Sch/S)_{fppf}$\ninstead of $X \\times X$. Moreover, if $X$ and $Y$ are ``spaces'' then\nwe say \"let $f : X \\to Y$ be a morphism\" to indicate that $f$ is a\nnatural transformation of functors, i.e., a map of sheaves on\n$(\\Sch/S)_{fppf}$. Similarly, if $U$ is a scheme over $S$ and\n$X$ is a ``space'' over $S$, then we say\n\"let $f : U \\to X$ be a morphism\" or\n\"let $g : X \\to U$ be a morphism\" to indicate that $f$ or $g$\nis a map of sheaves $h_U \\to X$ or $X \\to h_U$ where $h_U$ is as in\nCategories, Example \\ref{categories-example-hom-functor}."
+        }
+      ]
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 652
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 1075
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 1268
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1370
+    },
+    {
+      "section": 8,
+      "kind": "context_only",
+      "source_line": 1567,
+      "snippets": [
+        {
+          "source_line": 1570,
+          "tex": "\\noindent\nIn this section we consider the following situation\n\\begin{enumerate}\n\\item $\\varphi : A \\to B$ is a continuous map of\nlinearly topologized topological rings,\n\\item $\\varphi$ is taut, and\n\\item for every open ideal $I \\subset A$ if $J \\subset B$\ndenotes the closure of $IB$, then the map $A/I \\to B/J$\nis faithfully flat.\n\\end{enumerate}\nWe are going to show that properties of $B$ are inherited\nby $A$ in this situation."
+        }
+      ]
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1741
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2199
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2398
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2608
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2744
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2924
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 3246
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 3354
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3551
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3641
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 3827
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -19,5 +19,12 @@
   "reviewer": "chatgpt-stage-a",
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
-  "proofs_reviewed": 0
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 25,
+      "kind": "candidates"
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
