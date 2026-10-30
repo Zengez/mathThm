@@ -150,5 +150,108 @@
     "candidate.stacks.f758e79e1133a88b20c852d0"
   ],
   "previously_approved_ids_not_regenerated": [],
-  "source_sections_without_active_candidates": []
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 271
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 406
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 482
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 846
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1153
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1309
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1570
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1623
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1850
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2095
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2764
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2990
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 3177
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 3240
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3393
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3551
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 3737
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 4272
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 4390
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 4546
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

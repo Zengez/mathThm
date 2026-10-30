@@ -145,5 +145,99 @@
   "source_sections_without_active_candidates": [
     1
   ],
-  "previously_approved_ids_not_regenerated": []
+  "previously_approved_ids_not_regenerated": [],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "snippets": [
+        {
+          "source_line": 91,
+          "tex": "Ad B: This is in some sense the most subtle part of the proof.\nIn the end we only need to use the output of this step when $A$\nis a complete Noetherian local ring, although the writeup is a\nbit more general. The terminology is set in\nDefinition \\ref{definition-reduce-to-rational}.\nIf $g$ (as defined above) is bounded, then a straightforward\nargument shows that we can find a normal modification $X \\to \\Spec(A)$\nsuch that all singular points of $X$ are rational singularities, see\nLemma \\ref{lemma-reduce-to-rational}. We show that given a finite extension\n$A \\subset B$, then $g$ is bounded for $B$ if it is bounded for $A$\nin the following two cases: (1) if the fraction field extension\nis separable, see Lemma \\ref{lemma-reduce-to-rational} and\n(2) if the fraction field extension has degree $p$,\nthe characteristic is $p$, and $A$ is regular and complete, see\nLemma \\ref{lemma-go-up-degree-p}."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 152
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 438
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 829
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 997
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 1200
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1357
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1676
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 2229
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2533
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2742
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 3060
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 3520
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 3693
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 4017
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 4291
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 4883
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

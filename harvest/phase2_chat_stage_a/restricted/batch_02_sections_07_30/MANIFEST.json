@@ -214,5 +214,140 @@
   "source_sections_without_active_candidates": [
     9,
     23
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1372
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1568
+    },
+    {
+      "section": 9,
+      "kind": "context_only",
+      "source_line": 1922,
+      "snippets": [
+        {
+          "source_line": 1925,
+          "tex": "\\noindent\nThe only goal in this section is to prove the following lemma which\nwill play a key role in algebraization of rig-\\'etale algebras.\nWe will use a bit of the theory of algebraic spaces to prove this lemma;\nan earlier version of this chapter gave a (much longer) proof using algebra\nand a bit of deformation theory that the interested reader can find in\nthe history of the Stacks project."
+        }
+      ]
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2053
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2211
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2393
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2665
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2995
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 3425
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 3869
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3986
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 4396
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 4523
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 4801
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 5028
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 5523
+    },
+    {
+      "section": 23,
+      "kind": "context_only",
+      "source_line": 5735,
+      "snippets": [
+        {
+          "source_line": 5738,
+          "tex": "\\noindent\nIn this section we consider the following situation.\nFirst we fix a base scheme $S$. All rings, topological rings,\nschemes, algebraic spaces, and formal algebraic spaces and\nmorphisms between these will be over $S$. Next, we fix an\nalgebraic space $X$ and a closed subset $T \\subset |X|$.\nWe denote $U \\subset X$ be the open subspace with $|U| = |X| \\setminus T$.\nPicture\n$$\nU \\to X \\quad |X| = |U| \\amalg T\n$$\nIn this situation, given an algebraic space $X'$ over $X$, i.e., an\nalgebraic space $X'$ endowed with a morphism $f : X' \\to X$, then we\ndenote $T' \\subset |X'|$ the inverse image of $T$ and we let $U' \\subset X'$\nbe the open subspace with $|U'| = |X'| \\setminus T'$. Picture\n$$\nU' = f^{-1}U\n\\quad\\quad\n\\vcenter{\n\\xymatrix{\nU' \\ar[d] \\ar[r] & X' \\ar[d]_f \\\\\nU \\ar[r] & X\n}\n}\n\\quad\\quad\n\\vcenter{\n\\xymatrix{\n|U'| \\ar[r] \\ar[d] & |X'| \\ar[d]^{|f|} & T' \\ar[l] \\ar[d] \\\\\n|U| \\ar[r] & |X| & T \\ar[l]\n}\n}\n\\quad\\quad\nT' = |f|^{-1}T\n$$\nWe will relate properties of $f$ to properties of the induced morphism\n$$\nf_{/T} : X'_{/T'} \\longrightarrow X_{/T}\n$$\nof formal completions. As indicated in the displayed formula, we will\ndenote this morphism $f_{/T}$. We have already seen that\n$f_{/T}$ is representable by algebraic spaces in\nFormal Spaces, Lemma\n\\ref{formal-spaces-lemma-map-completions-representable}.\nIn fact, as the proof of that lemma shows, the diagram\n$$\n\\xymatrix{\nX'_{/T'} \\ar[d]_{f_{/T}} \\ar[r] & X' \\ar[d]^f \\\\\nX_{/T} \\ar[r] & X\n}\n$$\nis cartesian. Please keep this fact in mind whilst reading the lemmas stated\nand proved below."
+        }
+      ]
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 6049
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 6178
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 6403
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 6515
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 6890
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 7150
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 7219
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

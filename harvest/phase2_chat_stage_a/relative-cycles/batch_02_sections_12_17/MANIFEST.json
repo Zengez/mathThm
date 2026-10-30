@@ -50,5 +50,28 @@
   "source_sections_without_active_candidates": [
     13,
     16
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1980
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2548
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2770
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 2912
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

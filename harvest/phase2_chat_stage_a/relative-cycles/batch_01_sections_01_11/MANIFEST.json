@@ -87,5 +87,43 @@
     2,
     8,
     11
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 68
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 169
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 375
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 724
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1314
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1644
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1873
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

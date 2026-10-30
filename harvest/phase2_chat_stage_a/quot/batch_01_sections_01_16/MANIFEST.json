@@ -133,5 +133,104 @@
   "source_sections_without_active_candidates": [
     1,
     2
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 19,
+      "snippets": [
+        {
+          "source_line": 22,
+          "tex": "\\noindent\nAs initially conceived, the purpose of this chapter was to write about\nQuot and Hilbert functors and to prove that these are algebraic spaces\nprovided certain technical conditions are satisfied. This material, in\nthe setting of schemes, is\ncovered in Grothendieck's lectures in the s\\'eminair Bourbaki, see\n\\cite{Gr-I},\n\\cite{Gr-II},\n\\cite{Gr-III},\n\\cite{Gr-IV},\n\\cite{Gr-V}, and\n\\cite{Gr-VI}. For projective schemes the Quot and Hilbert schemes\nlive inside Grassmannians of spaces of sections of suitable very\nample invertible sheaves, and this provides a method of construction\nfor these schemes. Our approach is different: we use Artin's axioms to\nprove Quot and Hilb are algebraic spaces."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 123,
+      "snippets": [
+        {
+          "source_line": 145,
+          "tex": "Unfortunately, this means that some of the notation, conventions and\nterminology is awkward and may seem backwards to the more experienced\nreader. We hope the reader will forgive us!"
+        },
+        {
+          "source_line": 156,
+          "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 176
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 745
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 869
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 1538
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1663
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 2192
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 2429
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2591
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2684
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 3115
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 3219
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 3757
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 4496
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 4879
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
