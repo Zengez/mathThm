@@ -89,5 +89,105 @@
     1,
     3,
     5
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 18,
+      "snippets": [
+        {
+          "source_line": 21,
+          "tex": "\\noindent\nIn this chapter we first discuss Chow groups of algebraic spaces.\nHaving defined these, we define Chern classes of vector bundles as\noperators on these chow groups. The strategy will be entirely\nthe same as the strategy in the case of schemes. Therefore we\nurge the reader to take a look at the introduction\n(Chow Homology, Section \\ref{chow-section-introduction})\nof the corresponding chapter for schemes."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 35
+    },
+    {
+      "section": 3,
+      "kind": "context_only",
+      "source_line": 197,
+      "snippets": [
+        {
+          "source_line": 210,
+          "tex": "\\begin{definition}\n\\label{definition-cycles}\nIn Situation \\ref{situation-setup} let $X/B$ be good.\nLet $k \\in \\mathbf{Z}$.\n\\begin{enumerate}\n\\item A {\\it cycle on $X$} is a formal sum\n$$\n\\alpha = \\sum n_Z [Z]\n$$\nwhere the sum is over integral closed subspaces $Z \\subset X$,\neach $n_Z \\in \\mathbf{Z}$, and\n$\\{|Z|; n_Z \\not = 0\\}$ is a locally finite\ncollection of subsets of $|X|$\n(Topology, Definition \\ref{topology-definition-locally-finite}).\n\\item A {\\it $k$-cycle} on $X$ is\na cycle\n$$\n\\alpha = \\sum n_Z [Z]\n$$\nwhere $n_Z \\not = 0 \\Rightarrow \\dim_\\delta(Z) = k$.\n\\item The abelian group of all $k$-cycles on $X$ is denoted $Z_k(X)$.\n\\end{enumerate}\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 248
+    },
+    {
+      "section": 5,
+      "kind": "context_only",
+      "source_line": 425,
+      "snippets": [
+        {
+          "source_line": 449,
+          "tex": "\\begin{definition}\n\\label{definition-cycle-associated-to-closed-subscheme}\nIn Situation \\ref{situation-setup} let $X/B$ be good.\nLet $Y \\subset X$ be a closed subspace.\n\\begin{enumerate}\n\\item For an irreducible component $Z \\subset Y$ with generic point $\\xi$\nthe length of $\\mathcal{O}_Y$ at $\\xi$\n(Definition \\ref{definition-length-at-x}) is called the\n{\\it multiplicity of $Z$ in $Y$}.\nBy Lemma \\ref{lemma-length-finite} applied to $\\mathcal{O}_Y$\non $Y$ this is a positive integer.\n\\item Assume $\\dim_\\delta(Y) \\leq k$.\nThe {\\it $k$-cycle associated to $Y$} is\n$$\n[Y]_k = \\sum m_{Z, Y}[Z]\n$$\nwhere the sum is over the irreducible components $Z$ of $Y$\nof $\\delta$-dimension $k$ and $m_{Z, Y}$ is the multiplicity\nof $Z$ in $Y$.\nThis is a $k$-cycle by Spaces over Fields, Lemma\n\\ref{spaces-over-fields-lemma-components-locally-finite}.\n\\end{enumerate}\n\\end{definition}"
+        },
+        {
+          "source_line": 473,
+          "tex": "\\noindent\nIt is important to note that we only define $[Y]_k$ if the $\\delta$-dimension\nof $Y$ does not exceed $k$. In other words, by convention, if we write\n$[Y]_k$ then this implies that $\\dim_\\delta(Y) \\leq k$."
+        }
+      ]
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 484
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 595
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 725
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 916
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1019
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1268
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1365
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 1426
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 1594
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 1686
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

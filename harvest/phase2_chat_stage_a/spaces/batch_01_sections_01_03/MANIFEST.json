@@ -36,5 +36,24 @@
   "source_sections_without_active_candidates": [
     1,
     2
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 76,
+      "snippets": [
+        {
+          "source_line": 94,
+          "tex": "If $U, T$ are schemes over $S$, then we denote\n$U(T)$ for the set of $T$-valued points {\\it over} $S$.\nIn a formula: $U(T) = \\Mor_S(T, U)$."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 112
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

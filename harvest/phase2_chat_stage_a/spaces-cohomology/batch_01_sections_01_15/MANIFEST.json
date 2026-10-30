@@ -109,5 +109,99 @@
   "source_sections_without_active_candidates": [
     1,
     2
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 19,
+      "snippets": [
+        {
+          "source_line": 22,
+          "tex": "\\noindent\nIn this chapter we write about cohomology of algebraic spaces.\nAlthough we prove some results on cohomology of abelian sheaves,\nwe focus mainly on cohomology of quasi-coherent sheaves, i.e.,\nwe prove analogues of the results in the chapter ``Cohomology of Schemes''.\nSome of the results in this chapter can be found in \\cite{Kn}."
+        },
+        {
+          "source_line": 29,
+          "tex": "An important missing ingredient in this chapter is the\n{\\it induction principle}, i.e., the analogue for quasi-compact\nand quasi-separated algebraic spaces of\nCohomology of Schemes, Lemma \\ref{coherent-lemma-induction-principle}.\nThis is formulated precisely and proved in detail in\nDerived Categories of Spaces, Section \\ref{spaces-perfect-section-induction}.\nInstead of the induction principle, in this chapter we use the\nalternating {\\v C}ech complex, see\nSection \\ref{section-alternating-cech}.\nIt is designed to prove vanishing statements such as\nProposition \\ref{proposition-vanishing},\nbut in some cases the induction principle is a more powerful\nand perhaps more ``standard'' tool. We encourage the reader\nto take a look at the induction principle\nafter reading some of the material in this section."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 48,
+      "snippets": [
+        {
+          "source_line": 57,
+          "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 70
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 269
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 442
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 579
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1078
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1237
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1337
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1536
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1654
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1837
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2088
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2210
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2636
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

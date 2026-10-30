@@ -138,5 +138,103 @@
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     20
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 1812
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 2065
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 2343
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 2508
+    },
+    {
+      "section": 20,
+      "kind": "context_only",
+      "source_line": 2776,
+      "snippets": [
+        {
+          "source_line": 2783,
+          "tex": "In Situation \\ref{situation-setup} let $X/B$ be good. Assume $X$ is integral\nand $\\dim_\\delta(X) = n$. Let $\\mathcal{L}$ and $\\mathcal{N}$ be invertible\n$\\mathcal{O}_X$-modules. Let $s$ be a nonzero meromorphic section of\n$\\mathcal{L}$ and let $t$ be a nonzero meromorphic section of $\\mathcal{N}$.\nLet $Z \\subset X$ be a prime divisor with generic point $\\xi \\in |Z|$.\nConsider the morphism\n$$\nc_\\xi : \\Spec(\\mathcal{O}_{X, \\xi}^h) \\longrightarrow X\n$$\nused in Spaces over Fields, Section \\ref{spaces-over-fields-section-c1}.\nWe denote $\\mathcal{L}_\\xi$ and $\\mathcal{N}_\\xi$ the pullbacks\nof $\\mathcal{L}$ and $\\mathcal{N}$ by $c_\\xi$; we often think of\n$\\mathcal{L}_\\xi$ and $\\mathcal{N}_\\xi$ as the rank $1$ free\n$\\mathcal{O}_{X, \\xi}^h$-modules they give rise to.\nNote that the pullback of $s$, resp.\\ $t$ is a regular meromorphic\nsection of $\\mathcal{L}_\\xi$, resp.\\ $\\mathcal{N}_\\xi$."
+        },
+        {
+          "source_line": 2801,
+          "tex": "Let $Z_i \\subset X$, $i \\in I$ be a locally finite set of prime divisors\nwith the following property: If $Z \\not \\in \\{Z_i\\}$, then $s$ is a\ngenerator for $\\mathcal{L}_\\xi$ and $t$ is a generator for $\\mathcal{N}_\\xi$.\nSuch a set exists by Spaces over Fields, Lemma\n\\ref{spaces-over-fields-lemma-divisor-meromorphic-locally-finite}.\nThen\n$$\n\\text{div}_\\mathcal{L}(s) = \\sum \\text{ord}_{Z_i, \\mathcal{L}}(s) [Z_i]\n$$\nand similarly\n$$\n\\text{div}_\\mathcal{N}(t) = \\sum \\text{ord}_{Z_i, \\mathcal{N}}(t) [Z_i]\n$$\nUnwinding the definitions more, we pick for each $i$ generators\n$s_i \\in \\mathcal{L}_{\\xi_i}$ and $t_i \\in \\mathcal{N}_{\\xi_i}$\nwhere $\\xi_i$ is the generic point of $Z_i$. Then we can write\n$$\ns = f_i s_i\n\\quad\\text{and}\\quad\nt = g_i t_i\n$$\nwith $f_i, g_i$ invertible elements of the total ring of fractions\n$Q(\\mathcal{O}_{X, \\xi_i}^h)$. We abbreviate $B_i = \\mathcal{O}_{X, \\xi_i}^h$.\nLet us denote\n$$\n\\text{ord}_{B_i} : Q(B_i)^* \\longrightarrow \\mathbf{Z},\\quad\na/b \\longmapsto\n\\text{length}_{B_i}(B_i/aB_i) - \\text{length}_{B_i}(B_i/bB_i)\n$$\nIn other words, we temporarily extend\nAlgebra, Definition \\ref{algebra-definition-ord}\nto these reduced Noetherian local rings of dimension $1$.\nThen by definition\n$$\n\\text{ord}_{Z_i, \\mathcal{L}}(s) = \\text{ord}_{B_i}(f_i)\n\\quad\\text{and}\\quad\n\\text{ord}_{Z_i, \\mathcal{N}}(t) = \\text{ord}_{B_i}(g_i)\n$$\nSince $\\xi_i$ is the generic point of $Z_i$ we see that\nthe residue field $\\kappa(\\xi_i)$ is the function field of $Z_i$.\nMoreover $\\kappa(\\xi_i)$ is the residue field of $B_i$, see\nDecent Spaces, Lemma\n\\ref{decent-spaces-lemma-residue-field-henselian-local-ring}.\nSince $t_i$ is a generator of $\\mathcal{N}_{\\xi_i}$ we see that\nits image in the fibre $\\mathcal{N}_{\\xi_i} \\otimes_{B_i} \\kappa(\\xi_i)$\nis a nonzero meromorphic section of $\\mathcal{N}|_{Z_i}$. We will denote\nthis image $t_i|_{Z_i}$. From our definitions it follows that\n$$\nc_1(\\mathcal{N}) \\cap \\text{div}_\\mathcal{L}(s) =\n\\sum \\text{ord}_{B_i}(f_i)\n(Z_i \\to X)_*\\text{div}_{\\mathcal{N}|_{Z_i}}(t_i|_{Z_i})\n$$\nand similarly\n$$\nc_1(\\mathcal{L}) \\cap \\text{div}_\\mathcal{N}(t) =\n\\sum \\text{ord}_{B_i}(g_i)\n(Z_i \\to X)_*\\text{div}_{\\mathcal{L}|_{Z_i}}(s_i|_{Z_i})\n$$\nin $\\CH_{n - 2}(X)$. We are going to find a rational equivalence between\nthese two cycles. To do this we consider the tame symbol\n$$\n\\partial_{B_i}(f_i, g_i) \\in \\kappa(\\xi_i)^* = R(Z_i)^*\n$$\nsee Chow Homology, Section \\ref{chow-section-tame-symbol}."
+        }
+      ]
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 3075
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 3213
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 3435
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 3658
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 3722
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 3847
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 4076
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 4368
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 4565
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 4644
+    },
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 4779
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 4954
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

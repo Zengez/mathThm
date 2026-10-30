@@ -71,5 +71,48 @@
     "candidate.stacks.adb857eb5eff5b7048471cd7"
   ],
   "previously_approved_ids_not_regenerated": [],
-  "source_sections_without_active_candidates": []
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 2763
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3126
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3272
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 3404
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 3583
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 3884
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 4017
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 4451
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
