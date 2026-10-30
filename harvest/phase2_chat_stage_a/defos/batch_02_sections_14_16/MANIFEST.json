@@ -1,0 +1,44 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-74",
+  "chapter": "defos.tex",
+  "sections_ordinal": [
+    14,
+    16
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    4648,
+    4909,
+    5035
+  ],
+  "first_source_line": 4648,
+  "last_source_line": 5722,
+  "complete_sections": true,
+  "stage_a_candidate_count": 10,
+  "candidate_ids": [
+    "candidate.stacks.3e94f1501c86ff0f642a51e1",
+    "candidate.stacks.313327a9901ba51bc3a16946",
+    "candidate.stacks.5c2835dbdae94774710099a0",
+    "candidate.stacks.f02c85e875852df6c06caa95",
+    "candidate.stacks.d2dcf9282f9bd03df982ee8d",
+    "candidate.stacks.47d55a1e9a63b0dea205b1e5",
+    "candidate.stacks.922804638249ff76cfe283e5",
+    "candidate.stacks.ec99f313d0358db7c05c4b9c",
+    "candidate.stacks.290a5dcc9ff647475fb0cc15",
+    "candidate.stacks.6c621ef174a3459bdc10b092"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/defos/batch_02_sections_14_16/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "stage_a_mathematical_analysis_pending": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.3e94f1501c86ff0f642a51e1",
+    "candidate.stacks.922804638249ff76cfe283e5"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": []
+}
