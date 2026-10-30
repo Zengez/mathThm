@@ -53,5 +53,83 @@
   "reviewer": "chatgpt-stage-a",
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
-  "proofs_reviewed": 0
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 45,
+      "kind": "candidates",
+      "source_line": 12654
+    },
+    {
+      "section": 46,
+      "kind": "candidates",
+      "source_line": 13078
+    },
+    {
+      "section": 47,
+      "kind": "candidates",
+      "source_line": 13371
+    },
+    {
+      "section": 48,
+      "kind": "candidates",
+      "source_line": 13598
+    },
+    {
+      "section": 49,
+      "kind": "candidates",
+      "source_line": 13824
+    },
+    {
+      "section": 50,
+      "kind": "candidates",
+      "source_line": 14020
+    },
+    {
+      "section": 51,
+      "kind": "candidates",
+      "source_line": 14202
+    },
+    {
+      "section": 52,
+      "kind": "candidates",
+      "source_line": 14530
+    },
+    {
+      "section": 53,
+      "kind": "candidates",
+      "source_line": 15079
+    },
+    {
+      "section": 54,
+      "kind": "candidates",
+      "source_line": 15557
+    },
+    {
+      "section": 55,
+      "kind": "candidates",
+      "source_line": 15873
+    },
+    {
+      "section": 56,
+      "kind": "candidates",
+      "source_line": 16071
+    },
+    {
+      "section": 57,
+      "kind": "candidates",
+      "source_line": 16262
+    },
+    {
+      "section": 58,
+      "kind": "candidates",
+      "source_line": 16363
+    },
+    {
+      "section": 59,
+      "kind": "candidates",
+      "source_line": 16585
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

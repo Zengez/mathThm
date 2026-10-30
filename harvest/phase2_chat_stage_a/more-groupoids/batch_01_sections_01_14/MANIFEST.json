@@ -95,5 +95,64 @@
     "candidate.stacks.ca0a7f4639a2feae0ce889d1",
     "candidate.stacks.9dd7abb855978186cf661a30",
     "candidate.stacks.2c2596d094243f2a8baf5a7c"
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "candidates"
+    },
+    {
+      "section": 2,
+      "kind": "candidates"
+    },
+    {
+      "section": 3,
+      "kind": "candidates"
+    },
+    {
+      "section": 4,
+      "kind": "candidates"
+    },
+    {
+      "section": 5,
+      "kind": "candidates"
+    },
+    {
+      "section": 6,
+      "kind": "candidates"
+    },
+    {
+      "section": 7,
+      "kind": "candidates"
+    },
+    {
+      "section": 8,
+      "kind": "candidates"
+    },
+    {
+      "section": 9,
+      "kind": "candidates"
+    },
+    {
+      "section": 10,
+      "kind": "candidates"
+    },
+    {
+      "section": 11,
+      "kind": "candidates"
+    },
+    {
+      "section": 12,
+      "kind": "candidates"
+    },
+    {
+      "section": 13,
+      "kind": "candidates"
+    },
+    {
+      "section": 14,
+      "kind": "candidates"
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

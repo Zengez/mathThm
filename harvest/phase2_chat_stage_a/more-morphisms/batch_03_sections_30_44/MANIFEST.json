@@ -137,5 +137,83 @@
     "candidate.stacks.95a29e71ab606db164c23e3b",
     "candidate.stacks.28ac6400d781a667087b3b9c"
   ],
-  "notes": "72 candidate-specific semantic reconstructions; the theorem of cube, Artin approximation, and quasi-finite etale cases have additional source-scope holds for Codex independent validation."
+  "notes": "72 candidate-specific semantic reconstructions; the theorem of cube, Artin approximation, and quasi-finite etale cases have additional source-scope holds for Codex independent validation.",
+  "processing_sections": [
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 8408
+    },
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 8558
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 8896
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 9190
+    },
+    {
+      "section": 34,
+      "kind": "candidates",
+      "source_line": 9730
+    },
+    {
+      "section": 35,
+      "kind": "candidates",
+      "source_line": 10085
+    },
+    {
+      "section": 36,
+      "kind": "candidates",
+      "source_line": 10291
+    },
+    {
+      "section": 37,
+      "kind": "candidates",
+      "source_line": 10459
+    },
+    {
+      "section": 38,
+      "kind": "candidates",
+      "source_line": 10582
+    },
+    {
+      "section": 39,
+      "kind": "candidates",
+      "source_line": 11006
+    },
+    {
+      "section": 40,
+      "kind": "candidates",
+      "source_line": 11814
+    },
+    {
+      "section": 41,
+      "kind": "candidates",
+      "source_line": 11897
+    },
+    {
+      "section": 42,
+      "kind": "candidates",
+      "source_line": 12203
+    },
+    {
+      "section": 43,
+      "kind": "candidates",
+      "source_line": 12304
+    },
+    {
+      "section": 44,
+      "kind": "candidates",
+      "source_line": 12536
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

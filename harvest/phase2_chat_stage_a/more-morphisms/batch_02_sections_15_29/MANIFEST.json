@@ -131,5 +131,83 @@
     "candidate.stacks.31e32b5cb7c51a0dd7f8ca6e",
     "candidate.stacks.54648c548b950ad7b5fb95d2"
   ],
-  "notes": "Manual candidate-specific mathematical semantic notes for all 82, carrying existing source-extracted H/C where appropriate. Multi-clause / quantifier conflicts specifically flagged; standalone source text unaltered and Stage B needed."
+  "notes": "Manual candidate-specific mathematical semantic notes for all 82, carrying existing source-extracted H/C where appropriate. Multi-clause / quantifier conflicts specifically flagged; standalone source text unaltered and Stage B needed.",
+  "processing_sections": [
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 4438
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 4516
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 4854
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 5033
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 5352
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 5505
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 5654
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 5804
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 6155
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 6488
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 6837
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 7106
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 7389
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 7843
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 8171
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -34,5 +34,83 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "All 15 sections are zero-active-candidate according to source-pinned complete chapter inventory. No unvalidated statements fabricated."
+  "notes": "All 15 sections are zero-active-candidate according to source-pinned complete chapter inventory. No unvalidated statements fabricated.",
+  "processing_sections": [
+    {
+      "section": 60,
+      "kind": "candidates",
+      "source_line": 17316
+    },
+    {
+      "section": 61,
+      "kind": "candidates",
+      "source_line": 17686
+    },
+    {
+      "section": 62,
+      "kind": "candidates",
+      "source_line": 18044
+    },
+    {
+      "section": 63,
+      "kind": "candidates",
+      "source_line": 18794
+    },
+    {
+      "section": 64,
+      "kind": "candidates",
+      "source_line": 18864
+    },
+    {
+      "section": 65,
+      "kind": "candidates",
+      "source_line": 19235
+    },
+    {
+      "section": 66,
+      "kind": "candidates",
+      "source_line": 19515
+    },
+    {
+      "section": 67,
+      "kind": "candidates",
+      "source_line": 19697
+    },
+    {
+      "section": 68,
+      "kind": "candidates",
+      "source_line": 20056
+    },
+    {
+      "section": 69,
+      "kind": "candidates",
+      "source_line": 20278
+    },
+    {
+      "section": 70,
+      "kind": "candidates",
+      "source_line": 20623
+    },
+    {
+      "section": 71,
+      "kind": "candidates",
+      "source_line": 20728
+    },
+    {
+      "section": 72,
+      "kind": "candidates",
+      "source_line": 20905
+    },
+    {
+      "section": 73,
+      "kind": "candidates",
+      "source_line": 21421
+    },
+    {
+      "section": 74,
+      "kind": "candidates",
+      "source_line": 21719
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

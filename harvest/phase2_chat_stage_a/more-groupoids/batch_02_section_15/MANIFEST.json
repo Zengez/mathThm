@@ -23,5 +23,12 @@
     "candidate.stacks.5a70c90e96e59ca209bd3f95",
     "candidate.stacks.128acb9a90fde9d3071fb2ed",
     "candidate.stacks.2d0702fd4f9b0108402829de"
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 15,
+      "kind": "candidates"
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

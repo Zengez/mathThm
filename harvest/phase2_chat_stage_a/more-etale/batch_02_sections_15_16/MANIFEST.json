@@ -29,5 +29,18 @@
   "proofs_reviewed": 0,
   "preliminary_source_holds": [],
   "previously_approved_ids_not_regenerated": [],
-  "source_sections_without_active_candidates": []
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 4761
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 4862
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

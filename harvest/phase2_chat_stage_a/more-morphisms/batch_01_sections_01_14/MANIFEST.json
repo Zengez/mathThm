@@ -125,5 +125,78 @@
     "candidate.stacks.1a8cdc865da60bbb1d27e7bb",
     "candidate.stacks.18a375c889e75f03a72d8506"
   ],
-  "notes": "Stage A candidate-level reconstruction with separate h/c and standalone natural-language draft. Source proof not examined. No Stage B approval."
+  "notes": "Stage A candidate-level reconstruction with separate h/c and standalone natural-language draft. Source proof not examined. No Stage B approval.",
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "candidates",
+      "source_line": 17
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 29
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 261
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 592
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 671
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 780
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1002
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1491
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1756
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2174
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 3051
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 3566
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 3717
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 4088
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
