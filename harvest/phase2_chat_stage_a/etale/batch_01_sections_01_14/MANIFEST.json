@@ -1,0 +1,66 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "15-section-experiment-12",
+  "chapter": "etale.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "sections_ordinal": [
+    1,
+    14
+  ],
+  "additional_previous_chapter": {
+    "chapter": "more-groupoids.tex",
+    "sections_ordinal": [
+      15,
+      15
+    ]
+  },
+  "complete_sections": true,
+  "stage_a_candidate_count": 27,
+  "candidate_ids": [
+    "candidate.stacks.88b6903b437e5df755a07316",
+    "candidate.stacks.cf2ed9c564fd950f1da6643c",
+    "candidate.stacks.01fb02c46957dd7f8db82725",
+    "candidate.stacks.73435825d26738dea31f9496",
+    "candidate.stacks.f79d23fb721baa19f0cb0aa8",
+    "candidate.stacks.403d141037c5ec30ca1c72d2",
+    "candidate.stacks.4180f2448bec55bedd7d21fd",
+    "candidate.stacks.388fa3702c87a7a8df08e014",
+    "candidate.stacks.be1455c358eddac9548cefb1",
+    "candidate.stacks.81eb86ffd874a298dbf6442c",
+    "candidate.stacks.b1524f27f49f2d80ae31f137",
+    "candidate.stacks.ca1e9800bdb6763625d3a37d",
+    "candidate.stacks.1ffd7f2f451cd380703cb789",
+    "candidate.stacks.36d069e3dd054245168cac29",
+    "candidate.stacks.5848f7d45ab5e6ccace11312",
+    "candidate.stacks.72c877675307fed02905f2bc",
+    "candidate.stacks.d8bfbeaab28fea7c25e9453a",
+    "candidate.stacks.c657dd3ed16a8d4cd388441a",
+    "candidate.stacks.07a11dc942bb312b7af1d9a0",
+    "candidate.stacks.eeb2ab5e219173e76f44f94a",
+    "candidate.stacks.78c2bed18211e1aa06a57f96",
+    "candidate.stacks.8ff08ab4cb971c3807bafa65",
+    "candidate.stacks.531aa0fce1ad7ca2e61862e1",
+    "candidate.stacks.8359a5625c4c4c0a0e116595",
+    "candidate.stacks.dd7e997bdf4ca7a16bdf8b56",
+    "candidate.stacks.977928c0d47366a2d963ce05",
+    "candidate.stacks.072329cb91765c68a1188116"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/etale/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.cf2ed9c564fd950f1da6643c",
+    "candidate.stacks.01fb02c46957dd7f8db82725",
+    "candidate.stacks.f79d23fb721baa19f0cb0aa8",
+    "candidate.stacks.403d141037c5ec30ca1c72d2",
+    "candidate.stacks.b1524f27f49f2d80ae31f137",
+    "candidate.stacks.ca1e9800bdb6763625d3a37d",
+    "candidate.stacks.1ffd7f2f451cd380703cb789",
+    "candidate.stacks.07a11dc942bb312b7af1d9a0",
+    "candidate.stacks.78c2bed18211e1aa06a57f96",
+    "candidate.stacks.8ff08ab4cb971c3807bafa65",
+    "candidate.stacks.531aa0fce1ad7ca2e61862e1"
+  ]
+}
