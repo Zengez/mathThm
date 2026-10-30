@@ -45,7 +45,7 @@ workflow dispatch once the workflow is registered on the default branch:
 For safety, commits are permitted *only* to
 `feature/phase2-chapter-preparation` or `data/phase2-prepared`.
 The workflow never writes to `main` or `codex/phase2-validation`.
-A push to its initial feature branch also runs a smoke-preparation of Varieties.
+A push changing the preparation workflow/scripts on the feature branch also runs incremental preparation of every missing chapter. Generated chapter commits do not retrigger it. The first completed test prepared Varieties; a subsequent full run successfully prepared all 115 chapters (9,675 candidate inputs).
 
 It checks the pinned source, runs the regression suite, produces only missing
 chapters, independently verifies hashes/coverage, commits each chapter, and
