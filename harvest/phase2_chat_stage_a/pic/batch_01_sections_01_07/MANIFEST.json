@@ -1,0 +1,62 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "15-section-experiment-20",
+  "chapter": "pic.tex",
+  "sections_ordinal": [
+    1,
+    7
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    18,
+    32,
+    398,
+    717,
+    880,
+    919,
+    1332
+  ],
+  "first_source_line": 18,
+  "last_source_line": 1512,
+  "complete_sections": true,
+  "stage_a_candidate_count": 22,
+  "candidate_ids": [
+    "candidate.stacks.238759b255c3e2adfb57b38d",
+    "candidate.stacks.76ea98f99d3481cb08859759",
+    "candidate.stacks.3e65081947d3a544c0a993af",
+    "candidate.stacks.c8cb6f4f46be341704ff274f",
+    "candidate.stacks.81de3668c7d10e98bdcf87e2",
+    "candidate.stacks.e10193e87caed14651198666",
+    "candidate.stacks.cb9af25b6eb67af758e65a22",
+    "candidate.stacks.669d1555ba03ca5f52f93b75",
+    "candidate.stacks.ee7711283a091edc8ff683fc",
+    "candidate.stacks.9c7f9374c16ca8abaad92747",
+    "candidate.stacks.1605c94156809f95d01fc0ee",
+    "candidate.stacks.1ef781e776145c56a8b5d237",
+    "candidate.stacks.c791444796440aaf4078a6a5",
+    "candidate.stacks.ea0d75dea55ce937ee740f51",
+    "candidate.stacks.e37747aa3218044686c8a6fb",
+    "candidate.stacks.4b1968c32409460309b91cf2",
+    "candidate.stacks.633977e83ef57a68653ecffd",
+    "candidate.stacks.92e51c0a48caf7dbc2508964",
+    "candidate.stacks.9f33e4888828d30cbc827791",
+    "candidate.stacks.6dc82e476a0c9b113c6884e0",
+    "candidate.stacks.08c3a71b1b9c45d44f8e7284",
+    "candidate.stacks.35310d00b81343796e5693b2"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/pic/batch_01_sections_01_07/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.3e65081947d3a544c0a993af",
+    "candidate.stacks.1ef781e776145c56a8b5d237",
+    "candidate.stacks.c791444796440aaf4078a6a5",
+    "candidate.stacks.ea0d75dea55ce937ee740f51",
+    "candidate.stacks.e37747aa3218044686c8a6fb",
+    "candidate.stacks.4b1968c32409460309b91cf2",
+    "candidate.stacks.633977e83ef57a68653ecffd",
+    "candidate.stacks.6dc82e476a0c9b113c6884e0"
+  ]
+}
