@@ -1,0 +1,53 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-94",
+  "chapter": "desirables.tex",
+  "sections_ordinal": [
+    9,
+    20
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    153,
+    184,
+    194,
+    209,
+    224,
+    236,
+    245,
+    257,
+    266,
+    281,
+    289,
+    298
+  ],
+  "first_source_line": 153,
+  "last_source_line": 312,
+  "complete_sections": true,
+  "stage_a_candidate_count": 0,
+  "candidate_ids": [],
+  "output_file": "harvest/phase2_chat_stage_a/desirables/batch_02_sections_09_20/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "stage_a_mathematical_analysis_pending": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "no_semantic_or_proof_approval_in_this_batch": true
+}
