@@ -1,0 +1,27 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "15-section-experiment-12",
+  "chapter": "more-groupoids.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "sections_ordinal": [
+    15,
+    15
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 3,
+  "candidate_ids": [
+    "candidate.stacks.5a70c90e96e59ca209bd3f95",
+    "candidate.stacks.128acb9a90fde9d3071fb2ed",
+    "candidate.stacks.2d0702fd4f9b0108402829de"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/more-groupoids/batch_02_section_15/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.5a70c90e96e59ca209bd3f95",
+    "candidate.stacks.128acb9a90fde9d3071fb2ed",
+    "candidate.stacks.2d0702fd4f9b0108402829de"
+  ]
+}
