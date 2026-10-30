@@ -61,7 +61,7 @@
   "output_file": "harvest/phase2_chat_stage_a/bootstrap/batch_01_sections_01_12/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": true,
+  "stage_a_mathematical_analysis_pending": false,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -75,7 +75,8 @@
     "candidate.stacks.0cc5fabb5b409e9234a5c479",
     "candidate.stacks.4665aa8c7a0c10d93c59a036",
     "candidate.stacks.b924de4e47fda3a2be6b50f9",
-    "candidate.stacks.ad184688d32ca1c931398f0c"
+    "candidate.stacks.ad184688d32ca1c931398f0c",
+    "candidate.stacks.9b165157306056406cb3b7d8"
   ],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
