@@ -41,5 +41,19 @@
     7,
     8
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 7,
+      "kind": "context_only",
+      "source_line": 110,
+      "snippets": [
+        {
+          "source_line": 113,
+          "tex": "\\noindent\nWe have a chapter on this material, see\nFormal Deformation Theory, Section \\ref{formal-defos-section-introduction}.\nWe have a chapter discussing examples of the general theory, see\nDeformation Problems, Section \\ref{examples-defos-section-introduction}.\nWe have a chapter, see\nDeformation Theory, Section \\ref{defos-section-introduction}\nwhich discusses deformations of rings (and modules),\ndeformations of ringed spaces (and sheaves of modules),\ndeformations of ringed topoi (and sheaves of modules).\nIn this chapter we use the naive cotangent complex\nto describe obstructions, first order deformations, and\ninfinitesimal automorphisms. This material has found some\napplications to algebraicity of moduli stacks in later chapters.\nThere is also a chapter discussing the full cotangent complex, see\nCotangent, Section \\ref{cotangent-section-introduction}."
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -57,5 +57,110 @@
     10,
     11,
     12
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 3,
+      "kind": "context_only",
+      "source_line": 81,
+      "snippets": [
+        {
+          "source_line": 84,
+          "tex": "\\noindent\nThese lectures are about another cohomology theory. The first thing to remark\nis that the Zariski topology is not entirely satisfactory. One of the main\nreasons that it fails to give the results that we would want is that if $X$ is\na complex variety and $\\mathcal{F}$ is a constant sheaf then\n$$\nH^i(X, \\mathcal{F}) = 0, \\quad \\text{ for all } i > 0.\n$$\nThe reason for that is the following. In an irreducible scheme (a variety in\nparticular), any two nonempty open subsets meet, and so the restriction\nmappings of a constant sheaf are surjective. We say that the sheaf is\n{\\it flasque}. In this case, all higher {\\v C}ech cohomology groups vanish, and\nso do all higher Zariski cohomology groups. In other words, there are ``not\nenough'' open sets in the Zariski topology to detect this higher cohomology."
+        }
+      ]
+    },
+    {
+      "section": 4,
+      "kind": "context_only",
+      "source_line": 112,
+      "snippets": [
+        {
+          "source_line": 149,
+          "tex": "\\begin{definition}\n\\label{definition-etale-covering-initial}\nA family of morphisms $\\{ \\varphi_i : U_i \\to X\\}_{i \\in I}$ is\ncalled an {\\it \\'etale covering} if each $\\varphi_i$ is an \\'etale morphism\nand their images cover $X$, i.e.,\n$X = \\bigcup_{i \\in I} \\varphi_i(U_i)$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 6,
+      "kind": "context_only",
+      "source_line": 235,
+      "snippets": [
+        {
+          "source_line": 238,
+          "tex": "\\noindent\nHow do we compute the cohomology of $\\mathbf{P}^1_\\mathbf{C}$ with coefficients\n$\\Lambda = \\mathbf{Z}/n\\mathbf{Z}$?\nWe use {\\v C}ech cohomology. A covering of $\\mathbf{P}^1_\\mathbf{C}$ is given\nby the two standard opens $U_0, U_1$, which are both\nisomorphic to $\\mathbf{A}^1_\\mathbf{C}$, and whose intersection is isomorphic\nto $\\mathbf{A}^1_\\mathbf{C} \\setminus \\{0\\} = \\mathbf{G}_{m, \\mathbf{C}}$.\nIt turns out that the Mayer-Vietoris sequence holds in \\'etale cohomology.\nThis gives an exact sequence\n$$\nH_\\etale^{i-1}(U_0\\cap U_1, \\Lambda) \\to\nH_\\etale^i(\\mathbf{P}^1_\\mathbf{C}, \\Lambda) \\to\nH_\\etale^i(U_0, \\Lambda) \\oplus\nH_\\etale^i(U_1, \\Lambda) \\to H_\\etale^i(U_0\\cap U_1,\n\\Lambda).\n$$\nTo get the answer we expect, we would need to show that the direct sum in the\nthird term vanishes. In fact, it is true that, as for the usual topology,\n$$\nH_\\etale^q (\\mathbf{A}^1_\\mathbf{C}, \\Lambda) = 0\n\\quad \\text{ for } q \\geq 1,\n$$\nand\n$$\nH_\\etale^q (\\mathbf{A}^1_\\mathbf{C} \\setminus \\{0\\}, \\Lambda) = \\left\\{\n\\begin{matrix}\n\\Lambda & \\text{ if }q = 1\\text{, and} \\\\\n0 & \\text{ for }q \\geq 2.\n\\end{matrix}\n\\right.\n$$\nThese results are already quite hard (what is an elementary proof?). Let us\nexplain how we would compute this once the machinery of \\'etale cohomology is\nat our disposal."
+        },
+        {
+          "source_line": 282,
+          "tex": "{\\bf Cohomology in degree 1.} We use the following identifications:\n\\begin{eqnarray*}\nH_\\etale^1 (X, \\mathbf{Z}/n\\mathbf{Z}) = \\left\\{\n\\begin{matrix}\n\\text{sheaves of sets }\\mathcal{F}\\text{ on the \\'etale site }X_\\etale\n\\text{ endowed with an} \\\\\n\\text{action }\\mathbf{Z}/n\\mathbf{Z} \\times \\mathcal{F} \\to \\mathcal{F}\n\\text{ such that }\\mathcal{F}\\text{ is a }\\mathbf{Z}/n\\mathbf{Z}\\text{-torsor.}\n\\end{matrix}\n\\right\\}\n\\Big/ \\cong\n\\\\\n = \\left\\{\n\\begin{matrix}\n\\text{morphisms }Y \\to X\\text{ which are finite \\'etale together} \\\\\n\\text{ with a free }\\mathbf{Z}/n\\mathbf{Z}\\text{ action such that }\nX = Y/(\\mathbf{Z}/n\\mathbf{Z}).\n\\end{matrix}\n\\right\\}\n\\Big/ \\cong.\n\\end{eqnarray*}\nThe first identification is very general (it is true for any cohomology theory\non a site) and has nothing to do with the \\'etale topology. The second\nidentification is a consequence of descent theory. The last set describes a\ncollection of geometric objects on which we can get our hands."
+        },
+        {
+          "source_line": 316,
+          "tex": "Let us describe the finite \\'etale coverings\n$\\varphi : Y \\to \\mathbf{A}^1_\\mathbf{C} \\setminus \\{0\\}$.\nIt suffices to consider the case where $Y$ is\nconnected, which we assume. We are going to find out what $Y$ can be\nby applying the Riemann-Hurwitz formula (of course this is a bit silly, and\nyou can go ahead and skip the next section if you like).\nSay that this morphism is $n$ to 1, and consider a\nprojective compactification\n$$\n\\xymatrix{\n{Y\\ } \\ar@{^{(}->}[r] \\ar[d]^\\varphi &\n{\\bar Y} \\ar[d]^{\\bar\\varphi} \\\\\n{\\mathbf{A}^1_\\mathbf{C} \\setminus \\{0\\}} \\ar@{^{(}->}[r] &\n{\\mathbf{P}^1_\\mathbf{C}}\n}\n$$\nEven though $\\varphi$ is \\'etale and does not ramify, $\\bar{\\varphi}$ may\nramify at 0 and $\\infty$. Say that the preimages of 0 are the points $y_1,\n\\ldots, y_r$ with indices of ramification $e_1, \\ldots e_r$, and that the\npreimages of $\\infty$ are the points $y_1', \\ldots, y_s'$ with indices of\nramification $d_1, \\ldots d_s$. In particular, $\\sum e_i = n = \\sum d_j$.\nApplying the Riemann-Hurwitz formula, we get\n$$\n2 g_Y - 2 = -2n + \\sum (e_i - 1) + \\sum (d_j - 1)\n$$\nand therefore $g_Y = 0$, $r = s = 1$ and $e_1 = d_1 = n$.\nHence $Y \\cong {\\mathbf{A}^1_\\mathbf{C} \\setminus \\{0\\}}$, and it is easy to\nsee that $\\varphi(z) = \\lambda z^n$ for some $\\lambda \\in \\mathbf{C}^*$.\nAfter reparametrizing $Y$ we may assume $\\lambda = 1$. Thus our\ncovering is given by taking the $n$th root of the coordinate on\n$\\mathbf{A}^1_{\\mathbf{C}} \\setminus \\{0\\}$."
+        }
+      ]
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 414
+    },
+    {
+      "section": 10,
+      "kind": "context_only",
+      "source_line": 503,
+      "snippets": [
+        {
+          "source_line": 507,
+          "tex": "\\begin{definition}\n\\label{definition-family-morphisms-fixed-target}\nLet $\\mathcal{C}$ be a category. A {\\it family of morphisms with fixed target}\n$\\mathcal{U} = \\{\\varphi_i : U_i \\to U\\}_{i\\in I}$ is the data of\n\\begin{enumerate}\n\\item an object $U \\in \\mathcal{C}$,\n\\item a set $I$ (possibly empty), and\n\\item for all $i\\in I$, a morphism $\\varphi_i : U_i \\to U$ of $\\mathcal{C}$\nwith target $U$.\n\\end{enumerate}\n\\end{definition}"
+        },
+        {
+          "source_line": 525,
+          "tex": "\\begin{definition}\n\\label{definition-site}\nA {\\it site}\\footnote{What we call a site is a called a category endowed with\na pretopology in \\cite[Expos\\'e II, D\\'efinition 1.3]{SGA4}.\nIn \\cite{ArtinTopologies} it is called a category with a Grothendieck\ntopology.} consists of a category $\\mathcal{C}$ and a set\n$\\text{Cov}(\\mathcal{C})$ consisting of families of morphisms with fixed target\ncalled {\\it coverings}, such that\n\\begin{enumerate}\n\\item (isomorphism) if $\\varphi : V \\to U$ is an isomorphism in $\\mathcal{C}$,\nthen $\\{\\varphi : V \\to U\\}$ is a covering,\n\\item (locality) if $\\{\\varphi_i : U_i \\to U\\}_{i\\in I}$ is a covering and\nfor all $i \\in I$ we are given a covering\n$\\{\\psi_{ij} : U_{ij} \\to U_i \\}_{j\\in I_i}$, then\n$$\n\\{\n\\varphi_i \\circ \\psi_{ij} : U_{ij} \\to U\n\\}_{(i, j)\\in \\prod_{i\\in I} \\{i\\} \\times I_i}\n$$\nis also a covering, and\n\\item (base change) if $\\{U_i \\to U\\}_{i\\in I}$\nis a covering and $V \\to U$ is a morphism in $\\mathcal{C}$, then\n\\begin{enumerate}\n\\item for all $i \\in I$ the fibre product\n$U_i \\times_U V$ exists in $\\mathcal{C}$, and\n\\item $\\{U_i \\times_U V \\to V\\}_{i\\in I}$ is a covering.\n\\end{enumerate}\n\\end{enumerate}\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 11,
+      "kind": "context_only",
+      "source_line": 577,
+      "snippets": [
+        {
+          "source_line": 580,
+          "tex": "\\begin{definition}\n\\label{definition-sheaf}\nA presheaf $\\mathcal{F}$ of sets (resp. abelian presheaf) on a site\n$\\mathcal{C}$ is said to be a {\\it separated presheaf} if for all coverings\n$\\{\\varphi_i : U_i \\to U\\}_{i\\in I} \\in \\text{Cov} (\\mathcal{C})$\nthe map\n$$\n\\mathcal{F}(U) \\longrightarrow \\prod\\nolimits_{i\\in I} \\mathcal{F}(U_i)\n$$\nis injective. Here the map is $s \\mapsto (s|_{U_i})_{i\\in I}$.\nThe presheaf $\\mathcal{F}$ is a {\\it sheaf} if for all coverings\n$\\{\\varphi_i : U_i \\to U\\}_{i\\in I} \\in \\text{Cov} (\\mathcal{C})$, the\ndiagram\n\\begin{equation}\n\\label{equation-sheaf-axiom}\n\\xymatrix{\n\\mathcal{F}(U) \\ar[r] &\n\\prod_{i\\in I} \\mathcal{F}(U_i) \\ar@<1ex>[r] \\ar@<-1ex>[r] &\n\\prod_{i, j \\in I} \\mathcal{F}(U_i \\times_U U_j),\n}\n\\end{equation}\nwhere the first map is $s \\mapsto (s|_{U_i})_{i\\in I}$ and the two\nmaps on the right are\n$(s_i)_{i\\in I} \\mapsto (s_i |_{U_i \\times_U U_j})$ and\n$(s_i)_{i\\in I} \\mapsto (s_j |_{U_i \\times_U U_j})$,\nis an equalizer diagram in the category of sets (resp.\\ abelian groups).\n\\end{definition}"
+        },
+        {
+          "source_line": 623,
+          "tex": "\\begin{definition}\n\\label{definition-category-sheaves}\nWe denote $\\Sh(\\mathcal{C})$ (resp.\\ $\\textit{Ab}(\\mathcal{C})$)\nthe full subcategory of $\\textit{PSh}(\\mathcal{C})$\n(resp.\\ $\\textit{PAb}(\\mathcal{C})$) whose objects are sheaves. This is the\n{\\it category of sheaves of sets} (resp.\\ {\\it abelian sheaves}) on\n$\\mathcal{C}$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 12,
+      "kind": "context_only",
+      "source_line": 635,
+      "snippets": [
+        {
+          "source_line": 646,
+          "tex": "There is a special object in the site $\\mathcal{T}_G$, namely the $G$-set $G$\nendowed with its natural action by left translations. We denote it ${}_G G$.\nObserve that there is a natural group isomorphism\n$$\n\\begin{matrix}\n\\rho : & G^{opp} & \\longrightarrow & \\text{Aut}_{G\\textit{-Sets}}({}_G G) \\\\\n& g & \\longmapsto & (h \\mapsto hg).\n\\end{matrix}\n$$\nIn particular, for any presheaf $\\mathcal{F}$, the set $\\mathcal{F}({}_G G)$\ninherits a $G$-action via $\\rho$. (Note that by contravariance of\n$\\mathcal{F}$, the set $\\mathcal{F}({}_G G)$ is again a left $G$-set.) In fact,\nthe functor\n$$\n\\begin{matrix}\n\\Sh(\\mathcal{T}_G) & \\longrightarrow & G\\textit{-Sets} \\\\\n\\mathcal{F} & \\longmapsto & \\mathcal{F}({}_G G)\n\\end{matrix}\n$$\nis an equivalence of categories. Its quasi-inverse is the functor $X \\mapsto\nh_X$. Without giving the complete proof (which can be found in\nSites, Section \\ref{sites-section-example-sheaf-G-sets})\nlet us try to explain why this is true.\n\\begin{enumerate}\n\\item\nIf $S$ is a $G$-set, we can decompose it into orbits $S = \\coprod_{i\\in I}\nO_i$. The sheaf axiom for the covering $\\{O_i \\to S\\}_{i\\in I}$ says that\n$$\n\\xymatrix{\n\\mathcal{F}(S) \\ar[r] &\n\\prod_{i\\in I} \\mathcal{F}(O_i) \\ar@<1ex>[r] \\ar@<-1ex>[r] &\n\\prod_{i, j \\in I} \\mathcal{F}(O_i \\times_S O_j)\n}\n$$\nis an equalizer. Observing that fibered products in $G\\textit{-Sets}$ are\ninduced from fibered products in $\\textit{Sets}$, and using the fact that\n$\\mathcal{F}(\\emptyset)$ is a $G$-singleton, we get that\n$$\n\\prod_{i, j \\in I} \\mathcal{F}(O_i \\times_S O_j) = \\prod_{i \\in I}\n\\mathcal{F}(O_i)\n$$\nand the two maps above are in fact the same. Therefore the sheaf axiom merely\nsays that $\\mathcal{F}(S) = \\prod_{i\\in I} \\mathcal{F}(O_i)$.\n\\item\nIf $S$ is the $G$-set $S= G/H$ and $\\mathcal{F}$ is a sheaf on $\\mathcal{T}_G$,\nthen we claim that\n$$\n\\mathcal{F}(G/H) = \\mathcal{F}({}_G G)^H\n$$\nand in particular $\\mathcal{F}(\\{*\\}) = \\mathcal{F}({}_G G)^G$. To see this,\nlet's use the sheaf axiom for the covering $\\{ {}_G G \\to G/H \\}$ of $S$. We\nhave\n\\begin{eqnarray*}\n{}_G G \\times_{G/H} {}_G G & \\cong & G \\times H \\\\\n(g_1, g_2) & \\longmapsto & (g_1, g_1^{-1} g_2)\n\\end{eqnarray*}\nis a disjoint union of copies of ${}_G G$ (as a $G$-set). Hence the sheaf axiom\nreads\n$$\n\\xymatrix{\n\\mathcal{F} (G/H) \\ar[r] &\n\\mathcal{F}({}_G G) \\ar@<1ex>[r] \\ar@<-1ex>[r] &\n\\prod_{h\\in H} \\mathcal{F}({}_G G)\n}\n$$\nwhere the two maps on the right are $s \\mapsto (s)_{h \\in H}$ and $s \\mapsto\n(hs)_{h \\in H}$. Therefore $\\mathcal{F}(G/H) = \\mathcal{F}({}_G G)^H$ as\nclaimed.\n\\end{enumerate}\nThis doesn't quite prove the claimed equivalence of categories, but it shows at\nleast that a sheaf $\\mathcal{F}$ is entirely determined by its sections over\n${}_G G$. Details (and set theoretical remarks) can be found in\nSites, Section \\ref{sites-section-example-sheaf-G-sets}."
+        }
+      ]
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 724
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 835
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 874
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

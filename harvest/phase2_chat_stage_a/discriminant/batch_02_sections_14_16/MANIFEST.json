@@ -34,5 +34,23 @@
     "candidate.stacks.2b1789eb6e56aff1256fcc44",
     "candidate.stacks.68ea5f698298ec6c34232969",
     "candidate.stacks.72810517ccea89230d753079"
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2960
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 3134
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 3284
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

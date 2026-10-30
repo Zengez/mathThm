@@ -127,5 +127,156 @@
     37,
     38,
     41
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 1132
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 1325
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 1461
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 1750
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 1848
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 2085
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 2156
+    },
+    {
+      "section": 23,
+      "kind": "context_only",
+      "source_line": 2391,
+      "snippets": [
+        {
+          "source_line": 2403,
+          "tex": "\\begin{definition}\n\\label{definition-additive-sheaf}\nOn any of the sites $(\\Sch/S)_\\tau$ or $S_\\tau$ of\nSection \\ref{section-big-small}.\n\\begin{enumerate}\n\\item The sheaf $T \\mapsto \\Gamma(T, \\mathcal{O}_T)$ is denoted\n$\\mathcal{O}_S$, or $\\mathbf{G}_a$, or $\\mathbf{G}_{a, S}$ if we\nwant to indicate the base scheme.\n\\item Similarly, the sheaf\n$T \\mapsto \\Gamma(T, \\mathcal{O}^*_T)$ is denoted $\\mathcal{O}_S^*$, or\n$\\mathbf{G}_m$, or $\\mathbf{G}_{m, S}$ if we want\nto indicate the base scheme.\n\\item The {\\it constant sheaf} $\\underline{\\mathbf{Z}/n\\mathbf{Z}}$ on any\nsite is the sheafification of the constant presheaf\n$U \\mapsto \\mathbf{Z}/n\\mathbf{Z}$.\n\\end{enumerate}\n\\end{definition}"
+        },
+        {
+          "source_line": 2458,
+          "tex": "\\begin{definition}\n\\label{definition-structure-sheaf}\nLet $S$ be a scheme. The {\\it structure sheaf} of $S$ is the sheaf of rings\n$\\mathcal{O}_S$\non any of the sites $S_{Zar}$, $S_\\etale$, or $(\\Sch/S)_\\tau$\ndiscussed above.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 2546
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 2716
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 2818
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 3185
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 3798
+    },
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 3916
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 4071
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 4248
+    },
+    {
+      "section": 35,
+      "kind": "context_only",
+      "source_line": 4462,
+      "snippets": [
+        {
+          "source_line": 4465,
+          "tex": "\\noindent\nLet us define the pushforward of a presheaf."
+        },
+        {
+          "source_line": 4468,
+          "tex": "\\begin{definition}\n\\label{definition-direct-image-presheaf}\nLet $f: X\\to Y$ be a morphism of schemes.\nLet $\\mathcal{F} $ a presheaf of sets on $X_\\etale$.\nThe {\\it direct image}, or {\\it pushforward} of $\\mathcal{F}$\n(under $f$) is\n$$\nf_*\\mathcal{F} : Y_\\etale^{opp} \\longrightarrow \\textit{Sets}, \\quad\n(V/Y) \\longmapsto \\mathcal{F}(X \\times_Y V/X).\n$$\nWe sometimes write $f_* = f_{small, *}$ to distinguish from other\ndirect image functors (such as usual Zariski pushforward or $f_{big, *}$).\n\\end{definition}"
+        },
+        {
+          "source_line": 4517,
+          "tex": "\\begin{definition}\n\\label{definition-direct-image-sheaf}\nLet $f: X\\to Y$ be a morphism of schemes.\nLet $\\mathcal{F} $ a sheaf of sets on $X_\\etale$.\nThe {\\it direct image}, or {\\it pushforward} of $\\mathcal{F}$\n(under $f$) is\n$$\nf_*\\mathcal{F} : Y_\\etale^{opp} \\longrightarrow \\textit{Sets}, \\quad\n(V/Y) \\longmapsto \\mathcal{F}(X \\times_Y V/X)\n$$\nwhich is a sheaf by\nRemark \\ref{remark-direct-image-sheaf}.\nWe sometimes write $f_* = f_{small, *}$ to distinguish from other\ndirect image functors (such as usual Zariski pushforward or $f_{big, *}$).\n\\end{definition}"
+        },
+        {
+          "source_line": 4565,
+          "tex": "\\begin{definition}\n\\label{definition-higher-direct-images}\nLet $f: X \\to Y$ be a morphism of schemes.\nThe right derived functors $\\{R^pf_*\\}_{p \\geq 1}$ of\n$f_* : \\textit{Ab}(X_\\etale) \\to \\textit{Ab}(Y_\\etale)$\nare called {\\it higher direct images}.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 36,
+      "kind": "candidates",
+      "source_line": 4579
+    },
+    {
+      "section": 39,
+      "kind": "candidates",
+      "source_line": 4930
+    },
+    {
+      "section": 40,
+      "kind": "candidates",
+      "source_line": 5168
+    },
+    {
+      "section": 42,
+      "kind": "candidates",
+      "source_line": 5730
+    },
+    {
+      "section": 43,
+      "kind": "candidates",
+      "source_line": 5912
+    },
+    {
+      "section": 44,
+      "kind": "candidates",
+      "source_line": 6096
+    },
+    {
+      "section": 45,
+      "kind": "candidates",
+      "source_line": 6271
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

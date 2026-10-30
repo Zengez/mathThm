@@ -44,5 +44,42 @@
   "source_sections_without_active_candidates": [
     1,
     2
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 48,
+      "snippets": [
+        {
+          "source_line": 60,
+          "tex": "Let $k$ be a field. We denote $\\text{Vect}_k$ the category of\n$k$-vector spaces. For a $k$-vector space $V$ we denote\n$V^\\vee$ the $k$-linear dual of $V$, i.e., $V^\\vee = \\Hom_k(V, k)$."
+        },
+        {
+          "source_line": 65,
+          "tex": "Let $X$ be a scheme. We denote $D_{perf}(\\mathcal{O}_X)$ the full\nsubcategory of $D(\\mathcal{O}_X)$ consisting of perfect complexes\n(Cohomology, Section \\ref{cohomology-section-perfect}).\nIf $X$ is Noetherian then\n$D_{perf}(\\mathcal{O}_X) \\subset D^b_{\\textit{Coh}}(\\mathcal{O}_X)$, see\nDerived Categories of Schemes, Lemma \\ref{perfect-lemma-perfect-on-noetherian}.\nIf $X$ is Noetherian and regular, then\n$D_{perf}(\\mathcal{O}_X) = D^b_{\\textit{Coh}}(\\mathcal{O}_X)$, see\nDerived Categories of Schemes, Lemma \\ref{perfect-lemma-perfect-on-regular}."
+        },
+        {
+          "source_line": 76,
+          "tex": "Let $k$ be a field. Let $X$ and $Y$ be schemes over $k$. In this\nsituation we will write $X \\times Y$ instead of $X \\times_{\\Spec(k)} Y$."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 104
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 366
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 429
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

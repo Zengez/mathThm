@@ -49,5 +49,7 @@
     19,
     20
   ],
-  "no_semantic_or_proof_approval_in_this_batch": true
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [],
+  "processing_sections_format": "inline-v1"
 }

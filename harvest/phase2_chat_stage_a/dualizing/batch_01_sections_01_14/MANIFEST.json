@@ -121,5 +121,78 @@
     "candidate.stacks.2e0987807cf1968fc68b6f94",
     "candidate.stacks.5aab8464f96e2c3c2a62e8f5",
     "candidate.stacks.eb84d1e094c9472871645483"
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "candidates",
+      "source_line": 17
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 98
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 177
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 400
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 464
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 679
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 785
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1032
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1219
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1547
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1696
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1936
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2198
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2438
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
