@@ -1,0 +1,37 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "descent.tex",
+  "sections_ordinal": [
+    26,
+    30
+  ],
+  "first_source_line": 6621,
+  "last_source_line": 6942,
+  "source_section_starts": [
+    6621,
+    6758,
+    6804,
+    6895,
+    6918
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 10,
+  "candidate_ids": [
+    "candidate.stacks.4effb000a66329c8006f4d3f",
+    "candidate.stacks.4ec9ee50f1153d59048f1f2f",
+    "candidate.stacks.0ae0934521f81ef0ad738e85",
+    "candidate.stacks.64cf438fbaddd300aa2f9d5d",
+    "candidate.stacks.6ceee8337d4773bf72957757",
+    "candidate.stacks.c33ca95a1c4783d60181794b",
+    "candidate.stacks.8bb81d697148942e224152f5",
+    "candidate.stacks.4cd2c727f85c69efd7862aa6",
+    "candidate.stacks.7e16513051aea7e819d67f23",
+    "candidate.stacks.c7e3b78166c1f2bd36ba9ff6"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/descent/batch_06_sections_26_30/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0
+}
