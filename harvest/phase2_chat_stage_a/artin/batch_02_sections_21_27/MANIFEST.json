@@ -63,5 +63,49 @@
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     26
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 3214
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 3657
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 3897
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 4319
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 4540
+    },
+    {
+      "section": 26,
+      "kind": "context_only",
+      "source_line": 4783,
+      "snippets": [
+        {
+          "source_line": 4786,
+          "tex": "\\noindent\nLet $S$ be a locally Noetherian scheme. Let\n$(\\textit{Noetherian}/S)_\\etale \\subset (\\Sch/S)_\\etale$\ndenote the site studied in Section \\ref{section-noetherian}.\nLet $F : (\\textit{Noetherian}/S)_\\etale^{opp} \\to \\textit{Sets}$\nbe a functor, i.e., $F$ is a presheaf on $(\\textit{Noetherian}/S)_\\etale$.\nIn this setting all the axioms [-1],  [0], [1], [2], [3], [4], [5] of\nSection \\ref{section-axioms-functors} make sense. We will review them\none by one and make sure the reader knows exactly what we mean."
+        }
+      ]
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 4909
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

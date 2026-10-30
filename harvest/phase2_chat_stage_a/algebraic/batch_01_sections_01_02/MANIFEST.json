@@ -28,5 +28,34 @@
   "source_sections_without_active_candidates": [
     1,
     2
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "snippets": [
+        {
+          "source_line": 20,
+          "tex": "\\noindent\nThis is where we define algebraic stacks and make some very elementary\nobservations. The general philosophy will be to have no separation\nconditions whatsoever and add those conditions necessary to make lemmas,\npropositions, theorems true/provable. Thus the notions discussed here\ndiffer slightly from those in other places in the literature, e.g.,\n\\cite{LM-B}."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 35,
+      "snippets": [
+        {
+          "source_line": 38,
+          "tex": "\\noindent\nThe conventions we use in this chapter are the same as those in the\nchapter on algebraic spaces. For convenience we repeat them here."
+        },
+        {
+          "source_line": 57,
+          "tex": "If $U, T$ are schemes over $S$, then we denote\n$U(T)$ for the set of $T$-valued points {\\it over} $S$.\nIn a formula: $U(T) = \\Mor_S(T, U)$."
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

@@ -96,5 +96,53 @@
     "candidate.stacks.4f8a5f3b5350187abeca991f",
     "candidate.stacks.2c6f9668e763d0f624e01691"
   ],
-  "stage_a_mathematical_analysis_pending": false
+  "stage_a_mathematical_analysis_pending": false,
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "candidates",
+      "source_line": 17
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 71
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 103
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 815
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 1422
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 2009
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 2149
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 2437
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 2726
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

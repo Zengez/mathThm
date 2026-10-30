@@ -35,5 +35,18 @@
   "preliminary_source_holds": [
     "candidate.stacks.3d069202261f21a16717ed12",
     "candidate.stacks.1f06bd1e300123cfb05e03a8"
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 8726
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 8996
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

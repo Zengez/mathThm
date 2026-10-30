@@ -84,5 +84,70 @@
     2,
     10,
     12
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 19,
+      "snippets": [
+        {
+          "source_line": 22,
+          "tex": "\\noindent\nIn this chapter we use the material from the preceding sections to\ngive criteria under which a presheaf of sets on the category of schemes\nis an algebraic space. Some of this material comes from the work\nof Artin, see \\cite{ArtinI}, \\cite{ArtinII},\n\\cite{Artin-Theorem-Representability},\n\\cite{Artin-Construction-Techniques},\n\\cite{Artin-Algebraic-Spaces},\n\\cite{Artin-Algebraic-Approximation},\n\\cite{Artin-Implicit-Function},\nand \\cite{ArtinVersal}.\nHowever, our method will be to use as much as possible arguments\nsimilar to those of the paper by Keel and Mori, see\n\\cite{K-M}."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 37,
+      "snippets": [
+        {
+          "source_line": 46,
+          "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 55
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 372
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 620
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 864
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 980
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1111
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1241
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1658
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

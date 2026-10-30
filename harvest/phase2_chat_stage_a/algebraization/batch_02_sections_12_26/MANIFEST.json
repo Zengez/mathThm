@@ -118,5 +118,83 @@
     "candidate.stacks.63e1f842cd529d7576086812",
     "candidate.stacks.4215d0871d31fa058fef1fe1"
   ],
-  "stage_a_mathematical_analysis_pending": false
+  "stage_a_mathematical_analysis_pending": false,
+  "processing_sections": [
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 3659
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 4192
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 4356
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 4512
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 4973
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 5449
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 5582
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 5898
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 6224
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 6837
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 7119
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 7702
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 7864
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 7950
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 8473
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

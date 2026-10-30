@@ -110,5 +110,105 @@
     5,
     7,
     11
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 3,
+      "kind": "context_only",
+      "source_line": 77,
+      "snippets": [
+        {
+          "source_line": 80,
+          "tex": "\\noindent\nWe use the letters $S, T, U, V, X, Y$ to indicate schemes.\nWe use the letters $\\mathcal{X}, \\mathcal{Y}, \\mathcal{Z}$ to indicate\ncategories (fibred, fibred in groupoids, stacks, ...)\nover $(\\Sch/S)_{fppf}$. We use small case letters\n$f$, $g$ for functors such as $f : \\mathcal{X} \\to \\mathcal{Y}$\nover $(\\Sch/S)_{fppf}$.\nWe use capital $F$, $G$, $H$ for algebraic spaces over $S$, and more\ngenerally for presheaves of sets on $(\\Sch/S)_{fppf}$.\n(In future chapters we will revert to using also $X$, $Y$, etc\nfor algebraic spaces.)"
+        }
+      ]
+    },
+    {
+      "section": 5,
+      "kind": "context_only",
+      "source_line": 168,
+      "snippets": [
+        {
+          "source_line": 171,
+          "tex": "\\noindent\nLet $U \\in \\Ob((\\Sch/S)_{fppf})$, and let $\\mathcal{X}$ be a\ncategory fibred in groupoids over $(\\Sch/S)_{fppf}$.\nWe will frequently use the $2$-Yoneda lemma, see\nCategories, Lemma \\ref{categories-lemma-yoneda-2category}.\nTechnically it says that there is an equivalence of categories\n$$\n\\Mor_{\\textit{Cat}/(\\Sch/S)_{fppf}}(\n(\\Sch/U)_{fppf}, \\mathcal{X})\n\\longrightarrow\n\\mathcal{X}_U, \\quad\nf \\longmapsto f(U/U).\n$$\nIt says that $1$-morphisms $(\\Sch/U)_{fppf} \\to \\mathcal{X}$\ncorrespond to objects $x$ of the fibre category $\\mathcal{X}_U$.\nNamely, given a $1$-morphism $f : (\\Sch/U)_{fppf} \\to \\mathcal{X}$\nwe obtain the object $x = f(U/U) \\in \\Ob(\\mathcal{X}_U)$.\nConversely, given a choice of pullbacks for $\\mathcal{X}$ as in\nCategories,\nDefinition \\ref{categories-definition-pullback-functor-fibred-category},\nand an object $x$ of $\\mathcal{X}_U$, we obtain a functor\n$(\\Sch/U)_{fppf} \\to \\mathcal{X}$ defined by the rule\n$$\n(\\varphi : V \\to U) \\longmapsto \\varphi^*x\n$$\non objects. By abuse of notation we use\n$x : (\\Sch/U)_{fppf} \\to \\mathcal{X}$\nto indicate this functor. It indeed has the property that $x(U/U) = x$\nand moreover, given any other functor $f$ with $f(U/U) = x$ there exists\na unique $2$-isomorphism $x \\to f$. In other words the functor $x$\nis well determined by the object $x$ up to unique $2$-isomorphism."
+        },
+        {
+          "source_line": 203,
+          "tex": "We will use this without further mention in the following."
+        }
+      ]
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 210
+    },
+    {
+      "section": 7,
+      "kind": "context_only",
+      "source_line": 362,
+      "snippets": [
+        {
+          "source_line": 410,
+          "tex": "We will use the notation $\\mathcal{S}_F$ without further mention in the\nfollowing."
+        }
+      ]
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 417
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 496
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 837
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1278
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 1454
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 1606
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 1774
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 2016
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 2346
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 2464
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 2567
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

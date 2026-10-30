@@ -92,5 +92,68 @@
     "candidate.stacks.580aaf37733c2157a6f63b8f",
     "candidate.stacks.6cf20bf2d37b084d5efade0f"
   ],
-  "notes": "Large localized-Chern context; flags intentionally conservative. Counts are Stage A annotated source records, not final independently equivalent standalone theorems."
+  "notes": "Large localized-Chern context; flags intentionally conservative. Counts are Stage A annotated source records, not final independently equivalent standalone theorems.",
+  "processing_sections": [
+    {
+      "section": 39,
+      "kind": "candidates"
+    },
+    {
+      "section": 40,
+      "kind": "candidates"
+    },
+    {
+      "section": 41,
+      "kind": "candidates"
+    },
+    {
+      "section": 42,
+      "kind": "candidates"
+    },
+    {
+      "section": 43,
+      "kind": "candidates"
+    },
+    {
+      "section": 44,
+      "kind": "candidates"
+    },
+    {
+      "section": 45,
+      "kind": "candidates"
+    },
+    {
+      "section": 46,
+      "kind": "candidates"
+    },
+    {
+      "section": 47,
+      "kind": "candidates"
+    },
+    {
+      "section": 48,
+      "kind": "candidates"
+    },
+    {
+      "section": 49,
+      "kind": "candidates"
+    },
+    {
+      "section": 50,
+      "kind": "candidates"
+    },
+    {
+      "section": 51,
+      "kind": "candidates"
+    },
+    {
+      "section": 52,
+      "kind": "candidates"
+    },
+    {
+      "section": 53,
+      "kind": "candidates"
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
