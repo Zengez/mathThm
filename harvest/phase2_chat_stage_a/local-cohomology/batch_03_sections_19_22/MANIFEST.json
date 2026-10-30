@@ -1,0 +1,47 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "15-section-experiment-30",
+  "chapter": "local-cohomology.tex",
+  "sections_ordinal": [
+    19,
+    22
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    3957,
+    4074,
+    4269,
+    4723
+  ],
+  "first_source_line": 3957,
+  "last_source_line": 5340,
+  "complete_sections": true,
+  "stage_a_candidate_count": 13,
+  "candidate_ids": [
+    "candidate.stacks.576307dc630c3bf042cd683d",
+    "candidate.stacks.d405ab4d2914a76940d60017",
+    "candidate.stacks.0dcc3359001e9534310b102c",
+    "candidate.stacks.760dafce6c75fd7eef4370c1",
+    "candidate.stacks.8b3c491109e62d44940a1042",
+    "candidate.stacks.c4a8e88400b16e15987f73b0",
+    "candidate.stacks.3490ba4ad34982ed1dc06ef1",
+    "candidate.stacks.4eb21b9e49b955551e826602",
+    "candidate.stacks.722c710933b118508dec9acc",
+    "candidate.stacks.d493a131db27ebf4e55f464c",
+    "candidate.stacks.b13b3834bcd78c42968e13dc",
+    "candidate.stacks.cb80245adad159802779f76f",
+    "candidate.stacks.0f6e160727244740affade1e"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/local-cohomology/batch_03_sections_19_22/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.c4a8e88400b16e15987f73b0",
+    "candidate.stacks.3490ba4ad34982ed1dc06ef1",
+    "candidate.stacks.b13b3834bcd78c42968e13dc",
+    "candidate.stacks.cb80245adad159802779f76f",
+    "candidate.stacks.0f6e160727244740affade1e"
+  ]
+}
