@@ -184,5 +184,134 @@
     53,
     54,
     55
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 7116
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 7265
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 7464
+    },
+    {
+      "section": 34,
+      "kind": "candidates",
+      "source_line": 7583
+    },
+    {
+      "section": 35,
+      "kind": "candidates",
+      "source_line": 7840
+    },
+    {
+      "section": 36,
+      "kind": "candidates",
+      "source_line": 7986
+    },
+    {
+      "section": 37,
+      "kind": "candidates",
+      "source_line": 8531
+    },
+    {
+      "section": 38,
+      "kind": "candidates",
+      "source_line": 8687
+    },
+    {
+      "section": 39,
+      "kind": "candidates",
+      "source_line": 8854
+    },
+    {
+      "section": 40,
+      "kind": "candidates",
+      "source_line": 9066
+    },
+    {
+      "section": 41,
+      "kind": "candidates",
+      "source_line": 9372
+    },
+    {
+      "section": 42,
+      "kind": "candidates",
+      "source_line": 9484
+    },
+    {
+      "section": 43,
+      "kind": "candidates",
+      "source_line": 10131
+    },
+    {
+      "section": 44,
+      "kind": "candidates",
+      "source_line": 10423
+    },
+    {
+      "section": 45,
+      "kind": "candidates",
+      "source_line": 10731
+    },
+    {
+      "section": 46,
+      "kind": "candidates",
+      "source_line": 10894
+    },
+    {
+      "section": 47,
+      "kind": "candidates",
+      "source_line": 11011
+    },
+    {
+      "section": 48,
+      "kind": "candidates",
+      "source_line": 11126
+    },
+    {
+      "section": 49,
+      "kind": "candidates",
+      "source_line": 11497
+    },
+    {
+      "section": 51,
+      "kind": "candidates",
+      "source_line": 11950
+    },
+    {
+      "section": 52,
+      "kind": "context_only",
+      "source_line": 12261,
+      "snippets": [
+        {
+          "source_line": 12270,
+          "tex": "\\begin{definition}\n\\label{definition-relatively-perfect}\nLet $S$ be a scheme. Let $f : X \\to Y$ be a morphism of algebraic spaces\nover $S$ which is flat and locally of finite presentation.\nAn object $E$ of $D(\\mathcal{O}_X)$ is {\\it perfect relative to $Y$} or\n{\\it $Y$-perfect} if $E$ is pseudo-coherent\n(Cohomology on Sites, Definition\n\\ref{sites-cohomology-definition-pseudo-coherent}) and\n$E$ locally has finite tor dimension as an object of\n$D(f^{-1}\\mathcal{O}_Y)$\n(Cohomology on Sites, Definition\n\\ref{sites-cohomology-definition-tor-amplitude}).\n\\end{definition}"
+        },
+        {
+          "source_line": 12420,
+          "tex": "\\begin{situation}\n\\label{situation-relative-descent}\nLet $S$ be a scheme.\nLet $Y = \\lim_{i \\in I} Y_i$ be a limit of a directed system of\nalgebraic spaces over $S$\nwith affine transition morphisms $g_{i'i} : Y_{i'} \\to Y_i$.\nWe assume that $Y_i$ is quasi-compact and quasi-separated for all $i \\in I$.\nWe denote $g_i : Y \\to Y_i$ the projection. We fix an element $0 \\in I$\nand a flat morphism of finite presentation $X_0 \\to Y_0$.\nWe set $X_i = Y_i \\times_{Y_0} X_0$ and $X = Y \\times_{Y_0} X_0$\nand we denote the transition morphisms $f_{i'i} : X_{i'} \\to X_i$\nand $f_i : X \\to X_i$ the projections.\n\\end{situation}"
+        }
+      ]
+    },
+    {
+      "section": 55,
+      "kind": "context_only",
+      "source_line": 13269,
+      "snippets": [
+        {
+          "source_line": 13296,
+          "tex": "\\begin{definition}\n\\label{definition-nodal-family}\nLet $S$ be a scheme.\nLet $f : X \\to Y$ be a morphism of algebraic spaces over $S$.\nWe say $f$ is {\\it at-worst-nodal of relative dimension $1$}\nif the equivalent conditions of\nMorphisms of Spaces, Lemma \\ref{spaces-morphisms-lemma-local-source-target}\nhold with $\\mathcal{P} =$``at-worst-nodal of relative dimension $1$''.\n\\end{definition}"
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

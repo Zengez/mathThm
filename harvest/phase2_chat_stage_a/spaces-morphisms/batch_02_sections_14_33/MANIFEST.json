@@ -165,5 +165,114 @@
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     18
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2484
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2786
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 2976
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3197
+    },
+    {
+      "section": 18,
+      "kind": "context_only",
+      "source_line": 3392,
+      "snippets": [
+        {
+          "source_line": 3402,
+          "tex": "\\begin{definition}\n\\label{definition-dominant}\nLet $S$ be a scheme. A morphism $f : X \\to Y$ of algebraic spaces over $S$ is\ncalled {\\it dominant} if the image of $|f| : |X| \\to |Y|$ is dense in $|Y|$.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 3413
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 3657
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 3960
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 4085
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 4333
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 4533
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 4793
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 5013
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 5066
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 5405
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 5691
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 5751
+    },
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 6104
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 6346
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 6475
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

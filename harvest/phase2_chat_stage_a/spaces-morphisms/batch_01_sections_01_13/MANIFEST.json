@@ -108,5 +108,80 @@
     1,
     2,
     3
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 34,
+      "snippets": [
+        {
+          "source_line": 43,
+          "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "context_only",
+      "source_line": 53,
+      "snippets": [
+        {
+          "source_line": 139,
+          "tex": "We will use these facts below, and whenever we do we will simply refer\nto this section as a reference."
+        }
+      ]
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 157
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 592
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 694
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 891
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 986
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1290
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1630
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1829
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1971
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2202
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

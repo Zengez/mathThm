@@ -28,5 +28,19 @@
   "source_sections_without_active_candidates": [
     56,
     57
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 56,
+      "kind": "context_only",
+      "source_line": 13408,
+      "snippets": [
+        {
+          "source_line": 13415,
+          "tex": "\\begin{situation}\n\\label{situation-descend-resolution-property}\nLet $S$ be a scheme. Let $X$ be a quasi-compact and quasi-separated\nalgebraic space over $S$. Let $V \\to X$ be a surjective \\'etale\nmorphism where $V$ is an affine scheme (such a thing exists by\nProperties of Spaces, Lemma\n\\ref{spaces-properties-lemma-quasi-compact-affine-cover}).\nChoose a commutative diagram\n$$\n\\xymatrix{\nV \\ar[rd]_\\varphi \\ar[rr]_j & & Y \\ar[ld]^\\pi \\\\\n& X\n}\n$$\nwhere $j$ is an open immersion and $\\pi$ is a finite morphism\nof algebraic spaces (such a diagram exists by\nLemma \\ref{lemma-quasi-finite-separated-pass-through-finite}).\nLet $\\mathcal{I} \\subset \\mathcal{O}_Y$ be a finite type\nquasi-coherent sheaf of ideals on $Y$ with\n$V(\\mathcal{I}) = Y \\setminus j(V)$ (such a sheaf of ideals exists\nby Limits of Spaces, Lemma\n\\ref{spaces-limits-lemma-quasi-coherent-finite-type-ideals}).\n\\end{situation}"
+        }
+      ]
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

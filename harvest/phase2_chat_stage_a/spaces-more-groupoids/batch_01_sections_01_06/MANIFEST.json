@@ -40,5 +40,18 @@
     2,
     3,
     6
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 111
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 204
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

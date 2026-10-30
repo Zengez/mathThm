@@ -234,5 +234,128 @@
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     10
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 621
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 838
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1306
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1501
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2258
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2308
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2419
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2700
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2933
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 3483
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3678
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3983
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 4476
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 5088
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 5268
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 5524
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 5610
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 6025
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 6115
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 6185
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 6476
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 6748
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 6873
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 7062
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

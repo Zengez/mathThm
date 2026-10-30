@@ -99,5 +99,38 @@
     7,
     8,
     13
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 624
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1023
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1175
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1293
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2038
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2171
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
