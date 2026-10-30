@@ -96,5 +96,111 @@
     23,
     24,
     29
-  ]
+  ],
+  "processing_sections": [
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 815
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 983
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 1187
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 1457
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 1701
+    },
+    {
+      "section": 16,
+      "kind": "context_only",
+      "source_line": 1763,
+      "snippets": [
+        {
+          "source_line": 1797,
+          "tex": "\\begin{definition}\n\\label{definition-stabilizer-groupoid}\nLet $B \\to S$ as in Section \\ref{section-notation}.\nLet $(U, R, s, t, c)$ be a groupoid in algebraic spaces over $B$.\nThe group algebraic space $j^{-1}(\\Delta_{U/B}) \\to U$ is called the\n{\\it stabilizer of the groupoid in algebraic spaces $(U, R, s, t, c)$}.\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 1834
+    },
+    {
+      "section": 18,
+      "kind": "context_only",
+      "source_line": 1916,
+      "snippets": [
+        {
+          "source_line": 1922,
+          "tex": "\\begin{definition}\n\\label{definition-invariant-open}\nLet $B \\to S$ as in Section \\ref{section-notation}.\nLet $(U, R, s, t, c)$ be a groupoid in algebraic spaces over the base $B$.\n\\begin{enumerate}\n\\item We say an open subspace $W \\subset U$ is {\\it $R$-invariant} if\n$t(s^{-1}(W)) \\subset W$.\n\\item A locally closed subspace $Z \\subset U$ is called {\\it $R$-invariant}\nif $t^{-1}(Z) = s^{-1}(Z)$ as locally closed subspaces of $R$.\n\\item A monomorphism of algebraic spaces $T \\to U$ is {\\it $R$-invariant}\nif $T \\times_{U, t} R = R \\times_{s, U} T$ as algebraic spaces over $R$.\n\\end{enumerate}\n\\end{definition}"
+        }
+      ]
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 1999
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 2247
+    },
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 2423
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 2553
+    },
+    {
+      "section": 23,
+      "kind": "context_only",
+      "source_line": 2657,
+      "snippets": [
+        {
+          "source_line": 2660,
+          "tex": "\\noindent\nOn a groupoid we have the composition, which leads to a cocycle\ncondition for the canonical $2$-morphism of the lemma above.\nTo give the precise formulation we will use the notation introduced in\nCategories, Sections \\ref{categories-section-formal-cat-cat} and\n\\ref{categories-section-2-categories}."
+        }
+      ]
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 2954
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 3196
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 3296
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 3374
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
