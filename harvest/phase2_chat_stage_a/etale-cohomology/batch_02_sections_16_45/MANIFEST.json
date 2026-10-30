@@ -115,11 +115,7 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.db32525be58c19cf33d655a3",
     "candidate.stacks.e59f8b4abf5cdd551ab01ca2",
-    "candidate.stacks.9c80a18a744ddff8b1314993",
-    "candidate.stacks.76a0027e6944ebc5f8058885",
-    "candidate.stacks.9e54ef6eec6715b829398afe",
     "candidate.stacks.edca2d01a4de0585e44066ee",
     "candidate.stacks.8164d0c0f05389a08598232d",
     "candidate.stacks.141accea6637659c0beea3c2",
