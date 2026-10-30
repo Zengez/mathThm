@@ -51,5 +51,34 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "ChatGPT-authored Stage A with candidate-specific logical corrections; content has not been independently validated. Consult original pinned source before independent Stage B."
+  "notes": "ChatGPT-authored Stage A with candidate-specific logical corrections; content has not been independently validated. Consult original pinned source before independent Stage B.",
+  "processing_sections": [
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 31,
+      "snippets": [
+        {
+          "source_line": 34,
+          "tex": "\\noindent\nIn this section we explain a general procedure for producing the\nsites we will be working with. Suppose we want to study sheaves\nover schemes with respect to some topology $\\tau$. In order to\nget a site, as in Sites, Definition \\ref{sites-definition-site},\nof schemes with that topology we have to do some work. Namely,\nwe cannot simply say ``consider all schemes with the Zariski topology''\nsince that would give a ``big'' category. Instead, in each section of\nthis chapter we will proceed as follows:\n\\begin{enumerate}\n\\item We define a class $\\text{Cov}_\\tau$ of coverings of schemes\nsatisfying the axioms of Sites, Definition \\ref{sites-definition-site}.\nIt will always be the case that a Zariski open covering of\na scheme is a covering for $\\tau$.\n\\item We single out a notion of standard\n$\\tau$-covering within the category of affine schemes.\n\\item We define what is an ``absolute'' big $\\tau$-site $\\Sch_\\tau$.\nThese are the sites one gets by appropriately choosing a set of schemes\nand a set of coverings.\n\\item For any object $S$ of $\\Sch_\\tau$\nwe define the big $\\tau$-site $(\\Sch/S)_\\tau$ and for suitable\n$\\tau$ the small\\footnote{The words big and\nsmall here do not relate to bigness/smallness of the corresponding\ncategories.} $\\tau$-site $S_\\tau$.\n\\item In addition there is a site $(\\textit{Aff}/S)_\\tau$ using the\nnotion of standard $\\tau$-covering of affines\\footnote{In the case\nof the ph topology we deviate very slightly from this approach, see\nDefinition \\ref{definition-big-small-ph} and the surrounding discussion.}\nwhose category of sheaves\nis equivalent to the category of sheaves on $(\\Sch/S)_\\tau$.\n\\end{enumerate}\nThe above is a little clumsy in that we do not end up with a canonical\nchoice for the big $\\tau$-site of a scheme, or even the small\n$\\tau$-site of a scheme. If you are willing to ignore set theoretic\ndifficulties, then you can work with classes and end up with\ncanonical big and small sites..."
+        }
+      ]
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 77
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 716
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 1382
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }

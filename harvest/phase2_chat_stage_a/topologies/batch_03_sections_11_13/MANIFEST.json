@@ -28,5 +28,18 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "notes": "Final 3 remaining chapter sections; 5 original source candidates, including 2 with expanded source lemma dependencies; Stage B independent validation not performed."
+  "notes": "Final 3 remaining chapter sections; 5 original source candidates, including 2 with expanded source lemma dependencies; Stage B independent validation not performed.",
+  "processing_sections": [
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 3985
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 4088
+    }
+  ],
+  "processing_sections_format": "inline-v1"
 }
