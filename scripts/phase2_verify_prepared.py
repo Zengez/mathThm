@@ -11,7 +11,6 @@ import json
 from pathlib import Path
 from scripts.phase2_prepare_chapters import DEFAULT_OUT, sha256
 from scripts.stacks_context_recon import REV
-from scripts.harvest_pipeline import read_jsonl
 from scripts import stacks_section_walk_pilot as walk
 
 
@@ -38,12 +37,16 @@ def verify(root=DEFAULT_OUT, source_root=None):
             raise ValueError(f"Invalid chapter manifest: {chapter}")
         if source_root is not None and sha256(Path(source_root) / chapter) != manifest["source_sha256"]:
             raise ValueError(f"Source changed: {chapter}")
-        for name, field in [("SECTIONS.jsonl", "section_inputs_sha256"),
-                            ("CANDIDATES.jsonl", "candidate_inputs_sha256")]:
-            if sha256(folder / name) != manifest[field]:
+        # Each file is read exactly once for both integrity and parsing.
+        inputs = {}
+        for name, field in (("SECTIONS.jsonl", "section_inputs_sha256"),
+                            ("CANDIDATES.jsonl", "candidate_inputs_sha256")):
+            payload = (folder / name).read_bytes()
+            if hashlib.sha256(payload).hexdigest() != manifest[field]:
                 raise ValueError(f"Prepared input changed: {chapter}/{name}")
-        sections = read_jsonl(folder / "SECTIONS.jsonl")
-        candidates = read_jsonl(folder / "CANDIDATES.jsonl")
+            inputs[name] = [json.loads(line) for line in payload.splitlines() if line.strip()]
+        sections = inputs["SECTIONS.jsonl"]
+        candidates = inputs["CANDIDATES.jsonl"]
         indexed = sections_by_file[chapter]
         if len(sections) != manifest["section_count"] or len(sections) != len(indexed):
             raise ValueError(f"Not all sections represented: {chapter}")

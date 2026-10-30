@@ -12,7 +12,6 @@ on:
       - harvest/phase2_calibration_2026-10-29/**
       - harvest/phase2_optimized_2026-10-29/**
       - harvest/phase2_prepared/**
-      - tests/test_phase2_prepare_chapters.py
   workflow_dispatch:
 permissions:
   contents: read

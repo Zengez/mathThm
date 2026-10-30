@@ -9,7 +9,6 @@ than adding skip/status lookups to normal section processing.
 from __future__ import annotations
 
 import argparse
-from collections import Counter
 import hashlib
 import json
 from pathlib import Path
@@ -231,10 +230,6 @@ def update_index(out):
         entry = json.loads(file.read_text(encoding="utf-8"))
         if entry["source_revision"] != REV:
             raise ValueError("Mixed Stacks source revisions in prepared index")
-        for name, hashfield in (("SECTIONS.jsonl", "section_inputs_sha256"),
-                                ("CANDIDATES.jsonl", "candidate_inputs_sha256")):
-            if sha256(file.parent / name) != entry[hashfield]:
-                raise ValueError(f"Prepared chapter file hash mismatch: {file.parent / name}")
         chapters.append({
             "source_file": entry["source_file"],
             "chapter_number": entry["chapter_number"],
@@ -269,6 +264,25 @@ def main():
     args = parser.parse_args()
     if args.max_chapters < 0:
         parser.error("--max-chapters cannot be negative")
+    # A complete committed preparation needs no raw Pass 1/2 reread when
+    # --only-missing is requested. This is a one-time boundary decision.
+    if args.only_missing:
+        index_path = args.output_dir / "INDEX.json"
+        if index_path.is_file():
+            index = json.loads(index_path.read_text(encoding="utf-8"))
+            if index.get("source_revision") != REV:
+                raise ValueError("Prepared index uses the wrong pinned source")
+            if index.get("prepared_chapters") == 115 and len(index.get("chapters", [])) == 115:
+                chapters = [item["source_file"] for item in index["chapters"]]
+                names = selected(chapters, args.chapters, True, args.output_dir, args.max_chapters)
+                if not names:
+                    if not args.list_only:
+                        print("NO-OP: all requested chapters already prepared")
+                    return
+                raise ValueError(
+                    "Previously completed chapter packets are missing; restore them from Git, "
+                    "do not regenerate reviewed candidates from the original intake"
+                )
     grouped, byfile, chapters = chapter_inventory()
     names = selected(chapters, args.chapters, args.only_missing, args.output_dir, args.max_chapters)
     if args.list_only:

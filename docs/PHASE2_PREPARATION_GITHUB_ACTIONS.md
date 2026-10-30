@@ -32,9 +32,8 @@ removed **directly** from five chapter packet files, 9,020 Stage A inputs remain
 All sections are still present to maintain mathematical context. Held or
 unapproved cases remain pending, not silently discarded.
 
-**The chapter files are retained permanently in Git commits on the isolated
-preparation branch.** Action artifacts are convenient additional ZIP snapshots,
-but expire after 30 days; they are not the durable store.
+**The chapter files are retained in Git commits on the isolated preparation
+branch.** No additional artifact ZIP or status-file layer is generated.
 
 ## GitHub Actions
 
@@ -43,16 +42,17 @@ workflow dispatch once the workflow is registered on the default branch:
 
 - **chapters** — `all` or comma-separated names such as `varieties.tex,flat.tex`
 - **max_chapters** — maximum unprepared chapters in this invocation (0 = all)
-- **persist** — commit/push each complete chapter immediately
+- **persist** — commit/push the completed batch once after verification
 
 For safety, commits are permitted *only* to
 `feature/phase2-chapter-preparation` or `data/phase2-prepared`.
 The workflow never writes to `main` or `codex/phase2-validation`.
-A push changing preparation code runs one bounded verification/preparation job. Generated chapter commits do not retrigger it. The first completed test prepared Varieties; a subsequent full run successfully prepared all 115 chapters (9,675 candidate inputs).
+A push changing preparation code runs one bounded verification/preparation job. A complete packet set short-circuits generation without reopening historical Pass 1/2 data. The first completed test prepared Varieties; a subsequent full run successfully prepared all 115 chapters (9,675 candidate inputs).
 
 It checks the pinned source, runs the regression suite once, produces only
 missing chapters in a single invocation, verifies hashes/coverage once, and
-commits the batch once. No extra artifact copy is uploaded.
+commits the batch once. Packet verification reads each JSONL input only once
+for both SHA-256 checking and parsing. No extra artifact copy is uploaded.
 
 A separate workflow, `.github/workflows/phase2-review-integrity.yml`,
 provides read-only tests of the authoritative mathematical review registry and

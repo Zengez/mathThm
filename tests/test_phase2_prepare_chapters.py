@@ -1,9 +1,11 @@
 """Tests for proof-free, deterministic Phase 2 chapter preparation."""
 import json
+import sys
+from unittest.mock import patch
 import tempfile
 import unittest
 from pathlib import Path
-from scripts.phase2_prepare_chapters import proof_free_lines, selected, update_index
+from scripts.phase2_prepare_chapters import proof_free_lines, selected, update_index, main
 
 
 class ChapterPreparationTests(unittest.TestCase):
@@ -56,6 +58,29 @@ class ChapterPreparationTests(unittest.TestCase):
                 selected(chapters, "nonexistent.tex", True, out, 0)
             with self.assertRaises(ValueError):
                 selected(chapters, "algebra.tex,algebra.tex", False, out, 0)
+
+    def test_complete_preparation_noop_does_not_load_raw_corpus(self):
+        with tempfile.TemporaryDirectory() as temp:
+            out = Path(temp)
+            chapters = [f"chapter{i:03}.tex" for i in range(115)]
+            (out / "INDEX.json").write_text(json.dumps({
+                "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+                "prepared_chapters": 115,
+                "chapters": [{"source_file": name} for name in chapters],
+            }))
+            for name in chapters:
+                folder = out / Path(name).stem
+                folder.mkdir()
+                (folder / "MANIFEST.json").write_text("{}")
+            argv = ["phase2_prepare_chapters", "--only-missing", "--output-dir", str(out)]
+            with patch.object(sys, "argv", argv), patch(
+                    "scripts.phase2_prepare_chapters.chapter_inventory",
+                    side_effect=AssertionError("Must not reload 9,675 candidates")):
+                main()
+            (out / "chapter001" / "MANIFEST.json").unlink()
+            with patch.object(sys, "argv", argv), self.assertRaisesRegex(
+                    ValueError, "restore them from Git"):
+                main()
 
     def test_index_checks_content_hash(self):
         with tempfile.TemporaryDirectory() as tmp:
