@@ -52,26 +52,13 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.06df2864fbca7716b903eb3c",
     "candidate.stacks.ab234d55b8dd6f5d6fc9acce",
     "candidate.stacks.760e4a980536e099685ab2d0",
     "candidate.stacks.8346e5268ba2eb6bb56a095a",
+    "candidate.stacks.4b720234acdd93392b5b5cfa",
     "candidate.stacks.6ef2af70b580bc45743cd813",
-    "candidate.stacks.afc9060a6c7d5cf07d625e7e",
-    "candidate.stacks.4576f446be15d4aa2a60d880",
     "candidate.stacks.1627f38d1c03bf18152f710a",
-    "candidate.stacks.e4ecd5546613f8813584aa94",
-    "candidate.stacks.06f2752d6a53927a9a880cd8",
-    "candidate.stacks.67f1533c5c60f5ebddc9bfbb",
-    "candidate.stacks.3dac17da7ab2dbb2a75ec1fa",
-    "candidate.stacks.298671eec9e876b6ee313665",
-    "candidate.stacks.3446f7536f5eb0a1b0d6f089",
-    "candidate.stacks.27d3bf427e19582eef2c82e2",
-    "candidate.stacks.97709280b11890c9f8673dc7",
-    "candidate.stacks.f3fc7bb6de32ec20651b480a",
-    "candidate.stacks.7c9f9f02c22b7e66d43ec22d",
-    "candidate.stacks.e9e7ffe6f661abc6b3ab15f2",
-    "candidate.stacks.62514d21a1833f8f87afd6d4"
+    "candidate.stacks.298671eec9e876b6ee313665"
   ],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
