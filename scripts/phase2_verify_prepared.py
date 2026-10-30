@@ -86,8 +86,8 @@ def verify(root=DEFAULT_OUT, source_root=None):
         total += len(candidates)
     if total != index["prepared_candidates"]:
         raise ValueError("Index and verified candidate totals disagree")
-    if len(index["chapters"]) == 115 and total != 9675:
-        raise ValueError("All chapter inputs do not span the active population")
+    if total > index["active_population_expected"]:
+        raise ValueError("Prepared inputs exceed the canonical active population")
     return {"prepared_chapters": len(index["chapters"]),
             "verified_distinct_candidate_inputs": total, "mathematical_approvals": 0}
 

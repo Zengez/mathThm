@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Mechanical, proof-free, per-chapter Phase 2 review inputs.
+"""Mechanical, proof-free, per-chapter Stage A review inputs.
 
 This prepares source/context evidence, never mathematical equivalence, review
-decisions, or Phase 3 eligibility. Outputs are stable, source-pinned snapshots;
-the validation agent must re-check current approval state before reviewing.
+decisions, or Phase 3 eligibility. After a completed Codex review batch,
+remove approved candidates from the existing prepared files once rather
+than adding skip/status lookups to normal section processing.
 """
 from __future__ import annotations
 
@@ -243,8 +244,6 @@ def update_index(out):
         })
     chapters.sort(key=lambda r: (r["chapter_number"], r["source_file"]))
     total = sum(r["candidate_count"] for r in chapters)
-    if len(chapters) == 115 and total != 9675:
-        raise ValueError(f"Complete preparation has wrong candidate population: {total}")
     atomic_text(out / "INDEX.json", json.dumps({
         "schema": "maththm.phase2.chapter-preparation-index.v1",
         "source_revision": REV,

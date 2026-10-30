@@ -1,7 +1,7 @@
 # Phase 2 — durable GitHub Actions chapter preparation
 
 The preparation pipeline produces **source-pinned, proof-free review inputs**
-for the 9,675 active canonical Stacks candidates. It is **not** mathematical
+for the remaining active canonical Stacks candidates. It is **not** mathematical
 reconstruction, validation, proof screening, or publication. Never treat
 prepared material as Phase 3 eligible.
 
@@ -26,8 +26,11 @@ packets include original source statements and preliminary Pass 2 fields, but
 no new mathematical interpretations or eligibility decisions.
 
 Each manifest includes the source and output SHA-256 digests. The index tracks
-coverage; once all 115 chapters are prepared, 9,675 distinct candidate inputs
-must be present.
+**unfinished Stage A candidates**. The active intake remains 9,675 records in
+historical harvest data, but after 655 Codex mathematical approvals were
+removed **directly** from five chapter packet files, 9,020 Stage A inputs remain.
+All sections are still present to maintain mathematical context. Held or
+unapproved cases remain pending, not silently discarded.
 
 **The chapter files are retained permanently in Git commits on the isolated
 preparation branch.** Action artifacts are convenient additional ZIP snapshots,
@@ -45,11 +48,11 @@ workflow dispatch once the workflow is registered on the default branch:
 For safety, commits are permitted *only* to
 `feature/phase2-chapter-preparation` or `data/phase2-prepared`.
 The workflow never writes to `main` or `codex/phase2-validation`.
-A push changing the preparation workflow/scripts on the feature branch also runs incremental preparation of every missing chapter. Generated chapter commits do not retrigger it. The first completed test prepared Varieties; a subsequent full run successfully prepared all 115 chapters (9,675 candidate inputs).
+A push changing preparation code runs one bounded verification/preparation job. Generated chapter commits do not retrigger it. The first completed test prepared Varieties; a subsequent full run successfully prepared all 115 chapters (9,675 candidate inputs).
 
-It checks the pinned source, runs the regression suite, produces only missing
-chapters, independently verifies hashes/coverage, commits each chapter, and
-uploads a supplementary temporary Actions artifact.
+It checks the pinned source, runs the regression suite once, produces only
+missing chapters in a single invocation, verifies hashes/coverage once, and
+commits the batch once. No extra artifact copy is uploaded.
 
 A separate workflow, `.github/workflows/phase2-review-integrity.yml`,
 provides read-only tests of the authoritative mathematical review registry and
@@ -83,10 +86,12 @@ The packets will then be under
 If Git configuration prevents fetching, use a separate checkout of the prep
 branch instead. Never modify review history just to access packets.
 
-Before reviewing, Codex must reconcile candidate IDs with the *current*
-authoritative approval ledger on its own branch. Prepared input snapshots
-intentionally include already approved candidates. Codex must skip approvals,
-not duplicate work.
+Codex should review the prepared candidate files directly, without
+per-candidate completion lookups. When a new batch finishes, reconcile its
+approved IDs **once at the handoff boundary**, delete those candidate rows
+from the existing files, update section `candidate_ids` and the existing
+manifests and index. Do not create a parallel queue, skip ledger, or status
+files. Codex retains the authoritative completed review history on its branch.
 
 Review complete sections in source order with shared proof-free evidence.
 Preserve distinct mathematical reconstruction and independent source-first

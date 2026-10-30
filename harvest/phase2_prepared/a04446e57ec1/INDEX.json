@@ -2,7 +2,7 @@
   "schema": "maththm.phase2.chapter-preparation-index.v1",
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
   "prepared_chapters": 115,
-  "prepared_candidates": 9675,
+  "prepared_candidates": 9020,
   "active_population_expected": 9675,
   "mathematical_approvals_added": 0,
   "preparation_only": true,
@@ -73,7 +73,7 @@
     {
       "source_file": "algebra.tex",
       "chapter_number": 10,
-      "candidate_count": 238,
+      "candidate_count": 98,
       "section_count": 168,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/algebra/MANIFEST.json"
     },
@@ -213,14 +213,14 @@
     {
       "source_file": "coherent.tex",
       "chapter_number": 30,
-      "candidate_count": 121,
+      "candidate_count": 91,
       "section_count": 28,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/coherent/MANIFEST.json"
     },
     {
       "source_file": "divisors.tex",
       "chapter_number": 31,
-      "candidate_count": 222,
+      "candidate_count": 2,
       "section_count": 37,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/divisors/MANIFEST.json"
     },
@@ -234,7 +234,7 @@
     {
       "source_file": "varieties.tex",
       "chapter_number": 33,
-      "candidate_count": 237,
+      "candidate_count": 5,
       "section_count": 48,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/varieties/MANIFEST.json"
     },
@@ -248,7 +248,7 @@
     {
       "source_file": "descent.tex",
       "chapter_number": 35,
-      "candidate_count": 162,
+      "candidate_count": 129,
       "section_count": 39,
       "manifest": "harvest/phase2_prepared/a04446e57ec1/descent/MANIFEST.json"
     },
