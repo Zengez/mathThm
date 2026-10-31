@@ -61,7 +61,6 @@
     "candidate.stacks.63ed3bdc79053383e1cc7cb6",
     "candidate.stacks.72fb75f1a2be801eaf8bc290"
   ],
-  "stage_a_mathematical_analysis_pending": false,
   "processing_sections": [
     {
       "section": 1,
@@ -117,5 +116,7 @@
   "stage_a_remaining_work_candidate_count": 17,
   "stage_a_source_hold_candidate_count": 12,
   "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 6
+  "stage_a_remaining_work_section_count": 6,
+  "stage_a_work_pending": true,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
 }
