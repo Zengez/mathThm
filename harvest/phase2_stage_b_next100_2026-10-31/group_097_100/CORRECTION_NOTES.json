@@ -45,7 +45,8 @@
     "candidate_id": "candidate.stacks.f687a6951c65a1bdb2780e19",
     "source_label": "lemma-pushforward-derived-complete-adjoint",
     "corrections": [
-      "Corrected enriched H claiming derived completion is a right adjoint; safe source1024–1045 and1298–1302 explicitly give LEFT adjoint."
+      "Corrected enriched H claiming derived completion is a right adjoint; safe source1024–1045 and1298–1302 explicitly give LEFT adjoint.",
+      "Propagated RIGHT→LEFT adjoint correction into full statement and standalone display prefix, per independent review."
     ]
   }
 ]

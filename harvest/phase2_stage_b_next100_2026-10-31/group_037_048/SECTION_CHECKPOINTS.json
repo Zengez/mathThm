@@ -172,14 +172,18 @@
     "eligible_candidate_ids": [
       "candidate.stacks.cc4c0326a73d3c9e6fd292bd"
     ],
-    "correction_pass_complete": true,
+    "correction_pass_complete": false,
     "selected_candidate_count": 1,
     "independent_validation": "completed",
     "approved_candidate_count": 0,
     "mathematical_hold_count": 0,
     "processing_hold_count": 1,
     "fully_stage_b_reviewed": false,
-    "mixed_section": true
+    "mixed_section": true,
+    "disposition_complete": true,
+    "incident_excluded": true,
+    "incident_artifact": "HELD_PROOF_EXPOSURE.jsonl",
+    "note": "Selected candidate was not source-reviewed by correction reviewer; separate hold records independent reviewer exposure. No clean paired approval."
   },
   {
     "ordinal": 46,

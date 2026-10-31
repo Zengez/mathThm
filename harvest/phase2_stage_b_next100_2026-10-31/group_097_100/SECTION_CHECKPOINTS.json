@@ -11,10 +11,22 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 2,
-    "independent_validation": "pending",
+    "independent_validation": "completed",
     "selected_eligible_scope_only": true,
     "entire_active_section_complete": false,
-    "coverage_note": "Canonical raw-active membership has additional unselected/unready IDs absent from frozen packet metadata; parent PROGRESS canonical_coverage_reconciliation authoritative. No additional IDs processed."
+    "coverage_note": "Canonical raw-active membership has additional unselected/unready IDs absent from frozen packet metadata; parent PROGRESS canonical_coverage_reconciliation authoritative. No additional IDs processed.",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true,
+    "canonical_active_candidate_ids": [
+      "candidate.stacks.00743da7ddbe388932db739e",
+      "candidate.stacks.816ed728feadf350592b895b",
+      "candidate.stacks.8f67e4ca1b42928298f0ac7c",
+      "candidate.stacks.9cbbc936b6e2b78c28494c64",
+      "candidate.stacks.ff206c6972ab57e9ee844702"
+    ]
   },
   {
     "ordinal": 98,
@@ -30,7 +42,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 4,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 4,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": true,
+    "mixed_section": false
   },
   {
     "ordinal": 99,
@@ -54,10 +71,32 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 12,
-    "independent_validation": "pending",
+    "independent_validation": "completed",
     "selected_eligible_scope_only": true,
     "entire_active_section_complete": false,
-    "coverage_note": "Canonical raw-active membership has additional unselected/unready IDs absent from frozen packet metadata; parent PROGRESS canonical_coverage_reconciliation authoritative. No additional IDs processed."
+    "coverage_note": "Canonical raw-active membership has additional unselected/unready IDs absent from frozen packet metadata; parent PROGRESS canonical_coverage_reconciliation authoritative. No additional IDs processed.",
+    "approved_candidate_count": 12,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true,
+    "canonical_active_candidate_ids": [
+      "candidate.stacks.06d0509ac1f47167d8ed365d",
+      "candidate.stacks.0f7913d8962a66063232016c",
+      "candidate.stacks.1890c0f96ca428b6a1d08971",
+      "candidate.stacks.1d20ad60ba894734e271fd64",
+      "candidate.stacks.347bfd5c6fcf174587b8dc2d",
+      "candidate.stacks.3555acdeba52cc49320dabb6",
+      "candidate.stacks.4793b0c9c6d7325ca4a27795",
+      "candidate.stacks.6f52b6d8ffc7fc31de2b2316",
+      "candidate.stacks.7930df5e02850432d3ffc521",
+      "candidate.stacks.88836c6db6028b0349614278",
+      "candidate.stacks.a3f51939b96edbeb4ac81bde",
+      "candidate.stacks.ac9a9b73d9fb8dce79479c61",
+      "candidate.stacks.e8c5e44e3ba2898239ec7b39",
+      "candidate.stacks.eb63503744d45e1880b32b44",
+      "candidate.stacks.f687a6951c65a1bdb2780e19"
+    ]
   },
   {
     "ordinal": 100,
@@ -71,9 +110,19 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 2,
-    "independent_validation": "pending",
+    "independent_validation": "completed",
     "selected_eligible_scope_only": true,
     "entire_active_section_complete": false,
-    "coverage_note": "Canonical raw-active membership has additional unselected/unready IDs absent from frozen packet metadata; parent PROGRESS canonical_coverage_reconciliation authoritative. No additional IDs processed."
+    "coverage_note": "Canonical raw-active membership has additional unselected/unready IDs absent from frozen packet metadata; parent PROGRESS canonical_coverage_reconciliation authoritative. No additional IDs processed.",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true,
+    "canonical_active_candidate_ids": [
+      "candidate.stacks.0c7f69daab483432e2557aa3",
+      "candidate.stacks.66e24ebcf2033e103987a384",
+      "candidate.stacks.d58d3550caee1fe9fb728a1c"
+    ]
   }
 ]
