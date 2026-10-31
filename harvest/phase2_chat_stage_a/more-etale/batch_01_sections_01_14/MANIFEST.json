@@ -300,51 +300,121 @@
       "section": 9,
       "kind": "candidates",
       "source_line": 3046,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.08074ea7c087dc12063d272c",
+        "candidate.stacks.09d501ee469ec8abb5901bf5",
+        "candidate.stacks.5ec66ad2cbc0d8560badabd5"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.09d501ee469ec8abb5901bf5",
+        "candidate.stacks.5ec66ad2cbc0d8560badabd5"
+      ],
+      "stage_a_source_context_summary": "Compactification-defined Rf_! with coefficient-domain guards; proof-only composition coherence held."
     },
     {
       "section": 10,
       "kind": "candidates",
       "source_line": 3537,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.acd1f25a8f7e35b11fba3dc9",
+        "candidate.stacks.a0470a7b443ea6484d429832",
+        "candidate.stacks.a62406becce919e9580a49f0",
+        "candidate.stacks.2c5fc029b5877749a798d70e",
+        "candidate.stacks.0e333557853d418092731dbe",
+        "candidate.stacks.08b92031803b6e04f644321c",
+        "candidate.stacks.fc0d25b08c5ca9f377c4b513"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.a0470a7b443ea6484d429832"
+      ],
+      "stage_a_source_context_summary": "Reviewed pinned section source with candidate local hypotheses and the running context ledger."
     },
     {
       "section": 11,
       "kind": "candidates",
       "source_line": 3835,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.690ad7e11cc41ac90351ead2",
+        "candidate.stacks.1ab35405f375ef18710ad11e",
+        "candidate.stacks.9b5f9074c606df39c0b40015",
+        "candidate.stacks.34218c931cc44f6d7521493e",
+        "candidate.stacks.585a5f9130c35d4417ffcf0c",
+        "candidate.stacks.b1294b57fae41ad8ab6cd732",
+        "candidate.stacks.c153124cca3f5af175418b68"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.c153124cca3f5af175418b68"
+      ],
+      "stage_a_source_context_summary": "Derived right adjoint Rf^! for torsion Λ and internal Hom natural map; untyped base-change held."
     },
     {
       "section": 12,
       "kind": "candidates",
       "source_line": 4058,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.07c87dde6acdc90a6313d3a2",
+        "candidate.stacks.e1fbc1dd8ccc26e7c6f573f9",
+        "candidate.stacks.74361c536c820bfac21d6350"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_summary": "Derived compact support RΓ(Spec k,Rf_!K) versus proper-support H_c^0; source definitions kept distinct."
     },
     {
       "section": 13,
       "kind": "candidates",
       "source_line": 4205,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.4b6ae12e64337bd9e4db9d06",
+        "candidate.stacks.c000d2777e4b951cd4b61daa"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_summary": "Reviewed pinned section source with candidate local hypotheses and the running context ledger."
     },
     {
       "section": 14,
       "kind": "candidates",
       "source_line": 4458,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.4434b96d069452845922502c",
+        "candidate.stacks.a5f77de0e06c38cb03aeb619",
+        "candidate.stacks.5dd1ac1f92169d1a2404d9eb",
+        "candidate.stacks.9411515872bfa6d9c5511ab3",
+        "candidate.stacks.32f1d22296878cbe8bec8140"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_summary": "D_c defined at section opening for Noetherian Λ; constructibility claims individually scoped."
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 33,
-  "stage_a_remaining_work_candidate_count": 29,
+  "stage_a_ready_for_codex_candidate_count": 48,
+  "stage_a_remaining_work_candidate_count": 14,
   "stage_a_source_hold_candidate_count": 40,
-  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_ready_for_codex_section_count": 6,
   "stage_a_remaining_work_section_count": 12,
-  "stage_a_work_pending": true,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
-  "stage_a_further_work_candidate_count": 10,
-  "stage_a_further_work_section_count": 4,
-  "stage_a_dispositioned_section_count": 8,
+  "stage_a_further_work_candidate_count": 14,
+  "stage_a_further_work_section_count": 7,
+  "stage_a_dispositioned_section_count": 14,
   "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/more-etale/batch_01_sections_01_14/CONTEXT_LEDGER.jsonl",
   "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/more-etale/batch_01_sections_01_14/SECTION_CHECKPOINTS.jsonl",
-  "processing_note": "Regular Stage A reviewed §§1–8; §7 prior ready candidates preserved (context traversed). New §5–8 source-ledger checkpoints. §§9–14 remain pending."
+  "processing_note": "Regular Stage A processed all §§1–14 (plus historical §7 ready candidate preservation); source-scoped ledger and checkpoints persisted. §§15–16 in second batch."
 }
