@@ -1,0 +1,159 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-cohomology-source-ordered-20261031-03",
+  "chapter": "sites-cohomology.tex",
+  "sections_ordinal": [
+    11,
+    15
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    1662,
+    1762,
+    2016,
+    2204,
+    2399
+  ],
+  "first_source_line": 1662,
+  "last_source_line": 2492,
+  "complete_sections": true,
+  "stage_a_candidate_count": 18,
+  "candidate_ids": [
+    "candidate.stacks.e5c3d25124460cc0c39d51fe",
+    "candidate.stacks.3c170513ee9f26faf09dfb1e",
+    "candidate.stacks.7e25891d2391a13d990d56c3",
+    "candidate.stacks.8e765e3c0b3ec1f1a425a847",
+    "candidate.stacks.d94248920f948206b201434a",
+    "candidate.stacks.42770a669c954f3844e6d2e5",
+    "candidate.stacks.eced2123ccd2b7919e209d26",
+    "candidate.stacks.7ca5cf257c7d09aa562a7158",
+    "candidate.stacks.e183ec66d70b746371e7f1be",
+    "candidate.stacks.04f964ccbd1a7fdbc8195752",
+    "candidate.stacks.9fc6c217b8bea6cabc3bc24a",
+    "candidate.stacks.b57ea18943613d6597a0612d",
+    "candidate.stacks.8592630a4ac4991005042777",
+    "candidate.stacks.490d60e31ce0a7c91ae64a86",
+    "candidate.stacks.b22c441b12819f88a28f1128",
+    "candidate.stacks.6799e7cf77dbd0f0ad9fa974",
+    "candidate.stacks.6ce666f63953020fa8421c01",
+    "candidate.stacks.2ef0f961bebef6df09402c7d"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 11,
+      "source_line": 1662,
+      "section_end_line": 1761,
+      "source_heading": "Second cohomology and gerbes",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.e5c3d25124460cc0c39d51fe"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 12,
+      "source_line": 1762,
+      "section_end_line": 2015,
+      "source_heading": "Cohomology of modules",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.3c170513ee9f26faf09dfb1e",
+        "candidate.stacks.7e25891d2391a13d990d56c3",
+        "candidate.stacks.8e765e3c0b3ec1f1a425a847",
+        "candidate.stacks.d94248920f948206b201434a",
+        "candidate.stacks.42770a669c954f3844e6d2e5",
+        "candidate.stacks.eced2123ccd2b7919e209d26"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 13,
+      "source_line": 2016,
+      "section_end_line": 2203,
+      "source_heading": "Totally acyclic sheaves",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.7ca5cf257c7d09aa562a7158",
+        "candidate.stacks.e183ec66d70b746371e7f1be",
+        "candidate.stacks.04f964ccbd1a7fdbc8195752",
+        "candidate.stacks.9fc6c217b8bea6cabc3bc24a"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 14,
+      "source_line": 2204,
+      "section_end_line": 2398,
+      "source_heading": "The Leray spectral sequence",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.b57ea18943613d6597a0612d",
+        "candidate.stacks.8592630a4ac4991005042777",
+        "candidate.stacks.490d60e31ce0a7c91ae64a86",
+        "candidate.stacks.b22c441b12819f88a28f1128",
+        "candidate.stacks.6799e7cf77dbd0f0ad9fa974",
+        "candidate.stacks.6ce666f63953020fa8421c01"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 15,
+      "source_line": 2399,
+      "section_end_line": 2492,
+      "source_heading": "The base change map",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.2ef0f961bebef6df09402c7d"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "context_ledgers_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 18,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 5,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Source-order Stage A §§11–15. Pinned external gerbe automorphism and sheaf localization references resolved, Čech/mod-cohomology conventions carried, lemma-local flatness explicitly expired. All 18 completed but Stage B not run."
+}
