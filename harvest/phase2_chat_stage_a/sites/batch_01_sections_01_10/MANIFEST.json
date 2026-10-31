@@ -1,0 +1,214 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-source-ordered-batch-01",
+  "chapter": "sites.tex",
+  "sections_ordinal": [
+    1,
+    10
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17,
+    44,
+    138,
+    295,
+    367,
+    658,
+    842,
+    1070,
+    1383,
+    1630
+  ],
+  "first_source_line": 17,
+  "last_source_line": 2235,
+  "complete_sections": true,
+  "stage_a_candidate_count": 23,
+  "candidate_ids": [
+    "candidate.stacks.1ef24214c398211b0b439686",
+    "candidate.stacks.e31311f120186f0c57e821a3",
+    "candidate.stacks.b9ff8319e8dc70adb504b881",
+    "candidate.stacks.54c6889a605c67d6588f2b6a",
+    "candidate.stacks.96f3e0a6c818699e4d60c637",
+    "candidate.stacks.07d3b9e7d2046f35a7f84c4d",
+    "candidate.stacks.92c250165f7ab27b798ac3f9",
+    "candidate.stacks.9a395e7cb0c5864c489b6f29",
+    "candidate.stacks.a9338be0161846ac85d38a71",
+    "candidate.stacks.269cde732cf26ce1423aa5db",
+    "candidate.stacks.69873496d64d71e86d2abf40",
+    "candidate.stacks.434ca6e2558af47040c7246e",
+    "candidate.stacks.92ad20ae804d1c1917d6c248",
+    "candidate.stacks.1db4a7e227805d0f563162f7",
+    "candidate.stacks.36322b1b5459a044e5db897f",
+    "candidate.stacks.bf430b9cdb113c61c0f3612b",
+    "candidate.stacks.def259d2182d22ad74941c58",
+    "candidate.stacks.81a0f5c1a953652e05bdf3fb",
+    "candidate.stacks.659e88ed6f95fed95cee79ba",
+    "candidate.stacks.25a277b2959c97228dbb1e0d",
+    "candidate.stacks.eae68af0da230e559c7e9ca3",
+    "candidate.stacks.60de5dd7c096b93ef0776a19",
+    "candidate.stacks.909d5d19ff6ec2c02df6cb66"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_10/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_10/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_10/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-sites-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1,
+    2,
+    4,
+    6,
+    7
+  ],
+  "stage_a_ready_for_codex_candidate_count": 23,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 5,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Introduction"
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 44,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Presheaves"
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 138,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.1ef24214c398211b0b439686"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Injective and surjective maps of presheaves"
+    },
+    {
+      "section": 4,
+      "kind": "context_only",
+      "source_line": 295,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Limits and colimits of presheaves"
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 367,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e31311f120186f0c57e821a3",
+        "candidate.stacks.b9ff8319e8dc70adb504b881",
+        "candidate.stacks.54c6889a605c67d6588f2b6a",
+        "candidate.stacks.96f3e0a6c818699e4d60c637"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Functoriality of categories of presheaves"
+    },
+    {
+      "section": 6,
+      "kind": "context_only",
+      "source_line": 658,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Sites"
+    },
+    {
+      "section": 7,
+      "kind": "context_only",
+      "source_line": 842,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Sheaves"
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1070,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.07d3b9e7d2046f35a7f84c4d",
+        "candidate.stacks.92c250165f7ab27b798ac3f9",
+        "candidate.stacks.9a395e7cb0c5864c489b6f29",
+        "candidate.stacks.a9338be0161846ac85d38a71",
+        "candidate.stacks.269cde732cf26ce1423aa5db",
+        "candidate.stacks.69873496d64d71e86d2abf40"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Families of morphisms with fixed target"
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1383,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.434ca6e2558af47040c7246e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "The example of G-sets"
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1630,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.92ad20ae804d1c1917d6c248",
+        "candidate.stacks.1db4a7e227805d0f563162f7",
+        "candidate.stacks.36322b1b5459a044e5db897f",
+        "candidate.stacks.bf430b9cdb113c61c0f3612b",
+        "candidate.stacks.def259d2182d22ad74941c58",
+        "candidate.stacks.81a0f5c1a953652e05bdf3fb",
+        "candidate.stacks.659e88ed6f95fed95cee79ba",
+        "candidate.stacks.25a277b2959c97228dbb1e0d",
+        "candidate.stacks.eae68af0da230e559c7e9ca3",
+        "candidate.stacks.60de5dd7c096b93ef0776a19",
+        "candidate.stacks.909d5d19ff6ec2c02df6cb66"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Sheafification"
+    }
+  ],
+  "stage_a_context_analysis": "22+ source setups from pinned manuscript; exact §5 indexing, §9 G-sets, §10 plus construction included in source statements. No proof inspected.",
+  "authoritative_exclusion_check": "All 9,675 active and 655 approved records reconciled before new A1 work."
+}
