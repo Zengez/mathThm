@@ -220,7 +220,13 @@
           "tex": "\\noindent\nIn this section we discuss some more or less immediate\nconsequences of the smooth base change theorem."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Applications of smooth base change",
+      "stage_a_source_context_summary": "The smooth base-change applications include arbitrary field extensions $L/K$, qcqs $g:T\\to S$ over $K$, and complexes $E\\in D^+(T_{\\acute et})$ with stalk cohomology torsion of order invertible in $K$. The relevant comparison is the **derived** $Rg_{L,*}E_L\\simeq (Rg_*E)|_{S_L}$; separably closed base-field extensions give additional cohomological invariance under the stated prime-to-characteristic conditions.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
     },
     {
       "section": 91,
@@ -236,7 +242,13 @@
           "tex": "The map (\\ref{equation-base-change}) has no chance of being an isomorphism\nin the generality given above. The goal is to show\nit is an isomorphism if the diagram (\\ref{equation-base-change-diagram})\nis cartesian, $f : X \\to Y$ proper, the cohomology sheaves of $E$\nare torsion, and $E$ is bounded below.\nTo study this question we introduce the following terminology.\nLet us say that {\\it cohomology commutes with base change\nfor $f : X \\to Y$} if (\\ref{equation-base-change-sheaf})\nis an isomorphism for every diagram (\\ref{equation-base-change-diagram})\nwhere $X' = Y' \\times_Y X$ and every torsion abelian sheaf $\\mathcal{F}$."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Proper base change theorem",
+      "stage_a_source_context_summary": "For a Cartesian square $X'=X\\times_YY'$ with maps $f:X\\to Y$, $g:Y'\\to Y$, $f':X'\\to Y'$, $g':X'\\to X$, the **canonical base-change morphism** is $g^{-1}Rf_*E\\to Rf'_*(g')^{-1}E$ in $D(Y'_{\\acute et})$. The proper base-change theorem is for **proper** $f$ and bounded-below complexes $E$ with torsion cohomology sheaves; arbitrary $f$ or non-torsion $E$ are not included. The basic prior criterion 'cohomology commutes with base change' uses all torsion abelian sheaves.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
     },
     {
       "section": 92,
@@ -248,7 +260,13 @@
           "tex": "\\noindent\nIn this section we discuss some more or less immediate\nconsequences of the proper base change theorem."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Applications of proper base change",
+      "stage_a_source_context_summary": "For a **proper** scheme over a separably closed field and **torsion abelian** coefficients, étale cohomology is invariant under extension of separably closed ground fields. For a proper morphism whose geometric fibres have dimension at most $n$, $R^qf_*\\mathcal F=0$ for $q>2n$ for torsion abelian $\\mathcal F$; retain the properness, fibre-dimension and torsion qualifiers.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
     },
     {
       "section": 93,
@@ -268,7 +286,13 @@
           "tex": "\\begin{definition}\n\\label{definition-locally-acyclic}\n\\begin{reference}\n\\cite[Definition 2.12, page 242]{SGA4.5} and\n\\cite[Definition (1.3), page 54]{SGA4.5}\n\\end{reference}\nLet $f : X \\to S$ be a morphism of schemes.\nLet $K$ be an object of $D(X_\\etale)$.\n\\begin{enumerate}\n\\item\nLet $\\overline{x}$ be a geometric point of $X$ with image\n$\\overline{s} = f(\\overline{x})$.\nWe say $f$ is {\\it locally acyclic at $\\overline{x}$ relative to $K$}\nif for every geometric point $\\overline{t}$ of\n$\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})$ the\nmap (\\ref{equation-alpha-K}) is an isomorphism\\footnote{We do not\nassume $\\overline{t}$ is an algebraic geometric point of\n$\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})$. Often using\nLemma \\ref{lemma-smooth-base-change-separably-closed}\none may reduce to this case.}.\n\\item We say $f$ is {\\it locally acyclic relative to $K$}\nif $f$ is locally acyclic at $\\overline{x}$ relative to $K$\nfor every geometric point $\\overline{x}$ of $X$.\n\\item We say $f$ is {\\it universally locally acyclic relative to $K$}\nif for any morphism $S' \\to S$ of schemes the base change $f' : X' \\to S'$\nis locally acyclic relative to the pullback of $K$ to $X'$.\n\\item We say $f$ is {\\it locally acyclic} if for all geometric\npoints $\\overline{x}$ of $X$ and any integer $n$ prime to the characteristic\nof $\\kappa(\\overline{x})$, the morphism $f$ is locally acyclic\nat $\\overline{x}$ relative to the constant sheaf with value\n$\\mathbf{Z}/n\\mathbf{Z}$.\n\\item We say $f$ is {\\it universally locally acyclic} if\nfor any morphism $S' \\to S$ of schemes the base change $f' : X' \\to S'$\nis locally acyclic.\n\\end{enumerate}\n\\end{definition}"
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Local acyclicity",
+      "stage_a_source_context_summary": "For $f:X\\to S$, a geometric point $\\bar x$ over $\\bar s$, and $\\bar t$ a geometric point of $\\operatorname{Spec}\\mathcal O^{sh}_{S,\\bar s}$, the **vanishing-cycle space** is $F_{\\bar x,\\bar t}=\\bar t\\times_{\\operatorname{Spec}\\mathcal O^{sh}_{S,\\bar s}}\\operatorname{Spec}\\mathcal O^{sh}_{X,\\bar x}$. Relative local acyclicity of a derived étale complex $K$ requires that $K_{\\bar x}\\to R\\Gamma(F_{\\bar x,\\bar t},K)$ be an isomorphism for every such $\\bar t$; *universal* local acyclicity repeats after every base change. Bare 'locally acyclic' refers to constant coefficients of order prime to the geometric residue characteristic.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
     },
     {
       "section": 94,
@@ -280,7 +304,13 @@
           "tex": "\\noindent\nLet $f : X \\to S$ be a morphism of schemes. Let $\\overline{x}$ be a\ngeometric point of $X$ with image $\\overline{s} = f(\\overline{x})$ in $S$.\nLet $\\overline{t}$ be a geometric point of\n$\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})$.\nLet $K \\in D(X_\\etale)$. For any morphism $g : Y \\to X$ of schemes\nwe write $K|_Y$ instead of $g_{small}^{-1}K$ and $R\\Gamma(Y, K)$\ninstead of $R\\Gamma(Y_\\etale, g_{small}^{-1}K)$.\nWe claim that if\n\\begin{enumerate}\n\\item $K$ is bounded below, i.e., $K \\in D^+(X_\\etale)$,\n\\item $f$ is locally acyclic relative to $K$\n\\end{enumerate}\nthen there is a {\\it cospecialization map}\n$$\ncosp :\nR\\Gamma(X_{\\overline{t}}, K)\n\\longrightarrow\nR\\Gamma(X_{\\overline{s}}, K)\n$$\nwhich will be closely related to the specialization map\nconsidered in Section \\ref{section-specialization} and especially\nRemark \\ref{remark-specialization-map-and-fibres}."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Cospecialization map",
+      "stage_a_source_context_summary": "For $f:X\\to S$ **locally acyclic relative to $K\\in D^+(X_{\\acute et})$**, and a geometric specialization pair $\\bar s,\\bar t$ via strict henselization, there is a **cospecialization** morphism $R\\Gamma(X_{\\bar t},K)\\to R\\Gamma(X_{\\bar s},K)$, opposite the direction of stalk specialization. It is constructed from the unit $K\\to Rh_*h^{-1}K$ and the local acyclicity isomorphism after pullback to the special fibre.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
     },
     {
       "section": 95,
@@ -292,7 +322,13 @@
           "tex": "\\begin{definition}\n\\label{definition-cd}\nLet $X$ be a quasi-compact and quasi-separated scheme.\nThe {\\it cohomological dimension of $X$} is the smallest\nelement\n$$\n\\text{cd}(X) \\in \\{0, 1, 2, \\ldots\\} \\cup \\{\\infty\\}\n$$\nsuch that for any abelian torsion sheaf $\\mathcal{F}$\non $X_\\etale$ we have $H^i_\\etale(X, \\mathcal{F}) = 0$\nfor $i > \\text{cd}(X)$. If $X = \\Spec(A)$ we sometimes\ncall this the cohomological dimension of $A$.\n\\end{definition}"
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Cohomological dimension",
+      "stage_a_source_context_summary": "For a **qcqs** scheme $X$, $\\operatorname{cd}(X)$ is the **least** $d\\in\\mathbf Z_{\\ge0}\\cup\\{\\infty\\}$ with $H^q_{\\acute et}(X,\\mathcal F)=0$ for every **torsion abelian** étale sheaf and all $q>d$. These dimension bounds use filtered affine limits, field transcendence degrees, and proper-base-change input; they are not bounds for every unbounded non-torsion complex.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
     }
   ],
   "processing_sections_format": "inline-v1",
@@ -304,8 +340,8 @@
   "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "stage_a_further_work_candidate_count": 0,
-  "stage_a_dispositioned_section_count": 14,
+  "stage_a_dispositioned_section_count": 20,
   "stage_a_further_work_section_count": 0,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Source-ordered §§76–89 completed, including §83 eight applicable conditional curve-cohomology assertions. §§84–89 are contextual, all mathematical candidates in this packet disposed; Stage B independent validation not started."
+  "processing_note": "Source-ordered §§76–89 completed, including §83 eight applicable conditional curve-cohomology assertions. §§84–89 are contextual, all mathematical candidates in this packet disposed; Stage B independent validation not started. Source-order context audit: §§90–95 checked against pinned Stacks text; each section has no active unapproved candidate, but the mathematically material premises and definitions were recorded for later dependency interpretation. This is not an independent Stage B run."
 }

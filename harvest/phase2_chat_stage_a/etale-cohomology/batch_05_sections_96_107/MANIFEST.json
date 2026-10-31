@@ -59,7 +59,13 @@
           "tex": "\\begin{definition}\n\\label{definition-cd-f}\nLet $f : X \\to Y$ be a quasi-compact and quasi-separated\nmorphism of schemes.\nThe {\\it cohomological dimension of $f$} is the smallest\nelement\n$$\n\\text{cd}(f) \\in \\{0, 1, 2, \\ldots\\} \\cup \\{\\infty\\}\n$$\nsuch that for any abelian torsion sheaf $\\mathcal{F}$\non $X_\\etale$ we have $R^if_*\\mathcal{F} = 0$\nfor $i > \\text{cd}(f)$.\n\\end{definition}"
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Finite cohomological dimension",
+      "stage_a_source_context_summary": "For a **qcqs morphism** $f:X\\to Y$, $\\operatorname{cd}(f)$ is the least $d\\in\\mathbf Z_{\\ge0}\\cup\\{\\infty\\}$ with $R^qf_*\\mathcal F=0$ for **all torsion abelian** étale sheaves $\\mathcal F$ and all $q>d$. Under finite cohomological dimension, the unbounded derived pushforward with **$\\mathbf Z/n$ coefficients** commutes with coproducts; this requires separate boundedness/dimension arguments from previous uniformly bounded-below cases.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
     },
     {
       "section": 97,
@@ -71,7 +77,13 @@
           "tex": "\\noindent\nWe first prove a K\\\"unneth formula in case one of the factors\nis proper. Then we use this formula to prove a base change property\nfor open immersions. This then gives a\n``base change by morphisms towards spectra of fields''\n(akin to smooth base change).\nFinally we use this to get a more general K\\\"unneth formula."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Künneth in étale cohomology",
+      "stage_a_source_context_summary": "Given $X,Y\\to S$ with product $X\\times_SY$, and $E\\in D(X_{\\acute et},\\Lambda)$, $K\\in D(Y_{\\acute et},\\Lambda)$, the **canonical Künneth map** is $Rf_*E\\otimes_\\Lambda^{\\mathbf L}Rg_*K\\to Rc_*(p^{-1}E\\otimes_\\Lambda^{\\mathbf L}q^{-1}K)$. The first theorem has a *proper* factor over a **separably closed field**, a qcqs second factor, and explicit **torsion/bounded-below** or **finite-coefficient** alternatives; the Künneth map is not presumed an isomorphism without those premises.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
     },
     {
       "section": 98,
@@ -83,7 +95,13 @@
           "tex": "\\noindent\nWhen constructing the structure sheaf of an affine scheme, we first\nconstruct the values on affine opens, and then we extend to all opens.\nA similar construction is often useful for constructing complexes\nof abelian groups on a scheme $X$. Recall that $X_{affine, Zar}$\ndenotes the category of affine opens of $X$ with topology given\nby standard Zariski coverings, see\nTopologies, Definition \\ref{topologies-definition-big-small-Zariski}.\nWe remind the reader that the topos of $X_{affine, Zar}$\nis the small Zariski topos of $X$, see Topologies, Lemma\n\\ref{topologies-lemma-alternative-zariski}.\nIn this section we denote $X_{affine}$ the same underlying\ncategory with the chaotic topology, i.e., such that sheaves\nagree with presheaves. We obtain a morphisms of sites\n$$\n\\epsilon : X_{affine, Zar} \\longrightarrow X_{affine}\n$$\nas in Cohomology on Sites, Section \\ref{sites-cohomology-section-compare}."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Comparing chaotic and Zariski topologies",
+      "stage_a_source_context_summary": "On the category of affine opens of $X$, the **chaotic topology** has sheaves equal to presheaves, while $X_{\\mathrm{affine,Zar}}$ has standard Zariski coverings. The comparison site morphism $\\epsilon:X_{\\mathrm{affine,Zar}}\\to X_{\\mathrm{affine}}$ gives a fully faithful $R\\epsilon_*$ on derived abelian sheaves. Its essential image on bounded-below objects is characterized by $R\\Gamma(\\varnothing,K)=0$ and Mayer–Vietoris quasi-isomorphisms for covers of an affine by **two standard opens**. The condition on the empty object must not be omitted.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
     },
     {
       "section": 99,
@@ -95,7 +113,13 @@
           "tex": "\\noindent\nLet $S$ be a scheme. In\nTopologies, Lemma \\ref{topologies-lemma-at-the-bottom-etale}\nwe have introduced comparison morphisms\n$\\pi_S : (\\Sch/S)_\\etale \\to S_\\etale$ and\n$i_S : \\Sh(S_\\etale) \\to \\Sh((\\Sch/S)_\\etale)$\nwith $\\pi_S \\circ i_S = \\text{id}$ and $\\pi_{S, *} = i_S^{-1}$.\nMore generally, if $f : T \\to S$ is an object of $(\\Sch/S)_\\etale$,\nthen there is a morphism $i_f : \\Sh(T_\\etale) \\to \\Sh((\\Sch/S)_\\etale)$\nsuch that $f_{small} = \\pi_S \\circ i_f$, see\nTopologies, Lemmas \\ref{topologies-lemma-put-in-T-etale} and\n\\ref{topologies-lemma-morphism-big-small-etale}. In\nDescent, Remark \\ref{descent-remark-change-topologies-ringed}\nwe have extended these to a morphism of ringed sites\n$$\n\\pi_S : ((\\Sch/S)_\\etale, \\mathcal{O}) \\to (S_\\etale, \\mathcal{O}_S)\n$$\nand morphisms of ringed topoi\n$$\ni_S : (\\Sh(S_\\etale), \\mathcal{O}_S) \\to (\\Sh((\\Sch/S)_\\etale), \\mathcal{O})\n$$\nand\n$$\ni_f : (\\Sh(T_\\etale), \\mathcal{O}_T) \\to (\\Sh((\\Sch/S)_\\etale, \\mathcal{O}))\n$$\nNote that the restriction $i_S^{-1} = \\pi_{S, *}$ (see\nTopologies, Definition \\ref{topologies-definition-restriction-small-etale})\ntransforms $\\mathcal{O}$ into $\\mathcal{O}_S$.\nSimilarly, $i_f^{-1}$ transforms $\\mathcal{O}$ into $\\mathcal{O}_T$.\nSee Descent, Remark \\ref{descent-remark-change-topologies-ringed}.\nHence $i_S^*\\mathcal{F} = i_S^{-1}\\mathcal{F}$ and\n$i_f^*\\mathcal{F} = i_f^{-1}\\mathcal{F}$ for any $\\mathcal{O}$-module\n$\\mathcal{F}$ on $(\\Sch/S)_\\etale$. In particular $i_S^*$ and $i_f^*$\nare exact functors. The functor $i_S^*$ is often denoted\n$\\mathcal{F} \\mapsto \\mathcal{F}|_{S_\\etale}$ (and this does not\nconflict with the notation in\nTopologies, Definition \\ref{topologies-definition-restriction-small-etale})."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Comparing big and small topoi",
+      "stage_a_source_context_summary": "Distinguish the big étale topos $\\operatorname{Sh}((\\mathrm{Sch}/S)_{\\acute et})$ from the small topos $\\operatorname{Sh}(S_{\\acute et})$. The comparison $\\pi_S$ and inclusion $i_S$ have $\\pi_S\\circ i_S=\\mathrm{id}$ and $\\pi_{S,*}=i_S^{-1}$. For each big-site object $f:T\\to S$, the corresponding $i_f$ restricts to $T_{\\acute et}$, and $f_{\\mathrm{small}}=\\pi_S\\circ i_f$. Restriction $i_f^{-1}$ preserves **injective and K-injective abelian sheaves/complexes**, but the source explicitly warns the corresponding assertions **do not hold generally for sheaves of modules**. Module inverse image agrees with ordinary restriction because the pulled-back structure ring identifies with $\\mathcal O_T$.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
     },
     {
       "section": 106,
@@ -117,5 +141,9 @@
   "stage_a_ready_for_codex_section_count": 0,
   "stage_a_remaining_work_section_count": 0,
   "stage_a_work_pending": false,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 4,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": " Source-order context audit: §§96–99 checked against pinned Stacks text; each section has no active unapproved candidate, but the mathematically material premises and definitions were recorded for later dependency interpretation. This is not an independent Stage B run."
 }
