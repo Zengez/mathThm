@@ -143,47 +143,56 @@
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 3684
+      "source_line": 3684,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 3935
+      "source_line": 3935,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 4456
+      "source_line": 4456,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 19,
       "kind": "candidates",
-      "source_line": 4567
+      "source_line": 4567,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 4682
+      "source_line": 4682,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 21,
       "kind": "candidates",
-      "source_line": 4794
+      "source_line": 4794,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 22,
       "kind": "candidates",
-      "source_line": 4968
+      "source_line": 4968,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 24,
       "kind": "candidates",
-      "source_line": 5315
+      "source_line": 5315,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 25,
       "kind": "candidates",
-      "source_line": 5658
+      "source_line": 5658,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 26,
@@ -194,32 +203,38 @@
           "source_line": 6031,
           "tex": "Let $h : X \\to Y$ be a morphism of simplicial schemes. Either by\nLemma \\ref{lemma-simplicial-space-site-functorial} or by\n(the proof of) Lemma \\ref{lemma-morphism-simplicial-sites}\nwe obtain a morphism of sites $h_{Zar} : X_{Zar} \\to Y_{Zar}$.\nRecall that $h_{Zar}^{-1}$ and $h_{Zar, *}$ have a simple\ndescription in terms of the components, see\nLemma \\ref{lemma-describe-functoriality} or\nLemma \\ref{lemma-morphism-simplicial-sites}.\nLet $\\mathcal{O}_X$, resp.\\ $\\mathcal{O}_Y$ denote the structure\nsheaf of $X$, resp.\\ $Y$. We define\n$h_{Zar}^\\sharp : h_{Zar, *}\\mathcal{O}_X \\to \\mathcal{O}_Y$\nto be the map of sheaves of rings on $Y_{Zar}$ given by\n$h_n^\\sharp : h_{n, *}\\mathcal{O}_{X_n} \\to \\mathcal{O}_{Y_n}$ on $Y_n$.\nWe obtain a morphism of ringed sites\n$$\nh_{Zar} : (X_{Zar}, \\mathcal{O}_X) \\longrightarrow (Y_{Zar}, \\mathcal{O}_Y)\n$$"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 27,
       "kind": "candidates",
-      "source_line": 6100
+      "source_line": 6100,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 28,
       "kind": "candidates",
-      "source_line": 6313
+      "source_line": 6313,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 29,
       "kind": "candidates",
-      "source_line": 6424
+      "source_line": 6424,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 30,
       "kind": "candidates",
-      "source_line": 6572
+      "source_line": 6572,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 31,
       "kind": "candidates",
-      "source_line": 6663
+      "source_line": 6663,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 32,
@@ -234,28 +249,38 @@
           "source_line": 6894,
           "tex": "Let $h : X \\to Y$ be a morphism of simplicial algebraic spaces over $S$.\nBy Lemma \\ref{lemma-morphism-simplicial-sites} applied to the morphisms\nof sites $(h_n)_{spaces, \\etale} : X_{spaces, \\etale} \\to Y_{spaces, \\etale}$\n(Properties of Spaces, Lemma\n\\ref{spaces-properties-lemma-functoriality-etale-site})\nwe obtain a morphism of small \\'etale topoi\n$h_\\etale : \\Sh(X_\\etale) \\to \\Sh(Y_\\etale)$.\nRecall that $h_\\etale^{-1}$ and $h_{\\etale, *}$ have a simple\ndescription in terms of the components, see\nLemma \\ref{lemma-morphism-simplicial-sites}.\nLet $\\mathcal{O}_X$, resp.\\ $\\mathcal{O}_Y$ denote the structure\nsheaf of $X$, resp.\\ $Y$. We define\n$h_\\etale^\\sharp : h_{\\etale, *}\\mathcal{O}_X \\to \\mathcal{O}_Y$\nto be the map of sheaves of rings on $Y_\\etale$ given by\n$h_n^\\sharp : h_{n, *}\\mathcal{O}_{X_n} \\to \\mathcal{O}_{Y_n}$ on $Y_n$.\nWe obtain a morphism of ringed topoi\n$$\nh_\\etale :\n(\\Sh(X_\\etale), \\mathcal{O}_X)\n\\longrightarrow\n(\\Sh(Y_\\etale), \\mathcal{O}_Y)\n$$"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 33,
       "kind": "candidates",
-      "source_line": 6970
+      "source_line": 6970,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 34,
       "kind": "candidates",
-      "source_line": 7259
+      "source_line": 7259,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 35,
       "kind": "candidates",
-      "source_line": 7593
+      "source_line": 7593,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 36,
       "kind": "candidates",
-      "source_line": 7704
+      "source_line": 7704,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 53,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 18
 }
