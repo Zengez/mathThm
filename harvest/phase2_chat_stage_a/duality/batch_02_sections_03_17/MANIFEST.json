@@ -85,19 +85,6 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.b6fb5af44bb86da160ddd687",
-    "candidate.stacks.0550091c5a7779e1cd6a2d7f",
-    "candidate.stacks.4fd5c0c751cf11bf907528b7",
-    "candidate.stacks.64028ab3a2631c1e7444e899",
-    "candidate.stacks.53e62201440ed3ea5a78ec92",
-    "candidate.stacks.e5bd7d2c5586333071a206c5",
-    "candidate.stacks.54888bae93de1fe2d9675b23",
-    "candidate.stacks.3ff4131e3659152b8c1c0fe6",
-    "candidate.stacks.c314e46cc2c4a9dbdda5ed6f",
-    "candidate.stacks.5ff621716a32560658ba0869",
-    "candidate.stacks.7a75058e5ddfc76b44088617",
-    "candidate.stacks.eeb6874eb11362cb77761c58",
-    "candidate.stacks.bb41aadace6b1fbe5661df82",
     "candidate.stacks.1c672c7b12c13195e48b5d53",
     "candidate.stacks.67c10db544b5da2178575177",
     "candidate.stacks.d4dbfcd2ef7d0f3061ec9899",
@@ -147,37 +134,37 @@
       "section": 8,
       "kind": "candidates",
       "source_line": 1837,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 9,
       "kind": "candidates",
       "source_line": 2041,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 10,
       "kind": "candidates",
       "source_line": 2301,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 11,
       "kind": "candidates",
       "source_line": 2458,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 12,
       "kind": "candidates",
       "source_line": 2605,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 13,
       "kind": "candidates",
       "source_line": 3027,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 14,
@@ -189,7 +176,7 @@
       "section": 15,
       "kind": "candidates",
       "source_line": 3279,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 16,
@@ -205,16 +192,16 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 13,
-  "stage_a_remaining_work_candidate_count": 36,
+  "stage_a_ready_for_codex_candidate_count": 35,
+  "stage_a_remaining_work_candidate_count": 13,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 5,
-  "stage_a_remaining_work_section_count": 9,
+  "stage_a_ready_for_codex_section_count": 11,
+  "stage_a_remaining_work_section_count": 2,
   "stage_a_work_pending": true,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
-  "stage_a_further_work_candidate_count": 0,
-  "stage_a_further_work_section_count": 0,
-  "stage_a_dispositioned_section_count": 5,
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "stage_a_dispositioned_section_count": 13,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Source-first Stage A preparation of Duality §§1–7: 19 active statements now self-contained with dualizing definition, D_QCoh right adjoint, coherator, support comparison, base-change α/β and trace/unit transformations. Remaining §§8–17 untouched."
+  "processing_note": "Source-ordered §3–15 prep (first packet §1–2 already committed). §8–15 completed with 23 ready and one further-work hold on sheaf vs ambient category of Koszul regular immersion Ext and zero codimension. Sections 16–17 untouched."
 }
