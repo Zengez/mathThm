@@ -106,42 +106,50 @@
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 684
+      "source_line": 684,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 873
+      "source_line": 873,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 916
+      "source_line": 916,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 1526
+      "source_line": 1526,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 1965
+      "source_line": 1965,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 2468
+      "source_line": 2468,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 2741
+      "source_line": 2741,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 2992
+      "source_line": 2992,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
@@ -152,28 +160,38 @@
           "source_line": 3412,
           "tex": "\\noindent\nLet $S$ be a scheme. We claim there is a category\nwith\n\\begin{enumerate}\n\\item Objects are proper smooth schemes over $S$.\n\\item Morphisms from $X$ to $Y$ are isomorphism classes\nof objects of $D_{perf}(\\mathcal{O}_{X \\times_S Y})$.\n\\item Composition of the isomorphism class of\n$K \\in D_{perf}(\\mathcal{O}_{X \\times_S Y})$\nand the isomorphism class of $K'$ in $D_{perf}(\\mathcal{O}_{Y \\times_S Z})$\nis the isomorphism class of\n$$\nR\\text{pr}_{13, *}(\nL\\text{pr}_{12}^*K\n\\otimes_{\\mathcal{O}_{X \\times_S Y \\times_S Z}}^\\mathbf{L}\nL\\text{pr}_{23}^*K')\n$$\nwhich is in $D_{perf}(\\mathcal{O}_{X \\times_S Z})$ by\nDerived Categories of Schemes, Lemma\n\\ref{perfect-lemma-flat-proper-perfect-direct-image-general}.\n\\item The identity morphism from $X$ to $X$ is the\nisomorphism class of $\\Delta_{X/S, *}\\mathcal{O}_X$\nwhich is in $D_{perf}(\\mathcal{O}_{X \\times_S X})$\nby More on Morphisms, Lemma\n\\ref{more-morphisms-lemma-perfect-closed-immersion-perfect-direct-image}\nand the fact that $\\Delta_{X/S}$ is a perfect morphism by\nDivisors, Lemma\n\\ref{divisors-lemma-immersion-smooth-into-smooth-regular-immersion} and\nMore on Morphisms, Lemma \\ref{more-morphisms-lemma-regular-immersion-perfect}.\n\\end{enumerate}\nLet us check that associativity of composition\nof morphisms holds; we omit verifying that the identity\nmorphisms are indeed identities. To see this suppose we have\n$X, Y, Z, W$ and\n$c \\in D_{perf}(\\mathcal{O}_{X \\times_S Y})$,\n$c' \\in D_{perf}(\\mathcal{O}_{Y \\times_S Z})$, and\n$c'' \\in D_{perf}(\\mathcal{O}_{Z \\times_S W})$. Then we have\n\\begin{align*}\nc'' \\circ (c' \\circ c)\n& \\cong\n\\text{pr}^{134}_{14, *}(\n\\text{pr}^{134, *}_{13}\n\\text{pr}^{123}_{13, *}(\\text{pr}^{123, *}_{12}c \\otimes\n\\text{pr}^{123, *}_{23}c')\n\\otimes \\text{pr}^{134, *}_{34}c'') \\\\\n& \\cong\n\\text{pr}^{134}_{14, *}(\n\\text{pr}^{1234}_{134, *}\n\\text{pr}^{1234, *}_{123}(\\text{pr}^{123, *}_{12}c \\otimes\n\\text{pr}^{123, *}_{23}c')\n\\otimes \\text{pr}^{134, *}_{34}c'') \\\\\n& \\cong\n\\text{pr}^{134}_{14, *}(\n\\text{pr}^{1234}_{134, *}\n(\\text{pr}^{1234, *}_{12}c \\otimes\n\\text{pr}^{1234, *}_{23}c')\n\\otimes \\text{pr}^{134, *}_{34}c'') \\\\\n& \\cong\n\\text{pr}^{134}_{14, *}\n\\text{pr}^{1234}_{134, *}\n((\\text{pr}^{1234, *}_{12}c \\otimes\n\\text{pr}^{1234, *}_{23}c')\n\\otimes \\text{pr}^{1234, *}_{34}c'') \\\\\n& \\cong\n\\text{pr}^{1234}_{14, *}(\n(\\text{pr}^{1234, *}_{12}c \\otimes\n\\text{pr}^{1234, *}_{23}c') \\otimes\n\\text{pr}^{1234, *}_{34}c'')\n\\end{align*}\nHere we use the notation\n$$\np^{1234}_{134} : X \\times_S Y \\times_S Z \\times_S W\n\\to X \\times_S Z \\times_S W\n\\quad\\text{and}\\quad\np^{134}_{14} : X \\times_S Z \\times_S W \\to X \\times_S W\n$$\nthe projections and similarly for other indices.\nWe also write $\\text{pr}_*$ instead of $R\\text{pr}_*$ and\n$\\text{pr}^*$ instead of $L\\text{pr}^*$ and we drop\nall super and sub scripts on $\\otimes$.\nThe first equality is the definition of the composition.\nThe second equality holds because\n$\\text{pr}^{134, *}_{13} \\text{pr}^{123}_{13, *} =\n\\text{pr}^{1234}_{134, *} \\text{pr}^{1234, *}_{123}$\nby base change (Derived Categories of Schemes, Lemma\n\\ref{perfect-lemma-compare-base-change}).\nThe third equality holds because pullbacks compose\ncorrectly and pass through tensor products, see\nCohomology, Lemmas \\ref{cohomology-lemma-derived-pullback-composition} and\n\\ref{cohomology-lemma-pullback-tensor-product}.\nThe fourth equality follows from the ``projection formula'' for\n$p^{1234}_{134}$, see Derived Categories of Schemes, Lemma\n\\ref{perfect-lemma-cohomology-base-change}.\nThe fifth equality is that proper pushforward is compatible\nwith composition, see\nCohomology, Lemma \\ref{cohomology-lemma-derived-pushforward-composition}.\nSince tensor product is associative\nthis concludes the proof of associativity of composition."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 3568
+      "source_line": 3568,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 3738
+      "source_line": 3738,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 4077
+      "source_line": 4077,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 4329
+      "source_line": 4329,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 51,
+  "stage_a_source_hold_candidate_count": 23,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 12
 }

@@ -132,37 +132,44 @@
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 1132
+      "source_line": 1132,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 1325
+      "source_line": 1325,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 1461
+      "source_line": 1461,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 19,
       "kind": "candidates",
-      "source_line": 1750
+      "source_line": 1750,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 1848
+      "source_line": 1848,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 21,
       "kind": "candidates",
-      "source_line": 2085
+      "source_line": 2085,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 22,
       "kind": "candidates",
-      "source_line": 2156
+      "source_line": 2156,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 23,
@@ -177,47 +184,56 @@
           "source_line": 2458,
           "tex": "\\begin{definition}\n\\label{definition-structure-sheaf}\nLet $S$ be a scheme. The {\\it structure sheaf} of $S$ is the sheaf of rings\n$\\mathcal{O}_S$\non any of the sites $S_{Zar}$, $S_\\etale$, or $(\\Sch/S)_\\tau$\ndiscussed above.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 26,
       "kind": "candidates",
-      "source_line": 2546
+      "source_line": 2546,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 27,
       "kind": "candidates",
-      "source_line": 2716
+      "source_line": 2716,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 28,
       "kind": "candidates",
-      "source_line": 2818
+      "source_line": 2818,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 29,
       "kind": "candidates",
-      "source_line": 3185
+      "source_line": 3185,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 30,
       "kind": "candidates",
-      "source_line": 3798
+      "source_line": 3798,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 31,
       "kind": "candidates",
-      "source_line": 3916
+      "source_line": 3916,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 32,
       "kind": "candidates",
-      "source_line": 4071
+      "source_line": 4071,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 33,
       "kind": "candidates",
-      "source_line": 4248
+      "source_line": 4248,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 35,
@@ -240,43 +256,56 @@
           "source_line": 4565,
           "tex": "\\begin{definition}\n\\label{definition-higher-direct-images}\nLet $f: X \\to Y$ be a morphism of schemes.\nThe right derived functors $\\{R^pf_*\\}_{p \\geq 1}$ of\n$f_* : \\textit{Ab}(X_\\etale) \\to \\textit{Ab}(Y_\\etale)$\nare called {\\it higher direct images}.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 36,
       "kind": "candidates",
-      "source_line": 4579
+      "source_line": 4579,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 39,
       "kind": "candidates",
-      "source_line": 4930
+      "source_line": 4930,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 40,
       "kind": "candidates",
-      "source_line": 5168
+      "source_line": 5168,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 42,
       "kind": "candidates",
-      "source_line": 5730
+      "source_line": 5730,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 43,
       "kind": "candidates",
-      "source_line": 5912
+      "source_line": 5912,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 44,
       "kind": "candidates",
-      "source_line": 6096
+      "source_line": 6096,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 45,
       "kind": "candidates",
-      "source_line": 6271
+      "source_line": 6271,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 62,
+  "stage_a_source_hold_candidate_count": 33,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 22
 }

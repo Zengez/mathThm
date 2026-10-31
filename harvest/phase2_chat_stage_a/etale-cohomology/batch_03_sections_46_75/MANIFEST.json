@@ -185,47 +185,56 @@
     {
       "section": 46,
       "kind": "candidates",
-      "source_line": 6574
+      "source_line": 6574,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 48,
       "kind": "candidates",
-      "source_line": 6817
+      "source_line": 6817,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 49,
       "kind": "candidates",
-      "source_line": 6988
+      "source_line": 6988,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 50,
       "kind": "candidates",
-      "source_line": 7167
+      "source_line": 7167,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 51,
       "kind": "candidates",
-      "source_line": 7274
+      "source_line": 7274,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 52,
       "kind": "candidates",
-      "source_line": 7772
+      "source_line": 7772,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 53,
       "kind": "candidates",
-      "source_line": 8008
+      "source_line": 8008,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 54,
       "kind": "candidates",
-      "source_line": 8142
+      "source_line": 8142,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 55,
       "kind": "candidates",
-      "source_line": 8199
+      "source_line": 8199,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 56,
@@ -248,12 +257,14 @@
           "source_line": 8586,
           "tex": "\\noindent\nLet $\\kappa(s) \\subset \\kappa(s)^{sep} \\subset \\kappa(\\overline{s})$\nbe as in the definition. Note that as $\\kappa(\\overline{s})$ is algebraically\nclosed the map\n$$\n\\text{Aut}(\\kappa(\\overline{s})/\\kappa(s))\n\\longrightarrow\n\\text{Gal}(\\kappa(s)^{sep}/\\kappa(s)) = \\text{Gal}_{\\kappa(s)}\n$$\nis surjective. Suppose $(U, \\overline{u})$ is an\n\\'etale neighbourhood of $\\overline{s}$, and say $\\overline{u}$ lies over\nthe point $u$ of $U$. Since $U \\to S$ is \\'etale, the residue field extension\n$\\kappa(u)/\\kappa(s)$ is finite separable.\nThis implies the following\n\\begin{enumerate}\n\\item If $\\sigma \\in \\text{Aut}(\\kappa(\\overline{s})/\\kappa(s)^{sep})$\nthen $\\sigma$ acts trivially on $\\mathcal{F}_{\\overline{s}}$.\n\\item More precisely, the action of\n$\\text{Aut}(\\kappa(\\overline{s})/\\kappa(s))$\ndetermines and is determined by an action of the absolute Galois group\n$\\text{Gal}_{\\kappa(s)}$ on $\\mathcal{F}_{\\overline{s}}$.\n\\item Given $(U, \\overline{u}, t)$ representing an element $\\xi$ of\n$\\mathcal{F}_{\\overline{s}}$ any element of\n$\\text{Gal}(\\kappa(s)^{sep}/K)$ acts trivially, where\n$\\kappa(s) \\subset K \\subset \\kappa(s)^{sep}$ is the image of\n$\\overline{u}^\\sharp : \\kappa(u) \\to \\kappa(\\overline{s})$.\n\\end{enumerate}\nAltogether we see that $\\mathcal{F}_{\\overline{s}}$ becomes a\n$\\text{Gal}_{\\kappa(s)}$-set (see\nFundamental Groups, Definition \\ref{pione-definition-G-set-continuous}).\nHence we may think of the stalk functor as a functor\n$$\n\\Sh(S_\\etale) \\longrightarrow\n\\text{Gal}_{\\kappa(s)}\\textit{-Sets},\n\\quad\n\\mathcal{F} \\longmapsto \\mathcal{F}_{\\overline{s}}\n$$\nand from now on we usually do think about the stalk functor in this way."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 57,
       "kind": "candidates",
-      "source_line": 8766
+      "source_line": 8766,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 58,
@@ -264,88 +275,110 @@
           "source_line": 9010,
           "tex": "\\noindent\nTate's continuous cohomology (\\cite{Tate}) is defined by the complex of\ncontinuous inhomogeneous cochains. We can define this when $M$ is an\narbitrary topological abelian group endowed with a continuous $G$-action.\nNamely, we consider the complex\n$$\nC^\\bullet_{cont}(G, M) :\nM \\to \\text{Maps}_{cont}(G, M) \\to\n\\text{Maps}_{cont}(G \\times G, M) \\to \\ldots\n$$\nwhere the boundary map is defined for $n \\geq 1$ by the rule\n\\begin{align*}\n\\text{d}(f)(g_1, \\ldots, g_{n + 1})\n& = g_1(f(g_2, \\ldots, g_{n + 1})) \\\\\n&\n+ \\sum\\nolimits_{j = 1, \\ldots, n}\n(-1)^jf(g_1, \\ldots, g_jg_{j + 1}, \\ldots, g_{n + 1}) \\\\\n&\n+ (-1)^{n + 1}f(g_1, \\ldots, g_n)\n\\end{align*}\nand for $n = 0$ sends $m \\in M$ to the map $g \\mapsto g(m) - m$. We define\n$$\nH^i_{cont}(G, M) = H^i(C^\\bullet_{cont}(G, M))\n$$\nSince the terms of the complex involve continuous maps from $G$ and\nself products of $G$ into the topological module $M$, it is not clear\nthat this turns a short exact sequence of topological modules into\na long exact cohomology sequence. Another difficulty is that the category\nof topological abelian groups isn't an abelian category!"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 59,
       "kind": "candidates",
-      "source_line": 9069
+      "source_line": 9069,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 61,
       "kind": "candidates",
-      "source_line": 9261
+      "source_line": 9261,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 62,
       "kind": "candidates",
-      "source_line": 9458
+      "source_line": 9458,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 63,
       "kind": "candidates",
-      "source_line": 9599
+      "source_line": 9599,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 64,
       "kind": "candidates",
-      "source_line": 9908
+      "source_line": 9908,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 65,
       "kind": "candidates",
-      "source_line": 10110
+      "source_line": 10110,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 66,
       "kind": "candidates",
-      "source_line": 10329
+      "source_line": 10329,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 67,
       "kind": "candidates",
-      "source_line": 10531
+      "source_line": 10531,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 68,
       "kind": "candidates",
-      "source_line": 10934
+      "source_line": 10934,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 69,
       "kind": "candidates",
-      "source_line": 11104
+      "source_line": 11104,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 70,
       "kind": "candidates",
-      "source_line": 11352
+      "source_line": 11352,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 71,
       "kind": "candidates",
-      "source_line": 11657
+      "source_line": 11657,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 72,
       "kind": "candidates",
-      "source_line": 12027
+      "source_line": 12027,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 73,
       "kind": "candidates",
-      "source_line": 12174
+      "source_line": 12174,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 74,
       "kind": "candidates",
-      "source_line": 12785
+      "source_line": 12785,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 75,
       "kind": "candidates",
-      "source_line": 13136
+      "source_line": 13136,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 75,
+  "stage_a_remaining_work_candidate_count": 39,
+  "stage_a_source_hold_candidate_count": 13,
+  "stage_a_ready_for_codex_section_count": 9,
+  "stage_a_remaining_work_section_count": 17
 }

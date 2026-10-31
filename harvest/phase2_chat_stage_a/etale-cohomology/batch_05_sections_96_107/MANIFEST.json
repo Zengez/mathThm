@@ -29,7 +29,7 @@
   "output_file": "harvest/phase2_chat_stage_a/etale-cohomology/batch_05_sections_96_107/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": true,
+  "stage_a_mathematical_analysis_pending": false,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -59,7 +59,8 @@
           "source_line": 20026,
           "tex": "\\begin{definition}\n\\label{definition-cd-f}\nLet $f : X \\to Y$ be a quasi-compact and quasi-separated\nmorphism of schemes.\nThe {\\it cohomological dimension of $f$} is the smallest\nelement\n$$\n\\text{cd}(f) \\in \\{0, 1, 2, \\ldots\\} \\cup \\{\\infty\\}\n$$\nsuch that for any abelian torsion sheaf $\\mathcal{F}$\non $X_\\etale$ we have $R^if_*\\mathcal{F} = 0$\nfor $i > \\text{cd}(f)$.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 97,
@@ -70,7 +71,8 @@
           "source_line": 20225,
           "tex": "\\noindent\nWe first prove a K\\\"unneth formula in case one of the factors\nis proper. Then we use this formula to prove a base change property\nfor open immersions. This then gives a\n``base change by morphisms towards spectra of fields''\n(akin to smooth base change).\nFinally we use this to get a more general K\\\"unneth formula."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 98,
@@ -81,7 +83,8 @@
           "source_line": 20990,
           "tex": "\\noindent\nWhen constructing the structure sheaf of an affine scheme, we first\nconstruct the values on affine opens, and then we extend to all opens.\nA similar construction is often useful for constructing complexes\nof abelian groups on a scheme $X$. Recall that $X_{affine, Zar}$\ndenotes the category of affine opens of $X$ with topology given\nby standard Zariski coverings, see\nTopologies, Definition \\ref{topologies-definition-big-small-Zariski}.\nWe remind the reader that the topos of $X_{affine, Zar}$\nis the small Zariski topos of $X$, see Topologies, Lemma\n\\ref{topologies-lemma-alternative-zariski}.\nIn this section we denote $X_{affine}$ the same underlying\ncategory with the chaotic topology, i.e., such that sheaves\nagree with presheaves. We obtain a morphisms of sites\n$$\n\\epsilon : X_{affine, Zar} \\longrightarrow X_{affine}\n$$\nas in Cohomology on Sites, Section \\ref{sites-cohomology-section-compare}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 99,
@@ -92,7 +95,8 @@
           "source_line": 21063,
           "tex": "\\noindent\nLet $S$ be a scheme. In\nTopologies, Lemma \\ref{topologies-lemma-at-the-bottom-etale}\nwe have introduced comparison morphisms\n$\\pi_S : (\\Sch/S)_\\etale \\to S_\\etale$ and\n$i_S : \\Sh(S_\\etale) \\to \\Sh((\\Sch/S)_\\etale)$\nwith $\\pi_S \\circ i_S = \\text{id}$ and $\\pi_{S, *} = i_S^{-1}$.\nMore generally, if $f : T \\to S$ is an object of $(\\Sch/S)_\\etale$,\nthen there is a morphism $i_f : \\Sh(T_\\etale) \\to \\Sh((\\Sch/S)_\\etale)$\nsuch that $f_{small} = \\pi_S \\circ i_f$, see\nTopologies, Lemmas \\ref{topologies-lemma-put-in-T-etale} and\n\\ref{topologies-lemma-morphism-big-small-etale}. In\nDescent, Remark \\ref{descent-remark-change-topologies-ringed}\nwe have extended these to a morphism of ringed sites\n$$\n\\pi_S : ((\\Sch/S)_\\etale, \\mathcal{O}) \\to (S_\\etale, \\mathcal{O}_S)\n$$\nand morphisms of ringed topoi\n$$\ni_S : (\\Sh(S_\\etale), \\mathcal{O}_S) \\to (\\Sh((\\Sch/S)_\\etale), \\mathcal{O})\n$$\nand\n$$\ni_f : (\\Sh(T_\\etale), \\mathcal{O}_T) \\to (\\Sh((\\Sch/S)_\\etale, \\mathcal{O}))\n$$\nNote that the restriction $i_S^{-1} = \\pi_{S, *}$ (see\nTopologies, Definition \\ref{topologies-definition-restriction-small-etale})\ntransforms $\\mathcal{O}$ into $\\mathcal{O}_S$.\nSimilarly, $i_f^{-1}$ transforms $\\mathcal{O}$ into $\\mathcal{O}_T$.\nSee Descent, Remark \\ref{descent-remark-change-topologies-ringed}.\nHence $i_S^*\\mathcal{F} = i_S^{-1}\\mathcal{F}$ and\n$i_f^*\\mathcal{F} = i_f^{-1}\\mathcal{F}$ for any $\\mathcal{O}$-module\n$\\mathcal{F}$ on $(\\Sch/S)_\\etale$. In particular $i_S^*$ and $i_f^*$\nare exact functors. The functor $i_S^*$ is often denoted\n$\\mathcal{F} \\mapsto \\mathcal{F}|_{S_\\etale}$ (and this does not\nconflict with the notation in\nTopologies, Definition \\ref{topologies-definition-restriction-small-etale})."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 106,
@@ -103,8 +107,14 @@
           "source_line": 23530,
           "tex": "\\noindent\nIn this section we continue the discussion in\nMore on Flatness, Section \\ref{flat-section-blow-up-h}.\nFor the convenience of the reader we recall that an\nalmost blow up square is a commutative diagram\n\\begin{equation}\n\\label{equation-almost-blow-up-square}\n\\vcenter{\n\\xymatrix{\nE \\ar[d] \\ar[r] & X' \\ar[d]^b \\\\\nZ \\ar[r] & X\n}\n}\n\\end{equation}\nof schemes satisfying the following conditions:\n\\begin{enumerate}\n\\item $Z \\to X$ is a closed immersion of finite presentation,\n\\item $E = b^{-1}(Z)$ is a locally principal closed subscheme of $X'$,\n\\item $b$ is proper and of finite presentation,\n\\item the closed subscheme $X'' \\subset X'$ cut out by the quasi-coherent\nideal of sections of $\\mathcal{O}_{X'}$ supported on $E$\n(Properties, Lemma \\ref{properties-lemma-sections-supported-on-closed-subset})\nis the blow up of $X$ in $Z$.\n\\end{enumerate}\nIt follows that the morphism $b$ induces an isomorphism\n$X' \\setminus E \\to X \\setminus Z$."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 0
 }
