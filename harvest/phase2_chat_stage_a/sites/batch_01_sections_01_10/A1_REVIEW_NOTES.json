@@ -1,0 +1,263 @@
+{
+  "schema": "maththm.phase2.chat-stage-a1-source-review-notes.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviews": {
+    "lemma-image": {
+      "hypotheses": [
+        "A category and a presheaf morphism F→G."
+      ],
+      "conclusions": [
+        "A unique subpresheaf G' of G receives a surjection from F and factors the original morphism."
+      ],
+      "logical_form": "existence_uniqueness",
+      "preface_key": "",
+      "review_note": ""
+    },
+    "lemma-almost-directed": {
+      "hypotheses": [
+        "A functor u:C→D preserving existing fibre products and equalizers in C."
+      ],
+      "conclusions": [
+        "For every V in D, the opposite of the category I_V satisfies the two conditions on common-source arrow comparison and parallel-arrow equalization from the pinned Categories lemma."
+      ],
+      "logical_form": "structural_property",
+      "preface_key": "I",
+      "review_note": "Need replace cited lemma with both exact quantified conditions; no nonemptiness asserted."
+    },
+    "lemma-directed": {
+      "hypotheses": [
+        "A functor u:C→D preserving fibre products, with a final object X in C whose image is final in D."
+      ],
+      "conclusions": [
+        "Each opposite indexing category I_V^opp is filtered (nonempty, admits cocones for pairs of objects, and coequalizes parallel arrows)."
+      ],
+      "logical_form": "structural_property",
+      "preface_key": "I",
+      "review_note": "Definition-directed is terminology, not another hypothesis."
+    },
+    "lemma-adjoints-u": {
+      "hypotheses": [
+        "A functor u:C→D and its source-defined functors u_p and u^p on presheaves."
+      ],
+      "conclusions": [
+        "u_p is left adjoint to u^p, naturally in the two presheaf arguments."
+      ],
+      "logical_form": "adjunction",
+      "preface_key": "u",
+      "review_note": ""
+    },
+    "lemma-pullback-representable-presheaf": {
+      "hypotheses": [
+        "A functor u:C→D and an object U of C."
+      ],
+      "conclusions": [
+        "u_p h_U is canonically isomorphic to h_{u(U)}."
+      ],
+      "logical_form": "canonical_isomorphism",
+      "preface_key": "u",
+      "review_note": ""
+    },
+    "lemma-tautological-combinatorial": {
+      "hypotheses": [
+        "Two families of morphisms with the same fixed target in a category."
+      ],
+      "conclusions": [
+        "Combinatorial equivalence implies tautological equivalence; tautological equivalence implies mutual refinement; each of these three relations is an equivalence relation."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "",
+      "review_note": ""
+    },
+    "lemma-tautological-same-sheaf": {
+      "hypotheses": [
+        "Two same-target families, with stated fibre products existing, which are tautologically equivalent."
+      ],
+      "conclusions": [
+        "A presheaf obeys the sheaf condition for one family if and only if it obeys the sheaf condition for the other."
+      ],
+      "logical_form": "conditional_equivalence",
+      "preface_key": "",
+      "review_note": ""
+    },
+    "lemma-compare-separated-presheaf-condition": {
+      "hypotheses": [
+        "A same-target morphism V→U of families specified by identity, index map and component maps; F(U)→product F(V_j) injective."
+      ],
+      "conclusions": [
+        "F(U)→product F(U_i) is injective."
+      ],
+      "logical_form": "implication",
+      "preface_key": "",
+      "review_note": ""
+    },
+    "lemma-compare-sheaf-condition": {
+      "hypotheses": [
+        "A same-target morphism of families, existence of listed fibre products, sheaf condition for V, and injectivity of all specified maps on each U_i."
+      ],
+      "conclusions": [
+        "The sheaf condition holds for U."
+      ],
+      "logical_form": "implication",
+      "preface_key": "",
+      "review_note": ""
+    },
+    "lemma-refine-same-topology": {
+      "hypotheses": [
+        "Two sets of coverings each defining a site on the same category."
+      ],
+      "conclusions": [
+        "Under one-way tautological-equivalence coverage, sheaves for Cov_2 are included in sheaves for Cov_1; symmetric coverage gives equality.",
+        "Under one-way refinement coverage, the same inclusion holds; symmetric refinement coverage gives equality."
+      ],
+      "logical_form": "enumerated_conditional_implications",
+      "preface_key": "",
+      "review_note": ""
+    },
+    "lemma-choice-set-coverings-immaterial": {
+      "hypotheses": [
+        "A proper class of coverings obeying all three site axioms, with two subsets defining sites and each containing a combinatorially equivalent representative of every class covering."
+      ],
+      "conclusions": [
+        "The two resulting sheaf categories are equal."
+      ],
+      "logical_form": "implication",
+      "preface_key": "",
+      "review_note": "Expand cited Definition of site to explicit axioms, not additional premises."
+    },
+    "proposition-sheaves-on-group": {
+      "hypotheses": [
+        "A group G and its site T_G satisfying the source-specified properties; the functors F↦F(G) and S↦F_S."
+      ],
+      "conclusions": [
+        "The evaluation and functor-of-points constructions give quasi-inverse equivalences between sheaves on T_G and G-Sets."
+      ],
+      "logical_form": "equivalence_of_categories",
+      "preface_key": "G",
+      "review_note": ""
+    },
+    "lemma-limit-sheaf": {
+      "hypotheses": [
+        "A site C and a diagram I→Sh(C)."
+      ],
+      "conclusions": [
+        "The diagram has a limit in Sh(C), computed by the same presheaf limit."
+      ],
+      "logical_form": "existence_identity",
+      "preface_key": "",
+      "review_note": ""
+    },
+    "lemma-plus-presheaf": {
+      "hypotheses": [
+        "A site C, a presheaf F and its source-defined covering-colimit plus construction."
+      ],
+      "conclusions": [
+        "The plus construction forms a presheaf and yields a canonical morphism F→F^+."
+      ],
+      "logical_form": "construction",
+      "preface_key": "plus",
+      "review_note": ""
+    },
+    "lemma-plus-functorial": {
+      "hypotheses": [
+        "A site C and the plus construction on its presheaves."
+      ],
+      "conclusions": [
+        "The map sending F to (F→F^+) is functorial in F."
+      ],
+      "logical_form": "functoriality",
+      "preface_key": "plus",
+      "review_note": ""
+    },
+    "lemma-common-refinement": {
+      "hypotheses": [
+        "Two coverings of the same U in a site C."
+      ],
+      "conclusions": [
+        "There exists a covering of U refining both."
+      ],
+      "logical_form": "existence",
+      "preface_key": "",
+      "review_note": ""
+    },
+    "lemma-independent-refinement": {
+      "hypotheses": [
+        "Two morphisms of coverings f,g:U→V with the same target map, and a presheaf F."
+      ],
+      "conclusions": [
+        "They induce identical maps H0(V,F)→H0(U,F)."
+      ],
+      "logical_form": "equality_of_induced_maps",
+      "preface_key": "plus",
+      "review_note": ""
+    },
+    "lemma-plus-surjective": {
+      "hypotheses": [
+        "A presheaf F on a site C, object U, and section s∈F^+(U)."
+      ],
+      "conclusions": [
+        "There exists a covering of U over which s is locally in the image of F→F^+."
+      ],
+      "logical_form": "local_existence",
+      "preface_key": "plus",
+      "review_note": ""
+    },
+    "proposition-sheafification-adjoint": {
+      "hypotheses": [
+        "A presheaf F and a sheaf G on a site, with a morphism F→G."
+      ],
+      "conclusions": [
+        "The morphism factors uniquely through the canonical map F→F# to a morphism F#→G."
+      ],
+      "logical_form": "universal_property",
+      "preface_key": "sharp",
+      "review_note": ""
+    },
+    "lemma-colimit-sheaves": {
+      "hypotheses": [
+        "A diagram of sheaves on a site."
+      ],
+      "conclusions": [
+        "Its colimit in sheaves exists and is sheafification of its colimit in presheaves."
+      ],
+      "logical_form": "existence_identity",
+      "preface_key": "",
+      "review_note": ""
+    },
+    "lemma-sheafification-exact": {
+      "hypotheses": [
+        "The sheafification functor PSh(C)→Sh(C) on a site C."
+      ],
+      "conclusions": [
+        "The sheafification functor is exact."
+      ],
+      "logical_form": "exactness",
+      "preface_key": "sharp",
+      "review_note": ""
+    },
+    "lemma-sections-sheafification": {
+      "hypotheses": [
+        "A site C, presheaf F, object U and section of F# on U."
+      ],
+      "conclusions": [
+        "A covering of U and local lifts of the section exist, agreeing after suitable further coverings of overlaps.",
+        "Conversely locally compatible sections determine a unique global sheafified section with the prescribed local images."
+      ],
+      "logical_form": "local_existence_converse_uniqueness",
+      "preface_key": "sharp",
+      "review_note": ""
+    },
+    "lemma-isomorphism-sheafifications": {
+      "hypotheses": [
+        "A map F→G of presheaves on a site, locally bijective on a covering of every object."
+      ],
+      "conclusions": [
+        "The induced map F#→G# is an isomorphism."
+      ],
+      "logical_form": "implication",
+      "preface_key": "sharp",
+      "review_note": ""
+    }
+  },
+  "source_first_scope": "sites.tex sections 1–10",
+  "proofs_read": false
+}

@@ -1,0 +1,217 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-source-ordered-batch-02",
+  "chapter": "sites.tex",
+  "sections_ordinal": [
+    11,
+    20
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    2236,
+    2314,
+    2520,
+    2683,
+    2930,
+    3153,
+    3245,
+    3760,
+    4059,
+    4242
+  ],
+  "first_source_line": 2236,
+  "last_source_line": 4437,
+  "complete_sections": true,
+  "stage_a_candidate_count": 24,
+  "candidate_ids": [
+    "candidate.stacks.0389123c7090f64a9a5bd21e",
+    "candidate.stacks.e561c089cb821a08c13abe29",
+    "candidate.stacks.5056c9a837831ee05c94c882",
+    "candidate.stacks.d94186bed2e51f548d0e8b3f",
+    "candidate.stacks.96f76af985f4a8c76c5fb9aa",
+    "candidate.stacks.cfdb4337f7964ec31669c93e",
+    "candidate.stacks.0bac10f712d11e2a0b271dbe",
+    "candidate.stacks.1b63f1de28cd2447aed8a08c",
+    "candidate.stacks.882ae9f2b78cfae28ebcd5a5",
+    "candidate.stacks.1e7e3343acde9ab2570574a4",
+    "candidate.stacks.f43c387d21a1aa425c5c958a",
+    "candidate.stacks.5d891897c69966cf9b63d173",
+    "candidate.stacks.af7183da008c39b9b0314c62",
+    "candidate.stacks.88148c88782a0b56cdb7d1cb",
+    "candidate.stacks.a09961a0e87b329893bd1e11",
+    "candidate.stacks.d21f0356c700912f57acf10b",
+    "candidate.stacks.3751b093f583bd4c2cc1bf4b",
+    "candidate.stacks.a98dd7b7d037bc886d4e7045",
+    "candidate.stacks.f652703a4bdc906f5354d919",
+    "candidate.stacks.d0558e0cd1429fb4ae60440e",
+    "candidate.stacks.176d20bcb60f1cc7647e5372",
+    "candidate.stacks.6c180ec56532af32a9acdffc",
+    "candidate.stacks.fa08c2d2c6fdc3c044f6c6a3",
+    "candidate.stacks.8a7898e06e24647c811dded3"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites/batch_02_sections_11_20/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/sites/batch_02_sections_11_20/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/sites/batch_02_sections_11_20/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-sites-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    16
+  ],
+  "stage_a_ready_for_codex_candidate_count": 23,
+  "stage_a_remaining_work_candidate_count": 1,
+  "stage_a_ready_for_codex_section_count": 8,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "processing_sections": [
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2236,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.0389123c7090f64a9a5bd21e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Injective and surjective maps of sheaves"
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2314,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e561c089cb821a08c13abe29",
+        "candidate.stacks.5056c9a837831ee05c94c882",
+        "candidate.stacks.d94186bed2e51f548d0e8b3f"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Representable sheaves"
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2520,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.96f76af985f4a8c76c5fb9aa",
+        "candidate.stacks.cfdb4337f7964ec31669c93e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Continuous functors"
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2683,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.0bac10f712d11e2a0b271dbe",
+        "candidate.stacks.1b63f1de28cd2447aed8a08c",
+        "candidate.stacks.882ae9f2b78cfae28ebcd5a5",
+        "candidate.stacks.1e7e3343acde9ab2570574a4"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Morphisms of sites"
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2930,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f43c387d21a1aa425c5c958a"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Topoi"
+    },
+    {
+      "section": 16,
+      "kind": "context_only",
+      "source_line": 3153,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "G-sets and morphisms"
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 3245,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.5d891897c69966cf9b63d173",
+        "candidate.stacks.af7183da008c39b9b0314c62",
+        "candidate.stacks.88148c88782a0b56cdb7d1cb",
+        "candidate.stacks.a09961a0e87b329893bd1e11",
+        "candidate.stacks.d21f0356c700912f57acf10b",
+        "candidate.stacks.3751b093f583bd4c2cc1bf4b"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.3751b093f583bd4c2cc1bf4b"
+      ],
+      "stage_a_source_context_heading": "Quasi-compact objects and colimits"
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3760,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.a98dd7b7d037bc886d4e7045",
+        "candidate.stacks.f652703a4bdc906f5354d919",
+        "candidate.stacks.d0558e0cd1429fb4ae60440e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Colimits of sites"
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 4059,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.176d20bcb60f1cc7647e5372",
+        "candidate.stacks.6c180ec56532af32a9acdffc"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "More functoriality of presheaves"
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 4242,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.fa08c2d2c6fdc3c044f6c6a3",
+        "candidate.stacks.8a7898e06e24647c811dded3"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Cocontinuous functors"
+    }
+  ],
+  "stage_a_context_analysis": "Named inverse-limit Situation reconstructed for three active §18 candidate statements; functor categories and continuous/cocontinuous notation scoped. Ordinal-size hold recorded without invented threshold."
+}

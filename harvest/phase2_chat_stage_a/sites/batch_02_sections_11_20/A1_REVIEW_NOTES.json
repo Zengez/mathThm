@@ -1,0 +1,302 @@
+{
+  "schema": "maththm.phase2.chat-stage-a1-source-review-notes.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviews": {
+    "lemma-coequalizer-surjection": {
+      "hypotheses": [
+        "A surjection F→G of sheaves of sets on a site C."
+      ],
+      "conclusions": [
+        "The parallel projections F×_G F⇒F with F→G form a coequalizer diagram."
+      ],
+      "logical_form": "coequalizer",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-covering-surjective-after-sheafification": {
+      "hypotheses": [
+        "A covering family {U_i→U} of a site C."
+      ],
+      "conclusions": [
+        "The map from the coproduct of representables h_{U_i} to h_U becomes surjective after sheafification."
+      ],
+      "logical_form": "implication",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-sheaf-coequalizer-representable": {
+      "hypotheses": [
+        "A site C and E⊂Ob(C) such that every object has a covering by objects in E; a sheaf F."
+      ],
+      "conclusions": [
+        "There is a coequalizer diagram F1⇒F0→F in sheaves with F0 and F1 coproducts of associated representables h_U# for U∈E."
+      ],
+      "logical_form": "existence_coequalizer",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-colimit-representable": {
+      "hypotheses": [
+        "A site C and a sheaf F; optionally a covering family of generators E⊂Ob(C)."
+      ],
+      "conclusions": [
+        "F can be expressed as a colimit of associated representables h_{U_i}#.",
+        "If every object is covered by elements of E, the U_i may all be chosen in E."
+      ],
+      "logical_form": "existence_with_moreover",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-pushforward-sheaf": {
+      "hypotheses": [
+        "A continuous functor u:C→D of sites and a sheaf F on D."
+      ],
+      "conclusions": [
+        "The presheaf u^p F=F∘u is a sheaf on C."
+      ],
+      "logical_form": "implication",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-pullback-representable-sheaf": {
+      "hypotheses": [
+        "A continuous functor u:C→D of sites and U∈Ob(C)."
+      ],
+      "conclusions": [
+        "u_s(h_U#) is canonically isomorphic to h_{u(U)}#."
+      ],
+      "logical_form": "canonical_isomorphism",
+      "preface_key": "us",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-composition-morphisms-sites": {
+      "hypotheses": [
+        "Three sites and continuous functors u:C2→C1 and v:C3→C2, each defining morphisms of sites."
+      ],
+      "conclusions": [
+        "The composite u∘v is continuous and defines a morphism of sites C1→C3."
+      ],
+      "logical_form": "composition",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-directed-morphism": {
+      "hypotheses": [
+        "A continuous functor u:C→D of sites; each category (I^u_V)^opp is filtered."
+      ],
+      "conclusions": [
+        "u induces a morphism of sites D→C, equivalently its sheafification-assisted left adjoint u_s is exact."
+      ],
+      "logical_form": "implication",
+      "preface_key": "I",
+      "hold_reason": "",
+      "review_note": "Indexing category definition from §5 is explicitly supplied; no assumptions of earlier lemmas carry over."
+    },
+    "proposition-get-morphism": {
+      "hypotheses": [
+        "A continuous u:C→D with final object X of C mapped to final D-object, and fibre products in C preserved by u."
+      ],
+      "conclusions": [
+        "u induces a morphism of sites D→C, i.e. u_s is exact."
+      ],
+      "logical_form": "implication",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-morphism-of-sites-covering": {
+      "hypotheses": [
+        "A morphism of sites f:D→C corresponding to continuous u:C→D, and an object V of D."
+      ],
+      "conclusions": [
+        "V has a covering {V_j→V} each term of which maps to u(U_j) for some U_j∈C."
+      ],
+      "logical_form": "covering_existence",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-morphism-sites-topoi": {
+      "hypotheses": [
+        "A morphism of sites f:D→C induced by continuous u:C→D."
+      ],
+      "conclusions": [
+        "The adjoint pair (f^-1=u_s,f_*=u^s) defines a morphism of topoi Sh(D)→Sh(C)."
+      ],
+      "logical_form": "morphism_construction",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-conclude-quasi-compact": {
+      "hypotheses": [
+        "A site C and object U; conditions (1) quasi-compactness, (2) every covering has a finite covering refining it, (3) every covering admits a finite subfamily which is a covering."
+      ],
+      "conclusions": [
+        "(3) implies (2), which implies (1); neither converse holds in general."
+      ],
+      "logical_form": "implication_chain_with_counterexamples",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-quasi-compact": {
+      "hypotheses": [
+        "A site C and object U."
+      ],
+      "conclusions": [
+        "Quasi-compactness of U is equivalent to finite subcoproduct surjectivity of every coproduct of sheaves onto h_U#."
+      ],
+      "logical_form": "equivalence",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-image-of-quasi-compact": {
+      "hypotheses": [
+        "A site C."
+      ],
+      "conclusions": [
+        "A surjection h_U#→h_V# induced by U→V preserves quasi-compactness from U to V.",
+        "Any surjection of sheaves F→G carries quasi-compactness from F to G."
+      ],
+      "logical_form": "two_conditional_assertions",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-coproduct-quasi-compact": {
+      "hypotheses": [
+        "A positive integer n and n quasi-compact sheaves F_i on a site."
+      ],
+      "conclusions": [
+        "Their finite coproduct is quasi-compact."
+      ],
+      "logical_form": "implication",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-directed-colimits-global-sections": {
+      "hypotheses": [
+        "A site C, a filtered diagram of sheaves, and the canonical map Ψ from colimit of global sections to global sections of the colimit."
+      ],
+      "conclusions": [
+        "(1) Injective transitions imply Ψ injective.",
+        "(2) Quasi-compactness of Sh(C) implies Ψ injective.",
+        "(3) Quasi-compactness plus injective transitions implies Ψ is an isomorphism.",
+        "(4) The specified generating set S with quasi-compact self-products implies Ψ bijective."
+      ],
+      "logical_form": "enumerated_conditional_assertions",
+      "preface_key": "",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-colimit-over-ordinal-sections": {
+      "hypotheses": [
+        "A site C, ordinal β, an ordinal-indexed system of sheaves, and an object U."
+      ],
+      "conclusions": [
+        "The evaluation map from the colimit of sections to the sections of the colimit is bijective under a cofinality-size condition."
+      ],
+      "logical_form": "conditional_implication",
+      "preface_key": "",
+      "hold_reason": "The statement says 'cofinality of β is large enough' without a value or quantified threshold, so cannot certify a precise standalone hypothesis.",
+      "review_note": "Determine the actual cardinal threshold or revise the source claim; no numeric bound is specified in the source statement."
+    },
+    "lemma-compute-pullback-to-limit": {
+      "hypotheses": [
+        "A cofiltered inverse system of sites with finite covering-index sets, compatible transition morphisms, its constructed colimit site C, an index i, an object U_i, and sheaf F on C_i."
+      ],
+      "conclusions": [
+        "The canonical functor u_i defines a site morphism f_i and the evaluation of f_i^-1 F at u_i(U_i) is a colimit of f_a^-1 F evaluated at u_a(U_i)."
+      ],
+      "logical_form": "morphism_and_formula",
+      "preface_key": "situation",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-colimit": {
+      "hypotheses": [
+        "A cofiltered inverse system of sites; compatible sheaves F_i and morphisms φ_a satisfying φ_c=φ_b◦f_b^-1φ_a."
+      ],
+      "conclusions": [
+        "For each index i and object X_i the indicated colimit of F_j(u_a(X_i)) identifies with the colimit sheaf F at u_i(X_i)."
+      ],
+      "logical_form": "colimit_identity",
+      "preface_key": "situation",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-colimit-push-pull": {
+      "hypotheses": [
+        "A cofiltered inverse system of sites with constructed colimit site C and a sheaf F on C."
+      ],
+      "conclusions": [
+        "F is the colimit of f_i^-1 f_{i,*} F, along canonical transition maps satisfying the same cocycle compatibility as the previous colimit lemma."
+      ],
+      "logical_form": "colimit_identity",
+      "preface_key": "situation",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-adjoints-pu": {
+      "hypotheses": [
+        "A functor u:C→D and the presheaf functors u^p and _p u."
+      ],
+      "conclusions": [
+        "The functor _p u is right adjoint to u^p via the displayed natural Hom identity."
+      ],
+      "logical_form": "adjunction",
+      "preface_key": "pu",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-adjoint-functors": {
+      "hypotheses": [
+        "Functors u:C→D and v:D→C, with v right adjoint to u."
+      ],
+      "conclusions": [
+        "The pullback of h_V by u is h_{v(V)}.",
+        "The category I^v_U has an initial object.",
+        "The category _V^u I has a final object.",
+        "The right and left Kan extension identities _p u=v^p and u^p=v_p hold."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "pu",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-pu-sheaf": {
+      "hypotheses": [
+        "A cocontinuous u:C→D and a sheaf F on C."
+      ],
+      "conclusions": [
+        "The right Kan-extension presheaf _p u F is a sheaf on D, denoted _s u F."
+      ],
+      "logical_form": "implication",
+      "preface_key": "pu",
+      "hold_reason": "",
+      "review_note": ""
+    },
+    "lemma-exact-cocontinuous": {
+      "hypotheses": [
+        "A cocontinuous functor u:C→D of sites."
+      ],
+      "conclusions": [
+        "Sheafified pullback G↦(u^p G)# is an exact left adjoint to _s u on sheaves."
+      ],
+      "logical_form": "adjunction_exactness",
+      "preface_key": "pu",
+      "hold_reason": "",
+      "review_note": "The notation _s u comes from the preceding source lemma as the sheaf-valued _p u functor."
+    }
+  }
+}

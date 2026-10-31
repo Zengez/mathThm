@@ -1,0 +1,374 @@
+{
+  "schema": "maththm.phase2.chat-stage-a0-chapter-source-packet.v2",
+  "source_file": "sites.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/sites.tex",
+  "working_parent_branch": "work/phase2-stage-a-context-enrichment",
+  "physical_sections": 52,
+  "candidate_bearing_source_sections": 42,
+  "context_only_source_sections": 10,
+  "raw_harvest_style_source_environments": 161,
+  "provisionally_reconstructed_candidate_ids": [
+    "candidate.stacks.744bf61ca8b30bc841e2bf4f",
+    "candidate.stacks.1ef24214c398211b0b439686",
+    "candidate.stacks.e31311f120186f0c57e821a3",
+    "candidate.stacks.b9ff8319e8dc70adb504b881",
+    "candidate.stacks.2ce5f13f6166ba3c7e9ac23f",
+    "candidate.stacks.54c6889a605c67d6588f2b6a",
+    "candidate.stacks.96f3e0a6c818699e4d60c637",
+    "candidate.stacks.07d3b9e7d2046f35a7f84c4d",
+    "candidate.stacks.92c250165f7ab27b798ac3f9",
+    "candidate.stacks.9a395e7cb0c5864c489b6f29",
+    "candidate.stacks.a9338be0161846ac85d38a71",
+    "candidate.stacks.269cde732cf26ce1423aa5db",
+    "candidate.stacks.69873496d64d71e86d2abf40",
+    "candidate.stacks.434ca6e2558af47040c7246e",
+    "candidate.stacks.92ad20ae804d1c1917d6c248",
+    "candidate.stacks.1db4a7e227805d0f563162f7",
+    "candidate.stacks.36322b1b5459a044e5db897f",
+    "candidate.stacks.bf430b9cdb113c61c0f3612b",
+    "candidate.stacks.def259d2182d22ad74941c58",
+    "candidate.stacks.81a0f5c1a953652e05bdf3fb",
+    "candidate.stacks.b95f023b6223eecede3cb221",
+    "candidate.stacks.659e88ed6f95fed95cee79ba",
+    "candidate.stacks.25a277b2959c97228dbb1e0d",
+    "candidate.stacks.eae68af0da230e559c7e9ca3",
+    "candidate.stacks.60de5dd7c096b93ef0776a19",
+    "candidate.stacks.909d5d19ff6ec2c02df6cb66",
+    "candidate.stacks.f62ce568426270c0d1402d1f",
+    "candidate.stacks.0389123c7090f64a9a5bd21e",
+    "candidate.stacks.e561c089cb821a08c13abe29",
+    "candidate.stacks.5056c9a837831ee05c94c882",
+    "candidate.stacks.d94186bed2e51f548d0e8b3f",
+    "candidate.stacks.96f76af985f4a8c76c5fb9aa",
+    "candidate.stacks.73503efd14dba85932a91a31",
+    "candidate.stacks.f73d4b2b2a173383ebc66556",
+    "candidate.stacks.cfdb4337f7964ec31669c93e",
+    "candidate.stacks.0bac10f712d11e2a0b271dbe",
+    "candidate.stacks.1b63f1de28cd2447aed8a08c",
+    "candidate.stacks.882ae9f2b78cfae28ebcd5a5",
+    "candidate.stacks.1e7e3343acde9ab2570574a4",
+    "candidate.stacks.f43c387d21a1aa425c5c958a",
+    "candidate.stacks.5d891897c69966cf9b63d173",
+    "candidate.stacks.af7183da008c39b9b0314c62",
+    "candidate.stacks.88148c88782a0b56cdb7d1cb",
+    "candidate.stacks.a09961a0e87b329893bd1e11",
+    "candidate.stacks.48003da4bad0e95362ea2fcc",
+    "candidate.stacks.d21f0356c700912f57acf10b",
+    "candidate.stacks.3751b093f583bd4c2cc1bf4b",
+    "candidate.stacks.c2f89cddac7bc7518617c118",
+    "candidate.stacks.a98dd7b7d037bc886d4e7045",
+    "candidate.stacks.f652703a4bdc906f5354d919",
+    "candidate.stacks.d0558e0cd1429fb4ae60440e",
+    "candidate.stacks.4c41c3bb23f745d264c22a3a",
+    "candidate.stacks.176d20bcb60f1cc7647e5372",
+    "candidate.stacks.6c180ec56532af32a9acdffc",
+    "candidate.stacks.fa08c2d2c6fdc3c044f6c6a3",
+    "candidate.stacks.8a7898e06e24647c811dded3",
+    "candidate.stacks.59edb808d0b0ac065aa7ff54",
+    "candidate.stacks.12798d1ee825b8c425a799e5",
+    "candidate.stacks.e6238f0681191009a89effe7",
+    "candidate.stacks.a2aabdb2ac6738d00ecc65eb",
+    "candidate.stacks.d564054106f535502ced2d9e",
+    "candidate.stacks.733680968337af87714cb1ce",
+    "candidate.stacks.acbb2e3b7870540a5d535d07",
+    "candidate.stacks.772a6312cbd126e9ce5f607e",
+    "candidate.stacks.c506d1f5453019bc640b0e38",
+    "candidate.stacks.3a33e1360846f97af6248199",
+    "candidate.stacks.eb8882db5808016bbc0525e4",
+    "candidate.stacks.01007f1269f67417acc2c966",
+    "candidate.stacks.d78af772356aef478531ccea",
+    "candidate.stacks.3e86b0bc2db7e896b3122571",
+    "candidate.stacks.9ac7cf6e1caf9d63625454ce",
+    "candidate.stacks.c24888c01b415a6ff04c8c6d",
+    "candidate.stacks.c8785ec690b4254d8c5254ea",
+    "candidate.stacks.1282ba3d9101650ebd170c01",
+    "candidate.stacks.418707e26f1816caffa2d276",
+    "candidate.stacks.e84051e7744c6e19609e9ad7",
+    "candidate.stacks.1c0da5b10181482c446fe20f",
+    "candidate.stacks.9a3ddbf9057ee3950f2a5e31",
+    "candidate.stacks.419a9caa56a216fcb2101e04",
+    "candidate.stacks.8b12af81bfffe3af407ebb98",
+    "candidate.stacks.fb2dbd2dc2eb48f0b8caac41",
+    "candidate.stacks.441be4d39dc3d87dc3f34555",
+    "candidate.stacks.721100ecbd3662576807de37",
+    "candidate.stacks.d37b6cca2c72446ce3671662",
+    "candidate.stacks.48591c41a32a2abd7472e29a",
+    "candidate.stacks.8b7db7883394656178216b9d",
+    "candidate.stacks.36169fb8afc46e3416565b6c",
+    "candidate.stacks.e606f26938d7f821b94b7062",
+    "candidate.stacks.d0c287e6a7471b025aad4550",
+    "candidate.stacks.55c7f8a76e8f2fcd09dd8ca4",
+    "candidate.stacks.93966735b8c551c9c070e398",
+    "candidate.stacks.034116468a093d5ef7046ce6",
+    "candidate.stacks.377bc79c48b26ec3904ec754",
+    "candidate.stacks.024d325e580493641d0aae79",
+    "candidate.stacks.a0cc566972db047f0a2e86e7",
+    "candidate.stacks.480ac2c1fe30f05025064aae",
+    "candidate.stacks.e7014e9f4ff5b82560e3eebf",
+    "candidate.stacks.4cc2b4bafa159d298f7f911f",
+    "candidate.stacks.a36a3d8c19eac02e474d7324",
+    "candidate.stacks.ee99777c96a27b3429483ee8",
+    "candidate.stacks.70cce52238834bbbe458e842",
+    "candidate.stacks.3f09229207e8e00a9cee0fe9",
+    "candidate.stacks.f951e58bf5262bf468b989a7",
+    "candidate.stacks.9d52dcbd2614f574bac0f01e",
+    "candidate.stacks.860d29a44e24583655041f3b",
+    "candidate.stacks.d88e2eb5f5e8ccdd54201e95",
+    "candidate.stacks.62aec728867f77050932154b",
+    "candidate.stacks.ebe2fdfeb3f9d5ad7407b6e7",
+    "candidate.stacks.d4acd07598d51c82cbe81733",
+    "candidate.stacks.0d2fa81701adaaf5a91e4d23",
+    "candidate.stacks.9d0009c9b0d9b6ef479929ac",
+    "candidate.stacks.229536b03b36f04b4d59429f",
+    "candidate.stacks.acd4c285f88b917e973424a6",
+    "candidate.stacks.cf3596b767fd338b8ff37e3f",
+    "candidate.stacks.e6e8f0c5b0c92b93e646054d",
+    "candidate.stacks.f586cc75b9fd9ca6e3a39740",
+    "candidate.stacks.673eb51e6a12d389fcae271f",
+    "candidate.stacks.fa84cde7c61e38508b7192dd",
+    "candidate.stacks.154b4bf2c4667b5ee3a07a2a",
+    "candidate.stacks.14e2a0a8eaa199c4259847f4",
+    "candidate.stacks.44e939a784206092bc8f5c1d",
+    "candidate.stacks.b4c1c43be0593ff2f23f0110",
+    "candidate.stacks.94e3460f16d4489053db8c3d",
+    "candidate.stacks.ab998e194607827ff2144181",
+    "candidate.stacks.0af8b6d2d7c17046230f4d10",
+    "candidate.stacks.2ba9c92e2c528bcfad4f3edd",
+    "candidate.stacks.07cce61c2fc03d00553c7ecf",
+    "candidate.stacks.cc4c45f6f7e4b6d775878f81",
+    "candidate.stacks.6613c4069af491a86c046604",
+    "candidate.stacks.aa11d54610d63dd7f744ab33",
+    "candidate.stacks.a890d0752a8fb5e143e3ff6c",
+    "candidate.stacks.a4c8dcebacd438145353910d",
+    "candidate.stacks.126800c30617a052cc7d9bc2",
+    "candidate.stacks.726ba8a2306b83e9229e6b55",
+    "candidate.stacks.9a35c613b9b285759576edea",
+    "candidate.stacks.451a523e0a6ec8f5af742207",
+    "candidate.stacks.570b5b5472abeca1a049537a",
+    "candidate.stacks.88990655b51d513e733ccde4",
+    "candidate.stacks.99519e1fc07ba51126c6cdb9",
+    "candidate.stacks.505cd9dd4dffd5e39963636c",
+    "candidate.stacks.38e23d60349b1f728b85088f",
+    "candidate.stacks.7331efe9c41982d557d0cde2",
+    "candidate.stacks.0388ebab364e6e44b49c0674",
+    "candidate.stacks.afeb136cd7924f87125eb790",
+    "candidate.stacks.fca22cf72c2e6c4a97230d4a",
+    "candidate.stacks.042b63e9076c86a27e3153af",
+    "candidate.stacks.9402492ba8b959d9dd75b9b1",
+    "candidate.stacks.c42ce57f95f6baa149e8365c",
+    "candidate.stacks.ac48dab73deaa86334edbe8e",
+    "candidate.stacks.b9986587cfba9378d06a8cef",
+    "candidate.stacks.7d221e994b54a9215dfa5671",
+    "candidate.stacks.adec328874be92751dce95a0",
+    "candidate.stacks.c72a16e7ef957ebbe1d12db3",
+    "candidate.stacks.ffb12f7ecad42fbc49ee3d64",
+    "candidate.stacks.dbd52467d9dacda8065926b5",
+    "candidate.stacks.65d47cd32e6c7d53c9b1b6d9",
+    "candidate.stacks.6a9e0fd978a5a5d9a872dcca",
+    "candidate.stacks.a9623ca83ecd6ba846b8ccc6",
+    "candidate.stacks.c3e139a53f4f731406020ea3",
+    "candidate.stacks.60d9a07528062e45a5b6a1f5",
+    "candidate.stacks.17fc792c51603ca34f250090"
+  ],
+  "source_statements_with_explicit_references": 49,
+  "total_explicit_references": 77,
+  "cross_file_or_missing_label_refs": [
+    {
+      "section": 30,
+      "source_line": 7586,
+      "candidate_label": "lemma-relocalize-compare",
+      "ref": "equation-relocalize"
+    }
+  ],
+  "one_named_situation": {
+    "label": "situation-inverse-limit-sites",
+    "source_line": 3769,
+    "statement_users": [
+      {
+        "label": "lemma-colimit-sites",
+        "source_line": 3783
+      },
+      {
+        "label": "lemma-compute-pullback-to-limit",
+        "source_line": 3858
+      },
+      {
+        "label": "lemma-colimit",
+        "source_line": 3965
+      },
+      {
+        "label": "lemma-colimit-push-pull",
+        "source_line": 3997
+      }
+    ]
+  },
+  "source_scope_ledger_entries": 109,
+  "section_checkpoints": 52,
+  "authoritative_eligibility_verified": true,
+  "stage_a1_standalone_decisions_made": 0,
+  "stage_b_ready_count_certified": 0,
+  "stage_b_validation_count": 0,
+  "proofs_reviewed": 0,
+  "phase3_promotions": 0,
+  "stage_a1_status": "not_started_on_this_branch",
+  "notes": [
+    "This is source-first A0 evidence, not full Stage A/A1 review. No existing Stage A manifests, authoritative approvals, or global further-work registry are modified.",
+    "Same-file referenced results are copied as source leads only. Their assumptions are NOT inherited automatically.",
+    "Context-only sections are retained in source-order checkpoints.",
+    "Pinned cross-file definitions/lemmas from categories.tex and sets.tex retrieved as A0 source evidence only, not assumptions or mathematical approval; Sets notation still needs surrounding-source check.",
+    "Full active pool of 9,675 candidates and 655 authoritative approved records was retrieved by blob-SHA and checked; 137/161 sites.tex records active and none previously approved."
+  ],
+  "files": {
+    "workpackets": "A0_WORKPACKETS_V2.jsonl",
+    "ledger": "CONTEXT_LEDGER.jsonl",
+    "checkpoints": "SECTION_CHECKPOINTS.jsonl"
+  },
+  "cross_file_reference_occurrences_retrieved": 3,
+  "cross_file_references_retrieved": [
+    {
+      "reference": "categories-lemma-split-into-directed",
+      "source_file": "categories.tex",
+      "source_line": 2451,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/categories.tex#L2451"
+    },
+    {
+      "reference": "categories-definition-directed",
+      "source_file": "categories.tex",
+      "source_line": 2130,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/categories.tex#L2130"
+    },
+    {
+      "reference": "sets-lemma-coverings-site",
+      "source_file": "sets.tex",
+      "source_line": 952,
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/sets.tex#L952"
+    }
+  ],
+  "canonical_active_candidate_count": 137,
+  "excluded_nonactive_source_environments": 24,
+  "already_authoritative_approved_count": 0,
+  "eligible_new_stage_a1_candidate_count": 137,
+  "nonactive_source_labels": [
+    {
+      "source_line": 155,
+      "source_label": "lemma-mono-epi",
+      "candidate_id": "candidate.stacks.744bf61ca8b30bc841e2bf4f"
+    },
+    {
+      "source_line": 541,
+      "source_label": "lemma-recover",
+      "candidate_id": "candidate.stacks.2ce5f13f6166ba3c7e9ac23f"
+    },
+    {
+      "source_line": 1974,
+      "source_label": "theorem-plus",
+      "candidate_id": "candidate.stacks.b95f023b6223eecede3cb221"
+    },
+    {
+      "source_line": 2255,
+      "source_label": "lemma-mono-epi-sheaves",
+      "candidate_id": "candidate.stacks.f62ce568426270c0d1402d1f"
+    },
+    {
+      "source_line": 2578,
+      "source_label": "lemma-adjoint-sheaves",
+      "candidate_id": "candidate.stacks.73503efd14dba85932a91a31"
+    },
+    {
+      "source_line": 2593,
+      "source_label": "lemma-technical-up",
+      "candidate_id": "candidate.stacks.f73d4b2b2a173383ebc66556"
+    },
+    {
+      "source_line": 3422,
+      "source_label": "lemma-directed-colimits-sections",
+      "candidate_id": "candidate.stacks.48003da4bad0e95362ea2fcc"
+    },
+    {
+      "source_line": 3783,
+      "source_label": "lemma-colimit-sites",
+      "candidate_id": "candidate.stacks.c2f89cddac7bc7518617c118"
+    },
+    {
+      "source_line": 4118,
+      "source_label": "lemma-recover-pu",
+      "candidate_id": "candidate.stacks.4c41c3bb23f745d264c22a3a"
+    },
+    {
+      "source_line": 4386,
+      "source_label": "lemma-technical-pu",
+      "candidate_id": "candidate.stacks.59edb808d0b0ac065aa7ff54"
+    },
+    {
+      "source_line": 4626,
+      "source_label": "lemma-preserve-equalizers",
+      "candidate_id": "candidate.stacks.d564054106f535502ced2d9e"
+    },
+    {
+      "source_line": 4662,
+      "source_label": "lemma-back-and-forth",
+      "candidate_id": "candidate.stacks.733680968337af87714cb1ce"
+    },
+    {
+      "source_line": 4729,
+      "source_label": "lemma-bigger-site",
+      "candidate_id": "candidate.stacks.acbb2e3b7870540a5d535d07"
+    },
+    {
+      "source_line": 5498,
+      "source_label": "lemma-relocalize-explicit",
+      "candidate_id": "candidate.stacks.e84051e7744c6e19609e9ad7"
+    },
+    {
+      "source_line": 6387,
+      "source_label": "lemma-localize-morphism-strong",
+      "candidate_id": "candidate.stacks.d0c287e6a7471b025aad4550"
+    },
+    {
+      "source_line": 6442,
+      "source_label": "lemma-relocalize-morphism",
+      "candidate_id": "candidate.stacks.55c7f8a76e8f2fcd09dd8ca4"
+    },
+    {
+      "source_line": 6700,
+      "source_label": "lemma-special-square-continuous",
+      "candidate_id": "candidate.stacks.024d325e580493641d0aae79"
+    },
+    {
+      "source_line": 7324,
+      "source_label": "lemma-localize-topos",
+      "candidate_id": "candidate.stacks.ee99777c96a27b3429483ee8"
+    },
+    {
+      "source_line": 7376,
+      "source_label": "lemma-localize-pushforward",
+      "candidate_id": "candidate.stacks.70cce52238834bbbe458e842"
+    },
+    {
+      "source_line": 8041,
+      "source_label": "lemma-point-site-topos",
+      "candidate_id": "candidate.stacks.acd4c285f88b917e973424a6"
+    },
+    {
+      "source_line": 9285,
+      "source_label": "lemma-refine",
+      "candidate_id": "candidate.stacks.a4c8dcebacd438145353910d"
+    },
+    {
+      "source_line": 9329,
+      "source_label": "lemma-refine-all-at-once",
+      "candidate_id": "candidate.stacks.126800c30617a052cc7d9bc2"
+    },
+    {
+      "source_line": 10472,
+      "source_label": "proposition-functoriality-algebraic-structures-topoi",
+      "candidate_id": "candidate.stacks.c42ce57f95f6baa149e8365c"
+    },
+    {
+      "source_line": 11509,
+      "source_label": "lemma-L-presheaf",
+      "candidate_id": "candidate.stacks.65d47cd32e6c7d53c9b1b6d9"
+    }
+  ]
+}
