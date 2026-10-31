@@ -1,0 +1,182 @@
+[
+  {
+    "ordinal": 1,
+    "global_ordinal": 51,
+    "source_file": "flat.tex",
+    "section_start_line": 12189,
+    "section_end_line": 12954,
+    "eligible_candidate_ids": [
+      "candidate.stacks.29ea0af353fc5afd3cbeeef3"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 2,
+    "global_ordinal": 52,
+    "source_file": "flat.tex",
+    "section_start_line": 12955,
+    "section_end_line": 13215,
+    "eligible_candidate_ids": [
+      "candidate.stacks.8c3e8e1b10581f4979006194",
+      "candidate.stacks.fc08acad38c8435a569808ab"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 2,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 3,
+    "global_ordinal": 53,
+    "source_file": "flat.tex",
+    "section_start_line": 13216,
+    "section_end_line": 13395,
+    "eligible_candidate_ids": [
+      "candidate.stacks.7ad7201afd5f0282348c179f"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 4,
+    "global_ordinal": 54,
+    "source_file": "groupoids.tex",
+    "section_start_line": 67,
+    "section_end_line": 250,
+    "eligible_candidate_ids": [
+      "candidate.stacks.4b4db445d1136b8ae939e2e8",
+      "candidate.stacks.65cca4d5db9f0464be627fcb"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 2,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 5,
+    "global_ordinal": 55,
+    "source_file": "groupoids.tex",
+    "section_start_line": 251,
+    "section_end_line": 382,
+    "eligible_candidate_ids": [
+      "candidate.stacks.72c21d1521311b49a4d89c81",
+      "candidate.stacks.bf2227df905712ef3bde51dc"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 2,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 6,
+    "global_ordinal": 56,
+    "source_file": "groupoids.tex",
+    "section_start_line": 567,
+    "section_end_line": 715,
+    "eligible_candidate_ids": [
+      "candidate.stacks.6613e6cf9a0c1bd2681d4dd7",
+      "candidate.stacks.921bbd895b668e921b10a16e"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 2,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 7,
+    "global_ordinal": 57,
+    "source_file": "groupoids.tex",
+    "section_start_line": 716,
+    "section_end_line": 1224,
+    "eligible_candidate_ids": [
+      "candidate.stacks.1759cc2a0e66670456803242",
+      "candidate.stacks.1e3fca560f74c6992acd5406",
+      "candidate.stacks.21a15bff9427d806790b61c5",
+      "candidate.stacks.263a7d3cf359b14afea2171a",
+      "candidate.stacks.69659c324c0094085ad233bd",
+      "candidate.stacks.8958163e4723e79490dc59d1",
+      "candidate.stacks.b26c4e6e6c4af5eb0886f80e",
+      "candidate.stacks.bb56ce76e785d6ec37af6d22",
+      "candidate.stacks.bc0d0171b075dc45f878096a",
+      "candidate.stacks.d94ff9ace644594a63de75e0"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 10,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 8,
+    "global_ordinal": 58,
+    "source_file": "groupoids.tex",
+    "section_start_line": 1225,
+    "section_end_line": 1586,
+    "eligible_candidate_ids": [
+      "candidate.stacks.00dc8298f7e56d0b1dde36c7",
+      "candidate.stacks.13f7f474f126fd543e4be94d",
+      "candidate.stacks.17cfbaa0ff4227e3f46f2b0f",
+      "candidate.stacks.939d9003614221fccb91720d",
+      "candidate.stacks.93edf918362b1dc66baf2d41"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 5,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 9,
+    "global_ordinal": 59,
+    "source_file": "groupoids.tex",
+    "section_start_line": 1587,
+    "section_end_line": 2007,
+    "eligible_candidate_ids": [
+      "candidate.stacks.18fdfbf65b1bf3232a308712",
+      "candidate.stacks.41d6464aaa6960ec4866babb",
+      "candidate.stacks.4fd3410d7de89840a6e451ae",
+      "candidate.stacks.575862461949c93d8b088602",
+      "candidate.stacks.d06734d22aa41eda2d742858",
+      "candidate.stacks.fb865010482a6fff221a2233"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 6,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 10,
+    "global_ordinal": 60,
+    "source_file": "groupoids.tex",
+    "section_start_line": 2100,
+    "section_end_line": 2234,
+    "eligible_candidate_ids": [
+      "candidate.stacks.0f40697ec30c30f2a452fea1"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 11,
+    "global_ordinal": 61,
+    "source_file": "groupoids.tex",
+    "section_start_line": 2235,
+    "section_end_line": 2402,
+    "eligible_candidate_ids": [
+      "candidate.stacks.939131c5cb51146d42fc7619"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 12,
+    "global_ordinal": 62,
+    "source_file": "groupoids.tex",
+    "section_start_line": 2403,
+    "section_end_line": 2613,
+    "eligible_candidate_ids": [
+      "candidate.stacks.614ae2fd4769230c8868b725",
+      "candidate.stacks.c3515e81e365c0e95c3366d4",
+      "candidate.stacks.dffc3d174fde68e700ec5a9f"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 3,
+    "independent_validation": "pending"
+  }
+]

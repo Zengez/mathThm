@@ -1,0 +1,72 @@
+[
+  {
+    "candidate_id": "candidate.stacks.7ad7201afd5f0282348c179f",
+    "source_label": "lemma-blowup-map-pd1",
+    "corrections": [
+      "Restored openness of U in structured hypotheses, per independent source comparison."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.bf2227df905712ef3bde51dc",
+    "source_label": "lemma-closed-subgroup-scheme",
+    "corrections": [
+      "Made closed/open assumptions separate guards; a subscheme merely open-or-closed cannot support both unguarded claims."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.6613e6cf9a0c1bd2681d4dd7",
+    "source_label": "lemma-flat-action-on-group-scheme",
+    "corrections": [
+      "Scoped T-flatness only to translation claim; G-flat multiplication claim has its own independent guard."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.939d9003614221fccb91720d",
+    "source_label": "lemma-group-scheme-finite-type-field",
+    "corrections": [
+      "Held for essential hidden locally algebraic/algebraic convention; no definition inferred from memory."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.13f7f474f126fd543e4be94d",
+    "source_label": "lemma-group-scheme-characteristic-zero-smooth",
+    "corrections": [
+      "Held for essential hidden locally algebraic/algebraic convention; no definition inferred from memory."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.93edf918362b1dc66baf2d41",
+    "source_label": "lemma-points-in-affine",
+    "corrections": [
+      "Held for essential hidden locally algebraic/algebraic convention; no definition inferred from memory."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.17cfbaa0ff4227e3f46f2b0f",
+    "source_label": "lemma-algebraic-quasi-projective",
+    "corrections": [
+      "Held for essential hidden locally algebraic/algebraic convention; no definition inferred from memory."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.00dc8298f7e56d0b1dde36c7",
+    "source_label": "lemma-algebraic-center",
+    "corrections": [
+      "Held for essential hidden locally algebraic/algebraic convention; no definition inferred from memory."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.4fd3410d7de89840a6e451ae",
+    "source_label": "lemma-abelian-variety-multiplication-by-p",
+    "corrections": [
+      "Retained literal source fibre rather than silently strengthening to its geometric fibre."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.614ae2fd4769230c8868b725",
+    "source_label": "lemma-groupoid-pre-equivalence",
+    "corrections": [
+      "Defined j=(t,s) explicitly from source convention."
+    ]
+  }
+]

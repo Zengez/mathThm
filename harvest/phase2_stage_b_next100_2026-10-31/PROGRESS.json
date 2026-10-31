@@ -1,0 +1,170 @@
+{
+  "status": "in_progress",
+  "started_utc": "2026-10-31T20:27:25.332327+00:00",
+  "working_branch": "codex/stage-b-next100-20261031",
+  "working_checkout": "/home/jason/Projects/mathThm/.harvest_runs/stage-b-next100-20261031",
+  "selection_commit": "bff8401e62e6b1de3ac3addd08d033304b862888",
+  "selected_sections": 100,
+  "selected_candidates": 324,
+  "completed_sections": 12,
+  "approvals": 31,
+  "mathematical_holds": 0,
+  "processing_holds": 5,
+  "current_authoritative_total": 903,
+  "completed_groups": [
+    {
+      "group": "group_001_012",
+      "selected_sections": [
+        1,
+        12
+      ],
+      "section_boundaries": [
+        {
+          "ordinal": 1,
+          "source_file": "flat.tex",
+          "section_start_line": 12189,
+          "section_end_line": 12954
+        },
+        {
+          "ordinal": 2,
+          "source_file": "flat.tex",
+          "section_start_line": 12955,
+          "section_end_line": 13215
+        },
+        {
+          "ordinal": 3,
+          "source_file": "flat.tex",
+          "section_start_line": 13216,
+          "section_end_line": 13395
+        },
+        {
+          "ordinal": 4,
+          "source_file": "groupoids.tex",
+          "section_start_line": 67,
+          "section_end_line": 250
+        },
+        {
+          "ordinal": 5,
+          "source_file": "groupoids.tex",
+          "section_start_line": 251,
+          "section_end_line": 382
+        },
+        {
+          "ordinal": 6,
+          "source_file": "groupoids.tex",
+          "section_start_line": 567,
+          "section_end_line": 715
+        },
+        {
+          "ordinal": 7,
+          "source_file": "groupoids.tex",
+          "section_start_line": 716,
+          "section_end_line": 1224
+        },
+        {
+          "ordinal": 8,
+          "source_file": "groupoids.tex",
+          "section_start_line": 1225,
+          "section_end_line": 1586
+        },
+        {
+          "ordinal": 9,
+          "source_file": "groupoids.tex",
+          "section_start_line": 1587,
+          "section_end_line": 2007
+        },
+        {
+          "ordinal": 10,
+          "source_file": "groupoids.tex",
+          "section_start_line": 2100,
+          "section_end_line": 2234
+        },
+        {
+          "ordinal": 11,
+          "source_file": "groupoids.tex",
+          "section_start_line": 2235,
+          "section_end_line": 2402
+        },
+        {
+          "ordinal": 12,
+          "source_file": "groupoids.tex",
+          "section_start_line": 2403,
+          "section_end_line": 2613
+        }
+      ],
+      "candidate_ids_accounted_for": [
+        "candidate.stacks.00dc8298f7e56d0b1dde36c7",
+        "candidate.stacks.0f40697ec30c30f2a452fea1",
+        "candidate.stacks.13f7f474f126fd543e4be94d",
+        "candidate.stacks.1759cc2a0e66670456803242",
+        "candidate.stacks.17cfbaa0ff4227e3f46f2b0f",
+        "candidate.stacks.18fdfbf65b1bf3232a308712",
+        "candidate.stacks.1e3fca560f74c6992acd5406",
+        "candidate.stacks.21a15bff9427d806790b61c5",
+        "candidate.stacks.263a7d3cf359b14afea2171a",
+        "candidate.stacks.29ea0af353fc5afd3cbeeef3",
+        "candidate.stacks.41d6464aaa6960ec4866babb",
+        "candidate.stacks.4b4db445d1136b8ae939e2e8",
+        "candidate.stacks.4fd3410d7de89840a6e451ae",
+        "candidate.stacks.575862461949c93d8b088602",
+        "candidate.stacks.614ae2fd4769230c8868b725",
+        "candidate.stacks.65cca4d5db9f0464be627fcb",
+        "candidate.stacks.6613e6cf9a0c1bd2681d4dd7",
+        "candidate.stacks.69659c324c0094085ad233bd",
+        "candidate.stacks.72c21d1521311b49a4d89c81",
+        "candidate.stacks.7ad7201afd5f0282348c179f",
+        "candidate.stacks.8958163e4723e79490dc59d1",
+        "candidate.stacks.8c3e8e1b10581f4979006194",
+        "candidate.stacks.921bbd895b668e921b10a16e",
+        "candidate.stacks.939131c5cb51146d42fc7619",
+        "candidate.stacks.939d9003614221fccb91720d",
+        "candidate.stacks.93edf918362b1dc66baf2d41",
+        "candidate.stacks.b26c4e6e6c4af5eb0886f80e",
+        "candidate.stacks.bb56ce76e785d6ec37af6d22",
+        "candidate.stacks.bc0d0171b075dc45f878096a",
+        "candidate.stacks.bf2227df905712ef3bde51dc",
+        "candidate.stacks.c3515e81e365c0e95c3366d4",
+        "candidate.stacks.d06734d22aa41eda2d742858",
+        "candidate.stacks.d94ff9ace644594a63de75e0",
+        "candidate.stacks.dffc3d174fde68e700ec5a9f",
+        "candidate.stacks.fb865010482a6fff221a2233",
+        "candidate.stacks.fc08acad38c8435a569808ab"
+      ],
+      "approved": 31,
+      "corrected": 10,
+      "mathematical_holds": 0,
+      "processing_holds": 5,
+      "commit_sha": null,
+      "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
+    }
+  ],
+  "next_section": {
+    "ordinal": 13,
+    "global_ordinal": 63,
+    "source_file": "groupoids.tex",
+    "section_start_line": 2614,
+    "section_end_line": 2813,
+    "eligible_candidate_ids": [
+      "candidate.stacks.26fd04065fbb7ea9b2c82fd1",
+      "candidate.stacks.5ac7b04b81031fe42af79be9",
+      "candidate.stacks.94309e0e154d49dd727b3756",
+      "candidate.stacks.bc484620858347aa08fb2114"
+    ],
+    "all_active_candidate_ids": [
+      "candidate.stacks.26fd04065fbb7ea9b2c82fd1",
+      "candidate.stacks.5ac7b04b81031fe42af79be9",
+      "candidate.stacks.7e5df59bba288bec5c2c606c",
+      "candidate.stacks.94309e0e154d49dd727b3756",
+      "candidate.stacks.bc484620858347aa08fb2114"
+    ],
+    "unreviewed_unready_ids": [
+      "candidate.stacks.7e5df59bba288bec5c2c606c"
+    ],
+    "previously_reviewed_ids": [],
+    "records": "harvest/phase2_chat_stage_a/groupoids/batch_02_sections_10_24/RECONSTRUCTIONS.jsonl",
+    "manifest": "harvest/phase2_chat_stage_a/groupoids/batch_02_sections_10_24/MANIFEST.json"
+  },
+  "resume_instructions": "Use only fixed SELECTION.json and audited phase2_safe_source viewer. Inspect saved per-group section checkpoints, formulations and independent verdicts before resuming. Complete independent review before materialization; validate exact digests and preserve baseline872. Stop selected ordinal100. No proofs, Phase3, publication, refresh or old incident review.",
+  "candidates_accounted_for": 36,
+  "substantively_corrected": 10
+}
