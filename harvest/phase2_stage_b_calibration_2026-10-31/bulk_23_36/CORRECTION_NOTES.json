@@ -7,6 +7,13 @@
     ]
   },
   {
+    "candidate_id": "candidate.stacks.f478a207de4025709d4769f2",
+    "source_label": "lemma-stratify-flat-fp-lqf-universally-bounded",
+    "corrections": [
+      "Bounded the stratum index in the universal property to the displayed finite filtration, per independent source comparison."
+    ]
+  },
+  {
     "candidate_id": "candidate.stacks.17b094515c03e6109f86713a",
     "source_label": "lemma-universally-injective-to-completion",
     "corrections": [

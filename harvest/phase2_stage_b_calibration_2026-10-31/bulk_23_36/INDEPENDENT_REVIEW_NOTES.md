@@ -1,0 +1,5 @@
+# Independent review: selected sections 23–36
+
+62 eligible corrected formulations approved after source-first comparison with pinned statements and shared context. An additional reviewer correction restricted finite stratification index r to 0,...,n, then the actual final corrected statement/H/C were re-read before digest binding. All five induction-step equivalence sides and existence quantifier retained. Other key checks: ordinary versus weak fibre associatedness, finite-type versus finite-presentation variants, relative purity versus universal purity and separate flat-descent guards.
+
+Three selected candidates in ordinal 30 remain held, recorded separately without hashes or no-proof attestations: formal-proof masking exposed informal proof sketch in adjacent remark-how-in-RG2291–2327 in both correction and independent source passes. No proof was assessed or used. All later flat source displays masked remarks as well as formal proofs. These three holds require clean reassignment and are excluded from materializable pairs.

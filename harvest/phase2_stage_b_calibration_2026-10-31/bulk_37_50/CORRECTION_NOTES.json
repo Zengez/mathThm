@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "candidate.stacks.3c961a40b3e05b8471ca56cf",
+    "source_label": "lemma-proper-pure",
+    "corrections": [
+      "Restored three individual guards, rather than jointly assuming proper support and proper f."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.9a8c0855a9170a4bd25da9e6",
+    "source_label": "lemma-quasi-finite-pure",
+    "corrections": [
+      "Removed equivalent assertions incorrectly imposed as simultaneous hypotheses; preserved independent additional assertion when present."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.dec959cb5e64dc46960481e8",
+    "source_label": "lemma-injectivity-map-source-flat-pure",
+    "corrections": [
+      "Removed equivalent assertions incorrectly imposed as simultaneous hypotheses; preserved independent additional assertion when present."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.05b3ea55161c10129776f727",
+    "source_label": "proposition-finite-presentation-flat-pure-is-projective",
+    "corrections": [
+      "Removed equivalent assertions incorrectly imposed as simultaneous hypotheses; preserved independent additional assertion when present."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.7596c2565a249a9a71b12a33",
+    "source_label": "lemma-flattening-module-map",
+    "corrections": [
+      "Moved existence of one representing ideal and universal iff from hypotheses to conclusion."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.7322dd20be87598bf30c28fd",
+    "source_label": "theorem-check-flatness-at-associated-points",
+    "corrections": [
+      "Removed equivalent assertions incorrectly imposed as simultaneous hypotheses; preserved independent additional assertion when present."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.ebd440252ad214bd9f24debb",
+    "source_label": "lemma-separate-disjoint-locally-closed-by-blowing-up",
+    "corrections": [
+      "Scoped the two independent geometric setups to their respective conclusions instead of assuming both."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.a9e3d6d94c3c2bad54d1c33c",
+    "source_label": "lemma-refine-by-h",
+    "corrections": [
+      "Removed three equivalent covering predicates incorrectly imposed as simultaneous hypotheses."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.0da3e2f7d8d526db552562e4",
+    "source_label": "lemma-h",
+    "corrections": [
+      "Restored three independent pretopology guards instead of jointly imposing their unrelated data."
+    ]
+  }
+]

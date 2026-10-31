@@ -26,3 +26,7 @@ Authorized continuation ONLY ordinals9–50: bulk_09_22 (55 IDs), bulk_23_36 (65
 86 new independent approvals now materialized (initial31+bulk55); authoritative union768. Sections9–22 completed; three further structured corrections documented. Remaining ordinals23–50 in progress.
 
 Proof-exposure incident: ordinal30, flat.tex2136–2341 has informal proof-bearing remark2291–2327 outside proof environments. Both reviewers transparently reported exposure before any ordinal30 verdict. Its three selected IDs must remain distinct processing holds, not approvals/no-proof attestations. Correction agent will save separate HELD_PROOF_EXPOSURE records; final exact coverage must include those IDs without weakening existing proof exclusion gates. Later source displays mask proof-bearing remarks explicitly. Preserve incident notes and do not repeat exposed reviews as clean passes.
+
+## Through ordinal36
+
+148 new approvals materialized, three explicit proof-exposure processing holds. The independent validator required finite-strata index quantification correction and re-reviewed the exact final row. Only selected ordinals37–50 (42 IDs) remain. Separate counterpart incident records are in bulk_23_36; never materialize them.
