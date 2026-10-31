@@ -6,11 +6,11 @@
   "selection_commit": "bff8401e62e6b1de3ac3addd08d033304b862888",
   "selected_sections": 100,
   "selected_candidates": 324,
-  "completed_sections": 12,
-  "approvals": 31,
+  "completed_sections": 24,
+  "approvals": 46,
   "mathematical_holds": 0,
-  "processing_holds": 5,
-  "current_authoritative_total": 903,
+  "processing_holds": 21,
+  "current_authoritative_total": 918,
   "completed_groups": [
     {
       "group": "group_001_012",
@@ -134,37 +134,166 @@
       "corrected": 10,
       "mathematical_holds": 0,
       "processing_holds": 5,
+      "commit_sha": "cf6d06e8a3a18628317e9b1ad7cb0ee6442f0c14",
+      "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
+    },
+    {
+      "group": "group_013_024",
+      "selected_sections": [
+        13,
+        24
+      ],
+      "section_boundaries": [
+        {
+          "ordinal": 13,
+          "source_file": "groupoids.tex",
+          "section_start_line": 2614,
+          "section_end_line": 2813
+        },
+        {
+          "ordinal": 14,
+          "source_file": "groupoids.tex",
+          "section_start_line": 3447,
+          "section_end_line": 3563
+        },
+        {
+          "ordinal": 15,
+          "source_file": "groupoids.tex",
+          "section_start_line": 3564,
+          "section_end_line": 3681
+        },
+        {
+          "ordinal": 16,
+          "source_file": "groupoids.tex",
+          "section_start_line": 4193,
+          "section_end_line": 4913
+        },
+        {
+          "ordinal": 17,
+          "source_file": "pic.tex",
+          "section_start_line": 32,
+          "section_end_line": 397
+        },
+        {
+          "ordinal": 18,
+          "source_file": "pic.tex",
+          "section_start_line": 398,
+          "section_end_line": 716
+        },
+        {
+          "ordinal": 19,
+          "source_file": "pic.tex",
+          "section_start_line": 919,
+          "section_end_line": 1331
+        },
+        {
+          "ordinal": 20,
+          "source_file": "pic.tex",
+          "section_start_line": 1332,
+          "section_end_line": 1512
+        },
+        {
+          "ordinal": 21,
+          "source_file": "weil.tex",
+          "section_start_line": 618,
+          "section_end_line": 1045
+        },
+        {
+          "ordinal": 22,
+          "source_file": "weil.tex",
+          "section_start_line": 1046,
+          "section_end_line": 1143
+        },
+        {
+          "ordinal": 23,
+          "source_file": "weil.tex",
+          "section_start_line": 2008,
+          "section_end_line": 2349
+        },
+        {
+          "ordinal": 24,
+          "source_file": "weil.tex",
+          "section_start_line": 2350,
+          "section_end_line": 3181
+        }
+      ],
+      "candidate_ids_accounted_for": [
+        "candidate.stacks.08c3a71b1b9c45d44f8e7284",
+        "candidate.stacks.0a21affceccc9e6277ca2d55",
+        "candidate.stacks.0f50358ecf60e121fccd8e19",
+        "candidate.stacks.10893aa96828dd549fef60e8",
+        "candidate.stacks.1605c94156809f95d01fc0ee",
+        "candidate.stacks.1ec2bd64bbcbf51f8d2c2f29",
+        "candidate.stacks.213de3769d1d0db88c24843b",
+        "candidate.stacks.26fd04065fbb7ea9b2c82fd1",
+        "candidate.stacks.29b69e60805ec7e832b6e2d9",
+        "candidate.stacks.325b6acdd712febed32c5d44",
+        "candidate.stacks.35310d00b81343796e5693b2",
+        "candidate.stacks.5ac7b04b81031fe42af79be9",
+        "candidate.stacks.669d1555ba03ca5f52f93b75",
+        "candidate.stacks.71982f2731bd4936654ea9dc",
+        "candidate.stacks.7652256feba3a413152fd475",
+        "candidate.stacks.81de3668c7d10e98bdcf87e2",
+        "candidate.stacks.920e5cea7221a0c8af14f7ed",
+        "candidate.stacks.92e51c0a48caf7dbc2508964",
+        "candidate.stacks.94309e0e154d49dd727b3756",
+        "candidate.stacks.9aa74dfcdb57bbd7d8de85a9",
+        "candidate.stacks.9c7f9374c16ca8abaad92747",
+        "candidate.stacks.9f33e4888828d30cbc827791",
+        "candidate.stacks.bc484620858347aa08fb2114",
+        "candidate.stacks.bf9b158e8d207444453a4c1b",
+        "candidate.stacks.c7b1ac8c3d8c98a5ee3fad02",
+        "candidate.stacks.c8cb6f4f46be341704ff274f",
+        "candidate.stacks.cb9af25b6eb67af758e65a22",
+        "candidate.stacks.da2adabf29ad1fae618f873c",
+        "candidate.stacks.e10193e87caed14651198666",
+        "candidate.stacks.e179fe1495db5db07589f717",
+        "candidate.stacks.ee7711283a091edc8ff683fc"
+      ],
+      "approved": 15,
+      "corrected": 17,
+      "mathematical_holds": 0,
+      "processing_holds": 16,
       "commit_sha": null,
       "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
     }
   ],
   "next_section": {
-    "ordinal": 13,
-    "global_ordinal": 63,
-    "source_file": "groupoids.tex",
-    "section_start_line": 2614,
-    "section_end_line": 2813,
+    "ordinal": 25,
+    "global_ordinal": 75,
+    "source_file": "weil.tex",
+    "section_start_line": 3182,
+    "section_end_line": 3589,
     "eligible_candidate_ids": [
-      "candidate.stacks.26fd04065fbb7ea9b2c82fd1",
-      "candidate.stacks.5ac7b04b81031fe42af79be9",
-      "candidate.stacks.94309e0e154d49dd727b3756",
-      "candidate.stacks.bc484620858347aa08fb2114"
+      "candidate.stacks.07bb7c9705cfb152b3aa346a",
+      "candidate.stacks.a1e19e56bbb20a05ece0bd0d",
+      "candidate.stacks.b06e98682f9916b966bdf2d8",
+      "candidate.stacks.c6e75eabbf900ab9a7ce3930",
+      "candidate.stacks.c7d8e50ce1eaedd5f88c4b79",
+      "candidate.stacks.fb7feb9661a2cfc81413c838"
     ],
     "all_active_candidate_ids": [
-      "candidate.stacks.26fd04065fbb7ea9b2c82fd1",
-      "candidate.stacks.5ac7b04b81031fe42af79be9",
-      "candidate.stacks.7e5df59bba288bec5c2c606c",
-      "candidate.stacks.94309e0e154d49dd727b3756",
-      "candidate.stacks.bc484620858347aa08fb2114"
+      "candidate.stacks.07bb7c9705cfb152b3aa346a",
+      "candidate.stacks.74968a1ffade401ed3b68254",
+      "candidate.stacks.91577881331a81647dddb10f",
+      "candidate.stacks.a1e19e56bbb20a05ece0bd0d",
+      "candidate.stacks.b06e98682f9916b966bdf2d8",
+      "candidate.stacks.c6e75eabbf900ab9a7ce3930",
+      "candidate.stacks.c7d8e50ce1eaedd5f88c4b79",
+      "candidate.stacks.fb668a7933c35578e04d5a63",
+      "candidate.stacks.fb7feb9661a2cfc81413c838"
     ],
     "unreviewed_unready_ids": [
-      "candidate.stacks.7e5df59bba288bec5c2c606c"
+      "candidate.stacks.74968a1ffade401ed3b68254",
+      "candidate.stacks.91577881331a81647dddb10f",
+      "candidate.stacks.fb668a7933c35578e04d5a63"
     ],
     "previously_reviewed_ids": [],
-    "records": "harvest/phase2_chat_stage_a/groupoids/batch_02_sections_10_24/RECONSTRUCTIONS.jsonl",
-    "manifest": "harvest/phase2_chat_stage_a/groupoids/batch_02_sections_10_24/MANIFEST.json"
+    "records": "harvest/phase2_chat_stage_a/weil/batch_02_sections_09_14/RECONSTRUCTIONS.jsonl",
+    "manifest": "harvest/phase2_chat_stage_a/weil/batch_02_sections_09_14/MANIFEST.json"
   },
   "resume_instructions": "Use only fixed SELECTION.json and audited phase2_safe_source viewer. Inspect saved per-group section checkpoints, formulations and independent verdicts before resuming. Complete independent review before materialization; validate exact digests and preserve baseline872. Stop selected ordinal100. No proofs, Phase3, publication, refresh or old incident review.",
-  "candidates_accounted_for": 36,
-  "substantively_corrected": 10
+  "candidates_accounted_for": 67,
+  "substantively_corrected": 27,
+  "latest_checkpoint_commit": "cf6d06e8a3a18628317e9b1ad7cb0ee6442f0c14"
 }
