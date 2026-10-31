@@ -92,132 +92,102 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.637b3bdb40a1187ad1215db1",
-    "candidate.stacks.0b142d4380c93ae77a920226",
-    "candidate.stacks.1b46f49b059cec6861f93aef",
-    "candidate.stacks.204318798dc2b1f8a9cc4669",
-    "candidate.stacks.cccc22e41b7ed619e653df26",
-    "candidate.stacks.2d222bf5f86ffd98f1d00b0b",
-    "candidate.stacks.7a354c0b19b9bbf69b79ed19",
-    "candidate.stacks.9a1cf011cd59561027deee06",
-    "candidate.stacks.427864b8f491b8810161f1c0",
-    "candidate.stacks.29cf925a0a379e3e1f8e075f",
-    "candidate.stacks.b052fb0938670fd08c2ef14b",
-    "candidate.stacks.54b560d72f65076fe03b97fb",
-    "candidate.stacks.8083468e14aa95136214db93",
-    "candidate.stacks.4906fb4cb6f7afa4345c0210",
-    "candidate.stacks.361c0bfbe14ab0531c330ee7",
-    "candidate.stacks.7ec3874f5c117e386c3dfff9",
-    "candidate.stacks.1b0ec04ef0cf7c4594a655f3",
-    "candidate.stacks.33946cf75e7c4ac26c929521",
-    "candidate.stacks.d27a1092ac29f71c6e87f22a",
-    "candidate.stacks.a6b889254f7667ace4e54b2f",
-    "candidate.stacks.cc3052813c48180281a708e7",
-    "candidate.stacks.9a43f4c4f6a2c03b0fde9aa9",
-    "candidate.stacks.8364ff8cc9803a0e8de036c2",
-    "candidate.stacks.6f3e6e7492bceba0efccb7d6",
-    "candidate.stacks.c308eb0433f9f89b35528661",
-    "candidate.stacks.a1fa4a29b87e66a3bb60da0f",
-    "candidate.stacks.141ac13b398595ec325dd245",
-    "candidate.stacks.e9ae6e4be8f83a86a58c6164",
-    "candidate.stacks.88487d1ab2cc489be6c80114",
-    "candidate.stacks.ce802233767f77cafda93a93",
-    "candidate.stacks.b5ddbd67b4875dd982a1bd44",
-    "candidate.stacks.527a7a727929e78a57ee0b3c",
-    "candidate.stacks.2de77ced15773003a58fa788",
-    "candidate.stacks.898ad950ae194415a88f13aa",
-    "candidate.stacks.40f03bfbfb7117e27307b8b3",
-    "candidate.stacks.e3e808ee4bcc416aa8b25d9a",
-    "candidate.stacks.82ea156eeb1df804d42869ef",
-    "candidate.stacks.9c3093641a4550c53d442925",
-    "candidate.stacks.0c4024508b2b9de06f359e5b",
-    "candidate.stacks.9797dbdf5fb4273c51bc1f80"
-  ],
+  "preliminary_source_holds": [],
   "source_sections_without_active_candidates": [
     14
   ],
   "previously_approved_ids_not_regenerated": [],
   "processing_sections": [
     {
+      "section": 14,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 2872
+    },
+    {
       "section": 15,
       "kind": "candidates",
       "source_line": 2957,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 16,
       "kind": "candidates",
       "source_line": 3184,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 17,
       "kind": "candidates",
       "source_line": 3377,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 18,
       "kind": "candidates",
       "source_line": 3572,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 19,
       "kind": "candidates",
       "source_line": 3780,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 20,
       "kind": "candidates",
       "source_line": 4647,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 21,
       "kind": "candidates",
       "source_line": 5062,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 22,
       "kind": "candidates",
       "source_line": 5284,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 23,
       "kind": "candidates",
       "source_line": 5708,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 24,
       "kind": "candidates",
       "source_line": 5975,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 25,
       "kind": "candidates",
       "source_line": 6329,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 26,
       "kind": "candidates",
       "source_line": 6643,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 58,
-  "stage_a_source_hold_candidate_count": 40,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 12,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_candidate_count": 50,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 6,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 8,
+  "stage_a_further_work_section_count": 6,
+  "stage_a_dispositioned_section_count": 12,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Curves §§14–26 source-first continuation with inherited gluing/squishing, multicross, nodal model, nodal families, dualizing modules, rational tail and bridge contraction, stability and vector fields. §14 is context-only."
 }
