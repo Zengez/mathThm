@@ -1,0 +1,12 @@
+✔ tests/test_definition_links.cjs (77.577536ms)
+✔ tests/test_mathdef_v2.cjs (69.241341ms)
+✔ tests/test_search.cjs (73.241048ms)
+✔ tests/test_ui_smoke.cjs (58.655434ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 91.725107

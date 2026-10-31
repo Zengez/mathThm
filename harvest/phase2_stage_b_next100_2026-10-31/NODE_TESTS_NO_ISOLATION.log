@@ -1,0 +1,48 @@
+✔ Heine Cantor: uniformly continuous is a single longer link and continuous is distinct (2.273393ms)
+✔ does not match adjective embedded in larger word; identical repeated occurrences behave consistently (0.292243ms)
+✔ matching is phrase-wide, respects punctuation and keeps math out at the renderer boundary (0.209493ms)
+✔ ambiguous same-term headings are unlinked without unique mathematical context (0.323187ms)
+✔ explicit hints win for equal phrases, but never override ancestry protection (0.259151ms)
+✔ curated aliases are only used when the target v2 group exists (0.171574ms)
+✔ constant-time-ish indexed scanner handles many candidate labels without duplicate links (0.171899ms)
+✔ canonical v2 IDs, original IDs, and all cleanup redirects resolve (0.139736ms)
+✔ exact source Subject outranks fallback legacy original ID (0.275063ms)
+✔ explicit approved target beats Subject; meaning preference breaks Subject ties (0.271634ms)
+✔ stale cleanup meaning redirects fail rather than choosing a wrong link (0.359833ms)
+✔ duplicate v2 formulation IDs fail integrity validation (0.133393ms)
+✔ recursive paths use canonical v2 IDs, suppress self and every ancestor (0.207568ms)
+✔ visible nested dependencies suppress aliases, self, ancestors and duplicates (0.173109ms)
+✔ empty queries select all once (0.425771ms)
+✔ hypothesis/conclusion AND is directional (1.05733ms)
+✔ tags and inflections retrieve records (1.374494ms)
+✔ compound iff theorem is indexed in either direction but displayed once (1.218709ms)
+✔ display switches at 10 hits (0.157047ms)
+✔ conservative matching does not mistake words embedded in other words (0.122223ms)
+✔ browser-like boot renders live theorem and mathDef-linked full statement (10.568287ms)
+✔ expanded v2 definitions hide self and ancestors; other branches stay available (2.805374ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 38.558303
+mathThm curated V2 aliases unavailable: [
+  {
+    label: 'uniformly continuous',
+    target: 'analysis.uniform-continuity'
+  },
+  { label: 'connected', target: 'topology.connected-space' },
+  { label: 'closed', target: 'topology.closed-set' }
+]
+mathThm curated V2 aliases unavailable: [
+  {
+    label: 'uniformly continuous',
+    target: 'analysis.uniform-continuity'
+  },
+  { label: 'continuous', target: 'topology.continuity' },
+  { label: 'compact', target: 'topology.compactness' },
+  { label: 'connected', target: 'topology.connected-space' },
+  { label: 'closed', target: 'topology.closed-set' }
+]

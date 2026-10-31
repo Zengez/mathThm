@@ -1,0 +1,36 @@
+{"active_candidates": 1, "by_batch": {"demo-stacks": 1}, "next_stage": "pass3"}
+{"active_candidates": 1, "by_batch": {"demo-stacks": 1}, "next_stage": "pass3"}
+{"active_candidates": 1, "by_batch": {"demo-stacks": 1}, "next_stage": "pass3"}
+{"stage": "pass3_packets", "packets": 1, "truncated": 0}
+{"active_candidates": 1, "by_batch": {"demo-stacks": 1}, "next_stage": "pass3"}
+{"new_candidates": 2, "sources_added": {"categories.tex": 2}, "stage": "pass1", "total_candidates": 2}
+{"stage": "pass2_packets", "packets": 2}
+{"stage": "pass2_apply", "applied": 2, "structured_total": 2, "needs_investigation": 1}
+{"new_candidates": 2, "sources_added": {"categories.tex": 2}, "stage": "pass1", "total_candidates": 2}
+{"new_candidates": 0, "sources_added": {"categories.tex": 0}, "stage": "pass1", "total_candidates": 2}
+{"new_candidates": 2, "sources_added": {"categories.tex": 2}, "stage": "pass1", "total_candidates": 2}
+{"stage": "pass2_packets", "packets": 2}
+{"stage": "pass2_apply", "applied": 2, "structured_total": 2, "needs_investigation": 1}
+{"stage": "pass2_packets", "packets": 1}
+{"new_candidates": 2, "sources_added": {"categories.tex": 2}, "stage": "pass1", "total_candidates": 2}
+{"stage": "pass2_packets", "packets": 2}
+{"stage": "pass2_apply", "applied": 2, "structured_total": 2, "needs_investigation": 1}
+{"stage": "pass3_packets", "packets": 1, "truncated": 0}
+{"stage": "pass3_apply", "decisions": 1, "total": 1, "outcomes": {"plausible": 1}, "needs_more_investigation": 1}
+{"stage": "promote", "accepted_records": 1, "new_provisional_records": 1, "output": "/tmp/tmp4s5eb0vj/staged.json", "published_to_site": false}
+{"stage": "promote", "accepted_records": 1, "new_provisional_records": 1, "output": "/tmp/tmp4s5eb0vj/staged.json", "published_to_site": false}
+{"new_candidates": 2, "sources_added": {"categories.tex": 2}, "stage": "pass1", "total_candidates": 2}
+{"stage": "pass2_packets", "packets": 2}
+{"stage": "pass2_apply", "applied": 2, "structured_total": 2, "needs_investigation": 1}
+{"stage": "pass3_apply", "decisions": 1, "total": 1, "outcomes": {"questionable": 1}, "needs_more_investigation": 2}
+{"stage": "pass3_apply", "decisions": 1, "total": 1, "outcomes": {"rejected": 1}, "needs_more_investigation": 2}
+{"new_candidates": 2, "sources_added": {"categories.tex": 2}, "stage": "pass1", "total_candidates": 2}
+{"stage": "pass2_packets", "packets": 2}
+{"stage": "pass2_apply", "applied": 2, "structured_total": 2, "needs_investigation": 1}
+{"stage": "pass3_packets", "packets": 1, "truncated": 1}
+{"stage": "pass3_packets", "packets": 1, "truncated": 0}
+{"stage": "pass3_packets", "packets": 0, "truncated": 0}
+----------------------------------------------------------------------
+Ran 170 tests in 1.235s
+
+OK

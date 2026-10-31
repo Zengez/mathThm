@@ -1,0 +1,17 @@
+[
+  {
+    "file": "flat.tex",
+    "status": "passed",
+    "retained_source_lines": 14090
+  },
+  {
+    "file": "more-morphisms.tex",
+    "status": "passed",
+    "retained_source_lines": 23669
+  },
+  {
+    "file": "dualizing.tex",
+    "status": "passed",
+    "retained_source_lines": 5659
+  }
+]

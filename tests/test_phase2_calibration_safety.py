@@ -92,6 +92,21 @@ class SourceViewSafetyTests(unittest.TestCase):
 
 
 class CalibrationHoldSafetyTests(unittest.TestCase):
+    def test_situation_incident_cannot_enter_authoritative_approvals(self):
+        group = Path('harvest/phase2_stage_b_next100_2026-10-31/group_037_048')
+        cid = 'candidate.stacks.cc4c0326a73d3c9e6fd292bd'
+        independent = rows(group / 'INDEPENDENT_HELD_PROOF_EXPOSURE.jsonl')
+        correction = rows(group / 'HELD_PROOF_EXPOSURE.jsonl')
+        self.assertEqual([r['candidate_id'] for r in independent], [cid])
+        self.assertEqual([r['candidate_id'] for r in correction], [cid])
+        self.assertTrue(independent[0]['proof_context_exposed'])
+        self.assertTrue(independent[0]['proof_reviewed'])
+        self.assertNotIn('formulation_sha256', independent[0])
+        self.assertFalse(correction[0]['proof_reviewed'])
+        self.assertNotIn(cid, load_approved())
+        for filename in ('FORMULATIONS.jsonl', 'INDEPENDENT_VALIDATION.jsonl'):
+            self.assertNotIn(cid, {r['candidate_id'] for r in rows(group / filename)})
+
     def test_held_candidates_stay_out_of_all_approved_records(self):
         selection = json.loads((BASE / "SELECTION.json").read_text())
         expected = {

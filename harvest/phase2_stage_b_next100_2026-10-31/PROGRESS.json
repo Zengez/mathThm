@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "complete_hard_stop_100",
   "started_utc": "2026-10-31T20:27:25.332327+00:00",
   "working_branch": "codex/stage-b-next100-20261031",
   "working_checkout": "/home/jason/Projects/mathThm/.harvest_runs/stage-b-next100-20261031",
@@ -1086,7 +1086,7 @@
       "corrected": 7,
       "mathematical_holds": 0,
       "processing_holds": 0,
-      "commit_sha": null,
+      "commit_sha": "b9c8bec5cbf5179473ba3325d20eeec6844f49c7",
       "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
     }
   ],
@@ -1112,7 +1112,7 @@
   "resume_instructions": "Use only fixed SELECTION.json and audited phase2_safe_source viewer. Inspect saved per-group section checkpoints, formulations and independent verdicts before resuming. Complete independent review before materialization; validate exact digests and preserve baseline872. Stop selected ordinal100. No proofs, Phase3, publication, refresh or old incident review.",
   "candidates_accounted_for": 324,
   "substantively_corrected": 29,
-  "latest_checkpoint_commit": "31093b3bd2fe308c7091f66a972589772cbc1237",
+  "latest_checkpoint_commit": "b9c8bec5cbf5179473ba3325d20eeec6844f49c7",
   "safety_commit": "89f3c4d87fd4f22ff92d940baa99d970dd9471ed",
   "source_safety_incident": {
     "source_file": "dualizing.tex",
@@ -1187,5 +1187,9 @@
       "already_approved_additional_ids": [],
       "disposition": "not selected; missing readiness evidence; leave unreviewed unless already approved"
     }
-  ]
+  ],
+  "final_integrity_checks": "passed",
+  "fully_stage_b_complete_sections": 15,
+  "mixed_sections_ready_subset_only": 73,
+  "unselected_active_candidates_untouched": 191
 }
