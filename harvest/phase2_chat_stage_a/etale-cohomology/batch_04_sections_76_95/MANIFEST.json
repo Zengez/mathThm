@@ -81,9 +81,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.40c585a4a0d6f0355aa20bec"
-  ],
+  "preliminary_source_holds": [],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     84,
@@ -128,7 +126,7 @@
       "section": 80,
       "kind": "candidates",
       "source_line": 14195,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 81,
@@ -140,13 +138,13 @@
       "section": 82,
       "kind": "candidates",
       "source_line": 14891,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 83,
       "kind": "candidates",
       "source_line": 15312,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 84,
@@ -159,6 +157,14 @@
         }
       ],
       "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 85,
+      "source_line": 16122,
+      "kind": "context_only",
+      "snippets": [],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true
     },
     {
       "section": 86,
@@ -183,6 +189,14 @@
         }
       ],
       "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 88,
+      "source_line": 16839,
+      "kind": "context_only",
+      "snippets": [],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true
     },
     {
       "section": 89,
@@ -282,16 +296,16 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 32,
-  "stage_a_remaining_work_candidate_count": 8,
-  "stage_a_source_hold_candidate_count": 1,
-  "stage_a_ready_for_codex_section_count": 5,
-  "stage_a_remaining_work_section_count": 3,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_candidate_count": 40,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 8,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "stage_a_further_work_candidate_count": 0,
-  "stage_a_dispositioned_section_count": 4,
+  "stage_a_dispositioned_section_count": 14,
   "stage_a_further_work_section_count": 0,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Source-first Stage A through Etale Cohomology §79; verified all prior ready candidates in §§70–79, added full definitions and source assumptions. Not independently Stage B validated."
+  "processing_note": "Source-ordered §§76–89 completed, including §83 eight applicable conditional curve-cohomology assertions. §§84–89 are contextual, all mathematical candidates in this packet disposed; Stage B independent validation not started."
 }
