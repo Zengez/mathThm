@@ -43,13 +43,7 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.6b23815624b566e770b3e2a9",
-    "candidate.stacks.aee66d22e3f263ced5f9b2b0",
-    "candidate.stacks.9f638c9758cd32c5f00ee27f",
-    "candidate.stacks.e97ed2015c79fc36647acfa2",
-    "candidate.stacks.76e63aa59d65c478afd4d705",
-    "candidate.stacks.61757bdb452551d94756cae5",
-    "candidate.stacks.b69a8e0480557305ea4c742a"
+    "candidate.stacks.61757bdb452551d94756cae5"
   ],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
