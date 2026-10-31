@@ -1,0 +1,172 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "cohomology-source-ordered-batch-04",
+  "chapter": "cohomology.tex",
+  "sections_ordinal": [
+    26,
+    30
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    5792,
+    6308,
+    6545,
+    6810,
+    6976
+  ],
+  "first_source_line": 5792,
+  "last_source_line": 7155,
+  "complete_sections": true,
+  "stage_a_candidate_count": 25,
+  "candidate_ids": [
+    "candidate.stacks.d13f09788afc2865c9bfa0f7",
+    "candidate.stacks.daff16cee11025f7f892a7c6",
+    "candidate.stacks.b9305260116fca04806fdf1a",
+    "candidate.stacks.af3261ca7536ac9a13650f5f",
+    "candidate.stacks.f7c037dd815818a791febebf",
+    "candidate.stacks.6b56a74ae09ba196796e44f6",
+    "candidate.stacks.21ad047d757d27af621b35ba",
+    "candidate.stacks.37afbf76db5ebe7c91138596",
+    "candidate.stacks.a8b906c5064e631aaeef5d07",
+    "candidate.stacks.b50475c8eee998549b305ecd",
+    "candidate.stacks.bef14806783ba930eaf74887",
+    "candidate.stacks.82e04dcd7219fc119d28f3d2",
+    "candidate.stacks.d25aa5e979f04a2f852044fc",
+    "candidate.stacks.d26bd5efadd172efa7b19547",
+    "candidate.stacks.b5dcb2b904d5578860ff0f6b",
+    "candidate.stacks.0e14ebbfb004ecf423727cef",
+    "candidate.stacks.a4d3f9ba0987aeed95c6e96d",
+    "candidate.stacks.8d37f1b012dabd1a7e554b10",
+    "candidate.stacks.df26c5132f3878562848e6dd",
+    "candidate.stacks.fb8306ebdafad52a6765ba16",
+    "candidate.stacks.546688d56216dd69429835cc",
+    "candidate.stacks.b9e06f140fa64783e535ad08",
+    "candidate.stacks.220edc552844ae1361b9040f",
+    "candidate.stacks.77bd5b9fe56a09c8870b2356",
+    "candidate.stacks.c8bd62f961349bcc95bb6e3c"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/cohomology/batch_04_sections_26_30/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/cohomology/batch_04_sections_26_30/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/cohomology/batch_04_sections_26_30/SECTION_CHECKPOINTS.jsonl",
+  "ledger_predecessor_checkpoint": "harvest/phase2_chat_stage_a/cohomology/batch_03_sections_21_25/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "source_theorem_env_skipped_nonactive_labels": [
+    "lemma-adjoint"
+  ],
+  "processing_sections": [
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 5792,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d13f09788afc2865c9bfa0f7",
+        "candidate.stacks.daff16cee11025f7f892a7c6",
+        "candidate.stacks.b9305260116fca04806fdf1a",
+        "candidate.stacks.af3261ca7536ac9a13650f5f",
+        "candidate.stacks.f7c037dd815818a791febebf",
+        "candidate.stacks.6b56a74ae09ba196796e44f6",
+        "candidate.stacks.21ad047d757d27af621b35ba",
+        "candidate.stacks.37afbf76db5ebe7c91138596",
+        "candidate.stacks.a8b906c5064e631aaeef5d07",
+        "candidate.stacks.b50475c8eee998549b305ecd",
+        "candidate.stacks.bef14806783ba930eaf74887",
+        "candidate.stacks.82e04dcd7219fc119d28f3d2",
+        "candidate.stacks.d25aa5e979f04a2f852044fc",
+        "candidate.stacks.d26bd5efadd172efa7b19547"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Flat resolutions",
+      "stage_a_source_context_summary": "Pinned source §26: 14 active, 14 prepared, 0 holds."
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 6308,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.b5dcb2b904d5578860ff0f6b",
+        "candidate.stacks.0e14ebbfb004ecf423727cef",
+        "candidate.stacks.a4d3f9ba0987aeed95c6e96d",
+        "candidate.stacks.8d37f1b012dabd1a7e554b10",
+        "candidate.stacks.df26c5132f3878562848e6dd"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.df26c5132f3878562848e6dd"
+      ],
+      "stage_a_source_context_heading": "Derived pullback",
+      "stage_a_source_context_summary": "Pinned source §27: 5 active, 4 prepared, 1 holds."
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 6545,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.fb8306ebdafad52a6765ba16",
+        "candidate.stacks.546688d56216dd69429835cc"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.546688d56216dd69429835cc"
+      ],
+      "stage_a_source_context_heading": "Cohomology of unbounded complexes",
+      "stage_a_source_context_summary": "Pinned source §28: 2 active, 1 prepared, 1 holds."
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 6810,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.b9e06f140fa64783e535ad08",
+        "candidate.stacks.220edc552844ae1361b9040f"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.220edc552844ae1361b9040f"
+      ],
+      "stage_a_source_context_heading": "Cohomology of filtered complexes",
+      "stage_a_source_context_summary": "Pinned source §29: 2 active, 1 prepared, 1 holds."
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 6976,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.77bd5b9fe56a09c8870b2356",
+        "candidate.stacks.c8bd62f961349bcc95bb6e3c"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Godement resolution",
+      "stage_a_source_context_summary": "Pinned source §30: 2 active, 2 prepared, 0 holds."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 22,
+  "stage_a_remaining_work_candidate_count": 3,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_remaining_work_section_count": 3,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_further_work_candidate_count": 3,
+  "stage_a_further_work_section_count": 3,
+  "processing_note": "Cohomology §§26–30 completed with K-flat/derived-pullback/Godement definitions; next §31 L7156."
+}
