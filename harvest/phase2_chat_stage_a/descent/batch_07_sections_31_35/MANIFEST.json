@@ -47,7 +47,7 @@
     "candidate.stacks.498831d7e9732d268cd93b16"
   ],
   "output_file": "harvest/phase2_chat_stage_a/descent/batch_07_sections_31_35/RECONSTRUCTIONS.jsonl",
-  "reviewer": "chatgpt-stage-a",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -57,39 +57,46 @@
       "section": 31,
       "kind": "candidates",
       "source_line": 6943,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 32,
       "kind": "candidates",
       "source_line": 7040,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 33,
       "kind": "candidates",
       "source_line": 7829,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 34,
       "kind": "candidates",
       "source_line": 8090,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 35,
       "kind": "candidates",
       "source_line": 8472,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 27,
+  "stage_a_ready_for_codex_candidate_count": 24,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 5,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 3,
+  "stage_a_further_work_section_count": 3,
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_section_mapping_pending": false,
+  "source_locator_verified": true,
+  "preliminary_source_holds": [],
+  "processing_note": "Processed Descent §§31–35 in original source order. Supplied explicit strong étale local source-target definition, germ invariant and scheme DD constructions, as well as fpqc and Zariski refinement contexts. Deferred G-unramified definition, mixed smooth/étale base-change diagram, and incorrect fpqc parenthetical."
 }
