@@ -39,22 +39,26 @@
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 4754
+      "source_line": 4754,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 4885
+      "source_line": 4885,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 4944
+      "source_line": 4944,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 19,
       "kind": "candidates",
-      "source_line": 5066
+      "source_line": 5066,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 20,
@@ -69,8 +73,15 @@
           "source_line": 5136,
           "tex": "\\begin{definition}\n\\label{definition-etale-morphism-germs}\nLet $f : (X, x) \\to (S, s)$ be a morphism of germs.\nWe say $f$ is {\\it \\'etale} (resp.\\ {\\it smooth}) if there exists a\nrepresentative $f : U \\to S$ of $f$ which is an \\'etale morphism\n(resp.\\ a smooth morphism) of schemes.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_mathematical_analysis_pending": true,
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 11,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 4
 }
