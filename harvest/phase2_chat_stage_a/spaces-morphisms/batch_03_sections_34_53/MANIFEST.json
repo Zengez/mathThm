@@ -158,31 +158,101 @@
       "section": 34,
       "kind": "candidates",
       "source_line": 6640,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.58e98fb556f706f6c6c8e8cb",
+        "candidate.stacks.77a5b428c275f9e119239dc0",
+        "candidate.stacks.0d0b025be715540369ff4628",
+        "candidate.stacks.e950a5553ec47762a3a35410",
+        "candidate.stacks.de73fd938a957073b494ab27",
+        "candidate.stacks.0194443fc7912e75dcf8275d",
+        "candidate.stacks.1cbff593c47e529328db457d",
+        "candidate.stacks.b9dba8d09ea487c7b5c918af"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Morphisms and dimensions of fibres",
+      "stage_a_source_context_summary": "Pinned §34: Morphisms and dimensions of fibres. Candidate-local scope/definitional references checked; 8 ready and 0 held."
     },
     {
       "section": 35,
       "kind": "candidates",
       "source_line": 6936,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.802bd7f3c292e0b71d7e0647",
+        "candidate.stacks.59f8538fd914590db83eb75d"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "The dimension formula",
+      "stage_a_source_context_summary": "Pinned §35: The dimension formula. Candidate-local scope/definitional references checked; 2 ready and 0 held."
     },
     {
       "section": 36,
       "kind": "candidates",
       "source_line": 7013,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e4c2a84908759477e5f9584c",
+        "candidate.stacks.0125f58eaec2893e6dcc1604",
+        "candidate.stacks.b51e936dcbc404cfe7fe56f9",
+        "candidate.stacks.13af5389db1e0cd59b875822",
+        "candidate.stacks.92445580cebb396b58aeaeba",
+        "candidate.stacks.5bd41b57ea8163079584a0c5"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Syntomic morphisms",
+      "stage_a_source_context_summary": "Pinned §36: Syntomic morphisms. Candidate-local scope/definitional references checked; 6 ready and 0 held."
     },
     {
       "section": 37,
       "kind": "candidates",
       "source_line": 7145,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.b35fc92f613fc6b0e7cd7e5f",
+        "candidate.stacks.7250f49ad68270bab4199fe6",
+        "candidate.stacks.adb84a91fd999bb9197d6d41",
+        "candidate.stacks.d5c48e34decbcf9ea456df1f",
+        "candidate.stacks.67ac1cccd48e08ced01128e7",
+        "candidate.stacks.dc3fcbd04261d3dfdcbe61d7",
+        "candidate.stacks.c80aa976e1a6dde22cf763a0",
+        "candidate.stacks.af83aecf343a761089645081",
+        "candidate.stacks.55a53b54bd82a52d6c4c608f"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Smooth morphisms",
+      "stage_a_source_context_summary": "Pinned §37: Smooth morphisms. Candidate-local scope/definitional references checked; 9 ready and 0 held."
     },
     {
       "section": 38,
       "kind": "candidates",
       "source_line": 7341,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.1c1475bb8de6841ea900e7d0",
+        "candidate.stacks.3e7c4bad9bdfe9328759b6b1",
+        "candidate.stacks.7b60cc0daf7421930c45193e",
+        "candidate.stacks.25f772c73c185a939f0cb540",
+        "candidate.stacks.1e5b4d6e6c448ae3b8f60052",
+        "candidate.stacks.80712a04fbf2430c6cebac3d",
+        "candidate.stacks.68bbd5c819bf09785ec76e80",
+        "candidate.stacks.cd4f149ea160559dd6c81ec4",
+        "candidate.stacks.3fb41be1288c4a2d2d8fe454",
+        "candidate.stacks.0782da6e0997bd023e8e4448"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Unramified morphisms",
+      "stage_a_source_context_summary": "Pinned §38: Unramified morphisms. Candidate-local scope/definitional references checked; 10 ready and 0 held."
     },
     {
       "section": 39,
@@ -270,11 +340,15 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 86,
+  "stage_a_ready_for_codex_candidate_count": 35,
+  "stage_a_remaining_work_candidate_count": 51,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_ready_for_codex_section_count": 5,
   "stage_a_remaining_work_section_count": 15,
   "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "processing_note": "Stage A prepared consecutive §§34–38 in spaces-morphisms.tex in run batch5, maintaining running ledger and section checkpoints. Next §39."
 }

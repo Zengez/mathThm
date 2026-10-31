@@ -354,73 +354,198 @@
       "section": 24,
       "kind": "candidates",
       "source_line": 4533,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.a6dc99374a234811acff0bb7",
+        "candidate.stacks.faae465ce7f2cef5fc4226ef"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Points and geometric points",
+      "stage_a_source_context_summary": "Pinned §24: Points and geometric points. Candidate-local scope/definitional references checked; 2 ready and 0 held."
     },
     {
       "section": 25,
       "kind": "candidates",
       "source_line": 4793,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e53d8013b1acb359393d093c",
+        "candidate.stacks.c959b516f9104de294ef860f",
+        "candidate.stacks.6b2a7cbb882a4812c62d45d4",
+        "candidate.stacks.8ed42daef7d4f35f08da811d",
+        "candidate.stacks.c36aa3dbf95904093d19ee81",
+        "candidate.stacks.efa4d4b35fc9d29a110dc2e4"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Points of finite type",
+      "stage_a_source_context_summary": "Pinned §25: Points of finite type. Candidate-local scope/definitional references checked; 6 ready and 0 held."
     },
     {
       "section": 26,
       "kind": "candidates",
       "source_line": 5013,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f65eb51b1bf0b54401fd2b1a"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Nagata spaces",
+      "stage_a_source_context_summary": "Pinned §26: Nagata spaces. Candidate-local scope/definitional references checked; 1 ready and 0 held."
     },
     {
       "section": 27,
       "kind": "candidates",
       "source_line": 5066,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.8bbd13bffb09cd0b2e3f30c8",
+        "candidate.stacks.3315d83791cb82235a54a0c3",
+        "candidate.stacks.b0b2741a16a31c5bfd17b2c1",
+        "candidate.stacks.bef1e92a7c20910cbe1a3fa0",
+        "candidate.stacks.933f0bf87f448a864deca62d",
+        "candidate.stacks.4922f4ea78a3268baf0f8b23",
+        "candidate.stacks.bc952ea623ce80824b482f2f",
+        "candidate.stacks.1c1f7e2e838a7873484ed061",
+        "candidate.stacks.3750d10c087bf4a1f52d843d"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Quasi-finite morphisms",
+      "stage_a_source_context_summary": "Pinned §27: Quasi-finite morphisms. Candidate-local scope/definitional references checked; 9 ready and 0 held."
     },
     {
       "section": 28,
       "kind": "candidates",
       "source_line": 5405,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d454c801396dd947195c645e",
+        "candidate.stacks.9ec68ac2ff7762693e684821",
+        "candidate.stacks.7ba6864b952fda90e723735a",
+        "candidate.stacks.a88e6c2932a7db1bccf377d1",
+        "candidate.stacks.2998b27eca0b78c80588860f",
+        "candidate.stacks.e4f6d2a4b05e5c9264db2fdb",
+        "candidate.stacks.3222481d9f75a154c20eae20",
+        "candidate.stacks.cf9c841ee37b73ad481f9dee",
+        "candidate.stacks.97613da7cf7767cf61c08852",
+        "candidate.stacks.a346ac96d0f18f1a1a37cc83",
+        "candidate.stacks.c3b2a778377831d8f43c3ad4"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Morphisms of finite presentation",
+      "stage_a_source_context_summary": "Pinned §28: Morphisms of finite presentation. Candidate-local scope/definitional references checked; 11 ready and 0 held."
     },
     {
       "section": 29,
       "kind": "candidates",
       "source_line": 5691,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.9e3749ccecb83301f654ddbb",
+        "candidate.stacks.48bf375d275878d113101c74"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Constructible sets",
+      "stage_a_source_context_summary": "Pinned §29: Constructible sets. Candidate-local scope/definitional references checked; 2 ready and 0 held."
     },
     {
       "section": 30,
       "kind": "candidates",
       "source_line": 5751,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f67ed65d3b52b8b0993c7c1b",
+        "candidate.stacks.7665f2197f38b9c0ae46d887",
+        "candidate.stacks.b3302b96c08ba0a53e675d9a",
+        "candidate.stacks.9209a68499631b6fd30e6838",
+        "candidate.stacks.8c21163139e0e59731bb4a4b",
+        "candidate.stacks.5f9f2ae131c63ba84e568532",
+        "candidate.stacks.fa01d4259ca7efa4d9e5643b",
+        "candidate.stacks.1d6cc4854b619284b7f0c52a",
+        "candidate.stacks.43e0ce6fce0eb3c81ac3e065",
+        "candidate.stacks.2800837a0c906520302b030e",
+        "candidate.stacks.c128753101a9e064bd965e2f"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.5f9f2ae131c63ba84e568532",
+        "candidate.stacks.1d6cc4854b619284b7f0c52a"
+      ],
+      "stage_a_source_context_heading": "Flat morphisms",
+      "stage_a_source_context_summary": "Pinned §30: Flat morphisms. Candidate-local scope/definitional references checked; 9 ready and 2 held."
     },
     {
       "section": 31,
       "kind": "candidates",
       "source_line": 6104,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.42cf074b2d3e108493298f39",
+        "candidate.stacks.e0b68bb51a9b032c4878721a",
+        "candidate.stacks.c5cce83f5659a193adb66983",
+        "candidate.stacks.a99c02f0287e9d815c33a696",
+        "candidate.stacks.9721b971944aaf8d735d3da6"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Flat modules",
+      "stage_a_source_context_summary": "Pinned §31: Flat modules. Candidate-local scope/definitional references checked; 5 ready and 0 held."
     },
     {
       "section": 32,
       "kind": "candidates",
       "source_line": 6346,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.5512a773a78f60a004b22e3f",
+        "candidate.stacks.16b5bb750f6a7230d301a048"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Generic flatness",
+      "stage_a_source_context_summary": "Pinned §32: Generic flatness. Candidate-local scope/definitional references checked; 2 ready and 0 held."
     },
     {
       "section": 33,
       "kind": "candidates",
       "source_line": 6475,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.41a5a1643b79d7027481ece5",
+        "candidate.stacks.22ac3d2863f74a2aca89f7b6",
+        "candidate.stacks.c4b23a96d99cd3c88fee3fa2"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Relative dimension",
+      "stage_a_source_context_summary": "Pinned §33: Relative dimension. Candidate-local scope/definitional references checked; 3 ready and 0 held."
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 46,
-  "stage_a_remaining_work_candidate_count": 53,
+  "stage_a_ready_for_codex_candidate_count": 96,
+  "stage_a_remaining_work_candidate_count": 3,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 8,
+  "stage_a_ready_for_codex_section_count": 17,
   "stage_a_remaining_work_section_count": 19,
   "stage_a_work_pending": true,
   "stage_a_readiness_rule": "conservative_standalone_screen_v1",
-  "stage_a_dispositioned_section_count": 10,
-  "stage_a_further_work_candidate_count": 1,
-  "stage_a_further_work_section_count": 1,
-  "processing_note": "Regular Stage A processed through spaces-morphisms.tex §23; 15-section run batch4. §§24–33 pending."
+  "stage_a_dispositioned_section_count": 20,
+  "stage_a_further_work_candidate_count": 3,
+  "stage_a_further_work_section_count": 2,
+  "processing_note": "Stage A prepared consecutive §§24–33 in spaces-morphisms.tex in run batch5, maintaining running ledger and section checkpoints. Next §39."
 }
