@@ -94,7 +94,7 @@
   "output_file": "harvest/phase2_chat_stage_a/more-etale/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": false,
+  "stage_a_mathematical_analysis_pending": true,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -148,68 +148,86 @@
     {
       "section": 2,
       "kind": "candidates",
-      "source_line": 36
+      "source_line": 36,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 144
+      "source_line": 144,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 803
+      "source_line": 803,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 1761
+      "source_line": 1761,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 2142
+      "source_line": 2142,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 2359
+      "source_line": 2359,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 2451
+      "source_line": 2451,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 3046
+      "source_line": 3046,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 3537
+      "source_line": 3537,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 3835
+      "source_line": 3835,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 4058
+      "source_line": 4058,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 4205
+      "source_line": 4205,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 4458
+      "source_line": 4458,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 22,
+  "stage_a_remaining_work_candidate_count": 40,
+  "stage_a_source_hold_candidate_count": 40,
+  "stage_a_ready_for_codex_section_count": 1,
+  "stage_a_remaining_work_section_count": 12
 }
