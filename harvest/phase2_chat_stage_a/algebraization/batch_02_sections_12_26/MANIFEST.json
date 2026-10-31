@@ -70,7 +70,7 @@
       "section": 12,
       "kind": "candidates",
       "source_line": 3659,
-      "stage_a_readiness": "ready_for_codex_validation"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 13,
@@ -88,61 +88,61 @@
       "section": 15,
       "kind": "candidates",
       "source_line": 4512,
-      "stage_a_readiness": "ready_for_codex_validation"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 16,
-      "kind": "context_only",
+      "kind": "candidates",
       "source_line": 4973,
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 17,
-      "kind": "context_only",
+      "kind": "candidates",
       "source_line": 5449,
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 18,
       "kind": "candidates",
       "source_line": 5582,
-      "stage_a_readiness": "ready_for_codex_validation"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 19,
-      "kind": "context_only",
+      "kind": "candidates",
       "source_line": 5898,
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 20,
-      "kind": "context_only",
+      "kind": "candidates",
       "source_line": 6224,
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 21,
-      "kind": "context_only",
+      "kind": "candidates",
       "source_line": 6837,
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 22,
-      "kind": "context_only",
+      "kind": "candidates",
       "source_line": 7119,
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 23,
-      "kind": "context_only",
+      "kind": "candidates",
       "source_line": 7702,
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 24,
-      "kind": "context_only",
+      "kind": "candidates",
       "source_line": 7864,
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 25,
@@ -161,221 +161,435 @@
   "stage_a_ready_for_codex_candidate_count": 21,
   "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 7,
+  "stage_a_ready_for_codex_section_count": 4,
   "stage_a_remaining_work_section_count": 0,
   "stage_a_work_pending": false,
   "stage_a_readiness_rule": "conservative_standalone_screen_v1",
-  "stage_a_excluded_candidates": [
+  "stage_a_excluded_candidates": [],
+  "stage_a_excluded_candidate_count": 0,
+  "stage_a_further_work_candidates": [
     {
       "candidate_id": "candidate.stacks.27690707b8f6d2f1f119ee2c",
-      "source_label": "lemma-ses-H0",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 3673,
-      "reason": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort"
+      "source_label": "lemma-ses-H0",
+      "section_ordinal": 12,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L3673",
+      "unresolved_issue": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.a49c3ac18522dde450d4f138",
-      "source_label": "lemma-recognize-formal-coherent-modules",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 4720,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-recognize-formal-coherent-modules",
+      "section_ordinal": 15,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L4720",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.63f386b2fbd78ee3a259b892",
-      "source_label": "lemma-fully-faithful-alternative",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 4785,
-      "reason": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort"
+      "source_label": "lemma-fully-faithful-alternative",
+      "section_ordinal": 15,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L4785",
+      "unresolved_issue": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.1a57a6d9b68029a336fce0ec",
-      "source_label": "lemma-fully-faithful-simple-two",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 4818,
-      "reason": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort"
+      "source_label": "lemma-fully-faithful-simple-two",
+      "section_ordinal": 15,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L4818",
+      "unresolved_issue": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.1a0843af9be85ee515c8af79",
-      "source_label": "lemma-system-of-modules",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 4996,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-system-of-modules",
+      "section_ordinal": 16,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L4996",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.19982cd64df8c6faaabdec5d",
-      "source_label": "lemma-essential-image-completion",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5053,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-essential-image-completion",
+      "section_ordinal": 16,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5053",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.73417c1e7092a5ba41dc9721",
-      "source_label": "lemma-algebraizable",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5170,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-algebraizable",
+      "section_ordinal": 16,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5170",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.26a161448b566c7f774c999d",
-      "source_label": "lemma-canonically-algebraizable",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5248,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-canonically-algebraizable",
+      "section_ordinal": 16,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5248",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.8698702c96baeaafe082ef1d",
-      "source_label": "lemma-canonically-extend-base-change",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5296,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-canonically-extend-base-change",
+      "section_ordinal": 16,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5296",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.455df00a806b02ff56b2aaf4",
-      "source_label": "lemma-when-done",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5327,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-when-done",
+      "section_ordinal": 16,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5327",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.1e1f00c6774688f719e55c89",
-      "source_label": "lemma-algebraization-principal-variant",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5365,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-algebraization-principal-variant",
+      "section_ordinal": 16,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5365",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.f5512d999ba30cf2ebe1f3ba",
-      "source_label": "lemma-map-kernel-cokernel-on-closed",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5457,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-map-kernel-cokernel-on-closed",
+      "section_ordinal": 17,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5457",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.79c84c1cab6430eb1ed6e92f",
-      "source_label": "lemma-when-ML",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5485,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-when-ML",
+      "section_ordinal": 17,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5485",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.e56d81005bfe3c84f7330bac",
-      "source_label": "lemma-when-topology",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5522,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-when-topology",
+      "section_ordinal": 17,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5522",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.454ec8c6d33d966c828206c6",
-      "source_label": "lemma-discussion",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5621,
-      "reason": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort"
+      "source_label": "lemma-discussion",
+      "section_ordinal": 18,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5621",
+      "unresolved_issue": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.11f27af177e39f6f9f4a7e4d",
-      "source_label": "lemma-elementary",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5967,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-elementary",
+      "section_ordinal": 19,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5967",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.b6aecd4d4485fbdedbe68923",
-      "source_label": "lemma-explain-2-3-cd-1",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 5995,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-explain-2-3-cd-1",
+      "section_ordinal": 19,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L5995",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.12c17d2b7ec2c6ed1948f1e3",
-      "source_label": "lemma-sanity",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 6041,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-sanity",
+      "section_ordinal": 19,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L6041",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.fc54f13681bb4b821a87f13c",
-      "source_label": "lemma-recover",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 6086,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-recover",
+      "section_ordinal": 19,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L6086",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.1397279154b40a93516fcc5e",
-      "source_label": "lemma-fully-faithful-inequalities",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 6118,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-fully-faithful-inequalities",
+      "section_ordinal": 19,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L6118",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.2fa9a42deb967e0fba08614a",
-      "source_label": "lemma-construct-unique",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 6160,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-construct-unique",
+      "section_ordinal": 19,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L6160",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.89764006e154979fb2b10dab",
-      "source_label": "lemma-algebraization-principal",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 6236,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-algebraization-principal",
+      "section_ordinal": 20,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L6236",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.7d9a6c483d5cfd7425a0094d",
-      "source_label": "lemma-algebraization-principal-bis",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 6518,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-algebraization-principal-bis",
+      "section_ordinal": 20,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L6518",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.7e217cf1d98bd41960dd1c6b",
-      "source_label": "lemma-unwinding-conditions",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 6660,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-unwinding-conditions",
+      "section_ordinal": 20,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L6660",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.5898eb5867ecde5b05e84722",
-      "source_label": "lemma-unwinding-conditions-bis",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 6721,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-unwinding-conditions-bis",
+      "section_ordinal": 20,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L6721",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.63e1f842cd529d7576086812",
-      "source_label": "lemma-improvement-application",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 7074,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-improvement-application",
+      "section_ordinal": 21,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L7074",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.2213b81b1d0dd5adbcf5266d",
-      "source_label": "lemma-cd-1-canonical",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 7128,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-cd-1-canonical",
+      "section_ordinal": 22,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L7128",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.2ed61a6a31ab3a7af8654236",
-      "source_label": "proposition-cd-1",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 7262,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "proposition-cd-1",
+      "section_ordinal": 22,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L7262",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.2f26683af35949e91dda6a5e",
-      "source_label": "lemma-blowup",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 7292,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-blowup",
+      "section_ordinal": 22,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L7292",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.9b71ef44379cd2bf7f92aab7",
-      "source_label": "proposition-d-generators",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 7583,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "proposition-d-generators",
+      "section_ordinal": 22,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L7583",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.6bd10d5e4a7ff49fd9aae62b",
-      "source_label": "lemma-interesting-case-final",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 7627,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-interesting-case-final",
+      "section_ordinal": 22,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L7627",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.bc8a04d9618748b3acb31e14",
-      "source_label": "proposition-algebraization-regular-sequence",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 7708,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "proposition-algebraization-regular-sequence",
+      "section_ordinal": 23,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L7708",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.0bfb102ec13870ff2b1bf3c0",
-      "source_label": "proposition-algebraization-flat",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 7780,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "proposition-algebraization-flat",
+      "section_ordinal": 23,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L7780",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.513d74f6767f4cbe7368464a",
-      "source_label": "lemma-equivalence-better",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 7872,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-equivalence-better",
+      "section_ordinal": 24,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L7872",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.a3e4df123cd4df269a93c28a",
-      "source_label": "lemma-equivalence",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 7916,
-      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+      "source_label": "lemma-equivalence",
+      "section_ordinal": 24,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L7916",
+      "unresolved_issue": "Inherited situation, definition or source reference requires substantial expansion",
+      "status": "further_work_needed"
     }
   ],
-  "stage_a_excluded_candidate_count": 35
+  "stage_a_further_work_candidate_count": 35,
+  "stage_a_further_work_section_count": 11,
+  "stage_a_dispositioned_section_count": 15
 }
