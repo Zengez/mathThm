@@ -11,6 +11,8 @@ mathThm is a companion to [mathDef](https://github.com/Zengez/mathDef). Its goal
 1. **[PROJECT_PLAN.md](PROJECT_PLAN.md)** — authoritative consolidated design, requirements, phased workflow, acceptance criteria, and decisions from the October 23, 2026 discussions. Read this first.
 2. **[WORK_CHECKPOINT.md](WORK_CHECKPOINT.md)** — current implementation state, next authorized action, and restart instructions. Update it whenever work begins, pauses, or completes a major stage.
 3. **[HARVEST_RUNBOOK.md](HARVEST_RUNBOOK.md)** — implemented bounded Pass 1/2/3 scripts, exact commands, investigation queue and safety gates.
+   - **[STAGE_A_PREPARATION.md](STAGE_A_PREPARATION.md)** — operative Chat Stage A source-order preparation instructions, including mandatory scoped context ledger, checkpoints and readiness gate.
+   - **[STAGE_A0_PREPASS.md](STAGE_A0_PREPASS.md)** — optional Medium-thinking pre-pass, isolated overlay status, conservative expansion and A1 handoff.
 4. **[HARVEST_DESIGN.md](HARVEST_DESIGN.md)** — agreed three-pass acquisition strategy, strict Pass 3 triage, and open decisions (design only).
 5. **[THEOREM_RECORD_CONTRACT.md](THEOREM_RECORD_CONTRACT.md)** — current lightweight accepted-theorem schema, screening/provenance rules and automated validation.
 6. **[PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md)** — what has actually been built, what passed, manual GitHub Pages setup, and remaining limitations.
