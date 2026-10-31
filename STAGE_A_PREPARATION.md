@@ -46,6 +46,8 @@ Check source-specific usage of notation/terms, but avoid recursively expanding s
 
 If an A0 overlay exists, treat it as an **unverified working draft**: verify each proposed substitution against the pinned source and current ledger, fix it, or discard it. A0 status alone authorizes nothing.
 
+**For A0 v2 work packets**, read `A0_WORKPACKETS_V2.jsonl` and any corresponding context-events supplement **before** re-reading every source dependency. Reuse sourced references, notation and candidate-local premise/conclusion fragments as *working evidence*, then verify their actual scope and object correspondence against pinned source. A1 should spend effort on semantic validation and hard missing context, rather than repeating source-locator discovery and transcription that A0 already completed. Never treat a packet's `easy_tasks_completed` or `a0_work_profile` as mathematical approval. A0's literal `before Then` partition and enumeration role hints require A1 logical-scope checks. If an A0 packet is partial, continue from its `a1_remaining_tasks`; do not abandon already completed independent mechanical subtasks. See [Stage A0 v2 audit](harvest/phase2_chat_stage_a0/REVIEW_AND_V2_SPEC_2026-10-31.md).
+
 ## Records and labels
 
 Authoritative Stage A outputs continue to live at `harvest/phase2_chat_stage_a/<chapter>/<batch>/MANIFEST.json` and `RECONSTRUCTIONS.jsonl`; unresolved candidate identities also appear in `harvest/phase2_chat_stage_a/FURTHER_WORK_NEEDED.jsonl` with discoverable packet paths. Existing decisions and manifest keys remain authoritative: **do not invent new Stage A readiness decisions** to implement A0.
