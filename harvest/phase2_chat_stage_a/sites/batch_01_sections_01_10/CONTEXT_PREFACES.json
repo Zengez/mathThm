@@ -1,0 +1,3 @@
+{
+  "I": "Let $u:\\mathcal{C}\\to\\mathcal{D}$ be a functor. For $V$ let $\\mathcal{I}^u_V$ have objects $(U,\\phi:V\\to u(U))$ and arrows $f:(U,\\phi)\\to(U',\\phi')$ where $u(f)\\circ\\phi=\\phi'$."
+}
