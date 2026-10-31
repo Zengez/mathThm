@@ -110,17 +110,20 @@
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 5470
+      "source_line": 5470,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 19,
       "kind": "candidates",
-      "source_line": 5563
+      "source_line": 5563,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 5925
+      "source_line": 5925,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 21,
@@ -143,48 +146,62 @@
           "source_line": 6265,
           "tex": "\\begin{definition}\n\\label{definition-quotient}\nLet $(U, R, s, t, c)$ be a groupoid in functors on a category $\\mathcal{C}$.\n\\begin{enumerate}\n\\item The assignment $T \\mapsto  (U(T), R(T), s, t, c)$ determines a functor\n$\\mathcal{C} \\to \\textit{Groupoids}$. The {\\it quotient category\ncofibered in groupoids $[U/R] \\to \\mathcal{C}$} is the category\ncofibered in groupoids over $\\mathcal{C}$ associated to this functor (as in\nRemarks \\ref{remarks-cofibered-groupoids}\n(\\ref{item-construction-associated-cofibered-groupoid})).\n\\item The {\\it quotient morphism $U \\to [U/R]$} is the morphism of\ncategories cofibered in groupoids over $\\mathcal{C}$ defined by the\nrules\n\\begin{enumerate}\n\\item $x \\in U(T)$ maps to the object $(T, x) \\in \\Ob([U/R](T))$, and\n\\item $x \\in U(T)$ and $f : T \\to T'$ give rise to the morphism\n$(f, \\text{id}_{U(f)(x)}): (T, x) \\to (T, U(f)(x))$ lying over\n$f : T \\to T'$.\n\\end{enumerate}\n\\end{enumerate}\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 22,
       "kind": "candidates",
-      "source_line": 6291
+      "source_line": 6291,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 23,
       "kind": "candidates",
-      "source_line": 6404
+      "source_line": 6404,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 24,
       "kind": "candidates",
-      "source_line": 6488
+      "source_line": 6488,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 25,
       "kind": "candidates",
-      "source_line": 6607
+      "source_line": 6607,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 26,
       "kind": "candidates",
-      "source_line": 6677
+      "source_line": 6677,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 27,
       "kind": "candidates",
-      "source_line": 6827
+      "source_line": 6827,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 28,
       "kind": "candidates",
-      "source_line": 7091
+      "source_line": 7091,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 29,
       "kind": "candidates",
-      "source_line": 7262
+      "source_line": 7262,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 5,
+  "stage_a_remaining_work_candidate_count": 32,
+  "stage_a_source_hold_candidate_count": 29,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 11
 }
