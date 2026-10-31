@@ -1,0 +1,60 @@
+{
+  "schema": "maththm.phase2.chat-stage-a0-batch.v2",
+  "source_file": "topology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "section_ordinals": [
+    3,
+    7
+  ],
+  "source_line_range": [
+    17,
+    850
+  ],
+  "complete_physical_sections_accounted": 7,
+  "complete_candidate_bearing_sections": 5,
+  "source_theorem_like_count": 22,
+  "canonical_active_count": 21,
+  "eligible_unreviewed_count": 21,
+  "excluded_source_records": [
+    {
+      "source_label": "lemma-connected-fibres-quotient-topology-connected-components",
+      "source_line": 720,
+      "candidate_id": "candidate.stacks.eec369ce80c5f2b94250e114",
+      "reason": "excluded_from_canonical_active_pool"
+    }
+  ],
+  "excluded_approved_count": 0,
+  "context_event_count": 9,
+  "section_checkpoint_count": 7,
+  "candidate_ids": [
+    "candidate.stacks.72a488bb1f19149d12336ef8",
+    "candidate.stacks.24891ae411ef5c9c337a95cb",
+    "candidate.stacks.47b4236641fd8b1d8c164a85",
+    "candidate.stacks.707c7fa3cbb2522b38c7a15f",
+    "candidate.stacks.f09ea19ce09cdd11c75653e5",
+    "candidate.stacks.b87da395de7e3bf65a5110f0",
+    "candidate.stacks.834500413e67408958f998b6",
+    "candidate.stacks.4fbf6c69e6baf7af359ab0a3",
+    "candidate.stacks.d65ceabfee8e75037a1997a1",
+    "candidate.stacks.601985df424223610eabd63c",
+    "candidate.stacks.1769409ae74d1dc4a71bfd86",
+    "candidate.stacks.01b1950b83245729d6bcb3dc",
+    "candidate.stacks.a5d19adec5828918f659c6cb",
+    "candidate.stacks.99f3838f810e3418721445ae",
+    "candidate.stacks.6f55a088c9fbf8b133d31880",
+    "candidate.stacks.f1e3d7dfcdb3edd469bea186",
+    "candidate.stacks.44df237bb1870d8d6f88c696",
+    "candidate.stacks.dcc61901820ab50df5cd9afd",
+    "candidate.stacks.c03f2c50b57faa2ff7a2d729",
+    "candidate.stacks.a0345af8da4f00793827e16b",
+    "candidate.stacks.8a78fc0d8844842d88fa6c49"
+  ],
+  "canonical_active_registry_total": 9675,
+  "historical_authoritative_approval_total": 655,
+  "independent_review_overlap": 0,
+  "verified_no_chat_a1_or_a0_overlap_at_selection": true,
+  "proofs_reviewed": 0,
+  "stage_a_promotion_count": 0,
+  "source_statement_modifications": 0,
+  "a0_only": true
+}
