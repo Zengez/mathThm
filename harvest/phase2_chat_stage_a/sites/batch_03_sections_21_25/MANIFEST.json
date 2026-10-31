@@ -45,9 +45,9 @@
   "proofs_reviewed": 0,
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [],
-  "stage_a_ready_for_codex_candidate_count": 12,
-  "stage_a_remaining_work_candidate_count": 3,
-  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_ready_for_codex_candidate_count": 15,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 5,
   "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "processing_sections": [
@@ -70,7 +70,7 @@
       "section": 22,
       "kind": "candidates",
       "source_line": 4823,
-      "stage_a_readiness": "further_work_needed",
+      "stage_a_readiness": "ready_for_codex_validation",
       "stage_a_source_context_reviewed": true,
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [
@@ -78,25 +78,20 @@
         "candidate.stacks.c506d1f5453019bc640b0e38",
         "candidate.stacks.3a33e1360846f97af6248199"
       ],
-      "stage_a_held_candidate_ids": [
-        "candidate.stacks.772a6312cbd126e9ce5f607e",
-        "candidate.stacks.3a33e1360846f97af6248199"
-      ],
+      "stage_a_held_candidate_ids": [],
       "stage_a_source_context_heading": "Cocontinuous functors which have a right adjoint"
     },
     {
       "section": 23,
       "kind": "candidates",
       "source_line": 4976,
-      "stage_a_readiness": "further_work_needed",
+      "stage_a_readiness": "ready_for_codex_validation",
       "stage_a_source_context_reviewed": true,
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [
         "candidate.stacks.eb8882db5808016bbc0525e4"
       ],
-      "stage_a_held_candidate_ids": [
-        "candidate.stacks.eb8882db5808016bbc0525e4"
-      ],
+      "stage_a_held_candidate_ids": [],
       "stage_a_source_context_heading": "Cocontinuous functors which have a left adjoint"
     },
     {
