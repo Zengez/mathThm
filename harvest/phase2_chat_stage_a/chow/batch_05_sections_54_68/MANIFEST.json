@@ -71,24 +71,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.ccd36bd435d842b31a525aa5",
-    "candidate.stacks.b1a9ec13776690ab573e79f8",
-    "candidate.stacks.a057fa44a27b2461f53044a0",
-    "candidate.stacks.9d1d052a7bb695c835a6681a",
-    "candidate.stacks.e3715c3656fa9dccebf11e37",
-    "candidate.stacks.ea754c36b982d8142992e709",
-    "candidate.stacks.9460d68113079f91c4c6fb84",
-    "candidate.stacks.bd811fd791c703e19ebc97eb",
-    "candidate.stacks.a06bb2b132726ef8d8578a12",
-    "candidate.stacks.41f3a9bc2026745434b75cd9",
-    "candidate.stacks.350d14da134e3a142f5849dd",
-    "candidate.stacks.59b932a158982009f6a9acf0",
-    "candidate.stacks.f8f99dd310b2fcd3376615dc",
-    "candidate.stacks.3816f809d5adbb047c0a4840",
-    "candidate.stacks.882fb8db39fda6ecb7bfb6c2",
-    "candidate.stacks.00706f644d92b36df06cdf76"
-  ],
+  "preliminary_source_holds": [],
   "processing_sections": [
     {
       "section": 54,
@@ -135,55 +118,63 @@
     {
       "section": 61,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 14105
     },
     {
       "section": 62,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "further_work_needed",
+      "source_line": 14295
     },
     {
       "section": 63,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 14615
     },
     {
       "section": 64,
-      "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 14867
     },
     {
       "section": 65,
-      "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 15021
     },
     {
       "section": 66,
-      "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 15077
     },
     {
       "section": 67,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 15115
     },
     {
       "section": 68,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "further_work_needed",
+      "source_line": 15631
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 16,
-  "stage_a_remaining_work_candidate_count": 28,
-  "stage_a_source_hold_candidate_count": 16,
-  "stage_a_ready_for_codex_section_count": 2,
-  "stage_a_remaining_work_section_count": 8,
-  "stage_a_section_mapping_pending": true,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_candidate_count": 40,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 5,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
-  "stage_a_further_work_candidate_count": 11,
-  "stage_a_further_work_section_count": 5,
-  "stage_a_dispositioned_section_count": 7,
-  "processing_note": "Chow sections 46–60 dispositioned source-first; preserved derived/localized context, with specific review reasons for nonstandalone candidates."
+  "stage_a_further_work_candidate_count": 15,
+  "stage_a_further_work_section_count": 7,
+  "stage_a_dispositioned_section_count": 12,
+  "processing_note": "All Chow §1–68 packets now have candidate dispositions; source-order review of §61–68 expanded field/K and Dedekind exterior products, base change and determinant symbols."
 }
