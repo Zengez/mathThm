@@ -6,11 +6,11 @@
   "selection_commit": "bff8401e62e6b1de3ac3addd08d033304b862888",
   "selected_sections": 100,
   "selected_candidates": 324,
-  "completed_sections": 36,
-  "approvals": 63,
+  "completed_sections": 48,
+  "approvals": 99,
   "mathematical_holds": 1,
-  "processing_holds": 73,
-  "current_authoritative_total": 935,
+  "processing_holds": 81,
+  "current_authoritative_total": 971,
   "completed_groups": [
     {
       "group": "group_001_012",
@@ -131,7 +131,7 @@
         "candidate.stacks.fc08acad38c8435a569808ab"
       ],
       "approved": 31,
-      "corrected": 10,
+      "corrected": 5,
       "mathematical_holds": 0,
       "processing_holds": 5,
       "commit_sha": "cf6d06e8a3a18628317e9b1ad7cb0ee6442f0c14",
@@ -251,7 +251,7 @@
         "candidate.stacks.ee7711283a091edc8ff683fc"
       ],
       "approved": 15,
-      "corrected": 17,
+      "corrected": 1,
       "mathematical_holds": 0,
       "processing_holds": 16,
       "commit_sha": "cce8575fb4fe4fe36a4c1f88bb10f10186fbef6d",
@@ -410,45 +410,172 @@
         "candidate.stacks.fe903374e09919236e57c886"
       ],
       "approved": 17,
-      "corrected": 55,
+      "corrected": 3,
       "mathematical_holds": 1,
       "processing_holds": 52,
+      "commit_sha": "47819c130c0e957c29e212eee27f07ae330943c6",
+      "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
+    },
+    {
+      "group": "group_037_048",
+      "selected_sections": [
+        37,
+        48
+      ],
+      "section_boundaries": [
+        {
+          "ordinal": 37,
+          "source_file": "dualizing.tex",
+          "section_start_line": 464,
+          "section_end_line": 678
+        },
+        {
+          "ordinal": 38,
+          "source_file": "dualizing.tex",
+          "section_start_line": 679,
+          "section_end_line": 784
+        },
+        {
+          "ordinal": 39,
+          "source_file": "dualizing.tex",
+          "section_start_line": 785,
+          "section_end_line": 1031
+        },
+        {
+          "ordinal": 40,
+          "source_file": "dualizing.tex",
+          "section_start_line": 1032,
+          "section_end_line": 1218
+        },
+        {
+          "ordinal": 41,
+          "source_file": "dualizing.tex",
+          "section_start_line": 1219,
+          "section_end_line": 1546
+        },
+        {
+          "ordinal": 42,
+          "source_file": "dualizing.tex",
+          "section_start_line": 1547,
+          "section_end_line": 1695
+        },
+        {
+          "ordinal": 43,
+          "source_file": "dualizing.tex",
+          "section_start_line": 1696,
+          "section_end_line": 1935
+        },
+        {
+          "ordinal": 44,
+          "source_file": "dualizing.tex",
+          "section_start_line": 1936,
+          "section_end_line": 2197
+        },
+        {
+          "ordinal": 45,
+          "source_file": "dualizing.tex",
+          "section_start_line": 2198,
+          "section_end_line": 2437
+        },
+        {
+          "ordinal": 46,
+          "source_file": "dualizing.tex",
+          "section_start_line": 2550,
+          "section_end_line": 2904
+        },
+        {
+          "ordinal": 47,
+          "source_file": "dualizing.tex",
+          "section_start_line": 2905,
+          "section_end_line": 3222
+        },
+        {
+          "ordinal": 48,
+          "source_file": "dualizing.tex",
+          "section_start_line": 3223,
+          "section_end_line": 3417
+        }
+      ],
+      "candidate_ids_accounted_for": [
+        "candidate.stacks.000f40f8f6c3bb4e44452e05",
+        "candidate.stacks.0365e81137fad5fdea9a5109",
+        "candidate.stacks.055e55b623d8ff1a7cad0ddc",
+        "candidate.stacks.11fe0615e28867a1a2c5b55c",
+        "candidate.stacks.1a69bc62b8b6e66ebf4260d7",
+        "candidate.stacks.1e3ec016f65146858e05a00a",
+        "candidate.stacks.263917eb9c5e6cd825bf9986",
+        "candidate.stacks.26b65b0628d80d2f27165826",
+        "candidate.stacks.2b308faed07d46e72f5438a7",
+        "candidate.stacks.3560ecf1c1ff959add6fa556",
+        "candidate.stacks.409aef5001be89a33f7cf139",
+        "candidate.stacks.491ec94d93f0a0ed8d3cd465",
+        "candidate.stacks.5236e24ea05da1f56ba34236",
+        "candidate.stacks.5e2db4a8828b01adc9e27615",
+        "candidate.stacks.635e25081d92b0625ce9a406",
+        "candidate.stacks.70e93365f6036997edf0ce06",
+        "candidate.stacks.7928ba6f7c2002292d26b533",
+        "candidate.stacks.8752b52e08b06fa75b63286a",
+        "candidate.stacks.95755c7850c734ea08e61ba3",
+        "candidate.stacks.9e2983511ff43768c7e243d9",
+        "candidate.stacks.9ebd65e58d541924fe796e14",
+        "candidate.stacks.a18e6694f2d3c3c01fc32989",
+        "candidate.stacks.ac70f135114cc002c5c21f50",
+        "candidate.stacks.b5c7676fdd8f12c119fb7be0",
+        "candidate.stacks.b69be078f8b2c396fce5355f",
+        "candidate.stacks.b6d973943200caff98f63a38",
+        "candidate.stacks.b988abe9e62467c180a4da30",
+        "candidate.stacks.b9c61687ddb750b7e19417d5",
+        "candidate.stacks.be53001fac979039872d66c2",
+        "candidate.stacks.c117d435a7626c1c6851c9d3",
+        "candidate.stacks.cafab401532beb452b0d927c",
+        "candidate.stacks.cbd82c842de78cfebf524a6e",
+        "candidate.stacks.cc4c0326a73d3c9e6fd292bd",
+        "candidate.stacks.d6ad745c89cb3c7d8d15ebc3",
+        "candidate.stacks.defca75cdf9d272946fb673c",
+        "candidate.stacks.e844d1035a0310b029ce85b3",
+        "candidate.stacks.e8d8485edd3c744280dd7b68",
+        "candidate.stacks.e9121b1d26854ee5c1e88cc2",
+        "candidate.stacks.f5488395ef3a803c6d7f252f",
+        "candidate.stacks.f62c6df9b9618306b895bd4a",
+        "candidate.stacks.f9626e296cfbcb5c147d4fb4",
+        "candidate.stacks.f9eed9b1f52b6994fa2f2cb7",
+        "candidate.stacks.f9f69ccb4c55e02c93a32a07",
+        "candidate.stacks.fadecf5df34fa6b16a065310"
+      ],
+      "approved": 36,
+      "corrected": 3,
+      "mathematical_holds": 0,
+      "processing_holds": 8,
       "commit_sha": null,
       "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
     }
   ],
   "next_section": {
-    "ordinal": 37,
-    "global_ordinal": 87,
+    "ordinal": 49,
+    "global_ordinal": 99,
     "source_file": "dualizing.tex",
-    "section_start_line": 464,
-    "section_end_line": 678,
+    "section_start_line": 3418,
+    "section_end_line": 3541,
     "eligible_candidate_ids": [
-      "candidate.stacks.b9c61687ddb750b7e19417d5",
-      "candidate.stacks.c117d435a7626c1c6851c9d3",
-      "candidate.stacks.fadecf5df34fa6b16a065310"
+      "candidate.stacks.80a36f2c0a4906dd33dce4d5"
     ],
     "all_active_candidate_ids": [
-      "candidate.stacks.0338b3d57b5a02a9f7d525bb",
-      "candidate.stacks.b9c61687ddb750b7e19417d5",
-      "candidate.stacks.bcb69b086fa47db0cdd08803",
-      "candidate.stacks.c117d435a7626c1c6851c9d3",
-      "candidate.stacks.e7707f0e5f1af4c0224cdca1",
-      "candidate.stacks.fadecf5df34fa6b16a065310"
+      "candidate.stacks.80a36f2c0a4906dd33dce4d5",
+      "candidate.stacks.d6407d86fcb3bb0a5ddf7ff6",
+      "candidate.stacks.e1a76c997bbd13b81158b377"
     ],
     "unreviewed_unready_ids": [
-      "candidate.stacks.0338b3d57b5a02a9f7d525bb",
-      "candidate.stacks.bcb69b086fa47db0cdd08803",
-      "candidate.stacks.e7707f0e5f1af4c0224cdca1"
+      "candidate.stacks.d6407d86fcb3bb0a5ddf7ff6",
+      "candidate.stacks.e1a76c997bbd13b81158b377"
     ],
     "previously_reviewed_ids": [],
-    "records": "harvest/phase2_chat_stage_a/dualizing/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
-    "manifest": "harvest/phase2_chat_stage_a/dualizing/batch_01_sections_01_14/MANIFEST.json"
+    "records": "harvest/phase2_chat_stage_a/dualizing/batch_02_sections_15_27/RECONSTRUCTIONS.jsonl",
+    "manifest": "harvest/phase2_chat_stage_a/dualizing/batch_02_sections_15_27/MANIFEST.json"
   },
   "resume_instructions": "Use only fixed SELECTION.json and audited phase2_safe_source viewer. Inspect saved per-group section checkpoints, formulations and independent verdicts before resuming. Complete independent review before materialization; validate exact digests and preserve baseline872. Stop selected ordinal100. No proofs, Phase3, publication, refresh or old incident review.",
-  "candidates_accounted_for": 137,
-  "substantively_corrected": 82,
-  "latest_checkpoint_commit": "cce8575fb4fe4fe36a4c1f88bb10f10186fbef6d",
+  "candidates_accounted_for": 181,
+  "substantively_corrected": 12,
+  "latest_checkpoint_commit": "47819c130c0e957c29e212eee27f07ae330943c6",
   "safety_commit": "89f3c4d87fd4f22ff92d940baa99d970dd9471ed",
   "source_safety_incident": {
     "source_file": "dualizing.tex",
@@ -463,5 +590,6 @@
     "correction_reviewer_exposed": false,
     "disposition": "processing_hold_proof_context_exposure_excluded_from_materialization",
     "scope": "first36selectedsectionsunaffected"
-  }
+  },
+  "correction_count_note": "Hold-only disposition notes removed from correction counts; no reviewed mathematical content or digests altered."
 }

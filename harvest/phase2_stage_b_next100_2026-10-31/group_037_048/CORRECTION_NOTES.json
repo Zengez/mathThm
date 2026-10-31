@@ -19,54 +19,5 @@
     "corrections": [
       "Restored nonzerodivisor guard only for first claim; extension claim does not presume a separately chosen x."
     ]
-  },
-  {
-    "candidate_id": "candidate.stacks.1e3ec016f65146858e05a00a",
-    "source_label": "lemma-normalized-finite",
-    "corrections": [
-      "Held for hidden normalization convention; no shift inferred from memory."
-    ]
-  },
-  {
-    "candidate_id": "candidate.stacks.8752b52e08b06fa75b63286a",
-    "source_label": "lemma-normalized-quotient",
-    "corrections": [
-      "Held for hidden normalization convention; no shift inferred from memory."
-    ]
-  },
-  {
-    "candidate_id": "candidate.stacks.5236e24ea05da1f56ba34236",
-    "source_label": "lemma-dualizing-artinian",
-    "corrections": [
-      "Held for hidden normalization convention; no shift inferred from memory."
-    ]
-  },
-  {
-    "candidate_id": "candidate.stacks.a18e6694f2d3c3c01fc32989",
-    "source_label": "lemma-divide-by-finite-length-ideal",
-    "corrections": [
-      "Held for hidden normalization convention; no shift inferred from memory."
-    ]
-  },
-  {
-    "candidate_id": "candidate.stacks.3560ecf1c1ff959add6fa556",
-    "source_label": "lemma-divide-by-nonzerodivisor",
-    "corrections": [
-      "Held for hidden normalization convention; no shift inferred from memory."
-    ]
-  },
-  {
-    "candidate_id": "candidate.stacks.000f40f8f6c3bb4e44452e05",
-    "source_label": "lemma-nonvanishing-generically-local",
-    "corrections": [
-      "Held for hidden normalization convention; no shift inferred from memory."
-    ]
-  },
-  {
-    "candidate_id": "candidate.stacks.5e2db4a8828b01adc9e27615",
-    "source_label": "lemma-nonvanishing-generically",
-    "corrections": [
-      "Held for undeclared dualizing object in source statement and hidden standing context."
-    ]
   }
 ]
