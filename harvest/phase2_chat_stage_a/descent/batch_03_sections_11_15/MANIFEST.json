@@ -40,7 +40,7 @@
     "candidate.stacks.4b1707f175f13af086b3fcc8"
   ],
   "output_file": "harvest/phase2_chat_stage_a/descent/batch_03_sections_11_15/RECONSTRUCTIONS.jsonl",
-  "reviewer": "chatgpt-stage-a",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -50,39 +50,46 @@
       "section": 11,
       "kind": "candidates",
       "source_line": 3495,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 12,
       "kind": "candidates",
       "source_line": 3760,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 13,
       "kind": "candidates",
       "source_line": 3893,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 14,
       "kind": "candidates",
       "source_line": 4249,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 15,
       "kind": "candidates",
       "source_line": 4616,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 20,
+  "stage_a_ready_for_codex_candidate_count": 18,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 5,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_section_count": 4,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 2,
+  "stage_a_further_work_section_count": 1,
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_section_mapping_pending": false,
+  "source_locator_verified": true,
+  "preliminary_source_holds": [],
+  "processing_note": "Source-order enrichment of Descent §§11–15: affine-small topology, parasitic modules, universal effective epimorphisms, descent of finite presentation/smoothness/syntomicity and tau-local scheme properties. Two diagram/categorical universal-property statements deferred with explicit registry entries."
 }
