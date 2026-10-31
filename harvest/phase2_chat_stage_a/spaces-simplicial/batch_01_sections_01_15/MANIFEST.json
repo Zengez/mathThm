@@ -152,73 +152,92 @@
           "source_line": 28,
           "tex": "We assume throughout that the reader is familiar with the basic concepts\nand results of the chapter Simplicial Methods, see\nSimplicial, Section \\ref{simplicial-section-introduction}.\nIn particular, we continue to write $X$ and not $X_\\bullet$\nfor a simplicial object."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
       "kind": "candidates",
-      "source_line": 42
+      "source_line": 42,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 541
+      "source_line": 541,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 898
+      "source_line": 898,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 1020
+      "source_line": 1020,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 1235
+      "source_line": 1235,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 1364
+      "source_line": 1364,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 1471
+      "source_line": 1471,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 1689
+      "source_line": 1689,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 1844
+      "source_line": 1844,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 2223
+      "source_line": 2223,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 2687
+      "source_line": 2687,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 3130
+      "source_line": 3130,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 3360
+      "source_line": 3360,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 49,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 13
 }

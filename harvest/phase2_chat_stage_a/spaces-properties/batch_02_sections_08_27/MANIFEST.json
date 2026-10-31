@@ -128,7 +128,8 @@
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 1130
+      "source_line": 1130,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
@@ -143,98 +144,122 @@
           "source_line": 1229,
           "tex": "\\begin{definition}\n\\label{definition-dimension}\nLet $S$ be a scheme. Let $X$ be an algebraic space over $S$.\nThe {\\it dimension} $\\dim(X)$ of $X$ is defined by the rule\n$$\n\\dim(X) = \\sup\\nolimits_{x \\in |X|} \\dim_x(X)\n$$\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 1252
+      "source_line": 1252,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 1319
+      "source_line": 1319,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 1379
+      "source_line": 1379,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 1553
+      "source_line": 1553,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 1694
+      "source_line": 1694,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 1851
+      "source_line": 1851,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 2007
+      "source_line": 2007,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 2287
+      "source_line": 2287,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 2419
+      "source_line": 2419,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 19,
       "kind": "candidates",
-      "source_line": 3041
+      "source_line": 3041,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 3597
+      "source_line": 3597,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 21,
       "kind": "candidates",
-      "source_line": 3748
+      "source_line": 3748,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 22,
       "kind": "candidates",
-      "source_line": 3872
+      "source_line": 3872,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 23,
       "kind": "candidates",
-      "source_line": 4031
+      "source_line": 4031,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 24,
       "kind": "candidates",
-      "source_line": 4147
+      "source_line": 4147,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 25,
       "kind": "candidates",
-      "source_line": 4254
+      "source_line": 4254,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 26,
       "kind": "candidates",
-      "source_line": 4350
+      "source_line": 4350,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 27,
       "kind": "candidates",
-      "source_line": 4474
+      "source_line": 4474,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 58,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 19
 }

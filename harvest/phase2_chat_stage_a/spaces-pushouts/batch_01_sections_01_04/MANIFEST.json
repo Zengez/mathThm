@@ -60,7 +60,8 @@
           "source_line": 52,
           "tex": "In Section \\ref{section-compactifications} we use the construction\nof elementary distinguished squares\nin Section \\ref{section-elementary-dsitnguished-squares}\nto prove Nagata's theorem on compactifications in the setting\nof algebraic spaces."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
@@ -71,18 +72,26 @@
           "source_line": 73,
           "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 82
+      "source_line": 82,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 399
+      "source_line": 399,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 10,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 2
 }
