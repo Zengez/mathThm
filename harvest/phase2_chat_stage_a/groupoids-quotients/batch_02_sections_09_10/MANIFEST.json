@@ -19,7 +19,7 @@
   "output_file": "harvest/phase2_chat_stage_a/groupoids-quotients/batch_02_sections_09_10/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": true,
+  "stage_a_mathematical_analysis_pending": false,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -39,7 +39,8 @@
           "source_line": 1405,
           "tex": "\\begin{definition}\n\\label{definition-good}\nLet $S$ be a scheme and $B$ an algebraic space over $S$.\nLet $j : R \\to U \\times_B U$ be a pre-relation.\nA morphism $\\phi : U \\to X$ of algebraic spaces over $B$\nis called a {\\it good quotient} if\n\\begin{enumerate}\n\\item $\\phi$ is invariant,\n\\item $\\phi$ is affine,\n\\item $\\phi$ is surjective,\n\\item condition (\\ref{item-intersect-invariant-closed}) holds universally, and\n\\item the functions on $X$ are the $R$-invariant functions on $U$.\n\\end{enumerate}\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 10,
@@ -50,8 +51,14 @@
           "source_line": 1440,
           "tex": "\\begin{definition}\n\\label{definition-geometric}\nLet $S$ be a scheme and $B$ an algebraic space over $S$.\nLet $j : R \\to U \\times_B U$ be a pre-relation.\nA morphism $\\phi : U \\to X$ of algebraic spaces over $B$\nis called a {\\it geometric quotient} if\n\\begin{enumerate}\n\\item $\\phi$ is an orbit space,\n\\item condition (\\ref{item-submersive}) holds universally, i.e.,\n$\\phi$ is universally submersive, and\n\\item the functions on $X$ are the $R$-invariant functions on $U$.\n\\end{enumerate}\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 0
 }

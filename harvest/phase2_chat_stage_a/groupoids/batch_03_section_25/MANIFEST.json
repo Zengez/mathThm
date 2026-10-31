@@ -23,7 +23,8 @@
   "processing_sections": [
     {
       "section": 25,
-      "kind": "candidates"
+      "kind": "candidates",
+      "stage_a_readiness": "needs_section_mapping"
     }
   ],
   "processing_sections_format": "inline-v1",
@@ -32,5 +33,12 @@
     "candidate.stacks.d99ece6ce919149c7be8876e",
     "candidate.stacks.3c4936b0a61b4f3e5cc81e9f",
     "candidate.stacks.837bc7d942f90e9cf3ef7b87"
-  ]
+  ],
+  "stage_a_mathematical_analysis_pending": true,
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 4,
+  "stage_a_source_hold_candidate_count": 4,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 1,
+  "stage_a_section_mapping_pending": true
 }
