@@ -55,21 +55,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.1f89c2402a2f114617b0615c",
-    "candidate.stacks.fb8cc8cf57a59cf4d9f1789c",
-    "candidate.stacks.79fd071975190338b5b673e8",
-    "candidate.stacks.9ada662e80cbdd4d89447d83",
-    "candidate.stacks.1eea3e9a0c3cc5b21555926f",
-    "candidate.stacks.c6c496ac0f053fd1404ac327",
-    "candidate.stacks.591e1972fd8f3db8c46b953e",
-    "candidate.stacks.4d0bf92cb81958a39135728a",
-    "candidate.stacks.08c16f18b13a3087db57e49e",
-    "candidate.stacks.55d3d8eb87c38cc6a091d81f",
-    "candidate.stacks.42158c428eff90e211336001",
-    "candidate.stacks.ebc49b472fea5e6f21b7692f",
-    "candidate.stacks.3f990068728c1873f0dbf265"
-  ],
+  "preliminary_source_holds": [],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     10,
@@ -87,19 +73,31 @@
       "section": 9,
       "kind": "candidates",
       "source_line": 1728,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
+    },
+    {
+      "section": 10,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 1941
     },
     {
       "section": 11,
       "kind": "candidates",
       "source_line": 2055,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 12,
       "kind": "candidates",
       "source_line": 2178,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 13,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 2386
     },
     {
       "section": 14,
@@ -117,7 +115,7 @@
       "section": 15,
       "kind": "candidates",
       "source_line": 2561,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 17,
@@ -195,11 +193,16 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 16,
+  "stage_a_ready_for_codex_candidate_count": 5,
+  "stage_a_remaining_work_candidate_count": 10,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 9,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 5,
   "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "stage_a_dispositioned_section_count": 4,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Crystalline §§1–15 source-sequential Stage A review; inherited divided-power, affine/global crystalline site, crystal and differential context expanded."
 }
