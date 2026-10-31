@@ -1,0 +1,13 @@
+# Initial eight selected sections: source context
+
+Pinned source revision a04446e57ec1fbc252a871afcec7752fb2807b14. Full more-morphisms.tex proof environments were masked before reading sections4438–6154. Only31 selected ready records were compared; unready neighbours were excluded. No proof was inspected.
+
+4516–4853: F_s denotes pullback to the fibre X_s, not a stalk. Locally Noetherian assumptions in the Noetherian criterion expire at its statement; later criteria instead have explicit local finite presentation/type conditions. Surjectivity guards only the extra conclusion that Y is flat over S.
+
+4854–5032: smoothness is relative to arbitrary S. The local coordinate model is an etale map from an open U of X, with V=Y intersect U the inverse image of the standard coordinate subspace. The blowup tautological invertible sheaf is O_X'(-E) restricted to E; retain its sign.
+
+5033–5351: relative associated points are associated points of fibre pullbacks. Dimensions dim_x are dimension at the point in the scheme (infimum dimensions of neighbourhoods), not dimension of the local ring. Flatness at the specified generic component point is essential; base need only be irreducible in support dimension lemma, not integral.
+
+5352–5504: normalization of X in Y means relative normalization (integral closure of O_X in f_*O_Y), distinct from ordinary normalization. Smooth pullback integral closure is inside the pulled back algebra; no injective structure map is added. The relative normalization base-change result retains quasi-compact and quasi-separated f1. Ordinary normalization result retains finiteness of components on every quasi-compact open; henselization result retains locally Noetherian X.
+
+5505–6154 definitions: normal, regular and Cohen–Macaulay morphisms are defined here with locally Noetherian fibres. At x they require flatness at x and respectively geometric normality/geometric regularity/Cohen–Macaulayness of the fibre at x. No assumption that total/base schemes are locally Noetherian is supplied unless the individual statement says so. Locality property includes locally Noetherian fibres: target fppf in each case, source fppf for fibre-Noetherian alone, smooth for normal/regular, syntomic for Cohen–Macaulay. Definition property-morphisms-local-source in proof-masked descent.tex confirms universal covering tests; locality on target uses corresponding base changes. Each of the three CM base-change clauses has its own guard; common base change is locally of finite type. CM dimension formula uses scheme dimension at x. Density in CM-open lemma is in every fibre; arbitrary base change is retained.

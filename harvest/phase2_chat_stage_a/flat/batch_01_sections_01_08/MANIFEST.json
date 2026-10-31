@@ -1,0 +1,149 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "chapter": "flat.tex",
+  "global_batch": "15-section-experiment-06",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "sections_ordinal": [
+    1,
+    8
+  ],
+  "additional_zero_candidate_sections": {
+    "chapter": "more-morphisms.tex",
+    "sections_ordinal": [
+      75,
+      81
+    ],
+    "source_starts": [
+      22069,
+      22504,
+      22958,
+      23128,
+      23295,
+      23354,
+      23488
+    ]
+  },
+  "global_complete_sections": 15,
+  "first_source_line": 18,
+  "last_source_line": 2135,
+  "source_section_starts": [
+    18,
+    76,
+    437,
+    770,
+    1186,
+    1621,
+    1778,
+    1998
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 28,
+  "candidate_ids": [
+    "candidate.stacks.9e78e9ed86038a5ad4ca87fa",
+    "candidate.stacks.e32bb0e4375acb5b271789fb",
+    "candidate.stacks.fff8577018570612a22fab22",
+    "candidate.stacks.150374ea1cd3da190c0da6fa",
+    "candidate.stacks.55b41613d6d1c95f40e48769",
+    "candidate.stacks.65ba6c8e1db0e05736f3d12d",
+    "candidate.stacks.93a7e763e1007ca3d21f7c4a",
+    "candidate.stacks.7354cb17ceb475ac81c37b71",
+    "candidate.stacks.ed5a557648d84beeb421c889",
+    "candidate.stacks.cfc4cb8a4a56a4e735772e9e",
+    "candidate.stacks.52de4a597f03f2c98235cc00",
+    "candidate.stacks.0d6db91f2913855bd6d07628",
+    "candidate.stacks.e0268bb3cea230214a021270",
+    "candidate.stacks.dac5a3bc56ac5825aace809b",
+    "candidate.stacks.aa2d9dae377ba225ba564918",
+    "candidate.stacks.155f047f3a47e1e249db98b2",
+    "candidate.stacks.851868a6f73fad45923b69a5",
+    "candidate.stacks.04edebf05b0d79d407e2d23f",
+    "candidate.stacks.e7f318a244486710dbb3ea12",
+    "candidate.stacks.6de056fde4fbf5edea81e876",
+    "candidate.stacks.588530ddc8e9f6101f09b427",
+    "candidate.stacks.35d6fc0ae7d7a06b06012fce",
+    "candidate.stacks.8fd81fb195921a32b31e70d9",
+    "candidate.stacks.adb726adf35d44c09c97f904",
+    "candidate.stacks.f77a2107e02c32f29d2b5a0a",
+    "candidate.stacks.f221af630d65d850e15f9759",
+    "candidate.stacks.17b094515c03e6109f86713a",
+    "candidate.stacks.0110203899db2eee62230914"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/flat/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.7354cb17ceb475ac81c37b71",
+    "candidate.stacks.ed5a557648d84beeb421c889",
+    "candidate.stacks.cfc4cb8a4a56a4e735772e9e",
+    "candidate.stacks.52de4a597f03f2c98235cc00",
+    "candidate.stacks.0d6db91f2913855bd6d07628",
+    "candidate.stacks.e0268bb3cea230214a021270",
+    "candidate.stacks.dac5a3bc56ac5825aace809b",
+    "candidate.stacks.aa2d9dae377ba225ba564918",
+    "candidate.stacks.155f047f3a47e1e249db98b2",
+    "candidate.stacks.851868a6f73fad45923b69a5",
+    "candidate.stacks.04edebf05b0d79d407e2d23f",
+    "candidate.stacks.e7f318a244486710dbb3ea12",
+    "candidate.stacks.6de056fde4fbf5edea81e876"
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 18,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 76,
+      "stage_a_readiness": "needs_stage_a_work"
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 437,
+      "stage_a_readiness": "needs_stage_a_work"
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 770,
+      "stage_a_readiness": "needs_stage_a_work"
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 1186,
+      "stage_a_readiness": "needs_stage_a_work"
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 1621,
+      "stage_a_readiness": "needs_stage_a_work"
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1778,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1998,
+      "stage_a_readiness": "ready_for_codex_validation"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 14,
+  "stage_a_remaining_work_candidate_count": 14,
+  "stage_a_source_hold_candidate_count": 13,
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_remaining_work_section_count": 5,
+  "stage_a_work_pending": true,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+}

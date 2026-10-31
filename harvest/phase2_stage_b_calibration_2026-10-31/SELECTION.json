@@ -1,0 +1,2233 @@
+{
+  "stage_a_commit": "12ecd17763643ef1dcc4607042450d8555a5446d",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "run_date": "2026-10-31",
+  "eligible_sections_available": 288,
+  "selected_section_count": 50,
+  "selected_candidate_count": 193,
+  "excluded_chapters": [
+    "topologies.tex",
+    "descent.tex"
+  ],
+  "eligibility_rule": {
+    "decision": "reconstruction_completed_awaiting_independent_stage_b_validation",
+    "stage_a_remaining_work": "absent_or_empty"
+  },
+  "input_record_blobs": [
+    {
+      "path": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "git_blob_sha": "bdee1a5b6e5053e60a7149008f3af7b96a20ddc8"
+    },
+    {
+      "path": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "git_blob_sha": "26194b30b23880dc4e9709175f50068455abdce9"
+    },
+    {
+      "path": "harvest/phase2_chat_stage_a/more-morphisms/batch_04_sections_45_59/RECONSTRUCTIONS.jsonl",
+      "git_blob_sha": "1229c352db6ae2bfb55bf126a1459855a7a7de7a"
+    },
+    {
+      "path": "harvest/phase2_chat_stage_a/flat/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+      "git_blob_sha": "8729944f5e22e7c07021010af70182f8985cd309"
+    },
+    {
+      "path": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "git_blob_sha": "a5ebc39dc207556c29198584f67e552af2e281fd"
+    },
+    {
+      "path": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+      "git_blob_sha": "47179ccb92e521258a9bc3d237c70fed3e6acae4"
+    }
+  ],
+  "sections": [
+    {
+      "ordinal": 1,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 4438,
+      "section_end_line": 4515,
+      "eligible_candidate_ids": [
+        "candidate.stacks.9509cd77f9b97ef043b5d9fc"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.ed52f5855b49c685bd4fb435"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.9509cd77f9b97ef043b5d9fc",
+        "candidate.stacks.ed52f5855b49c685bd4fb435"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.ed52f5855b49c685bd4fb435"
+      ]
+    },
+    {
+      "ordinal": 2,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 4516,
+      "section_end_line": 4853,
+      "eligible_candidate_ids": [
+        "candidate.stacks.4540f52ef09ffc9b083913a4",
+        "candidate.stacks.34bb16427b804746e82c21fa",
+        "candidate.stacks.42a78e6d267dfa4f5dfab659",
+        "candidate.stacks.70e382a3108111705e431f57",
+        "candidate.stacks.a8be04378191d67ee2c4f854",
+        "candidate.stacks.eed4e7496111f4f520879122",
+        "candidate.stacks.7121420b1deb4ad0f8b83462"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.658f4fb3d207bed3b112905b"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.34bb16427b804746e82c21fa",
+        "candidate.stacks.42a78e6d267dfa4f5dfab659",
+        "candidate.stacks.4540f52ef09ffc9b083913a4",
+        "candidate.stacks.658f4fb3d207bed3b112905b",
+        "candidate.stacks.70e382a3108111705e431f57",
+        "candidate.stacks.7121420b1deb4ad0f8b83462",
+        "candidate.stacks.a8be04378191d67ee2c4f854",
+        "candidate.stacks.eed4e7496111f4f520879122"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.658f4fb3d207bed3b112905b"
+      ]
+    },
+    {
+      "ordinal": 3,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 4854,
+      "section_end_line": 5032,
+      "eligible_candidate_ids": [
+        "candidate.stacks.a4e5ed3f5cb324cd72a36834",
+        "candidate.stacks.42245523d31f4f56f3af105f"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.42245523d31f4f56f3af105f",
+        "candidate.stacks.a4e5ed3f5cb324cd72a36834"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 4,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 5033,
+      "section_end_line": 5351,
+      "eligible_candidate_ids": [
+        "candidate.stacks.e3a1cb7d67bce12f09962140",
+        "candidate.stacks.55ac8d8bf600a1515ae7856b",
+        "candidate.stacks.27540181ddeed2736d350d28"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.a3a3a6224176c3505b15c944",
+        "candidate.stacks.c75974991dca5dd6ee0cf5c6"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.27540181ddeed2736d350d28",
+        "candidate.stacks.55ac8d8bf600a1515ae7856b",
+        "candidate.stacks.a3a3a6224176c3505b15c944",
+        "candidate.stacks.c75974991dca5dd6ee0cf5c6",
+        "candidate.stacks.e3a1cb7d67bce12f09962140"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.a3a3a6224176c3505b15c944",
+        "candidate.stacks.c75974991dca5dd6ee0cf5c6"
+      ]
+    },
+    {
+      "ordinal": 5,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 5352,
+      "section_end_line": 5504,
+      "eligible_candidate_ids": [
+        "candidate.stacks.cde923f3f3ed54dc303208d5",
+        "candidate.stacks.6cd2e87f395a1579ce8ab07a",
+        "candidate.stacks.c10146d2ab76cbadcae9687e",
+        "candidate.stacks.b1ee5b0d4fd529ca5f2efb2f"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.6cd2e87f395a1579ce8ab07a",
+        "candidate.stacks.b1ee5b0d4fd529ca5f2efb2f",
+        "candidate.stacks.c10146d2ab76cbadcae9687e",
+        "candidate.stacks.cde923f3f3ed54dc303208d5"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 6,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 5505,
+      "section_end_line": 5653,
+      "eligible_candidate_ids": [
+        "candidate.stacks.37535d58ffad4e5b64da9059",
+        "candidate.stacks.95dd6ace7713ddcad495e549",
+        "candidate.stacks.4209c50e1154d1ebfa6aca6a",
+        "candidate.stacks.049357de3e2e6fd4faf6c0ae"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.049357de3e2e6fd4faf6c0ae",
+        "candidate.stacks.37535d58ffad4e5b64da9059",
+        "candidate.stacks.4209c50e1154d1ebfa6aca6a",
+        "candidate.stacks.95dd6ace7713ddcad495e549"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 7,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 5654,
+      "section_end_line": 5803,
+      "eligible_candidate_ids": [
+        "candidate.stacks.d204007a102e07ee45c46196",
+        "candidate.stacks.ac063e7ed00da39e6add6308",
+        "candidate.stacks.fcd6dd2e82fea4eb26067b54"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.ac063e7ed00da39e6add6308",
+        "candidate.stacks.d204007a102e07ee45c46196",
+        "candidate.stacks.fcd6dd2e82fea4eb26067b54"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 8,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 5804,
+      "section_end_line": 6154,
+      "eligible_candidate_ids": [
+        "candidate.stacks.9d23c04e1980e96d3ed443bc",
+        "candidate.stacks.b43a527ea3dc140fdfc8ad38",
+        "candidate.stacks.fc19b2b966b171caf9e6df1b",
+        "candidate.stacks.df9b6001c63982817981b96b",
+        "candidate.stacks.fb0970d30d5d4eef91fa4f53",
+        "candidate.stacks.afdae09c2f8f5e07c05aa048",
+        "candidate.stacks.865d136b6bfaddf5736060a3"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.1f6f331df6c98a3e0998cadf",
+        "candidate.stacks.cce505a124e8d1954ff25b86",
+        "candidate.stacks.474b354e40ebf0523568b7de"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.1f6f331df6c98a3e0998cadf",
+        "candidate.stacks.474b354e40ebf0523568b7de",
+        "candidate.stacks.865d136b6bfaddf5736060a3",
+        "candidate.stacks.9d23c04e1980e96d3ed443bc",
+        "candidate.stacks.afdae09c2f8f5e07c05aa048",
+        "candidate.stacks.b43a527ea3dc140fdfc8ad38",
+        "candidate.stacks.cce505a124e8d1954ff25b86",
+        "candidate.stacks.df9b6001c63982817981b96b",
+        "candidate.stacks.fb0970d30d5d4eef91fa4f53",
+        "candidate.stacks.fc19b2b966b171caf9e6df1b"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.1f6f331df6c98a3e0998cadf",
+        "candidate.stacks.474b354e40ebf0523568b7de",
+        "candidate.stacks.cce505a124e8d1954ff25b86"
+      ]
+    },
+    {
+      "ordinal": 9,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 6155,
+      "section_end_line": 6487,
+      "eligible_candidate_ids": [
+        "candidate.stacks.dc7b8119a7405ba5b036ada0",
+        "candidate.stacks.f542e564f9ab8af02f8c8d9b",
+        "candidate.stacks.2fe62e152e4b84cc2a57ab0a",
+        "candidate.stacks.432fbe7443234040b0f68c9c",
+        "candidate.stacks.df2423018883b7995172afd8"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.e85b2b028f12a0d4037c9a9e"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.2fe62e152e4b84cc2a57ab0a",
+        "candidate.stacks.432fbe7443234040b0f68c9c",
+        "candidate.stacks.dc7b8119a7405ba5b036ada0",
+        "candidate.stacks.df2423018883b7995172afd8",
+        "candidate.stacks.e85b2b028f12a0d4037c9a9e",
+        "candidate.stacks.f542e564f9ab8af02f8c8d9b"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.e85b2b028f12a0d4037c9a9e"
+      ]
+    },
+    {
+      "ordinal": 10,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 6488,
+      "section_end_line": 6836,
+      "eligible_candidate_ids": [
+        "candidate.stacks.5b8876ccd23f5f242730e356",
+        "candidate.stacks.c9baff018a0976ee589d67a3",
+        "candidate.stacks.936b4fc09a2a949860acc1d4",
+        "candidate.stacks.4fafd0790c5f6abad5e3bb7a",
+        "candidate.stacks.8416f2392111c94524fc1977",
+        "candidate.stacks.c8796cdded93c334ec91d6f4"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.48c436150390db123da0d1c6",
+        "candidate.stacks.8835a12d64c1a39a3d031f42"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.48c436150390db123da0d1c6",
+        "candidate.stacks.4fafd0790c5f6abad5e3bb7a",
+        "candidate.stacks.5b8876ccd23f5f242730e356",
+        "candidate.stacks.8416f2392111c94524fc1977",
+        "candidate.stacks.8835a12d64c1a39a3d031f42",
+        "candidate.stacks.936b4fc09a2a949860acc1d4",
+        "candidate.stacks.c8796cdded93c334ec91d6f4",
+        "candidate.stacks.c9baff018a0976ee589d67a3"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.48c436150390db123da0d1c6",
+        "candidate.stacks.8835a12d64c1a39a3d031f42"
+      ]
+    },
+    {
+      "ordinal": 11,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 6837,
+      "section_end_line": 7105,
+      "eligible_candidate_ids": [
+        "candidate.stacks.8c804c389775e7a997ad51a4",
+        "candidate.stacks.cf3447f85ebd5554be9d7acf",
+        "candidate.stacks.10ab979db33642cb6274dc93",
+        "candidate.stacks.9b581c5af9421df2315faf83"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.10ab979db33642cb6274dc93",
+        "candidate.stacks.8c804c389775e7a997ad51a4",
+        "candidate.stacks.9b581c5af9421df2315faf83",
+        "candidate.stacks.cf3447f85ebd5554be9d7acf"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 12,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 7106,
+      "section_end_line": 7388,
+      "eligible_candidate_ids": [
+        "candidate.stacks.5730a5c1fc97adca2af006eb",
+        "candidate.stacks.9327f4257165fa0364516934",
+        "candidate.stacks.e3f251c8b95786daafd9e4b4",
+        "candidate.stacks.577139354a49df3c5369cd6a",
+        "candidate.stacks.a831bc26aad51704d891c79a",
+        "candidate.stacks.0bdbcc2f58d7699c5eea4ce4",
+        "candidate.stacks.967f02065a3f0afbf423f95c"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.0bdbcc2f58d7699c5eea4ce4",
+        "candidate.stacks.5730a5c1fc97adca2af006eb",
+        "candidate.stacks.577139354a49df3c5369cd6a",
+        "candidate.stacks.9327f4257165fa0364516934",
+        "candidate.stacks.967f02065a3f0afbf423f95c",
+        "candidate.stacks.a831bc26aad51704d891c79a",
+        "candidate.stacks.e3f251c8b95786daafd9e4b4"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 13,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 7389,
+      "section_end_line": 7842,
+      "eligible_candidate_ids": [
+        "candidate.stacks.3e6ca3397a20406770046cf5",
+        "candidate.stacks.51a81cafffdaea44a8d8a57e",
+        "candidate.stacks.48a819d4656c77d2d8909ce0",
+        "candidate.stacks.6c53e564a10d447f1bc1780d"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.d2b3e2f2f1ba6d5e2e3449df",
+        "candidate.stacks.ddad9973ad5857fcbec21444",
+        "candidate.stacks.0aa6084a07727a888924cf7c"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.0aa6084a07727a888924cf7c",
+        "candidate.stacks.3e6ca3397a20406770046cf5",
+        "candidate.stacks.48a819d4656c77d2d8909ce0",
+        "candidate.stacks.51a81cafffdaea44a8d8a57e",
+        "candidate.stacks.6c53e564a10d447f1bc1780d",
+        "candidate.stacks.d2b3e2f2f1ba6d5e2e3449df",
+        "candidate.stacks.ddad9973ad5857fcbec21444"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.0aa6084a07727a888924cf7c",
+        "candidate.stacks.d2b3e2f2f1ba6d5e2e3449df",
+        "candidate.stacks.ddad9973ad5857fcbec21444"
+      ]
+    },
+    {
+      "ordinal": 14,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 7843,
+      "section_end_line": 8170,
+      "eligible_candidate_ids": [
+        "candidate.stacks.5300b46bc2cd97bfe862abc4",
+        "candidate.stacks.6071002c728ad9af619eb013",
+        "candidate.stacks.1954ef77c48d0ca82d8406c5",
+        "candidate.stacks.c53ee23a85d469906b5388ae",
+        "candidate.stacks.305dcdf2a0c78cf9abfecb92"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.b99c364f885b260c52e6aa60",
+        "candidate.stacks.f1b17c4adb45b10f845a7f4d"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.1954ef77c48d0ca82d8406c5",
+        "candidate.stacks.305dcdf2a0c78cf9abfecb92",
+        "candidate.stacks.5300b46bc2cd97bfe862abc4",
+        "candidate.stacks.6071002c728ad9af619eb013",
+        "candidate.stacks.b99c364f885b260c52e6aa60",
+        "candidate.stacks.c53ee23a85d469906b5388ae",
+        "candidate.stacks.f1b17c4adb45b10f845a7f4d"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.b99c364f885b260c52e6aa60",
+        "candidate.stacks.f1b17c4adb45b10f845a7f4d"
+      ]
+    },
+    {
+      "ordinal": 15,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 8408,
+      "section_end_line": 8557,
+      "eligible_candidate_ids": [
+        "candidate.stacks.47a22613531112b1d082b86e",
+        "candidate.stacks.197dee366b86d098b8626998"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.543aba14fce08c1eb8bf3012",
+        "candidate.stacks.14f95c3263f1bab135eea887",
+        "candidate.stacks.cd802a5e7b7b1cac33ca15d0",
+        "candidate.stacks.763f3fcc2114b8bd2803597b"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.14f95c3263f1bab135eea887",
+        "candidate.stacks.197dee366b86d098b8626998",
+        "candidate.stacks.47a22613531112b1d082b86e",
+        "candidate.stacks.543aba14fce08c1eb8bf3012",
+        "candidate.stacks.763f3fcc2114b8bd2803597b",
+        "candidate.stacks.cd802a5e7b7b1cac33ca15d0"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.14f95c3263f1bab135eea887",
+        "candidate.stacks.543aba14fce08c1eb8bf3012",
+        "candidate.stacks.763f3fcc2114b8bd2803597b",
+        "candidate.stacks.cd802a5e7b7b1cac33ca15d0"
+      ]
+    },
+    {
+      "ordinal": 16,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 8558,
+      "section_end_line": 8895,
+      "eligible_candidate_ids": [
+        "candidate.stacks.ce0daa00ba9a162f2eaa728f",
+        "candidate.stacks.3a40a125f29453b3e552b5e9",
+        "candidate.stacks.1ffd1dfd8ac9dcd341238c9c"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.1ffd1dfd8ac9dcd341238c9c",
+        "candidate.stacks.3a40a125f29453b3e552b5e9",
+        "candidate.stacks.ce0daa00ba9a162f2eaa728f"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 17,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 9190,
+      "section_end_line": 9729,
+      "eligible_candidate_ids": [
+        "candidate.stacks.46a94f2543b620f749413667",
+        "candidate.stacks.80695b7974640e4892d40f29"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.53521a688e478fcda26ff6b0",
+        "candidate.stacks.8bfb4267c3fc89b0c7903ad6",
+        "candidate.stacks.1b5c2e0f477ea5765f65e4e3",
+        "candidate.stacks.58e5603e6fe1ae73eb1f7a9b",
+        "candidate.stacks.1f602c3cb16556cf48638c8c"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.1b5c2e0f477ea5765f65e4e3",
+        "candidate.stacks.1f602c3cb16556cf48638c8c",
+        "candidate.stacks.46a94f2543b620f749413667",
+        "candidate.stacks.53521a688e478fcda26ff6b0",
+        "candidate.stacks.58e5603e6fe1ae73eb1f7a9b",
+        "candidate.stacks.80695b7974640e4892d40f29",
+        "candidate.stacks.8bfb4267c3fc89b0c7903ad6"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.1b5c2e0f477ea5765f65e4e3",
+        "candidate.stacks.1f602c3cb16556cf48638c8c",
+        "candidate.stacks.53521a688e478fcda26ff6b0",
+        "candidate.stacks.58e5603e6fe1ae73eb1f7a9b",
+        "candidate.stacks.8bfb4267c3fc89b0c7903ad6"
+      ]
+    },
+    {
+      "ordinal": 18,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 10085,
+      "section_end_line": 10290,
+      "eligible_candidate_ids": [
+        "candidate.stacks.ea05969fb877bcbe321c44f2",
+        "candidate.stacks.77cf52268fec655c4e417140",
+        "candidate.stacks.83fa1e5a36a1c3c567b2d07c",
+        "candidate.stacks.2d5d11281f7619fc2b7680b0"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.2e06da7f9b1ab198ddfcfbad"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.2d5d11281f7619fc2b7680b0",
+        "candidate.stacks.2e06da7f9b1ab198ddfcfbad",
+        "candidate.stacks.77cf52268fec655c4e417140",
+        "candidate.stacks.83fa1e5a36a1c3c567b2d07c",
+        "candidate.stacks.ea05969fb877bcbe321c44f2"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.2e06da7f9b1ab198ddfcfbad"
+      ]
+    },
+    {
+      "ordinal": 19,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 10291,
+      "section_end_line": 10458,
+      "eligible_candidate_ids": [
+        "candidate.stacks.94b71e55b391b060d10ee489"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.a2664c70eaf8f673c615e608",
+        "candidate.stacks.9b1e0ae6421cb0d020291baf",
+        "candidate.stacks.e79b02a40ab8421737d6f3d5"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.94b71e55b391b060d10ee489",
+        "candidate.stacks.9b1e0ae6421cb0d020291baf",
+        "candidate.stacks.a2664c70eaf8f673c615e608",
+        "candidate.stacks.e79b02a40ab8421737d6f3d5"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.9b1e0ae6421cb0d020291baf",
+        "candidate.stacks.a2664c70eaf8f673c615e608",
+        "candidate.stacks.e79b02a40ab8421737d6f3d5"
+      ]
+    },
+    {
+      "ordinal": 20,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 10459,
+      "section_end_line": 10581,
+      "eligible_candidate_ids": [
+        "candidate.stacks.dfe9659a6891bae7998506a5",
+        "candidate.stacks.cf41eeeda26fef70afa23b0d",
+        "candidate.stacks.2e2cbe2faf9de4bb4e3ddb91",
+        "candidate.stacks.a7a96202713c1782e1684473"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.2e2cbe2faf9de4bb4e3ddb91",
+        "candidate.stacks.a7a96202713c1782e1684473",
+        "candidate.stacks.cf41eeeda26fef70afa23b0d",
+        "candidate.stacks.dfe9659a6891bae7998506a5"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 21,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 10582,
+      "section_end_line": 11005,
+      "eligible_candidate_ids": [
+        "candidate.stacks.61c3b735b1eea64380423e2e",
+        "candidate.stacks.90b3faea5ddc790650ef088a",
+        "candidate.stacks.b305d98bdcfc35874f7f41f6",
+        "candidate.stacks.f4e605d16dedb3d876b51cb6",
+        "candidate.stacks.21fb8cce8cad192030992df3",
+        "candidate.stacks.f3d43936a87962f78c9114c8"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.5eefaddbb80f7852db027abd"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.21fb8cce8cad192030992df3",
+        "candidate.stacks.5eefaddbb80f7852db027abd",
+        "candidate.stacks.61c3b735b1eea64380423e2e",
+        "candidate.stacks.90b3faea5ddc790650ef088a",
+        "candidate.stacks.b305d98bdcfc35874f7f41f6",
+        "candidate.stacks.f3d43936a87962f78c9114c8",
+        "candidate.stacks.f4e605d16dedb3d876b51cb6"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.5eefaddbb80f7852db027abd"
+      ]
+    },
+    {
+      "ordinal": 22,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 11814,
+      "section_end_line": 11896,
+      "eligible_candidate_ids": [
+        "candidate.stacks.0ff59a94520a013cc3c780b4",
+        "candidate.stacks.a80d862ece7523ea15b642a3"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.0ff59a94520a013cc3c780b4",
+        "candidate.stacks.a80d862ece7523ea15b642a3"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 23,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 11897,
+      "section_end_line": 12202,
+      "eligible_candidate_ids": [
+        "candidate.stacks.b03ea5c5479e18a02e1ad819"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.e2a05a674c113f87f5aa3bcb",
+        "candidate.stacks.4eef3a69bf97ce35c4f8ba82",
+        "candidate.stacks.e7480784a1b8492ec74f7647",
+        "candidate.stacks.aa7dd3f9e4634204991c2cfc",
+        "candidate.stacks.6e863d5cb7dacdbdbd13753d"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.4eef3a69bf97ce35c4f8ba82",
+        "candidate.stacks.6e863d5cb7dacdbdbd13753d",
+        "candidate.stacks.aa7dd3f9e4634204991c2cfc",
+        "candidate.stacks.b03ea5c5479e18a02e1ad819",
+        "candidate.stacks.e2a05a674c113f87f5aa3bcb",
+        "candidate.stacks.e7480784a1b8492ec74f7647"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.4eef3a69bf97ce35c4f8ba82",
+        "candidate.stacks.6e863d5cb7dacdbdbd13753d",
+        "candidate.stacks.aa7dd3f9e4634204991c2cfc",
+        "candidate.stacks.e2a05a674c113f87f5aa3bcb",
+        "candidate.stacks.e7480784a1b8492ec74f7647"
+      ]
+    },
+    {
+      "ordinal": 24,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 12304,
+      "section_end_line": 12535,
+      "eligible_candidate_ids": [
+        "candidate.stacks.2fae626c60c93b30b483a8ed"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.921a8aff15f958f842b01af0",
+        "candidate.stacks.95a29e71ab606db164c23e3b",
+        "candidate.stacks.28ac6400d781a667087b3b9c"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.28ac6400d781a667087b3b9c",
+        "candidate.stacks.2fae626c60c93b30b483a8ed",
+        "candidate.stacks.921a8aff15f958f842b01af0",
+        "candidate.stacks.95a29e71ab606db164c23e3b"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.28ac6400d781a667087b3b9c",
+        "candidate.stacks.921a8aff15f958f842b01af0",
+        "candidate.stacks.95a29e71ab606db164c23e3b"
+      ]
+    },
+    {
+      "ordinal": 25,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 12536,
+      "section_end_line": 12653,
+      "eligible_candidate_ids": [
+        "candidate.stacks.987120c24d19b150efad96f0",
+        "candidate.stacks.0390b1f71b1a3b96aa501739",
+        "candidate.stacks.4a62731eae1e0b0a27d6a26d"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.0390b1f71b1a3b96aa501739",
+        "candidate.stacks.4a62731eae1e0b0a27d6a26d",
+        "candidate.stacks.987120c24d19b150efad96f0"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 26,
+      "source_file": "more-morphisms.tex",
+      "section_start_line": 12654,
+      "section_end_line": 13077,
+      "eligible_candidate_ids": [
+        "candidate.stacks.ddcc01f3bedbc393c7345e0a",
+        "candidate.stacks.306e83941cf83d9f5689efdc",
+        "candidate.stacks.f478a207de4025709d4769f2"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/more-morphisms/batch_04_sections_45_59/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/more-morphisms/batch_04_sections_45_59/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.306e83941cf83d9f5689efdc",
+        "candidate.stacks.ddcc01f3bedbc393c7345e0a",
+        "candidate.stacks.f478a207de4025709d4769f2"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 27,
+      "source_file": "flat.tex",
+      "section_start_line": 76,
+      "section_end_line": 436,
+      "eligible_candidate_ids": [
+        "candidate.stacks.9e78e9ed86038a5ad4ca87fa",
+        "candidate.stacks.e32bb0e4375acb5b271789fb",
+        "candidate.stacks.fff8577018570612a22fab22",
+        "candidate.stacks.150374ea1cd3da190c0da6fa",
+        "candidate.stacks.55b41613d6d1c95f40e48769",
+        "candidate.stacks.65ba6c8e1db0e05736f3d12d"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.93a7e763e1007ca3d21f7c4a"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_01_sections_01_08/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.150374ea1cd3da190c0da6fa",
+        "candidate.stacks.55b41613d6d1c95f40e48769",
+        "candidate.stacks.65ba6c8e1db0e05736f3d12d",
+        "candidate.stacks.93a7e763e1007ca3d21f7c4a",
+        "candidate.stacks.9e78e9ed86038a5ad4ca87fa",
+        "candidate.stacks.e32bb0e4375acb5b271789fb",
+        "candidate.stacks.fff8577018570612a22fab22"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.93a7e763e1007ca3d21f7c4a"
+      ]
+    },
+    {
+      "ordinal": 28,
+      "source_file": "flat.tex",
+      "section_start_line": 1778,
+      "section_end_line": 1997,
+      "eligible_candidate_ids": [
+        "candidate.stacks.588530ddc8e9f6101f09b427",
+        "candidate.stacks.35d6fc0ae7d7a06b06012fce",
+        "candidate.stacks.8fd81fb195921a32b31e70d9",
+        "candidate.stacks.adb726adf35d44c09c97f904"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_01_sections_01_08/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.35d6fc0ae7d7a06b06012fce",
+        "candidate.stacks.588530ddc8e9f6101f09b427",
+        "candidate.stacks.8fd81fb195921a32b31e70d9",
+        "candidate.stacks.adb726adf35d44c09c97f904"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 29,
+      "source_file": "flat.tex",
+      "section_start_line": 1998,
+      "section_end_line": 2135,
+      "eligible_candidate_ids": [
+        "candidate.stacks.f77a2107e02c32f29d2b5a0a",
+        "candidate.stacks.f221af630d65d850e15f9759",
+        "candidate.stacks.17b094515c03e6109f86713a",
+        "candidate.stacks.0110203899db2eee62230914"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_01_sections_01_08/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.0110203899db2eee62230914",
+        "candidate.stacks.17b094515c03e6109f86713a",
+        "candidate.stacks.f221af630d65d850e15f9759",
+        "candidate.stacks.f77a2107e02c32f29d2b5a0a"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 30,
+      "source_file": "flat.tex",
+      "section_start_line": 2136,
+      "section_end_line": 2341,
+      "eligible_candidate_ids": [
+        "candidate.stacks.c75525d5964de744a26facaf",
+        "candidate.stacks.ee19471ea886414a087bccc5",
+        "candidate.stacks.46c269ee974f0198ae9e1f68"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.46c269ee974f0198ae9e1f68",
+        "candidate.stacks.c75525d5964de744a26facaf",
+        "candidate.stacks.ee19471ea886414a087bccc5"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 31,
+      "source_file": "flat.tex",
+      "section_start_line": 2342,
+      "section_end_line": 2933,
+      "eligible_candidate_ids": [
+        "candidate.stacks.386fe2b8cb72fd8fa29f6b4e",
+        "candidate.stacks.954c1ebaf1b951dd1bede5b9",
+        "candidate.stacks.48727018f4deaeb03e60d8f9",
+        "candidate.stacks.73ea8b0a26d2ef207d3614fb",
+        "candidate.stacks.4ad6d9aa26f652aac6915721",
+        "candidate.stacks.6a3ab4ccf8797943ced5ef85",
+        "candidate.stacks.93976fc067e0232b643b370f",
+        "candidate.stacks.f045c013a470f3183a8c13e5",
+        "candidate.stacks.032cfeb1334ea8341c89f136"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.b1478c48aa506cba9126029f"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.032cfeb1334ea8341c89f136",
+        "candidate.stacks.386fe2b8cb72fd8fa29f6b4e",
+        "candidate.stacks.48727018f4deaeb03e60d8f9",
+        "candidate.stacks.4ad6d9aa26f652aac6915721",
+        "candidate.stacks.6a3ab4ccf8797943ced5ef85",
+        "candidate.stacks.73ea8b0a26d2ef207d3614fb",
+        "candidate.stacks.93976fc067e0232b643b370f",
+        "candidate.stacks.954c1ebaf1b951dd1bede5b9",
+        "candidate.stacks.b1478c48aa506cba9126029f",
+        "candidate.stacks.f045c013a470f3183a8c13e5"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.b1478c48aa506cba9126029f"
+      ]
+    },
+    {
+      "ordinal": 32,
+      "source_file": "flat.tex",
+      "section_start_line": 2934,
+      "section_end_line": 3129,
+      "eligible_candidate_ids": [
+        "candidate.stacks.63ae5dd954f3c00420365b00",
+        "candidate.stacks.64a9d6d96d75482382a54c09",
+        "candidate.stacks.14be572f66831792d5e7bec0",
+        "candidate.stacks.19b7bb583496cbf4149144ae"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.7ce7f87279d62904bbf05b19"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.14be572f66831792d5e7bec0",
+        "candidate.stacks.19b7bb583496cbf4149144ae",
+        "candidate.stacks.63ae5dd954f3c00420365b00",
+        "candidate.stacks.64a9d6d96d75482382a54c09",
+        "candidate.stacks.7ce7f87279d62904bbf05b19"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.7ce7f87279d62904bbf05b19"
+      ]
+    },
+    {
+      "ordinal": 33,
+      "source_file": "flat.tex",
+      "section_start_line": 3130,
+      "section_end_line": 3697,
+      "eligible_candidate_ids": [
+        "candidate.stacks.8766160fec5875243a7631d4",
+        "candidate.stacks.5964e538bc815f120fd3aeb8",
+        "candidate.stacks.c517780b2b556709614f788e",
+        "candidate.stacks.6490f5298e61b69dc7206005",
+        "candidate.stacks.f75a45c160f5eb3b067d4fba",
+        "candidate.stacks.37921a34982be135ff27994f",
+        "candidate.stacks.db85a03c769e48d18c96af44",
+        "candidate.stacks.1e9eb440aaa0709d45f4e712"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.bbd43fdee0778437e985b101",
+        "candidate.stacks.444ef42c990b4ada85e0d781"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.1e9eb440aaa0709d45f4e712",
+        "candidate.stacks.37921a34982be135ff27994f",
+        "candidate.stacks.444ef42c990b4ada85e0d781",
+        "candidate.stacks.5964e538bc815f120fd3aeb8",
+        "candidate.stacks.6490f5298e61b69dc7206005",
+        "candidate.stacks.8766160fec5875243a7631d4",
+        "candidate.stacks.bbd43fdee0778437e985b101",
+        "candidate.stacks.c517780b2b556709614f788e",
+        "candidate.stacks.db85a03c769e48d18c96af44",
+        "candidate.stacks.f75a45c160f5eb3b067d4fba"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.444ef42c990b4ada85e0d781",
+        "candidate.stacks.bbd43fdee0778437e985b101"
+      ]
+    },
+    {
+      "ordinal": 34,
+      "source_file": "flat.tex",
+      "section_start_line": 3698,
+      "section_end_line": 4296,
+      "eligible_candidate_ids": [
+        "candidate.stacks.a2cd93bf8cd749f437c191e5",
+        "candidate.stacks.b5e3f44f31dfdb1a5b4fce50",
+        "candidate.stacks.864d3c6c44089d09b3b90514",
+        "candidate.stacks.edfc375749c9c1c2a1554380",
+        "candidate.stacks.a8d6c5f8ea076dba3d394937",
+        "candidate.stacks.e14f427e89e9bfae7752b020",
+        "candidate.stacks.3e08bdd7c49137a4df9e3c5f",
+        "candidate.stacks.403798c69bf1689deb134d71",
+        "candidate.stacks.0d1b9ee5bd270d73f506a2b8",
+        "candidate.stacks.a3a14d13f90d0f4c5254487a"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.9be340af0504968306cecbf1",
+        "candidate.stacks.e85889249a5fa84fcbc518d3"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.0d1b9ee5bd270d73f506a2b8",
+        "candidate.stacks.3e08bdd7c49137a4df9e3c5f",
+        "candidate.stacks.403798c69bf1689deb134d71",
+        "candidate.stacks.864d3c6c44089d09b3b90514",
+        "candidate.stacks.9be340af0504968306cecbf1",
+        "candidate.stacks.a2cd93bf8cd749f437c191e5",
+        "candidate.stacks.a3a14d13f90d0f4c5254487a",
+        "candidate.stacks.a8d6c5f8ea076dba3d394937",
+        "candidate.stacks.b5e3f44f31dfdb1a5b4fce50",
+        "candidate.stacks.e14f427e89e9bfae7752b020",
+        "candidate.stacks.e85889249a5fa84fcbc518d3",
+        "candidate.stacks.edfc375749c9c1c2a1554380"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.9be340af0504968306cecbf1",
+        "candidate.stacks.e85889249a5fa84fcbc518d3"
+      ]
+    },
+    {
+      "ordinal": 35,
+      "source_file": "flat.tex",
+      "section_start_line": 4297,
+      "section_end_line": 4461,
+      "eligible_candidate_ids": [
+        "candidate.stacks.46eb961e3836a7860d8d52b3",
+        "candidate.stacks.17147277205556548a31896c",
+        "candidate.stacks.c4bf23a68ad61641361d92b7",
+        "candidate.stacks.5461ca9c2ffaaf2c5037ea44"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.17147277205556548a31896c",
+        "candidate.stacks.46eb961e3836a7860d8d52b3",
+        "candidate.stacks.5461ca9c2ffaaf2c5037ea44",
+        "candidate.stacks.c4bf23a68ad61641361d92b7"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 36,
+      "source_file": "flat.tex",
+      "section_start_line": 4801,
+      "section_end_line": 5008,
+      "eligible_candidate_ids": [
+        "candidate.stacks.ca608e6e042931079c0d2742",
+        "candidate.stacks.7d4f3a2215ded5047ba6c416",
+        "candidate.stacks.d1ea82779c8dcfd3305b53fa",
+        "candidate.stacks.e7874ef8c9882088acba44fc",
+        "candidate.stacks.72a32399af24e7966e767b1c"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.72a32399af24e7966e767b1c",
+        "candidate.stacks.7d4f3a2215ded5047ba6c416",
+        "candidate.stacks.ca608e6e042931079c0d2742",
+        "candidate.stacks.d1ea82779c8dcfd3305b53fa",
+        "candidate.stacks.e7874ef8c9882088acba44fc"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 37,
+      "source_file": "flat.tex",
+      "section_start_line": 5009,
+      "section_end_line": 5164,
+      "eligible_candidate_ids": [
+        "candidate.stacks.3c961a40b3e05b8471ca56cf",
+        "candidate.stacks.9a8c0855a9170a4bd25da9e6",
+        "candidate.stacks.5b5fcd8c0c44712ac2007f35"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.72fb8c9c1f9aa26ba19ea277"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.3c961a40b3e05b8471ca56cf",
+        "candidate.stacks.5b5fcd8c0c44712ac2007f35",
+        "candidate.stacks.72fb8c9c1f9aa26ba19ea277",
+        "candidate.stacks.9a8c0855a9170a4bd25da9e6"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.72fb8c9c1f9aa26ba19ea277"
+      ]
+    },
+    {
+      "ordinal": 38,
+      "source_file": "flat.tex",
+      "section_start_line": 5165,
+      "section_end_line": 5538,
+      "eligible_candidate_ids": [
+        "candidate.stacks.c9ae25589ff246121964f669",
+        "candidate.stacks.690ad70deec85bbee8075022",
+        "candidate.stacks.239b8b4b5af6f1a7a978c705",
+        "candidate.stacks.9d21df21eb17dcd42cbef11b"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.7faf87cebd820d1b5ba55cf3"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.239b8b4b5af6f1a7a978c705",
+        "candidate.stacks.690ad70deec85bbee8075022",
+        "candidate.stacks.7faf87cebd820d1b5ba55cf3",
+        "candidate.stacks.9d21df21eb17dcd42cbef11b",
+        "candidate.stacks.c9ae25589ff246121964f669"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.7faf87cebd820d1b5ba55cf3"
+      ]
+    },
+    {
+      "ordinal": 39,
+      "source_file": "flat.tex",
+      "section_start_line": 5539,
+      "section_end_line": 5884,
+      "eligible_candidate_ids": [
+        "candidate.stacks.dec959cb5e64dc46960481e8",
+        "candidate.stacks.05b3ea55161c10129776f727",
+        "candidate.stacks.32b6d51c489fc77035665fd5",
+        "candidate.stacks.1c5ced401c82c9a22030a576",
+        "candidate.stacks.d888c3e459286b016ad553a4",
+        "candidate.stacks.0fe06d98af8b0add3f986659"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.620644ea30540a17f599d293"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.05b3ea55161c10129776f727",
+        "candidate.stacks.0fe06d98af8b0add3f986659",
+        "candidate.stacks.1c5ced401c82c9a22030a576",
+        "candidate.stacks.32b6d51c489fc77035665fd5",
+        "candidate.stacks.620644ea30540a17f599d293",
+        "candidate.stacks.d888c3e459286b016ad553a4",
+        "candidate.stacks.dec959cb5e64dc46960481e8"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.620644ea30540a17f599d293"
+      ]
+    },
+    {
+      "ordinal": 40,
+      "source_file": "flat.tex",
+      "section_start_line": 6558,
+      "section_end_line": 6589,
+      "eligible_candidate_ids": [
+        "candidate.stacks.db270b56fd0ac842ce10b0ee"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.db270b56fd0ac842ce10b0ee"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 41,
+      "source_file": "flat.tex",
+      "section_start_line": 6590,
+      "section_end_line": 6781,
+      "eligible_candidate_ids": [
+        "candidate.stacks.54c23e2cfaadaf993ee0d1d2",
+        "candidate.stacks.7596c2565a249a9a71b12a33"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.ac0f2ec96e375461c5931ddf",
+        "candidate.stacks.30c8dc10b3c70bc5eb69ae8a"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.30c8dc10b3c70bc5eb69ae8a",
+        "candidate.stacks.54c23e2cfaadaf993ee0d1d2",
+        "candidate.stacks.7596c2565a249a9a71b12a33",
+        "candidate.stacks.ac0f2ec96e375461c5931ddf"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.30c8dc10b3c70bc5eb69ae8a",
+        "candidate.stacks.ac0f2ec96e375461c5931ddf"
+      ]
+    },
+    {
+      "ordinal": 42,
+      "source_file": "flat.tex",
+      "section_start_line": 6995,
+      "section_end_line": 7551,
+      "eligible_candidate_ids": [
+        "candidate.stacks.16dee961dea99843b80ce981",
+        "candidate.stacks.6b6d279526ac7d99c1466b16",
+        "candidate.stacks.07cbfbb3c14f0e216521e5ab",
+        "candidate.stacks.9f81e0100e3721a902cbc0de"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.7a855a0f60eae6a25c11bc26",
+        "candidate.stacks.70008625ea70f81cc6043174",
+        "candidate.stacks.ce94c71f51be529e2a25149c"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.07cbfbb3c14f0e216521e5ab",
+        "candidate.stacks.16dee961dea99843b80ce981",
+        "candidate.stacks.6b6d279526ac7d99c1466b16",
+        "candidate.stacks.70008625ea70f81cc6043174",
+        "candidate.stacks.7a855a0f60eae6a25c11bc26",
+        "candidate.stacks.9f81e0100e3721a902cbc0de",
+        "candidate.stacks.ce94c71f51be529e2a25149c"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.70008625ea70f81cc6043174",
+        "candidate.stacks.7a855a0f60eae6a25c11bc26",
+        "candidate.stacks.ce94c71f51be529e2a25149c"
+      ]
+    },
+    {
+      "ordinal": 43,
+      "source_file": "flat.tex",
+      "section_start_line": 7552,
+      "section_end_line": 7621,
+      "eligible_candidate_ids": [
+        "candidate.stacks.7322dd20be87598bf30c28fd",
+        "candidate.stacks.33a9651ebe0a3e67d4d33b08"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.33a9651ebe0a3e67d4d33b08",
+        "candidate.stacks.7322dd20be87598bf30c28fd"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 44,
+      "source_file": "flat.tex",
+      "section_start_line": 8025,
+      "section_end_line": 8364,
+      "eligible_candidate_ids": [
+        "candidate.stacks.9a04879f8cef61e31745087e"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.9c4d192a669e72cf562a8430",
+        "candidate.stacks.5e79b215fa85139f2ae13c8b",
+        "candidate.stacks.1a4936da0391c27fd55b8d9b",
+        "candidate.stacks.fa8bd68fdd893e40b46cabee",
+        "candidate.stacks.69b12a6dc9fece9b4c0dbbbe",
+        "candidate.stacks.6e3b7b4718cbfd369f1e4026"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.1a4936da0391c27fd55b8d9b",
+        "candidate.stacks.5e79b215fa85139f2ae13c8b",
+        "candidate.stacks.69b12a6dc9fece9b4c0dbbbe",
+        "candidate.stacks.6e3b7b4718cbfd369f1e4026",
+        "candidate.stacks.9a04879f8cef61e31745087e",
+        "candidate.stacks.9c4d192a669e72cf562a8430",
+        "candidate.stacks.fa8bd68fdd893e40b46cabee"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.1a4936da0391c27fd55b8d9b",
+        "candidate.stacks.5e79b215fa85139f2ae13c8b",
+        "candidate.stacks.69b12a6dc9fece9b4c0dbbbe",
+        "candidate.stacks.6e3b7b4718cbfd369f1e4026",
+        "candidate.stacks.9c4d192a669e72cf562a8430",
+        "candidate.stacks.fa8bd68fdd893e40b46cabee"
+      ]
+    },
+    {
+      "ordinal": 45,
+      "source_file": "flat.tex",
+      "section_start_line": 8595,
+      "section_end_line": 9115,
+      "eligible_candidate_ids": [
+        "candidate.stacks.88edb4d7ce936f61755db130",
+        "candidate.stacks.0f348f9e0b7b2c4722af9a36",
+        "candidate.stacks.33c1dc608e18dc933be87dd5"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.2455c3246cfa189c8446509d",
+        "candidate.stacks.bfd4c29bf388b6ef05a90c3a",
+        "candidate.stacks.4b651691856d658df3d3aa0b"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.0f348f9e0b7b2c4722af9a36",
+        "candidate.stacks.2455c3246cfa189c8446509d",
+        "candidate.stacks.33c1dc608e18dc933be87dd5",
+        "candidate.stacks.4b651691856d658df3d3aa0b",
+        "candidate.stacks.88edb4d7ce936f61755db130",
+        "candidate.stacks.bfd4c29bf388b6ef05a90c3a"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.2455c3246cfa189c8446509d",
+        "candidate.stacks.4b651691856d658df3d3aa0b",
+        "candidate.stacks.bfd4c29bf388b6ef05a90c3a"
+      ]
+    },
+    {
+      "ordinal": 46,
+      "source_file": "flat.tex",
+      "section_start_line": 9116,
+      "section_end_line": 9277,
+      "eligible_candidate_ids": [
+        "candidate.stacks.f17633c5d7e0b232898dfe51",
+        "candidate.stacks.4c5d2214473c33f425271eea",
+        "candidate.stacks.fb06fe1ec519431453ae0d39",
+        "candidate.stacks.54f632614cdaab4cc3a63056",
+        "candidate.stacks.ad466e33672c9925c75afbfa"
+      ],
+      "unready_candidate_ids": [],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.4c5d2214473c33f425271eea",
+        "candidate.stacks.54f632614cdaab4cc3a63056",
+        "candidate.stacks.ad466e33672c9925c75afbfa",
+        "candidate.stacks.f17633c5d7e0b232898dfe51",
+        "candidate.stacks.fb06fe1ec519431453ae0d39"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": []
+    },
+    {
+      "ordinal": 47,
+      "source_file": "flat.tex",
+      "section_start_line": 9278,
+      "section_end_line": 9531,
+      "eligible_candidate_ids": [
+        "candidate.stacks.4a9f59cfe5ec72d4b258b944"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.9ca803761356a63c1e26e54f",
+        "candidate.stacks.41e6f16fe1e16125e9726843",
+        "candidate.stacks.aee9680c7d8375ae5577f435"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.41e6f16fe1e16125e9726843",
+        "candidate.stacks.4a9f59cfe5ec72d4b258b944",
+        "candidate.stacks.9ca803761356a63c1e26e54f",
+        "candidate.stacks.aee9680c7d8375ae5577f435"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.41e6f16fe1e16125e9726843",
+        "candidate.stacks.9ca803761356a63c1e26e54f",
+        "candidate.stacks.aee9680c7d8375ae5577f435"
+      ]
+    },
+    {
+      "ordinal": 48,
+      "source_file": "flat.tex",
+      "section_start_line": 9532,
+      "section_end_line": 10001,
+      "eligible_candidate_ids": [
+        "candidate.stacks.89be8d8ccd2bfbc795aff44b",
+        "candidate.stacks.ebd440252ad214bd9f24debb",
+        "candidate.stacks.6c4cdf6daaaace33d9ea9520",
+        "candidate.stacks.fa73ccbeb8f25d6d6c91c7ba"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.59de3999959c68e3e5ef6570",
+        "candidate.stacks.77e0e6a2ee6391113d1db9f4",
+        "candidate.stacks.c0c675d39add1e2188ef5caf",
+        "candidate.stacks.b4a7055c1906f9912a30486e"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.59de3999959c68e3e5ef6570",
+        "candidate.stacks.6c4cdf6daaaace33d9ea9520",
+        "candidate.stacks.77e0e6a2ee6391113d1db9f4",
+        "candidate.stacks.89be8d8ccd2bfbc795aff44b",
+        "candidate.stacks.b4a7055c1906f9912a30486e",
+        "candidate.stacks.c0c675d39add1e2188ef5caf",
+        "candidate.stacks.ebd440252ad214bd9f24debb",
+        "candidate.stacks.fa73ccbeb8f25d6d6c91c7ba"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.59de3999959c68e3e5ef6570",
+        "candidate.stacks.77e0e6a2ee6391113d1db9f4",
+        "candidate.stacks.b4a7055c1906f9912a30486e",
+        "candidate.stacks.c0c675d39add1e2188ef5caf"
+      ]
+    },
+    {
+      "ordinal": 49,
+      "source_file": "flat.tex",
+      "section_start_line": 10002,
+      "section_end_line": 10735,
+      "eligible_candidate_ids": [
+        "candidate.stacks.fff1a1d14f26be45987300ab",
+        "candidate.stacks.9a81d4e27105efa69c474b77",
+        "candidate.stacks.478f2b864d196b88ed8d8712",
+        "candidate.stacks.a9e3d6d94c3c2bad54d1c33c",
+        "candidate.stacks.0da3e2f7d8d526db552562e4"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.35133859af1dc8dced4d7bd7",
+        "candidate.stacks.eed472b131ee6bc6bd890591",
+        "candidate.stacks.d7031dbf074b170c9be4c6fc",
+        "candidate.stacks.d6a9a80cb82276329da2c3ee",
+        "candidate.stacks.b2a2fc6f801e3ca7ed5c44cb",
+        "candidate.stacks.3f5803a15680bade3a551874",
+        "candidate.stacks.d7ee7f8ee95c090258da9510",
+        "candidate.stacks.de19e0b87a54ba27799eb14e"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.0da3e2f7d8d526db552562e4",
+        "candidate.stacks.35133859af1dc8dced4d7bd7",
+        "candidate.stacks.3f5803a15680bade3a551874",
+        "candidate.stacks.478f2b864d196b88ed8d8712",
+        "candidate.stacks.9a81d4e27105efa69c474b77",
+        "candidate.stacks.a9e3d6d94c3c2bad54d1c33c",
+        "candidate.stacks.b2a2fc6f801e3ca7ed5c44cb",
+        "candidate.stacks.d6a9a80cb82276329da2c3ee",
+        "candidate.stacks.d7031dbf074b170c9be4c6fc",
+        "candidate.stacks.d7ee7f8ee95c090258da9510",
+        "candidate.stacks.de19e0b87a54ba27799eb14e",
+        "candidate.stacks.eed472b131ee6bc6bd890591",
+        "candidate.stacks.fff1a1d14f26be45987300ab"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.35133859af1dc8dced4d7bd7",
+        "candidate.stacks.3f5803a15680bade3a551874",
+        "candidate.stacks.b2a2fc6f801e3ca7ed5c44cb",
+        "candidate.stacks.d6a9a80cb82276329da2c3ee",
+        "candidate.stacks.d7031dbf074b170c9be4c6fc",
+        "candidate.stacks.d7ee7f8ee95c090258da9510",
+        "candidate.stacks.de19e0b87a54ba27799eb14e",
+        "candidate.stacks.eed472b131ee6bc6bd890591"
+      ]
+    },
+    {
+      "ordinal": 50,
+      "source_file": "flat.tex",
+      "section_start_line": 11771,
+      "section_end_line": 12188,
+      "eligible_candidate_ids": [
+        "candidate.stacks.1c008d71b22c22f46f05ff91"
+      ],
+      "unready_candidate_ids": [
+        "candidate.stacks.5a26256ff8f04e8df6a20e4e",
+        "candidate.stacks.4bf7df180879f574c66d9880",
+        "candidate.stacks.eab56eeb3386c3d91b2677cf",
+        "candidate.stacks.aa57619def1ebf5da6ffb883"
+      ],
+      "excluded_completed_ids": [],
+      "records": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+      "manifest": "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/MANIFEST.json",
+      "all_active_candidate_ids": [
+        "candidate.stacks.1c008d71b22c22f46f05ff91",
+        "candidate.stacks.4bf7df180879f574c66d9880",
+        "candidate.stacks.5a26256ff8f04e8df6a20e4e",
+        "candidate.stacks.aa57619def1ebf5da6ffb883",
+        "candidate.stacks.eab56eeb3386c3d91b2677cf"
+      ],
+      "previously_reviewed_ids": [],
+      "unreviewed_unready_ids": [
+        "candidate.stacks.4bf7df180879f574c66d9880",
+        "candidate.stacks.5a26256ff8f04e8df6a20e4e",
+        "candidate.stacks.aa57619def1ebf5da6ffb883",
+        "candidate.stacks.eab56eeb3386c3d91b2677cf"
+      ]
+    }
+  ],
+  "next_candidate": {
+    "candidate_id": "candidate.stacks.29ea0af353fc5afd3cbeeef3",
+    "source_file": "flat.tex",
+    "source_line": 12640,
+    "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+    "section_start_line": 12189,
+    "section_end_line": 12954,
+    "decision": "reconstruction_completed_awaiting_independent_stage_b_validation",
+    "remaining_work_empty": true,
+    "eligible": true,
+    "excluded_existing": false,
+    "records": "harvest/phase2_chat_stage_a/flat/batch_04_sections_39_44/RECONSTRUCTIONS.jsonl",
+    "manifest": "harvest/phase2_chat_stage_a/flat/batch_04_sections_39_44/MANIFEST.json"
+  },
+  "starting_historical_approvals": 655,
+  "preserved_recovered_authoritative_approvals": 27,
+  "starting_authoritative_approvals": 682,
+  "starting_approved_ids": [
+    "candidate.stacks.00478b0de8a2bd57fc464b74",
+    "candidate.stacks.00e205feedd451f06e2fdaf2",
+    "candidate.stacks.00e59cdf243a87d2d15c456e",
+    "candidate.stacks.0170fef59dffc7418c2f189f",
+    "candidate.stacks.018ff099dac3af2774e30f63",
+    "candidate.stacks.020d488d4e041f33b4dfe506",
+    "candidate.stacks.0253c6a130e0c8f017fb2b9a",
+    "candidate.stacks.02c3f2e396bebf2e474c6773",
+    "candidate.stacks.02d3d3c0b9445ae87f7d6246",
+    "candidate.stacks.0342c899e20a3ba88f37f3f5",
+    "candidate.stacks.0436ccb3d514cfb1b785c5b3",
+    "candidate.stacks.04bc13639bb260678434e480",
+    "candidate.stacks.04c6480354aeefe4e9216bdb",
+    "candidate.stacks.04ed995bcd16f04acb8cb7dc",
+    "candidate.stacks.0521127ea979edf244d00446",
+    "candidate.stacks.053afbd63bfb34a42d9c4431",
+    "candidate.stacks.053b98dac7f0ac810ee2e0e8",
+    "candidate.stacks.05816eb8af7d8f910fa2aabb",
+    "candidate.stacks.05b2c83609cd50cbe6a161f6",
+    "candidate.stacks.05f35c4f1b6d98a6fba64f14",
+    "candidate.stacks.0715d47a5f83b15986d1fdd9",
+    "candidate.stacks.072f732414fc4faa2bea1b7e",
+    "candidate.stacks.0749ca281a379f97cfd6bda1",
+    "candidate.stacks.074ad774246f9f50422a06fb",
+    "candidate.stacks.074bc7f9132b6ed25cb0de04",
+    "candidate.stacks.07724096edba4b339d91c1d7",
+    "candidate.stacks.079860932bc312696cf6a8c2",
+    "candidate.stacks.07f2d34c73ee6ba6fbbb4ba7",
+    "candidate.stacks.07f4b4d1142b954afc604187",
+    "candidate.stacks.0803c2f8336cabeeaf8681a0",
+    "candidate.stacks.089b1831d029942b37013e80",
+    "candidate.stacks.08a4b1cb4b00fdf37cdf236a",
+    "candidate.stacks.0920b158ba3ad6f45e1713c0",
+    "candidate.stacks.0b4575b4e6d0445c6f4fcbf3",
+    "candidate.stacks.0b68083b64f394cbebc5a34f",
+    "candidate.stacks.0c3ae0fa53b468683462f7fa",
+    "candidate.stacks.0d37d07cf28d68c0d254b758",
+    "candidate.stacks.0d69305af8abc4ef99aeb0f9",
+    "candidate.stacks.0e663985549d5292a5d99329",
+    "candidate.stacks.0e68b6e10339b352da3416a4",
+    "candidate.stacks.0e95c66a269c4cb90098ae5c",
+    "candidate.stacks.0ea53afd5a833fc011276ee3",
+    "candidate.stacks.0f350842188f5e94aac11a0f",
+    "candidate.stacks.0fc5ba989dd63f199a786ec7",
+    "candidate.stacks.0fcb712c64d8be8aeedbd79b",
+    "candidate.stacks.101712d08e7df09c700e2b31",
+    "candidate.stacks.106ad856123572aec49147d3",
+    "candidate.stacks.1094c23f3e10f784b9e76f93",
+    "candidate.stacks.10db8515ce3296cad0b3e00b",
+    "candidate.stacks.114c793c03f44b93f3ffbf03",
+    "candidate.stacks.119b9ec048875ee102aa2a00",
+    "candidate.stacks.11dfba37c93918414c8fa363",
+    "candidate.stacks.122ea716cef7c2c22d096d3d",
+    "candidate.stacks.123b46d498b6c580d0266b0b",
+    "candidate.stacks.1252b0b8370b5582ab815e0e",
+    "candidate.stacks.1263ae38f0af536510f81cc6",
+    "candidate.stacks.12807155fee8c7ec6e6a2927",
+    "candidate.stacks.138f71f0a854b19416e13db4",
+    "candidate.stacks.1504b5d8835f5f52cf7f0759",
+    "candidate.stacks.155ebf340a6a9cff2254a66f",
+    "candidate.stacks.158d752854967f4b1b646ad5",
+    "candidate.stacks.15dc7f1e40bec173d736cb2c",
+    "candidate.stacks.15dcabee39857cd73c67ea58",
+    "candidate.stacks.15e95332629d95fbee341ace",
+    "candidate.stacks.15fb1bf3cd2e44107236502a",
+    "candidate.stacks.16002fa69c4e8e9bdd6688ad",
+    "candidate.stacks.162c2f1c37c975cef066398d",
+    "candidate.stacks.16bf831a1f56b05d53428a40",
+    "candidate.stacks.16f04515fcfde663b49be041",
+    "candidate.stacks.1788020f0b4bc8534e8e746d",
+    "candidate.stacks.17dc1b20333e3876c76311ce",
+    "candidate.stacks.1834432eabfdedaa44a1d318",
+    "candidate.stacks.187d25195d3aac2435eb22ac",
+    "candidate.stacks.19371f40d6acb1cfeaa005ec",
+    "candidate.stacks.19cf660f68aba8354718f777",
+    "candidate.stacks.19e46d744ad928b0043e8555",
+    "candidate.stacks.1a6a63352f72ebfdcab85f88",
+    "candidate.stacks.1a7add4c753031ba8cb80ac6",
+    "candidate.stacks.1ae2f4062f608e3d08ff9b34",
+    "candidate.stacks.1b4ee6db2ef96327c8c50f97",
+    "candidate.stacks.1b7c1db877ab6783271a563e",
+    "candidate.stacks.1c1fc7b05426dc6ea0a10389",
+    "candidate.stacks.1c3c2aae439bf6285548d370",
+    "candidate.stacks.1cc0272f80a220e963c8f108",
+    "candidate.stacks.1d41f05045e3a08db693610b",
+    "candidate.stacks.1d811b9b1b64822343ff2ddc",
+    "candidate.stacks.1d88db4f461f3b3f404cf008",
+    "candidate.stacks.1dcd63496415632578628503",
+    "candidate.stacks.1e454fc377b77ae905ddbc03",
+    "candidate.stacks.1e8803a5df9d37646176d009",
+    "candidate.stacks.1f02249202016d85e8caed44",
+    "candidate.stacks.1f6f3df7c2b169a0bdf5ffc0",
+    "candidate.stacks.1fcadafd269b48b95896a7b8",
+    "candidate.stacks.1fe35e34e8705c910cd04f04",
+    "candidate.stacks.2046360c592a3438e3b0a923",
+    "candidate.stacks.20b3728c7738dfa0a2666cbc",
+    "candidate.stacks.218b36f2b64d2eac559693f9",
+    "candidate.stacks.21bc05eaf39fe6de7ecbcff3",
+    "candidate.stacks.2249973e08762fb4e00809d5",
+    "candidate.stacks.22a2cbe2723b4fffd8c41d32",
+    "candidate.stacks.22c707475d4bfbbac8809624",
+    "candidate.stacks.22e43cc4798c8fabd00ac590",
+    "candidate.stacks.231c3cafcae084873bf0da24",
+    "candidate.stacks.239eecf332e0043b8119c075",
+    "candidate.stacks.24cb54e61915b9826ee762e8",
+    "candidate.stacks.252828da34a854d4bf3c69ab",
+    "candidate.stacks.255550b8f6fbaa5ef2be18de",
+    "candidate.stacks.255a5d848506ef94a7e73516",
+    "candidate.stacks.25667acc64e03cab24674507",
+    "candidate.stacks.265fb08273c821b34ce3cf6f",
+    "candidate.stacks.2687587954288b80477b9afa",
+    "candidate.stacks.26b224af270ec0ef2dd20e71",
+    "candidate.stacks.26c518b830a11c9d7b03fda2",
+    "candidate.stacks.26f4ac9b74716aa2fa054dc3",
+    "candidate.stacks.27c9dc8f657f7677e6a2fdf3",
+    "candidate.stacks.282d1311109dd823ae658f07",
+    "candidate.stacks.28a6318f995741943d7aecd2",
+    "candidate.stacks.28df3615d87609ca85483250",
+    "candidate.stacks.29fb135415c9031f4f9d39c5",
+    "candidate.stacks.2a0d5cc03d5f9137b580e2e2",
+    "candidate.stacks.2a795a7e0c99a2a316c1ad85",
+    "candidate.stacks.2ad3a6cc97f50f1c70696a61",
+    "candidate.stacks.2d12ec0dbef8e26093f00677",
+    "candidate.stacks.2d4020c7fe38fe079b307d1a",
+    "candidate.stacks.2e0165942e7b05f179c289c2",
+    "candidate.stacks.2e871dc2c755405a1f5ebb42",
+    "candidate.stacks.2ec705ae5578bd1f963d4c85",
+    "candidate.stacks.2ecbc07f32d6e119934ca937",
+    "candidate.stacks.2fe5ea860ffa82c8fc13cbdb",
+    "candidate.stacks.302d1861a1b728c3ed7715e8",
+    "candidate.stacks.30d6cde203249125dea78655",
+    "candidate.stacks.30e5aa636a17c92b616caf9d",
+    "candidate.stacks.3114af95940e73fcbe2be9bb",
+    "candidate.stacks.315f11a1f3ced56adc2c693f",
+    "candidate.stacks.326c90de17f87f50a7dfb3a7",
+    "candidate.stacks.32fdfa8204e79af177c2a51a",
+    "candidate.stacks.33251482311dbdea48533279",
+    "candidate.stacks.3351fb1a649cee7bec32c8e6",
+    "candidate.stacks.33ba046b55d6cd0254aa1e71",
+    "candidate.stacks.3402a88b47e7dc850c821364",
+    "candidate.stacks.342e8615c92db580fdd751ca",
+    "candidate.stacks.349e008754f25530e6ec4d70",
+    "candidate.stacks.34b1e6088b16518eb00b6455",
+    "candidate.stacks.34e48255377560225992bd94",
+    "candidate.stacks.35847541682fb4fc55aa29a2",
+    "candidate.stacks.377df9570e1f81015857219f",
+    "candidate.stacks.37be377986edef1afd50e5f0",
+    "candidate.stacks.37f9308d3aea4f1f3ca61533",
+    "candidate.stacks.37fe2041009300ebafce1c05",
+    "candidate.stacks.3846b06adf38d39f14acfe01",
+    "candidate.stacks.388cf03af9084ff1b5c20639",
+    "candidate.stacks.3a8b45da47ee6385b8b9f478",
+    "candidate.stacks.3a8e0c2114a57c31933005e1",
+    "candidate.stacks.3b28453258b0e52a1efe32e8",
+    "candidate.stacks.3c8afa489d6957daebab1c84",
+    "candidate.stacks.3c8b540c622e7398d326ebd8",
+    "candidate.stacks.3cf04a22bed082acd9b820f4",
+    "candidate.stacks.3d5a01c4cd1d7782f9c7842d",
+    "candidate.stacks.3dd08ad280b8c7b1338dfd5e",
+    "candidate.stacks.3e184570adec1e3dee102a08",
+    "candidate.stacks.3e59f742cbc7a816fc3507b7",
+    "candidate.stacks.3ee2e43efbb86e56e6b07444",
+    "candidate.stacks.3f2633543cf516d12beccfa5",
+    "candidate.stacks.3fc12a682fa911c360ed561b",
+    "candidate.stacks.40ab4127b5db79e6cc2a3294",
+    "candidate.stacks.40abd833cb5dbbc486f0f07b",
+    "candidate.stacks.42e0a3293cdc31edb63513f1",
+    "candidate.stacks.4306af5e408975d9398f4a54",
+    "candidate.stacks.432f35d058000dc9f5985a86",
+    "candidate.stacks.43303fc95c1af037281a3e98",
+    "candidate.stacks.43837154d99b3de5b3a1a807",
+    "candidate.stacks.43ad7a0240608571eab390b5",
+    "candidate.stacks.443f2bda1c0bbf8106ff2fef",
+    "candidate.stacks.44941d1f12cda0118e44ef63",
+    "candidate.stacks.45a87c7885207a60722c6cae",
+    "candidate.stacks.45f76ce74331ce6ba1503567",
+    "candidate.stacks.4601928f882921f7aa2af10b",
+    "candidate.stacks.462d53249ee0667823ab1500",
+    "candidate.stacks.46634c36f6a0f671fe415142",
+    "candidate.stacks.46ad92e7f25cf8924009a4ee",
+    "candidate.stacks.46b2e1f6c92112c14a5e227f",
+    "candidate.stacks.47b2826969602072acd7ccef",
+    "candidate.stacks.47bb26292e6805ba33ce5a9f",
+    "candidate.stacks.47dce6aee4464da481edeb53",
+    "candidate.stacks.47e02390a94bfe1a1bb06876",
+    "candidate.stacks.4822a4fb8bd2184426e36d69",
+    "candidate.stacks.491b07ef0da1ea6f581bcfe4",
+    "candidate.stacks.4978c62d062eeb5787fceb29",
+    "candidate.stacks.49f53cbc830403d8f9618009",
+    "candidate.stacks.4a1b94fa9e5628d5ac4da54d",
+    "candidate.stacks.4a6c539d7c2c767330f2ad2e",
+    "candidate.stacks.4aa383ffd0848c49ce6e8850",
+    "candidate.stacks.4b3eb0fa0bdc52609fbfd76d",
+    "candidate.stacks.4bdc8117260aeb6cde5744d0",
+    "candidate.stacks.4bdf20c9fee628c890feef8a",
+    "candidate.stacks.4c442ad9f12db798bb1d2cb0",
+    "candidate.stacks.4c5ac96e52ae4c11c71e0ef1",
+    "candidate.stacks.4c5ea5e33c4f522b8d9161f5",
+    "candidate.stacks.4c99ba235d7510950c22d567",
+    "candidate.stacks.4ec9fa946adeca16a690ae6c",
+    "candidate.stacks.4efa0d8476d96cdb31370c4f",
+    "candidate.stacks.4ffc9da574decc0698d96ab2",
+    "candidate.stacks.507418e2223d205d14ff3c87",
+    "candidate.stacks.5096d74efd7c66eac9cfb11d",
+    "candidate.stacks.519e5614aed5d98bedbd41d7",
+    "candidate.stacks.51bcb803a593c6e4c8d49ab9",
+    "candidate.stacks.51db9b404d22662ed0b68ca2",
+    "candidate.stacks.523b96037bdbff6a35f699ac",
+    "candidate.stacks.52aa1bee6eaff78bdeef30db",
+    "candidate.stacks.52dd4e9861b56e7686908ae9",
+    "candidate.stacks.533c0a5243f6295c60de76da",
+    "candidate.stacks.53588572b99da05cd310d116",
+    "candidate.stacks.536ae8468f50b193b3cee4c8",
+    "candidate.stacks.53908d49a66f1865dc5e532b",
+    "candidate.stacks.53dbbb30ddb9fa516a3deccc",
+    "candidate.stacks.54035380dba9f392b09da473",
+    "candidate.stacks.54153a4c036b72facbbffb85",
+    "candidate.stacks.544eba1bc0f8d2f3d8bfe5bd",
+    "candidate.stacks.5462e8c0ef0a88a60c321ec7",
+    "candidate.stacks.54a841a6c2be255c0ef1c3a9",
+    "candidate.stacks.54c764645ae7026304b95d71",
+    "candidate.stacks.54e6bc44a7b7e98087f8a3bf",
+    "candidate.stacks.55f6ab03d0f23b51760f79f1",
+    "candidate.stacks.56e6014cc5d2b73912ca937e",
+    "candidate.stacks.575f1c023d458686364ce970",
+    "candidate.stacks.57dfc290b8828f5be084d946",
+    "candidate.stacks.587615c5e19b5fdbb19c2afa",
+    "candidate.stacks.58863a421028bd2be3817ca8",
+    "candidate.stacks.5991c3a4dda67ecfada28077",
+    "candidate.stacks.59eecd65b576e2d9c4a3cc36",
+    "candidate.stacks.59fb3cd6725eaa28f46efded",
+    "candidate.stacks.5a144b3b9cf31f0e889702c0",
+    "candidate.stacks.5a1ea28cf62b953c1c5b6a80",
+    "candidate.stacks.5a352b8b8d6d02375cfe60b6",
+    "candidate.stacks.5a798d90c7a7e88a61a6cb70",
+    "candidate.stacks.5ac08523890b58a1e369051c",
+    "candidate.stacks.5ac410f5020499adf004aba4",
+    "candidate.stacks.5b1cf159ba1edf6480491697",
+    "candidate.stacks.5b7df1cb490b83d06fdbfdfe",
+    "candidate.stacks.5c1205eac3eff08f17654950",
+    "candidate.stacks.5c39959549cbbb731d3f65ae",
+    "candidate.stacks.5d2375b9a75c379800ed7fbe",
+    "candidate.stacks.5d90d680b8c2a5afb520ab7c",
+    "candidate.stacks.5dd5165f0ecb145ef642cbe8",
+    "candidate.stacks.5e01cd516873cc138ef586aa",
+    "candidate.stacks.5e9d789a5463640023d6ea00",
+    "candidate.stacks.5f233ab27556e59d86ac67b4",
+    "candidate.stacks.5f87f91606b4e26f364ea22c",
+    "candidate.stacks.5f89de3553b17e92a3545c6c",
+    "candidate.stacks.5ffd8a739e44a9b863ce48b5",
+    "candidate.stacks.6089136d4beffdf7641f2927",
+    "candidate.stacks.60dd57eec5d4b11a7ee38a68",
+    "candidate.stacks.6148ccbd6af7daa4b09cfe1e",
+    "candidate.stacks.61a85f6062521bd477960dfd",
+    "candidate.stacks.61ef86afd2b99d7502e757e0",
+    "candidate.stacks.63e2e62ee2d7793ac8b0c7f0",
+    "candidate.stacks.642a6e331ead17dd334f64de",
+    "candidate.stacks.643a68f324aa699a526f63ba",
+    "candidate.stacks.6485e9498f5e99f6a6865e7c",
+    "candidate.stacks.64ca9afbb4d014c35753583b",
+    "candidate.stacks.64f695e263b255b8eeb9f341",
+    "candidate.stacks.650396fb7754d597096d4c2a",
+    "candidate.stacks.65c926047be00b7f825b02ec",
+    "candidate.stacks.6624e49799627ea34ee44ed1",
+    "candidate.stacks.6640e84a697c3cf5e180a52c",
+    "candidate.stacks.667cdd7884bd12c40b6d85b2",
+    "candidate.stacks.66a644be47d9429f30b59a4e",
+    "candidate.stacks.678ce54c56511f9a0a93e3fd",
+    "candidate.stacks.6899ced705c3aef2273fbd33",
+    "candidate.stacks.691996e77dcbfcaac88f27c9",
+    "candidate.stacks.6ab133872f6007b54ba21ac4",
+    "candidate.stacks.6b0c779845651a3792f79fad",
+    "candidate.stacks.6b12fddf09fa47ea5e74b624",
+    "candidate.stacks.6b3f3f1ccb5817d9dae1c2b5",
+    "candidate.stacks.6b4a9ecf20c748db10dcf725",
+    "candidate.stacks.6b56743a3897f9d1dc714a7a",
+    "candidate.stacks.6b61709d00dd9df47b19ec0d",
+    "candidate.stacks.6b90f20fe4929b90a80b4e9f",
+    "candidate.stacks.6c2bc8a19f2f312c687b56f4",
+    "candidate.stacks.6c37fb6ff9373ed70f37d711",
+    "candidate.stacks.6cbbf4429668361122d06540",
+    "candidate.stacks.6d30313fb5f7724e40daeac9",
+    "candidate.stacks.6d6272c9d64176354d9de5d3",
+    "candidate.stacks.6dbf0eff1c640809fd654a10",
+    "candidate.stacks.6e4dc5cc6880cbb680cc7598",
+    "candidate.stacks.6e737d298c57b5d9aa5af854",
+    "candidate.stacks.6f10f2900e16748f4546c068",
+    "candidate.stacks.6f57106d8c0e7d5daa85cc8f",
+    "candidate.stacks.6f5b47080a68d785f42755cd",
+    "candidate.stacks.6feb1a3ffbddbf6c904291b1",
+    "candidate.stacks.701234f98dae038894bbe199",
+    "candidate.stacks.70422ef2cae73c884a44ad15",
+    "candidate.stacks.7053da4393dc18d45ea2b8d2",
+    "candidate.stacks.7080555ebfb67a599f2f0b97",
+    "candidate.stacks.709f16217b39c766f73ca03d",
+    "candidate.stacks.70afe7eda8aa960bc501a413",
+    "candidate.stacks.70b67eaadf80fa89846f09c5",
+    "candidate.stacks.70e52f0b5865d387c319ff28",
+    "candidate.stacks.718e44fb55489e25c385292c",
+    "candidate.stacks.72342f7151f6e394c520b08d",
+    "candidate.stacks.7236de78823eed180d441d61",
+    "candidate.stacks.72bf939419c76cf627bdb908",
+    "candidate.stacks.72ecd17e7f5bc30069ac05cb",
+    "candidate.stacks.73652fcf78ac1f419482fe93",
+    "candidate.stacks.74772b5a01945b1ea0d6e0f9",
+    "candidate.stacks.75d576ce0cf5da481ae113b0",
+    "candidate.stacks.7610aece020938c720c7d010",
+    "candidate.stacks.775d717575a9249ca657d06d",
+    "candidate.stacks.78befb279368ff19ef93b48c",
+    "candidate.stacks.78cf37fdf5daeb6f8d266c15",
+    "candidate.stacks.791613b7736392602ba33246",
+    "candidate.stacks.7931df8638fd4b4f64681927",
+    "candidate.stacks.7a98b29a9dcf2fe25cac65cb",
+    "candidate.stacks.7aa0b5d1ec439ec71ae53723",
+    "candidate.stacks.7aa91baaaff9ab8108dcc3a7",
+    "candidate.stacks.7acfc4c9e2155e7362ccbe80",
+    "candidate.stacks.7b7c0765af27cec4e8d99377",
+    "candidate.stacks.7ba2f1c160163c6d4894a9ac",
+    "candidate.stacks.7bba0ceeb8d9424fdd5da6fd",
+    "candidate.stacks.7cfd01940f0425e749cf9211",
+    "candidate.stacks.7d0348bde0e6c9fcc0598a84",
+    "candidate.stacks.7d3dd835a31bf430e0905c71",
+    "candidate.stacks.7d7fd2cfca75e21de91b89d4",
+    "candidate.stacks.7e19feeca46f43c04d8bd44b",
+    "candidate.stacks.7e5d137445e344ae0901f474",
+    "candidate.stacks.7ea7e292c55dc123bed330cb",
+    "candidate.stacks.7ed842ce80ac501639d88d59",
+    "candidate.stacks.7f085151b6ff8e7b8cf2d965",
+    "candidate.stacks.7f0e38510f1d905c87f6847e",
+    "candidate.stacks.7f616138765aaf21cf49d3b7",
+    "candidate.stacks.7f691632f1c97bdd0efa9ef4",
+    "candidate.stacks.7f9fe4b02a99e61a98a69b97",
+    "candidate.stacks.7fe30e929cb786ac2b4d60cb",
+    "candidate.stacks.806cf83e19ba0cca86c0410a",
+    "candidate.stacks.80995f6687e1f39d8422087e",
+    "candidate.stacks.81138e31548ceb8d4b13e8a5",
+    "candidate.stacks.81881aeebf4f6507da976f4b",
+    "candidate.stacks.81a8937dafffd7b67272c788",
+    "candidate.stacks.81c21c0ede35e04994764535",
+    "candidate.stacks.81c919e9723144324c345762",
+    "candidate.stacks.8220aaa60fad85d4d6389ef9",
+    "candidate.stacks.82236fc8e11aa6215a4b39e7",
+    "candidate.stacks.822b791aade1b17e20d51be6",
+    "candidate.stacks.82733d88fb471d310af2a1fc",
+    "candidate.stacks.82993ab9ddd1127c2d7e2dc0",
+    "candidate.stacks.82ac945e83e714b943d91693",
+    "candidate.stacks.82e16b4a9f6b4d521af8997d",
+    "candidate.stacks.839ff4b15221a3f86d05e44c",
+    "candidate.stacks.83ccc8283c329d83f2588511",
+    "candidate.stacks.8445aef6b7c61a0be1401de8",
+    "candidate.stacks.84664eb184ce07b301d2d0ae",
+    "candidate.stacks.8468d144df618b7b99cd1607",
+    "candidate.stacks.84bf1a70606e1f6b35add4cb",
+    "candidate.stacks.855181a35adf3f0db57c7e24",
+    "candidate.stacks.85b2f84ad20e6a33016d53b2",
+    "candidate.stacks.85d46b2af7c7db7ada168566",
+    "candidate.stacks.85e98a55af7c3448fc2fcfa6",
+    "candidate.stacks.8666f38cc800643e13b8c8fd",
+    "candidate.stacks.86d7018598d5f003b2a91dcf",
+    "candidate.stacks.8701f4c8ae37b5d5371129b6",
+    "candidate.stacks.8748f0cf914d887e02e61a44",
+    "candidate.stacks.8772e30575844d136dbca40a",
+    "candidate.stacks.87d049bf3d46cbda95f47ac7",
+    "candidate.stacks.87d8870bdde3ecb0c4018625",
+    "candidate.stacks.87f53b122cec81d553f781d5",
+    "candidate.stacks.88402976ac22149efe3bc838",
+    "candidate.stacks.8962253cd693c150d4bf538e",
+    "candidate.stacks.8995b46cdf6913983eabe9a2",
+    "candidate.stacks.8b78d99a576654ab3ad2a0f8",
+    "candidate.stacks.8bbd5e6f7e2a6434a8100ff2",
+    "candidate.stacks.8bc01db87b2ad3c41b7262a5",
+    "candidate.stacks.8bff00a290587e88b79fb43f",
+    "candidate.stacks.8c0bc4a606661e2134fe8468",
+    "candidate.stacks.8c38a2278283f4eaac8204df",
+    "candidate.stacks.8cbe564bd5db5225df66d058",
+    "candidate.stacks.8ce0cc4c2cf14a548bdad679",
+    "candidate.stacks.8d173ba452ab47a44ce2ab8f",
+    "candidate.stacks.8d19c10fdafe99d1dc8c591b",
+    "candidate.stacks.8d6919bd7f38bc20527dec26",
+    "candidate.stacks.8de46b45585c3ad3f7ba9ecc",
+    "candidate.stacks.8ea236d88c1a9b0f150a3419",
+    "candidate.stacks.8ebe058aeb77d08ed7bae38b",
+    "candidate.stacks.90de57739d592e746cdf003d",
+    "candidate.stacks.90ff37fed1b43b8c897c44d9",
+    "candidate.stacks.9140161d06d873a58b274223",
+    "candidate.stacks.92052ca62a890b0b4e68c63b",
+    "candidate.stacks.920744aa3769d1d511dc121a",
+    "candidate.stacks.923754c4bc232d7ee1331020",
+    "candidate.stacks.92410a1d4287bfd424f296f7",
+    "candidate.stacks.926807ae35646824b3e1ad26",
+    "candidate.stacks.92c157ac4aeb11bedf05e018",
+    "candidate.stacks.935babcb8a1eafdbfc3a0487",
+    "candidate.stacks.93857d49ad958eb1e04bfb5c",
+    "candidate.stacks.94e2f3fb435a7b7745424d80",
+    "candidate.stacks.9520b2b516fe9f778b8883a7",
+    "candidate.stacks.95d1bcc43afa997dab6af941",
+    "candidate.stacks.95e5d86963640cdbb1d4226f",
+    "candidate.stacks.9687b808174f56d6783effbc",
+    "candidate.stacks.9759ccc83ae96cc8837bcd00",
+    "candidate.stacks.9768b48e4a27e3c55b7cecbd",
+    "candidate.stacks.9855618a9515380f30240207",
+    "candidate.stacks.98d2a91efe10133d31342b1d",
+    "candidate.stacks.99ac794e7ca3f87f7bdd467e",
+    "candidate.stacks.9a244e4f17632648b98bf187",
+    "candidate.stacks.9b048e2045e2d79e39eb39ec",
+    "candidate.stacks.9b135d8beac0909a38387932",
+    "candidate.stacks.9c8211e86f83d5585cfa8634",
+    "candidate.stacks.9cd1e132f4c817d9da284ca7",
+    "candidate.stacks.9cf818101719f2af09bf8424",
+    "candidate.stacks.9d248fdf330ae8afada62997",
+    "candidate.stacks.9d2608ad5692c710edd0e399",
+    "candidate.stacks.9d2c56d9335649e3e0c1a587",
+    "candidate.stacks.9d4d91a056c35ddfbadf1681",
+    "candidate.stacks.9d69dbfa19eb1b98b3275194",
+    "candidate.stacks.9deb04e840397a2892aee991",
+    "candidate.stacks.9e820754e39d7d2c58100239",
+    "candidate.stacks.9eba86d672e2d321474ed0fd",
+    "candidate.stacks.9ed149ef261db496da0ca087",
+    "candidate.stacks.9f2d2de92f8347cb66b6481b",
+    "candidate.stacks.9f3418c185c3690ce2b892b9",
+    "candidate.stacks.9f5419bf63bb45cdb0bcea1b",
+    "candidate.stacks.9faf0e33fb1635f3606d2143",
+    "candidate.stacks.a05c3a85c1e8f91f8e7fb35e",
+    "candidate.stacks.a0c1e5d6013b6aefc92a6356",
+    "candidate.stacks.a18dcbe524436b2f47066ea4",
+    "candidate.stacks.a21cea60f960f26e2862bacf",
+    "candidate.stacks.a22eb4f4bed72d9227a03eb0",
+    "candidate.stacks.a253a9320558f2b5eaad1dd3",
+    "candidate.stacks.a2762df22a1e620bf64d3a38",
+    "candidate.stacks.a362842c8705f69bcee497ab",
+    "candidate.stacks.a3834945f12b7f9d081eb234",
+    "candidate.stacks.a39b9bb60ca7cf394dd7c1c2",
+    "candidate.stacks.a408b78966436eb48d34f01f",
+    "candidate.stacks.a465ce12b83d898f6f684e44",
+    "candidate.stacks.a512ce06992e7e397976338c",
+    "candidate.stacks.a53bb3176425418eeebe803b",
+    "candidate.stacks.a55f9d7c24ccff68585906d2",
+    "candidate.stacks.a5bd20867fac20ca452e9de8",
+    "candidate.stacks.a5c506612a18ff7306b4695b",
+    "candidate.stacks.a5ee703bdf186357403ac455",
+    "candidate.stacks.a5eee23dda08b1b40fcc792e",
+    "candidate.stacks.a6c4540868388149c97e88a7",
+    "candidate.stacks.a6d8f894cee7be660178c41c",
+    "candidate.stacks.a70d36a7a4bcb7723dc14033",
+    "candidate.stacks.a71e68f89c6c28fc9b028da2",
+    "candidate.stacks.a7da705618f92eb2446b5e25",
+    "candidate.stacks.a88f3edb65c4ffec2f812a1b",
+    "candidate.stacks.a9a20374e4b366e04cf68f7c",
+    "candidate.stacks.a9c88f83861ceefac912edd8",
+    "candidate.stacks.a9fa3bce03c696ef51fa0d53",
+    "candidate.stacks.aa10a0aded7be7eb42a8e02e",
+    "candidate.stacks.ab89c9cc0167e405caf9b585",
+    "candidate.stacks.abe4c7f80c9ef7c3a5fe4392",
+    "candidate.stacks.ac3680f648b8aa2620c64f12",
+    "candidate.stacks.acadc5ebb73356688f5326d5",
+    "candidate.stacks.ad6c4dce50fad431aa18a3ed",
+    "candidate.stacks.ae7e21db6bc61414b6a20a00",
+    "candidate.stacks.af57e5600231c6d205bc0e68",
+    "candidate.stacks.afc3d56f5c86cee29d6fc992",
+    "candidate.stacks.b0c25ac8dca1abf3cef50064",
+    "candidate.stacks.b0ea9cddc84f6a26265c9a8c",
+    "candidate.stacks.b10301b145e693b60ef71a59",
+    "candidate.stacks.b1437f7eaaa7dad4065425ab",
+    "candidate.stacks.b1de9722309e248418c34e58",
+    "candidate.stacks.b1e9adbac5ce97b5fe6b5d88",
+    "candidate.stacks.b20430d0be83fd66936bb5d0",
+    "candidate.stacks.b26da507edc6e3a8ea1a9e59",
+    "candidate.stacks.b28ec030acd422bcf7cc270a",
+    "candidate.stacks.b322c607024e72f4655efbdc",
+    "candidate.stacks.b3461e8b2246fc5a770f0c22",
+    "candidate.stacks.b34fd7c7dd7f067d300f9844",
+    "candidate.stacks.b39313383dd01ea2177bc020",
+    "candidate.stacks.b45af2ba82a312f69b4231b5",
+    "candidate.stacks.b4c4d889815b88c1b378e345",
+    "candidate.stacks.b5ea2fd6489ea96d853a7504",
+    "candidate.stacks.b5eccfc8f214bdcc3dabf5f1",
+    "candidate.stacks.b66d8f68e5b1c3c9500059ec",
+    "candidate.stacks.b72668e9ab7fdd8c0edb022e",
+    "candidate.stacks.b89bf91701ea85f2c859cf6a",
+    "candidate.stacks.b8c6c1db3523fbf69442cb73",
+    "candidate.stacks.b8d537cde5702d566de8fc71",
+    "candidate.stacks.b90e7c7f50219b4466a3a845",
+    "candidate.stacks.b95c32ed73aa898ec9c98b0e",
+    "candidate.stacks.b9d6a3a2c92217f8c0c153b0",
+    "candidate.stacks.ba05ff26c4d1046a59b842dd",
+    "candidate.stacks.ba12579a7b5fc9e6649c79fb",
+    "candidate.stacks.ba3e1311251c7635e3cfd496",
+    "candidate.stacks.ba4cc739154fad3143549608",
+    "candidate.stacks.ba6a1905e2d1aca421ce59ea",
+    "candidate.stacks.ba9a128e47176e52aed041ad",
+    "candidate.stacks.baae369f395894665e55e927",
+    "candidate.stacks.bb0dab0e15d776bb0197132e",
+    "candidate.stacks.bb81e393092f01fbe8ca6e83",
+    "candidate.stacks.bb88db0b3ae88dd8eb0c3adf",
+    "candidate.stacks.bb9d3379ab982c850ab4ff3d",
+    "candidate.stacks.bbe00f36600d00b81334c432",
+    "candidate.stacks.bbfbd61c8b593ef1138b6401",
+    "candidate.stacks.bc1a5755b184359bf3e69be4",
+    "candidate.stacks.bd92413097c8e4698d53c6d4",
+    "candidate.stacks.bef0911c93f7eef436891568",
+    "candidate.stacks.bf071f7d40d54ea4b253edfd",
+    "candidate.stacks.bf3a24cd32d1b6b415629e3a",
+    "candidate.stacks.bf47bbc65429c4fde37ecfe5",
+    "candidate.stacks.bf83e1f23962253224d58505",
+    "candidate.stacks.bf8869b7868d57b2380585b9",
+    "candidate.stacks.bfc89b8c13de77f89edd214a",
+    "candidate.stacks.bfe2284b1121f244863f032c",
+    "candidate.stacks.c0455474a5bd33222aaf27ed",
+    "candidate.stacks.c0e08495e6c3f23c4e437476",
+    "candidate.stacks.c11a5110b23ddb9399336fd6",
+    "candidate.stacks.c15cc0ae5786922d7f4eb882",
+    "candidate.stacks.c32032e310a4146eed2882a2",
+    "candidate.stacks.c3378cfc2aafc1ea0b024788",
+    "candidate.stacks.c3aeb90338a739a1a25a0844",
+    "candidate.stacks.c3dda7b47e7874fe9dead778",
+    "candidate.stacks.c41d3f005299578079c5b46c",
+    "candidate.stacks.c426827d3fdba99551635f71",
+    "candidate.stacks.c4623d8d97c7ae64cca55c9d",
+    "candidate.stacks.c4c3bdc28202638e2ffdea01",
+    "candidate.stacks.c4e57e9194806ac1e07f26fd",
+    "candidate.stacks.c518d6da2d1392c38511cac5",
+    "candidate.stacks.c529c99ea8ec32ee24333927",
+    "candidate.stacks.c55a9639df9709767f8031db",
+    "candidate.stacks.c58fab844c9cb1373880ef82",
+    "candidate.stacks.c5bdbcd9ea5816349ca37a16",
+    "candidate.stacks.c6886a07ec69ba3973fa8c40",
+    "candidate.stacks.c6e74e0b387409ce977caa8a",
+    "candidate.stacks.c712fd50ef4b9179acd1234b",
+    "candidate.stacks.c779135e60c3bdf9c844b016",
+    "candidate.stacks.c7b702f1f3316b2b2b2a92df",
+    "candidate.stacks.c80fa62ca582643eea739363",
+    "candidate.stacks.c82089c8dbb00456354ea8bf",
+    "candidate.stacks.c8866c993a2ed930eeba8468",
+    "candidate.stacks.c8c22e4d38ef6e7ab43f0d52",
+    "candidate.stacks.c8e094646c80ae2600f412ce",
+    "candidate.stacks.c9459b77df0589eac21bc6ac",
+    "candidate.stacks.c975d554569c3f2ab1001981",
+    "candidate.stacks.c98d27f52056b1ca8caa786c",
+    "candidate.stacks.c99b214e577dce7d93b4869b",
+    "candidate.stacks.c9cc682dd1e14b829e1537f0",
+    "candidate.stacks.c9d0c568dbb19ac870793a15",
+    "candidate.stacks.ca24e1b07a0b26d7cb09960e",
+    "candidate.stacks.ca5253662a2f46823b728a71",
+    "candidate.stacks.ca5de748d4c640fae92de50b",
+    "candidate.stacks.caae80c13e91eb56ecefd9fe",
+    "candidate.stacks.cbd63423c53ad0d7bec05cab",
+    "candidate.stacks.cbdc1adcc429cfe9a732b173",
+    "candidate.stacks.cc2451c5cb84ab3bdcfa3714",
+    "candidate.stacks.cce13cc19fc06e16fd9d440b",
+    "candidate.stacks.cce31a4a388b6ccc7a60a47e",
+    "candidate.stacks.cd755abf6ec950b5d4469174",
+    "candidate.stacks.cd7c1597fc620222d1a0f640",
+    "candidate.stacks.cd8709a7e976ed1b8b6180f7",
+    "candidate.stacks.cdc5d30843eb4fe6a9606d6b",
+    "candidate.stacks.cdd8a909dd57056942c271da",
+    "candidate.stacks.ce4f14830a930da1943630f6",
+    "candidate.stacks.cef8406d018db5d32852f919",
+    "candidate.stacks.cf3c28b21a7fffcca1de734c",
+    "candidate.stacks.cfa62e8d9458033db5481d44",
+    "candidate.stacks.cfa8d5079c99f22970caff4f",
+    "candidate.stacks.d05be06bf75a1783e8a2ad20",
+    "candidate.stacks.d105c99b8ce9f79a35f495f8",
+    "candidate.stacks.d1b6a0d7abec06bb02207a83",
+    "candidate.stacks.d25f5d598102a19af38bbf4f",
+    "candidate.stacks.d2881613dca3109fd6e36898",
+    "candidate.stacks.d2f39464f0c3ffcf6710ea08",
+    "candidate.stacks.d2ff99365115498844ed1a6c",
+    "candidate.stacks.d34bf003b6c31ede0073d2d0",
+    "candidate.stacks.d3d048a8d21d0fc8df6f9a1b",
+    "candidate.stacks.d3d654932e1ce01716afb2ef",
+    "candidate.stacks.d44342667bf9fd4e847d11d4",
+    "candidate.stacks.d47cd465c53af9322cce18cb",
+    "candidate.stacks.d528cb339b07a90af565d92d",
+    "candidate.stacks.d59e5338549fc9ac07462937",
+    "candidate.stacks.d6bc9fdead6a3e6a718c522e",
+    "candidate.stacks.d75b85115dade1b8b1396786",
+    "candidate.stacks.d76b681fc1334a06493cd602",
+    "candidate.stacks.d79c0bbb849658ed6e57d393",
+    "candidate.stacks.d7eac993aa6f814f198370c7",
+    "candidate.stacks.d8295cf415df4edb8f4d611a",
+    "candidate.stacks.d84e3d1c5bdb2577db63a7d1",
+    "candidate.stacks.d86f221958e52cd1fd96c970",
+    "candidate.stacks.d8c9a7d30fb901a1cf823835",
+    "candidate.stacks.d8ea22e45630bd2ce25096ce",
+    "candidate.stacks.d8f3994d434175f5acee64b1",
+    "candidate.stacks.d8fdd011f0d3b063737bfd19",
+    "candidate.stacks.da393d6e2fbb15043d65a905",
+    "candidate.stacks.daa141a7e8e3762533d5a2fd",
+    "candidate.stacks.dafc8b2f660890bb49db52f1",
+    "candidate.stacks.db95c4153f1664c4257c282c",
+    "candidate.stacks.dbaed70ee7b40772a88bc651",
+    "candidate.stacks.dcb40f3fbea21c7eebf4c082",
+    "candidate.stacks.dcdfd8cd7c87003d34d5164e",
+    "candidate.stacks.dd8a05f018913abaea3b3710",
+    "candidate.stacks.ddb76876ea783ca5583b97ab",
+    "candidate.stacks.de69b7019945db388e804aea",
+    "candidate.stacks.de7478cbcddc21cc5619535f",
+    "candidate.stacks.de82e75ab31c6b710ab67a1d",
+    "candidate.stacks.deeb2925c717e38c5baa6bf3",
+    "candidate.stacks.df1ce23f50af6d4e3017c262",
+    "candidate.stacks.df2ca60e0baac21471112248",
+    "candidate.stacks.dfa73d601f6463a796e34c25",
+    "candidate.stacks.dfb0e31d71c2d051c1ed648d",
+    "candidate.stacks.dfd7f7fefea6cfb97221b459",
+    "candidate.stacks.dff51749cbf0cabaeee0f57c",
+    "candidate.stacks.e0511fe69b470d3f10efc87b",
+    "candidate.stacks.e0638d7817aa0ccddb957e0e",
+    "candidate.stacks.e0693fda8cf9808483aeffad",
+    "candidate.stacks.e08d6e5c94a789186e7f3015",
+    "candidate.stacks.e1a35e473f45c1e13d721385",
+    "candidate.stacks.e24ae16967e95df3c65c77ff",
+    "candidate.stacks.e33b1fbff6a625d56704dd67",
+    "candidate.stacks.e371e5060a378181bc44c0b7",
+    "candidate.stacks.e40db09864f337b32a1d6745",
+    "candidate.stacks.e4a0baf9e7a301552ebc670c",
+    "candidate.stacks.e50e1a36bb765760420370e4",
+    "candidate.stacks.e556aa8c66dbc8341fbab7f3",
+    "candidate.stacks.e56e62da7aacc98cbbef1ce1",
+    "candidate.stacks.e577217623ffec3f718210e5",
+    "candidate.stacks.e57cde4b2ad169d962a9518a",
+    "candidate.stacks.e69aabbab70c3d3b2d4f26a6",
+    "candidate.stacks.e6c13ffea1d845e8871f35be",
+    "candidate.stacks.e6eb966f51a68cefc7badb54",
+    "candidate.stacks.e7447fe186a2b41ce0ee4333",
+    "candidate.stacks.e7551a5643112a7b0a44e3af",
+    "candidate.stacks.e806ad5825ff54537b7e2ac8",
+    "candidate.stacks.e85a9798f9c4ed94d6821574",
+    "candidate.stacks.e8a7a738b5ef7808cd04382d",
+    "candidate.stacks.e941834b002115e477fd0d72",
+    "candidate.stacks.e9c60460a51f2c944d6eaf74",
+    "candidate.stacks.ea238cd42a325914c990462e",
+    "candidate.stacks.ea77798f000c4cfa3ba957fb",
+    "candidate.stacks.ea840cea78627609df981e9a",
+    "candidate.stacks.eb01bd1eee60942ae4aa93a0",
+    "candidate.stacks.eb72c08cee1f852d0700f99d",
+    "candidate.stacks.eb8408dc8f5bec478ac2ca5a",
+    "candidate.stacks.eb9821ec7b5534271f630480",
+    "candidate.stacks.ec0265f97d841ad0f2bcf01c",
+    "candidate.stacks.ec18d1e735b8a2616bbe2b36",
+    "candidate.stacks.ec4681341710c3aacbb3e507",
+    "candidate.stacks.edcdad64c21f44e0353a0e93",
+    "candidate.stacks.edd01b02702753e70f734a24",
+    "candidate.stacks.edfb8e6fb199e6b0ca4fc7f4",
+    "candidate.stacks.efb546efaa2e8b07d71c4d60",
+    "candidate.stacks.f0203e480d947aa17a8bdf9e",
+    "candidate.stacks.f03fba683d01a3433c9166ef",
+    "candidate.stacks.f051a80f398a83b920f3fb43",
+    "candidate.stacks.f08b0d2a9fc477d1f79efcda",
+    "candidate.stacks.f0cbfe8a0b22c947515b4cc0",
+    "candidate.stacks.f1873806dabe9cffcd05d11e",
+    "candidate.stacks.f2b82fdae83124d066202f90",
+    "candidate.stacks.f2ec817bbef893d38195348c",
+    "candidate.stacks.f3035fc57cabf8936a1daf2b",
+    "candidate.stacks.f318c0ca37611aa505fe93b0",
+    "candidate.stacks.f3a0e17b22f1b9466c58f798",
+    "candidate.stacks.f3cad41aabe1bca5cf4c473c",
+    "candidate.stacks.f48291ff8b458c4896888ff7",
+    "candidate.stacks.f5e5d251ad6b6902ff7d1e24",
+    "candidate.stacks.f5f31148063d2d09421eef95",
+    "candidate.stacks.f6410e7feecf4689d082fdf5",
+    "candidate.stacks.f81d87eac821d09d382d29d6",
+    "candidate.stacks.f84c21cd0a17b9799c82dc2f",
+    "candidate.stacks.f88f911ffdd4341a5cacdd1c",
+    "candidate.stacks.f8bb9ac49fe7c21de88309d9",
+    "candidate.stacks.f969e2f25f7a9e81cab81dbc",
+    "candidate.stacks.f9a097044a5e7a18fe5c0815",
+    "candidate.stacks.f9e6d0823165420bb22458d0",
+    "candidate.stacks.f9faf2f8b619817300bb8e91",
+    "candidate.stacks.fa681e5dfac8a8b06c76c20f",
+    "candidate.stacks.fa757bd3fa21ad8f3244168f",
+    "candidate.stacks.fa8131cd1679055d849e6404",
+    "candidate.stacks.fac7bc0debbb7b10d7f0ec60",
+    "candidate.stacks.facd1c9cf40caf28fb574724",
+    "candidate.stacks.fbce8408ee2492c440e559b1",
+    "candidate.stacks.fc1393da9835d3739234b570",
+    "candidate.stacks.fc3213c9349f9117c82d04c5",
+    "candidate.stacks.fc5f802dc76ce817c54429cd",
+    "candidate.stacks.fc92fee73cc04be0558857fa",
+    "candidate.stacks.fcdeaf828bebf25cf283218b",
+    "candidate.stacks.fd0c86338269fd0025261b7e",
+    "candidate.stacks.fe3a069bec870ebda7bc563c",
+    "candidate.stacks.fed66dc91e329297d67472be"
+  ]
+}

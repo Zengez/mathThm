@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "candidate.stacks.4540f52ef09ffc9b083913a4",
+    "source_label": "theorem-criterion-flatness-fibre-Noetherian",
+    "corrections": [
+      "Removed equivalent assertions incorrectly imposed as simultaneous hypotheses; retained them as equivalence sides."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.37535d58ffad4e5b64da9059",
+    "source_label": "lemma-normal",
+    "corrections": [
+      "Removed equivalent assertions incorrectly imposed as simultaneous hypotheses; retained them as equivalence sides."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.4209c50e1154d1ebfa6aca6a",
+    "source_label": "lemma-locally-Noetherian-fibres-fppf-local-source-and-target",
+    "corrections": [
+      "Replaced truncated property fragment in hypotheses with full property and explicit universally quantified locality tests."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.049357de3e2e6fd4faf6c0ae",
+    "source_label": "lemma-normal-fppf-local-source-and-target",
+    "corrections": [
+      "Replaced truncated property fragment in hypotheses with full property and explicit universally quantified locality tests."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.d204007a102e07ee45c46196",
+    "source_label": "lemma-regular",
+    "corrections": [
+      "Removed equivalent assertions incorrectly imposed as simultaneous hypotheses; retained them as equivalence sides."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.fcd6dd2e82fea4eb26067b54",
+    "source_label": "lemma-regular-fppf-local-source-and-target",
+    "corrections": [
+      "Replaced truncated property fragment in hypotheses with full property and explicit universally quantified locality tests."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.9d23c04e1980e96d3ed443bc",
+    "source_label": "lemma-CM",
+    "corrections": [
+      "Removed equivalent assertions incorrectly imposed as simultaneous hypotheses; retained them as equivalence sides."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.df9b6001c63982817981b96b",
+    "source_label": "lemma-base-change-CM",
+    "corrections": [
+      "Restored three independent guards instead of imposing all guards as global hypotheses."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.865d136b6bfaddf5736060a3",
+    "source_label": "lemma-CM-local-source-and-target",
+    "corrections": [
+      "Replaced truncated property fragment in hypotheses with full property and explicit universally quantified locality tests."
+    ]
+  }
+]

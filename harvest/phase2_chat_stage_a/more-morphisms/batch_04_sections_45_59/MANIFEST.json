@@ -1,0 +1,157 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "15-section-experiment-04",
+  "chapter": "more-morphisms.tex",
+  "sections_ordinal": [
+    45,
+    59
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    12654,
+    13078,
+    13371,
+    13598,
+    13824,
+    14020,
+    14202,
+    14530,
+    15079,
+    15557,
+    15873,
+    16071,
+    16262,
+    16363,
+    16585
+  ],
+  "first_source_line": 12654,
+  "last_source_line": 17315,
+  "complete_sections": true,
+  "stage_a_candidate_count": 3,
+  "zero_candidate_sections": [
+    "Application to morphisms with connected fibres",
+    "Application to the structure of finite type morphisms",
+    "Application to the fppf topology",
+    "Quasi-projective schemes",
+    "Projective schemes",
+    "Proj and Spec",
+    "Closed points in fibres",
+    "Stein factorization",
+    "Generic flatness stratification",
+    "Stratifying a morphism",
+    "Improving morphisms of relative dimension one",
+    "Descending separated locally quasi-finite morphisms",
+    "Relative finite presentation",
+    "Relative pseudo-coherence"
+  ],
+  "candidate_ids": [
+    "candidate.stacks.ddcc01f3bedbc393c7345e0a",
+    "candidate.stacks.306e83941cf83d9f5689efdc",
+    "candidate.stacks.f478a207de4025709d4769f2"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/more-morphisms/batch_04_sections_45_59/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 45,
+      "kind": "candidates",
+      "source_line": 12654,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 46,
+      "kind": "context_only",
+      "source_line": 13078,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 47,
+      "kind": "context_only",
+      "source_line": 13371,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 48,
+      "kind": "context_only",
+      "source_line": 13598,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 49,
+      "kind": "context_only",
+      "source_line": 13824,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 50,
+      "kind": "context_only",
+      "source_line": 14020,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 51,
+      "kind": "context_only",
+      "source_line": 14202,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 52,
+      "kind": "context_only",
+      "source_line": 14530,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 53,
+      "kind": "context_only",
+      "source_line": 15079,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 54,
+      "kind": "context_only",
+      "source_line": 15557,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 55,
+      "kind": "context_only",
+      "source_line": 15873,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 56,
+      "kind": "context_only",
+      "source_line": 16071,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 57,
+      "kind": "context_only",
+      "source_line": 16262,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 58,
+      "kind": "context_only",
+      "source_line": 16363,
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 59,
+      "kind": "context_only",
+      "source_line": 16585,
+      "stage_a_readiness": "no_active_candidates"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 3,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 1,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+}

@@ -3,7 +3,8 @@
   "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
   "overlay_files": [
     "harvest/phase2_authoritative_2026-10-29/APPROVED_OVERLAYS.jsonl",
-    "harvest/phase2_calibration_2026-10-29/AUTHORITATIVE.jsonl"
+    "harvest/phase2_calibration_2026-10-29/AUTHORITATIVE.jsonl",
+    "harvest/phase2_stage_b_2026-10-30/APPROVED_OVERLAYS.jsonl"
   ],
   "policy": "Only explicit individual mathematical approvals with corrected materialized statements may enter this registry. Structural checks do not approve mathematical equivalence."
 }

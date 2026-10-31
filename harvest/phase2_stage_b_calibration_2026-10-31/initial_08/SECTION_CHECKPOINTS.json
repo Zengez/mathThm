@@ -1,0 +1,121 @@
+[
+  {
+    "ordinal": 1,
+    "source_file": "more-morphisms.tex",
+    "section_start_line": 4438,
+    "section_end_line": 4515,
+    "selected_candidate_count": 1,
+    "candidate_ids": [
+      "candidate.stacks.9509cd77f9b97ef043b5d9fc"
+    ],
+    "correction_pass_complete": true,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 2,
+    "source_file": "more-morphisms.tex",
+    "section_start_line": 4516,
+    "section_end_line": 4853,
+    "selected_candidate_count": 7,
+    "candidate_ids": [
+      "candidate.stacks.4540f52ef09ffc9b083913a4",
+      "candidate.stacks.34bb16427b804746e82c21fa",
+      "candidate.stacks.42a78e6d267dfa4f5dfab659",
+      "candidate.stacks.70e382a3108111705e431f57",
+      "candidate.stacks.a8be04378191d67ee2c4f854",
+      "candidate.stacks.eed4e7496111f4f520879122",
+      "candidate.stacks.7121420b1deb4ad0f8b83462"
+    ],
+    "correction_pass_complete": true,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 3,
+    "source_file": "more-morphisms.tex",
+    "section_start_line": 4854,
+    "section_end_line": 5032,
+    "selected_candidate_count": 2,
+    "candidate_ids": [
+      "candidate.stacks.a4e5ed3f5cb324cd72a36834",
+      "candidate.stacks.42245523d31f4f56f3af105f"
+    ],
+    "correction_pass_complete": true,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 4,
+    "source_file": "more-morphisms.tex",
+    "section_start_line": 5033,
+    "section_end_line": 5351,
+    "selected_candidate_count": 3,
+    "candidate_ids": [
+      "candidate.stacks.e3a1cb7d67bce12f09962140",
+      "candidate.stacks.55ac8d8bf600a1515ae7856b",
+      "candidate.stacks.27540181ddeed2736d350d28"
+    ],
+    "correction_pass_complete": true,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 5,
+    "source_file": "more-morphisms.tex",
+    "section_start_line": 5352,
+    "section_end_line": 5504,
+    "selected_candidate_count": 4,
+    "candidate_ids": [
+      "candidate.stacks.cde923f3f3ed54dc303208d5",
+      "candidate.stacks.6cd2e87f395a1579ce8ab07a",
+      "candidate.stacks.c10146d2ab76cbadcae9687e",
+      "candidate.stacks.b1ee5b0d4fd529ca5f2efb2f"
+    ],
+    "correction_pass_complete": true,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 6,
+    "source_file": "more-morphisms.tex",
+    "section_start_line": 5505,
+    "section_end_line": 5653,
+    "selected_candidate_count": 4,
+    "candidate_ids": [
+      "candidate.stacks.37535d58ffad4e5b64da9059",
+      "candidate.stacks.95dd6ace7713ddcad495e549",
+      "candidate.stacks.4209c50e1154d1ebfa6aca6a",
+      "candidate.stacks.049357de3e2e6fd4faf6c0ae"
+    ],
+    "correction_pass_complete": true,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 7,
+    "source_file": "more-morphisms.tex",
+    "section_start_line": 5654,
+    "section_end_line": 5803,
+    "selected_candidate_count": 3,
+    "candidate_ids": [
+      "candidate.stacks.d204007a102e07ee45c46196",
+      "candidate.stacks.ac063e7ed00da39e6add6308",
+      "candidate.stacks.fcd6dd2e82fea4eb26067b54"
+    ],
+    "correction_pass_complete": true,
+    "independent_validation": "pending"
+  },
+  {
+    "ordinal": 8,
+    "source_file": "more-morphisms.tex",
+    "section_start_line": 5804,
+    "section_end_line": 6154,
+    "selected_candidate_count": 7,
+    "candidate_ids": [
+      "candidate.stacks.9d23c04e1980e96d3ed443bc",
+      "candidate.stacks.b43a527ea3dc140fdfc8ad38",
+      "candidate.stacks.fc19b2b966b171caf9e6df1b",
+      "candidate.stacks.df9b6001c63982817981b96b",
+      "candidate.stacks.fb0970d30d5d4eef91fa4f53",
+      "candidate.stacks.afdae09c2f8f5e07c05aa048",
+      "candidate.stacks.865d136b6bfaddf5736060a3"
+    ],
+    "correction_pass_complete": true,
+    "independent_validation": "pending"
+  }
+]
