@@ -166,7 +166,6 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.5def2be007ea4e82d8caa8f9",
     "candidate.stacks.05228ebc49f77ae15c4d6b77"
   ],
   "previously_approved_ids_not_regenerated": [],
@@ -288,6 +287,14 @@
       "stage_a_readiness": "ready_for_codex_validation"
     },
     {
+      "section": 60,
+      "source_line": 9247,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "snippets": []
+    },
+    {
       "section": 61,
       "kind": "candidates",
       "source_line": 9261,
@@ -303,13 +310,13 @@
       "section": 63,
       "kind": "candidates",
       "source_line": 9599,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 64,
       "kind": "candidates",
       "source_line": 9908,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 65,
@@ -339,7 +346,7 @@
       "section": 69,
       "kind": "candidates",
       "source_line": 11104,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 70,
@@ -379,15 +386,15 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 104,
-  "stage_a_remaining_work_candidate_count": 10,
-  "stage_a_source_hold_candidate_count": 2,
-  "stage_a_ready_for_codex_section_count": 18,
-  "stage_a_remaining_work_section_count": 8,
+  "stage_a_ready_for_codex_candidate_count": 107,
+  "stage_a_remaining_work_candidate_count": 7,
+  "stage_a_source_hold_candidate_count": 1,
+  "stage_a_ready_for_codex_section_count": 21,
+  "stage_a_remaining_work_section_count": 5,
   "stage_a_work_pending": true,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "stage_a_further_work_candidate_count": 0,
   "stage_a_further_work_section_count": 0,
-  "stage_a_dispositioned_section_count": 14,
-  "processing_note": "Source-first Etale Cohomology §§46–59; 50–59 re-reviewed all 31 candidates including 11 preexisting preliminary-ready. Expanded colimits, higher direct images, strictly henselian and discrete Galois module assumptions. Stage B unstarted."
+  "stage_a_dispositioned_section_count": 24,
+  "processing_note": "Source-order §§46–69; 60–69 Brauer/C_r/Artin–Schreier/locally constant sheaf and $\\pi_1$ contexts source-reviewed. Previously-ready candidates re-audited. No independent Stage B."
 }
