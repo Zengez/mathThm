@@ -19,7 +19,7 @@
   "output_file": "harvest/phase2_chat_stage_a/algebraic/batch_01_sections_01_02/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": true,
+  "stage_a_mathematical_analysis_pending": false,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -39,7 +39,8 @@
           "source_line": 20,
           "tex": "\\noindent\nThis is where we define algebraic stacks and make some very elementary\nobservations. The general philosophy will be to have no separation\nconditions whatsoever and add those conditions necessary to make lemmas,\npropositions, theorems true/provable. Thus the notions discussed here\ndiffer slightly from those in other places in the literature, e.g.,\n\\cite{LM-B}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
@@ -54,8 +55,14 @@
           "source_line": 57,
           "tex": "If $U, T$ are schemes over $S$, then we denote\n$U(T)$ for the set of $T$-valued points {\\it over} $S$.\nIn a formula: $U(T) = \\Mor_S(T, U)$."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 0
 }

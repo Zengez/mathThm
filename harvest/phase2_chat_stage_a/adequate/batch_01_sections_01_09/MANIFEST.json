@@ -96,53 +96,67 @@
     "candidate.stacks.4f8a5f3b5350187abeca991f",
     "candidate.stacks.2c6f9668e763d0f624e01691"
   ],
-  "stage_a_mathematical_analysis_pending": false,
+  "stage_a_mathematical_analysis_pending": true,
   "processing_sections": [
     {
       "section": 1,
       "kind": "candidates",
-      "source_line": 17
+      "source_line": 17,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
       "kind": "candidates",
-      "source_line": 71
+      "source_line": 71,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 103
+      "source_line": 103,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 815
+      "source_line": 815,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 1422
+      "source_line": 1422,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 2009
+      "source_line": 2009,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 2149
+      "source_line": 2149,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 2437
+      "source_line": 2437,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 2726
+      "source_line": 2726,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 10,
+  "stage_a_remaining_work_candidate_count": 37,
+  "stage_a_source_hold_candidate_count": 18,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 7
 }
