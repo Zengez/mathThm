@@ -87,17 +87,20 @@
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 1728
+      "source_line": 1728,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 2055
+      "source_line": 2055,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 2178
+      "source_line": 2178,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
@@ -108,12 +111,14 @@
           "source_line": 2547,
           "tex": "\\noindent\nIn Situation \\ref{situation-global}.\nWorking on the (small) crystalline site, we define\n$\\Omega^i_{X/S} = \\wedge^i_{\\mathcal{O}_{X/S}} \\Omega_{X/S}$\nfor $i \\geq 0$. The universal $S$-derivation $\\text{d}_{X/S}$ gives\nrise to the {\\it de Rham complex}\n$$\n\\mathcal{O}_{X/S} \\to \\Omega^1_{X/S} \\to \\Omega^2_{X/S} \\to \\ldots\n$$\non $\\text{Cris}(X/S)$, see\nLemma \\ref{lemma-module-of-differentials-on-affine} and\nRemark \\ref{remark-divided-powers-de-rham-complex}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 2561
+      "source_line": 2561,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
@@ -136,32 +141,38 @@
           "source_line": 2967,
           "tex": "\\noindent\nIn the lemma below we will consider pairs $(M, \\nabla)$ satisfying the\nfollowing conditions\n\\begin{enumerate}\n\\item\n\\label{item-complete}\n$M$ is a $p$-adically complete $D$-module,\n\\item\n\\label{item-connection}\n$\\nabla : M \\to M \\otimes^\\wedge_D \\Omega_D$ is a connection, i.e.,\n$\\nabla(fm) = m \\otimes \\text{d}f + f\\nabla(m)$,\n\\item\n\\label{item-integrable}\n$\\nabla$ is integrable\n(see Remark \\ref{remark-connection}), and\n\\item\n\\label{item-topologically-quasi-nilpotent}\n$\\nabla$ is {\\it topologically quasi-nilpotent}: If we write\n$\\nabla(m) = \\sum \\theta_i(m)\\text{d}x_i$ for some operators\n$\\theta_i : M \\to M$, then for any $m \\in M$ there are only finitely\nmany pairs $(i, k)$ such that $\\theta_i^k(m) \\not \\in pM$.\n\\end{enumerate}\nThe operators $\\theta_i$ are sometimes denoted\n$\\nabla_{\\partial/\\partial x_i}$ in the literature.\nIn the following lemma we construct a functor from crystals in quasi-coherent\nmodules on $\\text{Cris}(X/S)$ to the category of such pairs. We will show\nthis functor is an equivalence in\nProposition \\ref{proposition-crystals-on-affine}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 3297
+      "source_line": 3297,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 3665
+      "source_line": 3665,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 21,
       "kind": "candidates",
-      "source_line": 3808
+      "source_line": 3808,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 23,
       "kind": "candidates",
-      "source_line": 4253
+      "source_line": 4253,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 25,
       "kind": "candidates",
-      "source_line": 4979
+      "source_line": 4979,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 26,
@@ -180,8 +191,14 @@
           "source_line": 5533,
           "tex": "\\begin{definition}\n\\label{definition-F-crystal}\nIn Situation \\ref{situation-F-crystal} an {\\it $F$-crystal on $X/S$\n(relative to $\\sigma$)} is a pair $(\\mathcal{E}, F_\\mathcal{E})$\ngiven by a crystal in finite locally free $\\mathcal{O}_{X/S}$-modules\n$\\mathcal{E}$ together with a map\n$$\nF_\\mathcal{E} : (F_X)_{\\text{cris}}^*\\mathcal{E} \\longrightarrow \\mathcal{E}\n$$\nAn $F$-crystal is called {\\it nondegenerate} if there exists an integer\n$i \\geq 0$ a map $V : \\mathcal{E} \\to (F_X)_{\\text{cris}}^*\\mathcal{E}$\nsuch that $V \\circ F_{\\mathcal{E}} = p^i \\text{id}$.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 16,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 9
 }

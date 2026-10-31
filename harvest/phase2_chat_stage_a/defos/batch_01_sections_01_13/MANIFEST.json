@@ -105,37 +105,44 @@
     {
       "section": 2,
       "kind": "candidates",
-      "source_line": 32
+      "source_line": 32,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 479
+      "source_line": 479,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 575
+      "source_line": 575,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 1252
+      "source_line": 1252,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 1580
+      "source_line": 1580,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 1701
+      "source_line": 1701,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 2383
+      "source_line": 2383,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
@@ -154,28 +161,38 @@
           "source_line": 2527,
           "tex": "\\begin{definition}\n\\label{definition-strict-morphism-thickenings-ringed-topoi}\nIn Situation \\ref{situation-morphism-thickenings-ringed-topoi}\nwe say that $(f, f')$ is a {\\it strict morphism of thickenings}\nif the map $(f')^*\\mathcal{J} \\longrightarrow \\mathcal{I}$ is surjective.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 2541
+      "source_line": 2541,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 3340
+      "source_line": 3340,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 3692
+      "source_line": 3692,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 3866
+      "source_line": 3866,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 32,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 11
 }

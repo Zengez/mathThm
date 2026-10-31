@@ -67,12 +67,14 @@
     {
       "section": 2,
       "kind": "candidates",
-      "source_line": 46
+      "source_line": 46,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 464
+      "source_line": 464,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
@@ -83,28 +85,38 @@
           "source_line": 608,
           "tex": "\\begin{definition}\n\\label{definition-compatible}\nLet $(A, I, \\gamma)$ and $(B, J, \\delta)$ be divided power rings.\nLet $A \\to B$ be a ring map. We say\n{\\it $\\delta$ is compatible with $\\gamma$}\nif there exists a divided power structure $\\bar\\gamma$ on\n$J + IB$ such that\n$$\n(A, I, \\gamma) \\to (B, J + IB, \\bar \\gamma)\\quad\\text{and}\\quad\n(B, J, \\delta) \\to (B, J + IB, \\bar \\gamma)\n$$\nare homomorphisms of divided power rings.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 663
+      "source_line": 663,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 903
+      "source_line": 903,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 1345
+      "source_line": 1345,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 1512
+      "source_line": 1512,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 19,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 6
 }
