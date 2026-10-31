@@ -38,6 +38,18 @@
   ],
   "processing_sections": [
     {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Introduction",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_summary": "History/motivation only; no standing assumptions."
+    },
+    {
       "section": 2,
       "kind": "context_only",
       "source_line": 76,
@@ -47,21 +59,46 @@
           "tex": "If $U, T$ are schemes over $S$, then we denote\n$U(T)$ for the set of $T$-valued points {\\it over} $S$.\nIn a formula: $U(T) = \\Mor_S(T, U)$."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "General remarks",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_summary": "Chapter conventions chosen big fppf site, base S and representable sheaves; valid scoped context for subsequent sections."
     },
     {
       "section": 3,
       "kind": "candidates",
       "source_line": 112,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Representable morphisms of presheaves",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.7f0b23d421dbb7286913a782",
+        "candidate.stacks.197c0f9964c64c6f500908df",
+        "candidate.stacks.106c5a6c30fad04cf66187c1",
+        "candidate.stacks.16a896fb0fe1e4ef35dc10d4",
+        "candidate.stacks.af4b41c31a872326b9ee668f",
+        "candidate.stacks.a9803db2d881edd738ec393c"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_summary": "Representable transformations defined by all Yoneda test fibre products represented by schemes."
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 6,
+  "stage_a_ready_for_codex_candidate_count": 6,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_ready_for_codex_section_count": 1,
   "stage_a_remaining_work_section_count": 1,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_dispositioned_section_count": 3,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/spaces/batch_01_sections_01_03/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/spaces/batch_01_sections_01_03/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Regular Stage A Spaces §§1–3 source-first completed; chapter big fppf site and base conventions remain in running ledger. Six §3 representable transformation claims prepared; next §4."
 }
