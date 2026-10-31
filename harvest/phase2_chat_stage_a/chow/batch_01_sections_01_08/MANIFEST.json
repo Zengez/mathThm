@@ -41,68 +41,77 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.e6a744a8a17c5b77c32742ad",
-    "candidate.stacks.d5eac173cb4b0e53af384846",
-    "candidate.stacks.23bae3dfb672ebce1ee162b6",
-    "candidate.stacks.12ebe23fb02d32348f41b937",
-    "candidate.stacks.1882cea701c03bc0dadecc3e",
-    "candidate.stacks.d46885d4ff9644f47126347d",
-    "candidate.stacks.03e4dd89a3197796509cdd38",
-    "candidate.stacks.9aad66ab6b27cbf4dd698408",
-    "candidate.stacks.0b0f63c4559f9db2f6db66d5",
-    "candidate.stacks.0788414e8d1fcf64f1d361ab",
-    "candidate.stacks.e84fae8045f9404d52ca6a6e"
-  ],
+  "preliminary_source_holds": [],
   "processing_sections": [
     {
       "section": 1,
-      "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 18
     },
     {
       "section": 2,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 100
     },
     {
       "section": 3,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 300
     },
     {
       "section": 4,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 518
     },
     {
       "section": 5,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "further_work_needed",
+      "source_line": 759
     },
     {
       "section": 6,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "further_work_needed",
+      "source_line": 1093
     },
     {
       "section": 7,
-      "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 1356
     },
     {
       "section": 8,
-      "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 1524
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 18,
-  "stage_a_source_hold_candidate_count": 11,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 8,
+  "stage_a_ready_for_codex_candidate_count": 12,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 0,
   "stage_a_section_mapping_pending": true,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "source_section_starts": [
+    18,
+    100,
+    300,
+    518,
+    759,
+    1093,
+    1356,
+    1524
+  ],
+  "stage_a_further_work_candidate_count": 6,
+  "stage_a_further_work_section_count": 2,
+  "stage_a_dispositioned_section_count": 5
 }
