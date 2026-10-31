@@ -31,7 +31,7 @@
     "candidate.stacks.833aeeb9eafa7ac0883bc349"
   ],
   "output_file": "harvest/phase2_chat_stage_a/descent/batch_04_sections_16_20/RECONSTRUCTIONS.jsonl",
-  "reviewer": "chatgpt-stage-a",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -40,25 +40,25 @@
       "section": 16,
       "kind": "candidates",
       "source_line": 4754,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 17,
       "kind": "candidates",
       "source_line": 4885,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 18,
       "kind": "candidates",
       "source_line": 4944,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 19,
       "kind": "candidates",
       "source_line": 5066,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 20,
@@ -78,11 +78,18 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 11,
+  "stage_a_ready_for_codex_candidate_count": 11,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 4,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_section_count": 4,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_section_mapping_pending": false,
+  "preliminary_source_holds": [],
+  "source_locator_verified": true,
+  "processing_note": "Processed Descent §§16–20 in original order. All 11 active candidates are local-property statements with the topology and key property meaning made explicit. §20 contains germ definitions only; retained as subsequent context. Stage B not started."
 }
