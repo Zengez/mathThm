@@ -1,0 +1,161 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "cohomology-source-ordered-batch-07",
+  "chapter": "cohomology.tex",
+  "sections_ordinal": [
+    41,
+    45
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    10291,
+    10542,
+    10994,
+    11026,
+    11060
+  ],
+  "first_source_line": 10291,
+  "last_source_line": 11592,
+  "complete_sections": true,
+  "stage_a_candidate_count": 22,
+  "candidate_ids": [
+    "candidate.stacks.3765d656793f1b5c40679e9a",
+    "candidate.stacks.3b572aeaa4de8b5bf5d63ccd",
+    "candidate.stacks.9aecd49cd69836d044208210",
+    "candidate.stacks.4a2d13c2eaef06154ee438c0",
+    "candidate.stacks.b11fcaec3f68896a7dbc3acf",
+    "candidate.stacks.bcaba9cd3ac7dac4f578f917",
+    "candidate.stacks.942a4fcf76a85bbd52cecafe",
+    "candidate.stacks.5e147fa02dbddff53d15bcfb",
+    "candidate.stacks.8302e7fd6dbab2793acf0fa6",
+    "candidate.stacks.72aa7b2ecb373e3ffcdf4157",
+    "candidate.stacks.902a0ce7c3c90dccb76c15fc",
+    "candidate.stacks.201e6adcb139f6defd5b77b7",
+    "candidate.stacks.25c9bb7b75427d5ab06a3255",
+    "candidate.stacks.c638ca1c418d633fe982948f",
+    "candidate.stacks.7d2b35fd6ab2c5516bfbe917",
+    "candidate.stacks.56cdc660b25d6b8236574428",
+    "candidate.stacks.178c7c71a025772f5237c075",
+    "candidate.stacks.a659c30f9f852ea0e39eabb0",
+    "candidate.stacks.9f20d0306a645baf84fff37e",
+    "candidate.stacks.9f302e9aecfe1cb69aabb69c",
+    "candidate.stacks.e860b21169de6a26fce1926b",
+    "candidate.stacks.1ad5d6ad735cebc494c65649"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/cohomology/batch_07_sections_41_45/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/cohomology/batch_07_sections_41_45/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/cohomology/batch_07_sections_41_45/SECTION_CHECKPOINTS.jsonl",
+  "ledger_predecessor_checkpoint": "harvest/phase2_chat_stage_a/cohomology/batch_06_sections_36_40/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    43,
+    44
+  ],
+  "source_theorem_env_skipped_nonactive_labels": [
+    "lemma-internal-hom"
+  ],
+  "processing_sections": [
+    {
+      "section": 41,
+      "kind": "candidates",
+      "source_line": 10291,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3765d656793f1b5c40679e9a",
+        "candidate.stacks.3b572aeaa4de8b5bf5d63ccd",
+        "candidate.stacks.9aecd49cd69836d044208210",
+        "candidate.stacks.4a2d13c2eaef06154ee438c0",
+        "candidate.stacks.b11fcaec3f68896a7dbc3acf",
+        "candidate.stacks.bcaba9cd3ac7dac4f578f917",
+        "candidate.stacks.942a4fcf76a85bbd52cecafe",
+        "candidate.stacks.5e147fa02dbddff53d15bcfb"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Hom complexes",
+      "stage_a_source_context_summary": "Source §41 lines 10291–10541: 8 canonical records, all standalone-prepared."
+    },
+    {
+      "section": 42,
+      "kind": "candidates",
+      "source_line": 10542,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.8302e7fd6dbab2793acf0fa6",
+        "candidate.stacks.72aa7b2ecb373e3ffcdf4157",
+        "candidate.stacks.902a0ce7c3c90dccb76c15fc",
+        "candidate.stacks.201e6adcb139f6defd5b77b7",
+        "candidate.stacks.25c9bb7b75427d5ab06a3255",
+        "candidate.stacks.c638ca1c418d633fe982948f",
+        "candidate.stacks.7d2b35fd6ab2c5516bfbe917",
+        "candidate.stacks.56cdc660b25d6b8236574428"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Internal hom in the derived category",
+      "stage_a_source_context_summary": "Source §42 lines 10542–10993: 8 canonical records, all standalone-prepared."
+    },
+    {
+      "section": 43,
+      "kind": "context_only",
+      "source_line": 10994,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Ext sheaves",
+      "stage_a_source_context_summary": "Source §43 lines 10994–11025: 0 canonical records, all standalone-prepared."
+    },
+    {
+      "section": 44,
+      "kind": "context_only",
+      "source_line": 11026,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Global derived hom",
+      "stage_a_source_context_summary": "Source §44 lines 11026–11059: 0 canonical records, all standalone-prepared."
+    },
+    {
+      "section": 45,
+      "kind": "candidates",
+      "source_line": 11060,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.178c7c71a025772f5237c075",
+        "candidate.stacks.a659c30f9f852ea0e39eabb0",
+        "candidate.stacks.9f20d0306a645baf84fff37e",
+        "candidate.stacks.9f302e9aecfe1cb69aabb69c",
+        "candidate.stacks.e860b21169de6a26fce1926b",
+        "candidate.stacks.1ad5d6ad735cebc494c65649"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Glueing complexes",
+      "stage_a_source_context_summary": "Source §45 lines 11060–11592: 6 canonical records, all standalone-prepared."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 22,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "processing_note": "Cohomology §§41–45 fully source-scoped, §45 Situation materialized. Next §46 L11593."
+}
