@@ -33,10 +33,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.9006bc49f1a3e56c8de0b7db",
-    "candidate.stacks.f4024fb3a94dc4cd9bb6c85d"
-  ],
+  "preliminary_source_holds": [],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     23,
@@ -45,30 +42,53 @@
   ],
   "processing_sections": [
     {
+      "section": 23,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 3772
+    },
+    {
       "section": 24,
       "kind": "candidates",
       "source_line": 3889,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 25,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 3981
     },
     {
       "section": 26,
       "kind": "candidates",
       "source_line": 4173,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 27,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 4342
     },
     {
       "section": 28,
       "kind": "candidates",
       "source_line": 4536,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 6,
+  "stage_a_ready_for_codex_candidate_count": 6,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 3,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_dispositioned_section_count": 3,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Remaining Cotangent §§16–28 processed in original source order using accumulated sheaf, ringed space/topos, scheme, small étale algebraic space definitions."
 }
