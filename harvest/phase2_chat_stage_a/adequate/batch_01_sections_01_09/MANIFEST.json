@@ -77,9 +77,6 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.d09690e1a8be8710b389311c",
-    "candidate.stacks.c6912a56c56b36ba60d4e40e",
-    "candidate.stacks.e2c4cb1c8da1b196329d83ef",
     "candidate.stacks.16114e7b8176d383699db350",
     "candidate.stacks.e78e726926f461d2246ad1dd",
     "candidate.stacks.67540b4ff418313374a3cbef",
@@ -113,7 +110,7 @@
       "section": 3,
       "kind": "candidates",
       "source_line": 103,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 4,
@@ -153,11 +150,11 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 10,
-  "stage_a_remaining_work_candidate_count": 37,
-  "stage_a_source_hold_candidate_count": 18,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 7,
+  "stage_a_ready_for_codex_candidate_count": 25,
+  "stage_a_remaining_work_candidate_count": 22,
+  "stage_a_source_hold_candidate_count": 15,
+  "stage_a_ready_for_codex_section_count": 1,
+  "stage_a_remaining_work_section_count": 6,
   "stage_a_work_pending": true,
   "stage_a_readiness_rule": "conservative_standalone_screen_v1"
 }
