@@ -4,6 +4,18 @@
 
 For authoritative Stage A rules, including the mandatory running ledger, see [STAGE_A_PREPARATION.md](STAGE_A_PREPARATION.md). Existing section-walk scope rules, current Stage A manifests, active candidate pool, and Stage B approvals remain in force.
 
+## Mandatory eligibility gate — lesson from the second calibration
+
+**Before choosing ANY A0 source window or generating candidate overlays, check the entire authoritative Phase 2 review history.** The second A0 `varieties.tex` pilot mistakenly selected 10 sections that had already been independently reviewed and approved/held on October 29, because the selection checked Chat Stage A manifests and a 68-record approved overlay snapshot instead of the **full** authoritative registry. See [the second calibration audit](harvest/phase2_chat_stage_a0/varieties/SECOND_CALIBRATION_AUDIT_2026-10-31.md).
+
+- Read `harvest/PHASE2_AUTHORITATIVE_REGISTRY.json`. It specifies **both** `harvest/phase2_authoritative_2026-10-29/APPROVED_OVERLAYS.jsonl` and `harvest/phase2_calibration_2026-10-29/AUTHORITATIVE.jsonl`; a small first-overlay snapshot is **not** the approval universe.
+- Check independent section/chapter reviews such as `harvest/phase2_chapters_2026-10-29/varieties_a/INDEPENDENT_VALIDATION.jsonl` and `varieties_b`, alongside later Stage B and Stage A manifests. A chapter can be fully approved or already held **without** appearing under `harvest/phase2_chat_stage_a/<chapter>/`.
+- Resolve **three distinct counts**: (i) all theorem-like Stacks source environments, (ii) canonical active candidate IDs from the active registry/verified source coverage, and (iii) canonical IDs **not yet independently approved, held after complete review, or undergoing A1/Stage B processing**. Select A0 windows and report new-work metrics using **(iii)**. Include context-only physical sections for ledger continuity, but do not emit A0 candidate overlays for excluded IDs.
+- If approved/held membership or active canonical membership cannot be verified, do **not** claim a valid calibration on unprocessed candidates. Choose another verified window or explicitly label the artifacts as a **non-eligible demonstration**. If zero candidates survive the gate, **stop and reselect**.
+- Past holds are not an invitation to reset their adjudication. If a previously held candidate is used as a demonstration, import its hold reason as read-only evidence and keep it excluded from novel A0 workload metrics.
+
+Do not infer eligibility merely from the absence of a Chat Stage A manifest or from a distance of hundreds of sections from the concurrent A1 frontier.
+
 ## Operational correction after the Medium calibration (October 31, 2026)
 
 **A0 is a _work-removal_ pass, not a candidate-resolution pass.** Its success metric is how many routine subtasks it has completed for **each** candidate and how directly A1 can use the outputs. Do not optimize A0 for a count of standalone theorems, and do not mistake "no rewrite made" for "nothing useful to do." The October 31 Medium run identified 231 source candidates but missed at least 33 explicit inheritance references and failed to index nine named Situation environments. The corrective audited reference is [the A0 v2 review](harvest/phase2_chat_stage_a0/REVIEW_AND_V2_SPEC_2026-10-31.md), and the retrofitted source packets are in the four `flat` calibration batch directories as `A0_WORKPACKETS_V2.jsonl`. The inherited setup event supplement is `harvest/phase2_chat_stage_a0/flat/CONTEXT_EVENTS_V2.jsonl`.
