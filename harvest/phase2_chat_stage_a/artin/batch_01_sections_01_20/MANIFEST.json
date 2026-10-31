@@ -73,7 +73,7 @@
   "output_file": "harvest/phase2_chat_stage_a/artin/batch_01_sections_01_20/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": false,
+  "stage_a_mathematical_analysis_pending": true,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -112,7 +112,8 @@
           "source_line": 152,
           "tex": "In the final section of this chapter as an application of Artin's axioms\nwe prove Artin's theorem on the existence of contractions, see\nSection \\ref{section-contractions}. The theorem says roughly that given an\nalgebraic space $X'$ separated of finite type over $S$,\na closed subset $T' \\subset |X'|$, and a formal modification\n$$\n\\mathfrak{f} : X'_{/T'} \\longrightarrow \\mathfrak{X}\n$$\nwhere $\\mathfrak{X}$ is a Noetherian formal algebraic space over $S$,\nthere exists a proper morphism $f : X' \\to X$ which\n``realizes the contraction''. By this we mean that there exists an\nidentification $\\mathfrak{X} = X_{/T}$ such that\n$\\mathfrak{f} = f_{/T'} : X'_{/T'} \\to X_{/T}$ where $T = f(T')$\nand moreover $f$ is an isomorphism over $X \\setminus T$. The proof proceeds\nby defining a functor $F$ on the category of locally Noetherian schemes\nover $S$ and proving Artin's axioms for $F$. Amusingly, in this\napplication of Artin's axioms, openness of versality is not the hardest\nthing to prove, instead the proof that $F$ is limit preserving requires\na lot of work and preliminary results."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
@@ -123,62 +124,74 @@
           "source_line": 179,
           "tex": "\\noindent\nThe conventions we use in this chapter are the same as those in the\nchapter on algebraic stacks, see\nAlgebraic Stacks, Section \\ref{algebraic-section-conventions}.\nIn this chapter the base scheme $S$ will often be locally Noetherian\n(although we will always reiterate this condition when stating\nresults)."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 191
+      "source_line": 191,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 384
+      "source_line": 384,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 482
+      "source_line": 482,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 599
+      "source_line": 599,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 673
+      "source_line": 673,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 764
+      "source_line": 764,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 977
+      "source_line": 977,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 1245
+      "source_line": 1245,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 1438
+      "source_line": 1438,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 1573
+      "source_line": 1573,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 1990
+      "source_line": 1990,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
@@ -189,33 +202,44 @@
           "source_line": 2377,
           "tex": "Let $U$ be a scheme locally of finite type over $S$ and let $x \\in F(U)$.\nLet $u_0 \\in U$ be a finite type point. We say that $x$ is versal at $u_0$\nif and only if\n$\\xi = (\\mathcal{O}_{U, u_0}^\\wedge,\nx|_{\\Spec(\\mathcal{O}_{U, u_0}/\\mathfrak m_{u_0}^n)})$\nis a versal formal object in the sense described above."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 2417
+      "source_line": 2417,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 2504
+      "source_line": 2504,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 2640
+      "source_line": 2640,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 19,
       "kind": "candidates",
-      "source_line": 2725
+      "source_line": 2725,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 2943
+      "source_line": 2943,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 12,
+  "stage_a_remaining_work_candidate_count": 23,
+  "stage_a_source_hold_candidate_count": 8,
+  "stage_a_ready_for_codex_section_count": 5,
+  "stage_a_remaining_work_section_count": 11
 }

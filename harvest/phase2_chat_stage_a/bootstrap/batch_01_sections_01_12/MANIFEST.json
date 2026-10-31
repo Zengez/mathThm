@@ -61,7 +61,7 @@
   "output_file": "harvest/phase2_chat_stage_a/bootstrap/batch_01_sections_01_12/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": false,
+  "stage_a_mathematical_analysis_pending": true,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -95,7 +95,8 @@
           "source_line": 22,
           "tex": "\\noindent\nIn this chapter we use the material from the preceding sections to\ngive criteria under which a presheaf of sets on the category of schemes\nis an algebraic space. Some of this material comes from the work\nof Artin, see \\cite{ArtinI}, \\cite{ArtinII},\n\\cite{Artin-Theorem-Representability},\n\\cite{Artin-Construction-Techniques},\n\\cite{Artin-Algebraic-Spaces},\n\\cite{Artin-Algebraic-Approximation},\n\\cite{Artin-Implicit-Function},\nand \\cite{ArtinVersal}.\nHowever, our method will be to use as much as possible arguments\nsimilar to those of the paper by Keel and Mori, see\n\\cite{K-M}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
@@ -106,48 +107,62 @@
           "source_line": 46,
           "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 55
+      "source_line": 55,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 372
+      "source_line": 372,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 620
+      "source_line": 620,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 864
+      "source_line": 864,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 980
+      "source_line": 980,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 1111
+      "source_line": 1111,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 1241
+      "source_line": 1241,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 1658
+      "source_line": 1658,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 31,
+  "stage_a_source_hold_candidate_count": 11,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 8
 }

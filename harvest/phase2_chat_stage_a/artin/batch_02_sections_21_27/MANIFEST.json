@@ -47,7 +47,7 @@
   "output_file": "harvest/phase2_chat_stage_a/artin/batch_02_sections_21_27/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": false,
+  "stage_a_mathematical_analysis_pending": true,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -68,27 +68,32 @@
     {
       "section": 21,
       "kind": "candidates",
-      "source_line": 3214
+      "source_line": 3214,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 22,
       "kind": "candidates",
-      "source_line": 3657
+      "source_line": 3657,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 23,
       "kind": "candidates",
-      "source_line": 3897
+      "source_line": 3897,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 24,
       "kind": "candidates",
-      "source_line": 4319
+      "source_line": 4319,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 25,
       "kind": "candidates",
-      "source_line": 4540
+      "source_line": 4540,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 26,
@@ -99,13 +104,20 @@
           "source_line": 4786,
           "tex": "\\noindent\nLet $S$ be a locally Noetherian scheme. Let\n$(\\textit{Noetherian}/S)_\\etale \\subset (\\Sch/S)_\\etale$\ndenote the site studied in Section \\ref{section-noetherian}.\nLet $F : (\\textit{Noetherian}/S)_\\etale^{opp} \\to \\textit{Sets}$\nbe a functor, i.e., $F$ is a presheaf on $(\\textit{Noetherian}/S)_\\etale$.\nIn this setting all the axioms [-1],  [0], [1], [2], [3], [4], [5] of\nSection \\ref{section-axioms-functors} make sense. We will review them\none by one and make sure the reader knows exactly what we mean."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 27,
       "kind": "candidates",
-      "source_line": 4909
+      "source_line": 4909,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 1,
+  "stage_a_remaining_work_candidate_count": 21,
+  "stage_a_source_hold_candidate_count": 7,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 6
 }
