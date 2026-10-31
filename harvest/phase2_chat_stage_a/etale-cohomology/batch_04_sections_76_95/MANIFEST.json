@@ -83,7 +83,8 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.eea1c52e4b63df35e13c72ad"
+    "candidate.stacks.eea1c52e4b63df35e13c72ad",
+    "candidate.stacks.40c585a4a0d6f0355aa20bec"
   ],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
