@@ -14,15 +14,13 @@
   "first_source_line": 8726,
   "last_source_line": 9524,
   "complete_sections": true,
-  "stage_a_candidate_count": 8,
+  "stage_a_candidate_count": 6,
   "candidate_ids": [
     "candidate.stacks.3d069202261f21a16717ed12",
-    "candidate.stacks.d5231bcef112e146927c9b49",
     "candidate.stacks.9f18803992e471f401bbed92",
     "candidate.stacks.b8871253e42b560823905e6e",
     "candidate.stacks.e48f719a5c3ae0c489ec1953",
     "candidate.stacks.d6c59102145f2c81516a8d13",
-    "candidate.stacks.1f06bd1e300123cfb05e03a8",
     "candidate.stacks.7e2ebf59237911a8d41f9178"
   ],
   "output_file": "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_27_28/RECONSTRUCTIONS.jsonl",
@@ -31,30 +29,42 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.3d069202261f21a16717ed12",
-    "candidate.stacks.1f06bd1e300123cfb05e03a8"
-  ],
+  "preliminary_source_holds": [],
   "processing_sections": [
     {
       "section": 27,
       "kind": "candidates",
       "source_line": 8726,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 28,
       "kind": "candidates",
       "source_line": 8996,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 4,
-  "stage_a_remaining_work_candidate_count": 4,
-  "stage_a_source_hold_candidate_count": 2,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 2,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_candidate_count": 6,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_excluded_candidates": [
+    {
+      "candidate_id": "candidate.stacks.d5231bcef112e146927c9b49",
+      "source_label": "lemma-surjective-Pic-first-better",
+      "source_line": 8804,
+      "reason": "Substantial inherited theorem or Situation scope"
+    },
+    {
+      "candidate_id": "candidate.stacks.1f06bd1e300123cfb05e03a8",
+      "source_label": "lemma-Gm-equivariant-extend-canonically",
+      "source_line": 9220,
+      "reason": "Substantial inherited theorem or Situation scope"
+    }
+  ],
+  "stage_a_excluded_candidate_count": 2
 }
