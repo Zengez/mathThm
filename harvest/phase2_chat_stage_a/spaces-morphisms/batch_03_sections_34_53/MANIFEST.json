@@ -258,61 +258,186 @@
       "section": 39,
       "kind": "candidates",
       "source_line": 7671,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.01f94ff562371da635abb3dd",
+        "candidate.stacks.5bbd77e2a4498435beb98705",
+        "candidate.stacks.bbadc781fdb8c6c75f911406",
+        "candidate.stacks.ff852486326a8a8f5757202b",
+        "candidate.stacks.86859e1e67debbba0c01c6ae",
+        "candidate.stacks.ddc2ed5e7347d2096e5a3674",
+        "candidate.stacks.c4eeed36c38bcc758af1ff88",
+        "candidate.stacks.302300e96483697b68eb572c",
+        "candidate.stacks.6483c8239f7a92381ba52b76",
+        "candidate.stacks.3db54941708a054015447e94"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "\\'Etale morphisms",
+      "stage_a_source_context_summary": "Pinned §39 \\'Etale morphisms: 10 ready, 0 held; source-only definitions and noninheritance guards reviewed."
     },
     {
       "section": 40,
       "kind": "candidates",
       "source_line": 7876,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f78f4fd33037f8d2bcc04e12",
+        "candidate.stacks.9c5e8a899df6a732ae2b0bce",
+        "candidate.stacks.3a8ba7122f9332887028fa56",
+        "candidate.stacks.ac9c215ae3a126aa6b94c28d",
+        "candidate.stacks.99e09f8e7b34ecd9f0be0968",
+        "candidate.stacks.640630d9b3959df3b80b98ac",
+        "candidate.stacks.5f8f3a1762e1da9a96eb6996",
+        "candidate.stacks.d92650e032851cfadd0e76a8"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Proper morphisms",
+      "stage_a_source_context_summary": "Pinned §40 Proper morphisms: 8 ready, 0 held; source-only definitions and noninheritance guards reviewed."
     },
     {
       "section": 41,
       "kind": "candidates",
       "source_line": 8081,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d3755582c132459f24eead1a",
+        "candidate.stacks.c5d35e38042ca1ef82fa1c90",
+        "candidate.stacks.e040a1ef47bbeced38081bb9",
+        "candidate.stacks.27e8a47e714ea5591b081864",
+        "candidate.stacks.0c7842d3d43201aa1a90d343"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.e040a1ef47bbeced38081bb9"
+      ],
+      "stage_a_source_context_heading": "Valuative criteria",
+      "stage_a_source_context_summary": "Pinned §41 Valuative criteria: 4 ready, 1 held; source-only definitions and noninheritance guards reviewed."
     },
     {
       "section": 42,
       "kind": "candidates",
       "source_line": 8559,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f401313385431f5b3485d7bb",
+        "candidate.stacks.357b0627879f2f899867be66",
+        "candidate.stacks.1edcd487d49065396548e528",
+        "candidate.stacks.bc59d6ebb94cd76f2e036e96",
+        "candidate.stacks.ccc355f62075a825d91cf177"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.ccc355f62075a825d91cf177"
+      ],
+      "stage_a_source_context_heading": "Valuative criterion for universal closedness",
+      "stage_a_source_context_summary": "Pinned §42 Valuative criterion for universal closedness: 4 ready, 1 held; source-only definitions and noninheritance guards reviewed."
     },
     {
       "section": 43,
       "kind": "candidates",
       "source_line": 8961,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e3b1d957219a30594d662afb",
+        "candidate.stacks.3c645da55adca3f6fb23deda",
+        "candidate.stacks.3256d9aff26d327813645083"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Valuative criterion of separatedness",
+      "stage_a_source_context_summary": "Pinned §43 Valuative criterion of separatedness: 3 ready, 0 held; source-only definitions and noninheritance guards reviewed."
     },
     {
       "section": 44,
       "kind": "candidates",
       "source_line": 9069,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.68cdf6ee60e8ab1c5c65126b"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Valuative criterion of properness",
+      "stage_a_source_context_summary": "Pinned §44 Valuative criterion of properness: 1 ready, 0 held; source-only definitions and noninheritance guards reviewed."
     },
     {
       "section": 45,
       "kind": "candidates",
       "source_line": 9108,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.981ca09a73682a3dccc39320",
+        "candidate.stacks.d68de2999bb994c74732b16b",
+        "candidate.stacks.deb0173cb60d038faa1d2a35",
+        "candidate.stacks.6758f2054e7423f92239d0e1",
+        "candidate.stacks.a69f85a327a8c1595c67329d",
+        "candidate.stacks.0cb8fa2f38184f3089b7c760",
+        "candidate.stacks.a05a29b21754459ff9d6ebf8",
+        "candidate.stacks.a61e8b5bc93336a348e1dfd7",
+        "candidate.stacks.7b1535114f71030c0a27bbf0",
+        "candidate.stacks.5b7f04ffe0885ba0ead2359e",
+        "candidate.stacks.cf5878fdee33446a8324885e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Integral and finite morphisms",
+      "stage_a_source_context_summary": "Pinned §45 Integral and finite morphisms: 11 ready, 0 held; source-only definitions and noninheritance guards reviewed."
     },
     {
       "section": 46,
       "kind": "candidates",
       "source_line": 9338,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.4594abe0a6530ec0387fd384",
+        "candidate.stacks.7ac49895345d0a57f3f4e85a",
+        "candidate.stacks.bf1dc637da4414cd350da6bd",
+        "candidate.stacks.e9b186bf8c33516e955b7eb3"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Finite locally free morphisms",
+      "stage_a_source_context_summary": "Pinned §46 Finite locally free morphisms: 4 ready, 0 held; source-only definitions and noninheritance guards reviewed."
     },
     {
       "section": 47,
       "kind": "candidates",
       "source_line": 9496,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.8e11d5406ec8d718581d80b1",
+        "candidate.stacks.6dd93e763a4527c444b77a25"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Rational maps",
+      "stage_a_source_context_summary": "Pinned §47 Rational maps: 2 ready, 0 held; source-only definitions and noninheritance guards reviewed."
     },
     {
       "section": 48,
       "kind": "candidates",
       "source_line": 9710,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.7148d7d4407be954047640fb",
+        "candidate.stacks.c008973b5de3cd62edf56db1"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Relative normalization of algebraic spaces",
+      "stage_a_source_context_summary": "Pinned §48 Relative normalization of algebraic spaces: 2 ready, 0 held; source-only definitions and noninheritance guards reviewed."
     },
     {
       "section": 49,
@@ -324,7 +449,49 @@
           "tex": "\\begin{definition}\n\\label{definition-normalization}\nLet $S$ be a scheme. Let $X$ be an algebraic space over $S$ satisfying the\nequivalent conditions of Lemma \\ref{lemma-prepare-normalization}.\nWe define the {\\it normalization} of $X$ as the morphism\n$$\n\\nu_X : X^\\nu \\longrightarrow X\n$$\nconstructed in Lemma \\ref{lemma-normalization}.\n\\end{definition}"
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Normalization",
+      "stage_a_source_context_summary": "Pinned §49 Normalization: 0 ready, 0 held; source-only definitions and noninheritance guards reviewed."
+    },
+    {
+      "section": 50,
+      "kind": "context_only",
+      "source_line": 10457,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Separated, locally quasi-finite morphisms",
+      "stage_a_source_context_summary": "Pinned §50 Separated, locally quasi-finite morphisms: 0 ready, 0 held; source-only definitions and noninheritance guards reviewed."
+    },
+    {
+      "section": 51,
+      "kind": "context_only",
+      "source_line": 10699,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Applications",
+      "stage_a_source_context_summary": "Pinned §51 Applications: 0 ready, 0 held; source-only definitions and noninheritance guards reviewed."
+    },
+    {
+      "section": 52,
+      "kind": "context_only",
+      "source_line": 10762,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Zariski's Main Theorem (representable case)",
+      "stage_a_source_context_summary": "Pinned §52 Zariski's Main Theorem (representable case): 0 ready, 0 held; source-only definitions and noninheritance guards reviewed."
     },
     {
       "section": 53,
@@ -336,19 +503,25 @@
           "tex": "\\begin{definition}\n\\label{definition-universal-homeomorphism}\nLet $S$ be a scheme.\nA morphism $f : X \\to Y$ of algebraic spaces over $S$\nis called a {\\it universal homeomorphism}\nif and only if for every morphism of algebraic spaces $Z \\to Y$\nthe base change $Z \\times_Y X \\to Z$ induces a homeomorphism\n$|Z \\times_Y X| \\to |Z|$.\n\\end{definition}"
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Universal homeomorphisms",
+      "stage_a_source_context_summary": "Pinned §53 Universal homeomorphisms: 0 ready, 0 held; source-only definitions and noninheritance guards reviewed."
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 35,
-  "stage_a_remaining_work_candidate_count": 51,
+  "stage_a_ready_for_codex_candidate_count": 84,
+  "stage_a_remaining_work_candidate_count": 2,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 5,
-  "stage_a_remaining_work_section_count": 15,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_section_count": 13,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "conservative_standalone_screen_v1",
-  "stage_a_dispositioned_section_count": 5,
-  "stage_a_further_work_candidate_count": 0,
-  "stage_a_further_work_section_count": 0,
-  "processing_note": "Stage A prepared consecutive §§34–38 in spaces-morphisms.tex in run batch5, maintaining running ledger and section checkpoints. Next §39."
+  "stage_a_dispositioned_section_count": 20,
+  "stage_a_further_work_candidate_count": 2,
+  "stage_a_further_work_section_count": 2,
+  "processing_note": "Source-first Stage A Morphisms §§34–53 complete. All 20 sections checkpointed, including context-only §§49–53. §41 valuative existence permits valuation field extensions; §53 chapter boundary resets. Resume decent-spaces.tex §1 L17."
 }
