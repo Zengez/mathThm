@@ -1,0 +1,75 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-cohomology-source-ordered-20261031-09",
+  "chapter": "sites-cohomology.tex",
+  "sections_ordinal": [
+    30,
+    30
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    6807
+  ],
+  "first_source_line": 6807,
+  "last_source_line": 7462,
+  "complete_sections": true,
+  "stage_a_candidate_count": 8,
+  "candidate_ids": [
+    "candidate.stacks.f241bf6992a6b2789ea33384",
+    "candidate.stacks.316b5d43386f8f0f19dae866",
+    "candidate.stacks.64879c0e972a94f7b503e704",
+    "candidate.stacks.de2433c90faafb0c45f9d29b",
+    "candidate.stacks.d3ec1e40251f8f291c23b6a5",
+    "candidate.stacks.e0d28abfa62a48cc732013b0",
+    "candidate.stacks.0b1e1cd6e0b85b6258d1e488",
+    "candidate.stacks.4c64b88bb8de4947799fe603"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_09_sections_30_30/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 30,
+      "source_line": 6807,
+      "section_end_line": 7462,
+      "source_heading": "Comparing cohomology",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.f241bf6992a6b2789ea33384",
+        "candidate.stacks.316b5d43386f8f0f19dae866",
+        "candidate.stacks.64879c0e972a94f7b503e704",
+        "candidate.stacks.de2433c90faafb0c45f9d29b",
+        "candidate.stacks.d3ec1e40251f8f291c23b6a5",
+        "candidate.stacks.e0d28abfa62a48cc732013b0",
+        "candidate.stacks.0b1e1cd6e0b85b6258d1e488",
+        "candidate.stacks.4c64b88bb8de4947799fe603"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_09_sections_30_30/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "context_ledgers_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 8,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 1,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 1,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_09_sections_30_30/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_09_sections_30_30/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Source-ordered §30: all 8 candidates with five-item Situation compare explicitly materialized, V_n only when used; high-risk topology direction/cohomology degrees audited. No Stage B or proofs."
+}
