@@ -13,7 +13,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 4,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 4,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
   },
   {
     "ordinal": 14,
@@ -26,7 +31,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 1,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 1,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
   },
   {
     "ordinal": 15,
@@ -39,7 +49,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 1,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 1,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
   },
   {
     "ordinal": 16,
@@ -52,7 +67,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 1,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 1,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
   },
   {
     "ordinal": 17,
@@ -67,7 +87,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 3,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 0,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 3,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
   },
   {
     "ordinal": 18,
@@ -84,7 +109,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 5,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 3,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": false
   },
   {
     "ordinal": 19,
@@ -98,7 +128,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 2,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
   },
   {
     "ordinal": 20,
@@ -112,7 +147,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 2,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": true,
+    "mixed_section": false
   },
   {
     "ordinal": 21,
@@ -127,7 +167,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 3,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 0,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 3,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
   },
   {
     "ordinal": 22,
@@ -140,7 +185,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 1,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 0,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 1,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
   },
   {
     "ordinal": 23,
@@ -154,7 +204,12 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 2,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
   },
   {
     "ordinal": 24,
@@ -172,6 +227,11 @@
     ],
     "correction_pass_complete": true,
     "selected_candidate_count": 6,
-    "independent_validation": "pending"
+    "independent_validation": "completed",
+    "approved_candidate_count": 0,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 6,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
   }
 ]
