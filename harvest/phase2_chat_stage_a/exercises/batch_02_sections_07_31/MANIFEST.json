@@ -42,7 +42,7 @@
   "output_file": "harvest/phase2_chat_stage_a/exercises/batch_02_sections_07_31/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": true,
+  "stage_a_mathematical_analysis_pending": false,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -86,7 +86,8 @@
           "source_line": 793,
           "tex": "\\begin{definition}\n\\label{definition-length}\nLet $A$ be a ring. Let $M$ be an $A$-module. The\n{\\it length} of $M$ as an $R$-module is\n$$\n\\text{length}_A(M)\n=\n\\sup\n\\{\nn\n\\mid\n\\exists\\ 0 = M_0 \\subset M_1 \\subset \\ldots \\subset M_n = M,\n\\text{ }M_i \\not = M_{i + 1}\n\\}.\n$$\nIn other words, the supremum of the lengths of chains of submodules.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 18,
@@ -97,7 +98,8 @@
           "source_line": 1354,
           "tex": "\\begin{definition}\n\\label{definition-catenary}\nA Noetherian ring $A$ is said to be {\\it catenary}\nif for any triple of prime ideals\n${\\mathfrak p}_1 \\subset {\\mathfrak p}_2 \\subset {\\mathfrak p}_3$\nwe have\n$$\nht({\\mathfrak p}_3 / {\\mathfrak p}_1) = ht({\\mathfrak p}_3/{\\mathfrak p}_2) +\nht({\\mathfrak p}_2/{\\mathfrak p}_1).\n$$\nHere $ht(\\mathfrak p/\\mathfrak q)$ means the height of\n$\\mathfrak p/\\mathfrak q$ in the ring $A/\\mathfrak q$.\nIn a formula\n$$\nht(\\mathfrak p/\\mathfrak q) =\n\\dim(A_\\mathfrak p/\\mathfrak qA_\\mathfrak p) =\n\\dim((A/\\mathfrak q)_\\mathfrak p) =\n\\dim((A/\\mathfrak q)_{\\mathfrak p/\\mathfrak q})\n$$\nA topological space $X$ is {\\it catenary}, if given $T \\subset T' \\subset X$\nwith $T$ and $T'$ closed and irreducible, then there exists a maximal chain\nof irreducible closed subsets\n$$\nT = T_0 \\subset T_1 \\subset \\ldots \\subset T_n = T'\n$$\nand every such chain has the same (finite) length.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 22,
@@ -112,7 +114,8 @@
           "source_line": 1553,
           "tex": "\\begin{definition}\n\\label{definition-class-group}\nLet $A$ be a ring. The {\\it class group of $A$}, sometimes called\nthe {\\it Picard group of $A$} is the set $\\Pic(A)$\nof isomorphism classes of invertible $A$-modules endowed with\na group operation defined by tensor product (see\nExercise \\ref{exercise-tensor-finite-locally-free}).\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 24,
@@ -123,7 +126,8 @@
           "source_line": 1678,
           "tex": "\\begin{definition}\n\\label{definition-GU-GD}\nLet $\\phi : A \\to B$ be a homomorphism of rings. We say\nthat the {\\it going-up theorem} holds for $\\phi$ if the\nfollowing condition is satisfied:\n\\begin{itemize}\n\\item[(GU)] for any ${\\mathfrak p}, {\\mathfrak p}' \\in \\Spec(A)$ such that\n${\\mathfrak p} \\subset {\\mathfrak p}'$, and for any $P \\in \\Spec(B)$ lying\nover ${\\mathfrak p}$, there exists $P'\\in \\Spec(B)$ lying\nover ${\\mathfrak p}'$ such that $P \\subset P'$.\n\\end{itemize}\nSimilarly, we say that the {\\it going-down theorem} holds for $\\phi$\nif the following condition is satisfied:\n\\begin{itemize}\n\\item[(GD)] for any ${\\mathfrak p}, {\\mathfrak p}' \\in \\Spec(A)$ such that\n${\\mathfrak p} \\subset {\\mathfrak p}'$, and for any\n$P' \\in \\Spec(B)$ lying\nover ${\\mathfrak p}'$, there exists $P\\in \\Spec(B)$ lying\nover ${\\mathfrak p}$ such that $P \\subset P'$.\n\\end{itemize}\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 26,
@@ -142,7 +146,8 @@
           "source_line": 1831,
           "tex": "\\begin{definition}\n\\label{definition-graded-algebra}\nA {\\it graded $A$-algebra} is a graded $A$-module\n$B = \\bigoplus_{n \\geq 0} B_n$ together with an $A$-bilinear map\n$$\nB \\times B \\longrightarrow B, \\ (b, b') \\longmapsto bb'\n$$\nthat turns $B$ into an $A$-algebra so that $B_n \\cdot B_m \\subset B_{n + m}$.\nFinally, a {\\it graded module $M$ over a graded $A$-algebra $B$} is given\nby a graded $A$-module $M$ together with a (compatible) $B$-module structure\nsuch that $B_n \\cdot M_d \\subset M_{n + d}$. Now you can define\n{\\it homomorphisms of graded modules/rings}, {\\it graded submodules},\n{\\it graded ideals}, {\\it exact sequences of graded modules}, etc, etc.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 27,
@@ -161,7 +166,8 @@
           "source_line": 1922,
           "tex": "\\begin{definition}\n\\label{definition-Dplus-Vplus}\nLet $R = \\oplus_{d \\geq 0} R_d$ be a graded ring, let $f\\in R_d$ and\nassume that $d \\geq 1$. We define {\\it $R_{(f)}$} to be the subring of\n$R_f$ consisting of elements of the form $r/f^n$ with $r$ homogeneous and\n$\\deg(r) = nd$. Furthermore, we define\n$$\nD_{+}(f) = \\{ {\\mathfrak p} \\in \\text{Proj}(R) | f \\not\\in {\\mathfrak p} \\}.\n$$\nFinally, for a homogeneous ideal $I \\subset R$ we define\n$V_{+}(I) = V(I) \\cap \\text{Proj}(R)$.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 28,
@@ -172,7 +178,8 @@
           "source_line": 2056,
           "tex": "\\begin{definition}\n\\label{definition-CM}\nA Noetherian local ring $A$ is said to be {\\it Cohen-Macaulay}\nof dimension $d$ if it has dimension $d$ and there exists a system\nof parameters $x_1, \\ldots, x_d$ for $A$ such that $x_i$ is a nonzerodivisor\nin $A/(x_1, \\ldots, x_{i-1})$ for $i = 1, \\ldots, d$.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 30,
@@ -199,8 +206,14 @@
           "source_line": 2456,
           "tex": "\\begin{definition}\n\\label{definition-filtered-acyclic}\nLet $\\mathcal{A}$ be an abelian category.\nLet $K^\\bullet$ be a complex of $\\text{Fil}^f(\\mathcal{A})$.\nWe say that $K^\\bullet$ is {\\it filtered acyclic} if\nfor each $p \\in \\mathbf{Z}$ the complex $\\text{gr}^p(K^\\bullet)$ is\nacyclic.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 0
 }

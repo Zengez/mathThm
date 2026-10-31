@@ -23,7 +23,7 @@
   "output_file": "harvest/phase2_chat_stage_a/exercises/batch_01_sections_01_06/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": true,
+  "stage_a_mathematical_analysis_pending": false,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -56,7 +56,8 @@
           "source_line": 243,
           "tex": "\\begin{definition}\n\\label{definition-finite-presentation}\nA module $M$ over $R$ is said to be of {\\it finite presentation} over\n$R$ if it  is isomorphic to the cokernel of a map of finite free modules\n$ R^{\\oplus n} \\to R^{\\oplus m}$.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 6,
@@ -95,8 +96,14 @@
           "source_line": 650,
           "tex": "\\begin{definition}\n\\label{definition-connected-component}\nA topological space $X$ is called {\\it connected} if it is nonempty and not the\nunion of two nonempty disjoint open subsets. A {\\it connected component}\nof $X$ is a maximal connected subset. Any point of $X$ is contained\nin a connected component of $X$ and any connected component of $X$ is\nclosed in $X$. (But in general a connected component need not be open in $X$.)\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 0
 }
