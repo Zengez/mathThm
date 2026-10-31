@@ -205,7 +205,7 @@
   },
   "source_scope_ledger_entries": 109,
   "section_checkpoints": 52,
-  "authoritative_eligibility_verified": false,
+  "authoritative_eligibility_verified": true,
   "stage_a1_standalone_decisions_made": 0,
   "stage_b_ready_count_certified": 0,
   "stage_b_validation_count": 0,
@@ -215,9 +215,9 @@
   "notes": [
     "This is source-first A0 evidence, not full Stage A/A1 review. No existing Stage A manifests, authoritative approvals, or global further-work registry are modified.",
     "Same-file referenced results are copied as source leads only. Their assumptions are NOT inherited automatically.",
-    "Later A1 must verify authoritative active IDs and all preexisting approvals/holds before emitting readiness decisions.",
     "Context-only sections are retained in source-order checkpoints.",
-    "Pinned cross-file definitions/lemmas from categories.tex and sets.tex retrieved as A0 source evidence only, not assumptions or mathematical approval; Sets notation still needs surrounding-source check."
+    "Pinned cross-file definitions/lemmas from categories.tex and sets.tex retrieved as A0 source evidence only, not assumptions or mathematical approval; Sets notation still needs surrounding-source check.",
+    "Full active pool of 9,675 candidates and 655 authoritative approved records was retrieved by blob-SHA and checked; 137/161 sites.tex records active and none previously approved."
   ],
   "files": {
     "workpackets": "A0_WORKPACKETS_V2.jsonl",
@@ -243,6 +243,132 @@
       "source_file": "sets.tex",
       "source_line": 952,
       "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/sets.tex#L952"
+    }
+  ],
+  "canonical_active_candidate_count": 137,
+  "excluded_nonactive_source_environments": 24,
+  "already_authoritative_approved_count": 0,
+  "eligible_new_stage_a1_candidate_count": 137,
+  "nonactive_source_labels": [
+    {
+      "source_line": 155,
+      "source_label": "lemma-mono-epi",
+      "candidate_id": "candidate.stacks.744bf61ca8b30bc841e2bf4f"
+    },
+    {
+      "source_line": 541,
+      "source_label": "lemma-recover",
+      "candidate_id": "candidate.stacks.2ce5f13f6166ba3c7e9ac23f"
+    },
+    {
+      "source_line": 1974,
+      "source_label": "theorem-plus",
+      "candidate_id": "candidate.stacks.b95f023b6223eecede3cb221"
+    },
+    {
+      "source_line": 2255,
+      "source_label": "lemma-mono-epi-sheaves",
+      "candidate_id": "candidate.stacks.f62ce568426270c0d1402d1f"
+    },
+    {
+      "source_line": 2578,
+      "source_label": "lemma-adjoint-sheaves",
+      "candidate_id": "candidate.stacks.73503efd14dba85932a91a31"
+    },
+    {
+      "source_line": 2593,
+      "source_label": "lemma-technical-up",
+      "candidate_id": "candidate.stacks.f73d4b2b2a173383ebc66556"
+    },
+    {
+      "source_line": 3422,
+      "source_label": "lemma-directed-colimits-sections",
+      "candidate_id": "candidate.stacks.48003da4bad0e95362ea2fcc"
+    },
+    {
+      "source_line": 3783,
+      "source_label": "lemma-colimit-sites",
+      "candidate_id": "candidate.stacks.c2f89cddac7bc7518617c118"
+    },
+    {
+      "source_line": 4118,
+      "source_label": "lemma-recover-pu",
+      "candidate_id": "candidate.stacks.4c41c3bb23f745d264c22a3a"
+    },
+    {
+      "source_line": 4386,
+      "source_label": "lemma-technical-pu",
+      "candidate_id": "candidate.stacks.59edb808d0b0ac065aa7ff54"
+    },
+    {
+      "source_line": 4626,
+      "source_label": "lemma-preserve-equalizers",
+      "candidate_id": "candidate.stacks.d564054106f535502ced2d9e"
+    },
+    {
+      "source_line": 4662,
+      "source_label": "lemma-back-and-forth",
+      "candidate_id": "candidate.stacks.733680968337af87714cb1ce"
+    },
+    {
+      "source_line": 4729,
+      "source_label": "lemma-bigger-site",
+      "candidate_id": "candidate.stacks.acbb2e3b7870540a5d535d07"
+    },
+    {
+      "source_line": 5498,
+      "source_label": "lemma-relocalize-explicit",
+      "candidate_id": "candidate.stacks.e84051e7744c6e19609e9ad7"
+    },
+    {
+      "source_line": 6387,
+      "source_label": "lemma-localize-morphism-strong",
+      "candidate_id": "candidate.stacks.d0c287e6a7471b025aad4550"
+    },
+    {
+      "source_line": 6442,
+      "source_label": "lemma-relocalize-morphism",
+      "candidate_id": "candidate.stacks.55c7f8a76e8f2fcd09dd8ca4"
+    },
+    {
+      "source_line": 6700,
+      "source_label": "lemma-special-square-continuous",
+      "candidate_id": "candidate.stacks.024d325e580493641d0aae79"
+    },
+    {
+      "source_line": 7324,
+      "source_label": "lemma-localize-topos",
+      "candidate_id": "candidate.stacks.ee99777c96a27b3429483ee8"
+    },
+    {
+      "source_line": 7376,
+      "source_label": "lemma-localize-pushforward",
+      "candidate_id": "candidate.stacks.70cce52238834bbbe458e842"
+    },
+    {
+      "source_line": 8041,
+      "source_label": "lemma-point-site-topos",
+      "candidate_id": "candidate.stacks.acd4c285f88b917e973424a6"
+    },
+    {
+      "source_line": 9285,
+      "source_label": "lemma-refine",
+      "candidate_id": "candidate.stacks.a4c8dcebacd438145353910d"
+    },
+    {
+      "source_line": 9329,
+      "source_label": "lemma-refine-all-at-once",
+      "candidate_id": "candidate.stacks.126800c30617a052cc7d9bc2"
+    },
+    {
+      "source_line": 10472,
+      "source_label": "proposition-functoriality-algebraic-structures-topoi",
+      "candidate_id": "candidate.stacks.c42ce57f95f6baa149e8365c"
+    },
+    {
+      "source_line": 11509,
+      "source_label": "lemma-L-presheaf",
+      "candidate_id": "candidate.stacks.65d47cd32e6c7d53c9b1b6d9"
     }
   ]
 }
