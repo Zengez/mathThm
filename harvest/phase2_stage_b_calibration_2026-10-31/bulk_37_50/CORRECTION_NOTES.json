@@ -28,6 +28,13 @@
     ]
   },
   {
+    "candidate_id": "candidate.stacks.db270b56fd0ac842ce10b0ee",
+    "source_label": "lemma-flattening-stratification-artinian",
+    "corrections": [
+      "Named the arbitrary quasi-coherent module F explicitly; source uses F in conclusion without naming it in setup."
+    ]
+  },
+  {
     "candidate_id": "candidate.stacks.7596c2565a249a9a71b12a33",
     "source_label": "lemma-flattening-module-map",
     "corrections": [

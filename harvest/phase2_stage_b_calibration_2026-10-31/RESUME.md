@@ -30,3 +30,7 @@ Proof-exposure incident: ordinal30, flat.tex2136–2341 has informal proof-beari
 ## Through ordinal36
 
 148 new approvals materialized, three explicit proof-exposure processing holds. The independent validator required finite-strata index quantification correction and re-reviewed the exact final row. Only selected ordinals37–50 (42 IDs) remain. Separate counterpart incident records are in bulk_23_36; never materialize them.
+
+## COMPLETE — STOP FOR EXTERNAL AUDIT
+
+Exactly50 sections processed;190 independently approved and materialized,3 processing holds,30 correctedIDs. Full193 ID partition and all682 prior approvals verified unchanged; authoritative union872.18 sections fully reviewed,31 mixed ready-subset sections,1 incident-held section. Final structural checks pass; no full-suite rerun. Do not resume beyond50. See RESULTS.json and REPORT.md.

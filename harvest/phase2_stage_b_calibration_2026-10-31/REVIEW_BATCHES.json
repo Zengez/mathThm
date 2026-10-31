@@ -21,6 +21,13 @@
       "review_date": "2026-10-31",
       "reconstructions": "harvest/phase2_stage_b_calibration_2026-10-31/bulk_23_36/FORMULATIONS.jsonl",
       "independent_validation": "harvest/phase2_stage_b_calibration_2026-10-31/bulk_23_36/INDEPENDENT_VALIDATION.jsonl"
+    },
+    {
+      "name": "stage-b-calibration-20261031-bulk_37_50",
+      "reconstructor": "calibration_algebra",
+      "review_date": "2026-10-31",
+      "reconstructions": "harvest/phase2_stage_b_calibration_2026-10-31/bulk_37_50/FORMULATIONS.jsonl",
+      "independent_validation": "harvest/phase2_stage_b_calibration_2026-10-31/bulk_37_50/INDEPENDENT_VALIDATION.jsonl"
     }
   ]
 }
