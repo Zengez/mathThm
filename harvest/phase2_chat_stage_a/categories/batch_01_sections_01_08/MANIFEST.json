@@ -1,0 +1,95 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch-manifest.v1",
+  "chapter": "categories",
+  "source_file": "categories.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "batch_id": "batch_01_sections_01_08",
+  "section_start": 1,
+  "section_end": 8,
+  "first_source_line": 18,
+  "last_source_line": 1070,
+  "sections_processed": 8,
+  "active_candidates_processed": 8,
+  "ready_for_codex_validation": 8,
+  "further_work_needed": 0,
+  "independent_validation": "not_started",
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 1,
+      "title": "Introduction",
+      "kind": "context_only",
+      "source_line": 18,
+      "source_end_line": 30,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 2,
+      "title": "Definitions",
+      "kind": "candidates",
+      "source_line": 31,
+      "source_end_line": 436,
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 3,
+      "title": "Opposite Categories and the Yoneda Lemma",
+      "kind": "candidates",
+      "source_line": 437,
+      "source_end_line": 597,
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 4,
+      "title": "Products of pairs",
+      "kind": "context_only",
+      "source_line": 598,
+      "source_end_line": 654,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 5,
+      "title": "Coproducts of pairs",
+      "kind": "context_only",
+      "source_line": 655,
+      "source_end_line": 711,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 6,
+      "title": "Fibre products",
+      "kind": "candidates",
+      "source_line": 712,
+      "source_end_line": 885,
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 7,
+      "title": "Examples of fibre products",
+      "kind": "context_only",
+      "source_line": 886,
+      "source_end_line": 927,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 8,
+      "title": "Fibre products and representability",
+      "kind": "candidates",
+      "source_line": 928,
+      "source_end_line": 1070,
+      "active_candidate_count": 3,
+      "stage_a_readiness": "ready_for_codex_validation"
+    }
+  ],
+  "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
+  "next_source_section": 9,
+  "next_source_line": 1071
+}
