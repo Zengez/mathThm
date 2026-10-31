@@ -10,3 +10,11 @@ For this repository, optimize for the fastest correct *overall execution pathway
 6. Benchmark or quantify actual repeated work and execution cost. Put integrity validation at run/handoff boundaries, not in each section/candidate iteration.
 
 Current pending Stage A packet branch: `feature/phase2-chapter-preparation`. Its canonical queue is `harvest/phase2_prepared/a04446e57ec1/<chapter>/CANDIDATES.jsonl`, after completed approvals were removed directly; do not regenerate `STAGE_A_PENDING_*` or `CODEX_REVIEWED_*` sidecar files.
+
+
+## Stage B source-only validation guard (calibration incident 2026-10-31)
+
+- Never display a raw Stacks chapter, section slice, or context excerpt to a Stage B reviewer. Generate the proof-free display using `python -m scripts.phase2_safe_source SOURCE.tex --start START --end END` on the pinned Stacks checkout; the viewer retains source line numbering while hiding proofs, remarks, other commentary and unknown environments. Read only the resulting output, never the unfiltered source.
+- The viewer is deliberately conservative. If required standing assumptions or notation are hidden, the candidate is a **hold** until those statements are independently source-confirmed by a safe method. Do not fill missing context from proofs, remarks, memory or plausible mathematics.
+- Keep the three documented `flat.tex:2136–2341` proof-exposure incident candidates in `harvest/phase2_stage_b_calibration_2026-10-31/bulk_23_36/HELD_PROOF_EXPOSURE.jsonl` and `INDEPENDENT_HELD_PROOF_EXPOSURE.jsonl` outside all approvals. A future clean source-only review requires a genuinely fresh reviewer and explicit disposition; never retroactively assert that the exposed reviews had no proof access.
+- No Stage B work should screen, consult, or promote proof content. Phase 3 remains separately gated.
