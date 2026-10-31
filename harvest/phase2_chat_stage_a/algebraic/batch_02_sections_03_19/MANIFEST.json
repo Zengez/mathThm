@@ -84,10 +84,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.acd68c5b2fbbe208eeb08b48",
-    "candidate.stacks.5e1da41c9feb49cf6a87e252"
-  ],
+  "preliminary_source_holds": [],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     3,
@@ -189,7 +186,7 @@
       "section": 16,
       "kind": "candidates",
       "source_line": 2016,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 17,
@@ -211,11 +208,11 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 44,
-  "stage_a_remaining_work_candidate_count": 2,
-  "stage_a_source_hold_candidate_count": 2,
-  "stage_a_ready_for_codex_section_count": 11,
-  "stage_a_remaining_work_section_count": 1,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_candidate_count": 46,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 12,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "conservative_standalone_screen_v1"
 }
