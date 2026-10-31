@@ -1,0 +1,114 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch-manifest.v1",
+  "chapter": "categories",
+  "source_file": "categories.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "batch_id": "batch_02_sections_09_18",
+  "section_start": 9,
+  "section_end": 18,
+  "first_source_line": 1071,
+  "last_source_line": 2122,
+  "sections_processed": 10,
+  "active_candidates_processed": 18,
+  "ready_for_codex_validation": 18,
+  "further_work_needed": 0,
+  "independent_validation": "not_started",
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 9,
+      "title": "Pushouts",
+      "kind": "context_only",
+      "source_line": 1071,
+      "source_end_line": 1130,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 10,
+      "title": "Equalizers",
+      "kind": "context_only",
+      "source_line": 1131,
+      "source_end_line": 1150,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 11,
+      "title": "Coequalizers",
+      "kind": "context_only",
+      "source_line": 1151,
+      "source_end_line": 1171,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 12,
+      "title": "Initial and final objects",
+      "kind": "context_only",
+      "source_line": 1172,
+      "source_end_line": 1196,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 13,
+      "title": "Monomorphisms and Epimorphisms",
+      "kind": "candidates",
+      "source_line": 1197,
+      "source_end_line": 1269,
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 14,
+      "title": "Limits and colimits",
+      "kind": "candidates",
+      "source_line": 1270,
+      "source_end_line": 1588,
+      "active_candidate_count": 5,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 15,
+      "title": "Limits and colimits in the category of sets",
+      "kind": "context_only",
+      "source_line": 1589,
+      "source_end_line": 1646,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 16,
+      "title": "Connected limits",
+      "kind": "candidates",
+      "source_line": 1647,
+      "source_end_line": 1717,
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 17,
+      "title": "Cofinal and initial categories",
+      "kind": "candidates",
+      "source_line": 1718,
+      "source_end_line": 1884,
+      "active_candidate_count": 3,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 18,
+      "title": "Finite limits and colimits",
+      "kind": "candidates",
+      "source_line": 1885,
+      "source_end_line": 2122,
+      "active_candidate_count": 7,
+      "stage_a_readiness": "ready_for_codex_validation"
+    }
+  ],
+  "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
+  "prior_batch": "harvest/phase2_chat_stage_a/categories/batch_01_sections_01_08/MANIFEST.json",
+  "next_source_section": 19,
+  "next_source_line": 2123
+}
