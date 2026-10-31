@@ -61,3 +61,20 @@ The initial run really used Medium, per the user's confirmation. No reliable *ti
 - No full source-equivalence or regression suite was run; no claims of mathematical validation, standalone readiness, Codex completion, Pass 3 eligibility, or publication.
 
 **Next checkpoint suggestion:** Audit a dozen A0 v2 packets with High thinking, refine any missing nested-context lookup, then run a *new* Medium batch with the improved rubric and compare task completion, error rate and A1 effort against this baseline.
+
+## Final work-packet integrity and literal extraction checks
+
+After the initial audit, the four v2 work packets were further enhanced with **source-literal** enumerated list items and local declaration/premise cues. The final re-read verified:
+
+| Item | Count |
+| --- | ---: |
+| V2 work packets, one-to-one with original A0 candidates | **231 / 231** |
+| Distinct candidate IDs | **231** |
+| Enumerated source groups extracted | **96** |
+| Source-literal enumeration items extracted | **288** |
+| `Let` / `Set` / `Denote` / `Assume` / `Suppose` source fragments extracted | **435** |
+| Named source Situations indexed | **9** |
+| Named source Definitions indexed | **18** |
+| Unauthorized Stage A/Codex readiness fields in v2 packets | **0** |
+
+All four v2 files parsed successfully, and every packet's source text and candidate ID matched its original v1 overlay exactly. These are **structural/extraction checks**, not mathematical correctness claims; regex-derived enumerations and source fragments can still require nested-scope correction by A1. The unrun full regression suite and outstanding canonical/approval-registry crosschecks must not be implied by these results.
