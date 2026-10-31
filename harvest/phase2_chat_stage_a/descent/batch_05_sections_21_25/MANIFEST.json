@@ -75,7 +75,7 @@
     "candidate.stacks.2a0b7ec2c14442c33b8eb3fa"
   ],
   "output_file": "harvest/phase2_chat_stage_a/descent/batch_05_sections_21_25/RECONSTRUCTIONS.jsonl",
-  "reviewer": "chatgpt-stage-a",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -85,33 +85,47 @@
       "section": 21,
       "kind": "candidates",
       "source_line": 5151,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 22,
       "kind": "candidates",
       "source_line": 5282,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
+    },
+    {
+      "section": 23,
+      "kind": "previously_approved_only",
+      "source_line": 5459,
+      "stage_a_readiness": "previously_approved_skipped",
+      "skipped_approved_count": 33
     },
     {
       "section": 24,
       "kind": "candidates",
       "source_line": 6306,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 25,
       "kind": "candidates",
       "source_line": 6374,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 14,
+  "stage_a_ready_for_codex_candidate_count": 13,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 4,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_section_mapping_pending": false,
+  "source_locator_verified": true,
+  "preliminary_source_holds": [],
+  "processing_note": "Original-order preparation of §§21–25, with 33 already-approved candidate IDs in §23 explicitly skipped (not regenerated). Distinguished scheme-morphism radicial/universally injective from pure ring maps and deferred an overly broad base-change quantifier in the largest-open lemma."
 }
