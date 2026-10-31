@@ -54,20 +54,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.5a88d9571ff765d39eadc361",
-    "candidate.stacks.f47195b07faf55bbeffd13d6",
-    "candidate.stacks.d05b615a03325c50c069768a",
-    "candidate.stacks.196d54e01598aa5ee8c76d69",
-    "candidate.stacks.06ef8e1545f8328af5c42397",
-    "candidate.stacks.46d01aa656f3920d9ce8c8b8",
-    "candidate.stacks.d967bddc2f162470efb48638",
-    "candidate.stacks.e131925b4268037307dfe977",
-    "candidate.stacks.67f2b6906d1ad3eea8bc682b",
-    "candidate.stacks.65bba09a0323f26383467cd7",
-    "candidate.stacks.c715a700e20ff1a22a255b58",
-    "candidate.stacks.7439e9654b35ead2a0e7ab3f"
-  ],
+  "preliminary_source_holds": [],
   "processing_sections": [
     {
       "section": 24,
@@ -113,56 +100,64 @@
     },
     {
       "section": 31,
-      "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 5587
     },
     {
       "section": 32,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "further_work_needed",
+      "source_line": 5644
     },
     {
       "section": 33,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 6070
     },
     {
       "section": 34,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 6267
     },
     {
       "section": 35,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "further_work_needed",
+      "source_line": 6468
     },
     {
       "section": 36,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 6839
     },
     {
       "section": 37,
-      "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 7133
     },
     {
       "section": 38,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "further_work_needed",
+      "source_line": 7226
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 15,
-  "stage_a_remaining_work_candidate_count": 23,
-  "stage_a_source_hold_candidate_count": 12,
-  "stage_a_ready_for_codex_section_count": 6,
-  "stage_a_remaining_work_section_count": 8,
-  "stage_a_section_mapping_pending": true,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_candidate_count": 32,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 9,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
-  "stage_a_dispositioned_section_count": 6,
-  "stage_a_further_work_candidate_count": 0,
-  "stage_a_further_work_section_count": 0,
-  "processing_note": "Chow §§24–30 processed in original source order. §27 is context-only (the key formula has no active candidate); §§31–38 remain pending."
+  "stage_a_dispositioned_section_count": 12,
+  "stage_a_further_work_candidate_count": 6,
+  "stage_a_further_work_section_count": 3,
+  "processing_note": "Review of consecutive Chow §§31–45, preserving earlier contextual definitions; unverified cases explicitly tracked."
 }

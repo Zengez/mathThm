@@ -59,8 +59,6 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.fe85c0617405e7ff08529226",
-    "candidate.stacks.808fa6c32ddf5fe999d882d6",
     "candidate.stacks.16afa36c47866672ca81d0c9",
     "candidate.stacks.68745a9277448e3e2af18cf9",
     "candidate.stacks.80f0777f22b9795614b845dc",
@@ -97,37 +95,44 @@
     {
       "section": 39,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 7709
     },
     {
       "section": 40,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 7855
     },
     {
       "section": 41,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 8050
     },
     {
       "section": 42,
-      "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 8269
     },
     {
       "section": 43,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 8421
     },
     {
       "section": 44,
-      "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 8728
     },
     {
       "section": 45,
       "kind": "candidates",
-      "stage_a_readiness": "needs_section_mapping"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "source_line": 8904
     },
     {
       "section": 46,
@@ -171,12 +176,16 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 42,
-  "stage_a_source_hold_candidate_count": 32,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 15,
+  "stage_a_ready_for_codex_candidate_count": 12,
+  "stage_a_remaining_work_candidate_count": 30,
+  "stage_a_source_hold_candidate_count": 30,
+  "stage_a_ready_for_codex_section_count": 5,
+  "stage_a_remaining_work_section_count": 8,
   "stage_a_section_mapping_pending": true,
   "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_dispositioned_section_count": 5,
+  "processing_note": "Review of consecutive Chow §§31–45, preserving earlier contextual definitions; unverified cases explicitly tracked."
 }
