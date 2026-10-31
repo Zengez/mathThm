@@ -5,6 +5,9 @@ on:
       - audit/stage-b-calibration-regression-20261031
     paths:
       - .github/workflows/stage-b-calibration-regression-20261031.yml
+      - scripts/phase2_safe_source.py
+      - tests/test_phase2_calibration_safety.py
+      - AGENTS.md
   workflow_dispatch:
 
 permissions:
