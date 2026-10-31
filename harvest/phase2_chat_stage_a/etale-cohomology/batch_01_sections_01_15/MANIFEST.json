@@ -37,15 +37,12 @@
     "candidate.stacks.6823fc880a6f08ea65e45a89"
   ],
   "output_file": "harvest/phase2_chat_stage_a/etale-cohomology/batch_01_sections_01_15/RECONSTRUCTIONS.jsonl",
-  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
   "source_locator_verified": true,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.946bc2afb503a7ac8aa09f93",
-    "candidate.stacks.182fb40f29b837cfe56f5502"
-  ],
+  "preliminary_source_holds": [],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     1,
@@ -199,31 +196,31 @@
       "section": 13,
       "kind": "candidates",
       "source_line": 724,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 14,
       "kind": "candidates",
       "source_line": 835,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 15,
       "kind": "candidates",
       "source_line": 874,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 1,
-  "stage_a_remaining_work_candidate_count": 5,
+  "stage_a_ready_for_codex_candidate_count": 6,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 1,
-  "stage_a_remaining_work_section_count": 3,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_section_count": 4,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "stage_a_further_work_candidate_count": 0,
   "stage_a_further_work_section_count": 0,
-  "stage_a_dispositioned_section_count": 9,
-  "processing_note": "First nine Étale Cohomology sections read from beginning in original order, including §§1–8 contextual definitions. Candidate §9 Yoneda standalone-prepared; §§10–15 not yet actively processed."
+  "stage_a_dispositioned_section_count": 15,
+  "processing_note": "Source-order Étale Cohomology through §15; source-context as small site vs all fpqc schemes, sheafification, descent and Čech derived comparison. Candidates prepared only for independent Stage B."
 }
