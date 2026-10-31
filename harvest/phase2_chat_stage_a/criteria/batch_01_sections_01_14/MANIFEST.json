@@ -69,22 +69,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.d2f81c575b4e1fe5a8b761ad",
-    "candidate.stacks.f5692cf8ad90a4553037b2de",
-    "candidate.stacks.d6ff506dc9fedcaa5340f72a",
-    "candidate.stacks.f665b96cc5fa5a3e9259094d",
-    "candidate.stacks.f60fa01ab941237e2b4c6822",
-    "candidate.stacks.5c4e45b5b4d9f9a3be34c86c",
-    "candidate.stacks.ff60ee0bd5cdf8774a2647fa",
-    "candidate.stacks.cbe3c8966fedbf44dff662c9",
-    "candidate.stacks.c5ad118de0d83e335ae84c3f",
-    "candidate.stacks.cafaf5434d84ac9eff66c03e",
-    "candidate.stacks.407fd9b874532c8cfe117565",
-    "candidate.stacks.98f41730f80bf32d8c84e46b",
-    "candidate.stacks.510df62f29f2291b9f51c956",
-    "candidate.stacks.f597d7fa3a694105d20cd0dc"
-  ],
+  "preliminary_source_holds": [],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     1,
@@ -118,58 +103,64 @@
       "stage_a_readiness": "no_active_candidates"
     },
     {
+      "section": 3,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 63
+    },
+    {
       "section": 4,
       "kind": "candidates",
       "source_line": 122,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 5,
       "kind": "candidates",
       "source_line": 332,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 6,
       "kind": "candidates",
       "source_line": 650,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 7,
       "kind": "candidates",
       "source_line": 823,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 8,
       "kind": "candidates",
       "source_line": 938,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 9,
       "kind": "candidates",
       "source_line": 1094,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 10,
       "kind": "candidates",
       "source_line": 1257,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 11,
       "kind": "candidates",
       "source_line": 1505,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 12,
       "kind": "candidates",
       "source_line": 1717,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 13,
@@ -187,15 +178,20 @@
       "section": 14,
       "kind": "candidates",
       "source_line": 2368,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 34,
+  "stage_a_ready_for_codex_candidate_count": 31,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 10,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_section_count": 8,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 3,
+  "stage_a_further_work_section_count": 2,
+  "stage_a_dispositioned_section_count": 10,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Criteria §§1–15 processed in source order, carrying stack morphism, representability, formal/limit and finite Hilbert context. §16 onward pending."
 }
