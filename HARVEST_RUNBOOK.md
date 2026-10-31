@@ -2,6 +2,14 @@
 
 **Status: October 28, 2026.** A lightweight, bounded Python toolkit exists. It is NOT a mathematical proof checker or autonomous research engine. No raw candidates or questionable cases are published automatically. See HARVEST_DESIGN.md and THEOREM_RECORD_CONTRACT.md.
 
+## CURRENT CHAT PREPARATION PROCEDURE (October 31, 2026)
+
+**For all *new* source-ordered Stage A preparation batches, follow [STAGE_A_PREPARATION.md](STAGE_A_PREPARATION.md) before using historical section-walk examples below.** The existing source-first method requires a **persisted, scoped, source-anchored context ledger**, maintained through context-only/empty sections and across batch boundaries. Use genuine standing assumptions only when their source scope and per-candidate applicability are established; definitions/notation are not automatically theorem hypotheses. Checkpoint each complete section, track expired and overridden assumptions, and preserve original source and candidate IDs. Old records are not retroactively certified by this documentation.
+
+The optional **[STAGE_A0_PREPASS.md](STAGE_A0_PREPASS.md)** defines a separate Medium-thinking mechanical expansion pass before High-thinking Stage A (A1). A0 is strictly *non-authoritative*: write its records in `harvest/phase2_chat_stage_a0/`, never give them Stage A readiness flags, and never count them as Codex validated. Existing ready-for-Stage-B labels remain contingent on source-first Stage A reconstruction with no remaining work; independent Stage B and Pass 3 remain distinct gates.
+
+---
+
 ## CURRENT CAMPAIGN OVERRIDE — prototype population and Pass 3
 
 The initial Pass 2 bulk-discovery campaign is closed for the prototype. **Only the 9,675 canonical candidate IDs in [harvest/active_candidate_ids.jsonl](harvest/active_candidate_ids.jsonl) are considered active.** The separate [active-pool manifest](harvest/ACTIVE_CANDIDATE_POOL.json) records the current recognized intake and batch membership. The historical Pass 1/2 files intentionally retain all original sources; they are NOT active-pool counts.
