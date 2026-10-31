@@ -94,13 +94,47 @@
           "tex": "\\begin{definition}\n\\label{definition-L-function-l-adic}\nNow assume that $\\mathcal{F}$ is a $\\mathbf{Q}_\\ell$-sheaf on $X$.\nIn this case we define\n$$\nL(X, \\mathcal{F}) :=\n\\prod\\nolimits_{x \\in |X|}\n\\det(1 - \\pi_x^*T^{\\deg x} |_{\\mathcal{F}_{\\bar x}})^{-1}\n\\in \\mathbf{Q}_\\ell[[T]].\n$$\nNote that this product converges since there are finitely many points of a\ngiven degree. We call this the {\\it $L$-function of\n$\\mathcal{F}$}.\n\\end{definition}"
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "L-functions",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
     },
     {
       "section": 20,
       "kind": "candidates",
       "source_line": 2180,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.eb3ff8d3ae6359db97c284b8",
+        "candidate.stacks.facbbefabf0738aa07f36a4e",
+        "candidate.stacks.632516c98d58d6a9a9f5472d",
+        "candidate.stacks.a84eb257a075e31efcc3caa8"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.eb3ff8d3ae6359db97c284b8",
+        "candidate.stacks.facbbefabf0738aa07f36a4e",
+        "candidate.stacks.632516c98d58d6a9a9f5472d",
+        "candidate.stacks.a84eb257a075e31efcc3caa8"
+      ],
+      "stage_a_source_context_heading": "Cohomological interpretation",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
+    },
+    {
+      "section": 21,
+      "kind": "context_only",
+      "source_line": 2476,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "List of things which we should add above",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
     },
     {
       "section": 22,
@@ -112,39 +146,207 @@
           "tex": "\\noindent\nWe use Theorem \\ref{theorem-B} for curves to give examples of $L$-functions"
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Examples of L-functions",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
     },
     {
       "section": 23,
       "kind": "candidates",
       "source_line": 2507,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.4be9a33325468825bd1e1638"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.4be9a33325468825bd1e1638"
+      ],
+      "stage_a_source_context_heading": "Constant sheaves",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
+    },
+    {
+      "section": 24,
+      "kind": "context_only",
+      "source_line": 2645,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "The Legendre family",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
+    },
+    {
+      "section": 25,
+      "kind": "context_only",
+      "source_line": 2768,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Exponential sums",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
+    },
+    {
+      "section": 26,
+      "kind": "context_only",
+      "source_line": 2812,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Trace formula in terms of fundamental groups",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
     },
     {
       "section": 27,
       "kind": "candidates",
       "source_line": 2823,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e03b0a44ca5859ca89b2c93d",
+        "candidate.stacks.e131421a85cc2191d69fda16"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.e131421a85cc2191d69fda16"
+      ],
+      "stage_a_source_context_heading": "Fundamental groups",
+      "stage_a_source_context_summary": "Fundamental group basepoint and fibre functor explicitly sourced; π_x source typo in later proposition held."
+    },
+    {
+      "section": 28,
+      "kind": "context_only",
+      "source_line": 3094,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Profinite groups, cohomology and homology",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
     },
     {
       "section": 29,
       "kind": "candidates",
       "source_line": 3167,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.673ed5e6fd143f78abe9b1f2"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.673ed5e6fd143f78abe9b1f2"
+      ],
+      "stage_a_source_context_heading": "Cohomology of curves, revisited",
+      "stage_a_source_context_summary": "Smooth connected curve, finite prime-to-char Λ and ρ local system only §29, not global."
+    },
+    {
+      "section": 30,
+      "kind": "context_only",
+      "source_line": 3354,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Abstract trace formula",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
     },
     {
       "section": 31,
       "kind": "candidates",
       "source_line": 3448,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.352957db04557c91513795b2",
+        "candidate.stacks.abe8c80bc9a6517d01aac8f8",
+        "candidate.stacks.26256da979708be56b3432d0",
+        "candidate.stacks.abc7525d350488f36a97e085"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.352957db04557c91513795b2",
+        "candidate.stacks.abe8c80bc9a6517d01aac8f8",
+        "candidate.stacks.26256da979708be56b3432d0",
+        "candidate.stacks.abc7525d350488f36a97e085"
+      ],
+      "stage_a_source_context_heading": "Automorphic forms and sheaves",
+      "stage_a_source_context_summary": "Function-field and automorphic/Hecke setup expires at chapter boundary; φ_v in C(Λ) unresolved."
+    },
+    {
+      "section": 32,
+      "kind": "context_only",
+      "source_line": 3795,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Counting points",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
+    },
+    {
+      "section": 33,
+      "kind": "context_only",
+      "source_line": 3827,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Precise form of Chebotarev",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
+    },
+    {
+      "section": 34,
+      "kind": "context_only",
+      "source_line": 3916,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "How many primes decompose completely?",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
+    },
+    {
+      "section": 35,
+      "kind": "context_only",
+      "source_line": 4000,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "How many points are there really?",
+      "stage_a_source_context_summary": "Context-only intervals and theorem clauses traversed; only named definitions are available afterward, not example or theorem hypotheses."
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 12,
+  "stage_a_ready_for_codex_candidate_count": 1,
+  "stage_a_remaining_work_candidate_count": 11,
   "stage_a_source_hold_candidate_count": 12,
   "stage_a_ready_for_codex_section_count": 0,
   "stage_a_remaining_work_section_count": 5,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_dispositioned_section_count": 17,
+  "stage_a_further_work_candidate_count": 11,
+  "stage_a_further_work_section_count": 5,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/trace/batch_02_sections_19_35/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/trace/batch_02_sections_19_35/SECTION_CHECKPOINTS.jsonl",
+  "stage_a_parent_checkpoint": "harvest/phase2_chat_stage_a/trace/batch_01_sections_01_18/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Stage A Trace §§19–35 source-ordered review complete; 17 section checkpoints including contextual-only sections. Generalized Langlands/trace claims left for source adjudication, chapter state reset at §35."
 }
