@@ -105,73 +105,92 @@
           "source_line": 89,
           "tex": "Step IV. Let $x_0$ be an object of $\\mathcal{F}(k)$, in other words an object\nof $\\mathcal{F}$ over $k$. In this chapter we will use the notation\n$$\n\\Deformationcategory_{x_0} = \\mathcal{F}_{x_0}\n$$\nto denote the predeformation category constructed in\nFormal Deformation Theory, Remark\n\\ref{formal-defos-remark-localize-cofibered-groupoid}.\nIf $\\mathcal{F}$ satisfies (RS), then\n$\\Deformationcategory_{x_0}$ is a deformation category\n(Formal Deformation Theory, Lemma\n\\ref{formal-defos-lemma-localize-RS})\nand satisfies (S1) and (S2)\n(Formal Deformation Theory, Lemma\n\\ref{formal-defos-lemma-RS-implies-S1-S2}).\nIf (S1) and (S2) are satisfied, then\nan important question is whether the tangent space\n$$\nT\\Deformationcategory_{x_0} = T_{x_0}\\mathcal{F} = T\\mathcal{F}_{x_0}\n$$\n(see Formal Deformation Theory, Remark\n\\ref{formal-defos-remark-tangent-space-cofibered-groupoid} and\nDefinition \\ref{formal-defos-definition-tangent-space})\nis finite dimensional. Namely, this insures that\n$\\Deformationcategory_{x_0}$ has a versal formal object\n(Formal Deformation Theory, Lemma\n\\ref{formal-defos-lemma-versal-object-existence})."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 259
+      "source_line": 259,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 474
+      "source_line": 474,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 598
+      "source_line": 598,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 805
+      "source_line": 805,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 1201
+      "source_line": 1201,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 1488
+      "source_line": 1488,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 1771
+      "source_line": 1771,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 1944
+      "source_line": 1944,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 2306
+      "source_line": 2306,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 2467
+      "source_line": 2467,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 2649
+      "source_line": 2649,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 2721
+      "source_line": 2721,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 2888
+      "source_line": 2888,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 13,
+  "stage_a_remaining_work_candidate_count": 20,
+  "stage_a_source_hold_candidate_count": 6,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 13
 }

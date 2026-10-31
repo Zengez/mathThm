@@ -65,63 +65,82 @@
           "source_line": 42,
           "tex": "In this chapter, Noetherian hypotheses are restated in each theorem when needed; no blanket Noetherian assumption is inherited. If A is Noetherian, A→B finite type implies finite presentation; locally finite-type morphisms between locally Noetherian schemes are locally finitely presented."
         }
-      ]
+      ],
+      "stage_a_readiness": "needs_section_mapping"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 62
+      "source_line": 62,
+      "stage_a_readiness": "needs_section_mapping"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 267
+      "source_line": 267,
+      "stage_a_readiness": "needs_section_mapping"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 393
+      "source_line": 393,
+      "stage_a_readiness": "needs_section_mapping"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 458
+      "source_line": 458,
+      "stage_a_readiness": "needs_section_mapping"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 606
+      "source_line": 606,
+      "stage_a_readiness": "needs_section_mapping"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 837
+      "source_line": 837,
+      "stage_a_readiness": "needs_section_mapping"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 960
+      "source_line": 960,
+      "stage_a_readiness": "needs_section_mapping"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 1013
+      "source_line": 1013,
+      "stage_a_readiness": "needs_section_mapping"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 1217
+      "source_line": 1217,
+      "stage_a_readiness": "needs_section_mapping"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 1324
+      "source_line": 1324,
+      "stage_a_readiness": "needs_section_mapping"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 1360
+      "source_line": 1360,
+      "stage_a_readiness": "needs_section_mapping"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_mathematical_analysis_pending": true,
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 27,
+  "stage_a_source_hold_candidate_count": 3,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 14,
+  "stage_a_section_mapping_pending": true
 }
