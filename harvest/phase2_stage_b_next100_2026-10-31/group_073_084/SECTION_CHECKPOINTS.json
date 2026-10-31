@@ -1,0 +1,227 @@
+[
+  {
+    "ordinal": 73,
+    "global_ordinal": 123,
+    "source_file": "discriminant.tex",
+    "section_start_line": 1417,
+    "section_end_line": 1517,
+    "eligible_candidate_ids": [
+      "candidate.stacks.66faee6b933be40072a41f75"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "completed",
+    "approved_candidate_count": 0,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 1,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 74,
+    "global_ordinal": 124,
+    "source_file": "discriminant.tex",
+    "section_start_line": 1518,
+    "section_end_line": 1779,
+    "eligible_candidate_ids": [
+      "candidate.stacks.1915bd0300271a04319943cf",
+      "candidate.stacks.70dbd0da26c01137f08bf088",
+      "candidate.stacks.908bd77c2a495c8ee8361500",
+      "candidate.stacks.a8c43ddc29134b3d776fc3b4"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 4,
+    "independent_validation": "completed",
+    "approved_candidate_count": 0,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 4,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 75,
+    "global_ordinal": 125,
+    "source_file": "discriminant.tex",
+    "section_start_line": 1780,
+    "section_end_line": 2056,
+    "eligible_candidate_ids": [
+      "candidate.stacks.c4ea39059056d673140f4c48"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "completed",
+    "approved_candidate_count": 0,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 1,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 76,
+    "global_ordinal": 126,
+    "source_file": "discriminant.tex",
+    "section_start_line": 2345,
+    "section_end_line": 2603,
+    "eligible_candidate_ids": [
+      "candidate.stacks.59678216aae8f0a56b65cb44"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "completed",
+    "approved_candidate_count": 0,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 1,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 77,
+    "global_ordinal": 127,
+    "source_file": "derham.tex",
+    "section_start_line": 121,
+    "section_end_line": 264,
+    "eligible_candidate_ids": [
+      "candidate.stacks.55b9e77a7d28fc3c01455604",
+      "candidate.stacks.579794d35bbd0688dd6fdb9e"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 2,
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 78,
+    "global_ordinal": 128,
+    "source_file": "derham.tex",
+    "section_start_line": 265,
+    "section_end_line": 400,
+    "eligible_candidate_ids": [
+      "candidate.stacks.6ea85dfe9118d04ed566d6af"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "completed",
+    "approved_candidate_count": 1,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": true,
+    "mixed_section": false
+  },
+  {
+    "ordinal": 79,
+    "global_ordinal": 129,
+    "source_file": "derham.tex",
+    "section_start_line": 401,
+    "section_end_line": 452,
+    "eligible_candidate_ids": [
+      "candidate.stacks.0d1d3e0885ab297fbf3e3753"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "completed",
+    "approved_candidate_count": 0,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 1,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": false
+  },
+  {
+    "ordinal": 80,
+    "global_ordinal": 130,
+    "source_file": "derham.tex",
+    "section_start_line": 613,
+    "section_end_line": 816,
+    "eligible_candidate_ids": [
+      "candidate.stacks.37601bc6ec6e762aaa73e0f8",
+      "candidate.stacks.7aacbf5bdb236b7bd903670b"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 2,
+    "independent_validation": "completed",
+    "approved_candidate_count": 1,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 1,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": false
+  },
+  {
+    "ordinal": 81,
+    "global_ordinal": 131,
+    "source_file": "derham.tex",
+    "section_start_line": 1761,
+    "section_end_line": 2021,
+    "eligible_candidate_ids": [
+      "candidate.stacks.0c13dba740d012188f4ac8db",
+      "candidate.stacks.2773db29f4e70c430ecca1f5",
+      "candidate.stacks.ecce72c2ed316f672085def2"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 3,
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 1,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": false
+  },
+  {
+    "ordinal": 82,
+    "global_ordinal": 132,
+    "source_file": "derham.tex",
+    "section_start_line": 2022,
+    "section_end_line": 2135,
+    "eligible_candidate_ids": [
+      "candidate.stacks.7881e8d808e31a0fa9f8d57c"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "completed",
+    "approved_candidate_count": 1,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": true,
+    "mixed_section": false
+  },
+  {
+    "ordinal": 83,
+    "global_ordinal": 133,
+    "source_file": "derham.tex",
+    "section_start_line": 2136,
+    "section_end_line": 2577,
+    "eligible_candidate_ids": [
+      "candidate.stacks.7b705f0c0ea7a7881447ac8b",
+      "candidate.stacks.a56abe649727475f8cd011c7",
+      "candidate.stacks.c902f7e363d8178f2611b44a"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 3,
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 1,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 84,
+    "global_ordinal": 134,
+    "source_file": "derham.tex",
+    "section_start_line": 2860,
+    "section_end_line": 3215,
+    "eligible_candidate_ids": [
+      "candidate.stacks.7559093fc898d2c9a1069020"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "completed",
+    "approved_candidate_count": 1,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": true,
+    "mixed_section": false
+  }
+]
