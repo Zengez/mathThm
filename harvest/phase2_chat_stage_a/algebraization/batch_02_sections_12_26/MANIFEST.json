@@ -27,9 +27,8 @@
   "first_source_line": 3659,
   "last_source_line": 8725,
   "complete_sections": true,
-  "stage_a_candidate_count": 56,
+  "stage_a_candidate_count": 21,
   "candidate_ids": [
-    "candidate.stacks.27690707b8f6d2f1f119ee2c",
     "candidate.stacks.bfc47e96039be81f8028b073",
     "candidate.stacks.250dd4ddc47d5043ab8ee6fa",
     "candidate.stacks.8dd92d09cf36cf4bed99d462",
@@ -42,44 +41,10 @@
     "candidate.stacks.5f22108217a7f166a29d79ca",
     "candidate.stacks.34f69518c6f3d3084d5f7b71",
     "candidate.stacks.75f2271382809156e0229e26",
-    "candidate.stacks.a49c3ac18522dde450d4f138",
     "candidate.stacks.95eec66b773e22e04575cec4",
-    "candidate.stacks.63f386b2fbd78ee3a259b892",
-    "candidate.stacks.1a57a6d9b68029a336fce0ec",
     "candidate.stacks.88061af9f3acd3848f6bf6e1",
     "candidate.stacks.50109b1fc21f69b7d4e4bb52",
-    "candidate.stacks.1a0843af9be85ee515c8af79",
-    "candidate.stacks.19982cd64df8c6faaabdec5d",
-    "candidate.stacks.73417c1e7092a5ba41dc9721",
-    "candidate.stacks.26a161448b566c7f774c999d",
-    "candidate.stacks.8698702c96baeaafe082ef1d",
-    "candidate.stacks.455df00a806b02ff56b2aaf4",
-    "candidate.stacks.1e1f00c6774688f719e55c89",
-    "candidate.stacks.f5512d999ba30cf2ebe1f3ba",
-    "candidate.stacks.79c84c1cab6430eb1ed6e92f",
-    "candidate.stacks.e56d81005bfe3c84f7330bac",
-    "candidate.stacks.454ec8c6d33d966c828206c6",
     "candidate.stacks.cbbc52183af8420c36cc6912",
-    "candidate.stacks.11f27af177e39f6f9f4a7e4d",
-    "candidate.stacks.b6aecd4d4485fbdedbe68923",
-    "candidate.stacks.12c17d2b7ec2c6ed1948f1e3",
-    "candidate.stacks.fc54f13681bb4b821a87f13c",
-    "candidate.stacks.1397279154b40a93516fcc5e",
-    "candidate.stacks.2fa9a42deb967e0fba08614a",
-    "candidate.stacks.89764006e154979fb2b10dab",
-    "candidate.stacks.7d9a6c483d5cfd7425a0094d",
-    "candidate.stacks.7e217cf1d98bd41960dd1c6b",
-    "candidate.stacks.5898eb5867ecde5b05e84722",
-    "candidate.stacks.63e1f842cd529d7576086812",
-    "candidate.stacks.2213b81b1d0dd5adbcf5266d",
-    "candidate.stacks.2ed61a6a31ab3a7af8654236",
-    "candidate.stacks.2f26683af35949e91dda6a5e",
-    "candidate.stacks.9b71ef44379cd2bf7f92aab7",
-    "candidate.stacks.6bd10d5e4a7ff49fd9aae62b",
-    "candidate.stacks.bc8a04d9618748b3acb31e14",
-    "candidate.stacks.0bfb102ec13870ff2b1bf3c0",
-    "candidate.stacks.513d74f6767f4cbe7368464a",
-    "candidate.stacks.a3e4df123cd4df269a93c28a",
     "candidate.stacks.5221e581862f87ed0965419d",
     "candidate.stacks.64a31a53d262df7feec15d8d",
     "candidate.stacks.0e159433940f96faafd91fad",
@@ -99,37 +64,19 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.27690707b8f6d2f1f119ee2c",
-    "candidate.stacks.3cdb0185baae12169fba5192",
-    "candidate.stacks.75f2271382809156e0229e26",
-    "candidate.stacks.63f386b2fbd78ee3a259b892",
-    "candidate.stacks.1a57a6d9b68029a336fce0ec",
-    "candidate.stacks.1a0843af9be85ee515c8af79",
-    "candidate.stacks.19982cd64df8c6faaabdec5d",
-    "candidate.stacks.73417c1e7092a5ba41dc9721",
-    "candidate.stacks.26a161448b566c7f774c999d",
-    "candidate.stacks.f5512d999ba30cf2ebe1f3ba",
-    "candidate.stacks.79c84c1cab6430eb1ed6e92f",
-    "candidate.stacks.454ec8c6d33d966c828206c6",
-    "candidate.stacks.11f27af177e39f6f9f4a7e4d",
-    "candidate.stacks.7e217cf1d98bd41960dd1c6b",
-    "candidate.stacks.5898eb5867ecde5b05e84722",
-    "candidate.stacks.63e1f842cd529d7576086812",
-    "candidate.stacks.4215d0871d31fa058fef1fe1"
-  ],
+  "preliminary_source_holds": [],
   "processing_sections": [
     {
       "section": 12,
       "kind": "candidates",
       "source_line": 3659,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 13,
       "kind": "candidates",
       "source_line": 4192,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 14,
@@ -141,61 +88,61 @@
       "section": 15,
       "kind": "candidates",
       "source_line": 4512,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 16,
-      "kind": "candidates",
+      "kind": "context_only",
       "source_line": 4973,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 17,
-      "kind": "candidates",
+      "kind": "context_only",
       "source_line": 5449,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 18,
       "kind": "candidates",
       "source_line": 5582,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 19,
-      "kind": "candidates",
+      "kind": "context_only",
       "source_line": 5898,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 20,
-      "kind": "candidates",
+      "kind": "context_only",
       "source_line": 6224,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 21,
-      "kind": "candidates",
+      "kind": "context_only",
       "source_line": 6837,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 22,
-      "kind": "candidates",
+      "kind": "context_only",
       "source_line": 7119,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 23,
-      "kind": "candidates",
+      "kind": "context_only",
       "source_line": 7702,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 24,
-      "kind": "candidates",
+      "kind": "context_only",
       "source_line": 7864,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 25,
@@ -207,15 +154,228 @@
       "section": 26,
       "kind": "candidates",
       "source_line": 8473,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 15,
-  "stage_a_remaining_work_candidate_count": 41,
-  "stage_a_source_hold_candidate_count": 17,
-  "stage_a_ready_for_codex_section_count": 2,
-  "stage_a_remaining_work_section_count": 13,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_candidate_count": 21,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 7,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_excluded_candidates": [
+    {
+      "candidate_id": "candidate.stacks.27690707b8f6d2f1f119ee2c",
+      "source_label": "lemma-ses-H0",
+      "source_line": 3673,
+      "reason": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort"
+    },
+    {
+      "candidate_id": "candidate.stacks.a49c3ac18522dde450d4f138",
+      "source_label": "lemma-recognize-formal-coherent-modules",
+      "source_line": 4720,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.63f386b2fbd78ee3a259b892",
+      "source_label": "lemma-fully-faithful-alternative",
+      "source_line": 4785,
+      "reason": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort"
+    },
+    {
+      "candidate_id": "candidate.stacks.1a57a6d9b68029a336fce0ec",
+      "source_label": "lemma-fully-faithful-simple-two",
+      "source_line": 4818,
+      "reason": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort"
+    },
+    {
+      "candidate_id": "candidate.stacks.1a0843af9be85ee515c8af79",
+      "source_label": "lemma-system-of-modules",
+      "source_line": 4996,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.19982cd64df8c6faaabdec5d",
+      "source_label": "lemma-essential-image-completion",
+      "source_line": 5053,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.73417c1e7092a5ba41dc9721",
+      "source_label": "lemma-algebraizable",
+      "source_line": 5170,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.26a161448b566c7f774c999d",
+      "source_label": "lemma-canonically-algebraizable",
+      "source_line": 5248,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.8698702c96baeaafe082ef1d",
+      "source_label": "lemma-canonically-extend-base-change",
+      "source_line": 5296,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.455df00a806b02ff56b2aaf4",
+      "source_label": "lemma-when-done",
+      "source_line": 5327,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.1e1f00c6774688f719e55c89",
+      "source_label": "lemma-algebraization-principal-variant",
+      "source_line": 5365,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.f5512d999ba30cf2ebe1f3ba",
+      "source_label": "lemma-map-kernel-cokernel-on-closed",
+      "source_line": 5457,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.79c84c1cab6430eb1ed6e92f",
+      "source_label": "lemma-when-ML",
+      "source_line": 5485,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.e56d81005bfe3c84f7330bac",
+      "source_label": "lemma-when-topology",
+      "source_line": 5522,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.454ec8c6d33d966c828206c6",
+      "source_label": "lemma-discussion",
+      "source_line": 5621,
+      "reason": "Dense multi-case hypothesis or unresolved formal-coherence scope exceeds precision-first standalone effort"
+    },
+    {
+      "candidate_id": "candidate.stacks.11f27af177e39f6f9f4a7e4d",
+      "source_label": "lemma-elementary",
+      "source_line": 5967,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.b6aecd4d4485fbdedbe68923",
+      "source_label": "lemma-explain-2-3-cd-1",
+      "source_line": 5995,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.12c17d2b7ec2c6ed1948f1e3",
+      "source_label": "lemma-sanity",
+      "source_line": 6041,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.fc54f13681bb4b821a87f13c",
+      "source_label": "lemma-recover",
+      "source_line": 6086,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.1397279154b40a93516fcc5e",
+      "source_label": "lemma-fully-faithful-inequalities",
+      "source_line": 6118,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.2fa9a42deb967e0fba08614a",
+      "source_label": "lemma-construct-unique",
+      "source_line": 6160,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.89764006e154979fb2b10dab",
+      "source_label": "lemma-algebraization-principal",
+      "source_line": 6236,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.7d9a6c483d5cfd7425a0094d",
+      "source_label": "lemma-algebraization-principal-bis",
+      "source_line": 6518,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.7e217cf1d98bd41960dd1c6b",
+      "source_label": "lemma-unwinding-conditions",
+      "source_line": 6660,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.5898eb5867ecde5b05e84722",
+      "source_label": "lemma-unwinding-conditions-bis",
+      "source_line": 6721,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.63e1f842cd529d7576086812",
+      "source_label": "lemma-improvement-application",
+      "source_line": 7074,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.2213b81b1d0dd5adbcf5266d",
+      "source_label": "lemma-cd-1-canonical",
+      "source_line": 7128,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.2ed61a6a31ab3a7af8654236",
+      "source_label": "proposition-cd-1",
+      "source_line": 7262,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.2f26683af35949e91dda6a5e",
+      "source_label": "lemma-blowup",
+      "source_line": 7292,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.9b71ef44379cd2bf7f92aab7",
+      "source_label": "proposition-d-generators",
+      "source_line": 7583,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.6bd10d5e4a7ff49fd9aae62b",
+      "source_label": "lemma-interesting-case-final",
+      "source_line": 7627,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.bc8a04d9618748b3acb31e14",
+      "source_label": "proposition-algebraization-regular-sequence",
+      "source_line": 7708,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.0bfb102ec13870ff2b1bf3c0",
+      "source_label": "proposition-algebraization-flat",
+      "source_line": 7780,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.513d74f6767f4cbe7368464a",
+      "source_label": "lemma-equivalence-better",
+      "source_line": 7872,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    },
+    {
+      "candidate_id": "candidate.stacks.a3e4df123cd4df269a93c28a",
+      "source_label": "lemma-equivalence",
+      "source_line": 7916,
+      "reason": "Inherited situation, definition or source reference requires substantial expansion"
+    }
+  ],
+  "stage_a_excluded_candidate_count": 35
 }
