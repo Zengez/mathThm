@@ -62,7 +62,7 @@
   "output_file": "harvest/phase2_chat_stage_a/spaces-groupoids/batch_02_sections_11_29/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": false,
+  "stage_a_mathematical_analysis_pending": true,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -105,27 +105,32 @@
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 815
+      "source_line": 815,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 983
+      "source_line": 983,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 1187
+      "source_line": 1187,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 1457
+      "source_line": 1457,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 1701
+      "source_line": 1701,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
@@ -136,12 +141,14 @@
           "source_line": 1797,
           "tex": "\\begin{definition}\n\\label{definition-stabilizer-groupoid}\nLet $B \\to S$ as in Section \\ref{section-notation}.\nLet $(U, R, s, t, c)$ be a groupoid in algebraic spaces over $B$.\nThe group algebraic space $j^{-1}(\\Delta_{U/B}) \\to U$ is called the\n{\\it stabilizer of the groupoid in algebraic spaces $(U, R, s, t, c)$}.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 1834
+      "source_line": 1834,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 18,
@@ -152,27 +159,32 @@
           "source_line": 1922,
           "tex": "\\begin{definition}\n\\label{definition-invariant-open}\nLet $B \\to S$ as in Section \\ref{section-notation}.\nLet $(U, R, s, t, c)$ be a groupoid in algebraic spaces over the base $B$.\n\\begin{enumerate}\n\\item We say an open subspace $W \\subset U$ is {\\it $R$-invariant} if\n$t(s^{-1}(W)) \\subset W$.\n\\item A locally closed subspace $Z \\subset U$ is called {\\it $R$-invariant}\nif $t^{-1}(Z) = s^{-1}(Z)$ as locally closed subspaces of $R$.\n\\item A monomorphism of algebraic spaces $T \\to U$ is {\\it $R$-invariant}\nif $T \\times_{U, t} R = R \\times_{s, U} T$ as algebraic spaces over $R$.\n\\end{enumerate}\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 19,
       "kind": "candidates",
-      "source_line": 1999
+      "source_line": 1999,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 2247
+      "source_line": 2247,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 21,
       "kind": "candidates",
-      "source_line": 2423
+      "source_line": 2423,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 22,
       "kind": "candidates",
-      "source_line": 2553
+      "source_line": 2553,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 23,
@@ -183,28 +195,38 @@
           "source_line": 2660,
           "tex": "\\noindent\nOn a groupoid we have the composition, which leads to a cocycle\ncondition for the canonical $2$-morphism of the lemma above.\nTo give the precise formulation we will use the notation introduced in\nCategories, Sections \\ref{categories-section-formal-cat-cat} and\n\\ref{categories-section-2-categories}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 25,
       "kind": "candidates",
-      "source_line": 2954
+      "source_line": 2954,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 26,
       "kind": "candidates",
-      "source_line": 3196
+      "source_line": 3196,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 27,
       "kind": "candidates",
-      "source_line": 3296
+      "source_line": 3296,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 28,
       "kind": "candidates",
-      "source_line": 3374
+      "source_line": 3374,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 25,
+  "stage_a_source_hold_candidate_count": 25,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 14
 }

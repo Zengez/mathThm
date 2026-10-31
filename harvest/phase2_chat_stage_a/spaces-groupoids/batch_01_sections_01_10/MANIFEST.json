@@ -36,7 +36,7 @@
   "output_file": "harvest/phase2_chat_stage_a/spaces-groupoids/batch_01_sections_01_10/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": false,
+  "stage_a_mathematical_analysis_pending": true,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -68,7 +68,8 @@
           "source_line": 40,
           "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 3,
@@ -79,12 +80,14 @@
           "source_line": 57,
           "tex": "\\noindent\nLet $S$ be a scheme; this will be our base scheme and all algebraic spaces\nwill be over $S$. Let $B$ be an algebraic space over $S$; this will be our\nbase algebraic space, and often other algebraic spaces, and schemes will\nbe over $B$. If we say that $X$ is an algebraic space over $B$, then we\nmean that $X$ is an algebraic space over $S$ which comes equipped with\nstructure morphism $X \\to B$. Moreover, we try to reserve the letter $T$\nto denote a ``test'' scheme over $B$. In other words $T$ is a scheme\nwhich comes equipped with a structure morphism $T \\to B$.\nIn this situation we denote $X(T)$ for the set of $T$-valued points of\n$X$ {\\it over} $B$. In a formula:\n$$\nX(T) = \\Mor_B(T, X).\n$$\nSimilarly, given a second algebraic space $Y$ over $B$ we set\n$$\nX(Y) = \\Mor_B(Y, X).\n$$\nSuppose we are given algebraic spaces $X$, $Y$ over $B$ as above and a\nmorphism $f : X \\to Y$ over $B$. For any scheme $T$ over $B$ we get an\ninduced map of sets\n$$\nf : X(T) \\longrightarrow Y(T)\n$$\nwhich is functorial in the scheme $T$ over $B$.\nAs $f$ is a map of sheaves on $(\\Sch/S)_{fppf}$ over the\nsheaf $B$ it is clear that $f$ determines and is determined by this rule.\nMore generally, we use the same notation for maps between fibre\nproducts. For example, if\n$X$, $Y$, $Z$ are algebraic spaces over $B$, and if\n$m : X \\times_B Y \\to Z \\times_B Z$ is\na morphism of algebraic spaces over $B$, then we think of $m$ as corresponding\nto a collection of maps between $T$-valued points\n$$\nX(T) \\times Y(T) \\longrightarrow Z(T) \\times Z(T).\n$$\nAnd so on and so forth."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 110
+      "source_line": 110,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
@@ -95,28 +98,38 @@
           "source_line": 235,
           "tex": "\\begin{definition}\n\\label{definition-group-space}\nLet $B \\to S$ as in Section \\ref{section-notation}.\n\\begin{enumerate}\n\\item A {\\it group algebraic space over $B$} is a pair $(G, m)$, where\n$G$ is an algebraic space over $B$ and $m : G \\times_B G \\to G$ is\na morphism of algebraic spaces over $B$ with the following property:\nFor every scheme $T$ over $B$ the pair $(G(T), m)$ is a group.\n\\item A {\\it morphism $\\psi : (G, m) \\to (G', m')$ of\ngroup algebraic spaces over $B$}\nis a morphism $\\psi : G \\to G'$ of algebraic spaces over $B$ such that for\nevery $T/B$ the induced map $\\psi : G(T) \\to G'(T)$ is a homomorphism\nof groups.\n\\end{enumerate}\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 293
+      "source_line": 293,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 509
+      "source_line": 509,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 594
+      "source_line": 594,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 745
+      "source_line": 745,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 8,
+  "stage_a_source_hold_candidate_count": 8,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 5
 }
