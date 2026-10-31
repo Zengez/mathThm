@@ -1,0 +1,194 @@
+{
+  "schema": "maththm.phase2.chat-stage-a1-source-review-notes.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviews": {
+    "lemma-cocontinuous-morphism-topoi": {
+      "hypotheses": [
+        "A cocontinuous functor u:C→D of sites."
+      ],
+      "conclusions": [
+        "The functors g_*=_s u and g^-1=(u^p −)# define a morphism of topoi Sh(C)→Sh(D)."
+      ],
+      "logical_form": "morphism_construction",
+      "preface_key": "coc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-composition-cocontinuous": {
+      "hypotheses": [
+        "Cocontinuous functors u:C→D, v:D→E."
+      ],
+      "conclusions": [
+        "The composite v∘u is cocontinuous and its associated topos morphism equals the composite of the associated topos morphisms."
+      ],
+      "logical_form": "composition",
+      "preface_key": "coc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-when-shriek": {
+      "hypotheses": [
+        "A functor u:C→D both continuous and cocontinuous."
+      ],
+      "conclusions": [
+        "Sheafification in g^-1=(u^p −)# is unnecessary, with evaluation G(u(U)).",
+        "g^-1 admits a left adjoint g_!=(u_p −)#.",
+        "g^-1 preserves arbitrary limits and colimits."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "coc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-have-functor-other-way": {
+      "hypotheses": [
+        "Cocontinuous u:C→D with a right adjoint v:D→C, and the associated topos morphism g."
+      ],
+      "conclusions": [
+        "For a sheaf F on C, g_*F=v^pF evaluated on V as F(v(V)).",
+        "For a sheaf G on D, g^-1G=(v_pG)#."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "adj",
+      "fix_kind": "morphism",
+      "hold_reason": ""
+    },
+    "lemma-have-functor-other-way-morphism": {
+      "hypotheses": [
+        "The data of a cocontinuous u:C→D, right adjoint v:D→C, topos morphism g associated to u, and the additional condition that v is continuous."
+      ],
+      "conclusions": [
+        "v defines a morphism of sites f:C→D whose associated morphism of topoi is g."
+      ],
+      "logical_form": "implication",
+      "preface_key": "adj",
+      "fix_kind": "inherited",
+      "hold_reason": ""
+    },
+    "lemma-continuous-with-continuous-left-adjoint": {
+      "hypotheses": [
+        "A continuous functor v:D→C between sites with a left adjoint u:C→D."
+      ],
+      "conclusions": [
+        "u is cocontinuous.",
+        "The associated g has g_*F=v^pF and g^-1G=(v_pG)#; v defines a morphism of sites whose associated topos morphism equals g."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "adj",
+      "fix_kind": "results",
+      "hold_reason": ""
+    },
+    "lemma-have-left-adjoint": {
+      "hypotheses": [
+        "A functor u:C→D both continuous and cocontinuous, associated morphism g, and the additional alternatives of a left adjoint w:D→C."
+      ],
+      "conclusions": [
+        "If w is left adjoint to u, then g_!F=(w^pF)# and g_! is exact.",
+        "If w is also continuous then g_! has a left adjoint.",
+        "If w is cocontinuous then g_!=h^-1 and g^-1=h_* for the topos morphism h from w."
+      ],
+      "logical_form": "enumerated_conditionals",
+      "preface_key": "coc",
+      "fix_kind": "shriek",
+      "hold_reason": ""
+    },
+    "lemma-existence-lower-shriek": {
+      "hypotheses": [
+        "A morphism of topoi f:Sh(D)→Sh(C); a set E⊂Ob(D) satisfying the representability of each evaluation f^-1F(V) by a sheaf on C and covering every object of D."
+      ],
+      "conclusions": [
+        "The functor f^-1 admits a left adjoint f_!."
+      ],
+      "logical_form": "existence_adjunction",
+      "preface_key": "",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-describe-j-shriek": {
+      "hypotheses": [
+        "A site C, U∈Ob(C), and presheaf G on C/U."
+      ],
+      "conclusions": [
+        "j_U!(G#) is the sheafification of the presheaf V↦coprod_{V→U}G(V→U)."
+      ],
+      "logical_form": "construction",
+      "preface_key": "loc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-describe-j-shriek-representable": {
+      "hypotheses": [
+        "A site C, U∈Ob(C), and X/U∈Ob(C/U)."
+      ],
+      "conclusions": [
+        "j_U!(h_{X/U}#)=h_X#."
+      ],
+      "logical_form": "canonical_isomorphism",
+      "preface_key": "loc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-essential-image-j-shriek": {
+      "hypotheses": [
+        "A site C and object U."
+      ],
+      "conclusions": [
+        "Extension by empty set j_U! yields an equivalence Sh(C/U)≃Sh(C)/h_U#."
+      ],
+      "logical_form": "equivalence_of_categories",
+      "preface_key": "loc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-j-shriek-commutes-equalizers-fibre-products": {
+      "hypotheses": [
+        "A site C and object U."
+      ],
+      "conclusions": [
+        "j_U! preserves fibre products and equalizers, and more generally finite connected limits.",
+        "In particular j_U! sends subobjects to subobjects."
+      ],
+      "logical_form": "preservation_with_consequence",
+      "preface_key": "loc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-j-shriek-reflects-injections-surjections": {
+      "hypotheses": [
+        "A site C and object U."
+      ],
+      "conclusions": [
+        "j_U! reflects injective and surjective maps of sheaves."
+      ],
+      "logical_form": "reflection",
+      "preface_key": "loc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-compute-j-shriek-restrict": {
+      "hypotheses": [
+        "A site C, object U, and sheaf F on C."
+      ],
+      "conclusions": [
+        "j_U!j_U^-1 F=F×h_U#."
+      ],
+      "logical_form": "canonical_identity",
+      "preface_key": "loc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-relocalize": {
+      "hypotheses": [
+        "A site C and morphism f:V→U of C."
+      ],
+      "conclusions": [
+        "The induced forgetful functor j:C/V→C/U gives a commuting triangle of continuous/cocontinuous site functors and their topos morphisms, and agrees with localization of C/U at V/U.",
+        "The composite identities for j_!, j^-1, and j_* are the three equations stated."
+      ],
+      "logical_form": "construction_and_composite_equalities",
+      "preface_key": "loc",
+      "fix_kind": "",
+      "hold_reason": ""
+    }
+  }
+}
