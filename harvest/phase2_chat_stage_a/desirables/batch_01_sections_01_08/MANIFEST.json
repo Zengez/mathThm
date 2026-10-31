@@ -25,7 +25,7 @@
   "output_file": "harvest/phase2_chat_stage_a/desirables/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": true,
+  "stage_a_mathematical_analysis_pending": false,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -52,8 +52,14 @@
           "source_line": 113,
           "tex": "\\noindent\nWe have a chapter on this material, see\nFormal Deformation Theory, Section \\ref{formal-defos-section-introduction}.\nWe have a chapter discussing examples of the general theory, see\nDeformation Problems, Section \\ref{examples-defos-section-introduction}.\nWe have a chapter, see\nDeformation Theory, Section \\ref{defos-section-introduction}\nwhich discusses deformations of rings (and modules),\ndeformations of ringed spaces (and sheaves of modules),\ndeformations of ringed topoi (and sheaves of modules).\nIn this chapter we use the naive cotangent complex\nto describe obstructions, first order deformations, and\ninfinitesimal automorphisms. This material has found some\napplications to algebraicity of moduli stacks in later chapters.\nThere is also a chapter discussing the full cotangent complex, see\nCotangent, Section \\ref{cotangent-section-introduction}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 0
 }
