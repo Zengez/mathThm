@@ -1,0 +1,296 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-handoff.v1",
+  "chapter": "sites-cohomology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "working_branch": "work/phase2-stage-a-context-enrichment",
+  "source_section_count": 53,
+  "candidate_bearing_section_count": 45,
+  "source_start_line": 17,
+  "source_end_line": 14428,
+  "active_candidate_total": 216,
+  "stage_a_ready_for_independent_stage_b": 211,
+  "stage_a_further_work_needed": 5,
+  "unprocessed_active_candidates": 0,
+  "independently_stage_b_validated_by_this_run": 0,
+  "phase3_eligible_promoted_by_this_run": 0,
+  "proofs_screened_by_this_run": 0,
+  "source_context_entries": 82,
+  "section_checkpoints": 53,
+  "batch_count": 15,
+  "validation": {
+    "complete_source_section_coverage": true,
+    "all_active_source_candidate_ids_accounted_for_exactly_once": true,
+    "source_inventory_candidate_ids_fnva32": 3705989828,
+    "manifests_candidate_ids_fnva32": 3705989828,
+    "manifest_ready_and_hold_totals_reconciled": true,
+    "global_further_work_registry_reconciled": true,
+    "context_scope_and_checkpoint_continuity_checked": true,
+    "proof_and_stage_b_status_unchanged": true,
+    "one_expected_expanded_reference": "lemma-cohomology-bigger-site original_source_statement_tex retained; expanded statement replaces cross-reference with explicit pinned external premises."
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "sections": [
+        1,
+        8
+      ],
+      "candidates": 10,
+      "ready": 10,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 2,
+      "sections": [
+        9,
+        10
+      ],
+      "candidates": 15,
+      "ready": 15,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_02_sections_09_10/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_02_sections_09_10/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_02_sections_09_10/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_02_sections_09_10/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 3,
+      "sections": [
+        11,
+        15
+      ],
+      "candidates": 18,
+      "ready": 18,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 4,
+      "sections": [
+        16,
+        17
+      ],
+      "candidates": 18,
+      "ready": 18,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_04_sections_16_17/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_04_sections_16_17/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_04_sections_16_17/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_04_sections_16_17/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 5,
+      "sections": [
+        18,
+        20
+      ],
+      "candidates": 22,
+      "ready": 22,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_05_sections_18_20/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_05_sections_18_20/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_05_sections_18_20/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_05_sections_18_20/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 6,
+      "sections": [
+        21,
+        23
+      ],
+      "candidates": 16,
+      "ready": 16,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_06_sections_21_23/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_06_sections_21_23/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_06_sections_21_23/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_06_sections_21_23/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 7,
+      "sections": [
+        24,
+        25
+      ],
+      "candidates": 5,
+      "ready": 5,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_07_sections_24_25/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_07_sections_24_25/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_07_sections_24_25/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_07_sections_24_25/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 8,
+      "sections": [
+        26,
+        29
+      ],
+      "candidates": 8,
+      "ready": 8,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 9,
+      "sections": [
+        30,
+        30
+      ],
+      "candidates": 8,
+      "ready": 8,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_09_sections_30_30/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_09_sections_30_30/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_09_sections_30_30/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_09_sections_30_30/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 10,
+      "sections": [
+        31,
+        33
+      ],
+      "candidates": 11,
+      "ready": 10,
+      "further_work_needed": 1,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 11,
+      "sections": [
+        34,
+        36
+      ],
+      "candidates": 16,
+      "ready": 16,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_11_sections_34_36/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_11_sections_34_36/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_11_sections_34_36/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_11_sections_34_36/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 12,
+      "sections": [
+        37,
+        42
+      ],
+      "candidates": 12,
+      "ready": 10,
+      "further_work_needed": 2,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_12_sections_37_42/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_12_sections_37_42/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_12_sections_37_42/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_12_sections_37_42/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 13,
+      "sections": [
+        43,
+        45
+      ],
+      "candidates": 18,
+      "ready": 16,
+      "further_work_needed": 2,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 14,
+      "sections": [
+        46,
+        48
+      ],
+      "candidates": 22,
+      "ready": 22,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_14_sections_46_48/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_14_sections_46_48/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_14_sections_46_48/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_14_sections_46_48/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 15,
+      "sections": [
+        49,
+        53
+      ],
+      "candidates": 17,
+      "ready": 17,
+      "further_work_needed": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-cohomology/batch_15_sections_49_53/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-cohomology/batch_15_sections_49_53/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/sites-cohomology/batch_15_sections_49_53/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/sites-cohomology/batch_15_sections_49_53/SECTION_CHECKPOINTS.jsonl"
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "section": 33,
+      "source_label": "lemma-base-change-cup-product",
+      "source_line": 8528,
+      "classification": "malformed_source_diagram",
+      "issue": "Source bottom-left vertex malformed: unbalanced parentheses and apparent wrong tensor coefficient ring; verify corrected diagram and arrow orientations",
+      "batch": 10,
+      "record_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/RECONSTRUCTIONS.jsonl",
+      "global_registry": "harvest/phase2_chat_stage_a/FURTHER_WORK_NEEDED.jsonl"
+    },
+    {
+      "section": 38,
+      "source_label": "lemma-compute-pi-shriek",
+      "source_line": 9959,
+      "classification": "proof_only_transition_maps",
+      "issue": "The presheaf transition/restriction maps are deferred to a proof and must be reconstructed/coherence-checked",
+      "batch": 12,
+      "record_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_12_sections_37_42/RECONSTRUCTIONS.jsonl",
+      "global_registry": "harvest/phase2_chat_stage_a/FURTHER_WORK_NEEDED.jsonl"
+    },
+    {
+      "section": 40,
+      "source_label": "lemma-compute-left-derived-g-shriek",
+      "source_line": 10677,
+      "classification": "proof_only_indexing_definitions",
+      "issue": "The categories I_U, coefficients F'_U and restriction maps are only defined in a proof and must be reconstructed",
+      "batch": 12,
+      "record_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_12_sections_37_42/RECONSTRUCTIONS.jsonl",
+      "global_registry": "harvest/phase2_chat_stage_a/FURTHER_WORK_NEEDED.jsonl"
+    },
+    {
+      "section": 43,
+      "source_label": "lemma-QC-hom-out-of-plus-topology",
+      "source_line": 11677,
+      "classification": "type_mismatch",
+      "issue": "Source equates a Hom set with an RHom complex; determine intended cohomological degree/target",
+      "batch": 13,
+      "record_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/RECONSTRUCTIONS.jsonl",
+      "global_registry": "harvest/phase2_chat_stage_a/FURTHER_WORK_NEEDED.jsonl"
+    },
+    {
+      "section": 45,
+      "source_label": "lemma-pseudo-coherent-pullback",
+      "source_line": 12109,
+      "classification": "coefficient_variance_mismatch",
+      "issue": "Source declares E∈D(O_C) while Lf^* requires a derived object over O_D",
+      "batch": 13,
+      "record_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/RECONSTRUCTIONS.jsonl",
+      "global_registry": "harvest/phase2_chat_stage_a/FURTHER_WORK_NEEDED.jsonl"
+    }
+  ],
+  "stage_b_instructions": "Read original_source_statement_tex, hypotheses, conclusions, statement, source evidence and per-section context ledger before independent reconstruction; process ONLY decision=reconstruction_completed_awaiting_independent_stage_b_validation. Keep decision=further_work_needed as a separate task/queue until source/proof-only or type-defect is adjudicated. Do not treat Stage A success as proof review, independent validation, or Phase3 admission."
+}
