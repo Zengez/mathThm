@@ -77,15 +77,11 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.7f749ac6e4fef6f1743231c2",
-    "candidate.stacks.9926d942ee7f3ff8648b4a65",
     "candidate.stacks.3c5267eca17d0201142567d2",
     "candidate.stacks.bc46ed4444437841910dbc5c",
     "candidate.stacks.9e49adaecc425937d7fd39bc",
     "candidate.stacks.7fc8f7f42ae56944a987ac8a",
     "candidate.stacks.b52043db7280d1b51b489c2d",
-    "candidate.stacks.c9134d7cf84f4df888d3158f",
-    "candidate.stacks.423d39d2ffaf2a9592fd08f6",
     "candidate.stacks.4f8a5f3b5350187abeca991f",
     "candidate.stacks.2c6f9668e763d0f624e01691"
   ],
@@ -118,7 +114,7 @@
       "section": 5,
       "kind": "candidates",
       "source_line": 1422,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 6,
@@ -136,7 +132,7 @@
       "section": 8,
       "kind": "candidates",
       "source_line": 2437,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 9,
@@ -146,11 +142,11 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 33,
-  "stage_a_remaining_work_candidate_count": 14,
-  "stage_a_source_hold_candidate_count": 11,
-  "stage_a_ready_for_codex_section_count": 2,
-  "stage_a_remaining_work_section_count": 5,
+  "stage_a_ready_for_codex_candidate_count": 38,
+  "stage_a_remaining_work_candidate_count": 9,
+  "stage_a_source_hold_candidate_count": 7,
+  "stage_a_ready_for_codex_section_count": 4,
+  "stage_a_remaining_work_section_count": 3,
   "stage_a_work_pending": true,
   "stage_a_readiness_rule": "conservative_standalone_screen_v1"
 }
