@@ -312,44 +312,52 @@
       "section": 40,
       "kind": "candidates",
       "source_line": 5168,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 41,
+      "kind": "context_only",
+      "source_line": 5705,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "snippets": []
     },
     {
       "section": 42,
       "kind": "candidates",
       "source_line": 5730,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 43,
       "kind": "candidates",
       "source_line": 5912,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 44,
       "kind": "candidates",
       "source_line": 6096,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 45,
       "kind": "candidates",
       "source_line": 6271,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 42,
-  "stage_a_remaining_work_candidate_count": 20,
+  "stage_a_ready_for_codex_candidate_count": 62,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 17,
-  "stage_a_remaining_work_section_count": 5,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_section_count": 22,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "stage_a_further_work_candidate_count": 0,
   "stage_a_further_work_section_count": 0,
-  "stage_a_dispositioned_section_count": 24,
-  "processing_note": "Etale Cohomology §§16–39 dispositioned in original source order, including context-only §§24–25,34,37–38. Full geometric stalk/support, Henselian decomposition, inverse-image sheaf versus ringed pullback and big/small site distinctions explicit. Independent Stage B still unstarted; §§40–45 pending.",
+  "stage_a_dispositioned_section_count": 30,
+  "processing_note": "Source-order Stage A through section 45; source theorem hypotheses fully preserved, definitions of (A)/(B)/(C), big/small topos, universal homeomorphism, and sheaf-structure comparison expanded. Stage B not yet done.",
   "stage_a_section_mapping_pending": false
 }
