@@ -65,3 +65,36 @@ jobs:
           name: node-regression-log
           path: node-regression.log
           if-no-files-found: ignore
+
+  proof-free-source-smoke:
+    name: Pinned Stacks proof-free source smoke
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify real pinned Stacks chapter masking
+        shell: bash
+        run: |
+          python - <<'PY'
+          from urllib.request import urlopen
+          from scripts.phase2_safe_source import mask_source
+          rev = "a04446e57ec1fbc252a871afcec7752fb2807b14"
+          checks = {
+              "flat.tex": (r"\label{lemma-h}", r"\label{remark-how-in-RG}"),
+              "more-morphisms.tex": (r"\label{theorem-openness-flatness}", r"\begin{proof}"),
+          }
+          for name, (required, forbidden) in checks.items():
+              url = f"https://raw.githubusercontent.com/stacks/stacks-project/{rev}/{name}"
+              with urlopen(url, timeout=30) as response:
+                  original = response.read().decode("utf-8")
+              masked = mask_source(original)
+              assert len(masked.splitlines()) == len(original.splitlines()), name
+              assert required in masked, f"{name}: missing expected mathematical statement"
+              assert forbidden not in masked, f"{name}: exposed forbidden context"
+              assert r"\begin{proof}" not in masked
+              assert r"\begin{remark}" not in masked
+              print(f"{name}: PASS, {len(masked.splitlines())} line positions retained")
+          PY
