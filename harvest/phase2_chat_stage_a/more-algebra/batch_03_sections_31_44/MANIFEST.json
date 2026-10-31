@@ -113,7 +113,7 @@
       "kind": "candidates",
       "source_line": 7206,
       "active_candidate_count": 16,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 32,
@@ -208,11 +208,11 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 70,
-  "stage_a_remaining_work_candidate_count": 2,
+  "stage_a_ready_for_codex_candidate_count": 71,
+  "stage_a_remaining_work_candidate_count": 1,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 12,
-  "stage_a_remaining_work_section_count": 2,
+  "stage_a_ready_for_codex_section_count": 13,
+  "stage_a_remaining_work_section_count": 1,
   "stage_a_work_pending": true,
   "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031"
 }
