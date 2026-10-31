@@ -1,4 +1,4 @@
-# Topology chapter — Stage A progress record (complete) (2026-10-31)
+# Topology chapter — Stage A completion report (2026-10-31) (2026-10-31)
 
 Pinned Stacks revision: `a04446e57ec1fbc252a871afcec7752fb2807b14`. Working branch: `work/phase2-stage-a-context-enrichment`.
 
@@ -38,3 +38,7 @@ The source conclusion list ends with `\\item add more here.`, an unfinished math
 Construction-time JSON and JSONL serialization, 156 canonical IDs unique and aligned to pinned source label/section/line, 0 overlaps with the two historical approval files, 30 source section checkpoints, 155 ready + 1 held, 1 hold appended without loss to the global registry, no direct `\\ref` or `add more here` in ready statements, no original Stacks source or proof files modified.
 
 **Not run:** repository-wide Python regression suite, independent Codex Stage B semantic/equivalence/proof validation. Stage A readiness is not theorem approval.
+
+## Final scope-aware metadata audit
+
+Eight additional local candidate partitions (topological characterizations, equivalences, and Stone–Čech existence/consequence) were reconciled to the full source statement. No change to 155 ready / 1 held.

@@ -38,3 +38,9 @@ The source conclusion list ends with `\\item add more here.`, an unfinished math
 Construction-time JSON and JSONL serialization, 156 canonical IDs unique and aligned to pinned source label/section/line, 0 overlaps with the two historical approval files, 30 source section checkpoints, 155 ready + 1 held, 1 hold appended without loss to the global registry, no direct `\\ref` or `add more here` in ready statements, no original Stacks source or proof files modified.
 
 **Not run:** repository-wide Python regression suite, independent Codex Stage B semantic/equivalence/proof validation. Stage A readiness is not theorem approval.
+
+## Final scope-aware hypothesis/conclusion metadata audit
+
+The final review reconciled eight candidate-side hypothesis/conclusion partitions with the complete pinned statement, including the two topology-characterization lemmas, four standalone biconditionals, the Jacobson locality biconditional with its additional consequence, and the Stone–Čech compactification existence/consequence. This changes **no readiness decisions**; it ensures that conclusions do not accidentally appear as assumptions and additional source declarations do not appear as theorem conclusions.
+
+Final tally remains **30/30 sections**, **156 canonical active candidates**, **155 ready**, and **1 precise further-work hold**. The original Stacks statements, Pass 1/2 records, and independent Codex records were not changed. This audit and the previous structural checks are not equivalent to a full regression test suite or independent Stage B mathematical validation.
