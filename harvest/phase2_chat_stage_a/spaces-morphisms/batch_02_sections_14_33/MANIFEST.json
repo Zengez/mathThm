@@ -170,25 +170,74 @@
       "section": 14,
       "kind": "candidates",
       "source_line": 2484,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.c70fa54582ed49d0b6bd6393",
+        "candidate.stacks.9b911ed32a7beef6b94ad6c0",
+        "candidate.stacks.c2f1d6b7af23e3f31965c12f",
+        "candidate.stacks.86def566dee954475081819b",
+        "candidate.stacks.375e8a2d809204f3470255b5"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Closed immersions and quasi-coherent sheaves",
+      "stage_a_source_context_summary": "§14 reviewed in pinned source: 5 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 15,
       "kind": "candidates",
       "source_line": 2786,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e9f6beb01e430b7f58889000",
+        "candidate.stacks.bfe7c54a1c1b10427bef0d71",
+        "candidate.stacks.2a9d9fc530555c38f0a87534"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Supports of modules",
+      "stage_a_source_context_summary": "§15 reviewed in pinned source: 3 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 16,
       "kind": "candidates",
       "source_line": 2976,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.1001e518ae029281efa56a10",
+        "candidate.stacks.46da38d07ce2cb6cd07f5d6d",
+        "candidate.stacks.80ef9e8b7e213e0576896ec0",
+        "candidate.stacks.d6df2217a565d313839bbcae",
+        "candidate.stacks.9cb0636895e5102e798bf469",
+        "candidate.stacks.246678b9dab1d46cf08a6211"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Scheme theoretic image",
+      "stage_a_source_context_summary": "§16 reviewed in pinned source: 6 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 17,
       "kind": "candidates",
       "source_line": 3197,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3152d114eb8ee1c864c5cc77",
+        "candidate.stacks.fcbbde1806bf57e066dcce0f",
+        "candidate.stacks.d40a6f61bd4cdef8587fd54c",
+        "candidate.stacks.62598053e754e19d5a581991",
+        "candidate.stacks.067a2e2725b8c4eb852e8db0",
+        "candidate.stacks.d1aedc2931a67560f9157122",
+        "candidate.stacks.da578199f68c8b65ced3e89b"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Scheme theoretic closure and density",
+      "stage_a_source_context_summary": "§17 reviewed in pinned source: 7 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 18,
@@ -200,37 +249,106 @@
           "tex": "\\begin{definition}\n\\label{definition-dominant}\nLet $S$ be a scheme. A morphism $f : X \\to Y$ of algebraic spaces over $S$ is\ncalled {\\it dominant} if the image of $|f| : |X| \\to |Y|$ is dense in $|Y|$.\n\\end{definition}"
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Dominant morphisms",
+      "stage_a_source_context_summary": "§18 reviewed in pinned source: 0 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 19,
       "kind": "candidates",
       "source_line": 3413,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.cfad802adc52d504580acad5",
+        "candidate.stacks.8d1d4564bb7ea85463fd98df",
+        "candidate.stacks.ca1eb7d56ce408de5c6f515a",
+        "candidate.stacks.382ed5be7f1038de042effab",
+        "candidate.stacks.6333f33759ebfdd9726e2e6d"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Universally injective morphisms",
+      "stage_a_source_context_summary": "§19 reviewed in pinned source: 5 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 20,
       "kind": "candidates",
       "source_line": 3657,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.bac6077c9f9210b014080a03",
+        "candidate.stacks.2292de3db6932860aa74c144",
+        "candidate.stacks.7bc0c2726839732dbc3a285e",
+        "candidate.stacks.ae6e45c09d7721b6c70700f7",
+        "candidate.stacks.78f8d1995c27bcd2ac25cff0",
+        "candidate.stacks.107b82e1ca3295dda2b349d9",
+        "candidate.stacks.fe907dc5ff1284ca065795fc",
+        "candidate.stacks.baa1d1ba2a665865561b9d60",
+        "candidate.stacks.e8a1a0ca949ee068484cddf7"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Affine morphisms",
+      "stage_a_source_context_summary": "§20 reviewed in pinned source: 9 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 21,
       "kind": "candidates",
       "source_line": 3960,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.73fac56271adce61b8220e03",
+        "candidate.stacks.58a227bbe9fa28db9ac1afaa",
+        "candidate.stacks.baf39500c841d11e1ab47a3a",
+        "candidate.stacks.a5d1e0b5863530697fd5e807",
+        "candidate.stacks.f1195ff5aeb09a140471c637"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Quasi-affine morphisms",
+      "stage_a_source_context_summary": "§21 reviewed in pinned source: 5 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 22,
       "kind": "candidates",
       "source_line": 4085,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.904e75edf097679ece96cc91"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.904e75edf097679ece96cc91"
+      ],
+      "stage_a_source_context_heading": "Types of morphisms \\'etale local on source-and-target",
+      "stage_a_source_context_summary": "§22 reviewed in pinned source: 0 standalone and 1 held; definitions and theorem scope checked."
     },
     {
       "section": 23,
       "kind": "candidates",
       "source_line": 4333,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f0e7dbb58e5c1ac52197bf9c",
+        "candidate.stacks.f7837826ea776d892bb56ecd",
+        "candidate.stacks.27d21b1761ba43391582174a",
+        "candidate.stacks.c103e00304b5d647db1667aa",
+        "candidate.stacks.d55040a7638237ca304e9a51",
+        "candidate.stacks.3b3222f29770321841928a97"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Morphisms of finite type",
+      "stage_a_source_context_summary": "§23 reviewed in pinned source: 6 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 24,
@@ -294,11 +412,15 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 99,
+  "stage_a_ready_for_codex_candidate_count": 46,
+  "stage_a_remaining_work_candidate_count": 53,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_ready_for_codex_section_count": 8,
   "stage_a_remaining_work_section_count": 19,
   "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_dispositioned_section_count": 10,
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "processing_note": "Regular Stage A processed through spaces-morphisms.tex §23; 15-section run batch4. §§24–33 pending."
 }

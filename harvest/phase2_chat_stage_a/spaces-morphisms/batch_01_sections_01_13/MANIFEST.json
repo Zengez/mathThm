@@ -257,43 +257,104 @@
       "section": 9,
       "kind": "candidates",
       "source_line": 1290,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d2b783b81b7c3bb4ee814bdf",
+        "candidate.stacks.934729bca67ef0db607e368c",
+        "candidate.stacks.4ac866b5d870a2cf0ae26d0f",
+        "candidate.stacks.b40809d3d287b8348a750b17",
+        "candidate.stacks.287315307b16b5a725ed2276",
+        "candidate.stacks.06733392a866b81feb798ae1"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Universally closed morphisms",
+      "stage_a_source_context_summary": "§9 reviewed in pinned source: 6 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 10,
       "kind": "candidates",
       "source_line": 1630,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.7313e44ee9713bb3ff9035ff",
+        "candidate.stacks.b35c692c95fbf6d16d0405c3",
+        "candidate.stacks.cefc8c0542821946c71b2dd9",
+        "candidate.stacks.a147bf6f046fe2725cc77838",
+        "candidate.stacks.1d0f529206bc0260f4dbf68d",
+        "candidate.stacks.790ddda2e6762f923bf35f70",
+        "candidate.stacks.24caf5b5935a828afb48d543",
+        "candidate.stacks.e9c44f9099b70a7297a4b236"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Monomorphisms",
+      "stage_a_source_context_summary": "§10 reviewed in pinned source: 8 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 11,
       "kind": "candidates",
       "source_line": 1829,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.cc37681c9f4197674d2bc609",
+        "candidate.stacks.8c1a2622da1cfc9025b1df9e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Pushforward of quasi-coherent sheaves",
+      "stage_a_source_context_summary": "§11 reviewed in pinned source: 2 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 12,
       "kind": "candidates",
       "source_line": 1971,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f12d3b7d004309aa3aa24dc9",
+        "candidate.stacks.676913bdec783753042215a7",
+        "candidate.stacks.4da3528af8e2ca7440c6fc94",
+        "candidate.stacks.7f93f9313b26f5a81a7d2d00"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Immersions",
+      "stage_a_source_context_summary": "§12 reviewed in pinned source: 4 standalone and 0 held; definitions and theorem scope checked."
     },
     {
       "section": 13,
       "kind": "candidates",
       "source_line": 2202,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.81d633cfc32bdfb68b7274da",
+        "candidate.stacks.d58d2c1ceed951e7dd2c3c1c",
+        "candidate.stacks.27d26d5837101ea7a23c6c35",
+        "candidate.stacks.9c7f58ed5b0fc7e98630db01"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.9c7f58ed5b0fc7e98630db01"
+      ],
+      "stage_a_source_context_heading": "Closed immersions",
+      "stage_a_source_context_summary": "§13 reviewed in pinned source: 3 standalone and 1 held; definitions and theorem scope checked."
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 31,
-  "stage_a_remaining_work_candidate_count": 24,
+  "stage_a_ready_for_codex_candidate_count": 54,
+  "stage_a_remaining_work_candidate_count": 1,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 5,
+  "stage_a_ready_for_codex_section_count": 9,
   "stage_a_remaining_work_section_count": 10,
-  "stage_a_work_pending": true,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "conservative_standalone_screen_v1",
-  "stage_a_dispositioned_section_count": 8,
-  "stage_a_further_work_candidate_count": 0,
-  "stage_a_further_work_section_count": 0,
-  "processing_note": "Regular Stage A completed spaces-morphisms §§1–8; continuous source-matched section checkpoints. Morphisms §§9–13 remain pending, next §9."
+  "stage_a_dispositioned_section_count": 13,
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "processing_note": "Regular Stage A processed through spaces-morphisms.tex §13; 15-section run batch4. §§1–13 complete."
 }
