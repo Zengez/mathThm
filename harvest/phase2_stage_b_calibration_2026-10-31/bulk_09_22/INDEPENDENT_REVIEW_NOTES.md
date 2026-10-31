@@ -1,0 +1,3 @@
+# Independent review: selected sections 9–22
+
+All 55 supplied eligible formulations were compared with pinned, proof-masked source statements and section context read first. No additional mathematical defect was found after correction. Component-count well-definedness is properly a conclusion; etale-neighbourhood equalization retains its residue-map guard. Notable scope checks include ordinary versus geometric reducedness, at-least versus exact component counts, g etale only on the image of f, and local versus global finite-presentation assumptions. No proofs assessed. Review covers selected eligible IDs only.

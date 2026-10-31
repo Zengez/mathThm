@@ -1,0 +1,51 @@
+[
+  {
+    "candidate_id": "candidate.stacks.987120c24d19b150efad96f0",
+    "source_label": "lemma-characterize-finite",
+    "corrections": [
+      "Removed equivalent conditions incorrectly assumed in common hypotheses."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.17b094515c03e6109f86713a",
+    "source_label": "lemma-universally-injective-to-completion",
+    "corrections": [
+      "Named the ring map and ideal I explicitly in structured hypotheses."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.0110203899db2eee62230914",
+    "source_label": "lemma-universally-injective-to-completion-flat",
+    "corrections": [
+      "Named the ring map and ideal I explicitly in structured hypotheses."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.386fe2b8cb72fd8fa29f6b4e",
+    "source_label": "lemma-induction-step",
+    "corrections": [
+      "Moved existence of α and five alternative conditions out of hypotheses; equivalence applies to every α satisfying the displayed fibre isomorphism."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.a3a14d13f90d0f4c5254487a",
+    "source_label": "proposition-flat-finite-type-finite-presentation-domain",
+    "corrections": [
+      "Separated the two independent flatness guards instead of globally assuming both."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.ca608e6e042931079c0d2742",
+    "source_label": "lemma-base-change-universally",
+    "corrections": [
+      "Removed both equivalence sides incorrectly imposed as hypotheses; preserved distinct local and global equivalences."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.e7874ef8c9882088acba44fc",
+    "source_label": "lemma-flat-descend-pure",
+    "corrections": [
+      "Restored two independent purity guards instead of jointly assuming both."
+    ]
+  }
+]

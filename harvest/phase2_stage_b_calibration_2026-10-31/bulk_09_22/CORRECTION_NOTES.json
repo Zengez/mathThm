@@ -1,0 +1,23 @@
+[
+  {
+    "candidate_id": "candidate.stacks.48a819d4656c77d2d8909ce0",
+    "source_label": "lemma-base-change-fibres-nr-geometrically-irreducible-components",
+    "corrections": [
+      "Moved well-definedness from a purported hypothesis into the conclusion, retaining arbitrary base-change compatibility."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.1954ef77c48d0ca82d8406c5",
+    "source_label": "lemma-base-change-fibres-nr-geometrically-connected-components",
+    "corrections": [
+      "Moved well-definedness from a purported hypothesis into the conclusion, retaining arbitrary base-change compatibility."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.77cf52268fec655c4e417140",
+    "source_label": "lemma-etale-neighbourhoods-not-quite-filtered",
+    "corrections": [
+      "Removed second-clause residue-map hypothesis from common assumptions and restored its scope in the equalization clause."
+    ]
+  }
+]
