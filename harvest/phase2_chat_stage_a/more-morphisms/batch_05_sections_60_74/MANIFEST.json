@@ -38,79 +38,100 @@
   "processing_sections": [
     {
       "section": 60,
-      "kind": "candidates",
-      "source_line": 17316
+      "kind": "context_only",
+      "source_line": 17316,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 61,
-      "kind": "candidates",
-      "source_line": 17686
+      "kind": "context_only",
+      "source_line": 17686,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 62,
-      "kind": "candidates",
-      "source_line": 18044
+      "kind": "context_only",
+      "source_line": 18044,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 63,
-      "kind": "candidates",
-      "source_line": 18794
+      "kind": "context_only",
+      "source_line": 18794,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 64,
-      "kind": "candidates",
-      "source_line": 18864
+      "kind": "context_only",
+      "source_line": 18864,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 65,
-      "kind": "candidates",
-      "source_line": 19235
+      "kind": "context_only",
+      "source_line": 19235,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 66,
-      "kind": "candidates",
-      "source_line": 19515
+      "kind": "context_only",
+      "source_line": 19515,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 67,
-      "kind": "candidates",
-      "source_line": 19697
+      "kind": "context_only",
+      "source_line": 19697,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 68,
-      "kind": "candidates",
-      "source_line": 20056
+      "kind": "context_only",
+      "source_line": 20056,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 69,
-      "kind": "candidates",
-      "source_line": 20278
+      "kind": "context_only",
+      "source_line": 20278,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 70,
-      "kind": "candidates",
-      "source_line": 20623
+      "kind": "context_only",
+      "source_line": 20623,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 71,
-      "kind": "candidates",
-      "source_line": 20728
+      "kind": "context_only",
+      "source_line": 20728,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 72,
-      "kind": "candidates",
-      "source_line": 20905
+      "kind": "context_only",
+      "source_line": 20905,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 73,
-      "kind": "candidates",
-      "source_line": 21421
+      "kind": "context_only",
+      "source_line": 21421,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 74,
-      "kind": "candidates",
-      "source_line": 21719
+      "kind": "context_only",
+      "source_line": 21719,
+      "stage_a_readiness": "no_active_candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_mathematical_analysis_pending": false,
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 0
 }

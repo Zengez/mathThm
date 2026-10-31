@@ -142,78 +142,99 @@
     {
       "section": 30,
       "kind": "candidates",
-      "source_line": 8408
+      "source_line": 8408,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 31,
       "kind": "candidates",
-      "source_line": 8558
+      "source_line": 8558,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 32,
       "kind": "candidates",
-      "source_line": 8896
+      "source_line": 8896,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 33,
       "kind": "candidates",
-      "source_line": 9190
+      "source_line": 9190,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 34,
       "kind": "candidates",
-      "source_line": 9730
+      "source_line": 9730,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 35,
       "kind": "candidates",
-      "source_line": 10085
+      "source_line": 10085,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 36,
       "kind": "candidates",
-      "source_line": 10291
+      "source_line": 10291,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 37,
       "kind": "candidates",
-      "source_line": 10459
+      "source_line": 10459,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 38,
       "kind": "candidates",
-      "source_line": 10582
+      "source_line": 10582,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 39,
       "kind": "candidates",
-      "source_line": 11006
+      "source_line": 11006,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 40,
       "kind": "candidates",
-      "source_line": 11814
+      "source_line": 11814,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 41,
       "kind": "candidates",
-      "source_line": 11897
+      "source_line": 11897,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 42,
       "kind": "candidates",
-      "source_line": 12203
+      "source_line": 12203,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 43,
       "kind": "candidates",
-      "source_line": 12304
+      "source_line": 12304,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 44,
       "kind": "candidates",
-      "source_line": 12536
+      "source_line": 12536,
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_mathematical_analysis_pending": true,
+  "stage_a_ready_for_codex_candidate_count": 29,
+  "stage_a_remaining_work_candidate_count": 43,
+  "stage_a_source_hold_candidate_count": 28,
+  "stage_a_ready_for_codex_section_count": 4,
+  "stage_a_remaining_work_section_count": 11
 }
