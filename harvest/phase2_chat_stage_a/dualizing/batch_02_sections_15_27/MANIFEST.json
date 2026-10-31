@@ -108,17 +108,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.4589b0edec908af31d53cada",
-    "candidate.stacks.0f7522933d13ef945f0ccc63",
-    "candidate.stacks.f93a7650ec0eae2f6bce2b35",
-    "candidate.stacks.883110f6828e00eab20b27cc",
-    "candidate.stacks.d7fe13aa82524a7a5e81df8c",
-    "candidate.stacks.1ab41e6839ef41afe7323a5f",
-    "candidate.stacks.db5a49e9e104cd15fc13f05c",
-    "candidate.stacks.8d8bee35de20324f95196a5f",
-    "candidate.stacks.0178a14819857acf09d23f49"
-  ],
+  "preliminary_source_holds": [],
   "processing_sections": [
     {
       "section": 15,
@@ -184,32 +174,32 @@
       "section": 25,
       "kind": "candidates",
       "source_line": 4790,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 26,
       "kind": "candidates",
       "source_line": 5217,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 27,
       "kind": "candidates",
       "source_line": 5373,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 65,
-  "stage_a_remaining_work_candidate_count": 10,
+  "stage_a_ready_for_codex_candidate_count": 74,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 9,
-  "stage_a_remaining_work_section_count": 3,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_section_count": 11,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
-  "stage_a_further_work_candidate_count": 0,
-  "stage_a_further_work_section_count": 0,
-  "stage_a_dispositioned_section_count": 10,
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "stage_a_dispositioned_section_count": 13,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Dualizing §§15–24 source-first; 27 candidates explicitly rewritten §§15–18 and 30 §§20–24, with context-only §19. Full definitions of Gorenstein, formal fibres, completion/henselization and algebraic φ^! (noncanonical choice) included; §§25–27 not yet dispositioned."
+  "processing_note": "Prepared candidates in source order through §27; source-only Stage A readiness; actual approval awaits independent Codex Stage B."
 }
