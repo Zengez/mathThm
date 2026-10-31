@@ -98,23 +98,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.cbdef4d90a5d5383897f1a06",
-    "candidate.stacks.30efa65405c48cdf29ea991e",
-    "candidate.stacks.f98909c0d778bb8d99b308c1",
-    "candidate.stacks.1b87b4e6f084d9da0e69666b",
-    "candidate.stacks.914c495ffb8efa3ddc133c47",
-    "candidate.stacks.a34b706af09642789d651161",
-    "candidate.stacks.0bbad67591e2fb491fe5180c",
-    "candidate.stacks.accff68115c9a6155a77a75d",
-    "candidate.stacks.089527b662a82e7e8c46f796",
-    "candidate.stacks.075b8e22a0051d2908bf743e",
-    "candidate.stacks.1c4324b4496ad917c08db850",
-    "candidate.stacks.f160fff82f49fe1b9afa0122",
-    "candidate.stacks.2e0987807cf1968fc68b6f94",
-    "candidate.stacks.5aab8464f96e2c3c2a62e8f5",
-    "candidate.stacks.eb84d1e094c9472871645483"
-  ],
+  "preliminary_source_holds": [],
   "processing_sections": [
     {
       "section": 1,
@@ -162,56 +146,56 @@
       "section": 8,
       "kind": "candidates",
       "source_line": 1032,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 9,
       "kind": "candidates",
       "source_line": 1219,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 10,
       "kind": "candidates",
       "source_line": 1547,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 11,
       "kind": "candidates",
       "source_line": 1696,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 12,
       "kind": "candidates",
       "source_line": 1936,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 13,
       "kind": "candidates",
       "source_line": 2198,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 14,
       "kind": "candidates",
       "source_line": 2438,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 49,
-  "stage_a_remaining_work_candidate_count": 15,
+  "stage_a_ready_for_codex_candidate_count": 64,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 6,
-  "stage_a_remaining_work_section_count": 7,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_section_count": 13,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "stage_a_further_work_candidate_count": 0,
   "stage_a_further_work_section_count": 0,
-  "stage_a_dispositioned_section_count": 7,
+  "stage_a_dispositioned_section_count": 14,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Sections 1–7 source-first dispositioned. 32 active candidates explicitly rewritten with definitions of essential morphism, injective hull, projective cover, indecomposable injective, Artinian Matlis and local hulls; the remaining §§8–14 remain pending."
+  "processing_note": "Dualizing §§1–14 all dispositioned, 64 active standalone-prepared. Reconstructed §§8–14 from pinned source in order with separate derived power-torsion and local-cohomology adjoints, Noetherian equality, Greenlees–May torsion/complete, depth and DG coinduction. Independent Stage B not yet performed."
 }
