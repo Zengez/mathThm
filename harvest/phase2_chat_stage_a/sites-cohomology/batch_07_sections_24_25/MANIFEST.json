@@ -1,0 +1,85 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-cohomology-source-ordered-20261031-07",
+  "chapter": "sites-cohomology.tex",
+  "sections_ordinal": [
+    24,
+    25
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    5546,
+    5678
+  ],
+  "first_source_line": 5546,
+  "last_source_line": 5972,
+  "complete_sections": true,
+  "stage_a_candidate_count": 5,
+  "candidate_ids": [
+    "candidate.stacks.42d2efd14a352d841d3b2c02",
+    "candidate.stacks.f080a6bc168cefe3e90f083d",
+    "candidate.stacks.116e2e1ce556db12824f24ff",
+    "candidate.stacks.91a1137f82c8544e6947b968",
+    "candidate.stacks.5f30ec36873e11fb61eb2a0a"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_07_sections_24_25/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 24,
+      "source_line": 5546,
+      "section_end_line": 5677,
+      "source_heading": "Producing K-injective resolutions",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.42d2efd14a352d841d3b2c02"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_07_sections_24_25/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 25,
+      "source_line": 5678,
+      "section_end_line": 5972,
+      "source_heading": "Bounded cohomological dimension",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.f080a6bc168cefe3e90f083d",
+        "candidate.stacks.116e2e1ce556db12824f24ff",
+        "candidate.stacks.91a1137f82c8544e6947b968",
+        "candidate.stacks.5f30ec36873e11fb61eb2a0a"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_07_sections_24_25/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "context_ledgers_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 5,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 2,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_07_sections_24_25/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_07_sections_24_25/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "§24 termwise inverse system cohomology sheaf criterion and §25 full source Situation contexts materialized for all 4 active candidates. Stage B not run."
+}
