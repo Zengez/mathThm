@@ -65,44 +65,57 @@
   "processing_sections": [
     {
       "section": 1,
-      "kind": "candidates",
-      "source_line": 19
+      "kind": "context_only",
+      "source_line": 19,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
-      "kind": "candidates",
-      "source_line": 98
+      "kind": "context_only",
+      "source_line": 98,
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 155
+      "source_line": 155,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 618
+      "source_line": 618,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 1046
+      "source_line": 1046,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 1144
+      "source_line": 1144,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 1309
+      "source_line": 1309,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 2008
+      "source_line": 2008,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 6,
+  "stage_a_remaining_work_candidate_count": 17,
+  "stage_a_source_hold_candidate_count": 12,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 6
 }

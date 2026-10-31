@@ -94,12 +94,14 @@
           "source_line": 2162,
           "tex": "\\begin{definition}\n\\label{definition-L-function-l-adic}\nNow assume that $\\mathcal{F}$ is a $\\mathbf{Q}_\\ell$-sheaf on $X$.\nIn this case we define\n$$\nL(X, \\mathcal{F}) :=\n\\prod\\nolimits_{x \\in |X|}\n\\det(1 - \\pi_x^*T^{\\deg x} |_{\\mathcal{F}_{\\bar x}})^{-1}\n\\in \\mathbf{Q}_\\ell[[T]].\n$$\nNote that this product converges since there are finitely many points of a\ngiven degree. We call this the {\\it $L$-function of\n$\\mathcal{F}$}.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 2180
+      "source_line": 2180,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 22,
@@ -110,28 +112,38 @@
           "source_line": 2500,
           "tex": "\\noindent\nWe use Theorem \\ref{theorem-B} for curves to give examples of $L$-functions"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 23,
       "kind": "candidates",
-      "source_line": 2507
+      "source_line": 2507,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 27,
       "kind": "candidates",
-      "source_line": 2823
+      "source_line": 2823,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 29,
       "kind": "candidates",
-      "source_line": 3167
+      "source_line": 3167,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 31,
       "kind": "candidates",
-      "source_line": 3448
+      "source_line": 3448,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 12,
+  "stage_a_source_hold_candidate_count": 12,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 5
 }

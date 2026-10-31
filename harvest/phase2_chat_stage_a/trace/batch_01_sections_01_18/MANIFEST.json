@@ -97,7 +97,8 @@
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 65
+      "source_line": 65,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
@@ -112,7 +113,8 @@
           "source_line": 407,
           "tex": "\\begin{definition}\n\\label{definition-trace}\nThe {\\it trace} of the endomorphism $a$ is the sum of the diagonal entries of\na matrix representing it. This defines an additive map $\\text{Tr} :\n\\text{End}_\\Lambda(\\Lambda^{\\oplus m}) \\to \\Lambda^\\natural$.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 5,
@@ -123,17 +125,20 @@
           "source_line": 449,
           "tex": "\\noindent\nWith this definition of the trace, let us now discuss another issue with the\nformula as stated. Let $C$ be a smooth projective curve over $k$. Then there is\na correspondence between finite locally constant sheaves $\\mathcal{F}$ on\n$C_\\etale$ whose stalks are isomorphic to\n${(\\mathbf{Z}/\\ell^n\\mathbf{Z})}^{\\oplus m}$ on the one hand, and continuous\nrepresentations $\\rho : \\pi_1 (C, \\bar c) \\to\n\\text{GL}_m(\\mathbf{Z}/\\ell^n\\mathbf{Z}))$ (for some fixed choice of $\\bar c$)\non the other hand. We denote $\\mathcal{F}_\\rho$ the sheaf corresponding to\n$\\rho$. Then $H^2 (C_{\\bar k}, \\mathcal{F}_\\rho)$ is the group of coinvariants\nfor the action of $\\rho(\\pi_1 (C, \\bar c))$ on\n${(\\mathbf{Z}/\\ell^n\\mathbf{Z})}^{\\oplus m}$, and there is a short exact\nsequence\n$$\n0 \\longrightarrow \\pi_1 (C_{\\bar k}, \\bar c) \\longrightarrow \\pi_1 (C, \\bar c)\n\\longrightarrow G_k \\longrightarrow 0.\n$$\nFor instance, let $\\mathbf{Z} = \\mathbf{Z} \\sigma$ act on\n$\\mathbf{Z}/\\ell^2\\mathbf{Z}$ via $\\sigma(x) = (1+\\ell) x$. The coinvariants\nare $(\\mathbf{Z}/\\ell^2\\mathbf{Z})_{\\sigma} = \\mathbf{Z}/\\ell\\mathbf{Z}$, which\nis not a flat $\\mathbf{Z}/\\ell^2\\mathbf{Z}$-module. Hence we cannot take the\ntrace of some action on $H^2(C_{\\bar k}, \\mathcal{F}_\\rho)$, at least not in\nthe sense of the previous section."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 490
+      "source_line": 490,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 619
+      "source_line": 619,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
@@ -144,37 +149,44 @@
           "source_line": 687,
           "tex": "\\begin{definition}\n\\label{definition-filtered-derived-functors}\nLet $T: \\mathcal{A} \\to \\mathcal{B}$ be a left exact functor and assume that\n$\\mathcal{A}$ has enough injectives. Define $RT: DF^+(\\mathcal{A}) \\to D\nF^+(\\mathcal{B})$ to fit in the diagram\n$$\n\\xymatrix{\nDF^+(\\mathcal{A}) \\ar[r]^{RT} & DF^+(\\mathcal{B}) \\\\\nK^+(\\mathcal{I}) \\ar[u] \\ar[r]^{T \\quad} & K^+(\\text{Fil}^f(\\mathcal{B})).\n\\ar[u]}\n$$\nThis is well-defined by the previous lemma. Let $G: \\mathcal{A} \\to\n\\mathcal{B}$ be a right exact functor and assume that $\\mathcal{A}$ has enough\nprojectives. Define $LG: DF^-(\\mathcal{A}) \\to DF^-(\\mathcal{B})$ to fit in\nthe diagram\n$$\n\\xymatrix{\nDF^-(\\mathcal{A}) \\ar[r]^{LG} & DF^-(\\mathcal{B}) \\\\\nK^-(\\mathcal{P}) \\ar[u] \\ar[r]^{G \\quad} & K^-(\\text{Fil}^f(\\mathcal{B})).\n\\ar[u]}\n$$\nAgain, this is well-defined by the previous lemma.\nThe functors $RT$, resp.\\ $LG$, are called the {\\it filtered derived\nfunctor} of $T$, resp.\\ $G$.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 809
+      "source_line": 809,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 884
+      "source_line": 884,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 944
+      "source_line": 944,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 1007
+      "source_line": 1007,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 1078
+      "source_line": 1078,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 1374
+      "source_line": 1374,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
@@ -185,13 +197,20 @@
           "source_line": 1697,
           "tex": "\\noindent\nPlease see Remark \\ref{remark-on-trace-formula-again} for some remarks\non the statement. Notation: For short, we write\n$$\nT'(X, K) =\n\\sum\\nolimits_{x\\in X(k)}\n\\text{Tr}(\\pi_x |_{K_{\\bar x}})\n$$\nfor the right-hand side of (\\ref{equation-trace-formula-again}) and\n$$\nT''(X, K)\n=\\text{Tr}(\\pi_x^* |_{R\\Gamma_c(X_{\\bar k}, K)})\n$$\nfor the left-hand side."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 1976
+      "source_line": 1976,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 20,
+  "stage_a_source_hold_candidate_count": 20,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 10
 }
