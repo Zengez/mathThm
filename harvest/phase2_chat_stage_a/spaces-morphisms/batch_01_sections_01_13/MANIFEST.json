@@ -110,6 +110,18 @@
   ],
   "processing_sections": [
     {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Introduction",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §1 Introduction: 0 explicit named definitions; 0 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
       "section": 2,
       "kind": "context_only",
       "source_line": 34,
@@ -119,7 +131,13 @@
           "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Conventions",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §2 Conventions: 0 explicit named definitions; 0 standalone drafts / 0 source holds. No previous theorem premises inherited."
     },
     {
       "section": 3,
@@ -131,37 +149,109 @@
           "tex": "We will use these facts below, and whenever we do we will simply refer\nto this section as a reference."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Properties of representable morphisms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §3 Properties of representable morphisms: 0 explicit named definitions; 0 standalone drafts / 0 source holds. No previous theorem premises inherited."
     },
     {
       "section": 4,
       "kind": "candidates",
       "source_line": 157,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.850428fcf6777ea115cddac4",
+        "candidate.stacks.cd16df965ab9b999e66a97f2",
+        "candidate.stacks.28e9090ad299526454044ffa",
+        "candidate.stacks.e0214ab36cc92c527a41001c",
+        "candidate.stacks.3d448f94b2f49b3ca1df4ef7",
+        "candidate.stacks.1316bde55b88b2833898e384",
+        "candidate.stacks.959af842c237f8f23456a506",
+        "candidate.stacks.60df3b752d9c2a65deb937e3",
+        "candidate.stacks.8649081addae056111b5dd91",
+        "candidate.stacks.5a06020ba887bc180d87976d"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Separation axioms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §4 Separation axioms: 1 explicit named definitions; 10 standalone drafts / 0 source holds. No previous theorem premises inherited."
     },
     {
       "section": 5,
       "kind": "candidates",
       "source_line": 592,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.fcb2c4ab2ac64d56e56ee128",
+        "candidate.stacks.05771f9a01ed0b8be2a739d2",
+        "candidate.stacks.aeb6f8964e76bf7bfa721cc7",
+        "candidate.stacks.2917191cbf2a677673a110ae"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Surjective morphisms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §5 Surjective morphisms: 1 explicit named definitions; 4 standalone drafts / 0 source holds. No previous theorem premises inherited."
     },
     {
       "section": 6,
       "kind": "candidates",
       "source_line": 694,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.7932cbbe51cf3b4c19414fc1",
+        "candidate.stacks.f26b5de600b5b9510368dd64",
+        "candidate.stacks.1eea7334b6a80a63a9dd30e4",
+        "candidate.stacks.47bdb49ebe633b13f56cd67b",
+        "candidate.stacks.e54f64b5a7b54caa07ee54a8"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Open morphisms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §6 Open morphisms: 1 explicit named definitions; 5 standalone drafts / 0 source holds. No previous theorem premises inherited."
     },
     {
       "section": 7,
       "kind": "candidates",
       "source_line": 891,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3c9cf8c5f4c36cfc841e155f",
+        "candidate.stacks.b675f614dd67fe51fe52fc92",
+        "candidate.stacks.9e51415932a2014edf5b81f6"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Submersive morphisms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §7 Submersive morphisms: 1 explicit named definitions; 3 standalone drafts / 0 source holds. No previous theorem premises inherited."
     },
     {
       "section": 8,
       "kind": "candidates",
       "source_line": 986,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.04458d2cb78e0e24ce3e67c8",
+        "candidate.stacks.e088e2a95e067dc937865801",
+        "candidate.stacks.7810cffb702876231b0dcfca",
+        "candidate.stacks.92c6cbe13ddbe39b2d75e990",
+        "candidate.stacks.af74c2d971fad5d5a2efd0e5",
+        "candidate.stacks.17f3d98c9612f265f8a21f98",
+        "candidate.stacks.3b32a7d0585f8930ea3d8a0d",
+        "candidate.stacks.79895fafd0bd0b5d6e85b9b8",
+        "candidate.stacks.bb40203a472ddd55212e5e18"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Quasi-compact morphisms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §8 Quasi-compact morphisms: 1 explicit named definitions; 9 standalone drafts / 0 source holds. No previous theorem premises inherited."
     },
     {
       "section": 9,
@@ -195,11 +285,15 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 55,
+  "stage_a_ready_for_codex_candidate_count": 31,
+  "stage_a_remaining_work_candidate_count": 24,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_ready_for_codex_section_count": 5,
   "stage_a_remaining_work_section_count": 10,
   "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_dispositioned_section_count": 8,
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "processing_note": "Regular Stage A completed spaces-morphisms §§1–8; continuous source-matched section checkpoints. Morphisms §§9–13 remain pending, next §9."
 }
