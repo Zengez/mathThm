@@ -1,0 +1,70 @@
+{
+  "schema": "maththm.phase2.chat-stage-a0-batch.v2",
+  "source_file": "topology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "section_ordinals": [
+    8,
+    12
+  ],
+  "source_line_range": [
+    851,
+    1999
+  ],
+  "complete_physical_sections_accounted": 5,
+  "complete_candidate_bearing_sections": 5,
+  "source_theorem_like_count": 32,
+  "canonical_active_count": 31,
+  "eligible_unreviewed_count": 31,
+  "excluded_source_records": [
+    {
+      "source_label": "lemma-connected-component-intersection",
+      "source_line": 1815,
+      "candidate_id": "candidate.stacks.e835d27f94934c4429f812bb",
+      "reason": "excluded_from_canonical_active_pool"
+    }
+  ],
+  "excluded_approved_count": 0,
+  "context_event_count": 8,
+  "section_checkpoint_count": 5,
+  "candidate_ids": [
+    "candidate.stacks.ebeb5bebe9742adef755e58c",
+    "candidate.stacks.27c3f7b4ef4bb6bf578321cc",
+    "candidate.stacks.f8cafb436149c9603fc33038",
+    "candidate.stacks.fd902b9aeb622cf868637cd2",
+    "candidate.stacks.05e0ea4397311ea739aa1754",
+    "candidate.stacks.a774920173c367ed1e47c7b7",
+    "candidate.stacks.37f9ebea86fd699c58fdcaea",
+    "candidate.stacks.584a0a60bb46e46b3867e16c",
+    "candidate.stacks.a6e0d342ad025e3ef0f69283",
+    "candidate.stacks.3ccd49273f500a058806d5de",
+    "candidate.stacks.e336c2724667f76e19e52649",
+    "candidate.stacks.cbbd524605e3b3db12ad18f7",
+    "candidate.stacks.3ca1a73af230b775d0cccb12",
+    "candidate.stacks.4e5903d129c0507f613d6402",
+    "candidate.stacks.e52015d8ec573bdf8771159c",
+    "candidate.stacks.c0d7fb40d0e5a4cf5021f6fe",
+    "candidate.stacks.30529847eccf911fd744a8b3",
+    "candidate.stacks.c98d317f7dbc2247f93afabf",
+    "candidate.stacks.2a2faf69cff294e500657e54",
+    "candidate.stacks.86ca39e9da5000c86ff656a9",
+    "candidate.stacks.db72891a0a7d00a051eaeb97",
+    "candidate.stacks.9f2c1272811d506ad0a039a6",
+    "candidate.stacks.2d665ef28493b7c6f912356f",
+    "candidate.stacks.9997acb17c3ee56cb4a39693",
+    "candidate.stacks.3016d061a4fb2f497f0ce630",
+    "candidate.stacks.4ead3f090f015d0c3b02c3da",
+    "candidate.stacks.8762d34d821c42a2af6ed4e0",
+    "candidate.stacks.2ac1d2ab7ca9f013c6a55fd3",
+    "candidate.stacks.caea5bf4742dff38e746dc1e",
+    "candidate.stacks.97211d3aad830a9622554391",
+    "candidate.stacks.24a9001686ad38c91facdfca"
+  ],
+  "canonical_active_registry_total": 9675,
+  "historical_authoritative_approval_total": 655,
+  "independent_review_overlap": 0,
+  "verified_no_chat_a1_or_a0_overlap_at_selection": true,
+  "proofs_reviewed": 0,
+  "stage_a_promotion_count": 0,
+  "source_statement_modifications": 0,
+  "a0_only": true
+}
