@@ -145,22 +145,82 @@
   ],
   "processing_sections": [
     {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 18,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Introduction",
+      "stage_a_source_context_summary": "The shriek-functor chapter introduction is topical, not a standing premise."
+    },
+    {
       "section": 2,
       "kind": "candidates",
       "source_line": 36,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.07a3390467994c9b2e852293",
+        "candidate.stacks.c2cb7085cc4cec8dc189cfd1"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.07a3390467994c9b2e852293"
+      ],
+      "stage_a_source_context_heading": "Growing sections",
+      "stage_a_source_context_summary": "Supported-section group H_Z(F) is canonically independent of chosen open neighborhood; comparison over arbitrary étale φ remains held."
     },
     {
       "section": 3,
       "kind": "candidates",
       "source_line": 144,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.70aecc3ef816659d454cc74b",
+        "candidate.stacks.c643aadeb0271b46d85db3a1",
+        "candidate.stacks.763abd1b1ca3fd64dab62b06",
+        "candidate.stacks.e3b29dcb57ebace044c90d8f",
+        "candidate.stacks.c380fd3f584ae7aa1b7196c5",
+        "candidate.stacks.670f7c98f330c1f816a033d4",
+        "candidate.stacks.af4db31de73c6ce6c7f63bf1",
+        "candidate.stacks.a9fcf0c1bc1799b6c6b8b296",
+        "candidate.stacks.3666cf2e3bd63da84ce853bd",
+        "candidate.stacks.b1e6bc6bd39f003c1de59e7c"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Sections with compact support",
+      "stage_a_source_context_summary": "For separated locally finite type f, compact-support f_! is proper-support subsheaf of f_*, not a derived functor; open-covariance and proper compactification explicitly expanded."
     },
     {
       "section": 4,
       "kind": "candidates",
       "source_line": 803,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.af7c5d1c612ef4bded76bc8d",
+        "candidate.stacks.57e691d6488eaef3fcdd64dc",
+        "candidate.stacks.5079b1d58d8e82b7e2239243",
+        "candidate.stacks.b67e2d844c9a5d56f8eb2fbd",
+        "candidate.stacks.ac03f8e00a7ca294d800f57e",
+        "candidate.stacks.cc4b69419f47f45c882aca05",
+        "candidate.stacks.3baf805890becd65beb15647",
+        "candidate.stacks.adc184426c70c870539aec57"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.5079b1d58d8e82b7e2239243",
+        "candidate.stacks.cc4b69419f47f45c882aca05",
+        "candidate.stacks.3baf805890becd65beb15647",
+        "candidate.stacks.adc184426c70c870539aec57"
+      ],
+      "stage_a_source_context_heading": "Sections with finite support",
+      "stage_a_source_context_summary": "For general locally quasi-finite (possibly nonseparated) f, f_! sheafifies finite-support f_p!; preserve this distinction and hold untyped external j_p! references/coherence."
     },
     {
       "section": 5,
@@ -224,11 +284,17 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 22,
-  "stage_a_remaining_work_candidate_count": 40,
+  "stage_a_ready_for_codex_candidate_count": 27,
+  "stage_a_remaining_work_candidate_count": 35,
   "stage_a_source_hold_candidate_count": 40,
-  "stage_a_ready_for_codex_section_count": 1,
+  "stage_a_ready_for_codex_section_count": 2,
   "stage_a_remaining_work_section_count": 12,
   "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 5,
+  "stage_a_further_work_section_count": 2,
+  "stage_a_dispositioned_section_count": 4,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/more-etale/batch_01_sections_01_14/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/more-etale/batch_01_sections_01_14/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Source-first Stage A §§1–4 completed with source-anchored ledger and section checkpoints. Existing ready rows preserved; five previously held rows expanded into standalone drafts, five retained as further work with exact source issues. §§5–14 still pending. No independent Stage B verification."
 }
