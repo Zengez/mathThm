@@ -84,21 +84,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.1c672c7b12c13195e48b5d53",
-    "candidate.stacks.67c10db544b5da2178575177",
-    "candidate.stacks.d4dbfcd2ef7d0f3061ec9899",
-    "candidate.stacks.fd63908c54ac1a03237227f4",
-    "candidate.stacks.2772a35fccf583f31314a222",
-    "candidate.stacks.ca2c4ea936e0a4776f0e475a",
-    "candidate.stacks.e79e2fd0792084ef9d6a65e8",
-    "candidate.stacks.03988650e702d461a471be22",
-    "candidate.stacks.080b3a4ac890508e7c9a82bf",
-    "candidate.stacks.a8617f10b1403f61ddd4524b",
-    "candidate.stacks.fc51fc7b2031482ec6fb5f9f",
-    "candidate.stacks.a591597625bb62a40a2042a2",
-    "candidate.stacks.406db15c641651212bfd11da"
-  ],
+  "preliminary_source_holds": [],
   "processing_sections": [
     {
       "section": 3,
@@ -182,26 +168,26 @@
       "section": 16,
       "kind": "candidates",
       "source_line": 3722,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 17,
       "kind": "candidates",
       "source_line": 4344,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 35,
-  "stage_a_remaining_work_candidate_count": 13,
+  "stage_a_ready_for_codex_candidate_count": 48,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 11,
-  "stage_a_remaining_work_section_count": 2,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_section_count": 13,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "stage_a_further_work_candidate_count": 1,
   "stage_a_further_work_section_count": 1,
-  "stage_a_dispositioned_section_count": 13,
+  "stage_a_dispositioned_section_count": 15,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Source-ordered §3–15 prep (first packet §1–2 already committed). §8–15 completed with 23 ready and one further-work hold on sheaf vs ambient category of Koszul regular immersion Ext and zero codimension. Sections 16–17 untouched."
+  "processing_note": "Finished original §3–17 source-order prep with 48 candidate statements standalone-ready and one further-work flag for regular immersion Ext ambient typing. In §§16–17, all 13 now expand FTS_S, compactification construction, exact categorical and functorial domains, and upper-shriek coherences. Independent Stage B not performed."
 }
