@@ -155,37 +155,112 @@
       "section": 3,
       "kind": "candidates",
       "source_line": 271,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.bffb9e73c248335a7a670552",
+        "candidate.stacks.1cadd7c72df1864d12bb5c7a",
+        "candidate.stacks.2464a12de6bfcaa8ed99e970",
+        "candidate.stacks.e64d58d29ae41a6b148f10f8",
+        "candidate.stacks.053cbe75fd38394e082576c2",
+        "candidate.stacks.93b1f6a99ab7c20afcb2df2a",
+        "candidate.stacks.f702a8d59d30b26d0224c89f"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.f702a8d59d30b26d0224c89f"
+      ],
+      "stage_a_source_context_heading": "Local isomorphisms",
+      "stage_a_source_context_summary": "Terms defined earlier are available, but conditions imposed by each theorem are not inherited from previous theorems."
     },
     {
       "section": 4,
       "kind": "candidates",
       "source_line": 406,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.ad68f07883e70fb5173b8258",
+        "candidate.stacks.366eafaf5f90c4e9197ac493",
+        "candidate.stacks.f84678cd03e69b534d738158",
+        "candidate.stacks.17d1d9ee7c67cfa2933edd51",
+        "candidate.stacks.b6504bd5a768bed3e9887c14"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Ind-Zariski algebra",
+      "stage_a_source_context_summary": "Terms defined earlier are available, but conditions imposed by each theorem are not inherited from previous theorems."
     },
     {
       "section": 5,
       "kind": "candidates",
       "source_line": 482,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f0b3b04ca6b215822ad12974",
+        "candidate.stacks.9393be7e00e8ad8fc9c3c16b",
+        "candidate.stacks.40f766af5313715e03a3aefd",
+        "candidate.stacks.0319a8a23ee1821991b141a2"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.9393be7e00e8ad8fc9c3c16b"
+      ],
+      "stage_a_source_context_heading": "Constructing w-local affine schemes",
+      "stage_a_source_context_summary": "Local w-localization A_w is a construction from finite stratification and localization, not a global assumption; every result's own map/ideals must remain scoped."
     },
     {
       "section": 6,
       "kind": "candidates",
       "source_line": 846,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.2e3b75d3fca90fa8cc59de06",
+        "candidate.stacks.efbcf78ee9d9e4e8681ebcfb",
+        "candidate.stacks.947193ddfa35223b219d24c3",
+        "candidate.stacks.08a95c1aa3410b174d7fc97d",
+        "candidate.stacks.06dca0d74ec41110c4504edf",
+        "candidate.stacks.35ac312c69777d31c9de2e77",
+        "candidate.stacks.c0259582d15ffdb8dfe21450"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Identifying local rings versus ind-Zariski",
+      "stage_a_source_context_summary": "Terms defined earlier are available, but conditions imposed by each theorem are not inherited from previous theorems."
     },
     {
       "section": 7,
       "kind": "candidates",
       "source_line": 1153,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.5918846dde654bf3797f54ea",
+        "candidate.stacks.19bdd00516729d5110f2cd38",
+        "candidate.stacks.5430c5657f3841778543ad69",
+        "candidate.stacks.f6eb7973d2b9c98cc42b0cb8",
+        "candidate.stacks.88d41638c6deb8bb80db7424",
+        "candidate.stacks.436a8d62c9707a1bfffc7daf"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Ind-\\'etale algebra",
+      "stage_a_source_context_summary": "Terms defined earlier are available, but conditions imposed by each theorem are not inherited from previous theorems."
     },
     {
       "section": 8,
       "kind": "candidates",
       "source_line": 1309,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3b185d3cefe70eb0c3adcc30",
+        "candidate.stacks.4d5ebd49da8a407a10720f16",
+        "candidate.stacks.f905d5ad8db7b7c4daa36a80",
+        "candidate.stacks.6c33228a1e637625dd6b7cbf"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.f905d5ad8db7b7c4daa36a80"
+      ],
+      "stage_a_source_context_heading": "Constructing ind-\\'etale algebras",
+      "stage_a_source_context_summary": "Standard smooth and ind-étale extension constructions are source leads, not standing assumptions."
     },
     {
       "section": 9,
@@ -273,11 +348,17 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 85,
+  "stage_a_ready_for_codex_candidate_count": 30,
+  "stage_a_remaining_work_candidate_count": 55,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 20,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 17,
   "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 3,
+  "stage_a_further_work_section_count": 3,
+  "stage_a_dispositioned_section_count": 6,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/proetale/batch_02_sections_03_22/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/proetale/batch_02_sections_03_22/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Source-ordered Stage A §§3–8 reviewed with contextual definitions/negative assumptions; §9–22 remain pending. Only explicit successful standalone drafts are marked ready; unresolved object/variance references are held."
 }
