@@ -1,0 +1,130 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-cohomology-source-ordered-20261031-13",
+  "chapter": "sites-cohomology.tex",
+  "sections_ordinal": [
+    43,
+    45
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    11080,
+    11709,
+    12032
+  ],
+  "first_source_line": 11080,
+  "last_source_line": 12369,
+  "complete_sections": true,
+  "stage_a_candidate_count": 18,
+  "candidate_ids": [
+    "candidate.stacks.06db7b5ff23985a9110ed287",
+    "candidate.stacks.086c5ef8a1706cba34b558c0",
+    "candidate.stacks.d8411d6c2e0cf773034ecf55",
+    "candidate.stacks.6fea53a5e4e633be59bd52b2",
+    "candidate.stacks.0a87d47cd231af44c93cb2f1",
+    "candidate.stacks.35f3119dab18c7b79c7d0c8a",
+    "candidate.stacks.b61e57872a9a1024631d6f8a",
+    "candidate.stacks.8bb929c0413720d1ebd0bc89",
+    "candidate.stacks.b1c87e5418c5190887f75c58",
+    "candidate.stacks.341fba6d2220a447caf0eb57",
+    "candidate.stacks.c3866764d5800389f8c38b7c",
+    "candidate.stacks.3b9bd0228149ea1be338d966",
+    "candidate.stacks.315e2cdceb53bd91c5257c50",
+    "candidate.stacks.6748fc9bb303d43c26fa2557",
+    "candidate.stacks.48d856d835e009b9b519b16c",
+    "candidate.stacks.a0de9450cc60222f386eae93",
+    "candidate.stacks.ad5d8a28cadd89cd7c8be043",
+    "candidate.stacks.d92a19751c750d2f53cf0eb4"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.d8411d6c2e0cf773034ecf55",
+    "candidate.stacks.6748fc9bb303d43c26fa2557"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 43,
+      "source_line": 11080,
+      "section_end_line": 11708,
+      "source_heading": "Modules on a category",
+      "kind": "candidates",
+      "stage_a_readiness": "mixed_ready_and_further_work",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.06db7b5ff23985a9110ed287",
+        "candidate.stacks.086c5ef8a1706cba34b558c0",
+        "candidate.stacks.d8411d6c2e0cf773034ecf55"
+      ],
+      "stage_a_candidate_action": "source-first-preparation_or_further_work",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 44,
+      "source_line": 11709,
+      "section_end_line": 12031,
+      "source_heading": "Strictly perfect complexes",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.6fea53a5e4e633be59bd52b2",
+        "candidate.stacks.0a87d47cd231af44c93cb2f1",
+        "candidate.stacks.35f3119dab18c7b79c7d0c8a",
+        "candidate.stacks.b61e57872a9a1024631d6f8a",
+        "candidate.stacks.8bb929c0413720d1ebd0bc89",
+        "candidate.stacks.b1c87e5418c5190887f75c58",
+        "candidate.stacks.341fba6d2220a447caf0eb57",
+        "candidate.stacks.c3866764d5800389f8c38b7c",
+        "candidate.stacks.3b9bd0228149ea1be338d966"
+      ],
+      "stage_a_candidate_action": "source-first-preparation_or_further_work",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 45,
+      "source_line": 12032,
+      "section_end_line": 12369,
+      "source_heading": "Pseudo-coherent modules",
+      "kind": "candidates",
+      "stage_a_readiness": "mixed_ready_and_further_work",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.315e2cdceb53bd91c5257c50",
+        "candidate.stacks.6748fc9bb303d43c26fa2557",
+        "candidate.stacks.48d856d835e009b9b519b16c",
+        "candidate.stacks.a0de9450cc60222f386eae93",
+        "candidate.stacks.ad5d8a28cadd89cd7c8be043",
+        "candidate.stacks.d92a19751c750d2f53cf0eb4"
+      ],
+      "stage_a_candidate_action": "source-first-preparation_or_further_work",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "context_ledgers_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 16,
+  "stage_a_remaining_work_candidate_count": 2,
+  "stage_a_source_hold_candidate_count": 2,
+  "stage_a_ready_for_codex_section_count": 1,
+  "stage_a_remaining_work_section_count": 2,
+  "stage_a_work_pending": true,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 3,
+  "stage_a_further_work_section_count": 2,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "§§43–45 source-first, 18 active candidates; strict perfect vs pseudo-coherent assumptions expanded. Source type discrepancies in cartesian Hom and pullback held for independent adjudication."
+}
