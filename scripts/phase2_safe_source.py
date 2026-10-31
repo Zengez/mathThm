@@ -57,11 +57,20 @@ def mask_source(source: str) -> str:
     stack: list[str] = []
     lines: list[str] = []
 
+    def effective(state: list[str]) -> list[str]:
+        # Stacks .tex chapters have a document wrapper around every theorem.
+        # This wrapper is inert: it does NOT make outside prose visible.
+        return state[1:] if state and state[0] == "document" else state
+
     def permitted(state: list[str]) -> bool:
-        return bool(state) and state[0] in STATEMENT_ENVS and all(
+        scope = effective(state)
+        return bool(scope) and scope[0] in STATEMENT_ENVS and all(
             item in NESTED_ENVS or item in STATEMENT_ENVS
-            for item in state[1:]
+            for item in scope[1:]
         )
+
+    def neutral(state: list[str]) -> bool:
+        return not effective(state)
 
     for number, raw in enumerate(source.splitlines(keepends=True), start=1):
         code = _without_comments(raw)
@@ -91,12 +100,12 @@ def mask_source(source: str) -> str:
                 intermediate.pop()
             states.append(intermediate.copy())
         allowed = (permitted(before) or permitted(after)) and all(
-            not state or permitted(state) for state in states
+            neutral(state) or permitted(state) for state in states
         )
         # Avoid leaking prose before a statement opens or after it closes.
-        if allowed and tokens and not before:
+        if allowed and tokens and neutral(before):
             allowed = not code[:tokens[0].start()].strip()
-        if allowed and tokens and not after:
+        if allowed and tokens and neutral(after):
             allowed = not code[tokens[-1].end():].strip()
         if re.search(r"\\(?:input|include)\s*\{", code):
             allowed = False
