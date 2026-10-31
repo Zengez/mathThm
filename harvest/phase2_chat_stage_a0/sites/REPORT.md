@@ -5,7 +5,7 @@ Pinned revision: `a04446e57ec1fbc252a871afcec7752fb2807b14`. Source: `sites.tex`
 ## Coverage and scope
 
 - Traversed all **52 physical sections** in source order, including **10 context-only** sections.
-- Extracted **161 proof-adjacent theorem-like source statements**, with reproducible candidate IDs matching `scripts/harvest_stacks.py`'s SHA-256 rule. **These source records are not certified canonical active candidates**.
+- Extracted **161 proof-adjacent theorem-like source statements**, with reproducible candidate IDs matching `scripts/harvest_stacks.py`'s SHA-256 rule. **These source records have now been reconciled against canonical membership (137 active, 24 excluded)**.
 - Recorded **109 source-scoped ledger entries** (chapter/section guards plus named definitions, notations, and Situation) and **52 after-section checkpoints**.
 - **49 statements** contain explicit source `\\ref` dependencies (77 occurrences); 4 individual reference occurrences do not resolve within this chapter. Three have now been retrieved from pinned Categories/Sets source; one remains unresolved without proof-context inspection.
 - The **named Situation `situation-inverse-limit-sites`** (§18, L3769 onward) is referenced by 4 candidates. In particular it specifies a cofiltered index category, finite index-set coverings, transition site morphisms, and composition compatibility. It must be expanded **only** for statements that actually invoke it.
@@ -15,7 +15,7 @@ Pinned revision: `a04446e57ec1fbc252a871afcec7752fb2807b14`. Source: `sites.tex`
 
 **Stage A/A1 standalone-ready count: not established. Codex Stage B-ready count certified by this work: 0.** No source-first mathematical equivalence decisions have been made here. This A0 packet is *not* a replacement for a Chapter Stage A pass.
 
-The registry files `harvest/active_candidate_ids.jsonl` and the full `harvest/phase2_calibration_2026-10-29/AUTHORITATIVE.jsonl` were too large to retrieve reliably through the available GitHub file interface. The smaller 68-record `APPROVED_OVERLAYS.jsonl` contained no `sites.tex` approvals, and the 16-entry duplicate alias crosswalk contained none, but this **does not prove** eligibility of all 161 source statements. Stage A must reconcile all records before creating a Stage B-ready manifest.
+The **complete canonical registry** (9,675 active IDs) and **both** authoritative approval sources (655 total) were retrieved via Git blob SHA and cross-checked against all 161 source IDs. **137 are canonical active and eligible for new Stage A1; 24 are nonactive and excluded; 0 previously approved and 0 prior Chat holds.** The 24 excluded source environments remain as non-promotional reference packets.
 
 No old Stage A, Codex approvals, proof text, global further-work registry, or production corpus was modified.
 
