@@ -89,54 +89,170 @@
   ],
   "processing_sections": [
     {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 19,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [],
+      "stage_a_source_context_heading": "Introduction",
+      "stage_a_source_context_summary": "Introduction describes a narrower motivating case, but this is not a chapter-wide theorem hypothesis."
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 48,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [],
+      "stage_a_source_context_heading": "Conventions and notation",
+      "stage_a_source_context_summary": "Cycle notation Z_r and Chow Homology conventions; these are definitions not standing premises."
+    },
+    {
       "section": 3,
       "kind": "candidates",
       "source_line": 68,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d8161efc87d5bcd35e5c939b",
+        "candidate.stacks.0f196b29204ca3491c2ee827"
+      ],
+      "stage_a_source_context_heading": "Cycles relative to fields",
+      "stage_a_source_context_summary": "Source-situated cycle operations/definitions and local hypotheses distinguished; no prior theorem conditions inherited."
     },
     {
       "section": 4,
       "kind": "candidates",
       "source_line": 169,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.b1798c502138e5f2813a2b6c",
+        "candidate.stacks.42a09eacf1859fe82c287993",
+        "candidate.stacks.e4450c69be512aa9fd1e4b99",
+        "candidate.stacks.ebc7df83e988839517be37e3",
+        "candidate.stacks.98840890f383f55b5c9e056f"
+      ],
+      "stage_a_source_context_heading": "Specialization of cycles",
+      "stage_a_source_context_summary": "Source-situated cycle operations/definitions and local hypotheses distinguished; no prior theorem conditions inherited."
     },
     {
       "section": 5,
       "kind": "candidates",
       "source_line": 375,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e7424bbc884777c388a78f43",
+        "candidate.stacks.41945a1653405c2799f1f9a9",
+        "candidate.stacks.454f210ae632e8d35980caee",
+        "candidate.stacks.7f9806802502b44b08961ca6"
+      ],
+      "stage_a_source_context_heading": "Families of cycles on fibres",
+      "stage_a_source_context_summary": "Source-situated cycle operations/definitions and local hypotheses distinguished; no prior theorem conditions inherited."
     },
     {
       "section": 6,
       "kind": "candidates",
       "source_line": 724,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.cb343f9d34262e34a36eae56",
+        "candidate.stacks.c60ba698708ce5c9213cb20e",
+        "candidate.stacks.0dca36203e19d21c9dfd8d8e",
+        "candidate.stacks.5a223fd6fcb2af2ce0385d3a",
+        "candidate.stacks.d843586ef624df4329ec908a",
+        "candidate.stacks.349cd45947999b27f345ba6c",
+        "candidate.stacks.8fe1d32a233262f2f3e76990",
+        "candidate.stacks.3b6c113b5d1e94db4cb67e46",
+        "candidate.stacks.5a4243f933410c5bcb764ca8",
+        "candidate.stacks.827529fc121f2f2f3267f25c",
+        "candidate.stacks.e48d43f7914d4777383b6c52",
+        "candidate.stacks.7e1e7a02e2298c9cdacf84f6",
+        "candidate.stacks.51e3c1793feb0b2fb834e117"
+      ],
+      "stage_a_source_context_heading": "Relative cycles",
+      "stage_a_source_context_summary": "DVR specialization compatibility and z(X/S,r) explicitly defined; no lemma assumptions exported."
     },
     {
       "section": 7,
       "kind": "candidates",
       "source_line": 1314,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.6964e5ffef20ed1d0c4171ca",
+        "candidate.stacks.8a68dc9acf81ad6917bb06ff",
+        "candidate.stacks.0e176b192558d9e510dc64e7",
+        "candidate.stacks.b8b023f2cf649393e3e7f2f1"
+      ],
+      "stage_a_source_context_heading": "Equidimensional relative cycles",
+      "stage_a_source_context_summary": "Source-situated cycle operations/definitions and local hypotheses distinguished; no prior theorem conditions inherited."
+    },
+    {
+      "section": 8,
+      "kind": "context_only",
+      "source_line": 1432,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [],
+      "stage_a_source_context_heading": "Weightings and relative zero cycles",
+      "stage_a_source_context_summary": "Source-situated cycle operations/definitions and local hypotheses distinguished; no prior theorem conditions inherited."
     },
     {
       "section": 9,
       "kind": "candidates",
       "source_line": 1644,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f5d62dbed091b6ba2e3b11f3",
+        "candidate.stacks.d6249c0b783868eb310129d6",
+        "candidate.stacks.3f87f0a2d97e5bcd12338fec",
+        "candidate.stacks.17ca965ceee56a5f33a8db56",
+        "candidate.stacks.4234b2936dc105968e73e336",
+        "candidate.stacks.aca2eb5814de9a426e7589e3"
+      ],
+      "stage_a_source_context_heading": "Effective relative cycles",
+      "stage_a_source_context_summary": "Source-situated cycle operations/definitions and local hypotheses distinguished; no prior theorem conditions inherited."
     },
     {
       "section": 10,
       "kind": "candidates",
       "source_line": 1873,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.eb3c47f5edef56b3b768d944",
+        "candidate.stacks.184214d0af60ae5fdf68b6f5"
+      ],
+      "stage_a_source_context_heading": "Proper relative cycles",
+      "stage_a_source_context_summary": "Source-situated cycle operations/definitions and local hypotheses distinguished; no prior theorem conditions inherited."
+    },
+    {
+      "section": 11,
+      "kind": "context_only",
+      "source_line": 1942,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [],
+      "stage_a_source_context_heading": "Proper and equidimensional relative cycles",
+      "stage_a_source_context_summary": "Source-situated cycle operations/definitions and local hypotheses distinguished; no prior theorem conditions inherited."
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 36,
+  "stage_a_ready_for_codex_candidate_count": 36,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 7,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_section_count": 7,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_dispositioned_section_count": 11,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/relative-cycles/batch_01_sections_01_11/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/relative-cycles/batch_01_sections_01_11/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Relative Cycles §§1–11 source-first Stage A prepared; no prior theorem hypotheses inherited, chapter-level motivational restrictions not carried into independent results. Examples and specialization/relative-cycle constructions expanded where necessary."
 }
