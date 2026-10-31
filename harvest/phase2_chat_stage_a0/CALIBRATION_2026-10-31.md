@@ -28,9 +28,9 @@ This **does not yet demonstrate the hoped-for Stage A time saving**. The trial s
 
 In the first ten sections, six explicit inherited-setup cases (e.g. `lemma-devissage-finite-presentation`, `lemma-devissage-flat`, `lemma-homothety-universally-injective`) were identified; ten such holds across the full window. A1 must reconstruct the referenced assumptions/objects, and check additional candidates that this lightweight pattern matcher did not flag.
 
-**Two promised selection/integrity checks were not completed:** (1) the exact +200 candidate-bearing-section offset from the *current* A1 frontier was not proved, and (2) candidate membership in the full 9,675-ID active registry and later Codex-approved IDs beyond the inspected original chapter coverage could not be exhaustively reconciled through the available connector. The generated IDs use the Pass 1 pinned source/label fingerprint method, but this alone does not authorize active-pool membership. Treat the entire pilot as **provisional A0-only overlays** until those crosschecks are made.
+**Two promised selection/integrity checks were not completed:** (1) the arbitrary ~200 candidate-bearing-section collision buffer from the concurrent A1 frontier was not measured (nor was an exact offset required), and (2) candidate membership in the full 9,675-ID active registry and later Codex-approved IDs beyond the inspected original chapter coverage could not be exhaustively reconciled through the available connector. The generated IDs use the Pass 1 pinned source/label fingerprint method, but this alone does not authorize active-pool membership. Treat the entire pilot as **provisional A0-only overlays** until those crosschecks are made.
 
-**Thinking-level limitation:** the pass followed conservative Medium-style instructions, but the execution interface did not expose a way to switch or independently measure a model effort setting within this run. Therefore no cost/time comparison or actual Medium-vs-High speedup claim can be made.
+**Thinking-level clarification (confirmed by the user):** the original calibration **was run with Medium thinking**. The execution interface did not record a controlled Medium-versus-High A1 comparison, so no speedup or cost-savings measurement is established. The separate A0 v2 audit added source work packets after the Medium run.
 
 ## Recommended adjustment before another A0 run
 
@@ -40,3 +40,7 @@ In the first ten sections, six explicit inherited-setup cases (e.g. `lemma-devis
 4. Measure A1 review effort with and without the reference ledger; scale only if the benefit is real.
 
 **No authoritative Stage A, Stage B, Pass 3, or public-catalog records were modified.**
+
+## Subsequent audit, not part of the original Medium run
+
+The later [A0 v2 review](REVIEW_AND_V2_SPEC_2026-10-31.md) found many missed explicit inherited-context references and produced separate `A0_WORKPACKETS_V2.jsonl` per calibration batch, plus `flat/CONTEXT_EVENTS_V2.jsonl` to index omitted named Situations. It preserves the original candidate overlays and the original Medium results for comparison. The retrofitted v2 source packets do **not** retrospectively prove the Medium run was successful or completed any standalone mathematical validation.
