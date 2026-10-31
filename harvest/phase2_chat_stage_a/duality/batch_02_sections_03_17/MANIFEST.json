@@ -80,20 +80,11 @@
     "candidate.stacks.406db15c641651212bfd11da"
   ],
   "output_file": "harvest/phase2_chat_stage_a/duality/batch_02_sections_03_17/RECONSTRUCTIONS.jsonl",
-  "reviewer": "chatgpt-stage-a",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.2bcdee1c30a6c08b5b0e095b",
-    "candidate.stacks.9f7e2739496603963618f2c1",
-    "candidate.stacks.1f59d3bcc15125efefdd11b2",
-    "candidate.stacks.301b09eb70c6467b07b35fe9",
-    "candidate.stacks.dc522beb0231b0539c0a307a",
-    "candidate.stacks.09b4e080f531e2fa94ff14c0",
-    "candidate.stacks.4cea1add6c762a1a00d031f3",
-    "candidate.stacks.f0fc6dd6626a14ceff56edfe",
-    "candidate.stacks.f512a673f7e686903815b206",
     "candidate.stacks.b6fb5af44bb86da160ddd687",
     "candidate.stacks.0550091c5a7779e1cd6a2d7f",
     "candidate.stacks.4fd5c0c751cf11bf907528b7",
@@ -126,31 +117,31 @@
       "section": 3,
       "kind": "candidates",
       "source_line": 417,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 4,
       "kind": "candidates",
       "source_line": 698,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 5,
       "kind": "candidates",
       "source_line": 957,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 6,
       "kind": "candidates",
       "source_line": 1357,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 7,
       "kind": "candidates",
       "source_line": 1615,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 8,
@@ -214,11 +205,16 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 1,
-  "stage_a_remaining_work_candidate_count": 48,
-  "stage_a_source_hold_candidate_count": 35,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 14,
+  "stage_a_ready_for_codex_candidate_count": 13,
+  "stage_a_remaining_work_candidate_count": 36,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 5,
+  "stage_a_remaining_work_section_count": 9,
   "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Source-first Stage A preparation of Duality §§1–7: 19 active statements now self-contained with dualizing definition, D_QCoh right adjoint, coherator, support comparison, base-change α/β and trace/unit transformations. Remaining §§8–17 untouched."
 }
