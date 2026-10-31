@@ -67,9 +67,6 @@
     "candidate.stacks.76af97e68dfef241690d9a6b",
     "candidate.stacks.6aaa2e1fb84bd79d97b65602",
     "candidate.stacks.12ca079a2823eeabaacf5472",
-    "candidate.stacks.36e7fd5fb10570ae3a7474f8",
-    "candidate.stacks.e86d8f07d83bd94328de6b50",
-    "candidate.stacks.389ee12933cc44c9ee1b7250",
     "candidate.stacks.b0ab2b9b0217626a67bcfb4a",
     "candidate.stacks.e7c41aa709641cda977196c3",
     "candidate.stacks.f58ae426a6085694a9869948",
@@ -80,9 +77,11 @@
     "candidate.stacks.7ca789f4689b483ad8fd34ec",
     "candidate.stacks.2cc3cc8e2280563da2022634",
     "candidate.stacks.b77d551ff62c45cd499428c2",
-    "candidate.stacks.958630b045d3d710126fff12",
     "candidate.stacks.19b26decdf0b7d1d1f1bd1a9",
-    "candidate.stacks.89070509197a737501d25fe3"
+    "candidate.stacks.dbf99090cb94f2d468abd641",
+    "candidate.stacks.89070509197a737501d25fe3",
+    "candidate.stacks.0c3c1574b629d2755d549950",
+    "candidate.stacks.31eb3037ac417f77392e5c04"
   ],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
