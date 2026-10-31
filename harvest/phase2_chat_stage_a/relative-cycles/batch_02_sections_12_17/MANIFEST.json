@@ -55,33 +55,99 @@
       "section": 12,
       "kind": "candidates",
       "source_line": 1980,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.faf797d076ab62468dd905f2",
+        "candidate.stacks.d9821f39a54f7bb8e9f3d29e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Action on cycles",
+      "stage_a_source_context_summary": "Section-level constructions are explicitly scoped; no earlier theorem premises inherited."
+    },
+    {
+      "section": 13,
+      "kind": "context_only",
+      "source_line": 2342,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Action on chow groups",
+      "stage_a_source_context_summary": "Section-level constructions are explicitly scoped; no earlier theorem premises inherited."
     },
     {
       "section": 14,
       "kind": "candidates",
       "source_line": 2548,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d9c5578e6f0ab2bfc71b38a9",
+        "candidate.stacks.f37aaf35f74c1b2af14d3ba2",
+        "candidate.stacks.dc345963b6fa2c569f5d5932",
+        "candidate.stacks.c3098e87b1df462b5734a85b",
+        "candidate.stacks.3077d94a6397bcdb155f82c7",
+        "candidate.stacks.94dc85544d97b9485bf05ea3",
+        "candidate.stacks.c56973fdbcea6721048bafc6"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.d9c5578e6f0ab2bfc71b38a9"
+      ],
+      "stage_a_source_context_heading": "Composition of families of cycles on fibres",
+      "stage_a_source_context_summary": "Composition α∘β defined fibrewise at L2559; original bilinearity lemma has explicit malformed equality and is held."
     },
     {
       "section": 15,
       "kind": "candidates",
       "source_line": 2770,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.36cfa50909dd8fe9bf292ad3",
+        "candidate.stacks.7b01963e747942d7f08c310d"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Composition of relative cycles",
+      "stage_a_source_context_summary": "Relative-cycle premise on α and β includes locally Noetherian S and locally finite type arrows from section opening; imported into bare lemma."
+    },
+    {
+      "section": 16,
+      "kind": "context_only",
+      "source_line": 2864,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Comparison with Suslin and Voevodsky",
+      "stage_a_source_context_summary": "Section-level constructions are explicitly scoped; no earlier theorem premises inherited."
     },
     {
       "section": 17,
       "kind": "candidates",
       "source_line": 2912,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.9e48f2bae9faa558639c9db3"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Relative cycles in the non-Noetherian case",
+      "stage_a_source_context_summary": "Section-level constructions are explicitly scoped; no earlier theorem premises inherited."
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 12,
+  "stage_a_ready_for_codex_candidate_count": 11,
+  "stage_a_remaining_work_candidate_count": 1,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 4,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 1,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "stage_a_dispositioned_section_count": 6,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/relative-cycles/batch_02_sections_12_17/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/relative-cycles/batch_02_sections_12_17/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Relative Cycles §§12–17 source-order Stage A reviewed: action and composition contexts expanded for shorthand lemmas, non-Noetherian cycle-class map pinned, one malformed source bilinearity identity explicitly held. Context reset at chapter boundary."
 }
