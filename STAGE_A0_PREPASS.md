@@ -1,0 +1,111 @@
+# Stage A0: Medium-thinking lightweight context pre-pass
+
+**Introduced October 31, 2026.** Stage A0 is an optional, independent *preparation* layer before the existing high-thinking **Stage A (A1)** and independent Codex **Stage B**. It is intended to move repetitive source-context bookkeeping and unambiguous substitutions out of the expensive mathematical-reconstruction pass. The first trial has **not** been executed by this document's creation.
+
+For authoritative Stage A rules, including the mandatory running ledger, see [STAGE_A_PREPARATION.md](STAGE_A_PREPARATION.md). Existing section-walk scope rules, current Stage A manifests, active candidate pool, and Stage B approvals remain in force.
+
+## Pipeline and trust boundary
+
+```text
+Pinned Stacks source + authoritative approved-ID index
+    ↓
+A0 (Medium): source-ordered context ledger, safe expansions, exact unresolved notes
+    ↓   [A0 overlays only — no readiness promotion]
+A1 / Stage A (High): verify against original source, complete hard reconstruction,
+    │                flag further_work_needed or authoritative Stage A-ready
+    ↓
+Stage B (Codex): independent source/semantic validation
+    ↓
+Future proof/Pass 3 gate (not part of A0 or Stage A)
+```
+
+**A0 never verifies a candidate as standalone, never authorizes Stage B, and never changes or reproduces Codex-approved records.** A0 performs no theorem proof checking, public publication, duplicate-merger adjudication or candidate-pool edits.
+
+## Intended first experiment
+
+Choose a start roughly **200 candidate-bearing sections beyond the current A1 frontier** in the repository's genuine source ordering, then process **40 candidate-bearing sections** in four checkpoints of roughly ten sections each. Count candidate-bearing sections rather than blindly jumping 200 physical section headings; still traverse/ledger all intervening source material and zero-candidate sections. Treat 40 and the offset as experiment targets, not hardcoded source identifiers.
+
+Before selection, inspect the *latest* branch, the authoritative Codex-approved ID lists (including the original 655 and subsequent approvals), Stage A manifests, current source-order frontier and active candidate registry. Avoid overlap with concurrent A1 processing. If the jump starts mid-chapter, reconstruct the ledger from the chapter start or a verified, pinned, scope-complete checkpoint; **never begin with an empty or assumed ledger**. A full-section walk can reuse source indexes as leads but must verify applicable context. On changing chapter, reset local state and use only explicit inheritance.
+
+## What A0 should do, in source order
+
+1. **Read the original statement and trusted context leads.** Load pinned Stacks source revision `a04446e57ec1fbc252a871afcec7752fb2807b14`, chapter/section openings, exact labels, reviewed standing-context atlas, prior validated ledger checkpoint, active IDs and authoritative approvals. Indexes are locator aids, not mathematical authority.
+2. **Build/update a scoped ledger.** On encountering a source declaration, record its exact locator, text/faithful excerpt, scope evidence, applicability, active interval, type and overrides. Distinguish standing assumptions from definitions, notation, proof dependencies and candidate-local hypotheses. Handle context-only sections and expiration explicitly; push/pop local mathematical environments and record negative (do-not-inherit) evidence. Save full-section checkpoints.
+3. **Perform safe, low-inference edits.** Substitute an explicitly applicable Situation; restate an inherited section/chapter hypothesis; introduce an already defined symbol, object, morphism or base; resolve an exact, unambiguous local reference; make a clearly implicit quantifier explicit. Keep standard mathematical terminology concise rather than recursively expanding all definitions.
+4. **Preserve logical form.** Keep `if`/ `only if`, equivalences, enumerations, existential witness sharing, quantified scope, alternatives, and subordinate hypotheses exactly as the source requires. Stop before any expansion demanding a substantial mathematical argument or uncertain correspondence.
+5. **Write an overlay, not a verdict.** Preserve exact original statement, proposed partial/full expansion, applied ledger-ID/source links and a transformation list. Name each unresolved issue concretely with the first source label/location needed for A1. Partial progress is useful; do not hide uncertainty under a generic `needs more work` without a specific reason.
+6. **Checkpoint and proceed.** Save after every full section, including sections with no active candidates; skip writing candidate overlays for already Codex-approved identities, but still account for any context-bearing section where those candidates appear. Commit each bounded batch independently.
+
+### Good A0 work
+
+A section says `Throughout this section, let R be Noetherian and M a finite R-module`; a later candidate states `If M is flat, M is projective`. If the source and scope confirm both assumptions persist, A0 can propose `Let R be a Noetherian ring and M a finite flat R-module. Then M is projective.` The source lines and context IDs must be attached. A1 still checks correctness and standalone fidelity.
+
+### Stop/hold examples
+
+- `By Lemma X the map is an isomorphism` without a clear object substitution. Locate Lemma X, record the exact missing object correspondence, and defer.
+- A theorem-dependent proof fact mentioned in surrounding prose; do not turn that fact into a premise.
+- A temporary assumption used in the prior lemma; pop it rather than inheriting it.
+- An ambiguous interpretation of a numbered equivalence, local notation, or a shared existential witness; retain source form and flag the specific ambiguity.
+- A section's introductory discussion that says `we often assume` but does not actually impose a condition on this candidate; do not apply it automatically.
+
+## Output location and minimal schema (A0 only)
+
+Use a separate namespace, e.g. `harvest/phase2_chat_stage_a0/<chapter>/<batch>/`, with:
+
+- `MANIFEST.json`: A0 schema/version, reviewer + thinking level, pinned source revision, exact source interval, complete section ordinals (including zero-active/context-only), candidate IDs/counts, prior Codex-approved IDs skipped, checkpoint paths, continuation cursor, and A0-only status counts.
+- `CONTEXT_LEDGER.jsonl`: source-anchored additions, scope ends, overrides, guards, entry type, applicable intervals and stable IDs. Preserve events sufficient to reconstruct each candidate's live context.
+- `SECTION_CHECKPOINTS.jsonl`: one per traversed complete source section, post-section live IDs and scope stack, next source line/section, source revision, unresolved scope changes.
+- `A0_RECONSTRUCTIONS.jsonl`: per-candidate original source text and pinned locator, `a0_status`, partial standalone draft, exact applied-context IDs, source-backed transformations, remaining issues, suggested A1 checks, and difficulty estimate.
+- An optional `REPORT.md`: processed physical and candidate-bearing sections, A0 statuses, errors/holds, and comparison measures.
+
+Example **illustrative** candidate overlay (not a current candidate or required exact machine schema):
+
+```json
+{
+  "schema": "maththm.phase2.chat-stage-a0.v1",
+  "candidate_id": "candidate.stacks.EXAMPLE",
+  "source_file": "example.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_line": 1234,
+  "original_source_statement_tex": "...",
+  "a0_status": "a0_unresolved",
+  "proposed_standalone_statement": "...",
+  "applied_context_ids": ["example.tex:1100:standing-setup"],
+  "transformations": [
+    {"action": "insert_explicit_section_setup", "context_id": "example.tex:1100:standing-setup", "source_line": 1100}
+  ],
+  "unresolved": [{"issue": "Object correspondence for Lemma 4.2", "reference": "example-lemma-4-2"}],
+  "a1_next_check": "Verify how the referenced morphism specializes"
+}
+```
+
+**A0 statuses (sidecar only):**
+
+| `a0_status` | Meaning |
+| --- | --- |
+| `a0_expanded` | All straightforward expansion attempted; may still be semantically incomplete or wrong; **requires A1** |
+| `a0_unresolved` | Useful partial expansion with explicit remaining blockers |
+| `a0_no_changes_needed` | No mechanical expansion found; **not** a standalone certification |
+| `a0_blocked` | Cannot safely proceed without a source/context/identity issue being resolved |
+
+A0 may also attach *non-authoritative* difficulty `simple`, `moderate`, `difficult`, or `blocked` for A1 batching. Do **not** use or change the existing `decision`, `stage_a_remaining_work`, `stage_a_readiness`, independent-validation flags, or `harvest/phase2_chat_stage_a/FURTHER_WORK_NEEDED.jsonl` to express A0 progress. Do not count A0 as Stage A prepared, Codex ready, Codex completed, or Pass 3 eligible.
+
+## A1 consumption and promotion
+
+A1 should read the A0 original+proposed statements, transformed-context provenance, ledger/checkpoints and unresolved notes **alongside** the pinned original source. For each A0 substitution, verify applicability and logical equivalence. Resolve difficult issues or record **`further_work_needed`** with a precise source locator. Only then produce the established `harvest/phase2_chat_stage_a/...` `RECONSTRUCTIONS.jsonl` and `MANIFEST.json`. The *existing* Stage A ready gate remains:
+
+```text
+decision == "reconstruction_completed_awaiting_independent_stage_b_validation"
+and stage_a_remaining_work is absent or empty
+and source-first mathematical reconstruction was actually completed
+```
+
+Merely consuming an `a0_expanded` file does not satisfy this. Stage B independently validates; no A0/A1 overlay can approve itself or enable proof screening.
+
+## Pilot quality and stop rules
+
+After the 40-section experiment, independently audit a representative set of 10–15 candidate overlays with High thinking, including seemingly simple/complete entries *and* unresolved cases. Compare against A1-only sections when possible: mechanical coverage, reusable applied context, fraction needing mathematical repair, wrong/inapplicable assumptions introduced, A1 review effort, and time/effort saved. Audit any actual errors before scaling to 100–200 candidate-bearing sections. If Medium outputs repeatedly introduce untraceable or incorrect hypotheses, tighten or suspend A0; conservative omissions are preferable to invented theorems.
+
+## Future-chat quick start
+
+> We are running the **Stage A0 Medium-thinking pre-pass** for `Zengez/mathThm`, branch `work/phase2-stage-a-context-enrichment`. Read `STAGE_A0_PREPASS.md` and `STAGE_A_PREPARATION.md`. Inspect latest source-order frontier and authoritative Stage B approvals; select the next safe full-section window, rebuild/continue the pinned, source-anchored, scoped context ledger, and perform only mechanically justified expansion. Write A0 overlays under `harvest/phase2_chat_stage_a0/`, checkpoint every section, never set Stage A readiness, and leave the mathematical questions explicitly for A1. Do not start Stage B or proof checking.
