@@ -1,0 +1,183 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "topology-source-ordered-batch-01",
+  "chapter": "topology.tex",
+  "sections_ordinal": [
+    1,
+    7
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17,
+    24,
+    116,
+    189,
+    275,
+    413,
+    620
+  ],
+  "first_source_line": 17,
+  "last_source_line": 850,
+  "complete_sections": true,
+  "stage_a_candidate_count": 21,
+  "candidate_ids": [
+    "candidate.stacks.72a488bb1f19149d12336ef8",
+    "candidate.stacks.24891ae411ef5c9c337a95cb",
+    "candidate.stacks.47b4236641fd8b1d8c164a85",
+    "candidate.stacks.707c7fa3cbb2522b38c7a15f",
+    "candidate.stacks.f09ea19ce09cdd11c75653e5",
+    "candidate.stacks.b87da395de7e3bf65a5110f0",
+    "candidate.stacks.834500413e67408958f998b6",
+    "candidate.stacks.4fbf6c69e6baf7af359ab0a3",
+    "candidate.stacks.d65ceabfee8e75037a1997a1",
+    "candidate.stacks.601985df424223610eabd63c",
+    "candidate.stacks.1769409ae74d1dc4a71bfd86",
+    "candidate.stacks.01b1950b83245729d6bcb3dc",
+    "candidate.stacks.a5d19adec5828918f659c6cb",
+    "candidate.stacks.99f3838f810e3418721445ae",
+    "candidate.stacks.6f55a088c9fbf8b133d31880",
+    "candidate.stacks.f1e3d7dfcdb3edd469bea186",
+    "candidate.stacks.44df237bb1870d8d6f88c696",
+    "candidate.stacks.dcc61901820ab50df5cd9afd",
+    "candidate.stacks.c03f2c50b57faa2ff7a2d729",
+    "candidate.stacks.a0345af8da4f00793827e16b",
+    "candidate.stacks.8a78fc0d8844842d88fa6c49"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/topology/batch_01_sections_01_07/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/topology/batch_01_sections_01_07/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/topology/batch_01_sections_01_07/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-topology-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1,
+    2
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Introduction",
+      "stage_a_source_context_summary": "Pinned topology.tex §1 L17–23; 0 active, 0 Stage A ready, 0 holds. Ambient assumptions do not leak across theorems."
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 24,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Basic notions",
+      "stage_a_source_context_summary": "Pinned topology.tex §2 L24–115; 0 active, 0 Stage A ready, 0 holds. Ambient assumptions do not leak across theorems."
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 116,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.72a488bb1f19149d12336ef8",
+        "candidate.stacks.24891ae411ef5c9c337a95cb",
+        "candidate.stacks.47b4236641fd8b1d8c164a85",
+        "candidate.stacks.707c7fa3cbb2522b38c7a15f"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Hausdorff spaces",
+      "stage_a_source_context_summary": "Pinned topology.tex §3 L116–188; 4 active, 4 Stage A ready, 0 holds. Ambient assumptions do not leak across theorems."
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 189,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f09ea19ce09cdd11c75653e5",
+        "candidate.stacks.b87da395de7e3bf65a5110f0",
+        "candidate.stacks.834500413e67408958f998b6"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Separated maps",
+      "stage_a_source_context_summary": "Pinned topology.tex §4 L189–274; 3 active, 3 Stage A ready, 0 holds. Ambient assumptions do not leak across theorems."
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 275,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.4fbf6c69e6baf7af359ab0a3",
+        "candidate.stacks.d65ceabfee8e75037a1997a1",
+        "candidate.stacks.601985df424223610eabd63c",
+        "candidate.stacks.1769409ae74d1dc4a71bfd86"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Bases",
+      "stage_a_source_context_summary": "Pinned topology.tex §5 L275–412; 4 active, 4 Stage A ready, 0 holds. Ambient assumptions do not leak across theorems."
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 413,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.01b1950b83245729d6bcb3dc",
+        "candidate.stacks.a5d19adec5828918f659c6cb",
+        "candidate.stacks.99f3838f810e3418721445ae",
+        "candidate.stacks.6f55a088c9fbf8b133d31880"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Submersive maps",
+      "stage_a_source_context_summary": "Pinned topology.tex §6 L413–619; 4 active, 4 Stage A ready, 0 holds. Ambient assumptions do not leak across theorems."
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 620,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f1e3d7dfcdb3edd469bea186",
+        "candidate.stacks.44df237bb1870d8d6f88c696",
+        "candidate.stacks.dcc61901820ab50df5cd9afd",
+        "candidate.stacks.c03f2c50b57faa2ff7a2d729",
+        "candidate.stacks.a0345af8da4f00793827e16b",
+        "candidate.stacks.8a78fc0d8844842d88fa6c49"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Connected components",
+      "stage_a_source_context_summary": "Pinned topology.tex §7 L620–850; 6 active, 6 Stage A ready, 0 holds. Ambient assumptions do not leak across theorems."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 21,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 5,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
+  "stage_a_dispositioned_section_count": 7,
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "processing_note": "A1 source-first review of prior A0 v2 work packets; no independent Stage B validation."
+}
