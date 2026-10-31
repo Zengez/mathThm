@@ -83,16 +83,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.6ba59bd81d1a99c4b106a767",
-    "candidate.stacks.e4b9f9a58b7fec5849d28bd2",
-    "candidate.stacks.3ef9057ecc6b00504c6aa6b4",
-    "candidate.stacks.601761e8e8a30b2cbbeb184e",
-    "candidate.stacks.9d77b09a9a81e6bdb45b7d06",
-    "candidate.stacks.90e38cccf2f2fca67727b4d7",
-    "candidate.stacks.c8a4a313e45d09e8d2b85615",
-    "candidate.stacks.93d8992339a5469d756fca14"
-  ],
+  "preliminary_source_holds": [],
   "processing_sections": [
     {
       "section": 1,
@@ -158,13 +149,13 @@
       "section": 11,
       "kind": "candidates",
       "source_line": 2057,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 12,
       "kind": "candidates",
       "source_line": 2345,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 13,
@@ -174,16 +165,16 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 38,
-  "stage_a_remaining_work_candidate_count": 8,
+  "stage_a_ready_for_codex_candidate_count": 44,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
   "stage_a_ready_for_codex_section_count": 4,
-  "stage_a_remaining_work_section_count": 2,
-  "stage_a_work_pending": true,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
-  "stage_a_further_work_candidate_count": 4,
-  "stage_a_further_work_section_count": 4,
-  "stage_a_dispositioned_section_count": 10,
+  "stage_a_further_work_candidate_count": 6,
+  "stage_a_further_work_section_count": 6,
+  "stage_a_dispositioned_section_count": 13,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Descent completed. Discriminant §§1–10 read and context-expanded in source order: dualizing/trace; Noether different and pairing; Kähler different; Dedekind different; relative different and syntomic local models. §§11–13 not yet dispositioned. Holds require exact complex/divisor construction."
+  "processing_note": "All first 13 sections of Discriminant now dispositioned. 44 standalone-prepared and six further work (pinned source NL variance, non-Noetherian ω and τ, relative algebraic complex, trace localization, norm and seven-way condition). The next packet is §§14–16."
 }
