@@ -85,31 +85,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.f5ddd1b3f5d473bd5260abbd",
-    "candidate.stacks.f91e6d9de72f1d708b1700fc",
-    "candidate.stacks.13e9955836d1db8dce5870e4",
-    "candidate.stacks.0ed30c3fa6237c348268b827",
-    "candidate.stacks.9ae8da14d2bcb2fb02774aca",
-    "candidate.stacks.3086be8bec445feb242324f3",
-    "candidate.stacks.deaed7072eb028c75b55cc96",
-    "candidate.stacks.38d31f902ff1f87f160c4b25",
-    "candidate.stacks.527eca8a359bdbedfe34f1b2",
-    "candidate.stacks.48650d5cf4c83f4513387f38",
-    "candidate.stacks.84ad7f88459e9e9d81d47e44",
-    "candidate.stacks.0a2419e36d327123264df10b",
-    "candidate.stacks.2cca6188db363b94d83434c4",
-    "candidate.stacks.e74ed4a202d3dd27c77fd664",
-    "candidate.stacks.981e6bfc08847f1ccc5bc1fb",
-    "candidate.stacks.0f7684ce53c317a80fb179b7",
-    "candidate.stacks.30627630beaea0fa6c95c2d7",
-    "candidate.stacks.a3029c007f21661b549da504",
-    "candidate.stacks.72eed5e08570817f61483008",
-    "candidate.stacks.930449c9c36a3707a0eacc6f",
-    "candidate.stacks.0991b4c57d3d90e430000318",
-    "candidate.stacks.5f78b9b7c640bc738dd7e4ae",
-    "candidate.stacks.c567c44fca4acce0edbc283b"
-  ],
+  "preliminary_source_holds": [],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     14
@@ -131,37 +107,37 @@
       "section": 8,
       "kind": "candidates",
       "source_line": 916,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 9,
       "kind": "candidates",
       "source_line": 1526,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 10,
       "kind": "candidates",
       "source_line": 1965,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 11,
       "kind": "candidates",
       "source_line": 2468,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 12,
       "kind": "candidates",
       "source_line": 2741,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 13,
       "kind": "candidates",
       "source_line": 2992,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 14,
@@ -179,19 +155,19 @@
       "section": 15,
       "kind": "candidates",
       "source_line": 3568,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 16,
       "kind": "candidates",
       "source_line": 3738,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 17,
       "kind": "candidates",
       "source_line": 4077,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 18,
@@ -201,16 +177,16 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 5,
-  "stage_a_remaining_work_candidate_count": 46,
+  "stage_a_ready_for_codex_candidate_count": 49,
+  "stage_a_remaining_work_candidate_count": 1,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 2,
-  "stage_a_remaining_work_section_count": 10,
+  "stage_a_ready_for_codex_section_count": 10,
+  "stage_a_remaining_work_section_count": 1,
   "stage_a_work_pending": true,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
-  "stage_a_further_work_candidate_count": 0,
-  "stage_a_further_work_section_count": 0,
-  "stage_a_dispositioned_section_count": 2,
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "stage_a_dispositioned_section_count": 12,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Prepared candidates in source order through §7; source-only Stage A readiness; actual approval awaits independent Codex Stage B."
+  "processing_note": "Source-first §§6–17 dispositioned, preserving distinctions in Fourier–Mukai, sibling functors, relative convolution and countability. One deferred Koszul neighbourhood index mismatch; §18 still pending. Stage B independent validation not done."
 }
