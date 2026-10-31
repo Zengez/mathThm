@@ -42,7 +42,10 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [],
+  "preliminary_source_holds": [
+    "candidate.stacks.df30fb77abf208d4de2dc4ae",
+    "candidate.stacks.4c714823020ad35190b0dd77"
+  ],
   "processing_sections": [
     {
       "section": 15,
