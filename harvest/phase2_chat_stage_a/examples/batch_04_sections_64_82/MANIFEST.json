@@ -54,11 +54,7 @@
   "preliminary_source_holds": [
     "candidate.stacks.82cdb1b8f341930f19315eb0",
     "candidate.stacks.541263eae21c67b5875cb674",
-    "candidate.stacks.140902b61de83ba0ab389496",
-    "candidate.stacks.6312c3f4583613a6b79c2177",
-    "candidate.stacks.be3dfeeb3b0a6b27c7dc8d1b",
-    "candidate.stacks.c2c6cd3146074039bc8b6c18",
-    "candidate.stacks.4c694e7cea999606f0413ecf"
+    "candidate.stacks.6312c3f4583613a6b79c2177"
   ],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
