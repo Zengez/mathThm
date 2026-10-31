@@ -127,27 +127,32 @@
     {
       "section": 2,
       "kind": "candidates",
-      "source_line": 35
+      "source_line": 35,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 124
+      "source_line": 124,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 709
+      "source_line": 709,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 924
+      "source_line": 924,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 1190
+      "source_line": 1190,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
@@ -158,58 +163,74 @@
           "source_line": 1346,
           "tex": "\\noindent\nLet $X$ be a connected scheme with geometric point $\\overline{x}$.\nSince $F_{\\overline{x}} : \\textit{F\\'Et}_X \\to \\textit{Sets}$ is a\nGalois category (Lemma \\ref{lemma-finite-etale-connected-galois-category})\nthe material in Section \\ref{section-galois} applies.\nIn this section we explicitly transfer some of the terminology\nand results to the setting of schemes and finite \\'etale morphisms."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 1405
+      "source_line": 1405,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 1601
+      "source_line": 1601,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 1927
+      "source_line": 1927,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 2346
+      "source_line": 2346,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 2579
+      "source_line": 2579,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 2816
+      "source_line": 2816,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 3418
+      "source_line": 3418,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 3563
+      "source_line": 3563,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 3686
+      "source_line": 3686,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 3933
+      "source_line": 3933,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 52,
+  "stage_a_source_hold_candidate_count": 25,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 15
 }

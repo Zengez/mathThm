@@ -116,7 +116,7 @@
   "output_file": "harvest/phase2_chat_stage_a/quot/batch_01_sections_01_16/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": false,
+  "stage_a_mathematical_analysis_pending": true,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -150,7 +150,8 @@
           "source_line": 22,
           "tex": "\\noindent\nAs initially conceived, the purpose of this chapter was to write about\nQuot and Hilbert functors and to prove that these are algebraic spaces\nprovided certain technical conditions are satisfied. This material, in\nthe setting of schemes, is\ncovered in Grothendieck's lectures in the s\\'eminair Bourbaki, see\n\\cite{Gr-I},\n\\cite{Gr-II},\n\\cite{Gr-III},\n\\cite{Gr-IV},\n\\cite{Gr-V}, and\n\\cite{Gr-VI}. For projective schemes the Quot and Hilbert schemes\nlive inside Grassmannians of spaces of sections of suitable very\nample invertible sheaves, and this provides a method of construction\nfor these schemes. Our approach is different: we use Artin's axioms to\nprove Quot and Hilb are algebraic spaces."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
@@ -165,78 +166,98 @@
           "source_line": 156,
           "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 176
+      "source_line": 176,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 745
+      "source_line": 745,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 869
+      "source_line": 869,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 1538
+      "source_line": 1538,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 1663
+      "source_line": 1663,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 2192
+      "source_line": 2192,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 2429
+      "source_line": 2429,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 2591
+      "source_line": 2591,
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 2684
+      "source_line": 2684,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 3115
+      "source_line": 3115,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 3219
+      "source_line": 3219,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 3757
+      "source_line": 3757,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 4496
+      "source_line": 4496,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 4879
+      "source_line": 4879,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 18,
+  "stage_a_remaining_work_candidate_count": 64,
+  "stage_a_source_hold_candidate_count": 13,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 11
 }
