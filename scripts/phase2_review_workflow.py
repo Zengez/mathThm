@@ -113,7 +113,7 @@ def materialize(manifest=MANIFEST, output=OUTPUT):
                        independent_validation=verdict,
                        reconstruction_artifact=batch['reconstructions'],
                        independent_validation_artifact=batch['independent_validation'],
-                       mathematical_review_date='2026-10-29',
+                       mathematical_review_date=batch.get('review_date', '2026-10-29'),
                        logical_form=row['logical_form'],
                        structured_cases=row.get('structured_cases', []),
                        equivalence_sides=row.get('equivalence_sides', []))

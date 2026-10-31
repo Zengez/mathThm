@@ -1,0 +1,12 @@
+{
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "review_batches": [
+    {
+      "name": "stage-b-calibration-20261031-initial08",
+      "reconstructor": "calibration_algebra",
+      "review_date": "2026-10-31",
+      "reconstructions": "harvest/phase2_stage_b_calibration_2026-10-31/initial_08/FORMULATIONS.jsonl",
+      "independent_validation": "harvest/phase2_stage_b_calibration_2026-10-31/initial_08/INDEPENDENT_VALIDATION.jsonl"
+    }
+  ]
+}

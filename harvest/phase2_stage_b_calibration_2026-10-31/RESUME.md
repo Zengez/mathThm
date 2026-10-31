@@ -14,3 +14,9 @@ Next steps: finish correction and independent source-first validation of first e
 Recovered checkout `.harvest_runs/stage-b-validation-20261030` remains untouched. Its 78 independent Topologies decisions and 129 Descent formulations remain excluded. Only already-materialized 27 overlays and their provenance were copied into this isolated checkout, without fresh review.
 
 Local Git is writable in this isolated checkout; original root .git is read-only. Do not repeatedly retry blocked push/network operations. Full tests deferred per user; run focused calibration checks only. No focused checks have run yet at checkpoint creation. No reliable per-run token/credit telemetry is available.
+
+## Initial gate completed
+
+All initial31 formulations and independent approvals saved; nine mathematical corrections, no holds. Existing authoritative/workflow tests:13 passed. Focused current-run checks passed exact eligible identity, disjoint historical IDs, snapshot blob provenance, independent reviewer, proof exclusion, exact formulation digest, and mutation rejection. Existing materialization succeeded:31 new approvals, union713=655 historical+27 recovered+31 new. Materializer corrected to honor per-batch review_date (historical default retained).
+
+Authorized continuation ONLY ordinals9–50: bulk_09_22 (55 IDs), bulk_23_36 (65 IDs), bulk_37_50 (42 IDs). Correction and independent source-first roles dispatched; inspect section checkpoints/current files on resume before doing any work. Final target remains50 sections/193 eligible candidates, never expand. For final materialization add completed bulk pairs to this run's REVIEW_BATCHES.json; output same APPROVED_OVERLAYS.jsonl, preserving initial31. Full suite remains deferred.
