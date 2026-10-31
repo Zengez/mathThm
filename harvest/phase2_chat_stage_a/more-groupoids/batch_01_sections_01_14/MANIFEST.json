@@ -70,16 +70,21 @@
   "preliminary_source_holds": [
     "candidate.stacks.6be7be004ae1ffa9b5b2f9c7",
     "candidate.stacks.fce44ae3567d48e7917f2077",
+    "candidate.stacks.a4ab71abe7d1c96a209e4abb",
+    "candidate.stacks.38703a49abfb3315a1893548",
     "candidate.stacks.c28731e20ef3475fe1572de5",
     "candidate.stacks.03919fea7288ddcc895c13aa",
     "candidate.stacks.501a0d37517ad944c4ea5e92",
     "candidate.stacks.be854bf9b7ef6f31e60b5d99",
     "candidate.stacks.5d064b14f1bb33309a59d7bd",
     "candidate.stacks.64f761693139be53f11c2a0d",
+    "candidate.stacks.abe0a65830eaeb8a8d5d8c4e",
+    "candidate.stacks.935e32d7094da27a27f68a9d",
     "candidate.stacks.a028f608333d919eb30dd077",
     "candidate.stacks.1024be749fcc22deb74066e5",
     "candidate.stacks.d30107034d20905797160629",
     "candidate.stacks.f75d55786ed2e82fd5196aeb",
+    "candidate.stacks.f92cbefd296aad5cba6b5cc8",
     "candidate.stacks.b778c623571d43c17b1f7d09",
     "candidate.stacks.093f82bbe2f2c0105368c5d3",
     "candidate.stacks.a2a54a41965367f6043b8767",
@@ -94,7 +99,8 @@
     "candidate.stacks.e975d702a19969239456e439",
     "candidate.stacks.ca0a7f4639a2feae0ce889d1",
     "candidate.stacks.9dd7abb855978186cf661a30",
-    "candidate.stacks.2c2596d094243f2a8baf5a7c"
+    "candidate.stacks.2c2596d094243f2a8baf5a7c",
+    "candidate.stacks.f048123f7cad9118dba74a57"
   ],
   "processing_sections": [
     {
@@ -154,5 +160,6 @@
       "kind": "candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_mathematical_analysis_pending": false
 }
