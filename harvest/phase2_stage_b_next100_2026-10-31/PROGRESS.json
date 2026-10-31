@@ -6,11 +6,11 @@
   "selection_commit": "bff8401e62e6b1de3ac3addd08d033304b862888",
   "selected_sections": 100,
   "selected_candidates": 324,
-  "completed_sections": 48,
-  "approvals": 99,
+  "completed_sections": 60,
+  "approvals": 122,
   "mathematical_holds": 1,
-  "processing_holds": 81,
-  "current_authoritative_total": 971,
+  "processing_holds": 94,
+  "current_authoritative_total": 994,
   "completed_groups": [
     {
       "group": "group_001_012",
@@ -546,36 +546,156 @@
       "corrected": 3,
       "mathematical_holds": 0,
       "processing_holds": 8,
+      "commit_sha": "1ca0c641fdf29e6a63d2aaaa2a23d97228f13ca8",
+      "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
+    },
+    {
+      "group": "group_049_060",
+      "selected_sections": [
+        49,
+        60
+      ],
+      "section_boundaries": [
+        {
+          "ordinal": 49,
+          "source_file": "dualizing.tex",
+          "section_start_line": 3418,
+          "section_end_line": 3541
+        },
+        {
+          "ordinal": 50,
+          "source_file": "dualizing.tex",
+          "section_start_line": 3584,
+          "section_end_line": 3705
+        },
+        {
+          "ordinal": 51,
+          "source_file": "dualizing.tex",
+          "section_start_line": 3706,
+          "section_end_line": 4030
+        },
+        {
+          "ordinal": 52,
+          "source_file": "dualizing.tex",
+          "section_start_line": 4031,
+          "section_end_line": 4162
+        },
+        {
+          "ordinal": 53,
+          "source_file": "dualizing.tex",
+          "section_start_line": 4163,
+          "section_end_line": 4317
+        },
+        {
+          "ordinal": 54,
+          "source_file": "dualizing.tex",
+          "section_start_line": 4318,
+          "section_end_line": 4789
+        },
+        {
+          "ordinal": 55,
+          "source_file": "dualizing.tex",
+          "section_start_line": 4790,
+          "section_end_line": 5216
+        },
+        {
+          "ordinal": 56,
+          "source_file": "dualizing.tex",
+          "section_start_line": 5217,
+          "section_end_line": 5372
+        },
+        {
+          "ordinal": 57,
+          "source_file": "dualizing.tex",
+          "section_start_line": 5373,
+          "section_end_line": 5659
+        },
+        {
+          "ordinal": 58,
+          "source_file": "duality.tex",
+          "section_start_line": 80,
+          "section_end_line": 416
+        },
+        {
+          "ordinal": 59,
+          "source_file": "duality.tex",
+          "section_start_line": 3279,
+          "section_end_line": 3721
+        },
+        {
+          "ordinal": 60,
+          "source_file": "duality.tex",
+          "section_start_line": 5580,
+          "section_end_line": 5812
+        }
+      ],
+      "candidate_ids_accounted_for": [
+        "candidate.stacks.04bc709654bd290bbcaf1153",
+        "candidate.stacks.1fbdfe0b4b169359845081d4",
+        "candidate.stacks.353baad796d01322b8295960",
+        "candidate.stacks.35f70a1dde0241930683a4e0",
+        "candidate.stacks.3d0af5187332b1e5ecee939f",
+        "candidate.stacks.3fd7e0785f07bffffc56ee6e",
+        "candidate.stacks.3ffeb51d542703e59e5a2b43",
+        "candidate.stacks.439a0cbd7f38b843cf2e2a8d",
+        "candidate.stacks.526883cfa85dc3bf9b042d40",
+        "candidate.stacks.57395fba931c4a85736f6a93",
+        "candidate.stacks.5799777b3da2e7e02ee2a0dc",
+        "candidate.stacks.5daa09faa867d93cfcf27d9a",
+        "candidate.stacks.5f4d76ac6d2cc2c567f8bc84",
+        "candidate.stacks.64753750d9ec7941453c3002",
+        "candidate.stacks.65c1684a8d109515ea13c8f8",
+        "candidate.stacks.671588b0b91daeaeabcbdc58",
+        "candidate.stacks.7dadd4b0805bc3e9e81632c7",
+        "candidate.stacks.80a36f2c0a4906dd33dce4d5",
+        "candidate.stacks.94508c962aa118b3e41d8156",
+        "candidate.stacks.957820b0b91629c05b911789",
+        "candidate.stacks.9a5f2b2504432baaf7bda51e",
+        "candidate.stacks.a03df75d2ea4a0e21b7343b9",
+        "candidate.stacks.abd7aed026bbf2aeacefcf00",
+        "candidate.stacks.ac6eab9ad57f2347ad19b573",
+        "candidate.stacks.bcf7bdd3988e9695956c2bac",
+        "candidate.stacks.be531c59950ded04cc6ad5e7",
+        "candidate.stacks.c04659972f84a4a5b1660915",
+        "candidate.stacks.c9c0288b4d10635cca9e3fdc",
+        "candidate.stacks.d0110d3a76395a5bdeaaff03",
+        "candidate.stacks.d7f223a9ac5220e049da4d98",
+        "candidate.stacks.dea3b17bc5fee11e044b445c",
+        "candidate.stacks.e08328983d1e1088db75f35e",
+        "candidate.stacks.ebfc1e4f149c4ffde71f60c2",
+        "candidate.stacks.f13f713c720412096d737bc6",
+        "candidate.stacks.f7988b457043274a6aeb5066",
+        "candidate.stacks.fda29ad5455b4ca4c3902be2"
+      ],
+      "approved": 23,
+      "corrected": 1,
+      "mathematical_holds": 0,
+      "processing_holds": 13,
       "commit_sha": null,
       "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
     }
   ],
   "next_section": {
-    "ordinal": 49,
-    "global_ordinal": 99,
-    "source_file": "dualizing.tex",
-    "section_start_line": 3418,
-    "section_end_line": 3541,
+    "ordinal": 61,
+    "global_ordinal": 111,
+    "source_file": "duality.tex",
+    "section_start_line": 5813,
+    "section_end_line": 5987,
     "eligible_candidate_ids": [
-      "candidate.stacks.80a36f2c0a4906dd33dce4d5"
+      "candidate.stacks.bd6833113ac986cb0f6c6ee3"
     ],
     "all_active_candidate_ids": [
-      "candidate.stacks.80a36f2c0a4906dd33dce4d5",
-      "candidate.stacks.d6407d86fcb3bb0a5ddf7ff6",
-      "candidate.stacks.e1a76c997bbd13b81158b377"
+      "candidate.stacks.bd6833113ac986cb0f6c6ee3"
     ],
-    "unreviewed_unready_ids": [
-      "candidate.stacks.d6407d86fcb3bb0a5ddf7ff6",
-      "candidate.stacks.e1a76c997bbd13b81158b377"
-    ],
+    "unreviewed_unready_ids": [],
     "previously_reviewed_ids": [],
-    "records": "harvest/phase2_chat_stage_a/dualizing/batch_02_sections_15_27/RECONSTRUCTIONS.jsonl",
-    "manifest": "harvest/phase2_chat_stage_a/dualizing/batch_02_sections_15_27/MANIFEST.json"
+    "records": "harvest/phase2_chat_stage_a/duality/batch_03_sections_18_32/RECONSTRUCTIONS.jsonl",
+    "manifest": "harvest/phase2_chat_stage_a/duality/batch_03_sections_18_32/MANIFEST.json"
   },
   "resume_instructions": "Use only fixed SELECTION.json and audited phase2_safe_source viewer. Inspect saved per-group section checkpoints, formulations and independent verdicts before resuming. Complete independent review before materialization; validate exact digests and preserve baseline872. Stop selected ordinal100. No proofs, Phase3, publication, refresh or old incident review.",
-  "candidates_accounted_for": 181,
-  "substantively_corrected": 12,
-  "latest_checkpoint_commit": "47819c130c0e957c29e212eee27f07ae330943c6",
+  "candidates_accounted_for": 217,
+  "substantively_corrected": 13,
+  "latest_checkpoint_commit": "1ca0c641fdf29e6a63d2aaaa2a23d97228f13ca8",
   "safety_commit": "89f3c4d87fd4f22ff92d940baa99d970dd9471ed",
   "source_safety_incident": {
     "source_file": "dualizing.tex",

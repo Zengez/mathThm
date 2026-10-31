@@ -1,0 +1,9 @@
+[
+  {
+    "candidate_id": "candidate.stacks.c04659972f84a4a5b1660915",
+    "source_label": "lemma-completion-henselization-dualizing",
+    "corrections": [
+      "Removed A-local hypothesis from common H; it guards only local/strict henselization clause, not general pair henselization or I-adic completion."
+    ]
+  }
+]
