@@ -136,11 +136,12 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_mathematical_analysis_pending": true,
   "stage_a_ready_for_codex_candidate_count": 0,
   "stage_a_remaining_work_candidate_count": 27,
   "stage_a_source_hold_candidate_count": 3,
   "stage_a_ready_for_codex_section_count": 0,
   "stage_a_remaining_work_section_count": 14,
-  "stage_a_section_mapping_pending": true
+  "stage_a_section_mapping_pending": true,
+  "stage_a_work_pending": true,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
 }
