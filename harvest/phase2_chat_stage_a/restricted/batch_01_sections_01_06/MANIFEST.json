@@ -75,33 +75,44 @@
           "source_line": 31,
           "tex": "Let $A$ be a Noetherian ring and let $I \\subset A$ be an ideal. In the\nfirst part of this chapter (Sections \\ref{section-two-categories}\n-- \\ref{section-approximation-principal})\nwe discuss the category of $I$-adically complete algebras $B$\ntopologically of finite type over a Noetherian ring $A$.\nIt is shown that $B = A\\{x_1, \\ldots, x_n\\}/J$ for some\n(closed) ideal $J$ in the restricted power series ring\n(where $A$ is endowed with the $I$-adic topology).\nWe show there is a good notion of a naive cotangent complex\n$\\NL_{B/A}^\\wedge$. If some power of $I$ annihilates\n$\\NL_{B/A}^\\wedge$, then we say $B$ is a rig-\\'etale algebra\nover $(A, I)$; there is a similar notion of rig-smooth algebras.\nIf $A$ is a G-ring, then we show, using Popescu's theorem,\nthat any rig-smooth algebra $B$ over $(A, I)$ is the completion\nof a finite type $A$-algebra; informally we say that we can ``algebraize'' $B$.\nHowever, the main result of the first part is that any rig-\\'etale\nalgebra $B$ over $(A, I)$ can be algebraized (without assuming $A$ is\na G-ring), see Lemma \\ref{lemma-approximate}. For pointers to the literature\non this type of algebraization, see Remark \\ref{remark-discussion}.\nGeneral references for the first part are\n\\cite{EGA}, \\cite{Abbes}, and \\cite{Fujiwara-Kato}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
       "kind": "candidates",
-      "source_line": 85
+      "source_line": 85,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 262
+      "source_line": 262,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 606
+      "source_line": 606,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 855
+      "source_line": 855,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 1136
+      "source_line": 1136,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 17,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 5
 }

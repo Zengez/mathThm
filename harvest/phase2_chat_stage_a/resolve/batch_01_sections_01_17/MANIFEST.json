@@ -156,88 +156,110 @@
           "source_line": 91,
           "tex": "Ad B: This is in some sense the most subtle part of the proof.\nIn the end we only need to use the output of this step when $A$\nis a complete Noetherian local ring, although the writeup is a\nbit more general. The terminology is set in\nDefinition \\ref{definition-reduce-to-rational}.\nIf $g$ (as defined above) is bounded, then a straightforward\nargument shows that we can find a normal modification $X \\to \\Spec(A)$\nsuch that all singular points of $X$ are rational singularities, see\nLemma \\ref{lemma-reduce-to-rational}. We show that given a finite extension\n$A \\subset B$, then $g$ is bounded for $B$ if it is bounded for $A$\nin the following two cases: (1) if the fraction field extension\nis separable, see Lemma \\ref{lemma-reduce-to-rational} and\n(2) if the fraction field extension has degree $p$,\nthe characteristic is $p$, and $A$ is regular and complete, see\nLemma \\ref{lemma-go-up-degree-p}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
       "kind": "candidates",
-      "source_line": 152
+      "source_line": 152,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 438
+      "source_line": 438,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 829
+      "source_line": 829,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 997
+      "source_line": 997,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 1200
+      "source_line": 1200,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 1357
+      "source_line": 1357,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 1676
+      "source_line": 1676,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 2229
+      "source_line": 2229,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 2533
+      "source_line": 2533,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 2742
+      "source_line": 2742,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 3060
+      "source_line": 3060,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 3520
+      "source_line": 3520,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 3693
+      "source_line": 3693,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 4017
+      "source_line": 4017,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 4291
+      "source_line": 4291,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 4883
+      "source_line": 4883,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 70,
+  "stage_a_source_hold_candidate_count": 31,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 16
 }

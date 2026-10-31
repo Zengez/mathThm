@@ -219,12 +219,14 @@
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 1372
+      "source_line": 1372,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 1568
+      "source_line": 1568,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
@@ -235,72 +237,86 @@
           "source_line": 1925,
           "tex": "\\noindent\nThe only goal in this section is to prove the following lemma which\nwill play a key role in algebraization of rig-\\'etale algebras.\nWe will use a bit of the theory of algebraic spaces to prove this lemma;\nan earlier version of this chapter gave a (much longer) proof using algebra\nand a bit of deformation theory that the interested reader can find in\nthe history of the Stacks project."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 2053
+      "source_line": 2053,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 2211
+      "source_line": 2211,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 2393
+      "source_line": 2393,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 2665
+      "source_line": 2665,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 2995
+      "source_line": 2995,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 3425
+      "source_line": 3425,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 3869
+      "source_line": 3869,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 3986
+      "source_line": 3986,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 4396
+      "source_line": 4396,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 19,
       "kind": "candidates",
-      "source_line": 4523
+      "source_line": 4523,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 4801
+      "source_line": 4801,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 21,
       "kind": "candidates",
-      "source_line": 5028
+      "source_line": 5028,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 22,
       "kind": "candidates",
-      "source_line": 5523
+      "source_line": 5523,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 23,
@@ -311,43 +327,56 @@
           "source_line": 5738,
           "tex": "\\noindent\nIn this section we consider the following situation.\nFirst we fix a base scheme $S$. All rings, topological rings,\nschemes, algebraic spaces, and formal algebraic spaces and\nmorphisms between these will be over $S$. Next, we fix an\nalgebraic space $X$ and a closed subset $T \\subset |X|$.\nWe denote $U \\subset X$ be the open subspace with $|U| = |X| \\setminus T$.\nPicture\n$$\nU \\to X \\quad |X| = |U| \\amalg T\n$$\nIn this situation, given an algebraic space $X'$ over $X$, i.e., an\nalgebraic space $X'$ endowed with a morphism $f : X' \\to X$, then we\ndenote $T' \\subset |X'|$ the inverse image of $T$ and we let $U' \\subset X'$\nbe the open subspace with $|U'| = |X'| \\setminus T'$. Picture\n$$\nU' = f^{-1}U\n\\quad\\quad\n\\vcenter{\n\\xymatrix{\nU' \\ar[d] \\ar[r] & X' \\ar[d]_f \\\\\nU \\ar[r] & X\n}\n}\n\\quad\\quad\n\\vcenter{\n\\xymatrix{\n|U'| \\ar[r] \\ar[d] & |X'| \\ar[d]^{|f|} & T' \\ar[l] \\ar[d] \\\\\n|U| \\ar[r] & |X| & T \\ar[l]\n}\n}\n\\quad\\quad\nT' = |f|^{-1}T\n$$\nWe will relate properties of $f$ to properties of the induced morphism\n$$\nf_{/T} : X'_{/T'} \\longrightarrow X_{/T}\n$$\nof formal completions. As indicated in the displayed formula, we will\ndenote this morphism $f_{/T}$. We have already seen that\n$f_{/T}$ is representable by algebraic spaces in\nFormal Spaces, Lemma\n\\ref{formal-spaces-lemma-map-completions-representable}.\nIn fact, as the proof of that lemma shows, the diagram\n$$\n\\xymatrix{\nX'_{/T'} \\ar[d]_{f_{/T}} \\ar[r] & X' \\ar[d]^f \\\\\nX_{/T} \\ar[r] & X\n}\n$$\nis cartesian. Please keep this fact in mind whilst reading the lemmas stated\nand proved below."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 24,
       "kind": "candidates",
-      "source_line": 6049
+      "source_line": 6049,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 25,
       "kind": "candidates",
-      "source_line": 6178
+      "source_line": 6178,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 26,
       "kind": "candidates",
-      "source_line": 6403
+      "source_line": 6403,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 27,
       "kind": "candidates",
-      "source_line": 6515
+      "source_line": 6515,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 28,
       "kind": "candidates",
-      "source_line": 6890
+      "source_line": 6890,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 29,
       "kind": "candidates",
-      "source_line": 7150
+      "source_line": 7150,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 30,
       "kind": "candidates",
-      "source_line": 7219
+      "source_line": 7219,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 98,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 22
 }
