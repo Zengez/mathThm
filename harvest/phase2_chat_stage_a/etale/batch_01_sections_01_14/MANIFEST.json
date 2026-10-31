@@ -52,73 +52,74 @@
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
     "candidate.stacks.cf2ed9c564fd950f1da6643c",
-    "candidate.stacks.01fb02c46957dd7f8db82725",
-    "candidate.stacks.f79d23fb721baa19f0cb0aa8",
-    "candidate.stacks.403d141037c5ec30ca1c72d2",
-    "candidate.stacks.b1524f27f49f2d80ae31f137",
-    "candidate.stacks.ca1e9800bdb6763625d3a37d",
-    "candidate.stacks.1ffd7f2f451cd380703cb789",
-    "candidate.stacks.07a11dc942bb312b7af1d9a0",
-    "candidate.stacks.78c2bed18211e1aa06a57f96",
-    "candidate.stacks.8ff08ab4cb971c3807bafa65",
-    "candidate.stacks.531aa0fce1ad7ca2e61862e1"
+    "candidate.stacks.01fb02c46957dd7f8db82725"
   ],
   "processing_sections": [
     {
-      "section": 1,
-      "kind": "candidates"
-    },
-    {
       "section": 2,
-      "kind": "candidates"
+      "kind": "context_only",
+      "source_line": 39,
+      "snippets": [
+        {
+          "source_line": 42,
+          "tex": "In this chapter, Noetherian hypotheses are restated in each theorem when needed; no blanket Noetherian assumption is inherited. If A is Noetherian, A→B finite type implies finite presentation; locally finite-type morphisms between locally Noetherian schemes are locally finitely presented."
+        }
+      ]
     },
     {
       "section": 3,
-      "kind": "candidates"
+      "kind": "candidates",
+      "source_line": 62
     },
     {
       "section": 4,
-      "kind": "candidates"
+      "kind": "candidates",
+      "source_line": 267
     },
     {
       "section": 5,
-      "kind": "candidates"
+      "kind": "candidates",
+      "source_line": 393
     },
     {
       "section": 6,
-      "kind": "candidates"
+      "kind": "candidates",
+      "source_line": 458
     },
     {
       "section": 7,
-      "kind": "candidates"
-    },
-    {
-      "section": 8,
-      "kind": "candidates"
+      "kind": "candidates",
+      "source_line": 606
     },
     {
       "section": 9,
-      "kind": "candidates"
+      "kind": "candidates",
+      "source_line": 837
     },
     {
       "section": 10,
-      "kind": "candidates"
+      "kind": "candidates",
+      "source_line": 960
     },
     {
       "section": 11,
-      "kind": "candidates"
+      "kind": "candidates",
+      "source_line": 1013
     },
     {
       "section": 12,
-      "kind": "candidates"
+      "kind": "candidates",
+      "source_line": 1217
     },
     {
       "section": 13,
-      "kind": "candidates"
+      "kind": "candidates",
+      "source_line": 1324
     },
     {
       "section": 14,
-      "kind": "candidates"
+      "kind": "candidates",
+      "source_line": 1360
     }
   ],
   "processing_sections_format": "inline-v1"
