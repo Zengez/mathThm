@@ -114,67 +114,80 @@
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 80
+      "source_line": 80,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 174
+      "source_line": 174,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 430
+      "source_line": 430,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 866
+      "source_line": 866,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 1101
+      "source_line": 1101,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 1531
+      "source_line": 1531,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 1702
+      "source_line": 1702,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 1741
+      "source_line": 1741,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 1835
+      "source_line": 1835,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 2057
+      "source_line": 2057,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 2392
+      "source_line": 2392,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 2664
+      "source_line": 2664,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 2776
+      "source_line": 2776,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
@@ -185,7 +198,8 @@
           "source_line": 2927,
           "tex": "\\noindent\nThis section is the continuation of\nDeformation Theory, Section \\ref{defos-section-deformations}\nwhich we urge the reader to read first.\nWe start with a surjective ring map $A' \\to A$\nwhose kernel is an ideal $I$ of square zero. Moreover we assume\ngiven a ring map $A \\to B$, a $B$-module $N$, and an $A$-module map\n$c : I \\to N$. In this section we ask ourselves whether we can find\nthe question mark fitting into the following diagram\n\\begin{equation}\n\\label{equation-to-solve}\n\\vcenter{\n\\xymatrix{\n0 \\ar[r] & N \\ar[r] & {?} \\ar[r] & B \\ar[r] & 0 \\\\\n0 \\ar[r] & I \\ar[u]^c \\ar[r] & A' \\ar[u] \\ar[r] & A \\ar[u] \\ar[r] & 0\n}\n}\n\\end{equation}\nand moreover how unique the solution is (if it exists). More precisely,\nwe look for a surjection of $A'$-algebras $B' \\to B$ whose kernel is\nan ideal of square zero and is\nidentified with $N$ such that $A' \\to B'$ induces the given map $c$.\nWe will say $B'$ is a {\\it solution} to (\\ref{equation-to-solve})."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 17,
@@ -200,12 +214,14 @@
           "source_line": 3051,
           "tex": "\\begin{definition}\n\\label{definition-atiyah-class}\nLet $A \\to B$ be a ring map. Let $M$ be a $B$-module.\nThe map $M \\to L_{B/A} \\otimes_B^\\mathbf{L} M[1]$\nin (\\ref{equation-atiyah}) is called the {\\it Atiyah class} of $M$.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 3061
+      "source_line": 3061,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 19,
@@ -220,18 +236,26 @@
           "source_line": 3494,
           "tex": "\\begin{definition}\n\\label{definition-atiyah-class-general}\nLet $\\mathcal{C}$ be a site.\nLet $\\mathcal{A} \\to \\mathcal{B}$ be a homomorphism of sheaves of rings.\nLet $\\mathcal{F}$ be a sheaf of $\\mathcal{B}$-modules.\nThe map $\\mathcal{F} \\to\nL_{\\mathcal{B}/\\mathcal{A}} \\otimes_\\mathcal{B}^\\mathbf{L} \\mathcal{F}[1]$\nin (\\ref{equation-atiyah-general}) is called the {\\it Atiyah class} of\n$\\mathcal{F}$.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 3513
+      "source_line": 3513,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 22,
       "kind": "candidates",
-      "source_line": 3687
+      "source_line": 3687,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 44,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 16
 }
