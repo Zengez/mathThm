@@ -1,0 +1,160 @@
+{
+  "schema": "maththm.phase2.chat-stage-a0-batch.v1",
+  "chapter": "flat.tex",
+  "batch": "batch_03_sections_21_31",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "sections": [
+    {
+      "section": 21,
+      "start": 6467,
+      "title": "Flattening stratifications",
+      "end": 6557,
+      "candidate_count": 0
+    },
+    {
+      "section": 22,
+      "start": 6558,
+      "title": "Flattening stratification over an Artinian ring",
+      "end": 6589,
+      "candidate_count": 1
+    },
+    {
+      "section": 23,
+      "start": 6590,
+      "title": "Flattening a map",
+      "end": 6781,
+      "candidate_count": 4
+    },
+    {
+      "section": 24,
+      "start": 6782,
+      "title": "Flattening in the local case",
+      "end": 6994,
+      "candidate_count": 2
+    },
+    {
+      "section": 25,
+      "start": 6995,
+      "title": "Variants of a lemma",
+      "end": 7551,
+      "candidate_count": 12
+    },
+    {
+      "section": 26,
+      "start": 7552,
+      "title": "Flat finite type modules, Part III",
+      "end": 7621,
+      "candidate_count": 2
+    },
+    {
+      "section": 27,
+      "start": 7622,
+      "title": "Universal flattening",
+      "end": 8024,
+      "candidate_count": 6
+    },
+    {
+      "section": 28,
+      "start": 8025,
+      "title": "Grothendieck's Existence Theorem, IV",
+      "end": 8364,
+      "candidate_count": 8
+    },
+    {
+      "section": 29,
+      "start": 8365,
+      "title": "Grothendieck's Existence Theorem, V",
+      "end": 8594,
+      "candidate_count": 5
+    },
+    {
+      "section": 30,
+      "start": 8595,
+      "title": "Blowing up and flatness",
+      "end": 9115,
+      "candidate_count": 6
+    },
+    {
+      "section": 31,
+      "start": 9116,
+      "title": "Applications",
+      "end": 9277,
+      "candidate_count": 5
+    }
+  ],
+  "source_range": {
+    "first_line": 6467,
+    "last_line": 9277
+  },
+  "physical_sections_completed": 11,
+  "candidate_bearing_sections_completed": 10,
+  "source_candidate_overlay_count": 51,
+  "status_counts": {
+    "a0_unresolved": 1,
+    "a0_no_changes_needed": 50,
+    "a0_expanded": 0,
+    "a0_blocked": 0
+  },
+  "candidate_ids": [
+    "candidate.stacks.db270b56fd0ac842ce10b0ee",
+    "candidate.stacks.54c23e2cfaadaf993ee0d1d2",
+    "candidate.stacks.7596c2565a249a9a71b12a33",
+    "candidate.stacks.ac0f2ec96e375461c5931ddf",
+    "candidate.stacks.30c8dc10b3c70bc5eb69ae8a",
+    "candidate.stacks.874f5f55385496536a17515f",
+    "candidate.stacks.39c6e1cfaad5e58b77372ab7",
+    "candidate.stacks.ad936b5015a5afa1d184221e",
+    "candidate.stacks.bc3d4ed969e00246deff5a1c",
+    "candidate.stacks.ae64f5c0fd6f1be223242c21",
+    "candidate.stacks.16dee961dea99843b80ce981",
+    "candidate.stacks.bc7dd00b80f235d213693b6b",
+    "candidate.stacks.7a855a0f60eae6a25c11bc26",
+    "candidate.stacks.35201ece78e9d5819296a53d",
+    "candidate.stacks.70008625ea70f81cc6043174",
+    "candidate.stacks.6b6d279526ac7d99c1466b16",
+    "candidate.stacks.07cbfbb3c14f0e216521e5ab",
+    "candidate.stacks.ce94c71f51be529e2a25149c",
+    "candidate.stacks.9f81e0100e3721a902cbc0de",
+    "candidate.stacks.7322dd20be87598bf30c28fd",
+    "candidate.stacks.33a9651ebe0a3e67d4d33b08",
+    "candidate.stacks.7c07148a3c6d5d3648bd0994",
+    "candidate.stacks.272cca967eefbd41cda1eac6",
+    "candidate.stacks.5279868b7fd06a0dd2fc239b",
+    "candidate.stacks.648af451f4f9a5a4a63c9ccc",
+    "candidate.stacks.ce10028113219b67bc4747cb",
+    "candidate.stacks.f10c7c9c238c43ea394b91ed",
+    "candidate.stacks.9c4d192a669e72cf562a8430",
+    "candidate.stacks.bed4c10263a567f4aea8fb42",
+    "candidate.stacks.5e79b215fa85139f2ae13c8b",
+    "candidate.stacks.1a4936da0391c27fd55b8d9b",
+    "candidate.stacks.fa8bd68fdd893e40b46cabee",
+    "candidate.stacks.69b12a6dc9fece9b4c0dbbbe",
+    "candidate.stacks.9a04879f8cef61e31745087e",
+    "candidate.stacks.6e3b7b4718cbfd369f1e4026",
+    "candidate.stacks.f07ec39ae8c62fa24faad719",
+    "candidate.stacks.0a98fdc5ee6bbaccf90d1c1c",
+    "candidate.stacks.f060c06e44e49b360d2cbafb",
+    "candidate.stacks.0130ade20e44210301043b03",
+    "candidate.stacks.ac9748526b29d81459121209",
+    "candidate.stacks.2455c3246cfa189c8446509d",
+    "candidate.stacks.88edb4d7ce936f61755db130",
+    "candidate.stacks.bfd4c29bf388b6ef05a90c3a",
+    "candidate.stacks.0f348f9e0b7b2c4722af9a36",
+    "candidate.stacks.4b651691856d658df3d3aa0b",
+    "candidate.stacks.33c1dc608e18dc933be87dd5",
+    "candidate.stacks.f17633c5d7e0b232898dfe51",
+    "candidate.stacks.4c5d2214473c33f425271eea",
+    "candidate.stacks.fb06fe1ec519431453ae0d39",
+    "candidate.stacks.54f632614cdaab4cc3a63056",
+    "candidate.stacks.ad466e33672c9925c75afbfa"
+  ],
+  "prior_ledger_checkpoint": "flat.tex chapter introduction noninheritance guard; preceding sections 1-20",
+  "canonical_membership_check": "pending crosscheck against 9,675-ID registry (connector retrieval limit)",
+  "later_codex_approval_check": "pending full newer approval registry comparison",
+  "reviewer": "chatgpt-lightweight-a0",
+  "thinking_profile": "conservative source-first low-inference pass",
+  "no_authoritative_readiness_mutation": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0
+}
