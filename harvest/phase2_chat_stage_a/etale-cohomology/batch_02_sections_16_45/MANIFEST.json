@@ -113,40 +113,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.e59f8b4abf5cdd551ab01ca2",
-    "candidate.stacks.9c80a18a744ddff8b1314993",
-    "candidate.stacks.76a0027e6944ebc5f8058885",
-    "candidate.stacks.9e54ef6eec6715b829398afe",
-    "candidate.stacks.edca2d01a4de0585e44066ee",
-    "candidate.stacks.8164d0c0f05389a08598232d",
-    "candidate.stacks.141accea6637659c0beea3c2",
-    "candidate.stacks.65aaaabd6c678baac5b46f42",
-    "candidate.stacks.f32f64c0183f853f3f278a50",
-    "candidate.stacks.a11f97df0302f637212c7479",
-    "candidate.stacks.e6e893e5e697ec398ba9f52b",
-    "candidate.stacks.8d6a055abe6e7711bc2e19d3",
-    "candidate.stacks.b1ceefe14fac4ca057a222f3",
-    "candidate.stacks.8659d8bc954a53a8a7e926f6",
-    "candidate.stacks.9cce8b9437891a93fdeef154",
-    "candidate.stacks.2842ff01d7d206eccdd11675",
-    "candidate.stacks.e83e5d4c300571afb8f0ae59",
-    "candidate.stacks.14683292f2f40f9cf5f7175d",
-    "candidate.stacks.bda9f9f69f46be0af92374e5",
-    "candidate.stacks.819c4e3b4ebe10d121fee5a1",
-    "candidate.stacks.220561203f71bcc1ce82d9b3",
-    "candidate.stacks.bbca8981450698babcddaebb",
-    "candidate.stacks.eae1d067884996e2b83b2ef9",
-    "candidate.stacks.cd73ee79be106cf1f8a9863e",
-    "candidate.stacks.727d94fe5319728d11fcfc96",
-    "candidate.stacks.00059230a4805a73425f9462",
-    "candidate.stacks.8471f9a3016d38ab95904005",
-    "candidate.stacks.986eaf07e0ff3e92efd55dd4",
-    "candidate.stacks.000e9f33b17f5ca7a4f17a80",
-    "candidate.stacks.f936aebdfe7a3dcbf1bee357",
-    "candidate.stacks.0c4c2b4eb5cf0311bb8957eb",
-    "candidate.stacks.6c2fc873a08d953f6713c5ba"
-  ],
+  "preliminary_source_holds": [],
   "previously_approved_ids_not_regenerated": [],
   "source_sections_without_active_candidates": [
     23,
@@ -187,19 +154,19 @@
       "section": 20,
       "kind": "candidates",
       "source_line": 1848,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 21,
       "kind": "candidates",
       "source_line": 2085,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 22,
       "kind": "candidates",
       "source_line": 2156,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 23,
@@ -218,28 +185,44 @@
       "stage_a_readiness": "no_active_candidates"
     },
     {
+      "section": 24,
+      "source_line": 2491,
+      "kind": "context_only",
+      "snippets": [],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true
+    },
+    {
+      "section": 25,
+      "source_line": 2534,
+      "kind": "context_only",
+      "snippets": [],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true
+    },
+    {
       "section": 26,
       "kind": "candidates",
       "source_line": 2546,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 27,
       "kind": "candidates",
       "source_line": 2716,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 28,
       "kind": "candidates",
       "source_line": 2818,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 29,
       "kind": "candidates",
       "source_line": 3185,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 30,
@@ -333,15 +316,16 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 8,
-  "stage_a_remaining_work_candidate_count": 54,
+  "stage_a_ready_for_codex_candidate_count": 24,
+  "stage_a_remaining_work_candidate_count": 38,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 4,
-  "stage_a_remaining_work_section_count": 18,
+  "stage_a_ready_for_codex_section_count": 11,
+  "stage_a_remaining_work_section_count": 11,
   "stage_a_work_pending": true,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "stage_a_further_work_candidate_count": 0,
   "stage_a_further_work_section_count": 0,
-  "stage_a_dispositioned_section_count": 4,
-  "processing_note": "Source-order Étale Cohomology through §19; source-context as small site vs all fpqc schemes, sheafification, descent and Čech derived comparison. Candidates prepared only for independent Stage B."
+  "stage_a_dispositioned_section_count": 14,
+  "processing_note": "Source-order Étale Cohomology §§16–29 dispositioned; 20–29 explicitly expanded with distinct small/big site, partial universe, Čech and geometric point contexts. §§24–25 recorded as context-only. Stage B unstarted.",
+  "stage_a_section_mapping_pending": false
 }
