@@ -1,0 +1,112 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch-manifest.v1",
+  "chapter": "categories",
+  "source_file": "categories.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "batch_id": "batch_04_sections_27_34",
+  "section_start": 27,
+  "section_end": 34,
+  "first_source_line": 3893,
+  "last_source_line": 6968,
+  "sections_processed": 8,
+  "active_candidates_processed": 33,
+  "ready_for_codex_validation": 32,
+  "further_work_needed": 1,
+  "independent_validation": "not_started",
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 27,
+      "title": "Localization in categories",
+      "kind": "candidates",
+      "source_line": 3893,
+      "source_end_line": 4876,
+      "active_candidate_count": 12,
+      "ready_candidate_count": 12,
+      "further_work_needed_count": 0,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 28,
+      "title": "Formal properties",
+      "kind": "context_only",
+      "source_line": 4877,
+      "source_end_line": 5118,
+      "active_candidate_count": 0,
+      "ready_candidate_count": 0,
+      "further_work_needed_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 29,
+      "title": "2-categories",
+      "kind": "context_only",
+      "source_line": 5119,
+      "source_end_line": 5330,
+      "active_candidate_count": 0,
+      "ready_candidate_count": 0,
+      "further_work_needed_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 30,
+      "title": "(2, 1)-categories",
+      "kind": "context_only",
+      "source_line": 5331,
+      "source_end_line": 5379,
+      "active_candidate_count": 0,
+      "ready_candidate_count": 0,
+      "further_work_needed_count": 0,
+      "stage_a_readiness": "context_only"
+    },
+    {
+      "section": 31,
+      "title": "2-fibre products",
+      "kind": "candidates",
+      "source_line": 5380,
+      "source_end_line": 5995,
+      "active_candidate_count": 8,
+      "ready_candidate_count": 8,
+      "further_work_needed_count": 0,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 32,
+      "title": "Categories over categories",
+      "kind": "candidates",
+      "source_line": 5996,
+      "source_end_line": 6176,
+      "active_candidate_count": 1,
+      "ready_candidate_count": 1,
+      "further_work_needed_count": 0,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 33,
+      "title": "Fibred categories",
+      "kind": "candidates",
+      "source_line": 6177,
+      "source_end_line": 6764,
+      "active_candidate_count": 10,
+      "ready_candidate_count": 9,
+      "further_work_needed_count": 1,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed"
+    },
+    {
+      "section": 34,
+      "title": "Inertia",
+      "kind": "candidates",
+      "source_line": 6765,
+      "source_end_line": 6968,
+      "active_candidate_count": 2,
+      "ready_candidate_count": 2,
+      "further_work_needed_count": 0,
+      "stage_a_readiness": "ready_for_codex_validation"
+    }
+  ],
+  "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
+  "prior_batch": "harvest/phase2_chat_stage_a/categories/batch_03_sections_19_26/MANIFEST.json",
+  "next_source_section": 35,
+  "next_source_line": 6969
+}
