@@ -375,63 +375,145 @@
       "section": 15,
       "kind": "candidates",
       "source_line": 3177,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.36ebdf49c20ce416f1cad9b1"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Compact generation",
+      "stage_a_source_context_summary": "All context and shorthand are scoped to their source, no prior theorem premises inherited."
     },
     {
       "section": 16,
       "kind": "candidates",
       "source_line": 3240,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.660a7a27506fe7c2b081c79a",
+        "candidate.stacks.ffa86fde7ca7c9db3a53f39b",
+        "candidate.stacks.53eaab409cdc779527479265"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.53eaab409cdc779527479265"
+      ],
+      "stage_a_source_context_heading": "Comparing topologies",
+      "stage_a_source_context_summary": "All context and shorthand are scoped to their source, no prior theorem premises inherited."
     },
     {
       "section": 17,
       "kind": "candidates",
       "source_line": 3393,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.cda5ea7781e8e17d3d465536",
+        "candidate.stacks.86b1955cdc782e10db5a75b8",
+        "candidate.stacks.e8e202e3a9e4200a755e4183",
+        "candidate.stacks.78ede0ee16ac5b7265b35496"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Comparing big and small topoi",
+      "stage_a_source_context_summary": "All context and shorthand are scoped to their source, no prior theorem premises inherited."
     },
     {
       "section": 18,
       "kind": "candidates",
       "source_line": 3551,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.7e198f001f0d4fb68a01d180",
+        "candidate.stacks.acad366d99169baeb7862f9f",
+        "candidate.stacks.29962edd15aff61c3da1efd4"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Points of the pro-\\'etale site",
+      "stage_a_source_context_summary": "All context and shorthand are scoped to their source, no prior theorem premises inherited."
     },
     {
       "section": 19,
       "kind": "candidates",
       "source_line": 3737,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d763c23fa20d6a2c140c50af",
+        "candidate.stacks.b06824e40be52aa7452f4fb7",
+        "candidate.stacks.2dc44285118f9417f2d3c773",
+        "candidate.stacks.e6e14a15ba1e9716a301888a",
+        "candidate.stacks.424cc24a0e71ee23c298af57",
+        "candidate.stacks.e064a56a29abd0fce9693918",
+        "candidate.stacks.014cc788c5d2476f2654e93d",
+        "candidate.stacks.d96eda0b64c53c6e691fd2e0",
+        "candidate.stacks.2a112000ac476d35c4b1102b",
+        "candidate.stacks.d409a2820f3d27a7539ea6b8"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.e064a56a29abd0fce9693918",
+        "candidate.stacks.d409a2820f3d27a7539ea6b8"
+      ],
+      "stage_a_source_context_heading": "Comparison with the \\'etale site",
+      "stage_a_source_context_summary": "Site morphism ε introduced at L3753 is section notation, not a hypothesis; I in candidate L4203 has no visible binding."
     },
     {
       "section": 20,
       "kind": "candidates",
       "source_line": 4272,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.920d7859387653277257e609",
+        "candidate.stacks.586c3ca274d7e4c29e6f055f"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.920d7859387653277257e609"
+      ],
+      "stage_a_source_context_heading": "Derived completion in the constant Noetherian case",
+      "stage_a_source_context_summary": "All context and shorthand are scoped to their source, no prior theorem premises inherited."
     },
     {
       "section": 21,
       "kind": "candidates",
       "source_line": 4390,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f758e79e1133a88b20c852d0"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Derived completion and weakly contractible objects",
+      "stage_a_source_context_summary": "All context and shorthand are scoped to their source, no prior theorem premises inherited."
     },
     {
       "section": 22,
       "kind": "candidates",
       "source_line": 4546,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.eeff8e67f1f8978a01731e38"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.eeff8e67f1f8978a01731e38"
+      ],
+      "stage_a_source_context_heading": "Cohomology of a point",
+      "stage_a_source_context_summary": "Section Λ-completeness may carry into a candidate with alternative coefficient classes; kept unresolved."
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 51,
-  "stage_a_remaining_work_candidate_count": 34,
+  "stage_a_ready_for_codex_candidate_count": 71,
+  "stage_a_remaining_work_candidate_count": 14,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 5,
-  "stage_a_remaining_work_section_count": 15,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_section_count": 9,
+  "stage_a_remaining_work_section_count": 11,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
-  "stage_a_further_work_candidate_count": 9,
-  "stage_a_further_work_section_count": 7,
-  "stage_a_dispositioned_section_count": 12,
+  "stage_a_further_work_candidate_count": 14,
+  "stage_a_further_work_section_count": 11,
+  "stage_a_dispositioned_section_count": 20,
   "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/proetale/batch_02_sections_03_22/CONTEXT_LEDGER.jsonl",
   "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/proetale/batch_02_sections_03_22/SECTION_CHECKPOINTS.jsonl",
-  "processing_note": "Source-order Stage A §§3–14 now dispositioned with source-anchored ledger and section checkpoints. Source refs / V-topology / typing holds retained. §§15–22 pending."
+  "processing_note": "Pro-étale §§3–22 source-order Stage A done: source-based candidate drafts, section-scope ledger/checkpoints, explicit holds for undefined ideal / reference and typing concerns. No independent Stage B claims."
 }
