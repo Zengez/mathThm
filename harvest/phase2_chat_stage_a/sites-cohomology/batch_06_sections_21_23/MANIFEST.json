@@ -1,0 +1,123 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-cohomology-source-ordered-20261031-06",
+  "chapter": "sites-cohomology.tex",
+  "sections_ordinal": [
+    21,
+    23
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    4637,
+    4724,
+    5015
+  ],
+  "first_source_line": 4637,
+  "last_source_line": 5545,
+  "complete_sections": true,
+  "stage_a_candidate_count": 16,
+  "candidate_ids": [
+    "candidate.stacks.01645caba6a674f884644dd9",
+    "candidate.stacks.55c40e5bb9b08f1dc1e1657c",
+    "candidate.stacks.90d8345ee19050fbdbf20f8b",
+    "candidate.stacks.e64f5224160d82843e42261b",
+    "candidate.stacks.f73de23502d3d8324f4ed1e9",
+    "candidate.stacks.e2df0ffa11f4055e5fa84783",
+    "candidate.stacks.10a2c930c10686de670e2d5b",
+    "candidate.stacks.67c685e6fbb8118241774516",
+    "candidate.stacks.e63a84133b951bcf5ac2f5a2",
+    "candidate.stacks.69739d40d4c099c63d30ab88",
+    "candidate.stacks.abdac2617aa87433dfaf2ee2",
+    "candidate.stacks.2a3da5095613191dc027a33f",
+    "candidate.stacks.74bd68dc5cafcc8da1878c71",
+    "candidate.stacks.18c749403a4383f906858ccb",
+    "candidate.stacks.5c9fa575e313b52183b17847",
+    "candidate.stacks.51cecbc5a2201e061aaa893a"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_06_sections_21_23/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 21,
+      "source_line": 4637,
+      "section_end_line": 4723,
+      "source_heading": "Localization and cohomology",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.01645caba6a674f884644dd9",
+        "candidate.stacks.55c40e5bb9b08f1dc1e1657c"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_06_sections_21_23/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 22,
+      "source_line": 4724,
+      "section_end_line": 5014,
+      "source_heading": "Inverse systems and cohomology",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.90d8345ee19050fbdbf20f8b",
+        "candidate.stacks.e64f5224160d82843e42261b",
+        "candidate.stacks.f73de23502d3d8324f4ed1e9",
+        "candidate.stacks.e2df0ffa11f4055e5fa84783"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_06_sections_21_23/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 23,
+      "source_line": 5015,
+      "section_end_line": 5545,
+      "source_heading": "Derived and homotopy limits",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.10a2c930c10686de670e2d5b",
+        "candidate.stacks.67c685e6fbb8118241774516",
+        "candidate.stacks.e63a84133b951bcf5ac2f5a2",
+        "candidate.stacks.69739d40d4c099c63d30ab88",
+        "candidate.stacks.abdac2617aa87433dfaf2ee2",
+        "candidate.stacks.2a3da5095613191dc027a33f",
+        "candidate.stacks.74bd68dc5cafcc8da1878c71",
+        "candidate.stacks.18c749403a4383f906858ccb",
+        "candidate.stacks.5c9fa575e313b52183b17847",
+        "candidate.stacks.51cecbc5a2201e061aaa893a"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_06_sections_21_23/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "context_ledgers_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 16,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 3,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_06_sections_21_23/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_06_sections_21_23/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Stages §21–23 source ordered. Crucial graded ACC, varying vanishing bounds, derived section vs cohomology-sheaf sections, cartesian localization and Milnor sequences. Proofs not reviewed; Codex validation pending."
+}
