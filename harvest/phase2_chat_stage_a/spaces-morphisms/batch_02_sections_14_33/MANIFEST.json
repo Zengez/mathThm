@@ -170,22 +170,26 @@
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 2484
+      "source_line": 2484,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 2786
+      "source_line": 2786,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 2976
+      "source_line": 2976,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 3197
+      "source_line": 3197,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 18,
@@ -196,83 +200,104 @@
           "source_line": 3402,
           "tex": "\\begin{definition}\n\\label{definition-dominant}\nLet $S$ be a scheme. A morphism $f : X \\to Y$ of algebraic spaces over $S$ is\ncalled {\\it dominant} if the image of $|f| : |X| \\to |Y|$ is dense in $|Y|$.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 19,
       "kind": "candidates",
-      "source_line": 3413
+      "source_line": 3413,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 3657
+      "source_line": 3657,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 21,
       "kind": "candidates",
-      "source_line": 3960
+      "source_line": 3960,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 22,
       "kind": "candidates",
-      "source_line": 4085
+      "source_line": 4085,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 23,
       "kind": "candidates",
-      "source_line": 4333
+      "source_line": 4333,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 24,
       "kind": "candidates",
-      "source_line": 4533
+      "source_line": 4533,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 25,
       "kind": "candidates",
-      "source_line": 4793
+      "source_line": 4793,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 26,
       "kind": "candidates",
-      "source_line": 5013
+      "source_line": 5013,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 27,
       "kind": "candidates",
-      "source_line": 5066
+      "source_line": 5066,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 28,
       "kind": "candidates",
-      "source_line": 5405
+      "source_line": 5405,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 29,
       "kind": "candidates",
-      "source_line": 5691
+      "source_line": 5691,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 30,
       "kind": "candidates",
-      "source_line": 5751
+      "source_line": 5751,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 31,
       "kind": "candidates",
-      "source_line": 6104
+      "source_line": 6104,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 32,
       "kind": "candidates",
-      "source_line": 6346
+      "source_line": 6346,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 33,
       "kind": "candidates",
-      "source_line": 6475
+      "source_line": 6475,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 99,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 19
 }

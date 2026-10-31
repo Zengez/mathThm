@@ -158,77 +158,92 @@
     {
       "section": 34,
       "kind": "candidates",
-      "source_line": 6640
+      "source_line": 6640,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 35,
       "kind": "candidates",
-      "source_line": 6936
+      "source_line": 6936,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 36,
       "kind": "candidates",
-      "source_line": 7013
+      "source_line": 7013,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 37,
       "kind": "candidates",
-      "source_line": 7145
+      "source_line": 7145,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 38,
       "kind": "candidates",
-      "source_line": 7341
+      "source_line": 7341,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 39,
       "kind": "candidates",
-      "source_line": 7671
+      "source_line": 7671,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 40,
       "kind": "candidates",
-      "source_line": 7876
+      "source_line": 7876,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 41,
       "kind": "candidates",
-      "source_line": 8081
+      "source_line": 8081,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 42,
       "kind": "candidates",
-      "source_line": 8559
+      "source_line": 8559,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 43,
       "kind": "candidates",
-      "source_line": 8961
+      "source_line": 8961,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 44,
       "kind": "candidates",
-      "source_line": 9069
+      "source_line": 9069,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 45,
       "kind": "candidates",
-      "source_line": 9108
+      "source_line": 9108,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 46,
       "kind": "candidates",
-      "source_line": 9338
+      "source_line": 9338,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 47,
       "kind": "candidates",
-      "source_line": 9496
+      "source_line": 9496,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 48,
       "kind": "candidates",
-      "source_line": 9710
+      "source_line": 9710,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 49,
@@ -239,7 +254,8 @@
           "source_line": 10334,
           "tex": "\\begin{definition}\n\\label{definition-normalization}\nLet $S$ be a scheme. Let $X$ be an algebraic space over $S$ satisfying the\nequivalent conditions of Lemma \\ref{lemma-prepare-normalization}.\nWe define the {\\it normalization} of $X$ as the morphism\n$$\n\\nu_X : X^\\nu \\longrightarrow X\n$$\nconstructed in Lemma \\ref{lemma-normalization}.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 53,
@@ -250,8 +266,14 @@
           "source_line": 10914,
           "tex": "\\begin{definition}\n\\label{definition-universal-homeomorphism}\nLet $S$ be a scheme.\nA morphism $f : X \\to Y$ of algebraic spaces over $S$\nis called a {\\it universal homeomorphism}\nif and only if for every morphism of algebraic spaces $Z \\to Y$\nthe base change $Z \\times_Y X \\to Z$ induces a homeomorphism\n$|Z \\times_Y X| \\to |Z|$.\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 86,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 15
 }

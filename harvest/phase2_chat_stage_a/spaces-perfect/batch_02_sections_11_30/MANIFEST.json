@@ -140,97 +140,116 @@
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 2082
+      "source_line": 2082,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 2606
+      "source_line": 2606,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 2846
+      "source_line": 2846,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 3350
+      "source_line": 3350,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 3586
+      "source_line": 3586,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 16,
       "kind": "candidates",
-      "source_line": 3871
+      "source_line": 3871,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
       "kind": "candidates",
-      "source_line": 4069
+      "source_line": 4069,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 4310
+      "source_line": 4310,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 19,
       "kind": "candidates",
-      "source_line": 4413
+      "source_line": 4413,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 20,
       "kind": "candidates",
-      "source_line": 4658
+      "source_line": 4658,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 21,
       "kind": "candidates",
-      "source_line": 5074
+      "source_line": 5074,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 22,
       "kind": "candidates",
-      "source_line": 5520
+      "source_line": 5520,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 23,
       "kind": "candidates",
-      "source_line": 5626
+      "source_line": 5626,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 24,
       "kind": "candidates",
-      "source_line": 5949
+      "source_line": 5949,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 25,
       "kind": "candidates",
-      "source_line": 6078
+      "source_line": 6078,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 26,
       "kind": "candidates",
-      "source_line": 6423
+      "source_line": 6423,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 27,
       "kind": "candidates",
-      "source_line": 6707
+      "source_line": 6707,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 28,
       "kind": "candidates",
-      "source_line": 6878
+      "source_line": 6878,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 29,
       "kind": "candidates",
-      "source_line": 7026
+      "source_line": 7026,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 30,
@@ -241,8 +260,14 @@
           "source_line": 7362,
           "tex": "In this section we denote $X_{affine}$ the underlying category of\n$X_{affine, \\etale}$ endowed with the chaotic topology, i.e., such that sheaves\nagree with presheaves. In particular, the structure sheaf $\\mathcal{O}_X$\nbecomes a sheaf on $X_{affine}$ as well.\nWe obtain a morphisms of ringed sites\n$$\n\\epsilon :\n(X_{affine, \\etale}, \\mathcal{O}_X)\n\\longrightarrow\n(X_{affine}, \\mathcal{O}_X)\n$$\nas in Cohomology on Sites, Section \\ref{sites-cohomology-section-compare}.\nIn this section we will identify $D_\\QCoh(\\mathcal{O}_X)$ with\nthe category $\\mathit{QC}(X_{affine}, \\mathcal{O}_X)$ introduced in\nCohomology on Sites, Section \\ref{sites-cohomology-section-modules-cohomology}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 71,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 19
 }
