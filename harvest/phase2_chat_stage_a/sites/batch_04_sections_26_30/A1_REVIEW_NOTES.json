@@ -1,0 +1,309 @@
+{
+  "schema": "maththm.phase2.chat-stage-a1-source-review-notes.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviews": {
+    "lemma-glue-maps": {
+      "hypotheses": [
+        "A covering {U_i→U} of a site C, sheaves F,G, and compatible maps between their restrictions to each C/U_i."
+      ],
+      "conclusions": [
+        "There is a unique morphism F|_{C/U}→G|_{C/U} whose restriction agrees with each local morphism."
+      ],
+      "logical_form": "unique_gluing",
+      "preface_key": "loc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-internal-hom-sheaf": {
+      "hypotheses": [
+        "Three sheaves F,G,H on a site C."
+      ],
+      "conclusions": [
+        "Natural adjunction Hom(F×G,H)≅Hom(F,SheafHom(G,H))."
+      ],
+      "logical_form": "internal_hom_adjunction",
+      "preface_key": "hom",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-hom-sheaf-hU": {
+      "hypotheses": [
+        "A site C, object U, and sheaf F."
+      ],
+      "conclusions": [
+        "SheafHom(h_U#,F) is canonically isomorphic to j_{U*}(F restricted to C/U)."
+      ],
+      "logical_form": "canonical_isomorphism",
+      "preface_key": "hom",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-glue-sheaves": {
+      "hypotheses": [
+        "A site C, a covering {U_i→U}, and a family of sheaves with descent isomorphisms φ_ij satisfying the standard cocycle law."
+      ],
+      "conclusions": [
+        "There exists a sheaf F on C/U with isomorphisms to the local F_i respecting all overlap maps."
+      ],
+      "logical_form": "existence_gluing",
+      "preface_key": "glue",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-mapping-property-glue": {
+      "hypotheses": [
+        "A site C and a covering {U_i→U}."
+      ],
+      "conclusions": [
+        "The category of sheaves on C/U is equivalent to the category of gluing data associated to this covering."
+      ],
+      "logical_form": "equivalence_of_categories",
+      "preface_key": "glue",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-glue-sheaves-absolute": {
+      "hypotheses": [
+        "A site C."
+      ],
+      "conclusions": [
+        "The category Sh(C) is equivalent to the source-defined category of absolute gluing data."
+      ],
+      "logical_form": "equivalence_of_categories",
+      "preface_key": "glue",
+      "fix_kind": "",
+      "hold_reason": "Absolute gluing data require their source definition from the section, not a generic Čech family."
+    },
+    "lemma-describe-j-shriek-good-site": {
+      "hypotheses": [
+        "A subcanonical site C, an object U, and a sheaf G on C/U."
+      ],
+      "conclusions": [
+        "The extension j_{U!}G is already given without sheafification by the coproduct of G(V→U) over maps V→U."
+      ],
+      "logical_form": "canonical_formula",
+      "preface_key": "loc",
+      "fix_kind": "subcanonical",
+      "hold_reason": ""
+    },
+    "lemma-localize-given-products": {
+      "hypotheses": [
+        "A site C having products of pairs of objects and an object U."
+      ],
+      "conclusions": [
+        "j_U has a continuous right adjoint v(X)=X×U/U.",
+        "v defines a morphism of sites whose topos morphism equals j_U.",
+        "j_{U*}F(X)=F(X×U/U)."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "loc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-relocalize-given-fibre-products": {
+      "hypotheses": [
+        "A site C with fibre products and an arrow U→V."
+      ],
+      "conclusions": [
+        "The induced j:C/U→C/V has continuous right adjoint v(X/V)=X×_V U/U.",
+        "v defines a morphism of sites with topos morphism j.",
+        "j_*F(X/V)=F(X×_V U/U)."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "reloc",
+      "fix_kind": "j",
+      "hold_reason": ""
+    },
+    "lemma-restrict-back": {
+      "hypotheses": [
+        "A site C, an object U such that every object has at most one arrow to U, and a sheaf F on C/U."
+      ],
+      "conclusions": [
+        "Both canonical maps F→j_U^-1 j_{U!}F and j_U^-1j_{U*}F→F are isomorphisms."
+      ],
+      "logical_form": "two_isomorphisms",
+      "preface_key": "loc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-localize-cartesian-square": {
+      "hypotheses": [
+        "A site C and a commutative square of objects U',U,V',V."
+      ],
+      "conclusions": [
+        "The induced localization functors and their topoi morphisms form two commutative squares.",
+        "If the original square is Cartesian, the stated base-change identity for inverse image and direct image holds."
+      ],
+      "logical_form": "commutation_and_conditional_base_change",
+      "preface_key": "reloc",
+      "fix_kind": "square",
+      "hold_reason": ""
+    },
+    "lemma-localize-morphism": {
+      "hypotheses": [
+        "A morphism of sites f:C→D induced by continuous u:D→C, and V∈Ob(D), U=u(V)."
+      ],
+      "conclusions": [
+        "The induced u':D/V→C/U gives a site morphism f':C/U→D/V and a commutative diagram of topoi.",
+        "Under the corresponding slice-topos equivalences, (f')^-1 acts by pulling back the map to h_V#.",
+        "The pushforward and restriction functors satisfy f'_* j_U^-1=j_V^-1 f_*."
+      ],
+      "logical_form": "construction_and_functorial_equalities",
+      "preface_key": "site_morphism",
+      "fix_kind": "slice",
+      "hold_reason": ""
+    },
+    "lemma-localize-cocontinuous": {
+      "hypotheses": [
+        "A cocontinuous functor u:C→D between sites, and U∈C with V=u(U)."
+      ],
+      "conclusions": [
+        "The induced u':C/U→D/V is cocontinuous and yields a commuting diagram of localized sites and topoi."
+      ],
+      "logical_form": "localization_compatibility",
+      "preface_key": "loc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-localize-cocontinuous-downstairs": {
+      "hypotheses": [
+        "A cocontinuous u:C→D, object V of D, and source-defined right-indexing category of pairs (U,ψ:u(U)→V)."
+      ],
+      "conclusions": [
+        "The right-indexing category becomes a site using underlying C-coverings.",
+        "The projection to C is continuous and cocontinuous; the projection to D/V is cocontinuous.",
+        "These functors give a commuting square of topoi and f'_*j^-1=j_V^-1 f_*."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "pu",
+      "fix_kind": "index_category",
+      "hold_reason": ""
+    },
+    "lemma-special-square-cocontinuous": {
+      "hypotheses": [
+        "A commuting square of four cocontinuous functors between sites, with both horizontal functors also continuous and a stated cofinality condition on right-indexing categories."
+      ],
+      "conclusions": [
+        "The specified comparison identities f'_*∘(g')^-1=g^-1∘f_* and g'_!∘(f')^-1=f^-1∘g_! hold."
+      ],
+      "logical_form": "base_change_identities",
+      "preface_key": "coc",
+      "fix_kind": "morphism",
+      "hold_reason": ""
+    },
+    "lemma-equivalence": {
+      "hypotheses": [
+        "A continuous and cocontinuous u:C→D satisfying local faithfulness, local fullness, and local essential surjectivity on object coverings as in the five enumerated conditions."
+      ],
+      "conclusions": [
+        "Its associated morphism of topoi Sh(C)→Sh(D) is an equivalence."
+      ],
+      "logical_form": "equivalence_criterion",
+      "preface_key": "coc",
+      "fix_kind": "morphism",
+      "hold_reason": ""
+    },
+    "lemma-localize-special-cocontinuous": {
+      "hypotheses": [
+        "A special cocontinuous u:C→D and an object U in C."
+      ],
+      "conclusions": [
+        "The induced C/U→D/u(U) is also special cocontinuous, hence induces an equivalence of localized topoi."
+      ],
+      "logical_form": "localization_of_equivalence",
+      "preface_key": "special",
+      "fix_kind": "localize",
+      "hold_reason": ""
+    },
+    "lemma-special-equivalence": {
+      "hypotheses": [
+        "A site C and a set-sized full subcategory C'⊂Sh(C) containing each h_U# and stable under fibre products; declare jointly epimorphic families as coverings."
+      ],
+      "conclusions": [
+        "After choosing a set of equivalent covering families C' is a site.",
+        "The topology of C' is subcanonical.",
+        "U↦h_U# is special cocontinuous and yields an equivalence of topoi.",
+        "For F∈C', g^-1h_F=F.",
+        "For U∈C, g_*h_U#=h_{h_U#}."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "special",
+      "fix_kind": "set_covering",
+      "hold_reason": ""
+    },
+    "lemma-topos-good-site": {
+      "hypotheses": [
+        "A topos Sh(C) and a set of its sheaves {F_i}."
+      ],
+      "conclusions": [
+        "There exists an equivalent site C' satisfying subcanonicality, canonical-covering characterization, finite limits, representability of subsheaves of representables, and representability of the images of every F_i."
+      ],
+      "logical_form": "existence_with_properties",
+      "preface_key": "special",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-morphism-topoi-comes-from-morphism-sites": {
+      "hypotheses": [
+        "A morphism f:Sh(C)→Sh(D) of topoi."
+      ],
+      "conclusions": [
+        "There exists a site C', special cocontinuous v:C→C', and continuous fibre-product-preserving u:D→C' defining a morphism of sites, such that f factors as the associated equivalence of topoi followed by that site-induced morphism."
+      ],
+      "logical_form": "factorization_existence",
+      "preface_key": "special",
+      "fix_kind": "factor",
+      "hold_reason": ""
+    },
+    "lemma-localize-topos-site": {
+      "hypotheses": [
+        "A site C and sheaf F, with the category C/F of pairs (U,s∈F(U)) and coverings defined by those in C."
+      ],
+      "conclusions": [
+        "The forgetful j:C/F→C is continuous and cocontinuous, induces a topos morphism and equivalence Sh(C/F)≃Sh(C)/F identifying j with the slice localization."
+      ],
+      "logical_form": "equivalence_of_topoi",
+      "preface_key": "toposloc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-localize-compare": {
+      "hypotheses": [
+        "A site C, object U, and F=h_U#."
+      ],
+      "conclusions": [
+        "The slice localization j_F:Sh(C)/F→Sh(C) is the localized site morphism j_U:Sh(C/U)→Sh(C) under the standard equivalence Sh(C/U)≃Sh(C)/h_U#."
+      ],
+      "logical_form": "identification",
+      "preface_key": "toposloc",
+      "fix_kind": "compare",
+      "hold_reason": ""
+    },
+    "lemma-relocalize-topos": {
+      "hypotheses": [
+        "A site C and a map s:G→F of sheaves."
+      ],
+      "conclusions": [
+        "There is a natural commutative localization triangle of topoi Sh(C)/G→Sh(C)/F→Sh(C).",
+        "Its left inverse image is H/F↦(H×_F G→G).",
+        "Its left adjoint extension sends (E→G) to (E→G→F)."
+      ],
+      "logical_form": "localization_construction",
+      "preface_key": "toposloc",
+      "fix_kind": "",
+      "hold_reason": ""
+    },
+    "lemma-relocalize-compare": {
+      "hypotheses": [
+        "A site C, arrow V→U, and induced map of associated representable sheaves h_V#→h_U#."
+      ],
+      "conclusions": [
+        "The localization triangle of slice topoi for h_V#→h_U# agrees with the site-localization triangle C/V→C/U→C under both standard slice identifications."
+      ],
+      "logical_form": "diagram_identification",
+      "preface_key": "toposloc",
+      "fix_kind": "equation",
+      "hold_reason": ""
+    }
+  }
+}
