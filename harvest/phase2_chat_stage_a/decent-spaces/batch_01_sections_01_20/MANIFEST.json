@@ -235,44 +235,44 @@
       "section": 16,
       "kind": "candidates",
       "source_line": 3562,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 17,
       "kind": "candidates",
       "source_line": 3658,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 18,
       "kind": "candidates",
       "source_line": 4059,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 19,
       "kind": "candidates",
       "source_line": 4499,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 20,
       "kind": "candidates",
       "source_line": 4567,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 60,
-  "stage_a_remaining_work_candidate_count": 20,
+  "stage_a_ready_for_codex_candidate_count": 77,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 8,
-  "stage_a_remaining_work_section_count": 5,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_section_count": 12,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
-  "stage_a_further_work_candidate_count": 7,
-  "stage_a_further_work_section_count": 5,
-  "stage_a_dispositioned_section_count": 13,
+  "stage_a_further_work_candidate_count": 10,
+  "stage_a_further_work_section_count": 6,
+  "stage_a_dispositioned_section_count": 18,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Decent Spaces §§1–15 processed in source order with exact finite-fibre/pointwise α–ι conditions, reasonable/decent and residual/étale neighborhood context; §§16–20 remain pending."
+  "processing_note": "Decent Spaces chapter completed through §§25 source order; section-dependent relative point, birational, Jacobson, henselian/unibranch and dimension function context expanded."
 }
