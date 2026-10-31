@@ -6,11 +6,11 @@
   "selection_commit": "bff8401e62e6b1de3ac3addd08d033304b862888",
   "selected_sections": 100,
   "selected_candidates": 324,
-  "completed_sections": 60,
-  "approvals": 122,
+  "completed_sections": 72,
+  "approvals": 145,
   "mathematical_holds": 1,
-  "processing_holds": 94,
-  "current_authoritative_total": 994,
+  "processing_holds": 110,
+  "current_authoritative_total": 1017,
   "completed_groups": [
     {
       "group": "group_001_012",
@@ -671,31 +671,164 @@
       "corrected": 1,
       "mathematical_holds": 0,
       "processing_holds": 13,
+      "commit_sha": "8c4f8ce28927b82cc00ea2854c3be35d9395f5db",
+      "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
+    },
+    {
+      "group": "group_061_072",
+      "selected_sections": [
+        61,
+        72
+      ],
+      "section_boundaries": [
+        {
+          "ordinal": 61,
+          "source_file": "duality.tex",
+          "section_start_line": 5813,
+          "section_end_line": 5987
+        },
+        {
+          "ordinal": 62,
+          "source_file": "duality.tex",
+          "section_start_line": 5988,
+          "section_end_line": 6141
+        },
+        {
+          "ordinal": 63,
+          "source_file": "duality.tex",
+          "section_start_line": 6142,
+          "section_end_line": 6243
+        },
+        {
+          "ordinal": 64,
+          "source_file": "duality.tex",
+          "section_start_line": 6244,
+          "section_end_line": 6676
+        },
+        {
+          "ordinal": 65,
+          "source_file": "duality.tex",
+          "section_start_line": 6997,
+          "section_end_line": 7500
+        },
+        {
+          "ordinal": 66,
+          "source_file": "duality.tex",
+          "section_start_line": 7501,
+          "section_end_line": 7677
+        },
+        {
+          "ordinal": 67,
+          "source_file": "duality.tex",
+          "section_start_line": 9100,
+          "section_end_line": 9233
+        },
+        {
+          "ordinal": 68,
+          "source_file": "discriminant.tex",
+          "section_start_line": 80,
+          "section_end_line": 475
+        },
+        {
+          "ordinal": 69,
+          "source_file": "discriminant.tex",
+          "section_start_line": 476,
+          "section_end_line": 575
+        },
+        {
+          "ordinal": 70,
+          "source_file": "discriminant.tex",
+          "section_start_line": 576,
+          "section_end_line": 948
+        },
+        {
+          "ordinal": 71,
+          "source_file": "discriminant.tex",
+          "section_start_line": 1051,
+          "section_end_line": 1343
+        },
+        {
+          "ordinal": 72,
+          "source_file": "discriminant.tex",
+          "section_start_line": 1344,
+          "section_end_line": 1416
+        }
+      ],
+      "candidate_ids_accounted_for": [
+        "candidate.stacks.036719ccbf846d5b1da2230c",
+        "candidate.stacks.19964c82524ee099c4a237bb",
+        "candidate.stacks.1e9f70b146f3afaacfe53b1c",
+        "candidate.stacks.2725d4617e853ae7cb526195",
+        "candidate.stacks.2b212f49942dbf33fb23a39d",
+        "candidate.stacks.345929345fea7fc233429981",
+        "candidate.stacks.3dcc150e4c1532a92fd7ac73",
+        "candidate.stacks.4064b6d3a62d8a8c09d05d0a",
+        "candidate.stacks.416c34315ff2d2d0142670f2",
+        "candidate.stacks.4763b4eb9d2b75c63e6c7461",
+        "candidate.stacks.49a04549f30911ab61fd3f40",
+        "candidate.stacks.49efbd3b731668ab828960cb",
+        "candidate.stacks.4a2c5cf20c76eec34cece559",
+        "candidate.stacks.4acd50a52964f8eb2ba73640",
+        "candidate.stacks.51e9834ee6fd701f7d0c433d",
+        "candidate.stacks.569e8a4658a02b63df56b4b4",
+        "candidate.stacks.5cefe54c78635cde7e0601c9",
+        "candidate.stacks.5da9f829eca63545fa0531b4",
+        "candidate.stacks.62898c539322539b91f79eba",
+        "candidate.stacks.7513082c0bb0f7cb2f056a51",
+        "candidate.stacks.8302293f967a10ddac61148c",
+        "candidate.stacks.8add8ed2bb7816761512a703",
+        "candidate.stacks.902b3ea4d3a2cbdd90cc5333",
+        "candidate.stacks.94add71767873d84f8aebb43",
+        "candidate.stacks.95dfaacc963418f22a89b9e3",
+        "candidate.stacks.97444548635f9d97c491cae6",
+        "candidate.stacks.986e5f5ecbbb07f6d580c579",
+        "candidate.stacks.98a7b387baf002ab5411cf85",
+        "candidate.stacks.a7ef67bace6341118739766b",
+        "candidate.stacks.ab68ebf028a2584e8dd5f478",
+        "candidate.stacks.aee48edda202ed79c5b44f51",
+        "candidate.stacks.ba6d481301c77dca0dc1ddc8",
+        "candidate.stacks.bd6833113ac986cb0f6c6ee3",
+        "candidate.stacks.c7d6ca7d6d826ca464b05031",
+        "candidate.stacks.d0f12c7e7ff2535269131f97",
+        "candidate.stacks.d17f59f1097982d75365607b",
+        "candidate.stacks.d298b1d5431a7d9755ffc3f8",
+        "candidate.stacks.e5ad401f66b64880ee1b818b",
+        "candidate.stacks.f36ca0c90d9cd41be951e58e"
+      ],
+      "approved": 23,
+      "corrected": 6,
+      "mathematical_holds": 0,
+      "processing_holds": 16,
       "commit_sha": null,
       "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
     }
   ],
   "next_section": {
-    "ordinal": 61,
-    "global_ordinal": 111,
-    "source_file": "duality.tex",
-    "section_start_line": 5813,
-    "section_end_line": 5987,
+    "ordinal": 73,
+    "global_ordinal": 123,
+    "source_file": "discriminant.tex",
+    "section_start_line": 1417,
+    "section_end_line": 1517,
     "eligible_candidate_ids": [
-      "candidate.stacks.bd6833113ac986cb0f6c6ee3"
+      "candidate.stacks.66faee6b933be40072a41f75"
     ],
     "all_active_candidate_ids": [
-      "candidate.stacks.bd6833113ac986cb0f6c6ee3"
+      "candidate.stacks.0e820192ffc809ef4157fc1a",
+      "candidate.stacks.66faee6b933be40072a41f75",
+      "candidate.stacks.8d553a2da84e14a6d1ec23d0"
     ],
-    "unreviewed_unready_ids": [],
+    "unreviewed_unready_ids": [
+      "candidate.stacks.0e820192ffc809ef4157fc1a",
+      "candidate.stacks.8d553a2da84e14a6d1ec23d0"
+    ],
     "previously_reviewed_ids": [],
-    "records": "harvest/phase2_chat_stage_a/duality/batch_03_sections_18_32/RECONSTRUCTIONS.jsonl",
-    "manifest": "harvest/phase2_chat_stage_a/duality/batch_03_sections_18_32/MANIFEST.json"
+    "records": "harvest/phase2_chat_stage_a/discriminant/batch_01_sections_01_13/RECONSTRUCTIONS.jsonl",
+    "manifest": "harvest/phase2_chat_stage_a/discriminant/batch_01_sections_01_13/MANIFEST.json"
   },
   "resume_instructions": "Use only fixed SELECTION.json and audited phase2_safe_source viewer. Inspect saved per-group section checkpoints, formulations and independent verdicts before resuming. Complete independent review before materialization; validate exact digests and preserve baseline872. Stop selected ordinal100. No proofs, Phase3, publication, refresh or old incident review.",
-  "candidates_accounted_for": 217,
-  "substantively_corrected": 13,
-  "latest_checkpoint_commit": "1ca0c641fdf29e6a63d2aaaa2a23d97228f13ca8",
+  "candidates_accounted_for": 256,
+  "substantively_corrected": 19,
+  "latest_checkpoint_commit": "8c4f8ce28927b82cc00ea2854c3be35d9395f5db",
   "safety_commit": "89f3c4d87fd4f22ff92d940baa99d970dd9471ed",
   "source_safety_incident": {
     "source_file": "dualizing.tex",
@@ -711,5 +844,64 @@
     "disposition": "processing_hold_proof_context_exposure_excluded_from_materialization",
     "scope": "first36selectedsectionsunaffected"
   },
-  "correction_count_note": "Hold-only disposition notes removed from correction counts; no reviewed mathematical content or digests altered."
+  "correction_count_note": "Hold-only disposition notes removed from correction counts; no reviewed mathematical content or digests altered.",
+  "canonical_coverage_reconciliation": [
+    {
+      "ordinal": 97,
+      "canonical_active_candidate_ids": [
+        "candidate.stacks.00743da7ddbe388932db739e",
+        "candidate.stacks.816ed728feadf350592b895b",
+        "candidate.stacks.8f67e4ca1b42928298f0ac7c",
+        "candidate.stacks.9cbbc936b6e2b78c28494c64",
+        "candidate.stacks.ff206c6972ab57e9ee844702"
+      ],
+      "additional_active_ids_absent_from_stage_a_batch": [
+        "candidate.stacks.00743da7ddbe388932db739e",
+        "candidate.stacks.8f67e4ca1b42928298f0ac7c",
+        "candidate.stacks.9cbbc936b6e2b78c28494c64"
+      ],
+      "already_approved_additional_ids": [],
+      "disposition": "not selected; missing readiness evidence; leave unreviewed unless already approved"
+    },
+    {
+      "ordinal": 99,
+      "canonical_active_candidate_ids": [
+        "candidate.stacks.06d0509ac1f47167d8ed365d",
+        "candidate.stacks.0f7913d8962a66063232016c",
+        "candidate.stacks.1890c0f96ca428b6a1d08971",
+        "candidate.stacks.1d20ad60ba894734e271fd64",
+        "candidate.stacks.347bfd5c6fcf174587b8dc2d",
+        "candidate.stacks.3555acdeba52cc49320dabb6",
+        "candidate.stacks.4793b0c9c6d7325ca4a27795",
+        "candidate.stacks.6f52b6d8ffc7fc31de2b2316",
+        "candidate.stacks.7930df5e02850432d3ffc521",
+        "candidate.stacks.88836c6db6028b0349614278",
+        "candidate.stacks.a3f51939b96edbeb4ac81bde",
+        "candidate.stacks.ac9a9b73d9fb8dce79479c61",
+        "candidate.stacks.e8c5e44e3ba2898239ec7b39",
+        "candidate.stacks.eb63503744d45e1880b32b44",
+        "candidate.stacks.f687a6951c65a1bdb2780e19"
+      ],
+      "additional_active_ids_absent_from_stage_a_batch": [
+        "candidate.stacks.6f52b6d8ffc7fc31de2b2316",
+        "candidate.stacks.ac9a9b73d9fb8dce79479c61",
+        "candidate.stacks.e8c5e44e3ba2898239ec7b39"
+      ],
+      "already_approved_additional_ids": [],
+      "disposition": "not selected; missing readiness evidence; leave unreviewed unless already approved"
+    },
+    {
+      "ordinal": 100,
+      "canonical_active_candidate_ids": [
+        "candidate.stacks.0c7f69daab483432e2557aa3",
+        "candidate.stacks.66e24ebcf2033e103987a384",
+        "candidate.stacks.d58d3550caee1fe9fb728a1c"
+      ],
+      "additional_active_ids_absent_from_stage_a_batch": [
+        "candidate.stacks.66e24ebcf2033e103987a384"
+      ],
+      "already_approved_additional_ids": [],
+      "disposition": "not selected; missing readiness evidence; leave unreviewed unless already approved"
+    }
+  ]
 }

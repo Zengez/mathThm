@@ -1,0 +1,44 @@
+[
+  {
+    "candidate_id": "candidate.stacks.19964c82524ee099c4a237bb",
+    "source_label": "lemma-gorenstein-local-syntomic",
+    "corrections": [
+      "Replaced truncated quoted-property fragment in H with arbitrary scheme setup."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.97444548635f9d97c491cae6",
+    "source_label": "lemma-gorenstein-base-change",
+    "corrections": [
+      "Removed finite-generation restriction from common H, preserving two independently sufficient guards for equivalence, per independent review."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.986e5f5ecbbb07f6d580c579",
+    "source_label": "lemma-gorenstein-local-source-and-target",
+    "corrections": [
+      "Restored complete property P in H instead of truncated fibre fragment; kept asymmetric source/target topologies."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.345929345fea7fc233429981",
+    "source_label": "lemma-localize-dualizing",
+    "corrections": [
+      "Removed unrelated chosen f,g guard fragments from common H; retained each localization statement with own quantifier."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.8302293f967a10ddac61148c",
+    "source_label": "lemma-tau-nonzero",
+    "corrections": [
+      "Removed equivalent assertions incorrectly imposed as common H; preserved source alternatives."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.d17f59f1097982d75365607b",
+    "source_label": "lemma-kahler-different",
+    "corrections": [
+      "Clarified that non-unramified POINT locus identifies underlying closed set; no scheme structure is assigned to a mere point set."
+    ]
+  }
+]
