@@ -267,34 +267,66 @@
       "section": 14,
       "kind": "candidates",
       "source_line": 2161,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.a10c07097d5d3a4dca789501"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.a10c07097d5d3a4dca789501"
+      ],
+      "stage_a_source_context_heading": "Examples of algebraic spaces",
+      "stage_a_source_context_summary": "Pinned source §14 reviewed through L2546. 1 source definition/situation events; 1 candidates, 1 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 15,
       "kind": "candidates",
       "source_line": 2547,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.5e59a3b858e6124bb0d43c64",
+        "candidate.stacks.56b488899e5fb52bf732e992"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.56b488899e5fb52bf732e992"
+      ],
+      "stage_a_source_context_heading": "Change of big site",
+      "stage_a_source_context_summary": "Pinned source §15 reviewed through L2717. 0 source definition/situation events; 2 candidates, 1 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 16,
       "kind": "candidates",
       "source_line": 2718,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.b2a75d4b3c5feda198ced77d",
+        "candidate.stacks.fad8d7333ef13ac253b7c6c1",
+        "candidate.stacks.f3aef704ad041bd5b4f8c3ab",
+        "candidate.stacks.8e84be22d871e8e36acec526"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Change of base scheme",
+      "stage_a_source_context_summary": "Pinned source §16 reviewed through L2972. 1 source definition/situation events; 4 candidates, 0 holds. No local theorem hypotheses inherited."
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 34,
-  "stage_a_remaining_work_candidate_count": 7,
+  "stage_a_ready_for_codex_candidate_count": 39,
+  "stage_a_remaining_work_candidate_count": 2,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 9,
+  "stage_a_ready_for_codex_section_count": 10,
   "stage_a_remaining_work_section_count": 3,
-  "stage_a_work_pending": true,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "conservative_standalone_screen_v1",
-  "stage_a_dispositioned_section_count": 10,
-  "stage_a_further_work_candidate_count": 0,
+  "stage_a_dispositioned_section_count": 16,
+  "stage_a_further_work_candidate_count": 2,
   "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/spaces/batch_02_sections_04_16/CONTEXT_LEDGER.jsonl",
   "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/spaces/batch_02_sections_04_16/SECTION_CHECKPOINTS.jsonl",
   "stage_a_parent_checkpoint": "harvest/phase2_chat_stage_a/spaces/batch_01_sections_01_03/SECTION_CHECKPOINTS.jsonl",
-  "processing_note": "Regular Stage A Spaces §§4–13 source-reviewed in order with carried chapter fppf conventions and scoped ledger. Only §§14–16 remain pending (begin §14 L2161). No independent Stage B review.",
-  "stage_a_further_work_section_count": 0
+  "processing_note": "Regular Stage A progressed through source spaces.tex §16; source-anchored ledger and per-section checkpoints. Chapter context closed at §16.",
+  "stage_a_further_work_section_count": 2
 }

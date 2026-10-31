@@ -128,7 +128,15 @@
       "section": 8,
       "kind": "candidates",
       "source_line": 1130,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.bad90bd7d03480ca5e5ebdda"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Constructible sets",
+      "stage_a_source_context_summary": "Pinned source §8 reviewed through L1193. 1 source definition/situation events; 1 candidates, 0 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 9,
@@ -144,25 +152,58 @@
           "tex": "\\begin{definition}\n\\label{definition-dimension}\nLet $S$ be a scheme. Let $X$ be an algebraic space over $S$.\nThe {\\it dimension} $\\dim(X)$ of $X$ is defined by the rule\n$$\n\\dim(X) = \\sup\\nolimits_{x \\in |X|} \\dim_x(X)\n$$\n\\end{definition}"
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Dimension at a point",
+      "stage_a_source_context_summary": "Pinned source §9 reviewed through L1251. 2 source definition/situation events; 0 candidates, 0 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 10,
       "kind": "candidates",
       "source_line": 1252,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.ea0d284a763d525b129a6724"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Dimension of local rings",
+      "stage_a_source_context_summary": "Pinned source §10 reviewed through L1318. 1 source definition/situation events; 1 candidates, 0 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 11,
       "kind": "candidates",
       "source_line": 1319,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.6fd0a9c16ed169c5e4a46daa"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Generic points",
+      "stage_a_source_context_summary": "Pinned source §11 reviewed through L1378. 0 source definition/situation events; 1 candidates, 0 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 12,
       "kind": "candidates",
       "source_line": 1379,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.c25fea8a8f683e7d227edbb6",
+        "candidate.stacks.29d5163a390db40ab6bd2756",
+        "candidate.stacks.853c454cd59401cf4c30f078",
+        "candidate.stacks.b8b7c92ef44e8644b5a90d91"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Reduced spaces",
+      "stage_a_source_context_summary": "Pinned source §12 reviewed through L1552. 1 source definition/situation events; 4 candidates, 0 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 13,
@@ -256,11 +297,15 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 58,
+  "stage_a_ready_for_codex_candidate_count": 7,
+  "stage_a_remaining_work_candidate_count": 51,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_ready_for_codex_section_count": 4,
   "stage_a_remaining_work_section_count": 19,
   "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "processing_note": "Regular Stage A progressed through source spaces-properties.tex §12; source-anchored ledger and per-section checkpoints. §§13–27 still pending in this manifest."
 }

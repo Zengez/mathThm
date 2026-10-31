@@ -67,6 +67,18 @@
   ],
   "processing_sections": [
     {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Introduction",
+      "stage_a_source_context_summary": "Pinned source §1 reviewed through L45. 0 source definition/situation events; 0 candidates, 0 holds. No local theorem hypotheses inherited."
+    },
+    {
       "section": 2,
       "kind": "context_only",
       "source_line": 46,
@@ -76,31 +88,86 @@
           "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$. The reason is that we\nwant to avoid confusion when changing base schemes, as in\nSpaces, Section \\ref{spaces-section-change-base-scheme}."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Conventions",
+      "stage_a_source_context_summary": "Pinned source §2 reviewed through L63. 0 source definition/situation events; 0 candidates, 0 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 3,
       "kind": "candidates",
       "source_line": 64,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.4f36bfd00f6066f4c8d465b5",
+        "candidate.stacks.243a2c034ebc66bbf890f617",
+        "candidate.stacks.5badafa285c7b5ab07ffcd7c"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Separation axioms",
+      "stage_a_source_context_summary": "Pinned source §3 reviewed through L216. 1 source definition/situation events; 3 candidates, 0 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 4,
       "kind": "candidates",
       "source_line": 217,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.ea0d3f39fe1c3fd99f3e52f1",
+        "candidate.stacks.37d37714ed557e89d1037e38",
+        "candidate.stacks.6167e3a11cec428180a12843",
+        "candidate.stacks.7a3b926bcb9af674a42d8c0c",
+        "candidate.stacks.0cd52ca93b4cafa14cfad918",
+        "candidate.stacks.cb2f6183c2fd6e8e8cf258c8",
+        "candidate.stacks.15b114b8de1baba1db64cc51",
+        "candidate.stacks.6236b7651ff0e7f3c252bc7e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Points of algebraic spaces",
+      "stage_a_source_context_summary": "Pinned source §4 reviewed through L620. 2 source definition/situation events; 8 candidates, 0 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 5,
       "kind": "candidates",
       "source_line": 621,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.8af9b52bb06b2a6111de9f2b",
+        "candidate.stacks.85a954f73f4e3dbe6e1f8b1a",
+        "candidate.stacks.d832455b08cbe217d716a2a5"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Quasi-compact spaces",
+      "stage_a_source_context_summary": "Pinned source §5 reviewed through L692. 1 source definition/situation events; 3 candidates, 0 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 6,
       "kind": "candidates",
       "source_line": 693,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.8088f8ce0158053ed302952c",
+        "candidate.stacks.023d98b8b4a71ea2c7b67944",
+        "candidate.stacks.dee4c27101485647e65406c3",
+        "candidate.stacks.c239a06cc0a1add8f3b55f80",
+        "candidate.stacks.1fd13517ebdc0d999c86e612",
+        "candidate.stacks.dec28bd343dfd1dc97f72c5a",
+        "candidate.stacks.fb645d90c9eb24467c2c3138"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Special coverings",
+      "stage_a_source_context_summary": "Pinned source §6 reviewed through L971. 0 source definition/situation events; 7 candidates, 0 holds. No local theorem hypotheses inherited."
     },
     {
       "section": 7,
@@ -116,15 +183,25 @@
           "tex": "\\begin{definition}\n\\label{definition-property-at-point}\nLet $S$ be a scheme. Let $X$ be an algebraic space over $S$.\nLet $x \\in |X|$. Let $\\mathcal{P}$ be a property of germs of schemes which is\n\\'etale local.\nWe say $X$ {\\it has property $\\mathcal{P}$ at $x$} if any of the\nequivalent conditions of\nLemma \\ref{lemma-local-source-target-at-point}\nhold.\n\\end{definition}"
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Properties of Spaces defined by properties of schemes",
+      "stage_a_source_context_summary": "Pinned source §7 reviewed through L1129. 2 source definition/situation events; 0 candidates, 0 holds. No local theorem hypotheses inherited."
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 21,
+  "stage_a_ready_for_codex_candidate_count": 21,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_ready_for_codex_section_count": 4,
   "stage_a_remaining_work_section_count": 4,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_dispositioned_section_count": 7,
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "processing_note": "Regular Stage A progressed through source spaces-properties.tex §7; source-anchored ledger and per-section checkpoints. Continue §8 without resetting conventions."
 }
