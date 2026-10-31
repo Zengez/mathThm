@@ -26,5 +26,11 @@
       "kind": "candidates"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "preliminary_source_holds": [
+    "candidate.stacks.a60de8eaf5d930b5cd8b6296",
+    "candidate.stacks.d99ece6ce919149c7be8876e",
+    "candidate.stacks.3c4936b0a61b4f3e5cc81e9f",
+    "candidate.stacks.837bc7d942f90e9cf3ef7b87"
+  ]
 }
