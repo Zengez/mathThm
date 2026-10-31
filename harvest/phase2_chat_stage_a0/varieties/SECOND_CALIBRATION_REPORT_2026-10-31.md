@@ -1,11 +1,13 @@
 # Stage A0 v2: second Medium-style calibration — varieties §§3–12
 
+> **AUDIT CORRECTION — INVALID NEW-WORK CALIBRATION (October 31, 2026).** The entire Varieties chapter had already been independently reviewed on October 29. Comparing the 64 experimental A0 work packets with `phase2_chapters_2026-10-29/varieties_a/INDEPENDENT_VALIDATION.jsonl`: **59 were already approved, two were previously held, and three were not canonical active candidates**. There were **zero eligible previously unreviewed candidates**; the two proposed substitutions applied only to noncanonical records. This run produced experimental extraction artifacts, not new Stage A0 progress on the pending workload. Read [the audit](SECOND_CALIBRATION_AUDIT_2026-10-31.md) before using these packets. Do **not** ingest them into Stage A readiness data.
+
 **Date:** 2026-10-31  
 **Working branch:** `work/phase2-stage-a-context-enrichment`  
 **Pinned Stacks source:** `varieties.tex` at `a04446e57ec1fbc252a871afcec7752fb2807b14`  
 **Source-order window:** §§1–12 walked, §§3–12 candidate-bearing; lines 17–2624.
 
-This is a NEW source window, separate from the earlier `flat.tex` §§1–42 pilot. The window was chosen to be unoccupied by the Stage A manifests observed at selection time, safely away from the concurrently advancing A1 review. The former "200 sections ahead" was an arbitrary overlap-avoidance estimate, **not** a precise offset requirement.
+This is a NEW source window, separate from the earlier `flat.tex` §§1–42 pilot. The window had no Chat Stage A manifest at selection time, but **that check was insufficient**: earlier independent review had already completed this entire chapter. The mistaken selection is documented in the audit linked above. The former "200 sections ahead" was an arbitrary overlap-avoidance estimate, **not** a precise offset requirement.
 
 ## Validated deliverables
 
