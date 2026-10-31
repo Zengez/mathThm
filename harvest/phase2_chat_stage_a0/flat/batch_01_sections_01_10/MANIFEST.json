@@ -1,0 +1,151 @@
+{
+  "schema": "maththm.phase2.chat-stage-a0-batch.v1",
+  "chapter": "flat.tex",
+  "batch": "batch_01_sections_01_10",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_range": {
+    "first_line": 18,
+    "last_line": 2933
+  },
+  "sections": [
+    {
+      "ordinal": 1,
+      "start": 18,
+      "title": "Introduction",
+      "end": 75,
+      "candidate_count": 0
+    },
+    {
+      "ordinal": 2,
+      "start": 76,
+      "title": "Lemmas on \\'etale localization",
+      "end": 436,
+      "candidate_count": 9
+    },
+    {
+      "ordinal": 3,
+      "start": 437,
+      "title": "The local structure of a finite type module",
+      "end": 769,
+      "candidate_count": 4
+    },
+    {
+      "ordinal": 4,
+      "start": 770,
+      "title": "One step d\\'evissage",
+      "end": 1185,
+      "candidate_count": 6
+    },
+    {
+      "ordinal": 5,
+      "start": 1186,
+      "title": "Complete d\\'evissage",
+      "end": 1620,
+      "candidate_count": 5
+    },
+    {
+      "ordinal": 6,
+      "start": 1621,
+      "title": "Translation into algebra",
+      "end": 1777,
+      "candidate_count": 1
+    },
+    {
+      "ordinal": 7,
+      "start": 1778,
+      "title": "Localization and universally injective maps",
+      "end": 1997,
+      "candidate_count": 6
+    },
+    {
+      "ordinal": 8,
+      "start": 1998,
+      "title": "Completion and Mittag-Leffler modules",
+      "end": 2135,
+      "candidate_count": 4
+    },
+    {
+      "ordinal": 9,
+      "start": 2136,
+      "title": "Projective modules",
+      "end": 2341,
+      "candidate_count": 3
+    },
+    {
+      "ordinal": 10,
+      "start": 2342,
+      "title": "Flat finite type modules, Part I",
+      "end": 2933,
+      "candidate_count": 10
+    }
+  ],
+  "physical_sections_completed": 10,
+  "candidate_bearing_sections_completed": 9,
+  "source_candidate_overlay_count": 48,
+  "source_no_immediate_proof_skipped": 0,
+  "status_counts": {
+    "a0_unresolved": 6,
+    "a0_no_changes_needed": 42,
+    "a0_expanded": 0,
+    "a0_blocked": 0
+  },
+  "candidate_ids": [
+    "candidate.stacks.9e78e9ed86038a5ad4ca87fa",
+    "candidate.stacks.e32bb0e4375acb5b271789fb",
+    "candidate.stacks.fff8577018570612a22fab22",
+    "candidate.stacks.150374ea1cd3da190c0da6fa",
+    "candidate.stacks.6785188c5167f7d0fb0e7877",
+    "candidate.stacks.844a33bff588304e1a6fd963",
+    "candidate.stacks.55b41613d6d1c95f40e48769",
+    "candidate.stacks.65ba6c8e1db0e05736f3d12d",
+    "candidate.stacks.93a7e763e1007ca3d21f7c4a",
+    "candidate.stacks.7354cb17ceb475ac81c37b71",
+    "candidate.stacks.ed5a557648d84beeb421c889",
+    "candidate.stacks.cfc4cb8a4a56a4e735772e9e",
+    "candidate.stacks.da05b8a2636555a47cb8a17f",
+    "candidate.stacks.52de4a597f03f2c98235cc00",
+    "candidate.stacks.0d6db91f2913855bd6d07628",
+    "candidate.stacks.e0268bb3cea230214a021270",
+    "candidate.stacks.32b20dc658df272da82f9113",
+    "candidate.stacks.dac5a3bc56ac5825aace809b",
+    "candidate.stacks.aa2d9dae377ba225ba564918",
+    "candidate.stacks.155f047f3a47e1e249db98b2",
+    "candidate.stacks.851868a6f73fad45923b69a5",
+    "candidate.stacks.7aebc36358fba08a000fd0b5",
+    "candidate.stacks.04edebf05b0d79d407e2d23f",
+    "candidate.stacks.e7f318a244486710dbb3ea12",
+    "candidate.stacks.6de056fde4fbf5edea81e876",
+    "candidate.stacks.588530ddc8e9f6101f09b427",
+    "candidate.stacks.26172fd5300f5361c7bc72b5",
+    "candidate.stacks.35d6fc0ae7d7a06b06012fce",
+    "candidate.stacks.8fd81fb195921a32b31e70d9",
+    "candidate.stacks.adb726adf35d44c09c97f904",
+    "candidate.stacks.db145135e6a92e196834843d",
+    "candidate.stacks.f77a2107e02c32f29d2b5a0a",
+    "candidate.stacks.f221af630d65d850e15f9759",
+    "candidate.stacks.17b094515c03e6109f86713a",
+    "candidate.stacks.0110203899db2eee62230914",
+    "candidate.stacks.c75525d5964de744a26facaf",
+    "candidate.stacks.ee19471ea886414a087bccc5",
+    "candidate.stacks.46c269ee974f0198ae9e1f68",
+    "candidate.stacks.386fe2b8cb72fd8fa29f6b4e",
+    "candidate.stacks.b1478c48aa506cba9126029f",
+    "candidate.stacks.954c1ebaf1b951dd1bede5b9",
+    "candidate.stacks.48727018f4deaeb03e60d8f9",
+    "candidate.stacks.73ea8b0a26d2ef207d3614fb",
+    "candidate.stacks.4ad6d9aa26f652aac6915721",
+    "candidate.stacks.6a3ab4ccf8797943ced5ef85",
+    "candidate.stacks.93976fc067e0232b643b370f",
+    "candidate.stacks.f045c013a470f3183a8c13e5",
+    "candidate.stacks.032cfeb1334ea8341c89f136"
+  ],
+  "authoritative_membership_check": "pending (canonical 9,675-ID active registry too large to retrieve through current connector)",
+  "codex_approval_crosscheck": "pending against full later-approval registry; original 655 approvals are in other chapters",
+  "reviewer": "chatgpt-lightweight-a0",
+  "thinking_profile": "conservative low-inference prepass, not a verified model effort-setting change",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "no_authoritative_readiness_mutation": true,
+  "followup": "A1 must validate candidate active membership, source-equivalence, and full inherited references before any promotion"
+}
