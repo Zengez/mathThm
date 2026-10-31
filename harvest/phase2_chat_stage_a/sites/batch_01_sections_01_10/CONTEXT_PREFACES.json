@@ -1,3 +1,5 @@
 {
-  "I": "Let $u:\\mathcal{C}\\to\\mathcal{D}$ be a functor. For $V$ let $\\mathcal{I}^u_V$ have objects $(U,\\phi:V\\to u(U))$ and arrows $f:(U,\\phi)\\to(U',\\phi')$ where $u(f)\\circ\\phi=\\phi'$."
+  "I": "Let $u:\\mathcal{C}\\to\\mathcal{D}$ be a functor. For $V$ let $\\mathcal{I}^u_V$ have objects $(U,\\phi:V\\to u(U))$ and arrows $f:(U,\\phi)\\to(U',\\phi')$ where $u(f)\\circ\\phi=\\phi'$.",
+  "u": "Let $u:\\mathcal{C}\\to\\mathcal{D}$ be a functor of categories. For a presheaf $\\mathcal{F}$ on $\\mathcal{C}$ put $u_p\\mathcal{F}(V)=\\operatorname{colim}_{(\\mathcal{I}^u_V)^{opp}}\\mathcal{F}(U)$. For a presheaf $\\mathcal{G}$ on $\\mathcal{D}$ put $u^p\\mathcal{G}=\\mathcal{G}\\circ u$.",
+  "plus": "Let $\\mathcal{C}$ be a site and $\\mathcal{F}$ a presheaf. For a covering $\\mathcal{U}$ of $U$, let $H^0(\\mathcal{U},\\mathcal{F})$ be the set of matching families of sections over its members. Let $\\mathcal{J}_U$ be the category of coverings and refinements. Define $\\mathcal{F}^+(U)=\\operatorname{colim}_{\\mathcal{J}_U^{opp}}H^0(\\mathcal{U},\\mathcal{F})$, with restrictions induced by pullbacks, and denote $\\theta:\\mathcal{F}\\to\\mathcal{F}^+$ the canonical map."
 }
