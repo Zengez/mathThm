@@ -101,17 +101,6 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
-    "candidate.stacks.b37964e825c3b4d9ce7b06a1",
-    "candidate.stacks.7c810e81728313e9884302e8",
-    "candidate.stacks.702567f94268bdf74e475c3d",
-    "candidate.stacks.70c0c38c4a33c36b002ff597",
-    "candidate.stacks.b8980094f474ebdc3d59c358",
-    "candidate.stacks.fa4c182df75a103f29bb9138",
-    "candidate.stacks.187a9e01f5157ba39a9e2655",
-    "candidate.stacks.e079954acfa57b7248247408",
-    "candidate.stacks.af5fbf3c035c9b02e46f708c",
-    "candidate.stacks.3eeed5dc7dcfbf64aba84ba6",
-    "candidate.stacks.e163c8e0e2c031ca6f658199",
     "candidate.stacks.27b9e5126c727615713f7772",
     "candidate.stacks.23ee6824b15dcb46b36ebe7a",
     "candidate.stacks.3c14bb3ad93c31ccb874f7db",
@@ -159,31 +148,31 @@
       "section": 23,
       "kind": "candidates",
       "source_line": 5988,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 24,
       "kind": "candidates",
       "source_line": 6142,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 25,
       "kind": "candidates",
       "source_line": 6244,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 26,
       "kind": "candidates",
       "source_line": 6677,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 27,
       "kind": "candidates",
       "source_line": 6708,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 28,
@@ -217,16 +206,16 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 36,
-  "stage_a_remaining_work_candidate_count": 29,
+  "stage_a_ready_for_codex_candidate_count": 48,
+  "stage_a_remaining_work_candidate_count": 17,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 4,
-  "stage_a_remaining_work_section_count": 10,
+  "stage_a_ready_for_codex_section_count": 9,
+  "stage_a_remaining_work_section_count": 5,
   "stage_a_work_pending": true,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "stage_a_further_work_candidate_count": 0,
   "stage_a_further_work_section_count": 0,
-  "stage_a_dispositioned_section_count": 5,
+  "stage_a_dispositioned_section_count": 10,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Sections 18–22 completed in order. All 18 active statements expanded as true standalone with FTS_S, relative normalizations including cocycle, fibre and bound conventions. No source-dependent issue held; later sections 23–32 remain pending."
+  "processing_note": "Source-order sections 18–27 dispositioned: 42 active cases (18 in §§18–22 and 24 in §§23–27) expanded with explicit CM/Gorenstein and duality-over-field conditions; no pending or holds in these sections, §§28–32 still pending."
 }
