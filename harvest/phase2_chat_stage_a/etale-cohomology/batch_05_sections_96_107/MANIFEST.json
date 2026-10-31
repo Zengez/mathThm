@@ -122,6 +122,114 @@
       "stage_a_codex_approved_exclusion_respected": true
     },
     {
+      "section": 100,
+      "kind": "context_only",
+      "source_line": 21416,
+      "snippets": [
+        {
+          "source_line": 21430,
+          "tex": "Let $S$ be a scheme and let $(\\Sch/S)_{fppf}$ be an fppf site.\nOn the same underlying category we have a second topology,\nnamely the \\'etale topology, and hence a second site\n$(\\Sch/S)_\\etale$. The identity functor\n$(\\Sch/S)_\\etale \\to (\\Sch/S)_{fppf}$ is continuous and defines\na morphism of sites\n$$\n\\epsilon_S : (\\Sch/S)_{fppf} \\longrightarrow (\\Sch/S)_\\etale"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "fppf versus étale",
+      "stage_a_source_context_summary": "Here ε_S:(Sch/S)_fppf→(Sch/S)_étale, π_S:(Sch/S)_étale→S_étale, and a_S=π_S∘ε_S. This comparison notation is topology-qualified.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
+      "section": 101,
+      "kind": "context_only",
+      "source_line": 21882,
+      "snippets": [
+        {
+          "source_line": 21890,
+          "tex": "Let $S$ be a scheme. The morphisms of sites $\\epsilon_S$, $\\pi_S$, and\ntheir composition $a_S$ introduced in Section \\ref{section-fppf-etale}\nhave natural enhancements to morphisms of ringed sites. The first\nis written as\n$$\n\\epsilon_S :\n((\\Sch/S)_{fppf}, \\mathcal{O})\n\\longrightarrow"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "fppf/étale modules",
+      "stage_a_source_context_summary": "The maps ε_S,π_S,a_S enhance to ringed sites; quasi-coherence is a specific premise of the comparison for modules, not a global assumption.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
+      "section": 102,
+      "kind": "context_only",
+      "source_line": 22133,
+      "snippets": [
+        {
+          "source_line": 22147,
+          "tex": "Let $S$ be a scheme and let $(\\Sch/S)_{ph}$ be a ph site.\nOn the same underlying category we have a second topology,\nnamely the \\'etale topology, and hence a second site\n$(\\Sch/S)_\\etale$. The identity functor\n$(\\Sch/S)_\\etale \\to (\\Sch/S)_{ph}$ is continuous\n(by More on Morphisms, Lemma \\ref{more-morphisms-lemma-fppf-ph}\nand Topologies, Lemma\n\\ref{topologies-lemma-zariski-etale-smooth-syntomic-fppf})"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "ph versus étale",
+      "stage_a_source_context_summary": "The notation ε_S here refers to the ph-to-étale comparison, replacing the fppf meaning inside this section; torsion and properness are theorem-local conditions.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
+      "section": 103,
+      "kind": "context_only",
+      "source_line": 22510,
+      "snippets": [
+        {
+          "source_line": 22527,
+          "tex": "Let $S$ be a scheme and let $(\\Sch/S)_h$ be an h site.\nOn the same underlying category we have a second topology,\nnamely the \\'etale topology, and hence a second site\n$(\\Sch/S)_\\etale$. The identity functor\n$(\\Sch/S)_\\etale \\to (\\Sch/S)_h$ is continuous\n(by More on Flatness, Lemma \\ref{flat-lemma-zariski-h}\nand Topologies, Lemma\n\\ref{topologies-lemma-zariski-etale-smooth-syntomic-fppf})"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "h versus étale",
+      "stage_a_source_context_summary": "The notation ε_S here refers to the h-to-étale comparison, not ph/fppf; retain torsion and properness restrictions where explicitly stated.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
+      "section": 104,
+      "kind": "context_only",
+      "source_line": 22838,
+      "snippets": [
+        {
+          "source_line": 22870,
+          "tex": "Let $\\mathcal{U} = \\{f_i : X_i \\to X\\}$\nbe a family of morphisms of schemes with fixed target.\nA {\\it descent datum} for \\'etale sheaves with respect to\n$\\mathcal{U}$ is a family\n$((\\mathcal{F}_i)_{i \\in I}, (\\varphi_{ij})_{i, j \\in I})$ where\n\\begin{enumerate}\n\\item $\\mathcal{F}_i$ is in $\\Sh(X_{i, \\etale})$, and\n\\item $\\varphi_{ij} :"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Étale descent data",
+      "stage_a_source_context_summary": "Given a family {X_i→X}, an étale-sheaf descent datum consists of sheaves over each X_i with compatible overlap isomorphisms and cocycle. The existence of a section, properness, integrality or fppf assumptions are separately quantified.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
+      "section": 105,
+      "kind": "context_only",
+      "source_line": 23305,
+      "snippets": [
+        {
+          "source_line": 23316,
+          "tex": "Let $X$ be a scheme and let $Z \\subset X$ be a closed subscheme\ncut out by a quasi-coherent ideal of finite type. Consider the\ncorresponding blow up square\n$$\n\\xymatrix{\nE \\ar[d]_\\pi \\ar[r]_j & X' \\ar[d]^b \\\\\nZ \\ar[r]^i & X\n}"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Blow-up square",
+      "stage_a_source_context_summary": "In this square Z is cut out by a finite-type quasi-coherent ideal, b:X'→X is the associated blow-up and E=Z×_X X'. Torsion-cohomology and bounded-below restrictions belong to the specific result.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
       "section": 106,
       "kind": "context_only",
       "source_line": 23527,
@@ -131,7 +239,31 @@
           "tex": "\\noindent\nIn this section we continue the discussion in\nMore on Flatness, Section \\ref{flat-section-blow-up-h}.\nFor the convenience of the reader we recall that an\nalmost blow up square is a commutative diagram\n\\begin{equation}\n\\label{equation-almost-blow-up-square}\n\\vcenter{\n\\xymatrix{\nE \\ar[d] \\ar[r] & X' \\ar[d]^b \\\\\nZ \\ar[r] & X\n}\n}\n\\end{equation}\nof schemes satisfying the following conditions:\n\\begin{enumerate}\n\\item $Z \\to X$ is a closed immersion of finite presentation,\n\\item $E = b^{-1}(Z)$ is a locally principal closed subscheme of $X'$,\n\\item $b$ is proper and of finite presentation,\n\\item the closed subscheme $X'' \\subset X'$ cut out by the quasi-coherent\nideal of sections of $\\mathcal{O}_{X'}$ supported on $E$\n(Properties, Lemma \\ref{properties-lemma-sections-supported-on-closed-subset})\nis the blow up of $X$ in $Z$.\n\\end{enumerate}\nIt follows that the morphism $b$ induces an isomorphism\n$X' \\setminus E \\to X \\setminus Z$."
         }
       ],
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Almost blow-up square",
+      "stage_a_source_context_summary": "The square requires Z→X closed finitely presented, E=b^{-1}Z locally principal, b proper finitely presented, and the supported-section quotient X'' to be Bl_Z(X).",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
+      "section": 107,
+      "kind": "context_only",
+      "source_line": 23636,
+      "snippets": [
+        {
+          "source_line": 23640,
+          "tex": "Let $p$ be a prime number. Let $(\\mathcal{C}, \\mathcal{O})$ be a ringed site\nwith $p\\mathcal{O} = 0$. Then we set $\\colim_F \\mathcal{O}$\nequal to the colimit in the category of sheaves of rings of the system\n$$\n\\mathcal{O} \\xrightarrow{F} \\mathcal{O} \\xrightarrow{F}\n\\mathcal{O} \\xrightarrow{F} \\ldots\n$$\nwhere $F : \\mathcal{O} \\to \\mathcal{O}$, $f \\mapsto f^p$"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Frobenius colimit",
+      "stage_a_source_context_summary": "For characteristic p, colim_F O is the sheaf-of-rings colimit along Frobenius; O^perf on the big fppf site is distinguished from the h-sheafification O^h.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
     }
   ],
   "processing_sections_format": "inline-v1",
@@ -142,8 +274,10 @@
   "stage_a_remaining_work_section_count": 0,
   "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
-  "stage_a_dispositioned_section_count": 4,
+  "stage_a_dispositioned_section_count": 12,
   "stage_a_further_work_section_count": 0,
   "stage_a_section_mapping_pending": false,
-  "processing_note": " Source-order context audit: §§96–99 checked against pinned Stacks text; each section has no active unapproved candidate, but the mathematically material premises and definitions were recorded for later dependency interpretation. This is not an independent Stage B run."
+  "processing_note": "All §§96–107 source context reviewed at pinned revision; context-only/zero-active intervals kept in chronological scope ledger/checkpoints. Definitions and comparisons are lookup context, not inherited theorem premises. No Stage B work or candidate readiness promotion.",
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/etale-cohomology/batch_05_sections_96_107/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/etale-cohomology/batch_05_sections_96_107/SECTION_CHECKPOINTS.jsonl"
 }
