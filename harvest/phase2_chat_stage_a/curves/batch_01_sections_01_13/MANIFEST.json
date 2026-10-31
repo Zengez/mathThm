@@ -83,20 +83,7 @@
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
-  "preliminary_source_holds": [
-    "candidate.stacks.4bca3563b403a8238c337f97",
-    "candidate.stacks.ff0b7d1b5a8396596ab049a9",
-    "candidate.stacks.cbf9c7601d09298c42c4ee56",
-    "candidate.stacks.48e1b67226191dd47254f816",
-    "candidate.stacks.8e225c2741797b2cd58f1eef",
-    "candidate.stacks.9240b30a7d89d9ae157ecbc6",
-    "candidate.stacks.f39555a1d41f48fbe7adc12e",
-    "candidate.stacks.353ce46e9eab067736173eae",
-    "candidate.stacks.e15fa880e43ee1477e31aee7",
-    "candidate.stacks.e3a8a3545fc1828f38519f95",
-    "candidate.stacks.950a07135be16e28e83db3ae",
-    "candidate.stacks.147299932ff2ef136bfff9aa"
-  ],
+  "preliminary_source_holds": [],
   "processing_sections": [
     {
       "section": 1,
@@ -108,55 +95,55 @@
       "section": 2,
       "kind": "candidates",
       "source_line": 46,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 3,
       "kind": "candidates",
       "source_line": 330,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 4,
       "kind": "candidates",
       "source_line": 568,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 5,
       "kind": "candidates",
       "source_line": 891,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 6,
       "kind": "candidates",
       "source_line": 1051,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 7,
       "kind": "candidates",
       "source_line": 1276,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 8,
       "kind": "candidates",
       "source_line": 1447,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 9,
       "kind": "candidates",
       "source_line": 1565,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 10,
       "kind": "candidates",
       "source_line": 1774,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 11,
@@ -168,21 +155,26 @@
       "section": 12,
       "kind": "candidates",
       "source_line": 2206,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 13,
       "kind": "candidates",
       "source_line": 2530,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 0,
-  "stage_a_remaining_work_candidate_count": 49,
-  "stage_a_source_hold_candidate_count": 12,
-  "stage_a_ready_for_codex_section_count": 0,
-  "stage_a_remaining_work_section_count": 11,
-  "stage_a_work_pending": true,
-  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+  "stage_a_ready_for_codex_candidate_count": 45,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 9,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 4,
+  "stage_a_further_work_section_count": 2,
+  "stage_a_dispositioned_section_count": 11,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Curves §§1–13 completed in consecutive source order; terms, duality, genus, linear series, geometric genus and RH/frobenius context expanded. No source statements excluded. Resolved named situation and dualizing-complex references rather than deferring due to shallow citation parsing. Remaining source-inconsistent i/j notation reserved for further work."
 }
