@@ -1,0 +1,136 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-source-ordered-batch-03",
+  "chapter": "sites.tex",
+  "sections_ordinal": [
+    21,
+    25
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    4438,
+    4823,
+    4976,
+    5042,
+    5163
+  ],
+  "first_source_line": 4438,
+  "last_source_line": 5629,
+  "complete_sections": true,
+  "stage_a_candidate_count": 15,
+  "candidate_ids": [
+    "candidate.stacks.12798d1ee825b8c425a799e5",
+    "candidate.stacks.e6238f0681191009a89effe7",
+    "candidate.stacks.a2aabdb2ac6738d00ecc65eb",
+    "candidate.stacks.772a6312cbd126e9ce5f607e",
+    "candidate.stacks.c506d1f5453019bc640b0e38",
+    "candidate.stacks.3a33e1360846f97af6248199",
+    "candidate.stacks.eb8882db5808016bbc0525e4",
+    "candidate.stacks.01007f1269f67417acc2c966",
+    "candidate.stacks.d78af772356aef478531ccea",
+    "candidate.stacks.3e86b0bc2db7e896b3122571",
+    "candidate.stacks.9ac7cf6e1caf9d63625454ce",
+    "candidate.stacks.c24888c01b415a6ff04c8c6d",
+    "candidate.stacks.c8785ec690b4254d8c5254ea",
+    "candidate.stacks.1282ba3d9101650ebd170c01",
+    "candidate.stacks.418707e26f1816caffa2d276"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites/batch_03_sections_21_25/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/sites/batch_03_sections_21_25/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/sites/batch_03_sections_21_25/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-sites-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "stage_a_ready_for_codex_candidate_count": 12,
+  "stage_a_remaining_work_candidate_count": 3,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "processing_sections": [
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 4438,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.12798d1ee825b8c425a799e5",
+        "candidate.stacks.e6238f0681191009a89effe7",
+        "candidate.stacks.a2aabdb2ac6738d00ecc65eb"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Cocontinuous functors and morphisms of topoi"
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 4823,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.772a6312cbd126e9ce5f607e",
+        "candidate.stacks.c506d1f5453019bc640b0e38",
+        "candidate.stacks.3a33e1360846f97af6248199"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.772a6312cbd126e9ce5f607e",
+        "candidate.stacks.3a33e1360846f97af6248199"
+      ],
+      "stage_a_source_context_heading": "Cocontinuous functors which have a right adjoint"
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 4976,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.eb8882db5808016bbc0525e4"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.eb8882db5808016bbc0525e4"
+      ],
+      "stage_a_source_context_heading": "Cocontinuous functors which have a left adjoint"
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 5042,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.01007f1269f67417acc2c966"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Existence of lower shriek"
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 5163,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d78af772356aef478531ccea",
+        "candidate.stacks.3e86b0bc2db7e896b3122571",
+        "candidate.stacks.9ac7cf6e1caf9d63625454ce",
+        "candidate.stacks.c24888c01b415a6ff04c8c6d",
+        "candidate.stacks.c8785ec690b4254d8c5254ea",
+        "candidate.stacks.1282ba3d9101650ebd170c01",
+        "candidate.stacks.418707e26f1816caffa2d276"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Localization"
+    }
+  ],
+  "note": "Morphisms of topoi, adjoint functors and localization notation expanded source-first; §22 composite named-lemma result is spelled out. No proof read, no Stage B validation."
+}
