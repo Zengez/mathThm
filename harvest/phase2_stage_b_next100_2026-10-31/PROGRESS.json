@@ -6,11 +6,11 @@
   "selection_commit": "bff8401e62e6b1de3ac3addd08d033304b862888",
   "selected_sections": 100,
   "selected_candidates": 324,
-  "completed_sections": 84,
-  "approvals": 155,
-  "mathematical_holds": 1,
-  "processing_holds": 121,
-  "current_authoritative_total": 1027,
+  "completed_sections": 96,
+  "approvals": 179,
+  "mathematical_holds": 2,
+  "processing_holds": 123,
+  "current_authoritative_total": 1051,
   "completed_groups": [
     {
       "group": "group_001_012",
@@ -909,37 +909,149 @@
       "corrected": 0,
       "mathematical_holds": 0,
       "processing_holds": 11,
+      "commit_sha": "bb35126c1b9ccd1bbbc2cee5d5bfe69e044a5af0",
+      "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
+    },
+    {
+      "group": "group_085_096",
+      "selected_sections": [
+        85,
+        96
+      ],
+      "section_boundaries": [
+        {
+          "ordinal": 85,
+          "source_file": "derham.tex",
+          "section_start_line": 4270,
+          "section_end_line": 4669
+        },
+        {
+          "ordinal": 86,
+          "source_file": "local-cohomology.tex",
+          "section_start_line": 388,
+          "section_end_line": 690
+        },
+        {
+          "ordinal": 87,
+          "source_file": "local-cohomology.tex",
+          "section_start_line": 691,
+          "section_end_line": 991
+        },
+        {
+          "ordinal": 88,
+          "source_file": "local-cohomology.tex",
+          "section_start_line": 1192,
+          "section_end_line": 1407
+        },
+        {
+          "ordinal": 89,
+          "source_file": "local-cohomology.tex",
+          "section_start_line": 1836,
+          "section_end_line": 2026
+        },
+        {
+          "ordinal": 90,
+          "source_file": "local-cohomology.tex",
+          "section_start_line": 2248,
+          "section_end_line": 2635
+        },
+        {
+          "ordinal": 91,
+          "source_file": "local-cohomology.tex",
+          "section_start_line": 2636,
+          "section_end_line": 2752
+        },
+        {
+          "ordinal": 92,
+          "source_file": "local-cohomology.tex",
+          "section_start_line": 3349,
+          "section_end_line": 3590
+        },
+        {
+          "ordinal": 93,
+          "source_file": "local-cohomology.tex",
+          "section_start_line": 3591,
+          "section_end_line": 3780
+        },
+        {
+          "ordinal": 94,
+          "source_file": "local-cohomology.tex",
+          "section_start_line": 4074,
+          "section_end_line": 4268
+        },
+        {
+          "ordinal": 95,
+          "source_file": "algebraization.tex",
+          "section_start_line": 146,
+          "section_end_line": 209
+        },
+        {
+          "ordinal": 96,
+          "source_file": "algebraization.tex",
+          "section_start_line": 210,
+          "section_end_line": 317
+        }
+      ],
+      "candidate_ids_accounted_for": [
+        "candidate.stacks.06ae5a1b1a590c8e78fce4e3",
+        "candidate.stacks.0c3d276367da71a7caf13a3a",
+        "candidate.stacks.10fccff5959047fd2a69dbb1",
+        "candidate.stacks.117d595f7fe055e9352e15d1",
+        "candidate.stacks.2efa4c35afc079d36a4e8ca5",
+        "candidate.stacks.3850b91037c8435fc325e338",
+        "candidate.stacks.528d3a87e3736df42e52c71e",
+        "candidate.stacks.53bc763bf6dfd8195d2e720d",
+        "candidate.stacks.66d845ed5e6831f63ecb3810",
+        "candidate.stacks.721367e4e5bcc9e200b8512b",
+        "candidate.stacks.75098ca1586dc3d8748df10a",
+        "candidate.stacks.7d4867d99a343fd6799ded7e",
+        "candidate.stacks.7e1d0b5a08cef908a766d883",
+        "candidate.stacks.844e041cf7f72953fa5298c3",
+        "candidate.stacks.8b3c491109e62d44940a1042",
+        "candidate.stacks.93f11c605e07d9eaf1321649",
+        "candidate.stacks.ab4fffb1eab42d7617ca0c67",
+        "candidate.stacks.af4d74763fdd979b9b8959d9",
+        "candidate.stacks.b079ea63bf8ac89a7eaa60f8",
+        "candidate.stacks.bd74139b3aae79e4835358d1",
+        "candidate.stacks.bfae944a77d65eb946b2f434",
+        "candidate.stacks.c57b35ddcf8041028c28da72",
+        "candidate.stacks.cf77869d904be728ba1de200",
+        "candidate.stacks.cf9c498b523653d2f36b0754",
+        "candidate.stacks.dd6c92c2230b85e2513c3f42",
+        "candidate.stacks.e52c8a30242e65690dc9b74a",
+        "candidate.stacks.ec681c7aedcffdcdad0fe43e"
+      ],
+      "approved": 24,
+      "corrected": 3,
+      "mathematical_holds": 1,
+      "processing_holds": 2,
       "commit_sha": null,
       "integrity_checks": "passed: fixed selection, source safety, identities, exact digests, provenance/source application, hold exclusion and historical byte preservation"
     }
   ],
   "next_section": {
-    "ordinal": 85,
-    "global_ordinal": 135,
-    "source_file": "derham.tex",
-    "section_start_line": 4270,
-    "section_end_line": 4669,
+    "ordinal": 97,
+    "global_ordinal": 147,
+    "source_file": "algebraization.tex",
+    "section_start_line": 318,
+    "section_end_line": 590,
     "eligible_candidate_ids": [
-      "candidate.stacks.117d595f7fe055e9352e15d1",
-      "candidate.stacks.3850b91037c8435fc325e338",
-      "candidate.stacks.53bc763bf6dfd8195d2e720d",
-      "candidate.stacks.93f11c605e07d9eaf1321649"
+      "candidate.stacks.816ed728feadf350592b895b",
+      "candidate.stacks.ff206c6972ab57e9ee844702"
     ],
     "all_active_candidate_ids": [
-      "candidate.stacks.117d595f7fe055e9352e15d1",
-      "candidate.stacks.3850b91037c8435fc325e338",
-      "candidate.stacks.53bc763bf6dfd8195d2e720d",
-      "candidate.stacks.93f11c605e07d9eaf1321649"
+      "candidate.stacks.816ed728feadf350592b895b",
+      "candidate.stacks.ff206c6972ab57e9ee844702"
     ],
     "unreviewed_unready_ids": [],
     "previously_reviewed_ids": [],
-    "records": "harvest/phase2_chat_stage_a/derham/batch_02_sections_13_24/RECONSTRUCTIONS.jsonl",
-    "manifest": "harvest/phase2_chat_stage_a/derham/batch_02_sections_13_24/MANIFEST.json"
+    "records": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/RECONSTRUCTIONS.jsonl",
+    "manifest": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json"
   },
   "resume_instructions": "Use only fixed SELECTION.json and audited phase2_safe_source viewer. Inspect saved per-group section checkpoints, formulations and independent verdicts before resuming. Complete independent review before materialization; validate exact digests and preserve baseline872. Stop selected ordinal100. No proofs, Phase3, publication, refresh or old incident review.",
-  "candidates_accounted_for": 277,
-  "substantively_corrected": 19,
-  "latest_checkpoint_commit": "2a054b83649d55f2c18ead825f2135132f9353b7",
+  "candidates_accounted_for": 304,
+  "substantively_corrected": 22,
+  "latest_checkpoint_commit": "bb35126c1b9ccd1bbbc2cee5d5bfe69e044a5af0",
   "safety_commit": "89f3c4d87fd4f22ff92d940baa99d970dd9471ed",
   "source_safety_incident": {
     "source_file": "dualizing.tex",

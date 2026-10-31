@@ -49,6 +49,13 @@
       "review_date": "2026-10-31",
       "reconstructions": "harvest/phase2_stage_b_next100_2026-10-31/group_073_084/FORMULATIONS.jsonl",
       "independent_validation": "harvest/phase2_stage_b_next100_2026-10-31/group_073_084/INDEPENDENT_VALIDATION.jsonl"
+    },
+    {
+      "name": "next100-group_085_096",
+      "reconstructor": "calibration_algebra",
+      "review_date": "2026-10-31",
+      "reconstructions": "harvest/phase2_stage_b_next100_2026-10-31/group_085_096/FORMULATIONS.jsonl",
+      "independent_validation": "harvest/phase2_stage_b_next100_2026-10-31/group_085_096/INDEPENDENT_VALIDATION.jsonl"
     }
   ]
 }

@@ -1,0 +1,51 @@
+[
+  {
+    "candidate_id": "candidate.stacks.ff206c6972ab57e9ee844702",
+    "source_label": "lemma-cd-one",
+    "corrections": [
+      "Replaced unrelated derived-completion metadata with actual existential splitting maps assertion."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.816ed728feadf350592b895b",
+    "source_label": "lemma-topology-I-adic",
+    "corrections": [
+      "Replaced unrelated graded-map metadata with actual topology equality assertion."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.23dad05ac446ab9e00f66800",
+    "source_label": "lemma-ML-local",
+    "corrections": [
+      "Corrected logical metadata from descending-chain assertions to two independent Mittag-Leffler assertions."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.087178f15da17dd7555fae9b",
+    "source_label": "lemma-terrific",
+    "corrections": [
+      "Corrected logical metadata from two unrelated Mittag-Leffler clauses to single essential-constancy implication."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.88836c6db6028b0349614278",
+    "source_label": "lemma-map-twice-localize",
+    "corrections": [
+      "Removed second global section g from common H and quantified it only in the third compatibility clause."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.06d0509ac1f47167d8ed365d",
+    "source_label": "lemma-ideal-of-elements-complete-wrt",
+    "corrections": [
+      "Resolved hidden T(K,f) vanishing notation by safely declared equivalent RHom-localization vanishing in lemma-hom-from-Af832–842."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.f687a6951c65a1bdb2780e19",
+    "source_label": "lemma-pushforward-derived-complete-adjoint",
+    "corrections": [
+      "Corrected enriched H claiming derived completion is a right adjoint; safe source1024–1045 and1298–1302 explicitly give LEFT adjoint."
+    ]
+  }
+]

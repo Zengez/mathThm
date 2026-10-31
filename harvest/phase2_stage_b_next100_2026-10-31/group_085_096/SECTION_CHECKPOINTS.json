@@ -1,0 +1,233 @@
+[
+  {
+    "ordinal": 85,
+    "global_ordinal": 135,
+    "source_file": "derham.tex",
+    "section_start_line": 4270,
+    "section_end_line": 4669,
+    "eligible_candidate_ids": [
+      "candidate.stacks.117d595f7fe055e9352e15d1",
+      "candidate.stacks.3850b91037c8435fc325e338",
+      "candidate.stacks.53bc763bf6dfd8195d2e720d",
+      "candidate.stacks.93f11c605e07d9eaf1321649"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 4,
+    "independent_validation": "completed",
+    "approved_candidate_count": 4,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": true,
+    "mixed_section": false
+  },
+  {
+    "ordinal": 86,
+    "global_ordinal": 136,
+    "source_file": "local-cohomology.tex",
+    "section_start_line": 388,
+    "section_end_line": 690,
+    "eligible_candidate_ids": [
+      "candidate.stacks.10fccff5959047fd2a69dbb1",
+      "candidate.stacks.7e1d0b5a08cef908a766d883",
+      "candidate.stacks.844e041cf7f72953fa5298c3",
+      "candidate.stacks.bd74139b3aae79e4835358d1",
+      "candidate.stacks.cf9c498b523653d2f36b0754"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 5,
+    "independent_validation": "completed",
+    "approved_candidate_count": 4,
+    "mathematical_hold_count": 1,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 87,
+    "global_ordinal": 137,
+    "source_file": "local-cohomology.tex",
+    "section_start_line": 691,
+    "section_end_line": 991,
+    "eligible_candidate_ids": [
+      "candidate.stacks.06ae5a1b1a590c8e78fce4e3",
+      "candidate.stacks.7d4867d99a343fd6799ded7e",
+      "candidate.stacks.cf77869d904be728ba1de200"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 3,
+    "independent_validation": "completed",
+    "approved_candidate_count": 3,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 88,
+    "global_ordinal": 138,
+    "source_file": "local-cohomology.tex",
+    "section_start_line": 1192,
+    "section_end_line": 1407,
+    "eligible_candidate_ids": [
+      "candidate.stacks.2efa4c35afc079d36a4e8ca5",
+      "candidate.stacks.721367e4e5bcc9e200b8512b"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 2,
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 89,
+    "global_ordinal": 139,
+    "source_file": "local-cohomology.tex",
+    "section_start_line": 1836,
+    "section_end_line": 2026,
+    "eligible_candidate_ids": [
+      "candidate.stacks.75098ca1586dc3d8748df10a",
+      "candidate.stacks.dd6c92c2230b85e2513c3f42"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 2,
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 90,
+    "global_ordinal": 140,
+    "source_file": "local-cohomology.tex",
+    "section_start_line": 2248,
+    "section_end_line": 2635,
+    "eligible_candidate_ids": [
+      "candidate.stacks.e52c8a30242e65690dc9b74a"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "completed",
+    "approved_candidate_count": 0,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 1,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 91,
+    "global_ordinal": 141,
+    "source_file": "local-cohomology.tex",
+    "section_start_line": 2636,
+    "section_end_line": 2752,
+    "eligible_candidate_ids": [
+      "candidate.stacks.66d845ed5e6831f63ecb3810",
+      "candidate.stacks.ec681c7aedcffdcdad0fe43e"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 2,
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 92,
+    "global_ordinal": 142,
+    "source_file": "local-cohomology.tex",
+    "section_start_line": 3349,
+    "section_end_line": 3590,
+    "eligible_candidate_ids": [
+      "candidate.stacks.528d3a87e3736df42e52c71e",
+      "candidate.stacks.af4d74763fdd979b9b8959d9",
+      "candidate.stacks.bfae944a77d65eb946b2f434"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 3,
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 1,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 93,
+    "global_ordinal": 143,
+    "source_file": "local-cohomology.tex",
+    "section_start_line": 3591,
+    "section_end_line": 3780,
+    "eligible_candidate_ids": [
+      "candidate.stacks.0c3d276367da71a7caf13a3a",
+      "candidate.stacks.ab4fffb1eab42d7617ca0c67"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 2,
+    "independent_validation": "completed",
+    "approved_candidate_count": 2,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 94,
+    "global_ordinal": 144,
+    "source_file": "local-cohomology.tex",
+    "section_start_line": 4074,
+    "section_end_line": 4268,
+    "eligible_candidate_ids": [
+      "candidate.stacks.8b3c491109e62d44940a1042"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "completed",
+    "approved_candidate_count": 1,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": false,
+    "mixed_section": true
+  },
+  {
+    "ordinal": 95,
+    "global_ordinal": 145,
+    "source_file": "algebraization.tex",
+    "section_start_line": 146,
+    "section_end_line": 209,
+    "eligible_candidate_ids": [
+      "candidate.stacks.b079ea63bf8ac89a7eaa60f8"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "completed",
+    "approved_candidate_count": 1,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": true,
+    "mixed_section": false
+  },
+  {
+    "ordinal": 96,
+    "global_ordinal": 146,
+    "source_file": "algebraization.tex",
+    "section_start_line": 210,
+    "section_end_line": 317,
+    "eligible_candidate_ids": [
+      "candidate.stacks.c57b35ddcf8041028c28da72"
+    ],
+    "correction_pass_complete": true,
+    "selected_candidate_count": 1,
+    "independent_validation": "completed",
+    "approved_candidate_count": 1,
+    "mathematical_hold_count": 0,
+    "processing_hold_count": 0,
+    "fully_stage_b_reviewed": true,
+    "mixed_section": false
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "candidate_id": "candidate.stacks.2efa4c35afc079d36a4e8ca5",
+    "source_label": "lemma-check-finiteness-local-cohomology-locally",
+    "corrections": [
+      "Removed equivalent assertions incorrectly assumed as common hypotheses; retained all equivalent conditions as conclusions."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.0c3d276367da71a7caf13a3a",
+    "source_label": "lemma-frobenius-flat-regular",
+    "corrections": [
+      "Removed equivalent assertions incorrectly assumed as common hypotheses; retained all equivalent conditions as conclusions."
+    ]
+  },
+  {
+    "candidate_id": "candidate.stacks.c57b35ddcf8041028c28da72",
+    "source_label": "lemma-equivalent-f-good",
+    "corrections": [
+      "Removed equivalent assertions incorrectly assumed as common hypotheses; retained all equivalent conditions as conclusions.",
+      "Deleted remaining sentence asserting four-way equivalence from definitional H prefix, avoiding circular assumption, per independent source review."
+    ]
+  }
+]
