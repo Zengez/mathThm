@@ -1,0 +1,60 @@
+name: Stage B calibration regression audit (one-off)
+on:
+  push:
+    branches:
+      - audit/stage-b-calibration-regression-20261031
+    paths:
+      - .github/workflows/stage-b-calibration-regression-20261031.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  python-regression:
+    name: Python full regression suite
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify frozen calibration base
+        run: |
+          git merge-base --is-ancestor fbf8e3a23666b5c0025c509b6139c7a5259b96f0 HEAD
+          echo "Calibration base is ancestor"
+      - name: Run complete Python unittest discovery
+        shell: bash
+        run: |
+          set +e
+          python -m unittest discover -s tests -q > python-regression.log 2>&1
+          result=$?
+          cat python-regression.log
+          exit "$result"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: python-regression-log
+          path: python-regression.log
+          if-no-files-found: ignore
+  node-unit:
+    name: Node unit and UI mock tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run all standalone Node unit tests (browser integration excluded)
+        shell: bash
+        run: |
+          set +e
+          node --test tests/test_search.cjs tests/test_definition_links.cjs tests/test_mathdef_v2.cjs tests/test_ui_smoke.cjs > node-regression.log 2>&1
+          result=$?
+          cat node-regression.log
+          exit "$result"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: node-regression-log
+          path: node-regression.log
+          if-no-files-found: ignore
