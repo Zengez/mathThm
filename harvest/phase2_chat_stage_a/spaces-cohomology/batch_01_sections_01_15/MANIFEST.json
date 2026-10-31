@@ -124,7 +124,8 @@
           "source_line": 29,
           "tex": "An important missing ingredient in this chapter is the\n{\\it induction principle}, i.e., the analogue for quasi-compact\nand quasi-separated algebraic spaces of\nCohomology of Schemes, Lemma \\ref{coherent-lemma-induction-principle}.\nThis is formulated precisely and proved in detail in\nDerived Categories of Spaces, Section \\ref{spaces-perfect-section-induction}.\nInstead of the induction principle, in this chapter we use the\nalternating {\\v C}ech complex, see\nSection \\ref{section-alternating-cech}.\nIt is designed to prove vanishing statements such as\nProposition \\ref{proposition-vanishing},\nbut in some cases the induction principle is a more powerful\nand perhaps more ``standard'' tool. We encourage the reader\nto take a look at the induction principle\nafter reading some of the material in this section."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
@@ -135,73 +136,92 @@
           "source_line": 57,
           "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 70
+      "source_line": 70,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 269
+      "source_line": 269,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 442
+      "source_line": 442,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 579
+      "source_line": 579,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 1078
+      "source_line": 1078,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 1237
+      "source_line": 1237,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 1337
+      "source_line": 1337,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 1536
+      "source_line": 1536,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 1654
+      "source_line": 1654,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 1837
+      "source_line": 1837,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 2088
+      "source_line": 2088,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 2210
+      "source_line": 2210,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 2636
+      "source_line": 2636,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 46,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 13
 }
