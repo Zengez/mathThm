@@ -96,7 +96,8 @@
           "source_line": 48,
           "tex": "Some of the notation, conventions and terminology in this chapter is awkward\nand may seem backwards to the more experienced reader. This is intentional.\nPlease see Quot, Section \\ref{quot-section-conventions} for an\nexplanation."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
@@ -107,27 +108,32 @@
           "source_line": 60,
           "tex": "\\noindent\nThe conventions we use in this chapter are the same as those in the\nchapter on algebraic stacks, see\nAlgebraic Stacks, Section \\ref{algebraic-section-conventions}.\nFor convenience we repeat them here."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 84
+      "source_line": 84,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 314
+      "source_line": 314,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 512
+      "source_line": 512,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 703
+      "source_line": 703,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
@@ -138,48 +144,62 @@
           "source_line": 797,
           "tex": "\\begin{definition}\n\\label{definition-modules}\nLet $\\mathcal{X}$ be a category fibred in groupoids over\n$(\\Sch/S)_{fppf}$.\n\\begin{enumerate}\n\\item A {\\it presheaf of modules on $\\mathcal{X}$} is a\npresheaf of $\\mathcal{O}_\\mathcal{X}$-modules. The category of\npresheaves of modules is denoted $\\textit{PMod}(\\mathcal{O}_\\mathcal{X})$.\n\\item We say a presheaf of modules $\\mathcal{F}$ is an\n{\\it $\\mathcal{O}_\\mathcal{X}$-module}, or more precisely a\n{\\it sheaf of $\\mathcal{O}_\\mathcal{X}$-modules} if $\\mathcal{F}$\nis an fppf sheaf. The category of $\\mathcal{O}_\\mathcal{X}$-modules\nis denoted $\\textit{Mod}(\\mathcal{O}_\\mathcal{X})$.\n\\end{enumerate}\n\\end{definition}"
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 915
+      "source_line": 915,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 967
+      "source_line": 967,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 1203
+      "source_line": 1203,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 1526
+      "source_line": 1526,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 1651
+      "source_line": 1651,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 1948
+      "source_line": 1948,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 2022
+      "source_line": 2022,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 15,
       "kind": "candidates",
-      "source_line": 2333
+      "source_line": 2333,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 30,
+  "stage_a_source_hold_candidate_count": 11,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 12
 }

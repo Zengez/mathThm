@@ -63,7 +63,8 @@
           "source_line": 22,
           "tex": "\\noindent\nIn this chapter we write about derived categories associated to\nalgebraic stacks. This means in particular derived categories\nof quasi-coherent sheaves, i.e., we prove analogues of the results\non schemes (see\nDerived Categories of Schemes, Section \\ref{perfect-section-introduction})\nand algebraic spaces (see\nDerived Categories of Spaces, Section\n\\ref{spaces-perfect-section-introduction}). The results in this chapter\nare different from those in \\cite{LM-B} mainly because we consistently\nuse the ``big sites''. Before reading this chapter please take a quick\nlook at the chapters ``Sheaves on Algebraic Stacks'' and\n``Cohomology of Algebraic Stacks'' where the terminology we use here is\nintroduced."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
@@ -74,28 +75,38 @@
           "source_line": 42,
           "tex": "\\noindent\nWe continue to use the conventions and the abuse of language\nintroduced in\nProperties of Stacks, Section \\ref{stacks-properties-section-conventions}.\nWe use notation as explained in\nCohomology of Stacks, Section \\ref{stacks-cohomology-section-notation}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 342
+      "source_line": 342,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 453
+      "source_line": 453,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 1006
+      "source_line": 1006,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 1138
+      "source_line": 1138,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 8,
+  "stage_a_source_hold_candidate_count": 5,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 4
 }
