@@ -75,8 +75,14 @@
   "proofs_reviewed": 0,
   "preliminary_source_holds": [
     "candidate.stacks.d5a925fbe1785808e9154079",
+    "candidate.stacks.b9b683023c89dcfcfafc3b47",
+    "candidate.stacks.6ba7cd824317c5a7127b1a72",
+    "candidate.stacks.ce9d0e80599771adccc1b3dc",
+    "candidate.stacks.6acd799f4186e890238bb1a6",
+    "candidate.stacks.171c28336e31b4646d1c6a67",
     "candidate.stacks.836dd8e834fcb98c97252a7b",
-    "candidate.stacks.7534def95fabbf67c12c1357"
+    "candidate.stacks.7534def95fabbf67c12c1357",
+    "candidate.stacks.31c81b78834619c6b77639c7"
   ],
   "processing_sections": [
     {
