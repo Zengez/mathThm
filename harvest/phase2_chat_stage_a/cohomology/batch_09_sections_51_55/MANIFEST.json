@@ -1,0 +1,160 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "cohomology-source-ordered-batch-09",
+  "chapter": "cohomology.tex",
+  "sections_ordinal": [
+    51,
+    55
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    13287,
+    13510,
+    13680,
+    13806,
+    14041
+  ],
+  "first_source_line": 13287,
+  "last_source_line": 14529,
+  "complete_sections": true,
+  "stage_a_candidate_count": 21,
+  "candidate_ids": [
+    "candidate.stacks.56714ac45e0cea15e88ce1c9",
+    "candidate.stacks.47bc9fc8204071fc787828de",
+    "candidate.stacks.818d8fbdf50c721734260435",
+    "candidate.stacks.cc5ee35f6d3b5cb4602ac19d",
+    "candidate.stacks.fc40c19167b9901ecc3a8dfc",
+    "candidate.stacks.de119cb9054adf305cb493fc",
+    "candidate.stacks.bc8330e092636392c221f380",
+    "candidate.stacks.01bdc8fee3f87ff36d68219c",
+    "candidate.stacks.43ebde6fbc661baca8eaa412",
+    "candidate.stacks.40a3678d8ff00d4824ade617",
+    "candidate.stacks.18c47015a49432c120f1d43b",
+    "candidate.stacks.6aa5f38c0989aa9c0920206e",
+    "candidate.stacks.3b066afaa6e3b0a77ff9292f",
+    "candidate.stacks.6b24af7fb99e2b175353d470",
+    "candidate.stacks.3a19ebcb71536e222d1e8cf0",
+    "candidate.stacks.ce1fa42c88ad3526c2f0eabb",
+    "candidate.stacks.4f39c963510145d8d90cddfa",
+    "candidate.stacks.39d2e77e7748dd24e388ddb9",
+    "candidate.stacks.7ba4f906f04c01e625ff5052",
+    "candidate.stacks.d740d2ce406ded74121bde07",
+    "candidate.stacks.82b416150c4429238f79ab24"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/cohomology/batch_09_sections_51_55/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/cohomology/batch_09_sections_51_55/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/cohomology/batch_09_sections_51_55/SECTION_CHECKPOINTS.jsonl",
+  "ledger_predecessor_checkpoint": "harvest/phase2_chat_stage_a/cohomology/batch_08_sections_46_50/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "source_theorem_env_skipped_nonactive_labels": [
+    "remark-compatible-with-diagram"
+  ],
+  "processing_sections": [
+    {
+      "section": 51,
+      "kind": "candidates",
+      "source_line": 13287,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.56714ac45e0cea15e88ce1c9",
+        "candidate.stacks.47bc9fc8204071fc787828de",
+        "candidate.stacks.818d8fbdf50c721734260435",
+        "candidate.stacks.cc5ee35f6d3b5cb4602ac19d"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Miscellany",
+      "stage_a_source_context_summary": "Pinned cohomology.tex §51 L13287–13509, 4 active candidates; 4 source-first standalone and 0 hold(s)."
+    },
+    {
+      "section": 52,
+      "kind": "candidates",
+      "source_line": 13510,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.fc40c19167b9901ecc3a8dfc",
+        "candidate.stacks.de119cb9054adf305cb493fc"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Invertible objects in the derived category",
+      "stage_a_source_context_summary": "Pinned cohomology.tex §52 L13510–13679, 2 active candidates; 2 source-first standalone and 0 hold(s)."
+    },
+    {
+      "section": 53,
+      "kind": "candidates",
+      "source_line": 13680,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.bc8330e092636392c221f380",
+        "candidate.stacks.01bdc8fee3f87ff36d68219c"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Compact objects",
+      "stage_a_source_context_summary": "Pinned cohomology.tex §53 L13680–13805, 2 active candidates; 2 source-first standalone and 0 hold(s)."
+    },
+    {
+      "section": 54,
+      "kind": "candidates",
+      "source_line": 13806,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.43ebde6fbc661baca8eaa412",
+        "candidate.stacks.40a3678d8ff00d4824ade617",
+        "candidate.stacks.18c47015a49432c120f1d43b",
+        "candidate.stacks.6aa5f38c0989aa9c0920206e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Projection formula",
+      "stage_a_source_context_summary": "Pinned cohomology.tex §54 L13806–14040, 4 active candidates; 4 source-first standalone and 0 hold(s)."
+    },
+    {
+      "section": 55,
+      "kind": "candidates",
+      "source_line": 14041,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3b066afaa6e3b0a77ff9292f",
+        "candidate.stacks.6b24af7fb99e2b175353d470",
+        "candidate.stacks.3a19ebcb71536e222d1e8cf0",
+        "candidate.stacks.ce1fa42c88ad3526c2f0eabb",
+        "candidate.stacks.4f39c963510145d8d90cddfa",
+        "candidate.stacks.39d2e77e7748dd24e388ddb9",
+        "candidate.stacks.7ba4f906f04c01e625ff5052",
+        "candidate.stacks.d740d2ce406ded74121bde07",
+        "candidate.stacks.82b416150c4429238f79ab24"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.4f39c963510145d8d90cddfa"
+      ],
+      "stage_a_source_context_heading": "An operator introduced by Berthelot and Ogus",
+      "stage_a_source_context_summary": "Pinned cohomology.tex §55 L14041–14529, 9 active candidates; 8 source-first standalone and 1 hold(s)."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 20,
+  "stage_a_remaining_work_candidate_count": 1,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 4,
+  "stage_a_remaining_work_section_count": 1,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "processing_note": "All Cohomology §§51–55 source-first dispositioned, including final §55 named Situation eta and Bockstein context. One source wording issue (lemma-eta-qis) held; chapter boundary reset recorded. Stage B not started."
+}
