@@ -21,6 +21,21 @@ def rows(path):
 
 
 class SourceViewSafetyTests(unittest.TestCase):
+    def test_situation_with_explanatory_reasoning_is_hidden(self):
+        raw = (
+            "\\begin{situation}\n"
+            "Setup followed by an explanatory argument.\n"
+            "\\end{situation}\n"
+            "\\begin{lemma}\n"
+            "A mathematical assertion.\n"
+            "\\end{lemma}\n"
+        )
+        masked = mask_source(raw)
+        self.assertEqual(len(masked.splitlines()), len(raw.splitlines()))
+        self.assertNotIn("explanatory argument", masked)
+        self.assertNotIn("\\begin{situation}", masked)
+        self.assertIn("A mathematical assertion.", masked)
+
     def test_statement_visible_but_proof_remarks_and_outside_prose_hidden(self):
         raw = (
             "Intro: an informal proof sketch outside any environment.\n"

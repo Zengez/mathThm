@@ -15,9 +15,11 @@ import re
 # Restrict source-first review to mathematical statement/context declarations.
 STATEMENT_ENVS = frozenset({
     "theorem", "lemma", "proposition", "corollary", "definition",
-    "situation", "assumption", "hypothesis", "notation", "convention",
+    "assumption", "hypothesis", "notation", "convention",
     "axiom",
 })
+# Situations may mix setup with explanatory arguments (dualizing incident,
+# 2026-10-31). Keep the whole environment hidden, even when context is needed.
 # Formatting and enumerations *inside* a permitted statement.
 NESTED_ENVS = frozenset({
     "enumerate", "itemize", "description", "reference", "equation",
