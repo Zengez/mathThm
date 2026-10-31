@@ -99,7 +99,7 @@
   "output_file": "harvest/phase2_chat_stage_a/models/batch_01_sections_01_18/RECONSTRUCTIONS.jsonl",
   "reviewer": "chatgpt-stage-a-structure-assisted",
   "source_locator_verified": true,
-  "stage_a_mathematical_analysis_pending": false,
+  "stage_a_mathematical_analysis_pending": true,
   "independent_stage_b_count": 0,
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -179,72 +179,86 @@
           "source_line": 20,
           "tex": "\\noindent\nIn this chapter we prove the semistable reduction theorem for curves.\nWe will use the method of Artin and Winters from their paper\n\\cite{Artin-Winters}."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 2,
       "kind": "candidates",
-      "source_line": 80
+      "source_line": 80,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 3,
       "kind": "candidates",
-      "source_line": 421
+      "source_line": 421,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 4,
       "kind": "candidates",
-      "source_line": 888
+      "source_line": 888,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 5,
       "kind": "candidates",
-      "source_line": 1030
+      "source_line": 1030,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 6,
       "kind": "candidates",
-      "source_line": 2656
+      "source_line": 2656,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 7,
       "kind": "candidates",
-      "source_line": 3874
+      "source_line": 3874,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 8,
       "kind": "candidates",
-      "source_line": 4110
+      "source_line": 4110,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 9,
       "kind": "candidates",
-      "source_line": 4323
+      "source_line": 4323,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 10,
       "kind": "candidates",
-      "source_line": 4770
+      "source_line": 4770,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 11,
       "kind": "candidates",
-      "source_line": 4886
+      "source_line": 4886,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 12,
       "kind": "candidates",
-      "source_line": 5395
+      "source_line": 5395,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 13,
       "kind": "candidates",
-      "source_line": 5655
+      "source_line": 5655,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 14,
       "kind": "candidates",
-      "source_line": 5832
+      "source_line": 5832,
+      "stage_a_readiness": "needs_stage_a_work"
     },
     {
       "section": 17,
@@ -255,13 +269,20 @@
           "source_line": 6547,
           "tex": "In the rest of this section we will use without further mention\nthat the conclusions of Lemma \\ref{lemma-numerical-type-rational-point}\nare true."
         }
-      ]
+      ],
+      "stage_a_readiness": "no_active_candidates"
     },
     {
       "section": 18,
       "kind": "candidates",
-      "source_line": 6625
+      "source_line": 6625,
+      "stage_a_readiness": "needs_stage_a_work"
     }
   ],
-  "processing_sections_format": "inline-v1"
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 6,
+  "stage_a_remaining_work_candidate_count": 57,
+  "stage_a_source_hold_candidate_count": 57,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 14
 }
