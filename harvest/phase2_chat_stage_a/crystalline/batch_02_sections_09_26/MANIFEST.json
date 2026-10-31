@@ -118,6 +118,12 @@
       "stage_a_readiness": "ready_for_codex_validation"
     },
     {
+      "section": 16,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 2695
+    },
+    {
       "section": 17,
       "kind": "context_only",
       "source_line": 2841,
@@ -145,31 +151,49 @@
       "section": 18,
       "kind": "candidates",
       "source_line": 3297,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 19,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 3587
     },
     {
       "section": 20,
       "kind": "candidates",
       "source_line": 3665,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
     },
     {
       "section": 21,
       "kind": "candidates",
       "source_line": 3808,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 22,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 3958
     },
     {
       "section": 23,
       "kind": "candidates",
       "source_line": 4253,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 24,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 4500
     },
     {
       "section": 25,
       "kind": "candidates",
       "source_line": 4979,
-      "stage_a_readiness": "needs_stage_a_work"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 26,
@@ -193,16 +217,16 @@
     }
   ],
   "processing_sections_format": "inline-v1",
-  "stage_a_ready_for_codex_candidate_count": 5,
-  "stage_a_remaining_work_candidate_count": 10,
+  "stage_a_ready_for_codex_candidate_count": 14,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 3,
-  "stage_a_remaining_work_section_count": 5,
-  "stage_a_work_pending": true,
+  "stage_a_ready_for_codex_section_count": 7,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
-  "stage_a_further_work_candidate_count": 1,
-  "stage_a_further_work_section_count": 1,
-  "stage_a_dispositioned_section_count": 4,
+  "stage_a_further_work_candidate_count": 2,
+  "stage_a_further_work_section_count": 2,
+  "stage_a_dispositioned_section_count": 9,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Crystalline §§1–15 source-sequential Stage A review; inherited divided-power, affine/global crystalline site, crystal and differential context expanded."
+  "processing_note": "All Crystalline §§1–26 source-order Stage A candidates dispositioned. §16–26 additionally reviewed affine cohomology, completed crystalline topology, Poincare/de Rham comparison, and alpha_p descent."
 }
