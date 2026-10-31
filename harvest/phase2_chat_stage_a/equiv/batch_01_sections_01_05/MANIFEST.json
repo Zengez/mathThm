@@ -40,6 +40,14 @@
   ],
   "processing_sections": [
     {
+      "section": 1,
+      "source_line": 17,
+      "kind": "context_only",
+      "snippets": [],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true
+    },
+    {
       "section": 2,
       "kind": "context_only",
       "source_line": 48,
@@ -88,7 +96,7 @@
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "stage_a_further_work_candidate_count": 0,
   "stage_a_further_work_section_count": 0,
-  "stage_a_dispositioned_section_count": 4,
+  "stage_a_dispositioned_section_count": 5,
   "stage_a_section_mapping_pending": false,
-  "processing_note": "Prepared candidates in source order through §5; source-only Stage A readiness; actual approval awaits independent Codex Stage B."
+  "processing_note": "Original Equiv §§1–5 fully dispositioned: §1 Introduction and §2 Conventions source-read as context-only, six active candidates §§3–5 standalone-prepared. All unchanged approved candidate IDs skipped; Stage B unstarted."
 }
