@@ -1,0 +1,90 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch-manifest.v1",
+  "chapter": "homology",
+  "source_file": "homology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "batch_id": "batch_04_sections_19_24",
+  "section_start": 19,
+  "section_end": 24,
+  "first_source_line": 4659,
+  "last_source_line": 6564,
+  "sections_processed": 6,
+  "active_candidates_processed": 27,
+  "ready_for_codex_validation": 26,
+  "further_work_needed": 1,
+  "independent_validation": "not_started",
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 19,
+      "title": "Filtrations",
+      "kind": "candidates",
+      "source_line": 4659,
+      "source_end_line": 5155,
+      "active_candidate_count": 13,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 13,
+      "further_work_needed": 0
+    },
+    {
+      "section": 20,
+      "title": "Spectral sequences",
+      "kind": "context_only",
+      "source_line": 5156,
+      "source_end_line": 5284,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    },
+    {
+      "section": 21,
+      "title": "Spectral sequences: exact couples",
+      "kind": "candidates",
+      "source_line": 5285,
+      "source_end_line": 5467,
+      "active_candidate_count": 2,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 1
+    },
+    {
+      "section": 22,
+      "title": "Spectral sequences: differential objects",
+      "kind": "candidates",
+      "source_line": 5468,
+      "source_end_line": 5661,
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 23,
+      "title": "Spectral sequences: filtered differential objects",
+      "kind": "candidates",
+      "source_line": 5662,
+      "source_end_line": 5953,
+      "active_candidate_count": 3,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 3,
+      "further_work_needed": 0
+    },
+    {
+      "section": 24,
+      "title": "Spectral sequences: filtered complexes",
+      "kind": "candidates",
+      "source_line": 5954,
+      "source_end_line": 6564,
+      "active_candidate_count": 7,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 7,
+      "further_work_needed": 0
+    }
+  ],
+  "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
+  "prior_checkpoint_path": "harvest/phase2_chat_stage_a/homology/batch_03_sections_13_18/SECTION_CHECKPOINTS.jsonl",
+  "next_source_section": 25,
+  "next_source_line": 6565
+}
