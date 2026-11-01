@@ -1,0 +1,20 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-handoff.v1",
+  "chapter": "brauer",
+  "source_file": "brauer.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_sections_total": 8,
+  "source_theorem_environments": 27,
+  "active_candidate_count": 25,
+  "inactive_source_environments_excluded": 2,
+  "ready_for_independent_stage_b_validation": 23,
+  "further_work_needed": 2,
+  "independent_validation": "not_started",
+  "processing_complete": true,
+  "batch_directory": "harvest/phase2_chat_stage_a/brauer/batch_01_sections_01_08",
+  "hold_candidate_ids": [
+    "candidate.stacks.d4fa96a82adc1f3f715f773c",
+    "candidate.stacks.eb35eb08e78abc9cfe2166ab"
+  ],
+  "notes": "Source-first full chapter walk. References to chapter conventions/definitions included; hold ambiguity about ring vs k-algebra automorphisms and the bicommutant. No proofs reviewed."
+}
