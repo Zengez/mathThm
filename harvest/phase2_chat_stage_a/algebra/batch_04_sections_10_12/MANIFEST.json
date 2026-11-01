@@ -1,0 +1,116 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "algebra-stage-a-20261101-4",
+  "chapter": "algebra.tex",
+  "sections_ordinal": [
+    10,
+    12
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    1462,
+    1580,
+    1702
+  ],
+  "first_source_line": 1462,
+  "last_source_line": 2163,
+  "complete_sections": true,
+  "stage_a_candidate_count": 13,
+  "candidate_ids": [
+    "candidate.stacks.146a9a46ca7526b855b3ea8a",
+    "candidate.stacks.f709860bf30d2435b0a10362",
+    "candidate.stacks.cd4e2e5aa862a0e71395eb55",
+    "candidate.stacks.b718b726ddb761f4ea0b6a4b",
+    "candidate.stacks.6b349ffe4f0211b256089fad",
+    "candidate.stacks.66829875136b9a7cd3c5314c",
+    "candidate.stacks.f2a8866a166b5db71bd5b21c",
+    "candidate.stacks.81756a5e47422add2f4514aa",
+    "candidate.stacks.b17568c8214cfb6706b99ec7",
+    "candidate.stacks.ff56227634d3aa6c62d7c3e6",
+    "candidate.stacks.810e085ba8fccd846cdb1b7f",
+    "candidate.stacks.da146c5b3f3f53d3a310f920",
+    "candidate.stacks.a63991ed6cb440ced7729ea8"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/algebra/batch_04_sections_10_12/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1462,
+      "section_end_line": 1579,
+      "source_heading": "Internal Hom",
+      "active_candidate_ids": [
+        "candidate.stacks.146a9a46ca7526b855b3ea8a",
+        "candidate.stacks.f709860bf30d2435b0a10362"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1580,
+      "section_end_line": 1701,
+      "source_heading": "Characterizing finite and finitely presented modules",
+      "active_candidate_ids": [
+        "candidate.stacks.cd4e2e5aa862a0e71395eb55",
+        "candidate.stacks.b718b726ddb761f4ea0b6a4b",
+        "candidate.stacks.6b349ffe4f0211b256089fad"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1702,
+      "section_end_line": 2163,
+      "source_heading": "Tensor products",
+      "active_candidate_ids": [
+        "candidate.stacks.66829875136b9a7cd3c5314c",
+        "candidate.stacks.f2a8866a166b5db71bd5b21c",
+        "candidate.stacks.81756a5e47422add2f4514aa",
+        "candidate.stacks.b17568c8214cfb6706b99ec7",
+        "candidate.stacks.ff56227634d3aa6c62d7c3e6",
+        "candidate.stacks.810e085ba8fccd846cdb1b7f",
+        "candidate.stacks.da146c5b3f3f53d3a310f920",
+        "candidate.stacks.a63991ed6cb440ced7729ea8"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "source_ordered_context_ledger_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 13,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 3,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/algebra/SCOPE_EVENTS.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "No approved identity regenerated. Standalone source-grounded preparation only; source proof text not screened, Stage B validation not attempted."
+}

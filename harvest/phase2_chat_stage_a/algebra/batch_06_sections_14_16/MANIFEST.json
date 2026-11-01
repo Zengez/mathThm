@@ -1,0 +1,122 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "algebra-stage-a-20261101-6",
+  "chapter": "algebra.tex",
+  "sections_ordinal": [
+    14,
+    16
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    2404,
+    2543,
+    2806
+  ],
+  "first_source_line": 2404,
+  "last_source_line": 2963,
+  "complete_sections": true,
+  "stage_a_candidate_count": 16,
+  "candidate_ids": [
+    "candidate.stacks.529a5dce852f058f47db6dd9",
+    "candidate.stacks.9ca1bf7ae9eb85e3944c97be",
+    "candidate.stacks.1ff81d33f822962b27e9f8db",
+    "candidate.stacks.b3e7d7a82db126777a256c19",
+    "candidate.stacks.b92c16d099a4c72fb5ac3c1a",
+    "candidate.stacks.eae60c45ea5a6f1f59710f28",
+    "candidate.stacks.75250cfc3381cb083cfe7042",
+    "candidate.stacks.a781245aaf22eccdeaf7b58c",
+    "candidate.stacks.ee8917e73d133a9ef66c153c",
+    "candidate.stacks.d45c3c621a4e6756733169c9",
+    "candidate.stacks.ae1e9cac7a2b009afd7a831a",
+    "candidate.stacks.fcc60144d944153a1cb716a5",
+    "candidate.stacks.41eba7d7dbe58007efb04186",
+    "candidate.stacks.dac6433ca7cb9d16041b0f46",
+    "candidate.stacks.7f87729cabfb6160d283808c",
+    "candidate.stacks.9bc4c78d4bc5840b1b1c71ec"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/algebra/batch_06_sections_14_16/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2404,
+      "section_end_line": 2542,
+      "source_heading": "Base change",
+      "active_candidate_ids": [
+        "candidate.stacks.529a5dce852f058f47db6dd9",
+        "candidate.stacks.9ca1bf7ae9eb85e3944c97be",
+        "candidate.stacks.1ff81d33f822962b27e9f8db",
+        "candidate.stacks.b3e7d7a82db126777a256c19"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2543,
+      "section_end_line": 2805,
+      "source_heading": "Miscellany",
+      "active_candidate_ids": [
+        "candidate.stacks.b92c16d099a4c72fb5ac3c1a",
+        "candidate.stacks.eae60c45ea5a6f1f59710f28",
+        "candidate.stacks.75250cfc3381cb083cfe7042",
+        "candidate.stacks.a781245aaf22eccdeaf7b58c",
+        "candidate.stacks.ee8917e73d133a9ef66c153c",
+        "candidate.stacks.d45c3c621a4e6756733169c9",
+        "candidate.stacks.ae1e9cac7a2b009afd7a831a",
+        "candidate.stacks.fcc60144d944153a1cb716a5"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 2806,
+      "section_end_line": 2963,
+      "source_heading": "Cayley-Hamilton",
+      "active_candidate_ids": [
+        "candidate.stacks.41eba7d7dbe58007efb04186",
+        "candidate.stacks.dac6433ca7cb9d16041b0f46",
+        "candidate.stacks.7f87729cabfb6160d283808c",
+        "candidate.stacks.9bc4c78d4bc5840b1b1c71ec"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "source_ordered_context_ledger_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 16,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 3,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/algebra/SCOPE_EVENTS.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "No approved identity regenerated. Standalone source-grounded preparation only; source proof text not screened, Stage B validation not attempted."
+}

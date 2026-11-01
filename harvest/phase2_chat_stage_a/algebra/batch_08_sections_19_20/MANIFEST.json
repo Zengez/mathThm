@@ -1,0 +1,84 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "algebra-stage-a-20261101-8",
+  "chapter": "algebra.tex",
+  "sections_ordinal": [
+    19,
+    20
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    3546,
+    3606
+  ],
+  "first_source_line": 3546,
+  "last_source_line": 3766,
+  "complete_sections": true,
+  "stage_a_candidate_count": 5,
+  "candidate_ids": [
+    "candidate.stacks.34d84e4f05fd27a34f9751e5",
+    "candidate.stacks.b00180a424b9bf95cf918686",
+    "candidate.stacks.3fa82f2e60f099205c1c23b0",
+    "candidate.stacks.f5c6a2b58c6eac6d46ff8d1b",
+    "candidate.stacks.9ab7b4369ab828e80a80c7be"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/algebra/batch_08_sections_19_20/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 3546,
+      "section_end_line": 3605,
+      "source_heading": "The Jacobson radical of a ring",
+      "active_candidate_ids": [
+        "candidate.stacks.34d84e4f05fd27a34f9751e5",
+        "candidate.stacks.b00180a424b9bf95cf918686"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 3606,
+      "section_end_line": 3766,
+      "source_heading": "Nakayama's lemma",
+      "active_candidate_ids": [
+        "candidate.stacks.3fa82f2e60f099205c1c23b0",
+        "candidate.stacks.f5c6a2b58c6eac6d46ff8d1b",
+        "candidate.stacks.9ab7b4369ab828e80a80c7be"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "source_ordered_context_ledger_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 5,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 2,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/algebra/SCOPE_EVENTS.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "No approved identity regenerated. Standalone source-grounded preparation only; source proof text not screened, Stage B validation not attempted."
+}

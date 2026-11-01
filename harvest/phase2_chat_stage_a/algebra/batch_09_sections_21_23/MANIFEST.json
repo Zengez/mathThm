@@ -1,0 +1,110 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "algebra-stage-a-20261101-9",
+  "chapter": "algebra.tex",
+  "sections_ordinal": [
+    21,
+    23
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    3767,
+    3958,
+    4041
+  ],
+  "first_source_line": 3767,
+  "last_source_line": 4283,
+  "complete_sections": true,
+  "stage_a_candidate_count": 10,
+  "candidate_ids": [
+    "candidate.stacks.0bfd89a06e1725d6a76d4ae6",
+    "candidate.stacks.715eb3b789183ca44fe28c05",
+    "candidate.stacks.687e69ea4c8e8529caa78d5c",
+    "candidate.stacks.62f5edb0ed427b59505ac9f8",
+    "candidate.stacks.29080b8a75fe8bedb6e34edb",
+    "candidate.stacks.99a05e5ba1a8dd88f6cab616",
+    "candidate.stacks.6892f1e99846c4cebfb23cdc",
+    "candidate.stacks.9ef3aaef7b3122f52b72b2cb",
+    "candidate.stacks.9af56413a5e7ed4777738699",
+    "candidate.stacks.b000445e62e276fa58b5d1d5"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/algebra/batch_09_sections_21_23/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 3767,
+      "section_end_line": 3957,
+      "source_heading": "Open and closed subsets of spectra",
+      "active_candidate_ids": [
+        "candidate.stacks.0bfd89a06e1725d6a76d4ae6",
+        "candidate.stacks.715eb3b789183ca44fe28c05",
+        "candidate.stacks.687e69ea4c8e8529caa78d5c",
+        "candidate.stacks.62f5edb0ed427b59505ac9f8",
+        "candidate.stacks.29080b8a75fe8bedb6e34edb"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 3958,
+      "section_end_line": 4040,
+      "source_heading": "Connected components of spectra",
+      "active_candidate_ids": [
+        "candidate.stacks.99a05e5ba1a8dd88f6cab616",
+        "candidate.stacks.6892f1e99846c4cebfb23cdc"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 4041,
+      "section_end_line": 4283,
+      "source_heading": "Glueing properties",
+      "active_candidate_ids": [
+        "candidate.stacks.9ef3aaef7b3122f52b72b2cb",
+        "candidate.stacks.9af56413a5e7ed4777738699",
+        "candidate.stacks.b000445e62e276fa58b5d1d5"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "source_ordered_context_ledger_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 10,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 3,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/algebra/SCOPE_EVENTS.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "No approved identity regenerated. Standalone source-grounded preparation only; source proof text not screened, Stage B validation not attempted."
+}
