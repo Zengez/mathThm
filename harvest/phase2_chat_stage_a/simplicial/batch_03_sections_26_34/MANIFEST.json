@@ -1,0 +1,123 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch-manifest.v1",
+  "chapter": "simplicial",
+  "source_file": "simplicial.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "batch_id": "batch_03_sections_26_34",
+  "section_start": 26,
+  "section_end": 34,
+  "first_source_line": 4396,
+  "last_source_line": 7008,
+  "sections_processed": 9,
+  "active_candidates_processed": 31,
+  "ready_for_codex_validation": 29,
+  "further_work_needed": 2,
+  "independent_validation": "not_started",
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
+  "prior_context_checkpoint": "harvest/phase2_chat_stage_a/simplicial/batch_02_sections_18_25/SECTION_CHECKPOINTS.jsonl",
+  "processing_sections": [
+    {
+      "section": 26,
+      "title": "Homotopies",
+      "source_line": 4396,
+      "source_end_line": 4736,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 27,
+      "title": "Homotopies in abelian categories",
+      "source_line": 4737,
+      "source_end_line": 4866,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 28,
+      "title": "Homotopies and cosimplicial objects",
+      "source_line": 4867,
+      "source_end_line": 5103,
+      "kind": "candidates",
+      "active_candidate_count": 3,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 1
+    },
+    {
+      "section": 29,
+      "title": "More homotopies in abelian categories",
+      "source_line": 5104,
+      "source_end_line": 5509,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 1
+    },
+    {
+      "section": 30,
+      "title": "Trivial Kan fibrations",
+      "source_line": 5510,
+      "source_end_line": 5669,
+      "kind": "candidates",
+      "active_candidate_count": 7,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 7,
+      "further_work_needed": 0
+    },
+    {
+      "section": 31,
+      "title": "Kan fibrations",
+      "source_line": 5670,
+      "source_end_line": 5956,
+      "kind": "candidates",
+      "active_candidate_count": 8,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 8,
+      "further_work_needed": 0
+    },
+    {
+      "section": 32,
+      "title": "A homotopy equivalence",
+      "source_line": 5957,
+      "source_end_line": 6185,
+      "kind": "candidates",
+      "active_candidate_count": 3,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 3,
+      "further_work_needed": 0
+    },
+    {
+      "section": 33,
+      "title": "Preparation for standard resolutions",
+      "source_line": 6186,
+      "source_end_line": 6605,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 34,
+      "title": "Standard resolutions",
+      "source_line": 6606,
+      "source_end_line": 7008,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    }
+  ],
+  "next_source_section": null,
+  "next_source_line": null
+}
