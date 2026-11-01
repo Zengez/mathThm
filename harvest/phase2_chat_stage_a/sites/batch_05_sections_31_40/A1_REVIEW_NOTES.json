@@ -1,0 +1,319 @@
+{
+  "schema": "maththm.phase2.chat-stage-a1-source-review-notes.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviews": {
+    "lemma-localize-morphism-topoi": {
+      "hypotheses": [
+        "A topos morphism f:Sh(C)→Sh(D), a sheaf G on D, F=f^-1G."
+      ],
+      "conclusions": [
+        "There is a commuting square of the slice topoi and an induced localized morphism f' whose inverse image is the induced application of f^-1 to an arrow over G, satisfying f'_*j_F^-1=j_G^-1f_*."
+      ],
+      "logical_form": "localized_topos_morphism",
+      "preface_key": "slice",
+      "hold_reason": ""
+    },
+    "lemma-localize-morphism-compare": {
+      "hypotheses": [
+        "A morphism of sites f:C→D from u:D→C, V∈D, U=u(V), F=h_U#=f^-1h_V#, G=h_V#."
+      ],
+      "conclusions": [
+        "The topos localization square built from f and F,G agrees with the site-localization square under the slice-site identifications."
+      ],
+      "logical_form": "identification",
+      "preface_key": "slice",
+      "hold_reason": ""
+    },
+    "lemma-relocalize-morphism-topoi": {
+      "hypotheses": [
+        "A topos morphism f:Sh(C)→Sh(D), sheaves F on C, G on D, and s:F→f^-1G."
+      ],
+      "conclusions": [
+        "A base-changed localization square and composition identity exist, with explicitly stated inverse-image formula and a naturality square."
+      ],
+      "logical_form": "construction_with_base_change",
+      "preface_key": "slice",
+      "hold_reason": "The statement declares f':Sh(C)/f^-1 G→Sh(D)/F, but F is a sheaf on C, not D. Source codomain is ill-typed; confirm correction to Sh(D)/G before standalone certification."
+    },
+    "lemma-relocalize-morphism-compare": {
+      "hypotheses": [
+        "A site morphism f:C→D from u:D→C, object V in D, arrow c:U→u(V), and induced map s:h_U#→f^-1h_V#."
+      ],
+      "conclusions": [
+        "The relocalized diagram from site morphisms agrees with the slice-topos relocalization diagram under the respective equivalences."
+      ],
+      "logical_form": "identification",
+      "preface_key": "slice",
+      "hold_reason": "The statement sets h_U# = f^-1h_V# for arbitrary c:U→u(V), which is generally false unless U=u(V). Source premise needs adjudication before certification."
+    },
+    "lemma-points-recover": {
+      "hypotheses": [
+        "A site C, functor u:C→Sets, and a representable presheaf h_U."
+      ],
+      "conclusions": [
+        "Its stalk at p=u is canonically isomorphic to u(U), functorially in U."
+      ],
+      "logical_form": "canonical_isomorphism",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-adjoint-point-push-stalk": {
+      "hypotheses": [
+        "A functor u:C→Sets and its induced precomposition functor u^p:Sets→PSh(C)."
+      ],
+      "conclusions": [
+        "The functor u^p is right adjoint to the stalk functor PSh(C)→Sets."
+      ],
+      "logical_form": "adjunction",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-point-pushforward-sheaf": {
+      "hypotheses": [
+        "A site C, functor u:C→Sets satisfying covering surjectivity and surjectivity on the specified covering-pullback squares."
+      ],
+      "conclusions": [
+        "The presheaf u^pE is a sheaf for every set E.",
+        "Stalks on sheaves are left adjoint to u^s:Sets→Sh(C).",
+        "Every presheaf and its sheafification have the same stalk at u."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-site-point-morphism": {
+      "hypotheses": [
+        "A site point p=u:C→Sets, infinite S0 containing every u(U) as subset, and S=P(S0) with site of sets and jointly surjective covering families."
+      ],
+      "conclusions": [
+        "Sh(pt) is equivalent to Sh(S).",
+        "The functor u:C→S gives a morphism of sites S→C.",
+        "Its associated topos morphism composed with the equivalence from Sh(pt) equals (p_*,p^-1)."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "point_power",
+      "hold_reason": ""
+    },
+    "lemma-stalk-skyscraper": {
+      "hypotheses": [
+        "A point p:Sh(pt)→Sh(C) and a set E."
+      ],
+      "conclusions": [
+        "There are canonical maps E→(p_*E)_p→E whose composite is identity."
+      ],
+      "logical_form": "retraction",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-skyscraper-functor-exact": {
+      "hypotheses": [
+        "A point p of a topos of sheaves."
+      ],
+      "conclusions": [
+        "p_* preserves limits and coequalizers, is left exact and faithful, preserves surjections, and reflects injections, surjections and isomorphisms."
+      ],
+      "logical_form": "preservation_reflection",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-neighbourhoods-cofiltered": {
+      "hypotheses": [
+        "A site C and functor p=u:C→Sets with cofiltered category of neighbourhoods."
+      ],
+      "conclusions": [
+        "The stalk functor defined by the colimit over the opposite neighbourhood category preserves finite limits."
+      ],
+      "logical_form": "conditional_exactness",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-neighbourhoods-directed": {
+      "hypotheses": [
+        "A site C with final object X and fibre products, and u:C→Sets mapping X to a singleton and preserving the specified pullbacks bijectively."
+      ],
+      "conclusions": [
+        "The category of neighbourhoods is cofiltered, and the associated stalk functor preserves finite limits."
+      ],
+      "logical_form": "implication",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "proposition-point-limits": {
+      "hypotheses": [
+        "A site C with finite limits."
+      ],
+      "conclusions": [
+        "A point of C is equivalently specified by u:C→Sets preserving finite limits and sending every covering family to a jointly surjective family."
+      ],
+      "logical_form": "characterization",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-point-functor": {
+      "hypotheses": [
+        "Functors u:C→D, v:D→Sets, and w=v∘u; points/stalks for v and w."
+      ],
+      "conclusions": [
+        "The stalk at v of u_pF identifies with the stalk at w of F, naturally in F."
+      ],
+      "logical_form": "canonical_identity",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-point-morphism-sites": {
+      "hypotheses": [
+        "A site morphism f:D→C represented by continuous u:C→D, and a point q on D represented by v:D→Sets."
+      ],
+      "conclusions": [
+        "The composite v∘u defines a site point p on C and (f^-1F)_q=F_p for each sheaf F."
+      ],
+      "logical_form": "point_transport",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-point-morphism-topoi": {
+      "hypotheses": [
+        "A topos morphism f:Sh(D)→Sh(C) and a point q:Sh(pt)→Sh(D)."
+      ],
+      "conclusions": [
+        "Their composite p=f∘q is a point of Sh(C) and (f^-1F)_q=F_p for every sheaf F."
+      ],
+      "logical_form": "point_transport",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-point-localize": {
+      "hypotheses": [
+        "A site point p=u on C, an object U, and an element x∈u(U)."
+      ],
+      "conclusions": [
+        "The fibre functor v on C/U taking (V→U) to the preimage of x is a point q, and j_U∘q=p so the stalks of F agree with stalks of its restriction at q."
+      ],
+      "logical_form": "localized_point_construction",
+      "preface_key": "locpoint",
+      "hold_reason": ""
+    },
+    "lemma-points-above-point": {
+      "hypotheses": [
+        "A point p=u of C, object U, and points of C/U lying over p."
+      ],
+      "conclusions": [
+        "The construction q_x for x∈u(U) gives a bijection between these points and u(U)."
+      ],
+      "logical_form": "bijection",
+      "preface_key": "locpoint",
+      "hold_reason": ""
+    },
+    "lemma-stalk-j-shriek": {
+      "hypotheses": [
+        "A site point p=u, object U, and sheaf G on C/U."
+      ],
+      "conclusions": [
+        "The stalk of extension by empty set j_{U!}G at p is the coproduct of stalks G_{q_x} over x∈u(U)."
+      ],
+      "logical_form": "stalk_decomposition",
+      "preface_key": "locpoint",
+      "hold_reason": ""
+    },
+    "lemma-maps-u-points": {
+      "hypotheses": [
+        "Functor u,u':C→Sets with a natural transformation t:u'→u."
+      ],
+      "conclusions": [
+        "There is a canonical transformation of stalk functors F_{p'}→F_p compatible with t on representables."
+      ],
+      "logical_form": "natural_transformation",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-exactness-stalks": {
+      "hypotheses": [
+        "A site C with a conservative family of points."
+      ],
+      "conclusions": [
+        "Stalkwise injectivity, surjectivity and equality detect their sheaf-level analogues.",
+        "Finite limit and finite colimit diagrams are such if and only if every stalkwise diagram is."
+      ],
+      "logical_form": "conservative_stalk_criterion",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-enough": {
+      "hypotheses": [
+        "A family of site points (p_i,u_i) on C."
+      ],
+      "conclusions": [
+        "It is conservative iff every pair of distinct sections of any sheaf on any U is distinguished by some stalk element represented by (U,x)."
+      ],
+      "logical_form": "characterization",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "lemma-localize-enough": {
+      "hypotheses": [
+        "A site C, object U, and a family of points p_i; for x∈u_i(U) take the associated localized points q_{i,x}."
+      ],
+      "conclusions": [
+        "If the p_i are conservative, so are the localized points; in particular enough points descend to each localization C/U."
+      ],
+      "logical_form": "localization_of_conservativity",
+      "preface_key": "locpoint",
+      "hold_reason": ""
+    },
+    "lemma-enough-points-local": {
+      "hypotheses": [
+        "A family of objects U_i covering the final sheaf epimorphically; each slice site C/U_i has enough points."
+      ],
+      "conclusions": [
+        "The site C has enough points."
+      ],
+      "logical_form": "local_to_global",
+      "preface_key": "",
+      "hold_reason": ""
+    },
+    "lemma-check-morphism-sites": {
+      "hypotheses": [
+        "A continuous u:C→D of sites and a conservative family of points v_i of D such that each v_i∘u defines a point of C."
+      ],
+      "conclusions": [
+        "The functor u defines a morphism of sites D→C."
+      ],
+      "logical_form": "morphism_criterion",
+      "preface_key": "point",
+      "hold_reason": ""
+    },
+    "proposition-criterion-points": {
+      "hypotheses": [
+        "A site C with finite limits in its category and every cover refinable by a finite covering."
+      ],
+      "conclusions": [
+        "The site C has enough points."
+      ],
+      "logical_form": "sufficient_condition",
+      "preface_key": "",
+      "hold_reason": ""
+    },
+    "lemma-criterion-points": {
+      "hypotheses": [
+        "A site C and objects U_i with a covering of the final sheaf by their representables and each C/U_i satisfying the finite-covering-refinement and finite-limit hypotheses."
+      ],
+      "conclusions": [
+        "The site C has enough points."
+      ],
+      "logical_form": "sufficient_condition",
+      "preface_key": "locpoint",
+      "hold_reason": "The source condition uses coproducts of representable presheaves h_{U_i} as a map to the final object in Sh(C), without sheafification. A typed comparison needs clarification."
+    },
+    "lemma-w-contractible": {
+      "hypotheses": [
+        "A site C and object U."
+      ],
+      "conclusions": [
+        "Every covering of U splits after sheafification at h_U# if and only if every sheaf surjection induces a surjection on sections over U."
+      ],
+      "logical_form": "equivalence",
+      "preface_key": "",
+      "hold_reason": ""
+    }
+  }
+}
