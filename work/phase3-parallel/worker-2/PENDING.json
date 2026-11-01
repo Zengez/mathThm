@@ -11,37 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w2-b015",
-      "chapter": "examples-defos",
-      "sections": [
-        {
-          "chapter": "examples-defos",
-          "section_start_line": 1944,
-          "file": "work/stageb-parallel/worker-2/results/examples-defos/section-1944.jsonl",
-          "blob_sha": "d5c813222b54c9e55573151952655473fe1a62b5"
-        },
-        {
-          "chapter": "examples-defos",
-          "section_start_line": 2306,
-          "file": "work/stageb-parallel/worker-2/results/examples-defos/section-2306.jsonl",
-          "blob_sha": "6aa5d07fdcb6b9f3e2ef307618ed167bc9f9caf5"
-        },
-        {
-          "chapter": "examples-defos",
-          "section_start_line": 2467,
-          "file": "work/stageb-parallel/worker-2/results/examples-defos/section-2467.jsonl",
-          "blob_sha": "9f647d1cc1fa011d90a9944ce69dce3e2ba116c9"
-        },
-        {
-          "chapter": "examples-defos",
-          "section_start_line": 2888,
-          "file": "work/stageb-parallel/worker-2/results/examples-defos/section-2888.jsonl",
-          "blob_sha": "785aac16e5bd9e4835e00c8f09812375975b7e4a"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w2-b016",
       "chapter": "limits",
       "sections": [
