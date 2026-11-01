@@ -1,0 +1,15 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "chapter": "algebra.tex",
+  "sections_ordinal": [
+    1,
+    6
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "stage_a_candidate_count": 7,
+  "output_file": "harvest/phase2_chat_stage_a/algebra/batch_01_sections_01_06/RECONSTRUCTIONS.jsonl",
+  "stage_a_ready_for_codex_candidate_count": 7,
+  "stage_a_remaining_work_candidate_count": 0,
+  "independent_stage_b_count": 0,
+  "proofs_reviewed": 0
+}
