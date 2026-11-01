@@ -11,55 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w3-b009",
-      "chapter": "cotangent",
-      "sections": [
-        {
-          "chapter": "cotangent",
-          "section_start_line": 2776,
-          "file": "work/stageb-parallel/worker-3/results/cotangent/section-2776.jsonl",
-          "blob_sha": "7323f9f2639da107b58239b3b5e158612ecb1a92"
-        },
-        {
-          "chapter": "cotangent",
-          "section_start_line": 3061,
-          "file": "work/stageb-parallel/worker-3/results/cotangent/section-3061.jsonl",
-          "blob_sha": "f89aa4956274b05f328088d9d15e9433be29dcc0"
-        },
-        {
-          "chapter": "cotangent",
-          "section_start_line": 3513,
-          "file": "work/stageb-parallel/worker-3/results/cotangent/section-3513.jsonl",
-          "blob_sha": "7126667c0200de38a3550ebf80a55c2f14e6139a"
-        },
-        {
-          "chapter": "cotangent",
-          "section_start_line": 3687,
-          "file": "work/stageb-parallel/worker-3/results/cotangent/section-3687.jsonl",
-          "blob_sha": "a8b65bcf072ad45d7f67813f8d9cd10a2d72fce4"
-        },
-        {
-          "chapter": "cotangent",
-          "section_start_line": 3889,
-          "file": "work/stageb-parallel/worker-3/results/cotangent/section-3889.jsonl",
-          "blob_sha": "4779c496edeca4ab41a7cebf45436f7544b58fca"
-        },
-        {
-          "chapter": "cotangent",
-          "section_start_line": 4173,
-          "file": "work/stageb-parallel/worker-3/results/cotangent/section-4173.jsonl",
-          "blob_sha": "735809085a5341713bfaf5da37726e060d4297bb"
-        },
-        {
-          "chapter": "cotangent",
-          "section_start_line": 4536,
-          "file": "work/stageb-parallel/worker-3/results/cotangent/section-4536.jsonl",
-          "blob_sha": "ce1a15bf0172b3fbf4a2d7862ae649602832fa09"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w3-b010",
       "chapter": "defos",
       "sections": [
