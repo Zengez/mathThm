@@ -11,55 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w2-b017",
-      "chapter": "limits",
-      "sections": [
-        {
-          "chapter": "limits",
-          "section_start_line": 3445,
-          "file": "work/stageb-parallel/worker-2/results/limits/section-3445.jsonl",
-          "blob_sha": "6075664c161694ffcb4c15111166d95f4144ce2f"
-        },
-        {
-          "chapter": "limits",
-          "section_start_line": 3728,
-          "file": "work/stageb-parallel/worker-2/results/limits/section-3728.jsonl",
-          "blob_sha": "9395f4e44e7a1324089c8f6d4449665f5b20a140"
-        },
-        {
-          "chapter": "limits",
-          "section_start_line": 4072,
-          "file": "work/stageb-parallel/worker-2/results/limits/section-4072.jsonl",
-          "blob_sha": "c428203993a1562182ead91bd6aff001ef2172d1"
-        },
-        {
-          "chapter": "limits",
-          "section_start_line": 4228,
-          "file": "work/stageb-parallel/worker-2/results/limits/section-4228.jsonl",
-          "blob_sha": "feed765092bc9f296ba71d781c96bac814dad59b"
-        },
-        {
-          "chapter": "limits",
-          "section_start_line": 4495,
-          "file": "work/stageb-parallel/worker-2/results/limits/section-4495.jsonl",
-          "blob_sha": "e1867ce9ea8e01ad397735eeaa0fc660cd32d74a"
-        },
-        {
-          "chapter": "limits",
-          "section_start_line": 4994,
-          "file": "work/stageb-parallel/worker-2/results/limits/section-4994.jsonl",
-          "blob_sha": "0e6c0a212a4efd1b254946a34aaef69639f027e3"
-        },
-        {
-          "chapter": "limits",
-          "section_start_line": 5355,
-          "file": "work/stageb-parallel/worker-2/results/limits/section-5355.jsonl",
-          "blob_sha": "56519d12ff1de13ca59408800ad3be9462b9b720"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w2-b018",
       "chapter": "modules",
       "sections": [
