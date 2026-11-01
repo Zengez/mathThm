@@ -11,67 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w3-b007",
-      "chapter": "coherent",
-      "sections": [
-        {
-          "chapter": "coherent",
-          "section_start_line": 4508,
-          "file": "work/stageb-parallel/worker-3/results/coherent/section-4508.jsonl",
-          "blob_sha": "aef608a9806479c24caf50dd2bb8f76cdead7f28"
-        },
-        {
-          "chapter": "coherent",
-          "section_start_line": 5323,
-          "file": "work/stageb-parallel/worker-3/results/coherent/section-5323.jsonl",
-          "blob_sha": "e853ba3eb91ef0338d2698607467277c039cdeca"
-        },
-        {
-          "chapter": "coherent",
-          "section_start_line": 5872,
-          "file": "work/stageb-parallel/worker-3/results/coherent/section-5872.jsonl",
-          "blob_sha": "7aa04036347fe46aed5e7e0b0d041e7d178cfb26"
-        },
-        {
-          "chapter": "coherent",
-          "section_start_line": 6247,
-          "file": "work/stageb-parallel/worker-3/results/coherent/section-6247.jsonl",
-          "blob_sha": "37e1bcf98c1648583b8783319fd9a85bd3f4f11f"
-        },
-        {
-          "chapter": "coherent",
-          "section_start_line": 6749,
-          "file": "work/stageb-parallel/worker-3/results/coherent/section-6749.jsonl",
-          "blob_sha": "98b14886ac753779a8c85897c9cb3d9a4a7ff3ad"
-        },
-        {
-          "chapter": "coherent",
-          "section_start_line": 6876,
-          "file": "work/stageb-parallel/worker-3/results/coherent/section-6876.jsonl",
-          "blob_sha": "38e4290cc14fc6a7e1135009cfd50f9780b9bfcf"
-        },
-        {
-          "chapter": "coherent",
-          "section_start_line": 7204,
-          "file": "work/stageb-parallel/worker-3/results/coherent/section-7204.jsonl",
-          "blob_sha": "f923cb4509b5f0748a829b6358279ffbcefde76c"
-        },
-        {
-          "chapter": "coherent",
-          "section_start_line": 7602,
-          "file": "work/stageb-parallel/worker-3/results/coherent/section-7602.jsonl",
-          "blob_sha": "8ea7d42ac296682faaa1843d24ed34dd59ddbe64"
-        },
-        {
-          "chapter": "coherent",
-          "section_start_line": 7822,
-          "file": "work/stageb-parallel/worker-3/results/coherent/section-7822.jsonl",
-          "blob_sha": "279b11ee9691dfe3260f6663fc8861261851c51b"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w3-b008",
       "chapter": "cotangent",
       "sections": [
