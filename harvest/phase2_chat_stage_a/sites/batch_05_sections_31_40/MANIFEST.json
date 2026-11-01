@@ -63,10 +63,10 @@
   "proofs_reviewed": 0,
   "previously_approved_ids_not_regenerated": [],
   "stage_a_ready_for_codex_candidate_count": 25,
-  "stage_a_remaining_work_candidate_count": 3,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_ready_for_codex_section_count": 7,
   "stage_a_work_pending": false,
-  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
   "processing_sections": [
     {
       "section": 31,
@@ -85,7 +85,8 @@
         "candidate.stacks.ebe2fdfeb3f9d5ad7407b6e7",
         "candidate.stacks.d4acd07598d51c82cbe81733"
       ],
-      "stage_a_source_context_heading": "Localization and morphisms of topoi"
+      "stage_a_source_context_heading": "Localization and morphisms of topoi",
+      "stage_a_source_context_summary": "Pinned sites.tex §31, L7617–7826; 4 active, 2 A1 standalone-prepared, 2 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 32,
@@ -103,7 +104,8 @@
         "candidate.stacks.f586cc75b9fd9ca6e3a39740"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Points"
+      "stage_a_source_context_heading": "Points",
+      "stage_a_source_context_summary": "Pinned sites.tex §32, L7827–8229; 6 active, 6 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 33,
@@ -118,7 +120,8 @@
         "candidate.stacks.154b4bf2c4667b5ee3a07a2a"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Constructing points"
+      "stage_a_source_context_heading": "Constructing points",
+      "stage_a_source_context_summary": "Pinned sites.tex §33, L8230–8505; 3 active, 3 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 34,
@@ -133,7 +136,8 @@
         "candidate.stacks.b4c1c43be0593ff2f23f0110"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Points and morphisms of topoi"
+      "stage_a_source_context_heading": "Points and morphisms of topoi",
+      "stage_a_source_context_summary": "Pinned sites.tex §34, L8506–8659; 3 active, 3 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 35,
@@ -148,7 +152,8 @@
         "candidate.stacks.0af8b6d2d7c17046230f4d10"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Localization and points"
+      "stage_a_source_context_heading": "Localization and points",
+      "stage_a_source_context_summary": "Pinned sites.tex §35, L8660–8863; 3 active, 3 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 36,
@@ -159,7 +164,8 @@
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "2-morphisms of topoi"
+      "stage_a_source_context_heading": "2-morphisms of topoi",
+      "stage_a_source_context_summary": "Pinned sites.tex §36, L8864–8958; 0 active, 0 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 37,
@@ -172,7 +178,8 @@
         "candidate.stacks.2ba9c92e2c528bcfad4f3edd"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Morphisms between points"
+      "stage_a_source_context_heading": "Morphisms between points",
+      "stage_a_source_context_summary": "Pinned sites.tex §37, L8959–9023; 1 active, 1 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 38,
@@ -189,7 +196,8 @@
         "candidate.stacks.a890d0752a8fb5e143e3ff6c"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Sites with enough points"
+      "stage_a_source_context_heading": "Sites with enough points",
+      "stage_a_source_context_summary": "Pinned sites.tex §38, L9024–9237; 5 active, 5 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 39,
@@ -205,7 +213,8 @@
       "stage_a_held_candidate_ids": [
         "candidate.stacks.9a35c613b9b285759576edea"
       ],
-      "stage_a_source_context_heading": "Criterion for existence of points"
+      "stage_a_source_context_heading": "Criterion for existence of points",
+      "stage_a_source_context_summary": "Pinned sites.tex §39, L9238–9471; 2 active, 1 A1 standalone-prepared, 1 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 40,
@@ -218,8 +227,18 @@
         "candidate.stacks.451a523e0a6ec8f5af742207"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Weakly contractible objects"
+      "stage_a_source_context_heading": "Weakly contractible objects",
+      "stage_a_source_context_summary": "Pinned sites.tex §40, L9472–9540; 1 active, 1 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     }
   ],
-  "note": "Three suspected source typing/identity issues held for adjudication rather than silently corrected. All candidate local scopes and source point construction reviewed without proofs."
+  "note": "Three suspected source typing/identity issues held for adjudication rather than silently corrected. All candidate local scopes and source point construction reviewed without proofs.",
+  "processing_sections_format": "inline-v1",
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_further_work_candidate_count": 3,
+  "stage_a_further_work_section_count": 2,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_dispositioned_section_count": 10,
+  "stage_a_section_mapping_pending": false,
+  "preliminary_source_holds": [],
+  "processing_note": "All active candidates in complete source sections have an A1 disposition; 'further_work_needed' is a documented hold, not unprocessed remaining work. Independent Stage B validation not yet performed."
 }
