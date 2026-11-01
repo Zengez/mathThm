@@ -1,0 +1,509 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-audit.v1",
+  "review_date": "2026-11-01",
+  "chapter": "simplicial",
+  "source_file": "simplicial.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "branch": "work/phase2-stage-a-context-enrichment",
+  "source_sections_total": 34,
+  "source_theorem_environments": 106,
+  "source_excluded_candidate_ids": 13,
+  "active_candidates": 93,
+  "active_candidates_reconstructed_or_triaged": 93,
+  "ready_for_independent_stage_b_validation": 86,
+  "further_work_needed": 7,
+  "authoritative_approvals_preexisting_for_chapter": 0,
+  "proofs_reviewed": 0,
+  "independent_validation": "not_started",
+  "phase3_eligible_count_by_this_stage": 0,
+  "processing_complete": true,
+  "standalone_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
+  "regression_checks": {
+    "json_and_jsonl_schema_parse": "passed",
+    "candidate_identity_uniqueness": "passed",
+    "section_coverage": "passed_34_of_34",
+    "candidate_to_pinned_pass1_statement_revision_and_line": "passed",
+    "active_population_reconciliation": "passed_93_of_93",
+    "authoritative_overlap": "passed_none",
+    "reference_free_ready_drafts_and_structured_fields": "passed",
+    "readiness_and_holds_alignment": "passed",
+    "central_further_work_registry": "passed_7_of_7",
+    "independent_mathematical_source_equivalence": "not_started",
+    "proof_validation": "not_started",
+    "project_cli_regressions": "not_executed_from_chat"
+  },
+  "batches": [
+    {
+      "batch": "batch_01_sections_01_17",
+      "manifest": "harvest/phase2_chat_stage_a/simplicial/batch_01_sections_01_17/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/simplicial/batch_01_sections_01_17/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/simplicial/batch_01_sections_01_17/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/simplicial/batch_01_sections_01_17/SECTION_CHECKPOINTS.jsonl",
+      "further_work": "harvest/phase2_chat_stage_a/simplicial/batch_01_sections_01_17/FURTHER_WORK_NEEDED.jsonl",
+      "sections": [
+        1,
+        17
+      ],
+      "active": 18,
+      "ready": 16,
+      "held": 2
+    },
+    {
+      "batch": "batch_02_sections_18_25",
+      "manifest": "harvest/phase2_chat_stage_a/simplicial/batch_02_sections_18_25/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/simplicial/batch_02_sections_18_25/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/simplicial/batch_02_sections_18_25/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/simplicial/batch_02_sections_18_25/SECTION_CHECKPOINTS.jsonl",
+      "further_work": "harvest/phase2_chat_stage_a/simplicial/batch_02_sections_18_25/FURTHER_WORK_NEEDED.jsonl",
+      "sections": [
+        18,
+        25
+      ],
+      "active": 44,
+      "ready": 41,
+      "held": 3
+    },
+    {
+      "batch": "batch_03_sections_26_34",
+      "manifest": "harvest/phase2_chat_stage_a/simplicial/batch_03_sections_26_34/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/simplicial/batch_03_sections_26_34/RECONSTRUCTIONS.jsonl",
+      "context_ledger": "harvest/phase2_chat_stage_a/simplicial/batch_03_sections_26_34/CONTEXT_LEDGER.jsonl",
+      "section_checkpoints": "harvest/phase2_chat_stage_a/simplicial/batch_03_sections_26_34/SECTION_CHECKPOINTS.jsonl",
+      "further_work": "harvest/phase2_chat_stage_a/simplicial/batch_03_sections_26_34/FURTHER_WORK_NEEDED.jsonl",
+      "sections": [
+        26,
+        34
+      ],
+      "active": 31,
+      "ready": 29,
+      "held": 2
+    }
+  ],
+  "sections": [
+    {
+      "section": 1,
+      "title": "Introduction",
+      "source_line": 17,
+      "source_end_line": 27,
+      "kind": "context_only",
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    },
+    {
+      "section": 2,
+      "title": "The category of finite ordered sets",
+      "source_line": 28,
+      "source_end_line": 178,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 1
+    },
+    {
+      "section": 3,
+      "title": "Simplicial objects",
+      "source_line": 179,
+      "source_end_line": 341,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 4,
+      "title": "Simplicial objects as presheaves",
+      "source_line": 342,
+      "source_end_line": 375,
+      "kind": "context_only",
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    },
+    {
+      "section": 5,
+      "title": "Cosimplicial objects",
+      "source_line": 376,
+      "source_end_line": 573,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 1
+    },
+    {
+      "section": 6,
+      "title": "Products of simplicial objects",
+      "source_line": 574,
+      "source_end_line": 616,
+      "kind": "candidates",
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 0
+    },
+    {
+      "section": 7,
+      "title": "Fibre products of simplicial objects",
+      "source_line": 617,
+      "source_end_line": 660,
+      "kind": "candidates",
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 0
+    },
+    {
+      "section": 8,
+      "title": "Pushouts of simplicial objects",
+      "source_line": 661,
+      "source_end_line": 714,
+      "kind": "candidates",
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 0
+    },
+    {
+      "section": 9,
+      "title": "Products of cosimplicial objects",
+      "source_line": 715,
+      "source_end_line": 755,
+      "kind": "candidates",
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 0
+    },
+    {
+      "section": 10,
+      "title": "Fibre products of cosimplicial objects",
+      "source_line": 756,
+      "source_end_line": 811,
+      "kind": "candidates",
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 0
+    },
+    {
+      "section": 11,
+      "title": "Simplicial sets",
+      "source_line": 812,
+      "source_end_line": 927,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 12,
+      "title": "Truncated simplicial objects and skeleton functors",
+      "source_line": 928,
+      "source_end_line": 963,
+      "kind": "context_only",
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    },
+    {
+      "section": 13,
+      "title": "Products with simplicial sets",
+      "source_line": 964,
+      "source_end_line": 1138,
+      "kind": "candidates",
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 0
+    },
+    {
+      "section": 14,
+      "title": "Hom from simplicial sets into cosimplicial objects",
+      "source_line": 1139,
+      "source_end_line": 1193,
+      "kind": "context_only",
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    },
+    {
+      "section": 15,
+      "title": "Hom from cosimplicial sets into simplicial objects",
+      "source_line": 1194,
+      "source_end_line": 1332,
+      "kind": "context_only",
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    },
+    {
+      "section": 16,
+      "title": "Internal Hom",
+      "source_line": 1333,
+      "source_end_line": 1374,
+      "kind": "context_only",
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    },
+    {
+      "section": 17,
+      "title": "Hom from simplicial sets into simplicial objects",
+      "source_line": 1375,
+      "source_end_line": 1752,
+      "kind": "candidates",
+      "active_candidate_count": 4,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 4,
+      "further_work_needed": 0
+    },
+    {
+      "section": 18,
+      "title": "Splitting simplicial objects",
+      "source_line": 1753,
+      "source_end_line": 2139,
+      "kind": "candidates",
+      "active_candidate_count": 8,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 8,
+      "further_work_needed": 0
+    },
+    {
+      "section": 19,
+      "title": "Coskeleton functors",
+      "source_line": 2140,
+      "source_end_line": 2772,
+      "kind": "candidates",
+      "active_candidate_count": 10,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 9,
+      "further_work_needed": 1
+    },
+    {
+      "section": 20,
+      "title": "Augmentations",
+      "source_line": 2773,
+      "source_end_line": 2883,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 21,
+      "title": "Left adjoints to the skeleton functors",
+      "source_line": 2884,
+      "source_end_line": 3262,
+      "kind": "candidates",
+      "active_candidate_count": 9,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 7,
+      "further_work_needed": 2
+    },
+    {
+      "section": 22,
+      "title": "Simplicial objects in abelian categories",
+      "source_line": 3263,
+      "source_end_line": 3603,
+      "kind": "candidates",
+      "active_candidate_count": 3,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 3,
+      "further_work_needed": 0
+    },
+    {
+      "section": 23,
+      "title": "Simplicial objects and chain complexes",
+      "source_line": 3604,
+      "source_end_line": 3991,
+      "kind": "candidates",
+      "active_candidate_count": 8,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 8,
+      "further_work_needed": 0
+    },
+    {
+      "section": 24,
+      "title": "Dold-Kan",
+      "source_line": 3992,
+      "source_end_line": 4280,
+      "kind": "candidates",
+      "active_candidate_count": 3,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 3,
+      "further_work_needed": 0
+    },
+    {
+      "section": 25,
+      "title": "Dold-Kan for cosimplicial objects",
+      "source_line": 4281,
+      "source_end_line": 4395,
+      "kind": "candidates",
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 0
+    },
+    {
+      "section": 26,
+      "title": "Homotopies",
+      "source_line": 4396,
+      "source_end_line": 4736,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 27,
+      "title": "Homotopies in abelian categories",
+      "source_line": 4737,
+      "source_end_line": 4866,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 28,
+      "title": "Homotopies and cosimplicial objects",
+      "source_line": 4867,
+      "source_end_line": 5103,
+      "kind": "candidates",
+      "active_candidate_count": 3,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 1
+    },
+    {
+      "section": 29,
+      "title": "More homotopies in abelian categories",
+      "source_line": 5104,
+      "source_end_line": 5509,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 1
+    },
+    {
+      "section": 30,
+      "title": "Trivial Kan fibrations",
+      "source_line": 5510,
+      "source_end_line": 5669,
+      "kind": "candidates",
+      "active_candidate_count": 7,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 7,
+      "further_work_needed": 0
+    },
+    {
+      "section": 31,
+      "title": "Kan fibrations",
+      "source_line": 5670,
+      "source_end_line": 5956,
+      "kind": "candidates",
+      "active_candidate_count": 8,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 8,
+      "further_work_needed": 0
+    },
+    {
+      "section": 32,
+      "title": "A homotopy equivalence",
+      "source_line": 5957,
+      "source_end_line": 6185,
+      "kind": "candidates",
+      "active_candidate_count": 3,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 3,
+      "further_work_needed": 0
+    },
+    {
+      "section": 33,
+      "title": "Preparation for standard resolutions",
+      "source_line": 6186,
+      "source_end_line": 6605,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 34,
+      "title": "Standard resolutions",
+      "source_line": 6606,
+      "source_end_line": 7008,
+      "kind": "candidates",
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "candidate_id": "candidate.stacks.bde8177386612c55335e953d",
+      "source_label": "lemma-face-degeneracy-category",
+      "source_line": 158,
+      "issue": "The claim specifies the universal presentation only by citing excluded source Lemma lemma-relations-face-degeneracy (L79). Materialize all five indexed relations explicitly and check their index bounds before labeling standalone.",
+      "packet_path": "harvest/phase2_chat_stage_a/simplicial/batch_01_sections_01_17/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.1f0623f555e5ca97df46b516",
+      "source_label": "lemma-characterize-cosimplicial-object",
+      "source_line": 422,
+      "issue": "Both directions refer to all five relations in excluded Lemma lemma-relations-face-degeneracy (L79), without printing them. Incorporate the relation equations with correct coface/codegeneracy index conventions before declaring a standalone characterization.",
+      "packet_path": "harvest/phase2_chat_stage_a/simplicial/batch_01_sections_01_17/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.21d3ef372874bd92fa6cafb7",
+      "source_label": "lemma-work-out",
+      "source_line": 2427,
+      "issue": "Verify the construction of the (n+1)-truncated simplicial extension from the matching-face representing functor and make the face/degeneracy maps and claimed adjunction explicit; source L2336-2515 (especially lemma-work-out L2427).",
+      "packet_path": "harvest/phase2_chat_stage_a/simplicial/batch_02_sections_18_25/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.e3840121e29a1b48ebb45964",
+      "source_label": "lemma-add-simplices",
+      "source_line": 3128,
+      "issue": "Unpack excluded Lemma lemma-glue-simplex (simplicial.tex L3083–3127): for each inclusion W^i⊂W^{i+1}, specify the single new nondegenerate simplex x_i in degree n_i, unchanged lower degrees, all higher new simplices degenerate, and its pushout square attaching Δ[n_i] along i_{n_i-1!} sk_{n_i-1}Δ[n_i].",
+      "packet_path": "harvest/phase2_chat_stage_a/simplicial/batch_02_sections_18_25/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.200239d93c7333c090a5c6b0",
+      "source_label": "lemma-cosk-shriek",
+      "source_line": 3201,
+      "issue": "Verify the precise internal-Hom construction in section 17 and the left-adjoint i_{n!} from L2884–3261; explain why Hom(i_{n!}sk_n Δ[n+1],V)_0 equals the degree-(n+1) matching object in cosk_n sk_n V, and supply n≥0.",
+      "packet_path": "harvest/phase2_chat_stage_a/simplicial/batch_02_sections_18_25/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.4175575e7d13fde79309eed6",
+      "source_label": "lemma-homotopy-equivalence-s-Q",
+      "source_line": 5088,
+      "issue": "Resolve source wording at simplicial.tex L5088–5103: Q(U),Q(V) are normalized *cochain* complexes by L4334–4364, but the lemma calls Q(a) a homotopy equivalence of *chain* complexes. Verify intended correction and preserve the two conditional conclusions.",
+      "packet_path": "harvest/phase2_chat_stage_a/simplicial/batch_03_sections_26_34/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.13ca157edb740bbedd5baa3d",
+      "source_label": "lemma-map-into-diamond",
+      "source_line": 5216,
+      "issue": "Reconstruct the connecting morphism δ(s):C→(A⊕A)[-1] from the degreewise split exact sequence (Homology Lemma homology-lemma-ses-termwise-split), and the compatible sections of diamond A from L5117–5215; verify commutative diagram and uniqueness without assuming a canonical section.",
+      "packet_path": "harvest/phase2_chat_stage_a/simplicial/batch_03_sections_26_34/RECONSTRUCTIONS.jsonl"
+    }
+  ]
+}
