@@ -1,0 +1,21 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-handoff.v1",
+  "chapter": "dpa",
+  "source_file": "dpa.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_sections_total": 12,
+  "source_theorem_environments": 49,
+  "active_candidate_count": 38,
+  "inactive_source_environments_excluded": 11,
+  "ready_for_independent_stage_b_validation": 35,
+  "further_work_needed": 3,
+  "independent_validation": "not_started",
+  "processing_complete": true,
+  "batch_directory": "harvest/phase2_chat_stage_a/dpa/batch_01_sections_01_12",
+  "hold_candidate_ids": [
+    "candidate.stacks.eb84d7c52f00cb3f748b21ce",
+    "candidate.stacks.e5ddd6c4b03d84237377d707",
+    "candidate.stacks.dd8e9a90c56a487323e9052f"
+  ],
+  "notes": "12 complete source sections; DP rings, graded DP-DGA and Tate, degree-2 derivations, CI rings/maps, Koszul/K_n setup handled by scoped source ledger. Three specific holds; no proof screening."
+}
