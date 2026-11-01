@@ -1,9 +1,15 @@
-# Stage B Chat worker 2
+# Worker 2 — independent Stage B mathematical validation
 
-Repository: `Zengez/mathThm`. Work EXCLUSIVELY on branch `work/stageb/chat-2`. Your exclusive queue is `work/stageb-parallel/worker-2/PENDING.json`; shared immutable plan: `work/stageb-parallel/ALLOCATION.json`. Read and follow `work/stageb-parallel/WORKER_PROTOCOL.md` **before** processing candidates.
+**GitHub repository:** `Zengez/mathThm`
+**Work branch:** `work/stageb/chat-2`
+**Exclusive queue:** `work/stageb-parallel/worker-2/PENDING.json`
+**Shared rules:** `work/stageb-parallel/WORKER_PROTOCOL.md`
+**Immutable candidate audit:** `work/stageb-parallel/READY_SNAPSHOT.json`
 
-Perform a chapter-local eligibility preflight, removing already-approved IDs, all previously selected Codex Stage B IDs (including holds), Stage A further-work holds, malformed/unready reconstruction records and duplicates. Work only on your assigned chapters, one at a time, with complete consecutive sections and a running context checkpoint. **Never inspect proof material**; use only the masked pinned Stacks source viewer `scripts/phase2_safe_source.py` for additional source reads. Independently verify the math and source equivalence of the Stage A draft, including logical scope, named context, hypotheses, conclusions and quantifiers. Approve only correct already-prepared formulations as pending materialization; put substantive corrections and difficult cases on hold for a separate second review.
+Read shared protocol and your own queue first. This queue is ALREADY fully prefiltered and allocated: **1158 exact Stage B-ready candidate IDs in 25 complete-section batches**. Start immediately with the FIRST `pending` batch, not with a repository-wide scan. Process all its candidate IDs in source order, comparing prepared statements, hypotheses and conclusions with the pinned original theorem and safe context. For additional Stacks source views use ONLY `scripts/phase2_safe_source.py` to avoid proofs/remarks; if necessary evidence is hidden, hold. Existing approvals and Codex holds are **not** in your queue.
 
-Write exactly one result per ready candidate into `work/stageb-parallel/worker-2/results/<chapter>/section-XXXX.jsonl`. Check section-level coverage; update your own `PENDING.json` cursor and commit together. Push to your own branch; do not modify other worker queues, global scripts, canonical source, authoritatives or shared manifests.
+Write independent validated-or-held result records in your exclusive `worker-2/results/<chapter>/section-<start_line>.jsonl` directory. Substantive corrections need separate later independent review and remain holds for now. For each completed full section verify exact ID coverage. Commit section results with same-commit removal of any entirely finished batch from your own `PENDING.json`. Do not change other workers' files, original sources, scripts, immutable allocation, authoritative registry or Phase 3 outputs. Push to your dedicated branch; keep going with the next batch automatically.
 
-Continue processing as many *complete consecutive sections* as safely possible each reply. On completion, report ready candidates reviewed, preliminary approvals, holds, remaining tasks and latest verified pushed SHA. Do not stop just to ask which chapter to do next; take the next pending chapter from your queue.
+Per reply summarize: IDs reviewed, independent preliminary approvals, new holds, completed batches, pending batches, and last verified pushed commit. **Do not claim Phase 3 eligibility or publication.**
+
+Start processing now; do not request manual batch assignments.
