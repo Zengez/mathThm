@@ -1,0 +1,221 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "modules-source-ordered-batch_02_sections_11_20",
+  "chapter": "modules.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "sections_ordinal": [
+    11,
+    20
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 40,
+  "candidate_ids": [
+    "candidate.stacks.3400378bf5be14bcbcf0b2b2",
+    "candidate.stacks.5a3c0e7b8ad63b197590fae2",
+    "candidate.stacks.bc84625ea182776caa684035",
+    "candidate.stacks.57acd7952ea5aa36cc16a283",
+    "candidate.stacks.e5fb436d2094ca57c5b6d80e",
+    "candidate.stacks.f0c84993dafb3f28b1c2da8b",
+    "candidate.stacks.4c495f1fbf473ca1ee4977f5",
+    "candidate.stacks.3e1fd349deaa4f1e4223ffbb",
+    "candidate.stacks.6f5455aebcf6a929f8d7e775",
+    "candidate.stacks.422b95ed2a9e202f3fef0138",
+    "candidate.stacks.e417480f34ed43b899d59125",
+    "candidate.stacks.e7b97a58786c4f669a9980bb",
+    "candidate.stacks.e4912db0f2ad3dd6493a634d",
+    "candidate.stacks.8de04173aa939229a22ebc65",
+    "candidate.stacks.44c5d6b396e2fed4282b9d58",
+    "candidate.stacks.76899b11f04ee8a11c29604e",
+    "candidate.stacks.6dab3593549aee4d9a9dd962",
+    "candidate.stacks.12c65f7cb89bb7277b3cf12b",
+    "candidate.stacks.bcddfcdd856e87026ffedfb8",
+    "candidate.stacks.efa8b6e740f3782ba35e5dd9",
+    "candidate.stacks.084bd988ad55bec4b798378f",
+    "candidate.stacks.5073f0b1f058d93c330769cd",
+    "candidate.stacks.7dcf9e9c7aeb09bcc35d431e",
+    "candidate.stacks.f00de72014c67b1167cfd9c9",
+    "candidate.stacks.2a3678ee33f381f3677ed31f",
+    "candidate.stacks.b478eca00fbe9ed33f539b6c",
+    "candidate.stacks.57d0b92585d5cf7af9555074",
+    "candidate.stacks.2cf379a6eaad33d07d2f6eb0",
+    "candidate.stacks.f90a28db0ee1e5b62cbd53bb",
+    "candidate.stacks.8c95e7c3cc2cf3302035f4f3",
+    "candidate.stacks.22e55b184ee507361d848f99",
+    "candidate.stacks.9fe5a0b8f76209aa7fa720a8",
+    "candidate.stacks.f7489152ece6ec27ee9d43b1",
+    "candidate.stacks.d110e6a21acb75c735c28c4c",
+    "candidate.stacks.edf2f828ea1e9c681dc407e9",
+    "candidate.stacks.31afb7a87e9ec042721bfd76",
+    "candidate.stacks.d886928a2c324a8b8d6bc2d2",
+    "candidate.stacks.b950e62275e5f5ecc8010e0a",
+    "candidate.stacks.d2f03a4e2613bba4c5c877c8",
+    "candidate.stacks.3da662f2c84ba500b94d5906"
+  ],
+  "source_sections_without_active_candidates": [
+    15
+  ],
+  "stage_a_ready_for_codex_candidate_count": 40,
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_unprocessed_candidate_count": 0,
+  "stage_a_work_pending": false,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "reviewer": "chatgpt-stage-a-modules-source-ordered",
+  "source_locator_verified": true,
+  "source_first_ledger_method": true,
+  "output_file": "harvest/phase2_chat_stage_a/modules/batch_02_sections_11_20/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/modules/batch_02_sections_11_20/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/modules/batch_02_sections_11_20/SECTION_CHECKPOINTS.jsonl",
+  "processing_sections": [
+    {
+      "section": 11,
+      "source_line": 1371,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3400378bf5be14bcbcf0b2b2",
+        "candidate.stacks.5a3c0e7b8ad63b197590fae2",
+        "candidate.stacks.bc84625ea182776caa684035",
+        "candidate.stacks.57acd7952ea5aa36cc16a283",
+        "candidate.stacks.e5fb436d2094ca57c5b6d80e",
+        "candidate.stacks.f0c84993dafb3f28b1c2da8b"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Modules of finite presentation"
+    },
+    {
+      "section": 12,
+      "source_line": 1562,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.4c495f1fbf473ca1ee4977f5",
+        "candidate.stacks.3e1fd349deaa4f1e4223ffbb",
+        "candidate.stacks.6f5455aebcf6a929f8d7e775",
+        "candidate.stacks.422b95ed2a9e202f3fef0138"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Coherent modules"
+    },
+    {
+      "section": 13,
+      "source_line": 1813,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e417480f34ed43b899d59125",
+        "candidate.stacks.e7b97a58786c4f669a9980bb",
+        "candidate.stacks.e4912db0f2ad3dd6493a634d",
+        "candidate.stacks.8de04173aa939229a22ebc65"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Closed immersions of ringed spaces"
+    },
+    {
+      "section": 14,
+      "source_line": 2070,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.44c5d6b396e2fed4282b9d58",
+        "candidate.stacks.76899b11f04ee8a11c29604e",
+        "candidate.stacks.6dab3593549aee4d9a9dd962",
+        "candidate.stacks.12c65f7cb89bb7277b3cf12b",
+        "candidate.stacks.bcddfcdd856e87026ffedfb8"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Locally free sheaves"
+    },
+    {
+      "section": 15,
+      "source_line": 2200,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Bilinear maps"
+    },
+    {
+      "section": 16,
+      "source_line": 2271,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.efa8b6e740f3782ba35e5dd9",
+        "candidate.stacks.084bd988ad55bec4b798378f",
+        "candidate.stacks.5073f0b1f058d93c330769cd",
+        "candidate.stacks.7dcf9e9c7aeb09bcc35d431e",
+        "candidate.stacks.f00de72014c67b1167cfd9c9",
+        "candidate.stacks.2a3678ee33f381f3677ed31f"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Tensor product"
+    },
+    {
+      "section": 17,
+      "source_line": 2527,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.b478eca00fbe9ed33f539b6c",
+        "candidate.stacks.57d0b92585d5cf7af9555074",
+        "candidate.stacks.2cf379a6eaad33d07d2f6eb0",
+        "candidate.stacks.f90a28db0ee1e5b62cbd53bb",
+        "candidate.stacks.8c95e7c3cc2cf3302035f4f3",
+        "candidate.stacks.22e55b184ee507361d848f99",
+        "candidate.stacks.9fe5a0b8f76209aa7fa720a8",
+        "candidate.stacks.f7489152ece6ec27ee9d43b1",
+        "candidate.stacks.d110e6a21acb75c735c28c4c"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Flat modules"
+    },
+    {
+      "section": 18,
+      "source_line": 2805,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.edf2f828ea1e9c681dc407e9",
+        "candidate.stacks.31afb7a87e9ec042721bfd76"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Duals"
+    },
+    {
+      "section": 19,
+      "source_line": 2979,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d886928a2c324a8b8d6bc2d2",
+        "candidate.stacks.b950e62275e5f5ecc8010e0a"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Constructible sheaves of sets"
+    },
+    {
+      "section": 20,
+      "source_line": 3162,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d2f03a4e2613bba4c5c877c8",
+        "candidate.stacks.3da662f2c84ba500b94d5906"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Flat morphisms of ringed spaces"
+    }
+  ]
+}

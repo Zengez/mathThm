@@ -1,0 +1,193 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "modules-source-ordered-batch_01_sections_01_10",
+  "chapter": "modules.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "sections_ordinal": [
+    1,
+    10
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 26,
+  "candidate_ids": [
+    "candidate.stacks.bc0ca174ac6ddae57448c5da",
+    "candidate.stacks.df2ec8befb7c7d725dffc1a6",
+    "candidate.stacks.77b0f149fc8adb3426cde7f5",
+    "candidate.stacks.f4e7df35867432f1c330e560",
+    "candidate.stacks.94277058bc44d73e9e1742a6",
+    "candidate.stacks.21f342bd9932f02a681aa42b",
+    "candidate.stacks.ab96c6cd958ae67d9a459433",
+    "candidate.stacks.af681ebe85ec981ab3723371",
+    "candidate.stacks.d7967033e466b5ea211ad066",
+    "candidate.stacks.aafa747c481aa9bade7af6dd",
+    "candidate.stacks.83caac1764efbb54892e6235",
+    "candidate.stacks.7f86ef3dfede2e55b73ff78f",
+    "candidate.stacks.d7db14f2677069212952f65a",
+    "candidate.stacks.24eede9c4b06d2300ec67043",
+    "candidate.stacks.2773f4138ffc84cfe35bfab4",
+    "candidate.stacks.0c8cd39ec10548affaa32420",
+    "candidate.stacks.d8aeba97d757b7a17e65ee43",
+    "candidate.stacks.0f056a5a209b04eca151bc4d",
+    "candidate.stacks.a02439d46859aa0b23f7857c",
+    "candidate.stacks.251b1ef2c8690825f19a1090",
+    "candidate.stacks.cbc3d0ea1b13d0be736d307f",
+    "candidate.stacks.d4093b32ad8b38c6872a4d3b",
+    "candidate.stacks.196e7619a08d48464683eb9c",
+    "candidate.stacks.01fc0a809e602acf63d88c0b",
+    "candidate.stacks.bda5a9d036487b966a4f8ae5",
+    "candidate.stacks.fac277c3923fe897aed122c4"
+  ],
+  "source_sections_without_active_candidates": [
+    1,
+    2
+  ],
+  "stage_a_ready_for_codex_candidate_count": 26,
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_unprocessed_candidate_count": 0,
+  "stage_a_work_pending": false,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "reviewer": "chatgpt-stage-a-modules-source-ordered",
+  "source_locator_verified": true,
+  "source_first_ledger_method": true,
+  "output_file": "harvest/phase2_chat_stage_a/modules/batch_01_sections_01_10/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/modules/batch_01_sections_01_10/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/modules/batch_01_sections_01_10/SECTION_CHECKPOINTS.jsonl",
+  "processing_sections": [
+    {
+      "section": 1,
+      "source_line": 17,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Introduction"
+    },
+    {
+      "section": 2,
+      "source_line": 37,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Pathology"
+    },
+    {
+      "section": 3,
+      "source_line": 59,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.bc0ca174ac6ddae57448c5da",
+        "candidate.stacks.df2ec8befb7c7d725dffc1a6",
+        "candidate.stacks.77b0f149fc8adb3426cde7f5",
+        "candidate.stacks.f4e7df35867432f1c330e560",
+        "candidate.stacks.94277058bc44d73e9e1742a6"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "The abelian category of sheaves of modules"
+    },
+    {
+      "section": 4,
+      "source_line": 322,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.21f342bd9932f02a681aa42b",
+        "candidate.stacks.ab96c6cd958ae67d9a459433",
+        "candidate.stacks.af681ebe85ec981ab3723371",
+        "candidate.stacks.d7967033e466b5ea211ad066"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Sections of sheaves of modules"
+    },
+    {
+      "section": 5,
+      "source_line": 466,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.aafa747c481aa9bade7af6dd",
+        "candidate.stacks.83caac1764efbb54892e6235"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Supports of modules and sections"
+    },
+    {
+      "section": 6,
+      "source_line": 548,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.7f86ef3dfede2e55b73ff78f",
+        "candidate.stacks.d7db14f2677069212952f65a"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Closed immersions and abelian sheaves"
+    },
+    {
+      "section": 7,
+      "source_line": 650,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.24eede9c4b06d2300ec67043"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "A canonical exact sequence"
+    },
+    {
+      "section": 8,
+      "source_line": 704,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.2773f4138ffc84cfe35bfab4"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Modules locally generated by sections"
+    },
+    {
+      "section": 9,
+      "source_line": 806,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.0c8cd39ec10548affaa32420",
+        "candidate.stacks.d8aeba97d757b7a17e65ee43",
+        "candidate.stacks.0f056a5a209b04eca151bc4d",
+        "candidate.stacks.a02439d46859aa0b23f7857c",
+        "candidate.stacks.251b1ef2c8690825f19a1090",
+        "candidate.stacks.cbc3d0ea1b13d0be736d307f",
+        "candidate.stacks.d4093b32ad8b38c6872a4d3b"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Modules of finite type"
+    },
+    {
+      "section": 10,
+      "source_line": 1006,
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.196e7619a08d48464683eb9c",
+        "candidate.stacks.01fc0a809e602acf63d88c0b",
+        "candidate.stacks.bda5a9d036487b966a4f8ae5",
+        "candidate.stacks.fac277c3923fe897aed122c4"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Quasi-coherent modules"
+    }
+  ]
+}
