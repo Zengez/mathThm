@@ -68,7 +68,7 @@
   "stage_a_remaining_work_candidate_count": 0,
   "stage_a_ready_for_codex_section_count": 5,
   "stage_a_work_pending": false,
-  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
   "processing_sections": [
     {
       "section": 1,
@@ -79,7 +79,8 @@
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Introduction"
+      "stage_a_source_context_heading": "Introduction",
+      "stage_a_source_context_summary": "Pinned sites.tex §1, L17–43; 0 active, 0 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 2,
@@ -90,7 +91,8 @@
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Presheaves"
+      "stage_a_source_context_heading": "Presheaves",
+      "stage_a_source_context_summary": "Pinned sites.tex §2, L44–137; 0 active, 0 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 3,
@@ -103,7 +105,8 @@
         "candidate.stacks.1ef24214c398211b0b439686"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Injective and surjective maps of presheaves"
+      "stage_a_source_context_heading": "Injective and surjective maps of presheaves",
+      "stage_a_source_context_summary": "Pinned sites.tex §3, L138–294; 1 active, 1 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 4,
@@ -114,7 +117,8 @@
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Limits and colimits of presheaves"
+      "stage_a_source_context_heading": "Limits and colimits of presheaves",
+      "stage_a_source_context_summary": "Pinned sites.tex §4, L295–366; 0 active, 0 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 5,
@@ -130,7 +134,8 @@
         "candidate.stacks.96f3e0a6c818699e4d60c637"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Functoriality of categories of presheaves"
+      "stage_a_source_context_heading": "Functoriality of categories of presheaves",
+      "stage_a_source_context_summary": "Pinned sites.tex §5, L367–657; 4 active, 4 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 6,
@@ -141,7 +146,8 @@
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Sites"
+      "stage_a_source_context_heading": "Sites",
+      "stage_a_source_context_summary": "Pinned sites.tex §6, L658–841; 0 active, 0 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 7,
@@ -152,7 +158,8 @@
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Sheaves"
+      "stage_a_source_context_heading": "Sheaves",
+      "stage_a_source_context_summary": "Pinned sites.tex §7, L842–1069; 0 active, 0 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 8,
@@ -170,7 +177,8 @@
         "candidate.stacks.69873496d64d71e86d2abf40"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Families of morphisms with fixed target"
+      "stage_a_source_context_heading": "Families of morphisms with fixed target",
+      "stage_a_source_context_summary": "Pinned sites.tex §8, L1070–1382; 6 active, 6 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 9,
@@ -183,7 +191,8 @@
         "candidate.stacks.434ca6e2558af47040c7246e"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "The example of G-sets"
+      "stage_a_source_context_heading": "The example of G-sets",
+      "stage_a_source_context_summary": "Pinned sites.tex §9, L1383–1629; 1 active, 1 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 10,
@@ -206,9 +215,19 @@
         "candidate.stacks.909d5d19ff6ec2c02df6cb66"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Sheafification"
+      "stage_a_source_context_heading": "Sheafification",
+      "stage_a_source_context_summary": "Pinned sites.tex §10, L1630–2235; 11 active, 11 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     }
   ],
   "stage_a_context_analysis": "22+ source setups from pinned manuscript; exact §5 indexing, §9 G-sets, §10 plus construction included in source statements. No proof inspected.",
-  "authoritative_exclusion_check": "All 9,675 active and 655 approved records reconciled before new A1 work."
+  "authoritative_exclusion_check": "All 9,675 active and 655 approved records reconciled before new A1 work.",
+  "processing_sections_format": "inline-v1",
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_dispositioned_section_count": 10,
+  "stage_a_section_mapping_pending": false,
+  "preliminary_source_holds": [],
+  "processing_note": "All active candidates in complete source sections have an A1 disposition; 'further_work_needed' is a documented hold, not unprocessed remaining work. Independent Stage B validation not yet performed."
 }
