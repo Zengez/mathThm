@@ -10,61 +10,6 @@
   "notes": "Exclusive worker queue. Delete only fully completed batches in the same commit as section results. All unready/previously selected IDs excluded by coordinator.",
   "pending": [
     {
-      "batch_id": "w4-b0021",
-      "chapter": "sheaves",
-      "source_file": "sheaves.tex",
-      "candidate_count": 4,
-      "section_count": 1,
-      "first_section_start_line": 5070,
-      "last_section_start_line": 5070,
-      "sections": [
-        {
-          "section_start_line": 5070,
-          "section_end_line": 5338,
-          "candidate_ids": [
-            "candidate.stacks.96865fb412626b403f1211e9",
-            "candidate.stacks.7ccce8e78c225f8481ad2dcf",
-            "candidate.stacks.926db905385d657610024715",
-            "candidate.stacks.9e45dcdd6c907b0b281f1429"
-          ]
-        }
-      ],
-      "candidates": [
-        {
-          "candidate_id": "candidate.stacks.96865fb412626b403f1211e9",
-          "source_line": 5077,
-          "section_start_line": 5070,
-          "section_end_line": 5338,
-          "section_ordinal": 33,
-          "stage_a_artifact": "harvest/phase2_chat_stage_a/sheaves/batch_01_sections_01_33/RECONSTRUCTIONS.jsonl"
-        },
-        {
-          "candidate_id": "candidate.stacks.7ccce8e78c225f8481ad2dcf",
-          "source_line": 5191,
-          "section_start_line": 5070,
-          "section_end_line": 5338,
-          "section_ordinal": 33,
-          "stage_a_artifact": "harvest/phase2_chat_stage_a/sheaves/batch_01_sections_01_33/RECONSTRUCTIONS.jsonl"
-        },
-        {
-          "candidate_id": "candidate.stacks.926db905385d657610024715",
-          "source_line": 5252,
-          "section_start_line": 5070,
-          "section_end_line": 5338,
-          "section_ordinal": 33,
-          "stage_a_artifact": "harvest/phase2_chat_stage_a/sheaves/batch_01_sections_01_33/RECONSTRUCTIONS.jsonl"
-        },
-        {
-          "candidate_id": "candidate.stacks.9e45dcdd6c907b0b281f1429",
-          "source_line": 5283,
-          "section_start_line": 5070,
-          "section_end_line": 5338,
-          "section_ordinal": 33,
-          "stage_a_artifact": "harvest/phase2_chat_stage_a/sheaves/batch_01_sections_01_33/RECONSTRUCTIONS.jsonl"
-        }
-      ]
-    },
-    {
       "batch_id": "w4-b0022",
       "chapter": "simplicial",
       "source_file": "simplicial.tex",
