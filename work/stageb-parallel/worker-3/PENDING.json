@@ -10,34 +10,6 @@
   "notes": "Exclusive worker queue. Delete only fully completed batches in the same commit as section results. All unready/previously selected IDs excluded by coordinator.",
   "pending": [
     {
-      "batch_id": "w3-b0016",
-      "chapter": "groupoids-quotients",
-      "source_file": "groupoids-quotients.tex",
-      "candidate_count": 1,
-      "section_count": 1,
-      "first_section_start_line": 40,
-      "last_section_start_line": 40,
-      "sections": [
-        {
-          "section_start_line": 40,
-          "section_end_line": 272,
-          "candidate_ids": [
-            "candidate.stacks.de103088847999a7f38ddffc"
-          ]
-        }
-      ],
-      "candidates": [
-        {
-          "candidate_id": "candidate.stacks.de103088847999a7f38ddffc",
-          "source_line": 66,
-          "section_start_line": 40,
-          "section_end_line": 272,
-          "section_ordinal": null,
-          "stage_a_artifact": "harvest/phase2_chat_stage_a/groupoids-quotients/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl"
-        }
-      ]
-    },
-    {
       "batch_id": "w3-b0017",
       "chapter": "homology",
       "source_file": "homology.tex",
