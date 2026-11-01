@@ -211,13 +211,14 @@
   "stage_b_validation_count": 0,
   "proofs_reviewed": 0,
   "phase3_promotions": 0,
-  "stage_a1_status": "not_started_on_this_branch",
+  "stage_a1_status": "completed_in_separate_stage_a_chapter_batches",
   "notes": [
     "This is source-first A0 evidence, not full Stage A/A1 review. No existing Stage A manifests, authoritative approvals, or global further-work registry are modified.",
     "Same-file referenced results are copied as source leads only. Their assumptions are NOT inherited automatically.",
     "Context-only sections are retained in source-order checkpoints.",
     "Pinned cross-file definitions/lemmas from categories.tex and sets.tex retrieved as A0 source evidence only, not assumptions or mathematical approval; Sets notation still needs surrounding-source check.",
-    "Full active pool of 9,675 candidates and 655 authoritative approved records was retrieved by blob-SHA and checked; 137/161 sites.tex records active and none previously approved."
+    "Full active pool of 9,675 candidates and 655 authoritative approved records was retrieved by blob-SHA and checked; 137/161 sites.tex records active and none previously approved.",
+    "A0 packet remains a preliminary source artifact; companion Stage A1 chapter review finished on the isolated sites-source-prepass branch, with 133 ready and 4 holds. See CHAPTER_COMPLETION_REPORT.md."
   ],
   "files": {
     "workpackets": "A0_WORKPACKETS_V2.jsonl",
@@ -370,5 +371,14 @@
       "source_label": "lemma-L-presheaf",
       "candidate_id": "candidate.stacks.65d47cd32e6c7d53c9b1b6d9"
     }
-  ]
+  ],
+  "stage_a1_companion_summary": {
+    "report_path": "harvest/phase2_chat_stage_a/sites/CHAPTER_COMPLETION_REPORT.md",
+    "manifest_path": "harvest/phase2_chat_stage_a/sites/CHAPTER_MANIFEST.json",
+    "candidate_count": 137,
+    "standalone_prepared": 133,
+    "further_work_needed": 4,
+    "unprocessed_active": 0,
+    "independent_stage_b_validated": 0
+  }
 }
