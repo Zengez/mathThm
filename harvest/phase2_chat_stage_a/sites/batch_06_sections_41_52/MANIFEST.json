@@ -68,7 +68,7 @@
   "stage_a_remaining_work_candidate_count": 0,
   "stage_a_ready_for_codex_section_count": 9,
   "stage_a_work_pending": false,
-  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
   "processing_sections": [
     {
       "section": 41,
@@ -83,7 +83,8 @@
         "candidate.stacks.99519e1fc07ba51126c6cdb9"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Exactness properties of pushforward"
+      "stage_a_source_context_heading": "Exactness properties of pushforward",
+      "stage_a_source_context_summary": "Pinned sites.tex §41, L9541–9895; 3 active, 3 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 42,
@@ -99,7 +100,8 @@
         "candidate.stacks.0388ebab364e6e44b49c0674"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Almost cocontinuous functors"
+      "stage_a_source_context_heading": "Almost cocontinuous functors",
+      "stage_a_source_context_summary": "Pinned sites.tex §42, L9896–10081; 4 active, 4 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 43,
@@ -114,7 +116,8 @@
         "candidate.stacks.042b63e9076c86a27e3153af"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Subtopoi"
+      "stage_a_source_context_heading": "Subtopoi",
+      "stage_a_source_context_summary": "Pinned sites.tex §43, L10082–10305; 3 active, 3 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 44,
@@ -127,7 +130,8 @@
         "candidate.stacks.9402492ba8b959d9dd75b9b1"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Sheaves of algebraic structures"
+      "stage_a_source_context_heading": "Sheaves of algebraic structures",
+      "stage_a_source_context_summary": "Pinned sites.tex §44, L10306–10594; 1 active, 1 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 45,
@@ -140,7 +144,8 @@
         "candidate.stacks.ac48dab73deaa86334edbe8e"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Pullback maps"
+      "stage_a_source_context_heading": "Pullback maps",
+      "stage_a_source_context_summary": "Pinned sites.tex §45, L10595–10780; 1 active, 1 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 46,
@@ -151,7 +156,8 @@
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Comparison with SGA4"
+      "stage_a_source_context_heading": "Comparison with SGA4",
+      "stage_a_source_context_summary": "Pinned sites.tex §46, L10781–10863; 0 active, 0 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 47,
@@ -168,7 +174,8 @@
         "candidate.stacks.ffb12f7ecad42fbc49ee3d64"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Topologies"
+      "stage_a_source_context_heading": "Topologies",
+      "stage_a_source_context_summary": "Pinned sites.tex §47, L10864–11219; 5 active, 5 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 48,
@@ -181,7 +188,8 @@
         "candidate.stacks.dbd52467d9dacda8065926b5"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "The topology defined by a site"
+      "stage_a_source_context_heading": "The topology defined by a site",
+      "stage_a_source_context_summary": "Pinned sites.tex §48, L11220–11438; 1 active, 1 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 49,
@@ -195,7 +203,8 @@
         "candidate.stacks.a9623ca83ecd6ba846b8ccc6"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Sheafification in a topology"
+      "stage_a_source_context_heading": "Sheafification in a topology",
+      "stage_a_source_context_summary": "Pinned sites.tex §49, L11439–11681; 2 active, 2 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 50,
@@ -210,7 +219,8 @@
         "candidate.stacks.17fc792c51603ca34f250090"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Topologies and sheaves"
+      "stage_a_source_context_heading": "Topologies and sheaves",
+      "stage_a_source_context_summary": "Pinned sites.tex §50, L11682–11806; 3 active, 3 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 51,
@@ -221,7 +231,8 @@
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Topologies and continuous functors"
+      "stage_a_source_context_heading": "Topologies and continuous functors",
+      "stage_a_source_context_summary": "Pinned sites.tex §51, L11807–11817; 0 active, 0 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 52,
@@ -232,8 +243,18 @@
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Points and topologies"
+      "stage_a_source_context_heading": "Points and topologies",
+      "stage_a_source_context_summary": "Pinned sites.tex §52, L11818–11861; 0 active, 0 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     }
   ],
-  "note": "All source sections 41–52 traversed, with no-candidate sections retained. All 23 active candidates checked for source-context standalone preparations; no Phase3 promotion or Stage B validation."
+  "note": "All source sections 41–52 traversed, with no-candidate sections retained. All 23 active candidates checked for source-context standalone preparations; no Phase3 promotion or Stage B validation.",
+  "processing_sections_format": "inline-v1",
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_dispositioned_section_count": 12,
+  "stage_a_section_mapping_pending": false,
+  "preliminary_source_holds": [],
+  "processing_note": "All active candidates in complete source sections have an A1 disposition; 'further_work_needed' is a documented hold, not unprocessed remaining work. Independent Stage B validation not yet performed."
 }
