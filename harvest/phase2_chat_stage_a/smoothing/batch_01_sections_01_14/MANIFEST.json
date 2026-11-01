@@ -1,0 +1,267 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "chapter": "smoothing.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "sections_ordinal": [
+    1,
+    14
+  ],
+  "source_section_starts": [
+    17,
+    116,
+    333,
+    857,
+    1227,
+    1414,
+    1658,
+    1907,
+    2074,
+    2279,
+    2437,
+    3106,
+    3140,
+    3379
+  ],
+  "first_source_line": 17,
+  "last_source_line": 3445,
+  "complete_sections": true,
+  "stage_a_candidate_count": 41,
+  "candidate_ids": [
+    "candidate.stacks.5fb9c1361a632d2737bf10c5",
+    "candidate.stacks.61d24c8b9c1d5540a6654218",
+    "candidate.stacks.1914a1b20dbe0f34f182de50",
+    "candidate.stacks.fb54db0a27271bf260a399d2",
+    "candidate.stacks.87424ae82134dbfbd79556db",
+    "candidate.stacks.c713145a43c61281c07ce370",
+    "candidate.stacks.cbc71e2710d57784cced2866",
+    "candidate.stacks.fbc78832c95f94b8b42262ee",
+    "candidate.stacks.05f23bc4624e1e8a904b7d6a",
+    "candidate.stacks.34fec61853ff359b4745020d",
+    "candidate.stacks.41f42cc798a69f478f7b15c7",
+    "candidate.stacks.8c07e48b30e4e46add90fc5c",
+    "candidate.stacks.65f6e6c0813ea9e4b94286b9",
+    "candidate.stacks.35eb5f6d4e3c351d5d88351a",
+    "candidate.stacks.083130f781d32e2d532dbbf7",
+    "candidate.stacks.df5092c25e2882790e251e81",
+    "candidate.stacks.e93f3f97aa5abad79f93e5cc",
+    "candidate.stacks.ef26c714d2bebf04b09e2a90",
+    "candidate.stacks.e180fe8ac11ddcf15ca52562",
+    "candidate.stacks.1eec6503db0e707fd361acc3",
+    "candidate.stacks.51f13cbfe109cb161818284e",
+    "candidate.stacks.f1d80056f998bd7f4244b7bf",
+    "candidate.stacks.168cbbc5783690f3ae97474d",
+    "candidate.stacks.5d3b73313be789e96b239269",
+    "candidate.stacks.2c32445fe84916e9e990a86c",
+    "candidate.stacks.c7840f3539318f53d1b08d6a",
+    "candidate.stacks.8b6a2b89cccc246f749ebc3e",
+    "candidate.stacks.52fb76b45f0d14c3099ba2c6",
+    "candidate.stacks.f5a376d1af266fcea4e4ab8c",
+    "candidate.stacks.58d29458c1a1d2c21494e0b2",
+    "candidate.stacks.ff29973edf08dec51dab3081",
+    "candidate.stacks.4ab9bf2b9e3afbb0267fbd04",
+    "candidate.stacks.4f5f1dabb237546fef52faec",
+    "candidate.stacks.762c779a8b61945c961a8288",
+    "candidate.stacks.74558dbc47ede9c824ecd3dc",
+    "candidate.stacks.cb7e6f55c2a7ab4c2c778432",
+    "candidate.stacks.a140061406b6aa3f7dcb8ea7",
+    "candidate.stacks.a400d6629d8307fc4ab01bfa",
+    "candidate.stacks.bcba821eb0bcc5e46122f64f",
+    "candidate.stacks.33bb3a80487145fe7b5153ab",
+    "candidate.stacks.9bd52a9e7f2d30e3e3901844"
+  ],
+  "stage_a_ready_for_codex_candidate_count": 36,
+  "stage_a_remaining_work_candidate_count": 5,
+  "stage_a_excluded_candidate_count": 1,
+  "stage_a_excluded_candidates": [
+    {
+      "source_line": 2002,
+      "reason": "outside canonical active pool"
+    }
+  ],
+  "stage_a_ready_for_codex_section_count": 9,
+  "stage_a_remaining_work_section_count": 4,
+  "stage_a_work_pending": true,
+  "stage_a_further_work_candidates": [
+    {
+      "candidate_id": "candidate.stacks.61d24c8b9c1d5540a6654218",
+      "source_file": "smoothing.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 228,
+      "source_label": "lemma-parse-equation-strictly-standard-one",
+      "section_ordinal": 2,
+      "packet_path": "harvest/phase2_chat_stage_a/smoothing/batch_01_sections_01_14/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/smoothing.tex#L228",
+      "unresolved_issue": "Unquantified c in equation-strictly-standard-one and scope of a^c require expansion from the exact source definition.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.ff29973edf08dec51dab3081",
+      "source_file": "smoothing.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 2305,
+      "source_label": "lemma-find-sequence",
+      "section_ordinal": 10,
+      "packet_path": "harvest/phase2_chat_stage_a/smoothing/batch_01_sections_01_14/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/smoothing.tex#L2305",
+      "unresolved_issue": "Source reuses n as an incoming integer and an existential integer in the result; precise quantifier shadowing needs adjudication.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.74558dbc47ede9c824ecd3dc",
+      "source_file": "smoothing.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 2623,
+      "source_label": "lemma-enlarge-solution-modulo",
+      "section_ordinal": 11,
+      "packet_path": "harvest/phase2_chat_stage_a/smoothing/batch_01_sections_01_14/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/smoothing.tex#L2623",
+      "unresolved_issue": "Requires full source-equivalent object matching for the earlier lemma-solution-modulo, including its factorizations and field assumptions.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.bcba821eb0bcc5e46122f64f",
+      "source_file": "smoothing.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 3237,
+      "source_label": "theorem-approximation-property-variant",
+      "section_ordinal": 13,
+      "packet_path": "harvest/phase2_chat_stage_a/smoothing/batch_01_sections_01_14/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/smoothing.tex#L3237",
+      "unresolved_issue": "The source compares completed R-elements to elements of an étale R'-algebra without naming the requisite map for a_i−b_i.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.33bb3a80487145fe7b5153ab",
+      "source_file": "smoothing.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 3346,
+      "source_label": "lemma-approximation-property-variant",
+      "section_ordinal": 13,
+      "packet_path": "harvest/phase2_chat_stage_a/smoothing/batch_01_sections_01_14/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/smoothing.tex#L3346",
+      "unresolved_issue": "The source compares two different localized completions without writing the comparison map; check scope and canonical identifications.",
+      "status": "further_work_needed"
+    }
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "source_end_line": 115,
+      "stage_a_readiness": "no_active_candidates",
+      "active_candidate_count": 0
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 116,
+      "source_end_line": 332,
+      "stage_a_readiness": "further_work_needed",
+      "active_candidate_count": 5
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 333,
+      "source_end_line": 856,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 7
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 857,
+      "source_end_line": 1226,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 5
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 1227,
+      "source_end_line": 1413,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 3
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 1414,
+      "source_end_line": 1657,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 1
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1658,
+      "source_end_line": 1906,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 3
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1907,
+      "source_end_line": 2073,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 2
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 2074,
+      "source_end_line": 2278,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 3
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2279,
+      "source_end_line": 2436,
+      "stage_a_readiness": "further_work_needed",
+      "active_candidate_count": 3
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2437,
+      "source_end_line": 3105,
+      "stage_a_readiness": "further_work_needed",
+      "active_candidate_count": 4
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 3106,
+      "source_end_line": 3139,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 1
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 3140,
+      "source_end_line": 3378,
+      "stage_a_readiness": "further_work_needed",
+      "active_candidate_count": 3
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 3379,
+      "source_end_line": 3445,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 1
+    }
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/smoothing/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/smoothing/batch_01_sections_01_14/CONTEXT_LEDGER.jsonl",
+  "section_checkpoint_file": "harvest/phase2_chat_stage_a/smoothing/batch_01_sections_01_14/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0
+}

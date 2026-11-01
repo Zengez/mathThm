@@ -1,0 +1,303 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "chapter": "injectives.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "sections_ordinal": [
+    1,
+    15
+  ],
+  "source_section_starts": [
+    17,
+    38,
+    397,
+    434,
+    493,
+    562,
+    667,
+    878,
+    1041,
+    1257,
+    1333,
+    1557,
+    1895,
+    2525,
+    2743
+  ],
+  "first_source_line": 17,
+  "last_source_line": 2844,
+  "complete_sections": true,
+  "stage_a_candidate_count": 40,
+  "candidate_ids": [
+    "candidate.stacks.131dd559ec53fba1d0ba0638",
+    "candidate.stacks.d51aceb1d592e14ae7cac8a5",
+    "candidate.stacks.7849dfb0d3b6d83d5b0bcec3",
+    "candidate.stacks.3f918a88e0ee323a8916c588",
+    "candidate.stacks.54b04a80e972511aa11674f2",
+    "candidate.stacks.cb97e971b14d237c07952755",
+    "candidate.stacks.71d0e7205d6b5da6081c5ff3",
+    "candidate.stacks.7991d19989a220fb0eb24281",
+    "candidate.stacks.22fe010b005fde0b6c854088",
+    "candidate.stacks.994c933c3beb7424138c78d1",
+    "candidate.stacks.5924b75b82444bf569a2d3f5",
+    "candidate.stacks.528988e12cbca59fde6c78d9",
+    "candidate.stacks.b0e8a5a017855bb6bb9cbb34",
+    "candidate.stacks.d61c7833181d8a174e1d35c9",
+    "candidate.stacks.dbce1d52649a907d91f677c6",
+    "candidate.stacks.c9637d263776acacc003d726",
+    "candidate.stacks.03a788ac35cae5bcd3370101",
+    "candidate.stacks.c4124be0965c877cf1311aa7",
+    "candidate.stacks.736ac9fc4af5f910e121c3e6",
+    "candidate.stacks.59f2b2a711c2edc8e63fc64a",
+    "candidate.stacks.2a568cf0e62fe13f3487140f",
+    "candidate.stacks.790f49a15c6ebb425aa8ccf2",
+    "candidate.stacks.fa1f0582467ebde6d192e420",
+    "candidate.stacks.285d78343e6aa931dd92c0f2",
+    "candidate.stacks.0a89f3dc40fd53fd6387672b",
+    "candidate.stacks.a61142f149a7f87d10abc0fa",
+    "candidate.stacks.2302f3d45a72d36f6002a79d",
+    "candidate.stacks.1f9838690718442bae8b47e4",
+    "candidate.stacks.f92560047baa51078f727b6b",
+    "candidate.stacks.7c87d0b9d6114a3ade7ab43e",
+    "candidate.stacks.4cc2bdda78f2588e842e144d",
+    "candidate.stacks.fe7ee3919bd11b64715e717b",
+    "candidate.stacks.624f9fab80f33d275de6cd2e",
+    "candidate.stacks.580643d55523a9b92b69ae38",
+    "candidate.stacks.51df09cc42d55a89234973c3",
+    "candidate.stacks.bceb6399c6752d19174554f5",
+    "candidate.stacks.cec18440aaef234fdf3ee2e0",
+    "candidate.stacks.d1d51e552dc35f44dde704d3",
+    "candidate.stacks.884ccafa0915709d442877c1",
+    "candidate.stacks.0c9b142531be30f9d39900f2"
+  ],
+  "stage_a_ready_for_codex_candidate_count": 34,
+  "stage_a_remaining_work_candidate_count": 6,
+  "stage_a_excluded_candidate_count": 5,
+  "stage_a_excluded_candidates": [
+    {
+      "source_line": 646,
+      "reason": "outside canonical active pool"
+    },
+    {
+      "source_line": 709,
+      "reason": "outside canonical active pool"
+    },
+    {
+      "source_line": 946,
+      "reason": "outside canonical active pool"
+    },
+    {
+      "source_line": 2660,
+      "reason": "outside canonical active pool"
+    },
+    {
+      "source_line": 2704,
+      "reason": "outside canonical active pool"
+    }
+  ],
+  "stage_a_ready_for_codex_section_count": 7,
+  "stage_a_remaining_work_section_count": 5,
+  "stage_a_work_pending": true,
+  "stage_a_further_work_candidates": [
+    {
+      "candidate_id": "candidate.stacks.cb97e971b14d237c07952755",
+      "source_file": "injectives.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 408,
+      "source_label": "lemma-G-modules",
+      "section_ordinal": 3,
+      "packet_path": "harvest/phase2_chat_stage_a/injectives/batch_01_sections_01_15/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/injectives.tex#L408",
+      "unresolved_issue": "Continuous R-G-module semantics depend on a cross-chapter source definition not checked here.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.22fe010b005fde0b6c854088",
+      "source_file": "injectives.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 739,
+      "source_label": "lemma-map-into-smaller",
+      "section_ordinal": 7,
+      "packet_path": "harvest/phase2_chat_stage_a/injectives/batch_01_sections_01_15/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/injectives.tex#L739",
+      "unresolved_issue": "Verify the transfinite J_beta and ordinal uniformity/naturality before declaring a standalone sheaf embedding lemma.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.528988e12cbca59fde6c78d9",
+      "source_file": "injectives.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 930,
+      "source_label": "lemma-vee-exact-sheaves",
+      "section_ordinal": 8,
+      "packet_path": "harvest/phase2_chat_stage_a/injectives/batch_01_sections_01_15/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/injectives.tex#L930",
+      "unresolved_issue": "Chosen injective abelian sheaf J, O-action, and internal dual require a precise type/scope check; not any arbitrary dual.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.a61142f149a7f87d10abc0fa",
+      "source_file": "injectives.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 1632,
+      "source_label": "lemma-characterize-K-injective",
+      "section_ordinal": 12,
+      "packet_path": "harvest/phase2_chat_stage_a/injectives/batch_01_sections_01_15/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/injectives.tex#L1632",
+      "unresolved_issue": "The chosen κ has two simultaneous universal source properties; explicitly reconstruct before independent validation.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.580643d55523a9b92b69ae38",
+      "source_file": "injectives.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 2107,
+      "source_label": "lemma-K-injective-embedding-filtration",
+      "section_ordinal": 13,
+      "packet_path": "harvest/phase2_chat_stage_a/injectives/batch_01_sections_01_15/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/injectives.tex#L2107",
+      "unresolved_issue": "Homology filtered-complex conventions and filtration-index order p,p' need mathematical verification.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.bceb6399c6752d19174554f5",
+      "source_file": "injectives.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 2488,
+      "source_label": "lemma-represent-by-filtered-complex-bis",
+      "section_ordinal": 13,
+      "packet_path": "harvest/phase2_chat_stage_a/injectives/batch_01_sections_01_15/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/injectives.tex#L2488",
+      "unresolved_issue": "Inherited first inverse system, E and compatible two-filtration correspondences need full source-equivalence review.",
+      "status": "further_work_needed"
+    }
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "source_end_line": 37,
+      "stage_a_readiness": "no_active_candidates",
+      "active_candidate_count": 0
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 38,
+      "source_end_line": 396,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 5
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 397,
+      "source_end_line": 433,
+      "stage_a_readiness": "further_work_needed",
+      "active_candidate_count": 1
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 434,
+      "source_end_line": 492,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 1
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 493,
+      "source_end_line": 561,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 1
+    },
+    {
+      "section": 6,
+      "kind": "context_only",
+      "source_line": 562,
+      "source_end_line": 666,
+      "stage_a_readiness": "no_active_candidates",
+      "active_candidate_count": 0
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 667,
+      "source_end_line": 877,
+      "stage_a_readiness": "further_work_needed",
+      "active_candidate_count": 3
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 878,
+      "source_end_line": 1040,
+      "stage_a_readiness": "further_work_needed",
+      "active_candidate_count": 4
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1041,
+      "source_end_line": 1256,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 2
+    },
+    {
+      "section": 10,
+      "kind": "context_only",
+      "source_line": 1257,
+      "source_end_line": 1332,
+      "stage_a_readiness": "no_active_candidates",
+      "active_candidate_count": 0
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1333,
+      "source_end_line": 1556,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 6
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1557,
+      "source_end_line": 1894,
+      "stage_a_readiness": "further_work_needed",
+      "active_candidate_count": 6
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 1895,
+      "source_end_line": 2524,
+      "stage_a_readiness": "further_work_needed",
+      "active_candidate_count": 7
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2525,
+      "source_end_line": 2742,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 2
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2743,
+      "source_end_line": 2844,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "active_candidate_count": 2
+    }
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/injectives/batch_01_sections_01_15/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/injectives/batch_01_sections_01_15/CONTEXT_LEDGER.jsonl",
+  "section_checkpoint_file": "harvest/phase2_chat_stage_a/injectives/batch_01_sections_01_15/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0
+}
