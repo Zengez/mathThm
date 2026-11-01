@@ -1,0 +1,158 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "cohomology-source-ordered-batch-06",
+  "chapter": "cohomology.tex",
+  "sections_ordinal": [
+    36,
+    40
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    9199,
+    9444,
+    9833,
+    9973,
+    10116
+  ],
+  "first_source_line": 9199,
+  "last_source_line": 10290,
+  "complete_sections": true,
+  "stage_a_candidate_count": 20,
+  "candidate_ids": [
+    "candidate.stacks.4edca6da347e8f561faa4342",
+    "candidate.stacks.958a7bdb864be0098a32a87c",
+    "candidate.stacks.42f7281e805e002753f69c14",
+    "candidate.stacks.1beb18cbc5e1676d453a1184",
+    "candidate.stacks.fd96b0d86273119e664bad69",
+    "candidate.stacks.e9ffc4053943a6bdcaafc735",
+    "candidate.stacks.bee094126ddc6b912dfe9c2c",
+    "candidate.stacks.a3431eba3609f5664c045bd6",
+    "candidate.stacks.c706cbbf98b704c51f88391b",
+    "candidate.stacks.24f2b150d7786418d57653f1",
+    "candidate.stacks.48bd1bb6ac0f9743356aa40e",
+    "candidate.stacks.bf7f4aef97a7a6e8ab415d32",
+    "candidate.stacks.f9be4f65c2693f45fc0bb838",
+    "candidate.stacks.b676097d59e271c9e7c437b0",
+    "candidate.stacks.078683f09061318e270c7dcf",
+    "candidate.stacks.99773eca7bf6e9905dc2f082",
+    "candidate.stacks.f7ab9c83b5460db90c8345b2",
+    "candidate.stacks.51321fd84281e038a3da8917",
+    "candidate.stacks.0e08cd8ce15527ea284e42b6",
+    "candidate.stacks.04814c990af6a34b39824699"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/cohomology/batch_06_sections_36_40/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/cohomology/batch_06_sections_36_40/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/cohomology/batch_06_sections_36_40/SECTION_CHECKPOINTS.jsonl",
+  "ledger_predecessor_checkpoint": "harvest/phase2_chat_stage_a/cohomology/batch_05_sections_31_35/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "source_theorem_env_skipped_nonactive_labels": [
+    "lemma-K-injective"
+  ],
+  "processing_sections": [
+    {
+      "section": 36,
+      "kind": "candidates",
+      "source_line": 9199,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.4edca6da347e8f561faa4342",
+        "candidate.stacks.958a7bdb864be0098a32a87c",
+        "candidate.stacks.42f7281e805e002753f69c14",
+        "candidate.stacks.1beb18cbc5e1676d453a1184",
+        "candidate.stacks.fd96b0d86273119e664bad69"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Inverse systems and cohomology, II",
+      "stage_a_source_context_summary": "Pinned source §36 L9199–9443: 5 active, 5 prepared, 0 further work."
+    },
+    {
+      "section": 37,
+      "kind": "candidates",
+      "source_line": 9444,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e9ffc4053943a6bdcaafc735",
+        "candidate.stacks.bee094126ddc6b912dfe9c2c",
+        "candidate.stacks.a3431eba3609f5664c045bd6",
+        "candidate.stacks.c706cbbf98b704c51f88391b",
+        "candidate.stacks.24f2b150d7786418d57653f1",
+        "candidate.stacks.48bd1bb6ac0f9743356aa40e",
+        "candidate.stacks.bf7f4aef97a7a6e8ab415d32",
+        "candidate.stacks.f9be4f65c2693f45fc0bb838",
+        "candidate.stacks.b676097d59e271c9e7c437b0",
+        "candidate.stacks.078683f09061318e270c7dcf"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Derived limits",
+      "stage_a_source_context_summary": "Pinned source §37 L9444–9832: 10 active, 10 prepared, 0 further work."
+    },
+    {
+      "section": 38,
+      "kind": "candidates",
+      "source_line": 9833,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.99773eca7bf6e9905dc2f082"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Producing K-injective resolutions",
+      "stage_a_source_context_summary": "Pinned source §38 L9833–9972: 1 active, 1 prepared, 0 further work."
+    },
+    {
+      "section": 39,
+      "kind": "candidates",
+      "source_line": 9973,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f7ab9c83b5460db90c8345b2",
+        "candidate.stacks.51321fd84281e038a3da8917"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.f7ab9c83b5460db90c8345b2"
+      ],
+      "stage_a_source_context_heading": "Inverse systems and cohomology, III",
+      "stage_a_source_context_summary": "Pinned source §39 L9973–10115: 2 active, 1 prepared, 1 further work."
+    },
+    {
+      "section": 40,
+      "kind": "candidates",
+      "source_line": 10116,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.0e08cd8ce15527ea284e42b6",
+        "candidate.stacks.04814c990af6a34b39824699"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "{\\v C}ech cohomology of unbounded complexes",
+      "stage_a_source_context_summary": "Pinned source §40 L10116–10290: 2 active, 2 prepared, 0 further work."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 19,
+  "stage_a_remaining_work_candidate_count": 1,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 4,
+  "stage_a_remaining_work_section_count": 1,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "processing_note": "Cohomology §§36–40 prepared: inverse-system exactness condition expanded; one noncanonical lemma-K-injective excluded. Next §41 L10291."
+}

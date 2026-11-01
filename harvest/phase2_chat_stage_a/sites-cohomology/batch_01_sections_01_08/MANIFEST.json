@@ -1,0 +1,192 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-cohomology-source-ordered-20261031-01",
+  "chapter": "sites-cohomology.tex",
+  "sections_ordinal": [
+    1,
+    8
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17,
+    31,
+    139,
+    238,
+    368,
+    513,
+    600,
+    789
+  ],
+  "first_source_line": 17,
+  "last_source_line": 893,
+  "complete_sections": true,
+  "stage_a_candidate_count": 10,
+  "candidate_ids": [
+    "candidate.stacks.675b6e0dddeb6cdeb4480a80",
+    "candidate.stacks.8bf39b2747bfd4214abdd5d3",
+    "candidate.stacks.4744aaf8a05b70231a009c42",
+    "candidate.stacks.063cf44829e7bde5e6d176cf",
+    "candidate.stacks.ad026bcb005e5e993ef91647",
+    "candidate.stacks.5591616d646937cbb3b7e882",
+    "candidate.stacks.84859279a15f0d4f7e5e4113",
+    "candidate.stacks.ca242fb87350c0bdcec8ec3a",
+    "candidate.stacks.36046e4742b9ada93c33e3b0",
+    "candidate.stacks.8c52c63eacd337fdcc5d426c"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1,
+    2,
+    3
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "section_end_line": 30,
+      "source_heading": "Introduction",
+      "active_candidate_ids": [],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 31,
+      "section_end_line": 138,
+      "source_heading": "Cohomology of sheaves",
+      "active_candidate_ids": [],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 3,
+      "kind": "context_only",
+      "source_line": 139,
+      "section_end_line": 237,
+      "source_heading": "Derived functors",
+      "active_candidate_ids": [],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 238,
+      "section_end_line": 367,
+      "source_heading": "First cohomology and torsors",
+      "active_candidate_ids": [
+        "candidate.stacks.675b6e0dddeb6cdeb4480a80",
+        "candidate.stacks.8bf39b2747bfd4214abdd5d3"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 368,
+      "section_end_line": 512,
+      "source_heading": "First cohomology and extensions",
+      "active_candidate_ids": [
+        "candidate.stacks.4744aaf8a05b70231a009c42",
+        "candidate.stacks.063cf44829e7bde5e6d176cf"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 513,
+      "section_end_line": 599,
+      "source_heading": "First cohomology and invertible sheaves",
+      "active_candidate_ids": [
+        "candidate.stacks.ad026bcb005e5e993ef91647"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 600,
+      "section_end_line": 788,
+      "source_heading": "Locality of cohomology",
+      "active_candidate_ids": [
+        "candidate.stacks.5591616d646937cbb3b7e882",
+        "candidate.stacks.84859279a15f0d4f7e5e4113",
+        "candidate.stacks.ca242fb87350c0bdcec8ec3a",
+        "candidate.stacks.36046e4742b9ada93c33e3b0"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 789,
+      "section_end_line": 893,
+      "source_heading": "The Čech complex and Čech cohomology",
+      "active_candidate_ids": [
+        "candidate.stacks.8c52c63eacd337fdcc5d426c"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "context_ledgers_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 10,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 5,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 8,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Source-ordered Stage A §1–8. Pinned source, explicit cross-chapter lookup for Sites lemma-bigger-site and Sites Modules Pic definitions. No proof consulted, no Codex validation or Phase3 promotion. Definitions/notation carried by scoped ledger; no theorem-local hypotheses inherited.",
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/SECTION_CHECKPOINTS.jsonl"
+}

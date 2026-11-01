@@ -1,0 +1,246 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "20-section-experiment-43",
+  "chapter": "proetale.tex",
+  "sections_ordinal": [
+    23,
+    31
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    4674,
+    4756,
+    4793,
+    5041,
+    5216,
+    5440,
+    5757,
+    6175,
+    6279
+  ],
+  "first_source_line": 4674,
+  "last_source_line": 6463,
+  "complete_sections": true,
+  "stage_a_candidate_count": 33,
+  "candidate_ids": [
+    "candidate.stacks.ab12a71621040ff20ca9f17f",
+    "candidate.stacks.f12e8b3fa9698b656f643fd0",
+    "candidate.stacks.2fad5cdfe776c8fa7815715a",
+    "candidate.stacks.6fc9195b65ae9ec036373b29",
+    "candidate.stacks.e1a55cc4381bfb43824b7609",
+    "candidate.stacks.7eeeffed5741bd3a6a712681",
+    "candidate.stacks.e09fa55dc1a45bb074e6df66",
+    "candidate.stacks.636706e6333af8760a737da9",
+    "candidate.stacks.573e5333307dfb7af3ebbc24",
+    "candidate.stacks.9fd2c72ad82d1bc608f5ef09",
+    "candidate.stacks.2389413076a590c2e75b6baf",
+    "candidate.stacks.74cb87691fe4592df80e44a6",
+    "candidate.stacks.862bbb1147555b7f65b8d514",
+    "candidate.stacks.3d59dc5cb53f5e2780daa73d",
+    "candidate.stacks.75f00e4bdef93b0d37ec7b3a",
+    "candidate.stacks.d231410934cfe54bcf8007d6",
+    "candidate.stacks.8a948e68c6364c31d786a60f",
+    "candidate.stacks.3818ee7cfaf08078aa79483f",
+    "candidate.stacks.5e48601c5378f718f8cd1bc6",
+    "candidate.stacks.936eead0949eec9476dfe90e",
+    "candidate.stacks.9b634f0f10cf766c5af8f2a6",
+    "candidate.stacks.489ce7150ec97266b0d28233",
+    "candidate.stacks.cffced7aefdd77a481133c53",
+    "candidate.stacks.50d7644b0f5d2c6bb07fd0fa",
+    "candidate.stacks.dbe72dc8effc2a1a89bc2564",
+    "candidate.stacks.4d60d40710945612dc89da7a",
+    "candidate.stacks.28bb30d461f4672206333297",
+    "candidate.stacks.8603c11687e493b2de356643",
+    "candidate.stacks.6bf37c3844eb7d4b1a6ca892",
+    "candidate.stacks.72b65ff804f6a2d3f1f23407",
+    "candidate.stacks.9ef628012dc538195e3e2885",
+    "candidate.stacks.8317555820b4fc1dc819ef9e",
+    "candidate.stacks.2ce7359a2179433600554f12"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/proetale/batch_03_sections_23_31/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.2fad5cdfe776c8fa7815715a",
+    "candidate.stacks.6fc9195b65ae9ec036373b29",
+    "candidate.stacks.28bb30d461f4672206333297",
+    "candidate.stacks.8603c11687e493b2de356643",
+    "candidate.stacks.6bf37c3844eb7d4b1a6ca892",
+    "candidate.stacks.72b65ff804f6a2d3f1f23407",
+    "candidate.stacks.9ef628012dc538195e3e2885",
+    "candidate.stacks.8317555820b4fc1dc819ef9e",
+    "candidate.stacks.2ce7359a2179433600554f12"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 4674,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.ab12a71621040ff20ca9f17f"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Functoriality of the pro-\\'etale site",
+      "stage_a_source_context_summary": "Named source definitions/sites considered separately from actual theorem hypotheses."
+    },
+    {
+      "section": 24,
+      "kind": "candidates",
+      "source_line": 4756,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f12e8b3fa9698b656f643fd0"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Finite morphisms and pro-\\'etale sites",
+      "stage_a_source_context_summary": "Named source definitions/sites considered separately from actual theorem hypotheses."
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 4793,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.2fad5cdfe776c8fa7815715a",
+        "candidate.stacks.6fc9195b65ae9ec036373b29",
+        "candidate.stacks.e1a55cc4381bfb43824b7609",
+        "candidate.stacks.7eeeffed5741bd3a6a712681",
+        "candidate.stacks.e09fa55dc1a45bb074e6df66",
+        "candidate.stacks.636706e6333af8760a737da9"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.2fad5cdfe776c8fa7815715a",
+        "candidate.stacks.6fc9195b65ae9ec036373b29"
+      ],
+      "stage_a_source_context_heading": "Closed immersions and pro-\\'etale sites",
+      "stage_a_source_context_summary": "Named source definitions/sites considered separately from actual theorem hypotheses."
+    },
+    {
+      "section": 26,
+      "kind": "candidates",
+      "source_line": 5041,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.573e5333307dfb7af3ebbc24",
+        "candidate.stacks.9fd2c72ad82d1bc608f5ef09",
+        "candidate.stacks.2389413076a590c2e75b6baf",
+        "candidate.stacks.74cb87691fe4592df80e44a6",
+        "candidate.stacks.862bbb1147555b7f65b8d514"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Extension by zero",
+      "stage_a_source_context_summary": "j_! defined for abelian/module sites; set-valued source display has a direction discrepancy not inherited as a module fact."
+    },
+    {
+      "section": 27,
+      "kind": "candidates",
+      "source_line": 5216,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3d59dc5cb53f5e2780daa73d",
+        "candidate.stacks.75f00e4bdef93b0d37ec7b3a",
+        "candidate.stacks.d231410934cfe54bcf8007d6",
+        "candidate.stacks.8a948e68c6364c31d786a60f",
+        "candidate.stacks.3818ee7cfaf08078aa79483f"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Constructible sheaves on the pro-\\'etale site",
+      "stage_a_source_context_summary": "Named source definitions/sites considered separately from actual theorem hypotheses."
+    },
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 5440,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.5e48601c5378f718f8cd1bc6",
+        "candidate.stacks.936eead0949eec9476dfe90e",
+        "candidate.stacks.9b634f0f10cf766c5af8f2a6",
+        "candidate.stacks.489ce7150ec97266b0d28233",
+        "candidate.stacks.cffced7aefdd77a481133c53",
+        "candidate.stacks.50d7644b0f5d2c6bb07fd0fa"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Constructible adic sheaves",
+      "stage_a_source_context_summary": "Named source definitions/sites considered separately from actual theorem hypotheses."
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 5757,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.dbe72dc8effc2a1a89bc2564",
+        "candidate.stacks.4d60d40710945612dc89da7a",
+        "candidate.stacks.28bb30d461f4672206333297",
+        "candidate.stacks.8603c11687e493b2de356643"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.4d60d40710945612dc89da7a",
+        "candidate.stacks.28bb30d461f4672206333297"
+      ],
+      "stage_a_source_context_heading": "A suitable derived category",
+      "stage_a_source_context_summary": "Named source definitions/sites considered separately from actual theorem hypotheses."
+    },
+    {
+      "section": 30,
+      "kind": "candidates",
+      "source_line": 6175,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.6bf37c3844eb7d4b1a6ca892"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.6bf37c3844eb7d4b1a6ca892"
+      ],
+      "stage_a_source_context_heading": "Proper base change",
+      "stage_a_source_context_summary": "Proper-base-change theorem K module typing and derived reductions unresolved."
+    },
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 6279,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_candidate_ids": [
+        "candidate.stacks.72b65ff804f6a2d3f1f23407",
+        "candidate.stacks.9ef628012dc538195e3e2885",
+        "candidate.stacks.8317555820b4fc1dc819ef9e",
+        "candidate.stacks.2ce7359a2179433600554f12"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.2ce7359a2179433600554f12"
+      ],
+      "stage_a_source_context_heading": "Change of partial universe",
+      "stage_a_source_context_summary": "Named source definitions/sites considered separately from actual theorem hypotheses."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 27,
+  "stage_a_remaining_work_candidate_count": 6,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 5,
+  "stage_a_remaining_work_section_count": 4,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 6,
+  "stage_a_further_work_section_count": 4,
+  "stage_a_dispositioned_section_count": 9,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/proetale/batch_03_sections_23_31/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/proetale/batch_03_sections_23_31/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Pro-étale §§23–31 source-first disposition completed with named constructions, site configurations, and after-section checkpoints; category typing/quantifier issues marked further work. Chapter boundary resets notation and local context."
+}

@@ -1,0 +1,386 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-audit.v1",
+  "chapter": "homology",
+  "source_file": "homology.tex",
+  "pinned_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "working_branch": "work/phase2-stage-a-context-enrichment",
+  "physical_sections": 32,
+  "harvested_statements": 127,
+  "active_candidates": 119,
+  "inactive_excluded": 8,
+  "records_written": 119,
+  "stage_b_ready_not_validated": 109,
+  "further_work_needed": 10,
+  "context_lookup_events": 71,
+  "source_order_checkpoints": 32,
+  "stage_b_validated": 0,
+  "proofs_reviewed": 0,
+  "phase3_promoted": 0,
+  "checks": {
+    "manifest_section_counts": true,
+    "active_candidate_id_reconciliation": true,
+    "source_statement_and_line_reconciliation": true,
+    "globally_registered_holds": true,
+    "unique_candidate_ids": true,
+    "contiguous_source_sections": true,
+    "no_unresolved_latex_references_in_ready_statements": true,
+    "nonempty_hypotheses_and_conclusions": true,
+    "no_phase3_promotion": true,
+    "regression_suite_run": false
+  },
+  "batches": [
+    {
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_01_sections_01_05/MANIFEST.json",
+      "sections": [
+        1,
+        5
+      ],
+      "active": 27,
+      "ready": 26,
+      "held": 1,
+      "context_events": 13
+    },
+    {
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_02_sections_06_12/MANIFEST.json",
+      "sections": [
+        6,
+        12
+      ],
+      "active": 22,
+      "ready": 22,
+      "held": 0,
+      "context_events": 11
+    },
+    {
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_03_sections_13_18/MANIFEST.json",
+      "sections": [
+        13,
+        18
+      ],
+      "active": 16,
+      "ready": 16,
+      "held": 0,
+      "context_events": 18
+    },
+    {
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_04_sections_19_24/MANIFEST.json",
+      "sections": [
+        19,
+        24
+      ],
+      "active": 27,
+      "ready": 26,
+      "held": 1,
+      "context_events": 19
+    },
+    {
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_05_sections_25_32/MANIFEST.json",
+      "sections": [
+        25,
+        32
+      ],
+      "active": 27,
+      "ready": 19,
+      "held": 8,
+      "context_events": 10
+    }
+  ],
+  "sections": [
+    {
+      "section": 1,
+      "title": "Introduction",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 2,
+      "title": "Basic notions",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 3,
+      "title": "Preadditive and additive categories",
+      "active": 10,
+      "ready": 9,
+      "held": 1
+    },
+    {
+      "section": 4,
+      "title": "Karoubian categories",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 5,
+      "title": "Abelian categories",
+      "active": 15,
+      "ready": 15,
+      "held": 0
+    },
+    {
+      "section": 6,
+      "title": "Extensions",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 7,
+      "title": "Additive functors",
+      "active": 4,
+      "ready": 4,
+      "held": 0
+    },
+    {
+      "section": 8,
+      "title": "Localization",
+      "active": 4,
+      "ready": 4,
+      "held": 0
+    },
+    {
+      "section": 9,
+      "title": "Jordan-H\"older",
+      "active": 4,
+      "ready": 4,
+      "held": 0
+    },
+    {
+      "section": 10,
+      "title": "Serre subcategories",
+      "active": 5,
+      "ready": 5,
+      "held": 0
+    },
+    {
+      "section": 11,
+      "title": "K-groups",
+      "active": 1,
+      "ready": 1,
+      "held": 0
+    },
+    {
+      "section": 12,
+      "title": "Cohomological delta-functors",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 13,
+      "title": "Complexes",
+      "active": 8,
+      "ready": 8,
+      "held": 0
+    },
+    {
+      "section": 14,
+      "title": "Homotopy and the shift functor",
+      "active": 5,
+      "ready": 5,
+      "held": 0
+    },
+    {
+      "section": 15,
+      "title": "Truncation of complexes",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 16,
+      "title": "Graded objects",
+      "active": 1,
+      "ready": 1,
+      "held": 0
+    },
+    {
+      "section": 17,
+      "title": "Additive monoidal categories",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 18,
+      "title": "Double complexes and associated total complexes",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 19,
+      "title": "Filtrations",
+      "active": 13,
+      "ready": 13,
+      "held": 0
+    },
+    {
+      "section": 20,
+      "title": "Spectral sequences",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 21,
+      "title": "Spectral sequences: exact couples",
+      "active": 2,
+      "ready": 1,
+      "held": 1
+    },
+    {
+      "section": 22,
+      "title": "Spectral sequences: differential objects",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 23,
+      "title": "Spectral sequences: filtered differential objects",
+      "active": 3,
+      "ready": 3,
+      "held": 0
+    },
+    {
+      "section": 24,
+      "title": "Spectral sequences: filtered complexes",
+      "active": 7,
+      "ready": 7,
+      "held": 0
+    },
+    {
+      "section": 25,
+      "title": "Spectral sequences: double complexes",
+      "active": 4,
+      "ready": 1,
+      "held": 3
+    },
+    {
+      "section": 26,
+      "title": "Double complexes of abelian groups",
+      "active": 4,
+      "ready": 2,
+      "held": 2
+    },
+    {
+      "section": 27,
+      "title": "Injectives",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 28,
+      "title": "Projectives",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 29,
+      "title": "Injectives and adjoint functors",
+      "active": 4,
+      "ready": 4,
+      "held": 0
+    },
+    {
+      "section": 30,
+      "title": "Essentially constant systems",
+      "active": 3,
+      "ready": 2,
+      "held": 1
+    },
+    {
+      "section": 31,
+      "title": "Inverse systems",
+      "active": 7,
+      "ready": 5,
+      "held": 2
+    },
+    {
+      "section": 32,
+      "title": "Exactness of products",
+      "active": 1,
+      "ready": 1,
+      "held": 0
+    }
+  ],
+  "holds": [
+    {
+      "source_label": "lemma-idempotent-splitting",
+      "section": 3,
+      "source_line": 421,
+      "issue": "Expand and reconcile the four conditional kernel/cokernel splittings of the idempotent's complementary projectors.",
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_01_sections_01_05/MANIFEST.json"
+    },
+    {
+      "source_label": "lemma-derived-exact-couple",
+      "section": 21,
+      "source_line": 5314,
+      "issue": "Replace the formal `g∘α⁻¹` symbol with an explicit well-defined morphism of the derived exact couple.",
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_04_sections_19_24/MANIFEST.json"
+    },
+    {
+      "source_label": "lemma-ss-double-complex",
+      "section": 25,
+      "source_line": 6607,
+      "issue": "Verify existence of totalization and both filtrations for unrestricted double complexes in an arbitrary abelian category.",
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_05_sections_25_32/MANIFEST.json"
+    },
+    {
+      "source_label": "lemma-double-complex-gives-resolution",
+      "section": 25,
+      "source_line": 6698,
+      "issue": "The unspecific asserted second-variable variant needs complete hypotheses and maps; main claim is recorded.",
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_05_sections_25_32/MANIFEST.json"
+    },
+    {
+      "source_label": "lemma-homotopy-complex-complexes",
+      "section": 25,
+      "source_line": 6745,
+      "issue": "Verify existence and intended convention for potentially unbounded total complexes without added coproduct hypotheses.",
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_05_sections_25_32/MANIFEST.json"
+    },
+    {
+      "source_label": "lemma-good-right-resolution-gives-qis",
+      "section": 26,
+      "source_line": 6927,
+      "issue": "Spell out the proof-local product-totalization objects and signed differential, without confusing them with direct-sum totalization.",
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_05_sections_25_32/MANIFEST.json"
+    },
+    {
+      "source_label": "lemma-resolution-gives-qis",
+      "section": 26,
+      "source_line": 7016,
+      "issue": "Spell out the proof-local product-totalization objects and signed differential, and confirm the augmentation map.",
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_05_sections_25_32/MANIFEST.json"
+    },
+    {
+      "source_label": "lemma-essentially-constant-into-karoubian",
+      "section": 30,
+      "source_line": 7466,
+      "issue": "Reconcile the external definition of essentially constant with the cofinal/initial splitting and object quantifiers.",
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_05_sections_25_32/MANIFEST.json"
+    },
+    {
+      "source_label": "lemma-inverse-systems-abelian",
+      "section": 31,
+      "source_line": 7615,
+      "issue": "Resolve the undefined `N_i` in the componentwise exactness criterion (source's sequence ends in `M_i`).",
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_05_sections_25_32/MANIFEST.json"
+    },
+    {
+      "source_label": "lemma-essentially-constant",
+      "section": 31,
+      "source_line": 7732,
+      "issue": "Import and reconcile the pinned Categories definition of essentially constant and the eventual canonical direct-sum decomposition.",
+      "packet": "harvest/phase2_chat_stage_a/homology/batch_05_sections_25_32/MANIFEST.json"
+    }
+  ]
+}

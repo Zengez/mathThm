@@ -1,0 +1,113 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch-manifest.v1",
+  "chapter": "dga",
+  "source_file": "dga.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "batch_id": "batch_04_sections_31_38",
+  "section_start": 31,
+  "section_end": 38,
+  "first_source_line": 4995,
+  "last_source_line": 7210,
+  "sections_processed": 8,
+  "active_candidates_processed": 30,
+  "ready_for_codex_validation": 28,
+  "further_work_needed": 2,
+  "independent_validation": "not_started",
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 31,
+      "title": "Derived Hom",
+      "kind": "candidates",
+      "source_line": 4995,
+      "source_end_line": 5197,
+      "active_candidate_count": 4,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 4,
+      "further_work_needed": 0
+    },
+    {
+      "section": 32,
+      "title": "Variant of derived Hom",
+      "kind": "context_only",
+      "source_line": 5198,
+      "source_end_line": 5269,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    },
+    {
+      "section": 33,
+      "title": "Derived tensor product",
+      "kind": "candidates",
+      "source_line": 5270,
+      "source_end_line": 5623,
+      "active_candidate_count": 7,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 7,
+      "further_work_needed": 0
+    },
+    {
+      "section": 34,
+      "title": "Composition of derived tensor products",
+      "kind": "candidates",
+      "source_line": 5624,
+      "source_end_line": 5879,
+      "active_candidate_count": 3,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 2
+    },
+    {
+      "section": 35,
+      "title": "Variant of derived tensor product",
+      "kind": "candidates",
+      "source_line": 5880,
+      "source_end_line": 6168,
+      "active_candidate_count": 5,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 5,
+      "further_work_needed": 0
+    },
+    {
+      "section": 36,
+      "title": "Characterizing compact objects",
+      "kind": "candidates",
+      "source_line": 6169,
+      "source_end_line": 6490,
+      "active_candidate_count": 4,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 4,
+      "further_work_needed": 0
+    },
+    {
+      "section": 37,
+      "title": "Equivalences of derived categories",
+      "kind": "candidates",
+      "source_line": 6491,
+      "source_end_line": 6853,
+      "active_candidate_count": 4,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 4,
+      "further_work_needed": 0
+    },
+    {
+      "section": 38,
+      "title": "Resolutions of differential graded algebras",
+      "kind": "candidates",
+      "source_line": 6854,
+      "source_end_line": 7210,
+      "active_candidate_count": 3,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 3,
+      "further_work_needed": 0
+    }
+  ],
+  "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
+  "prior_checkpoint_path": "harvest/phase2_chat_stage_a/dga/batch_03_sections_26_30/SECTION_CHECKPOINTS.jsonl",
+  "next_source_section": null,
+  "next_source_line": 7211,
+  "chapter_complete": true
+}

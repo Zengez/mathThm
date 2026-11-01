@@ -1,0 +1,90 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-handoff.v1",
+  "chapter": "sites-modules.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "working_branch": "work/phase2-stage-a-context-enrichment",
+  "source_section_count": 45,
+  "candidate_bearing_section_count": 36,
+  "source_start_line": 17,
+  "source_end_line": 8770,
+  "active_candidate_total": 122,
+  "stage_a_ready_for_independent_stage_b": 120,
+  "stage_a_further_work_needed": 2,
+  "unprocessed_active_candidates": 0,
+  "independently_stage_b_validated_by_this_run": 0,
+  "phase3_eligible_promoted_by_this_run": 0,
+  "proofs_screened_by_this_run": 0,
+  "source_context_entries": 37,
+  "section_checkpoints": 45,
+  "batch_count": 3,
+  "validation": {
+    "complete_source_section_coverage": true,
+    "all_active_source_candidate_ids_accounted_for_exactly_once": true,
+    "manifest_ready_and_hold_totals_reconciled": true,
+    "pinned_source_statements_exactly_matched": true,
+    "authoritative_prior_approvals_preserved": true,
+    "context_scope_and_checkpoint_continuity_checked": true,
+    "proof_and_stage_b_status_unchanged": true,
+    "note": "Standalone editorial preparation only; source anomalies flagged rather than silently corrected; independent mathematical equivalence and proof validation not conducted."
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "sections": [
+        1,
+        15
+      ],
+      "candidates": 17,
+      "ready": 17,
+      "holds": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-modules/batch_01_sections_01_15/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-modules/batch_01_sections_01_15/RECONSTRUCTIONS.jsonl",
+      "ledger": "harvest/phase2_chat_stage_a/sites-modules/batch_01_sections_01_15/CONTEXT_LEDGER.jsonl",
+      "checkpoints": "harvest/phase2_chat_stage_a/sites-modules/batch_01_sections_01_15/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 2,
+      "sections": [
+        16,
+        30
+      ],
+      "candidates": 57,
+      "ready": 55,
+      "holds": 2,
+      "manifest": "harvest/phase2_chat_stage_a/sites-modules/batch_02_sections_16_30/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-modules/batch_02_sections_16_30/RECONSTRUCTIONS.jsonl",
+      "ledger": "harvest/phase2_chat_stage_a/sites-modules/batch_02_sections_16_30/CONTEXT_LEDGER.jsonl",
+      "checkpoints": "harvest/phase2_chat_stage_a/sites-modules/batch_02_sections_16_30/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 3,
+      "sections": [
+        31,
+        45
+      ],
+      "candidates": 48,
+      "ready": 48,
+      "holds": 0,
+      "manifest": "harvest/phase2_chat_stage_a/sites-modules/batch_03_sections_31_45/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites-modules/batch_03_sections_31_45/RECONSTRUCTIONS.jsonl",
+      "ledger": "harvest/phase2_chat_stage_a/sites-modules/batch_03_sections_31_45/CONTEXT_LEDGER.jsonl",
+      "checkpoints": "harvest/phase2_chat_stage_a/sites-modules/batch_03_sections_31_45/SECTION_CHECKPOINTS.jsonl"
+    }
+  ],
+  "holds": [
+    {
+      "candidate_id": "candidate.stacks.b52c10805b4fb064fc74f3bd",
+      "source_line": 2775,
+      "source_label": "lemma-localize-morphism-compare",
+      "issue": "The assertion identifies diagrams of two different localization lemmas only by external references. The site/topos comparison functors and arrow-level identifications must be explicitly matched against the pinned diagrams before claiming a standalone comparison.",
+      "packet": "harvest/phase2_chat_stage_a/sites-modules/batch_02_sections_16_30/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.df8582f30bbdcdb5055ee198",
+      "source_line": 2807,
+      "source_label": "lemma-relocalize-morphism-ringed-topoi",
+      "issue": "Pinned source uses (f_c,f_c^sharp) in the first diagram but (f_s,f_s^sharp) subsequently, and the bottom-right structure sheaf in the final diagram is O'_{G'} instead of the apparent O'_G. The intended symbols/arrows require source adjudication; do not silently correct them.",
+      "packet": "harvest/phase2_chat_stage_a/sites-modules/batch_02_sections_16_30/RECONSTRUCTIONS.jsonl"
+    }
+  ]
+}

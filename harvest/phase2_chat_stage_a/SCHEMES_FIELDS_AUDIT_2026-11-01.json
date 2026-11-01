@@ -1,0 +1,73 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-source-audit.v1",
+  "audit_date": "2026-11-01",
+  "branch": "work/phase2-stage-a-context-enrichment",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "scope": "Complete source-ordered Stage A preparation of pinned Stacks schemes.tex and fields.tex",
+  "results": {
+    "passed": true,
+    "source_sections": 52,
+    "source_theorem_like_environments": 176,
+    "source_environments_outside_active_pool": 10,
+    "active_candidates": 166,
+    "stage_a_reconstructed": 166,
+    "ready_for_independent_stage_b": 166,
+    "further_work_needed": 0,
+    "independently_codex_validated_by_this_run": 0,
+    "proofs_reviewed": 0
+  },
+  "chapters": [
+    {
+      "file": "fields.tex",
+      "section_range": [
+        1,
+        28
+      ],
+      "source_environments": 84,
+      "active_candidates": 80,
+      "ready": 80,
+      "held": 0,
+      "packets": [
+        "harvest/phase2_chat_stage_a/fields/batch_01_sections_01_14",
+        "harvest/phase2_chat_stage_a/fields/batch_02_sections_15_28"
+      ]
+    },
+    {
+      "file": "schemes.tex",
+      "section_range": [
+        1,
+        24
+      ],
+      "source_environments": 92,
+      "active_candidates": 86,
+      "ready": 86,
+      "held": 0,
+      "packets": [
+        "harvest/phase2_chat_stage_a/schemes/batch_01_sections_01_12",
+        "harvest/phase2_chat_stage_a/schemes/batch_02_sections_13_24"
+      ]
+    }
+  ],
+  "checks_passed": [
+    "All four manifests, reconstruction JSONL files, scoped context ledgers and section checkpoints parsed",
+    "Manifest section coverage and candidate/readiness counts reconciled",
+    "All 166 candidate IDs were regenerated from pinned source and matched the active pool",
+    "All 166 original source statement bodies, labels and line locators matched pinned source exactly",
+    "No duplicate IDs or overlaps with 655 authoritative approved IDs",
+    "No residual literal source references in standalone drafts",
+    "No Codex validation, proof review or publication status was asserted"
+  ],
+  "contextual_cases_reviewed": [
+    "fields: explicit §12 Situation with tower of generators and minimal polynomials",
+    "fields: §15 separable subfield and §22 infinite Galois topology",
+    "schemes: local-ring point correspondence and equivalence classes of field-valued points",
+    "schemes: §14 gluing datum and §19–20 specialization lifting",
+    "schemes: affine sheaves and cross-chapter Modules/Topology/Sheaves definitions"
+  ],
+  "limitations": [
+    "The source-to-overlay and structure audits are mechanical checks, not independent equivalence verification.",
+    "These records are Stage A proposals; Codex must independently assess proof-independent mathematical meaning and logical form.",
+    "Repository unit and regression tests were not run; no proof checking or Phase 3 approval was performed."
+  ],
+  "final_commit_updates": "Corrected two leftover context references and polished a finite-extension tower formulation before audit close."
+}

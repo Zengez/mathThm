@@ -1,0 +1,105 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "descent.tex",
+  "sections_ordinal": [
+    6,
+    10
+  ],
+  "first_source_line": 1701,
+  "last_source_line": 3494,
+  "source_section_starts": [
+    1701,
+    1887,
+    2137,
+    2679,
+    2994
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 24,
+  "candidate_ids": [
+    "candidate.stacks.f34bb859630ccec60c7c1a5d",
+    "candidate.stacks.b443bf810653091ba0376f3b",
+    "candidate.stacks.ce692ca3a4428cf3c73af596",
+    "candidate.stacks.71c7c8275b71633b848cd503",
+    "candidate.stacks.48b765ccf669e73d5f5a2e36",
+    "candidate.stacks.edf3e38f78f4d56aad7c35ca",
+    "candidate.stacks.e9e44e3ee0597df5221a2beb",
+    "candidate.stacks.bfd6c69f6c60bd181ac5cb36",
+    "candidate.stacks.23f4e4356ea0ac3e0a00c454",
+    "candidate.stacks.152e9b93103b075e6a6f2cbf",
+    "candidate.stacks.e22b34eb84838c324a3d44ce",
+    "candidate.stacks.c8cc8bb8bd36cbed9cc6b6d7",
+    "candidate.stacks.67355ef6853858f0e1e8a82a",
+    "candidate.stacks.2d90c6ac962ed2708969cda4",
+    "candidate.stacks.8e287e71abaa125a30973fe7",
+    "candidate.stacks.f6d94f1249ff4f2ab53b916a",
+    "candidate.stacks.e12b377512ab1277a31f8d70",
+    "candidate.stacks.7e57d65904f175e4a659e1b7",
+    "candidate.stacks.598972702bac9075421605b1",
+    "candidate.stacks.08af356e5e9e88ee40ef5926",
+    "candidate.stacks.62aea0db3d65e72f02560884",
+    "candidate.stacks.7b1c9332f50a4c6445c10e56",
+    "candidate.stacks.f027b1e28104d545e5725eaa",
+    "candidate.stacks.965afe0a9792d9b7f21d73e4"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/descent/batch_02_sections_06_10/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "notes": "Preserves big vs small site exceptions, all alternatives, and source's warnings; independent Stage B still required.",
+  "processing_sections": [
+    {
+      "section": 6,
+      "kind": "context_only",
+      "source_line": 1701,
+      "snippets": [
+        {
+          "source_line": 1730,
+          "tex": "Let $k'/k$ be a finite Galois extension with Galois group\n$G = \\text{Gal}(k'/k)$. Then there are $k$-algebra isomorphisms\n$$\nk' \\otimes_k k' \\longrightarrow \\prod\\nolimits_{\\sigma \\in G} k',\\quad\na \\otimes b \\longrightarrow \\prod a\\sigma(b)\n$$\nand\n$$\nk' \\otimes_k k' \\otimes_k k' \\longrightarrow\n\\prod\\nolimits_{(\\sigma, \\tau) \\in G \\times G} k',\\quad\na \\otimes b \\otimes c \\longrightarrow \\prod a\\sigma(b)\\sigma(\\tau(c))\n$$\nThe reason for choosing here $a\\sigma(b)\\sigma(\\tau(c))$\nand not $a\\sigma(b)\\tau(c)$ is that the formulas below simplify but\nit isn't strictly necessary. Given $\\sigma \\in G$ we denote\n$$\nf_\\sigma = \\text{id}_X \\times \\Spec(\\sigma) :\nX_{k'} \\longrightarrow X_{k'}\n$$\nPlease keep in mind that because $\\Spec(-)$ is a contravariant functor we have\n$f_{\\sigma \\tau} = f_\\tau \\circ f_\\sigma$ and not the other way around.\nUsing the first isomorphism above we obtain an identification\n$$\nX_{k' \\otimes_k k'} = \\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n$$\nsuch that $\\text{pr}_0$ corresponds to the map\n$$\n\\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n\\xrightarrow{\\coprod \\text{id}}\nX_{k'}\n$$\nand such that $\\text{pr}_1$ corresponds to the map\n$$\n\\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n\\xrightarrow{\\coprod f_\\sigma}\nX_{k'}\n$$\nThus we see that a descent datum $\\varphi$ on $\\mathcal{F}$ over $X_{k'}$\ncorresponds to a family of isomorphisms\n$\\varphi_\\sigma : \\mathcal{F} \\to f_\\sigma^*\\mathcal{F}$.\nTo work out the cocycle condition we use the identification\n$$\nX_{k' \\otimes_k k' \\otimes_k k'} =\n\\coprod\\nolimits_{(\\sigma, \\tau) \\in G \\times G} X_{k'}.\n$$\nwe get from our isomorphism of algebras above.\nVia this identification the map $\\text{pr}_{01}$ corresponds to\nthe map\n$$\n\\coprod\\nolimits_{(\\sigma, \\tau) \\in G \\times G} X_{k'}\n\\longrightarrow\n\\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n$$\nwhich maps the summand with index $(\\sigma, \\tau)$ to the summand\nwith index $\\sigma$ via the identity morphism. The map $\\text{pr}_{12}$\ncorresponds to the map\n$$\n\\coprod\\nolimits_{(\\sigma, \\tau) \\in G \\times G} X_{k'}\n\\longrightarrow\n\\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n$$\nwhich maps the summand with index $(\\sigma, \\tau)$ to the summand\nwith index $\\tau$ via the morphism $f_\\sigma$. Finally, the map\n$\\text{pr}_{02}$ corresponds to the map\n$$\n\\coprod\\nolimits_{(\\sigma, \\tau) \\in G \\times G} X_{k'}\n\\longrightarrow\n\\coprod\\nolimits_{\\sigma \\in G} X_{k'}\n$$\nwhich maps the summand with index $(\\sigma, \\tau)$ to the summand\nwith index $\\sigma\\tau$ via the identity morphism.\nThus the cocycle condition\n$$\n\\text{pr}_{02}^*\\varphi = \\text{pr}_{12}^*\\varphi \\circ \\text{pr}_{01}^*\\varphi\n$$\ntranslates into one condition for each pair $(\\sigma, \\tau)$, namely\n$$\n\\varphi_{\\sigma\\tau} = f_\\sigma^*\\varphi_\\tau \\circ \\varphi_\\sigma\n$$\nas maps $\\mathcal{F} \\to f_{\\sigma\\tau}^*\\mathcal{F}$.\n(Everything works out beautifully; for example the target of\n$\\varphi_\\sigma$ is $f_\\sigma^*\\mathcal{F}$ and the\nsource of $f_\\sigma^*\\varphi_\\tau$ is $f_\\sigma^*\\mathcal{F}$ as well.)"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1887,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 2137,
+      "stage_a_readiness": "further_work_needed"
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 2679,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 2994,
+      "stage_a_readiness": "further_work_needed"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 22,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 2,
+  "stage_a_further_work_section_count": 2,
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_section_mapping_pending": false,
+  "preliminary_source_holds": [],
+  "source_locator_verified": true,
+  "processing_note": "Source-ordered decompaction of §§6–10: carried Galois context through context-only §6, then fpqc finiteness, big/small site definitions, Čech descent, functoriality and limitations. Two typing-heavy multi-site claims deferred with indexed reasons."
+}

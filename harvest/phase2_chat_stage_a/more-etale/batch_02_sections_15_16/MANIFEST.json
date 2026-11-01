@@ -1,0 +1,80 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "20-section-experiment-45",
+  "chapter": "more-etale.tex",
+  "sections_ordinal": [
+    15,
+    16
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    4761,
+    4862
+  ],
+  "first_source_line": 4761,
+  "last_source_line": 4966,
+  "complete_sections": true,
+  "stage_a_candidate_count": 3,
+  "candidate_ids": [
+    "candidate.stacks.7bf129eebe8026b51b6f5942",
+    "candidate.stacks.91ced877a491280014eeaa71",
+    "candidate.stacks.a090223fde9b5b39442a0e08"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/more-etale/batch_02_sections_15_16/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.7bf129eebe8026b51b6f5942",
+    "candidate.stacks.91ced877a491280014eeaa71",
+    "candidate.stacks.a090223fde9b5b39442a0e08"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 4761,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Applications",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.7bf129eebe8026b51b6f5942",
+        "candidate.stacks.91ced877a491280014eeaa71"
+      ],
+      "stage_a_held_candidate_ids": []
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 4862,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "More on derived upper shriek",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.a090223fde9b5b39442a0e08"
+      ],
+      "stage_a_held_candidate_ids": []
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 3,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 3,
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_dispositioned_section_count": 2,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/more-etale/batch_02_sections_15_16/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/more-etale/batch_02_sections_15_16/SECTION_CHECKPOINTS.jsonl",
+  "stage_a_parent_checkpoint": "harvest/phase2_chat_stage_a/more-etale/batch_01_sections_01_14/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Stage A §§15–16 source review complete. The prior §14 after-section checkpoint was loaded as ledger continuity. At §16 chapter exit all local context is reset; next trace.tex §1."
+}

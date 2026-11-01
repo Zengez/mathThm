@@ -1,0 +1,347 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "20-section-experiment-39",
+  "chapter": "etale-cohomology.tex",
+  "sections_ordinal": [
+    76,
+    95
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    13558,
+    13702,
+    13887,
+    13965,
+    14195,
+    14507,
+    14891,
+    15312,
+    15808,
+    16122,
+    16250,
+    16593,
+    16839,
+    17350,
+    18024,
+    18158,
+    18762,
+    19060,
+    19355,
+    19602
+  ],
+  "first_source_line": 13558,
+  "last_source_line": 20019,
+  "complete_sections": true,
+  "stage_a_candidate_count": 40,
+  "candidate_ids": [
+    "candidate.stacks.58b9cde0ff06f24aff1c769a",
+    "candidate.stacks.96271fe9692fd74bc8466a39",
+    "candidate.stacks.0939b792f11cc0cad7ea6a23",
+    "candidate.stacks.824b69e2c1a81f1ba5ef6fb8",
+    "candidate.stacks.6dad4949ccaef576f4b75834",
+    "candidate.stacks.9586d55033fddfc76dd78a3c",
+    "candidate.stacks.0a0d7dcac01a265e08d9ff23",
+    "candidate.stacks.49a2d39d809b92bdf8fc1a3c",
+    "candidate.stacks.2c372417f8ad8ef0df16f497",
+    "candidate.stacks.d3b1bc4b7fb6e793948425dc",
+    "candidate.stacks.95d6e1cab20c420322d5027e",
+    "candidate.stacks.9751773ed7118e0ccf3e3808",
+    "candidate.stacks.13374e58c4b0f8786d7a454a",
+    "candidate.stacks.180e903e0a2912aebe52efd9",
+    "candidate.stacks.eea1c52e4b63df35e13c72ad",
+    "candidate.stacks.4551a954932223a4859b62c2",
+    "candidate.stacks.40c585a4a0d6f0355aa20bec",
+    "candidate.stacks.53145cb95915d457cab557e8",
+    "candidate.stacks.a1f645efc44ba15919a4af0d",
+    "candidate.stacks.cba9c9c8fa0b34dfe06f6ff5",
+    "candidate.stacks.17c6aaa4941fdf71127c2a2c",
+    "candidate.stacks.2bdc36caaa9f918afb60e414",
+    "candidate.stacks.25697d67d4e67c8209d73bd5",
+    "candidate.stacks.6eec59de5a74abe8f134fba8",
+    "candidate.stacks.e1a7ef1a0157cab141df8f1f",
+    "candidate.stacks.015b7d1d340ac7346428e141",
+    "candidate.stacks.d64ab596658ffb1620b49782",
+    "candidate.stacks.be111aba122741d77d0e52e7",
+    "candidate.stacks.edd66b83b7d423d11f03b7d4",
+    "candidate.stacks.a525fc39e872870b3eec3781",
+    "candidate.stacks.62131620fff1cce514765ca7",
+    "candidate.stacks.94f95d2f7e3a62820cf4660e",
+    "candidate.stacks.2b2639468184edc75c641086",
+    "candidate.stacks.da22e45b8c23af6713f24ef7",
+    "candidate.stacks.913c5fa69cfe0ba1ff7ad7a0",
+    "candidate.stacks.74faf9faf8730091e8f4b70f",
+    "candidate.stacks.eb0c5896e5e7fc0a664c257e",
+    "candidate.stacks.74761d7136db448eb41a8ad0",
+    "candidate.stacks.149a57d8cad1007d8631d90a",
+    "candidate.stacks.17b9549a652be34ae9c44736"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/etale-cohomology/batch_04_sections_76_95/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ],
+  "processing_sections": [
+    {
+      "section": 76,
+      "kind": "candidates",
+      "source_line": 13558,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 77,
+      "kind": "candidates",
+      "source_line": 13702,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 78,
+      "kind": "candidates",
+      "source_line": 13887,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 79,
+      "kind": "candidates",
+      "source_line": 13965,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 80,
+      "kind": "candidates",
+      "source_line": 14195,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 81,
+      "kind": "candidates",
+      "source_line": 14507,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 82,
+      "kind": "candidates",
+      "source_line": 14891,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 83,
+      "kind": "candidates",
+      "source_line": 15312,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 84,
+      "kind": "context_only",
+      "source_line": 15808,
+      "snippets": [
+        {
+          "source_line": 15811,
+          "tex": "\\noindent\nIn this section we repeat the arguments of\nSection \\ref{section-vanishing-torsion}\nfor constructible sheaves of modules over a Noetherian ring\nwhich are torsion. We start with the most interesting step."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 85,
+      "source_line": 16122,
+      "kind": "context_only",
+      "snippets": [],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true
+    },
+    {
+      "section": 86,
+      "kind": "context_only",
+      "source_line": 16250,
+      "snippets": [
+        {
+          "source_line": 16253,
+          "tex": "\\noindent\nIf you are interested in either the smooth base change theorem\nor the proper base change theorem, you should skip directly to\nthe corresponding sections.\nIn this section and the next few sections we consider commutative diagrams\n$$\n\\xymatrix{\nX \\ar[d]_f & Y \\ar[l]^h \\ar[d]^e \\\\\nS & T \\ar[l]_g\n}\n$$\nof schemes; we usually assume this diagram is cartesian,\ni.e., $Y = X \\times_S T$. A commutative diagram as above\ngives rise to a commutative diagram\n$$\n\\xymatrix{\nX_\\etale \\ar[d]_{f_{small}} & Y_\\etale \\ar[d]^{e_{small}} \\ar[l]^{h_{small}} \\\\\nS_\\etale & T_\\etale \\ar[l]_{g_{small}}\n}\n$$\nof small \\'etale sites. Let us use the notation\n$$\nf^{-1} = f_{small}^{-1}, \\quad\ng_* = g_{small, *}, \\quad\ne^{-1} = e_{small}^{-1}, \\text{ and}\\quad\nh_* = h_{small, *}.\n$$\nBy Sites, Section \\ref{sites-section-pullback}\nwe get a base change or pullback map\n$$\nf^{-1}g_*\\mathcal{F}\n\\longrightarrow\nh_*e^{-1}\\mathcal{F}\n$$\nfor a sheaf $\\mathcal{F}$ on $T_\\etale$. If $\\mathcal{F}$ is an abelian\nsheaf on $T_\\etale$, then we get a derived base change map\n$$\nf^{-1}Rg_*\\mathcal{F}\n\\longrightarrow\nRh_*e^{-1}\\mathcal{F}\n$$\nsee Cohomology on Sites, Lemma\n\\ref{sites-cohomology-lemma-base-change-map-flat-case}.\nFinally, if $K$ is an arbitrary object of $D(T_\\etale)$\nthere is a base change map\n$$\nf^{-1}Rg_*K\n\\longrightarrow\nRh_*e^{-1}K\n$$\nsee\nCohomology on Sites, Remark \\ref{sites-cohomology-remark-base-change}."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 87,
+      "kind": "context_only",
+      "source_line": 16593,
+      "snippets": [
+        {
+          "source_line": 16596,
+          "tex": "\\noindent\nThis section is preliminary and should be skipped on a first reading.\nIn this section we discuss for what morphisms $f : X \\to S$ we have\n$f^{-1}g_* = h_*e^{-1}$ on all sheaves (of sets) for every cartesian\ndiagram\n$$\n\\xymatrix{\nX \\ar[d]_f & Y \\ar[l]^h \\ar[d]^e \\\\\nS & T \\ar[l]_g\n}\n$$\nwith $g$ quasi-compact and quasi-separated."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 88,
+      "source_line": 16839,
+      "kind": "context_only",
+      "snippets": [],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true
+    },
+    {
+      "section": 89,
+      "kind": "context_only",
+      "source_line": 17350,
+      "snippets": [
+        {
+          "source_line": 17353,
+          "tex": "\\noindent\nIn this section we prove the smooth base change theorem."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 90,
+      "kind": "context_only",
+      "source_line": 18024,
+      "snippets": [
+        {
+          "source_line": 18027,
+          "tex": "\\noindent\nIn this section we discuss some more or less immediate\nconsequences of the smooth base change theorem."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Applications of smooth base change",
+      "stage_a_source_context_summary": "The smooth base-change applications include arbitrary field extensions $L/K$, qcqs $g:T\\to S$ over $K$, and complexes $E\\in D^+(T_{\\acute et})$ with stalk cohomology torsion of order invertible in $K$. The relevant comparison is the **derived** $Rg_{L,*}E_L\\simeq (Rg_*E)|_{S_L}$; separably closed base-field extensions give additional cohomological invariance under the stated prime-to-characteristic conditions.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
+      "section": 91,
+      "kind": "context_only",
+      "source_line": 18158,
+      "snippets": [
+        {
+          "source_line": 18309,
+          "tex": "\\noindent\nAt this point we start discussing the proper base change theorem.\nTo do so we introduce some notation. consider a commutative diagram\n\\begin{equation}\n\\label{equation-base-change-diagram}\n\\vcenter{\n\\xymatrix{\nX' \\ar[r]_{g'} \\ar[d]_{f'} & X \\ar[d]^f \\\\\nY' \\ar[r]^g & Y\n}\n}\n\\end{equation}\nof morphisms of schemes. Then we obtain a commutative diagram of sites\n$$\n\\xymatrix{\nX'_\\etale \\ar[r]_{g'_{small}} \\ar[d]_{f'_{small}} &\nX_\\etale \\ar[d]^{f_{small}} \\\\\nY'_\\etale \\ar[r]^{g_{small}} &\nY_\\etale\n}\n$$\nFor any object $E$ of $D(X_\\etale)$ we obtain a canonical base change map\n\\begin{equation}\n\\label{equation-base-change}\ng_{small}^{-1}Rf_{small, *}E \\longrightarrow Rf'_{small, *}(g'_{small})^{-1}E\n\\end{equation}\nin $D(Y'_\\etale)$. See Cohomology on Sites, Remark\n\\ref{sites-cohomology-remark-base-change} where we use the constant\nsheaf $\\mathbf{Z}$ as our sheaf of rings.\nWe will usually omit the subscripts ${}_{small}$ in this formula.\nFor example, if $E = \\mathcal{F}[0]$ where $\\mathcal{F}$ is an abelian\nsheaf on $X_\\etale$, the base change map is a map\n\\begin{equation}\n\\label{equation-base-change-sheaf}\ng^{-1}Rf_*\\mathcal{F} \\longrightarrow Rf'_*(g')^{-1}\\mathcal{F}\n\\end{equation}\nin $D(Y'_\\etale)$."
+        },
+        {
+          "source_line": 18347,
+          "tex": "The map (\\ref{equation-base-change}) has no chance of being an isomorphism\nin the generality given above. The goal is to show\nit is an isomorphism if the diagram (\\ref{equation-base-change-diagram})\nis cartesian, $f : X \\to Y$ proper, the cohomology sheaves of $E$\nare torsion, and $E$ is bounded below.\nTo study this question we introduce the following terminology.\nLet us say that {\\it cohomology commutes with base change\nfor $f : X \\to Y$} if (\\ref{equation-base-change-sheaf})\nis an isomorphism for every diagram (\\ref{equation-base-change-diagram})\nwhere $X' = Y' \\times_Y X$ and every torsion abelian sheaf $\\mathcal{F}$."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Proper base change theorem",
+      "stage_a_source_context_summary": "For a Cartesian square $X'=X\\times_YY'$ with maps $f:X\\to Y$, $g:Y'\\to Y$, $f':X'\\to Y'$, $g':X'\\to X$, the **canonical base-change morphism** is $g^{-1}Rf_*E\\to Rf'_*(g')^{-1}E$ in $D(Y'_{\\acute et})$. The proper base-change theorem is for **proper** $f$ and bounded-below complexes $E$ with torsion cohomology sheaves; arbitrary $f$ or non-torsion $E$ are not included. The basic prior criterion 'cohomology commutes with base change' uses all torsion abelian sheaves.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
+      "section": 92,
+      "kind": "context_only",
+      "source_line": 18762,
+      "snippets": [
+        {
+          "source_line": 18765,
+          "tex": "\\noindent\nIn this section we discuss some more or less immediate\nconsequences of the proper base change theorem."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Applications of proper base change",
+      "stage_a_source_context_summary": "For a **proper** scheme over a separably closed field and **torsion abelian** coefficients, étale cohomology is invariant under extension of separably closed ground fields. For a proper morphism whose geometric fibres have dimension at most $n$, $R^qf_*\\mathcal F=0$ for $q>2n$ for torsion abelian $\\mathcal F$; retain the properness, fibre-dimension and torsion qualifiers.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
+      "section": 93,
+      "kind": "context_only",
+      "source_line": 19060,
+      "snippets": [
+        {
+          "source_line": 19063,
+          "tex": "\\noindent\nIn this section we deduce local acyclicity of smooth morphisms\nfrom the smooth base change theorem. In SGA 4 or SGA 4.5 the authors\nfirst prove a version of local acyclicity for smooth morphisms\nand then deduce the smooth base change theorem."
+        },
+        {
+          "source_line": 19069,
+          "tex": "We will use the formulation of local acyclicity given by\nDeligne \\cite[Definition 2.12, page 242]{SGA4.5}.\nLet $f : X \\to S$ be a morphism of schemes.\nLet $\\overline{x}$ be a geometric point of $X$ with image\n$\\overline{s} = f(\\overline{x})$ in $S$.\nLet $\\overline{t}$ be a geometric point of\n$\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})$.\nWe obtain a commutative diagram\n$$\n\\xymatrix{\nF_{\\overline{x}, \\overline{t}} =\n\\overline{t} \\times_{\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})}\n\\Spec(\\mathcal{O}^{sh}_{X, \\overline{x}}) \\ar[r] \\ar[d] &\n\\Spec(\\mathcal{O}^{sh}_{X, \\overline{x}}) \\ar[r] \\ar[d] &\nX \\ar[d] \\\\\n\\overline{t} \\ar[r] &\n\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}}) \\ar[r] &\nS\n}\n$$\nThe scheme $F_{\\overline{x}, \\overline{t}}$ is called\na {\\it variety of vanishing cycles of $f$ at $\\overline{x}$}.\nLet $K$ be an object of $D(X_\\etale)$. For any morphism of schemes\n$g : Y\\to X$ we write $R\\Gamma(Y, K)$ instead of\n$R\\Gamma(Y_\\etale, g_{small}^{-1}K)$. Since\n$\\mathcal{O}^{sh}_{X, \\overline{x}}$ is strictly henselian\nwe have\n$K_{\\overline{x}} = R\\Gamma(\\Spec(\\mathcal{O}^{sh}_{X, \\overline{x}}), K)$.\nThus we obtain a canonical map\n\\begin{equation}\n\\label{equation-alpha-K}\n\\alpha_{K, \\overline{x}, \\overline{t}} :\nK_{\\overline{x}}\n\\longrightarrow\nR\\Gamma(F_{\\overline{x}, \\overline{t}}, K)\n\\end{equation}\nby pulling back cohomology along\n$F_{\\overline{x}, \\overline{t}} \\to \\Spec(\\mathcal{O}^{sh}_{X, \\overline{x}})$."
+        },
+        {
+          "source_line": 19109,
+          "tex": "\\begin{definition}\n\\label{definition-locally-acyclic}\n\\begin{reference}\n\\cite[Definition 2.12, page 242]{SGA4.5} and\n\\cite[Definition (1.3), page 54]{SGA4.5}\n\\end{reference}\nLet $f : X \\to S$ be a morphism of schemes.\nLet $K$ be an object of $D(X_\\etale)$.\n\\begin{enumerate}\n\\item\nLet $\\overline{x}$ be a geometric point of $X$ with image\n$\\overline{s} = f(\\overline{x})$.\nWe say $f$ is {\\it locally acyclic at $\\overline{x}$ relative to $K$}\nif for every geometric point $\\overline{t}$ of\n$\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})$ the\nmap (\\ref{equation-alpha-K}) is an isomorphism\\footnote{We do not\nassume $\\overline{t}$ is an algebraic geometric point of\n$\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})$. Often using\nLemma \\ref{lemma-smooth-base-change-separably-closed}\none may reduce to this case.}.\n\\item We say $f$ is {\\it locally acyclic relative to $K$}\nif $f$ is locally acyclic at $\\overline{x}$ relative to $K$\nfor every geometric point $\\overline{x}$ of $X$.\n\\item We say $f$ is {\\it universally locally acyclic relative to $K$}\nif for any morphism $S' \\to S$ of schemes the base change $f' : X' \\to S'$\nis locally acyclic relative to the pullback of $K$ to $X'$.\n\\item We say $f$ is {\\it locally acyclic} if for all geometric\npoints $\\overline{x}$ of $X$ and any integer $n$ prime to the characteristic\nof $\\kappa(\\overline{x})$, the morphism $f$ is locally acyclic\nat $\\overline{x}$ relative to the constant sheaf with value\n$\\mathbf{Z}/n\\mathbf{Z}$.\n\\item We say $f$ is {\\it universally locally acyclic} if\nfor any morphism $S' \\to S$ of schemes the base change $f' : X' \\to S'$\nis locally acyclic.\n\\end{enumerate}\n\\end{definition}"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Local acyclicity",
+      "stage_a_source_context_summary": "For $f:X\\to S$, a geometric point $\\bar x$ over $\\bar s$, and $\\bar t$ a geometric point of $\\operatorname{Spec}\\mathcal O^{sh}_{S,\\bar s}$, the **vanishing-cycle space** is $F_{\\bar x,\\bar t}=\\bar t\\times_{\\operatorname{Spec}\\mathcal O^{sh}_{S,\\bar s}}\\operatorname{Spec}\\mathcal O^{sh}_{X,\\bar x}$. Relative local acyclicity of a derived étale complex $K$ requires that $K_{\\bar x}\\to R\\Gamma(F_{\\bar x,\\bar t},K)$ be an isomorphism for every such $\\bar t$; *universal* local acyclicity repeats after every base change. Bare 'locally acyclic' refers to constant coefficients of order prime to the geometric residue characteristic.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
+      "section": 94,
+      "kind": "context_only",
+      "source_line": 19355,
+      "snippets": [
+        {
+          "source_line": 19358,
+          "tex": "\\noindent\nLet $f : X \\to S$ be a morphism of schemes. Let $\\overline{x}$ be a\ngeometric point of $X$ with image $\\overline{s} = f(\\overline{x})$ in $S$.\nLet $\\overline{t}$ be a geometric point of\n$\\Spec(\\mathcal{O}^{sh}_{S, \\overline{s}})$.\nLet $K \\in D(X_\\etale)$. For any morphism $g : Y \\to X$ of schemes\nwe write $K|_Y$ instead of $g_{small}^{-1}K$ and $R\\Gamma(Y, K)$\ninstead of $R\\Gamma(Y_\\etale, g_{small}^{-1}K)$.\nWe claim that if\n\\begin{enumerate}\n\\item $K$ is bounded below, i.e., $K \\in D^+(X_\\etale)$,\n\\item $f$ is locally acyclic relative to $K$\n\\end{enumerate}\nthen there is a {\\it cospecialization map}\n$$\ncosp :\nR\\Gamma(X_{\\overline{t}}, K)\n\\longrightarrow\nR\\Gamma(X_{\\overline{s}}, K)\n$$\nwhich will be closely related to the specialization map\nconsidered in Section \\ref{section-specialization} and especially\nRemark \\ref{remark-specialization-map-and-fibres}."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Cospecialization map",
+      "stage_a_source_context_summary": "For $f:X\\to S$ **locally acyclic relative to $K\\in D^+(X_{\\acute et})$**, and a geometric specialization pair $\\bar s,\\bar t$ via strict henselization, there is a **cospecialization** morphism $R\\Gamma(X_{\\bar t},K)\\to R\\Gamma(X_{\\bar s},K)$, opposite the direction of stalk specialization. It is constructed from the unit $K\\to Rh_*h^{-1}K$ and the local acyclicity isomorphism after pullback to the special fibre.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    },
+    {
+      "section": 95,
+      "kind": "context_only",
+      "source_line": 19602,
+      "snippets": [
+        {
+          "source_line": 19612,
+          "tex": "\\begin{definition}\n\\label{definition-cd}\nLet $X$ be a quasi-compact and quasi-separated scheme.\nThe {\\it cohomological dimension of $X$} is the smallest\nelement\n$$\n\\text{cd}(X) \\in \\{0, 1, 2, \\ldots\\} \\cup \\{\\infty\\}\n$$\nsuch that for any abelian torsion sheaf $\\mathcal{F}$\non $X_\\etale$ we have $H^i_\\etale(X, \\mathcal{F}) = 0$\nfor $i > \\text{cd}(X)$. If $X = \\Spec(A)$ we sometimes\ncall this the cohomological dimension of $A$.\n\\end{definition}"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_source_context_heading": "Cohomological dimension",
+      "stage_a_source_context_summary": "For a **qcqs** scheme $X$, $\\operatorname{cd}(X)$ is the **least** $d\\in\\mathbf Z_{\\ge0}\\cup\\{\\infty\\}$ with $H^q_{\\acute et}(X,\\mathcal F)=0$ for every **torsion abelian** étale sheaf and all $q>d$. These dimension bounds use filtered affine limits, field transcendence degrees, and proper-base-change input; they are not bounds for every unbounded non-torsion complex.",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "stage_a_codex_approved_exclusion_respected": true
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 40,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 8,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_dispositioned_section_count": 20,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Source-ordered §§76–89 completed, including §83 eight applicable conditional curve-cohomology assertions. §§84–89 are contextual, all mathematical candidates in this packet disposed; Stage B independent validation not started. Source-order context audit: §§90–95 checked against pinned Stacks text; each section has no active unapproved candidate, but the mathematically material premises and definitions were recorded for later dependency interpretation. This is not an independent Stage B run."
+}

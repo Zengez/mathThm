@@ -1,0 +1,101 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch-manifest.v1",
+  "chapter": "homology",
+  "source_file": "homology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "batch_id": "batch_02_sections_06_12",
+  "section_start": 6,
+  "section_end": 12,
+  "first_source_line": 1259,
+  "last_source_line": 2772,
+  "sections_processed": 7,
+  "active_candidates_processed": 22,
+  "ready_for_codex_validation": 22,
+  "further_work_needed": 0,
+  "independent_validation": "not_started",
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 6,
+      "title": "Extensions",
+      "kind": "candidates",
+      "source_line": 1259,
+      "source_end_line": 1461,
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 7,
+      "title": "Additive functors",
+      "kind": "candidates",
+      "source_line": 1462,
+      "source_end_line": 1745,
+      "active_candidate_count": 4,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 4,
+      "further_work_needed": 0
+    },
+    {
+      "section": 8,
+      "title": "Localization",
+      "kind": "candidates",
+      "source_line": 1746,
+      "source_end_line": 1952,
+      "active_candidate_count": 4,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 4,
+      "further_work_needed": 0
+    },
+    {
+      "section": 9,
+      "title": "Jordan-H\"older",
+      "kind": "candidates",
+      "source_line": 1953,
+      "source_end_line": 2080,
+      "active_candidate_count": 4,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 4,
+      "further_work_needed": 0
+    },
+    {
+      "section": 10,
+      "title": "Serre subcategories",
+      "kind": "candidates",
+      "source_line": 2081,
+      "source_end_line": 2326,
+      "active_candidate_count": 5,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 5,
+      "further_work_needed": 0
+    },
+    {
+      "section": 11,
+      "title": "K-groups",
+      "kind": "candidates",
+      "source_line": 2327,
+      "source_end_line": 2620,
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 0
+    },
+    {
+      "section": 12,
+      "title": "Cohomological delta-functors",
+      "kind": "candidates",
+      "source_line": 2621,
+      "source_end_line": 2772,
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    }
+  ],
+  "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
+  "prior_checkpoint_path": "harvest/phase2_chat_stage_a/homology/batch_01_sections_01_05/SECTION_CHECKPOINTS.jsonl",
+  "next_source_section": 13,
+  "next_source_line": 2773
+}

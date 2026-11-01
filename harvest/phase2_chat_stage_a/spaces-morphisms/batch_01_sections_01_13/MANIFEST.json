@@ -1,0 +1,360 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "20-section-experiment-49",
+  "chapter": "spaces-morphisms.tex",
+  "sections_ordinal": [
+    1,
+    13
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17,
+    34,
+    53,
+    157,
+    592,
+    694,
+    891,
+    986,
+    1290,
+    1630,
+    1829,
+    1971,
+    2202
+  ],
+  "first_source_line": 17,
+  "last_source_line": 2483,
+  "complete_sections": true,
+  "stage_a_candidate_count": 55,
+  "candidate_ids": [
+    "candidate.stacks.850428fcf6777ea115cddac4",
+    "candidate.stacks.cd16df965ab9b999e66a97f2",
+    "candidate.stacks.28e9090ad299526454044ffa",
+    "candidate.stacks.e0214ab36cc92c527a41001c",
+    "candidate.stacks.3d448f94b2f49b3ca1df4ef7",
+    "candidate.stacks.1316bde55b88b2833898e384",
+    "candidate.stacks.959af842c237f8f23456a506",
+    "candidate.stacks.60df3b752d9c2a65deb937e3",
+    "candidate.stacks.8649081addae056111b5dd91",
+    "candidate.stacks.5a06020ba887bc180d87976d",
+    "candidate.stacks.fcb2c4ab2ac64d56e56ee128",
+    "candidate.stacks.05771f9a01ed0b8be2a739d2",
+    "candidate.stacks.aeb6f8964e76bf7bfa721cc7",
+    "candidate.stacks.2917191cbf2a677673a110ae",
+    "candidate.stacks.7932cbbe51cf3b4c19414fc1",
+    "candidate.stacks.f26b5de600b5b9510368dd64",
+    "candidate.stacks.1eea7334b6a80a63a9dd30e4",
+    "candidate.stacks.47bdb49ebe633b13f56cd67b",
+    "candidate.stacks.e54f64b5a7b54caa07ee54a8",
+    "candidate.stacks.3c9cf8c5f4c36cfc841e155f",
+    "candidate.stacks.b675f614dd67fe51fe52fc92",
+    "candidate.stacks.9e51415932a2014edf5b81f6",
+    "candidate.stacks.04458d2cb78e0e24ce3e67c8",
+    "candidate.stacks.e088e2a95e067dc937865801",
+    "candidate.stacks.7810cffb702876231b0dcfca",
+    "candidate.stacks.92c6cbe13ddbe39b2d75e990",
+    "candidate.stacks.af74c2d971fad5d5a2efd0e5",
+    "candidate.stacks.17f3d98c9612f265f8a21f98",
+    "candidate.stacks.3b32a7d0585f8930ea3d8a0d",
+    "candidate.stacks.79895fafd0bd0b5d6e85b9b8",
+    "candidate.stacks.bb40203a472ddd55212e5e18",
+    "candidate.stacks.d2b783b81b7c3bb4ee814bdf",
+    "candidate.stacks.934729bca67ef0db607e368c",
+    "candidate.stacks.4ac866b5d870a2cf0ae26d0f",
+    "candidate.stacks.b40809d3d287b8348a750b17",
+    "candidate.stacks.287315307b16b5a725ed2276",
+    "candidate.stacks.06733392a866b81feb798ae1",
+    "candidate.stacks.7313e44ee9713bb3ff9035ff",
+    "candidate.stacks.b35c692c95fbf6d16d0405c3",
+    "candidate.stacks.cefc8c0542821946c71b2dd9",
+    "candidate.stacks.a147bf6f046fe2725cc77838",
+    "candidate.stacks.1d0f529206bc0260f4dbf68d",
+    "candidate.stacks.790ddda2e6762f923bf35f70",
+    "candidate.stacks.24caf5b5935a828afb48d543",
+    "candidate.stacks.e9c44f9099b70a7297a4b236",
+    "candidate.stacks.cc37681c9f4197674d2bc609",
+    "candidate.stacks.8c1a2622da1cfc9025b1df9e",
+    "candidate.stacks.f12d3b7d004309aa3aa24dc9",
+    "candidate.stacks.676913bdec783753042215a7",
+    "candidate.stacks.4da3528af8e2ca7440c6fc94",
+    "candidate.stacks.7f93f9313b26f5a81a7d2d00",
+    "candidate.stacks.81d633cfc32bdfb68b7274da",
+    "candidate.stacks.d58d2c1ceed951e7dd2c3c1c",
+    "candidate.stacks.27d26d5837101ea7a23c6c35",
+    "candidate.stacks.9c7f58ed5b0fc7e98630db01"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/spaces-morphisms/batch_01_sections_01_13/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.28e9090ad299526454044ffa",
+    "candidate.stacks.959af842c237f8f23456a506",
+    "candidate.stacks.5a06020ba887bc180d87976d",
+    "candidate.stacks.fcb2c4ab2ac64d56e56ee128",
+    "candidate.stacks.7932cbbe51cf3b4c19414fc1",
+    "candidate.stacks.3c9cf8c5f4c36cfc841e155f",
+    "candidate.stacks.04458d2cb78e0e24ce3e67c8",
+    "candidate.stacks.d2b783b81b7c3bb4ee814bdf",
+    "candidate.stacks.7313e44ee9713bb3ff9035ff",
+    "candidate.stacks.cc37681c9f4197674d2bc609",
+    "candidate.stacks.8c1a2622da1cfc9025b1df9e"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1,
+    2,
+    3
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Introduction",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §1 Introduction: 0 explicit named definitions; 0 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 34,
+      "snippets": [
+        {
+          "source_line": 43,
+          "tex": "Let $S$ be a scheme and let $X$ be an algebraic space over $S$.\nIn this chapter and the following we will write $X \\times_S X$\nfor the product of $X$ with itself (in the category of algebraic\nspaces over $S$), instead of $X \\times X$."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Conventions",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §2 Conventions: 0 explicit named definitions; 0 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 3,
+      "kind": "context_only",
+      "source_line": 53,
+      "snippets": [
+        {
+          "source_line": 139,
+          "tex": "We will use these facts below, and whenever we do we will simply refer\nto this section as a reference."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Properties of representable morphisms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §3 Properties of representable morphisms: 0 explicit named definitions; 0 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 157,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.850428fcf6777ea115cddac4",
+        "candidate.stacks.cd16df965ab9b999e66a97f2",
+        "candidate.stacks.28e9090ad299526454044ffa",
+        "candidate.stacks.e0214ab36cc92c527a41001c",
+        "candidate.stacks.3d448f94b2f49b3ca1df4ef7",
+        "candidate.stacks.1316bde55b88b2833898e384",
+        "candidate.stacks.959af842c237f8f23456a506",
+        "candidate.stacks.60df3b752d9c2a65deb937e3",
+        "candidate.stacks.8649081addae056111b5dd91",
+        "candidate.stacks.5a06020ba887bc180d87976d"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Separation axioms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §4 Separation axioms: 1 explicit named definitions; 10 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 592,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.fcb2c4ab2ac64d56e56ee128",
+        "candidate.stacks.05771f9a01ed0b8be2a739d2",
+        "candidate.stacks.aeb6f8964e76bf7bfa721cc7",
+        "candidate.stacks.2917191cbf2a677673a110ae"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Surjective morphisms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §5 Surjective morphisms: 1 explicit named definitions; 4 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 694,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.7932cbbe51cf3b4c19414fc1",
+        "candidate.stacks.f26b5de600b5b9510368dd64",
+        "candidate.stacks.1eea7334b6a80a63a9dd30e4",
+        "candidate.stacks.47bdb49ebe633b13f56cd67b",
+        "candidate.stacks.e54f64b5a7b54caa07ee54a8"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Open morphisms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §6 Open morphisms: 1 explicit named definitions; 5 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 891,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3c9cf8c5f4c36cfc841e155f",
+        "candidate.stacks.b675f614dd67fe51fe52fc92",
+        "candidate.stacks.9e51415932a2014edf5b81f6"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Submersive morphisms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §7 Submersive morphisms: 1 explicit named definitions; 3 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 986,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.04458d2cb78e0e24ce3e67c8",
+        "candidate.stacks.e088e2a95e067dc937865801",
+        "candidate.stacks.7810cffb702876231b0dcfca",
+        "candidate.stacks.92c6cbe13ddbe39b2d75e990",
+        "candidate.stacks.af74c2d971fad5d5a2efd0e5",
+        "candidate.stacks.17f3d98c9612f265f8a21f98",
+        "candidate.stacks.3b32a7d0585f8930ea3d8a0d",
+        "candidate.stacks.79895fafd0bd0b5d6e85b9b8",
+        "candidate.stacks.bb40203a472ddd55212e5e18"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Quasi-compact morphisms",
+      "stage_a_source_context_summary": "Pinned spaces-morphisms.tex §8 Quasi-compact morphisms: 1 explicit named definitions; 9 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1290,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d2b783b81b7c3bb4ee814bdf",
+        "candidate.stacks.934729bca67ef0db607e368c",
+        "candidate.stacks.4ac866b5d870a2cf0ae26d0f",
+        "candidate.stacks.b40809d3d287b8348a750b17",
+        "candidate.stacks.287315307b16b5a725ed2276",
+        "candidate.stacks.06733392a866b81feb798ae1"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Universally closed morphisms",
+      "stage_a_source_context_summary": "§9 reviewed in pinned source: 6 standalone and 0 held; definitions and theorem scope checked."
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1630,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.7313e44ee9713bb3ff9035ff",
+        "candidate.stacks.b35c692c95fbf6d16d0405c3",
+        "candidate.stacks.cefc8c0542821946c71b2dd9",
+        "candidate.stacks.a147bf6f046fe2725cc77838",
+        "candidate.stacks.1d0f529206bc0260f4dbf68d",
+        "candidate.stacks.790ddda2e6762f923bf35f70",
+        "candidate.stacks.24caf5b5935a828afb48d543",
+        "candidate.stacks.e9c44f9099b70a7297a4b236"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Monomorphisms",
+      "stage_a_source_context_summary": "§10 reviewed in pinned source: 8 standalone and 0 held; definitions and theorem scope checked."
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1829,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.cc37681c9f4197674d2bc609",
+        "candidate.stacks.8c1a2622da1cfc9025b1df9e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Pushforward of quasi-coherent sheaves",
+      "stage_a_source_context_summary": "§11 reviewed in pinned source: 2 standalone and 0 held; definitions and theorem scope checked."
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1971,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f12d3b7d004309aa3aa24dc9",
+        "candidate.stacks.676913bdec783753042215a7",
+        "candidate.stacks.4da3528af8e2ca7440c6fc94",
+        "candidate.stacks.7f93f9313b26f5a81a7d2d00"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Immersions",
+      "stage_a_source_context_summary": "§12 reviewed in pinned source: 4 standalone and 0 held; definitions and theorem scope checked."
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2202,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.81d633cfc32bdfb68b7274da",
+        "candidate.stacks.d58d2c1ceed951e7dd2c3c1c",
+        "candidate.stacks.27d26d5837101ea7a23c6c35",
+        "candidate.stacks.9c7f58ed5b0fc7e98630db01"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.9c7f58ed5b0fc7e98630db01"
+      ],
+      "stage_a_source_context_heading": "Closed immersions",
+      "stage_a_source_context_summary": "§13 reviewed in pinned source: 3 standalone and 1 held; definitions and theorem scope checked."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 54,
+  "stage_a_remaining_work_candidate_count": 1,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 9,
+  "stage_a_remaining_work_section_count": 10,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_dispositioned_section_count": 13,
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "processing_note": "Regular Stage A processed through spaces-morphisms.tex §13; 15-section run batch4. §§1–13 complete."
+}

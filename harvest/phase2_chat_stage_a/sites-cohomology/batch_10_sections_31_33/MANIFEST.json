@@ -1,0 +1,116 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-cohomology-source-ordered-20261031-10",
+  "chapter": "sites-cohomology.tex",
+  "sections_ordinal": [
+    31,
+    33
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    7463,
+    8155,
+    8204
+  ],
+  "first_source_line": 7463,
+  "last_source_line": 8569,
+  "complete_sections": true,
+  "stage_a_candidate_count": 11,
+  "candidate_ids": [
+    "candidate.stacks.4a17e01450e0b4207f76fa94",
+    "candidate.stacks.2ae551586d4e54ada3490664",
+    "candidate.stacks.e811913ca91c1487338ae8f1",
+    "candidate.stacks.2c65dd577a7158f1cfddc8b0",
+    "candidate.stacks.bcb12f8fd20213a53a75cef7",
+    "candidate.stacks.364d30f929b6cdfe771bac62",
+    "candidate.stacks.66292869f447ae1c7d96e0c8",
+    "candidate.stacks.35d05e5c189fe780ce9ae2b5",
+    "candidate.stacks.c123f8907d51d57b52cf2f0c",
+    "candidate.stacks.f70558e6d9fd9c0709d16b30",
+    "candidate.stacks.79b838234037b034353f1c99"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.79b838234037b034353f1c99"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    32
+  ],
+  "processing_sections": [
+    {
+      "section": 31,
+      "source_line": 7463,
+      "section_end_line": 8154,
+      "source_heading": "Cohomology on Hausdorff and locally quasi-compact spaces",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.4a17e01450e0b4207f76fa94",
+        "candidate.stacks.2ae551586d4e54ada3490664",
+        "candidate.stacks.e811913ca91c1487338ae8f1",
+        "candidate.stacks.2c65dd577a7158f1cfddc8b0",
+        "candidate.stacks.bcb12f8fd20213a53a75cef7",
+        "candidate.stacks.364d30f929b6cdfe771bac62",
+        "candidate.stacks.66292869f447ae1c7d96e0c8"
+      ],
+      "stage_a_candidate_action": "source-first-preparation_or_further_work",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 32,
+      "source_line": 8155,
+      "section_end_line": 8203,
+      "source_heading": "Spectral sequences for Ext",
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [],
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 33,
+      "source_line": 8204,
+      "section_end_line": 8569,
+      "source_heading": "Cup product",
+      "kind": "candidates",
+      "stage_a_readiness": "mixed_ready_and_further_work",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.35d05e5c189fe780ce9ae2b5",
+        "candidate.stacks.c123f8907d51d57b52cf2f0c",
+        "candidate.stacks.f70558e6d9fd9c0709d16b30",
+        "candidate.stacks.79b838234037b034353f1c99"
+      ],
+      "stage_a_candidate_action": "source-first-preparation_or_further_work",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "context_ledgers_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 10,
+  "stage_a_remaining_work_candidate_count": 1,
+  "stage_a_source_hold_candidate_count": 1,
+  "stage_a_ready_for_codex_section_count": 1,
+  "stage_a_remaining_work_section_count": 1,
+  "stage_a_work_pending": true,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 3,
+  "stage_a_further_work_section_count": 1,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "§31 LC qc/Zar compared to ordinary topology, §32 Ext notation, §33 derived relative cup diagrams. One malformed primary-source diagram held for independent reconstruction; no proof/Stage B validation."
+}

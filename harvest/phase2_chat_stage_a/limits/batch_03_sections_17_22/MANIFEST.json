@@ -1,0 +1,184 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "limits-source-ordered-20261101-3",
+  "chapter": "limits.tex",
+  "sections_ordinal": [
+    17,
+    22
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    4228,
+    4495,
+    4660,
+    4994,
+    5262,
+    5355
+  ],
+  "first_source_line": 4228,
+  "last_source_line": 5704,
+  "complete_sections": true,
+  "stage_a_candidate_count": 19,
+  "candidate_ids": [
+    "candidate.stacks.5f1aa14617f0b873c2379d39",
+    "candidate.stacks.63dccc2ec7fdfd07f13f20fe",
+    "candidate.stacks.3c29d5cec7f7bed3119794cf",
+    "candidate.stacks.12be7c1e4b16f2e8ff7ab06b",
+    "candidate.stacks.8f954734b5dc724280813e74",
+    "candidate.stacks.0ab44ba99cc44331d48e60ef",
+    "candidate.stacks.cc3f98329f6e253035703b6e",
+    "candidate.stacks.bf285ae37e3a7b1c627ea444",
+    "candidate.stacks.b700464eb9baaaee8712f55b",
+    "candidate.stacks.fe11fd0d01e05238e97c479a",
+    "candidate.stacks.e05d88b2d1b40693796e1455",
+    "candidate.stacks.e46af39f8ba0d81c398ed8d1",
+    "candidate.stacks.2d5f9c9e7fbcd3b4755859eb",
+    "candidate.stacks.7778d8e04923acada25603ea",
+    "candidate.stacks.1b0720e25da6209715721f7e",
+    "candidate.stacks.7b766bef13c8862467fc08c0",
+    "candidate.stacks.390b1db57e461c700a5f49b5",
+    "candidate.stacks.c94d23a863d37bf11e32c512",
+    "candidate.stacks.7f178d165ebd627b1f400029"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.bf285ae37e3a7b1c627ea444",
+    "candidate.stacks.b700464eb9baaaee8712f55b",
+    "candidate.stacks.fe11fd0d01e05238e97c479a",
+    "candidate.stacks.e05d88b2d1b40693796e1455",
+    "candidate.stacks.c94d23a863d37bf11e32c512",
+    "candidate.stacks.7f178d165ebd627b1f400029"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    21
+  ],
+  "processing_sections": [
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 4228,
+      "section_end_line": 4494,
+      "source_heading": "Valuative criteria over a Nagata base",
+      "active_candidate_ids": [
+        "candidate.stacks.5f1aa14617f0b873c2379d39",
+        "candidate.stacks.63dccc2ec7fdfd07f13f20fe",
+        "candidate.stacks.3c29d5cec7f7bed3119794cf"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion_or_precise_hold",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 4495,
+      "section_end_line": 4659,
+      "source_heading": "Limits and dimensions of fibres",
+      "active_candidate_ids": [
+        "candidate.stacks.12be7c1e4b16f2e8ff7ab06b",
+        "candidate.stacks.8f954734b5dc724280813e74",
+        "candidate.stacks.0ab44ba99cc44331d48e60ef",
+        "candidate.stacks.cc3f98329f6e253035703b6e"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion_or_precise_hold",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 4660,
+      "section_end_line": 4993,
+      "source_heading": "Base change in top degree",
+      "active_candidate_ids": [
+        "candidate.stacks.bf285ae37e3a7b1c627ea444",
+        "candidate.stacks.b700464eb9baaaee8712f55b",
+        "candidate.stacks.fe11fd0d01e05238e97c479a",
+        "candidate.stacks.e05d88b2d1b40693796e1455"
+      ],
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion_or_precise_hold",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 4994,
+      "section_end_line": 5261,
+      "source_heading": "Glueing in closed fibres",
+      "active_candidate_ids": [
+        "candidate.stacks.e46af39f8ba0d81c398ed8d1",
+        "candidate.stacks.2d5f9c9e7fbcd3b4755859eb",
+        "candidate.stacks.7778d8e04923acada25603ea",
+        "candidate.stacks.1b0720e25da6209715721f7e"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion_or_precise_hold",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 21,
+      "kind": "context_only",
+      "source_line": 5262,
+      "section_end_line": 5354,
+      "source_heading": "Application to modifications",
+      "active_candidate_ids": [],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 5355,
+      "section_end_line": 5704,
+      "source_heading": "Descending finite type schemes",
+      "active_candidate_ids": [
+        "candidate.stacks.7b766bef13c8862467fc08c0",
+        "candidate.stacks.390b1db57e461c700a5f49b5",
+        "candidate.stacks.c94d23a863d37bf11e32c512",
+        "candidate.stacks.7f178d165ebd627b1f400029"
+      ],
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion_or_precise_hold",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "context_ledgers_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 13,
+  "stage_a_remaining_work_candidate_count": 6,
+  "stage_a_source_hold_candidate_count": 6,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 2,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 6,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Pinned source-first Stage A with scoped named situations and explicit reference expansions; no proof or independent Stage B review.",
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/SECTION_CHECKPOINTS.jsonl"
+}

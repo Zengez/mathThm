@@ -1,0 +1,119 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-70",
+  "chapter": "restricted.tex",
+  "sections_ordinal": [
+    1,
+    6
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17,
+    85,
+    262,
+    606,
+    855,
+    1136
+  ],
+  "first_source_line": 17,
+  "last_source_line": 1371,
+  "complete_sections": true,
+  "stage_a_candidate_count": 17,
+  "candidate_ids": [
+    "candidate.stacks.29a1be24d061ec62983e1a99",
+    "candidate.stacks.3bcdf15ff9dc904c59cd95cc",
+    "candidate.stacks.c79b35747d4aff9c62029495",
+    "candidate.stacks.9ae15901f33f3ff0c393ebca",
+    "candidate.stacks.6c847eeff66f62a5dfe7d0d7",
+    "candidate.stacks.525eeb7759a9ad37fcb21992",
+    "candidate.stacks.6fb2ed213379257a54d2bd8d",
+    "candidate.stacks.f11614a83c1f90ae530b66a6",
+    "candidate.stacks.05f55296266ebf507aafda9a",
+    "candidate.stacks.a9b9bd20157b5f979dccd90f",
+    "candidate.stacks.db494a04cc27404d73795c40",
+    "candidate.stacks.db29c3b7a9b58f495f58cc98",
+    "candidate.stacks.6ef980622a4482e0a40f2770",
+    "candidate.stacks.4f993cd1ff598da6480a0dd1",
+    "candidate.stacks.95f51d374aa5f8116c923059",
+    "candidate.stacks.e91ebdc22e3e1754b5f5404c",
+    "candidate.stacks.d6aaccbdda31fda62f552eda"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/restricted/batch_01_sections_01_06/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.29a1be24d061ec62983e1a99",
+    "candidate.stacks.3bcdf15ff9dc904c59cd95cc",
+    "candidate.stacks.c79b35747d4aff9c62029495",
+    "candidate.stacks.9ae15901f33f3ff0c393ebca",
+    "candidate.stacks.6c847eeff66f62a5dfe7d0d7",
+    "candidate.stacks.525eeb7759a9ad37fcb21992",
+    "candidate.stacks.6fb2ed213379257a54d2bd8d",
+    "candidate.stacks.f11614a83c1f90ae530b66a6",
+    "candidate.stacks.05f55296266ebf507aafda9a",
+    "candidate.stacks.a9b9bd20157b5f979dccd90f",
+    "candidate.stacks.db494a04cc27404d73795c40",
+    "candidate.stacks.db29c3b7a9b58f495f58cc98",
+    "candidate.stacks.6ef980622a4482e0a40f2770",
+    "candidate.stacks.e91ebdc22e3e1754b5f5404c"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 17,
+      "snippets": [
+        {
+          "source_line": 31,
+          "tex": "Let $A$ be a Noetherian ring and let $I \\subset A$ be an ideal. In the\nfirst part of this chapter (Sections \\ref{section-two-categories}\n-- \\ref{section-approximation-principal})\nwe discuss the category of $I$-adically complete algebras $B$\ntopologically of finite type over a Noetherian ring $A$.\nIt is shown that $B = A\\{x_1, \\ldots, x_n\\}/J$ for some\n(closed) ideal $J$ in the restricted power series ring\n(where $A$ is endowed with the $I$-adic topology).\nWe show there is a good notion of a naive cotangent complex\n$\\NL_{B/A}^\\wedge$. If some power of $I$ annihilates\n$\\NL_{B/A}^\\wedge$, then we say $B$ is a rig-\\'etale algebra\nover $(A, I)$; there is a similar notion of rig-smooth algebras.\nIf $A$ is a G-ring, then we show, using Popescu's theorem,\nthat any rig-smooth algebra $B$ over $(A, I)$ is the completion\nof a finite type $A$-algebra; informally we say that we can ``algebraize'' $B$.\nHowever, the main result of the first part is that any rig-\\'etale\nalgebra $B$ over $(A, I)$ can be algebraized (without assuming $A$ is\na G-ring), see Lemma \\ref{lemma-approximate}. For pointers to the literature\non this type of algebraization, see Remark \\ref{remark-discussion}.\nGeneral references for the first part are\n\\cite{EGA}, \\cite{Abbes}, and \\cite{Fujiwara-Kato}."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 85,
+      "stage_a_readiness": "needs_stage_a_work"
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 262,
+      "stage_a_readiness": "needs_stage_a_work"
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 606,
+      "stage_a_readiness": "needs_stage_a_work"
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 855,
+      "stage_a_readiness": "needs_stage_a_work"
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 1136,
+      "stage_a_readiness": "needs_stage_a_work"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 17,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 5,
+  "stage_a_work_pending": true,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+}

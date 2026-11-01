@@ -1,0 +1,298 @@
+{
+  "schema": "maththm.phase2.stage-b-parallel-worker-queue.v1",
+  "worker": 3,
+  "branch": "work/stageb/chat-3",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "immutable_allocation": "work/stageb-parallel/ALLOCATION.json",
+  "note": "Only worker 3 may edit this file. A chapter is removed only after all eligible sections are reviewed and committed.",
+  "pending": [
+    {
+      "chapter": "sites-cohomology",
+      "source_file": "sites-cohomology.tex",
+      "byte_weight": 1157457,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_02_sections_09_10/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_03_sections_11_15/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_04_sections_16_17/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_05_sections_18_20/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_06_sections_21_23/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_07_sections_24_25/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_09_sections_30_30/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_10_sections_31_33/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_11_sections_34_36/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_12_sections_37_42/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_13_sections_43_45/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_14_sections_46_48/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-cohomology/batch_15_sections_49_53/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "cohomology",
+      "source_file": "cohomology.tex",
+      "byte_weight": 1004641,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/cohomology/batch_01_sections_01_09/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/cohomology/batch_02_sections_10_20/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/cohomology/batch_03_sections_21_25/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/cohomology/batch_04_sections_26_30/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/cohomology/batch_05_sections_31_35/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/cohomology/batch_06_sections_36_40/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/cohomology/batch_07_sections_41_45/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/cohomology/batch_08_sections_46_50/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/cohomology/batch_09_sections_51_55/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "derived",
+      "source_file": "derived.tex",
+      "byte_weight": 800757,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/derived/batch_01_sections_01_15/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/derived/batch_02_sections_16_30/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/derived/batch_03_sections_31_42/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "curves",
+      "source_file": "curves.tex",
+      "byte_weight": 755888,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/curves/batch_01_sections_01_13/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/curves/batch_02_sections_14_26/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "topology",
+      "source_file": "topology.tex",
+      "byte_weight": 593709,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/topology/batch_01_sections_01_07/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/topology/batch_02_sections_08_12/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/topology/batch_03_sections_13_20/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/topology/batch_04_sections_21_30/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "formal-spaces",
+      "source_file": "formal-spaces.tex",
+      "byte_weight": 534281,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/formal-spaces/batch_01_sections_01_19/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/formal-spaces/batch_02_sections_20_38/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "limits",
+      "source_file": "limits.tex",
+      "byte_weight": 472082,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/limits/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/limits/batch_02_sections_09_16/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "restricted",
+      "source_file": "restricted.tex",
+      "byte_weight": 459847,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/restricted/batch_01_sections_01_06/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/restricted/batch_02_sections_07_30/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "properties",
+      "source_file": "properties.tex",
+      "byte_weight": 443552,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/properties/batch_01_sections_01_15/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/properties/batch_02_sections_16_30/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-divisors",
+      "source_file": "spaces-divisors.tex",
+      "byte_weight": 400525,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-divisors/batch_01_sections_01_09/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/spaces-divisors/batch_02_sections_10_19/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "dga",
+      "source_file": "dga.tex",
+      "byte_weight": 370082,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/dga/batch_01_sections_01_13/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/dga/batch_02_sections_14_25/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/dga/batch_03_sections_26_30/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/dga/batch_04_sections_31_38/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces",
+      "source_file": "spaces.tex",
+      "byte_weight": 344414,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces/batch_01_sections_01_03/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/spaces/batch_02_sections_04_16/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "crystalline",
+      "source_file": "crystalline.tex",
+      "byte_weight": 318990,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/crystalline/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/crystalline/batch_02_sections_09_26/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "defos",
+      "source_file": "defos.tex",
+      "byte_weight": 308389,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/defos/batch_01_sections_01_13/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/defos/batch_02_sections_14_16/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "algebraic",
+      "source_file": "algebraic.tex",
+      "byte_weight": 285613,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/algebraic/batch_01_sections_01_02/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/algebraic/batch_02_sections_03_19/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "stacks-more-morphisms",
+      "source_file": "stacks-more-morphisms.tex",
+      "byte_weight": 264791,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/stacks-more-morphisms/batch_01_sections_01_16/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-descent",
+      "source_file": "spaces-descent.tex",
+      "byte_weight": 247072,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-descent/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/spaces-descent/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "sheaves",
+      "source_file": "sheaves.tex",
+      "byte_weight": 245155,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/sheaves/batch_01_sections_01_33/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "sdga",
+      "source_file": "sdga.tex",
+      "byte_weight": 220234,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/sdga/batch_01_sections_01_35/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-pushouts",
+      "source_file": "spaces-pushouts.tex",
+      "byte_weight": 197642,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-pushouts/batch_01_sections_01_04/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/spaces-pushouts/batch_02_sections_05_14/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "hypercovering",
+      "source_file": "hypercovering.tex",
+      "byte_weight": 179068,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/hypercovering/batch_01_sections_01_12/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "bootstrap",
+      "source_file": "bootstrap.tex",
+      "byte_weight": 163544,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/bootstrap/batch_01_sections_01_12/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-groupoids",
+      "source_file": "spaces-groupoids.tex",
+      "byte_weight": 139376,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-groupoids/batch_01_sections_01_10/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/spaces-groupoids/batch_02_sections_11_29/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "functors",
+      "source_file": "functors.tex",
+      "byte_weight": 129284,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/functors/batch_01_sections_01_07/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-more-cohomology",
+      "source_file": "spaces-more-cohomology.tex",
+      "byte_weight": 98123,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-more-cohomology/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "stacks-limits",
+      "source_file": "stacks-limits.tex",
+      "byte_weight": 67279,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/stacks-limits/batch_01_sections_01_07/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "examples-stacks",
+      "source_file": "examples-stacks.tex",
+      "byte_weight": 47916,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/examples-stacks/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/examples-stacks/batch_02_sections_09_18/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    }
+  ]
+}

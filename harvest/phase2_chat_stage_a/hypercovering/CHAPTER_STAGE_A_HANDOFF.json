@@ -1,0 +1,20 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-handoff.v1",
+  "chapter": "hypercovering",
+  "source_file": "hypercovering.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_sections_total": 12,
+  "source_theorem_environments": 34,
+  "active_candidate_count": 31,
+  "inactive_source_environments_excluded": 3,
+  "ready_for_independent_stage_b_validation": 29,
+  "further_work_needed": 2,
+  "independent_validation": "not_started",
+  "processing_complete": true,
+  "batch_directory": "harvest/phase2_chat_stage_a/hypercovering/batch_01_sections_01_12",
+  "hold_candidate_ids": [
+    "candidate.stacks.74ccf0703c5eb1cd33d2a805",
+    "candidate.stacks.8b7142f835f1a1e649817bbd"
+  ],
+  "notes": "12 complete source sections; relative/absolute hypercovering distinction, semi-representable families, homology, Čech complex, HC-colimit and topology index constructions reviewed. Two precise holds; no proof screening."
+}

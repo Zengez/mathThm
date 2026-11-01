@@ -1,0 +1,95 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "descent.tex",
+  "sections_ordinal": [
+    16,
+    20
+  ],
+  "first_source_line": 4754,
+  "last_source_line": 5150,
+  "source_section_starts": [
+    4754,
+    4885,
+    4944,
+    5066,
+    5114
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 11,
+  "candidate_ids": [
+    "candidate.stacks.f5a61a2fb7abc69c9c6bbb27",
+    "candidate.stacks.595fe2be12e758495ef87ff8",
+    "candidate.stacks.11fef33127a88be83ef1b669",
+    "candidate.stacks.ebea551b6bd23242498d2e14",
+    "candidate.stacks.f776af94db88db1134369c97",
+    "candidate.stacks.3a07d4cf9466871df8f2d0d3",
+    "candidate.stacks.16bc4b67a57ba234eda9a13d",
+    "candidate.stacks.5e04fd6fe2f8a00fb68948b9",
+    "candidate.stacks.27a3b3ac8fbf2c33be7f6350",
+    "candidate.stacks.258730c1da6d2bbfff7feae1",
+    "candidate.stacks.833aeeb9eafa7ac0883bc349"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/descent/batch_04_sections_16_20/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 4754,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 4885,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 4944,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 5066,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 20,
+      "kind": "context_only",
+      "source_line": 5114,
+      "snippets": [
+        {
+          "source_line": 5117,
+          "tex": "\\begin{definition}\n\\label{definition-germs}\nGerms of schemes.\n\\begin{enumerate}\n\\item A pair $(X, x)$ consisting of a scheme $X$ and a point $x \\in X$ is\ncalled the {\\it germ of $X$ at $x$}.\n\\item A {\\it morphism of germs} $f : (X, x) \\to (S, s)$\nis an equivalence class of morphisms of schemes $f : U \\to S$ with $f(x) = s$\nwhere $U \\subset X$ is an open neighbourhood of $x$. Two such\n$f$, $f'$ are said to be equivalent if and only if $f$ and $f'$\nagree in some open neighbourhood of $x$.\n\\item We define the {\\it composition of morphisms of germs}\nby composing representatives (this is well defined).\n\\end{enumerate}\n\\end{definition}"
+        },
+        {
+          "source_line": 5136,
+          "tex": "\\begin{definition}\n\\label{definition-etale-morphism-germs}\nLet $f : (X, x) \\to (S, s)$ be a morphism of germs.\nWe say $f$ is {\\it \\'etale} (resp.\\ {\\it smooth}) if there exists a\nrepresentative $f : U \\to S$ of $f$ which is an \\'etale morphism\n(resp.\\ a smooth morphism) of schemes.\n\\end{definition}"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 11,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 4,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 0,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_section_mapping_pending": false,
+  "preliminary_source_holds": [],
+  "source_locator_verified": true,
+  "processing_note": "Processed Descent §§16–20 in original order. All 11 active candidates are local-property statements with the topology and key property meaning made explicit. §20 contains germ definitions only; retained as subsequent context. Stage B not started."
+}

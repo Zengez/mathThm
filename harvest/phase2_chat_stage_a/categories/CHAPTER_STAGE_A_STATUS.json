@@ -1,0 +1,89 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-status.v1",
+  "chapter": "categories",
+  "source_file": "categories.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "working_branch": "work/phase2-stage-a-context-enrichment",
+  "first_source_line": 18,
+  "last_source_line": 9856,
+  "source_sections": 44,
+  "source_candidates_harvested": 137,
+  "active_candidates_reviewed": 125,
+  "inactive_candidates_skipped": 12,
+  "prepared_for_independent_stage_b_validation": 118,
+  "further_work_needed": 7,
+  "independently_stage_b_validated": 0,
+  "phase3_eligible_count": 0,
+  "proof_reviewed_count": 0,
+  "section_checkpoints_count": 44,
+  "ledger_context_entries": 140,
+  "batch_manifests": [
+    "harvest/phase2_chat_stage_a/categories/batch_01_sections_01_08/MANIFEST.json",
+    "harvest/phase2_chat_stage_a/categories/batch_02_sections_09_18/MANIFEST.json",
+    "harvest/phase2_chat_stage_a/categories/batch_03_sections_19_26/MANIFEST.json",
+    "harvest/phase2_chat_stage_a/categories/batch_04_sections_27_34/MANIFEST.json",
+    "harvest/phase2_chat_stage_a/categories/batch_05_sections_35_44/MANIFEST.json"
+  ],
+  "further_work_registry": "harvest/phase2_chat_stage_a/FURTHER_WORK_NEEDED.jsonl",
+  "local_hold_packets": [
+    {
+      "candidate_id": "candidate.stacks.1b12ff9bca14ef2be13f6d52",
+      "source_label": "lemma-characterize-essentially-constant-ind",
+      "source_line": 3133,
+      "section_ordinal": 22,
+      "packet_path": "harvest/phase2_chat_stage_a/categories/batch_03_sections_19_26/MANIFEST.json",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.8084f04b38c588ededebeca5",
+      "source_label": "lemma-characterize-essentially-constant-pro",
+      "source_line": 3195,
+      "section_ordinal": 22,
+      "packet_path": "harvest/phase2_chat_stage_a/categories/batch_03_sections_19_26/MANIFEST.json",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.1eb2b3868c7c5dc802011f63",
+      "source_label": "lemma-a-version-of-brown",
+      "source_line": 3634,
+      "section_ordinal": 25,
+      "packet_path": "harvest/phase2_chat_stage_a/categories/batch_03_sections_19_26/MANIFEST.json",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.3f3cbcbee40d3c4b7de9b7f9",
+      "source_label": "theorem-adjoint-functor",
+      "source_line": 3746,
+      "section_ordinal": 25,
+      "packet_path": "harvest/phase2_chat_stage_a/categories/batch_03_sections_19_26/MANIFEST.json",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.595b097b294719b3b5acfc4a",
+      "source_label": "lemma-fibred",
+      "source_line": 6419,
+      "section_ordinal": 33,
+      "packet_path": "harvest/phase2_chat_stage_a/categories/batch_04_sections_27_34/MANIFEST.json",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.0d1fd839cd297fe6d1a99b5f",
+      "source_label": "lemma-fibred-groupoids",
+      "source_line": 7035,
+      "section_ordinal": 35,
+      "packet_path": "harvest/phase2_chat_stage_a/categories/batch_05_sections_35_44/MANIFEST.json",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.ef0f881de4247378f907f74f",
+      "source_label": "lemma-cat-dotted-arrows-composition",
+      "source_line": 9763,
+      "section_ordinal": 44,
+      "packet_path": "harvest/phase2_chat_stage_a/categories/batch_05_sections_35_44/MANIFEST.json",
+      "status": "further_work_needed"
+    }
+  ],
+  "context_ledger_policy": "All definitions and former lemma references are lookups only; all theorem-local hypotheses expire at their environment end; the monoidal convention from L9232 is not an algebraic assumption.",
+  "readiness_rule": "reconstruction_completed_awaiting_independent_stage_b_validation",
+  "independent_validation": "not_started"
+}

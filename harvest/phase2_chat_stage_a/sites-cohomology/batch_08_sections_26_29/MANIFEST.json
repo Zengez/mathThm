@@ -1,0 +1,124 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-cohomology-source-ordered-20261031-08",
+  "chapter": "sites-cohomology.tex",
+  "sections_ordinal": [
+    26,
+    29
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    5973,
+    6176,
+    6276,
+    6523
+  ],
+  "first_source_line": 5973,
+  "last_source_line": 6806,
+  "complete_sections": true,
+  "stage_a_candidate_count": 8,
+  "candidate_ids": [
+    "candidate.stacks.9448e1f912038869c69807d4",
+    "candidate.stacks.886d6ba65dd8277ebb4d8083",
+    "candidate.stacks.415082c98edc64eb1b166fef",
+    "candidate.stacks.6637d0e5cc82d51a69748339",
+    "candidate.stacks.50dd62e5936dbe9776984a53",
+    "candidate.stacks.6c823a383f9fed028dcb640d",
+    "candidate.stacks.7584d5c5fa51728bb56e4925",
+    "candidate.stacks.67b6bb40fe49752f01db8776"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    27,
+    29
+  ],
+  "processing_sections": [
+    {
+      "section": 26,
+      "source_line": 5973,
+      "section_end_line": 6175,
+      "source_heading": "Mayer-Vietoris",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.9448e1f912038869c69807d4"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 27,
+      "source_line": 6176,
+      "section_end_line": 6275,
+      "source_heading": "Comparing two topologies",
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [],
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 28,
+      "source_line": 6276,
+      "section_end_line": 6522,
+      "source_heading": "Formalities on cohomological descent",
+      "kind": "candidates",
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [
+        "candidate.stacks.886d6ba65dd8277ebb4d8083",
+        "candidate.stacks.415082c98edc64eb1b166fef",
+        "candidate.stacks.6637d0e5cc82d51a69748339",
+        "candidate.stacks.50dd62e5936dbe9776984a53",
+        "candidate.stacks.6c823a383f9fed028dcb640d",
+        "candidate.stacks.7584d5c5fa51728bb56e4925",
+        "candidate.stacks.67b6bb40fe49752f01db8776"
+      ],
+      "stage_a_candidate_action": "standalone_expanded_from_pinned_source",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 29,
+      "source_line": 6523,
+      "section_end_line": 6806,
+      "source_heading": "Comparing two topologies, II",
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "active_candidate_ids": [],
+      "stage_a_candidate_action": "none_no_unapproved_active_candidates",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "context_ledgers_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 8,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 4,
+  "stage_a_further_work_section_count": 0,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/sites-cohomology/batch_08_sections_26_29/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "§26–29, including complete candidate-free sections §27 and §29, sources read for topology-comparison context before §30. Formal derived adjunction and Olsson named Situtations kept theorem-local. No proof checked."
+}

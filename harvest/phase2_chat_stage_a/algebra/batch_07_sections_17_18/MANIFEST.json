@@ -1,0 +1,92 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "algebra-stage-a-20261101-7",
+  "chapter": "algebra.tex",
+  "sections_ordinal": [
+    17,
+    18
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    2964,
+    3305
+  ],
+  "first_source_line": 2964,
+  "last_source_line": 3545,
+  "complete_sections": true,
+  "stage_a_candidate_count": 9,
+  "candidate_ids": [
+    "candidate.stacks.949974fcd5f80ede3ccc8810",
+    "candidate.stacks.847162e86c9f20d143e6d1b4",
+    "candidate.stacks.be35198cd4cc15f202b01b76",
+    "candidate.stacks.872c4b5fdc7d9c2c8a8a6107",
+    "candidate.stacks.d09a6c240ee8c3f13b8ffbf9",
+    "candidate.stacks.f09b8a1ec184b3c0a61d4f6e",
+    "candidate.stacks.adb33a94fcd85ae4580928f6",
+    "candidate.stacks.3487a861ceead1ebd3c7d370",
+    "candidate.stacks.dc2e4de0f89bb6270bf22a24"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/algebra/batch_07_sections_17_18/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 2964,
+      "section_end_line": 3304,
+      "source_heading": "The spectrum of a ring",
+      "active_candidate_ids": [
+        "candidate.stacks.949974fcd5f80ede3ccc8810",
+        "candidate.stacks.847162e86c9f20d143e6d1b4",
+        "candidate.stacks.be35198cd4cc15f202b01b76",
+        "candidate.stacks.872c4b5fdc7d9c2c8a8a6107",
+        "candidate.stacks.d09a6c240ee8c3f13b8ffbf9",
+        "candidate.stacks.f09b8a1ec184b3c0a61d4f6e"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3305,
+      "section_end_line": 3545,
+      "source_heading": "Local rings",
+      "active_candidate_ids": [
+        "candidate.stacks.adb33a94fcd85ae4580928f6",
+        "candidate.stacks.3487a861ceead1ebd3c7d370",
+        "candidate.stacks.dc2e4de0f89bb6270bf22a24"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "source_ordered_context_ledger_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 9,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 2,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/algebra/SCOPE_EVENTS.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "No approved identity regenerated. Standalone source-grounded preparation only; source proof text not screened, Stage B validation not attempted."
+}

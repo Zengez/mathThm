@@ -1,0 +1,332 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "20-section-experiment-47",
+  "chapter": "spaces.tex",
+  "sections_ordinal": [
+    4,
+    16
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    277,
+    490,
+    797,
+    887,
+    979,
+    1163,
+    1271,
+    1659,
+    1905,
+    2068,
+    2161,
+    2547,
+    2718
+  ],
+  "first_source_line": 277,
+  "last_source_line": 2971,
+  "complete_sections": true,
+  "stage_a_candidate_count": 41,
+  "candidate_ids": [
+    "candidate.stacks.f62f4a0da44062184b475cbd",
+    "candidate.stacks.24932803e3e6ce9869291995",
+    "candidate.stacks.5f7844626ff300bd489a4fc4",
+    "candidate.stacks.451a8745f1f5b175134cd235",
+    "candidate.stacks.f37100a401ba5fea238b1556",
+    "candidate.stacks.4056224516be8e150c87f38f",
+    "candidate.stacks.57080f70b6c6e21ebe8bd5ca",
+    "candidate.stacks.2ee8b136c823457eca63a4d5",
+    "candidate.stacks.93d48b52cd6b813fada5947b",
+    "candidate.stacks.298e813a9ff2e00dd3c1f9c3",
+    "candidate.stacks.c62e3ce46b6628890ff512d7",
+    "candidate.stacks.11a20d961d3428116de1b071",
+    "candidate.stacks.6068d54be4f5098d9565e38e",
+    "candidate.stacks.3b8c467a246ad246b641a7bc",
+    "candidate.stacks.23b076cf7d3b537b1bcdecb5",
+    "candidate.stacks.668145a83785d208cd60c56b",
+    "candidate.stacks.cda42b978fc3e5c313e7c654",
+    "candidate.stacks.87783f084ca67b55f96e6074",
+    "candidate.stacks.037c0b7391da484e3b98ee08",
+    "candidate.stacks.40e37de9a5e8844ff8ad906f",
+    "candidate.stacks.c5f09c3f4fd92b121473f8b1",
+    "candidate.stacks.bb497e3acdbe3118b242b3bd",
+    "candidate.stacks.d189c17301a5caef3b6b89ac",
+    "candidate.stacks.7c132df50fbef5f72284d26c",
+    "candidate.stacks.fd08bd1f28b09047ced052f7",
+    "candidate.stacks.8571e61276320e7fe03cefa4",
+    "candidate.stacks.7d2dccce3a153a6073ec83f6",
+    "candidate.stacks.e8ad4e4d02d27d0b2e3654cc",
+    "candidate.stacks.5979400aa0edeb46e3d133dd",
+    "candidate.stacks.df7f68c2c53cd926d4f6de6a",
+    "candidate.stacks.16db54e32aa1afdab62f16d9",
+    "candidate.stacks.d1540c471ce032fe1cfc5954",
+    "candidate.stacks.ae532c14270c58b897e49df3",
+    "candidate.stacks.1f44e901138f8cfb9be46eda",
+    "candidate.stacks.a10c07097d5d3a4dca789501",
+    "candidate.stacks.5e59a3b858e6124bb0d43c64",
+    "candidate.stacks.56b488899e5fb52bf732e992",
+    "candidate.stacks.b2a75d4b3c5feda198ced77d",
+    "candidate.stacks.fad8d7333ef13ac253b7c6c1",
+    "candidate.stacks.f3aef704ad041bd5b4f8c3ab",
+    "candidate.stacks.8e84be22d871e8e36acec526"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/spaces/batch_02_sections_04_16/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.f62f4a0da44062184b475cbd",
+    "candidate.stacks.24932803e3e6ce9869291995",
+    "candidate.stacks.5f7844626ff300bd489a4fc4",
+    "candidate.stacks.451a8745f1f5b175134cd235",
+    "candidate.stacks.f37100a401ba5fea238b1556",
+    "candidate.stacks.4056224516be8e150c87f38f",
+    "candidate.stacks.2ee8b136c823457eca63a4d5",
+    "candidate.stacks.93d48b52cd6b813fada5947b",
+    "candidate.stacks.87783f084ca67b55f96e6074",
+    "candidate.stacks.037c0b7391da484e3b98ee08",
+    "candidate.stacks.40e37de9a5e8844ff8ad906f",
+    "candidate.stacks.e8ad4e4d02d27d0b2e3654cc",
+    "candidate.stacks.5979400aa0edeb46e3d133dd",
+    "candidate.stacks.a10c07097d5d3a4dca789501",
+    "candidate.stacks.5e59a3b858e6124bb0d43c64",
+    "candidate.stacks.56b488899e5fb52bf732e992",
+    "candidate.stacks.b2a75d4b3c5feda198ced77d",
+    "candidate.stacks.8e84be22d871e8e36acec526"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    4
+  ],
+  "processing_sections": [
+    {
+      "section": 4,
+      "kind": "context_only",
+      "source_line": 277,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Lists of useful properties of morphisms of schemes",
+      "stage_a_source_context_summary": "Morphism property catalogs are lookup leads, not automatic scheme properties."
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 490,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f62f4a0da44062184b475cbd",
+        "candidate.stacks.24932803e3e6ce9869291995",
+        "candidate.stacks.5f7844626ff300bd489a4fc4",
+        "candidate.stacks.451a8745f1f5b175134cd235",
+        "candidate.stacks.f37100a401ba5fea238b1556",
+        "candidate.stacks.4056224516be8e150c87f38f",
+        "candidate.stacks.57080f70b6c6e21ebe8bd5ca",
+        "candidate.stacks.2ee8b136c823457eca63a4d5",
+        "candidate.stacks.93d48b52cd6b813fada5947b"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Properties of representable morphisms of presheaves",
+      "stage_a_source_context_summary": "Representably P means all test fibres scheme maps have P; P base-change stable and fppf-local, and 'surjective' is not pointwise."
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 797,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.298e813a9ff2e00dd3c1f9c3"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Algebraic spaces",
+      "stage_a_source_context_summary": "Algebraic-space definition: fppf sheaf, representable diagonal, surjective étale scheme atlas."
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 887,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.c62e3ce46b6628890ff512d7",
+        "candidate.stacks.11a20d961d3428116de1b071",
+        "candidate.stacks.6068d54be4f5098d9565e38e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Fibre products of algebraic spaces",
+      "stage_a_source_context_summary": "Named algebraic-space definitions available; categorical products must retain base S."
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 979,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3b8c467a246ad246b641a7bc",
+        "candidate.stacks.23b076cf7d3b537b1bcdecb5",
+        "candidate.stacks.668145a83785d208cd60c56b",
+        "candidate.stacks.cda42b978fc3e5c313e7c654",
+        "candidate.stacks.87783f084ca67b55f96e6074"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Glueing algebraic spaces",
+      "stage_a_source_context_summary": "Coproduct and gluing statements require categorical sheaf coproducts and explicit smallness guard."
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1163,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.037c0b7391da484e3b98ee08"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Presentations of algebraic spaces",
+      "stage_a_source_context_summary": "Étale presentation U→F, R=U×_F U and equivalence-relation/quotient definitions sourced."
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1271,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.40e37de9a5e8844ff8ad906f",
+        "candidate.stacks.c5f09c3f4fd92b121473f8b1",
+        "candidate.stacks.bb497e3acdbe3118b242b3bd",
+        "candidate.stacks.d189c17301a5caef3b6b89ac",
+        "candidate.stacks.7c132df50fbef5f72284d26c"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Algebraic spaces and equivalence relations",
+      "stage_a_source_context_summary": "R|U' relation restriction and quotient sheaf; affineness only in the separate quasi-compact lemma, not inherited by theorem."
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1659,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.fd08bd1f28b09047ced052f7",
+        "candidate.stacks.8571e61276320e7fe03cefa4",
+        "candidate.stacks.7d2dccce3a153a6073ec83f6",
+        "candidate.stacks.e8ad4e4d02d27d0b2e3654cc",
+        "candidate.stacks.5979400aa0edeb46e3d133dd",
+        "candidate.stacks.df7f68c2c53cd926d4f6de6a"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Algebraic spaces, retrofitted",
+      "stage_a_source_context_summary": "Locally representable étale atlas and effective P descent qualifications kept theorem-local."
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1905,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.16db54e32aa1afdab62f16d9",
+        "candidate.stacks.d1540c471ce032fe1cfc5954",
+        "candidate.stacks.ae532c14270c58b897e49df3"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Immersions and Zariski coverings of algebraic spaces",
+      "stage_a_source_context_summary": "Open, closed, locally closed representable immersions; Zariski site and coverings defined for later source sections."
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2068,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.1f44e901138f8cfb9be46eda"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Separation conditions on algebraic spaces",
+      "stage_a_source_context_summary": "Algebraic-space diagonal has properties locally finite type, monomorphism, separated, locally quasi-finite (conclusions, not hypotheses)."
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2161,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.a10c07097d5d3a4dca789501"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.a10c07097d5d3a4dca789501"
+      ],
+      "stage_a_source_context_heading": "Examples of algebraic spaces",
+      "stage_a_source_context_summary": "Pinned source §14 reviewed through L2546. 1 source definition/situation events; 1 candidates, 1 holds. No local theorem hypotheses inherited."
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2547,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.5e59a3b858e6124bb0d43c64",
+        "candidate.stacks.56b488899e5fb52bf732e992"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.56b488899e5fb52bf732e992"
+      ],
+      "stage_a_source_context_heading": "Change of big site",
+      "stage_a_source_context_summary": "Pinned source §15 reviewed through L2717. 0 source definition/situation events; 2 candidates, 1 holds. No local theorem hypotheses inherited."
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 2718,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.b2a75d4b3c5feda198ced77d",
+        "candidate.stacks.fad8d7333ef13ac253b7c6c1",
+        "candidate.stacks.f3aef704ad041bd5b4f8c3ab",
+        "candidate.stacks.8e84be22d871e8e36acec526"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Change of base scheme",
+      "stage_a_source_context_summary": "Pinned source §16 reviewed through L2972. 1 source definition/situation events; 4 candidates, 0 holds. No local theorem hypotheses inherited."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 39,
+  "stage_a_remaining_work_candidate_count": 2,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 10,
+  "stage_a_remaining_work_section_count": 3,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_dispositioned_section_count": 16,
+  "stage_a_further_work_candidate_count": 2,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/spaces/batch_02_sections_04_16/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/spaces/batch_02_sections_04_16/SECTION_CHECKPOINTS.jsonl",
+  "stage_a_parent_checkpoint": "harvest/phase2_chat_stage_a/spaces/batch_01_sections_01_03/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Regular Stage A progressed through source spaces.tex §16; source-anchored ledger and per-section checkpoints. Chapter context closed at §16.",
+  "stage_a_further_work_section_count": 2
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-regression-report.v1",
+  "source_file": "algebra.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "checks": {
+    "active_id_count_238": true,
+    "prior_approved_ids_140_excluded": true,
+    "stage_a_ids_98_unique": true,
+    "all_active_ids_accounted_for_exactly_once": true,
+    "original_label_and_line_match_pinned_pass1": true,
+    "original_source_statement_matches_pass1": true,
+    "reconstruction_counts_match_ten_manifests": true,
+    "nonempty_hypotheses_and_conclusions": true,
+    "stage_a_decisions_and_remaining_work_consistent": true,
+    "section_checkpoints_1_to_43_contiguous": true,
+    "tail_sections_44_to_168_contiguous_and_zero_eligible": true,
+    "stale_context_aliases_repaired": true,
+    "topology_definition_references_expanded_in_standalone_drafts": true,
+    "further_work_needed_algebra_count_zero": true,
+    "proof_review_flags_false": true,
+    "independent_validation_flags_not_started": true
+  },
+  "counts": {
+    "source_sections": 168,
+    "harvested": 250,
+    "active": 238,
+    "prior_authoritative_approvals": 140,
+    "new_stage_a_ready": 98,
+    "unresolved": 0,
+    "checkpoints": 43,
+    "eligibility_only_tail_sections": 125
+  },
+  "qa_repairs": [
+    "Replaced applied context IDs module-system-notation, localization-setup, tensor-algebra-setup, and noncommutative-local-override with the actual scoped event IDs.",
+    "Expanded lemma-irreducible's cross-chapter definition using pinned topology.tex:855.",
+    "Expanded lemma-spec-spectral's cross-chapter definition using pinned topology.tex:4276."
+  ],
+  "validation_scope": "GitHub-connected structural and source-inventory audit; no full repository command-line tests or independent mathematical equivalence review.",
+  "full_repository_command_line_regression_run": false,
+  "independent_mathematical_validation": "not_started",
+  "phase3_eligible_by_this_audit": 0
+}

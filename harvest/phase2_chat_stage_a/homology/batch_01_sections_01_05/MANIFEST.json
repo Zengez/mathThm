@@ -1,0 +1,78 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch-manifest.v1",
+  "chapter": "homology",
+  "source_file": "homology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "batch_id": "batch_01_sections_01_05",
+  "section_start": 1,
+  "section_end": 5,
+  "first_source_line": 17,
+  "last_source_line": 1258,
+  "sections_processed": 5,
+  "active_candidates_processed": 27,
+  "ready_for_codex_validation": 26,
+  "further_work_needed": 1,
+  "independent_validation": "not_started",
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 1,
+      "title": "Introduction",
+      "kind": "context_only",
+      "source_line": 17,
+      "source_end_line": 25,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    },
+    {
+      "section": 2,
+      "title": "Basic notions",
+      "kind": "context_only",
+      "source_line": 26,
+      "source_end_line": 40,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    },
+    {
+      "section": 3,
+      "title": "Preadditive and additive categories",
+      "kind": "candidates",
+      "source_line": 41,
+      "source_end_line": 506,
+      "active_candidate_count": 10,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 9,
+      "further_work_needed": 1
+    },
+    {
+      "section": 4,
+      "title": "Karoubian categories",
+      "kind": "candidates",
+      "source_line": 507,
+      "source_end_line": 596,
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 5,
+      "title": "Abelian categories",
+      "kind": "candidates",
+      "source_line": 597,
+      "source_end_line": 1258,
+      "active_candidate_count": 15,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 15,
+      "further_work_needed": 0
+    }
+  ],
+  "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
+  "next_source_section": 6,
+  "next_source_line": 1259
+}

@@ -1,0 +1,397 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-audit.v1",
+  "chapter": "dga",
+  "source_file": "dga.tex",
+  "pinned_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "working_branch": "work/phase2-stage-a-context-enrichment",
+  "physical_sections": 38,
+  "harvested_statements": 103,
+  "active_candidates": 87,
+  "inactive_excluded": 16,
+  "records_written": 87,
+  "stage_b_ready_not_validated": 80,
+  "further_work_needed": 7,
+  "context_lookup_events": 55,
+  "source_order_checkpoints": 38,
+  "stage_b_validated": 0,
+  "proofs_reviewed": 0,
+  "phase3_promoted": 0,
+  "checks": {
+    "manifest_section_counts": true,
+    "active_candidate_id_reconciliation": true,
+    "source_statement_and_line_reconciliation": true,
+    "globally_registered_holds": true,
+    "unique_candidate_ids": true,
+    "contiguous_source_sections": true,
+    "no_unresolved_latex_references_in_ready_statements": true,
+    "nonempty_hypotheses_and_conclusions": true,
+    "no_phase3_promotion": true,
+    "regression_suite_run": false,
+    "unique_context_ledger_ids": true,
+    "balanced_math_delimiters_in_all_drafts": true,
+    "non_generic_hypothesis_conclusion_splits_for_ready": true,
+    "no_source_labels_in_ready_standalone": true,
+    "post_commit_structural_audit": true
+  },
+  "batches": [
+    {
+      "packet": "harvest/phase2_chat_stage_a/dga/batch_01_sections_01_13/MANIFEST.json",
+      "sections": [
+        1,
+        13
+      ],
+      "active": 19,
+      "ready": 18,
+      "held": 1
+    },
+    {
+      "packet": "harvest/phase2_chat_stage_a/dga/batch_02_sections_14_25/MANIFEST.json",
+      "sections": [
+        14,
+        25
+      ],
+      "active": 15,
+      "ready": 15,
+      "held": 0
+    },
+    {
+      "packet": "harvest/phase2_chat_stage_a/dga/batch_03_sections_26_30/MANIFEST.json",
+      "sections": [
+        26,
+        30
+      ],
+      "active": 23,
+      "ready": 19,
+      "held": 4
+    },
+    {
+      "packet": "harvest/phase2_chat_stage_a/dga/batch_04_sections_31_38/MANIFEST.json",
+      "sections": [
+        31,
+        38
+      ],
+      "active": 30,
+      "ready": 28,
+      "held": 2
+    }
+  ],
+  "sections": [
+    {
+      "section": 1,
+      "title": "Introduction",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 2,
+      "title": "Conventions",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 3,
+      "title": "Differential graded algebras",
+      "active": 1,
+      "ready": 1,
+      "held": 0
+    },
+    {
+      "section": 4,
+      "title": "Differential graded modules",
+      "active": 1,
+      "ready": 1,
+      "held": 0
+    },
+    {
+      "section": 5,
+      "title": "The homotopy category",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 6,
+      "title": "Cones",
+      "active": 1,
+      "ready": 1,
+      "held": 0
+    },
+    {
+      "section": 7,
+      "title": "Admissible short exact sequences",
+      "active": 5,
+      "ready": 5,
+      "held": 0
+    },
+    {
+      "section": 8,
+      "title": "Distinguished triangles",
+      "active": 1,
+      "ready": 1,
+      "held": 0
+    },
+    {
+      "section": 9,
+      "title": "Cones and distinguished triangles",
+      "active": 4,
+      "ready": 3,
+      "held": 1
+    },
+    {
+      "section": 10,
+      "title": "The homotopy category is triangulated",
+      "active": 3,
+      "ready": 3,
+      "held": 0
+    },
+    {
+      "section": 11,
+      "title": "Left modules",
+      "active": 1,
+      "ready": 1,
+      "held": 0
+    },
+    {
+      "section": 12,
+      "title": "Tensor product",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 13,
+      "title": "Hom complexes and differential graded modules",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 14,
+      "title": "Projective modules over algebras",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 15,
+      "title": "Projective modules over graded algebras",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 16,
+      "title": "Projective modules and differential graded algebras",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 17,
+      "title": "Injective modules over algebras",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 18,
+      "title": "Injective modules over graded algebras",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 19,
+      "title": "Injective modules and differential graded algebras",
+      "active": 3,
+      "ready": 3,
+      "held": 0
+    },
+    {
+      "section": 20,
+      "title": "P-resolutions",
+      "active": 3,
+      "ready": 3,
+      "held": 0
+    },
+    {
+      "section": 21,
+      "title": "I-resolutions",
+      "active": 3,
+      "ready": 3,
+      "held": 0
+    },
+    {
+      "section": 22,
+      "title": "The derived category",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 23,
+      "title": "The canonical delta-functor",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 24,
+      "title": "Linear categories",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 25,
+      "title": "Graded categories",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 26,
+      "title": "Differential graded categories",
+      "active": 4,
+      "ready": 4,
+      "held": 0
+    },
+    {
+      "section": 27,
+      "title": "Obtaining triangulated categories",
+      "active": 13,
+      "ready": 9,
+      "held": 4
+    },
+    {
+      "section": 28,
+      "title": "Bimodules",
+      "active": 3,
+      "ready": 3,
+      "held": 0
+    },
+    {
+      "section": 29,
+      "title": "Bimodules and tensor product",
+      "active": 1,
+      "ready": 1,
+      "held": 0
+    },
+    {
+      "section": 30,
+      "title": "Bimodules and internal hom",
+      "active": 2,
+      "ready": 2,
+      "held": 0
+    },
+    {
+      "section": 31,
+      "title": "Derived Hom",
+      "active": 4,
+      "ready": 4,
+      "held": 0
+    },
+    {
+      "section": 32,
+      "title": "Variant of derived Hom",
+      "active": 0,
+      "ready": 0,
+      "held": 0
+    },
+    {
+      "section": 33,
+      "title": "Derived tensor product",
+      "active": 7,
+      "ready": 7,
+      "held": 0
+    },
+    {
+      "section": 34,
+      "title": "Composition of derived tensor products",
+      "active": 3,
+      "ready": 1,
+      "held": 2
+    },
+    {
+      "section": 35,
+      "title": "Variant of derived tensor product",
+      "active": 5,
+      "ready": 5,
+      "held": 0
+    },
+    {
+      "section": 36,
+      "title": "Characterizing compact objects",
+      "active": 4,
+      "ready": 4,
+      "held": 0
+    },
+    {
+      "section": 37,
+      "title": "Equivalences of derived categories",
+      "active": 4,
+      "ready": 4,
+      "held": 0
+    },
+    {
+      "section": 38,
+      "title": "Resolutions of differential graded algebras",
+      "active": 3,
+      "ready": 3,
+      "held": 0
+    }
+  ],
+  "holds": [
+    {
+      "candidate_id": "candidate.stacks.f2029ddf6ccf44005d361dd0",
+      "source_line": 798,
+      "source_label": "lemma-third-isomorphism",
+      "issue": "The displayed target triangle repeats $(K_1,L_1,C(f_1))$ rather than the data of $f_2:K_2\\to L_2$. Reconcile both triangles and the exact target before standalone acceptance.",
+      "packet_path": "harvest/phase2_chat_stage_a/dga/batch_01_sections_01_13/MANIFEST.json"
+    },
+    {
+      "candidate_id": "candidate.stacks.1df37eac7d9a49870ba9d7c4",
+      "source_line": 3490,
+      "source_label": "lemma-get-triangle",
+      "issue": "The source only specifies the boundary $z\\to x[1]$ by '(see proof)' under axioms (A),(B). Materialize its definition and sign convention independently. Source-deictic/proof-dependent wording remains unmaterialized.",
+      "packet_path": "harvest/phase2_chat_stage_a/dga/batch_03_sections_26_30/MANIFEST.json"
+    },
+    {
+      "candidate_id": "candidate.stacks.a43acab8c4a4ba73c4894fb5",
+      "source_line": 3887,
+      "source_label": "lemma-analogue-triangle-independent-splittings",
+      "issue": "The connecting arrow is defined through an earlier source-specific construction. Write down the graded-splitting formula and its sign/choice independence before acceptance. Unexpanded source references: lemma-get-triangle",
+      "packet_path": "harvest/phase2_chat_stage_a/dga/batch_03_sections_26_30/MANIFEST.json"
+    },
+    {
+      "candidate_id": "candidate.stacks.84342600d784a21232eedee2",
+      "source_line": 3930,
+      "source_label": "lemma-restate-axiom-c",
+      "issue": "The source says $c(f)$ is 'defined as in Lemma get-triangle', but that lemma constructs a boundary triangle, not the cone prescribed by axiom (C); adjudicate this inconsistent attribution. Unexpanded source references: lemma-get-triangle",
+      "packet_path": "harvest/phase2_chat_stage_a/dga/batch_03_sections_26_30/MANIFEST.json"
+    },
+    {
+      "candidate_id": "candidate.stacks.567f5a56d2ee0c4ae706b837",
+      "source_line": 4043,
+      "source_label": "lemma-analogue-third-isomorphism",
+      "issue": "The target cone triangle repeats $i_1,p_1$ where the target should use the structure maps associated to $f_2$; verify source indexing and types.",
+      "packet_path": "harvest/phase2_chat_stage_a/dga/batch_03_sections_26_30/MANIFEST.json"
+    },
+    {
+      "candidate_id": "candidate.stacks.bfbaf091fcd0c49453ef8ebb",
+      "source_line": 5741,
+      "source_label": "lemma-compose-tensor-functors-general-algebra",
+      "issue": "The resulting $(A,C)$-bimodule $N''$ is only 'described in the proof'. The actual construction (or a justified replacement with an existential assertion) must be verified.",
+      "packet_path": "harvest/phase2_chat_stage_a/dga/batch_04_sections_31_38/MANIFEST.json"
+    },
+    {
+      "candidate_id": "candidate.stacks.0e708cd562951583bfb88012",
+      "source_line": 5849,
+      "source_label": "lemma-compose-tensor-functors",
+      "issue": "This depends on the proof-defined kernel of the preceding composition lemma and its three-algebra derived comparison; expand and type the bimodule $N''$.",
+      "packet_path": "harvest/phase2_chat_stage_a/dga/batch_04_sections_31_38/MANIFEST.json"
+    }
+  ]
+}

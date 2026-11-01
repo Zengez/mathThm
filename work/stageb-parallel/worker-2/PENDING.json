@@ -1,0 +1,333 @@
+{
+  "schema": "maththm.phase2.stage-b-parallel-worker-queue.v1",
+  "worker": 2,
+  "branch": "work/stageb/chat-2",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "immutable_allocation": "work/stageb-parallel/ALLOCATION.json",
+  "note": "Only worker 2 may edit this file. A chapter is removed only after all eligible sections are reviewed and committed.",
+  "pending": [
+    {
+      "chapter": "chow",
+      "source_file": "chow.tex",
+      "byte_weight": 1466306,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/chow/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/chow/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/chow/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/chow/batch_04_sections_39_53/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/chow/batch_05_sections_54_68/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "stacks-morphisms",
+      "source_file": "stacks-morphisms.tex",
+      "byte_weight": 992787,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/stacks-morphisms/batch_01_sections_01_13/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/stacks-morphisms/batch_02_sections_14_38/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/stacks-morphisms/batch_03_sections_39_51/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "flat",
+      "source_file": "flat.tex",
+      "byte_weight": 793084,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/flat/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/flat/batch_02_sections_09_23/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/flat/batch_03_sections_24_38/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/flat/batch_04_sections_39_44/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "sites-modules",
+      "source_file": "sites-modules.tex",
+      "byte_weight": 679730,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/sites-modules/batch_01_sections_01_15/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-modules/batch_02_sections_16_30/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/sites-modules/batch_03_sections_31_45/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "proetale",
+      "source_file": "proetale.tex",
+      "byte_weight": 586952,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/proetale/batch_01_sections_01_02/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/proetale/batch_02_sections_03_22/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/proetale/batch_03_sections_23_31/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "descent",
+      "source_file": "descent.tex",
+      "byte_weight": 505581,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/descent/batch_01_sections_01_05/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/descent/batch_02_sections_06_10/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/descent/batch_03_sections_11_15/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/descent/batch_04_sections_16_20/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/descent/batch_05_sections_21_25/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/descent/batch_06_sections_26_30/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/descent/batch_07_sections_31_35/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/descent/batch_08_sections_36_39/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-simplicial",
+      "source_file": "spaces-simplicial.tex",
+      "byte_weight": 470343,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-simplicial/batch_01_sections_01_15/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/spaces-simplicial/batch_02_sections_16_36/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-perfect",
+      "source_file": "spaces-perfect.tex",
+      "byte_weight": 451520,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-perfect/batch_01_sections_01_10/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/spaces-perfect/batch_02_sections_11_30/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "coherent",
+      "source_file": "coherent.tex",
+      "byte_weight": 425835,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/coherent/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/coherent/batch_02_sections_09_16/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/coherent/batch_03_sections_17_22/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/coherent/batch_04_sections_23_28/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-limits",
+      "source_file": "spaces-limits.tex",
+      "byte_weight": 384018,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-limits/batch_01_sections_01_12/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/spaces-limits/batch_02_sections_13_23/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "formal-defos",
+      "source_file": "formal-defos.tex",
+      "byte_weight": 360275,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/formal-defos/batch_01_sections_01_17/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/formal-defos/batch_02_sections_18_29/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-chow",
+      "source_file": "spaces-chow.tex",
+      "byte_weight": 333857,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-chow/batch_01_sections_01_15/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/spaces-chow/batch_02_sections_16_32/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "obsolete",
+      "source_file": "obsolete.tex",
+      "byte_weight": 315091,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/obsolete/batch_01_sections_01_12/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/obsolete/batch_02_sections_13_26/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "artin",
+      "source_file": "artin.tex",
+      "byte_weight": 295403,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/artin/batch_01_sections_01_20/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/artin/batch_02_sections_21_27/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-cohomology",
+      "source_file": "spaces-cohomology.tex",
+      "byte_weight": 281533,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-cohomology/batch_01_sections_01_15/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/spaces-cohomology/batch_02_sections_16_23/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "stacks-cohomology",
+      "source_file": "stacks-cohomology.tex",
+      "byte_weight": 259482,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/stacks-cohomology/batch_01_sections_01_05/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/stacks-cohomology/batch_02_sections_06_18/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "discriminant",
+      "source_file": "discriminant.tex",
+      "byte_weight": 246854,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/discriminant/batch_01_sections_01_13/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/discriminant/batch_02_sections_14_16/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "relative-cycles",
+      "source_file": "relative-cycles.tex",
+      "byte_weight": 235793,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/relative-cycles/batch_01_sections_01_11/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/relative-cycles/batch_02_sections_12_17/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "trace",
+      "source_file": "trace.tex",
+      "byte_weight": 202852,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/trace/batch_01_sections_01_18/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/trace/batch_02_sections_19_35/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "stacks",
+      "source_file": "stacks.tex",
+      "byte_weight": 189237,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/stacks/batch_01_sections_01_13/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "dpa",
+      "source_file": "dpa.tex",
+      "byte_weight": 179021,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/dpa/batch_01_sections_01_12/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "examples-defos",
+      "source_file": "examples-defos.tex",
+      "byte_weight": 154430,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/examples-defos/batch_01_sections_01_17/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "examples",
+      "source_file": "examples.tex",
+      "byte_weight": 133471,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/examples/batch_01_sections_01_13/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/examples/batch_02_sections_14_38/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/examples/batch_03_sections_39_63/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/examples/batch_04_sections_64_82/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "injectives",
+      "source_file": "injectives.tex",
+      "byte_weight": 125334,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/injectives/batch_01_sections_01_15/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "brauer",
+      "source_file": "brauer.tex",
+      "byte_weight": 86214,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/brauer/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "groupoids-quotients",
+      "source_file": "groupoids-quotients.tex",
+      "byte_weight": 50834,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/groupoids-quotients/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/groupoids-quotients/batch_02_sections_09_10/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "stacks-introduction",
+      "source_file": "stacks-introduction.tex",
+      "byte_weight": 3919,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/stacks-introduction/batch_01_sections_01_04/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/stacks-introduction/batch_02_sections_05_07/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "coding",
+      "source_file": "coding.tex",
+      "byte_weight": 0,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/coding/batch_01_sections_01_01/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "desirables",
+      "source_file": "desirables.tex",
+      "byte_weight": 0,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/desirables/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/desirables/batch_02_sections_09_20/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "exercises",
+      "source_file": "exercises.tex",
+      "byte_weight": 0,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/exercises/batch_01_sections_01_06/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/exercises/batch_02_sections_07_31/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/exercises/batch_03_sections_32_56/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/exercises/batch_04_sections_57_66/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "guide",
+      "source_file": "guide.tex",
+      "byte_weight": 0,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/guide/batch_01_sections_01_07/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    }
+  ]
+}

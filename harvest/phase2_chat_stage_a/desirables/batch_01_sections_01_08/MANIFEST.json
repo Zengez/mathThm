@@ -1,0 +1,66 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-93",
+  "chapter": "desirables.tex",
+  "sections_ordinal": [
+    1,
+    8
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    17,
+    31,
+    42,
+    55,
+    74,
+    93,
+    110,
+    131
+  ],
+  "first_source_line": 17,
+  "last_source_line": 152,
+  "complete_sections": true,
+  "stage_a_candidate_count": 0,
+  "candidate_ids": [],
+  "output_file": "harvest/phase2_chat_stage_a/desirables/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 7,
+      "kind": "context_only",
+      "source_line": 110,
+      "snippets": [
+        {
+          "source_line": 113,
+          "tex": "\\noindent\nWe have a chapter on this material, see\nFormal Deformation Theory, Section \\ref{formal-defos-section-introduction}.\nWe have a chapter discussing examples of the general theory, see\nDeformation Problems, Section \\ref{examples-defos-section-introduction}.\nWe have a chapter, see\nDeformation Theory, Section \\ref{defos-section-introduction}\nwhich discusses deformations of rings (and modules),\ndeformations of ringed spaces (and sheaves of modules),\ndeformations of ringed topoi (and sheaves of modules).\nIn this chapter we use the naive cotangent complex\nto describe obstructions, first order deformations, and\ninfinitesimal automorphisms. This material has found some\napplications to algebraicity of moduli stacks in later chapters.\nThere is also a chapter discussing the full cotangent complex, see\nCotangent, Section \\ref{cotangent-section-introduction}."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+}

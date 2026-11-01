@@ -1,0 +1,314 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-handoff.v1",
+  "chapter": "morphisms.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "working_branch": "work/phase2-stage-a-context-enrichment",
+  "source_section_count": 59,
+  "candidate_bearing_section_count": 36,
+  "source_start_line": 17,
+  "source_end_line": 15654,
+  "source_harvested_candidates": 250,
+  "inactive_candidates_skipped": 9,
+  "active_candidate_total": 241,
+  "previously_approved_active_candidates": 0,
+  "stage_a_ready_for_independent_stage_b": 214,
+  "stage_a_further_work_needed": 27,
+  "unprocessed_active_candidates": 0,
+  "independently_stage_b_validated_by_this_run": 0,
+  "phase3_eligible_promoted_by_this_run": 0,
+  "proofs_screened_by_this_run": 0,
+  "source_definition_ledger_entries": 61,
+  "section_context_entries": 119,
+  "section_checkpoints": 59,
+  "batch_count": 3,
+  "batches": [
+    {
+      "sections": [
+        1,
+        20
+      ],
+      "candidates": 97,
+      "ready": 90,
+      "holds": 7,
+      "path": "harvest/phase2_chat_stage_a/morphisms/batch_01_sections_01_20"
+    },
+    {
+      "sections": [
+        21,
+        40
+      ],
+      "candidates": 144,
+      "ready": 124,
+      "holds": 20,
+      "path": "harvest/phase2_chat_stage_a/morphisms/batch_02_sections_21_40"
+    },
+    {
+      "sections": [
+        41,
+        59
+      ],
+      "candidates": 0,
+      "ready": 0,
+      "holds": 0,
+      "path": "harvest/phase2_chat_stage_a/morphisms/batch_03_sections_41_59"
+    }
+  ],
+  "holds": [
+    {
+      "candidate_id": "candidate.stacks.26651d6a9b8756d80c53ed8a",
+      "section": 4,
+      "line": 482,
+      "label": "lemma-i-upper-shriek",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{modules-lemma-i-star-right-adjoint}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals.",
+        "Adjudicate the theorem-text footnote so an editorial comparison is not silently treated as a mathematical premise."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.088e95548474b116cb8f95b8",
+      "section": 5,
+      "line": 728,
+      "label": "lemma-scheme-theoretic-support",
+      "issues": [
+        "The original Pass 2 decomposition incorrectly treats the existence of the minimal closed subscheme as a hypothesis; reconstruct the existential conclusion and its conditional affine clauses with correct shared witnesses."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.767de25d28e0fe1808ac9bb6",
+      "section": 6,
+      "line": 848,
+      "label": "lemma-quasi-compact-scheme-theoretic-image",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{definition-dominant}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.3b43367093850e4bcca7419d",
+      "section": 6,
+      "line": 898,
+      "label": "lemma-reach-points-scheme-theoretic-image",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-quasi-compact-scheme-theoretic-image}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals.",
+        "Adjudicate the theorem-text footnote so an editorial comparison is not silently treated as a mathematical premise."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.faa1570d85a5b7d6b0aabba8",
+      "section": 8,
+      "line": 1382,
+      "label": "lemma-dominant-finite-number-irreducible-components",
+      "issues": [
+        "The source writes '(if and) only if'; verify the intended equivalence direction and precise generic-point quantifiers before treating it as a source-equivalent standalone statement."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.7dbe57ffb71197c774bda985",
+      "section": 11,
+      "line": 1735,
+      "label": "lemma-characterize-affine",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{constructions-section-spec}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.00881a958f18037fa1d4de0a",
+      "section": 19,
+      "line": 3309,
+      "label": "lemma-J",
+      "issues": [
+        "The fourth equivalent clause states 'there exists an affine open covering S' even though only X is introduced; verify the source's S/X discrepancy against the pinned intended theorem."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.f326207c4ade14a4dbba34f2",
+      "section": 26,
+      "line": 4786,
+      "label": "lemma-generalizations-lift-flat",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{topology-definition-lift-specializations}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.53db7ce14ef94508f3f37bec",
+      "section": 29,
+      "line": 5503,
+      "label": "lemma-openness-bounded-dimension-fibres-finite-presentation",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-openness-bounded-dimension-fibres}, \\ref{topology-definition-quasi-compact}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.4ecd3983cbda62e0c7089273",
+      "section": 30,
+      "line": 5617,
+      "label": "lemma-flat-finite-presentation-CM-fibres-relative-dimension",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{properties-definition-Cohen-Macaulay}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.d8b5767670603492e3454a82",
+      "section": 31,
+      "line": 5931,
+      "label": "lemma-syntomic-locally-standard-syntomic",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{algebra-definition-lci-local-ring}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.c5dcf59874d577b303b5643d",
+      "section": 31,
+      "line": 6057,
+      "label": "lemma-syntomic-permanence",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{descent-lemma-syntomic-permanence}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals.",
+        "Adjudicate the theorem-text footnote so an editorial comparison is not silently treated as a mathematical premise."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.4859ec34dbe6708c50d29119",
+      "section": 32,
+      "line": 6211,
+      "label": "lemma-conormal-functorial",
+      "issues": [
+        "Reconstruct the canonical conormal map and chart/ideal identifications from the diagram and source definitions; the objects underlying the characterization are not yet explicit."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.c72c23f8fb527a6c5ce26242",
+      "section": 32,
+      "line": 6277,
+      "label": "lemma-conormal-functorial-flat",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-conormal-functorial}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.b5be468fc1e3a32335986c1a",
+      "section": 32,
+      "line": 6301,
+      "label": "lemma-transitivity-conormal",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-conormal-functorial}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.ddf4833faf05bba259d534a1",
+      "section": 33,
+      "line": 6632,
+      "label": "lemma-triangle-differentials",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-functoriality-differentials}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.7b4f597f94315e42d0db857c",
+      "section": 33,
+      "line": 6650,
+      "label": "lemma-base-change-differentials",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-functoriality-differentials}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.057dfd83cee5179009bfa302",
+      "section": 33,
+      "line": 6668,
+      "label": "lemma-differential-product",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-functoriality-differentials}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.e41c36d064b23353a76975aa",
+      "section": 33,
+      "line": 6734,
+      "label": "lemma-differentials-relative-immersion",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-functoriality-differentials}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.08d1319431748de818b83da4",
+      "section": 33,
+      "line": 6762,
+      "label": "lemma-differentials-relative-immersion-section",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-differentials-relative-immersion}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.e724f85b98e0e3457c5e8bf5",
+      "section": 33,
+      "line": 6823,
+      "label": "lemma-two-immersions",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-conormal-functorial}, \\ref{lemma-differentials-relative-immersion}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.27b20ab59196ed8e329cbf32",
+      "section": 34,
+      "line": 6869,
+      "label": "lemma-affine-case-differential-operators",
+      "issues": [
+        "Reconstruct the exact source convention for sheaf-level order-k differential operators and the global-sections comparison, without assuming an unstated sheaf of operators."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.4bb38ab03f696a41afac2252",
+      "section": 34,
+      "line": 6912,
+      "label": "lemma-base-change-differential-operators",
+      "issues": [
+        "Reconstruct precisely the induced order-k operator on a fibre product, including the tensor factor and target module notation, from the preceding source construction."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.8be9804297bcd3ac11c07406",
+      "section": 35,
+      "line": 7406,
+      "label": "lemma-triangle-differentials-smooth",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-triangle-differentials}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.809fda66b4754c59fd00de53",
+      "section": 35,
+      "line": 7428,
+      "label": "lemma-differentials-relative-immersion-smooth",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-differentials-relative-immersion}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.82b95527e262df7b66154941",
+      "section": 35,
+      "line": 7454,
+      "label": "lemma-two-immersions-smooth",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{lemma-two-immersions}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals."
+      ]
+    },
+    {
+      "candidate_id": "candidate.stacks.d095deb9a99a3a0180d0e636",
+      "section": 35,
+      "line": 7487,
+      "label": "lemma-smooth-permanence",
+      "issues": [
+        "Check and inline the source-specific construction(s) identified by \\ref{descent-lemma-flat-finitely-presented-permanence}, \\ref{descent-lemma-smooth-permanence}; decide whether the citations are essential to the mathematical statement or only editorial parentheticals.",
+        "Adjudicate the theorem-text footnote so an editorial comparison is not silently treated as a mathematical premise."
+      ]
+    }
+  ],
+  "validation": {
+    "all_source_statements_exactly_matched": true,
+    "complete_source_section_coverage": true,
+    "all_active_candidate_ids_accounted_once": true,
+    "held_and_ready_decisions_reconciled": true,
+    "no_prior_authoritative_math_approvals_reprocessed": true,
+    "no_phase3_or_proof_promotion": true,
+    "note": "Stage A editorial source-first preparation, not an independent mathematical equivalence audit. All 27 held statements must be resolved before Stage B, and all ready statements require independent Stage B review."
+  }
+}

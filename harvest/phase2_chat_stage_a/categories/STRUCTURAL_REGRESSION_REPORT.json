@@ -1,0 +1,37 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-regression-report.v1",
+  "source_file": "categories.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "checks": {
+    "active_candidate_ids_unique": true,
+    "active_candidate_ids_covered_once": true,
+    "no_inactive_candidates_processed": true,
+    "batch_counts_sum_to_125": true,
+    "source_sections_covered_1_through_44": true,
+    "section_checkpoints_contiguous": true,
+    "context_ledger_ids_unique": true,
+    "all_applied_ledger_ids_resolve": true,
+    "ready_statement_text_has_no_unexpanded_latex_ref": true,
+    "hypotheses_and_conclusions_nonempty": true,
+    "no_proofs_marked_reviewed": true,
+    "no_independent_stage_b_validation_claimed": true,
+    "no_phase3_eligibility": true,
+    "json_and_jsonl_parse": true
+  },
+  "counts": {
+    "sections": 44,
+    "candidates": 125,
+    "ready": 118,
+    "further_work_needed": 7,
+    "ledger_events": 140,
+    "checkpoints": 44
+  },
+  "qa_repairs": [
+    "Populated hypotheses for lemma-cofinal-in-filtered from original statement at line 2229",
+    "Repaired section 8 checkpoint next section to section 9 line 1071",
+    "Repaired three context-ledger references for lemma-2-product-categories-over-C source model at line 6081",
+    "Corrected singular/plural grammar in the three explicit fibre-product model statements"
+  ],
+  "full_repository_command_line_regression_run": false,
+  "independent_mathematical_validation": "not_started"
+}

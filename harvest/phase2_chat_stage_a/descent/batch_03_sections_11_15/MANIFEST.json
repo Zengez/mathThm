@@ -1,0 +1,95 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "chapter": "descent.tex",
+  "sections_ordinal": [
+    11,
+    15
+  ],
+  "first_source_line": 3495,
+  "last_source_line": 4753,
+  "source_section_starts": [
+    3495,
+    3760,
+    3893,
+    4249,
+    4616
+  ],
+  "complete_sections": true,
+  "stage_a_candidate_count": 20,
+  "candidate_ids": [
+    "candidate.stacks.1941e2a580bfff0180c67a14",
+    "candidate.stacks.1388257d34919bc089b1c00e",
+    "candidate.stacks.c033bdd3b64ff7854253ad6a",
+    "candidate.stacks.e674148a241b761c4a80d62d",
+    "candidate.stacks.50d05e28b2614b8f9f9fc129",
+    "candidate.stacks.78502a1bb694ca68029a7d0b",
+    "candidate.stacks.b1930b734723d740e977fbfe",
+    "candidate.stacks.895c712a9d49c6c46f87eba2",
+    "candidate.stacks.7914ae5921dcd206db30246d",
+    "candidate.stacks.ae9492dcc7d8b91eddb33fb9",
+    "candidate.stacks.5d2d90c6d790c4120e296560",
+    "candidate.stacks.45451c487c51e8b24d95f1d8",
+    "candidate.stacks.5813873fd0fe215465e7bb2b",
+    "candidate.stacks.5463a2e7300cabe9181710e0",
+    "candidate.stacks.903bcd80d54190e56df589e3",
+    "candidate.stacks.b8d04038c95eead8062d7e31",
+    "candidate.stacks.bde139d4d1dd2e79c4b37569",
+    "candidate.stacks.4e48687869550a3da4b8d67f",
+    "candidate.stacks.871a94127f16280fe882fb2c",
+    "candidate.stacks.4b1707f175f13af086b3fcc8"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/descent/batch_03_sections_11_15/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "notes": "Conditions indexed to original category, local base change, and topology; independent validation remains mandatory.",
+  "processing_sections": [
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 3495,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 3760,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 3893,
+      "stage_a_readiness": "further_work_needed"
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 4249,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 4616,
+      "stage_a_readiness": "ready_for_codex_validation"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 18,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 4,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 2,
+  "stage_a_further_work_section_count": 1,
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_section_mapping_pending": false,
+  "source_locator_verified": true,
+  "preliminary_source_holds": [],
+  "processing_note": "Source-order enrichment of Descent §§11–15: affine-small topology, parasitic modules, universal effective epimorphisms, descent of finite presentation/smoothness/syntomicity and tau-local scheme properties. Two diagram/categorical universal-property statements deferred with explicit registry entries."
+}

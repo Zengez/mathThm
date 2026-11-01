@@ -1,0 +1,298 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "cohomology-source-ordered-batch-02",
+  "chapter": "cohomology.tex",
+  "sections_ordinal": [
+    10,
+    20
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    1011,
+    1404,
+    1881,
+    2088,
+    2327,
+    2438,
+    2636,
+    2955,
+    3050,
+    3170,
+    3439
+  ],
+  "first_source_line": 1011,
+  "last_source_line": 3738,
+  "complete_sections": true,
+  "stage_a_candidate_count": 44,
+  "candidate_ids": [
+    "candidate.stacks.f65b9454fa41946a8a7c4cdc",
+    "candidate.stacks.67135d993fe4a285f7d3f3df",
+    "candidate.stacks.336d65953136ef696b4fe953",
+    "candidate.stacks.a5cdc1eb36aabd111cde436f",
+    "candidate.stacks.2b8e3b5d0aafb104467abaf1",
+    "candidate.stacks.8b6083fcf3a51a1261773c8b",
+    "candidate.stacks.f555e2d5e4ff3ec065968e3a",
+    "candidate.stacks.c258b8bc2bb85d6646242b34",
+    "candidate.stacks.909d5f07757d87d92ee4d9bc",
+    "candidate.stacks.3f215a41766b29d4b16a45c3",
+    "candidate.stacks.488711c368da5446cd223093",
+    "candidate.stacks.4dbe49713e16de46384e86d9",
+    "candidate.stacks.cc6bd9cb10e7852485ebebd9",
+    "candidate.stacks.6735c5d8312f17ca2b7c3ea3",
+    "candidate.stacks.2d6ed7bd0849f6b26a94db1c",
+    "candidate.stacks.b00be0eb2422d61a3438ac83",
+    "candidate.stacks.75953f323c1943f746966ec5",
+    "candidate.stacks.2a754b1ee2144ae824284998",
+    "candidate.stacks.4e7539e64d5568e06e028fd1",
+    "candidate.stacks.34d9b0df61964d4db228a7b1",
+    "candidate.stacks.9a4f396cef9d2b43578e5a33",
+    "candidate.stacks.e78f012d6c8875667d08a054",
+    "candidate.stacks.dfeb1f18cecdbfa024d543dc",
+    "candidate.stacks.cb3f9d393ae7a54e08b4a172",
+    "candidate.stacks.9c4e25a5efe091bbdbdd4270",
+    "candidate.stacks.65e8eb0a7b6cbf9eaa6bed49",
+    "candidate.stacks.b7ae54761c4c6282b6ca8f41",
+    "candidate.stacks.e1ba982f20f8a5be276a0309",
+    "candidate.stacks.a9e27b4159561e9814fd2d35",
+    "candidate.stacks.3e3d6b32f9db7fd694a6d3ef",
+    "candidate.stacks.f28249d98f8fc4669cf21c95",
+    "candidate.stacks.a1359b5525badc65eb474b36",
+    "candidate.stacks.7c3496ba8445eee379bad747",
+    "candidate.stacks.8445098a60b5ce5f4d9d117e",
+    "candidate.stacks.5f643409f002da01921c388f",
+    "candidate.stacks.705595ebd79077ec6b5cd47a",
+    "candidate.stacks.be95af7abbacf3e82bf1be01",
+    "candidate.stacks.c820b9ae5de789438f53b4aa",
+    "candidate.stacks.1d5011776b5667d6c5bac6c4",
+    "candidate.stacks.e4e44cc142bb60a9b8a9c89a",
+    "candidate.stacks.ee41a5c50582f8e1a66ec626",
+    "candidate.stacks.48f626b93ef62d7322d20c4d",
+    "candidate.stacks.adb10786260db928536203ac",
+    "candidate.stacks.39b44a5db3777821ad72cd01"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/cohomology/batch_02_sections_10_20/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/cohomology/batch_02_sections_10_20/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/cohomology/batch_02_sections_10_20/SECTION_CHECKPOINTS.jsonl",
+  "ledger_predecessor_checkpoint": "harvest/phase2_chat_stage_a/cohomology/batch_01_sections_01_09/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    14
+  ],
+  "source_theorem_env_skipped_nonactive_labels": [
+    "lemma-functoriality",
+    "lemma-colimit"
+  ],
+  "processing_sections": [
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1011,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f65b9454fa41946a8a7c4cdc",
+        "candidate.stacks.67135d993fe4a285f7d3f3df",
+        "candidate.stacks.336d65953136ef696b4fe953",
+        "candidate.stacks.a5cdc1eb36aabd111cde436f",
+        "candidate.stacks.2b8e3b5d0aafb104467abaf1"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "{\\v C}ech cohomology as a functor on presheaves",
+      "stage_a_source_context_summary": "Source §10 L1011–1403: 5 active, 5 ready, 0 needing further work."
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1404,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.8b6083fcf3a51a1261773c8b",
+        "candidate.stacks.f555e2d5e4ff3ec065968e3a",
+        "candidate.stacks.c258b8bc2bb85d6646242b34",
+        "candidate.stacks.909d5f07757d87d92ee4d9bc",
+        "candidate.stacks.3f215a41766b29d4b16a45c3",
+        "candidate.stacks.488711c368da5446cd223093",
+        "candidate.stacks.4dbe49713e16de46384e86d9",
+        "candidate.stacks.cc6bd9cb10e7852485ebebd9",
+        "candidate.stacks.6735c5d8312f17ca2b7c3ea3",
+        "candidate.stacks.2d6ed7bd0849f6b26a94db1c",
+        "candidate.stacks.b00be0eb2422d61a3438ac83",
+        "candidate.stacks.75953f323c1943f746966ec5"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "{\\v C}ech cohomology and cohomology",
+      "stage_a_source_context_summary": "Source §11 L1404–1880: 12 active, 12 ready, 0 needing further work."
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1881,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.2a754b1ee2144ae824284998",
+        "candidate.stacks.4e7539e64d5568e06e028fd1",
+        "candidate.stacks.34d9b0df61964d4db228a7b1",
+        "candidate.stacks.9a4f396cef9d2b43578e5a33",
+        "candidate.stacks.e78f012d6c8875667d08a054"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Flasque sheaves",
+      "stage_a_source_context_summary": "Source §12 L1881–2087: 5 active, 5 ready, 0 needing further work."
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2088,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.dfeb1f18cecdbfa024d543dc",
+        "candidate.stacks.cb3f9d393ae7a54e08b4a172",
+        "candidate.stacks.9c4e25a5efe091bbdbdd4270",
+        "candidate.stacks.65e8eb0a7b6cbf9eaa6bed49",
+        "candidate.stacks.b7ae54761c4c6282b6ca8f41",
+        "candidate.stacks.e1ba982f20f8a5be276a0309"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.cb3f9d393ae7a54e08b4a172",
+        "candidate.stacks.e1ba982f20f8a5be276a0309"
+      ],
+      "stage_a_source_context_heading": "The Leray spectral sequence",
+      "stage_a_source_context_summary": "Source §13 L2088–2326: 6 active, 4 ready, 2 needing further work."
+    },
+    {
+      "section": 14,
+      "kind": "context_only",
+      "source_line": 2327,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Functoriality of cohomology",
+      "stage_a_source_context_summary": "Source §14 L2327–2437: 0 active, 0 ready, 0 needing further work."
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 2438,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.a9e27b4159561e9814fd2d35"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.a9e27b4159561e9814fd2d35"
+      ],
+      "stage_a_source_context_heading": "Refinements and {\\v C}ech cohomology",
+      "stage_a_source_context_summary": "Source §15 L2438–2635: 1 active, 0 ready, 1 needing further work."
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 2636,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3e3d6b32f9db7fd694a6d3ef",
+        "candidate.stacks.f28249d98f8fc4669cf21c95",
+        "candidate.stacks.a1359b5525badc65eb474b36"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Cohomology on Hausdorff quasi-compact spaces",
+      "stage_a_source_context_summary": "Source §16 L2636–2954: 3 active, 3 ready, 0 needing further work."
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 2955,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.7c3496ba8445eee379bad747"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "The base change map",
+      "stage_a_source_context_summary": "Source §17 L2955–3049: 1 active, 1 ready, 0 needing further work."
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 3050,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.8445098a60b5ce5f4d9d117e",
+        "candidate.stacks.5f643409f002da01921c388f",
+        "candidate.stacks.705595ebd79077ec6b5cd47a"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.8445098a60b5ce5f4d9d117e",
+        "candidate.stacks.5f643409f002da01921c388f"
+      ],
+      "stage_a_source_context_heading": "Proper base change in topology",
+      "stage_a_source_context_summary": "Source §18 L3050–3169: 3 active, 1 ready, 2 needing further work."
+    },
+    {
+      "section": 19,
+      "kind": "candidates",
+      "source_line": 3170,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.be95af7abbacf3e82bf1be01",
+        "candidate.stacks.c820b9ae5de789438f53b4aa"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Cohomology and colimits",
+      "stage_a_source_context_summary": "Source §19 L3170–3438: 2 active, 2 ready, 0 needing further work."
+    },
+    {
+      "section": 20,
+      "kind": "candidates",
+      "source_line": 3439,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.1d5011776b5667d6c5bac6c4",
+        "candidate.stacks.e4e44cc142bb60a9b8a9c89a",
+        "candidate.stacks.ee41a5c50582f8e1a66ec626",
+        "candidate.stacks.48f626b93ef62d7322d20c4d",
+        "candidate.stacks.adb10786260db928536203ac",
+        "candidate.stacks.39b44a5db3777821ad72cd01"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Vanishing on Noetherian topological spaces",
+      "stage_a_source_context_summary": "Source §20 L3439–3738: 6 active, 6 ready, 0 needing further work."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 39,
+  "stage_a_remaining_work_candidate_count": 5,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 7,
+  "stage_a_remaining_work_section_count": 3,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
+  "stage_a_dispositioned_section_count": 11,
+  "stage_a_further_work_candidate_count": 5,
+  "stage_a_further_work_section_count": 3,
+  "processing_note": "Stage A cohomology §§10–20 complete; next §21 L3739. §10 presheaf warning expired at §11."
+}

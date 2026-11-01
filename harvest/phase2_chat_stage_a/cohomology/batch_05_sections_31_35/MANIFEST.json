@@ -1,0 +1,191 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "cohomology-source-ordered-batch-05",
+  "chapter": "cohomology.tex",
+  "sections_ordinal": [
+    31,
+    35
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    7156,
+    7813,
+    8077,
+    8444,
+    8923
+  ],
+  "first_source_line": 7156,
+  "last_source_line": 9198,
+  "complete_sections": true,
+  "stage_a_candidate_count": 33,
+  "candidate_ids": [
+    "candidate.stacks.383e4d3e1c321203fec9c86d",
+    "candidate.stacks.bb4ea67c396b27e5ca858394",
+    "candidate.stacks.78d7d0b544ff5857289d3d0b",
+    "candidate.stacks.7ee3fa9e2607690179a0c900",
+    "candidate.stacks.ca20379ebec28f61cdc2bb09",
+    "candidate.stacks.980afa15aa4082336af3b909",
+    "candidate.stacks.c8316579e6f2cdb709063800",
+    "candidate.stacks.8a87590ceb8bd20e0fee3969",
+    "candidate.stacks.bb6c01b38d6c35df69013dec",
+    "candidate.stacks.6a8672a938d6880b2a121947",
+    "candidate.stacks.3d50730a7c7c9ca26c571a0c",
+    "candidate.stacks.c1dce3db4f9c9c1ff23d5e64",
+    "candidate.stacks.6d4b415b5ab6600755f85f9f",
+    "candidate.stacks.5974b8dee5efdecb3e6986fd",
+    "candidate.stacks.b1af08cca063fd51ff1f2781",
+    "candidate.stacks.d3bf4f12e6c677fc115c45f6",
+    "candidate.stacks.7d4970510a85d910f6b5ee7a",
+    "candidate.stacks.1ee0bc75879fb0b620d36cb1",
+    "candidate.stacks.53c3c4417e97843a5489873e",
+    "candidate.stacks.3c1e9ed9e9a2e75aa7554c33",
+    "candidate.stacks.00d199c4a95bfb3ea6421900",
+    "candidate.stacks.3d3a4e286065f7d4cd85ca3f",
+    "candidate.stacks.56c8ff11299790d878550131",
+    "candidate.stacks.295eb7d4502ce6dfa53f554f",
+    "candidate.stacks.50e7ad26221bc7752d34994a",
+    "candidate.stacks.17f6bb5a7d280865bcef8686",
+    "candidate.stacks.905d35812a5d54861c333b08",
+    "candidate.stacks.a7d8eba24b0980c058040fb2",
+    "candidate.stacks.85c9344e0787404bc13c99e9",
+    "candidate.stacks.4c4247768358a1d9abd32931",
+    "candidate.stacks.ef51d23a96a3079c4433782e",
+    "candidate.stacks.3506f231450277afd3f5b629",
+    "candidate.stacks.9b073bde8b43e75511c521b9"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/cohomology/batch_05_sections_31_35/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/cohomology/batch_05_sections_31_35/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/cohomology/batch_05_sections_31_35/SECTION_CHECKPOINTS.jsonl",
+  "ledger_predecessor_checkpoint": "harvest/phase2_chat_stage_a/cohomology/batch_04_sections_26_30/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "source_theorem_env_skipped_nonactive_labels": [
+    "lemma-second-cup-equals-first",
+    "lemma-cup-compatible-with-naive",
+    "lemma-support-cup-product",
+    "lemma-support-functorial"
+  ],
+  "processing_sections": [
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 7156,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.383e4d3e1c321203fec9c86d",
+        "candidate.stacks.bb4ea67c396b27e5ca858394",
+        "candidate.stacks.78d7d0b544ff5857289d3d0b",
+        "candidate.stacks.7ee3fa9e2607690179a0c900",
+        "candidate.stacks.ca20379ebec28f61cdc2bb09"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.383e4d3e1c321203fec9c86d",
+        "candidate.stacks.ca20379ebec28f61cdc2bb09"
+      ],
+      "stage_a_source_context_heading": "Cup product",
+      "stage_a_source_context_summary": "Pinned cohomology.tex §31: 5 active, 3 ready, 2 held; full source window L7156–7812."
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 7813,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.980afa15aa4082336af3b909",
+        "candidate.stacks.c8316579e6f2cdb709063800",
+        "candidate.stacks.8a87590ceb8bd20e0fee3969",
+        "candidate.stacks.bb6c01b38d6c35df69013dec",
+        "candidate.stacks.6a8672a938d6880b2a121947",
+        "candidate.stacks.3d50730a7c7c9ca26c571a0c",
+        "candidate.stacks.c1dce3db4f9c9c1ff23d5e64",
+        "candidate.stacks.6d4b415b5ab6600755f85f9f",
+        "candidate.stacks.5974b8dee5efdecb3e6986fd"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Some properties of K-injective complexes",
+      "stage_a_source_context_summary": "Pinned cohomology.tex §32: 9 active, 9 ready, 0 held; full source window L7813–8076."
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 8077,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.b1af08cca063fd51ff1f2781",
+        "candidate.stacks.d3bf4f12e6c677fc115c45f6",
+        "candidate.stacks.7d4970510a85d910f6b5ee7a",
+        "candidate.stacks.1ee0bc75879fb0b620d36cb1",
+        "candidate.stacks.53c3c4417e97843a5489873e",
+        "candidate.stacks.3c1e9ed9e9a2e75aa7554c33",
+        "candidate.stacks.00d199c4a95bfb3ea6421900"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.1ee0bc75879fb0b620d36cb1",
+        "candidate.stacks.00d199c4a95bfb3ea6421900"
+      ],
+      "stage_a_source_context_heading": "Unbounded Mayer-Vietoris",
+      "stage_a_source_context_summary": "Pinned cohomology.tex §33: 7 active, 5 ready, 2 held; full source window L8077–8443."
+    },
+    {
+      "section": 34,
+      "kind": "candidates",
+      "source_line": 8444,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3d3a4e286065f7d4cd85ca3f",
+        "candidate.stacks.56c8ff11299790d878550131",
+        "candidate.stacks.295eb7d4502ce6dfa53f554f",
+        "candidate.stacks.50e7ad26221bc7752d34994a",
+        "candidate.stacks.17f6bb5a7d280865bcef8686",
+        "candidate.stacks.905d35812a5d54861c333b08",
+        "candidate.stacks.a7d8eba24b0980c058040fb2",
+        "candidate.stacks.85c9344e0787404bc13c99e9"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Cohomology with support in a closed subset, II",
+      "stage_a_source_context_summary": "Pinned cohomology.tex §34: 8 active, 8 ready, 0 held; full source window L8444–8922."
+    },
+    {
+      "section": 35,
+      "kind": "candidates",
+      "source_line": 8923,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.4c4247768358a1d9abd32931",
+        "candidate.stacks.ef51d23a96a3079c4433782e",
+        "candidate.stacks.3506f231450277afd3f5b629",
+        "candidate.stacks.9b073bde8b43e75511c521b9"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Inverse systems and cohomology, I",
+      "stage_a_source_context_summary": "Pinned cohomology.tex §35: 4 active, 4 ready, 0 held; full source window L8923–9198."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 29,
+  "stage_a_remaining_work_candidate_count": 4,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 2,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_further_work_candidate_count": 4,
+  "stage_a_further_work_section_count": 2,
+  "processing_note": "Cohomology §§31–35 complete. Source typo in §33 unbounded Mayer–Vietoris explicitly held; §31 malformed base-change diagram held. Next §36 L9199."
+}

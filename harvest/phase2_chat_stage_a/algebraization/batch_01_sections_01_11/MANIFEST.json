@@ -79,7 +79,7 @@
       "section": 4,
       "kind": "candidates",
       "source_line": 318,
-      "stage_a_readiness": "ready_for_codex_validation"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 5,
@@ -91,186 +91,328 @@
       "section": 6,
       "kind": "candidates",
       "source_line": 733,
-      "stage_a_readiness": "ready_for_codex_validation"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 7,
       "kind": "candidates",
       "source_line": 1623,
-      "stage_a_readiness": "ready_for_codex_validation"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 8,
-      "kind": "context_only",
+      "kind": "candidates",
       "source_line": 1829,
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 9,
-      "kind": "context_only",
+      "kind": "candidates",
       "source_line": 2388,
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 10,
-      "kind": "context_only",
+      "kind": "candidates",
       "source_line": 2636,
-      "stage_a_readiness": "no_active_candidates"
+      "stage_a_readiness": "further_work_needed"
     },
     {
       "section": 11,
       "kind": "candidates",
       "source_line": 3496,
-      "stage_a_readiness": "ready_for_codex_validation"
+      "stage_a_readiness": "further_work_needed"
     }
   ],
   "processing_sections_format": "inline-v1",
   "stage_a_ready_for_codex_candidate_count": 24,
   "stage_a_remaining_work_candidate_count": 0,
   "stage_a_source_hold_candidate_count": 0,
-  "stage_a_ready_for_codex_section_count": 7,
+  "stage_a_ready_for_codex_section_count": 3,
   "stage_a_remaining_work_section_count": 0,
   "stage_a_work_pending": false,
   "stage_a_readiness_rule": "conservative_standalone_screen_v1",
-  "stage_a_excluded_candidates": [
+  "stage_a_excluded_candidates": [],
+  "stage_a_excluded_candidate_count": 0,
+  "stage_a_further_work_candidates": [
     {
       "candidate_id": "candidate.stacks.9cbbc936b6e2b78c28494c64",
-      "source_label": "lemma-cd-one-extend",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 349,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-cd-one-extend",
+      "section_ordinal": 4,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L349",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.00743da7ddbe388932db739e",
-      "source_label": "lemma-cd-one-extend-to-module",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 393,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-cd-one-extend-to-module",
+      "section_ordinal": 4,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L393",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.8f67e4ca1b42928298f0ac7c",
-      "source_label": "lemma-cd-is-one-for-system",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 440,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-cd-is-one-for-system",
+      "section_ordinal": 4,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L440",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.6f52b6d8ffc7fc31de2b2316",
-      "source_label": "lemma-hom-from-Af",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 832,
-      "reason": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved"
+      "source_label": "lemma-hom-from-Af",
+      "section_ordinal": 6,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L832",
+      "unresolved_issue": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.e8c5e44e3ba2898239ec7b39",
-      "source_label": "lemma-derived-completion-koszul",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 1090,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-derived-completion-koszul",
+      "section_ordinal": 6,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L1090",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.ac9a9b73d9fb8dce79479c61",
-      "source_label": "lemma-global-extended-cech-complex",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 1234,
-      "reason": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved"
+      "source_label": "lemma-global-extended-cech-complex",
+      "section_ordinal": 6,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L1234",
+      "unresolved_issue": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.66e24ebcf2033e103987a384",
-      "source_label": "lemma-formal-functions",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 1758,
-      "reason": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved"
+      "source_label": "lemma-formal-functions",
+      "section_ordinal": 7,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L1758",
+      "unresolved_issue": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.a00d92d4b54bf692c0cc8960",
-      "source_label": "lemma-kill-completion-general",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 1867,
-      "reason": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved"
+      "source_label": "lemma-kill-completion-general",
+      "section_ordinal": 8,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L1867",
+      "unresolved_issue": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.69564a7892cda0ab5da8cab8",
-      "source_label": "lemma-kill-colimit-general",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 2063,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-kill-colimit-general",
+      "section_ordinal": 8,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L2063",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.a0127c4ec0888edafe4c7abb",
-      "source_label": "lemma-kill-colimit-support-general",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 2093,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-kill-colimit-support-general",
+      "section_ordinal": 8,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L2093",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.54cd7dfe0310ad6a00bbad39",
-      "source_label": "lemma-kill-completion",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 2398,
-      "reason": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved"
+      "source_label": "lemma-kill-completion",
+      "section_ordinal": 9,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L2398",
+      "unresolved_issue": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.e99c387833db56a632e5b127",
-      "source_label": "lemma-kill-colimit-weak",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 2437,
-      "reason": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved"
+      "source_label": "lemma-kill-colimit-weak",
+      "section_ordinal": 9,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L2437",
+      "unresolved_issue": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.bb51233061584987464af430",
-      "source_label": "lemma-kill-colimit",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 2470,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-kill-colimit",
+      "section_ordinal": 9,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L2470",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.2bd53671f66725f284e37273",
-      "source_label": "lemma-kill-colimit-support",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 2486,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-kill-colimit-support",
+      "section_ordinal": 9,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L2486",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.d6ddeef68866cd65fa49944e",
-      "source_label": "lemma-algebraize-local-cohomology",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 2502,
-      "reason": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved"
+      "source_label": "lemma-algebraize-local-cohomology",
+      "section_ordinal": 9,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L2502",
+      "unresolved_issue": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.465ca735b9b906d85a4200c3",
-      "source_label": "lemma-helper-bootstrap",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 2681,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-helper-bootstrap",
+      "section_ordinal": 10,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L2681",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.e953414bf851cbd494c2291e",
-      "source_label": "lemma-bootstrap-inherited",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 2726,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-bootstrap-inherited",
+      "section_ordinal": 10,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L2726",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.8bfdd6ffebafd483c9277ae4",
-      "source_label": "lemma-algebraize-local-cohomology-bis",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 2921,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-algebraize-local-cohomology-bis",
+      "section_ordinal": 10,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L2921",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.c363d9a9971ec87fe1972987",
-      "source_label": "lemma-bootstrap-bis-bis",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 2966,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-bootstrap-bis-bis",
+      "section_ordinal": 10,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L2966",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.f0cc725db85d2de17c88ed59",
-      "source_label": "lemma-bootstrap",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 3018,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-bootstrap",
+      "section_ordinal": 10,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L3018",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.b6413e20eeb9cebd20a3ea82",
-      "source_label": "theorem-final-bootstrap",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 3264,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "theorem-final-bootstrap",
+      "section_ordinal": 10,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L3264",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.34a689a99ed62288c4223a1e",
-      "source_label": "lemma-combine-two",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 3450,
-      "reason": "Inherited theorem/reference hypotheses not safely standalone at low effort"
+      "source_label": "lemma-combine-two",
+      "section_ordinal": 10,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L3450",
+      "unresolved_issue": "Inherited theorem/reference hypotheses not safely standalone at low effort",
+      "status": "further_work_needed"
     },
     {
       "candidate_id": "candidate.stacks.4ed7b3365dd488dbfb5d2c98",
-      "source_label": "theorem-algebraization-formal-sections",
+      "source_file": "algebraization.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "source_line": 3551,
-      "reason": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved"
+      "source_label": "theorem-algebraization-formal-sections",
+      "section_ordinal": 11,
+      "packet_path": "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/MANIFEST.json",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/algebraization.tex#L3551",
+      "unresolved_issue": "Nontrivial local context, multi-case conditions, or derived notation not conservatively resolved",
+      "status": "further_work_needed"
     }
   ],
-  "stage_a_excluded_candidate_count": 23
+  "stage_a_further_work_candidate_count": 23,
+  "stage_a_further_work_section_count": 7,
+  "stage_a_dispositioned_section_count": 10
 }

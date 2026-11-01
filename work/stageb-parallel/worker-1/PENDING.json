@@ -1,0 +1,286 @@
+{
+  "schema": "maththm.phase2.stage-b-parallel-worker-queue.v1",
+  "worker": 1,
+  "branch": "work/stageb/chat-1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "immutable_allocation": "work/stageb-parallel/ALLOCATION.json",
+  "note": "Only worker 1 may edit this file. A chapter is removed only after all eligible sections are reviewed and committed.",
+  "pending": [
+    {
+      "chapter": "etale-cohomology",
+      "source_file": "etale-cohomology.tex",
+      "byte_weight": 1826698,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/etale-cohomology/batch_01_sections_01_15/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/etale-cohomology/batch_02_sections_16_45/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/etale-cohomology/batch_03_sections_46_75/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/etale-cohomology/batch_04_sections_76_95/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/etale-cohomology/batch_05_sections_96_107/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "morphisms",
+      "source_file": "morphisms.tex",
+      "byte_weight": 889740,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/morphisms/batch_01_sections_01_20/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/morphisms/batch_02_sections_21_40/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/morphisms/batch_03_sections_41_59/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "more-morphisms",
+      "source_file": "more-morphisms.tex",
+      "byte_weight": 765090,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/more-morphisms/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/more-morphisms/batch_02_sections_15_29/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/more-morphisms/batch_03_sections_30_44/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/more-morphisms/batch_04_sections_45_59/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "sites",
+      "source_file": "sites.tex",
+      "byte_weight": 637777,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "dualizing",
+      "source_file": "dualizing.tex",
+      "byte_weight": 580215,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/dualizing/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/dualizing/batch_02_sections_15_27/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "categories",
+      "source_file": "categories.tex",
+      "byte_weight": 497287,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/categories/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/categories/batch_02_sections_09_18/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/categories/batch_03_sections_19_26/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/categories/batch_04_sections_27_34/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/categories/batch_05_sections_35_44/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "schemes",
+      "source_file": "schemes.tex",
+      "byte_weight": 462602,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/schemes/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/schemes/batch_01_sections_01_12/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/schemes/batch_02_sections_09_16/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/schemes/batch_02_sections_13_24/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/schemes/batch_03_sections_17_24/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "perfect",
+      "source_file": "perfect.tex",
+      "byte_weight": 449622,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/perfect/batch_01_sections_01_05/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/perfect/batch_02_sections_06_10/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/perfect/batch_03_sections_11_15/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/perfect/batch_04_sections_16_20/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/perfect/batch_05_sections_21_25/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/perfect/batch_06_sections_26_30/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/perfect/batch_07_sections_31_35/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/perfect/batch_08_sections_36_40/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "more-etale",
+      "source_file": "more-etale.tex",
+      "byte_weight": 415490,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/more-etale/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/more-etale/batch_02_sections_15_16/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "fields",
+      "source_file": "fields.tex",
+      "byte_weight": 379349,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/fields/batch_01_sections_01_10/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/fields/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/fields/batch_02_sections_11_20/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/fields/batch_02_sections_15_28/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/fields/batch_03_sections_21_28/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "cotangent",
+      "source_file": "cotangent.tex",
+      "byte_weight": 347607,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/cotangent/batch_01_sections_01_22/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/cotangent/batch_02_sections_23_28/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "quot",
+      "source_file": "quot.tex",
+      "byte_weight": 329802,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/quot/batch_01_sections_01_16/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "simplicial",
+      "source_file": "simplicial.tex",
+      "byte_weight": 314433,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/simplicial/batch_01_sections_01_17/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/simplicial/batch_02_sections_18_25/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/simplicial/batch_03_sections_26_34/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "adequate",
+      "source_file": "adequate.tex",
+      "byte_weight": 291327,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/adequate/batch_01_sections_01_09/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "algebraization",
+      "source_file": "algebraization.tex",
+      "byte_weight": 275427,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/algebraization/batch_01_sections_01_11/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_12_26/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/algebraization/batch_02_sections_27_28/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "resolve",
+      "source_file": "resolve.tex",
+      "byte_weight": 254714,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/resolve/batch_01_sections_01_17/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-flat",
+      "source_file": "spaces-flat.tex",
+      "byte_weight": 245198,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-flat/batch_01_sections_01_13/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "topologies",
+      "source_file": "topologies.tex",
+      "byte_weight": 220949,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/topologies/batch_01_sections_01_05/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/topologies/batch_02_sections_06_10/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/topologies/batch_03_sections_11_13/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "etale",
+      "source_file": "etale.tex",
+      "byte_weight": 199243,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/etale/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/etale/batch_02_sections_15_21/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "more-groupoids",
+      "source_file": "more-groupoids.tex",
+      "byte_weight": 184083,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/more-groupoids/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/more-groupoids/batch_02_section_15/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "smoothing",
+      "source_file": "smoothing.tex",
+      "byte_weight": 171949,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/smoothing/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "intersection",
+      "source_file": "intersection.tex",
+      "byte_weight": 153383,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/intersection/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/intersection/batch_02_sections_15_28/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "moduli-curves",
+      "source_file": "moduli-curves.tex",
+      "byte_weight": 131795,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/moduli-curves/batch_01_sections_01_13/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/moduli-curves/batch_02_sections_14_25/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-topologies",
+      "source_file": "spaces-topologies.tex",
+      "byte_weight": 101343,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-topologies/batch_01_sections_01_09/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "sets",
+      "source_file": "sets.tex",
+      "byte_weight": 72702,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/sets/batch_01_sections_01_12/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    },
+    {
+      "chapter": "spaces-resolve",
+      "source_file": "spaces-resolve.tex",
+      "byte_weight": 49963,
+      "stage_a_reconstructions": [
+        "harvest/phase2_chat_stage_a/spaces-resolve/batch_01_sections_01_01/RECONSTRUCTIONS.jsonl",
+        "harvest/phase2_chat_stage_a/spaces-resolve/batch_02_sections_02_09/RECONSTRUCTIONS.jsonl"
+      ],
+      "next_section_ordinal": 1
+    }
+  ]
+}

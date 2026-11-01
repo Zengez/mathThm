@@ -1,0 +1,151 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-handoff.v1",
+  "chapter": "limits.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "working_branch": "work/phase2-stage-a-context-enrichment",
+  "source_section_count": 22,
+  "candidate_bearing_section_count": 20,
+  "source_start_line": 17,
+  "source_end_line": 5704,
+  "source_theorem_candidates": 111,
+  "active_candidate_total": 100,
+  "excluded_source_candidates": 11,
+  "stage_a_ready_for_independent_stage_b": 94,
+  "stage_a_further_work_needed": 6,
+  "unprocessed_active_candidates": 0,
+  "independently_stage_b_validated_by_this_run": 0,
+  "phase3_eligible_promoted_by_this_run": 0,
+  "proofs_screened_by_this_run": 0,
+  "source_context_entries": 5,
+  "section_checkpoints": 22,
+  "batch_count": 3,
+  "validation": {
+    "complete_source_section_coverage": true,
+    "all_active_source_candidate_ids_accounted_for_exactly_once": true,
+    "manifest_ready_and_hold_totals_reconciled": true,
+    "pinned_source_statements_exactly_matched": true,
+    "authoritative_prior_approvals_preserved": true,
+    "context_scope_and_checkpoint_continuity_checked": true,
+    "proof_and_stage_b_status_unchanged": true,
+    "checks_run": "in-tool candidate hashing, pinned-source parsing, active-ID joins, JSON/JSONL construction, source-locator and section count reconciliation; not repository Python regression suite",
+    "note": "Standalone editorial preparation only; source anomalies held rather than silently corrected; independent mathematical equivalence and proof validation not conducted."
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "sections": [
+        1,
+        8
+      ],
+      "candidates": 49,
+      "ready": 49,
+      "holds": 0,
+      "manifest": "harvest/phase2_chat_stage_a/limits/batch_01_sections_01_08/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/limits/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+      "ledger": "harvest/phase2_chat_stage_a/limits/batch_01_sections_01_08/CONTEXT_LEDGER.jsonl",
+      "checkpoints": "harvest/phase2_chat_stage_a/limits/batch_01_sections_01_08/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 2,
+      "sections": [
+        9,
+        16
+      ],
+      "candidates": 32,
+      "ready": 32,
+      "holds": 0,
+      "manifest": "harvest/phase2_chat_stage_a/limits/batch_02_sections_09_16/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/limits/batch_02_sections_09_16/RECONSTRUCTIONS.jsonl",
+      "ledger": "harvest/phase2_chat_stage_a/limits/batch_02_sections_09_16/CONTEXT_LEDGER.jsonl",
+      "checkpoints": "harvest/phase2_chat_stage_a/limits/batch_02_sections_09_16/SECTION_CHECKPOINTS.jsonl"
+    },
+    {
+      "batch": 3,
+      "sections": [
+        17,
+        22
+      ],
+      "candidates": 19,
+      "ready": 13,
+      "holds": 6,
+      "manifest": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/RECONSTRUCTIONS.jsonl",
+      "ledger": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/CONTEXT_LEDGER.jsonl",
+      "checkpoints": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/SECTION_CHECKPOINTS.jsonl"
+    }
+  ],
+  "holds": [
+    {
+      "candidate_id": "candidate.stacks.bf285ae37e3a7b1c627ea444",
+      "source_file": "limits.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 4667,
+      "source_label": "lemma-top-cohomology-functor",
+      "section_ordinal": 19,
+      "packet_path": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/RECONSTRUCTIONS.jsonl",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/limits.tex#L4667",
+      "unresolved_issue": "Conclusion (c) says formation of top direct images commutes with arbitrary further base change but explicitly refers to the proof for the comparison-map explanation. Specify the full quantifiers and canonical base-change isomorphism without reading a proof before a Stage B-ready split.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.b700464eb9baaaee8712f55b",
+      "source_file": "limits.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 4807,
+      "source_label": "lemma-higher-direct-images-zero-above-dimension-fibre",
+      "section_ordinal": 19,
+      "packet_path": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/RECONSTRUCTIONS.jsonl",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/limits.tex#L4807",
+      "unresolved_issue": "Part (2) imports both the assumptions and all conclusions of the preceding top-cohomology-functor lemma, including its proof-dependent part (c); the full conditions and canonical comparisons must be inlined safely.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.fe11fd0d01e05238e97c479a",
+      "source_file": "limits.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 4888,
+      "source_label": "lemma-proper-top-cohomology-finite-type",
+      "section_ordinal": 19,
+      "packet_path": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/RECONSTRUCTIONS.jsonl",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/limits.tex#L4888",
+      "unresolved_issue": "The conclusion calls R^d f_* F an O_X-module, although a direct image under f:X->Y is naturally an O_Y-module. Resolve the pinned source mismatch without silently correcting the theorem.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.e05d88b2d1b40693796e1455",
+      "source_file": "limits.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 4964,
+      "source_label": "lemma-proper-top-cohomology-finite-presentation",
+      "section_ordinal": 19,
+      "packet_path": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/RECONSTRUCTIONS.jsonl",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/limits.tex#L4964",
+      "unresolved_issue": "The conclusion calls R^d f_* F an O_X-module of finite presentation rather than an O_Y-module. Resolve the pinned source mismatch without silent emendation.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.c94d23a863d37bf11e32c512",
+      "source_file": "limits.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 5446,
+      "source_label": "lemma-morphism-good-diagram",
+      "section_ordinal": 22,
+      "packet_path": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/RECONSTRUCTIONS.jsonl",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/limits.tex#L5446",
+      "unresolved_issue": "Requires careful reconstruction of two good diagrams and two scheme-theoretic-image inverse systems before the eventual morphism and uniqueness assertions can be made independently standalone.",
+      "status": "further_work_needed"
+    },
+    {
+      "candidate_id": "candidate.stacks.7f178d165ebd627b1f400029",
+      "source_file": "limits.tex",
+      "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "source_line": 5629,
+      "source_label": "lemma-good-diagram-fibre-product",
+      "section_ordinal": 22,
+      "packet_path": "harvest/phase2_chat_stage_a/limits/batch_03_sections_17_22/RECONSTRUCTIONS.jsonl",
+      "source_url": "https://github.com/stacks/stacks-project/blob/a04446e57ec1fbc252a871afcec7752fb2807b14/limits.tex#L5629",
+      "unresolved_issue": "The four good diagrams, four inverse-system morphisms, their indices, and eventual cartesian/closed-immersion assertions are defined only through nested earlier lemmas. Their object and arrow identifications need verification before a safe standalone expansion.",
+      "status": "further_work_needed"
+    }
+  ]
+}

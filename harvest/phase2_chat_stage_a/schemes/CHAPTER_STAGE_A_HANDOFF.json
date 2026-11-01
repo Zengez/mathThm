@@ -1,0 +1,20 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-handoff.v1",
+  "chapter": "schemes",
+  "source_file": "schemes.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_sections_total": 24,
+  "source_theorem_environments": 92,
+  "active_candidate_count": 86,
+  "inactive_source_environments_excluded": 6,
+  "ready_for_independent_stage_b_validation": 83,
+  "further_work_needed": 3,
+  "independent_validation": "not_started",
+  "processing_complete": true,
+  "hold_candidate_ids": [
+    "candidate.stacks.58a33f0126830d17acec839e",
+    "candidate.stacks.58306cf297875608e2698e18",
+    "candidate.stacks.ae45963cd1a89cf398d93e4a"
+  ],
+  "notes": "All source sections traversed, context definitions and situations recorded with scope. Stage A drafts await independent mathematical validation; outstanding blockers held."
+}

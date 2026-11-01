@@ -1,0 +1,126 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "20-section-experiment-40",
+  "chapter": "crystalline.tex",
+  "sections_ordinal": [
+    1,
+    8
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    19,
+    46,
+    464,
+    600,
+    663,
+    903,
+    1345,
+    1512
+  ],
+  "first_source_line": 19,
+  "last_source_line": 1727,
+  "complete_sections": true,
+  "stage_a_candidate_count": 19,
+  "candidate_ids": [
+    "candidate.stacks.f6d0b0e641b7511f4444647d",
+    "candidate.stacks.4e8e324ead81f844571acdaa",
+    "candidate.stacks.a07558934f84a56f24067f6b",
+    "candidate.stacks.5e545578d65d133e9f377e20",
+    "candidate.stacks.fc08e994e06d7f525c0901dc",
+    "candidate.stacks.aa8461bd1233ef9207a844a7",
+    "candidate.stacks.ef41786406cc034ab530ed01",
+    "candidate.stacks.554b1f2fcfaf08fd6613e253",
+    "candidate.stacks.6feb7ed831f371efe3701132",
+    "candidate.stacks.4f715213bcfc6b4cc06e387a",
+    "candidate.stacks.cfe7060a1cd34408dea7d004",
+    "candidate.stacks.8eabfcb47cf50b212844cc1e",
+    "candidate.stacks.5c1503a5999053f8a8535883",
+    "candidate.stacks.d8c6512447fb0a5b9599b26b",
+    "candidate.stacks.a22039381931b7fb82d92211",
+    "candidate.stacks.4c8529d7bd238e60dd3319fc",
+    "candidate.stacks.d81689d6c74093bf5a9df26c",
+    "candidate.stacks.4314da727cd0c7766a7bb55e",
+    "candidate.stacks.7e184e715185572001fb4651"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/crystalline/batch_01_sections_01_08/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1,
+    4
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 19
+    },
+    {
+      "section": 2,
+      "kind": "candidates",
+      "source_line": 46,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 464,
+      "stage_a_readiness": "further_work_needed"
+    },
+    {
+      "section": 4,
+      "kind": "context_only",
+      "source_line": 600,
+      "snippets": [
+        {
+          "source_line": 608,
+          "tex": "\\begin{definition}\n\\label{definition-compatible}\nLet $(A, I, \\gamma)$ and $(B, J, \\delta)$ be divided power rings.\nLet $A \\to B$ be a ring map. We say\n{\\it $\\delta$ is compatible with $\\gamma$}\nif there exists a divided power structure $\\bar\\gamma$ on\n$J + IB$ such that\n$$\n(A, I, \\gamma) \\to (B, J + IB, \\bar \\gamma)\\quad\\text{and}\\quad\n(B, J, \\delta) \\to (B, J + IB, \\bar \\gamma)\n$$\nare homomorphisms of divided power rings.\n\\end{definition}"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 663,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 903,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 1345,
+      "stage_a_readiness": "further_work_needed"
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 1512,
+      "stage_a_readiness": "ready_for_codex_validation"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 17,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 4,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 2,
+  "stage_a_further_work_section_count": 2,
+  "stage_a_dispositioned_section_count": 6,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Crystalline §§1–15 source-sequential Stage A review; inherited divided-power, affine/global crystalline site, crystal and differential context expanded."
+}

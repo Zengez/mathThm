@@ -1,0 +1,197 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-78",
+  "chapter": "criteria.tex",
+  "sections_ordinal": [
+    1,
+    14
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    19,
+    52,
+    63,
+    122,
+    332,
+    650,
+    823,
+    938,
+    1094,
+    1257,
+    1505,
+    1717,
+    2107,
+    2368
+  ],
+  "first_source_line": 19,
+  "last_source_line": 2495,
+  "complete_sections": true,
+  "stage_a_candidate_count": 34,
+  "candidate_ids": [
+    "candidate.stacks.815e6b700972c3e3aed85e16",
+    "candidate.stacks.367daad049beaf7b464292da",
+    "candidate.stacks.4d5eca41a6e3c061cbecccc5",
+    "candidate.stacks.41dff675f9a4230a92a5d491",
+    "candidate.stacks.e712657bd9baba041cfc5923",
+    "candidate.stacks.4728dc7bf58faabf69a4c518",
+    "candidate.stacks.d2f81c575b4e1fe5a8b761ad",
+    "candidate.stacks.8ce98a538344b8d0c3e3a36b",
+    "candidate.stacks.8e5ec7b0e84b8f1f43d9c4dc",
+    "candidate.stacks.f5692cf8ad90a4553037b2de",
+    "candidate.stacks.f236e9b7fef5c4edad59612d",
+    "candidate.stacks.5746e134a8c7ba9a9c5ada63",
+    "candidate.stacks.d6ff506dc9fedcaa5340f72a",
+    "candidate.stacks.abce383f4d531cea907b772a",
+    "candidate.stacks.1c3aa9c91633fdf55889c0d1",
+    "candidate.stacks.f665b96cc5fa5a3e9259094d",
+    "candidate.stacks.d367a6599d904a336bed5250",
+    "candidate.stacks.d7561edc91d37000834b772c",
+    "candidate.stacks.7aae612917f4a2e5c5f3d265",
+    "candidate.stacks.2c6e816590da1a376277e9b5",
+    "candidate.stacks.f60fa01ab941237e2b4c6822",
+    "candidate.stacks.5c4e45b5b4d9f9a3be34c86c",
+    "candidate.stacks.ff60ee0bd5cdf8774a2647fa",
+    "candidate.stacks.cbe3c8966fedbf44dff662c9",
+    "candidate.stacks.c5ad118de0d83e335ae84c3f",
+    "candidate.stacks.cafaf5434d84ac9eff66c03e",
+    "candidate.stacks.407fd9b874532c8cfe117565",
+    "candidate.stacks.98f41730f80bf32d8c84e46b",
+    "candidate.stacks.510df62f29f2291b9f51c956",
+    "candidate.stacks.f597d7fa3a694105d20cd0dc",
+    "candidate.stacks.d067fd90baedb5c0005db7e8",
+    "candidate.stacks.6c4e41a8f608f515bd9c8a36",
+    "candidate.stacks.c57ad880f694d098ef2d005e",
+    "candidate.stacks.cc30c820fcdc814d6e02c660"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/criteria/batch_01_sections_01_14/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1,
+    2,
+    3,
+    13
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 19,
+      "snippets": [
+        {
+          "source_line": 44,
+          "tex": "Some of the notation, conventions and terminology in this chapter is awkward\nand may seem backwards to the more experienced reader. This is intentional.\nPlease see Quot, Section \\ref{quot-section-conventions} for an\nexplanation."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 52,
+      "snippets": [
+        {
+          "source_line": 55,
+          "tex": "\\noindent\nThe conventions we use in this chapter are the same as those in the\nchapter on algebraic stacks, see\nAlgebraic Stacks, Section \\ref{algebraic-section-conventions}."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 3,
+      "kind": "context_only",
+      "stage_a_readiness": "no_active_candidates",
+      "source_line": 63
+    },
+    {
+      "section": 4,
+      "kind": "candidates",
+      "source_line": 122,
+      "stage_a_readiness": "further_work_needed"
+    },
+    {
+      "section": 5,
+      "kind": "candidates",
+      "source_line": 332,
+      "stage_a_readiness": "further_work_needed"
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 650,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 823,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 938,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1094,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1257,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 1505,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 1717,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 13,
+      "kind": "context_only",
+      "source_line": 2107,
+      "snippets": [
+        {
+          "source_line": 2123,
+          "tex": "Let $R$ be a ring. Let us temporarily make the following definition:\nA {\\it free $d$-dimensional algebra over $R$}\nis given by a commutative $R$-algebra structure $m$ on $R^{\\oplus d}$\nsuch that $e_1 = (1, 0, \\ldots, 0)$ is a unit\\footnote{It may be better\nto think of this as a pair consisting of a multiplication map\n$m : R^{\\oplus d} \\otimes_R R^{\\oplus d} \\to R^{\\oplus d}$ and\na ring map $\\psi : R \\to R^{\\oplus d}$ satisfying a bunch of axioms.}.\nWe think of $m$ as an $R$-linear map\n$$\nm : R^{\\oplus d} \\otimes_R R^{\\oplus d} \\longrightarrow R^{\\oplus d}\n$$\nsuch that $m(e_1, x) = m(x, e_1) = x$ and such that $m$ defines a\ncommutative and associative ring structure. If we write\n$m(e_i, e_j) = \\sum a_{ij}^ke_k$ then we see this boils down\nto the conditions\n$$\n\\left\\{\n\\begin{matrix}\n\\sum_l a_{ij}^la_{lk}^m = \\sum_l a_{il}^ma_{jk}^l & \\forall i, j, k, m \\\\\na_{ij}^k = a_{ji}^k & \\forall i, j, k \\\\\na_{i1}^j = \\delta_{ij} & \\forall i, j\n\\end{matrix}\n\\right.\n$$\nwhere $\\delta_{ij}$ is the Kronecker $\\delta$-function. OK, so let's define\n$$\nR_{univ} = \\mathbf{Z}[a_{ij}^k]/J\n$$\nwhere the ideal $J$ is the ideal generated by the relations displayed above.\nDenote\n$$\nm_{univ} :\nR_{univ}^{\\oplus d} \\otimes_{R_{univ}} R_{univ}^{\\oplus d}\n\\longrightarrow\nR_{univ}^{\\oplus d}\n$$\nthe free $d$-dimensional algebra $m$ over $R_{univ}$ whose structure\nconstants are the classes of $a_{ij}^k$ modulo $J$.\nThen it is clear that given any free $d$-dimensional algebra $m$ over a ring\n$R$ there exists a unique $\\mathbf{Z}$-algebra homomorphism\n$\\psi : R_{univ} \\to R$ such that $\\psi_*m_{univ} = m$ (this means that\n$m$ is what you get by applying the base change functor\n$- \\otimes_{R_{univ}} R$ to $m_{univ}$). In other words, setting\n$X = \\Spec(R_{univ})$ we obtain a canonical identification\n$$\nX(T) = \\{\\text{free }d\\text{-dimensional algebras }m\\text{ over }R\\}\n$$\nfor varying $T = \\Spec(R)$. By Zariski localization we obtain\nthe following seemingly more general identification\n\\begin{equation}\n\\label{equation-objects}\nX(T) = \\{\\text{free }d\\text{-dimensional algebras }\nm\\text{ over }\\Gamma(T, \\mathcal{O}_T)\\}\n\\end{equation}\nfor any scheme $T$."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 2368,
+      "stage_a_readiness": "ready_for_codex_validation"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 31,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 8,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 3,
+  "stage_a_further_work_section_count": 2,
+  "stage_a_dispositioned_section_count": 10,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Criteria §§1–15 processed in source order, carrying stack morphism, representability, formal/limit and finite Hilbert context. §16 onward pending."
+}

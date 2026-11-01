@@ -1,0 +1,80 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "algebra-stage-a-20261101-3",
+  "chapter": "algebra.tex",
+  "sections_ordinal": [
+    9,
+    9
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    1038
+  ],
+  "first_source_line": 1038,
+  "last_source_line": 1461,
+  "complete_sections": true,
+  "stage_a_candidate_count": 11,
+  "candidate_ids": [
+    "candidate.stacks.4d60296237488d9e99bbc208",
+    "candidate.stacks.f44f3075faa78e8385b3171d",
+    "candidate.stacks.40111638342bc50dc518b8d7",
+    "candidate.stacks.79491eae726b8afcbb8aa5c6",
+    "candidate.stacks.ee040796931f815a303679a6",
+    "candidate.stacks.eb9330eda61b996780247013",
+    "candidate.stacks.e8da3627f89657a222157ce4",
+    "candidate.stacks.41b18e4578a8f2129dfae55e",
+    "candidate.stacks.84dc39023a7bd06070c2de9a",
+    "candidate.stacks.0282435b4cf3176c57e00869",
+    "candidate.stacks.fac346211c46ffec6144c4a1"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/algebra/batch_03_sections_09_09/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [],
+  "processing_sections": [
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1038,
+      "section_end_line": 1461,
+      "source_heading": "Localization",
+      "active_candidate_ids": [
+        "candidate.stacks.4d60296237488d9e99bbc208",
+        "candidate.stacks.f44f3075faa78e8385b3171d",
+        "candidate.stacks.40111638342bc50dc518b8d7",
+        "candidate.stacks.79491eae726b8afcbb8aa5c6",
+        "candidate.stacks.ee040796931f815a303679a6",
+        "candidate.stacks.eb9330eda61b996780247013",
+        "candidate.stacks.e8da3627f89657a222157ce4",
+        "candidate.stacks.41b18e4578a8f2129dfae55e",
+        "candidate.stacks.84dc39023a7bd06070c2de9a",
+        "candidate.stacks.0282435b4cf3176c57e00869",
+        "candidate.stacks.fac346211c46ffec6144c4a1"
+      ],
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_action": "source_ordered_standalone_expansion",
+      "context_checkpoint": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+      "snippets": []
+    }
+  ],
+  "processing_sections_format": "source_ordered_context_ledger_and_candidate_overlays",
+  "stage_a_ready_for_codex_candidate_count": 11,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 1,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_dispositioned_section_count": 1,
+  "stage_a_section_mapping_pending": false,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/algebra/SCOPE_EVENTS.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/algebra/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "No approved identity regenerated. Standalone source-grounded preparation only; source proof text not screened, Stage B validation not attempted."
+}

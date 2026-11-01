@@ -1,0 +1,62 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-84",
+  "chapter": "stacks-introduction.tex",
+  "sections_ordinal": [
+    1,
+    4
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    19,
+    41,
+    81,
+    181
+  ],
+  "first_source_line": 19,
+  "last_source_line": 250,
+  "complete_sections": true,
+  "stage_a_candidate_count": 0,
+  "candidate_ids": [],
+  "output_file": "harvest/phase2_chat_stage_a/stacks-introduction/batch_01_sections_01_04/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "no_semantic_or_proof_approval_in_this_batch": true,
+  "processing_sections": [
+    {
+      "section": 4,
+      "kind": "context_only",
+      "source_line": 181,
+      "snippets": [
+        {
+          "source_line": 230,
+          "tex": "\\begin{definition}\n\\label{definition-smooth}\nWe say a morphism $S \\to \\mathcal{M}_{1, 1}$ is {\\it smooth} if for every\nmorphism $S' \\to \\mathcal{M}_{1, 1}$ the projection morphism\n$$\nS \\times_{\\mathcal{M}_{1, 1}} S' \\longrightarrow S'\n$$\nis smooth.\n\\end{definition}"
+        },
+        {
+          "source_line": 240,
+          "tex": "\\noindent\nNote that this is compatible with the notion of a smooth morphism\nof schemes as the base change of a smooth morphism is smooth.\nMoreover, it is clear how to extend this definition to other properties\nof morphisms into $\\mathcal{M}_{1, 1}$ (or your own favorite moduli stack).\nIn particular we will use it below for {\\it surjective} morphisms."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 0,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 0,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+}

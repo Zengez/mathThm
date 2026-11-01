@@ -1,0 +1,192 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "30-section-experiment-35",
+  "chapter": "equiv.tex",
+  "sections_ordinal": [
+    6,
+    18
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    684,
+    873,
+    916,
+    1526,
+    1965,
+    2468,
+    2741,
+    2992,
+    3409,
+    3568,
+    3738,
+    4077,
+    4329
+  ],
+  "first_source_line": 684,
+  "last_source_line": 4413,
+  "complete_sections": true,
+  "stage_a_candidate_count": 51,
+  "candidate_ids": [
+    "candidate.stacks.b5914e7b431184a71a54c39c",
+    "candidate.stacks.381c5f650c80b49e5e6c625c",
+    "candidate.stacks.83e4a8b2a19f7ffa3da91991",
+    "candidate.stacks.8a201f54b45479b5d64ba9f5",
+    "candidate.stacks.9b2e584ad4c625f08b541208",
+    "candidate.stacks.3767ccc303cdbf7a4c6e9c35",
+    "candidate.stacks.12574125dc019caf76ec85d0",
+    "candidate.stacks.f5ddd1b3f5d473bd5260abbd",
+    "candidate.stacks.df20f0ccdf03e568695ca0b9",
+    "candidate.stacks.f91e6d9de72f1d708b1700fc",
+    "candidate.stacks.c6c71abd45ac6ce234fad3d6",
+    "candidate.stacks.7984f69987dd91fa21ba4ae0",
+    "candidate.stacks.13e9955836d1db8dce5870e4",
+    "candidate.stacks.0ed30c3fa6237c348268b827",
+    "candidate.stacks.8c6ff1e0136816d71f4de7cb",
+    "candidate.stacks.18df71df3dcdd8ade149a190",
+    "candidate.stacks.9ae8da14d2bcb2fb02774aca",
+    "candidate.stacks.3086be8bec445feb242324f3",
+    "candidate.stacks.deaed7072eb028c75b55cc96",
+    "candidate.stacks.38d31f902ff1f87f160c4b25",
+    "candidate.stacks.828a6ae8649fa54c574b5717",
+    "candidate.stacks.73dc6ad845121668415389b2",
+    "candidate.stacks.527eca8a359bdbedfe34f1b2",
+    "candidate.stacks.48650d5cf4c83f4513387f38",
+    "candidate.stacks.273304d8db7db18920ded768",
+    "candidate.stacks.84ad7f88459e9e9d81d47e44",
+    "candidate.stacks.0a2419e36d327123264df10b",
+    "candidate.stacks.2cca6188db363b94d83434c4",
+    "candidate.stacks.e14ce8e0b8954581dc2c1e74",
+    "candidate.stacks.a1655918b24f8263408d7570",
+    "candidate.stacks.e74ed4a202d3dd27c77fd664",
+    "candidate.stacks.981e6bfc08847f1ccc5bc1fb",
+    "candidate.stacks.0f7684ce53c317a80fb179b7",
+    "candidate.stacks.cdc75cb0fa961a677ee7b0a1",
+    "candidate.stacks.c9fafc5bbac625c18bb40670",
+    "candidate.stacks.e71d14aaf467924d94c13e32",
+    "candidate.stacks.a740e46907448bf0295bbbab",
+    "candidate.stacks.30627630beaea0fa6c95c2d7",
+    "candidate.stacks.a3029c007f21661b549da504",
+    "candidate.stacks.00d02ed7ed1e9dae830bcd9a",
+    "candidate.stacks.72eed5e08570817f61483008",
+    "candidate.stacks.930449c9c36a3707a0eacc6f",
+    "candidate.stacks.0991b4c57d3d90e430000318",
+    "candidate.stacks.7b669af39bc6af3474353792",
+    "candidate.stacks.f3698d265a4d83cc5bf7b772",
+    "candidate.stacks.00276537a41b843c78396cde",
+    "candidate.stacks.1f6baaea499f76bf4075c04a",
+    "candidate.stacks.ca9a49be3789942db7b08bee",
+    "candidate.stacks.5f78b9b7c640bc738dd7e4ae",
+    "candidate.stacks.c567c44fca4acce0edbc283b",
+    "candidate.stacks.981ebca7ad9a44675cac4c37"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/equiv/batch_02_sections_06_18/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-context-enrichment",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    14
+  ],
+  "processing_sections": [
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 684,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 873,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 8,
+      "kind": "candidates",
+      "source_line": 916,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 9,
+      "kind": "candidates",
+      "source_line": 1526,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 1965,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 2468,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 2741,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 2992,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 14,
+      "kind": "context_only",
+      "source_line": 3409,
+      "snippets": [
+        {
+          "source_line": 3412,
+          "tex": "\\noindent\nLet $S$ be a scheme. We claim there is a category\nwith\n\\begin{enumerate}\n\\item Objects are proper smooth schemes over $S$.\n\\item Morphisms from $X$ to $Y$ are isomorphism classes\nof objects of $D_{perf}(\\mathcal{O}_{X \\times_S Y})$.\n\\item Composition of the isomorphism class of\n$K \\in D_{perf}(\\mathcal{O}_{X \\times_S Y})$\nand the isomorphism class of $K'$ in $D_{perf}(\\mathcal{O}_{Y \\times_S Z})$\nis the isomorphism class of\n$$\nR\\text{pr}_{13, *}(\nL\\text{pr}_{12}^*K\n\\otimes_{\\mathcal{O}_{X \\times_S Y \\times_S Z}}^\\mathbf{L}\nL\\text{pr}_{23}^*K')\n$$\nwhich is in $D_{perf}(\\mathcal{O}_{X \\times_S Z})$ by\nDerived Categories of Schemes, Lemma\n\\ref{perfect-lemma-flat-proper-perfect-direct-image-general}.\n\\item The identity morphism from $X$ to $X$ is the\nisomorphism class of $\\Delta_{X/S, *}\\mathcal{O}_X$\nwhich is in $D_{perf}(\\mathcal{O}_{X \\times_S X})$\nby More on Morphisms, Lemma\n\\ref{more-morphisms-lemma-perfect-closed-immersion-perfect-direct-image}\nand the fact that $\\Delta_{X/S}$ is a perfect morphism by\nDivisors, Lemma\n\\ref{divisors-lemma-immersion-smooth-into-smooth-regular-immersion} and\nMore on Morphisms, Lemma \\ref{more-morphisms-lemma-regular-immersion-perfect}.\n\\end{enumerate}\nLet us check that associativity of composition\nof morphisms holds; we omit verifying that the identity\nmorphisms are indeed identities. To see this suppose we have\n$X, Y, Z, W$ and\n$c \\in D_{perf}(\\mathcal{O}_{X \\times_S Y})$,\n$c' \\in D_{perf}(\\mathcal{O}_{Y \\times_S Z})$, and\n$c'' \\in D_{perf}(\\mathcal{O}_{Z \\times_S W})$. Then we have\n\\begin{align*}\nc'' \\circ (c' \\circ c)\n& \\cong\n\\text{pr}^{134}_{14, *}(\n\\text{pr}^{134, *}_{13}\n\\text{pr}^{123}_{13, *}(\\text{pr}^{123, *}_{12}c \\otimes\n\\text{pr}^{123, *}_{23}c')\n\\otimes \\text{pr}^{134, *}_{34}c'') \\\\\n& \\cong\n\\text{pr}^{134}_{14, *}(\n\\text{pr}^{1234}_{134, *}\n\\text{pr}^{1234, *}_{123}(\\text{pr}^{123, *}_{12}c \\otimes\n\\text{pr}^{123, *}_{23}c')\n\\otimes \\text{pr}^{134, *}_{34}c'') \\\\\n& \\cong\n\\text{pr}^{134}_{14, *}(\n\\text{pr}^{1234}_{134, *}\n(\\text{pr}^{1234, *}_{12}c \\otimes\n\\text{pr}^{1234, *}_{23}c')\n\\otimes \\text{pr}^{134, *}_{34}c'') \\\\\n& \\cong\n\\text{pr}^{134}_{14, *}\n\\text{pr}^{1234}_{134, *}\n((\\text{pr}^{1234, *}_{12}c \\otimes\n\\text{pr}^{1234, *}_{23}c')\n\\otimes \\text{pr}^{1234, *}_{34}c'') \\\\\n& \\cong\n\\text{pr}^{1234}_{14, *}(\n(\\text{pr}^{1234, *}_{12}c \\otimes\n\\text{pr}^{1234, *}_{23}c') \\otimes\n\\text{pr}^{1234, *}_{34}c'')\n\\end{align*}\nHere we use the notation\n$$\np^{1234}_{134} : X \\times_S Y \\times_S Z \\times_S W\n\\to X \\times_S Z \\times_S W\n\\quad\\text{and}\\quad\np^{134}_{14} : X \\times_S Z \\times_S W \\to X \\times_S W\n$$\nthe projections and similarly for other indices.\nWe also write $\\text{pr}_*$ instead of $R\\text{pr}_*$ and\n$\\text{pr}^*$ instead of $L\\text{pr}^*$ and we drop\nall super and sub scripts on $\\otimes$.\nThe first equality is the definition of the composition.\nThe second equality holds because\n$\\text{pr}^{134, *}_{13} \\text{pr}^{123}_{13, *} =\n\\text{pr}^{1234}_{134, *} \\text{pr}^{1234, *}_{123}$\nby base change (Derived Categories of Schemes, Lemma\n\\ref{perfect-lemma-compare-base-change}).\nThe third equality holds because pullbacks compose\ncorrectly and pass through tensor products, see\nCohomology, Lemmas \\ref{cohomology-lemma-derived-pullback-composition} and\n\\ref{cohomology-lemma-pullback-tensor-product}.\nThe fourth equality follows from the ``projection formula'' for\n$p^{1234}_{134}$, see Derived Categories of Schemes, Lemma\n\\ref{perfect-lemma-cohomology-base-change}.\nThe fifth equality is that proper pushforward is compatible\nwith composition, see\nCohomology, Lemma \\ref{cohomology-lemma-derived-pushforward-composition}.\nSince tensor product is associative\nthis concludes the proof of associativity of composition."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 3568,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 16,
+      "kind": "candidates",
+      "source_line": 3738,
+      "stage_a_readiness": "further_work_needed"
+    },
+    {
+      "section": 17,
+      "kind": "candidates",
+      "source_line": 4077,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 4329,
+      "stage_a_readiness": "ready_for_codex_validation"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 50,
+  "stage_a_remaining_work_candidate_count": 0,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 11,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "stage_a_dispositioned_section_count": 13,
+  "stage_a_section_mapping_pending": false,
+  "processing_note": "Equiv §§1–18 fully dispositioned in source order, with final §18 countability theorem explicit about smooth proper derived equivalence. 50 prepared and one indexed hold. No independent Stage B."
+}

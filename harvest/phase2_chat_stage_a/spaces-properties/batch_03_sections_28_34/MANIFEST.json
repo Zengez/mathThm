@@ -1,0 +1,181 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "20-section-experiment-49",
+  "chapter": "spaces-properties.tex",
+  "sections_ordinal": [
+    28,
+    34
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    4747,
+    5206,
+    5566,
+    5639,
+    5709,
+    5895,
+    5946
+  ],
+  "first_source_line": 4747,
+  "last_source_line": 6032,
+  "complete_sections": true,
+  "stage_a_candidate_count": 15,
+  "candidate_ids": [
+    "candidate.stacks.9e39087cedaabf12e1b19547",
+    "candidate.stacks.c22cb878acef6ff36490fc3a",
+    "candidate.stacks.b5beef1fa0c0faef4bea6719",
+    "candidate.stacks.489fc319da5ffe0d388d6048",
+    "candidate.stacks.5a47444319c617acc26eac25",
+    "candidate.stacks.333afa977047337976da1ef6",
+    "candidate.stacks.63b4808117660d272cc9c1eb",
+    "candidate.stacks.022186f3cdaf99e2e3541f91",
+    "candidate.stacks.a51b37c816e57ceb6b5052a5",
+    "candidate.stacks.b8c5d6bfb6ee0c71f2387538",
+    "candidate.stacks.39afb44da6cdf88d63c763e7",
+    "candidate.stacks.afc0eee5764cea9da2c40b9b",
+    "candidate.stacks.1b15b5c7fcd7c82c2fddef7e",
+    "candidate.stacks.246f8a12e0d298381609ee24",
+    "candidate.stacks.aa0ba2f947b773bfd9a5cd4a"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/spaces-properties/batch_03_sections_28_34/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.9e39087cedaabf12e1b19547",
+    "candidate.stacks.c22cb878acef6ff36490fc3a",
+    "candidate.stacks.b8c5d6bfb6ee0c71f2387538"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    30
+  ],
+  "processing_sections": [
+    {
+      "section": 28,
+      "kind": "candidates",
+      "source_line": 4747,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.9e39087cedaabf12e1b19547",
+        "candidate.stacks.c22cb878acef6ff36490fc3a",
+        "candidate.stacks.b5beef1fa0c0faef4bea6719",
+        "candidate.stacks.489fc319da5ffe0d388d6048",
+        "candidate.stacks.5a47444319c617acc26eac25"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.c22cb878acef6ff36490fc3a",
+        "candidate.stacks.b5beef1fa0c0faef4bea6719",
+        "candidate.stacks.489fc319da5ffe0d388d6048",
+        "candidate.stacks.5a47444319c617acc26eac25"
+      ],
+      "stage_a_source_context_heading": "Recovering morphisms",
+      "stage_a_source_context_summary": "Pinned spaces-properties.tex §28 Recovering morphisms: 0 explicit named definitions; 1 standalone drafts / 4 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 29,
+      "kind": "candidates",
+      "source_line": 5206,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.333afa977047337976da1ef6",
+        "candidate.stacks.63b4808117660d272cc9c1eb",
+        "candidate.stacks.022186f3cdaf99e2e3541f91",
+        "candidate.stacks.a51b37c816e57ceb6b5052a5",
+        "candidate.stacks.b8c5d6bfb6ee0c71f2387538"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Quasi-coherent sheaves on algebraic spaces",
+      "stage_a_source_context_summary": "Pinned spaces-properties.tex §29 Quasi-coherent sheaves on algebraic spaces: 1 explicit named definitions; 5 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 30,
+      "kind": "context_only",
+      "source_line": 5566,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Properties of modules",
+      "stage_a_source_context_summary": "Pinned spaces-properties.tex §30 Properties of modules: 0 explicit named definitions; 0 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 5639,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.39afb44da6cdf88d63c763e7",
+        "candidate.stacks.afc0eee5764cea9da2c40b9b"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Locally projective modules",
+      "stage_a_source_context_summary": "Pinned spaces-properties.tex §31 Locally projective modules: 1 explicit named definitions; 2 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 5709,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.1b15b5c7fcd7c82c2fddef7e"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Quasi-coherent sheaves and presentations",
+      "stage_a_source_context_summary": "Pinned spaces-properties.tex §32 Quasi-coherent sheaves and presentations: 0 explicit named definitions; 1 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 5895,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.246f8a12e0d298381609ee24"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Morphisms towards schemes",
+      "stage_a_source_context_summary": "Pinned spaces-properties.tex §33 Morphisms towards schemes: 0 explicit named definitions; 1 standalone drafts / 0 source holds. No previous theorem premises inherited."
+    },
+    {
+      "section": 34,
+      "kind": "candidates",
+      "source_line": 5946,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.aa0ba2f947b773bfd9a5cd4a"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.aa0ba2f947b773bfd9a5cd4a"
+      ],
+      "stage_a_source_context_heading": "Quotients by free actions",
+      "stage_a_source_context_summary": "Pinned spaces-properties.tex §34 Quotients by free actions: 0 explicit named definitions; 0 standalone drafts / 1 source holds. No previous theorem premises inherited."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 10,
+  "stage_a_remaining_work_candidate_count": 5,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 4,
+  "stage_a_remaining_work_section_count": 6,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_dispositioned_section_count": 7,
+  "stage_a_further_work_candidate_count": 5,
+  "stage_a_further_work_section_count": 2,
+  "processing_note": "Regular Stage A completed spaces-properties §§28–34; continuous source-matched section checkpoints. Chapter context dropped after §34, new Morphisms chapter starts at §1."
+}

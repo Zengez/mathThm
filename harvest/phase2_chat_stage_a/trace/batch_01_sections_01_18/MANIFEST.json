@@ -1,0 +1,393 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "20-section-experiment-45",
+  "chapter": "trace.tex",
+  "sections_ordinal": [
+    1,
+    18
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    18,
+    36,
+    65,
+    376,
+    446,
+    490,
+    619,
+    681,
+    745,
+    809,
+    884,
+    944,
+    1007,
+    1078,
+    1374,
+    1679,
+    1965,
+    1976
+  ],
+  "first_source_line": 18,
+  "last_source_line": 2135,
+  "complete_sections": true,
+  "stage_a_candidate_count": 20,
+  "candidate_ids": [
+    "candidate.stacks.34ece778c137d52b0044bb2f",
+    "candidate.stacks.030e509d53f72751abe0e7e3",
+    "candidate.stacks.a1bc4717debbeb9a536f6906",
+    "candidate.stacks.9558cc379095fd9bfaef28f4",
+    "candidate.stacks.3fb8b35bc3f3601dc5aecfce",
+    "candidate.stacks.855c81acaed5de4d8e852a95",
+    "candidate.stacks.e1cf0ed4b026a8844d7b889c",
+    "candidate.stacks.d4c0e39956153ecaf5c5e70d",
+    "candidate.stacks.a55e369f548de86ab7894679",
+    "candidate.stacks.5f168cc450c119254f760eae",
+    "candidate.stacks.d58b13b9a2d3d5730822c025",
+    "candidate.stacks.ac71a7a59af35b76e3209bbf",
+    "candidate.stacks.d00a27029043f7592bcc39da",
+    "candidate.stacks.f580b01cf37d3be7cb2ba36d",
+    "candidate.stacks.710ec831bb0a7cf0c3dde2f9",
+    "candidate.stacks.622fed6f15355ca7d58e8338",
+    "candidate.stacks.4b32ae1f61d714dc18aee09e",
+    "candidate.stacks.c27353756a89e2a88c8907ea",
+    "candidate.stacks.83d4f20d4c0ec31a96f17797",
+    "candidate.stacks.9b77aaa62f7d03bf0793c038"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/trace/batch_01_sections_01_18/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [
+    "candidate.stacks.34ece778c137d52b0044bb2f",
+    "candidate.stacks.030e509d53f72751abe0e7e3",
+    "candidate.stacks.a1bc4717debbeb9a536f6906",
+    "candidate.stacks.9558cc379095fd9bfaef28f4",
+    "candidate.stacks.3fb8b35bc3f3601dc5aecfce",
+    "candidate.stacks.855c81acaed5de4d8e852a95",
+    "candidate.stacks.e1cf0ed4b026a8844d7b889c",
+    "candidate.stacks.d4c0e39956153ecaf5c5e70d",
+    "candidate.stacks.a55e369f548de86ab7894679",
+    "candidate.stacks.5f168cc450c119254f760eae",
+    "candidate.stacks.d58b13b9a2d3d5730822c025",
+    "candidate.stacks.ac71a7a59af35b76e3209bbf",
+    "candidate.stacks.d00a27029043f7592bcc39da",
+    "candidate.stacks.f580b01cf37d3be7cb2ba36d",
+    "candidate.stacks.710ec831bb0a7cf0c3dde2f9",
+    "candidate.stacks.622fed6f15355ca7d58e8338",
+    "candidate.stacks.4b32ae1f61d714dc18aee09e",
+    "candidate.stacks.c27353756a89e2a88c8907ea",
+    "candidate.stacks.83d4f20d4c0ec31a96f17797",
+    "candidate.stacks.9b77aaa62f7d03bf0793c038"
+  ],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    1,
+    2,
+    4,
+    5,
+    8,
+    9,
+    16,
+    17
+  ],
+  "processing_sections": [
+    {
+      "section": 1,
+      "kind": "context_only",
+      "source_line": 18,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Introduction",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 2,
+      "kind": "context_only",
+      "source_line": 36,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "The trace formula",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 3,
+      "kind": "candidates",
+      "source_line": 65,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.34ece778c137d52b0044bb2f"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.34ece778c137d52b0044bb2f"
+      ],
+      "stage_a_source_context_heading": "Frobenii",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 4,
+      "kind": "context_only",
+      "source_line": 376,
+      "snippets": [
+        {
+          "source_line": 386,
+          "tex": "We introduce the following notation:\nWe set $\\Lambda^\\natural$ to be the quotient of $\\Lambda$ by its additive\nsubgroup generated by the commutators (i.e., the elements of the form\n$ab-ba$, $a, b \\in \\Lambda$). Note that $\\Lambda^\\natural$ is not a ring."
+        },
+        {
+          "source_line": 407,
+          "tex": "\\begin{definition}\n\\label{definition-trace}\nThe {\\it trace} of the endomorphism $a$ is the sum of the diagonal entries of\na matrix representing it. This defines an additive map $\\text{Tr} :\n\\text{End}_\\Lambda(\\Lambda^{\\oplus m}) \\to \\Lambda^\\natural$.\n\\end{definition}"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Traces",
+      "stage_a_source_context_summary": "Finite ring Λ of order prime to p, commutator quotient Λ^natural and trace; coefficient assumptions §4-local only."
+    },
+    {
+      "section": 5,
+      "kind": "context_only",
+      "source_line": 446,
+      "snippets": [
+        {
+          "source_line": 449,
+          "tex": "\\noindent\nWith this definition of the trace, let us now discuss another issue with the\nformula as stated. Let $C$ be a smooth projective curve over $k$. Then there is\na correspondence between finite locally constant sheaves $\\mathcal{F}$ on\n$C_\\etale$ whose stalks are isomorphic to\n${(\\mathbf{Z}/\\ell^n\\mathbf{Z})}^{\\oplus m}$ on the one hand, and continuous\nrepresentations $\\rho : \\pi_1 (C, \\bar c) \\to\n\\text{GL}_m(\\mathbf{Z}/\\ell^n\\mathbf{Z}))$ (for some fixed choice of $\\bar c$)\non the other hand. We denote $\\mathcal{F}_\\rho$ the sheaf corresponding to\n$\\rho$. Then $H^2 (C_{\\bar k}, \\mathcal{F}_\\rho)$ is the group of coinvariants\nfor the action of $\\rho(\\pi_1 (C, \\bar c))$ on\n${(\\mathbf{Z}/\\ell^n\\mathbf{Z})}^{\\oplus m}$, and there is a short exact\nsequence\n$$\n0 \\longrightarrow \\pi_1 (C_{\\bar k}, \\bar c) \\longrightarrow \\pi_1 (C, \\bar c)\n\\longrightarrow G_k \\longrightarrow 0.\n$$\nFor instance, let $\\mathbf{Z} = \\mathbf{Z} \\sigma$ act on\n$\\mathbf{Z}/\\ell^2\\mathbf{Z}$ via $\\sigma(x) = (1+\\ell) x$. The coinvariants\nare $(\\mathbf{Z}/\\ell^2\\mathbf{Z})_{\\sigma} = \\mathbf{Z}/\\ell\\mathbf{Z}$, which\nis not a flat $\\mathbf{Z}/\\ell^2\\mathbf{Z}$-module. Hence we cannot take the\ntrace of some action on $H^2(C_{\\bar k}, \\mathcal{F}_\\rho)$, at least not in\nthe sense of the previous section."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Why derived categories?",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 6,
+      "kind": "candidates",
+      "source_line": 490,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.030e509d53f72751abe0e7e3"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Derived categories",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 7,
+      "kind": "candidates",
+      "source_line": 619,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.a1bc4717debbeb9a536f6906"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Filtered derived category",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 8,
+      "kind": "context_only",
+      "source_line": 681,
+      "snippets": [
+        {
+          "source_line": 687,
+          "tex": "\\begin{definition}\n\\label{definition-filtered-derived-functors}\nLet $T: \\mathcal{A} \\to \\mathcal{B}$ be a left exact functor and assume that\n$\\mathcal{A}$ has enough injectives. Define $RT: DF^+(\\mathcal{A}) \\to D\nF^+(\\mathcal{B})$ to fit in the diagram\n$$\n\\xymatrix{\nDF^+(\\mathcal{A}) \\ar[r]^{RT} & DF^+(\\mathcal{B}) \\\\\nK^+(\\mathcal{I}) \\ar[u] \\ar[r]^{T \\quad} & K^+(\\text{Fil}^f(\\mathcal{B})).\n\\ar[u]}\n$$\nThis is well-defined by the previous lemma. Let $G: \\mathcal{A} \\to\n\\mathcal{B}$ be a right exact functor and assume that $\\mathcal{A}$ has enough\nprojectives. Define $LG: DF^-(\\mathcal{A}) \\to DF^-(\\mathcal{B})$ to fit in\nthe diagram\n$$\n\\xymatrix{\nDF^-(\\mathcal{A}) \\ar[r]^{LG} & DF^-(\\mathcal{B}) \\\\\nK^-(\\mathcal{P}) \\ar[u] \\ar[r]^{G \\quad} & K^-(\\text{Fil}^f(\\mathcal{B})).\n\\ar[u]}\n$$\nAgain, this is well-defined by the previous lemma.\nThe functors $RT$, resp.\\ $LG$, are called the {\\it filtered derived\nfunctor} of $T$, resp.\\ $G$.\n\\end{definition}"
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Filtered derived functors",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 9,
+      "kind": "context_only",
+      "source_line": 745,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Application of filtered complexes",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 10,
+      "kind": "candidates",
+      "source_line": 809,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.9558cc379095fd9bfaef28f4"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Perfectness",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 11,
+      "kind": "candidates",
+      "source_line": 884,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.3fb8b35bc3f3601dc5aecfce",
+        "candidate.stacks.855c81acaed5de4d8e852a95"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Filtrations and perfect complexes",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 12,
+      "kind": "candidates",
+      "source_line": 944,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e1cf0ed4b026a8844d7b889c"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Characterizing perfect objects",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 13,
+      "kind": "candidates",
+      "source_line": 1007,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d4c0e39956153ecaf5c5e70d"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Cohomology of nice complexes",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 1078,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.a55e369f548de86ab7894679",
+        "candidate.stacks.5f168cc450c119254f760eae",
+        "candidate.stacks.d58b13b9a2d3d5730822c025"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.a55e369f548de86ab7894679",
+        "candidate.stacks.5f168cc450c119254f760eae",
+        "candidate.stacks.d58b13b9a2d3d5730822c025"
+      ],
+      "stage_a_source_context_heading": "Lefschetz numbers",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 1374,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.ac71a7a59af35b76e3209bbf",
+        "candidate.stacks.d00a27029043f7592bcc39da",
+        "candidate.stacks.f580b01cf37d3be7cb2ba36d",
+        "candidate.stacks.710ec831bb0a7cf0c3dde2f9",
+        "candidate.stacks.622fed6f15355ca7d58e8338",
+        "candidate.stacks.4b32ae1f61d714dc18aee09e",
+        "candidate.stacks.c27353756a89e2a88c8907ea"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.710ec831bb0a7cf0c3dde2f9"
+      ],
+      "stage_a_source_context_heading": "Preliminaries and sorites",
+      "stage_a_source_context_summary": "Central A/Λ, group G, Γ monoid extension and P,M section setup expires at §15 end."
+    },
+    {
+      "section": 16,
+      "kind": "context_only",
+      "source_line": 1679,
+      "snippets": [
+        {
+          "source_line": 1697,
+          "tex": "\\noindent\nPlease see Remark \\ref{remark-on-trace-formula-again} for some remarks\non the statement. Notation: For short, we write\n$$\nT'(X, K) =\n\\sum\\nolimits_{x\\in X(k)}\n\\text{Tr}(\\pi_x |_{K_{\\bar x}})\n$$\nfor the right-hand side of (\\ref{equation-trace-formula-again}) and\n$$\nT''(X, K)\n=\\text{Tr}(\\pi_x^* |_{R\\Gamma_c(X_{\\bar k}, K)})\n$$\nfor the left-hand side."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Proof of the trace formula",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 17,
+      "kind": "context_only",
+      "source_line": 1965,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Applications",
+      "stage_a_source_context_summary": "Source intervals and definitions examined in chronological order; prior theorem hypotheses not carried forward."
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 1976,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.83d4f20d4c0ec31a96f17797",
+        "candidate.stacks.9b77aaa62f7d03bf0793c038"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "On l-adic sheaves",
+      "stage_a_source_context_summary": "Definition of ℤ_ell-sheaf over Noetherian X binds the system; no earlier §15 data inherit."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 15,
+  "stage_a_remaining_work_candidate_count": 5,
+  "stage_a_source_hold_candidate_count": 20,
+  "stage_a_ready_for_codex_section_count": 7,
+  "stage_a_remaining_work_section_count": 10,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1",
+  "stage_a_dispositioned_section_count": 18,
+  "stage_a_further_work_candidate_count": 5,
+  "stage_a_further_work_section_count": 3,
+  "stage_a_context_ledger_file": "harvest/phase2_chat_stage_a/trace/batch_01_sections_01_18/CONTEXT_LEDGER.jsonl",
+  "stage_a_section_checkpoints_file": "harvest/phase2_chat_stage_a/trace/batch_01_sections_01_18/SECTION_CHECKPOINTS.jsonl",
+  "processing_note": "Regular Stage A trace §§1–18 completed source first: topology of Frobenius, trace quotient, filtered derived/perfect complex and monoid setup distinguished by scope. All empty sections have checkpoints; §19 next."
+}

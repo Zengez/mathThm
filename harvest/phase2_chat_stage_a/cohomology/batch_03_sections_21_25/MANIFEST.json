@@ -1,0 +1,144 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "cohomology-source-ordered-batch-03",
+  "chapter": "cohomology.tex",
+  "sections_ordinal": [
+    21,
+    25
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    3739,
+    3857,
+    4071,
+    4564,
+    4742
+  ],
+  "first_source_line": 3739,
+  "last_source_line": 5791,
+  "complete_sections": true,
+  "stage_a_candidate_count": 12,
+  "candidate_ids": [
+    "candidate.stacks.dcd7baf56e88e1c6b920b822",
+    "candidate.stacks.f0143365773b49bac63abf9a",
+    "candidate.stacks.ae77475f61aefa8889309425",
+    "candidate.stacks.60bcc5b3b5a60b4f8744636b",
+    "candidate.stacks.6788572537861c8d0adf0da9",
+    "candidate.stacks.e4738d8f7417e5e78fcad937",
+    "candidate.stacks.c2db5b5b874da62ba7ed854b",
+    "candidate.stacks.8f734066feb63664bfecfa32",
+    "candidate.stacks.ec385fdbb9e48c90c977f4ff",
+    "candidate.stacks.6c8c8834c609c80185f7e564",
+    "candidate.stacks.96f498c653be4eeed4239189",
+    "candidate.stacks.912c7988d0aac3ae8f9fe235"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/cohomology/batch_03_sections_21_25/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/cohomology/batch_03_sections_21_25/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/cohomology/batch_03_sections_21_25/SECTION_CHECKPOINTS.jsonl",
+  "ledger_predecessor_checkpoint": "harvest/phase2_chat_stage_a/cohomology/batch_02_sections_10_20/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    24
+  ],
+  "source_theorem_env_skipped_nonactive_labels": [
+    "lemma-covering-resolution",
+    "lemma-compute-sign-cup-product-boundaries"
+  ],
+  "processing_sections": [
+    {
+      "section": 21,
+      "kind": "candidates",
+      "source_line": 3739,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.dcd7baf56e88e1c6b920b822"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Cohomology with support in a closed subset",
+      "stage_a_source_context_summary": "Pinned §21, 1 active; 1 ready, 0 held."
+    },
+    {
+      "section": 22,
+      "kind": "candidates",
+      "source_line": 3857,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.f0143365773b49bac63abf9a",
+        "candidate.stacks.ae77475f61aefa8889309425",
+        "candidate.stacks.60bcc5b3b5a60b4f8744636b",
+        "candidate.stacks.6788572537861c8d0adf0da9"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Cohomology on spectral spaces",
+      "stage_a_source_context_summary": "Pinned §22, 4 active; 4 ready, 0 held."
+    },
+    {
+      "section": 23,
+      "kind": "candidates",
+      "source_line": 4071,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.e4738d8f7417e5e78fcad937",
+        "candidate.stacks.c2db5b5b874da62ba7ed854b",
+        "candidate.stacks.8f734066feb63664bfecfa32",
+        "candidate.stacks.ec385fdbb9e48c90c977f4ff"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "The alternating {\\v C}ech complex",
+      "stage_a_source_context_summary": "Pinned §23, 4 active; 4 ready, 0 held."
+    },
+    {
+      "section": 24,
+      "kind": "context_only",
+      "source_line": 4564,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Alternative view of the {\\v C}ech complex",
+      "stage_a_source_context_summary": "Pinned §24, 0 active; 0 ready, 0 held."
+    },
+    {
+      "section": 25,
+      "kind": "candidates",
+      "source_line": 4742,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.6c8c8834c609c80185f7e564",
+        "candidate.stacks.96f498c653be4eeed4239189",
+        "candidate.stacks.912c7988d0aac3ae8f9fe235"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.6c8c8834c609c80185f7e564"
+      ],
+      "stage_a_source_context_heading": "{\\v C}ech cohomology of complexes",
+      "stage_a_source_context_summary": "Pinned §25, 3 active; 2 ready, 1 held."
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 11,
+  "stage_a_remaining_work_candidate_count": 1,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 3,
+  "stage_a_remaining_work_section_count": 1,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
+  "stage_a_dispositioned_section_count": 5,
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "processing_note": "Cohomology §§21–25 processed; next §26 L5792."
+}

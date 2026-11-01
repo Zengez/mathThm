@@ -1,0 +1,90 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "25-section-experiment-77",
+  "chapter": "examples-stacks.tex",
+  "sections_ordinal": [
+    9,
+    18
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    670,
+    680,
+    696,
+    716,
+    745,
+    785,
+    1191,
+    1550,
+    1632,
+    1705
+  ],
+  "first_source_line": 670,
+  "last_source_line": 1876,
+  "complete_sections": true,
+  "stage_a_candidate_count": 5,
+  "candidate_ids": [
+    "candidate.stacks.24b4bbc05d0d2357f14cbb3f",
+    "candidate.stacks.d082e1b030dcd102704dd6a4",
+    "candidate.stacks.197a8e1926af3adb9795d909",
+    "candidate.stacks.9e74ef3334547da84582dff7",
+    "candidate.stacks.2b8da312753246d92544a1d9"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/examples-stacks/batch_02_sections_09_18/RECONSTRUCTIONS.jsonl",
+  "reviewer": "chatgpt-stage-a-structure-assisted",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "preliminary_source_holds": [],
+  "previously_approved_ids_not_regenerated": [],
+  "source_sections_without_active_candidates": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    16,
+    17
+  ],
+  "processing_sections": [
+    {
+      "section": 14,
+      "kind": "candidates",
+      "source_line": 785,
+      "stage_a_readiness": "ready_for_codex_validation"
+    },
+    {
+      "section": 15,
+      "kind": "candidates",
+      "source_line": 1191,
+      "stage_a_readiness": "needs_stage_a_work"
+    },
+    {
+      "section": 16,
+      "kind": "context_only",
+      "source_line": 1550,
+      "snippets": [
+        {
+          "source_line": 1559,
+          "tex": "Let $S$ be a scheme.\nLet $\\pi : X \\to B$ be a morphism of algebraic spaces over $S$.\nWe define a category $\\Picardstack_{X/B}$ as follows:\n\\begin{enumerate}\n\\item An object is a triple $(U, b, \\mathcal{L})$, where\n\\begin{enumerate}\n\\item $U$ is an object of $(\\Sch/S)_{fppf}$,\n\\item $b : U \\to B$ is a morphism over $S$, and\n\\item $\\mathcal{L}$ is in invertible sheaf on the base change\n$X_U = U \\times_{b, B} X$.\n\\end{enumerate}\n\\item A morphism $(f, g) : (U, b, \\mathcal{L}) \\to (U', b', \\mathcal{L}')$\nis given by a morphism of schemes $f : U \\to U'$ over $B$ and an\nisomorphism $g : f^*\\mathcal{L}' \\to \\mathcal{L}$.\n\\end{enumerate}\nThe composition of\n$(f, g) : (U, b, \\mathcal{L}) \\to (U', b', \\mathcal{L}')$\nwith\n$(f', g') : (U', b', \\mathcal{L}') \\to (U'', b'', \\mathcal{L}'')$\nis given by $(f' \\circ f, g \\circ f^*(g'))$.\nThus we get a category $\\Picardstack_{X/B}$ and\n$$\np : \\Picardstack_{X/B} \\longrightarrow (\\Sch/S)_{fppf},\n\\quad\n(U, b, \\mathcal{L}) \\longmapsto U\n$$\nis a functor. Note that the fibre category of $\\Picardstack_{X/B}$ over $U$\nis the disjoint union over $b \\in \\Mor_S(U, B)$ of the categories\nof invertible sheaves on $X_U = U \\times_{b, B} X$. Hence the fibre\ncategories are groupoids."
+        }
+      ],
+      "stage_a_readiness": "no_active_candidates"
+    },
+    {
+      "section": 18,
+      "kind": "candidates",
+      "source_line": 1705,
+      "stage_a_readiness": "ready_for_codex_validation"
+    }
+  ],
+  "processing_sections_format": "inline-v1",
+  "stage_a_ready_for_codex_candidate_count": 4,
+  "stage_a_remaining_work_candidate_count": 1,
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_remaining_work_section_count": 1,
+  "stage_a_work_pending": true,
+  "stage_a_readiness_rule": "conservative_standalone_screen_v1"
+}

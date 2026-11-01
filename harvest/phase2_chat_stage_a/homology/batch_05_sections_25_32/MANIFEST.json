@@ -1,0 +1,113 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch-manifest.v1",
+  "chapter": "homology",
+  "source_file": "homology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "batch_id": "batch_05_sections_25_32",
+  "section_start": 25,
+  "section_end": 32,
+  "first_source_line": 6565,
+  "last_source_line": 7946,
+  "sections_processed": 8,
+  "active_candidates_processed": 27,
+  "ready_for_codex_validation": 19,
+  "further_work_needed": 8,
+  "independent_validation": "not_started",
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 25,
+      "title": "Spectral sequences: double complexes",
+      "kind": "candidates",
+      "source_line": 6565,
+      "source_end_line": 6822,
+      "active_candidate_count": 4,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 3
+    },
+    {
+      "section": 26,
+      "title": "Double complexes of abelian groups",
+      "kind": "candidates",
+      "source_line": 6823,
+      "source_end_line": 7071,
+      "active_candidate_count": 4,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 2
+    },
+    {
+      "section": 27,
+      "title": "Injectives",
+      "kind": "candidates",
+      "source_line": 7072,
+      "source_end_line": 7160,
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 28,
+      "title": "Projectives",
+      "kind": "candidates",
+      "source_line": 7161,
+      "source_end_line": 7261,
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 29,
+      "title": "Injectives and adjoint functors",
+      "kind": "candidates",
+      "source_line": 7262,
+      "source_end_line": 7458,
+      "active_candidate_count": 4,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 4,
+      "further_work_needed": 0
+    },
+    {
+      "section": 30,
+      "title": "Essentially constant systems",
+      "kind": "candidates",
+      "source_line": 7459,
+      "source_end_line": 7586,
+      "active_candidate_count": 3,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 1
+    },
+    {
+      "section": 31,
+      "title": "Inverse systems",
+      "kind": "candidates",
+      "source_line": 7587,
+      "source_end_line": 7915,
+      "active_candidate_count": 7,
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 5,
+      "further_work_needed": 2
+    },
+    {
+      "section": 32,
+      "title": "Exactness of products",
+      "kind": "candidates",
+      "source_line": 7916,
+      "source_end_line": 7946,
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 0
+    }
+  ],
+  "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
+  "prior_checkpoint_path": "harvest/phase2_chat_stage_a/homology/batch_04_sections_19_24/SECTION_CHECKPOINTS.jsonl",
+  "next_source_section": null,
+  "next_source_line": 7947,
+  "chapter_complete": true
+}

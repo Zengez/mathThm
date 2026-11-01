@@ -1,0 +1,90 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch-manifest.v1",
+  "chapter": "homology",
+  "source_file": "homology.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "batch_id": "batch_03_sections_13_18",
+  "section_start": 13,
+  "section_end": 18,
+  "first_source_line": 2773,
+  "last_source_line": 4658,
+  "sections_processed": 6,
+  "active_candidates_processed": 16,
+  "ready_for_codex_validation": 16,
+  "further_work_needed": 0,
+  "independent_validation": "not_started",
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "processing_sections": [
+    {
+      "section": 13,
+      "title": "Complexes",
+      "kind": "candidates",
+      "source_line": 2773,
+      "source_end_line": 3257,
+      "active_candidate_count": 8,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 8,
+      "further_work_needed": 0
+    },
+    {
+      "section": 14,
+      "title": "Homotopy and the shift functor",
+      "kind": "candidates",
+      "source_line": 3258,
+      "source_end_line": 3610,
+      "active_candidate_count": 5,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 5,
+      "further_work_needed": 0
+    },
+    {
+      "section": 15,
+      "title": "Truncation of complexes",
+      "kind": "context_only",
+      "source_line": 3611,
+      "source_end_line": 3851,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    },
+    {
+      "section": 16,
+      "title": "Graded objects",
+      "kind": "candidates",
+      "source_line": 3852,
+      "source_end_line": 3971,
+      "active_candidate_count": 1,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 0
+    },
+    {
+      "section": 17,
+      "title": "Additive monoidal categories",
+      "kind": "candidates",
+      "source_line": 3972,
+      "source_end_line": 4113,
+      "active_candidate_count": 2,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0
+    },
+    {
+      "section": 18,
+      "title": "Double complexes and associated total complexes",
+      "kind": "context_only",
+      "source_line": 4114,
+      "source_end_line": 4658,
+      "active_candidate_count": 0,
+      "stage_a_readiness": "context_only",
+      "ready_for_codex_validation": 0,
+      "further_work_needed": 0
+    }
+  ],
+  "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
+  "prior_checkpoint_path": "harvest/phase2_chat_stage_a/homology/batch_02_sections_06_12/SECTION_CHECKPOINTS.jsonl",
+  "next_source_section": 19,
+  "next_source_line": 4659
+}
