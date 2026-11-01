@@ -62,10 +62,10 @@
     16
   ],
   "stage_a_ready_for_codex_candidate_count": 23,
-  "stage_a_remaining_work_candidate_count": 1,
+  "stage_a_remaining_work_candidate_count": 0,
   "stage_a_ready_for_codex_section_count": 8,
   "stage_a_work_pending": false,
-  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "stage_a_readiness_rule": "source_first_scoped_ledger_gate",
   "processing_sections": [
     {
       "section": 11,
@@ -78,7 +78,8 @@
         "candidate.stacks.0389123c7090f64a9a5bd21e"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Injective and surjective maps of sheaves"
+      "stage_a_source_context_heading": "Injective and surjective maps of sheaves",
+      "stage_a_source_context_summary": "Pinned sites.tex §11, L2236–2313; 1 active, 1 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 12,
@@ -93,7 +94,8 @@
         "candidate.stacks.d94186bed2e51f548d0e8b3f"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Representable sheaves"
+      "stage_a_source_context_heading": "Representable sheaves",
+      "stage_a_source_context_summary": "Pinned sites.tex §12, L2314–2519; 3 active, 3 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 13,
@@ -107,7 +109,8 @@
         "candidate.stacks.cfdb4337f7964ec31669c93e"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Continuous functors"
+      "stage_a_source_context_heading": "Continuous functors",
+      "stage_a_source_context_summary": "Pinned sites.tex §13, L2520–2682; 2 active, 2 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 14,
@@ -123,7 +126,8 @@
         "candidate.stacks.1e7e3343acde9ab2570574a4"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Morphisms of sites"
+      "stage_a_source_context_heading": "Morphisms of sites",
+      "stage_a_source_context_summary": "Pinned sites.tex §14, L2683–2929; 4 active, 4 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 15,
@@ -136,7 +140,8 @@
         "candidate.stacks.f43c387d21a1aa425c5c958a"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Topoi"
+      "stage_a_source_context_heading": "Topoi",
+      "stage_a_source_context_summary": "Pinned sites.tex §15, L2930–3152; 1 active, 1 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 16,
@@ -147,7 +152,8 @@
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "G-sets and morphisms"
+      "stage_a_source_context_heading": "G-sets and morphisms",
+      "stage_a_source_context_summary": "Pinned sites.tex §16, L3153–3244; 0 active, 0 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 17,
@@ -167,7 +173,8 @@
       "stage_a_held_candidate_ids": [
         "candidate.stacks.3751b093f583bd4c2cc1bf4b"
       ],
-      "stage_a_source_context_heading": "Quasi-compact objects and colimits"
+      "stage_a_source_context_heading": "Quasi-compact objects and colimits",
+      "stage_a_source_context_summary": "Pinned sites.tex §17, L3245–3759; 6 active, 5 A1 standalone-prepared, 1 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 18,
@@ -182,7 +189,8 @@
         "candidate.stacks.d0558e0cd1429fb4ae60440e"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Colimits of sites"
+      "stage_a_source_context_heading": "Colimits of sites",
+      "stage_a_source_context_summary": "Pinned sites.tex §18, L3760–4058; 3 active, 3 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 19,
@@ -196,7 +204,8 @@
         "candidate.stacks.6c180ec56532af32a9acdffc"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "More functoriality of presheaves"
+      "stage_a_source_context_heading": "More functoriality of presheaves",
+      "stage_a_source_context_summary": "Pinned sites.tex §19, L4059–4241; 2 active, 2 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     },
     {
       "section": 20,
@@ -210,8 +219,18 @@
         "candidate.stacks.8a7898e06e24647c811dded3"
       ],
       "stage_a_held_candidate_ids": [],
-      "stage_a_source_context_heading": "Cocontinuous functors"
+      "stage_a_source_context_heading": "Cocontinuous functors",
+      "stage_a_source_context_summary": "Pinned sites.tex §20, L4242–4437; 2 active, 2 A1 standalone-prepared, 0 further-work holds. Section/statement scope ledger verified."
     }
   ],
-  "stage_a_context_analysis": "Named inverse-limit Situation reconstructed for three active §18 candidate statements; functor categories and continuous/cocontinuous notation scoped. Ordinal-size hold recorded without invented threshold."
+  "stage_a_context_analysis": "Named inverse-limit Situation reconstructed for three active §18 candidate statements; functor categories and continuous/cocontinuous notation scoped. Ordinal-size hold recorded without invented threshold.",
+  "processing_sections_format": "inline-v1",
+  "stage_a_source_hold_candidate_count": 0,
+  "stage_a_further_work_candidate_count": 1,
+  "stage_a_further_work_section_count": 1,
+  "stage_a_remaining_work_section_count": 0,
+  "stage_a_dispositioned_section_count": 10,
+  "stage_a_section_mapping_pending": false,
+  "preliminary_source_holds": [],
+  "processing_note": "All active candidates in complete source sections have an A1 disposition; 'further_work_needed' is a documented hold, not unprocessed remaining work. Independent Stage B validation not yet performed."
 }
