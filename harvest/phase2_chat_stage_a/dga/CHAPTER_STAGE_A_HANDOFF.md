@@ -8,7 +8,7 @@ Branch: `work/phase2-stage-a-context-enrichment`. **Chat Stage A source walk com
 - **38/38** physical sections traversed in source order (source lines 17–7210), including all intervening candidate-free sections.
 - **103** harvested theorem-like results; **87** canonical active candidates; **16** inactive records excluded by exact candidate ID.
 - **80** self-contained Stage A drafts eligible for Codex's independent review; **7** explicitly held as `further_work_needed`.
-- **56** chronological source-anchored context events; **38** after-section checkpoints.
+- **55** chronological source-anchored context events; **38** after-section checkpoints.
 - No proof validation, mathematical equivalence certification, independent Stage B approval, or Phase 3 promotion occurred.
 
 ## Batch packets
@@ -38,3 +38,7 @@ Read sections and candidate statements from the pinned source in chronological o
 For Stage B, use only the four `RECONSTRUCTIONS.jsonl` packets and select exact IDs with `decision == "reconstruction_completed_awaiting_independent_stage_b_validation"`. The `hypotheses` and `conclusions` entries remain Stage A split leads, sometimes conservatively incorporating the entire theorem when the old Pass 2 split referred to missing context. The full materialized `standalone_statement_draft` is the authoritative draft to independently split and validate. Do not process the `further_work_needed` records without additional context recovery. Retain original source attribution, pinned revision, and proof bodies without modification.
 
 Structural checks cover unique active IDs, complete section coverage, no unresolved `\\ref{...}` in ready statements and splits, nonempty hypotheses/conclusions, and no Phase 3 flags. **The repository regression suite has not been executed by this pass.**
+
+## Chapter-wide post-commit quality audit
+
+After the first four packet commits, a second consistency review corrected three TeX-delimiter errors, removed a source-only equation label from a stand-alone theorem, resolved the repeated cone target against the displayed square, clarified the common axioms for source and target dg categories, and removed a duplicated Situation ABC ledger event. The 28 initially generic Stage A hypothesis/conclusion pairs were replaced with source-specific statements. The final held composition statement also received an explicit partial split. All original source statements are retained. No changes to the 80 ready / 7 held decisions were made. The structural checks are recorded in CHAPTER_STAGE_A_AUDIT.json; the repository regression suite and independent Codex Stage B have not run.

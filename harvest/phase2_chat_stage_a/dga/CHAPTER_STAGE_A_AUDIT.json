@@ -11,7 +11,7 @@
   "records_written": 87,
   "stage_b_ready_not_validated": 80,
   "further_work_needed": 7,
-  "context_lookup_events": 56,
+  "context_lookup_events": 55,
   "source_order_checkpoints": 38,
   "stage_b_validated": 0,
   "proofs_reviewed": 0,
@@ -20,13 +20,18 @@
     "manifest_section_counts": true,
     "active_candidate_id_reconciliation": true,
     "source_statement_and_line_reconciliation": true,
-    "globally_registered_holds": false,
+    "globally_registered_holds": true,
     "unique_candidate_ids": true,
     "contiguous_source_sections": true,
     "no_unresolved_latex_references_in_ready_statements": true,
     "nonempty_hypotheses_and_conclusions": true,
     "no_phase3_promotion": true,
-    "regression_suite_run": false
+    "regression_suite_run": false,
+    "unique_context_ledger_ids": true,
+    "balanced_math_delimiters_in_all_drafts": true,
+    "non_generic_hypothesis_conclusion_splits_for_ready": true,
+    "no_source_labels_in_ready_standalone": true,
+    "post_commit_structural_audit": true
   },
   "batches": [
     {
