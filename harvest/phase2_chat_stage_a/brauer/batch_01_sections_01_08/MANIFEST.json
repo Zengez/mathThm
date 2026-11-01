@@ -27,11 +27,11 @@
       "source_end_line": 28,
       "active_candidate_count": 0,
       "already_independently_approved_excluded": 0,
-      "inactive_source_candidates_excluded": 0,
       "new_active_candidates_processed": 0,
       "ready_for_codex_validation": 0,
       "further_work_needed": 0,
-      "stage_a_readiness": "context_only"
+      "stage_a_readiness": "context_only",
+      "inactive_source_environments_excluded": 0
     },
     {
       "section": 2,
@@ -41,11 +41,11 @@
       "source_end_line": 82,
       "active_candidate_count": 0,
       "already_independently_approved_excluded": 0,
-      "inactive_source_candidates_excluded": 0,
       "new_active_candidates_processed": 0,
       "ready_for_codex_validation": 0,
       "further_work_needed": 0,
-      "stage_a_readiness": "context_only"
+      "stage_a_readiness": "context_only",
+      "inactive_source_environments_excluded": 0
     },
     {
       "section": 3,
@@ -55,11 +55,11 @@
       "source_end_line": 165,
       "active_candidate_count": 3,
       "already_independently_approved_excluded": 0,
-      "inactive_source_candidates_excluded": 0,
       "new_active_candidates_processed": 3,
       "ready_for_codex_validation": 2,
       "further_work_needed": 1,
-      "stage_a_readiness": "mixed_ready_and_further_work_needed"
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "inactive_source_environments_excluded": 0
     },
     {
       "section": 4,
@@ -69,11 +69,11 @@
       "source_end_line": 379,
       "active_candidate_count": 10,
       "already_independently_approved_excluded": 0,
-      "inactive_source_candidates_excluded": 0,
       "new_active_candidates_processed": 10,
       "ready_for_codex_validation": 10,
       "further_work_needed": 0,
-      "stage_a_readiness": "ready_for_codex_validation"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "inactive_source_environments_excluded": 0
     },
     {
       "section": 5,
@@ -83,11 +83,11 @@
       "source_end_line": 477,
       "active_candidate_count": 2,
       "already_independently_approved_excluded": 0,
-      "inactive_source_candidates_excluded": 1,
       "new_active_candidates_processed": 2,
       "ready_for_codex_validation": 2,
       "further_work_needed": 0,
-      "stage_a_readiness": "ready_for_codex_validation"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "inactive_source_environments_excluded": 1
     },
     {
       "section": 6,
@@ -97,11 +97,11 @@
       "source_end_line": 523,
       "active_candidate_count": 2,
       "already_independently_approved_excluded": 0,
-      "inactive_source_candidates_excluded": 0,
       "new_active_candidates_processed": 2,
       "ready_for_codex_validation": 1,
       "further_work_needed": 1,
-      "stage_a_readiness": "mixed_ready_and_further_work_needed"
+      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "inactive_source_environments_excluded": 0
     },
     {
       "section": 7,
@@ -111,11 +111,11 @@
       "source_end_line": 617,
       "active_candidate_count": 4,
       "already_independently_approved_excluded": 0,
-      "inactive_source_candidates_excluded": 0,
       "new_active_candidates_processed": 4,
       "ready_for_codex_validation": 4,
       "further_work_needed": 0,
-      "stage_a_readiness": "ready_for_codex_validation"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "inactive_source_environments_excluded": 0
     },
     {
       "section": 8,
@@ -125,11 +125,11 @@
       "source_end_line": 818,
       "active_candidate_count": 4,
       "already_independently_approved_excluded": 0,
-      "inactive_source_candidates_excluded": 1,
       "new_active_candidates_processed": 4,
       "ready_for_codex_validation": 4,
       "further_work_needed": 0,
-      "stage_a_readiness": "ready_for_codex_validation"
+      "stage_a_readiness": "ready_for_codex_validation",
+      "inactive_source_environments_excluded": 1
     }
   ],
   "stage_a_readiness_rule": "source_first_standalone_with_scoped_running_ledger_20261031",
