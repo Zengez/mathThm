@@ -1,0 +1,182 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-handoff.v1",
+  "chapter": "sites.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "working_branch": "work/phase2-stage-a-context-enrichment",
+  "source_section_count": 52,
+  "candidate_bearing_section_count": 42,
+  "source_start_line": 17,
+  "source_end_line": 11861,
+  "source_environment_count": 161,
+  "active_candidate_total": 137,
+  "stage_a_ready_for_independent_stage_b": 118,
+  "stage_a_further_work_needed": 19,
+  "unprocessed_active_candidates": 0,
+  "independently_stage_b_validated_by_this_run": 0,
+  "phase3_eligible_promoted_by_this_run": 0,
+  "proofs_screened_by_this_run": 0,
+  "source_context_entries": 64,
+  "section_checkpoints": 52,
+  "batch_count": 1,
+  "validation": {
+    "complete_source_section_coverage": true,
+    "all_active_source_candidate_ids_accounted_for_exactly_once": true,
+    "manifest_ready_and_hold_totals_reconciled": true,
+    "pinned_source_statements_exactly_matched": true,
+    "authoritative_prior_approvals_preserved": true,
+    "context_scope_and_checkpoint_continuity_checked": true,
+    "proof_and_stage_b_status_unchanged": true,
+    "note": "Source-first provisional Stage A reconstruction with conservative contextual holds. Manual context prefaces are subject to independent Codex mathematical review; neither proof checking nor equivalence approval was performed."
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "sections": [
+        1,
+        52
+      ],
+      "candidates": 137,
+      "ready": 118,
+      "holds": 19,
+      "manifest": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/MANIFEST.json",
+      "reconstructions": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl",
+      "ledger": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/CONTEXT_LEDGER.jsonl",
+      "checkpoints": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/SECTION_CHECKPOINTS.jsonl"
+    }
+  ],
+  "holds": [
+    {
+      "candidate_id": "candidate.stacks.434ca6e2558af47040c7246e",
+      "source_line": 1527,
+      "source_label": "proposition-sheaves-on-group",
+      "issue": "§9 L1527: The statement depends on the particular site T_G and the sheaf F_S attached to a G-set, defined in preceding §9 prose. Materialize the covering topology and the G-action/sheaf correspondence before asserting the equivalence as standalone.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.1db4a7e227805d0f563162f7",
+      "source_line": 1775,
+      "source_label": "lemma-plus-presheaf",
+      "issue": "§10 L1775: The words 'constructions above' hide the sectionwise matching-family colimit defining F^+(U) and its restriction maps (§10, before L1775); reconstruct those maps explicitly, including independence of refinements.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.36322b1b5459a044e5db897f",
+      "source_line": 1807,
+      "source_label": "lemma-plus-functorial",
+      "issue": "§10 L1807: The functor assertion presupposes the previous construction of F^+ and the canonical map F→F^+; record the presheaf morphism induced by each F→G, not just the named association.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.81a0f5c1a953652e05bdf3fb",
+      "source_line": 1946,
+      "source_label": "lemma-plus-surjective",
+      "issue": "§10 L1946: The local-surjectivity statement uses the plus construction and its canonical map θ from preceding §10 prose; explicitly reconstruct the site, presheaf, matching-family colimits and θ before marking standalone.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.3751b093f583bd4c2cc1bf4b",
+      "source_line": 3703,
+      "source_label": "lemma-colimit-over-ordinal-sections",
+      "issue": "§17 L3703: The conclusion says only 'cofinality ... large enough'; the statement gives no quantified cardinal bound. Do not infer or silently insert a bound from its proof; specify the exact theorem statement first.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.48591c41a32a2abd7472e29a",
+      "source_line": 6131,
+      "source_label": "lemma-relocalize-given-fibre-products",
+      "issue": "§27 L6131: The functor j and its source/target topoi are imported from Lemma relocalize; expand the prior slice-site diagram and arrow roles before treating this base-change assertion as standalone.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.36169fb8afc46e3416565b6c",
+      "source_line": 6176,
+      "source_label": "lemma-localize-cartesian-square",
+      "issue": "§27 L6176: The lemma's comparison of localized-site/topos squares depends on earlier functor and diagram identifications; check each arrow and the applicable fibre-product hypothesis.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.034116468a093d5ef7046ce6",
+      "source_line": 6578,
+      "source_label": "lemma-localize-cocontinuous-downstairs",
+      "issue": "§28 L6578: The cocontinuous localization construction uses §19's functoriality conventions and indexed comma categories. Expand the localized functor, source/target site structures and comparison before independent review.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.377bc79c48b26ec3904ec754",
+      "source_line": 6648,
+      "source_label": "lemma-special-square-cocontinuous",
+      "issue": "§28 L6648: The square carries four cocontinuous functors, two further continuity assumptions and a cofinality condition. Check the assignments f,f',g,g' and the type and variance of both displayed topos-functor isomorphisms.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.a36a3d8c19eac02e474d7324",
+      "source_line": 7140,
+      "source_label": "lemma-morphism-topoi-comes-from-morphism-sites",
+      "issue": "§29 L7140: The result invokes a site replacement and morphism of sites constructed using a prior equivalence. Resolve the precise replacement category, topology and commuting identifications (source §29) before claiming a standalone statement.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.f951e58bf5262bf468b989a7",
+      "source_line": 7516,
+      "source_label": "lemma-localize-compare",
+      "issue": "§30 L7516: The equality between localization by a representable sheaf and the slice-site morphism is stated by reference to two constructions. Explicitly compare the two functors and their inverse images.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.860d29a44e24583655041f3b",
+      "source_line": 7586,
+      "source_label": "lemma-relocalize-compare",
+      "issue": "§30 L7586: The assertion identifies an earlier topos slice diagram with equation-relocalize by prior identifications; transcribe and type both diagrams and arrows before standalone certification.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.d88e2eb5f5e8ccdd54201e95",
+      "source_line": 7625,
+      "source_label": "lemma-localize-morphism-topoi",
+      "issue": "§31 L7625: The induced morphism of slice topoi requires identification of its inverse image on objects and maps. Explicitly type the diagram and check orientations against the pinned source before declaring a verified standalone draft.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.62aec728867f77050932154b",
+      "source_line": 7678,
+      "source_label": "lemma-localize-morphism-compare",
+      "issue": "§31 L7678: Compare the localized morphism of sites to the localized morphism of topoi, including functors and all square arrows; the source relies on multiple previously defined diagrams.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.ebe2fdfeb3f9d5ad7407b6e7",
+      "source_line": 7705,
+      "source_label": "lemma-relocalize-morphism-topoi",
+      "issue": "§31 L7705: The displayed definition of f' targets Sh(D)/F even though F is introduced as a sheaf on C; the expected slice target would involve G. Source text needs type adjudication, not silent correction.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.d4acd07598d51c82cbe81733",
+      "source_line": 7788,
+      "source_label": "lemma-relocalize-morphism-compare",
+      "issue": "§31 L7788: Source writes F=h_U^#=f^{-1}h_V^# for an arbitrary c:U→u(V). The equality is not automatic; resolve the object/map identification and comparison diagrams before Stage B.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.cf3596b767fd338b8ff37e3f",
+      "source_line": 8121,
+      "source_label": "lemma-site-point-morphism",
+      "issue": "§32 L8121: The source constructs a point of a site via an auxiliary infinite set S_0 and functors among G-sets/sets; reconstruct the size conventions and functor/point compatibility explicitly.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.9a35c613b9b285759576edea",
+      "source_line": 9438,
+      "source_label": "lemma-criterion-points",
+      "issue": "§39 L9438: The lemma invokes the preceding point-existence criterion. Materialize that criterion's quantified hypotheses and the site indexing conditions before declaring standalone.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.9402492ba8b959d9dd75b9b1",
+      "source_line": 10393,
+      "source_label": "lemma-push-pull-good-case",
+      "issue": "§44 L10393: The phrase 'satisfies the hypotheses of Proposition get-morphism' imports several conditions on u. Copy the exact premises and verify functor domains for sheaves/presheaves of algebraic structures.",
+      "packet": "harvest/phase2_chat_stage_a/sites/batch_01_sections_01_52/RECONSTRUCTIONS.jsonl"
+    }
+  ]
+}
