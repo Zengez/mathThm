@@ -1,0 +1,236 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-batch.v1",
+  "global_batch": "sites-source-ordered-batch-05",
+  "chapter": "sites.tex",
+  "sections_ordinal": [
+    31,
+    40
+  ],
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_section_starts": [
+    7617,
+    7827,
+    8230,
+    8506,
+    8660,
+    8864,
+    8959,
+    9024,
+    9238,
+    9472
+  ],
+  "first_source_line": 7617,
+  "last_source_line": 9540,
+  "complete_sections": true,
+  "stage_a_candidate_count": 28,
+  "candidate_ids": [
+    "candidate.stacks.d88e2eb5f5e8ccdd54201e95",
+    "candidate.stacks.62aec728867f77050932154b",
+    "candidate.stacks.ebe2fdfeb3f9d5ad7407b6e7",
+    "candidate.stacks.d4acd07598d51c82cbe81733",
+    "candidate.stacks.0d2fa81701adaaf5a91e4d23",
+    "candidate.stacks.9d0009c9b0d9b6ef479929ac",
+    "candidate.stacks.229536b03b36f04b4d59429f",
+    "candidate.stacks.cf3596b767fd338b8ff37e3f",
+    "candidate.stacks.e6e8f0c5b0c92b93e646054d",
+    "candidate.stacks.f586cc75b9fd9ca6e3a39740",
+    "candidate.stacks.673eb51e6a12d389fcae271f",
+    "candidate.stacks.fa84cde7c61e38508b7192dd",
+    "candidate.stacks.154b4bf2c4667b5ee3a07a2a",
+    "candidate.stacks.14e2a0a8eaa199c4259847f4",
+    "candidate.stacks.44e939a784206092bc8f5c1d",
+    "candidate.stacks.b4c1c43be0593ff2f23f0110",
+    "candidate.stacks.94e3460f16d4489053db8c3d",
+    "candidate.stacks.ab998e194607827ff2144181",
+    "candidate.stacks.0af8b6d2d7c17046230f4d10",
+    "candidate.stacks.2ba9c92e2c528bcfad4f3edd",
+    "candidate.stacks.07cce61c2fc03d00553c7ecf",
+    "candidate.stacks.cc4c45f6f7e4b6d775878f81",
+    "candidate.stacks.6613c4069af491a86c046604",
+    "candidate.stacks.aa11d54610d63dd7f744ab33",
+    "candidate.stacks.a890d0752a8fb5e143e3ff6c",
+    "candidate.stacks.726ba8a2306b83e9229e6b55",
+    "candidate.stacks.9a35c613b9b285759576edea",
+    "candidate.stacks.451a523e0a6ec8f5af742207"
+  ],
+  "output_file": "harvest/phase2_chat_stage_a/sites/batch_05_sections_31_40/RECONSTRUCTIONS.jsonl",
+  "context_ledger_file": "harvest/phase2_chat_stage_a/sites/batch_05_sections_31_40/CONTEXT_LEDGER.jsonl",
+  "section_checkpoints_file": "harvest/phase2_chat_stage_a/sites/batch_05_sections_31_40/SECTION_CHECKPOINTS.jsonl",
+  "reviewer": "chatgpt-stage-a-sites-source-ordered",
+  "source_locator_verified": true,
+  "independent_stage_b_count": 0,
+  "phase3_eligible_count": 0,
+  "proofs_reviewed": 0,
+  "previously_approved_ids_not_regenerated": [],
+  "stage_a_ready_for_codex_candidate_count": 19,
+  "stage_a_remaining_work_candidate_count": 9,
+  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_work_pending": false,
+  "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
+  "processing_sections": [
+    {
+      "section": 31,
+      "kind": "candidates",
+      "source_line": 7617,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.d88e2eb5f5e8ccdd54201e95",
+        "candidate.stacks.62aec728867f77050932154b",
+        "candidate.stacks.ebe2fdfeb3f9d5ad7407b6e7",
+        "candidate.stacks.d4acd07598d51c82cbe81733"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.ebe2fdfeb3f9d5ad7407b6e7",
+        "candidate.stacks.d4acd07598d51c82cbe81733"
+      ],
+      "stage_a_source_context_heading": "Localization and morphisms of topoi"
+    },
+    {
+      "section": 32,
+      "kind": "candidates",
+      "source_line": 7827,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.0d2fa81701adaaf5a91e4d23",
+        "candidate.stacks.9d0009c9b0d9b6ef479929ac",
+        "candidate.stacks.229536b03b36f04b4d59429f",
+        "candidate.stacks.cf3596b767fd338b8ff37e3f",
+        "candidate.stacks.e6e8f0c5b0c92b93e646054d",
+        "candidate.stacks.f586cc75b9fd9ca6e3a39740"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.cf3596b767fd338b8ff37e3f"
+      ],
+      "stage_a_source_context_heading": "Points"
+    },
+    {
+      "section": 33,
+      "kind": "candidates",
+      "source_line": 8230,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.673eb51e6a12d389fcae271f",
+        "candidate.stacks.fa84cde7c61e38508b7192dd",
+        "candidate.stacks.154b4bf2c4667b5ee3a07a2a"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Constructing points"
+    },
+    {
+      "section": 34,
+      "kind": "candidates",
+      "source_line": 8506,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.14e2a0a8eaa199c4259847f4",
+        "candidate.stacks.44e939a784206092bc8f5c1d",
+        "candidate.stacks.b4c1c43be0593ff2f23f0110"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.44e939a784206092bc8f5c1d"
+      ],
+      "stage_a_source_context_heading": "Points and morphisms of topoi"
+    },
+    {
+      "section": 35,
+      "kind": "candidates",
+      "source_line": 8660,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.94e3460f16d4489053db8c3d",
+        "candidate.stacks.ab998e194607827ff2144181",
+        "candidate.stacks.0af8b6d2d7c17046230f4d10"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.ab998e194607827ff2144181",
+        "candidate.stacks.0af8b6d2d7c17046230f4d10"
+      ],
+      "stage_a_source_context_heading": "Localization and points"
+    },
+    {
+      "section": 36,
+      "kind": "context_only",
+      "source_line": 8864,
+      "stage_a_readiness": "no_active_candidates",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "2-morphisms of topoi"
+    },
+    {
+      "section": 37,
+      "kind": "candidates",
+      "source_line": 8959,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.2ba9c92e2c528bcfad4f3edd"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.2ba9c92e2c528bcfad4f3edd"
+      ],
+      "stage_a_source_context_heading": "Morphisms between points"
+    },
+    {
+      "section": 38,
+      "kind": "candidates",
+      "source_line": 9024,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.07cce61c2fc03d00553c7ecf",
+        "candidate.stacks.cc4c45f6f7e4b6d775878f81",
+        "candidate.stacks.6613c4069af491a86c046604",
+        "candidate.stacks.aa11d54610d63dd7f744ab33",
+        "candidate.stacks.a890d0752a8fb5e143e3ff6c"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.6613c4069af491a86c046604"
+      ],
+      "stage_a_source_context_heading": "Sites with enough points"
+    },
+    {
+      "section": 39,
+      "kind": "candidates",
+      "source_line": 9238,
+      "stage_a_readiness": "further_work_needed",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.726ba8a2306b83e9229e6b55",
+        "candidate.stacks.9a35c613b9b285759576edea"
+      ],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.9a35c613b9b285759576edea"
+      ],
+      "stage_a_source_context_heading": "Criterion for existence of points"
+    },
+    {
+      "section": 40,
+      "kind": "candidates",
+      "source_line": 9472,
+      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_source_context_reviewed": true,
+      "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+      "stage_a_candidate_ids": [
+        "candidate.stacks.451a523e0a6ec8f5af742207"
+      ],
+      "stage_a_held_candidate_ids": [],
+      "stage_a_source_context_heading": "Weakly contractible objects"
+    }
+  ],
+  "note": "Three suspected source typing/identity issues held for adjudication rather than silently corrected. All candidate local scopes and source point construction reviewed without proofs."
+}
