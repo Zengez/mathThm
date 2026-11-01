@@ -13,8 +13,8 @@
   "active_candidates_processed": 23,
   "inactive_source_environments_excluded": 3,
   "already_independently_approved_excluded": 0,
-  "ready_for_codex_validation": 20,
-  "further_work_needed": 3,
+  "ready_for_codex_validation": 21,
+  "further_work_needed": 2,
   "independent_validation": "not_started",
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -84,9 +84,9 @@
       "active_candidate_count": 2,
       "already_independently_approved_excluded": 0,
       "new_active_candidates_processed": 2,
-      "ready_for_codex_validation": 1,
-      "further_work_needed": 1,
-      "stage_a_readiness": "mixed_ready_and_further_work_needed",
+      "ready_for_codex_validation": 2,
+      "further_work_needed": 0,
+      "stage_a_readiness": "ready_for_codex_validation",
       "inactive_source_environments_excluded": 0
     },
     {
