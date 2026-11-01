@@ -13,8 +13,8 @@
   "active_candidates_processed": 66,
   "inactive_source_environments_excluded": 16,
   "already_independently_approved_excluded": 0,
-  "ready_for_codex_validation": 61,
-  "further_work_needed": 5,
+  "ready_for_codex_validation": 66,
+  "further_work_needed": 0,
   "independent_validation": "not_started",
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
@@ -224,9 +224,9 @@
       "active_candidate_count": 3,
       "new_active_candidates_processed": 3,
       "already_independently_approved_excluded": 0,
-      "ready_for_codex_validation": 2,
-      "further_work_needed": 1,
-      "stage_a_readiness": "partial_further_work_needed",
+      "ready_for_codex_validation": 3,
+      "further_work_needed": 0,
+      "stage_a_readiness": "ready_for_codex_validation",
       "inactive_source_environments_excluded": 0
     },
     {
@@ -252,9 +252,9 @@
       "active_candidate_count": 5,
       "new_active_candidates_processed": 5,
       "already_independently_approved_excluded": 0,
-      "ready_for_codex_validation": 4,
-      "further_work_needed": 1,
-      "stage_a_readiness": "partial_further_work_needed",
+      "ready_for_codex_validation": 5,
+      "further_work_needed": 0,
+      "stage_a_readiness": "ready_for_codex_validation",
       "inactive_source_environments_excluded": 0
     },
     {
@@ -336,9 +336,9 @@
       "active_candidate_count": 1,
       "new_active_candidates_processed": 1,
       "already_independently_approved_excluded": 0,
-      "ready_for_codex_validation": 0,
-      "further_work_needed": 1,
-      "stage_a_readiness": "further_work_needed",
+      "ready_for_codex_validation": 1,
+      "further_work_needed": 0,
+      "stage_a_readiness": "ready_for_codex_validation",
       "inactive_source_environments_excluded": 0
     },
     {
@@ -476,9 +476,9 @@
       "active_candidate_count": 4,
       "new_active_candidates_processed": 4,
       "already_independently_approved_excluded": 0,
-      "ready_for_codex_validation": 2,
-      "further_work_needed": 2,
-      "stage_a_readiness": "partial_further_work_needed",
+      "ready_for_codex_validation": 4,
+      "further_work_needed": 0,
+      "stage_a_readiness": "ready_for_codex_validation",
       "inactive_source_environments_excluded": 0
     }
   ],
@@ -487,5 +487,5 @@
   "reconstructions_path": "harvest/phase2_chat_stage_a/sheaves/batch_01_sections_01_33/RECONSTRUCTIONS.jsonl",
   "remaining_work_registry": "harvest/phase2_chat_stage_a/sheaves/batch_01_sections_01_33/FURTHER_WORK_NEEDED.jsonl",
   "readiness_rule": "source_first_explicit_context_and_conservative_structural_partition",
-  "review_note": "All active statements visited in source order; scoped context and source definitions recorded without inspecting proof contents. Holds are not Stage B ready; independent Stage B validation still required."
+  "review_note": "All active statements visited in source order; scoped context and source definitions recorded without inspecting proof contents. Holds are not Stage B ready; independent Stage B validation still required. Source-order QA fixed split scopes and added explicit conservative holds for unnamed moduli functors."
 }
