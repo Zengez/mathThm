@@ -1,0 +1,21 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-handoff.v1",
+  "chapter": "sets",
+  "source_file": "sets.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_sections_total": 12,
+  "source_theorem_environments": 18,
+  "active_candidate_count": 15,
+  "inactive_source_environments_excluded": 3,
+  "ready_for_independent_stage_b_validation": 12,
+  "further_work_needed": 3,
+  "independent_validation": "not_started",
+  "processing_complete": true,
+  "batch_directory": "harvest/phase2_chat_stage_a/sets/batch_01_sections_01_12",
+  "hold_candidate_ids": [
+    "candidate.stacks.f489406d9d8e6f15adccd58b",
+    "candidate.stacks.55f066c79bdb467ce5d7ab3a",
+    "candidate.stacks.55b744311ee05d93372a638f"
+  ],
+  "notes": "Section-by-section ZFC, ordinal, cardinal, cf, V_alpha; scheme size and Bound ended §9; G-sets overrides active only §10; site Cov(C) separately scoped §11. No proofs reviewed."
+}
