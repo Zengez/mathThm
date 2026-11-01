@@ -1,0 +1,47 @@
+{
+  "schema": "maththm.phase3.parallel-allocation.v1",
+  "created_on": "2026-11-01",
+  "stage_b_integration_sha": "fb84ebe0e2de99d12ba031f1252996d5dc8b1af2",
+  "pinned_source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "stage_b_reviewed": 4634,
+  "stage_b_approved_preliminary": 3866,
+  "stage_b_held_excluded": 768,
+  "section_files": 1244,
+  "total_batches": 131,
+  "frozen_selector": "approved Stage B rows only from each pinned result file (filename + Git blob SHA in queue); held rows never eligible",
+  "authoritative_phase2_gate": "not passed for the 3,866 new preliminary positives; official Phase 3 acceptance blocked pending central materialization",
+  "workers": [
+    {
+      "worker": 1,
+      "branch": "work/phase3/chat-1",
+      "queue": "work/phase3-parallel/worker-1/PENDING.json",
+      "expected_positive_ids": 971,
+      "source_section_files": 320,
+      "initial_batches": 34
+    },
+    {
+      "worker": 2,
+      "branch": "work/phase3/chat-2",
+      "queue": "work/phase3-parallel/worker-2/PENDING.json",
+      "expected_positive_ids": 939,
+      "source_section_files": 277,
+      "initial_batches": 31
+    },
+    {
+      "worker": 3,
+      "branch": "work/phase3/chat-3",
+      "queue": "work/phase3-parallel/worker-3/PENDING.json",
+      "expected_positive_ids": 992,
+      "source_section_files": 323,
+      "initial_batches": 34
+    },
+    {
+      "worker": 4,
+      "branch": "work/phase3/chat-4",
+      "queue": "work/phase3-parallel/worker-4/PENDING.json",
+      "expected_positive_ids": 964,
+      "source_section_files": 324,
+      "initial_batches": 32
+    }
+  ]
+}

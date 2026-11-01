@@ -1,0 +1,2190 @@
+{
+  "schema": "maththm.phase3.worker-queue.v1",
+  "worker": 3,
+  "branch": "work/phase3/chat-3",
+  "stageb_pinned_integration_commit": "fb84ebe0e2de99d12ba031f1252996d5dc8b1af2",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "selection_rule": "Only exact rows whose decision is source_equivalence_approved_pending_materialization in each pinned Stage B result file; all held rows excluded",
+  "expected_positive_ids": 992,
+  "section_files": 323,
+  "initial_batches": 34,
+  "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
+  "pending": [
+    {
+      "batch_id": "p3-w3-b001",
+      "chapter": "algebra",
+      "sections": [
+        {
+          "chapter": "algebra",
+          "section_start_line": 295,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-295.jsonl",
+          "blob_sha": "2df469a9962f58dd4aea17e2539b0e632f6ee072"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 343,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-343.jsonl",
+          "blob_sha": "39bfadb984c8987c4a0aee1bc15e73d5721acbe7"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 514,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-514.jsonl",
+          "blob_sha": "88c99e084f5bfc9fa128b9881dfeef71436d081f"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 629,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-629.jsonl",
+          "blob_sha": "0d21604062a13131df2e1f5ed49377c23bfef8a7"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 702,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-702.jsonl",
+          "blob_sha": "46e87dfd394b2d33e0f91b8cd557cc7bbe7e6fb3"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 1038,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-1038.jsonl",
+          "blob_sha": "11d3d85eb9d404ad12e082d75a050358cdb9dfe8"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 1462,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-1462.jsonl",
+          "blob_sha": "9a55d810e564d258f14a735be968e9c74f142d83"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 1580,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-1580.jsonl",
+          "blob_sha": "3f562d5979549d53288eba67380a7d01cab23414"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 1702,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-1702.jsonl",
+          "blob_sha": "b4828a9c61b44c89c4f3794fcba8434a9afc7921"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 2164,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-2164.jsonl",
+          "blob_sha": "acce4d4e1cb869cd36e614532476633ad94ea7cf"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 2404,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-2404.jsonl",
+          "blob_sha": "2dc348881042d501b26cae7af9e8c6ace9f8dda3"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 2543,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-2543.jsonl",
+          "blob_sha": "af8edc356b3d6036edfdbddc7a2d0fc48185f0c1"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b002",
+      "chapter": "algebra",
+      "sections": [
+        {
+          "chapter": "algebra",
+          "section_start_line": 2806,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-2806.jsonl",
+          "blob_sha": "56144664788c804cfe5f8a316943ec2161e2cea9"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 2964,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-2964.jsonl",
+          "blob_sha": "1013203ccc71cc0751e19cbbb0448076af4a2f83"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 3305,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-3305.jsonl",
+          "blob_sha": "29f4876f33ce4d646730d8751a0aaeaebcac5079"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 3546,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-3546.jsonl",
+          "blob_sha": "3c6489bb479bdbfe04153f1e874404743bdd41d3"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 3606,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-3606.jsonl",
+          "blob_sha": "3e1e392b5d4a4989c5e8214dda974eada37817e8"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 3767,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-3767.jsonl",
+          "blob_sha": "8e42ee0f1bf80485fcc6c9ee96ce1d0b5d2053cb"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 3958,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-3958.jsonl",
+          "blob_sha": "2e9c5a36cfe5cda7d25dbd12502e509b6a3b3072"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 4041,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-4041.jsonl",
+          "blob_sha": "7e4867ea95fe259f22394e2c36e9ee302d2f1587"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 4284,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-4284.jsonl",
+          "blob_sha": "bf81ca8e3f46c9a398f7e1308fd2c751f70230de"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 4536,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-4536.jsonl",
+          "blob_sha": "d6196aaf57dd0b010c36aea7ca16134b7a00bd72"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 4656,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-4656.jsonl",
+          "blob_sha": "cc3b0ff2f9443af466fd378bdbaa9f0125cfe162"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 5721,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-5721.jsonl",
+          "blob_sha": "5a115088d0d9dd694ad7462a0df47618ead0e56a"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b003",
+      "chapter": "algebra",
+      "sections": [
+        {
+          "chapter": "algebra",
+          "section_start_line": 6238,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-6238.jsonl",
+          "blob_sha": "0c946d65fa31d2b9251e681a8611e6b7d14e63d6"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 6445,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-6445.jsonl",
+          "blob_sha": "5e29802a26e29a694e1447485d05419d52fd868a"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 7434,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-7434.jsonl",
+          "blob_sha": "1256a4c46c497e94736ac30d3719faedd6ae14b9"
+        },
+        {
+          "chapter": "algebra",
+          "section_start_line": 10037,
+          "file": "work/stageb-parallel/worker-3/results/algebra/section-10037.jsonl",
+          "blob_sha": "bc8cfabb36cd0d101b72dc7ec6c7498576b041d8"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b004",
+      "chapter": "bootstrap",
+      "sections": [
+        {
+          "chapter": "bootstrap",
+          "section_start_line": 55,
+          "file": "work/stageb-parallel/worker-3/results/bootstrap/section-55.jsonl",
+          "blob_sha": "0172e70ff921446c53e6034edb1fdfcdd8645677"
+        },
+        {
+          "chapter": "bootstrap",
+          "section_start_line": 372,
+          "file": "work/stageb-parallel/worker-3/results/bootstrap/section-372.jsonl",
+          "blob_sha": "f7d1d5136fa27421ce5bae5566857c95b407156f"
+        },
+        {
+          "chapter": "bootstrap",
+          "section_start_line": 620,
+          "file": "work/stageb-parallel/worker-3/results/bootstrap/section-620.jsonl",
+          "blob_sha": "db6dfeb39eb3d878aa7b284459aed82169508a8e"
+        },
+        {
+          "chapter": "bootstrap",
+          "section_start_line": 864,
+          "file": "work/stageb-parallel/worker-3/results/bootstrap/section-864.jsonl",
+          "blob_sha": "5c3fcbfa2fb4417d6b4af68512b9f0bb0a096d39"
+        },
+        {
+          "chapter": "bootstrap",
+          "section_start_line": 1658,
+          "file": "work/stageb-parallel/worker-3/results/bootstrap/section-1658.jsonl",
+          "blob_sha": "acd2f373cf869c6c24fb855934f629fa174e79f1"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b005",
+      "chapter": "brauer",
+      "sections": [
+        {
+          "chapter": "brauer",
+          "section_start_line": 83,
+          "file": "work/stageb-parallel/worker-3/results/brauer/section-83.jsonl",
+          "blob_sha": "f13d98931deb554f0e5641927807a1f20b98f365"
+        },
+        {
+          "chapter": "brauer",
+          "section_start_line": 166,
+          "file": "work/stageb-parallel/worker-3/results/brauer/section-166.jsonl",
+          "blob_sha": "bd47b42a26c2a1e0c865b6f19ce9f64fd7e8f132"
+        },
+        {
+          "chapter": "brauer",
+          "section_start_line": 380,
+          "file": "work/stageb-parallel/worker-3/results/brauer/section-380.jsonl",
+          "blob_sha": "97fc612f9869d315bb01eb8b835664374342b67f"
+        },
+        {
+          "chapter": "brauer",
+          "section_start_line": 478,
+          "file": "work/stageb-parallel/worker-3/results/brauer/section-478.jsonl",
+          "blob_sha": "72da5575da5e68107b8cdc7958a35a2fd8f970dd"
+        },
+        {
+          "chapter": "brauer",
+          "section_start_line": 524,
+          "file": "work/stageb-parallel/worker-3/results/brauer/section-524.jsonl",
+          "blob_sha": "b2f3cd8ba030c0075a9195cfe97dad7258a2b4f5"
+        },
+        {
+          "chapter": "brauer",
+          "section_start_line": 618,
+          "file": "work/stageb-parallel/worker-3/results/brauer/section-618.jsonl",
+          "blob_sha": "aac23c90475fa9459b70fd20e64e29e994fc6500"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b006",
+      "chapter": "coherent",
+      "sections": [
+        {
+          "chapter": "coherent",
+          "section_start_line": 32,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-32.jsonl",
+          "blob_sha": "9fa42bbb3b2105bddcae8fb4af580163f74649d0"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 272,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-272.jsonl",
+          "blob_sha": "90e7e0034a8499d139b9de7cfe4196a32daf4182"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 545,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-545.jsonl",
+          "blob_sha": "849c9480ddfbea1f817746189aae09e619580720"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 877,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-877.jsonl",
+          "blob_sha": "2b02dd4e965080c040ab83249e4285da9dd4188d"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 1136,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-1136.jsonl",
+          "blob_sha": "178a9f305253f9bee248fd77edff00437cd42bc7"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 1177,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-1177.jsonl",
+          "blob_sha": "9079e01af098d46659e623ec49d4047e10d80cec"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 1557,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-1557.jsonl",
+          "blob_sha": "1adb58be909dadc6f331c82ef45e9e53622ad825"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 2213,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-2213.jsonl",
+          "blob_sha": "df80398d2772aba28de11ea5656b0868414eafee"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 2541,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-2541.jsonl",
+          "blob_sha": "9d9dbbd2a79ec019a7732802ff9eb793f8fbe87b"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 2801,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-2801.jsonl",
+          "blob_sha": "2ca994dcf4d947e5e7098b525f9a71aa01af5e44"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 2923,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-2923.jsonl",
+          "blob_sha": "14942da98b86b4c7308f7275f3583c310b9a711d"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 3630,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-3630.jsonl",
+          "blob_sha": "65f9b0b743dccc2a2488e0f31de1d30989a77e95"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b007",
+      "chapter": "coherent",
+      "sections": [
+        {
+          "chapter": "coherent",
+          "section_start_line": 4508,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-4508.jsonl",
+          "blob_sha": "aef608a9806479c24caf50dd2bb8f76cdead7f28"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 5323,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-5323.jsonl",
+          "blob_sha": "e853ba3eb91ef0338d2698607467277c039cdeca"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 5872,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-5872.jsonl",
+          "blob_sha": "7aa04036347fe46aed5e7e0b0d041e7d178cfb26"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 6247,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-6247.jsonl",
+          "blob_sha": "37e1bcf98c1648583b8783319fd9a85bd3f4f11f"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 6749,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-6749.jsonl",
+          "blob_sha": "98b14886ac753779a8c85897c9cb3d9a4a7ff3ad"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 6876,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-6876.jsonl",
+          "blob_sha": "38e4290cc14fc6a7e1135009cfd50f9780b9bfcf"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 7204,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-7204.jsonl",
+          "blob_sha": "f923cb4509b5f0748a829b6358279ffbcefde76c"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 7602,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-7602.jsonl",
+          "blob_sha": "8ea7d42ac296682faaa1843d24ed34dd59ddbe64"
+        },
+        {
+          "chapter": "coherent",
+          "section_start_line": 7822,
+          "file": "work/stageb-parallel/worker-3/results/coherent/section-7822.jsonl",
+          "blob_sha": "279b11ee9691dfe3260f6663fc8861261851c51b"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b008",
+      "chapter": "cotangent",
+      "sections": [
+        {
+          "chapter": "cotangent",
+          "section_start_line": 80,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-80.jsonl",
+          "blob_sha": "54cd43134066791c34aed30bf4e567b356c1c86e"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 174,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-174.jsonl",
+          "blob_sha": "aeae04f00fed8059f1519797bbd88d2cfcf9b4f5"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 430,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-430.jsonl",
+          "blob_sha": "a9e1e802585d9282f8fec7a39e0d1497082e5a17"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 866,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-866.jsonl",
+          "blob_sha": "cd1934301f68baea466525868b34ad9a26caa5fc"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 1101,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-1101.jsonl",
+          "blob_sha": "b5422d11fa16f07106cab4cbf559edb646d6b1e8"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 1531,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-1531.jsonl",
+          "blob_sha": "cb078fbd67559f9f5a9cefbc05ee234d0ee104a4"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 1702,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-1702.jsonl",
+          "blob_sha": "c78b752ce50eb7e2ef36619d156b70b926da2bd0"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 1741,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-1741.jsonl",
+          "blob_sha": "98915fb460b8b10ddb28368fa9896b45bbed9aaa"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 1835,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-1835.jsonl",
+          "blob_sha": "6b7349e84ed8b88bbf6a93ce1d16a41e5b1e11e2"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 2057,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-2057.jsonl",
+          "blob_sha": "6f1dfd2d1449478829ef6443c9625ebe105fc50a"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 2392,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-2392.jsonl",
+          "blob_sha": "6074adb984b3f90473a2ea3ab05be32fb9cdbb90"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 2664,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-2664.jsonl",
+          "blob_sha": "1b9e7e74eb157ebcf4dfd601eb3954e75949efda"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b009",
+      "chapter": "cotangent",
+      "sections": [
+        {
+          "chapter": "cotangent",
+          "section_start_line": 2776,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-2776.jsonl",
+          "blob_sha": "7323f9f2639da107b58239b3b5e158612ecb1a92"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 3061,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-3061.jsonl",
+          "blob_sha": "f89aa4956274b05f328088d9d15e9433be29dcc0"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 3513,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-3513.jsonl",
+          "blob_sha": "7126667c0200de38a3550ebf80a55c2f14e6139a"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 3687,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-3687.jsonl",
+          "blob_sha": "a8b65bcf072ad45d7f67813f8d9cd10a2d72fce4"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 3889,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-3889.jsonl",
+          "blob_sha": "4779c496edeca4ab41a7cebf45436f7544b58fca"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 4173,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-4173.jsonl",
+          "blob_sha": "735809085a5341713bfaf5da37726e060d4297bb"
+        },
+        {
+          "chapter": "cotangent",
+          "section_start_line": 4536,
+          "file": "work/stageb-parallel/worker-3/results/cotangent/section-4536.jsonl",
+          "blob_sha": "ce1a15bf0172b3fbf4a2d7862ae649602832fa09"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b010",
+      "chapter": "defos",
+      "sections": [
+        {
+          "chapter": "defos",
+          "section_start_line": 32,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-32.jsonl",
+          "blob_sha": "8912b290b571dcf1bf4553ec5685f3ad18ee30e3"
+        },
+        {
+          "chapter": "defos",
+          "section_start_line": 479,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-479.jsonl",
+          "blob_sha": "29591943bd2af678b386a43422ecaafafef856ba"
+        },
+        {
+          "chapter": "defos",
+          "section_start_line": 575,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-575.jsonl",
+          "blob_sha": "bb6633e3a55ecf10268903f006b46bfb535d3e10"
+        },
+        {
+          "chapter": "defos",
+          "section_start_line": 1252,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-1252.jsonl",
+          "blob_sha": "1db04bc7c4a6a8bab7b447d21392f113d8041931"
+        },
+        {
+          "chapter": "defos",
+          "section_start_line": 1701,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-1701.jsonl",
+          "blob_sha": "faabe4bb1b2179f8e703aa2f5037537bed5caa97"
+        },
+        {
+          "chapter": "defos",
+          "section_start_line": 2383,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-2383.jsonl",
+          "blob_sha": "c6fc717d2af7d68c3786d1038054abf69b1c8b70"
+        },
+        {
+          "chapter": "defos",
+          "section_start_line": 2541,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-2541.jsonl",
+          "blob_sha": "08f904ccaeb89a7b9971dd91b3fb690a178148a4"
+        },
+        {
+          "chapter": "defos",
+          "section_start_line": 3340,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-3340.jsonl",
+          "blob_sha": "db18f50f0e9a78bd1e7be9477d4315f850c1d0f6"
+        },
+        {
+          "chapter": "defos",
+          "section_start_line": 3866,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-3866.jsonl",
+          "blob_sha": "ce616bc47173ea2350aa60ad541f81013779d47a"
+        },
+        {
+          "chapter": "defos",
+          "section_start_line": 4648,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-4648.jsonl",
+          "blob_sha": "38205848dda19d766f6c4f772786da2461378205"
+        },
+        {
+          "chapter": "defos",
+          "section_start_line": 4909,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-4909.jsonl",
+          "blob_sha": "fc70f5252149c50a41885198033aaa2e38ae90dd"
+        },
+        {
+          "chapter": "defos",
+          "section_start_line": 5035,
+          "file": "work/stageb-parallel/worker-3/results/defos/section-5035.jsonl",
+          "blob_sha": "e25139380525513466871eb23e9c938be17a343c"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b011",
+      "chapter": "descent",
+      "sections": [
+        {
+          "chapter": "descent",
+          "section_start_line": 33,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-33.jsonl",
+          "blob_sha": "06279c5229711ed09221c5fb5eff8931237c9719"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 205,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-205.jsonl",
+          "blob_sha": "149982e8f14388ec5cec0d6d3a7f0434775024d7"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 767,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-767.jsonl",
+          "blob_sha": "728794a94ad29479d1b222731f61472e3b57fae4"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 1541,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-1541.jsonl",
+          "blob_sha": "2a639cdb2cbedeb3849365394d7d7640a3d7f6a1"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 1887,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-1887.jsonl",
+          "blob_sha": "9233b6031333ebe10682a4a4521d7091f30f6839"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 2137,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-2137.jsonl",
+          "blob_sha": "cc90435810fff4cf018b4bd7c1f9d6c9d57e1aa9"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 2679,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-2679.jsonl",
+          "blob_sha": "3096a81efed2e3f625d180acd8018d11c7db8b99"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 2994,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-2994.jsonl",
+          "blob_sha": "3e57ca4046e77a876df2df7d376f96e0a1676f03"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 3495,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-3495.jsonl",
+          "blob_sha": "2a66dd8a9eb7724bf36e3f4c0b6dce26a854f479"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 3760,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-3760.jsonl",
+          "blob_sha": "f5ffd673a54aeeb2cb29ed0788ab9fd3a576156e"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 3893,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-3893.jsonl",
+          "blob_sha": "396ba33572fd595b074a3c179cdda0f84218aa8e"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 4249,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-4249.jsonl",
+          "blob_sha": "cfd4313b7593ebbbfd7073690c45073619aba486"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b012",
+      "chapter": "descent",
+      "sections": [
+        {
+          "chapter": "descent",
+          "section_start_line": 4616,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-4616.jsonl",
+          "blob_sha": "34f51bfd98f1761b3e27ac722b5210b6cc9087eb"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 4754,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-4754.jsonl",
+          "blob_sha": "b2d27072ffaba2623a4a5fba8054fdcb9beb6f80"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 4885,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-4885.jsonl",
+          "blob_sha": "acd4e598e350996641c08be3ddd281479faf4459"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 4944,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-4944.jsonl",
+          "blob_sha": "5800d8b156fc0b5d6a0f3c2fe085e0e4f62c4303"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 5066,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-5066.jsonl",
+          "blob_sha": "67fd187f00d84afade854c6a954050c69897aa17"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 5151,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-5151.jsonl",
+          "blob_sha": "2721ed2018cbf17bfbc48b8330cc3045dc5705b8"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 5282,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-5282.jsonl",
+          "blob_sha": "d5ef995b47f3fd8f436319cb561be2d8d7d412bc"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 6306,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-6306.jsonl",
+          "blob_sha": "c2d983896677811879dd13cc7cd6763af2ee2c9b"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 6374,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-6374.jsonl",
+          "blob_sha": "91b849731adec956a54c838797e815afe34d7bd7"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 6621,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-6621.jsonl",
+          "blob_sha": "ce6f859431047639b430633dd18c9ebbb2d3405d"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 6758,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-6758.jsonl",
+          "blob_sha": "620394f1329f7a33aebcd842841fee1fe2075301"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 6804,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-6804.jsonl",
+          "blob_sha": "c2ca35f5e7947dc9f767ac53299b7dfc785939df"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b013",
+      "chapter": "descent",
+      "sections": [
+        {
+          "chapter": "descent",
+          "section_start_line": 6895,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-6895.jsonl",
+          "blob_sha": "9c0ddd44a4557c37a66eb13f3f35ab8b593673e1"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 6918,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-6918.jsonl",
+          "blob_sha": "b4bf9a641094c771ad6fdde74c337cd4e454616d"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 6943,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-6943.jsonl",
+          "blob_sha": "7474d364eb7fa4e469d44bfcffcdbaeeaa4cc4df"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 7040,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-7040.jsonl",
+          "blob_sha": "c2bf31862e96d21dd2897e1fd92cf114bfb9ce65"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 7829,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-7829.jsonl",
+          "blob_sha": "74f12a803fa3984019b474fae67eead5ff414c41"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 8090,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-8090.jsonl",
+          "blob_sha": "27aeda478f129ce5f9c328f03ea9c0de20aa8ae0"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 8472,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-8472.jsonl",
+          "blob_sha": "db523057ac1fca640e3510a9aa953d6486c24a28"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 8971,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-8971.jsonl",
+          "blob_sha": "bc389e11c3191ad76ddabc65e276b2c2467d8fd7"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 9139,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-9139.jsonl",
+          "blob_sha": "06142ef8e369e1dbb95cf9b73c97cea93b624c11"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 9224,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-9224.jsonl",
+          "blob_sha": "1dba78374c2f699139831fb7fb4675380509c61d"
+        },
+        {
+          "chapter": "descent",
+          "section_start_line": 9326,
+          "file": "work/stageb-parallel/worker-3/results/descent/section-9326.jsonl",
+          "blob_sha": "6f509a953cf96662f5f7efd1cc2b7391189fdc3e"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b014",
+      "chapter": "etale-cohomology",
+      "sections": [
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 414,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-414.jsonl",
+          "blob_sha": "b92726cd4f18085dfab927efb22ee6ef17991a3f"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 724,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-724.jsonl",
+          "blob_sha": "95fe459b873c4bc529d13c5cdb4aa9990e4f212b"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 835,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-835.jsonl",
+          "blob_sha": "8af744e1c0391204d2e2eb7debc6d1c56b5950eb"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 874,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-874.jsonl",
+          "blob_sha": "34af720bde979f06d35a9bdb62079dffcb3a4915"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 1132,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-1132.jsonl",
+          "blob_sha": "8258bb73b79e43fd3bcd21b97a291ffebe45a25a"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 1325,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-1325.jsonl",
+          "blob_sha": "a457acc525a78a850110fc3338300e93a81b53d1"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 1461,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-1461.jsonl",
+          "blob_sha": "86897ff7fe543a62d38f23393e13607e164ec835"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 1750,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-1750.jsonl",
+          "blob_sha": "7d3859a7280760a77cd6d27f28d168fd6a554163"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 1848,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-1848.jsonl",
+          "blob_sha": "7b4b9206ba14b9e1c4989df7ecf38186f9e31c08"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 2085,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-2085.jsonl",
+          "blob_sha": "bb44dbcb9c3b02f67b71ca1d2feba1f3801711b3"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 2156,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-2156.jsonl",
+          "blob_sha": "3bac9e56e5986b510b90b81e842623bf6271bb40"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 2546,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-2546.jsonl",
+          "blob_sha": "01d33630dfcda428629f634fe65d4fc29ddb59e8"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b015",
+      "chapter": "etale-cohomology",
+      "sections": [
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 2716,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-2716.jsonl",
+          "blob_sha": "f0895fd0e1a8cae130e2d078305d0e9feefcf381"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 2818,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-2818.jsonl",
+          "blob_sha": "ab098a1732ab253a075fc7d96e9e25a435772bc6"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 3185,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-3185.jsonl",
+          "blob_sha": "d0e93a65f4bb7b59dafb38857581cd79d81c596d"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 3798,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-3798.jsonl",
+          "blob_sha": "92cc4b93778498871c99dabbc806a6e6b68a48f8"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 3916,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-3916.jsonl",
+          "blob_sha": "a58c525847b6676036a1f8dfe3979f855cacc4c9"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 4071,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-4071.jsonl",
+          "blob_sha": "ceed71d555d6f0cbaa5c7dd477eda8845c426c49"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 4248,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-4248.jsonl",
+          "blob_sha": "d60fdbdafe633afb0ffb0a1eb874342f2dc64747"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 4579,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-4579.jsonl",
+          "blob_sha": "b3077e049a060a5882f995ad6cd2ccda3ad00e48"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 4930,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-4930.jsonl",
+          "blob_sha": "f0f33911c580d8cced372d5f4005e3766d5f97d1"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 5168,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-5168.jsonl",
+          "blob_sha": "9ea8873b640f301abebf240f5991ba62c2510fba"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 5730,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-5730.jsonl",
+          "blob_sha": "29f99e7db87d49feebb061710599b5e0a36bdbe0"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 5912,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-5912.jsonl",
+          "blob_sha": "b8eb7944c7c14899ffff0172a5e6f8cc40fe4137"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b016",
+      "chapter": "etale-cohomology",
+      "sections": [
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 6096,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-6096.jsonl",
+          "blob_sha": "9c374cbedb6d822d14d4542f8af2a462d06fab97"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 6271,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-6271.jsonl",
+          "blob_sha": "419304721fb737d8096dcb368daf0cad9ddecdba"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 6574,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-6574.jsonl",
+          "blob_sha": "a0c0bc66cbefc25e8eadffda53815296f97afea4"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 6817,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-6817.jsonl",
+          "blob_sha": "89b83835fc01a2f05b4792d2d6eb0b728ce0a9a8"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 6988,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-6988.jsonl",
+          "blob_sha": "ed7d901d96c40a4982b7280aaa5af40ba18fb20c"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 7167,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-7167.jsonl",
+          "blob_sha": "1cdb1fbc19c2b8a267a312d3bf21f695c3dc9cd8"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 7274,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-7274.jsonl",
+          "blob_sha": "f2f89385df3d7ca3d8b6a976454e7f108fa9920c"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 7772,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-7772.jsonl",
+          "blob_sha": "fa2f6f846f521a3846e2994195c4a73af80c0764"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 8008,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-8008.jsonl",
+          "blob_sha": "05f76a2545dcbe9e0026dded5033e6cd87e6360d"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 8142,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-8142.jsonl",
+          "blob_sha": "aca2ae77170dd00ab0e332865585ed06c0ce43bd"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 8199,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-8199.jsonl",
+          "blob_sha": "0520cf87de9493b5d57b4023434a12eafa45d1f0"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 8766,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-8766.jsonl",
+          "blob_sha": "3d6ef7b37623b63e7c252e63b0064790e490e403"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b017",
+      "chapter": "etale-cohomology",
+      "sections": [
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 9069,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-9069.jsonl",
+          "blob_sha": "6b0e1334ef33a84463e2ec05ce72d5c6a823bca7"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 9261,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-9261.jsonl",
+          "blob_sha": "fd635a1a236171dbb39127dfc218d15859d42ebe"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 9458,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-9458.jsonl",
+          "blob_sha": "6709abc9364be82a1d453c27313370ccda8a9acf"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 9599,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-9599.jsonl",
+          "blob_sha": "bc924cac3567bb4a9d1a9534273f57bedbffca13"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 9908,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-9908.jsonl",
+          "blob_sha": "e6ed0614fdb23a83bcfc750a0615fd60eac5c3c0"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 10110,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-10110.jsonl",
+          "blob_sha": "5dd53b76ec9dc522961395b0b0d851c30bf685a5"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 10329,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-10329.jsonl",
+          "blob_sha": "b90736d3b3e5706ead8f1d472783ca10d5703f15"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 10531,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-10531.jsonl",
+          "blob_sha": "c5dd393d8f2312f48424e7c7be862855e5f4c8bc"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 10934,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-10934.jsonl",
+          "blob_sha": "53d877a38fd785043a37ef20c6220d7b90274689"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 11104,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-11104.jsonl",
+          "blob_sha": "045001cf7761f28af8fe9cba0bb02ec45ad754a9"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 11352,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-11352.jsonl",
+          "blob_sha": "d77b28abac76e6c976406b0bda83df83527a7487"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 11657,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-11657.jsonl",
+          "blob_sha": "02784dace1033a4831fcc6113ea31984461f188f"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b018",
+      "chapter": "etale-cohomology",
+      "sections": [
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 12027,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-12027.jsonl",
+          "blob_sha": "1a233f57a3001d624859bdd77096f8b3674b4dc7"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 12174,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-12174.jsonl",
+          "blob_sha": "d27f319ce87c2cb8332d79779b7dbd087b88854e"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 12785,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-12785.jsonl",
+          "blob_sha": "ebba8e5f521165986bd94c3629b3a4040e183b77"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 13136,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-13136.jsonl",
+          "blob_sha": "62d0637b35c14c170d5d19a81193b7f5f4e03e2d"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 13558,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-13558.jsonl",
+          "blob_sha": "27153bac27b274e0543b044181a2b2b7e795e90f"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 13702,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-13702.jsonl",
+          "blob_sha": "be4009bd9f247a0210d412200e9b944b7ebb4893"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 13887,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-13887.jsonl",
+          "blob_sha": "57f5a733e2d5bf58f5f4ff6cac762304398d98bf"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 13965,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-13965.jsonl",
+          "blob_sha": "ea75b4cd9ee7d60879958190f109cbe6f66a9d15"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 14195,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-14195.jsonl",
+          "blob_sha": "9ccf9d6edf1f773adf63918ab7353c5e9a60f6ab"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 14507,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-14507.jsonl",
+          "blob_sha": "b710eeaae09872b4148aadcb6a38ea06da7b0e7a"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 14891,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-14891.jsonl",
+          "blob_sha": "888a3f267a565ac51de7024ccee6767156da540b"
+        },
+        {
+          "chapter": "etale-cohomology",
+          "section_start_line": 15312,
+          "file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-15312.jsonl",
+          "blob_sha": "e69709a886106d43c2202b1e378c52b0b5f5fa23"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b019",
+      "chapter": "formal-defos",
+      "sections": [
+        {
+          "chapter": "formal-defos",
+          "section_start_line": 1888,
+          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-1888.jsonl",
+          "blob_sha": "bc23af40a33a94c872d9da013b999215558d91e2"
+        },
+        {
+          "chapter": "formal-defos",
+          "section_start_line": 3109,
+          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-3109.jsonl",
+          "blob_sha": "a7cc36791a73036b3fda429973a2af0728ffcb20"
+        },
+        {
+          "chapter": "formal-defos",
+          "section_start_line": 3425,
+          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-3425.jsonl",
+          "blob_sha": "5416ef2ffb859d2c598b7581e2ae8ef44fbfd40c"
+        },
+        {
+          "chapter": "formal-defos",
+          "section_start_line": 4770,
+          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-4770.jsonl",
+          "blob_sha": "d30681bcaab3733ea8b0c4874a5c24d2e60ff27e"
+        },
+        {
+          "chapter": "formal-defos",
+          "section_start_line": 5563,
+          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-5563.jsonl",
+          "blob_sha": "2b4ebccf40005a533c6e899f8baaf562f7206512"
+        },
+        {
+          "chapter": "formal-defos",
+          "section_start_line": 5925,
+          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-5925.jsonl",
+          "blob_sha": "2314aa4362cda1398dc6923501d677094163425b"
+        },
+        {
+          "chapter": "formal-defos",
+          "section_start_line": 6488,
+          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-6488.jsonl",
+          "blob_sha": "61ddf0d043e8539da23c86e3fb6dc8ff20e0d8a2"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b020",
+      "chapter": "groupoids-quotients",
+      "sections": [
+        {
+          "chapter": "groupoids-quotients",
+          "section_start_line": 40,
+          "file": "work/stageb-parallel/worker-3/results/groupoids-quotients/section-40.jsonl",
+          "blob_sha": "5edbd42cabe31c82f822bf176f2c79dae25dc76a"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b021",
+      "chapter": "homology",
+      "sections": [
+        {
+          "chapter": "homology",
+          "section_start_line": 41,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-41.jsonl",
+          "blob_sha": "908d9839cf6940cd23d1dd75f5b31ae567a5c5a0"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 507,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-507.jsonl",
+          "blob_sha": "506c2b0f280dd180a2355a3b7a0dfbb0a5897d7d"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 597,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-597.jsonl",
+          "blob_sha": "0bfd9ee8d25a80aa73347c91d791a837be2603fa"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 1259,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-1259.jsonl",
+          "blob_sha": "279b188708858a1d2b1ee74c1ab26b396470ed6f"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 1462,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-1462.jsonl",
+          "blob_sha": "5f18262e0ce8777e600a758a0be78a16461c68b5"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 1746,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-1746.jsonl",
+          "blob_sha": "0e9bf7804c9829873e9218015f3ed85f33dbfefd"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 1953,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-1953.jsonl",
+          "blob_sha": "40421fe868739db0911ddb8a80a39a5a7fca0d33"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 2081,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-2081.jsonl",
+          "blob_sha": "3c11fea8e3d74ee4591fa6520f121efc54d46101"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 2327,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-2327.jsonl",
+          "blob_sha": "9ecf9e22832c5a57f826d9296780db7b8bd61ef3"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 2621,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-2621.jsonl",
+          "blob_sha": "f891632408a8f6710fb0ae810fc1848dc91986f1"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 2773,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-2773.jsonl",
+          "blob_sha": "b9c4f12bcaaf8bb6a073c941d6899fab4a6191bd"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 3258,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-3258.jsonl",
+          "blob_sha": "2e50930c8c4ac365ac69619f05c53b5c370e53da"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b022",
+      "chapter": "homology",
+      "sections": [
+        {
+          "chapter": "homology",
+          "section_start_line": 3852,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-3852.jsonl",
+          "blob_sha": "68f9a0b75f76b620b3a1f37ee7fd654ac2b55cff"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 3972,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-3972.jsonl",
+          "blob_sha": "dd64a159896dee91e1ff1a590e5589724c4a55fb"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 4659,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-4659.jsonl",
+          "blob_sha": "b682a42b36a101f8b3e4c836e855abc83fc8fffa"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 5285,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-5285.jsonl",
+          "blob_sha": "f21823f58b4d1a5085d8221ab7205a1aa0b0b18d"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 5468,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-5468.jsonl",
+          "blob_sha": "570dedc0b414387e2c306417fe3cde505b597aaf"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 5662,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-5662.jsonl",
+          "blob_sha": "1dc24b9209b0fba716e8a19ac6a18477751e8ee8"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 5954,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-5954.jsonl",
+          "blob_sha": "06de7e0902142ddb34a1fc76c2e82bf1f8e82132"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 6565,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-6565.jsonl",
+          "blob_sha": "18301d87d2c6f499bb8d8c6a020b9d6653da3c22"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 6823,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-6823.jsonl",
+          "blob_sha": "a9fff187e8bd19eeeabb95236a87cd863efc1595"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 7072,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-7072.jsonl",
+          "blob_sha": "da424888be7b22c04ba8c21332042758385fe15b"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 7161,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-7161.jsonl",
+          "blob_sha": "e6b6ff179cf6fc574b9569d069b20f7a7394c3f9"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 7262,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-7262.jsonl",
+          "blob_sha": "f9bfc7c123b459267123714952bbd6d2a96982a0"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b023",
+      "chapter": "homology",
+      "sections": [
+        {
+          "chapter": "homology",
+          "section_start_line": 7459,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-7459.jsonl",
+          "blob_sha": "84b1d40271fdaaddeb36b618d32a4467dafff2f0"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 7587,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-7587.jsonl",
+          "blob_sha": "997ec2b41cfe6ab2a68344c6a333b96cb878a1b5"
+        },
+        {
+          "chapter": "homology",
+          "section_start_line": 7916,
+          "file": "work/stageb-parallel/worker-3/results/homology/section-7916.jsonl",
+          "blob_sha": "00a36d2edcb44bb74a829bb91fcadbe88867c0e2"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b024",
+      "chapter": "sets",
+      "sections": [
+        {
+          "chapter": "sets",
+          "section_start_line": 117,
+          "file": "work/stageb-parallel/worker-3/results/sets/section-117.jsonl",
+          "blob_sha": "c4daa8c50534bb93a954e87034e1f7a11afd5d4d"
+        },
+        {
+          "chapter": "sets",
+          "section_start_line": 178,
+          "file": "work/stageb-parallel/worker-3/results/sets/section-178.jsonl",
+          "blob_sha": "9ef815fbfbf0344a107a07737074c58442b21dc1"
+        },
+        {
+          "chapter": "sets",
+          "section_start_line": 242,
+          "file": "work/stageb-parallel/worker-3/results/sets/section-242.jsonl",
+          "blob_sha": "7948006c03e2645a64cfceb663315ae6ff9c4f30"
+        },
+        {
+          "chapter": "sets",
+          "section_start_line": 310,
+          "file": "work/stageb-parallel/worker-3/results/sets/section-310.jsonl",
+          "blob_sha": "9f433a157118fc95f6ee81182bde22e951b09179"
+        },
+        {
+          "chapter": "sets",
+          "section_start_line": 1124,
+          "file": "work/stageb-parallel/worker-3/results/sets/section-1124.jsonl",
+          "blob_sha": "d0693b13543cd698e823e444e443992a811556de"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b025",
+      "chapter": "sites-cohomology",
+      "sections": [
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 238,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-238.jsonl",
+          "blob_sha": "134e1e834d6af2743d72332d605e96441cff50c6"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 368,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-368.jsonl",
+          "blob_sha": "c64ea5cb4cc818525d14f3c8326f51d6d30f17b3"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 513,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-513.jsonl",
+          "blob_sha": "47a102997fedc725fb09bbb37006118369e61128"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 600,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-600.jsonl",
+          "blob_sha": "616a43d668120de7e0c8db13967c3cbcc13e8160"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 789,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-789.jsonl",
+          "blob_sha": "fbbe2f05fac157650ea9e0a5777342c72bc767c2"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 894,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-894.jsonl",
+          "blob_sha": "76d2887754466d2c5e0910a477987090f02f414b"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 1309,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-1309.jsonl",
+          "blob_sha": "f7bbcb338f9ac808c572217e82f48d4601092965"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 1662,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-1662.jsonl",
+          "blob_sha": "121cfe0c65909dcc40b217d8eb09301b8b7c4a22"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 1762,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-1762.jsonl",
+          "blob_sha": "3927eb259eeb7d1a803a94e7d57116b0af4624ee"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 2016,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-2016.jsonl",
+          "blob_sha": "b2d132976adbbfbfa894fb9cba2b98e3fa4c85f6"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 2204,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-2204.jsonl",
+          "blob_sha": "8acecd8588ec287d293bfe9ad398eafaaa22ee6e"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 2399,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-2399.jsonl",
+          "blob_sha": "0dab34f6929e59b380de577bfbc5bf6c8f0023e7"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b026",
+      "chapter": "sites-cohomology",
+      "sections": [
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 2493,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-2493.jsonl",
+          "blob_sha": "fa5cf59d47a24503cecec503d184783b6efee091"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 2960,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-2960.jsonl",
+          "blob_sha": "4cd41f4b317baa15c0d4e1cd8b257b0a7e834386"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 3494,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-3494.jsonl",
+          "blob_sha": "6efc99f2511e629b504d100bf4334437713bc027"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 3920,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-3920.jsonl",
+          "blob_sha": "c19d130ac4c92159f04b2f24f206b073fc463850"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 4284,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-4284.jsonl",
+          "blob_sha": "ba3b98aa5b0e622f6f4e0ec3a6c2e127773d1dc5"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 4637,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-4637.jsonl",
+          "blob_sha": "6c152df1a04ae9f7d89dcdc3ba0076e513d8bea8"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 4724,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-4724.jsonl",
+          "blob_sha": "5bafb6116f30b4fd26b8d1219e4765c8bcfdf39e"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 5015,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-5015.jsonl",
+          "blob_sha": "d4c058b41fe5fd17f501c0c888026936587b4e27"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 5546,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-5546.jsonl",
+          "blob_sha": "959ab2a83d03484b3d60b4a450270938e19162af"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 5678,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-5678.jsonl",
+          "blob_sha": "bdd8781f5601c3e0d39e4970b5ee25a1ddbc2776"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 5973,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-5973.jsonl",
+          "blob_sha": "831c5410f67458d70124257864b699274d79516e"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 6276,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-6276.jsonl",
+          "blob_sha": "66dfbd9b38377f5dc093a8f8cb37059316d2f8ab"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b027",
+      "chapter": "sites-cohomology",
+      "sections": [
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 6807,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-6807.jsonl",
+          "blob_sha": "150491d24c50439ca2f0f8a2664e8a022f00dba4"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 7463,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-7463.jsonl",
+          "blob_sha": "d31096b646aa33e94be4437549007ca3b4b377bd"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 8204,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-8204.jsonl",
+          "blob_sha": "f6e3790c40f4f6b8abeb3865f9ec44b993f47c71"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 8570,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-8570.jsonl",
+          "blob_sha": "5e3eb24b9b95a9587654537fbd914a388fd1aab4"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 8835,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-8835.jsonl",
+          "blob_sha": "14b763eb4c745aee2ceecd5e7570d986f8c7a356"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 9270,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-9270.jsonl",
+          "blob_sha": "c5695e8ca2730dd5e4dfed90f60c48844cef9b30"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 9690,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-9690.jsonl",
+          "blob_sha": "2da75e81315936dc52ea4417a4822f1ca5df7328"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 10008,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-10008.jsonl",
+          "blob_sha": "65d682c8ccad4409eb46d0cebe1a505af85fba1f"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 10515,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-10515.jsonl",
+          "blob_sha": "de043c9d2d18f51df206dcc18bf44029d8c7e6c5"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 10741,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-10741.jsonl",
+          "blob_sha": "81f8cfc5d184c17385c3a33f264fb854b9057b86"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 11080,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-11080.jsonl",
+          "blob_sha": "8ebe632e43933861c577bc5c9d6a52279b09e0e0"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 11709,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-11709.jsonl",
+          "blob_sha": "a97778342d74034c2db6f0157828da3819d1f266"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b028",
+      "chapter": "sites-cohomology",
+      "sections": [
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 12032,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-12032.jsonl",
+          "blob_sha": "b1c15de7e7353d74e2012afaa6563047238c043e"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 12370,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-12370.jsonl",
+          "blob_sha": "cf2c6949aab04965fdcf4941bb83ef515cf6a0b3"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 12727,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-12727.jsonl",
+          "blob_sha": "85fa20dfab167445dd7d6e6f34f39f0418347750"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 12924,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-12924.jsonl",
+          "blob_sha": "9ed7db41bb5a097e19372c9115cedb40b36ca688"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 13453,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-13453.jsonl",
+          "blob_sha": "265769732d1496395e41bba1c8e7f6e5952d83a9"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 13657,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-13657.jsonl",
+          "blob_sha": "55875bc2ad889c59bb9b6d256d3143699a5f62cd"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 13763,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-13763.jsonl",
+          "blob_sha": "fa18afe989768aaba3b724e18c9701a1218fa7bc"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 13925,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-13925.jsonl",
+          "blob_sha": "6ac01423f98af2d345e8251e048483b737f9d459"
+        },
+        {
+          "chapter": "sites-cohomology",
+          "section_start_line": 14235,
+          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-14235.jsonl",
+          "blob_sha": "e0c585e1bb86cfdc0fde615ea42b494ed94a3158"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b029",
+      "chapter": "smoothing",
+      "sections": [
+        {
+          "chapter": "smoothing",
+          "section_start_line": 116,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-116.jsonl",
+          "blob_sha": "3516932f89ba032942e7d08516ba02a2c061eff3"
+        },
+        {
+          "chapter": "smoothing",
+          "section_start_line": 333,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-333.jsonl",
+          "blob_sha": "8f45ecb131351cdeebd2f4b49716014030e8a660"
+        },
+        {
+          "chapter": "smoothing",
+          "section_start_line": 857,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-857.jsonl",
+          "blob_sha": "482408b811391f01478b8260e2066c443da2b923"
+        },
+        {
+          "chapter": "smoothing",
+          "section_start_line": 1227,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-1227.jsonl",
+          "blob_sha": "077b0e5f03a0ab69c18c0b1962bd2e8803e760c8"
+        },
+        {
+          "chapter": "smoothing",
+          "section_start_line": 1414,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-1414.jsonl",
+          "blob_sha": "24c7885e97159e2d7591f3d0a04d67ae1c83f4c7"
+        },
+        {
+          "chapter": "smoothing",
+          "section_start_line": 1658,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-1658.jsonl",
+          "blob_sha": "7e2fe5a4566b870fbd7dbc8709881eae52a6e029"
+        },
+        {
+          "chapter": "smoothing",
+          "section_start_line": 1907,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-1907.jsonl",
+          "blob_sha": "03d8c9248052cc389acd2c8d720dd15942e7447e"
+        },
+        {
+          "chapter": "smoothing",
+          "section_start_line": 2074,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-2074.jsonl",
+          "blob_sha": "c033835ab24ee08fff452c43236693da47ffcec7"
+        },
+        {
+          "chapter": "smoothing",
+          "section_start_line": 2279,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-2279.jsonl",
+          "blob_sha": "da43c5bcd9e421a09415384ecee5c79e31120ecd"
+        },
+        {
+          "chapter": "smoothing",
+          "section_start_line": 2437,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-2437.jsonl",
+          "blob_sha": "5e6f222b9d9f5bd244e7c2aa5e1848cb535696f0"
+        },
+        {
+          "chapter": "smoothing",
+          "section_start_line": 3106,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-3106.jsonl",
+          "blob_sha": "76676af2f8cf19aa51b5d58f34fcd1bff01cec01"
+        },
+        {
+          "chapter": "smoothing",
+          "section_start_line": 3140,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-3140.jsonl",
+          "blob_sha": "b23f22701c00070b231600622bce8efb9dd2d768"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b030",
+      "chapter": "smoothing",
+      "sections": [
+        {
+          "chapter": "smoothing",
+          "section_start_line": 3379,
+          "file": "work/stageb-parallel/worker-3/results/smoothing/section-3379.jsonl",
+          "blob_sha": "0f8b34be37700eaf22375422d824eb285e87deac"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b031",
+      "chapter": "spaces",
+      "sections": [
+        {
+          "chapter": "spaces",
+          "section_start_line": 112,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-112.jsonl",
+          "blob_sha": "71c929d42e2313d5436c3230249c2652de62c4c4"
+        },
+        {
+          "chapter": "spaces",
+          "section_start_line": 490,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-490.jsonl",
+          "blob_sha": "dbf2d9c0faa2811247869d79ab279a8be112df21"
+        },
+        {
+          "chapter": "spaces",
+          "section_start_line": 797,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-797.jsonl",
+          "blob_sha": "ec811f7e998fd1c2a900b507647ad9dbfbfaf991"
+        },
+        {
+          "chapter": "spaces",
+          "section_start_line": 887,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-887.jsonl",
+          "blob_sha": "f65bf94a5b8214d975c9e3da2df24230ed422cfd"
+        },
+        {
+          "chapter": "spaces",
+          "section_start_line": 979,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-979.jsonl",
+          "blob_sha": "0a4a9b0386e5eb89679d0c084738c921e1168aca"
+        },
+        {
+          "chapter": "spaces",
+          "section_start_line": 1163,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-1163.jsonl",
+          "blob_sha": "310fcf3f22702394286c00f9fff2fcc7eea0e17b"
+        },
+        {
+          "chapter": "spaces",
+          "section_start_line": 1271,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-1271.jsonl",
+          "blob_sha": "bbc01b69dddba54e832e588cd5a9c6594381597f"
+        },
+        {
+          "chapter": "spaces",
+          "section_start_line": 1659,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-1659.jsonl",
+          "blob_sha": "6b9386bea9985a4e03577a32392438c6ba01785e"
+        },
+        {
+          "chapter": "spaces",
+          "section_start_line": 1905,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-1905.jsonl",
+          "blob_sha": "0636f20f8679029d0c8413c3b7489ab4050f741b"
+        },
+        {
+          "chapter": "spaces",
+          "section_start_line": 2068,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-2068.jsonl",
+          "blob_sha": "92d9739061d232396a433cea4028fb840fae98e3"
+        },
+        {
+          "chapter": "spaces",
+          "section_start_line": 2547,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-2547.jsonl",
+          "blob_sha": "8852c217157c225041ffac61465f285a912e2136"
+        },
+        {
+          "chapter": "spaces",
+          "section_start_line": 2718,
+          "file": "work/stageb-parallel/worker-3/results/spaces/section-2718.jsonl",
+          "blob_sha": "a7b9dfb22dfb1bfd1264e6f22ccc6976f92728ee"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b032",
+      "chapter": "spaces-properties",
+      "sections": [
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 64,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-64.jsonl",
+          "blob_sha": "e2b54165da59f25529a537e9704d5e5f2c19f180"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 217,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-217.jsonl",
+          "blob_sha": "9be53d0036e46efde77ee6be96f51f1f00332967"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 621,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-621.jsonl",
+          "blob_sha": "59c07425f8d7666056a16f6e85c099ebdade5991"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 693,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-693.jsonl",
+          "blob_sha": "8bae3aae25f402d2517da4323460db80ddd85bc4"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 1130,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-1130.jsonl",
+          "blob_sha": "ff24d53c4c0de54e5626376d131358909f86246d"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 1252,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-1252.jsonl",
+          "blob_sha": "0a9610bf2352a25ac0452e8ddb1df68c4473b8bb"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 1319,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-1319.jsonl",
+          "blob_sha": "589325a598e993d5f72e87e6563cf15bfb32bc99"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 1379,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-1379.jsonl",
+          "blob_sha": "400215b4136e581f88c3882dcc538a7639c6d7ae"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 1553,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-1553.jsonl",
+          "blob_sha": "c2c613536dd28f78660393b203e2b3cfb98d37d6"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 1694,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-1694.jsonl",
+          "blob_sha": "37b911577efe41c78af161b5c7d5098ca5c94aa2"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 1851,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-1851.jsonl",
+          "blob_sha": "477c165be83203bcd3f66a951ac911ae0a36dc26"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 2007,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-2007.jsonl",
+          "blob_sha": "0966f69e1b5304404c6bdf9c4ddc09c6f91066e5"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b033",
+      "chapter": "spaces-properties",
+      "sections": [
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 2287,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-2287.jsonl",
+          "blob_sha": "74c2fd0786adc1b5e555d336e1f5badac16f60d2"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 2419,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-2419.jsonl",
+          "blob_sha": "ac1197d52435ebc5b67a81d8a9e58616c9e7c49d"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 3041,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-3041.jsonl",
+          "blob_sha": "8923a93ede86bbd86196162773e740992f3f5daa"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 3597,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-3597.jsonl",
+          "blob_sha": "7692a2ac3d58c02aa71a80224faf1faf6125e7b0"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 3748,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-3748.jsonl",
+          "blob_sha": "1375f59762b41a65959e14c654be549f2deade92"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 3872,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-3872.jsonl",
+          "blob_sha": "f90c94d2fcdc61e625c95ffcd8d995bc363dd932"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 4031,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-4031.jsonl",
+          "blob_sha": "b9d7eea753f8b7a7093f45754713a12a11785b04"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 4147,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-4147.jsonl",
+          "blob_sha": "9d0fd76a0c25165233bf2b5545e5463a981c6984"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 4254,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-4254.jsonl",
+          "blob_sha": "81fb404d553958a59791c1fda3663716e6142bab"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 4350,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-4350.jsonl",
+          "blob_sha": "e2b5caf1dd2dc84e5cfa84451fb844d0333f23c3"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 4747,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-4747.jsonl",
+          "blob_sha": "6b9d547355e1b9c67006c68ce67edf3f69469fd6"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 5206,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-5206.jsonl",
+          "blob_sha": "b419e3a528bbad08215918383905e5bdd66ccced"
+        }
+      ],
+      "status": "pending"
+    },
+    {
+      "batch_id": "p3-w3-b034",
+      "chapter": "spaces-properties",
+      "sections": [
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 5639,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-5639.jsonl",
+          "blob_sha": "136883cefca89073d948817e75afa01c43578f22"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 5709,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-5709.jsonl",
+          "blob_sha": "11cbb72a37b1554b962117077af90ff201243c9b"
+        },
+        {
+          "chapter": "spaces-properties",
+          "section_start_line": 5895,
+          "file": "work/stageb-parallel/worker-3/results/spaces-properties/section-5895.jsonl",
+          "blob_sha": "a6d84811b7cbcbd525823dd3989555f408cd65c8"
+        }
+      ],
+      "status": "pending"
+    }
+  ]
+}
