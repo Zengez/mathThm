@@ -11,49 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w3-b005",
-      "chapter": "brauer",
-      "sections": [
-        {
-          "chapter": "brauer",
-          "section_start_line": 83,
-          "file": "work/stageb-parallel/worker-3/results/brauer/section-83.jsonl",
-          "blob_sha": "f13d98931deb554f0e5641927807a1f20b98f365"
-        },
-        {
-          "chapter": "brauer",
-          "section_start_line": 166,
-          "file": "work/stageb-parallel/worker-3/results/brauer/section-166.jsonl",
-          "blob_sha": "bd47b42a26c2a1e0c865b6f19ce9f64fd7e8f132"
-        },
-        {
-          "chapter": "brauer",
-          "section_start_line": 380,
-          "file": "work/stageb-parallel/worker-3/results/brauer/section-380.jsonl",
-          "blob_sha": "97fc612f9869d315bb01eb8b835664374342b67f"
-        },
-        {
-          "chapter": "brauer",
-          "section_start_line": 478,
-          "file": "work/stageb-parallel/worker-3/results/brauer/section-478.jsonl",
-          "blob_sha": "72da5575da5e68107b8cdc7958a35a2fd8f970dd"
-        },
-        {
-          "chapter": "brauer",
-          "section_start_line": 524,
-          "file": "work/stageb-parallel/worker-3/results/brauer/section-524.jsonl",
-          "blob_sha": "b2f3cd8ba030c0075a9195cfe97dad7258a2b4f5"
-        },
-        {
-          "chapter": "brauer",
-          "section_start_line": 618,
-          "file": "work/stageb-parallel/worker-3/results/brauer/section-618.jsonl",
-          "blob_sha": "aac23c90475fa9459b70fd20e64e29e994fc6500"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w3-b006",
       "chapter": "coherent",
       "sections": [
