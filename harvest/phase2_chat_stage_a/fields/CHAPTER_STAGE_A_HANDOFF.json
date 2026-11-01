@@ -1,0 +1,21 @@
+{
+  "schema": "maththm.phase2.chat-stage-a-chapter-handoff.v1",
+  "chapter": "fields",
+  "source_file": "fields.tex",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "source_sections_total": 28,
+  "source_theorem_environments": 84,
+  "active_candidate_count": 80,
+  "inactive_source_environments_excluded": 4,
+  "ready_for_independent_stage_b_validation": 76,
+  "further_work_needed": 4,
+  "independent_validation": "not_started",
+  "processing_complete": true,
+  "hold_candidate_ids": [
+    "candidate.stacks.8e31b7e4ead18252b005af21",
+    "candidate.stacks.c5086cb648a7323ae159b4d0",
+    "candidate.stacks.2c50764926ef2ac3e1357798",
+    "candidate.stacks.31c5eb458803a7856b80c65d"
+  ],
+  "notes": "All source sections traversed, context definitions and situations recorded with scope. Stage A drafts await independent mathematical validation; outstanding blockers held."
+}
