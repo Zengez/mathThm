@@ -1,0 +1,266 @@
+{
+  "schema": "maththm.phase2.chat-stage-a1-source-review-notes.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviews": {
+    "lemma-exactness-properties": {
+      "hypotheses": [
+        "A morphism f:Sh(C)→Sh(D) and eleven precisely enumerated properties of its right adjoint f_* and counit f^-1f_*."
+      ],
+      "conclusions": [
+        "Implications (a)–(h) in the statement, including (3)⇔(9), (4)⇔(11), and (2)⇔(7), and all of their one-way consequences."
+      ],
+      "logical_form": "enumerated_implication_chart",
+      "preface_key": "",
+      "hold_reason": ""
+    },
+    "lemma-weaker": {
+      "hypotheses": [
+        "A morphism of sites f:D→C from a continuous u:C→D, with the property that any D-cover of u(U) is dominated, as a map of associated representable sheaves, by images of a C-cover of U."
+      ],
+      "conclusions": [
+        "The direct-image functor f_* preserves surjective morphisms of sheaves."
+      ],
+      "logical_form": "implication",
+      "preface_key": "",
+      "hold_reason": ""
+    },
+    "lemma-cover-from-below": {
+      "hypotheses": [
+        "A morphism of sites f:D→C represented by u:C→D, and every V in D is covered by objects of the form u(U_i)."
+      ],
+      "conclusions": [
+        "f_* reflects injections and surjections of sheaves."
+      ],
+      "logical_form": "reflection",
+      "preface_key": "",
+      "hold_reason": ""
+    },
+    "lemma-characterize-empty": {
+      "hypotheses": [
+        "A site C and object U."
+      ],
+      "conclusions": [
+        "Sheaf-theoretic emptiness, the singleton-section property for all sheaves, nonemptiness or singleton value of the sheafification of the empty presheaf, and existence of the empty covering of U are equivalent.",
+        "Sheaf-theoretic emptiness is inherited by every object mapping to U."
+      ],
+      "logical_form": "equivalence_and_consequence",
+      "preface_key": "empty",
+      "hold_reason": ""
+    },
+    "lemma-almost-cocontinuous-sheafification": {
+      "hypotheses": [
+        "Continuous and almost cocontinuous u:C→D, and presheaf G on D singleton-valued on all sheaf-theoretically empty objects."
+      ],
+      "conclusions": [
+        "(u^pG)# equals u^p(G#)."
+      ],
+      "logical_form": "canonical_identity",
+      "preface_key": "almost",
+      "hold_reason": ""
+    },
+    "lemma-continuous-almost-cocontinuous": {
+      "hypotheses": [
+        "A continuous and almost cocontinuous u:C→D between sites."
+      ],
+      "conclusions": [
+        "u^s=u^p on sheaves preserves pushouts, coequalizers, and finite connected colimits."
+      ],
+      "logical_form": "preservation",
+      "preface_key": "almost",
+      "hold_reason": ""
+    },
+    "lemma-morphism-of-sites-almost-cocontinuous": {
+      "hypotheses": [
+        "A site morphism f:D→C from continuous u:C→D, where u is also almost cocontinuous."
+      ],
+      "conclusions": [
+        "The direct image f_* preserves pushouts, coequalizers, and finite connected colimits."
+      ],
+      "logical_form": "preservation",
+      "preface_key": "almost",
+      "hold_reason": ""
+    },
+    "lemma-open-subtopos": {
+      "hypotheses": [
+        "A site C and a sheaf F."
+      ],
+      "conclusions": [
+        "F is a subterminal object if and only if the localized topos Sh(C)/F embeds as a subtopos of Sh(C)."
+      ],
+      "logical_form": "equivalence",
+      "preface_key": "subtopos",
+      "hold_reason": ""
+    },
+    "lemma-closed-subtopos": {
+      "hypotheses": [
+        "A site C and subterminal sheaf F."
+      ],
+      "conclusions": [
+        "The full subcategory of G with F×G→F an isomorphism forms a subtopos."
+      ],
+      "logical_form": "subtopos_construction",
+      "preface_key": "subtopos",
+      "hold_reason": ""
+    },
+    "lemma-closed-immersion": {
+      "hypotheses": [
+        "A closed immersion of topoi i:Sh(D)→Sh(C)."
+      ],
+      "conclusions": [
+        "i_* is fully faithful; preserves surjections, coequalizers and pushouts; reflects injections, surjections and bijections."
+      ],
+      "logical_form": "properties",
+      "preface_key": "subtopos",
+      "hold_reason": ""
+    },
+    "lemma-push-pull-good-case": {
+      "hypotheses": [
+        "A continuous u:C→D with C having final X mapped to a final object of D and with C fibre products preserved by u; this gives the site morphism f:D→C."
+      ],
+      "conclusions": [
+        "The adjoint pullback/pushforward pair extends to sheaves (and presheaves) of algebraic structures, and commutes with the underlying set-valued sheaf (or presheaf)."
+      ],
+      "logical_form": "extension_of_adjunction",
+      "preface_key": "algebra",
+      "hold_reason": ""
+    },
+    "lemma-compute-global-sections": {
+      "hypotheses": [
+        "A site C, parallel arrows a,b:V→U whose associated representable sheaves coequalize to the final sheaf."
+      ],
+      "conclusions": [
+        "Global sections Γ(C,F) identify with the equalizer of a*,b*:F(U)⇒F(V)."
+      ],
+      "logical_form": "equalizer",
+      "preface_key": "",
+      "hold_reason": ""
+    },
+    "lemma-sieves-set": {
+      "hypotheses": [
+        "A category C and object U."
+      ],
+      "conclusions": [
+        "Sieves on U form a set, ordered by inclusion.",
+        "Unions, intersections and smallest generated sieves exist; the maximal sieve is h_U and the minimal sieve empty."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "topology",
+      "hold_reason": ""
+    },
+    "lemma-pullback-sieve-section": {
+      "hypotheses": [
+        "A category C, object U, sieve S and arrow f:V→U belonging to S."
+      ],
+      "conclusions": [
+        "The pullback sieve S×_U V is maximal, i.e. h_V."
+      ],
+      "logical_form": "implication",
+      "preface_key": "topology",
+      "hold_reason": ""
+    },
+    "lemma-topology-basic": {
+      "hypotheses": [
+        "A Grothendieck topology J on C and object U."
+      ],
+      "conclusions": [
+        "J(U) is closed under finite intersections and upward inclusion of sieves."
+      ],
+      "logical_form": "closure_properties",
+      "preface_key": "topology",
+      "hold_reason": ""
+    },
+    "lemma-play-with-topologies": {
+      "hypotheses": [
+        "A set-indexed family of topologies J_i on one category C."
+      ],
+      "conclusions": [
+        "Their pointwise intersection defines a topology.",
+        "There exists a coarsest topology finer than every J_i."
+      ],
+      "logical_form": "existence_construction",
+      "preface_key": "topology",
+      "hold_reason": ""
+    },
+    "lemma-topology-presheaves-sheaves": {
+      "hypotheses": [
+        "A collection of presheaves F_i on C and the sieves S whose restrictions remain bijective after every pullback V→U."
+      ],
+      "conclusions": [
+        "This assignment J of sieves is a Grothendieck topology, and is the finest topology for which every F_i is a sheaf."
+      ],
+      "logical_form": "universal_construction",
+      "preface_key": "topology",
+      "hold_reason": ""
+    },
+    "lemma-site-gives-topology": {
+      "hypotheses": [
+        "A site C; define J(U) as those sieves containing one generated by a covering family in the site."
+      ],
+      "conclusions": [
+        "J defines a Grothendieck topology on C.",
+        "A presheaf is a sheaf for J exactly when it is a sheaf for the original covering families of C."
+      ],
+      "logical_form": "equivalence_of_sheaf_conditions",
+      "preface_key": "topology",
+      "hold_reason": ""
+    },
+    "theorem-L-topology": {
+      "hypotheses": [
+        "A category C with Grothendieck topology J, and presheaf F of sets, using the covering-sieve colimit construction L."
+      ],
+      "conclusions": [
+        "LF is separated.",
+        "If F is separated, LF is a sheaf and F→LF is injective.",
+        "If F is a sheaf, F→LF is an isomorphism.",
+        "L(LF) is always a sheaf."
+      ],
+      "logical_form": "enumerated_assertions",
+      "preface_key": "L",
+      "hold_reason": ""
+    },
+    "proposition-sheafification-adjoint-topology": {
+      "hypotheses": [
+        "A category C with Grothendieck topology J, a presheaf F and a sheaf G."
+      ],
+      "conclusions": [
+        "Every map F→G factors uniquely through sheafification F→F# as a sheaf morphism F#→G."
+      ],
+      "logical_form": "universal_property",
+      "preface_key": "L",
+      "hold_reason": ""
+    },
+    "lemma-sieve-sheafification": {
+      "hypotheses": [
+        "A category C with topology J, an object U, and sieve S⊂h_U."
+      ],
+      "conclusions": [
+        "S is a covering sieve if and only if its sheafification S#→h_U# is an isomorphism."
+      ],
+      "logical_form": "equivalence",
+      "preface_key": "topology",
+      "hold_reason": ""
+    },
+    "theorem-topology-and-topos": {
+      "hypotheses": [
+        "A category C and two Grothendieck topologies J and J'."
+      ],
+      "conclusions": [
+        "J=J' if and only if the categories of sheaves for J and J' coincide."
+      ],
+      "logical_form": "equivalence",
+      "preface_key": "topology",
+      "hold_reason": ""
+    },
+    "lemma-finer-topology": {
+      "hypotheses": [
+        "A category C and two topologies J,J' on it."
+      ],
+      "conclusions": [
+        "J⊂J' if and only if every sheaf for the finer topology J' is a sheaf for J."
+      ],
+      "logical_form": "equivalence",
+      "preface_key": "topology",
+      "hold_reason": ""
+    }
+  }
+}
