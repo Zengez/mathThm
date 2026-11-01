@@ -11,37 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w3-b003",
-      "chapter": "algebra",
-      "sections": [
-        {
-          "chapter": "algebra",
-          "section_start_line": 6238,
-          "file": "work/stageb-parallel/worker-3/results/algebra/section-6238.jsonl",
-          "blob_sha": "0c946d65fa31d2b9251e681a8611e6b7d14e63d6"
-        },
-        {
-          "chapter": "algebra",
-          "section_start_line": 6445,
-          "file": "work/stageb-parallel/worker-3/results/algebra/section-6445.jsonl",
-          "blob_sha": "5e29802a26e29a694e1447485d05419d52fd868a"
-        },
-        {
-          "chapter": "algebra",
-          "section_start_line": 7434,
-          "file": "work/stageb-parallel/worker-3/results/algebra/section-7434.jsonl",
-          "blob_sha": "1256a4c46c497e94736ac30d3719faedd6ae14b9"
-        },
-        {
-          "chapter": "algebra",
-          "section_start_line": 10037,
-          "file": "work/stageb-parallel/worker-3/results/algebra/section-10037.jsonl",
-          "blob_sha": "bc8cfabb36cd0d101b72dc7ec6c7498576b041d8"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w3-b004",
       "chapter": "bootstrap",
       "sections": [
