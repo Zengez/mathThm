@@ -62,9 +62,9 @@
   "phase3_eligible_count": 0,
   "proofs_reviewed": 0,
   "previously_approved_ids_not_regenerated": [],
-  "stage_a_ready_for_codex_candidate_count": 19,
-  "stage_a_remaining_work_candidate_count": 9,
-  "stage_a_ready_for_codex_section_count": 2,
+  "stage_a_ready_for_codex_candidate_count": 25,
+  "stage_a_remaining_work_candidate_count": 3,
+  "stage_a_ready_for_codex_section_count": 7,
   "stage_a_work_pending": false,
   "stage_a_readiness_rule": "standalone_prepared_or_further_work_needed_v2",
   "processing_sections": [
@@ -91,7 +91,7 @@
       "section": 32,
       "kind": "candidates",
       "source_line": 7827,
-      "stage_a_readiness": "further_work_needed",
+      "stage_a_readiness": "ready_for_codex_validation",
       "stage_a_source_context_reviewed": true,
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [
@@ -102,9 +102,7 @@
         "candidate.stacks.e6e8f0c5b0c92b93e646054d",
         "candidate.stacks.f586cc75b9fd9ca6e3a39740"
       ],
-      "stage_a_held_candidate_ids": [
-        "candidate.stacks.cf3596b767fd338b8ff37e3f"
-      ],
+      "stage_a_held_candidate_ids": [],
       "stage_a_source_context_heading": "Points"
     },
     {
@@ -126,7 +124,7 @@
       "section": 34,
       "kind": "candidates",
       "source_line": 8506,
-      "stage_a_readiness": "further_work_needed",
+      "stage_a_readiness": "ready_for_codex_validation",
       "stage_a_source_context_reviewed": true,
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [
@@ -134,16 +132,14 @@
         "candidate.stacks.44e939a784206092bc8f5c1d",
         "candidate.stacks.b4c1c43be0593ff2f23f0110"
       ],
-      "stage_a_held_candidate_ids": [
-        "candidate.stacks.44e939a784206092bc8f5c1d"
-      ],
+      "stage_a_held_candidate_ids": [],
       "stage_a_source_context_heading": "Points and morphisms of topoi"
     },
     {
       "section": 35,
       "kind": "candidates",
       "source_line": 8660,
-      "stage_a_readiness": "further_work_needed",
+      "stage_a_readiness": "ready_for_codex_validation",
       "stage_a_source_context_reviewed": true,
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [
@@ -151,10 +147,7 @@
         "candidate.stacks.ab998e194607827ff2144181",
         "candidate.stacks.0af8b6d2d7c17046230f4d10"
       ],
-      "stage_a_held_candidate_ids": [
-        "candidate.stacks.ab998e194607827ff2144181",
-        "candidate.stacks.0af8b6d2d7c17046230f4d10"
-      ],
+      "stage_a_held_candidate_ids": [],
       "stage_a_source_context_heading": "Localization and points"
     },
     {
@@ -172,22 +165,20 @@
       "section": 37,
       "kind": "candidates",
       "source_line": 8959,
-      "stage_a_readiness": "further_work_needed",
+      "stage_a_readiness": "ready_for_codex_validation",
       "stage_a_source_context_reviewed": true,
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [
         "candidate.stacks.2ba9c92e2c528bcfad4f3edd"
       ],
-      "stage_a_held_candidate_ids": [
-        "candidate.stacks.2ba9c92e2c528bcfad4f3edd"
-      ],
+      "stage_a_held_candidate_ids": [],
       "stage_a_source_context_heading": "Morphisms between points"
     },
     {
       "section": 38,
       "kind": "candidates",
       "source_line": 9024,
-      "stage_a_readiness": "further_work_needed",
+      "stage_a_readiness": "ready_for_codex_validation",
       "stage_a_source_context_reviewed": true,
       "stage_a_source_context_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
       "stage_a_candidate_ids": [
@@ -197,9 +188,7 @@
         "candidate.stacks.aa11d54610d63dd7f744ab33",
         "candidate.stacks.a890d0752a8fb5e143e3ff6c"
       ],
-      "stage_a_held_candidate_ids": [
-        "candidate.stacks.6613c4069af491a86c046604"
-      ],
+      "stage_a_held_candidate_ids": [],
       "stage_a_source_context_heading": "Sites with enough points"
     },
     {
