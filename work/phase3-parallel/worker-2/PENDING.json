@@ -11,67 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w2-b008",
-      "chapter": "discriminant",
-      "sections": [
-        {
-          "chapter": "discriminant",
-          "section_start_line": 80,
-          "file": "work/stageb-parallel/worker-2/results/discriminant/section-80.jsonl",
-          "blob_sha": "dbf7aaf79a035a38a7900c30ff09ef6626b02eb6"
-        },
-        {
-          "chapter": "discriminant",
-          "section_start_line": 1051,
-          "file": "work/stageb-parallel/worker-2/results/discriminant/section-1051.jsonl",
-          "blob_sha": "e18b042c415e88f3ce9ce176b8c1e7f0799e2ac3"
-        },
-        {
-          "chapter": "discriminant",
-          "section_start_line": 1417,
-          "file": "work/stageb-parallel/worker-2/results/discriminant/section-1417.jsonl",
-          "blob_sha": "b718008eb48bb9f0b6c28fa9b5d0f9d527dc6950"
-        },
-        {
-          "chapter": "discriminant",
-          "section_start_line": 1518,
-          "file": "work/stageb-parallel/worker-2/results/discriminant/section-1518.jsonl",
-          "blob_sha": "62ec1c8957f8ca38caa03460862532bd3544d2ec"
-        },
-        {
-          "chapter": "discriminant",
-          "section_start_line": 1780,
-          "file": "work/stageb-parallel/worker-2/results/discriminant/section-1780.jsonl",
-          "blob_sha": "6d2d79a1740abb19fc6a8b183997ee7070d3aafa"
-        },
-        {
-          "chapter": "discriminant",
-          "section_start_line": 2057,
-          "file": "work/stageb-parallel/worker-2/results/discriminant/section-2057.jsonl",
-          "blob_sha": "01aaa09c26d651c473f3322b1346c80ca42b965f"
-        },
-        {
-          "chapter": "discriminant",
-          "section_start_line": 2345,
-          "file": "work/stageb-parallel/worker-2/results/discriminant/section-2345.jsonl",
-          "blob_sha": "3a683c29cb9fc9c81be6cf7dbf7ddb03b936ace9"
-        },
-        {
-          "chapter": "discriminant",
-          "section_start_line": 2960,
-          "file": "work/stageb-parallel/worker-2/results/discriminant/section-2960.jsonl",
-          "blob_sha": "c5b2ee1a20b3f94d724473193b3378bb4c8b2094"
-        },
-        {
-          "chapter": "discriminant",
-          "section_start_line": 3284,
-          "file": "work/stageb-parallel/worker-2/results/discriminant/section-3284.jsonl",
-          "blob_sha": "d024881011b275aa9cad33f936b0d8e3809909fb"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w2-b009",
       "chapter": "dpa",
       "sections": [
