@@ -11,49 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w2-b012",
-      "chapter": "duality",
-      "sections": [
-        {
-          "chapter": "duality",
-          "section_start_line": 7501,
-          "file": "work/stageb-parallel/worker-2/results/duality/section-7501.jsonl",
-          "blob_sha": "3bce37ad49d25217bb409d7c6c5a902761b7fe67"
-        },
-        {
-          "chapter": "duality",
-          "section_start_line": 7678,
-          "file": "work/stageb-parallel/worker-2/results/duality/section-7678.jsonl",
-          "blob_sha": "f4cf58c5f51c399696bda4202000010fa2494007"
-        },
-        {
-          "chapter": "duality",
-          "section_start_line": 8236,
-          "file": "work/stageb-parallel/worker-2/results/duality/section-8236.jsonl",
-          "blob_sha": "9dea9160cc70d6dc99e180ba4b15b36a230171c4"
-        },
-        {
-          "chapter": "duality",
-          "section_start_line": 8449,
-          "file": "work/stageb-parallel/worker-2/results/duality/section-8449.jsonl",
-          "blob_sha": "dd24900f69a84c40e4574763fc58c0a8f42c8559"
-        },
-        {
-          "chapter": "duality",
-          "section_start_line": 8843,
-          "file": "work/stageb-parallel/worker-2/results/duality/section-8843.jsonl",
-          "blob_sha": "effd1bfc33816afbba4bde85d289b73d3e9fb450"
-        },
-        {
-          "chapter": "duality",
-          "section_start_line": 9100,
-          "file": "work/stageb-parallel/worker-2/results/duality/section-9100.jsonl",
-          "blob_sha": "a218fa7c36e5ab3bf0794319e37605ab59df62d1"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w2-b013",
       "chapter": "equiv",
       "sections": [
