@@ -32,3 +32,7 @@ The remaining named `equation-relocalize` is not found in `sites.tex` outside ma
 `MANIFEST.json` records counts and exclusions; `A0_WORKPACKETS_V2.jsonl` preserves original pinned source statement, source/candidate ID, structural cues and exact same-file reference targets; `CONTEXT_LEDGER.jsonl` contains source-introduction and noninheritance guards; `SECTION_CHECKPOINTS.jsonl` covers all sections.
 
 **Next:** Resolve cross-file source refs, verify active/approved candidate IDs, then perform Stage A1 source-specific mathematical reconstruction for complete sections in order, without treating A0 cues as semantic validation. Only then set `reconstruction_completed_awaiting_independent_stage_b_validation` or an evidence-based `further_work_needed`.
+
+## Follow-up status — Stage A1 complete on same isolated branch
+
+This report records the earlier **A0 snapshot**, before mathematical Stage A1 reconstruction. Subsequently the six source-order A1 batches covered all 52 sections and all 137 active candidates. **133** received `reconstruction_completed_awaiting_independent_stage_b_validation`; **4** received `further_work_needed`; **0** remain unprocessed. The source-only A0 counters above intentionally remain A0 counters, not stage-wide readiness counters. For the final audited Stage A1 results, consult `harvest/phase2_chat_stage_a/sites/CHAPTER_COMPLETION_REPORT.md` and `CHAPTER_MANIFEST.json`. No independent Stage B validation has occurred.
