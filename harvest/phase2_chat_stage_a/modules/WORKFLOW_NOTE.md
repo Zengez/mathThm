@@ -1,3 +1,3 @@
-# Modules Stage A workflow status
+# Modules Stage A status
 
-Source-first chapter pass complete: 31 sections, 110 eligible active candidates, 109 standalone prepared for independent Stage B, 1 documented further-work hold. See [CHAPTER_COMPLETION_REPORT.md](CHAPTER_COMPLETION_REPORT.md) and [CHAPTER_MANIFEST.json](CHAPTER_MANIFEST.json). Independent Stage B validations: 0. The isolated branch remains unmerged.
+**Complete source-order preparation** of pinned `modules.tex`: 31/31 physical sections reviewed, 110/110 canonical active candidates dispositioned; **108** standalone-prepared for independent Codex Stage B; **2** `further_work_needed` source holds; **0** unprocessed candidates. See [CHAPTER_COMPLETION_REPORT.md](CHAPTER_COMPLETION_REPORT.md) and [CHAPTER_MANIFEST.json](CHAPTER_MANIFEST.json). This branch is isolated and unmerged; independent Stage B approvals remain zero.

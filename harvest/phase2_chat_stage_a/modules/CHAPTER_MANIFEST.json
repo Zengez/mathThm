@@ -12,8 +12,8 @@
   "excluded_nonactive_source_count": 9,
   "previous_authoritative_approvals_overlapping_this_chapter": 0,
   "stage_a_dispositioned_candidate_count": 110,
-  "stage_a_ready_for_codex_candidate_count": 109,
-  "stage_a_further_work_candidate_count": 1,
+  "stage_a_ready_for_codex_candidate_count": 108,
+  "stage_a_further_work_candidate_count": 2,
   "stage_a_unprocessed_active_candidate_count": 0,
   "stage_a_source_context_reviewed_section_count": 31,
   "independent_stage_b_validation_count": 0,
@@ -150,6 +150,14 @@
       "source_line": 4618,
       "reason": "Pinned modules.tex §27 L4618–4650 item (1) says the images of S become invertible sections of O_X itself. For X a point, O_X=Z, and S={2^n}, this fails. The intended codomain is presumably S^{-1}O_X; source correction or explicit adjudication is required before standalone certification.",
       "packet_path": "harvest/phase2_chat_stage_a/modules/batch_03_sections_21_31/RECONSTRUCTIONS.jsonl"
+    },
+    {
+      "candidate_id": "candidate.stacks.6dab3593549aee4d9a9dd962",
+      "label": "lemma-rank",
+      "section_ordinal": 14,
+      "source_line": 2124,
+      "reason": "The source claims the cardinality of every local basis index set equals a value in {0,1,2,...}∪{∞}, although the definition of locally free allows arbitrary cardinalities. Over a point with a field and an uncountably generated free module, the cardinality is an uncountable cardinal, not literally ∞. Clarify whether ∞ denotes every infinite cardinal or change the range and statement.",
+      "packet_path": "harvest/phase2_chat_stage_a/modules/batch_02_sections_11_20/RECONSTRUCTIONS.jsonl"
     }
   ],
   "batches": [
@@ -165,8 +173,8 @@
       "batch": "batch_02_sections_11_20",
       "sections": 10,
       "active": 40,
-      "ready": 40,
-      "held": 0,
+      "ready": 39,
+      "held": 1,
       "contexts": 13
     },
     {
@@ -186,7 +194,8 @@
     "no_proof_markers_in_standalone_statements": true,
     "all_independent_validation_not_started": true,
     "all_phase3_flags_false": true,
-    "repository_regression_suite_run": false
+    "repository_regression_suite_run": false,
+    "source_ambiguities_held_instead_of_corrected": true
   },
   "notes": [
     "Source-first standalone draft preparation; independent Stage B must check mathematical equivalence, especially new contextual substitutions.",

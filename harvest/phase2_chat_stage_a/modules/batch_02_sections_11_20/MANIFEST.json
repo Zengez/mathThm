@@ -54,8 +54,8 @@
   "source_sections_without_active_candidates": [
     15
   ],
-  "stage_a_ready_for_codex_candidate_count": 40,
-  "stage_a_further_work_candidate_count": 0,
+  "stage_a_ready_for_codex_candidate_count": 39,
+  "stage_a_further_work_candidate_count": 1,
   "stage_a_unprocessed_candidate_count": 0,
   "stage_a_work_pending": false,
   "independent_stage_b_count": 0,
@@ -119,7 +119,7 @@
       "section": 14,
       "source_line": 2070,
       "kind": "candidates",
-      "stage_a_readiness": "ready_for_codex_validation",
+      "stage_a_readiness": "mixed_further_work_needed",
       "stage_a_source_context_reviewed": true,
       "stage_a_candidate_ids": [
         "candidate.stacks.44c5d6b396e2fed4282b9d58",
@@ -128,7 +128,9 @@
         "candidate.stacks.12c65f7cb89bb7277b3cf12b",
         "candidate.stacks.bcddfcdd856e87026ffedfb8"
       ],
-      "stage_a_held_candidate_ids": [],
+      "stage_a_held_candidate_ids": [
+        "candidate.stacks.6dab3593549aee4d9a9dd962"
+      ],
       "stage_a_source_context_heading": "Locally free sheaves"
     },
     {
