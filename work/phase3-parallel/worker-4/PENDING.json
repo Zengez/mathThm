@@ -11,37 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w4-b018",
-      "chapter": "functors",
-      "sections": [
-        {
-          "chapter": "functors",
-          "section_start_line": 33,
-          "file": "work/stageb-parallel/worker-4/results/functors/section-33.jsonl",
-          "blob_sha": "6ed72271fd734769599ed1b39cd1227086fcdf86"
-        },
-        {
-          "chapter": "functors",
-          "section_start_line": 439,
-          "file": "work/stageb-parallel/worker-4/results/functors/section-439.jsonl",
-          "blob_sha": "01a615512ad691b98c8f10b2c4c60694cfe07f99"
-        },
-        {
-          "chapter": "functors",
-          "section_start_line": 706,
-          "file": "work/stageb-parallel/worker-4/results/functors/section-706.jsonl",
-          "blob_sha": "ad0574f17e7ce98c84692cc4ae964dd59708ceb8"
-        },
-        {
-          "chapter": "functors",
-          "section_start_line": 1500,
-          "file": "work/stageb-parallel/worker-4/results/functors/section-1500.jsonl",
-          "blob_sha": "834b363c577cd63cfdcd47e19834a2f5636dbc2b"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w4-b019",
       "chapter": "injectives",
       "sections": [
