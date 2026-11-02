@@ -11,31 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w1-b026",
-      "chapter": "sites",
-      "sections": [
-        {
-          "chapter": "sites",
-          "section_start_line": 11220,
-          "file": "work/stageb-parallel/worker-1/results/sites/section-11220.jsonl",
-          "blob_sha": "74e78eae8168d21c37781b3168d55470aa925265"
-        },
-        {
-          "chapter": "sites",
-          "section_start_line": 11439,
-          "file": "work/stageb-parallel/worker-1/results/sites/section-11439.jsonl",
-          "blob_sha": "3b119ea7eba5da3fe057388c6988bc6a9e43f417"
-        },
-        {
-          "chapter": "sites",
-          "section_start_line": 11682,
-          "file": "work/stageb-parallel/worker-1/results/sites/section-11682.jsonl",
-          "blob_sha": "a7f85c0ddd5eb8c2870f3d1f734b3a87028eeb52"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w1-b027",
       "chapter": "spaces-morphisms",
       "sections": [
