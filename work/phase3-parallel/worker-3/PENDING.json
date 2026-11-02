@@ -11,43 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w3-b024",
-      "chapter": "sets",
-      "sections": [
-        {
-          "chapter": "sets",
-          "section_start_line": 117,
-          "file": "work/stageb-parallel/worker-3/results/sets/section-117.jsonl",
-          "blob_sha": "c4daa8c50534bb93a954e87034e1f7a11afd5d4d"
-        },
-        {
-          "chapter": "sets",
-          "section_start_line": 178,
-          "file": "work/stageb-parallel/worker-3/results/sets/section-178.jsonl",
-          "blob_sha": "9ef815fbfbf0344a107a07737074c58442b21dc1"
-        },
-        {
-          "chapter": "sets",
-          "section_start_line": 242,
-          "file": "work/stageb-parallel/worker-3/results/sets/section-242.jsonl",
-          "blob_sha": "7948006c03e2645a64cfceb663315ae6ff9c4f30"
-        },
-        {
-          "chapter": "sets",
-          "section_start_line": 310,
-          "file": "work/stageb-parallel/worker-3/results/sets/section-310.jsonl",
-          "blob_sha": "9f433a157118fc95f6ee81182bde22e951b09179"
-        },
-        {
-          "chapter": "sets",
-          "section_start_line": 1124,
-          "file": "work/stageb-parallel/worker-3/results/sets/section-1124.jsonl",
-          "blob_sha": "d0693b13543cd698e823e444e443992a811556de"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w3-b025",
       "chapter": "sites-cohomology",
       "sections": [
