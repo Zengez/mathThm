@@ -11,49 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w4-b017",
-      "chapter": "formal-spaces",
-      "sections": [
-        {
-          "chapter": "formal-spaces",
-          "section_start_line": 5470,
-          "file": "work/stageb-parallel/worker-4/results/formal-spaces/section-5470.jsonl",
-          "blob_sha": "031ec94607fe3e0ab7c183a24c49324f334c18af"
-        },
-        {
-          "chapter": "formal-spaces",
-          "section_start_line": 5786,
-          "file": "work/stageb-parallel/worker-4/results/formal-spaces/section-5786.jsonl",
-          "blob_sha": "3bfe261ea8cd854cb01c31632dab617cba0f2219"
-        },
-        {
-          "chapter": "formal-spaces",
-          "section_start_line": 5859,
-          "file": "work/stageb-parallel/worker-4/results/formal-spaces/section-5859.jsonl",
-          "blob_sha": "56ebf2366b76f5871a7a2c1f2085b3519a67b0b9"
-        },
-        {
-          "chapter": "formal-spaces",
-          "section_start_line": 6569,
-          "file": "work/stageb-parallel/worker-4/results/formal-spaces/section-6569.jsonl",
-          "blob_sha": "4938a63624510293f8c9f1192d65cd1423f578d2"
-        },
-        {
-          "chapter": "formal-spaces",
-          "section_start_line": 6772,
-          "file": "work/stageb-parallel/worker-4/results/formal-spaces/section-6772.jsonl",
-          "blob_sha": "d4edf5069e85991f3762f2bbc2ba0103741453db"
-        },
-        {
-          "chapter": "formal-spaces",
-          "section_start_line": 6827,
-          "file": "work/stageb-parallel/worker-4/results/formal-spaces/section-6827.jsonl",
-          "blob_sha": "46e5257a5ca66c8fc8a9d51152e4163ac9daa9ec"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w4-b018",
       "chapter": "functors",
       "sections": [
