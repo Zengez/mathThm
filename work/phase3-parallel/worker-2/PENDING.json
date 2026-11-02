@@ -11,49 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w2-b025",
-      "chapter": "more-algebra",
-      "sections": [
-        {
-          "chapter": "more-algebra",
-          "section_start_line": 9427,
-          "file": "work/stageb-parallel/worker-2/results/more-algebra/section-9427.jsonl",
-          "blob_sha": "adb3917fa7df65de424324a83b9cae7164738219"
-        },
-        {
-          "chapter": "more-algebra",
-          "section_start_line": 9694,
-          "file": "work/stageb-parallel/worker-2/results/more-algebra/section-9694.jsonl",
-          "blob_sha": "265d9166d060c58b827089649a6bba75e37d8710"
-        },
-        {
-          "chapter": "more-algebra",
-          "section_start_line": 9860,
-          "file": "work/stageb-parallel/worker-2/results/more-algebra/section-9860.jsonl",
-          "blob_sha": "738623a27a8f7a9105f10a6841eb5879f3b9d928"
-        },
-        {
-          "chapter": "more-algebra",
-          "section_start_line": 10360,
-          "file": "work/stageb-parallel/worker-2/results/more-algebra/section-10360.jsonl",
-          "blob_sha": "8b191e0913681a7e1d01a8e57363ed35aa07308f"
-        },
-        {
-          "chapter": "more-algebra",
-          "section_start_line": 10524,
-          "file": "work/stageb-parallel/worker-2/results/more-algebra/section-10524.jsonl",
-          "blob_sha": "c53811d3e8529827fc81b02102847d2de29bf6b0"
-        },
-        {
-          "chapter": "more-algebra",
-          "section_start_line": 10609,
-          "file": "work/stageb-parallel/worker-2/results/more-algebra/section-10609.jsonl",
-          "blob_sha": "440e7edef0e09442c145c35a5f3fb1408abad6ff"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w2-b026",
       "chapter": "properties",
       "sections": [
