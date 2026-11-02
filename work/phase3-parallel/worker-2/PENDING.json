@@ -11,49 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w2-b021",
-      "chapter": "moduli-curves",
-      "sections": [
-        {
-          "chapter": "moduli-curves",
-          "section_start_line": 152,
-          "file": "work/stageb-parallel/worker-2/results/moduli-curves/section-152.jsonl",
-          "blob_sha": "00e0e3df28003aee8c0931481a4b1fa7c18fb774"
-        },
-        {
-          "chapter": "moduli-curves",
-          "section_start_line": 544,
-          "file": "work/stageb-parallel/worker-2/results/moduli-curves/section-544.jsonl",
-          "blob_sha": "66115d2be637226f75dd6b63c0d23f13c9bd62ea"
-        },
-        {
-          "chapter": "moduli-curves",
-          "section_start_line": 1513,
-          "file": "work/stageb-parallel/worker-2/results/moduli-curves/section-1513.jsonl",
-          "blob_sha": "6e5b533a2ed8b518a1b59345c36af30373978c89"
-        },
-        {
-          "chapter": "moduli-curves",
-          "section_start_line": 2391,
-          "file": "work/stageb-parallel/worker-2/results/moduli-curves/section-2391.jsonl",
-          "blob_sha": "b30621702a3f66d9eb7c7ace94ab5ee0c116c13b"
-        },
-        {
-          "chapter": "moduli-curves",
-          "section_start_line": 2625,
-          "file": "work/stageb-parallel/worker-2/results/moduli-curves/section-2625.jsonl",
-          "blob_sha": "aa89e83a515fe8f543b01d15bb25dcdf9d128522"
-        },
-        {
-          "chapter": "moduli-curves",
-          "section_start_line": 3222,
-          "file": "work/stageb-parallel/worker-2/results/moduli-curves/section-3222.jsonl",
-          "blob_sha": "44fc65c5d0c664a3653ddaeedaa8db0ea209963c"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w2-b022",
       "chapter": "more-algebra",
       "sections": [
