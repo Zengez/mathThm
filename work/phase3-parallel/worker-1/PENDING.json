@@ -11,43 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w1-b010",
-      "chapter": "derham",
-      "sections": [
-        {
-          "chapter": "derham",
-          "section_start_line": 121,
-          "file": "work/stageb-parallel/worker-1/results/derham/section-121.jsonl",
-          "blob_sha": "114f6aa6a667e495c0b142b59bdf1a0eeb76865f"
-        },
-        {
-          "chapter": "derham",
-          "section_start_line": 2578,
-          "file": "work/stageb-parallel/worker-1/results/derham/section-2578.jsonl",
-          "blob_sha": "e1f991b0c7b94708e0d45ad2c0f821e457e4b74a"
-        },
-        {
-          "chapter": "derham",
-          "section_start_line": 3773,
-          "file": "work/stageb-parallel/worker-1/results/derham/section-3773.jsonl",
-          "blob_sha": "96dcd7007cc1c79846020caa10a1e59bf3c1b4dc"
-        },
-        {
-          "chapter": "derham",
-          "section_start_line": 5177,
-          "file": "work/stageb-parallel/worker-1/results/derham/section-5177.jsonl",
-          "blob_sha": "516f9cf131ee8a9df2a242a41cb7bbb38c90d64d"
-        },
-        {
-          "chapter": "derham",
-          "section_start_line": 5622,
-          "file": "work/stageb-parallel/worker-1/results/derham/section-5622.jsonl",
-          "blob_sha": "4d341103b601ec5f73c7cf362185b519a3d754b2"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w1-b011",
       "chapter": "dga",
       "sections": [
