@@ -11,55 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w1-b030",
-      "chapter": "spaces-morphisms",
-      "sections": [
-        {
-          "chapter": "spaces-morphisms",
-          "section_start_line": 8559,
-          "file": "work/stageb-parallel/worker-1/results/spaces-morphisms/section-8559.jsonl",
-          "blob_sha": "88c8f813e873c06624c129b4e9650f47dafd05ee"
-        },
-        {
-          "chapter": "spaces-morphisms",
-          "section_start_line": 8961,
-          "file": "work/stageb-parallel/worker-1/results/spaces-morphisms/section-8961.jsonl",
-          "blob_sha": "ade9072200a1a22c3e6ea1ffaeec85e0490db147"
-        },
-        {
-          "chapter": "spaces-morphisms",
-          "section_start_line": 9069,
-          "file": "work/stageb-parallel/worker-1/results/spaces-morphisms/section-9069.jsonl",
-          "blob_sha": "d032a11556d12575a1b1306b4b512b35e246e672"
-        },
-        {
-          "chapter": "spaces-morphisms",
-          "section_start_line": 9108,
-          "file": "work/stageb-parallel/worker-1/results/spaces-morphisms/section-9108.jsonl",
-          "blob_sha": "7f4de14bb0e7e6a8f7c508afe9dae86f3083ec6c"
-        },
-        {
-          "chapter": "spaces-morphisms",
-          "section_start_line": 9338,
-          "file": "work/stageb-parallel/worker-1/results/spaces-morphisms/section-9338.jsonl",
-          "blob_sha": "38adf04841e9c236b31141f507cacfeb3e84c076"
-        },
-        {
-          "chapter": "spaces-morphisms",
-          "section_start_line": 9496,
-          "file": "work/stageb-parallel/worker-1/results/spaces-morphisms/section-9496.jsonl",
-          "blob_sha": "1bcd7857f86746717fd44e07f1baf13ad08c65a5"
-        },
-        {
-          "chapter": "spaces-morphisms",
-          "section_start_line": 9710,
-          "file": "work/stageb-parallel/worker-1/results/spaces-morphisms/section-9710.jsonl",
-          "blob_sha": "2a1ff972265885f9339c34d4ecda832fb95dee74"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w1-b031",
       "chapter": "stacks",
       "sections": [
