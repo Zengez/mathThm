@@ -11,67 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w4-b023",
-      "chapter": "quot",
-      "sections": [
-        {
-          "chapter": "quot",
-          "section_start_line": 176,
-          "file": "work/stageb-parallel/worker-4/results/quot/section-176.jsonl",
-          "blob_sha": "5cd9113eefb8d7a4620ff2039c54f1a35c96c531"
-        },
-        {
-          "chapter": "quot",
-          "section_start_line": 869,
-          "file": "work/stageb-parallel/worker-4/results/quot/section-869.jsonl",
-          "blob_sha": "11f09020b208b61a7333264b556e55c723844dab"
-        },
-        {
-          "chapter": "quot",
-          "section_start_line": 1538,
-          "file": "work/stageb-parallel/worker-4/results/quot/section-1538.jsonl",
-          "blob_sha": "611fe28d332fe2120b6eb65154112e269ba9610f"
-        },
-        {
-          "chapter": "quot",
-          "section_start_line": 1663,
-          "file": "work/stageb-parallel/worker-4/results/quot/section-1663.jsonl",
-          "blob_sha": "35f35dcdf3c08b2e63a96b5febc59e423a6148e5"
-        },
-        {
-          "chapter": "quot",
-          "section_start_line": 2192,
-          "file": "work/stageb-parallel/worker-4/results/quot/section-2192.jsonl",
-          "blob_sha": "ad8f8876c3efe60e0644d53650ea2bdde6026d4b"
-        },
-        {
-          "chapter": "quot",
-          "section_start_line": 2429,
-          "file": "work/stageb-parallel/worker-4/results/quot/section-2429.jsonl",
-          "blob_sha": "ad45e488e7a98ee43f0361fc8a9b86965fc13ac8"
-        },
-        {
-          "chapter": "quot",
-          "section_start_line": 2591,
-          "file": "work/stageb-parallel/worker-4/results/quot/section-2591.jsonl",
-          "blob_sha": "65d05dca48da1b2d1016a87146c6f6b9d208fb2f"
-        },
-        {
-          "chapter": "quot",
-          "section_start_line": 3757,
-          "file": "work/stageb-parallel/worker-4/results/quot/section-3757.jsonl",
-          "blob_sha": "4aef8c8d08aa989b60c0e3841d2dd63315b2f5c3"
-        },
-        {
-          "chapter": "quot",
-          "section_start_line": 4879,
-          "file": "work/stageb-parallel/worker-4/results/quot/section-4879.jsonl",
-          "blob_sha": "21b97ce1b87859767a5a5cff7206d073539d603b"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w4-b024",
       "chapter": "sheaves",
       "sections": [
