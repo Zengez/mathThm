@@ -11,43 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w1-b015",
-      "chapter": "examples-stacks",
-      "sections": [
-        {
-          "chapter": "examples-stacks",
-          "section_start_line": 185,
-          "file": "work/stageb-parallel/worker-1/results/examples-stacks/section-185.jsonl",
-          "blob_sha": "46d49acf539441ae3db34f3b18e3e45a5e3b022c"
-        },
-        {
-          "chapter": "examples-stacks",
-          "section_start_line": 319,
-          "file": "work/stageb-parallel/worker-1/results/examples-stacks/section-319.jsonl",
-          "blob_sha": "230b0c19ea9f4c1ad4d5ea8d8977b64d67c88271"
-        },
-        {
-          "chapter": "examples-stacks",
-          "section_start_line": 785,
-          "file": "work/stageb-parallel/worker-1/results/examples-stacks/section-785.jsonl",
-          "blob_sha": "d202d6b48931f86334af1da95fbe837032e94dc8"
-        },
-        {
-          "chapter": "examples-stacks",
-          "section_start_line": 1191,
-          "file": "work/stageb-parallel/worker-1/results/examples-stacks/section-1191.jsonl",
-          "blob_sha": "471e27db09a946ee3e10fb7a34fce80e200d4a4d"
-        },
-        {
-          "chapter": "examples-stacks",
-          "section_start_line": 1705,
-          "file": "work/stageb-parallel/worker-1/results/examples-stacks/section-1705.jsonl",
-          "blob_sha": "25f67906df301354177e1bb0bd7e9e5b6386d52b"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w1-b016",
       "chapter": "hypercovering",
       "sections": [
