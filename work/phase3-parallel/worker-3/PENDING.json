@@ -11,55 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w3-b019",
-      "chapter": "formal-defos",
-      "sections": [
-        {
-          "chapter": "formal-defos",
-          "section_start_line": 1888,
-          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-1888.jsonl",
-          "blob_sha": "bc23af40a33a94c872d9da013b999215558d91e2"
-        },
-        {
-          "chapter": "formal-defos",
-          "section_start_line": 3109,
-          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-3109.jsonl",
-          "blob_sha": "a7cc36791a73036b3fda429973a2af0728ffcb20"
-        },
-        {
-          "chapter": "formal-defos",
-          "section_start_line": 3425,
-          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-3425.jsonl",
-          "blob_sha": "5416ef2ffb859d2c598b7581e2ae8ef44fbfd40c"
-        },
-        {
-          "chapter": "formal-defos",
-          "section_start_line": 4770,
-          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-4770.jsonl",
-          "blob_sha": "d30681bcaab3733ea8b0c4874a5c24d2e60ff27e"
-        },
-        {
-          "chapter": "formal-defos",
-          "section_start_line": 5563,
-          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-5563.jsonl",
-          "blob_sha": "2b4ebccf40005a533c6e899f8baaf562f7206512"
-        },
-        {
-          "chapter": "formal-defos",
-          "section_start_line": 5925,
-          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-5925.jsonl",
-          "blob_sha": "2314aa4362cda1398dc6923501d677094163425b"
-        },
-        {
-          "chapter": "formal-defos",
-          "section_start_line": 6488,
-          "file": "work/stageb-parallel/worker-3/results/formal-defos/section-6488.jsonl",
-          "blob_sha": "61ddf0d043e8539da23c86e3fb6dc8ff20e0d8a2"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w3-b020",
       "chapter": "groupoids-quotients",
       "sections": [
