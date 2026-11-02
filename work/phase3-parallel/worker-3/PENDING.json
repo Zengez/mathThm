@@ -11,67 +11,6 @@
   "safety_gate": "Phase 2 authoritative materialization is incomplete; workers may perform labeled preliminary proof inspection but not official Phase 3 admission without content-matching registered overlay",
   "pending": [
     {
-      "batch_id": "p3-w3-b028",
-      "chapter": "sites-cohomology",
-      "sections": [
-        {
-          "chapter": "sites-cohomology",
-          "section_start_line": 12032,
-          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-12032.jsonl",
-          "blob_sha": "b1c15de7e7353d74e2012afaa6563047238c043e"
-        },
-        {
-          "chapter": "sites-cohomology",
-          "section_start_line": 12370,
-          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-12370.jsonl",
-          "blob_sha": "cf2c6949aab04965fdcf4941bb83ef515cf6a0b3"
-        },
-        {
-          "chapter": "sites-cohomology",
-          "section_start_line": 12727,
-          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-12727.jsonl",
-          "blob_sha": "85fa20dfab167445dd7d6e6f34f39f0418347750"
-        },
-        {
-          "chapter": "sites-cohomology",
-          "section_start_line": 12924,
-          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-12924.jsonl",
-          "blob_sha": "9ed7db41bb5a097e19372c9115cedb40b36ca688"
-        },
-        {
-          "chapter": "sites-cohomology",
-          "section_start_line": 13453,
-          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-13453.jsonl",
-          "blob_sha": "265769732d1496395e41bba1c8e7f6e5952d83a9"
-        },
-        {
-          "chapter": "sites-cohomology",
-          "section_start_line": 13657,
-          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-13657.jsonl",
-          "blob_sha": "55875bc2ad889c59bb9b6d256d3143699a5f62cd"
-        },
-        {
-          "chapter": "sites-cohomology",
-          "section_start_line": 13763,
-          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-13763.jsonl",
-          "blob_sha": "fa18afe989768aaba3b724e18c9701a1218fa7bc"
-        },
-        {
-          "chapter": "sites-cohomology",
-          "section_start_line": 13925,
-          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-13925.jsonl",
-          "blob_sha": "6ac01423f98af2d345e8251e048483b737f9d459"
-        },
-        {
-          "chapter": "sites-cohomology",
-          "section_start_line": 14235,
-          "file": "work/stageb-parallel/worker-3/results/sites-cohomology/section-14235.jsonl",
-          "blob_sha": "e0c585e1bb86cfdc0fde615ea42b494ed94a3158"
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p3-w3-b029",
       "chapter": "smoothing",
       "sections": [
