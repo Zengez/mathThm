@@ -11,45 +11,6 @@
   "initial_batches": 32,
   "pending": [
     {
-      "batch_id": "p2f-w4-b020",
-      "chapter": "more-algebra",
-      "candidate_count": 7,
-      "sections": [
-        {
-          "chapter": "more-algebra",
-          "section_start_line": 10524,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/more-algebra/section-10524.jsonl",
-          "stage_b_blob_sha": "c53811d3e8529827fc81b02102847d2de29bf6b0",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/more-algebra/section-10524.jsonl",
-          "phase3_review_blob_sha": "e8bbe0c1d1bf4b7faf1f36cb93a459da519cecb1",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/more-algebra/section-10524.jsonl",
-          "phase2_proposal_blob_sha": "e6f363a172959fa68b0b32ed95f18bb52bb14c44",
-          "candidate_ids": [
-            "candidate.stacks.17c74cbb2a6851ca72d466b0",
-            "candidate.stacks.6c22a2ee657d42287f30ad51",
-            "candidate.stacks.e5d2db1fe7e0d2f2af4acc27",
-            "candidate.stacks.0fb2d8008e3e49fe2d6711e8"
-          ]
-        },
-        {
-          "chapter": "more-algebra",
-          "section_start_line": 10609,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/more-algebra/section-10609.jsonl",
-          "stage_b_blob_sha": "440e7edef0e09442c145c35a5f3fb1408abad6ff",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/more-algebra/section-10609.jsonl",
-          "phase3_review_blob_sha": "4f84f9d6e996f94448e8ed9ea4b72d82f782f7f3",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/more-algebra/section-10609.jsonl",
-          "phase2_proposal_blob_sha": "e225afb80239bfc0e5ea9713d55dd12b48b62ee8",
-          "candidate_ids": [
-            "candidate.stacks.f440890a4d36a64330d66940",
-            "candidate.stacks.c932b09e8f99696683329afd",
-            "candidate.stacks.60d6387aaff8b43a8bd7fc61"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w4-b021",
       "chapter": "more-etale",
       "candidate_count": 35,
