@@ -24,7 +24,7 @@ from urllib.request import Request, urlopen
 TOTAL_LANES = 4
 USER_AGENT = "mathThm-Wikipedia-StageA/1.0 (https://github.com/Zengez/mathThm)"
 STOP_SECTIONS = re.compile(
-    r"(?i)^(?:proof(?:s|\s+.*)?|history|background|references|notes|"
+    r"(?i)^(?:proofs?(?:\s+.*)?|history|background|references|notes|"
     r"external links|further reading|see also|applications|examples|"
     r"generalizations|related results|discussion|derivation|"
     r"historical background|bibliography|sources)$")
@@ -69,13 +69,13 @@ def latex_alt(value: str) -> str:
 
 
 class TopText(HTMLParser):
-    """Read visible top article paragraphs (with math alttext) until proof/history."""
+    """Read prose, statement lists, and display equations before proof/history."""
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.blocks = []
         self.section = "Lead"
         self.parts = []
-        self.paragraph_depth = 0
+        self.capture = None
         self.heading = None
         self.heading_parts = []
         self.skip_depth = 0
@@ -96,23 +96,26 @@ class TopText(HTMLParser):
                     ("hatnote", "navbox", "thumb", "toc", "mw-references-wrap", "metadata"))):
             self.skip_depth = 1
             return
-        if tag in ("h2", "h3") and not self.paragraph_depth:
+        if tag in ("h2", "h3") and not self.capture:
             self.heading = tag
             self.heading_parts = []
             return
-        if tag == "p":
-            self.paragraph_depth += 1
-            if self.paragraph_depth == 1:
-                self.parts = []
+        if tag in ("p", "li") and not self.capture and not self.heading:
+            self.capture = tag
+            self.parts = []
             return
-        if tag == "math" and self.paragraph_depth:
+        if tag == "math":
             self.math_depth += 1
             if self.math_depth == 1:
-                self.parts.append(" " + latex_alt(att.get("alttext", "")) + " ")
+                latex = latex_alt(att.get("alttext", ""))
+                if latex and self.capture:
+                    self.parts.append(" " + latex + " ")
+                elif latex and not self.heading and len(self.blocks) < 20:
+                    self.blocks.append({"section": self.section,
+                                        "text": latex, "kind": "display_math"})
             return
-        if (tag == "img" and self.paragraph_depth and not self.math_depth
-                and "mwe-math-fallback-image" in klass):
-            self.parts.append(" " + latex_alt(att.get("alt", "")) + " ")
+        # MathML and fallback image usually render the same formula.
+        # Only read the MathML alttext once, not the duplicate fallback <img>.
 
     def handle_endtag(self, tag):
         if self.stopped:
@@ -131,20 +134,20 @@ class TopText(HTMLParser):
                 self.section = heading[:130]
             self.heading = None
             return
-        if tag == "p" and self.paragraph_depth:
-            self.paragraph_depth -= 1
-            if not self.paragraph_depth:
-                paragraph = clean_text("".join(self.parts))
-                if len(paragraph) >= 24 and len(self.blocks) < 16:
-                    self.blocks.append({"section": self.section,
-                                        "text": paragraph[:2500]})
+        if tag == self.capture:
+            paragraph = clean_text("".join(self.parts))
+            if len(paragraph) >= (10 if tag == "li" else 24) and len(self.blocks) < 20:
+                self.blocks.append({"section": self.section,
+                                    "text": paragraph[:2500], "kind": tag})
+            self.capture = None
+            self.parts = []
 
     def handle_data(self, data):
         if self.stopped or self.skip_depth or self.math_depth:
             return
         if self.heading:
             self.heading_parts.append(data)
-        elif self.paragraph_depth:
+        elif self.capture:
             self.parts.append(data)
 
 
@@ -203,7 +206,7 @@ def snippet(blocks: list[dict]) -> tuple[str, str, str]:
         if size >= 4600 or len(selected) >= 10:
             break
         item = block["text"][:1600]
-        selected.append({"section": block["section"], "text": item})
+        selected.append({"section": block["section"], "text": item, "kind": block.get("kind", "p")})
         size += len(item)
     excerpt = "\n\n".join(
         ("[" + p["section"] + "] " if p["section"] != "Lead" else "") + p["text"]
@@ -215,24 +218,38 @@ def snippet(blocks: list[dict]) -> tuple[str, str, str]:
         score += int(bool(re.search(r"(?i)^(if|let|suppose|assume|for every|for any|given)\b", p))) * 4
         score += int(bool(re.search(r"(?i)\b(stated? as follows|formulated as|can be written)\b", p))) * 2
         score += int("$" in p) * 2
+        score += int(bool(re.search(r"(?i)\bthen\b|if and only if|\biff\b", p))) * 7
+        score += int(bool(re.search(r"(?i)^(?:let|suppose|assume|if)\b", p))) * 3
+        score -= int(p.endswith(":") and i+1 < len(selected)) * 10
+        score -= int(block["kind"] == "display_math" and i == 0) * 3
         score += int(bool(re.search(r"(?i)statement|formulation|theorem", block["section"]))) * 2
         score -= int(bool(re.search(r"(?i)^in (?:mathematics|physics),? \w+ is a (?:type|class|branch)", p))) * 3
         score -= i  # Earlier introduction preferred to later consequences.
         scores.append(score)
-    best = selected[max(range(len(selected)), key=scores.__getitem__)]
-    return excerpt, best["text"], best["section"]
+    best_idx = max(range(len(selected)), key=scores.__getitem__)
+    best = selected[best_idx]
+    statement = best["text"]
+    if statement.endswith(":") and best_idx + 1 < len(selected):
+        following = selected[best_idx + 1]
+        if following["kind"] in ("display_math", "li"):
+            statement += " " + following["text"]
+    return excerpt, statement, best["section"]
 
 
 def mechanical_split(statement: str) -> tuple[list[str], list[str], str]:
     """Only syntax-first splits; never claim these are validated mathematically."""
     if not statement or len(statement) > 1100:
         return [], [], "needs_interpretation"
+    if len(re.findall(r"[.!?](?:\\s|$)", statement)) > 1:
+        return [], [], "needs_interpretation"
     for pattern in (EXACT_IF_THEN, EXACT_LET_THEN):
         match = pattern.match(statement)
         if match:
             hyp = clean_text(match.group("h")).rstrip(".; ")
             con = clean_text(match.group("c")).rstrip(".; ")
-            if (len(hyp) >= 12 and len(con) >= 12 and
+            if (len(hyp) >= 12 and len(con) >= 18 and
+                    not re.search(r"(?i)^(?:the following|following|the above|as follows|an inequality holds|these are equivalent)", con) and
+                    not con.endswith(":") and
                     not re.search(r"\b(?:however|although|whereas)\b", hyp, flags=re.I)):
                 return [hyp], [con], "mechanical_suggestion"
     return [], [], "needs_interpretation"
