@@ -1,0 +1,86 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b003",
+  "chapter": "algebra",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-independent-chat",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 6,
+  "approved_count": 6,
+  "held_count": 0,
+  "section_count": 5,
+  "candidate_ids": [
+    "candidate.stacks.2ce3210ff230afbd75eefe2c",
+    "candidate.stacks.1daa0aa9357247b1eb42ca89",
+    "candidate.stacks.fe047be9413f9f5890a1da7c",
+    "candidate.stacks.aaf5a5c35904ed6e6ee3cdc8",
+    "candidate.stacks.2f885f292778819c1709e436",
+    "candidate.stacks.0e4cf48234883d64e8f49858"
+  ],
+  "held_candidate_ids": [],
+  "decision_files": [
+    {
+      "chapter": "algebra",
+      "section_start_line": 5721,
+      "candidate_ids": [
+        "candidate.stacks.2ce3210ff230afbd75eefe2c",
+        "candidate.stacks.1daa0aa9357247b1eb42ca89"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-5721.jsonl",
+      "decision_blob_sha": "5f0eea856170d37f3c257543856f6e00e1e53205",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 6238,
+      "candidate_ids": [
+        "candidate.stacks.fe047be9413f9f5890a1da7c"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-6238.jsonl",
+      "decision_blob_sha": "d0b862b16f8f198f11d3274f7791f1610214e75d",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 6445,
+      "candidate_ids": [
+        "candidate.stacks.aaf5a5c35904ed6e6ee3cdc8"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-6445.jsonl",
+      "decision_blob_sha": "7dd96d9fd88c3391cdd52510a40403576b792b3e",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 7434,
+      "candidate_ids": [
+        "candidate.stacks.2f885f292778819c1709e436"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-7434.jsonl",
+      "decision_blob_sha": "4d0ae12355579fe0a43cd8ca5c9dcdda587686fa",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 10037,
+      "candidate_ids": [
+        "candidate.stacks.0e4cf48234883d64e8f49858"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-10037.jsonl",
+      "decision_blob_sha": "de4ffa31671bf3fb269a19a8aae5eef1d36ed1c3",
+      "approvals": 1,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "1181ec5ee4a3beb8a602a050178dfdaa32cad2e0",
+  "validation": "Exactly one ordered source-first decision per frozen ID in each complete section; all input references and reviewer evidence checked."
+}
