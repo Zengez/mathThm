@@ -82,6 +82,16 @@ class HeadingParser(HTMLParser):
             self.active = False
 
 
+def is_proof_heading(heading: str, page_title: str) -> bool:
+    if HEADINGS.fullmatch(heading):
+        return True
+    # E.g. the Wikipedia heading "Proofs of the extreme value theorem".
+    h = normalized(heading)
+    title = normalized(page_title)
+    return (h.startswith(("proof of ", "proofs of ")) and
+            len(title) >= 10 and title in h and h.endswith(title))
+
+
 def find_section(url: str, wait: float = 0) -> tuple[str | None, str]:
     title = title_from_url(url)
     api = "https://en.wikipedia.org/w/api.php?" + urlencode({
@@ -92,7 +102,7 @@ def find_section(url: str, wait: float = 0) -> tuple[str | None, str]:
         for section in result.get("parse", {}).get("sections", []):
             heading = re.sub(r"<[^>]+>", "", section.get("line", "")).strip()
             anchor = section.get("anchor")
-            if HEADINGS.fullmatch(heading) and anchor:
+            if is_proof_heading(heading, title) and anchor:
                 return url.split("#")[0] + "#" + quote(anchor, safe=":-._"), "api"
     except (OSError, HTTPError, URLError, ValueError, TimeoutError):
         pass
@@ -102,7 +112,7 @@ def find_section(url: str, wait: float = 0) -> tuple[str | None, str]:
         parser = HeadingParser()
         parser.feed(get(url).decode("utf-8", errors="replace"))
         for heading, anchor in parser.headings:
-            if HEADINGS.fullmatch(heading) and anchor:
+            if is_proof_heading(heading, title) and anchor:
                 return url.split("#")[0] + "#" + quote(anchor, safe=":-._"), "html"
     except (OSError, HTTPError, URLError, ValueError, TimeoutError):
         return None, "unavailable"
