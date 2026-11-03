@@ -35,6 +35,13 @@ NON_THEOREM_PAGE_TITLE = re.compile(
     r"proof assistant|automated reasoning)\b|"
     r"\btheorem prov(?:ing|er|ers)\b", re.I
 )
+NON_THEOREM_SUBJECT = re.compile(
+    r"\b(?:is|was) (?:a|an|the) (?:[a-z-]+\s+){0,5}"
+    r"(?:board game|video game|logician|mathematician|philosopher|"
+    r"software system|computer program|programming language|"
+    r"theorem prover|proof assistant|diagram|illustration|"
+    r"television show|politician|actor|musician|novel|film)\b", re.I
+)
 MATH_CATEGORY = re.compile(
     r"mathemat|algebra|analysis|analytic|topolog|geometr|number theory|"
     r"combinator|calculus|set theory|probabil|graph theory|ring theory|"
@@ -107,6 +114,8 @@ def classify(title: str, categories: list[str], intro: str, missing: bool = Fals
     )
     if NON_THEOREM_PAGE_TITLE.search(title):
         return "needs_review", "Article is a proof, list, or theorem-proving tool rather than a dedicated theorem page"
+    if not theorem_title and NON_THEOREM_SUBJECT.search(intro):
+        return "needs_review", "Intro identifies a person, game, software, or other non-theorem subject"
     math_category = bool(MATH_CATEGORY.search(categories_text))
     theorem_title = bool(RESULT_TITLE.search(title))
     other_result_title = bool(OTHER_RESULT_TITLE.search(title))
