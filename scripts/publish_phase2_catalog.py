@@ -300,6 +300,30 @@ def integrate(all_rows=None):
     }
     if statuses["held"] != 189 or statuses["publishable"] + statuses["blocked"] != 3943:
         raise ValueError("Admission counts inconsistent with authoritative decisions")
+    # Extra Wikipedia proof-section links are kept in a small durable overlay.
+    # This is neither a proof audit nor a change to the canonical Stacks master.
+    wikipedia_links_path = ROOT / "data/wikipedia_proof_links.json"
+    if wikipedia_links_path.exists():
+        wiki = load_json(wikipedia_links_path)
+        if wiki.get("schema") != "maththm.wikipedia-proof-links.v1":
+            raise ValueError("Unsupported Wikipedia proof-link overlay")
+        by_id = {t["id"]: t for t in output}
+        for ident, links in wiki["links_by_theorem_id"].items():
+            theorem = by_id.get(ident)
+            if theorem is None:
+                continue  # Keep archived mapping; never map it to a different theorem.
+            seen = set()
+            extras = []
+            for link in links:
+                url = link.get("url")
+                if not valid_https(url) or not url.startswith("https://en.wikipedia.org/wiki/"):
+                    raise ValueError("Invalid Wikipedia proof URL in overlay")
+                if url not in seen:
+                    extras.append(link)
+                    seen.add(url)
+            if extras:
+                theorem["proof_links"] = extras
+
     dump_json(CATALOG, {"schema": "maththm.theorems.v1", "contract_revision": 2,
                         "scope": "20 prototypes plus approved Phase 2 Stacks source-equivalence decisions; proof audit separate",
                         "total": len(output), "records": output})
