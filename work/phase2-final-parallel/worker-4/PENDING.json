@@ -11,28 +11,6 @@
   "initial_batches": 32,
   "pending": [
     {
-      "batch_id": "p2f-w4-b024",
-      "chapter": "sets",
-      "candidate_count": 2,
-      "sections": [
-        {
-          "chapter": "sets",
-          "section_start_line": 178,
-          "stage_b_file": "work/stageb-parallel/worker-3/results/sets/section-178.jsonl",
-          "stage_b_blob_sha": "9ef815fbfbf0344a107a07737074c58442b21dc1",
-          "phase3_review_file": "work/phase3-parallel/worker-3/proof_reviews/sets/section-178.jsonl",
-          "phase3_review_blob_sha": "0c99c464fd534fa042eb74e782db977772894739",
-          "phase2_proposal_file": "work/phase3-parallel/worker-3/phase2_proposals/sets/section-178.jsonl",
-          "phase2_proposal_blob_sha": "cbbffbed61e7ae194353c80c6bf553760af5798d",
-          "candidate_ids": [
-            "candidate.stacks.c4d40d059757e7e248b76ea7",
-            "candidate.stacks.0a88750b4358d7b606564d51"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w4-b025",
       "chapter": "sites-modules",
       "candidate_count": 18,

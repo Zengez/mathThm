@@ -1,0 +1,45 @@
+{
+  "schema": "maththm.phase2-final.worker-batch-checkpoint.v1",
+  "worker": 4,
+  "branch": "work/phase2-final/chat-4",
+  "reviewer": "chatgpt-final-phase2-worker-4-2026-11-03-continuation",
+  "batch_id": "p2f-w4-b024",
+  "chapter": "sets",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "completed_sections": 1,
+  "completed_candidate_count": 2,
+  "approved_count": 2,
+  "held_count": 0,
+  "candidate_ids": [
+    "candidate.stacks.c4d40d059757e7e248b76ea7",
+    "candidate.stacks.0a88750b4358d7b606564d51"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.c4d40d059757e7e248b76ea7",
+    "candidate.stacks.0a88750b4358d7b606564d51"
+  ],
+  "held_candidate_ids": [],
+  "sections": [
+    {
+      "chapter": "sets",
+      "section_start_line": 178,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/sets/section-178.jsonl",
+      "decision_blob_sha": "5e1a6298ccf52b7af702a2fcd30687ffa957e84f",
+      "candidate_ids": [
+        "candidate.stacks.c4d40d059757e7e248b76ea7",
+        "candidate.stacks.0a88750b4358d7b606564d51"
+      ],
+      "approved_count": 2,
+      "held_count": 0
+    }
+  ],
+  "validation": {
+    "all_frozen_ids_in_order": true,
+    "whole_sections_complete": true,
+    "decision_records_evidence_checked": true,
+    "source_first_review_recorded": true,
+    "phase3_proofs_not_reviewed": true,
+    "approval_digests_computed_from_exact_final_fields": true
+  },
+  "status": "completed"
+}
