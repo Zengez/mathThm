@@ -1,0 +1,815 @@
+{
+  "schema": "maththm.phase2-canonical.exception-queues.v1",
+  "canonical_branch": "work/phase2-canonical-migration",
+  "master_file": "data/maththm_master.jsonl",
+  "base_ref": "work/phase2-final/parallel-base",
+  "reviewer_scope": "Resolve only exception provenance, fingerprints, and true content problems; no routine mathematical re-review",
+  "candidate_count": 70,
+  "lanes": [
+    {
+      "worker": 1,
+      "label": "prior-worker-1",
+      "candidate_count": 22,
+      "records": [
+        {
+          "candidate_id": "candidate.stacks.017917f95467eee57e01633a",
+          "issues": [
+            "approved_formulation_digest_mismatch",
+            "original_source_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "examples",
+          "section_start_line": 2437,
+          "batch_id": "p2f-w1-b014",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-2437.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.1be0b8ce9797e420808ef90a",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 5177,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-5177.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.282b1901eeca2acc96fc59d8",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 121,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-121.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.2ff600d4d3e96b854809db1e",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 5177,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-5177.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.38e623bc94aacbd814ac4fa6",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 2578,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-2578.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.40525e3f6320a403fee5828f",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 5622,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-5622.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.420fbbd12805578fa56ce7d2",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 5177,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-5177.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.50d6ce608f2f1ec48962da64",
+          "issues": [
+            "approved_formulation_digest_mismatch",
+            "original_source_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "examples",
+          "section_start_line": 3200,
+          "batch_id": "p2f-w1-b014",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-3200.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.538dc69a57410706e0b15b4f",
+          "issues": [
+            "approved_formulation_digest_mismatch",
+            "original_source_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "examples",
+          "section_start_line": 3200,
+          "batch_id": "p2f-w1-b014",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-3200.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.5e344e8ace8d64615a0306c3",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 5622,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-5622.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.5efbf13730aca20e4ca8209c",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 3773,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-3773.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.76e63aa59d65c478afd4d705",
+          "issues": [
+            "approved_formulation_digest_mismatch",
+            "original_source_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "examples",
+          "section_start_line": 735,
+          "batch_id": "p2f-w1-b014",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-735.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.78eddf2c1c3a9af3ec64d7ad",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 121,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-121.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.89dc00b85dfd510bebaa5694",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 5177,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-5177.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.8c985489970146a6729741ad",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 5177,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-5177.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.9f638c9758cd32c5f00ee27f",
+          "issues": [
+            "approved_formulation_digest_mismatch",
+            "original_source_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "examples",
+          "section_start_line": 735,
+          "batch_id": "p2f-w1-b014",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-735.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.b0279a5d631ab3245894da79",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 3773,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-3773.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.b69b93e71ad1ee43494c5861",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 2578,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-2578.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.cb362aa626b4737acc3394e8",
+          "issues": [
+            "approved_formulation_digest_mismatch",
+            "original_source_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "examples",
+          "section_start_line": 2437,
+          "batch_id": "p2f-w1-b014",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-2437.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.cd9486e2ceae9106432b2622",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 121,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-121.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.e97ed2015c79fc36647acfa2",
+          "issues": [
+            "approved_formulation_digest_mismatch",
+            "original_source_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "examples",
+          "section_start_line": 735,
+          "batch_id": "p2f-w1-b014",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-735.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.ee4c21022904f6cb65cf9b63",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 1,
+          "chapter": "derham",
+          "section_start_line": 5177,
+          "batch_id": "p2f-w1-b007",
+          "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-5177.jsonl"
+        }
+      ]
+    },
+    {
+      "worker": 2,
+      "label": "prior-worker-4-first-half",
+      "candidate_count": 22,
+      "records": [
+        {
+          "candidate_id": "candidate.stacks.07b14d423fd4ba490f7321ac",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "more-algebra",
+          "section_start_line": 4545,
+          "batch_id": "p2f-w4-b017",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-4545.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.0cd52ca93b4cafa14cfad918",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 217,
+          "batch_id": "p2f-w4-b030",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-217.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.106c5a6c30fad04cf66187c1",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 112,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-112.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.11a20d961d3428116de1b071",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 887,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-887.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.16a896fb0fe1e4ef35dc10d4",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 112,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-112.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.197c0f9964c64c6f500908df",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 112,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-112.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.1b15b5c7fcd7c82c2fddef7e",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 5709,
+          "batch_id": "p2f-w4-b032",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-5709.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.1d4451e075b286f142d8c244",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 4254,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-4254.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.243a2c034ebc66bbf890f617",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 64,
+          "batch_id": "p2f-w4-b030",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-64.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.298e813a9ff2e00dd3c1f9c3",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 797,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-797.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.2ac6757d19c70d5a3dcd07c5",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "more-algebra",
+          "section_start_line": 4545,
+          "batch_id": "p2f-w4-b017",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-4545.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.2ee8b136c823457eca63a4d5",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 490,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-490.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.39afb44da6cdf88d63c763e7",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 5639,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-5639.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.4056224516be8e150c87f38f",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 490,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-490.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.407f51e2bcd3acc753b89b60",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 4254,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-4254.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.451a8745f1f5b175134cd235",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 490,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-490.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.57080f70b6c6e21ebe8bd5ca",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 490,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-490.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.5badafa285c7b5ab07ffcd7c",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 64,
+          "batch_id": "p2f-w4-b030",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-64.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.6068d54be4f5098d9565e38e",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 887,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-887.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.6167e3a11cec428180a12843",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 217,
+          "batch_id": "p2f-w4-b030",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-217.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.6383245ed64ef82caec5a66f",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "more-algebra",
+          "section_start_line": 4402,
+          "batch_id": "p2f-w4-b017",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-4402.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.6c8e47b2ea17b235255e6b3a",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 3041,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-3041.jsonl"
+        }
+      ]
+    },
+    {
+      "worker": 3,
+      "label": "prior-worker-4-second-half",
+      "candidate_count": 21,
+      "records": [
+        {
+          "candidate_id": "candidate.stacks.79b7db2b28ec8b1fbf4ba8b2",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "more-algebra",
+          "section_start_line": 4402,
+          "batch_id": "p2f-w4-b017",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-4402.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.7f0b23d421dbb7286913a782",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 112,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-112.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.8ceb2e1e75c8b94bf55d04e9",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 2007,
+          "batch_id": "p2f-w4-b030",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-2007.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.8ec2c8ca298ba1549ed3dd91",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "more-algebra",
+          "section_start_line": 4545,
+          "batch_id": "p2f-w4-b017",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-4545.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.93d48b52cd6b813fada5947b",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 490,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-490.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.a51b37c816e57ceb6b5052a5",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 5206,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-5206.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.a9803db2d881edd738ec393c",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 112,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-112.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.abb34aea6189a616da999826",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 3041,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-3041.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.af4b41c31a872326b9ee668f",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 112,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-112.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.b75deffa697ca9d9332b8638",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 4147,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-4147.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.b8c5d6bfb6ee0c71f2387538",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 5206,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-5206.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.bad90bd7d03480ca5e5ebdda",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 1130,
+          "batch_id": "p2f-w4-b030",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-1130.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.c5a60c2f78d9a1cbc3a39e7e",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 3597,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-3597.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.c62e3ce46b6628890ff512d7",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 887,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-887.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.ca009ac16e98e311fa76a645",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 3872,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-3872.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.cbc71e2710d57784cced2866",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "smoothing",
+          "section_start_line": 333,
+          "batch_id": "p2f-w4-b028",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/smoothing/section-333.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.dc5d46bb27f90dc88fcd1e37",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 3872,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-3872.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.dec28bd343dfd1dc97f72c5a",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 693,
+          "batch_id": "p2f-w4-b030",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-693.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.ea0d284a763d525b129a6724",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 1252,
+          "batch_id": "p2f-w4-b030",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-1252.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.eb41fb68ec8dcadbc43e15ae",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces-properties",
+          "section_start_line": 3748,
+          "batch_id": "p2f-w4-b031",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-3748.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.f3aef704ad041bd5b4f8c3ab",
+          "issues": [
+            "approved_formulation_digest_mismatch"
+          ],
+          "source_worker": 4,
+          "chapter": "spaces",
+          "section_start_line": 2718,
+          "batch_id": "p2f-w4-b029",
+          "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces/section-2718.jsonl"
+        }
+      ]
+    },
+    {
+      "worker": 4,
+      "label": "prior-worker-2",
+      "candidate_count": 5,
+      "records": [
+        {
+          "candidate_id": "candidate.stacks.12a65f6e2f828b08050e38e5",
+          "issues": [
+            "phase3_reviewed_content_digest_mismatch"
+          ],
+          "source_worker": 2,
+          "chapter": "etale-cohomology",
+          "section_start_line": 1461,
+          "batch_id": "p2f-w2-b016",
+          "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-1461.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.36b192f4e6613c8dcde9f68d",
+          "issues": [
+            "phase3_reviewed_content_digest_mismatch"
+          ],
+          "source_worker": 2,
+          "chapter": "etale-cohomology",
+          "section_start_line": 414,
+          "batch_id": "p2f-w2-b016",
+          "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-414.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.5f136a4a19bdffaed63b9cbc",
+          "issues": [
+            "phase3_reviewed_content_digest_mismatch"
+          ],
+          "source_worker": 2,
+          "chapter": "etale-cohomology",
+          "section_start_line": 1750,
+          "batch_id": "p2f-w2-b016",
+          "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-1750.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.946bc2afb503a7ac8aa09f93",
+          "issues": [
+            "phase3_reviewed_content_digest_mismatch"
+          ],
+          "source_worker": 2,
+          "chapter": "etale-cohomology",
+          "section_start_line": 724,
+          "batch_id": "p2f-w2-b016",
+          "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-724.jsonl"
+        },
+        {
+          "candidate_id": "candidate.stacks.94dfbabd69892067d842f495",
+          "issues": [
+            "phase3_reviewed_content_digest_mismatch"
+          ],
+          "source_worker": 2,
+          "chapter": "etale-cohomology",
+          "section_start_line": 1750,
+          "batch_id": "p2f-w2-b016",
+          "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-1750.jsonl"
+        }
+      ]
+    }
+  ]
+}
