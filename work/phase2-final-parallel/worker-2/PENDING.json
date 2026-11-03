@@ -11,27 +11,6 @@
   "initial_batches": 33,
   "pending": [
     {
-      "batch_id": "p2f-w2-b025",
-      "chapter": "groupoids-quotients",
-      "candidate_count": 1,
-      "sections": [
-        {
-          "chapter": "groupoids-quotients",
-          "section_start_line": 40,
-          "stage_b_file": "work/stageb-parallel/worker-3/results/groupoids-quotients/section-40.jsonl",
-          "stage_b_blob_sha": "5edbd42cabe31c82f822bf176f2c79dae25dc76a",
-          "phase3_review_file": "work/phase3-parallel/worker-3/proof_reviews/groupoids-quotients/section-40.jsonl",
-          "phase3_review_blob_sha": "367a10df7b34e6b46de993fb10802efb8f2cbca7",
-          "phase2_proposal_file": "work/phase3-parallel/worker-3/phase2_proposals/groupoids-quotients/section-40.jsonl",
-          "phase2_proposal_blob_sha": "86b8816e8a1f00d5aa640dc5ab49925d2a630be0",
-          "candidate_ids": [
-            "candidate.stacks.de103088847999a7f38ddffc"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w2-b026",
       "chapter": "modules",
       "candidate_count": 31,
