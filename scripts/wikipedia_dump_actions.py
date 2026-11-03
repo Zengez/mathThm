@@ -166,7 +166,16 @@ def rebuild_outputs(root: Path, date: str, files: list[str]):
         "method": "English Wikipedia ns0 wikitext proof/proofs section headings",
         "validated_theorems": 0,
     }
-    atomic_text(folder / "progress.json", json.dumps(progress, indent=2, ensure_ascii=False) + "\n")
+    previous_file = folder / "progress.json"
+    if previous_file.exists():
+        try:
+            previous = json.loads(previous_file.read_text(encoding="utf-8"))
+            stable_fields = set(progress) - {"updated_at_utc"}
+            if all(previous.get(key) == progress.get(key) for key in stable_fields):
+                progress["updated_at_utc"] = previous.get("updated_at_utc", progress["updated_at_utc"])
+        except (ValueError, OSError):
+            pass
+    atomic_text(previous_file, json.dumps(progress, indent=2, ensure_ascii=False) + "\n")
     return progress
 
 
