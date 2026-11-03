@@ -17,6 +17,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          python - <<'PY'
           import os, json, urllib.request, urllib.error, urllib.parse
           repo = os.environ["GITHUB_REPOSITORY"]
           token = os.environ["GH_TOKEN"]
@@ -65,3 +66,4 @@ jobs:
               print("DELETED",branch,sha,flush=True)
               deleted.append(branch)
           print("RESULT",json.dumps({"deleted":len(deleted),"skipped":len(skipped),"planned":len(targets)}),flush=True)
+          PY
