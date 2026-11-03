@@ -1,0 +1,28 @@
+name: Audit reconciled Phase 3 candidate IDs
+on:
+  push:
+    branches:
+      - work/phase3/parallel-reconciled
+    paths:
+      - scripts/phase3_id_audit.py
+      - .github/workflows/phase3-id-audit.yml
+      - work/phase3-parallel/**
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Audit every frozen Stage B positive ID and Phase 3 worker output
+        run: python scripts/phase3_id_audit.py --report phase3-id-audit-result.json
+      - name: Archive machine-readable audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase3-id-audit
+          path: phase3-id-audit-result.json
+          if-no-files-found: warn
