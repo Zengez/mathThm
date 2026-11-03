@@ -1,29 +1,22 @@
-# mathThm — mathematical theorems and proven results
+# mathThm — searchable mathematical theorems
 
-**Current status (2026-10-23): the 20-result theorem prototype, search interface, proof links, mathDef snapshot consumer and GitHub Actions workflow are implemented.** Automated prototype build/tests passed; the consumer has now been upgraded to mathDef's canonical v2 merged snapshot. **GitHub Pages is enabled and deployed successfully**, with the initial live URL at https://zengez.github.io/mathThm/ . See [PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md) for testing and current limitations. Mathematical statements/proofs are NOT rigorously verified.
+**Production site:** https://zengez.github.io/mathThm/  
+**Status (2026-11-03):** Production reads the permanent reviewed Stacks master (`data/maththm_master.jsonl`) and publishes eligible, already-approved records using `scripts/publish_phase2_catalog.py`. This is a publication step, **not** another mathematical review. The existing 20-prototype baseline is retained.
 
-**Current acquisition checkpoint — October 28, 2026:** The working population is **9,675 canonical, Pass-2-structured candidates**, recorded in [the active pool](harvest/ACTIVE_CANDIDATE_POOL.json). A [source-duplicate review](harvest/DUPLICATE_CONSOLIDATION_README.md) identified eight provisional same-statement mergers, retaining all 16 original source and proof links; they must be reconsidered after full standalone reconstruction. Before Pass 3, all candidates must be made self-contained relative to mathematical definitions. The [pinned Stacks section/label index](harvest/stacks_context_light_index_summary_2026-10-28.md) supports complete chapter/section reconstruction. The latest [300-candidate batch across 54 consecutive sections of adjacent Stacks chapters](harvest/section_walk_scale300_2026-10-28/REPORT.md) produced **242 standalone editorial drafts ready for separate mathematical source-equivalence validation and 58 with explicit context/structure holds**, with [54 complete-section checkpoints](harvest/section_walk_scale300_2026-10-28/SECTION_CHECKPOINTS.jsonl). The [completed section registry](harvest/SECTION_WALK_COMPLETED_SECTIONS.json) now tracks **554 candidate drafts across 80 complete source sections**. The source-context work has **not** verified proof correctness or granted final standalone equivalence approval, Pass 3 eligibility, or publication. Read the [current checkpoint](WORK_CHECKPOINT.md) for next steps.
+## Permanent data and deferred work
 
-mathThm is a companion to [mathDef](https://github.com/Zengez/mathDef). Its goal is a searchable, source-attributed collection of mathematical results, with separate searches for hypotheses and conclusions and contextual, expandable definitions provided by mathDef.
+- `data/maththm_master.jsonl` — authoritative 4,132 Phase 2 decisions: **3,943 approved, 189 held**. Hold reasons and source references are protected. Never reconstruct the master from removed worker queues.
+- `data/theorems.json` — generated public catalog, including source attribution and proof-screening distinctions. It is not an alternate source of truth.
+- `harvest/problem_candidates.jsonl` + `harvest/PROBLEM_CANDIDATES_README.md` — **1,304 deferred Stacks candidates** with reasons (862 inherited context, 439 structural, 3 classification). Supporting Pass 1/2 source evidence and Stacks contextual records remain under `harvest/`. Do not auto-promote them.
+- `work/phase2-final-publication/BLOCKERS.json` and `REPORT.json` — retained publication diagnostics and counts.
+- `work/phase2-final-publication/prototype_baseline.json` — essential original 20 theorems; required by the catalog builder.
 
-## Read these before doing any work
+## Routine development
 
-1. **[PROJECT_PLAN.md](PROJECT_PLAN.md)** — authoritative consolidated design, requirements, phased workflow, acceptance criteria, and decisions from the October 23, 2026 discussions. Read this first.
-2. **[WORK_CHECKPOINT.md](WORK_CHECKPOINT.md)** — current implementation state, next authorized action, and restart instructions. Update it whenever work begins, pauses, or completes a major stage.
-3. **[HARVEST_RUNBOOK.md](HARVEST_RUNBOOK.md)** — implemented bounded Pass 1/2/3 scripts, exact commands, investigation queue and safety gates.
-4. **[HARVEST_DESIGN.md](HARVEST_DESIGN.md)** — agreed three-pass acquisition strategy, strict Pass 3 triage, and open decisions (design only).
-5. **[THEOREM_RECORD_CONTRACT.md](THEOREM_RECORD_CONTRACT.md)** — current lightweight accepted-theorem schema, screening/provenance rules and automated validation.
-6. **[PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md)** — what has actually been built, what passed, manual GitHub Pages setup, and remaining limitations.
-7. **[FUTURE_FEATURES.md](FUTURE_FEATURES.md)** — explicitly postponed ideas, with particular care not to mistake these for prototype requirements.
+**Publish and validate:** `python scripts/publish_phase2_catalog.py --all`, `python -m unittest discover -s tests -v`, `node --test tests/*.cjs`, `python scripts/build_site.py`. `.github/workflows/pages.yml` performs live deployment and refreshes the mathDef feed nightly. `.github/workflows/ui-search-tests.yml` checks the search UI.
 
-## Coordination with mathDef
+**Add reviewed content:** Retain stable candidate IDs, original Stacks sources, exact mathematical hypotheses/conclusions, attribution and review status in the canonical master. The publisher regenerates the display catalog from that source. A candidate on hold stays out until its stated issue has actually been resolved.
 
-mathDef is the canonical owner of mathematical definitions, term aliases, and definition content. mathThm should consume mathDef's versioned public definition snapshot; it should never autonomously insert terms into mathDef.
+**Discover new content:** Use the manual `harvest-stacks.yml` Pass 1 action and the retained `scripts/harvest_pipeline.py` toolkit. The scheduled `wikipedia-proof-dump.yml` crawl is separate: its code and results reside on the dedicated `work/wikipedia-theorem-harvest` and `data/wikipedia-proof-dump` branches. Do not interrupt its checkpointed ingestion.
 
-**Updated October 28, 2026:** mathThm consumes mathDef's published **complete cleaned v2** feed, including its independent-research additions, canonical meanings, alternate formulations, official Subjects and historical ID redirects. It verifies the v2 content-hash manifest and refreshes the bundled definitions during every main-branch Pages build and nightly schedule. The v1 original-only feed is no longer consumed. See [the mathDef v2 consumer](https://github.com/Zengez/mathDef/blob/main/examples/consume_mathdef_v2.py) and [WORK_CHECKPOINT.md](WORK_CHECKPOINT.md).
-
-The projects are to share a recognizable visual identity, but mathThm will require its own theorem-specific search and display behavior.
-
-## Current implementation / next decision gate
-
-The user subsequently explicitly authorized building the prototype. The present code, dataset, workflow and checks are described in [PROTOTYPE_IMPLEMENTATION.md](PROTOTYPE_IMPLEMENTATION.md). GitHub Pages setup is complete and publication succeeded (workflow run 39978765020); the next step is to review the live interface. The current linking and accepted-record schema are ready. **The minimal three-pass harvesting toolkit is implemented, the 9,675-candidate Pass 2 structural intake has been collected, and bounded standalone-source-context review batches are underway (latest: 150 consecutive Algebra candidates). Pass 3 proof screening has not begun; standalone-context validation and provisional duplicate re-adjudication remain mandatory gates.** The user wants to collect a couple hundred theorems before revisiting interface design; deep proof audits remain deferred.
+Prior experiment and section-walk outcomes are preserved as source evidence in `harvest/`, but their one-time scripts and Actions have been retired from the production branch. Git history remains available for any historical reproduction. See `HARVEST_RUNBOOK.md` and `THEOREM_RECORD_CONTRACT.md` for current commands and schema.
