@@ -1,0 +1,74 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 3,
+  "branch": "work/phase2-final/chat-3",
+  "batch_id": "p2f-w3-b015",
+  "chapter": "quot",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "chatgpt-gpt6-final-phase2-worker-3-resumption-2026-11-03",
+  "status": "complete_pending_central_registration",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "candidate_ids": [
+    "candidate.stacks.39f379f5a80bfc4ac03abcde",
+    "candidate.stacks.8acc49cd426b78979e175141",
+    "candidate.stacks.4ebb96ef4a3d6a402b829502",
+    "candidate.stacks.db30d4460a84f6fab4d7c531",
+    "candidate.stacks.2d7aa9d9a534b21ca9590a5f"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.39f379f5a80bfc4ac03abcde",
+    "candidate.stacks.8acc49cd426b78979e175141",
+    "candidate.stacks.4ebb96ef4a3d6a402b829502",
+    "candidate.stacks.db30d4460a84f6fab4d7c531",
+    "candidate.stacks.2d7aa9d9a534b21ca9590a5f"
+  ],
+  "held_candidate_ids": [],
+  "candidate_count": 5,
+  "approved_count": 5,
+  "held_count": 0,
+  "section_count": 4,
+  "sections": [
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/quot/section-869.jsonl",
+      "source_section_start_line": 869,
+      "candidate_ids": [
+        "candidate.stacks.39f379f5a80bfc4ac03abcde"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/quot/section-2429.jsonl",
+      "source_section_start_line": 2429,
+      "candidate_ids": [
+        "candidate.stacks.8acc49cd426b78979e175141"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/quot/section-2591.jsonl",
+      "source_section_start_line": 2591,
+      "candidate_ids": [
+        "candidate.stacks.4ebb96ef4a3d6a402b829502",
+        "candidate.stacks.db30d4460a84f6fab4d7c531"
+      ],
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/quot/section-3757.jsonl",
+      "source_section_start_line": 3757,
+      "candidate_ids": [
+        "candidate.stacks.2d7aa9d9a534b21ca9590a5f"
+      ],
+      "approvals": 1,
+      "holds": 0
+    }
+  ],
+  "immutable_input_sha_check": "pass",
+  "exact_id_order_check": "pass",
+  "pinned_source_context_check": "pass",
+  "stage_a_and_stage_b_reviewer_chain_checked": "pass"
+}

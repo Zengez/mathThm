@@ -11,67 +11,6 @@
   "initial_batches": 30,
   "pending": [
     {
-      "batch_id": "p2f-w3-b015",
-      "chapter": "quot",
-      "candidate_count": 5,
-      "sections": [
-        {
-          "chapter": "quot",
-          "section_start_line": 869,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/quot/section-869.jsonl",
-          "stage_b_blob_sha": "11f09020b208b61a7333264b556e55c723844dab",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/quot/section-869.jsonl",
-          "phase3_review_blob_sha": "54169703a2334abaebe883f17cd40e0a88016c8b",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/quot/section-869.jsonl",
-          "phase2_proposal_blob_sha": "5362bda3a01f81a7d93690dbade6e3140b33d873",
-          "candidate_ids": [
-            "candidate.stacks.39f379f5a80bfc4ac03abcde"
-          ]
-        },
-        {
-          "chapter": "quot",
-          "section_start_line": 2429,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/quot/section-2429.jsonl",
-          "stage_b_blob_sha": "ad45e488e7a98ee43f0361fc8a9b86965fc13ac8",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/quot/section-2429.jsonl",
-          "phase3_review_blob_sha": "ff8d53c58940690a09fa7fdfa2ee37148e47c3d9",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/quot/section-2429.jsonl",
-          "phase2_proposal_blob_sha": "e91e136a2ebabc609cd2229c6e7cb1a90b3a2cce",
-          "candidate_ids": [
-            "candidate.stacks.8acc49cd426b78979e175141"
-          ]
-        },
-        {
-          "chapter": "quot",
-          "section_start_line": 2591,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/quot/section-2591.jsonl",
-          "stage_b_blob_sha": "65d05dca48da1b2d1016a87146c6f6b9d208fb2f",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/quot/section-2591.jsonl",
-          "phase3_review_blob_sha": "28b75380055f47203fb6c24e5df8ea2063d1be89",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/quot/section-2591.jsonl",
-          "phase2_proposal_blob_sha": "018d435c9547293a76ff5588d97d02dc5fbf9b7c",
-          "candidate_ids": [
-            "candidate.stacks.4ebb96ef4a3d6a402b829502",
-            "candidate.stacks.db30d4460a84f6fab4d7c531"
-          ]
-        },
-        {
-          "chapter": "quot",
-          "section_start_line": 3757,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/quot/section-3757.jsonl",
-          "stage_b_blob_sha": "4aef8c8d08aa989b60c0e3841d2dd63315b2f5c3",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/quot/section-3757.jsonl",
-          "phase3_review_blob_sha": "4f5be9e2b89bd79569d49b398ef90af53376a704",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/quot/section-3757.jsonl",
-          "phase2_proposal_blob_sha": "f8cac0a509b96948318d4677b1b9e4ed4b487786",
-          "candidate_ids": [
-            "candidate.stacks.2d7aa9d9a534b21ca9590a5f"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w3-b016",
       "chapter": "relative-cycles",
       "candidate_count": 15,
