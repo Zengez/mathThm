@@ -11,41 +11,6 @@
   "initial_batches": 31,
   "pending": [
     {
-      "batch_id": "p2f-w1-b013",
-      "chapter": "duality",
-      "candidate_count": 3,
-      "sections": [
-        {
-          "chapter": "duality",
-          "section_start_line": 8449,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/duality/section-8449.jsonl",
-          "stage_b_blob_sha": "dd24900f69a84c40e4574763fc58c0a8f42c8559",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/duality/section-8449.jsonl",
-          "phase3_review_blob_sha": "ea08417e536263c4eca085b743b1c558c1f3fad0",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/duality/section-8449.jsonl",
-          "phase2_proposal_blob_sha": "1ae59746d5bc5f662e15003a08f7919759ce14c1",
-          "candidate_ids": [
-            "candidate.stacks.4537c092ebf90814b064da91",
-            "candidate.stacks.31b711ef8e850eeb28e0713e"
-          ]
-        },
-        {
-          "chapter": "duality",
-          "section_start_line": 9100,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/duality/section-9100.jsonl",
-          "stage_b_blob_sha": "a218fa7c36e5ab3bf0794319e37605ab59df62d1",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/duality/section-9100.jsonl",
-          "phase3_review_blob_sha": "f664b376b5cc973f9af3e4145cc497a76473e413",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/duality/section-9100.jsonl",
-          "phase2_proposal_blob_sha": "9109d6ba55cd58085d5ae36fdf5329327d1685fc",
-          "candidate_ids": [
-            "candidate.stacks.ff6b4db3f4d008d6f978a745"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w1-b014",
       "chapter": "examples",
       "candidate_count": 11,
