@@ -317,6 +317,16 @@
           "url": "https://proofwiki.org/wiki/Heine-Borel_Theorem/Euclidean_Space/Necessary_Condition"
         }
       ],
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem",
+          "url": "https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem#Proofs"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-10-23",
@@ -380,6 +390,16 @@
       "mathematical_audit": {
         "status": "not_audited"
       },
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Intermediate_value_theorem",
+          "url": "https://en.wikipedia.org/wiki/Intermediate_value_theorem#Proof"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-10-23",
@@ -448,6 +468,16 @@
       "mathematical_audit": {
         "status": "not_audited"
       },
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Extreme_value_theorem",
+          "url": "https://en.wikipedia.org/wiki/Extreme_value_theorem#Proofs_of_the_extreme_value_theorem"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-10-23",
@@ -505,6 +535,16 @@
       "mathematical_audit": {
         "status": "not_audited"
       },
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Rolle's_theorem",
+          "url": "https://en.wikipedia.org/wiki/Rolle's_theorem#Proof"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-10-23",
@@ -561,6 +601,16 @@
       "mathematical_audit": {
         "status": "not_audited"
       },
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Mean_value_theorem",
+          "url": "https://en.wikipedia.org/wiki/Mean_value_theorem#Proof"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-10-23",
@@ -616,6 +666,16 @@
       "mathematical_audit": {
         "status": "not_audited"
       },
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Bolzano%E2%80%93Weierstrass_theorem",
+          "url": "https://en.wikipedia.org/wiki/Bolzano%E2%80%93Weierstrass_theorem#Proof"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-10-23",
@@ -674,6 +734,16 @@
       "mathematical_audit": {
         "status": "not_audited"
       },
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Banach_fixed-point_theorem",
+          "url": "https://en.wikipedia.org/wiki/Banach_fixed-point_theorem#Proof"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-10-23",
@@ -733,6 +803,16 @@
       "mathematical_audit": {
         "status": "not_audited"
       },
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Rank%E2%80%93nullity_theorem",
+          "url": "https://en.wikipedia.org/wiki/Rank%E2%80%93nullity_theorem#Proofs"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-10-23",
@@ -790,6 +870,16 @@
       "mathematical_audit": {
         "status": "not_audited"
       },
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Lagrange's_theorem_(group_theory)",
+          "url": "https://en.wikipedia.org/wiki/Lagrange's_theorem_(group_theory)#Proof"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-10-23",
@@ -906,6 +996,24 @@
       "mathematical_audit": {
         "status": "not_audited"
       },
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Fermat's_little_theorem",
+          "url": "https://en.wikipedia.org/wiki/Fermat's_little_theorem#Proofs"
+        },
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Proofs_of_Fermat's_little_theorem",
+          "url": "https://en.wikipedia.org/wiki/Proofs_of_Fermat's_little_theorem#Proof_1"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-10-23",
@@ -962,6 +1070,16 @@
       "mathematical_audit": {
         "status": "not_audited"
       },
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Cantor's_theorem",
+          "url": "https://en.wikipedia.org/wiki/Cantor's_theorem#Proof"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-10-23",
@@ -84483,6 +84601,16 @@
         "reviewed_on": null,
         "reviewer": "chatgpt-gpt6-final-phase2-worker-3-resumption-2026-11-03"
       },
+      "proof_links": [
+        {
+          "found_on": "2026-11-03",
+          "label": "Link to proof (Wikipedia)",
+          "match_basis": "unique_normalized_title",
+          "proof_review": "link_only_not_mathematically_audited",
+          "source_article": "https://en.wikipedia.org/wiki/Five_lemma",
+          "url": "https://en.wikipedia.org/wiki/Five_lemma#Proof"
+        }
+      ],
       "proofs": [
         {
           "accessed_on": "2026-11-02",
