@@ -1,0 +1,60 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b023",
+  "chapter": "examples-stacks",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-resumption",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 3,
+  "approved_count": 3,
+  "held_count": 0,
+  "section_count": 3,
+  "candidate_ids": [
+    "candidate.stacks.2ab1734cc46763d1e54188c4",
+    "candidate.stacks.24b4bbc05d0d2357f14cbb3f",
+    "candidate.stacks.197a8e1926af3adb9795d909"
+  ],
+  "held_candidate_ids": [],
+  "decision_files": [
+    {
+      "chapter": "examples-stacks",
+      "section_start_line": 185,
+      "candidate_ids": [
+        "candidate.stacks.2ab1734cc46763d1e54188c4"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/examples-stacks/section-185.jsonl",
+      "decision_blob_sha": "22cf7d17559834640715725eb28d47a1cb94e2c8",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "examples-stacks",
+      "section_start_line": 785,
+      "candidate_ids": [
+        "candidate.stacks.24b4bbc05d0d2357f14cbb3f"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/examples-stacks/section-785.jsonl",
+      "decision_blob_sha": "eb3cf2eb85fc26981faed6cf6a56f656d5cb704b",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "examples-stacks",
+      "section_start_line": 1191,
+      "candidate_ids": [
+        "candidate.stacks.197a8e1926af3adb9795d909"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/examples-stacks/section-1191.jsonl",
+      "decision_blob_sha": "bc1ef3979c677ccbb9067222796aa827cca61dab",
+      "approvals": 1,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "a4d0fd0ffc0f2a3c56a59637080622563fe10113",
+  "validation": "All three Example Stacks sections contain individually reviewed substantive source-first approval records, with exact assigned candidate IDs, immutable Stage B/Phase 3/proposal SHA matches, reviewer identity, final content/digests and semantic review notes. Awaiting central authoritative registration."
+}
