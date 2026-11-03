@@ -137,8 +137,8 @@
     render();
     return {
       expression:()=>tree,
-      clear:()=>{
-        tree=group();render();changed();
+      clear:(notify=true)=>{
+        tree=group();render();if(notify)changed();
       }
     };
   }
