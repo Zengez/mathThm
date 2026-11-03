@@ -143,6 +143,10 @@ def make_record(r):
     sides = f.get("equivalence_sides")
     if sides is None:
         sides = []
+    # Approved legacy equivalence sides use flat strings; wrapping each
+    # phrase as a singleton search group is structural, not mathematical.
+    if isinstance(sides, list) and all(isinstance(x, str) for x in sides):
+        sides = [[x] for x in sides]
     if (not isinstance(sides, list) or
             any(not isinstance(group, list) or not group or
                 not all(nonempty(x) for x in group) for group in sides)):
