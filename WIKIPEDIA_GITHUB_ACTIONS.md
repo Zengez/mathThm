@@ -19,12 +19,15 @@ Open **Actions → Wikipedia proof-heading URL harvest (enwiki dumps) → Run wo
 
 The initial pinned completed snapshot is 20261001, the October 2026
 English Wikipedia dump (reported complete by Wikimedia on October 8).
-An automatic run at **00:43, 08:43, and 16:43 UTC** scans as many
-chunks as fit within a 245-minute processing window (up to the
-330-minute job limit). The default max_shards=0 removes the chunk-count limit.
-Manual runs can select another completed dump date or a finite chunk budget.
-The narrow push trigger permits launching by editing only this workflow file
-on main; changes to other repository files do not trigger the crawler.
+**The October 2026 snapshot completed on November 3, 2026:** all 71
+chunks, 19,314,502 main-namespace pages examined, 2,066 distinct URLs
+matching the proof-heading predicate. The full run finished in about
+1 hour and 42 minutes. Scheduled runs are now **disabled** to prevent
+repeating this fully processed fixed snapshot. Future completed snapshots
+can be started manually using Run workflow with a new YYYYMMDD date.
+The default max_shards=0 scans as many chunks as fit within the
+245-minute processing window (330-minute job limit); a positive limit
+bounds the run for testing.
 
 **Initial smoke test:** choose max_shards = 1 and inspect the logs, action
 summary, and resulting data branch files. Offline tests run before crawling.
