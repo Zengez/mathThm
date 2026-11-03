@@ -1,12 +1,13 @@
-name: Prepare permanent Phase 2 canonical master (isolated)
+name: Reconcile permanent Phase 2 canonical master (isolated)
 on:
   push:
     branches:
       - work/phase2-canonical-migration
     paths:
-      - scripts/migrate_phase2_master.py
-      - tests/test_phase2_master_migration.py
+      - scripts/reconcile_phase2_master.py
+      - tests/test_phase2_master_reconciliation.py
       - .github/workflows/phase2-canonical-migration.yml
+      - 'work/phase2-canonical-migration/exceptions/worker-*/RESOLUTIONS.jsonl'
   workflow_dispatch:
 
 permissions:
@@ -17,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  canonical-migration:
+  canonical-reconciliation:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
@@ -28,37 +29,40 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Verify migration regressions
-        run: python -m unittest tests.test_phase2_master_migration -v
-      - name: Materialize permanent master from frozen worker IDs and historical authority
-        run: python scripts/migrate_phase2_master.py --write
-      - name: Verify self-contained master without legacy compatibility loaders
-        run: python scripts/migrate_phase2_master.py --validate
-      - name: Confirm live site and authority were not modified
+      - name: Verify canonical migration and reconciliation regression tests
+        run: python -m unittest tests.test_phase2_master_migration tests.test_phase2_master_reconciliation -v
+      - name: Integrate only verified mechanical exception metadata into permanent master
+        run: python scripts/reconcile_phase2_master.py --apply
+      - name: Validate permanent canonical file, without legacy compatibility loaders
+        run: |
+          python scripts/migrate_phase2_master.py --validate
+          python scripts/reconcile_phase2_master.py --check
+      - name: Ensure live site, authority and mathematical evidence are unchanged
         shell: bash
         run: |
           set -euo pipefail
-          test "$(git diff -- data/theorems.json harvest/PHASE2_AUTHORITATIVE_REGISTRY.json | wc -l)" -eq 0
+          test -z "$(git diff -- data/theorems.json harvest/PHASE2_AUTHORITATIVE_REGISTRY.json)"
           test -s data/maththm_master.jsonl
-          test -s work/phase2-canonical-migration/REPORT.json
-      - name: Commit only canonical data and migration audit onto isolated branch
+          test -s work/phase2-canonical-migration/RECONCILIATION_REPORT.json
+          test "$(git diff --name-only | grep -v -E '^(data/maththm_master.jsonl|work/phase2-canonical-migration/RECONCILIATION_REPORT.json)$' | wc -l)" -eq 0
+      - name: Commit only canonical data and reconciliation report on isolated branch
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/maththm_master.jsonl work/phase2-canonical-migration/REPORT.json
+          git add data/maththm_master.jsonl work/phase2-canonical-migration/RECONCILIATION_REPORT.json
           if git diff --cached --quiet; then
-            echo "No change to canonical data"
+            echo "Canonical evidence already reconciled"
           else
-            git commit -m 'Materialize permanent Phase 2 canonical master and migration audit'
+            git commit -m 'Integrate verified Phase 2 exception evidence into permanent master'
             git push origin HEAD:refs/heads/work/phase2-canonical-migration
           fi
-      - name: Preserve diagnostics for any failure
+      - name: Preserve diagnostic report on failure
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: phase2-canonical-migration-diagnostics
+          name: phase2-canonical-reconciliation-diagnostics
           path: |
-            work/phase2-canonical-migration/REPORT.json
+            work/phase2-canonical-migration/RECONCILIATION_REPORT.json
           if-no-files-found: warn
