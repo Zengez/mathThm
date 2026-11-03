@@ -80,16 +80,13 @@ jobs:
         run: |
           python -m http.server 8766 --directory _site >/tmp/maththm-http.log 2>&1 &
           MATHTHM_SITE_ROOT=_site MATHTHM_SITE_URL=http://127.0.0.1:8766/ node tests/test_v2_browser.cjs
-      - name: Persist published catalog, shard outputs and admission report
+      - name: Persist derived catalog and publication report (not temporary shards)
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # Shards are deterministic local build outputs and intentionally ignored.
           git add data/theorems.json work/phase2-final-publication/REPORT.json \
-            work/phase2-final-publication/BLOCKERS.json \
-            work/phase2-final-publication/shards/worker-1.json \
-            work/phase2-final-publication/shards/worker-2.json \
-            work/phase2-final-publication/shards/worker-3.json \
-            work/phase2-final-publication/shards/worker-4.json
+            work/phase2-final-publication/BLOCKERS.json
           if ! git diff --cached --quiet; then
             git commit -m 'Persist published canonical Phase 2 theorem catalog'
             git push origin HEAD:main
