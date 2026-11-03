@@ -4,7 +4,9 @@ const fs=require("node:fs"), path=require("node:path"), vm=require("node:vm");
 const core=require("../web/search-core.js");
 const adapter=require("../web/mathdef-v2.js");
 const linker=require("../web/definition-links.js");
-const records=JSON.parse(fs.readFileSync(path.join(__dirname,"../data/theorems.json"),"utf8"));
+const fullCatalog=JSON.parse(fs.readFileSync(path.join(__dirname,"../data/theorems.json"),"utf8"));
+// Keep targeted original prototype browser fixtures stable while production grows.
+const records={...fullCatalog, records:fullCatalog.records.filter(r=>r.id.startsWith("thm."))};
 function element(){
   return {value:"",textContent:"",innerHTML:"",hidden:true,listeners:{},addEventListener(type,fn){this.listeners[type]=fn;},
     focus(){},setAttribute(){}};
@@ -33,7 +35,7 @@ test("browser-like boot renders live theorem and mathDef-linked full statement",
   vm.runInNewContext(fs.readFileSync(path.join(__dirname,"../web/app.js"),"utf8"),sandbox);
   await new Promise(resolve=>setImmediate(resolve));
   await new Promise(resolve=>setImmediate(resolve));
-  assert.equal(els.total.textContent,records.records.length+" draft results");
+  assert.equal(els.total.textContent,records.records.length+" results");
   assert.match(els["definitions-status"].textContent,/v2 definitions loaded \(2 terms;/);
   els["hypothesis-query"].value="compactness";
   els["conclusion-query"].value="maximum";

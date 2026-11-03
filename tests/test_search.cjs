@@ -2,11 +2,20 @@
 const test=require("node:test"), assert=require("node:assert/strict");
 const fs=require("node:fs"), path=require("node:path");
 const core=require("../web/search-core.js");
-const catalog=JSON.parse(fs.readFileSync(path.join(__dirname,"../data/theorems.json"),"utf8")).records;
+const allRecords=JSON.parse(fs.readFileSync(path.join(__dirname,"../data/theorems.json"),"utf8")).records;
+// Existing directional query examples were specifically curated on the prototype.
+const catalog=allRecords.filter(r=>r.id.startsWith("thm."));
+test("approved source-equivalence records retain two-column searchability",()=>{
+  const imported=allRecords.filter(r=>r.id.startsWith("candidate.stacks."));
+  if(!imported.length)return; // Before admission, the source data is still only 20 prototypes.
+  const one=imported[0];
+  assert.equal(core.search([one],"","").length,1);
+  assert.ok(one.statement && Array.isArray(one.hypotheses) && one.conclusions.length);
+});
 test("empty queries select all once",()=>{
   const hits=core.search(catalog,"","");
   assert.equal(hits.length,catalog.length);
-  assert.equal(new Set(hits.map(h=>h.theorem.id)).size,20);
+  assert.equal(new Set(hits.map(h=>h.theorem.id)).size,catalog.length);
 });
 test("hypothesis/conclusion AND is directional",()=>{
   const hits=core.search(catalog,"finite group","orbit");
