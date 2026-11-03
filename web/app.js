@@ -56,6 +56,7 @@
       '<div class="preview-layout"><div class="preview-column"><h5>Hypotheses</h5><p>'+esc(preview(t.hypotheses.join(" ")))+'</p></div>'+
       '<div class="preview-column"><h5>Conclusions</h5><p>'+esc(preview(t.conclusions.join(" ")))+'</p></div></div>';
     const proofs=(t.proofs||[]).map((p,i)=>'<a href="'+href(p.url)+'" target="_blank" rel="noopener noreferrer">'+(p.screening==="source_reference_only"?"Source / proof vicinity":"Proof "+(i+1))+' ↗</a>').join("");
+    const proofLinks=(t.proof_links||[]).map(p=>'<a href="'+href(p.url)+'" target="_blank" rel="noopener noreferrer">'+esc(p.label||"Link to proof (Wikipedia)")+' ↗</a>').join("");
     const status=t.phase2_approval ? (t.review_status==="phase2_approved_source_reference_only" ?
       "Phase 2 source-equivalence approved · proof screening unrecorded" :
       "Phase 2 source-equivalence approved · proof cursory-screened") : "Cursory-screened · Unverified";
@@ -66,7 +67,7 @@
       '<span class="proof-status">'+esc(status)+'</span></div>'+body+
       (tags.length?'<div>'+tags.map(x=>'<span class="tag-hit">'+esc(x)+'</span>').join(" ")+'</div>':"")+
       '<div class="card-footer">'+(state.mode==="full"?"":'<button class="expand-button" data-toggle-id="'+esc(t.id)+'" aria-expanded="'+full+'">'+(full?"Show compact":"Read full theorem")+'</button>')+
-      '<a href="'+href(t.source_url)+'" target="_blank" rel="noopener noreferrer">Source ↗</a>'+proofs+
+      '<a href="'+href(t.source_url)+'" target="_blank" rel="noopener noreferrer">Source ↗</a>'+proofs+proofLinks+
       '<a href="'+esc(issue)+'" target="_blank" rel="noopener noreferrer">Suggest correction ↗</a></div></article>';
   }
   function render(){
