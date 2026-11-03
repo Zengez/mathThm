@@ -112,12 +112,12 @@ def classify(title: str, categories: list[str], intro: str, missing: bool = Fals
         RESULT_CATEGORY.search(category) and not NOT_RESULT_CATEGORY.search(category)
         for category in categories
     )
+    theorem_title = bool(RESULT_TITLE.search(title))
     if NON_THEOREM_PAGE_TITLE.search(title):
         return "needs_review", "Article is a proof, list, or theorem-proving tool rather than a dedicated theorem page"
     if not theorem_title and NON_THEOREM_SUBJECT.search(intro):
         return "needs_review", "Intro identifies a person, game, software, or other non-theorem subject"
     math_category = bool(MATH_CATEGORY.search(categories_text))
-    theorem_title = bool(RESULT_TITLE.search(title))
     other_result_title = bool(OTHER_RESULT_TITLE.search(title))
     math_intro = bool(INTRO_MATH.search(intro))
     result_intro = bool(INTRO_RESULT.search(intro))
