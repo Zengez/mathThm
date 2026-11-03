@@ -1,21 +1,27 @@
-# Permanent mathThm Phase 2 master — migration status
+# Permanent mathThm Phase 2 master — reconciliation complete
 
-The canonical record file is `data/maththm_master.jsonl` (schema `maththm.master.v1`). It contains one self-contained fixed-format JSON object per candidate, sorted by candidate ID. It is **materialized once**, not produced by adapters at query time. Every record has the same top-level keys: `schema`, `candidate_id`, `source`, `formulation`, `phase2`, `phase3`, `provenance`, `publication`, and `audit`.
+The single, materialized Phase 2 canonical master is `data/maththm_master.jsonl` (schema `maththm.master.v1`). It has **4,132 uniquely identified records**: **3,943** Phase 2 source-equivalence approval decisions and **189** holds. Records have uniform top-level keys `schema`, `candidate_id`, `source`, `formulation`, `phase2`, `phase3`, `provenance`, `publication`, and `audit`. This master is a permanent file, not an adapter over worker formats.
 
-The migration loads exactly the 3,061 final Phase 2 review IDs from the immutable frozen allocation and all entries in the **current** authoritative registry, using exact Git blob SHA checks and ordered decision-file coverage. In the audited run, that current registry contained **1,071** historical approvals, yielding **4,132 unique master records**. The master includes 3,943 approval decisions and 189 holds; a decision is not itself permission to publish.
+## One-time migration and mechanical exception reconciliation
 
-The `audit.record_snapshots` list retains each source Phase 2 review row in full as an opaque JSON string with its SHA-256, so no original source verdict is lost. All application-facing fields are already normalized and should be consumed **directly**. The snapshots exist solely for forensic reconstruction, not as a runtime translation layer.
+The original migration from 3,061 frozen final-worker reviews plus 1,071 historical authoritative records is preserved in `scripts/migrate_phase2_master.py`. Its original issue report, `work/phase2-canonical-migration/REPORT.json`, is a **historical baseline**, not the current unresolved-issue count: it identified 70 distinct IDs with 77 digest/provenance flags.
 
-Run:
+Four workers independently resolved those 70 queued IDs, producing immutable, attributed `exceptions/worker-N/RESOLUTIONS.jsonl` files (22, 22, 21 and 5 records). All 70 were classified `mechanical_fix_verified`; there were no targeted mathematical holds from this reconciliation. Exact queue coverage, content identity, source transcription digests and reviewer evidence are checked before incorporation.
+
+`scripts/reconcile_phase2_master.py` applies these decisions **once to the existing canonical master**. It preserves the original mathematical statement, all six formulation fields, all original source and reviewer snapshots, historic raw digests, Phase 2 decisions, provenance, and every publication/registration hold. Corrected canonical content hashes and independently verified Phase 3 content identity are recorded with the original hashes as forensic metadata. Each of the 70 canonical `audit.exception_resolution` objects retains its complete verified decision; there is no need for the old worker-specific schema to interpret canonical data. The summary is `work/phase2-canonical-migration/RECONCILIATION_REPORT.json`.
+
+Run on the coordinator branch:
+
 ```sh
-python -m unittest tests.test_phase2_master_migration -v
+python -m unittest tests.test_phase2_master_migration tests.test_phase2_master_reconciliation -v
+python scripts/reconcile_phase2_master.py --check
 python scripts/migrate_phase2_master.py --validate
 ```
 
-The `--write` option is a **one-time** migration/rebuild tool requiring original legacy material. Do not call it from the website or normal data readers. `--validate` reads **only the permanent master**, without worker-format adapters. The GitHub Actions workflow `.github/workflows/phase2-canonical-migration.yml` executes and validates the isolated migration and commits only the master and audit report.
+The one-time coordinator integration command is `python scripts/reconcile_phase2_master.py --apply`; it is idempotent, fails closed on any differing statement/digest/ID, and preserves the original evidence. The isolated GitHub Actions workflow runs this integration and commits only the canonical master and reconciliation report. **It does not run the old `--write` migration or reconstruct the file from the worker corpus.** No routine site reader should run either command. `--validate` reads the permanent master *only*, without any legacy-format adapter.
 
-The existing historical authoritative registry, old worker folders, site catalog and main branch remain untouched. Source-first approval, Phase 3 cursory proof screening, proof truth verification and publication eligibility are distinct states. **All** migrated records currently have `publication.publication_ready=false`; no new authority is inferred.
+## Distinct publication gate
 
-The issue report is `work/phase2-canonical-migration/REPORT.json`. Exactly **70 unique candidate IDs** need targeted content-identity/provenance checks (77 flags, some overlapping); those exceptions are partitioned in `EXCEPTION_QUEUES.json`. All other records can proceed to downstream admission checks without another mathematical review, subject to duplicate checks and publication-site validation.
+**Migration correctness does not imply mathematical proof verification or publication approval.** All records retain `publication.publication_ready=false`. Historical authoritative registry, current web catalog (`data/theorems.json`), `main`, and deployed site are not altered by reconciliation. Downstream admission work should read the permanent canonical master directly, run separate duplicate and publication-eligibility checks, and compare an isolated preview's candidate IDs/content before promoting anything to the live catalog.
 
-After resolution, coordinator tasks are: incorporate approved evidence into the permanent master, run its self-contained validator, switch authoritative/data consumers to read the canonical schema, rebuild an isolated preview site, compare all output IDs/content hashes, and only then retire original worker record files. Do not remove historical overlays until authoritative readers have been switched; Git history will retain the original source artifacts.
+Legacy original decision files remain in Git until the authoritative readers and publishing pipeline have deliberately been migrated; they should not be rebuilt into the master. The complete original reviews are already embedded as `audit.record_snapshots` for forensic reconstruction.
