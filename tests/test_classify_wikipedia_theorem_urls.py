@@ -69,6 +69,15 @@ class ClassifierTests(unittest.TestCase):
             "A list of proofs.")[0], "needs_review")
         self.assertEqual(classify(
             "Proof assistant", ["Theorems in logic"], "Software")[0], "needs_review")
+        self.assertEqual(classify(
+            "Hex (board game)", ["Theorems in topology", "Board games"],
+            "Hex is a two-player abstract strategy board game.")[0], "needs_review")
+        self.assertEqual(classify(
+            "William of Soissons", ["Theorems in propositional logic"],
+            "William of Soissons was a French logician.")[0], "needs_review")
+        self.assertEqual(classify(
+            "Tits alternative", ["Theorems in group theory"],
+            "In mathematics, the Tits alternative is an important theorem.")[0], "accepted")
 
 
     def test_url_validation_and_pagination(self):
