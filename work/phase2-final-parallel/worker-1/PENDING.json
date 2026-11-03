@@ -11,66 +11,6 @@
   "initial_batches": 31,
   "pending": [
     {
-      "batch_id": "p2f-w1-b018",
-      "chapter": "moduli-curves",
-      "candidate_count": 4,
-      "sections": [
-        {
-          "chapter": "moduli-curves",
-          "section_start_line": 152,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/moduli-curves/section-152.jsonl",
-          "stage_b_blob_sha": "00e0e3df28003aee8c0931481a4b1fa7c18fb774",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/moduli-curves/section-152.jsonl",
-          "phase3_review_blob_sha": "aa8f3348afd0f8fc6802b54e86f26bf24e214023",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/moduli-curves/section-152.jsonl",
-          "phase2_proposal_blob_sha": "ee69d2d2947ac0e7a6c1fdf852f3644b2e3712c1",
-          "candidate_ids": [
-            "candidate.stacks.2f878b339eea2b6b567b0106"
-          ]
-        },
-        {
-          "chapter": "moduli-curves",
-          "section_start_line": 1513,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/moduli-curves/section-1513.jsonl",
-          "stage_b_blob_sha": "6e5b533a2ed8b518a1b59345c36af30373978c89",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/moduli-curves/section-1513.jsonl",
-          "phase3_review_blob_sha": "cd86d618a49656558e44f766d93a496fbdc2aeda",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/moduli-curves/section-1513.jsonl",
-          "phase2_proposal_blob_sha": "25d73b8926fe322925e314498b3662e19a5378c8",
-          "candidate_ids": [
-            "candidate.stacks.eb2cf3933d334aa7ec2764c5"
-          ]
-        },
-        {
-          "chapter": "moduli-curves",
-          "section_start_line": 2391,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/moduli-curves/section-2391.jsonl",
-          "stage_b_blob_sha": "b30621702a3f66d9eb7c7ace94ab5ee0c116c13b",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/moduli-curves/section-2391.jsonl",
-          "phase3_review_blob_sha": "d325559425bf187e1d5d387d9369fd8b14c48696",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/moduli-curves/section-2391.jsonl",
-          "phase2_proposal_blob_sha": "8116e4f054884643477603a6bd4e55c2c815fdc8",
-          "candidate_ids": [
-            "candidate.stacks.88ea35b12544ac7b5c13144a"
-          ]
-        },
-        {
-          "chapter": "moduli-curves",
-          "section_start_line": 2625,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/moduli-curves/section-2625.jsonl",
-          "stage_b_blob_sha": "aa89e83a515fe8f543b01d15bb25dcdf9d128522",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/moduli-curves/section-2625.jsonl",
-          "phase3_review_blob_sha": "575c99d0b408a402b6b3a04f603c298fafb9d02e",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/moduli-curves/section-2625.jsonl",
-          "phase2_proposal_blob_sha": "7fdb99901ab492846b5a08dcb163df722d7379f3",
-          "candidate_ids": [
-            "candidate.stacks.2daf93682e3dba7a09ae2368"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w1-b019",
       "chapter": "morphisms",
       "candidate_count": 39,
