@@ -1,0 +1,35 @@
+name: Test mathThm search UI
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - 'tests/*.cjs'
+      - '.github/workflows/ui-search-tests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  node-search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check browser script syntax
+        run: |
+          node --check web/search-core.js
+          node --check web/query-editor.js
+          node --check web/app.js
+      - name: Test search, nesting, browser rendering and mathDef integrations
+        run: |
+          node --test tests/test_search.cjs \
+            tests/test_boolean_queries.cjs \
+            tests/test_query_editor.cjs \
+            tests/test_query_builder_integration.cjs \
+            tests/test_ui_smoke.cjs \
+            tests/test_mathdef_v2.cjs \
+            tests/test_definition_links.cjs
