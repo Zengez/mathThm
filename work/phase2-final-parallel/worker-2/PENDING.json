@@ -11,63 +11,6 @@
   "initial_batches": 33,
   "pending": [
     {
-      "batch_id": "p2f-w2-b021",
-      "chapter": "etale-cohomology",
-      "candidate_count": 13,
-      "sections": [
-        {
-          "chapter": "etale-cohomology",
-          "section_start_line": 14195,
-          "stage_b_file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-14195.jsonl",
-          "stage_b_blob_sha": "9ccf9d6edf1f773adf63918ab7353c5e9a60f6ab",
-          "phase3_review_file": "work/phase3-parallel/worker-3/proof_reviews/etale-cohomology/section-14195.jsonl",
-          "phase3_review_blob_sha": "0aff3af32a2dbb8401b0e9f8d0293e08627f65d9",
-          "phase2_proposal_file": "work/phase3-parallel/worker-3/phase2_proposals/etale-cohomology/section-14195.jsonl",
-          "phase2_proposal_blob_sha": "1b7442e9577b8820b28fe6e0fecbe61a09215fa8",
-          "candidate_ids": [
-            "candidate.stacks.4551a954932223a4859b62c2",
-            "candidate.stacks.53145cb95915d457cab557e8",
-            "candidate.stacks.a1f645efc44ba15919a4af0d",
-            "candidate.stacks.cba9c9c8fa0b34dfe06f6ff5",
-            "candidate.stacks.17c6aaa4941fdf71127c2a2c",
-            "candidate.stacks.2bdc36caaa9f918afb60e414",
-            "candidate.stacks.25697d67d4e67c8209d73bd5",
-            "candidate.stacks.6eec59de5a74abe8f134fba8"
-          ]
-        },
-        {
-          "chapter": "etale-cohomology",
-          "section_start_line": 14507,
-          "stage_b_file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-14507.jsonl",
-          "stage_b_blob_sha": "b710eeaae09872b4148aadcb6a38ea06da7b0e7a",
-          "phase3_review_file": "work/phase3-parallel/worker-3/proof_reviews/etale-cohomology/section-14507.jsonl",
-          "phase3_review_blob_sha": "7eb04667512be17c3cbf5678fe44fdda782ceda9",
-          "phase2_proposal_file": "work/phase3-parallel/worker-3/phase2_proposals/etale-cohomology/section-14507.jsonl",
-          "phase2_proposal_blob_sha": "1ed5a143ff926c9ee45927a87722e96d4514d61f",
-          "candidate_ids": [
-            "candidate.stacks.e1a7ef1a0157cab141df8f1f"
-          ]
-        },
-        {
-          "chapter": "etale-cohomology",
-          "section_start_line": 14891,
-          "stage_b_file": "work/stageb-parallel/worker-3/results/etale-cohomology/section-14891.jsonl",
-          "stage_b_blob_sha": "888a3f267a565ac51de7024ccee6767156da540b",
-          "phase3_review_file": "work/phase3-parallel/worker-3/proof_reviews/etale-cohomology/section-14891.jsonl",
-          "phase3_review_blob_sha": "32fdc17045454062bb84859e9133ac73813fed02",
-          "phase2_proposal_file": "work/phase3-parallel/worker-3/phase2_proposals/etale-cohomology/section-14891.jsonl",
-          "phase2_proposal_blob_sha": "a42ee04dc840af01023e7acae2d3702a35c816bc",
-          "candidate_ids": [
-            "candidate.stacks.edd66b83b7d423d11f03b7d4",
-            "candidate.stacks.2b2639468184edc75c641086",
-            "candidate.stacks.da22e45b8c23af6713f24ef7",
-            "candidate.stacks.913c5fa69cfe0ba1ff7ad7a0"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w2-b022",
       "chapter": "examples-defos",
       "candidate_count": 5,
