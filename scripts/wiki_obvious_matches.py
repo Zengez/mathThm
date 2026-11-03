@@ -89,7 +89,7 @@ def is_proof_heading(heading: str, page_title: str) -> bool:
     h = normalized(heading)
     title = normalized(page_title)
     return (h.startswith(("proof of ", "proofs of ")) and
-            len(title) >= 10 and title in h and h.endswith(title))
+            len(title) >= 10 and title in h)
 
 
 def find_section(url: str, wait: float = 0) -> tuple[str | None, str]:
