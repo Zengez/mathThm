@@ -25,12 +25,18 @@ class CorpusTests(unittest.TestCase):
                 self.assertTrue(record["statement"])
                 self.assertTrue(record["source_url"].startswith("https://"))
                 self.assertTrue(record["proofs"])
-                self.assertEqual(record["review_status"],"cursory_screened_unverified")
+                self.assertIn(record["review_status"], (
+                    "cursory_screened_unverified",
+                    "phase2_approved_phase3_screened",
+                    "phase2_approved_source_reference_only"))
                 self.assertTrue(record["statement_editorial"])
                 for proof in record["proofs"]:
                     self.assertTrue(proof["url"].startswith("https://"))
                     self.assertTrue(proof["locator"])
-                    self.assertEqual(proof["screening"],"cursory_screened")
+                    if record.get("phase2_approval"):
+                        self.assertIn(proof["screening"], ("cursory_screened", "source_reference_only"))
+                    else:
+                        self.assertEqual(proof["screening"],"cursory_screened")
 
     def test_side_specific_tags_and_equivalence(self):
         for r in self.items:
