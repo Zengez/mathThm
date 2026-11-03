@@ -1,32 +1,31 @@
 /* Boolean query builder — intentionally separate from shared theorem-page styling. */
 .query-builder{min-width:0}
-.query-group{min-width:0}
-.query-row{display:grid;grid-template-columns:70px minmax(0,1fr) auto;align-items:start;gap:7px;margin:8px 0}
+.query-group{min-width:0;--query-gutter:70px;--query-gap:7px}
+.query-row{display:grid;grid-template-columns:var(--query-gutter) minmax(0,1fr) auto;align-items:start;gap:var(--query-gap);margin:8px 0}
 .query-operand{min-width:0}
 .query-connector{width:100%;min-height:39px;padding:8px 3px;border:1px solid #c3d6e9;border-radius:7px;background:#edf4fd;color:#315d8d;font-weight:750;font-size:11px}
-.query-connector-placeholder{display:block;width:70px}
+.query-connector-placeholder{display:block;width:var(--query-gutter)}
 .search-box .query-term{width:100%;min-width:0;min-height:39px;padding:9px 10px}
 .query-row-controls{display:flex;align-items:center;gap:3px;min-height:39px}
 .query-action{border:1px solid #d3e2f0;border-radius:7px;background:#f6f9fe;color:#456b92;padding:7px 9px;font-size:11px;font-weight:700;line-height:1.3;white-space:nowrap}
 .query-action:hover{background:#e6f1fd;border-color:#aec8e4}
 .query-row-controls .query-action{min-height:35px}
 .query-row-controls [data-action="remove"]{font-size:16px;padding:5px 9px;color:#815a68}
-.query-add{display:flex;gap:7px;flex-wrap:wrap;margin:7px 0 1px 77px}
+/* Term stays aligned with the search field; group creation lives in the connector gutter. */
+.query-add{position:relative;display:flex;align-items:flex-start;min-height:36px;margin:7px 0 1px calc(var(--query-gutter) + var(--query-gap))}
 .query-add .query-action{background:white;border-style:dashed}
+.query-add [data-action="add-group"]{position:absolute;top:0;left:calc(-1 * (var(--query-gutter) + var(--query-gap)));width:var(--query-gutter);min-height:34px;padding:7px 2px;background:#edf4fd;border:1px solid #bdd1e7;white-space:normal;line-height:1.2}
+.query-add [data-action="add-group"]:hover{background:#dceafd;border-color:#97b5d7}
 .query-nested{min-width:0;border:1px solid #c8d8e9;background:#f8fbff;border-radius:10px;padding:8px 6px 8px 3px}
 .query-group-label{font-size:11px;font-weight:750;color:#587899;padding:3px 5px 1px;letter-spacing:.02em}
-.query-nested .query-add{margin-left:77px}
 .query-logic{font-size:11px;color:#64819e;line-height:1.5;overflow-wrap:anywhere;margin:10px 0 0!important;min-height:0!important}
 @media(max-width:1060px){
-  .query-row{grid-template-columns:62px minmax(0,1fr) auto;gap:5px}
-  .query-connector-placeholder{width:62px}
-  .query-add,.query-nested .query-add{margin-left:67px}
+  .query-group{--query-gutter:62px;--query-gap:5px}
   .query-action{padding:7px 6px}
 }
 @media(max-width:430px){
-  .query-row{grid-template-columns:57px minmax(0,1fr) auto;gap:4px}
-  .query-connector-placeholder{width:57px}
-  .query-add,.query-nested .query-add{margin-left:61px}
+  .query-group{--query-gutter:57px;--query-gap:4px}
+  .query-add [data-action="add-group"]{font-size:10px}
   .query-nested{overflow-x:auto}
   .query-row-controls{gap:2px}
   .query-row-controls .query-action{padding:6px 4px}
