@@ -1,0 +1,1067 @@
+{
+  "expected_worker_candidates": 3061,
+  "frozen_worker_base": "7c9e0b3168f592a460ab014559b8305d3ab42301",
+  "historical_authoritative_ids": 1071,
+  "historical_worker_overlaps": [],
+  "migration_issue_types": {
+    "approved_formulation_digest_mismatch": 65,
+    "incomplete_approved_formulation": 46,
+    "original_source_digest_mismatch": 7,
+    "phase3_reviewed_content_digest_mismatch": 136
+  },
+  "migration_issues": [
+    {
+      "candidate_id": "candidate.stacks.017917f95467eee57e01633a",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.017917f95467eee57e01633a",
+      "issue": "original_source_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.01fc0a809e602acf63d88c0b",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.03a9d83722eb559ab8cc2536",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.04f964ccbd1a7fdbc8195752",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.07355ab8c4a0e0cb00c7a74c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.07b14d423fd4ba490f7321ac",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.07b852df0cfe6c503d279553",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.0939b792f11cc0cad7ea6a23",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.099e67d691a612612aeba26f",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.0a0d7dcac01a265e08d9ff23",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.0c8cd39ec10548affaa32420",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.0cd037db31a339feab25314f",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.0cd52ca93b4cafa14cfad918",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.106c5a6c30fad04cf66187c1",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.11a20d961d3428116de1b071",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.12a65f6e2f828b08050e38e5",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.13374e58c4b0f8786d7a454a",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.13a2408b4de18dbaf425b6aa",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.16a896fb0fe1e4ef35dc10d4",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.17c6aaa4941fdf71127c2a2c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.180e903e0a2912aebe52efd9",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.187f385d85bb2aba49510e19",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.18c749403a4383f906858ccb",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.197c0f9964c64c6f500908df",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.1a1d601228f8cba35778c52d",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.1b15b5c7fcd7c82c2fddef7e",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.1be0b8ce9797e420808ef90a",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.1d4451e075b286f142d8c244",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.1d7473972506df10f029ad06",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.1d8f88b6172a15f34dbab16e",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.1e8e5d926be2ea3b7dfb5494",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.2062880bcb2166b40101a8be",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.211aac2b7eafff417d375b82",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.21200b04db385b0855364f69",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.212cf1bcd26a5aff19b5c83f",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.21fd5da2050065ba4eeda7ef",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.2360fb82ed8dcbd398b36bf6",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.243a2c034ebc66bbf890f617",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.25697d67d4e67c8209d73bd5",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.2679fe619e7f1fc8adb906ba",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.2773f4138ffc84cfe35bfab4",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.280100bcc48749d85046ab6b",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.282b1901eeca2acc96fc59d8",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.2916e278579beece8410d43d",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.298e813a9ff2e00dd3c1f9c3",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.2a2faf69cff294e500657e54",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.2a3da5095613191dc027a33f",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.2ac6757d19c70d5a3dcd07c5",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.2b2639468184edc75c641086",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.2bdc36caaa9f918afb60e414",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.2c372417f8ad8ef0df16f497",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.2cf379a6eaad33d07d2f6eb0",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.2ee8b136c823457eca63a4d5",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.2ff600d4d3e96b854809db1e",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.342a1d22f719f351cebadaad",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.3523f9040acb3022a9bfb36f",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.36b192f4e6613c8dcde9f68d",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.38e623bc94aacbd814ac4fa6",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.395f67d2f4a6c3efed952a37",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.397ec9d7864c27fdf5907798",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.39afb44da6cdf88d63c763e7",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.39e748b6aa4ea4700d27e84c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.3b6c113b5d1e94db4cb67e46",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.3b9bd0228149ea1be338d966",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.3e3e486b9be3242418a76bb6",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.40525e3f6320a403fee5828f",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.4056224516be8e150c87f38f",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.407f51e2bcd3acc753b89b60",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.41a85aa2691d2cd4385e373a",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.41c3d37860ab1153df4555c1",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.420fbbd12805578fa56ce7d2",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.4368e02153875ab6c3192b73",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.44110d32c07dfa2ce41d5d92",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.451a8745f1f5b175134cd235",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.4551a954932223a4859b62c2",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.45d4bf0c8bb1c2f0fd9d7064",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.46ec4555345b45936707492b",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.478a9a653c87e5b1445e8d5f",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.48240facf3785053826693e2",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.48a67761aaa20ec55720cb51",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.48d9db302737446cf6647372",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.49a2d39d809b92bdf8fc1a3c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.4acd50a52964f8eb2ba73640",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.4c694e7cea999606f0413ecf",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.4d32d7d542fb3019404bace4",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.4edfa26be4b0926a473857db",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.4f276a9f4809447a58efc490",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.50d6ce608f2f1ec48962da64",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.50d6ce608f2f1ec48962da64",
+      "issue": "original_source_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.510b7247341cb8ab9c137fe2",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.521abe23eee4b930e5e547ca",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.53145cb95915d457cab557e8",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.538dc69a57410706e0b15b4f",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.538dc69a57410706e0b15b4f",
+      "issue": "original_source_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.57080f70b6c6e21ebe8bd5ca",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.57acd7952ea5aa36cc16a283",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.58b9cde0ff06f24aff1c769a",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.590d23a3913c1139ed9364c6",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.5999f2b1c7f6c6953201906d",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.5b267f0fefc5cb600a065b46",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.5badafa285c7b5ab07ffcd7c",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.5bd90b5fb95e515398716079",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.5da9f829eca63545fa0531b4",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.5e344e8ace8d64615a0306c3",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.5e37cd16244d151fbd2f94b1",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.5efbf13730aca20e4ca8209c",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.5f136a4a19bdffaed63b9cbc",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.5fa988b4d61b647c37fd1803",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.6068d54be4f5098d9565e38e",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.6075267f4d5ead6f431f138f",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.60ffc6eccd3214d82e1b913d",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.6167e3a11cec428180a12843",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.6383245ed64ef82caec5a66f",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.6397217a38efa70a90cd22a7",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.64e26e133d41063bf1648f9b",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.6715d2f4da92a80b616c166e",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.675f5586b8b756bd6cf2f36c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.6c8e47b2ea17b235255e6b3a",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.6dad4949ccaef576f4b75834",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.6e7d90e5ad04289fb895e601",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.6ee8bba3c4577386488ac691",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.6eec59de5a74abe8f134fba8",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.6f5b47080a68d785f42755cd",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.74bd68dc5cafcc8da1878c71",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.76e63aa59d65c478afd4d705",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.76e63aa59d65c478afd4d705",
+      "issue": "original_source_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.7841d53df838996f828c778a",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.787ca3e284f71e557ada8b44",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.78eddf2c1c3a9af3ec64d7ad",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.79b7db2b28ec8b1fbf4ba8b2",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.7c132df50fbef5f72284d26c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.7f0b23d421dbb7286913a782",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.7f84f2a1d10a058d8cfc8d07",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.810f0af13b004f6c6bdb52c8",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.8210fa4d7d0d9c5d817b79fd",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.82c159b5a9214d0104a5e039",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.852bf2a84d425ec363679563",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.864a4682f9ac7f4562b6c3a4",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.86ca39e9da5000c86ff656a9",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.88061af9f3acd3848f6bf6e1",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.8890f35d9b8c71aafe6885bc",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.88ea35b12544ac7b5c13144a",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.89dc00b85dfd510bebaa5694",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.8a10077bddc16deaed0ce6f0",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.8c52c63eacd337fdcc5d426c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.8c985489970146a6729741ad",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.8ceb2e1e75c8b94bf55d04e9",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.8dd208ede65a6fd2301600d4",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.8e107d90bbd0366b4330fc8a",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.8ec2c8ca298ba1549ed3dd91",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.90a0a7625eac4b2269282d47",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.913c5fa69cfe0ba1ff7ad7a0",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.91abbbd515e6bf185a0b1866",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.93d48b52cd6b813fada5947b",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.94277058bc44d73e9e1742a6",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.946bc2afb503a7ac8aa09f93",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.94dfbabd69892067d842f495",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.9586d55033fddfc76dd78a3c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.95d6e1cab20c420322d5027e",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.95eec66b773e22e04575cec4",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.96271fe9692fd74bc8466a39",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.97211d3aad830a9622554391",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.9751773ed7118e0ccf3e3808",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.97664cc93ff0b344b8dd1988",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.9a2847c4828a1dd57b692ca0",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.9a4511a2c03e39a20dcf7004",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.9f638c9758cd32c5f00ee27f",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.9f638c9758cd32c5f00ee27f",
+      "issue": "original_source_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.a07b9a1ab94031c6af6e7d96",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.a1f645efc44ba15919a4af0d",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.a51b37c816e57ceb6b5052a5",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.a9803db2d881edd738ec393c",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.aa53b15023d87020db82b90f",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.aafe3c7223b02d67d2820ff4",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.ab68ebf028a2584e8dd5f478",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.abb34aea6189a616da999826",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.abdac2617aa87433dfaf2ee2",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.af4b41c31a872326b9ee668f",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.b0279a5d631ab3245894da79",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.b478eca00fbe9ed33f539b6c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.b562a0f4449cf7501e5421af",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.b69b93e71ad1ee43494c5861",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.b75deffa697ca9d9332b8638",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.b81e335cb35099f120b2fa25",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.b821cd0a57af247ff4aa8312",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.b8c5d6bfb6ee0c71f2387538",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.b950e62275e5f5ecc8010e0a",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.ba13d48b207a9dadd3561861",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.ba6d481301c77dca0dc1ddc8",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.bad90bd7d03480ca5e5ebdda",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.bb8e77961385967d018d9ee4",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.bcf7bdd3988e9695956c2bac",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.bf746cae4aad96810c81be38",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.c060821a63f600279d51c099",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.c2c6cd3146074039bc8b6c18",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.c4d40d059757e7e248b76ea7",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.c5a60c2f78d9a1cbc3a39e7e",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.c5e111a6a84ae72c32a4d79f",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.c60ed037cf23e07c6f975823",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.c62e3ce46b6628890ff512d7",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.c644063185fd5296476e1737",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.c88b2bc9f88f5f1da9c0489c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.c987db884e583d278f709d28",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.ca009ac16e98e311fa76a645",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.cb2f3daa4a43062e46c1fc34",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.cb362aa626b4737acc3394e8",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.cb362aa626b4737acc3394e8",
+      "issue": "original_source_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.cba9c9c8fa0b34dfe06f6ff5",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.cbc3d0ea1b13d0be736d307f",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.cbc71e2710d57784cced2866",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.cc1f9ccfd1c9ec98894599e3",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.ccd4306e047f706c361d1829",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.cd9486e2ceae9106432b2622",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.cf9b133ff8a985dad6693c78",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.d0a2dbd1e1a4ddb6d62b5899",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.d3b1bc4b7fb6e793948425dc",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.d431a3535b474963304e761d",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.d4e2b69a1e3d15a3ca34b471",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.d5c9f92910a846a71562fc74",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.d8aeba97d757b7a17e65ee43",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.da22e45b8c23af6713f24ef7",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.dc5d46bb27f90dc88fcd1e37",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.de103088847999a7f38ddffc",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.dec28bd343dfd1dc97f72c5a",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.e08558beee476b4fc25dd38f",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.e1a7ef1a0157cab141df8f1f",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.e315f2d7b040f0439832b73d",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.e452937a93c909d6f0b52e0b",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.e491151bcc055318d6e2779c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.e4dc95c7bee102160eea73aa",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.e5fb436d2094ca57c5b6d80e",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.e6272534f852f492d05c9bad",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.e97ed2015c79fc36647acfa2",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.e97ed2015c79fc36647acfa2",
+      "issue": "original_source_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.e994e535a55190d1275a35a0",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.e9e4caf291c85710d2884695",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.ea0d284a763d525b129a6724",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.eb2cf3933d334aa7ec2764c5",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.eb41fb68ec8dcadbc43e15ae",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.ebaf2e4c6c21e4446e099f49",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.ecca96e73fde31966e54fbd6",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.ed337fee50c9dd968af1a82c",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.edd66b83b7d423d11f03b7d4",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.edf2f828ea1e9c681dc407e9",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.ee4c21022904f6cb65cf9b63",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.eea1c52e4b63df35e13c72ad",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.ef27a830144dcdcc902cb083",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.f06b5fd11e911a918ac083aa",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.f3aef704ad041bd5b4f8c3ab",
+      "issue": "approved_formulation_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.f4cf9f8ab26daa2850fc619c",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.f6780f956123ee7b5690b0ce",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    },
+    {
+      "candidate_id": "candidate.stacks.f7988b457043274a6aeb5066",
+      "issue": "incomplete_approved_formulation"
+    },
+    {
+      "candidate_id": "candidate.stacks.fa550763d37dd73ec1f7c8ea",
+      "issue": "phase3_reviewed_content_digest_mismatch"
+    }
+  ],
+  "old_decision_files_retained_pending_audit": true,
+  "phase2_decisions": {
+    "source_equivalence_approved": 3943,
+    "source_equivalence_held": 189
+  },
+  "published_catalog_changed": false,
+  "registration_changed": false,
+  "schema": "maththm.master-migration-report.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "unique_master_records": 4132,
+  "worker_counts": [
+    {
+      "batches": 31,
+      "candidates": 766,
+      "sections": 224,
+      "worker": 1
+    },
+    {
+      "batches": 33,
+      "candidates": 765,
+      "sections": 264,
+      "worker": 2
+    },
+    {
+      "batches": 30,
+      "candidates": 765,
+      "sections": 242,
+      "worker": 3
+    },
+    {
+      "batches": 32,
+      "candidates": 765,
+      "sections": 264,
+      "worker": 4
+    }
+  ],
+  "worker_unique_ids": 3061
+}
