@@ -1,0 +1,48 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b015",
+  "chapter": "equiv",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-resumption-after-timeout",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 2,
+  "approved_count": 2,
+  "held_count": 0,
+  "section_count": 2,
+  "candidate_ids": [
+    "candidate.stacks.0991b4c57d3d90e430000318",
+    "candidate.stacks.981ebca7ad9a44675cac4c37"
+  ],
+  "held_candidate_ids": [],
+  "decision_files": [
+    {
+      "chapter": "equiv",
+      "section_start_line": 3738,
+      "candidate_ids": [
+        "candidate.stacks.0991b4c57d3d90e430000318"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/equiv/section-3738.jsonl",
+      "decision_blob_sha": "e3b5cdb310dd3d1b75093b4777261679b2d99c35",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "equiv",
+      "section_start_line": 4329,
+      "candidate_ids": [
+        "candidate.stacks.981ebca7ad9a44675cac4c37"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/equiv/section-4329.jsonl",
+      "decision_blob_sha": "d650567ca8f89431293d9bdc9a1ecb5f18d58735",
+      "approvals": 1,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "3a51a357202968e22120cafbb00b0344debaebb4",
+  "validation": "Two frozen Equiv source-section IDs reviewed and approved, pinned Stacks source and all immutable hashes verified, final content digests checked; awaiting central registration."
+}

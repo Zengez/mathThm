@@ -11,40 +11,6 @@
   "initial_batches": 33,
   "pending": [
     {
-      "batch_id": "p2f-w2-b015",
-      "chapter": "equiv",
-      "candidate_count": 2,
-      "sections": [
-        {
-          "chapter": "equiv",
-          "section_start_line": 3738,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/equiv/section-3738.jsonl",
-          "stage_b_blob_sha": "a523bc9491de915daffdf90b99a750f913cb4b10",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/equiv/section-3738.jsonl",
-          "phase3_review_blob_sha": "d3f1ef5009105a00ed575808f8b57513e7222728",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/equiv/section-3738.jsonl",
-          "phase2_proposal_blob_sha": "32201df4a99824b43c7d3f40e8eca270511de78d",
-          "candidate_ids": [
-            "candidate.stacks.0991b4c57d3d90e430000318"
-          ]
-        },
-        {
-          "chapter": "equiv",
-          "section_start_line": 4329,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/equiv/section-4329.jsonl",
-          "stage_b_blob_sha": "ccab44e3e3f3a2343390321c58216875a77966c5",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/equiv/section-4329.jsonl",
-          "phase3_review_blob_sha": "80cbe3a9d60400b1fc55efa92011abd723b3dec7",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/equiv/section-4329.jsonl",
-          "phase2_proposal_blob_sha": "6b111fe9fe825b761c4f64edc180bd7c99fb45ba",
-          "candidate_ids": [
-            "candidate.stacks.981ebca7ad9a44675cac4c37"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w2-b016",
       "chapter": "etale-cohomology",
       "candidate_count": 19,
