@@ -59,6 +59,7 @@ def main():
     all_stageb = set()
     total_held = 0
     checked_files = 0
+    diagnostic = Counter()
 
     def fail(category, detail):
         issues[category] += 1
@@ -165,8 +166,12 @@ def main():
                     if not stage_b.get("review_note"):
                         fail("stage_b_missing_review_note", cid)
                     for key in CONTENT:
-                        if not stage_b.get(key):
+                        if key not in stage_b or (key in ("statement", "logical_form") and not stage_b[key]):
                             fail("stage_b_missing_content", f"{cid}: {key}")
+                        elif key in ("hypotheses", "conclusions") and not isinstance(stage_b[key], list):
+                            fail("stage_b_invalid_content_array", f"{cid}: {key}")
+                        elif key == "hypotheses" and not stage_b[key]:
+                            diagnostic[f"worker_{n}_unconditional_hypotheses"] += 1
 
                     pair = ((p_by_id.get(cid), "proposal", propfile),
                             (r_by_id.get(cid), "proof", prooffile))
@@ -205,7 +210,10 @@ def main():
                             if obj.get("source_statement_sha256") is not None:
                                 source_digest = hashlib.sha256(stage_b["original_source_statement_tex"].encode("utf8")).hexdigest()
                                 if obj["source_statement_sha256"] != source_digest:
-                                    fail("proposal_source_digest_mismatch", cid)
+                                    diagnostic[f"worker_{n}_source_digest_mismatch"] += 1
+                                    source_text = stage_b["original_source_statement_tex"]
+                                    strip_digest = hashlib.sha256(source_text.strip().encode("utf8")).hexdigest()
+                                    fail("proposal_source_digest_mismatch", f"worker={n} cid={cid} path={artifact} source_len={len(source_text)} stripped_matches={strip_digest == obj['source_statement_sha256']} declared={obj['source_statement_sha256']} actual={source_digest}")
                             prepared = (obj.get("stage_b_reviewed_content") or obj.get("reviewed_content") or obj)
                         else:
                             prepared = obj.get("stage_b_reviewed_content")
@@ -289,6 +297,7 @@ def main():
         "workers": worker_results,
         "outcomes": dict(sorted(sum((Counter(r["proof_outcomes"]) for r in worker_results), Counter()).items())),
         "issue_counts": dict(sorted(issues.items())),
+        "diagnostics": dict(sorted(diagnostic.items())),
         "issue_examples": examples,
         "limitations": [
             "Proves exact frozen Stage B / worker ID and content linkage, not mathematical correctness.",
