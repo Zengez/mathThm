@@ -1,0 +1,55 @@
+name: Set up authoritative Phase 2 four-worker lanes
+on:
+  push:
+    branches:
+      - work/phase2-final/parallel-base
+    paths:
+      - scripts/phase2_final_parallel.py
+      - .github/workflows/phase2-final-parallel-setup.yml
+permissions:
+  contents: write
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Generate exact-ID mathematical-review queues and complete-source-section partition
+        run: |
+          test ! -e work/phase2-final-parallel/ALLOCATION.json
+          python scripts/phase2_final_parallel.py --generate
+      - name: Run complete integrity preflight before publishing branch heads
+        run: python scripts/phase2_final_parallel.py --check
+      - name: Commit, push, and create four independent branches from one common reviewed base
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/phase2-final-parallel
+          git commit -m 'Freeze four authoritative Phase 2 source-first review queues'
+          for branch in work/phase2-final/chat-1 work/phase2-final/chat-2 work/phase2-final/chat-3 work/phase2-final/chat-4 work/phase2-final/parallel-reconciled; do
+            if git ls-remote --exit-code origin "refs/heads/$branch" >/dev/null; then
+              echo "::error::Existing branch $branch must be inspected, not overwritten."
+              exit 1
+            fi
+          done
+          git push origin HEAD:refs/heads/work/phase2-final/parallel-base
+          BASE_SHA="$(git rev-parse HEAD)"
+          for branch in work/phase2-final/chat-1 work/phase2-final/chat-2 work/phase2-final/chat-3 work/phase2-final/chat-4 work/phase2-final/parallel-reconciled; do
+            git push origin "$BASE_SHA:refs/heads/$branch"
+          done
+          python scripts/phase2_final_parallel.py --check --verify-branches
+          echo "Verified shared base $BASE_SHA"
+      - name: Archive configuration preflight
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase2-final-setup
+          path: |
+            work/phase2-final-parallel/ALLOCATION.json
+            work/phase2-final-parallel/EXCLUDED.json
+          if-no-files-found: warn
