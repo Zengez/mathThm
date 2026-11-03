@@ -9,28 +9,5 @@
   "expected_candidates": 766,
   "initial_sections": 224,
   "initial_batches": 31,
-  "pending": [
-    {
-      "batch_id": "p2f-w1-b031",
-      "chapter": "trace",
-      "candidate_count": 2,
-      "sections": [
-        {
-          "chapter": "trace",
-          "section_start_line": 1374,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/trace/section-1374.jsonl",
-          "stage_b_blob_sha": "3a3121dd0fcf9a6cbb09f34f777b28bcc1360f9b",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/trace/section-1374.jsonl",
-          "phase3_review_blob_sha": "c162f27d21aff85b86bd957158c95c00a0db5455",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/trace/section-1374.jsonl",
-          "phase2_proposal_blob_sha": "ee86a94ad46265fa4fa1028a87eb43c27220a590",
-          "candidate_ids": [
-            "candidate.stacks.ac71a7a59af35b76e3209bbf",
-            "candidate.stacks.d00a27029043f7592bcc39da"
-          ]
-        }
-      ],
-      "status": "pending"
-    }
-  ]
+  "pending": []
 }
