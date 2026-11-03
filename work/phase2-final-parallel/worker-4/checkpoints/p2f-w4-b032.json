@@ -1,0 +1,55 @@
+{
+  "schema": "maththm.phase2-final.worker-batch-checkpoint.v1",
+  "worker": 4,
+  "branch": "work/phase2-final/chat-4",
+  "reviewer": "chatgpt-final-phase2-worker-4-2026-11-03-review-p2-4b",
+  "batch_id": "p2f-w4-b032",
+  "chapter": "spaces-properties",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "completed_sections": 2,
+  "completed_candidate_count": 2,
+  "approved_count": 2,
+  "held_count": 0,
+  "candidate_ids": [
+    "candidate.stacks.1b15b5c7fcd7c82c2fddef7e",
+    "candidate.stacks.246f8a12e0d298381609ee24"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.1b15b5c7fcd7c82c2fddef7e",
+    "candidate.stacks.246f8a12e0d298381609ee24"
+  ],
+  "held_candidate_ids": [],
+  "sections": [
+    {
+      "chapter": "spaces-properties",
+      "section_start_line": 5709,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-5709.jsonl",
+      "decision_blob_sha": "0f7617ee518bf8f05bb87933314c3479f6ffe70c",
+      "candidate_ids": [
+        "candidate.stacks.1b15b5c7fcd7c82c2fddef7e"
+      ],
+      "approved_count": 1,
+      "held_count": 0
+    },
+    {
+      "chapter": "spaces-properties",
+      "section_start_line": 5895,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/spaces-properties/section-5895.jsonl",
+      "decision_blob_sha": "c36759d47334bf6b9adcfd5ffa27f2df559b4690",
+      "candidate_ids": [
+        "candidate.stacks.246f8a12e0d298381609ee24"
+      ],
+      "approved_count": 1,
+      "held_count": 0
+    }
+  ],
+  "validation": {
+    "all_frozen_ids_in_order": true,
+    "whole_sections_complete": true,
+    "decision_records_evidence_checked": true,
+    "source_first_review_recorded": true,
+    "phase3_proofs_not_reviewed": true,
+    "approval_digests_computed_from_exact_final_fields": true
+  },
+  "status": "completed"
+}
