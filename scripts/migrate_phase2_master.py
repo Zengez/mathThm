@@ -63,7 +63,7 @@ def frozen_queue(worker):
 def content_digest(cid, rev, form):
     payload = {"candidate_id": cid, "source_revision": rev}
     payload.update({k: form.get(k) for k in FORM_FIELDS})
-    return sha256(json_text(payload).replace(":", ": ")) if False else hashlib.sha256(
+    return hashlib.sha256(
         json.dumps(payload, sort_keys=True, ensure_ascii=False).encode("utf-8")
     ).hexdigest()
 
@@ -130,7 +130,7 @@ def canonical(cid, row, *, origin, worker=None, batch_id=None, section=None,
     if not isinstance(ref, dict):
         ref = {}
         flags.append("invalid_immutable_input_structure")
-    merged = {**ref, **{k: v for k, v in provenance.items() if v is not None}}
+    merged = {**row, **ref, **{k: v for k, v in provenance.items() if v is not None}}
     stage_a = choose(merged, "stage_a_artifact", "reconstruction_artifact")
     stage_a_sha = choose(merged, "stage_a_blob_sha", "stage_a_artifact_git_blob_sha")
     stage_b_path = choose(merged, "stage_b_file", "stage_b_result_file", "stage_b_path")
@@ -332,9 +332,11 @@ def migrate():
                     if cid not in p3 or cid not in stageb or cid not in proposal:
                         raise RuntimeError(f"Missing Phase 3/Stage B/proposal material for {cid}")
                     b = stageb[cid]
-                    if any(b.get(k) != row.get("final_content", row).get(k)
-                           for k in ("statement", "hypotheses", "conclusions", "logical_form")):
-                        reports.append({"candidate_id": cid, "issue": "stage_b_and_reviewed_formulation_disagree"})
+                    if row.get("decision") == "source_equivalence_approved":
+                        reviewed_form = row.get("final_content") or row
+                        if any(b.get(k) != reviewed_form.get(k)
+                               for k in ("statement", "hypotheses", "conclusions", "logical_form")):
+                            reports.append({"candidate_id": cid, "issue": "stage_b_and_reviewed_formulation_disagree"})
                     snap = archived_snapshot("final_worker", decision_file, row, index)
                     record = canonical(
                         cid, row, origin="final_worker", worker=worker,
