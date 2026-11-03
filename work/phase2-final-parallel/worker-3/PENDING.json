@@ -11,29 +11,6 @@
   "initial_batches": 30,
   "pending": [
     {
-      "batch_id": "p2f-w3-b022",
-      "chapter": "sites",
-      "candidate_count": 3,
-      "sections": [
-        {
-          "chapter": "sites",
-          "section_start_line": 11682,
-          "stage_b_file": "work/stageb-parallel/worker-1/results/sites/section-11682.jsonl",
-          "stage_b_blob_sha": "a7f85c0ddd5eb8c2870f3d1f734b3a87028eeb52",
-          "phase3_review_file": "work/phase3-parallel/worker-1/proof_reviews/sites/section-11682.jsonl",
-          "phase3_review_blob_sha": "2c97f23db2c8ac83a23a812f9e6d1397bec6ecdf",
-          "phase2_proposal_file": "work/phase3-parallel/worker-1/phase2_proposals/sites/section-11682.jsonl",
-          "phase2_proposal_blob_sha": "7fb891c3f6b24b41b46f25c3ec839e37031ce78c",
-          "candidate_ids": [
-            "candidate.stacks.c3e139a53f4f731406020ea3",
-            "candidate.stacks.60d9a07528062e45a5b6a1f5",
-            "candidate.stacks.17fc792c51603ca34f250090"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w3-b023",
       "chapter": "spaces-morphisms",
       "candidate_count": 35,
