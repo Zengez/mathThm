@@ -7,7 +7,7 @@
     "approved_formulation_digest_mismatch": 65,
     "incomplete_approved_formulation": 46,
     "original_source_digest_mismatch": 7,
-    "phase3_reviewed_content_digest_mismatch": 136
+    "phase3_reviewed_content_digest_mismatch": 70
   },
   "migration_issues": [
     {
@@ -19,28 +19,12 @@
       "issue": "original_source_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.01fc0a809e602acf63d88c0b",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.03a9d83722eb559ab8cc2536",
       "issue": "incomplete_approved_formulation"
     },
     {
-      "candidate_id": "candidate.stacks.04f964ccbd1a7fdbc8195752",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.07355ab8c4a0e0cb00c7a74c",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.07b14d423fd4ba490f7321ac",
       "issue": "approved_formulation_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.07b852df0cfe6c503d279553",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.0939b792f11cc0cad7ea6a23",
@@ -52,10 +36,6 @@
     },
     {
       "candidate_id": "candidate.stacks.0a0d7dcac01a265e08d9ff23",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.0c8cd39ec10548affaa32420",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
@@ -83,10 +63,6 @@
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.13a2408b4de18dbaf425b6aa",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.16a896fb0fe1e4ef35dc10d4",
       "issue": "approved_formulation_digest_mismatch"
     },
@@ -96,14 +72,6 @@
     },
     {
       "candidate_id": "candidate.stacks.180e903e0a2912aebe52efd9",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.187f385d85bb2aba49510e19",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.18c749403a4383f906858ccb",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
@@ -131,10 +99,6 @@
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.1d8f88b6172a15f34dbab16e",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.1e8e5d926be2ea3b7dfb5494",
       "issue": "incomplete_approved_formulation"
     },
@@ -147,20 +111,12 @@
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.21200b04db385b0855364f69",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.212cf1bcd26a5aff19b5c83f",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.21fd5da2050065ba4eeda7ef",
       "issue": "incomplete_approved_formulation"
-    },
-    {
-      "candidate_id": "candidate.stacks.2360fb82ed8dcbd398b36bf6",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.243a2c034ebc66bbf890f617",
@@ -172,14 +128,6 @@
     },
     {
       "candidate_id": "candidate.stacks.2679fe619e7f1fc8adb906ba",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.2773f4138ffc84cfe35bfab4",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.280100bcc48749d85046ab6b",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
@@ -199,10 +147,6 @@
       "issue": "incomplete_approved_formulation"
     },
     {
-      "candidate_id": "candidate.stacks.2a3da5095613191dc027a33f",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.2ac6757d19c70d5a3dcd07c5",
       "issue": "approved_formulation_digest_mismatch"
     },
@@ -216,10 +160,6 @@
     },
     {
       "candidate_id": "candidate.stacks.2c372417f8ad8ef0df16f497",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.2cf379a6eaad33d07d2f6eb0",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
@@ -247,32 +187,8 @@
       "issue": "approved_formulation_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.395f67d2f4a6c3efed952a37",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.397ec9d7864c27fdf5907798",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.39afb44da6cdf88d63c763e7",
       "issue": "approved_formulation_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.39e748b6aa4ea4700d27e84c",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.3b6c113b5d1e94db4cb67e46",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.3b9bd0228149ea1be338d966",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.3e3e486b9be3242418a76bb6",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.40525e3f6320a403fee5828f",
@@ -291,16 +207,8 @@
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.41c3d37860ab1153df4555c1",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.420fbbd12805578fa56ce7d2",
       "issue": "approved_formulation_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.4368e02153875ab6c3192b73",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.44110d32c07dfa2ce41d5d92",
@@ -319,23 +227,11 @@
       "issue": "incomplete_approved_formulation"
     },
     {
-      "candidate_id": "candidate.stacks.46ec4555345b45936707492b",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.478a9a653c87e5b1445e8d5f",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.48240facf3785053826693e2",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.48a67761aaa20ec55720cb51",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.48d9db302737446cf6647372",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
@@ -395,10 +291,6 @@
       "issue": "approved_formulation_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.57acd7952ea5aa36cc16a283",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.58b9cde0ff06f24aff1c769a",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
@@ -409,10 +301,6 @@
     {
       "candidate_id": "candidate.stacks.5999f2b1c7f6c6953201906d",
       "issue": "incomplete_approved_formulation"
-    },
-    {
-      "candidate_id": "candidate.stacks.5b267f0fefc5cb600a065b46",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.5badafa285c7b5ab07ffcd7c",
@@ -429,10 +317,6 @@
     {
       "candidate_id": "candidate.stacks.5e344e8ace8d64615a0306c3",
       "issue": "approved_formulation_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.5e37cd16244d151fbd2f94b1",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.5efbf13730aca20e4ca8209c",
@@ -479,10 +363,6 @@
       "issue": "incomplete_approved_formulation"
     },
     {
-      "candidate_id": "candidate.stacks.675f5586b8b756bd6cf2f36c",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.6c8e47b2ea17b235255e6b3a",
       "issue": "approved_formulation_digest_mismatch"
     },
@@ -505,10 +385,6 @@
     {
       "candidate_id": "candidate.stacks.6f5b47080a68d785f42755cd",
       "issue": "incomplete_approved_formulation"
-    },
-    {
-      "candidate_id": "candidate.stacks.74bd68dc5cafcc8da1878c71",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.76e63aa59d65c478afd4d705",
@@ -535,10 +411,6 @@
       "issue": "approved_formulation_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.7c132df50fbef5f72284d26c",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.7f0b23d421dbb7286913a782",
       "issue": "approved_formulation_digest_mismatch"
     },
@@ -555,24 +427,12 @@
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.82c159b5a9214d0104a5e039",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.852bf2a84d425ec363679563",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.864a4682f9ac7f4562b6c3a4",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.86ca39e9da5000c86ff656a9",
       "issue": "incomplete_approved_formulation"
-    },
-    {
-      "candidate_id": "candidate.stacks.88061af9f3acd3848f6bf6e1",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.8890f35d9b8c71aafe6885bc",
@@ -587,28 +447,12 @@
       "issue": "approved_formulation_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.8a10077bddc16deaed0ce6f0",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.8c52c63eacd337fdcc5d426c",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.8c985489970146a6729741ad",
       "issue": "approved_formulation_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.8ceb2e1e75c8b94bf55d04e9",
       "issue": "approved_formulation_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.8dd208ede65a6fd2301600d4",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.8e107d90bbd0366b4330fc8a",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.8ec2c8ca298ba1549ed3dd91",
@@ -631,10 +475,6 @@
       "issue": "approved_formulation_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.94277058bc44d73e9e1742a6",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.946bc2afb503a7ac8aa09f93",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
@@ -648,10 +488,6 @@
     },
     {
       "candidate_id": "candidate.stacks.95d6e1cab20c420322d5027e",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.95eec66b773e22e04575cec4",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
@@ -669,10 +505,6 @@
     {
       "candidate_id": "candidate.stacks.97664cc93ff0b344b8dd1988",
       "issue": "incomplete_approved_formulation"
-    },
-    {
-      "candidate_id": "candidate.stacks.9a2847c4828a1dd57b692ca0",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.9a4511a2c03e39a20dcf7004",
@@ -707,10 +539,6 @@
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.aafe3c7223b02d67d2820ff4",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.ab68ebf028a2584e8dd5f478",
       "issue": "incomplete_approved_formulation"
     },
@@ -719,20 +547,12 @@
       "issue": "approved_formulation_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.abdac2617aa87433dfaf2ee2",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.af4b41c31a872326b9ee668f",
       "issue": "approved_formulation_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.b0279a5d631ab3245894da79",
       "issue": "approved_formulation_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.b478eca00fbe9ed33f539b6c",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.b562a0f4449cf7501e5421af",
@@ -747,20 +567,8 @@
       "issue": "approved_formulation_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.b81e335cb35099f120b2fa25",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.b821cd0a57af247ff4aa8312",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.b8c5d6bfb6ee0c71f2387538",
       "issue": "approved_formulation_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.b950e62275e5f5ecc8010e0a",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.ba13d48b207a9dadd3561861",
@@ -787,10 +595,6 @@
       "issue": "incomplete_approved_formulation"
     },
     {
-      "candidate_id": "candidate.stacks.c060821a63f600279d51c099",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.c2c6cd3146074039bc8b6c18",
       "issue": "incomplete_approved_formulation"
     },
@@ -807,10 +611,6 @@
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.c60ed037cf23e07c6f975823",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.c62e3ce46b6628890ff512d7",
       "issue": "approved_formulation_digest_mismatch"
     },
@@ -820,10 +620,6 @@
     },
     {
       "candidate_id": "candidate.stacks.c88b2bc9f88f5f1da9c0489c",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.c987db884e583d278f709d28",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
@@ -847,20 +643,8 @@
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.cbc3d0ea1b13d0be736d307f",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.cbc71e2710d57784cced2866",
       "issue": "approved_formulation_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.cc1f9ccfd1c9ec98894599e3",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.ccd4306e047f706c361d1829",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.cd9486e2ceae9106432b2622",
@@ -879,20 +663,8 @@
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.d431a3535b474963304e761d",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.d4e2b69a1e3d15a3ca34b471",
       "issue": "incomplete_approved_formulation"
-    },
-    {
-      "candidate_id": "candidate.stacks.d5c9f92910a846a71562fc74",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.d8aeba97d757b7a17e65ee43",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.da22e45b8c23af6713f24ef7",
@@ -901,10 +673,6 @@
     {
       "candidate_id": "candidate.stacks.dc5d46bb27f90dc88fcd1e37",
       "issue": "approved_formulation_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.de103088847999a7f38ddffc",
-      "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
       "candidate_id": "candidate.stacks.dec28bd343dfd1dc97f72c5a",
@@ -928,14 +696,6 @@
     },
     {
       "candidate_id": "candidate.stacks.e491151bcc055318d6e2779c",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.e4dc95c7bee102160eea73aa",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.e5fb436d2094ca57c5b6d80e",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
@@ -971,23 +731,11 @@
       "issue": "approved_formulation_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.ebaf2e4c6c21e4446e099f49",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.ecca96e73fde31966e54fbd6",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.ed337fee50c9dd968af1a82c",
       "issue": "incomplete_approved_formulation"
     },
     {
       "candidate_id": "candidate.stacks.edd66b83b7d423d11f03b7d4",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
-      "candidate_id": "candidate.stacks.edf2f828ea1e9c681dc407e9",
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
@@ -1003,10 +751,6 @@
       "issue": "incomplete_approved_formulation"
     },
     {
-      "candidate_id": "candidate.stacks.f06b5fd11e911a918ac083aa",
-      "issue": "phase3_reviewed_content_digest_mismatch"
-    },
-    {
       "candidate_id": "candidate.stacks.f3aef704ad041bd5b4f8c3ab",
       "issue": "approved_formulation_digest_mismatch"
     },
@@ -1015,16 +759,104 @@
       "issue": "phase3_reviewed_content_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.f6780f956123ee7b5690b0ce",
-      "issue": "phase3_reviewed_content_digest_mismatch"
+      "candidate_id": "candidate.stacks.f7988b457043274a6aeb5066",
+      "issue": "incomplete_approved_formulation"
+    }
+  ],
+  "migration_issues_by_decision": [
+    {
+      "count": 65,
+      "decision": "source_equivalence_approved",
+      "issue": "approved_formulation_digest_mismatch"
     },
     {
-      "candidate_id": "candidate.stacks.f7988b457043274a6aeb5066",
+      "count": 46,
+      "decision": "source_equivalence_approved",
       "issue": "incomplete_approved_formulation"
     },
     {
-      "candidate_id": "candidate.stacks.fa550763d37dd73ec1f7c8ea",
+      "count": 7,
+      "decision": "source_equivalence_approved",
+      "issue": "original_source_digest_mismatch"
+    },
+    {
+      "count": 70,
+      "decision": "source_equivalence_approved",
       "issue": "phase3_reviewed_content_digest_mismatch"
+    }
+  ],
+  "migration_issues_by_origin": [
+    {
+      "count": 65,
+      "issue": "approved_formulation_digest_mismatch",
+      "origin": "final_worker"
+    },
+    {
+      "count": 39,
+      "issue": "incomplete_approved_formulation",
+      "origin": "final_worker"
+    },
+    {
+      "count": 7,
+      "issue": "incomplete_approved_formulation",
+      "origin": "historical_authoritative"
+    },
+    {
+      "count": 7,
+      "issue": "original_source_digest_mismatch",
+      "origin": "final_worker"
+    },
+    {
+      "count": 70,
+      "issue": "phase3_reviewed_content_digest_mismatch",
+      "origin": "final_worker"
+    }
+  ],
+  "migration_issues_by_worker": [
+    {
+      "count": 22,
+      "issue": "approved_formulation_digest_mismatch",
+      "worker": "1"
+    },
+    {
+      "count": 43,
+      "issue": "approved_formulation_digest_mismatch",
+      "worker": "4"
+    },
+    {
+      "count": 13,
+      "issue": "incomplete_approved_formulation",
+      "worker": "1"
+    },
+    {
+      "count": 23,
+      "issue": "incomplete_approved_formulation",
+      "worker": "3"
+    },
+    {
+      "count": 3,
+      "issue": "incomplete_approved_formulation",
+      "worker": "4"
+    },
+    {
+      "count": 7,
+      "issue": "incomplete_approved_formulation",
+      "worker": "None"
+    },
+    {
+      "count": 7,
+      "issue": "original_source_digest_mismatch",
+      "worker": "1"
+    },
+    {
+      "count": 69,
+      "issue": "phase3_reviewed_content_digest_mismatch",
+      "worker": "2"
+    },
+    {
+      "count": 1,
+      "issue": "phase3_reviewed_content_digest_mismatch",
+      "worker": "3"
     }
   ],
   "old_decision_files_retained_pending_audit": true,
