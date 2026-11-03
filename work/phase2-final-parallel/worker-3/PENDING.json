@@ -11,57 +11,6 @@
   "initial_batches": 30,
   "pending": [
     {
-      "batch_id": "p2f-w3-b010",
-      "chapter": "formal-spaces",
-      "candidate_count": 7,
-      "sections": [
-        {
-          "chapter": "formal-spaces",
-          "section_start_line": 5470,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/formal-spaces/section-5470.jsonl",
-          "stage_b_blob_sha": "031ec94607fe3e0ab7c183a24c49324f334c18af",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/formal-spaces/section-5470.jsonl",
-          "phase3_review_blob_sha": "6145937ae6acf1230b3d9920b583b7107133d0b3",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/formal-spaces/section-5470.jsonl",
-          "phase2_proposal_blob_sha": "6eaae0b4521e8708af219632abc6f8255edbfa86",
-          "candidate_ids": [
-            "candidate.stacks.c05e1a168f62aa180fde95c2",
-            "candidate.stacks.83edb2e4ae81452ce8211ab5",
-            "candidate.stacks.41921ec26eca8d3f33981365",
-            "candidate.stacks.b356770064941ac1a454efd6",
-            "candidate.stacks.cf88d1f124ac382045d36db5"
-          ]
-        },
-        {
-          "chapter": "formal-spaces",
-          "section_start_line": 6569,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/formal-spaces/section-6569.jsonl",
-          "stage_b_blob_sha": "4938a63624510293f8c9f1192d65cd1423f578d2",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/formal-spaces/section-6569.jsonl",
-          "phase3_review_blob_sha": "7532859998af21d3594d6ee0406eb326f71cc235",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/formal-spaces/section-6569.jsonl",
-          "phase2_proposal_blob_sha": "b7ac23626c44670ffe6fa8476059a23e000f1a4b",
-          "candidate_ids": [
-            "candidate.stacks.98633b3737a3ef8331df27e0"
-          ]
-        },
-        {
-          "chapter": "formal-spaces",
-          "section_start_line": 6772,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/formal-spaces/section-6772.jsonl",
-          "stage_b_blob_sha": "d4edf5069e85991f3762f2bbc2ba0103741453db",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/formal-spaces/section-6772.jsonl",
-          "phase3_review_blob_sha": "c367e5b73b12ca863c0d084328377e32951a2fbb",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/formal-spaces/section-6772.jsonl",
-          "phase2_proposal_blob_sha": "ce33a921e700418fe3bb62faab6fd8f6456078a4",
-          "candidate_ids": [
-            "candidate.stacks.081cf628edce63cc5563621c"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w3-b011",
       "chapter": "homology",
       "candidate_count": 38,
