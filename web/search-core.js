@@ -19,7 +19,7 @@
     runs:"run",ran:"run",running:"run",run:"run",
   };
   const tokens = (text) => String(text || "").normalize("NFKC").toLowerCase()
-    .replace(/\[a-zA-Z]+/g, " ").replace(/['’]s\b/g, "")
+    .replace(/\\[a-zA-Z]+/g, " ").replace(/['’]s\b/g, "")
     .match(/[\p{L}\p{N}]+/gu)?.map(t => aliases[t] || t) || [];
   const normalized = (text) => tokens(text).join(" ");
   const containsPhrase = (haystack, needle) =>
