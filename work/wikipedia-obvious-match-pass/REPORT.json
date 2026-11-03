@@ -1,0 +1,14 @@
+{
+  "matched_urls": 12,
+  "method": "unique normalized title and verified Wikipedia proof heading",
+  "note": "Ambiguous or unconfirmed matches are intentionally retained.",
+  "published_theorems_compared": 3963,
+  "reason_counts": {
+    "no_confirmed_wikipedia_proof_section": 1,
+    "no_unique_exact_title_match": 1121,
+    "unique_title_match_and_confirmed_proof_section": 12
+  },
+  "theorems_receiving_links": 11,
+  "total_accepted_urls": 1134,
+  "unmatched_urls": 1122
+}
