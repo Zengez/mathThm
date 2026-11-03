@@ -11,68 +11,6 @@
   "initial_batches": 33,
   "pending": [
     {
-      "batch_id": "p2f-w2-b024",
-      "chapter": "functors",
-      "candidate_count": 6,
-      "sections": [
-        {
-          "chapter": "functors",
-          "section_start_line": 33,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/functors/section-33.jsonl",
-          "stage_b_blob_sha": "6ed72271fd734769599ed1b39cd1227086fcdf86",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/functors/section-33.jsonl",
-          "phase3_review_blob_sha": "7fd5b1e3be5187dd1f572ac9e87017bfd250f40b",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/functors/section-33.jsonl",
-          "phase2_proposal_blob_sha": "2f00f8f20b29ffaeb3b2fc45487dc9d8583c12ed",
-          "candidate_ids": [
-            "candidate.stacks.9e328ba1778819f56ec64ec6"
-          ]
-        },
-        {
-          "chapter": "functors",
-          "section_start_line": 439,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/functors/section-439.jsonl",
-          "stage_b_blob_sha": "01a615512ad691b98c8f10b2c4c60694cfe07f99",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/functors/section-439.jsonl",
-          "phase3_review_blob_sha": "40420d01430952f0a69a8beb2383bf23be2591f9",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/functors/section-439.jsonl",
-          "phase2_proposal_blob_sha": "aa2b9b39f70e2db1b1387423c1dfe30275f84a74",
-          "candidate_ids": [
-            "candidate.stacks.389ee12933cc44c9ee1b7250",
-            "candidate.stacks.43f6dcf8b5c78c59def080a3"
-          ]
-        },
-        {
-          "chapter": "functors",
-          "section_start_line": 706,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/functors/section-706.jsonl",
-          "stage_b_blob_sha": "ad0574f17e7ce98c84692cc4ae964dd59708ceb8",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/functors/section-706.jsonl",
-          "phase3_review_blob_sha": "6286cbf16f9c6e5a8d01c2ffb11835ad0799cbfb",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/functors/section-706.jsonl",
-          "phase2_proposal_blob_sha": "fd729f01518567b54214215453b32fc6e787d6c4",
-          "candidate_ids": [
-            "candidate.stacks.fd5e9f935af08d31393adca2",
-            "candidate.stacks.965fcff713fe8b7764028a82"
-          ]
-        },
-        {
-          "chapter": "functors",
-          "section_start_line": 1500,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/functors/section-1500.jsonl",
-          "stage_b_blob_sha": "834b363c577cd63cfdcd47e19834a2f5636dbc2b",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/functors/section-1500.jsonl",
-          "phase3_review_blob_sha": "f5099f633615bcb5d5a8984fec1d9b3d8805970b",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/functors/section-1500.jsonl",
-          "phase2_proposal_blob_sha": "4b68636d3905ce7f1a5ec06d443d8c9bf94b8792",
-          "candidate_ids": [
-            "candidate.stacks.bf240d7c011d8ba6aa5cf676"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w2-b025",
       "chapter": "groupoids-quotients",
       "candidate_count": 1,
