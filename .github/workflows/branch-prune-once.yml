@@ -1,0 +1,67 @@
+name: One-time branch pruning — mathThm
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/branch-prune-once.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  prune:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Delete only exact pinned obsolete branch refs; preserve active PRs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          import os, json, urllib.request, urllib.error, urllib.parse
+          repo = os.environ["GITHUB_REPOSITORY"]
+          token = os.environ["GH_TOKEN"]
+          if repo != "Zengez/mathThm":
+              raise SystemExit("Unexpected repository; refusing cleanup: " + repo)
+          targets = json.loads(r'''[{"name":"audit/stage-b-calibration-regression-20261031","sha":"6c7c6ee471d5d483b8e51db9cbff5c1c0746c3a1"},{"name":"codex/phase2-validation","sha":"3c261189e4ba5ac7990695642d84a379ff1c7c07"},{"name":"codex/stage-b-next100-20261031","sha":"776f52914f71cc8c6136eb14d03102e773c4ac53"},{"name":"feature/boolean-query-builder-20261103","sha":"5ade9b3febf6abce8dbf444bc25acf1f401b2eff"},{"name":"feature/phase2-chapter-preparation","sha":"599522d325476dfc6a024937bd5b6efd8657f38d"},{"name":"feature/prominent-search-logic-20261103","sha":"1cfc0f16a833cce4a366b994cf8c1c6af0ee7929"},{"name":"feature/query-group-button-placement-20261103","sha":"27bff7d5b02161978298eb74b60af634a6f967c5"},{"name":"integration/merged-definitions-v2-20261026","sha":"cddef17ae8b76e1332e612df544c5bc1951badba"},{"name":"maintenance/cleanup-obsolete-pipelines-20261103","sha":"422175c0a25b1c45bc7ee498eca0b6bac32072af"},{"name":"work/final-publication/coordinator","sha":"cf6b3404d8e7f37dad3b69effdde2fcbf34aaaa6"},{"name":"work/final-publication/worker-1","sha":"cf6b3404d8e7f37dad3b69effdde2fcbf34aaaa6"},{"name":"work/final-publication/worker-2","sha":"cf6b3404d8e7f37dad3b69effdde2fcbf34aaaa6"},{"name":"work/final-publication/worker-3","sha":"cf6b3404d8e7f37dad3b69effdde2fcbf34aaaa6"},{"name":"work/final-publication/worker-4","sha":"cf6b3404d8e7f37dad3b69effdde2fcbf34aaaa6"},{"name":"work/phase2-canonical-exceptions/chat-1","sha":"2cf13f39125b95b3028d690edb79c95dda1118b3"},{"name":"work/phase2-canonical-exceptions/chat-2","sha":"43655d0afb99be740bd1833f0855045bcc0798df"},{"name":"work/phase2-canonical-exceptions/chat-3","sha":"306214ae96f12033e1dbc6fc916f8710b9d43f9b"},{"name":"work/phase2-canonical-exceptions/chat-4","sha":"bd3428b4e34b091b11a4c7c88cac76831cf7c7ab"},{"name":"work/phase2-final/chat-1","sha":"20b7e31ab8a227523da8ab88c27194291260869d"},{"name":"work/phase2-final/chat-2","sha":"6bfe4600310cc21138c780fe87e37c07fedbd107"},{"name":"work/phase2-final/chat-3","sha":"64a65d5165e85576924a5450e5bb72a0c4fb995f"},{"name":"work/phase2-final/chat-4","sha":"17f0e93395bd322c3256565e9f1a562c95ef33f8"},{"name":"work/phase2-final/parallel-base","sha":"7c9e0b3168f592a460ab014559b8305d3ab42301"},{"name":"work/phase2-final/parallel-reconciled","sha":"568fd94420e83efb65d1edc8144c0a51eb9dde6a"},{"name":"work/phase2-final-publication","sha":"95931d5adcce54b751829beebf865ef8bd5c1a40"},{"name":"work/phase2-final-publication-main","sha":"319610285034ea582ff03eb5551d4e1053883f02"},{"name":"work/phase2-publication/chat-1","sha":"eb75fb8a57f0ac0d9830ec963437c0b6f47c3b48"},{"name":"work/phase2-publication/chat-2","sha":"eb75fb8a57f0ac0d9830ec963437c0b6f47c3b48"},{"name":"work/phase2-publication/chat-3","sha":"eb75fb8a57f0ac0d9830ec963437c0b6f47c3b48"},{"name":"work/phase2-publication/chat-4","sha":"eb75fb8a57f0ac0d9830ec963437c0b6f47c3b48"},{"name":"work/phase3/chat-1","sha":"5a81ccf69e548d6ace07a6fe43adc1812f4bdbb6"},{"name":"work/phase3/chat-2","sha":"6d4457ccda4efce0aa044293e6ff91b6f66f4539"},{"name":"work/phase3/chat-3","sha":"14d3f309387215a574c9e456518b704fb5388f01"},{"name":"work/phase3/chat-4","sha":"59990a153e672c27461d2645bb1143d049e2ce0f"},{"name":"work/phase3/parallel-base","sha":"c57a162275ef35a7fe61e87f709627fd98ede4de"},{"name":"work/stageb/chat-1","sha":"6fa335998ca5da069e351336e3f2c269e11dc495"},{"name":"work/stageb/chat-2","sha":"f31c0f026389936f05b26adcc71a81b4a6700b49"},{"name":"work/stageb/chat-3","sha":"5ac509520342f9de216ba668be16a053bf989b26"},{"name":"work/stageb/chat-4","sha":"b4ee613562f0af37b21f15159869024a0d4d78f5"},{"name":"work/stageb/parallel-base","sha":"f0bbfbd0951b97093c37623c1f53210a3ae9134b"}]''')
+          reserved = set(json.loads(r'''["main","data/wikipedia-proof-dump","data/wikipedia-theorem-classification","work/wikipedia-theorem-classification","work/wikipedia-theorem-harvest","work/phase2-canonical-migration","work/stageb/parallel-reconciled","work/phase3/parallel-reconciled","work/phase2-chat-stage-a-topologies","work/phase2-stage-a-modules","recovery/stage-b-50-sections-20261031"]'''))
+          def api(method, endpoint):
+              url = "https://api.github.com/" + endpoint
+              req = urllib.request.Request(url, method=method, headers={
+                  "Authorization": "Bearer " + token,
+                  "Accept": "application/vnd.github+json",
+                  "X-GitHub-Api-Version": "2022-11-28"
+              })
+              with urllib.request.urlopen(req, timeout=35) as res:
+                  body = res.read()
+                  return json.loads(body) if body else None
+          prs = api("GET", f"repos/{repo}/pulls?state=open&per_page=100")
+          reserved.update({p["head"]["ref"] for p in prs if p.get("head", {}).get("repo", {}) and p["head"]["repo"]["full_name"] == repo})
+          reserved.update({p["base"]["ref"] for p in prs})
+          if len(prs) >= 100:
+              raise RuntimeError("Open PR pagination exceeds safety limit; abort")
+          deleted, skipped = [], []
+          print("Planned branch cleanup:",len(targets),"protected:",sorted(reserved),flush=True)
+          for target in targets:
+              branch, sha = target["name"], target["sha"]
+              if branch in reserved or branch == "main":
+                  print("SKIP protected:",branch,flush=True)
+                  skipped.append(branch)
+                  continue
+              path = "repos/" + repo + "/git/ref/heads/" + urllib.parse.quote(branch,safe="/")
+              try:
+                  current = api("GET",path)
+              except urllib.error.HTTPError as err:
+                  if err.code == 404:
+                      print("SKIP already gone:",branch,flush=True)
+                      skipped.append(branch)
+                      continue
+                  raise
+              actual = current["object"]["sha"]
+              if actual != sha:
+                  print("SKIP moved head:",branch,"expected",sha,"actual",actual,flush=True)
+                  skipped.append(branch)
+                  continue
+              api("DELETE", "repos/" + repo + "/git/refs/heads/" + urllib.parse.quote(branch,safe="/"))
+              print("DELETED",branch,sha,flush=True)
+              deleted.append(branch)
+          print("RESULT",json.dumps({"deleted":len(deleted),"skipped":len(skipped),"planned":len(targets)}),flush=True)
