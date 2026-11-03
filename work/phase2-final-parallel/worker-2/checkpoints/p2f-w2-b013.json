@@ -1,0 +1,58 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b013",
+  "chapter": "dualizing",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-resumption-after-timeout",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 7,
+  "approved_count": 7,
+  "held_count": 0,
+  "section_count": 2,
+  "candidate_ids": [
+    "candidate.stacks.4589b0edec908af31d53cada",
+    "candidate.stacks.0f7522933d13ef945f0ccc63",
+    "candidate.stacks.f93a7650ec0eae2f6bce2b35",
+    "candidate.stacks.883110f6828e00eab20b27cc",
+    "candidate.stacks.d7fe13aa82524a7a5e81df8c",
+    "candidate.stacks.1ab41e6839ef41afe7323a5f",
+    "candidate.stacks.8d8bee35de20324f95196a5f"
+  ],
+  "held_candidate_ids": [],
+  "decision_files": [
+    {
+      "chapter": "dualizing",
+      "section_start_line": 4790,
+      "candidate_ids": [
+        "candidate.stacks.4589b0edec908af31d53cada",
+        "candidate.stacks.0f7522933d13ef945f0ccc63",
+        "candidate.stacks.f93a7650ec0eae2f6bce2b35",
+        "candidate.stacks.883110f6828e00eab20b27cc",
+        "candidate.stacks.d7fe13aa82524a7a5e81df8c",
+        "candidate.stacks.1ab41e6839ef41afe7323a5f"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-4790.jsonl",
+      "decision_blob_sha": "1eed2be8f046c3c2206c40a0c1676b6ca43a5b2c",
+      "approvals": 6,
+      "holds": 0
+    },
+    {
+      "chapter": "dualizing",
+      "section_start_line": 5217,
+      "candidate_ids": [
+        "candidate.stacks.8d8bee35de20324f95196a5f"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-5217.jsonl",
+      "decision_blob_sha": "de91e09ab399eead9c1bbb172b82a0bef4657097",
+      "approvals": 1,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "d19563b5d39d10a3e60de9f1bda46e50b016cdc4",
+  "validation": "All seven frozen IDs verified in two complete sections against original pinned dualizing.tex, Stage A/B/Phase 3/proposal immutable provenance, and exact source-equivalent Stage B content; independent semantic review and approval recorded; no authoritative registration or proof approval."
+}

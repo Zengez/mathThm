@@ -11,45 +11,6 @@
   "initial_batches": 33,
   "pending": [
     {
-      "batch_id": "p2f-w2-b013",
-      "chapter": "dualizing",
-      "candidate_count": 7,
-      "sections": [
-        {
-          "chapter": "dualizing",
-          "section_start_line": 4790,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/dualizing/section-4790.jsonl",
-          "stage_b_blob_sha": "49c9f6b4bdbe4bce97495d6e3d0ef9e058329a87",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/dualizing/section-4790.jsonl",
-          "phase3_review_blob_sha": "4257a9422a443f1eefb95a498d45845f5485bf41",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/dualizing/section-4790.jsonl",
-          "phase2_proposal_blob_sha": "906adc353fb128ee6b188662922d1dfafbaabdd7",
-          "candidate_ids": [
-            "candidate.stacks.4589b0edec908af31d53cada",
-            "candidate.stacks.0f7522933d13ef945f0ccc63",
-            "candidate.stacks.f93a7650ec0eae2f6bce2b35",
-            "candidate.stacks.883110f6828e00eab20b27cc",
-            "candidate.stacks.d7fe13aa82524a7a5e81df8c",
-            "candidate.stacks.1ab41e6839ef41afe7323a5f"
-          ]
-        },
-        {
-          "chapter": "dualizing",
-          "section_start_line": 5217,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/dualizing/section-5217.jsonl",
-          "stage_b_blob_sha": "6ec9ac7a2a522ee0f3d0492455ee6478de8bb238",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/dualizing/section-5217.jsonl",
-          "phase3_review_blob_sha": "735c9230d0023662c72d264ffbe598502d4d9141",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/dualizing/section-5217.jsonl",
-          "phase2_proposal_blob_sha": "3f3bf655f99c552c509549696ae6e48f47fd06b9",
-          "candidate_ids": [
-            "candidate.stacks.8d8bee35de20324f95196a5f"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w2-b014",
       "chapter": "equiv",
       "candidate_count": 27,
