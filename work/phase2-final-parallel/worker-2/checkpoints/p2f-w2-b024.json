@@ -1,0 +1,79 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b024",
+  "chapter": "functors",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-chat-continuation",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 6,
+  "approved_count": 4,
+  "held_count": 2,
+  "section_count": 4,
+  "candidate_ids": [
+    "candidate.stacks.9e328ba1778819f56ec64ec6",
+    "candidate.stacks.389ee12933cc44c9ee1b7250",
+    "candidate.stacks.43f6dcf8b5c78c59def080a3",
+    "candidate.stacks.fd5e9f935af08d31393adca2",
+    "candidate.stacks.965fcff713fe8b7764028a82",
+    "candidate.stacks.bf240d7c011d8ba6aa5cf676"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.389ee12933cc44c9ee1b7250",
+    "candidate.stacks.43f6dcf8b5c78c59def080a3"
+  ],
+  "decision_files": [
+    {
+      "chapter": "functors",
+      "section_start_line": 33,
+      "candidate_ids": [
+        "candidate.stacks.9e328ba1778819f56ec64ec6"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/functors/section-33.jsonl",
+      "decision_blob_sha": "9569410119b6088e5bd34f8db4a653052e06a39d",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "functors",
+      "section_start_line": 439,
+      "candidate_ids": [
+        "candidate.stacks.389ee12933cc44c9ee1b7250",
+        "candidate.stacks.43f6dcf8b5c78c59def080a3"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/functors/section-439.jsonl",
+      "decision_blob_sha": "9e04501f452d0c92516be6ce86780202b2c2a5e3",
+      "approvals": 0,
+      "holds": 2
+    },
+    {
+      "chapter": "functors",
+      "section_start_line": 706,
+      "candidate_ids": [
+        "candidate.stacks.fd5e9f935af08d31393adca2",
+        "candidate.stacks.965fcff713fe8b7764028a82"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/functors/section-706.jsonl",
+      "decision_blob_sha": "9dda7216462782cc6a283a3866770c84a2b1b12b",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "functors",
+      "section_start_line": 1500,
+      "candidate_ids": [
+        "candidate.stacks.bf240d7c011d8ba6aa5cf676"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/functors/section-1500.jsonl",
+      "decision_blob_sha": "ee74b6da20e6723af3703501cda33fd0ec4a8d91",
+      "approvals": 1,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "6c27a5c96e33a58634e6adb32ba435c2e9e22303",
+  "validation": "All six pinned functors formulations read source-first with chapter convention and exact Stage B/Phase 3/proposal blob verification. Four source-equivalent content approvals and two mathematical holds for non-standalone commutative ring convention and four-way-equivalence metadata; no proofs read or authoritative registration asserted."
+}
