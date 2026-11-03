@@ -1,0 +1,3 @@
+https://en.wikipedia.org/wiki/DFA_minimization
+https://en.wikipedia.org/wiki/Open_mapping_theorem_(complex_analysis)
+https://en.wikipedia.org/wiki/Open_mapping_theorem_(functional_analysis)

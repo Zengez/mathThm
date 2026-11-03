@@ -1,0 +1,14 @@
+https://en.wikipedia.org/wiki/Alon%E2%80%93Boppana_bound
+https://en.wikipedia.org/wiki/Counting_lemma
+https://en.wikipedia.org/wiki/Dependent_random_choice
+https://en.wikipedia.org/wiki/Dirichlet_series_inversion
+https://en.wikipedia.org/wiki/Friedberg%E2%80%93Muchnik_theorem
+https://en.wikipedia.org/wiki/Hypergraph_removal_lemma
+https://en.wikipedia.org/wiki/Mac_Lane's_coherence_theorem
+https://en.wikipedia.org/wiki/Pl%C3%BCnnecke%E2%80%93Ruzsa_inequality
+https://en.wikipedia.org/wiki/Roth's_theorem_on_arithmetic_progressions
+https://en.wikipedia.org/wiki/Ruzsa_triangle_inequality
+https://en.wikipedia.org/wiki/Serre's_inequality_on_height
+https://en.wikipedia.org/wiki/Spiral_similarity
+https://en.wikipedia.org/wiki/Stromquist%E2%80%93Woodall_theorem
+https://en.wikipedia.org/wiki/Verifiable_credentials

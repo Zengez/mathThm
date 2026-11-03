@@ -1,0 +1,8 @@
+https://en.wikipedia.org/wiki/Adaptive_noise_cancelling
+https://en.wikipedia.org/wiki/Bin_covering_problem
+https://en.wikipedia.org/wiki/Blichfeldt's_theorem
+https://en.wikipedia.org/wiki/Brezis%E2%80%93Lieb_lemma
+https://en.wikipedia.org/wiki/Candido's_identity
+https://en.wikipedia.org/wiki/Geiringer%E2%80%93Laman_theorem
+https://en.wikipedia.org/wiki/Multifit_algorithm
+https://en.wikipedia.org/wiki/Schamel_equation

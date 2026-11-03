@@ -1,0 +1,8 @@
+https://en.wikipedia.org/wiki/Hattendorff's_theorem
+https://en.wikipedia.org/wiki/Language-based_security
+https://en.wikipedia.org/wiki/Legendre's_formula
+https://en.wikipedia.org/wiki/Ministry_of_Information_Policy_(Ukraine)
+https://en.wikipedia.org/wiki/Misra_%26_Gries_edge-coloring_algorithm
+https://en.wikipedia.org/wiki/Occam_learning
+https://en.wikipedia.org/wiki/Verification-based_message-passing_algorithms_in_compressed_sensing
+https://en.wikipedia.org/wiki/Whitney_inequality
