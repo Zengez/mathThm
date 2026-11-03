@@ -83,7 +83,6 @@ https://en.wikipedia.org/wiki/APL_syntax_and_symbols
 https://en.wikipedia.org/wiki/Abc_conjecture
 https://en.wikipedia.org/wiki/Absolute_convergence
 https://en.wikipedia.org/wiki/Academic_Games
-https://en.wikipedia.org/wiki/Ackermann's_formula
 https://en.wikipedia.org/wiki/Activity_selection_problem
 https://en.wikipedia.org/wiki/Actual_malice
 https://en.wikipedia.org/wiki/Adaptive_noise_cancelling
@@ -113,8 +112,6 @@ https://en.wikipedia.org/wiki/Amp%C3%A8re's_circuital_law
 https://en.wikipedia.org/wiki/Analytic
 https://en.wikipedia.org/wiki/Analytic_proof
 https://en.wikipedia.org/wiki/Andrew_Wiles
-https://en.wikipedia.org/wiki/Angel_problem
-https://en.wikipedia.org/wiki/Angle_trisection
 https://en.wikipedia.org/wiki/Anglo-Saxon_law
 https://en.wikipedia.org/wiki/Annuity
 https://en.wikipedia.org/wiki/Anomaly_matching_condition
@@ -129,7 +126,6 @@ https://en.wikipedia.org/wiki/Argument%E2%80%93deduction%E2%80%93proof_distincti
 https://en.wikipedia.org/wiki/Argument_technology
 https://en.wikipedia.org/wiki/Arithmetic%E2%80%93geometric_mean
 https://en.wikipedia.org/wiki/Armstrong's_axioms
-https://en.wikipedia.org/wiki/Art_gallery_problem
 https://en.wikipedia.org/wiki/Article_102_of_the_Treaty_on_the_Functioning_of_the_European_Union
 https://en.wikipedia.org/wiki/Arunava_Sen
 https://en.wikipedia.org/wiki/Askey%E2%80%93Wilson_polynomials
@@ -147,7 +143,6 @@ https://en.wikipedia.org/wiki/Bandlimiting
 https://en.wikipedia.org/wiki/Bandwidth-sharing_game
 https://en.wikipedia.org/wiki/Banquet_photography
 https://en.wikipedia.org/wiki/Bar_product
-https://en.wikipedia.org/wiki/Bargmann's_limit
 https://en.wikipedia.org/wiki/Basis_(linear_algebra)
 https://en.wikipedia.org/wiki/Battery_(tort)
 https://en.wikipedia.org/wiki/Bayes_error_rate
@@ -168,7 +163,6 @@ https://en.wikipedia.org/wiki/Binary_symmetric_channel
 https://en.wikipedia.org/wiki/Binomial_coefficient
 https://en.wikipedia.org/wiki/Biomarker
 https://en.wikipedia.org/wiki/Bipolar_coordinates
-https://en.wikipedia.org/wiki/Block-stacking_problem
 https://en.wikipedia.org/wiki/Block_walking
 https://en.wikipedia.org/wiki/Blockchain_privacy
 https://en.wikipedia.org/wiki/Blue_Planet_Software
@@ -177,7 +171,6 @@ https://en.wikipedia.org/wiki/Blum%E2%80%93Goldwasser_cryptosystem
 https://en.wikipedia.org/wiki/Borel%E2%80%93Kolmogorov_paradox
 https://en.wikipedia.org/wiki/Bose%E2%80%93Mesner_algebra
 https://en.wikipedia.org/wiki/Bounded_arithmetic
-https://en.wikipedia.org/wiki/Brauer's_height_zero_conjecture
 https://en.wikipedia.org/wiki/Breach_of_duty_in_English_law
 https://en.wikipedia.org/wiki/Bregman_divergence
 https://en.wikipedia.org/wiki/Brickley_Engine
@@ -206,7 +199,6 @@ https://en.wikipedia.org/wiki/Cantor's_first_set_theory_article
 https://en.wikipedia.org/wiki/Cardioid
 https://en.wikipedia.org/wiki/Carmichael_function
 https://en.wikipedia.org/wiki/Carnot_heat_engine
-https://en.wikipedia.org/wiki/Carpenter's_rule_problem
 https://en.wikipedia.org/wiki/Cartier-Br%C3%A9beuf_National_Historic_Site
 https://en.wikipedia.org/wiki/Catalan's_triangle
 https://en.wikipedia.org/wiki/Catalan_number
@@ -223,9 +215,7 @@ https://en.wikipedia.org/wiki/Charette_family
 https://en.wikipedia.org/wiki/Charge_density
 https://en.wikipedia.org/wiki/Chiragov_and_Others_v._Armenia
 https://en.wikipedia.org/wiki/Chng_Suan_Tze_v_Minister_for_Home_Affairs
-https://en.wikipedia.org/wiki/Cholesky_decomposition
 https://en.wikipedia.org/wiki/Chord_(peer-to-peer)
-https://en.wikipedia.org/wiki/Chu%E2%80%93Harrington_limit
 https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis
 https://en.wikipedia.org/wiki/Cipolla's_algorithm
 https://en.wikipedia.org/wiki/Circles_of_Apollonius
@@ -268,7 +258,6 @@ https://en.wikipedia.org/wiki/Contrat_nouvelle_embauche
 https://en.wikipedia.org/wiki/Contributory_negligence
 https://en.wikipedia.org/wiki/Controlled_grammar
 https://en.wikipedia.org/wiki/Convention_on_Cultural_Property_Implementation_Act
-https://en.wikipedia.org/wiki/Conversion_between_quaternions_and_Euler_angles
 https://en.wikipedia.org/wiki/Copycat_suicide
 https://en.wikipedia.org/wiki/Cost-based_anti-spam_systems
 https://en.wikipedia.org/wiki/Counterproductive_norms
@@ -277,7 +266,6 @@ https://en.wikipedia.org/wiki/Criminal_Procedure_Act_1865
 https://en.wikipedia.org/wiki/Criminal_law_of_the_United_States
 https://en.wikipedia.org/wiki/Criminal_procedure_in_South_Africa
 https://en.wikipedia.org/wiki/Critique_of_Pure_Reason
-https://en.wikipedia.org/wiki/Crouzeix's_conjecture
 https://en.wikipedia.org/wiki/Cryptographic_hash_function
 https://en.wikipedia.org/wiki/Czech_nationality_law
 https://en.wikipedia.org/wiki/D12
@@ -318,7 +306,6 @@ https://en.wikipedia.org/wiki/Dodgson_condensation
 https://en.wikipedia.org/wiki/Dolbeault_cohomology
 https://en.wikipedia.org/wiki/Donald_Kalish
 https://en.wikipedia.org/wiki/Double-spending
-https://en.wikipedia.org/wiki/Doubling_the_cube
 https://en.wikipedia.org/wiki/Doubly_stochastic_matrix
 https://en.wikipedia.org/wiki/Driving_licence_in_the_United_Kingdom
 https://en.wikipedia.org/wiki/Earthquake-resistant_structures
@@ -344,16 +331,13 @@ https://en.wikipedia.org/wiki/Epicycloid
 https://en.wikipedia.org/wiki/Epistemology_in_Advaita_Vedanta
 https://en.wikipedia.org/wiki/Equality_(mathematics)
 https://en.wikipedia.org/wiki/Equational_logic
-https://en.wikipedia.org/wiki/Equichordal_point_problem
 https://en.wikipedia.org/wiki/Essential_matrix
 https://en.wikipedia.org/wiki/Ethereum
 https://en.wikipedia.org/wiki/Ethereum_Classic
 https://en.wikipedia.org/wiki/Euclidean_algorithm
-https://en.wikipedia.org/wiki/Euclidean_division
 https://en.wikipedia.org/wiki/Euclidean_geometry
 https://en.wikipedia.org/wiki/Euler's_totient_function
 https://en.wikipedia.org/wiki/Euler_characteristic
-https://en.wikipedia.org/wiki/Euler_line
 https://en.wikipedia.org/wiki/Evidence
 https://en.wikipedia.org/wiki/Evidence_(law)
 https://en.wikipedia.org/wiki/Exact_differential_equation
@@ -365,7 +349,6 @@ https://en.wikipedia.org/wiki/Exponential_function
 https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm
 https://en.wikipedia.org/wiki/F%C3%B8lner_sequence
 https://en.wikipedia.org/wiki/F1_grenade_(Australia)
-https://en.wikipedia.org/wiki/Fagnano's_problem
 https://en.wikipedia.org/wiki/Family_purpose_doctrine
 https://en.wikipedia.org/wiki/Faraday's_ice_pail_experiment
 https://en.wikipedia.org/wiki/Fast_syndrome-based_hash
@@ -414,9 +397,7 @@ https://en.wikipedia.org/wiki/Generalized_relative_entropy
 https://en.wikipedia.org/wiki/Geometric_distribution
 https://en.wikipedia.org/wiki/Geometric_progression
 https://en.wikipedia.org/wiki/Geometric_separator
-https://en.wikipedia.org/wiki/Geometric_series
 https://en.wikipedia.org/wiki/Geometry_of_binary_search_trees
-https://en.wikipedia.org/wiki/Gibbs_phenomenon
 https://en.wikipedia.org/wiki/Gilbert%E2%80%93Pollak_conjecture
 https://en.wikipedia.org/wiki/Gilbreath's_conjecture
 https://en.wikipedia.org/wiki/Gisbert_Hasenjaeger
@@ -438,7 +419,6 @@ https://en.wikipedia.org/wiki/HOL_(proof_assistant)
 https://en.wikipedia.org/wiki/Hackenbush
 https://en.wikipedia.org/wiki/Hadamard_code
 https://en.wikipedia.org/wiki/Hadamard_matrix
-https://en.wikipedia.org/wiki/Halting_problem
 https://en.wikipedia.org/wiki/Hamiltonian_mechanics
 https://en.wikipedia.org/wiki/Hardy%E2%80%93Littlewood_maximal_function
 https://en.wikipedia.org/wiki/Hardy_Cross_method
@@ -520,7 +500,6 @@ https://en.wikipedia.org/wiki/John_Stewart_Bell
 https://en.wikipedia.org/wiki/John_von_Neumann
 https://en.wikipedia.org/wiki/Johnson_circles
 https://en.wikipedia.org/wiki/Jon_Flint
-https://en.wikipedia.org/wiki/Jordan_normal_form
 https://en.wikipedia.org/wiki/Joule%E2%80%93Thomson_effect
 https://en.wikipedia.org/wiki/Judicial_notice
 https://en.wikipedia.org/wiki/Justesen_code
@@ -529,7 +508,6 @@ https://en.wikipedia.org/wiki/K-transform
 https://en.wikipedia.org/wiki/Kaczmarz_method
 https://en.wikipedia.org/wiki/Katherine_McNamara_(publisher)
 https://en.wikipedia.org/wiki/Kedarnath
-https://en.wikipedia.org/wiki/Kelly_criterion
 https://en.wikipedia.org/wiki/Kepler's_laws_of_planetary_motion
 https://en.wikipedia.org/wiki/Keybase
 https://en.wikipedia.org/wiki/Khinchin's_constant
@@ -591,7 +569,6 @@ https://en.wikipedia.org/wiki/Logical_consequence
 https://en.wikipedia.org/wiki/Longest-processing-time-first_scheduling
 https://en.wikipedia.org/wiki/Lorentz_group
 https://en.wikipedia.org/wiki/Low-rank_approximation
-https://en.wikipedia.org/wiki/Lucas%E2%80%93Lehmer_primality_test
 https://en.wikipedia.org/wiki/Lychrel_number
 https://en.wikipedia.org/wiki/M%C3%B6bius_function
 https://en.wikipedia.org/wiki/M%C3%B6bius_transformation
@@ -648,7 +625,6 @@ https://en.wikipedia.org/wiki/Mixtilinear_incircles_of_a_triangle
 https://en.wikipedia.org/wiki/Mizar_system
 https://en.wikipedia.org/wiki/Modal_logic
 https://en.wikipedia.org/wiki/Monotone_likelihood_ratio
-https://en.wikipedia.org/wiki/Monstrous_moonshine
 https://en.wikipedia.org/wiki/Moon_illusion
 https://en.wikipedia.org/wiki/Moore_plane
 https://en.wikipedia.org/wiki/Mosquito-malaria_theory
@@ -666,7 +642,6 @@ https://en.wikipedia.org/wiki/Negation_introduction
 https://en.wikipedia.org/wiki/Nephroid
 https://en.wikipedia.org/wiki/Nested_radical
 https://en.wikipedia.org/wiki/New_Holland_Machine_Company
-https://en.wikipedia.org/wiki/Newton%E2%80%93Gauss_line
 https://en.wikipedia.org/wiki/Newton's_method
 https://en.wikipedia.org/wiki/Nim
 https://en.wikipedia.org/wiki/Noah's_Ark_silver_coins
@@ -690,7 +665,6 @@ https://en.wikipedia.org/wiki/Orbital_decay
 https://en.wikipedia.org/wiki/Order_statistic
 https://en.wikipedia.org/wiki/Ordinal_analysis
 https://en.wikipedia.org/wiki/Orkney_child_abuse_scandal
-https://en.wikipedia.org/wiki/Orthogonal_Procrustes_problem
 https://en.wikipedia.org/wiki/Orthoptic_(geometry)
 https://en.wikipedia.org/wiki/Oscar_Lanford
 https://en.wikipedia.org/wiki/Outgroup_favoritism
@@ -721,7 +695,6 @@ https://en.wikipedia.org/wiki/Polkadot_(blockchain_platform)
 https://en.wikipedia.org/wiki/Polynomial_greatest_common_divisor
 https://en.wikipedia.org/wiki/Polynomial_interpolation
 https://en.wikipedia.org/wiki/Population_proportion
-https://en.wikipedia.org/wiki/Post_correspondence_problem
 https://en.wikipedia.org/wiki/Power_of_a_point
 https://en.wikipedia.org/wiki/Prehomogeneous_vector_space
 https://en.wikipedia.org/wiki/Premelting
@@ -777,7 +750,6 @@ https://en.wikipedia.org/wiki/Rainbow_matching
 https://en.wikipedia.org/wiki/Randomized_rounding
 https://en.wikipedia.org/wiki/Range_mode_query
 https://en.wikipedia.org/wiki/Rank_(linear_algebra)
-https://en.wikipedia.org/wiki/Rank_factorization
 https://en.wikipedia.org/wiki/Rare_disease_assumption
 https://en.wikipedia.org/wiki/Re_Shankar_Alan_s/o_Anant_Kulkarni
 https://en.wikipedia.org/wiki/Realizability
@@ -801,7 +773,6 @@ https://en.wikipedia.org/wiki/Rigour
 https://en.wikipedia.org/wiki/Robbins_algebra
 https://en.wikipedia.org/wiki/Robert_Spaemann
 https://en.wikipedia.org/wiki/Rome_I_Regulation
-https://en.wikipedia.org/wiki/Rota's_conjecture
 https://en.wikipedia.org/wiki/Rotations_and_reflections_in_two_dimensions
 https://en.wikipedia.org/wiki/Round-off_error
 https://en.wikipedia.org/wiki/Royal_Almanac
@@ -833,7 +804,6 @@ https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus
 https://en.wikipedia.org/wiki/Simultaneous_perturbation_stochastic_approximation
 https://en.wikipedia.org/wiki/Sine_and_cosine_transforms
 https://en.wikipedia.org/wiki/Singular_integral_operators_of_convolution_type
-https://en.wikipedia.org/wiki/Singular_value_decomposition
 https://en.wikipedia.org/wiki/Sir_Edward_Crosbie,_5th_Baronet
 https://en.wikipedia.org/wiki/Small_object_argument
 https://en.wikipedia.org/wiki/Social_Choice_and_Individual_Values
@@ -843,15 +813,12 @@ https://en.wikipedia.org/wiki/South_African_criminal_law
 https://en.wikipedia.org/wiki/South_African_law_of_lease
 https://en.wikipedia.org/wiki/Specific_angular_momentum
 https://en.wikipedia.org/wiki/Spectral_radius
-https://en.wikipedia.org/wiki/Sphere_eversion
 https://en.wikipedia.org/wiki/Spherinder
 https://en.wikipedia.org/wiki/Spiral_similarity
 https://en.wikipedia.org/wiki/Square_root_of_2
 https://en.wikipedia.org/wiki/St._Mary's_Academy_(New_Orleans)
-https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics)
 https://en.wikipedia.org/wiki/State_Champs
 https://en.wikipedia.org/wiki/Statistical_proof
-https://en.wikipedia.org/wiki/Stein's_unbiased_risk_estimate
 https://en.wikipedia.org/wiki/Steinmetz_solid
 https://en.wikipedia.org/wiki/Stereopsis
 https://en.wikipedia.org/wiki/Stoer%E2%80%93Wagner_algorithm
@@ -865,7 +832,6 @@ https://en.wikipedia.org/wiki/Substitution_(logic)
 https://en.wikipedia.org/wiki/Sufficient_statistic
 https://en.wikipedia.org/wiki/Sum-check_protocol
 https://en.wikipedia.org/wiki/Sum_of_four_cubes_problem
-https://en.wikipedia.org/wiki/Sum_of_two_cubes
 https://en.wikipedia.org/wiki/Summer_Olympic_Coins_(2000%E2%80%93present)
 https://en.wikipedia.org/wiki/Suppes%E2%80%93Lemmon_notation
 https://en.wikipedia.org/wiki/Surface_(topology)
@@ -938,7 +904,6 @@ https://en.wikipedia.org/wiki/Verification-based_message-passing_algorithms_in_c
 https://en.wikipedia.org/wiki/Vickrey_auction
 https://en.wikipedia.org/wiki/Virginity
 https://en.wikipedia.org/wiki/Virtual_work
-https://en.wikipedia.org/wiki/Vitali_set
 https://en.wikipedia.org/wiki/Voter_identification_laws_in_the_United_States
 https://en.wikipedia.org/wiki/Vyavah%C4%81ra
 https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm
@@ -949,14 +914,12 @@ https://en.wikipedia.org/wiki/Way_of_the_Samurai_4
 https://en.wikipedia.org/wiki/Weatherby_Mark_V
 https://en.wikipedia.org/wiki/Weierstrass_elliptic_function
 https://en.wikipedia.org/wiki/Weighted-average_life
-https://en.wikipedia.org/wiki/Whitehead_problem
 https://en.wikipedia.org/wiki/Wiener's_attack
 https://en.wikipedia.org/wiki/Wildtype_(company)
 https://en.wikipedia.org/wiki/William_Brocius
 https://en.wikipedia.org/wiki/William_of_Soissons
 https://en.wikipedia.org/wiki/Witches_of_Warboys
 https://en.wikipedia.org/wiki/Wolfram's_2-state_3-symbol_Turing_machine
-https://en.wikipedia.org/wiki/Word_problem_for_groups
 https://en.wikipedia.org/wiki/Wozencraft_ensemble
 https://en.wikipedia.org/wiki/Wulff_construction
 https://en.wikipedia.org/wiki/XOR_swap_algorithm
