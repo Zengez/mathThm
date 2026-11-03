@@ -1,6 +1,8 @@
-# Local scratch and downloaded third-party sources are not part of the published site.
+# Generated or downloaded material, not repository source of truth
 .harvest_runs/
 upstream/
 __pycache__/
 *.pyc
 _site/
+# Publisher recreates these from the permanent canonical master
+work/phase2-final-publication/shards/

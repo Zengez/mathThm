@@ -1,31 +1,52 @@
-name: Test mathThm search UI
+name: Test mathThm site, search and canonical publication
 on:
   pull_request:
     branches: [main]
     paths:
       - 'web/**'
-      - 'tests/*.cjs'
-      - '.github/workflows/ui-search-tests.yml'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'data/**'
+      - 'harvest/**'
+      - 'work/phase2-final-publication/**'
+      - '.github/workflows/**'
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  node-search:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Check browser script syntax
+      - name: Rebuild publication from reviewed canonical master
+        run: |
+          python scripts/publish_phase2_catalog.py --all
+          python -m scripts.theorem_schema data/theorems.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.loads(Path('harvest/PROBLEM_CANDIDATES_MANIFEST.json').read_text())
+          r=json.loads(Path('work/phase2-final-publication/REPORT.json').read_text())
+          assert m['count']==1304 and m['archive_covers_all_unresolved']
+          assert r['canonical_records_accounted_for']==4132
+          assert r['held']==189 and r['phase2_approved']==3943
+          print('Protected reviewed and held candidate totals preserved')
+          PY
+      - name: Python unit tests
+        run: python -m unittest discover -s tests -v
+      - name: JavaScript syntax and search/linking tests
         run: |
           node --check web/search-core.js
           node --check web/query-editor.js
           node --check web/app.js
-      - name: Test search, nesting, browser rendering and mathDef integrations
-        run: |
           node --test tests/test_search.cjs \
             tests/test_boolean_queries.cjs \
             tests/test_query_editor.cjs \
