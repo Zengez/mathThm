@@ -1,0 +1,192 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b018",
+  "chapter": "etale-cohomology",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-resumption",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 28,
+  "approved_count": 27,
+  "held_count": 1,
+  "section_count": 11,
+  "candidate_ids": [
+    "candidate.stacks.000e9f33b17f5ca7a4f17a80",
+    "candidate.stacks.0c4c2b4eb5cf0311bb8957eb",
+    "candidate.stacks.e8934a548a922afec7bdb998",
+    "candidate.stacks.6c2fc873a08d953f6713c5ba",
+    "candidate.stacks.1d8c48b9a1f8032b545b02e8",
+    "candidate.stacks.13e1488f1fe7d31eb2b0075e",
+    "candidate.stacks.c04dce9d118fdf1ff0ecbbe3",
+    "candidate.stacks.4322a1cccf2416bd21195f2c",
+    "candidate.stacks.c902e7b06836775b8e9e492a",
+    "candidate.stacks.e27b4460a42dc696967f6daf",
+    "candidate.stacks.fd67e7938fa18e8e8d8cfc63",
+    "candidate.stacks.dc1e59175a0891bee5a1f09c",
+    "candidate.stacks.4a77a0864de3b57a7886feb9",
+    "candidate.stacks.3ccc95c7dc113ebfc1226ac8",
+    "candidate.stacks.1c34fdbca8b32dd7619671ac",
+    "candidate.stacks.f5a902757a923ea5a5165ec1",
+    "candidate.stacks.acdf5a1b3a7dfa3c8e1f3c7d",
+    "candidate.stacks.9c5284d87ea9bf447eb6863c",
+    "candidate.stacks.8e25581ef6518afbd9d09ef3",
+    "candidate.stacks.fa4cc863b8a2781fcd74e8d0",
+    "candidate.stacks.2913d25c3cc39381703bce30",
+    "candidate.stacks.dd95cc6006f0c272f5c1477e",
+    "candidate.stacks.c167b5f508b4a4e3c0ed3e6b",
+    "candidate.stacks.00f7732ca70dbf2fbf881db0",
+    "candidate.stacks.5b267f0fefc5cb600a065b46",
+    "candidate.stacks.87733ee4a86c01397655ff03",
+    "candidate.stacks.f7e063ab0971c50c203f2487",
+    "candidate.stacks.3595c083f49aa326d289c688"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.5b267f0fefc5cb600a065b46"
+  ],
+  "decision_files": [
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 5912,
+      "candidate_ids": [
+        "candidate.stacks.000e9f33b17f5ca7a4f17a80"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-5912.jsonl",
+      "decision_blob_sha": "39f3f5b767c374d26393cecd8406db18b3e19b91",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 6096,
+      "candidate_ids": [
+        "candidate.stacks.0c4c2b4eb5cf0311bb8957eb"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-6096.jsonl",
+      "decision_blob_sha": "4fbe005efa9412beda3e44d2565b182a24e886d8",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 6271,
+      "candidate_ids": [
+        "candidate.stacks.e8934a548a922afec7bdb998",
+        "candidate.stacks.6c2fc873a08d953f6713c5ba"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-6271.jsonl",
+      "decision_blob_sha": "25fcf9f4e4949867f712b3a894418c0a187b188e",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 6574,
+      "candidate_ids": [
+        "candidate.stacks.1d8c48b9a1f8032b545b02e8",
+        "candidate.stacks.13e1488f1fe7d31eb2b0075e",
+        "candidate.stacks.c04dce9d118fdf1ff0ecbbe3"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-6574.jsonl",
+      "decision_blob_sha": "4c11cc95c8a8408b5c8d996cb3a6e2919a571ead",
+      "approvals": 3,
+      "holds": 0
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 6817,
+      "candidate_ids": [
+        "candidate.stacks.4322a1cccf2416bd21195f2c",
+        "candidate.stacks.c902e7b06836775b8e9e492a",
+        "candidate.stacks.e27b4460a42dc696967f6daf",
+        "candidate.stacks.fd67e7938fa18e8e8d8cfc63",
+        "candidate.stacks.dc1e59175a0891bee5a1f09c"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-6817.jsonl",
+      "decision_blob_sha": "16bc7ebfc8675e91d10516ae13dd1856afe15c5b",
+      "approvals": 5,
+      "holds": 0
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 6988,
+      "candidate_ids": [
+        "candidate.stacks.4a77a0864de3b57a7886feb9"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-6988.jsonl",
+      "decision_blob_sha": "8042643e35e82a06fb8c3cf6819b3a25569b6f8f",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 7167,
+      "candidate_ids": [
+        "candidate.stacks.3ccc95c7dc113ebfc1226ac8",
+        "candidate.stacks.1c34fdbca8b32dd7619671ac"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-7167.jsonl",
+      "decision_blob_sha": "cc2ae63f2bb8feaecf3e1f5248cc89991affaf70",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 7274,
+      "candidate_ids": [
+        "candidate.stacks.f5a902757a923ea5a5165ec1",
+        "candidate.stacks.acdf5a1b3a7dfa3c8e1f3c7d",
+        "candidate.stacks.9c5284d87ea9bf447eb6863c",
+        "candidate.stacks.8e25581ef6518afbd9d09ef3",
+        "candidate.stacks.fa4cc863b8a2781fcd74e8d0",
+        "candidate.stacks.2913d25c3cc39381703bce30",
+        "candidate.stacks.dd95cc6006f0c272f5c1477e",
+        "candidate.stacks.c167b5f508b4a4e3c0ed3e6b"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-7274.jsonl",
+      "decision_blob_sha": "b3eef84d4e1217f70e918d6b88f6f5d71d8792bc",
+      "approvals": 8,
+      "holds": 0
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 7772,
+      "candidate_ids": [
+        "candidate.stacks.00f7732ca70dbf2fbf881db0",
+        "candidate.stacks.5b267f0fefc5cb600a065b46"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-7772.jsonl",
+      "decision_blob_sha": "00a88bf8932b02aa6cc04ebec72af3059f94d95f",
+      "approvals": 1,
+      "holds": 1
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 8008,
+      "candidate_ids": [
+        "candidate.stacks.87733ee4a86c01397655ff03"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-8008.jsonl",
+      "decision_blob_sha": "04ffb6cc30155a9f8f66541a82489a5e80f3dee7",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 8142,
+      "candidate_ids": [
+        "candidate.stacks.f7e063ab0971c50c203f2487",
+        "candidate.stacks.3595c083f49aa326d289c688"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-8142.jsonl",
+      "decision_blob_sha": "a678fd31c2c0c8a45d159c8933b9193404f7891f",
+      "approvals": 2,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "d4df7feee9336016c1593af6deaf60912f27403f",
+  "validation": "Pinned etale-cohomology.tex source verified exactly for each original statement; Stage B, Phase 3 and proposal blob SHAs matched frozen manifest, Stage B content compared to proposal; Stage A blobs verified. 27 source-equivalent approvals and one hold for incomplete standalone expansion of Lemma relative-colimit-general. No proof or authoritative registration claimed."
+}

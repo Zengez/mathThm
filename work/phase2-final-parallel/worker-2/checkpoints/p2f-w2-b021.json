@@ -1,0 +1,95 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b021",
+  "chapter": "etale-cohomology",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-resumption",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 13,
+  "approved_count": 13,
+  "held_count": 0,
+  "section_count": 3,
+  "candidate_ids": [
+    "candidate.stacks.4551a954932223a4859b62c2",
+    "candidate.stacks.53145cb95915d457cab557e8",
+    "candidate.stacks.a1f645efc44ba15919a4af0d",
+    "candidate.stacks.cba9c9c8fa0b34dfe06f6ff5",
+    "candidate.stacks.17c6aaa4941fdf71127c2a2c",
+    "candidate.stacks.2bdc36caaa9f918afb60e414",
+    "candidate.stacks.25697d67d4e67c8209d73bd5",
+    "candidate.stacks.6eec59de5a74abe8f134fba8",
+    "candidate.stacks.e1a7ef1a0157cab141df8f1f",
+    "candidate.stacks.edd66b83b7d423d11f03b7d4",
+    "candidate.stacks.2b2639468184edc75c641086",
+    "candidate.stacks.da22e45b8c23af6713f24ef7",
+    "candidate.stacks.913c5fa69cfe0ba1ff7ad7a0"
+  ],
+  "held_candidate_ids": [],
+  "decision_files": [
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 14195,
+      "candidate_ids": [
+        "candidate.stacks.4551a954932223a4859b62c2",
+        "candidate.stacks.53145cb95915d457cab557e8",
+        "candidate.stacks.a1f645efc44ba15919a4af0d",
+        "candidate.stacks.cba9c9c8fa0b34dfe06f6ff5",
+        "candidate.stacks.17c6aaa4941fdf71127c2a2c",
+        "candidate.stacks.2bdc36caaa9f918afb60e414",
+        "candidate.stacks.25697d67d4e67c8209d73bd5",
+        "candidate.stacks.6eec59de5a74abe8f134fba8"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-14195.jsonl",
+      "decision_blob_sha": "7891a941286a2946b5d95342c0d2bba388b359b3",
+      "approvals": 8,
+      "holds": 0
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 14507,
+      "candidate_ids": [
+        "candidate.stacks.e1a7ef1a0157cab141df8f1f"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-14507.jsonl",
+      "decision_blob_sha": "2039412ac8c23c9d478b5b932efe064b4d811349",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "etale-cohomology",
+      "section_start_line": 14891,
+      "candidate_ids": [
+        "candidate.stacks.edd66b83b7d423d11f03b7d4",
+        "candidate.stacks.2b2639468184edc75c641086",
+        "candidate.stacks.da22e45b8c23af6713f24ef7",
+        "candidate.stacks.913c5fa69cfe0ba1ff7ad7a0"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/etale-cohomology/section-14891.jsonl",
+      "decision_blob_sha": "683f440234eb08ffc9d40a094d6257a5132b004b",
+      "approvals": 4,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "a99a1242fd25dce4338eedacf3406165a220d65f",
+  "validation": "All thirteen frozen candidates reviewed in three complete sections against pinned etale-cohomology.tex, frozen Stage B content and original Git blob SHAs. Stage A verified. Every unregistered input digest differs from official independently computed content SHA; coordinator must reconcile metadata at integration. No proof or authoritative registration claimed.",
+  "provisional_digest_discrepancy_candidate_ids": [
+    "candidate.stacks.4551a954932223a4859b62c2",
+    "candidate.stacks.53145cb95915d457cab557e8",
+    "candidate.stacks.a1f645efc44ba15919a4af0d",
+    "candidate.stacks.cba9c9c8fa0b34dfe06f6ff5",
+    "candidate.stacks.17c6aaa4941fdf71127c2a2c",
+    "candidate.stacks.2bdc36caaa9f918afb60e414",
+    "candidate.stacks.25697d67d4e67c8209d73bd5",
+    "candidate.stacks.6eec59de5a74abe8f134fba8",
+    "candidate.stacks.e1a7ef1a0157cab141df8f1f",
+    "candidate.stacks.edd66b83b7d423d11f03b7d4",
+    "candidate.stacks.2b2639468184edc75c641086",
+    "candidate.stacks.da22e45b8c23af6713f24ef7",
+    "candidate.stacks.913c5fa69cfe0ba1ff7ad7a0"
+  ]
+}

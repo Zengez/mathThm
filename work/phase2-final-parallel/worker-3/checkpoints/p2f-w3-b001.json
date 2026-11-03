@@ -1,0 +1,107 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 3,
+  "branch": "work/phase2-final/chat-3",
+  "batch_id": "p2f-w3-b001",
+  "chapter": "artin",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "chatgpt-gpt6-final-phase2-worker-3-2026-11-03",
+  "status": "complete_pending_central_registration",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "candidate_ids": [
+    "candidate.stacks.2c6b846bd9c1542014ff5abf",
+    "candidate.stacks.37a86709a6e2f6acad5f395b",
+    "candidate.stacks.c2a684a0f3ca2d1cd6c35643",
+    "candidate.stacks.242d8c737c5bbbb2c16e6bc1",
+    "candidate.stacks.7ba5223d0e5da7e6568bd5e2",
+    "candidate.stacks.cbb45e4932bde7d2c63faff2",
+    "candidate.stacks.06a6604be696ad41bbf5c67a",
+    "candidate.stacks.79f5bd717ec32ab031175550"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.2c6b846bd9c1542014ff5abf",
+    "candidate.stacks.37a86709a6e2f6acad5f395b",
+    "candidate.stacks.c2a684a0f3ca2d1cd6c35643",
+    "candidate.stacks.242d8c737c5bbbb2c16e6bc1",
+    "candidate.stacks.7ba5223d0e5da7e6568bd5e2",
+    "candidate.stacks.cbb45e4932bde7d2c63faff2",
+    "candidate.stacks.06a6604be696ad41bbf5c67a",
+    "candidate.stacks.79f5bd717ec32ab031175550"
+  ],
+  "held_candidate_ids": [],
+  "candidate_count": 8,
+  "approved_count": 8,
+  "held_count": 0,
+  "section_count": 7,
+  "sections": [
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/artin/section-384.jsonl",
+      "source_section_start_line": 384,
+      "candidate_ids": [
+        "candidate.stacks.2c6b846bd9c1542014ff5abf"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/artin/section-482.jsonl",
+      "source_section_start_line": 482,
+      "candidate_ids": [
+        "candidate.stacks.37a86709a6e2f6acad5f395b"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/artin/section-764.jsonl",
+      "source_section_start_line": 764,
+      "candidate_ids": [
+        "candidate.stacks.c2a684a0f3ca2d1cd6c35643"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/artin/section-1438.jsonl",
+      "source_section_start_line": 1438,
+      "candidate_ids": [
+        "candidate.stacks.242d8c737c5bbbb2c16e6bc1",
+        "candidate.stacks.7ba5223d0e5da7e6568bd5e2"
+      ],
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/artin/section-1573.jsonl",
+      "source_section_start_line": 1573,
+      "candidate_ids": [
+        "candidate.stacks.cbb45e4932bde7d2c63faff2"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/artin/section-2640.jsonl",
+      "source_section_start_line": 2640,
+      "candidate_ids": [
+        "candidate.stacks.06a6604be696ad41bbf5c67a"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/artin/section-2725.jsonl",
+      "source_section_start_line": 2725,
+      "candidate_ids": [
+        "candidate.stacks.79f5bd717ec32ab031175550"
+      ],
+      "approvals": 1,
+      "holds": 0
+    }
+  ],
+  "immutable_input_sha_check": "pass",
+  "exact_id_order_check": "pass",
+  "pinned_source_context_check": "pass",
+  "stage_a_and_stage_b_reviewer_chain_checked": "pass"
+}

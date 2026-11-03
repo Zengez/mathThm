@@ -1,0 +1,62 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 3,
+  "branch": "work/phase2-final/chat-3",
+  "batch_id": "p2f-w3-b007",
+  "chapter": "dga",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "chatgpt-gpt6-final-phase2-worker-3-continuation-2026-11-03",
+  "status": "complete_pending_central_registration",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "candidate_ids": [
+    "candidate.stacks.e20711bca9c65cb0ea9cd534",
+    "candidate.stacks.6d4e191311a7019c2f502657",
+    "candidate.stacks.71703bff5e37d2613270a9fb",
+    "candidate.stacks.a036c5f327495eaa494d972b",
+    "candidate.stacks.c2da72ae9c141d09c470b20c",
+    "candidate.stacks.f924570ade51140cc18f0b0e"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.e20711bca9c65cb0ea9cd534",
+    "candidate.stacks.6d4e191311a7019c2f502657",
+    "candidate.stacks.71703bff5e37d2613270a9fb",
+    "candidate.stacks.c2da72ae9c141d09c470b20c",
+    "candidate.stacks.f924570ade51140cc18f0b0e"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.a036c5f327495eaa494d972b"
+  ],
+  "candidate_count": 6,
+  "approved_count": 5,
+  "held_count": 1,
+  "section_count": 2,
+  "sections": [
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/dga/section-6491.jsonl",
+      "source_section_start_line": 6491,
+      "candidate_ids": [
+        "candidate.stacks.e20711bca9c65cb0ea9cd534",
+        "candidate.stacks.6d4e191311a7019c2f502657",
+        "candidate.stacks.71703bff5e37d2613270a9fb",
+        "candidate.stacks.a036c5f327495eaa494d972b"
+      ],
+      "approvals": 3,
+      "holds": 1
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/dga/section-6854.jsonl",
+      "source_section_start_line": 6854,
+      "candidate_ids": [
+        "candidate.stacks.c2da72ae9c141d09c470b20c",
+        "candidate.stacks.f924570ade51140cc18f0b0e"
+      ],
+      "approvals": 2,
+      "holds": 0
+    }
+  ],
+  "immutable_input_sha_check": "pass",
+  "exact_id_order_check": "pass",
+  "pinned_source_context_check": "pass",
+  "stage_a_and_stage_b_reviewer_chain_checked": "pass"
+}

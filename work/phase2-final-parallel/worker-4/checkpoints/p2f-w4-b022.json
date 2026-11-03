@@ -1,0 +1,86 @@
+{
+  "schema": "maththm.phase2-final.worker-batch-checkpoint.v1",
+  "worker": 4,
+  "branch": "work/phase2-final/chat-4",
+  "reviewer": "chatgpt-final-phase2-worker-4-2026-11-03-continuation",
+  "batch_id": "p2f-w4-b022",
+  "chapter": "more-etale",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "completed_sections": 3,
+  "completed_candidate_count": 9,
+  "approved_count": 9,
+  "held_count": 0,
+  "candidate_ids": [
+    "candidate.stacks.4b6ae12e64337bd9e4db9d06",
+    "candidate.stacks.c000d2777e4b951cd4b61daa",
+    "candidate.stacks.4434b96d069452845922502c",
+    "candidate.stacks.a5f77de0e06c38cb03aeb619",
+    "candidate.stacks.5dd1ac1f92169d1a2404d9eb",
+    "candidate.stacks.9411515872bfa6d9c5511ab3",
+    "candidate.stacks.32f1d22296878cbe8bec8140",
+    "candidate.stacks.7bf129eebe8026b51b6f5942",
+    "candidate.stacks.91ced877a491280014eeaa71"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.4b6ae12e64337bd9e4db9d06",
+    "candidate.stacks.c000d2777e4b951cd4b61daa",
+    "candidate.stacks.4434b96d069452845922502c",
+    "candidate.stacks.a5f77de0e06c38cb03aeb619",
+    "candidate.stacks.5dd1ac1f92169d1a2404d9eb",
+    "candidate.stacks.9411515872bfa6d9c5511ab3",
+    "candidate.stacks.32f1d22296878cbe8bec8140",
+    "candidate.stacks.7bf129eebe8026b51b6f5942",
+    "candidate.stacks.91ced877a491280014eeaa71"
+  ],
+  "held_candidate_ids": [],
+  "sections": [
+    {
+      "chapter": "more-etale",
+      "section_start_line": 4205,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-etale/section-4205.jsonl",
+      "decision_blob_sha": "45d63d4020671f62850411f0a79f3a9f3cf7b08f",
+      "candidate_ids": [
+        "candidate.stacks.4b6ae12e64337bd9e4db9d06",
+        "candidate.stacks.c000d2777e4b951cd4b61daa"
+      ],
+      "approved_count": 2,
+      "held_count": 0
+    },
+    {
+      "chapter": "more-etale",
+      "section_start_line": 4458,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-etale/section-4458.jsonl",
+      "decision_blob_sha": "a9bae52b817d20b48b504ece65e85d5f7e426db9",
+      "candidate_ids": [
+        "candidate.stacks.4434b96d069452845922502c",
+        "candidate.stacks.a5f77de0e06c38cb03aeb619",
+        "candidate.stacks.5dd1ac1f92169d1a2404d9eb",
+        "candidate.stacks.9411515872bfa6d9c5511ab3",
+        "candidate.stacks.32f1d22296878cbe8bec8140"
+      ],
+      "approved_count": 5,
+      "held_count": 0
+    },
+    {
+      "chapter": "more-etale",
+      "section_start_line": 4761,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-etale/section-4761.jsonl",
+      "decision_blob_sha": "3fde3eae938dbb734c1099df8df28ac2ce3eae84",
+      "candidate_ids": [
+        "candidate.stacks.7bf129eebe8026b51b6f5942",
+        "candidate.stacks.91ced877a491280014eeaa71"
+      ],
+      "approved_count": 2,
+      "held_count": 0
+    }
+  ],
+  "validation": {
+    "all_frozen_ids_in_order": true,
+    "whole_sections_complete": true,
+    "decision_records_evidence_checked": true,
+    "source_first_review_recorded": true,
+    "phase3_proofs_not_reviewed": true,
+    "approval_digests_computed_from_exact_final_fields": true
+  },
+  "status": "completed"
+}

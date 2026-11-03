@@ -1,0 +1,45 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 3,
+  "branch": "work/phase2-final/chat-3",
+  "batch_id": "p2f-w3-b022",
+  "chapter": "sites",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "chatgpt-gpt6-final-phase2-worker-3-continued-2026-11-03",
+  "status": "complete_pending_central_registration",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "candidate_ids": [
+    "candidate.stacks.c3e139a53f4f731406020ea3",
+    "candidate.stacks.60d9a07528062e45a5b6a1f5",
+    "candidate.stacks.17fc792c51603ca34f250090"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.17fc792c51603ca34f250090"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.c3e139a53f4f731406020ea3",
+    "candidate.stacks.60d9a07528062e45a5b6a1f5"
+  ],
+  "candidate_count": 3,
+  "approved_count": 1,
+  "held_count": 2,
+  "section_count": 1,
+  "sections": [
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/sites/section-11682.jsonl",
+      "source_section_start_line": 11682,
+      "candidate_ids": [
+        "candidate.stacks.c3e139a53f4f731406020ea3",
+        "candidate.stacks.60d9a07528062e45a5b6a1f5",
+        "candidate.stacks.17fc792c51603ca34f250090"
+      ],
+      "approvals": 1,
+      "holds": 2
+    }
+  ],
+  "immutable_input_sha_check": "pass",
+  "exact_id_order_check": "pass",
+  "pinned_source_context_check": "pass",
+  "stage_a_and_stage_b_reviewer_chain_checked": "pass"
+}

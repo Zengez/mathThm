@@ -1,0 +1,69 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 1,
+  "branch": "work/phase2-final/chat-1",
+  "batch_id": "p2f-w1-b006",
+  "chapter": "decent-spaces",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-1-2026-11-03",
+  "completed_on": "2026-11-03",
+  "candidate_count": 9,
+  "approved_count": 9,
+  "held_count": 0,
+  "complete_section_count": 2,
+  "candidate_ids": [
+    "candidate.stacks.5006cf0c520a9adc85e82b2a",
+    "candidate.stacks.a5f4d456365d6a025643dc21",
+    "candidate.stacks.9696566f220d841f5d5cd290",
+    "candidate.stacks.0368043b9319f0c5bc315cd6",
+    "candidate.stacks.010337887c37f6c0d3ee9b14",
+    "candidate.stacks.ef10916e4cfb1b0381808a89",
+    "candidate.stacks.edd7749818c5bd07ae7aa378",
+    "candidate.stacks.5ebb137d7c84e1393b39a14d",
+    "candidate.stacks.5108087f893612514c6585f5"
+  ],
+  "sections": [
+    {
+      "chapter": "decent-spaces",
+      "section_start_line": 5234,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/decent-spaces/section-5234.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.5006cf0c520a9adc85e82b2a",
+        "candidate.stacks.a5f4d456365d6a025643dc21",
+        "candidate.stacks.9696566f220d841f5d5cd290",
+        "candidate.stacks.0368043b9319f0c5bc315cd6",
+        "candidate.stacks.010337887c37f6c0d3ee9b14"
+      ],
+      "approved_count": 5,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "0170be29838f0214fc2e03bfc87b1b16911f2d4e",
+        "phase3_review": "51e5bc782acc51171cd3bfbf56a1fcbd52cdba16",
+        "phase2_proposal": "b642ef953f3ad485f9f4f101336f2cfd7ca1ebdc"
+      }
+    },
+    {
+      "chapter": "decent-spaces",
+      "section_start_line": 5545,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/decent-spaces/section-5545.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.ef10916e4cfb1b0381808a89",
+        "candidate.stacks.edd7749818c5bd07ae7aa378",
+        "candidate.stacks.5ebb137d7c84e1393b39a14d",
+        "candidate.stacks.5108087f893612514c6585f5"
+      ],
+      "approved_count": 4,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "52566501abd1b5a68bfd71a29245eb16bc903399",
+        "phase3_review": "8887d191f5b79d32e0746dbc18a8c2482299ac9c",
+        "phase2_proposal": "06d79052cc5c4bc758adb9ac028c2d2243abee84"
+      }
+    }
+  ],
+  "complete_sections": true,
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "source_equivalence_status": "awaiting_central_registration",
+  "input_blob_hashes_verified": true
+}

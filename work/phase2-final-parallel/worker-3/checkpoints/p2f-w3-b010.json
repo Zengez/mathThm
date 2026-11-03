@@ -1,0 +1,72 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 3,
+  "branch": "work/phase2-final/chat-3",
+  "batch_id": "p2f-w3-b010",
+  "chapter": "formal-spaces",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "chatgpt-gpt6-final-phase2-worker-3-continuation-2026-11-03",
+  "status": "complete_pending_central_registration",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "candidate_ids": [
+    "candidate.stacks.c05e1a168f62aa180fde95c2",
+    "candidate.stacks.83edb2e4ae81452ce8211ab5",
+    "candidate.stacks.41921ec26eca8d3f33981365",
+    "candidate.stacks.b356770064941ac1a454efd6",
+    "candidate.stacks.cf88d1f124ac382045d36db5",
+    "candidate.stacks.98633b3737a3ef8331df27e0",
+    "candidate.stacks.081cf628edce63cc5563621c"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.c05e1a168f62aa180fde95c2",
+    "candidate.stacks.83edb2e4ae81452ce8211ab5",
+    "candidate.stacks.41921ec26eca8d3f33981365",
+    "candidate.stacks.b356770064941ac1a454efd6",
+    "candidate.stacks.cf88d1f124ac382045d36db5",
+    "candidate.stacks.98633b3737a3ef8331df27e0",
+    "candidate.stacks.081cf628edce63cc5563621c"
+  ],
+  "held_candidate_ids": [],
+  "candidate_count": 7,
+  "approved_count": 7,
+  "held_count": 0,
+  "section_count": 3,
+  "sections": [
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/formal-spaces/section-5470.jsonl",
+      "source_section_start_line": 5470,
+      "candidate_ids": [
+        "candidate.stacks.c05e1a168f62aa180fde95c2",
+        "candidate.stacks.83edb2e4ae81452ce8211ab5",
+        "candidate.stacks.41921ec26eca8d3f33981365",
+        "candidate.stacks.b356770064941ac1a454efd6",
+        "candidate.stacks.cf88d1f124ac382045d36db5"
+      ],
+      "approvals": 5,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/formal-spaces/section-6569.jsonl",
+      "source_section_start_line": 6569,
+      "candidate_ids": [
+        "candidate.stacks.98633b3737a3ef8331df27e0"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/formal-spaces/section-6772.jsonl",
+      "source_section_start_line": 6772,
+      "candidate_ids": [
+        "candidate.stacks.081cf628edce63cc5563621c"
+      ],
+      "approvals": 1,
+      "holds": 0
+    }
+  ],
+  "immutable_input_sha_check": "pass",
+  "exact_id_order_check": "pass",
+  "pinned_source_context_check": "pass",
+  "stage_a_and_stage_b_reviewer_chain_checked": "pass"
+}

@@ -1,0 +1,155 @@
+{
+  "schema": "maththm.phase2-final.worker-batch-checkpoint.v1",
+  "worker": 4,
+  "branch": "work/phase2-final/chat-4",
+  "reviewer": "chatgpt-final-phase2-worker-4-2026-11-03",
+  "batch_id": "p2f-w4-b001",
+  "chapter": "algebraization",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "completed_sections": 8,
+  "completed_candidate_count": 15,
+  "approved_count": 13,
+  "held_count": 2,
+  "candidate_ids": [
+    "candidate.stacks.48d94cc05cef54200d872dc5",
+    "candidate.stacks.bfc47e96039be81f8028b073",
+    "candidate.stacks.8dd92d09cf36cf4bed99d462",
+    "candidate.stacks.df05fd3140388125af83be49",
+    "candidate.stacks.f9f9b2f4956446501c8934a5",
+    "candidate.stacks.88b846e4c120cbcff03a34b5",
+    "candidate.stacks.e4259785f807c7130845459b",
+    "candidate.stacks.34f69518c6f3d3084d5f7b71",
+    "candidate.stacks.95eec66b773e22e04575cec4",
+    "candidate.stacks.88061af9f3acd3848f6bf6e1",
+    "candidate.stacks.1de9700067e78daedf31ada2",
+    "candidate.stacks.3d069202261f21a16717ed12",
+    "candidate.stacks.b8871253e42b560823905e6e",
+    "candidate.stacks.e48f719a5c3ae0c489ec1953",
+    "candidate.stacks.7e2ebf59237911a8d41f9178"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.48d94cc05cef54200d872dc5",
+    "candidate.stacks.bfc47e96039be81f8028b073",
+    "candidate.stacks.8dd92d09cf36cf4bed99d462",
+    "candidate.stacks.df05fd3140388125af83be49",
+    "candidate.stacks.f9f9b2f4956446501c8934a5",
+    "candidate.stacks.88b846e4c120cbcff03a34b5",
+    "candidate.stacks.e4259785f807c7130845459b",
+    "candidate.stacks.34f69518c6f3d3084d5f7b71",
+    "candidate.stacks.1de9700067e78daedf31ada2",
+    "candidate.stacks.3d069202261f21a16717ed12",
+    "candidate.stacks.b8871253e42b560823905e6e",
+    "candidate.stacks.e48f719a5c3ae0c489ec1953",
+    "candidate.stacks.7e2ebf59237911a8d41f9178"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.95eec66b773e22e04575cec4",
+    "candidate.stacks.88061af9f3acd3848f6bf6e1"
+  ],
+  "sections": [
+    {
+      "chapter": "algebraization",
+      "section_start_line": 3496,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/algebraization/section-3496.jsonl",
+      "decision_blob_sha": "3bb129eebf0a18f45df02aac95618b0b3f52565e",
+      "candidate_ids": [
+        "candidate.stacks.48d94cc05cef54200d872dc5"
+      ],
+      "approved_count": 1,
+      "held_count": 0
+    },
+    {
+      "chapter": "algebraization",
+      "section_start_line": 3659,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/algebraization/section-3659.jsonl",
+      "decision_blob_sha": "64aa716a50cee08f9e669f7c2709ef8638400fdc",
+      "candidate_ids": [
+        "candidate.stacks.bfc47e96039be81f8028b073",
+        "candidate.stacks.8dd92d09cf36cf4bed99d462",
+        "candidate.stacks.df05fd3140388125af83be49",
+        "candidate.stacks.f9f9b2f4956446501c8934a5",
+        "candidate.stacks.88b846e4c120cbcff03a34b5"
+      ],
+      "approved_count": 5,
+      "held_count": 0
+    },
+    {
+      "chapter": "algebraization",
+      "section_start_line": 4192,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/algebraization/section-4192.jsonl",
+      "decision_blob_sha": "6e9d42b57952ae63d0c4046d63ef0caab531dd8d",
+      "candidate_ids": [
+        "candidate.stacks.e4259785f807c7130845459b"
+      ],
+      "approved_count": 1,
+      "held_count": 0
+    },
+    {
+      "chapter": "algebraization",
+      "section_start_line": 4356,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/algebraization/section-4356.jsonl",
+      "decision_blob_sha": "547bb6f27249bcd7aba8128bf0ad8c35bdbd1823",
+      "candidate_ids": [
+        "candidate.stacks.34f69518c6f3d3084d5f7b71"
+      ],
+      "approved_count": 1,
+      "held_count": 0
+    },
+    {
+      "chapter": "algebraization",
+      "section_start_line": 4512,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/algebraization/section-4512.jsonl",
+      "decision_blob_sha": "66482215c8297ceef95d5df8ead4725e32d15f21",
+      "candidate_ids": [
+        "candidate.stacks.95eec66b773e22e04575cec4",
+        "candidate.stacks.88061af9f3acd3848f6bf6e1"
+      ],
+      "approved_count": 0,
+      "held_count": 2
+    },
+    {
+      "chapter": "algebraization",
+      "section_start_line": 8473,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/algebraization/section-8473.jsonl",
+      "decision_blob_sha": "4836026cc39c94ec20ebb877dc0f98a73eadbbac",
+      "candidate_ids": [
+        "candidate.stacks.1de9700067e78daedf31ada2"
+      ],
+      "approved_count": 1,
+      "held_count": 0
+    },
+    {
+      "chapter": "algebraization",
+      "section_start_line": 8726,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/algebraization/section-8726.jsonl",
+      "decision_blob_sha": "cf4b5b909860fa926540a61104621df0a08bf328",
+      "candidate_ids": [
+        "candidate.stacks.3d069202261f21a16717ed12",
+        "candidate.stacks.b8871253e42b560823905e6e",
+        "candidate.stacks.e48f719a5c3ae0c489ec1953"
+      ],
+      "approved_count": 3,
+      "held_count": 0
+    },
+    {
+      "chapter": "algebraization",
+      "section_start_line": 8996,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/algebraization/section-8996.jsonl",
+      "decision_blob_sha": "f591f2b00007b9e2aaaf9a9647cf00e6db939c1b",
+      "candidate_ids": [
+        "candidate.stacks.7e2ebf59237911a8d41f9178"
+      ],
+      "approved_count": 1,
+      "held_count": 0
+    }
+  ],
+  "validation": {
+    "all_frozen_ids_in_order": true,
+    "whole_sections_complete": true,
+    "decision_records_evidence_checked": true,
+    "source_first_review_recorded": true,
+    "phase3_proofs_not_reviewed": true,
+    "approval_digests_carried_from_frozen_materialization_proposals": true
+  },
+  "status": "completed"
+}

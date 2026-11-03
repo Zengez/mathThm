@@ -1,0 +1,41 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 1,
+  "branch": "work/phase2-final/chat-1",
+  "batch_id": "p2f-w1-b017",
+  "chapter": "limits",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-1-2026-11-03-resume",
+  "completed_on": "2026-11-03",
+  "candidate_count": 2,
+  "approved_count": 2,
+  "held_count": 0,
+  "complete_section_count": 1,
+  "candidate_ids": [
+    "candidate.stacks.7b766bef13c8862467fc08c0",
+    "candidate.stacks.390b1db57e461c700a5f49b5"
+  ],
+  "sections": [
+    {
+      "chapter": "limits",
+      "section_start_line": 5355,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/limits/section-5355.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.7b766bef13c8862467fc08c0",
+        "candidate.stacks.390b1db57e461c700a5f49b5"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "56519d12ff1de13ca59408800ad3be9462b9b720",
+        "phase3_review": "6a1c1eeb4684e284de9a30d86f3c38a9382c25fc",
+        "phase2_proposal": "e48d3c4e062815a4948a08be3cd2e46a96f26e8d"
+      }
+    }
+  ],
+  "complete_sections": true,
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "source_equivalence_status": "awaiting_central_registration",
+  "input_blob_hashes_verified": true
+}

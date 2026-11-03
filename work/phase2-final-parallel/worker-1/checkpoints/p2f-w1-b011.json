@@ -1,0 +1,243 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 1,
+  "branch": "work/phase2-final/chat-1",
+  "batch_id": "p2f-w1-b011",
+  "chapter": "duality",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-1-2026-11-03-continuation-b",
+  "completed_on": "2026-11-03",
+  "candidate_count": 33,
+  "approved_count": 33,
+  "held_count": 0,
+  "complete_section_count": 11,
+  "candidate_ids": [
+    "candidate.stacks.b880a706fb14096c9a5ba158",
+    "candidate.stacks.f1ff9dad2f91887e8fed73ca",
+    "candidate.stacks.d79a452e4a918eb92766f82b",
+    "candidate.stacks.f3046ae76ab73af7e1c6f1b0",
+    "candidate.stacks.f0829c94edb75076c1434a0a",
+    "candidate.stacks.2bcdee1c30a6c08b5b0e095b",
+    "candidate.stacks.9abe4e0a111dc6edd0409917",
+    "candidate.stacks.9f7e2739496603963618f2c1",
+    "candidate.stacks.301b09eb70c6467b07b35fe9",
+    "candidate.stacks.b6fb5af44bb86da160ddd687",
+    "candidate.stacks.0550091c5a7779e1cd6a2d7f",
+    "candidate.stacks.4fd5c0c751cf11bf907528b7",
+    "candidate.stacks.08b41aa62696f65ad54066d0",
+    "candidate.stacks.979049197ec6f78818e6e798",
+    "candidate.stacks.2e62b0c0d987a4389e278d2b",
+    "candidate.stacks.53e62201440ed3ea5a78ec92",
+    "candidate.stacks.921a288c921c535b7b7e8bfa",
+    "candidate.stacks.e5bd7d2c5586333071a206c5",
+    "candidate.stacks.54888bae93de1fe2d9675b23",
+    "candidate.stacks.3ff4131e3659152b8c1c0fe6",
+    "candidate.stacks.5ff621716a32560658ba0869",
+    "candidate.stacks.d71bcc9c3e16f253269bcadc",
+    "candidate.stacks.7a75058e5ddfc76b44088617",
+    "candidate.stacks.eeb6874eb11362cb77761c58",
+    "candidate.stacks.bb41aadace6b1fbe5661df82",
+    "candidate.stacks.00da4a13d93571acd4083cfc",
+    "candidate.stacks.2772a35fccf583f31314a222",
+    "candidate.stacks.ca2c4ea936e0a4776f0e475a",
+    "candidate.stacks.e79e2fd0792084ef9d6a65e8",
+    "candidate.stacks.03988650e702d461a471be22",
+    "candidate.stacks.080b3a4ac890508e7c9a82bf",
+    "candidate.stacks.a591597625bb62a40a2042a2",
+    "candidate.stacks.406db15c641651212bfd11da"
+  ],
+  "sections": [
+    {
+      "chapter": "duality",
+      "section_start_line": 80,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/duality/section-80.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.b880a706fb14096c9a5ba158",
+        "candidate.stacks.f1ff9dad2f91887e8fed73ca",
+        "candidate.stacks.d79a452e4a918eb92766f82b"
+      ],
+      "approved_count": 3,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "894cac012876e05c1788e1c47e5f4cf56a0972f7",
+        "phase3_review": "888cca3f8f030f26b9db9bb2be1cc926fef52fe8",
+        "phase2_proposal": "2f8d486315d68bf2ad588b577735d0562eef0b97"
+      }
+    },
+    {
+      "chapter": "duality",
+      "section_start_line": 417,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/duality/section-417.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.f3046ae76ab73af7e1c6f1b0",
+        "candidate.stacks.f0829c94edb75076c1434a0a",
+        "candidate.stacks.2bcdee1c30a6c08b5b0e095b",
+        "candidate.stacks.9abe4e0a111dc6edd0409917"
+      ],
+      "approved_count": 4,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "514167263044479881710e96b8df1542c6fe0eba",
+        "phase3_review": "8066c5ed6c79889a3a3cb52076e8fa1957af2ade",
+        "phase2_proposal": "d2c1cade4d318a20d254df429abf62a4ac38434d"
+      }
+    },
+    {
+      "chapter": "duality",
+      "section_start_line": 698,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/duality/section-698.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.9f7e2739496603963618f2c1",
+        "candidate.stacks.301b09eb70c6467b07b35fe9"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "519cb80bbe92c1998234d6936765494e16db8715",
+        "phase3_review": "5bcb0caa316493252597e45c8eaa2db43bf0d4fb",
+        "phase2_proposal": "64dbaa9351aa2b9e775f112b590027356642c960"
+      }
+    },
+    {
+      "chapter": "duality",
+      "section_start_line": 1837,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/duality/section-1837.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.b6fb5af44bb86da160ddd687",
+        "candidate.stacks.0550091c5a7779e1cd6a2d7f",
+        "candidate.stacks.4fd5c0c751cf11bf907528b7"
+      ],
+      "approved_count": 3,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "6b2c3a07555ba919e5aea39c189cd1bf4fee81f4",
+        "phase3_review": "de62aecd601e835f61806a10c4f6f4854ec28934",
+        "phase2_proposal": "07940a3cadc831eeffdfce1f569398a2c7c6e9db"
+      }
+    },
+    {
+      "chapter": "duality",
+      "section_start_line": 2041,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/duality/section-2041.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.08b41aa62696f65ad54066d0",
+        "candidate.stacks.979049197ec6f78818e6e798"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "531a5a3ab5e76ca5c9b8311c13cd0afae739c870",
+        "phase3_review": "5d01bf0ac7005a361b777c384b2e340720165251",
+        "phase2_proposal": "6f2fff09f47bfee0ab2fcd8ca3e1d7b3360f181a"
+      }
+    },
+    {
+      "chapter": "duality",
+      "section_start_line": 2301,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/duality/section-2301.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.2e62b0c0d987a4389e278d2b"
+      ],
+      "approved_count": 1,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "fda80a185800f12eb7260cd49cf25e4d780e5913",
+        "phase3_review": "f1001b0d9e04ab60fbc5d09ce5a51435520e3ac4",
+        "phase2_proposal": "1f727d8bf7cbf9c519dd10e8e16d500241975408"
+      }
+    },
+    {
+      "chapter": "duality",
+      "section_start_line": 2458,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/duality/section-2458.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.53e62201440ed3ea5a78ec92"
+      ],
+      "approved_count": 1,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "06ca13ba21b04dbb58296f2b653feab77365cc56",
+        "phase3_review": "194188fcd648bb39b1e766c2e770578e695134e7",
+        "phase2_proposal": "010cdb9270d2dd9c3293dfd38d0d622b51576b2b"
+      }
+    },
+    {
+      "chapter": "duality",
+      "section_start_line": 2605,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/duality/section-2605.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.921a288c921c535b7b7e8bfa",
+        "candidate.stacks.e5bd7d2c5586333071a206c5",
+        "candidate.stacks.54888bae93de1fe2d9675b23",
+        "candidate.stacks.3ff4131e3659152b8c1c0fe6",
+        "candidate.stacks.5ff621716a32560658ba0869"
+      ],
+      "approved_count": 5,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "3995d25993c8bf21aecc3c5d5ce518d64f2a99f5",
+        "phase3_review": "89ee3f43ab6b22f5972071cd2754dd0160cbc688",
+        "phase2_proposal": "5500f292cca8ed0885e09cdb33adee8a7453cfec"
+      }
+    },
+    {
+      "chapter": "duality",
+      "section_start_line": 3027,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/duality/section-3027.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.d71bcc9c3e16f253269bcadc",
+        "candidate.stacks.7a75058e5ddfc76b44088617",
+        "candidate.stacks.eeb6874eb11362cb77761c58",
+        "candidate.stacks.bb41aadace6b1fbe5661df82"
+      ],
+      "approved_count": 4,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "3598b59fbd6798ad522aaca8e79e04794b47f99f",
+        "phase3_review": "b63962315872cfe7486026f7284b54aed4b9b0de",
+        "phase2_proposal": "f567f5ea42dcdecff77497b80f7311c2807965e0"
+      }
+    },
+    {
+      "chapter": "duality",
+      "section_start_line": 3279,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/duality/section-3279.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.00da4a13d93571acd4083cfc"
+      ],
+      "approved_count": 1,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "c2066867961525f75aba137df2a7548298e3e5ec",
+        "phase3_review": "7e2219382f123d968bd0008388d66a4f27d643c6",
+        "phase2_proposal": "bcd5f19ae2db002de98ffd71c97e6f012c347380"
+      }
+    },
+    {
+      "chapter": "duality",
+      "section_start_line": 4344,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/duality/section-4344.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.2772a35fccf583f31314a222",
+        "candidate.stacks.ca2c4ea936e0a4776f0e475a",
+        "candidate.stacks.e79e2fd0792084ef9d6a65e8",
+        "candidate.stacks.03988650e702d461a471be22",
+        "candidate.stacks.080b3a4ac890508e7c9a82bf",
+        "candidate.stacks.a591597625bb62a40a2042a2",
+        "candidate.stacks.406db15c641651212bfd11da"
+      ],
+      "approved_count": 7,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "33510e538090863c28858767ca03374279ab715d",
+        "phase3_review": "f04dd0944ae35a1531e6334a18660504d66d749a",
+        "phase2_proposal": "a43ae89fb92a5032520f89dfca1e0d4c3a632b27"
+      }
+    }
+  ],
+  "complete_sections": true,
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "source_equivalence_status": "awaiting_central_registration",
+  "input_blob_hashes_verified": true
+}

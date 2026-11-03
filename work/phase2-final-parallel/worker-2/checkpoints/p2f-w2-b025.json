@@ -1,0 +1,38 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b025",
+  "chapter": "groupoids-quotients",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-chat-continuation",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 1,
+  "approved_count": 0,
+  "held_count": 1,
+  "section_count": 1,
+  "candidate_ids": [
+    "candidate.stacks.de103088847999a7f38ddffc"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.de103088847999a7f38ddffc"
+  ],
+  "decision_files": [
+    {
+      "chapter": "groupoids-quotients",
+      "section_start_line": 40,
+      "candidate_ids": [
+        "candidate.stacks.de103088847999a7f38ddffc"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/groupoids-quotients/section-40.jsonl",
+      "decision_blob_sha": "7857cfb178b66fabea3bad1f8031d33e521c8d00",
+      "approvals": 0,
+      "holds": 1
+    }
+  ],
+  "decision_files_verified_at_commit": "7ac95125918c0b674923e1050cc7fd1a256d66a3",
+  "validation": "Pinned original and immediately preceding R-invariant definition inspected source-first, exact Stage B/Phase 3/proposal input blob SHA verified, held one standalone-context discrepancy; no proof review or authoritative registration asserted."
+}

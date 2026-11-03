@@ -1,0 +1,223 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 3,
+  "branch": "work/phase2-final/chat-3",
+  "batch_id": "p2f-w3-b025",
+  "chapter": "spaces-morphisms",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "chatgpt-gpt6-final-phase2-worker-3-2026-11-03",
+  "status": "complete_pending_central_registration",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "candidate_ids": [
+    "candidate.stacks.2998b27eca0b78c80588860f",
+    "candidate.stacks.cf9c841ee37b73ad481f9dee",
+    "candidate.stacks.97613da7cf7767cf61c08852",
+    "candidate.stacks.a346ac96d0f18f1a1a37cc83",
+    "candidate.stacks.c3b2a778377831d8f43c3ad4",
+    "candidate.stacks.9e3749ccecb83301f654ddbb",
+    "candidate.stacks.48bf375d275878d113101c74",
+    "candidate.stacks.f67ed65d3b52b8b0993c7c1b",
+    "candidate.stacks.8c21163139e0e59731bb4a4b",
+    "candidate.stacks.fa01d4259ca7efa4d9e5643b",
+    "candidate.stacks.43e0ce6fce0eb3c81ac3e065",
+    "candidate.stacks.2800837a0c906520302b030e",
+    "candidate.stacks.c128753101a9e064bd965e2f",
+    "candidate.stacks.42cf074b2d3e108493298f39",
+    "candidate.stacks.a99c02f0287e9d815c33a696",
+    "candidate.stacks.9721b971944aaf8d735d3da6",
+    "candidate.stacks.5512a773a78f60a004b22e3f",
+    "candidate.stacks.16b5bb750f6a7230d301a048",
+    "candidate.stacks.41a5a1643b79d7027481ece5",
+    "candidate.stacks.22ac3d2863f74a2aca89f7b6",
+    "candidate.stacks.c4b23a96d99cd3c88fee3fa2",
+    "candidate.stacks.58e98fb556f706f6c6c8e8cb",
+    "candidate.stacks.77a5b428c275f9e119239dc0",
+    "candidate.stacks.0d0b025be715540369ff4628",
+    "candidate.stacks.e950a5553ec47762a3a35410",
+    "candidate.stacks.de73fd938a957073b494ab27",
+    "candidate.stacks.0194443fc7912e75dcf8275d",
+    "candidate.stacks.1cbff593c47e529328db457d",
+    "candidate.stacks.802bd7f3c292e0b71d7e0647",
+    "candidate.stacks.59f8538fd914590db83eb75d",
+    "candidate.stacks.13af5389db1e0cd59b875822",
+    "candidate.stacks.92445580cebb396b58aeaeba",
+    "candidate.stacks.5bd41b57ea8163079584a0c5",
+    "candidate.stacks.d5c48e34decbcf9ea456df1f",
+    "candidate.stacks.67ac1cccd48e08ced01128e7",
+    "candidate.stacks.dc3fcbd04261d3dfdcbe61d7",
+    "candidate.stacks.c80aa976e1a6dde22cf763a0",
+    "candidate.stacks.55a53b54bd82a52d6c4c608f"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.2998b27eca0b78c80588860f",
+    "candidate.stacks.cf9c841ee37b73ad481f9dee",
+    "candidate.stacks.97613da7cf7767cf61c08852",
+    "candidate.stacks.a346ac96d0f18f1a1a37cc83",
+    "candidate.stacks.9e3749ccecb83301f654ddbb",
+    "candidate.stacks.48bf375d275878d113101c74",
+    "candidate.stacks.8c21163139e0e59731bb4a4b",
+    "candidate.stacks.43e0ce6fce0eb3c81ac3e065",
+    "candidate.stacks.2800837a0c906520302b030e",
+    "candidate.stacks.c128753101a9e064bd965e2f",
+    "candidate.stacks.42cf074b2d3e108493298f39",
+    "candidate.stacks.a99c02f0287e9d815c33a696",
+    "candidate.stacks.9721b971944aaf8d735d3da6",
+    "candidate.stacks.5512a773a78f60a004b22e3f",
+    "candidate.stacks.16b5bb750f6a7230d301a048",
+    "candidate.stacks.41a5a1643b79d7027481ece5",
+    "candidate.stacks.c4b23a96d99cd3c88fee3fa2",
+    "candidate.stacks.77a5b428c275f9e119239dc0",
+    "candidate.stacks.0d0b025be715540369ff4628",
+    "candidate.stacks.e950a5553ec47762a3a35410",
+    "candidate.stacks.0194443fc7912e75dcf8275d",
+    "candidate.stacks.1cbff593c47e529328db457d",
+    "candidate.stacks.802bd7f3c292e0b71d7e0647",
+    "candidate.stacks.59f8538fd914590db83eb75d",
+    "candidate.stacks.13af5389db1e0cd59b875822",
+    "candidate.stacks.92445580cebb396b58aeaeba",
+    "candidate.stacks.5bd41b57ea8163079584a0c5",
+    "candidate.stacks.d5c48e34decbcf9ea456df1f",
+    "candidate.stacks.67ac1cccd48e08ced01128e7",
+    "candidate.stacks.dc3fcbd04261d3dfdcbe61d7",
+    "candidate.stacks.c80aa976e1a6dde22cf763a0"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.c3b2a778377831d8f43c3ad4",
+    "candidate.stacks.f67ed65d3b52b8b0993c7c1b",
+    "candidate.stacks.fa01d4259ca7efa4d9e5643b",
+    "candidate.stacks.22ac3d2863f74a2aca89f7b6",
+    "candidate.stacks.58e98fb556f706f6c6c8e8cb",
+    "candidate.stacks.de73fd938a957073b494ab27",
+    "candidate.stacks.55a53b54bd82a52d6c4c608f"
+  ],
+  "candidate_count": 38,
+  "approved_count": 31,
+  "held_count": 7,
+  "section_count": 10,
+  "sections": [
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/spaces-morphisms/section-5405.jsonl",
+      "source_section_start_line": 5405,
+      "candidate_ids": [
+        "candidate.stacks.2998b27eca0b78c80588860f",
+        "candidate.stacks.cf9c841ee37b73ad481f9dee",
+        "candidate.stacks.97613da7cf7767cf61c08852",
+        "candidate.stacks.a346ac96d0f18f1a1a37cc83",
+        "candidate.stacks.c3b2a778377831d8f43c3ad4"
+      ],
+      "approvals": 4,
+      "holds": 1
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/spaces-morphisms/section-5691.jsonl",
+      "source_section_start_line": 5691,
+      "candidate_ids": [
+        "candidate.stacks.9e3749ccecb83301f654ddbb",
+        "candidate.stacks.48bf375d275878d113101c74"
+      ],
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/spaces-morphisms/section-5751.jsonl",
+      "source_section_start_line": 5751,
+      "candidate_ids": [
+        "candidate.stacks.f67ed65d3b52b8b0993c7c1b",
+        "candidate.stacks.8c21163139e0e59731bb4a4b",
+        "candidate.stacks.fa01d4259ca7efa4d9e5643b",
+        "candidate.stacks.43e0ce6fce0eb3c81ac3e065",
+        "candidate.stacks.2800837a0c906520302b030e",
+        "candidate.stacks.c128753101a9e064bd965e2f"
+      ],
+      "approvals": 4,
+      "holds": 2
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/spaces-morphisms/section-6104.jsonl",
+      "source_section_start_line": 6104,
+      "candidate_ids": [
+        "candidate.stacks.42cf074b2d3e108493298f39",
+        "candidate.stacks.a99c02f0287e9d815c33a696",
+        "candidate.stacks.9721b971944aaf8d735d3da6"
+      ],
+      "approvals": 3,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/spaces-morphisms/section-6346.jsonl",
+      "source_section_start_line": 6346,
+      "candidate_ids": [
+        "candidate.stacks.5512a773a78f60a004b22e3f",
+        "candidate.stacks.16b5bb750f6a7230d301a048"
+      ],
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/spaces-morphisms/section-6475.jsonl",
+      "source_section_start_line": 6475,
+      "candidate_ids": [
+        "candidate.stacks.41a5a1643b79d7027481ece5",
+        "candidate.stacks.22ac3d2863f74a2aca89f7b6",
+        "candidate.stacks.c4b23a96d99cd3c88fee3fa2"
+      ],
+      "approvals": 2,
+      "holds": 1
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/spaces-morphisms/section-6640.jsonl",
+      "source_section_start_line": 6640,
+      "candidate_ids": [
+        "candidate.stacks.58e98fb556f706f6c6c8e8cb",
+        "candidate.stacks.77a5b428c275f9e119239dc0",
+        "candidate.stacks.0d0b025be715540369ff4628",
+        "candidate.stacks.e950a5553ec47762a3a35410",
+        "candidate.stacks.de73fd938a957073b494ab27",
+        "candidate.stacks.0194443fc7912e75dcf8275d",
+        "candidate.stacks.1cbff593c47e529328db457d"
+      ],
+      "approvals": 5,
+      "holds": 2
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/spaces-morphisms/section-6936.jsonl",
+      "source_section_start_line": 6936,
+      "candidate_ids": [
+        "candidate.stacks.802bd7f3c292e0b71d7e0647",
+        "candidate.stacks.59f8538fd914590db83eb75d"
+      ],
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/spaces-morphisms/section-7013.jsonl",
+      "source_section_start_line": 7013,
+      "candidate_ids": [
+        "candidate.stacks.13af5389db1e0cd59b875822",
+        "candidate.stacks.92445580cebb396b58aeaeba",
+        "candidate.stacks.5bd41b57ea8163079584a0c5"
+      ],
+      "approvals": 3,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/spaces-morphisms/section-7145.jsonl",
+      "source_section_start_line": 7145,
+      "candidate_ids": [
+        "candidate.stacks.d5c48e34decbcf9ea456df1f",
+        "candidate.stacks.67ac1cccd48e08ced01128e7",
+        "candidate.stacks.dc3fcbd04261d3dfdcbe61d7",
+        "candidate.stacks.c80aa976e1a6dde22cf763a0",
+        "candidate.stacks.55a53b54bd82a52d6c4c608f"
+      ],
+      "approvals": 4,
+      "holds": 1
+    }
+  ],
+  "immutable_input_sha_check": "pass",
+  "exact_id_order_check": "pass",
+  "pinned_source_context_check": "pass",
+  "stage_a_and_stage_b_reviewer_chain_checked": "pass",
+  "source_and_approved_sha256_recheck": "pass"
+}

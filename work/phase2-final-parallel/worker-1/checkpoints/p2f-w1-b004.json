@@ -1,0 +1,99 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 1,
+  "branch": "work/phase2-final/chat-1",
+  "batch_id": "p2f-w1-b004",
+  "chapter": "cotangent",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-1-2026-11-03",
+  "completed_on": "2026-11-03",
+  "candidate_count": 10,
+  "approved_count": 10,
+  "held_count": 0,
+  "complete_section_count": 4,
+  "candidate_ids": [
+    "candidate.stacks.d3c1a1c334228e7e79ca649d",
+    "candidate.stacks.f66039de7f94b6a313af713d",
+    "candidate.stacks.a1a87d4ca457fc7160aac044",
+    "candidate.stacks.4ce95ab1acfb34e7dad5c9e4",
+    "candidate.stacks.4380bd8b5b1778f974926008",
+    "candidate.stacks.d1d2ae316bca52255d51ac3f",
+    "candidate.stacks.0b76b09d28992bc062322217",
+    "candidate.stacks.fb9b90ec75baaae763cd47ac",
+    "candidate.stacks.1f2b42f185b8d64136cae6d6",
+    "candidate.stacks.a49a814fe54f9603f40d4f18"
+  ],
+  "sections": [
+    {
+      "chapter": "cotangent",
+      "section_start_line": 3513,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/cotangent/section-3513.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.d3c1a1c334228e7e79ca649d",
+        "candidate.stacks.f66039de7f94b6a313af713d",
+        "candidate.stacks.a1a87d4ca457fc7160aac044"
+      ],
+      "approved_count": 3,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "7126667c0200de38a3550ebf80a55c2f14e6139a",
+        "phase3_review": "f76b0f1912888882c422a41511f366caec39ae6c",
+        "phase2_proposal": "fb430a3af38635670d101cce2b0c5bfbb380a4d3"
+      }
+    },
+    {
+      "chapter": "cotangent",
+      "section_start_line": 3687,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/cotangent/section-3687.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.4ce95ab1acfb34e7dad5c9e4",
+        "candidate.stacks.4380bd8b5b1778f974926008",
+        "candidate.stacks.d1d2ae316bca52255d51ac3f"
+      ],
+      "approved_count": 3,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "a8b65bcf072ad45d7f67813f8d9cd10a2d72fce4",
+        "phase3_review": "772367521284d1c26505489ee3f971e3c18d6ef3",
+        "phase2_proposal": "2bdf59dfe06148f6db957f6c3bbbb39d15dab947"
+      }
+    },
+    {
+      "chapter": "cotangent",
+      "section_start_line": 3889,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/cotangent/section-3889.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.0b76b09d28992bc062322217",
+        "candidate.stacks.fb9b90ec75baaae763cd47ac"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "4779c496edeca4ab41a7cebf45436f7544b58fca",
+        "phase3_review": "1c13fa6d3ee8efeaecf6b0f1ffcc2d66d380200e",
+        "phase2_proposal": "b41dccee1b9f402abfc200d8bf85bf0092bb9390"
+      }
+    },
+    {
+      "chapter": "cotangent",
+      "section_start_line": 4173,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/cotangent/section-4173.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.1f2b42f185b8d64136cae6d6",
+        "candidate.stacks.a49a814fe54f9603f40d4f18"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "735809085a5341713bfaf5da37726e060d4297bb",
+        "phase3_review": "8249e464ccba71682fe11aca12425e8c983bf2e1",
+        "phase2_proposal": "a7913a32cd774ac78868bf7ba03d07a8417db466"
+      }
+    }
+  ],
+  "complete_sections": true,
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "source_equivalence_status": "awaiting_central_registration",
+  "input_blob_hashes_verified": true
+}

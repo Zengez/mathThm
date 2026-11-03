@@ -1,0 +1,64 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b022",
+  "chapter": "examples-defos",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-resumption",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 5,
+  "approved_count": 5,
+  "held_count": 0,
+  "section_count": 3,
+  "candidate_ids": [
+    "candidate.stacks.b39c49a657e30dc6fccae2d4",
+    "candidate.stacks.f08d1e53306486687f12c468",
+    "candidate.stacks.fd57da4fc2ab6f2e53bd40e0",
+    "candidate.stacks.182d33350b93913eeaaaf71e",
+    "candidate.stacks.10b226c351b939c521817e44"
+  ],
+  "held_candidate_ids": [],
+  "decision_files": [
+    {
+      "chapter": "examples-defos",
+      "section_start_line": 1944,
+      "candidate_ids": [
+        "candidate.stacks.b39c49a657e30dc6fccae2d4",
+        "candidate.stacks.f08d1e53306486687f12c468"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/examples-defos/section-1944.jsonl",
+      "decision_blob_sha": "e0e7ae17cad73840e9c5c7bc13d4175b7fe2ba7d",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "examples-defos",
+      "section_start_line": 2467,
+      "candidate_ids": [
+        "candidate.stacks.fd57da4fc2ab6f2e53bd40e0"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/examples-defos/section-2467.jsonl",
+      "decision_blob_sha": "07fe421cf14dd89ff7f4caaea4b8f2972753db98",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "examples-defos",
+      "section_start_line": 2888,
+      "candidate_ids": [
+        "candidate.stacks.182d33350b93913eeaaaf71e",
+        "candidate.stacks.10b226c351b939c521817e44"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/examples-defos/section-2888.jsonl",
+      "decision_blob_sha": "5f674b49258bccea21691f395460cd6573d207db",
+      "approvals": 2,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "5789a3e567fb304c66c7070ec970bc98ba74233e",
+  "validation": "All five frozen mathematical formulations independently assessed against pinned examples-defos.tex, exact Stage B structured fields and immutable Stage A/B/Phase3/proposal blob hashes; three complete sections reviewed and approved without holds. No proof or authoritative registration asserted."
+}

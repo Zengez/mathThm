@@ -1,0 +1,162 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b008",
+  "chapter": "curves",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-independent-chat",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 28,
+  "approved_count": 27,
+  "held_count": 1,
+  "section_count": 8,
+  "candidate_ids": [
+    "candidate.stacks.0b142d4380c93ae77a920226",
+    "candidate.stacks.cccc22e41b7ed619e653df26",
+    "candidate.stacks.ba8a79bc348803f8d2babd5d",
+    "candidate.stacks.2d222bf5f86ffd98f1d00b0b",
+    "candidate.stacks.4866a304c3d5bb995015ba61",
+    "candidate.stacks.a58fba62de3147557bdcd06b",
+    "candidate.stacks.bfbf0968e2a8138b36952b04",
+    "candidate.stacks.66b9ce731ae2b653332e82c5",
+    "candidate.stacks.8083468e14aa95136214db93",
+    "candidate.stacks.4906fb4cb6f7afa4345c0210",
+    "candidate.stacks.361c0bfbe14ab0531c330ee7",
+    "candidate.stacks.4610bd0c0ca62d24516163d1",
+    "candidate.stacks.7ec3874f5c117e386c3dfff9",
+    "candidate.stacks.ddb264767cb040c16f254cbf",
+    "candidate.stacks.36806e93a6494ad0949aa9e1",
+    "candidate.stacks.44f9e7a1cf7e6e9a1bf4c725",
+    "candidate.stacks.a6b889254f7667ace4e54b2f",
+    "candidate.stacks.9a43f4c4f6a2c03b0fde9aa9",
+    "candidate.stacks.e9ae6e4be8f83a86a58c6164",
+    "candidate.stacks.88487d1ab2cc489be6c80114",
+    "candidate.stacks.ce802233767f77cafda93a93",
+    "candidate.stacks.2de77ced15773003a58fa788",
+    "candidate.stacks.898ad950ae194415a88f13aa",
+    "candidate.stacks.40f03bfbfb7117e27307b8b3",
+    "candidate.stacks.e3e808ee4bcc416aa8b25d9a",
+    "candidate.stacks.82ea156eeb1df804d42869ef",
+    "candidate.stacks.9c3093641a4550c53d442925",
+    "candidate.stacks.359c6f84d9861c2e99700685"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.a6b889254f7667ace4e54b2f"
+  ],
+  "decision_files": [
+    {
+      "chapter": "curves",
+      "section_start_line": 3184,
+      "candidate_ids": [
+        "candidate.stacks.0b142d4380c93ae77a920226"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-3184.jsonl",
+      "decision_blob_sha": "cc367715b4faeb30abbae1c399376bea9633a218",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 3377,
+      "candidate_ids": [
+        "candidate.stacks.cccc22e41b7ed619e653df26"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-3377.jsonl",
+      "decision_blob_sha": "ec13bc7884f28a3e80096148bae65d6b0a320d38",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 3572,
+      "candidate_ids": [
+        "candidate.stacks.ba8a79bc348803f8d2babd5d",
+        "candidate.stacks.2d222bf5f86ffd98f1d00b0b",
+        "candidate.stacks.4866a304c3d5bb995015ba61",
+        "candidate.stacks.a58fba62de3147557bdcd06b",
+        "candidate.stacks.bfbf0968e2a8138b36952b04"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-3572.jsonl",
+      "decision_blob_sha": "428240b28020149e87eeef9b6751fda61631f8aa",
+      "approvals": 5,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 3780,
+      "candidate_ids": [
+        "candidate.stacks.66b9ce731ae2b653332e82c5",
+        "candidate.stacks.8083468e14aa95136214db93",
+        "candidate.stacks.4906fb4cb6f7afa4345c0210",
+        "candidate.stacks.361c0bfbe14ab0531c330ee7",
+        "candidate.stacks.4610bd0c0ca62d24516163d1",
+        "candidate.stacks.7ec3874f5c117e386c3dfff9"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-3780.jsonl",
+      "decision_blob_sha": "3aeb265f787e00ab4bf0f54e28030d421be33375",
+      "approvals": 6,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 4647,
+      "candidate_ids": [
+        "candidate.stacks.ddb264767cb040c16f254cbf",
+        "candidate.stacks.36806e93a6494ad0949aa9e1",
+        "candidate.stacks.44f9e7a1cf7e6e9a1bf4c725",
+        "candidate.stacks.a6b889254f7667ace4e54b2f",
+        "candidate.stacks.9a43f4c4f6a2c03b0fde9aa9"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-4647.jsonl",
+      "decision_blob_sha": "d9d0d70057e34fcf62cc15f5014ab430d204227d",
+      "approvals": 4,
+      "holds": 1
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 5708,
+      "candidate_ids": [
+        "candidate.stacks.e9ae6e4be8f83a86a58c6164",
+        "candidate.stacks.88487d1ab2cc489be6c80114",
+        "candidate.stacks.ce802233767f77cafda93a93"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-5708.jsonl",
+      "decision_blob_sha": "91a4f6c0194a99bed28741c4dea0f87e6e093d53",
+      "approvals": 3,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 5975,
+      "candidate_ids": [
+        "candidate.stacks.2de77ced15773003a58fa788",
+        "candidate.stacks.898ad950ae194415a88f13aa",
+        "candidate.stacks.40f03bfbfb7117e27307b8b3",
+        "candidate.stacks.e3e808ee4bcc416aa8b25d9a",
+        "candidate.stacks.82ea156eeb1df804d42869ef"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-5975.jsonl",
+      "decision_blob_sha": "c386b882b97fba5e9caaae29c4db251959307a79",
+      "approvals": 5,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 6329,
+      "candidate_ids": [
+        "candidate.stacks.9c3093641a4550c53d442925",
+        "candidate.stacks.359c6f84d9861c2e99700685"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-6329.jsonl",
+      "decision_blob_sha": "f3df32d34dbfb25672f321da0d71e425e040cf1a",
+      "approvals": 2,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "01065e2607e89e7b01be98a580c7ac4b95657387",
+  "validation": "Every pinned candidate has one source-first decision in a complete section, with reviewed content and source/metadata checked; one candidate held for unbound directed-system index set I."
+}

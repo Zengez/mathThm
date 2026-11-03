@@ -1,0 +1,129 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 1,
+  "branch": "work/phase2-final/chat-1",
+  "batch_id": "p2f-w1-b014",
+  "chapter": "examples",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-1-2026-11-03-continuation-b",
+  "completed_on": "2026-11-03",
+  "candidate_count": 11,
+  "approved_count": 11,
+  "held_count": 0,
+  "complete_section_count": 6,
+  "candidate_ids": [
+    "candidate.stacks.9f638c9758cd32c5f00ee27f",
+    "candidate.stacks.e97ed2015c79fc36647acfa2",
+    "candidate.stacks.76e63aa59d65c478afd4d705",
+    "candidate.stacks.017917f95467eee57e01633a",
+    "candidate.stacks.cb362aa626b4737acc3394e8",
+    "candidate.stacks.50d6ce608f2f1ec48962da64",
+    "candidate.stacks.538dc69a57410706e0b15b4f",
+    "candidate.stacks.9a61eec482340ca2776c418e",
+    "candidate.stacks.be3dfeeb3b0a6b27c7dc8d1b",
+    "candidate.stacks.c2c6cd3146074039bc8b6c18",
+    "candidate.stacks.4c694e7cea999606f0413ecf"
+  ],
+  "sections": [
+    {
+      "chapter": "examples",
+      "section_start_line": 735,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-735.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.9f638c9758cd32c5f00ee27f",
+        "candidate.stacks.e97ed2015c79fc36647acfa2",
+        "candidate.stacks.76e63aa59d65c478afd4d705"
+      ],
+      "approved_count": 3,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "d4599961ccf4d0265efffc5feb3f9798b810087f",
+        "phase3_review": "47b95a6b66e5adf33c723667c5eb1cc34dc58161",
+        "phase2_proposal": "df8b1bf3652efc2544d9aa6004db63706bd5946c"
+      }
+    },
+    {
+      "chapter": "examples",
+      "section_start_line": 2437,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-2437.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.017917f95467eee57e01633a",
+        "candidate.stacks.cb362aa626b4737acc3394e8"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "8d1a9b6bc3f4662cd014744838a4b5a4a2bed4d3",
+        "phase3_review": "6cefe7684f17a8e84d1eb7a73d236fad22c92919",
+        "phase2_proposal": "45a1d53b89d45dc83a15ae2c4e5a31f4272113bc"
+      }
+    },
+    {
+      "chapter": "examples",
+      "section_start_line": 3200,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-3200.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.50d6ce608f2f1ec48962da64",
+        "candidate.stacks.538dc69a57410706e0b15b4f"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "d561cd397a91ca17c43b1e0900d8c867eb8da953",
+        "phase3_review": "a024a73e8c4ba4748c9972b78d1d9a7d972c20e9",
+        "phase2_proposal": "d487e0c705ff21423740b9aa817ff0bdc41ce9e4"
+      }
+    },
+    {
+      "chapter": "examples",
+      "section_start_line": 5934,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-5934.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.9a61eec482340ca2776c418e"
+      ],
+      "approved_count": 1,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "c4cb4bbbd5fb1687f2cf23f06e68145ef91090ba",
+        "phase3_review": "97ba4a65387e1d9f90f230e9bc5d8ab5f7323dc2",
+        "phase2_proposal": "50828226ee44c86130285558c4f397c83471b6a3"
+      }
+    },
+    {
+      "chapter": "examples",
+      "section_start_line": 6551,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-6551.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.be3dfeeb3b0a6b27c7dc8d1b",
+        "candidate.stacks.c2c6cd3146074039bc8b6c18"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "0c021803d205cebda74593f30f20b4eded550c31",
+        "phase3_review": "351345a17ceb60fefc5dea80307ef7ac88ef9ccc",
+        "phase2_proposal": "f1ba00fed5adf66a9816b33347cb8d7e1c83ee46"
+      }
+    },
+    {
+      "chapter": "examples",
+      "section_start_line": 6791,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/examples/section-6791.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.4c694e7cea999606f0413ecf"
+      ],
+      "approved_count": 1,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "b0b0f9e9300312c232a990968f78e8bd10dcffca",
+        "phase3_review": "a0c8ba71c8694be86ad6bd0898568a420ac79128",
+        "phase2_proposal": "2dd31c517e8a5f6c89627e203298ae31a262a153"
+      }
+    }
+  ],
+  "complete_sections": true,
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "source_equivalence_status": "awaiting_central_registration",
+  "input_blob_hashes_verified": true
+}

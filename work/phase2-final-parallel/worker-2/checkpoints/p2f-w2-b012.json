@@ -1,0 +1,180 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b012",
+  "chapter": "dualizing",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-independent-continuation",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 22,
+  "approved_count": 21,
+  "held_count": 1,
+  "section_count": 11,
+  "candidate_ids": [
+    "candidate.stacks.30efa65405c48cdf29ea991e",
+    "candidate.stacks.f98909c0d778bb8d99b308c1",
+    "candidate.stacks.914c495ffb8efa3ddc133c47",
+    "candidate.stacks.a34b706af09642789d651161",
+    "candidate.stacks.089527b662a82e7e8c46f796",
+    "candidate.stacks.2e0987807cf1968fc68b6f94",
+    "candidate.stacks.39291b26e214a4e1226488f3",
+    "candidate.stacks.712792d7fc98b819ff41e17b",
+    "candidate.stacks.58a12568edd25bef5ad1cfc8",
+    "candidate.stacks.e17e99bea0b34ddfdb822e98",
+    "candidate.stacks.46c8b041ee3f9e736bb88d46",
+    "candidate.stacks.5217debe885c06107a32f953",
+    "candidate.stacks.80256e331210bcd3f50100f6",
+    "candidate.stacks.1cd8c13965f7d462d93f7e9d",
+    "candidate.stacks.7942678b61d42281197e6dea",
+    "candidate.stacks.f74e8d2939be262d69473e08",
+    "candidate.stacks.a92bc03d5edafdf458b5c9f0",
+    "candidate.stacks.de97c20c0a36ddf10a1f7f16",
+    "candidate.stacks.f991565ea70300d3b5a638c2",
+    "candidate.stacks.74d5bc15ce56719fb0d285b8",
+    "candidate.stacks.29f15d8a150c26ef3d2fec01",
+    "candidate.stacks.579b1b85aa68ae1f6a0abc92"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.80256e331210bcd3f50100f6"
+  ],
+  "decision_files": [
+    {
+      "chapter": "dualizing",
+      "section_start_line": 1219,
+      "candidate_ids": [
+        "candidate.stacks.30efa65405c48cdf29ea991e",
+        "candidate.stacks.f98909c0d778bb8d99b308c1"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-1219.jsonl",
+      "decision_blob_sha": "7e2b6bfd19ab9ada43da9a7ec87593a88492760e",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "dualizing",
+      "section_start_line": 1696,
+      "candidate_ids": [
+        "candidate.stacks.914c495ffb8efa3ddc133c47"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-1696.jsonl",
+      "decision_blob_sha": "397fdb59e3ec9563b4e5a978670fa381c39f0c4e",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "dualizing",
+      "section_start_line": 1936,
+      "candidate_ids": [
+        "candidate.stacks.a34b706af09642789d651161"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-1936.jsonl",
+      "decision_blob_sha": "695d8882d43b22e9509d117b818863f043b028bb",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "dualizing",
+      "section_start_line": 2198,
+      "candidate_ids": [
+        "candidate.stacks.089527b662a82e7e8c46f796",
+        "candidate.stacks.2e0987807cf1968fc68b6f94"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-2198.jsonl",
+      "decision_blob_sha": "7a634bb8b2b15b4d37df7781bd2dfc5e6d965711",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "dualizing",
+      "section_start_line": 2550,
+      "candidate_ids": [
+        "candidate.stacks.39291b26e214a4e1226488f3",
+        "candidate.stacks.712792d7fc98b819ff41e17b",
+        "candidate.stacks.58a12568edd25bef5ad1cfc8",
+        "candidate.stacks.e17e99bea0b34ddfdb822e98",
+        "candidate.stacks.46c8b041ee3f9e736bb88d46"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-2550.jsonl",
+      "decision_blob_sha": "c1517cb8581387a3656f2b6afb5efc2e16de58fc",
+      "approvals": 5,
+      "holds": 0
+    },
+    {
+      "chapter": "dualizing",
+      "section_start_line": 2905,
+      "candidate_ids": [
+        "candidate.stacks.5217debe885c06107a32f953",
+        "candidate.stacks.80256e331210bcd3f50100f6"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-2905.jsonl",
+      "decision_blob_sha": "98a4b06716d30debcc3851e399c62f4d380794c2",
+      "approvals": 1,
+      "holds": 1
+    },
+    {
+      "chapter": "dualizing",
+      "section_start_line": 3223,
+      "candidate_ids": [
+        "candidate.stacks.1cd8c13965f7d462d93f7e9d",
+        "candidate.stacks.7942678b61d42281197e6dea"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-3223.jsonl",
+      "decision_blob_sha": "4abc238848a3c440439356957846add18b7aa51b",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "dualizing",
+      "section_start_line": 3584,
+      "candidate_ids": [
+        "candidate.stacks.f74e8d2939be262d69473e08"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-3584.jsonl",
+      "decision_blob_sha": "27075c9ca6cd13edaf0902c8a8f3926143b9764d",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "dualizing",
+      "section_start_line": 3706,
+      "candidate_ids": [
+        "candidate.stacks.a92bc03d5edafdf458b5c9f0"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-3706.jsonl",
+      "decision_blob_sha": "87c26b26452873de05fc405cc8fc6337c86e333a",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "dualizing",
+      "section_start_line": 4031,
+      "candidate_ids": [
+        "candidate.stacks.de97c20c0a36ddf10a1f7f16"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-4031.jsonl",
+      "decision_blob_sha": "7a578e74737c702de1f367166e279cf09a9cdec7",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "dualizing",
+      "section_start_line": 4318,
+      "candidate_ids": [
+        "candidate.stacks.f991565ea70300d3b5a638c2",
+        "candidate.stacks.74d5bc15ce56719fb0d285b8",
+        "candidate.stacks.29f15d8a150c26ef3d2fec01",
+        "candidate.stacks.579b1b85aa68ae1f6a0abc92"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/dualizing/section-4318.jsonl",
+      "decision_blob_sha": "186dfef82216d5e5fac3859fefaca6f20f6141b3",
+      "approvals": 4,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "8aa3e814592291620979e2a06ada216faeaf9ab3",
+  "validation": "All 22 frozen IDs in 11 entire Dualizing sections received source-first verdicts; pinned dualizing.tex source exact, Stage B formulation equality, frozen Stage B/Phase3/proposal hashes and independent mathematical notes checked. Zero-module scope discrepancy held. Final approval is not authoritative registration."
+}

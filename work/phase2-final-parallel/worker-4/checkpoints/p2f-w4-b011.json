@@ -1,0 +1,217 @@
+{
+  "schema": "maththm.phase2-final.worker-batch-checkpoint.v1",
+  "worker": 4,
+  "branch": "work/phase2-final/chat-4",
+  "reviewer": "chatgpt-final-phase2-worker-4-2026-11-03-continuation",
+  "batch_id": "p2f-w4-b011",
+  "chapter": "cohomology",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "completed_sections": 8,
+  "completed_candidate_count": 36,
+  "approved_count": 36,
+  "held_count": 0,
+  "candidate_ids": [
+    "candidate.stacks.b1af08cca063fd51ff1f2781",
+    "candidate.stacks.d3bf4f12e6c677fc115c45f6",
+    "candidate.stacks.7d4970510a85d910f6b5ee7a",
+    "candidate.stacks.53c3c4417e97843a5489873e",
+    "candidate.stacks.3c1e9ed9e9a2e75aa7554c33",
+    "candidate.stacks.3d3a4e286065f7d4cd85ca3f",
+    "candidate.stacks.56c8ff11299790d878550131",
+    "candidate.stacks.295eb7d4502ce6dfa53f554f",
+    "candidate.stacks.50e7ad26221bc7752d34994a",
+    "candidate.stacks.17f6bb5a7d280865bcef8686",
+    "candidate.stacks.905d35812a5d54861c333b08",
+    "candidate.stacks.a7d8eba24b0980c058040fb2",
+    "candidate.stacks.4c4247768358a1d9abd32931",
+    "candidate.stacks.ef51d23a96a3079c4433782e",
+    "candidate.stacks.e9ffc4053943a6bdcaafc735",
+    "candidate.stacks.bee094126ddc6b912dfe9c2c",
+    "candidate.stacks.a3431eba3609f5664c045bd6",
+    "candidate.stacks.c706cbbf98b704c51f88391b",
+    "candidate.stacks.24f2b150d7786418d57653f1",
+    "candidate.stacks.48bd1bb6ac0f9743356aa40e",
+    "candidate.stacks.bf7f4aef97a7a6e8ab415d32",
+    "candidate.stacks.f9be4f65c2693f45fc0bb838",
+    "candidate.stacks.b676097d59e271c9e7c437b0",
+    "candidate.stacks.078683f09061318e270c7dcf",
+    "candidate.stacks.99773eca7bf6e9905dc2f082",
+    "candidate.stacks.bcaba9cd3ac7dac4f578f917",
+    "candidate.stacks.942a4fcf76a85bbd52cecafe",
+    "candidate.stacks.5e147fa02dbddff53d15bcfb",
+    "candidate.stacks.8302e7fd6dbab2793acf0fa6",
+    "candidate.stacks.72aa7b2ecb373e3ffcdf4157",
+    "candidate.stacks.25c9bb7b75427d5ab06a3255",
+    "candidate.stacks.c638ca1c418d633fe982948f",
+    "candidate.stacks.7d2b35fd6ab2c5516bfbe917",
+    "candidate.stacks.178c7c71a025772f5237c075",
+    "candidate.stacks.a659c30f9f852ea0e39eabb0",
+    "candidate.stacks.e860b21169de6a26fce1926b"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.b1af08cca063fd51ff1f2781",
+    "candidate.stacks.d3bf4f12e6c677fc115c45f6",
+    "candidate.stacks.7d4970510a85d910f6b5ee7a",
+    "candidate.stacks.53c3c4417e97843a5489873e",
+    "candidate.stacks.3c1e9ed9e9a2e75aa7554c33",
+    "candidate.stacks.3d3a4e286065f7d4cd85ca3f",
+    "candidate.stacks.56c8ff11299790d878550131",
+    "candidate.stacks.295eb7d4502ce6dfa53f554f",
+    "candidate.stacks.50e7ad26221bc7752d34994a",
+    "candidate.stacks.17f6bb5a7d280865bcef8686",
+    "candidate.stacks.905d35812a5d54861c333b08",
+    "candidate.stacks.a7d8eba24b0980c058040fb2",
+    "candidate.stacks.4c4247768358a1d9abd32931",
+    "candidate.stacks.ef51d23a96a3079c4433782e",
+    "candidate.stacks.e9ffc4053943a6bdcaafc735",
+    "candidate.stacks.bee094126ddc6b912dfe9c2c",
+    "candidate.stacks.a3431eba3609f5664c045bd6",
+    "candidate.stacks.c706cbbf98b704c51f88391b",
+    "candidate.stacks.24f2b150d7786418d57653f1",
+    "candidate.stacks.48bd1bb6ac0f9743356aa40e",
+    "candidate.stacks.bf7f4aef97a7a6e8ab415d32",
+    "candidate.stacks.f9be4f65c2693f45fc0bb838",
+    "candidate.stacks.b676097d59e271c9e7c437b0",
+    "candidate.stacks.078683f09061318e270c7dcf",
+    "candidate.stacks.99773eca7bf6e9905dc2f082",
+    "candidate.stacks.bcaba9cd3ac7dac4f578f917",
+    "candidate.stacks.942a4fcf76a85bbd52cecafe",
+    "candidate.stacks.5e147fa02dbddff53d15bcfb",
+    "candidate.stacks.8302e7fd6dbab2793acf0fa6",
+    "candidate.stacks.72aa7b2ecb373e3ffcdf4157",
+    "candidate.stacks.25c9bb7b75427d5ab06a3255",
+    "candidate.stacks.c638ca1c418d633fe982948f",
+    "candidate.stacks.7d2b35fd6ab2c5516bfbe917",
+    "candidate.stacks.178c7c71a025772f5237c075",
+    "candidate.stacks.a659c30f9f852ea0e39eabb0",
+    "candidate.stacks.e860b21169de6a26fce1926b"
+  ],
+  "held_candidate_ids": [],
+  "sections": [
+    {
+      "chapter": "cohomology",
+      "section_start_line": 8077,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/cohomology/section-8077.jsonl",
+      "decision_blob_sha": "b3078a79f7512696a61438900db237c704a12d74",
+      "candidate_ids": [
+        "candidate.stacks.b1af08cca063fd51ff1f2781",
+        "candidate.stacks.d3bf4f12e6c677fc115c45f6",
+        "candidate.stacks.7d4970510a85d910f6b5ee7a",
+        "candidate.stacks.53c3c4417e97843a5489873e",
+        "candidate.stacks.3c1e9ed9e9a2e75aa7554c33"
+      ],
+      "approved_count": 5,
+      "held_count": 0
+    },
+    {
+      "chapter": "cohomology",
+      "section_start_line": 8444,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/cohomology/section-8444.jsonl",
+      "decision_blob_sha": "4f9d7fe23f17fd3f6785e18be0c2d076b64527df",
+      "candidate_ids": [
+        "candidate.stacks.3d3a4e286065f7d4cd85ca3f",
+        "candidate.stacks.56c8ff11299790d878550131",
+        "candidate.stacks.295eb7d4502ce6dfa53f554f",
+        "candidate.stacks.50e7ad26221bc7752d34994a",
+        "candidate.stacks.17f6bb5a7d280865bcef8686",
+        "candidate.stacks.905d35812a5d54861c333b08",
+        "candidate.stacks.a7d8eba24b0980c058040fb2"
+      ],
+      "approved_count": 7,
+      "held_count": 0
+    },
+    {
+      "chapter": "cohomology",
+      "section_start_line": 8923,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/cohomology/section-8923.jsonl",
+      "decision_blob_sha": "efad2acf2e32621239a1de8af27581d9deef91e4",
+      "candidate_ids": [
+        "candidate.stacks.4c4247768358a1d9abd32931",
+        "candidate.stacks.ef51d23a96a3079c4433782e"
+      ],
+      "approved_count": 2,
+      "held_count": 0
+    },
+    {
+      "chapter": "cohomology",
+      "section_start_line": 9444,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/cohomology/section-9444.jsonl",
+      "decision_blob_sha": "c2f94653df53b0152b982ceacdb253407281e54e",
+      "candidate_ids": [
+        "candidate.stacks.e9ffc4053943a6bdcaafc735",
+        "candidate.stacks.bee094126ddc6b912dfe9c2c",
+        "candidate.stacks.a3431eba3609f5664c045bd6",
+        "candidate.stacks.c706cbbf98b704c51f88391b",
+        "candidate.stacks.24f2b150d7786418d57653f1",
+        "candidate.stacks.48bd1bb6ac0f9743356aa40e",
+        "candidate.stacks.bf7f4aef97a7a6e8ab415d32",
+        "candidate.stacks.f9be4f65c2693f45fc0bb838",
+        "candidate.stacks.b676097d59e271c9e7c437b0",
+        "candidate.stacks.078683f09061318e270c7dcf"
+      ],
+      "approved_count": 10,
+      "held_count": 0
+    },
+    {
+      "chapter": "cohomology",
+      "section_start_line": 9833,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/cohomology/section-9833.jsonl",
+      "decision_blob_sha": "7c2435cde6d1814436e4f1fb6ea14bbadad26a3f",
+      "candidate_ids": [
+        "candidate.stacks.99773eca7bf6e9905dc2f082"
+      ],
+      "approved_count": 1,
+      "held_count": 0
+    },
+    {
+      "chapter": "cohomology",
+      "section_start_line": 10291,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/cohomology/section-10291.jsonl",
+      "decision_blob_sha": "0212a1750d428e8eda105d94b642cf69889f7a8b",
+      "candidate_ids": [
+        "candidate.stacks.bcaba9cd3ac7dac4f578f917",
+        "candidate.stacks.942a4fcf76a85bbd52cecafe",
+        "candidate.stacks.5e147fa02dbddff53d15bcfb"
+      ],
+      "approved_count": 3,
+      "held_count": 0
+    },
+    {
+      "chapter": "cohomology",
+      "section_start_line": 10542,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/cohomology/section-10542.jsonl",
+      "decision_blob_sha": "674da0dd74ff4e2a4ebe7982f5d1fabde5a3b610",
+      "candidate_ids": [
+        "candidate.stacks.8302e7fd6dbab2793acf0fa6",
+        "candidate.stacks.72aa7b2ecb373e3ffcdf4157",
+        "candidate.stacks.25c9bb7b75427d5ab06a3255",
+        "candidate.stacks.c638ca1c418d633fe982948f",
+        "candidate.stacks.7d2b35fd6ab2c5516bfbe917"
+      ],
+      "approved_count": 5,
+      "held_count": 0
+    },
+    {
+      "chapter": "cohomology",
+      "section_start_line": 11060,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/cohomology/section-11060.jsonl",
+      "decision_blob_sha": "5d23369de8c6dac0765489c3d58befbf468068cb",
+      "candidate_ids": [
+        "candidate.stacks.178c7c71a025772f5237c075",
+        "candidate.stacks.a659c30f9f852ea0e39eabb0",
+        "candidate.stacks.e860b21169de6a26fce1926b"
+      ],
+      "approved_count": 3,
+      "held_count": 0
+    }
+  ],
+  "validation": {
+    "all_frozen_ids_in_order": true,
+    "whole_sections_complete": true,
+    "decision_records_evidence_checked": true,
+    "source_first_review_recorded": true,
+    "phase3_proofs_not_reviewed": true,
+    "approval_digests_computed_from_exact_final_fields": true
+  },
+  "status": "completed"
+}
