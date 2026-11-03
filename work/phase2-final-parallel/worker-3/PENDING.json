@@ -11,41 +11,6 @@
   "initial_batches": 30,
   "pending": [
     {
-      "batch_id": "p2f-w3-b008",
-      "chapter": "formal-defos",
-      "candidate_count": 3,
-      "sections": [
-        {
-          "chapter": "formal-defos",
-          "section_start_line": 3109,
-          "stage_b_file": "work/stageb-parallel/worker-3/results/formal-defos/section-3109.jsonl",
-          "stage_b_blob_sha": "a7cc36791a73036b3fda429973a2af0728ffcb20",
-          "phase3_review_file": "work/phase3-parallel/worker-3/proof_reviews/formal-defos/section-3109.jsonl",
-          "phase3_review_blob_sha": "c4dc40e745b1b81a1e4d902a1643ce56359e48b4",
-          "phase2_proposal_file": "work/phase3-parallel/worker-3/phase2_proposals/formal-defos/section-3109.jsonl",
-          "phase2_proposal_blob_sha": "1d86907008bb6a080ff7efd1c6031afc0f219301",
-          "candidate_ids": [
-            "candidate.stacks.90a0a7625eac4b2269282d47"
-          ]
-        },
-        {
-          "chapter": "formal-defos",
-          "section_start_line": 5925,
-          "stage_b_file": "work/stageb-parallel/worker-3/results/formal-defos/section-5925.jsonl",
-          "stage_b_blob_sha": "2314aa4362cda1398dc6923501d677094163425b",
-          "phase3_review_file": "work/phase3-parallel/worker-3/proof_reviews/formal-defos/section-5925.jsonl",
-          "phase3_review_blob_sha": "db61ff039b8e9a85fc105c5d52760e889e58dfa9",
-          "phase2_proposal_file": "work/phase3-parallel/worker-3/phase2_proposals/formal-defos/section-5925.jsonl",
-          "phase2_proposal_blob_sha": "1c27e0e6fca7d45a4d195e70d24ef7db4af5bc7f",
-          "candidate_ids": [
-            "candidate.stacks.d431a3535b474963304e761d",
-            "candidate.stacks.d5c9f92910a846a71562fc74"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w3-b009",
       "chapter": "formal-spaces",
       "candidate_count": 29,

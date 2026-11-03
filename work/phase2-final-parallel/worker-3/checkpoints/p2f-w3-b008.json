@@ -1,0 +1,53 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 3,
+  "branch": "work/phase2-final/chat-3",
+  "batch_id": "p2f-w3-b008",
+  "chapter": "formal-defos",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "chatgpt-gpt6-final-phase2-worker-3-continuation-2026-11-03",
+  "status": "complete_pending_central_registration",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "candidate_ids": [
+    "candidate.stacks.90a0a7625eac4b2269282d47",
+    "candidate.stacks.d431a3535b474963304e761d",
+    "candidate.stacks.d5c9f92910a846a71562fc74"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.90a0a7625eac4b2269282d47"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.d431a3535b474963304e761d",
+    "candidate.stacks.d5c9f92910a846a71562fc74"
+  ],
+  "candidate_count": 3,
+  "approved_count": 1,
+  "held_count": 2,
+  "section_count": 2,
+  "sections": [
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/formal-defos/section-3109.jsonl",
+      "source_section_start_line": 3109,
+      "candidate_ids": [
+        "candidate.stacks.90a0a7625eac4b2269282d47"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/formal-defos/section-5925.jsonl",
+      "source_section_start_line": 5925,
+      "candidate_ids": [
+        "candidate.stacks.d431a3535b474963304e761d",
+        "candidate.stacks.d5c9f92910a846a71562fc74"
+      ],
+      "approvals": 0,
+      "holds": 2
+    }
+  ],
+  "immutable_input_sha_check": "pass",
+  "exact_id_order_check": "pass",
+  "pinned_source_context_check": "pass",
+  "stage_a_and_stage_b_reviewer_chain_checked": "pass"
+}
