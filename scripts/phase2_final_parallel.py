@@ -104,9 +104,11 @@ def frozen_inventory():
                     if proposal_hash is not None and proposal_hash != sha:
                         failure(f"mismatched proposal input hash: {cid}")
                     for key in CONTENT:
-                        if proof.get("stage_b_reviewed_content", {}).get(key) != r.get(key):
+                        proof_content = proof.get("stage_b_reviewed_content") or {}
+                        proposal_content = proposal.get("stage_b_reviewed_content") or proposal.get("reviewed_content") or {}
+                        if key in proof_content and proof_content[key] != r.get(key):
                             failure(f"reviewed content differs in proof: {cid} / {key}")
-                        if proposal.get("stage_b_reviewed_content", {}).get(key) != r.get(key):
+                        if key in proposal_content and proposal_content[key] != r.get(key):
                             failure(f"reviewed content differs in proposal: {cid} / {key}")
                     if proposal.get("source_identity", {}).get("original_source_statement_tex") != r.get("original_source_statement_tex"):
                         failure(f"original source text differs: {cid}")
