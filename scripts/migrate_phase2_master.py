@@ -164,7 +164,7 @@ def canonical(cid, row, *, origin, worker=None, batch_id=None, section=None,
         flags.append("phase3_not_plausible")
     if origin == "final_worker" and not phase3:
         flags.append("missing_phase3_proof_screen")
-    if phase3 and phase3.get("stage_b_reviewed_content_sha256_unregistered") not in (None, approved_hash):
+    if approved and phase3 and phase3.get("stage_b_reviewed_content_sha256_unregistered") not in (None, approved_hash):
         flags.append("phase3_reviewed_content_digest_mismatch")
     source_url = row.get("source_url")
     if not source_url and source_file and isinstance(source_line, int):
@@ -385,6 +385,17 @@ def migrate():
         for issue in rec["audit"]["migration_flags"]:
             problems.append({"candidate_id": rec["candidate_id"], "issue": issue})
     problems.extend(reports)
+    lookup = {r["candidate_id"]: r for r in output}
+    by_origin = Counter()
+    by_worker = Counter()
+    by_decision = Counter()
+    for issue in problems:
+        record = lookup.get(issue["candidate_id"])
+        if record is None:
+            continue
+        by_origin[(issue["issue"], record["provenance"]["origin"])] += 1
+        by_worker[(issue["issue"], str(record["provenance"]["worker"]))] += 1
+        by_decision[(issue["issue"], record["phase2"]["decision"])] += 1
     return output, {
         "schema": "maththm.master-migration-report.v1",
         "source_revision": SOURCE_REV,
@@ -398,6 +409,18 @@ def migrate():
         "phase2_decisions": dict(Counter(r["phase2"]["decision"] for r in output)),
         "migration_issues": problems,
         "migration_issue_types": dict(Counter(i["issue"] for i in problems)),
+        "migration_issues_by_origin": [
+            {"issue": issue, "origin": origin, "count": count}
+            for (issue, origin), count in sorted(by_origin.items())
+        ],
+        "migration_issues_by_worker": [
+            {"issue": issue, "worker": worker, "count": count}
+            for (issue, worker), count in sorted(by_worker.items())
+        ],
+        "migration_issues_by_decision": [
+            {"issue": issue, "decision": decision, "count": count}
+            for (issue, decision), count in sorted(by_decision.items())
+        ],
         "registration_changed": False,
         "published_catalog_changed": False,
         "old_decision_files_retained_pending_audit": True,
