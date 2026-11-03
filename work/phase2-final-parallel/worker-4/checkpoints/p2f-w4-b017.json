@@ -1,0 +1,234 @@
+{
+  "schema": "maththm.phase2-final.worker-batch-checkpoint.v1",
+  "worker": 4,
+  "branch": "work/phase2-final/chat-4",
+  "reviewer": "chatgpt-final-phase2-worker-4-2026-11-03-continuation",
+  "batch_id": "p2f-w4-b017",
+  "chapter": "more-algebra",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "completed_sections": 10,
+  "completed_candidate_count": 35,
+  "approved_count": 35,
+  "held_count": 0,
+  "candidate_ids": [
+    "candidate.stacks.904b90423a2188197d70ba22",
+    "candidate.stacks.9147b2e5f8979a9d291e709b",
+    "candidate.stacks.5a4c1ae526e46107a54020df",
+    "candidate.stacks.769cfada61871d2cfe8a12ce",
+    "candidate.stacks.076a588fc5640eeea5865610",
+    "candidate.stacks.fde801acf254b715b3035124",
+    "candidate.stacks.ae05b214dc24719a2905cf25",
+    "candidate.stacks.100deb4d584560048e2f1c9c",
+    "candidate.stacks.b3e44718f4983e656a9d6a72",
+    "candidate.stacks.17a6c49c5b5712e5e60aee39",
+    "candidate.stacks.4b3eff38ecd6415c7bd4cf93",
+    "candidate.stacks.363e304ca2fc706548ee3bd2",
+    "candidate.stacks.ebdfa9dc6db4bebb0d02d535",
+    "candidate.stacks.45d0a3097fc26b5961207db5",
+    "candidate.stacks.01963516b153a1d39cc03f6c",
+    "candidate.stacks.b8b7d54ae87366605c4f0179",
+    "candidate.stacks.1cd76cee98534bf2dd9f50ec",
+    "candidate.stacks.e5100cd3302afa539119aae4",
+    "candidate.stacks.9c125dadd135ab69a341ab5d",
+    "candidate.stacks.c485419b3fde32bbb0efae80",
+    "candidate.stacks.290833a7dca324645f747d73",
+    "candidate.stacks.d6e23f4c955e59c3b4a03d63",
+    "candidate.stacks.cda59a6ea6e27616d351bd3e",
+    "candidate.stacks.e0cd328d5eb4371a5ef9af4c",
+    "candidate.stacks.79b7db2b28ec8b1fbf4ba8b2",
+    "candidate.stacks.6383245ed64ef82caec5a66f",
+    "candidate.stacks.07b14d423fd4ba490f7321ac",
+    "candidate.stacks.8ec2c8ca298ba1549ed3dd91",
+    "candidate.stacks.2ac6757d19c70d5a3dcd07c5",
+    "candidate.stacks.b42617047022048746e17381",
+    "candidate.stacks.2122afd770252743fcfcf950",
+    "candidate.stacks.1e4948e80c99f3b422dfc59b",
+    "candidate.stacks.3a6adfd3a674339bfdbf5fc6",
+    "candidate.stacks.68ba356a69a7704dd7a9a41c",
+    "candidate.stacks.51089c4f99c6697079eb1b02"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.904b90423a2188197d70ba22",
+    "candidate.stacks.9147b2e5f8979a9d291e709b",
+    "candidate.stacks.5a4c1ae526e46107a54020df",
+    "candidate.stacks.769cfada61871d2cfe8a12ce",
+    "candidate.stacks.076a588fc5640eeea5865610",
+    "candidate.stacks.fde801acf254b715b3035124",
+    "candidate.stacks.ae05b214dc24719a2905cf25",
+    "candidate.stacks.100deb4d584560048e2f1c9c",
+    "candidate.stacks.b3e44718f4983e656a9d6a72",
+    "candidate.stacks.17a6c49c5b5712e5e60aee39",
+    "candidate.stacks.4b3eff38ecd6415c7bd4cf93",
+    "candidate.stacks.363e304ca2fc706548ee3bd2",
+    "candidate.stacks.ebdfa9dc6db4bebb0d02d535",
+    "candidate.stacks.45d0a3097fc26b5961207db5",
+    "candidate.stacks.01963516b153a1d39cc03f6c",
+    "candidate.stacks.b8b7d54ae87366605c4f0179",
+    "candidate.stacks.1cd76cee98534bf2dd9f50ec",
+    "candidate.stacks.e5100cd3302afa539119aae4",
+    "candidate.stacks.9c125dadd135ab69a341ab5d",
+    "candidate.stacks.c485419b3fde32bbb0efae80",
+    "candidate.stacks.290833a7dca324645f747d73",
+    "candidate.stacks.d6e23f4c955e59c3b4a03d63",
+    "candidate.stacks.cda59a6ea6e27616d351bd3e",
+    "candidate.stacks.e0cd328d5eb4371a5ef9af4c",
+    "candidate.stacks.79b7db2b28ec8b1fbf4ba8b2",
+    "candidate.stacks.6383245ed64ef82caec5a66f",
+    "candidate.stacks.07b14d423fd4ba490f7321ac",
+    "candidate.stacks.8ec2c8ca298ba1549ed3dd91",
+    "candidate.stacks.2ac6757d19c70d5a3dcd07c5",
+    "candidate.stacks.b42617047022048746e17381",
+    "candidate.stacks.2122afd770252743fcfcf950",
+    "candidate.stacks.1e4948e80c99f3b422dfc59b",
+    "candidate.stacks.3a6adfd3a674339bfdbf5fc6",
+    "candidate.stacks.68ba356a69a7704dd7a9a41c",
+    "candidate.stacks.51089c4f99c6697079eb1b02"
+  ],
+  "held_candidate_ids": [],
+  "sections": [
+    {
+      "chapter": "more-algebra",
+      "section_start_line": 2380,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-2380.jsonl",
+      "decision_blob_sha": "3ac965dde9fafaff95d9b1428104919d40c1854e",
+      "candidate_ids": [
+        "candidate.stacks.904b90423a2188197d70ba22",
+        "candidate.stacks.9147b2e5f8979a9d291e709b",
+        "candidate.stacks.5a4c1ae526e46107a54020df",
+        "candidate.stacks.769cfada61871d2cfe8a12ce",
+        "candidate.stacks.076a588fc5640eeea5865610",
+        "candidate.stacks.fde801acf254b715b3035124",
+        "candidate.stacks.ae05b214dc24719a2905cf25",
+        "candidate.stacks.100deb4d584560048e2f1c9c",
+        "candidate.stacks.b3e44718f4983e656a9d6a72",
+        "candidate.stacks.17a6c49c5b5712e5e60aee39"
+      ],
+      "approved_count": 10,
+      "held_count": 0
+    },
+    {
+      "chapter": "more-algebra",
+      "section_start_line": 2972,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-2972.jsonl",
+      "decision_blob_sha": "2e0ac120eefdfc3d322e239cca8123a7ca90157a",
+      "candidate_ids": [
+        "candidate.stacks.4b3eff38ecd6415c7bd4cf93",
+        "candidate.stacks.363e304ca2fc706548ee3bd2",
+        "candidate.stacks.ebdfa9dc6db4bebb0d02d535",
+        "candidate.stacks.45d0a3097fc26b5961207db5"
+      ],
+      "approved_count": 4,
+      "held_count": 0
+    },
+    {
+      "chapter": "more-algebra",
+      "section_start_line": 3340,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-3340.jsonl",
+      "decision_blob_sha": "d4a096b21d4f1d75ecd617af22442407748a6a3b",
+      "candidate_ids": [
+        "candidate.stacks.01963516b153a1d39cc03f6c",
+        "candidate.stacks.b8b7d54ae87366605c4f0179",
+        "candidate.stacks.1cd76cee98534bf2dd9f50ec"
+      ],
+      "approved_count": 3,
+      "held_count": 0
+    },
+    {
+      "chapter": "more-algebra",
+      "section_start_line": 3680,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-3680.jsonl",
+      "decision_blob_sha": "ce9892b081f2de8975db9acee200a6355c056b46",
+      "candidate_ids": [
+        "candidate.stacks.e5100cd3302afa539119aae4",
+        "candidate.stacks.9c125dadd135ab69a341ab5d",
+        "candidate.stacks.c485419b3fde32bbb0efae80",
+        "candidate.stacks.290833a7dca324645f747d73"
+      ],
+      "approved_count": 4,
+      "held_count": 0
+    },
+    {
+      "chapter": "more-algebra",
+      "section_start_line": 3922,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-3922.jsonl",
+      "decision_blob_sha": "309c635b66104333cf7e28c435095d85d8a2b66b",
+      "candidate_ids": [
+        "candidate.stacks.d6e23f4c955e59c3b4a03d63"
+      ],
+      "approved_count": 1,
+      "held_count": 0
+    },
+    {
+      "chapter": "more-algebra",
+      "section_start_line": 3996,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-3996.jsonl",
+      "decision_blob_sha": "d12401f6f63c4f93f4aa76ad8f2fb5b3877f4b52",
+      "candidate_ids": [
+        "candidate.stacks.cda59a6ea6e27616d351bd3e",
+        "candidate.stacks.e0cd328d5eb4371a5ef9af4c"
+      ],
+      "approved_count": 2,
+      "held_count": 0
+    },
+    {
+      "chapter": "more-algebra",
+      "section_start_line": 4402,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-4402.jsonl",
+      "decision_blob_sha": "c53eacab732627efb83b662f0fbfbbc98a45ef60",
+      "candidate_ids": [
+        "candidate.stacks.79b7db2b28ec8b1fbf4ba8b2",
+        "candidate.stacks.6383245ed64ef82caec5a66f"
+      ],
+      "approved_count": 2,
+      "held_count": 0
+    },
+    {
+      "chapter": "more-algebra",
+      "section_start_line": 4545,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-4545.jsonl",
+      "decision_blob_sha": "bd2aed74584f32955fdb9a6ad3e697c2118e83c5",
+      "candidate_ids": [
+        "candidate.stacks.07b14d423fd4ba490f7321ac",
+        "candidate.stacks.8ec2c8ca298ba1549ed3dd91",
+        "candidate.stacks.2ac6757d19c70d5a3dcd07c5"
+      ],
+      "approved_count": 3,
+      "held_count": 0
+    },
+    {
+      "chapter": "more-algebra",
+      "section_start_line": 4774,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-4774.jsonl",
+      "decision_blob_sha": "585b771dcd1e0df368bbf5608ec8b98410e7c053",
+      "candidate_ids": [
+        "candidate.stacks.b42617047022048746e17381",
+        "candidate.stacks.2122afd770252743fcfcf950",
+        "candidate.stacks.1e4948e80c99f3b422dfc59b",
+        "candidate.stacks.3a6adfd3a674339bfdbf5fc6",
+        "candidate.stacks.68ba356a69a7704dd7a9a41c"
+      ],
+      "approved_count": 5,
+      "held_count": 0
+    },
+    {
+      "chapter": "more-algebra",
+      "section_start_line": 5009,
+      "decision_file": "work/phase2-final-parallel/worker-4/decisions/more-algebra/section-5009.jsonl",
+      "decision_blob_sha": "986e575bb9f292e9d2bbcc60c23768f86d783c0b",
+      "candidate_ids": [
+        "candidate.stacks.51089c4f99c6697079eb1b02"
+      ],
+      "approved_count": 1,
+      "held_count": 0
+    }
+  ],
+  "validation": {
+    "all_frozen_ids_in_order": true,
+    "whole_sections_complete": true,
+    "decision_records_evidence_checked": true,
+    "source_first_review_recorded": true,
+    "phase3_proofs_not_reviewed": true,
+    "approval_digests_computed_from_exact_final_fields": true
+  },
+  "status": "completed"
+}
