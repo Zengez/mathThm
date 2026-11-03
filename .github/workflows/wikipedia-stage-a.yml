@@ -6,6 +6,8 @@ on:
       - work/wikipedia-stage-a-20261103
     paths:
       - '.github/workflows/wikipedia-stage-a.yml'
+      - 'scripts/wikipedia_stage_a_prepare.py'
+      - 'tests/test_wikipedia_stage_a_prepare.py'
   workflow_dispatch:
 
 permissions:
