@@ -20,7 +20,8 @@ class CorpusTests(unittest.TestCase):
     def test_minimum_proof_provenance(self):
         for record in self.items:
             with self.subTest(record=record["id"]):
-                self.assertTrue(record["hypotheses"])
+                self.assertTrue(record["hypotheses"] or record.get("phase2_approval"),
+                                "approved unconditional results have no hypotheses")
                 self.assertTrue(record["conclusions"])
                 self.assertTrue(record["statement"])
                 self.assertTrue(record["source_url"].startswith("https://"))
