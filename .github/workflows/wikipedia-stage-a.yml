@@ -1,0 +1,98 @@
+name: Prepare Wikipedia theorem statements (four fetch lanes)
+
+on:
+  push:
+    branches:
+      - work/wikipedia-stage-a-20261103
+    paths:
+      - '.github/workflows/wikipedia-stage-a.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wikipedia-stage-a-20261103
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    name: Fetch Wikipedia lane ${{ matrix.lane }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        lane: [1, 2, 3, 4]
+    steps:
+      - name: Checkout isolated Stage A scripts and frozen unmatched URLs
+        uses: actions/checkout@v4
+        with:
+          ref: work/wikipedia-stage-a-20261103
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline extraction and split tests
+        run: python -m unittest discover -s tests -p 'test_wikipedia_stage_a_prepare.py' -v
+      - name: Fetch top-of-page statements with exact URL ownership
+        run: |
+          python scripts/wikipedia_stage_a_prepare.py \
+            --input work/wikipedia-obvious-match-pass/unmatched_urls.txt \
+            --lane ${{ matrix.lane }} \
+            --output wiki-stage-a-lanes \
+            --delay 0.15
+      - name: Save independent lane results
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiki-stage-a-lane-${{ matrix.lane }}
+          path: wiki-stage-a-lanes/worker-${{ matrix.lane }}.jsonl
+          if-no-files-found: error
+          retention-days: 30
+
+  combine:
+    name: Reconcile exact 1,121 URLs and save four worker queues
+    needs: [fetch]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout Stage A branch
+        uses: actions/checkout@v4
+        with:
+          ref: work/wikipedia-stage-a-20261103
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect all four lane outputs
+        uses: actions/download-artifact@v4
+        with:
+          pattern: wiki-stage-a-lane-*
+          path: scratch/lanes
+          merge-multiple: true
+      - name: Build disjoint editorial queues and source-indexed records
+        run: |
+          python scripts/wikipedia_stage_a_prepare.py \
+            --input work/wikipedia-obvious-match-pass/unmatched_urls.txt \
+            --merge \
+            --output scratch
+          mkdir -p work/wikipedia-stage-a
+          cp -R scratch/work/wikipedia-stage-a/20261103 work/wikipedia-stage-a/
+          cat work/wikipedia-stage-a/20261103/REPORT.json
+      - name: Commit prepared candidate queue
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/wikipedia-stage-a/20261103
+          if ! git diff --cached --quiet; then
+            git commit -m 'Prepare 1121 Wikipedia theorem statements and four disjoint editorial lanes'
+            git push origin HEAD:work/wikipedia-stage-a-20261103
+          fi
+      - name: Upload integrated editorial queues
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiki-stage-a-all-editorial-queues
+          path: work/wikipedia-stage-a/20261103
+          if-no-files-found: error
+          retention-days: 30
