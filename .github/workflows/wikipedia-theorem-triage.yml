@@ -1,0 +1,87 @@
+name: Triage Wikipedia theorem URLs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/wikipedia-theorem-triage.yml'
+  workflow_dispatch:
+    inputs:
+      max_batches:
+        description: 'Number of NEW metadata batches to process (0 = all remaining)'
+        required: true
+        type: number
+        default: 0
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wikipedia-theorem-triage
+  cancel-in-progress: false
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 210
+    env:
+      MAX_BATCHES: ${{ inputs.max_batches || '0' }}
+    steps:
+      - name: Checkout isolated classification code
+        uses: actions/checkout@v4
+        with:
+          ref: work/wikipedia-theorem-classification
+          path: source
+          persist-credentials: false
+      - name: Checkout original, immutable URL harvest
+        uses: actions/checkout@v4
+        with:
+          ref: data/wikipedia-proof-dump
+          path: wikipedia-source
+          persist-credentials: false
+      - name: Checkout classification results branch
+        uses: actions/checkout@v4
+        id: results
+        with:
+          ref: data/wikipedia-theorem-classification
+          path: results
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run focused tests
+        working-directory: source
+        run: python -m unittest discover -s tests -p "test_classify_wikipedia_theorem_urls.py" -v
+      - name: Collect categories and introductions; classify conservatively
+        run: |
+          python source/scripts/classify_wikipedia_theorem_urls.py \
+            --input wikipedia-source/harvest/wikipedia_dump/20261001/wikipedia_theorem_urls.txt \
+            --output-dir results/harvest/wikipedia_classification/20261001 \
+            --batch-size 10 \
+            --delay 1.0 \
+            --max-batches "$MAX_BATCHES"
+      - name: Commit checkpoint and decisions
+        if: ${{ always() && steps.results.outcome == 'success' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -d results/harvest/wikipedia_classification ]; then
+            find results/harvest/wikipedia_classification -type f -name '*.tmp' -delete
+            git -C results add -- harvest/wikipedia_classification
+            if ! git -C results diff --cached --quiet; then
+              git -C results -c user.name='github-actions[bot]' \
+                -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+                commit -m "Classify enwiki proof-heading URLs into decisions and review queue"
+              git -C results push origin HEAD:data/wikipedia-theorem-classification
+            else
+              echo 'No changes to classification outputs.'
+            fi
+          fi
+      - name: Upload URL triage results
+        if: ${{ always() && steps.results.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: wikipedia-theorem-triage
+          path: results/harvest/wikipedia_classification/20261001/
+          retention-days: 90
+          if-no-files-found: warn
