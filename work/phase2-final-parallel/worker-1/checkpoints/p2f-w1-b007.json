@@ -1,0 +1,123 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 1,
+  "branch": "work/phase2-final/chat-1",
+  "batch_id": "p2f-w1-b007",
+  "chapter": "derham",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-1-2026-11-03",
+  "completed_on": "2026-11-03",
+  "candidate_count": 15,
+  "approved_count": 15,
+  "held_count": 0,
+  "complete_section_count": 5,
+  "candidate_ids": [
+    "candidate.stacks.282b1901eeca2acc96fc59d8",
+    "candidate.stacks.78eddf2c1c3a9af3ec64d7ad",
+    "candidate.stacks.cd9486e2ceae9106432b2622",
+    "candidate.stacks.38e623bc94aacbd814ac4fa6",
+    "candidate.stacks.b69b93e71ad1ee43494c5861",
+    "candidate.stacks.b0279a5d631ab3245894da79",
+    "candidate.stacks.5efbf13730aca20e4ca8209c",
+    "candidate.stacks.1be0b8ce9797e420808ef90a",
+    "candidate.stacks.2ff600d4d3e96b854809db1e",
+    "candidate.stacks.ee4c21022904f6cb65cf9b63",
+    "candidate.stacks.89dc00b85dfd510bebaa5694",
+    "candidate.stacks.420fbbd12805578fa56ce7d2",
+    "candidate.stacks.8c985489970146a6729741ad",
+    "candidate.stacks.40525e3f6320a403fee5828f",
+    "candidate.stacks.5e344e8ace8d64615a0306c3"
+  ],
+  "sections": [
+    {
+      "chapter": "derham",
+      "section_start_line": 121,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-121.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.282b1901eeca2acc96fc59d8",
+        "candidate.stacks.78eddf2c1c3a9af3ec64d7ad",
+        "candidate.stacks.cd9486e2ceae9106432b2622"
+      ],
+      "approved_count": 3,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "114f6aa6a667e495c0b142b59bdf1a0eeb76865f",
+        "phase3_review": "2a687598b3e774737cd244b4a705c7b618143c8e",
+        "phase2_proposal": "57ef0d927d1626309afb1551ebc2f1a3d8a40740"
+      }
+    },
+    {
+      "chapter": "derham",
+      "section_start_line": 2578,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-2578.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.38e623bc94aacbd814ac4fa6",
+        "candidate.stacks.b69b93e71ad1ee43494c5861"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "e1f991b0c7b94708e0d45ad2c0f821e457e4b74a",
+        "phase3_review": "6d3008d92c88aedbe4075d0694625ff0f3fa1e5d",
+        "phase2_proposal": "d4dd17209a67e9df4fd9e4d7aa1b0696746062df"
+      }
+    },
+    {
+      "chapter": "derham",
+      "section_start_line": 3773,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-3773.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.b0279a5d631ab3245894da79",
+        "candidate.stacks.5efbf13730aca20e4ca8209c"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "96dcd7007cc1c79846020caa10a1e59bf3c1b4dc",
+        "phase3_review": "be91d0236f0a56ea351214f3ec4686908dc1487c",
+        "phase2_proposal": "cd5add7274c52466877d455fc1cf8370828a0a14"
+      }
+    },
+    {
+      "chapter": "derham",
+      "section_start_line": 5177,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-5177.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.1be0b8ce9797e420808ef90a",
+        "candidate.stacks.2ff600d4d3e96b854809db1e",
+        "candidate.stacks.ee4c21022904f6cb65cf9b63",
+        "candidate.stacks.89dc00b85dfd510bebaa5694",
+        "candidate.stacks.420fbbd12805578fa56ce7d2",
+        "candidate.stacks.8c985489970146a6729741ad"
+      ],
+      "approved_count": 6,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "516f9cf131ee8a9df2a242a41cb7bbb38c90d64d",
+        "phase3_review": "1f7a0708abbe8633204f53ae65b62a7eb6bb51f0",
+        "phase2_proposal": "f1f3ef55e55530e181479ea97ef266b00dfe2799"
+      }
+    },
+    {
+      "chapter": "derham",
+      "section_start_line": 5622,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/derham/section-5622.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.40525e3f6320a403fee5828f",
+        "candidate.stacks.5e344e8ace8d64615a0306c3"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "4d341103b601ec5f73c7cf362185b519a3d754b2",
+        "phase3_review": "3c9794dc80ae32e35714035d3dd3c43cce940ee6",
+        "phase2_proposal": "741c7ccd1adddbcf0190841de835409a95dfe738"
+      }
+    }
+  ],
+  "complete_sections": true,
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "source_equivalence_status": "awaiting_central_registration",
+  "input_blob_hashes_verified": true
+}
