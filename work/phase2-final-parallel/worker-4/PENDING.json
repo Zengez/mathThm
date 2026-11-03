@@ -11,59 +11,6 @@
   "initial_batches": 32,
   "pending": [
     {
-      "batch_id": "p2f-w4-b022",
-      "chapter": "more-etale",
-      "candidate_count": 9,
-      "sections": [
-        {
-          "chapter": "more-etale",
-          "section_start_line": 4205,
-          "stage_b_file": "work/stageb-parallel/worker-1/results/more-etale/section-4205.jsonl",
-          "stage_b_blob_sha": "5a2da092cdc15dd5689f7ca8562dcab403dde409",
-          "phase3_review_file": "work/phase3-parallel/worker-1/proof_reviews/more-etale/section-4205.jsonl",
-          "phase3_review_blob_sha": "9f07d787a1f4f3b78d59b59ad800f12c7eaf93b9",
-          "phase2_proposal_file": "work/phase3-parallel/worker-1/phase2_proposals/more-etale/section-4205.jsonl",
-          "phase2_proposal_blob_sha": "cff23cdebfca8ff30d908385297d33400f966f30",
-          "candidate_ids": [
-            "candidate.stacks.4b6ae12e64337bd9e4db9d06",
-            "candidate.stacks.c000d2777e4b951cd4b61daa"
-          ]
-        },
-        {
-          "chapter": "more-etale",
-          "section_start_line": 4458,
-          "stage_b_file": "work/stageb-parallel/worker-1/results/more-etale/section-4458.jsonl",
-          "stage_b_blob_sha": "6a4f77e855d1541ff50e4a8592a76e6f8a3a28a7",
-          "phase3_review_file": "work/phase3-parallel/worker-1/proof_reviews/more-etale/section-4458.jsonl",
-          "phase3_review_blob_sha": "ed2603908967156a5975836399b990c46a5102ad",
-          "phase2_proposal_file": "work/phase3-parallel/worker-1/phase2_proposals/more-etale/section-4458.jsonl",
-          "phase2_proposal_blob_sha": "e018c972c3f6cc159ac774e6e5b46ef693c7ac15",
-          "candidate_ids": [
-            "candidate.stacks.4434b96d069452845922502c",
-            "candidate.stacks.a5f77de0e06c38cb03aeb619",
-            "candidate.stacks.5dd1ac1f92169d1a2404d9eb",
-            "candidate.stacks.9411515872bfa6d9c5511ab3",
-            "candidate.stacks.32f1d22296878cbe8bec8140"
-          ]
-        },
-        {
-          "chapter": "more-etale",
-          "section_start_line": 4761,
-          "stage_b_file": "work/stageb-parallel/worker-1/results/more-etale/section-4761.jsonl",
-          "stage_b_blob_sha": "348c3d12408e93d4a06e431314ceb9c523429263",
-          "phase3_review_file": "work/phase3-parallel/worker-1/proof_reviews/more-etale/section-4761.jsonl",
-          "phase3_review_blob_sha": "ec123554e4505bfdd16b06f2b2c99135b2d466d4",
-          "phase2_proposal_file": "work/phase3-parallel/worker-1/phase2_proposals/more-etale/section-4761.jsonl",
-          "phase2_proposal_blob_sha": "e66194f0886ab99564abbca6c3e21ec63a0ec2d1",
-          "candidate_ids": [
-            "candidate.stacks.7bf129eebe8026b51b6f5942",
-            "candidate.stacks.91ced877a491280014eeaa71"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w4-b023",
       "chapter": "sdga",
       "candidate_count": 25,
