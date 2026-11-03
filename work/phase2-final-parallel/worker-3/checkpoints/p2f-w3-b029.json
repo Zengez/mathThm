@@ -1,0 +1,187 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 3,
+  "branch": "work/phase2-final/chat-3",
+  "batch_id": "p2f-w3-b029",
+  "chapter": "topology",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "chatgpt-gpt6-final-phase2-worker-3-2026-11-03-continuation-3b",
+  "status": "complete_pending_central_registration",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "candidate_ids": [
+    "candidate.stacks.9912675484d4650d319fdeb0",
+    "candidate.stacks.a8ce28d152602e534e779a9b",
+    "candidate.stacks.4304d261f4aecceb1921869e",
+    "candidate.stacks.091e2997aad212f6fc3a6b10",
+    "candidate.stacks.7fbd3b55927432a58cba4adc",
+    "candidate.stacks.da70b7a25762948807d8390b",
+    "candidate.stacks.e452937a93c909d6f0b52e0b",
+    "candidate.stacks.c8dbdf471643c68ec983289c",
+    "candidate.stacks.53912b83a0ba73b902a4c3fc",
+    "candidate.stacks.e9062fc4eb3a546d71e3ae8f",
+    "candidate.stacks.8cc4e9158320ac666be3ab5d",
+    "candidate.stacks.c8a9047a79fc15081471b729",
+    "candidate.stacks.0dbe3fdf15fda914cf13ed57",
+    "candidate.stacks.2062880bcb2166b40101a8be",
+    "candidate.stacks.5e126557be50ca0995f554f9",
+    "candidate.stacks.9e55aec5014b00cf8998928f",
+    "candidate.stacks.4edd236ab7f0272f46cba6e5",
+    "candidate.stacks.5516e74e9d6448cae491fd04",
+    "candidate.stacks.8bbb671db8828f59749b4e03",
+    "candidate.stacks.fe767410bf780cfe9dd2fae3",
+    "candidate.stacks.8e8f5a55043f651f508d1bb4",
+    "candidate.stacks.eb195705aed3e852cc28e7a3",
+    "candidate.stacks.9f77b77d03ff429a9d37b3e3",
+    "candidate.stacks.dbb655ad75cf3a0448d0a678",
+    "candidate.stacks.1994e62e1b09881f9ae3d4f5",
+    "candidate.stacks.578a58ea26732e130ed35e7d",
+    "candidate.stacks.acf746304592ea86ee374843",
+    "candidate.stacks.886d014de34ee680d8990651",
+    "candidate.stacks.b8669f60516800befe407f81",
+    "candidate.stacks.c45920b9f9246dac9cc48060",
+    "candidate.stacks.cc464d8f74065305dcc0a9ba",
+    "candidate.stacks.d0a2dbd1e1a4ddb6d62b5899",
+    "candidate.stacks.0619a2712588e5afb0df7c14",
+    "candidate.stacks.f06676180a8b5749c28b4886"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.9912675484d4650d319fdeb0",
+    "candidate.stacks.a8ce28d152602e534e779a9b",
+    "candidate.stacks.4304d261f4aecceb1921869e",
+    "candidate.stacks.091e2997aad212f6fc3a6b10",
+    "candidate.stacks.7fbd3b55927432a58cba4adc",
+    "candidate.stacks.da70b7a25762948807d8390b",
+    "candidate.stacks.e452937a93c909d6f0b52e0b",
+    "candidate.stacks.c8dbdf471643c68ec983289c",
+    "candidate.stacks.53912b83a0ba73b902a4c3fc",
+    "candidate.stacks.e9062fc4eb3a546d71e3ae8f",
+    "candidate.stacks.8cc4e9158320ac666be3ab5d",
+    "candidate.stacks.c8a9047a79fc15081471b729",
+    "candidate.stacks.0dbe3fdf15fda914cf13ed57",
+    "candidate.stacks.2062880bcb2166b40101a8be",
+    "candidate.stacks.5e126557be50ca0995f554f9",
+    "candidate.stacks.4edd236ab7f0272f46cba6e5",
+    "candidate.stacks.8e8f5a55043f651f508d1bb4",
+    "candidate.stacks.eb195705aed3e852cc28e7a3",
+    "candidate.stacks.dbb655ad75cf3a0448d0a678",
+    "candidate.stacks.1994e62e1b09881f9ae3d4f5",
+    "candidate.stacks.578a58ea26732e130ed35e7d",
+    "candidate.stacks.acf746304592ea86ee374843",
+    "candidate.stacks.886d014de34ee680d8990651",
+    "candidate.stacks.b8669f60516800befe407f81",
+    "candidate.stacks.c45920b9f9246dac9cc48060",
+    "candidate.stacks.cc464d8f74065305dcc0a9ba",
+    "candidate.stacks.d0a2dbd1e1a4ddb6d62b5899",
+    "candidate.stacks.0619a2712588e5afb0df7c14",
+    "candidate.stacks.f06676180a8b5749c28b4886"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.9e55aec5014b00cf8998928f",
+    "candidate.stacks.5516e74e9d6448cae491fd04",
+    "candidate.stacks.8bbb671db8828f59749b4e03",
+    "candidate.stacks.fe767410bf780cfe9dd2fae3",
+    "candidate.stacks.9f77b77d03ff429a9d37b3e3"
+  ],
+  "candidate_count": 34,
+  "approved_count": 29,
+  "held_count": 5,
+  "section_count": 7,
+  "sections": [
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-2867.jsonl",
+      "source_section_start_line": 2867,
+      "candidate_ids": [
+        "candidate.stacks.9912675484d4650d319fdeb0",
+        "candidate.stacks.a8ce28d152602e534e779a9b",
+        "candidate.stacks.4304d261f4aecceb1921869e",
+        "candidate.stacks.091e2997aad212f6fc3a6b10",
+        "candidate.stacks.7fbd3b55927432a58cba4adc"
+      ],
+      "approvals": 5,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-3007.jsonl",
+      "source_section_start_line": 3007,
+      "candidate_ids": [
+        "candidate.stacks.da70b7a25762948807d8390b",
+        "candidate.stacks.e452937a93c909d6f0b52e0b",
+        "candidate.stacks.c8dbdf471643c68ec983289c",
+        "candidate.stacks.53912b83a0ba73b902a4c3fc",
+        "candidate.stacks.e9062fc4eb3a546d71e3ae8f"
+      ],
+      "approvals": 5,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-3307.jsonl",
+      "source_section_start_line": 3307,
+      "candidate_ids": [
+        "candidate.stacks.8cc4e9158320ac666be3ab5d",
+        "candidate.stacks.c8a9047a79fc15081471b729",
+        "candidate.stacks.0dbe3fdf15fda914cf13ed57",
+        "candidate.stacks.2062880bcb2166b40101a8be",
+        "candidate.stacks.5e126557be50ca0995f554f9"
+      ],
+      "approvals": 5,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-3548.jsonl",
+      "source_section_start_line": 3548,
+      "candidate_ids": [
+        "candidate.stacks.9e55aec5014b00cf8998928f",
+        "candidate.stacks.4edd236ab7f0272f46cba6e5",
+        "candidate.stacks.5516e74e9d6448cae491fd04",
+        "candidate.stacks.8bbb671db8828f59749b4e03",
+        "candidate.stacks.fe767410bf780cfe9dd2fae3",
+        "candidate.stacks.8e8f5a55043f651f508d1bb4",
+        "candidate.stacks.eb195705aed3e852cc28e7a3",
+        "candidate.stacks.9f77b77d03ff429a9d37b3e3"
+      ],
+      "approvals": 3,
+      "holds": 5
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-3829.jsonl",
+      "source_section_start_line": 3829,
+      "candidate_ids": [
+        "candidate.stacks.dbb655ad75cf3a0448d0a678",
+        "candidate.stacks.1994e62e1b09881f9ae3d4f5"
+      ],
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-3990.jsonl",
+      "source_section_start_line": 3990,
+      "candidate_ids": [
+        "candidate.stacks.578a58ea26732e130ed35e7d",
+        "candidate.stacks.acf746304592ea86ee374843",
+        "candidate.stacks.886d014de34ee680d8990651",
+        "candidate.stacks.b8669f60516800befe407f81",
+        "candidate.stacks.c45920b9f9246dac9cc48060"
+      ],
+      "approvals": 5,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-4118.jsonl",
+      "source_section_start_line": 4118,
+      "candidate_ids": [
+        "candidate.stacks.cc464d8f74065305dcc0a9ba",
+        "candidate.stacks.d0a2dbd1e1a4ddb6d62b5899",
+        "candidate.stacks.0619a2712588e5afb0df7c14",
+        "candidate.stacks.f06676180a8b5749c28b4886"
+      ],
+      "approvals": 4,
+      "holds": 0
+    }
+  ],
+  "immutable_input_sha_check": "pass",
+  "exact_id_order_check": "pass",
+  "pinned_source_context_check": "pass",
+  "stage_a_and_stage_b_reviewer_chain_checked": "pass",
+  "source_and_approved_sha256_recheck": "pass"
+}
