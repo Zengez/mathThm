@@ -1,0 +1,53 @@
+{
+  "schema": "maththm.phase2-final.parallel-allocation.v1",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "upstream_branch": "work/phase3/parallel-reconciled",
+  "upstream_commit": "edb281cc48d7137c19e26a7db78ca39a0f0adf0f",
+  "phase3_initial_queue_commit": "c57a162275ef35a7fe61e87f709627fd98ede4de",
+  "shared_base_branch": "work/phase2-final/parallel-base",
+  "reconciled_branch": "work/phase2-final/parallel-reconciled",
+  "initial_stage_b_positive_count": 3866,
+  "initial_phase3_plausible_count": 3061,
+  "excluded_questionable_count": 701,
+  "excluded_deferred_count": 104,
+  "excluded_stage_b_hold_count": 768,
+  "original_section_count": 1244,
+  "active_section_count": 994,
+  "total_active_batches": 126,
+  "authoritative_registry_updated": false,
+  "published_catalog_updated": false,
+  "workers": [
+    {
+      "worker": 1,
+      "branch": "work/phase2-final/chat-1",
+      "queue": "work/phase2-final-parallel/worker-1/PENDING.json",
+      "candidate_count": 766,
+      "section_count": 224,
+      "batch_count": 31
+    },
+    {
+      "worker": 2,
+      "branch": "work/phase2-final/chat-2",
+      "queue": "work/phase2-final-parallel/worker-2/PENDING.json",
+      "candidate_count": 765,
+      "section_count": 264,
+      "batch_count": 33
+    },
+    {
+      "worker": 3,
+      "branch": "work/phase2-final/chat-3",
+      "queue": "work/phase2-final-parallel/worker-3/PENDING.json",
+      "candidate_count": 765,
+      "section_count": 242,
+      "batch_count": 30
+    },
+    {
+      "worker": 4,
+      "branch": "work/phase2-final/chat-4",
+      "queue": "work/phase2-final-parallel/worker-4/PENDING.json",
+      "candidate_count": 765,
+      "section_count": 264,
+      "batch_count": 32
+    }
+  ]
+}
