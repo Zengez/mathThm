@@ -1,4 +1,5 @@
 name: Triage Wikipedia theorem URLs
+# Acceptance refinement: exclude theorem-proving tools and proof-list categories.
 
 on:
   push:
