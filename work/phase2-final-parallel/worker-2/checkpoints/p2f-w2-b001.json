@@ -1,0 +1,210 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b001",
+  "chapter": "algebra",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-independent-chat",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 42,
+  "approved_count": 41,
+  "held_count": 1,
+  "section_count": 10,
+  "candidate_ids": [
+    "candidate.stacks.6adf70e0b53e62131568b2ad",
+    "candidate.stacks.00a6c4e06e8875c203d7f0f3",
+    "candidate.stacks.3abff260941bb93ea7d7d5e9",
+    "candidate.stacks.00210528cf5be2664d5c95b2",
+    "candidate.stacks.9b0008ab971ff13c66917fe9",
+    "candidate.stacks.6217ada41d7082cb61246d71",
+    "candidate.stacks.9a11c45220669be67de9eadd",
+    "candidate.stacks.56840b74a5e6a8d465e98e2f",
+    "candidate.stacks.9a4bd6607766736776f0591b",
+    "candidate.stacks.bd3797799946dfc1f877b916",
+    "candidate.stacks.b61b95f66e4cf738677bad0a",
+    "candidate.stacks.8a10077bddc16deaed0ce6f0",
+    "candidate.stacks.431f1e77c42267b8f4dad6b4",
+    "candidate.stacks.4d60296237488d9e99bbc208",
+    "candidate.stacks.f44f3075faa78e8385b3171d",
+    "candidate.stacks.79491eae726b8afcbb8aa5c6",
+    "candidate.stacks.eb9330eda61b996780247013",
+    "candidate.stacks.e8da3627f89657a222157ce4",
+    "candidate.stacks.41b18e4578a8f2129dfae55e",
+    "candidate.stacks.84dc39023a7bd06070c2de9a",
+    "candidate.stacks.0282435b4cf3176c57e00869",
+    "candidate.stacks.fac346211c46ffec6144c4a1",
+    "candidate.stacks.f709860bf30d2435b0a10362",
+    "candidate.stacks.cd4e2e5aa862a0e71395eb55",
+    "candidate.stacks.b718b726ddb761f4ea0b6a4b",
+    "candidate.stacks.6b349ffe4f0211b256089fad",
+    "candidate.stacks.81756a5e47422add2f4514aa",
+    "candidate.stacks.b17568c8214cfb6706b99ec7",
+    "candidate.stacks.ff56227634d3aa6c62d7c3e6",
+    "candidate.stacks.810e085ba8fccd846cdb1b7f",
+    "candidate.stacks.da146c5b3f3f53d3a310f920",
+    "candidate.stacks.a63991ed6cb440ced7729ea8",
+    "candidate.stacks.529a5dce852f058f47db6dd9",
+    "candidate.stacks.b3e7d7a82db126777a256c19",
+    "candidate.stacks.b92c16d099a4c72fb5ac3c1a",
+    "candidate.stacks.eae60c45ea5a6f1f59710f28",
+    "candidate.stacks.75250cfc3381cb083cfe7042",
+    "candidate.stacks.a781245aaf22eccdeaf7b58c",
+    "candidate.stacks.ee8917e73d133a9ef66c153c",
+    "candidate.stacks.d45c3c621a4e6756733169c9",
+    "candidate.stacks.ae1e9cac7a2b009afd7a831a",
+    "candidate.stacks.fcc60144d944153a1cb716a5"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.8a10077bddc16deaed0ce6f0"
+  ],
+  "decision_files": [
+    {
+      "chapter": "algebra",
+      "section_start_line": 343,
+      "candidate_ids": [
+        "candidate.stacks.6adf70e0b53e62131568b2ad",
+        "candidate.stacks.00a6c4e06e8875c203d7f0f3",
+        "candidate.stacks.3abff260941bb93ea7d7d5e9",
+        "candidate.stacks.00210528cf5be2664d5c95b2"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-343.jsonl",
+      "decision_blob_sha": "4bc8b3ae214a50e6860de59e5d8af9e3e4396219",
+      "approvals": 4,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 514,
+      "candidate_ids": [
+        "candidate.stacks.9b0008ab971ff13c66917fe9",
+        "candidate.stacks.6217ada41d7082cb61246d71"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-514.jsonl",
+      "decision_blob_sha": "d26bfe39d33a12cf8de36edd0714ee03c037aa7d",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 629,
+      "candidate_ids": [
+        "candidate.stacks.9a11c45220669be67de9eadd",
+        "candidate.stacks.56840b74a5e6a8d465e98e2f",
+        "candidate.stacks.9a4bd6607766736776f0591b"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-629.jsonl",
+      "decision_blob_sha": "f20ec7e025aed8bb5f473f787c7533f9f40517ac",
+      "approvals": 3,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 702,
+      "candidate_ids": [
+        "candidate.stacks.bd3797799946dfc1f877b916",
+        "candidate.stacks.b61b95f66e4cf738677bad0a",
+        "candidate.stacks.8a10077bddc16deaed0ce6f0",
+        "candidate.stacks.431f1e77c42267b8f4dad6b4"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-702.jsonl",
+      "decision_blob_sha": "95a93c8b8ef1004e53a14963566e7e233fd8ee8e",
+      "approvals": 3,
+      "holds": 1
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 1038,
+      "candidate_ids": [
+        "candidate.stacks.4d60296237488d9e99bbc208",
+        "candidate.stacks.f44f3075faa78e8385b3171d",
+        "candidate.stacks.79491eae726b8afcbb8aa5c6",
+        "candidate.stacks.eb9330eda61b996780247013",
+        "candidate.stacks.e8da3627f89657a222157ce4",
+        "candidate.stacks.41b18e4578a8f2129dfae55e",
+        "candidate.stacks.84dc39023a7bd06070c2de9a",
+        "candidate.stacks.0282435b4cf3176c57e00869",
+        "candidate.stacks.fac346211c46ffec6144c4a1"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-1038.jsonl",
+      "decision_blob_sha": "042d8c87f2e765e60ba2dcfff312b706db67b056",
+      "approvals": 9,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 1462,
+      "candidate_ids": [
+        "candidate.stacks.f709860bf30d2435b0a10362"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-1462.jsonl",
+      "decision_blob_sha": "9b3b7e12b3bc3286b183e55ad9b16b836c004cc9",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 1580,
+      "candidate_ids": [
+        "candidate.stacks.cd4e2e5aa862a0e71395eb55",
+        "candidate.stacks.b718b726ddb761f4ea0b6a4b",
+        "candidate.stacks.6b349ffe4f0211b256089fad"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-1580.jsonl",
+      "decision_blob_sha": "59b3d7316fa521b2adec3014208c114d3be9e91b",
+      "approvals": 3,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 1702,
+      "candidate_ids": [
+        "candidate.stacks.81756a5e47422add2f4514aa",
+        "candidate.stacks.b17568c8214cfb6706b99ec7",
+        "candidate.stacks.ff56227634d3aa6c62d7c3e6",
+        "candidate.stacks.810e085ba8fccd846cdb1b7f",
+        "candidate.stacks.da146c5b3f3f53d3a310f920",
+        "candidate.stacks.a63991ed6cb440ced7729ea8"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-1702.jsonl",
+      "decision_blob_sha": "7adaf0d7e14cfb63f2f7a702c6ffe9a740fbad2f",
+      "approvals": 6,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 2404,
+      "candidate_ids": [
+        "candidate.stacks.529a5dce852f058f47db6dd9",
+        "candidate.stacks.b3e7d7a82db126777a256c19"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-2404.jsonl",
+      "decision_blob_sha": "6545c19d9cc802d30516040212d0b5baa2d55f8b",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "algebra",
+      "section_start_line": 2543,
+      "candidate_ids": [
+        "candidate.stacks.b92c16d099a4c72fb5ac3c1a",
+        "candidate.stacks.eae60c45ea5a6f1f59710f28",
+        "candidate.stacks.75250cfc3381cb083cfe7042",
+        "candidate.stacks.a781245aaf22eccdeaf7b58c",
+        "candidate.stacks.ee8917e73d133a9ef66c153c",
+        "candidate.stacks.d45c3c621a4e6756733169c9",
+        "candidate.stacks.ae1e9cac7a2b009afd7a831a",
+        "candidate.stacks.fcc60144d944153a1cb716a5"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/algebra/section-2543.jsonl",
+      "decision_blob_sha": "ce5456e12c25ab0e83b9f623b844d85a43df1957",
+      "approvals": 8,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "fdf218dfce4928e7e66d2058bb7d58dd86a167f1",
+  "validation": "Every frozen ID has one ordered decision in its complete source section; source revision, immutable input paths/SHAs, decision evidence and reviewer identities checked."
+}
