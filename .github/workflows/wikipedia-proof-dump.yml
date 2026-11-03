@@ -1,6 +1,10 @@
 name: Wikipedia proof-heading URL harvest (enwiki dumps)
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/wikipedia-proof-dump.yml'
   workflow_dispatch:
     inputs:
       snapshot:
@@ -12,9 +16,9 @@ on:
         description: 'Number of compressed article chunks to scan this run'
         type: number
         required: true
-        default: 4
+        default: 0
   schedule:
-    - cron: '43 4 * * *'
+    - cron: '43 */8 * * *'
 
 permissions:
   contents: write
@@ -29,7 +33,7 @@ jobs:
     timeout-minutes: 330
     env:
       SNAPSHOT: ${{ inputs.snapshot || '20261001' }}
-      MAX_SHARDS: ${{ inputs.max_shards || 4 }}
+      MAX_SHARDS: ${{ inputs.max_shards || '0' }}
     steps:
       - name: Checkout isolated crawler branch (read-only)
         uses: actions/checkout@v4
