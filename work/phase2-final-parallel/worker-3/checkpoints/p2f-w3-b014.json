@@ -1,0 +1,163 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 3,
+  "branch": "work/phase2-final/chat-3",
+  "batch_id": "p2f-w3-b014",
+  "chapter": "injectives",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "chatgpt-gpt6-final-phase2-worker-3-resumption-2026-11-03",
+  "status": "complete_pending_central_registration",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "candidate_ids": [
+    "candidate.stacks.7849dfb0d3b6d83d5b0bcec3",
+    "candidate.stacks.71d0e7205d6b5da6081c5ff3",
+    "candidate.stacks.7991d19989a220fb0eb24281",
+    "candidate.stacks.994c933c3beb7424138c78d1",
+    "candidate.stacks.5924b75b82444bf569a2d3f5",
+    "candidate.stacks.c9637d263776acacc003d726",
+    "candidate.stacks.c4124be0965c877cf1311aa7",
+    "candidate.stacks.736ac9fc4af5f910e121c3e6",
+    "candidate.stacks.59f2b2a711c2edc8e63fc64a",
+    "candidate.stacks.2a568cf0e62fe13f3487140f",
+    "candidate.stacks.790f49a15c6ebb425aa8ccf2",
+    "candidate.stacks.fa1f0582467ebde6d192e420",
+    "candidate.stacks.285d78343e6aa931dd92c0f2",
+    "candidate.stacks.0a89f3dc40fd53fd6387672b",
+    "candidate.stacks.2302f3d45a72d36f6002a79d",
+    "candidate.stacks.1f9838690718442bae8b47e4",
+    "candidate.stacks.f92560047baa51078f727b6b",
+    "candidate.stacks.fe7ee3919bd11b64715e717b",
+    "candidate.stacks.624f9fab80f33d275de6cd2e",
+    "candidate.stacks.884ccafa0915709d442877c1",
+    "candidate.stacks.0c9b142531be30f9d39900f2"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.7849dfb0d3b6d83d5b0bcec3",
+    "candidate.stacks.71d0e7205d6b5da6081c5ff3",
+    "candidate.stacks.7991d19989a220fb0eb24281",
+    "candidate.stacks.994c933c3beb7424138c78d1",
+    "candidate.stacks.5924b75b82444bf569a2d3f5",
+    "candidate.stacks.c9637d263776acacc003d726",
+    "candidate.stacks.c4124be0965c877cf1311aa7",
+    "candidate.stacks.790f49a15c6ebb425aa8ccf2",
+    "candidate.stacks.fa1f0582467ebde6d192e420",
+    "candidate.stacks.2302f3d45a72d36f6002a79d",
+    "candidate.stacks.1f9838690718442bae8b47e4",
+    "candidate.stacks.f92560047baa51078f727b6b",
+    "candidate.stacks.fe7ee3919bd11b64715e717b",
+    "candidate.stacks.624f9fab80f33d275de6cd2e",
+    "candidate.stacks.884ccafa0915709d442877c1",
+    "candidate.stacks.0c9b142531be30f9d39900f2"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.736ac9fc4af5f910e121c3e6",
+    "candidate.stacks.59f2b2a711c2edc8e63fc64a",
+    "candidate.stacks.2a568cf0e62fe13f3487140f",
+    "candidate.stacks.285d78343e6aa931dd92c0f2",
+    "candidate.stacks.0a89f3dc40fd53fd6387672b"
+  ],
+  "candidate_count": 21,
+  "approved_count": 16,
+  "held_count": 5,
+  "section_count": 9,
+  "sections": [
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/injectives/section-38.jsonl",
+      "source_section_start_line": 38,
+      "candidate_ids": [
+        "candidate.stacks.7849dfb0d3b6d83d5b0bcec3"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/injectives/section-434.jsonl",
+      "source_section_start_line": 434,
+      "candidate_ids": [
+        "candidate.stacks.71d0e7205d6b5da6081c5ff3"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/injectives/section-493.jsonl",
+      "source_section_start_line": 493,
+      "candidate_ids": [
+        "candidate.stacks.7991d19989a220fb0eb24281"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/injectives/section-667.jsonl",
+      "source_section_start_line": 667,
+      "candidate_ids": [
+        "candidate.stacks.994c933c3beb7424138c78d1",
+        "candidate.stacks.5924b75b82444bf569a2d3f5"
+      ],
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/injectives/section-1041.jsonl",
+      "source_section_start_line": 1041,
+      "candidate_ids": [
+        "candidate.stacks.c9637d263776acacc003d726"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/injectives/section-1333.jsonl",
+      "source_section_start_line": 1333,
+      "candidate_ids": [
+        "candidate.stacks.c4124be0965c877cf1311aa7",
+        "candidate.stacks.736ac9fc4af5f910e121c3e6",
+        "candidate.stacks.59f2b2a711c2edc8e63fc64a",
+        "candidate.stacks.2a568cf0e62fe13f3487140f",
+        "candidate.stacks.790f49a15c6ebb425aa8ccf2",
+        "candidate.stacks.fa1f0582467ebde6d192e420"
+      ],
+      "approvals": 3,
+      "holds": 3
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/injectives/section-1557.jsonl",
+      "source_section_start_line": 1557,
+      "candidate_ids": [
+        "candidate.stacks.285d78343e6aa931dd92c0f2",
+        "candidate.stacks.0a89f3dc40fd53fd6387672b",
+        "candidate.stacks.2302f3d45a72d36f6002a79d",
+        "candidate.stacks.1f9838690718442bae8b47e4",
+        "candidate.stacks.f92560047baa51078f727b6b"
+      ],
+      "approvals": 3,
+      "holds": 2
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/injectives/section-1895.jsonl",
+      "source_section_start_line": 1895,
+      "candidate_ids": [
+        "candidate.stacks.fe7ee3919bd11b64715e717b",
+        "candidate.stacks.624f9fab80f33d275de6cd2e"
+      ],
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/injectives/section-2743.jsonl",
+      "source_section_start_line": 2743,
+      "candidate_ids": [
+        "candidate.stacks.884ccafa0915709d442877c1",
+        "candidate.stacks.0c9b142531be30f9d39900f2"
+      ],
+      "approvals": 2,
+      "holds": 0
+    }
+  ],
+  "immutable_input_sha_check": "pass",
+  "exact_id_order_check": "pass",
+  "pinned_source_context_check": "pass",
+  "stage_a_and_stage_b_reviewer_chain_checked": "pass"
+}
