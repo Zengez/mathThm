@@ -40,6 +40,16 @@
         "url": "https://en.wikipedia.org/wiki/Bolzano%E2%80%93Weierstrass_theorem#Proof"
       }
     ],
+    "thm.analysis.extreme-value": [
+      {
+        "found_on": "2026-11-03",
+        "label": "Link to proof (Wikipedia)",
+        "match_basis": "unique_normalized_title",
+        "proof_review": "link_only_not_mathematically_audited",
+        "source_article": "https://en.wikipedia.org/wiki/Extreme_value_theorem",
+        "url": "https://en.wikipedia.org/wiki/Extreme_value_theorem#Proofs_of_the_extreme_value_theorem"
+      }
+    ],
     "thm.analysis.intermediate-value": [
       {
         "found_on": "2026-11-03",

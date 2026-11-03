@@ -233,7 +233,6 @@ https://en.wikipedia.org/wiki/Euler's_theorem_in_geometry
 https://en.wikipedia.org/wiki/Excision_theorem
 https://en.wikipedia.org/wiki/Expander_mixing_lemma
 https://en.wikipedia.org/wiki/Exportation_(logic)
-https://en.wikipedia.org/wiki/Extreme_value_theorem
 https://en.wikipedia.org/wiki/F%C3%A1ry's_theorem
 https://en.wikipedia.org/wiki/Factor_theorem
 https://en.wikipedia.org/wiki/Fagin's_theorem
