@@ -22,8 +22,18 @@ import urllib.request
 API = "https://en.wikipedia.org/w/api.php"
 AGENT = "mathThmWikipediaURLTriage/1.0 (https://github.com/Zengez/mathThm)"
 RESULT_CATEGORY = re.compile(
-    r"\btheorems?\b|\blemmas?\b|\bmathematical (?:inequalities|identities|results|principles)\b|"
+    r"\btheorems\b|\blemmas\b|\bmathematical (?:inequalities|identities|results|principles)\b|"
     r"\binequalities in mathematics\b|\bidentities in mathematics\b", re.I
+)
+NOT_RESULT_CATEGORY = re.compile(
+    r"\bproofs?\b|\bproving\b|\bprovers?\b|\bassistants?\b|"
+    r"\bsoftware\b|\bprograms?\b|\blists?\b|\bconjectures\b|"
+    r"\bbiographies\b|\bhistory\b", re.I
+)
+NON_THEOREM_PAGE_TITLE = re.compile(
+    r"^(?:proof of|proofs of|list of|lists of|"
+    r"proof assistant|automated reasoning)\b|"
+    r"\btheorem prov(?:ing|er|ers)\b", re.I
 )
 MATH_CATEGORY = re.compile(
     r"mathemat|algebra|analysis|analytic|topolog|geometr|number theory|"
@@ -91,7 +101,12 @@ def classify(title: str, categories: list[str], intro: str, missing: bool = Fals
     if missing:
         return "needs_review", "Wikipedia page missing/redirect uncertain; preserve URL"
     categories_text = " | ".join(categories)
-    theorem_category = bool(RESULT_CATEGORY.search(categories_text))
+    theorem_category = any(
+        RESULT_CATEGORY.search(category) and not NOT_RESULT_CATEGORY.search(category)
+        for category in categories
+    )
+    if NON_THEOREM_PAGE_TITLE.search(title):
+        return "needs_review", "Article is a proof, list, or theorem-proving tool rather than a dedicated theorem page"
     math_category = bool(MATH_CATEGORY.search(categories_text))
     theorem_title = bool(RESULT_TITLE.search(title))
     other_result_title = bool(OTHER_RESULT_TITLE.search(title))
