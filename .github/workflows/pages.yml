@@ -34,11 +34,12 @@ jobs:
       - name: Check frontend scripts
         run: |
           node --check web/search-core.js
+          node --check web/query-editor.js
           node --check web/app.js
           node --check web/mathdef-v2.js
           node --check web/definition-links.js
       - name: Test theorem search
-        run: node --test tests/test_search.cjs tests/test_ui_smoke.cjs tests/test_mathdef_v2.cjs tests/test_definition_links.cjs
+        run: node --test tests/test_search.cjs tests/test_boolean_queries.cjs tests/test_query_editor.cjs tests/test_query_builder_integration.cjs tests/test_ui_smoke.cjs tests/test_mathdef_v2.cjs tests/test_definition_links.cjs
       - name: Validate theorem records
         run: python -m unittest discover -s tests -v
       - name: Build site and optionally bundle mathDef definitions
@@ -48,6 +49,8 @@ jobs:
           test -f _site/index.html
           test -f _site/theorems.json
           test -f _site/search-core.js
+          test -f _site/query-editor.js
+          test -f _site/query-editor.css
           test -f _site/app.js
           test -f _site/mathdef-v2.js
           test -f _site/definition-links.js
