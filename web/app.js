@@ -3,7 +3,7 @@
   const $=id=>document.getElementById(id), core=window.MathThmSearch;
   const mathdef=window.MathThmDefinitions;
   const state={records:[],mode:"auto",expanded:new Set(),defs:new Map(),
-    definitions:null,fullHtmlCache:new Map(),snapshotVersion:null};
+    definitions:null,fullHtmlCache:new Map(),snapshotVersion:null,visibleLimit:50};
   const resolve=id=>state.definitions?.resolve(id)||state.defs.get(id)||null;
   const esc=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const href=u=>/^https:\/\//i.test(String(u))?esc(u):"#";
@@ -53,12 +53,15 @@
     const body=full?'<div class="statement">'+(state.fullHtmlCache.get(t.id)||(()=>{const h=paras(t.statement,t);state.fullHtmlCache.set(t.id,h);return h;})())+'</div>':
       '<div class="preview-layout"><div class="preview-column"><h5>Hypotheses</h5><p>'+esc(preview(t.hypotheses.join(" ")))+'</p></div>'+
       '<div class="preview-column"><h5>Conclusions</h5><p>'+esc(preview(t.conclusions.join(" ")))+'</p></div></div>';
-    const proofs=(t.proofs||[]).map((p,i)=>'<a href="'+href(p.url)+'" target="_blank" rel="noopener noreferrer">Proof '+(i+1)+' ↗</a>').join("");
+    const proofs=(t.proofs||[]).map((p,i)=>'<a href="'+href(p.url)+'" target="_blank" rel="noopener noreferrer">'+(p.screening==="source_reference_only"?"Source / proof vicinity":"Proof "+(i+1))+' ↗</a>').join("");
+    const status=t.phase2_approval ? (t.review_status==="phase2_approved_source_reference_only" ?
+      "Phase 2 source-equivalence approved · proof screening unrecorded" :
+      "Phase 2 source-equivalence approved · proof cursory-screened") : "Cursory-screened · Unverified";
     const issue="https://github.com/Zengez/mathThm/issues/new?title="+encodeURIComponent("Correction: "+t.id)+
       "&body="+encodeURIComponent("Theorem ID: "+t.id+"\nSource: "+t.source_url+"\n\nSuggested correction:\n");
     return '<article class="theorem-card" data-theorem-id="'+esc(t.id)+'"><div class="card-top"><div>'+
       '<div class="subject">'+esc(t.area||"Mathematics")+'</div><h4>'+esc(t.title||"Unnamed result")+'</h4></div>'+
-      '<span class="proof-status">Cursory-screened · Unverified</span></div>'+body+
+      '<span class="proof-status">'+esc(status)+'</span></div>'+body+
       (tags.length?'<div>'+tags.map(x=>'<span class="tag-hit">'+esc(x)+'</span>').join(" ")+'</div>':"")+
       '<div class="card-footer">'+(state.mode==="full"?"":'<button class="expand-button" data-toggle-id="'+esc(t.id)+'" aria-expanded="'+full+'">'+(full?"Show compact":"Read full theorem")+'</button>')+
       '<a href="'+href(t.source_url)+'" target="_blank" rel="noopener noreferrer">Source ↗</a>'+proofs+
@@ -68,9 +71,11 @@
     const hits=core.search(state.records,$("hypothesis-query").value,$("conclusion-query").value);
     $("result-count").textContent=hits.length+" result"+(hits.length===1?"":"s");
     const mode=core.modeFor(state.mode,hits.length);
-    $("results-summary").textContent=(hits.length===state.records.length?"All prototype results":"Filtered results")+
+    $("results-summary").textContent=(hits.length===state.records.length?"All catalog results":"Filtered results")+
       " · "+(mode==="compact"?"Compact previews":"Full statements")+" · Populated search columns are joined by AND.";
-    $("results").innerHTML=hits.length?hits.map(h=>card(h,hits.length)).join(""):
+    const shown=hits.slice(0,state.visibleLimit);
+    const more=hits.length>shown.length ? '<button class="expand-button" data-show-more="true">Show next results ('+(hits.length-shown.length)+' remaining)</button>' : "";
+    $("results").innerHTML=hits.length?shown.map(h=>card(h,hits.length)).join("")+more:
       '<div class="empty">No matching results among the available theorems. Try a broader term or clear one side.</div>';
     math($("results"));
   }
@@ -186,19 +191,20 @@
     try{
       const result=await json("./theorems.json");
       if(result.schema!=="maththm.theorems.v1"||!Array.isArray(result.records))throw Error("Unexpected catalog format");
-      state.records=result.records;$("total").textContent=result.records.length+" draft results";
+      state.records=result.records;$("total").textContent=result.records.length+" results";
       render();loadMathDef();
     }catch(e){$("error").hidden=false;$("error").textContent="Could not load theorem records: "+e.message;}
   }
-  for(const key of ["hypothesis-query","conclusion-query"])$(key).addEventListener("input",()=>{state.expanded.clear();render()});
+  for(const key of ["hypothesis-query","conclusion-query"])$(key).addEventListener("input",()=>{state.expanded.clear();state.visibleLimit=50;render()});
   document.querySelectorAll("[data-view]").forEach(button=>button.addEventListener("click",()=>{
     state.mode=button.dataset.view;state.expanded.clear();
     document.querySelectorAll("[data-view]").forEach(b=>{b.classList.toggle("active",b===button);b.setAttribute("aria-pressed",String(b===button));});render();
   }));
   $("clear-search").addEventListener("click",()=>{
-    $("hypothesis-query").value="";$("conclusion-query").value="";state.expanded.clear();render();$("hypothesis-query").focus();
+    $("hypothesis-query").value="";$("conclusion-query").value="";state.expanded.clear();state.visibleLimit=50;render();$("hypothesis-query").focus();
   });
   $("results").addEventListener("click",event=>{
+    if(event.target.closest("[data-show-more]")){state.visibleLimit+=50;render();return;}
     const button=event.target.closest("[data-toggle-id]");
     if(button){const id=button.dataset.toggleId;if(state.expanded.has(id))state.expanded.delete(id);else state.expanded.add(id);render();return;}
     const def=event.target.closest("[data-def-id]");
