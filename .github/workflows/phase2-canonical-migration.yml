@@ -1,0 +1,64 @@
+name: Prepare permanent Phase 2 canonical master (isolated)
+on:
+  push:
+    branches:
+      - work/phase2-canonical-migration
+    paths:
+      - scripts/migrate_phase2_master.py
+      - tests/test_phase2_master_migration.py
+      - .github/workflows/phase2-canonical-migration.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: phase2-canonical-migration
+  cancel-in-progress: false
+
+jobs:
+  canonical-migration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify migration regressions
+        run: python -m unittest tests.test_phase2_master_migration -v
+      - name: Materialize permanent master from frozen worker IDs and historical authority
+        run: python scripts/migrate_phase2_master.py --write
+      - name: Verify self-contained master without legacy compatibility loaders
+        run: python scripts/migrate_phase2_master.py --validate
+      - name: Confirm live site and authority were not modified
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git diff -- data/theorems.json harvest/PHASE2_AUTHORITATIVE_REGISTRY.json | wc -l)" -eq 0
+          test -s data/maththm_master.jsonl
+          test -s work/phase2-canonical-migration/REPORT.json
+      - name: Commit only canonical data and migration audit onto isolated branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/maththm_master.jsonl work/phase2-canonical-migration/REPORT.json
+          if git diff --cached --quiet; then
+            echo "No change to canonical data"
+          else
+            git commit -m 'Materialize permanent Phase 2 canonical master and migration audit'
+            git push origin HEAD:refs/heads/work/phase2-canonical-migration
+          fi
+      - name: Preserve diagnostics for any failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase2-canonical-migration-diagnostics
+          path: |
+            work/phase2-canonical-migration/REPORT.json
+          if-no-files-found: warn
