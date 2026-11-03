@@ -90,6 +90,8 @@ def reconcile(records, resolutions):
         "source_equivalence_approved": EXPECTED_APPROVED,
         "source_equivalence_held": EXPECTED_HELD,
     }, "Phase 2 decisions changed")
+    require(all(not r["publication"]["publication_ready"] and not r["publication"]["published"]
+                for r in records), "Premature publication in canonical input")
     before = {r["candidate_id"]: (copy.deepcopy(r["source"]["original_statement_tex"]),
              copy.deepcopy({k: r["formulation"].get(k) for k in FORM_FIELDS}),
              copy.deepcopy(r["phase2"]), copy.deepcopy(r["publication"]),
