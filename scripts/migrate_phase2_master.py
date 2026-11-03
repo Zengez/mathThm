@@ -95,7 +95,7 @@ def canonical(cid, row, *, origin, worker=None, batch_id=None, section=None,
     form = {key: form_raw.get(key) for key in FORM_FIELDS}
     decision = row.get("decision") if origin == "final_worker" else "source_equivalence_approved"
     registered = origin == "historical_authoritative"
-    flags = []
+    flags, normalizations = [], []
     if rev != SOURCE_REV:
         flags.append("source_revision_mismatch")
     if not isinstance(cid, str) or not cid:
@@ -105,7 +105,11 @@ def canonical(cid, row, *, origin, worker=None, batch_id=None, section=None,
     source_hash = row.get("source_statement_sha256")
     computed_source_hash = sha256(original) if isinstance(original, str) else None
     if source_hash is not None and source_hash != computed_source_hash:
-        flags.append("original_source_digest_mismatch")
+        if isinstance(original, str) and sha256(original.strip()) == source_hash:
+            normalizations.append("source_digest_used_stripped_whitespace")
+            source_hash = computed_source_hash
+        else:
+            flags.append("original_source_digest_mismatch")
     if source_hash is None:
         source_hash = computed_source_hash
 
@@ -114,10 +118,27 @@ def canonical(cid, row, *, origin, worker=None, batch_id=None, section=None,
     approved = decision == "source_equivalence_approved"
     approved_hash = row.get("approved_content_sha256")
     if approved:
-        if any(not form.get(k) for k in ("statement", "hypotheses", "conclusions", "logical_form")):
+        # Empty hypothesis lists are correct for unconditional statements.
+        if (not form.get("statement") or not form.get("conclusions")
+            or not form.get("logical_form")
+            or not isinstance(form.get("hypotheses"), list)):
             flags.append("incomplete_approved_formulation")
+        elif not form["hypotheses"]:
+            normalizations.append("mathematically_unconditional_statement")
         if approved_hash != content_digest(cid, rev, form):
-            flags.append("approved_formulation_digest_mismatch")
+            # Legacy validators sometimes hashed absent optional lists as [].
+            # Reconcile only exact digest matches; never alter mathematics.
+            matching = []
+            for cases in (None, []):
+                for sides in (None, []):
+                    alt = {**form, "structured_cases": cases, "equivalence_sides": sides}
+                    if approved_hash == content_digest(cid, rev, alt):
+                        matching.append(alt)
+            if matching and form.get("structured_cases") in (None, []) and form.get("equivalence_sides") in (None, []):
+                form = matching[0]
+                normalizations.append("empty_optional_fields_matched_recorded_digest")
+            else:
+                flags.append("approved_formulation_digest_mismatch")
     elif approved_hash is not None:
         flags.append("held_record_has_approval_digest")
     # Worker 3 included the formulation both at the top and under final_content.
@@ -164,8 +185,19 @@ def canonical(cid, row, *, origin, worker=None, batch_id=None, section=None,
         flags.append("phase3_not_plausible")
     if origin == "final_worker" and not phase3:
         flags.append("missing_phase3_proof_screen")
-    if approved and phase3 and phase3.get("stage_b_reviewed_content_sha256_unregistered") not in (None, approved_hash):
-        flags.append("phase3_reviewed_content_digest_mismatch")
+    phase3_raw_digest = phase3.get("stage_b_reviewed_content_sha256_unregistered") if phase3 else None
+    phase3_digest_is_valid = phase3_raw_digest in (None, approved_hash)
+    if approved and not phase3_digest_is_valid:
+        # Some old Phase 3 fields accidentally contain a concatenation of
+        # several 64-hex-character digests. Preserve raw evidence and accept
+        # an exact candidate digest only at a 64-character boundary.
+        chunks = [phase3_raw_digest[i:i + 64] for i in range(0, len(phase3_raw_digest), 64)] if isinstance(phase3_raw_digest, str) else []
+        if (all(len(x) == 64 and all(ch in "0123456789abcdef" for ch in x) for x in chunks)
+            and approved_hash in chunks):
+            phase3_digest_is_valid = True
+            normalizations.append("phase3_packed_digest_contains_exact_candidate_hash")
+        else:
+            flags.append("phase3_reviewed_content_digest_mismatch")
     source_url = row.get("source_url")
     if not source_url and source_file and isinstance(source_line, int):
         source_url = (f"https://github.com/stacks/stacks-project/blob/"
@@ -202,6 +234,8 @@ def canonical(cid, row, *, origin, worker=None, batch_id=None, section=None,
         "phase3": {
             "outcome": phase3.get("outcome") if phase3 else None,
             "scan_completed": phase3.get("scan_completed") if phase3 else None,
+            "reviewed_content_sha256_raw": phase3_raw_digest,
+            "reviewed_content_digest_compatible": phase3_digest_is_valid if approved else None,
             "reason": phase3.get("reason") if phase3 else None,
             "screening_confidence": phase3.get("proof_screening_confidence") if phase3 else None,
             "proof_checked_on": phase3.get("proof_checked_on") if phase3 else None,
@@ -231,6 +265,7 @@ def canonical(cid, row, *, origin, worker=None, batch_id=None, section=None,
         },
         "audit": {
             "migration_flags": sorted(set(flags)),
+            "lossless_normalizations": sorted(set(normalizations)),
             "record_snapshots": snapshots or [],
         },
     }
