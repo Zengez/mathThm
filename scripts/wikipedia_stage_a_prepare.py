@@ -240,7 +240,7 @@ def mechanical_split(statement: str) -> tuple[list[str], list[str], str]:
     """Only syntax-first splits; never claim these are validated mathematically."""
     if not statement or len(statement) > 1100:
         return [], [], "needs_interpretation"
-    if len(re.findall(r"[.!?](?:\\s|$)", statement)) > 1:
+    if len(re.findall(r"[.!?](?:\s|$)", statement)) > 1:
         return [], [], "needs_interpretation"
     for pattern in (EXACT_IF_THEN, EXACT_LET_THEN):
         match = pattern.match(statement)
