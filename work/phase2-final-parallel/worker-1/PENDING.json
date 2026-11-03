@@ -11,28 +11,6 @@
   "initial_batches": 31,
   "pending": [
     {
-      "batch_id": "p2f-w1-b017",
-      "chapter": "limits",
-      "candidate_count": 2,
-      "sections": [
-        {
-          "chapter": "limits",
-          "section_start_line": 5355,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/limits/section-5355.jsonl",
-          "stage_b_blob_sha": "56519d12ff1de13ca59408800ad3be9462b9b720",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/limits/section-5355.jsonl",
-          "phase3_review_blob_sha": "6a1c1eeb4684e284de9a30d86f3c38a9382c25fc",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/limits/section-5355.jsonl",
-          "phase2_proposal_blob_sha": "e48d3c4e062815a4948a08be3cd2e46a96f26e8d",
-          "candidate_ids": [
-            "candidate.stacks.7b766bef13c8862467fc08c0",
-            "candidate.stacks.390b1db57e461c700a5f49b5"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w1-b018",
       "chapter": "moduli-curves",
       "candidate_count": 4,
