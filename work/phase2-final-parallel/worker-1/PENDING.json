@@ -11,47 +11,6 @@
   "initial_batches": 31,
   "pending": [
     {
-      "batch_id": "p2f-w1-b006",
-      "chapter": "decent-spaces",
-      "candidate_count": 9,
-      "sections": [
-        {
-          "chapter": "decent-spaces",
-          "section_start_line": 5234,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/decent-spaces/section-5234.jsonl",
-          "stage_b_blob_sha": "0170be29838f0214fc2e03bfc87b1b16911f2d4e",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/decent-spaces/section-5234.jsonl",
-          "phase3_review_blob_sha": "51e5bc782acc51171cd3bfbf56a1fcbd52cdba16",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/decent-spaces/section-5234.jsonl",
-          "phase2_proposal_blob_sha": "b642ef953f3ad485f9f4f101336f2cfd7ca1ebdc",
-          "candidate_ids": [
-            "candidate.stacks.5006cf0c520a9adc85e82b2a",
-            "candidate.stacks.a5f4d456365d6a025643dc21",
-            "candidate.stacks.9696566f220d841f5d5cd290",
-            "candidate.stacks.0368043b9319f0c5bc315cd6",
-            "candidate.stacks.010337887c37f6c0d3ee9b14"
-          ]
-        },
-        {
-          "chapter": "decent-spaces",
-          "section_start_line": 5545,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/decent-spaces/section-5545.jsonl",
-          "stage_b_blob_sha": "52566501abd1b5a68bfd71a29245eb16bc903399",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/decent-spaces/section-5545.jsonl",
-          "phase3_review_blob_sha": "8887d191f5b79d32e0746dbc18a8c2482299ac9c",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/decent-spaces/section-5545.jsonl",
-          "phase2_proposal_blob_sha": "06d79052cc5c4bc758adb9ac028c2d2243abee84",
-          "candidate_ids": [
-            "candidate.stacks.ef10916e4cfb1b0381808a89",
-            "candidate.stacks.edd7749818c5bd07ae7aa378",
-            "candidate.stacks.5ebb137d7c84e1393b39a14d",
-            "candidate.stacks.5108087f893612514c6585f5"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w1-b007",
       "chapter": "derham",
       "candidate_count": 15,
