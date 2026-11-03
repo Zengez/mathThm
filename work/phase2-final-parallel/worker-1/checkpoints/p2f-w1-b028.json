@@ -1,0 +1,259 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 1,
+  "branch": "work/phase2-final/chat-1",
+  "batch_id": "p2f-w1-b028",
+  "chapter": "properties",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-1-2026-11-03-resume-c",
+  "completed_on": "2026-11-03",
+  "candidate_count": 41,
+  "approved_count": 31,
+  "held_count": 10,
+  "complete_section_count": 11,
+  "candidate_ids": [
+    "candidate.stacks.48d9db302737446cf6647372",
+    "candidate.stacks.f06b5fd11e911a918ac083aa",
+    "candidate.stacks.fa550763d37dd73ec1f7c8ea",
+    "candidate.stacks.41c3d37860ab1153df4555c1",
+    "candidate.stacks.421a702940dac92f3999d416",
+    "candidate.stacks.024710aaa36f986c583654aa",
+    "candidate.stacks.6fae7aabb7abcdaa842c63b8",
+    "candidate.stacks.8ef9e6a21f570e22fc86bb06",
+    "candidate.stacks.df93126a2fc34f7b9ebf6c81",
+    "candidate.stacks.13db82fb247d297b63f3d853",
+    "candidate.stacks.b81e335cb35099f120b2fa25",
+    "candidate.stacks.b63bde2fd9f9543efa297ea9",
+    "candidate.stacks.085186f6f089aa0dc655b531",
+    "candidate.stacks.90d4fecdfee78befcf247644",
+    "candidate.stacks.11586e5592854f7b1823e50a",
+    "candidate.stacks.9e38253ea4f36b1cf0d20969",
+    "candidate.stacks.16dd8850940ef3806dba3aa8",
+    "candidate.stacks.675f5586b8b756bd6cf2f36c",
+    "candidate.stacks.13a2408b4de18dbaf425b6aa",
+    "candidate.stacks.10c403cd703d460a995d0b7b",
+    "candidate.stacks.a5f0d79398d81a0d52c43a68",
+    "candidate.stacks.ccd4306e047f706c361d1829",
+    "candidate.stacks.4828d1e3742957d1eff08448",
+    "candidate.stacks.aafe3c7223b02d67d2820ff4",
+    "candidate.stacks.c60ed037cf23e07c6f975823",
+    "candidate.stacks.9212e75f09f3bf5ea72fb074",
+    "candidate.stacks.8ac8c1355da67ad947526b28",
+    "candidate.stacks.89eaeb1b61ee685d315f8148",
+    "candidate.stacks.f7b88407d5bc579c767b1854",
+    "candidate.stacks.6fab50d9a7bbf8f7a8ecf7c2",
+    "candidate.stacks.9cb673092a8ee2c635813461",
+    "candidate.stacks.8ffce6499e41f963d4774b52",
+    "candidate.stacks.a95420a0b0999e9343c8246b",
+    "candidate.stacks.e0a158c2823a35796f40763d",
+    "candidate.stacks.99b572ae80963fa15af61c4e",
+    "candidate.stacks.d174088e13bf5287243e6f94",
+    "candidate.stacks.c152877ec8b7e3614ce59983",
+    "candidate.stacks.29dfafb5181579af063cec60",
+    "candidate.stacks.bb2100d18dca75a89581578d",
+    "candidate.stacks.e94651f7de3c02721306cf40",
+    "candidate.stacks.04c20bfb2b17c9077e363332"
+  ],
+  "sections": [
+    {
+      "chapter": "properties",
+      "section_start_line": 1508,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/properties/section-1508.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.48d9db302737446cf6647372",
+        "candidate.stacks.f06b5fd11e911a918ac083aa",
+        "candidate.stacks.fa550763d37dd73ec1f7c8ea",
+        "candidate.stacks.41c3d37860ab1153df4555c1",
+        "candidate.stacks.421a702940dac92f3999d416",
+        "candidate.stacks.024710aaa36f986c583654aa"
+      ],
+      "approved_count": 2,
+      "held_count": 4,
+      "frozen_input_blob_shas": {
+        "stage_b": "2e3d97e56589f1b2549c267e5becdd3cb22ac5d7",
+        "phase3_review": "78982389159e998dc2fd28855cc273cbbcf2e778",
+        "phase2_proposal": "5829e0b1625fbc21b7f1099bea086869f51adf8f"
+      }
+    },
+    {
+      "chapter": "properties",
+      "section_start_line": 1611,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/properties/section-1611.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.6fae7aabb7abcdaa842c63b8",
+        "candidate.stacks.8ef9e6a21f570e22fc86bb06",
+        "candidate.stacks.df93126a2fc34f7b9ebf6c81",
+        "candidate.stacks.13db82fb247d297b63f3d853",
+        "candidate.stacks.b81e335cb35099f120b2fa25",
+        "candidate.stacks.b63bde2fd9f9543efa297ea9"
+      ],
+      "approved_count": 5,
+      "held_count": 1,
+      "frozen_input_blob_shas": {
+        "stage_b": "4fd2721ea4605de64b87827ff8d1b044ba65ced9",
+        "phase3_review": "5b5acc6c2a1f7e25470e65ceae137bab845f1694",
+        "phase2_proposal": "f0383e2235713042005a5604c8c8ecc54c0ae561"
+      }
+    },
+    {
+      "chapter": "properties",
+      "section_start_line": 1802,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/properties/section-1802.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.085186f6f089aa0dc655b531",
+        "candidate.stacks.90d4fecdfee78befcf247644"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "d8f431e460b97a4213f1ec130cf1de17af3c8955",
+        "phase3_review": "8bfcb09359fbff668574f505ec01fe9c16fb56dd",
+        "phase2_proposal": "32f39d5b14579d67c0ad3b2722577d76a819a716"
+      }
+    },
+    {
+      "chapter": "properties",
+      "section_start_line": 1904,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/properties/section-1904.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.11586e5592854f7b1823e50a",
+        "candidate.stacks.9e38253ea4f36b1cf0d20969",
+        "candidate.stacks.16dd8850940ef3806dba3aa8"
+      ],
+      "approved_count": 3,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "f2b8c19a022ae03195ddd0011dc523658d3e8500",
+        "phase3_review": "0aaafbccce57f9b3f184dfaa1bea3cf341857153",
+        "phase2_proposal": "e058f16a7a7ff8192e1cc9ad1c6ad93b5d55e51c"
+      }
+    },
+    {
+      "chapter": "properties",
+      "section_start_line": 2075,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/properties/section-2075.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.675f5586b8b756bd6cf2f36c",
+        "candidate.stacks.13a2408b4de18dbaf425b6aa"
+      ],
+      "approved_count": 0,
+      "held_count": 2,
+      "frozen_input_blob_shas": {
+        "stage_b": "21e2e1801fefbb4ddd600e7a0846652fd6cc2ee5",
+        "phase3_review": "7e609881c78458c3de2b2bbaaff7a759226b3547",
+        "phase2_proposal": "1c39bfe146e0c69c82144d7f3edf05f48af75f83"
+      }
+    },
+    {
+      "chapter": "properties",
+      "section_start_line": 2403,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/properties/section-2403.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.10c403cd703d460a995d0b7b",
+        "candidate.stacks.a5f0d79398d81a0d52c43a68",
+        "candidate.stacks.ccd4306e047f706c361d1829",
+        "candidate.stacks.4828d1e3742957d1eff08448"
+      ],
+      "approved_count": 3,
+      "held_count": 1,
+      "frozen_input_blob_shas": {
+        "stage_b": "50b9d7f58d1cf8090c99156845bf8ee4428e2777",
+        "phase3_review": "26785131bd8719b5467f677de55d8f3e30037e69",
+        "phase2_proposal": "73c632240d1e8dd33f78371373450da9008f76d2"
+      }
+    },
+    {
+      "chapter": "properties",
+      "section_start_line": 2590,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/properties/section-2590.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.aafe3c7223b02d67d2820ff4"
+      ],
+      "approved_count": 0,
+      "held_count": 1,
+      "frozen_input_blob_shas": {
+        "stage_b": "be4b6651c0bf9e06eb5a16a23bb74f5621aab140",
+        "phase3_review": "7cb36e2d5d8d2013437f048510fb295f1087b532",
+        "phase2_proposal": "6f75d946ce1912d5bf75c46cbbb986d70dc5054d"
+      }
+    },
+    {
+      "chapter": "properties",
+      "section_start_line": 2626,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/properties/section-2626.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.c60ed037cf23e07c6f975823",
+        "candidate.stacks.9212e75f09f3bf5ea72fb074",
+        "candidate.stacks.8ac8c1355da67ad947526b28"
+      ],
+      "approved_count": 2,
+      "held_count": 1,
+      "frozen_input_blob_shas": {
+        "stage_b": "8c1bc596a3287da4d8571f8581e6f8b4e595fa45",
+        "phase3_review": "1c21e7b919a4fefe0eb94f6d7f7688df13cbd8de",
+        "phase2_proposal": "adf5a1a52f5aa5a413f904c3e6339ce1a472e06d"
+      }
+    },
+    {
+      "chapter": "properties",
+      "section_start_line": 2714,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/properties/section-2714.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.89eaeb1b61ee685d315f8148",
+        "candidate.stacks.f7b88407d5bc579c767b1854"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "787e32377deaf03af7fa84b948e59285a011d063",
+        "phase3_review": "623eb7550a03e3421fd0f2f6cc822bc0a170b06e",
+        "phase2_proposal": "75653ad35625c060e92f8be715d26833b44aae3c"
+      }
+    },
+    {
+      "chapter": "properties",
+      "section_start_line": 2786,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/properties/section-2786.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.6fab50d9a7bbf8f7a8ecf7c2",
+        "candidate.stacks.9cb673092a8ee2c635813461",
+        "candidate.stacks.8ffce6499e41f963d4774b52",
+        "candidate.stacks.a95420a0b0999e9343c8246b",
+        "candidate.stacks.e0a158c2823a35796f40763d",
+        "candidate.stacks.99b572ae80963fa15af61c4e",
+        "candidate.stacks.d174088e13bf5287243e6f94",
+        "candidate.stacks.c152877ec8b7e3614ce59983",
+        "candidate.stacks.29dfafb5181579af063cec60",
+        "candidate.stacks.bb2100d18dca75a89581578d"
+      ],
+      "approved_count": 10,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "c94cf84977b89b7a23d4f882a8215bac98a6ec0d",
+        "phase3_review": "f1c06feefc9b7a8046e0c15b2fbce9b95e92c44f",
+        "phase2_proposal": "01eee6f0c3d171cf9c853540f1c622ef77fbd985"
+      }
+    },
+    {
+      "chapter": "properties",
+      "section_start_line": 3500,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/properties/section-3500.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.e94651f7de3c02721306cf40",
+        "candidate.stacks.04c20bfb2b17c9077e363332"
+      ],
+      "approved_count": 2,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "ee834b057f11cbd0010efe5e4775fdcf694f7f62",
+        "phase3_review": "63b153ff64b3ac2bf6929b02b7bb9b7ff54f75c5",
+        "phase2_proposal": "58013327bf64b2e5823f612c0ede71a28b84affd"
+      }
+    }
+  ],
+  "complete_sections": true,
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "source_equivalence_status": "awaiting_central_registration",
+  "input_blob_hashes_verified": true
+}
