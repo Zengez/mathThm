@@ -6,7 +6,7 @@ const catalog=JSON.parse(fs.readFileSync(path.join(__dirname,"../data/theorems.j
 test("empty queries select all once",()=>{
   const hits=core.search(catalog,"","");
   assert.equal(hits.length,catalog.length);
-  assert.equal(new Set(hits.map(h=>h.theorem.id)).size,20);
+  assert.equal(new Set(hits.map(h=>h.theorem.id)).size,catalog.length);
 });
 test("hypothesis/conclusion AND is directional",()=>{
   const hits=core.search(catalog,"finite group","orbit");
