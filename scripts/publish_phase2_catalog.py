@@ -200,6 +200,7 @@ def make_record(r):
         "logical_form": f.get("logical_form"),
         "structured_cases": f.get("structured_cases") or [],
         "source_attribution": "The Stacks Project contributors",
+        "statement_editorial": "Prior Phase 2 source-equivalence review accepted this restatement; proof correctness not independently audited.",
     }
     return {"candidate_id": cid, "status": "publishable", "theorem": theorem}
 
