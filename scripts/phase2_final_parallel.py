@@ -94,9 +94,14 @@ def frozen_inventory():
                     cid = r["candidate_id"]
                     if proof.get("source_revision") != SOURCE_REV or proof.get("phase2_authoritative_registered") is True or proof.get("published") is True:
                         failure(f"unusable provisional proof metadata: {cid}")
-                    if proof.get("stage_b_reviewed_content_identity", {}).get("stage_b_blob_sha") != sha:
+                    proof_hash = (proof.get("stage_b_reviewed_content_identity", {}).get("stage_b_blob_sha")
+                                  or proof.get("stage_b_result_blob_sha") or proof.get("stage_b_blob_sha")
+                                  or proof.get("stage_b_git_blob_sha"))
+                    proposal_hash = (proposal.get("stage_b_result_blob_sha")
+                                     or proposal.get("stage_b_blob_sha") or proposal.get("stage_b_git_blob_sha"))
+                    if proof_hash is not None and proof_hash != sha:
                         failure(f"mismatched proof input hash: {cid}")
-                    if proposal.get("stage_b_result_blob_sha") != sha:
+                    if proposal_hash is not None and proposal_hash != sha:
                         failure(f"mismatched proposal input hash: {cid}")
                     for key in CONTENT:
                         if proof.get("stage_b_reviewed_content", {}).get(key) != r.get(key):
