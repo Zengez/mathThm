@@ -11,28 +11,6 @@
   "initial_batches": 33,
   "pending": [
     {
-      "batch_id": "p2f-w2-b028",
-      "chapter": "modules",
-      "candidate_count": 2,
-      "sections": [
-        {
-          "chapter": "modules",
-          "section_start_line": 5413,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/modules/section-5413.jsonl",
-          "stage_b_blob_sha": "7a4fc8b8ca96af7a06812812f4f41cc0be63da84",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/modules/section-5413.jsonl",
-          "phase3_review_blob_sha": "4af799ca72c0fa665acb539f22e2cd192bbcbd12",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/modules/section-5413.jsonl",
-          "phase2_proposal_blob_sha": "0139565301a52b88380d78848799898a76dadac2",
-          "candidate_ids": [
-            "candidate.stacks.b19f5a1c66ff7eaacfba8278",
-            "candidate.stacks.046db0558cc473fb6efc30a3"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w2-b029",
       "chapter": "simplicial",
       "candidate_count": 32,
