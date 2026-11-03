@@ -1,28 +1,35 @@
-# Wikipedia Stage A — worker 1 (exclusive lane)
+# mathThm Wikipedia Stage A — editorial worker 1 (exclusive lane)
 
-Repository: Zengez/mathThm
-Base branch: work/wikipedia-stage-a-20261103
-Input: work/wikipedia-stage-a/20261103/worker-1/needs_interpretation.jsonl
+Repository: `Zengez/mathThm`  
+Prepared source branch: `work/wikipedia-stage-a-20261103`  
+Your exclusive output branch: `work/wikipedia-stage-a/worker-1`
 
-Review your entire *assigned* queue (currently 268 rows). Only split the
-Wikipedia top excerpt into an accurate theorem statement, separate hypotheses
-and conclusions, and preserve quantified conditions and scope.
-Use `source_excerpt`, `source_statement_excerpt`, `source_section`, and the
-live Wikipedia article when genuinely necessary. An article may contain multiple
-statements; extract one distinct central result first and flag others explicitly.
-**Do not** invent conditions, assume a theorem from the page title, collapse
-two-direction equivalences, check proof correctness, or perform another
-duplicate search. A difficult/unclear case may be held, not guessed.
+**Start processing immediately; this is statement preparation, not a new theorem-discovery, duplicate-detection, or proof-validation project.**
 
-Write your own results to `work/wikipedia-stage-a/20261103/worker-1/
-editorial_decisions.jsonl` on your own branch
-`work/wikipedia-stage-a/worker-1`, without editing other workers'
-files. Each decision must retain `candidate_id`, `url`, `source_statement_excerpt`,
-`statement` (or null), `hypotheses`, `conclusions`, and status
-(`standalone_prepared` or `held_for_source_clarity`) with a concise reason.
-Work in batches; save results incrementally, resuming by candidate ID only.
+## Your exact 281-URL assignment
 
-The 13 mechanically split cases for this lane are separate in
-`mechanical_suggestions.jsonl`. These are **draft suggestions, not verified
-mathematical formulations**. Do not promote them automatically to the public
-catalog. This work is statement preparation only, not a proof review.
+- Main queue (268 rows): `work/wikipedia-stage-a/20261103/worker-1/needs_interpretation.jsonl`
+- Small tentative-split queue (13 rows): `work/wikipedia-stage-a/20261103/worker-1/mechanical_suggestions.jsonl`
+
+Both files belong exclusively to worker 1. **Process both; the machine suggestions are not approved theorem formulations.** All four workers' URL sets are disjoint. Do not inspect or modify the other workers' queues.
+
+For each row, use the already-fetched `source_excerpt`, `source_statement_excerpt`, `source_section`, and original Wikipedia URL to identify the *central mathematical result*. Prepare a faithful, stand-alone `statement`, and separate `hypotheses` and `conclusions` in the same style as the published mathThm records. Preserve quantifiers, ambient definitions, scope, and directionality. A theorem with an `if and only if` must retain both directions; do not silently drop one.
+
+The Wikipedia text extractor preserved displayed math and list items, but a selected paragraph can still refer to a following formula or a missing definition. Check adjacent excerpt paragraphs; open the article briefly only if necessary. If source material is insufficient or multiple fundamentally different theorems are inseparable, mark the candidate `held_for_source_clarity` and move on. Prioritize throughput over unraveling ambiguities; never guess missing assumptions.
+
+## Deliverable
+
+On your exclusive output branch, save or incrementally update:
+`work/wikipedia-stage-a/20261103/worker-1/editorial_decisions.jsonl`
+
+Each JSONL record must include:
+- `candidate_id`, `url`, `title`, and `source_statement_excerpt` from the input
+- `statement` (faithful unified claim, or null if held)
+- `hypotheses` and `conclusions` (arrays; preserve mathematical logic)
+- `status`: `standalone_prepared` or `held_for_source_clarity`
+- A short `editorial_note` describing any uncertainty or the hold reason
+- Optional `source_section`, `equivalence_sides`, and `structured_cases` when genuinely needed
+
+Do not add any of this to `data/theorems.json` or `data/maththm_master.jsonl`. Do not validate proofs, do a fresh global duplicate search, invent missing lemmas, or audit the source mathematics. This is only Wikipedia Stage A statement preparation.
+
+Work in batches of about 25–50 candidates, **commit progress regularly**, and resume by stable `candidate_id`. You may allow a few candidates to remain held; do not spend disproportionate time resolving them. At completion, account for all 281 assigned IDs exactly once (including the 13 tentative-split entries).
