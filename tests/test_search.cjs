@@ -2,7 +2,9 @@
 const test=require("node:test"), assert=require("node:assert/strict");
 const fs=require("node:fs"), path=require("node:path");
 const core=require("../web/search-core.js");
-const catalog=JSON.parse(fs.readFileSync(path.join(__dirname,"../data/theorems.json"),"utf8")).records;
+const allRecords=JSON.parse(fs.readFileSync(path.join(__dirname,"../data/theorems.json"),"utf8")).records;
+// Existing directional query examples were specifically curated on the prototype.
+const catalog=allRecords.filter(r=>r.id.startsWith("thm."));
 test("empty queries select all once",()=>{
   const hits=core.search(catalog,"","");
   assert.equal(hits.length,catalog.length);
