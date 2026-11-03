@@ -2,6 +2,8 @@
 (() => {
   const $=id=>document.getElementById(id), core=window.MathThmSearch;
   const mathdef=window.MathThmDefinitions;
+  let editors=null;
+  const queryFor=side=>editors?editors[side].expression():$(side==="hypotheses"?"hypothesis-query":"conclusion-query").value;
   const state={records:[],mode:"auto",expanded:new Set(),defs:new Map(),
     definitions:null,fullHtmlCache:new Map(),snapshotVersion:null,visibleLimit:50};
   const resolve=id=>state.definitions?.resolve(id)||state.defs.get(id)||null;
@@ -47,7 +49,7 @@
   const preview=(text,n=175)=>text.length<=n?text:text.slice(0,Math.max(90,text.slice(0,n).lastIndexOf(" ")))+"…";
   function card(hit,total){
     const t=hit.theorem,full=core.modeFor(state.mode,total,state.expanded.has(t.id))==="full";
-    const hq=$("hypothesis-query").value.trim(),cq=$("conclusion-query").value.trim();
+    const hq=core.hasTerms(queryFor("hypotheses")),cq=core.hasTerms(queryFor("conclusions"));
     const tags=[hq&&hit.hypothesisHit.why==="tag"?"Hypothesis tag: "+hit.hypothesisHit.tag:"",
       cq&&hit.conclusionHit.why==="tag"?"Conclusion tag: "+hit.conclusionHit.tag:""].filter(Boolean);
     const body=full?'<div class="statement">'+(state.fullHtmlCache.get(t.id)||(()=>{const h=paras(t.statement,t);state.fullHtmlCache.set(t.id,h);return h;})())+'</div>':
@@ -68,7 +70,7 @@
       '<a href="'+esc(issue)+'" target="_blank" rel="noopener noreferrer">Suggest correction ↗</a></div></article>';
   }
   function render(){
-    const hits=core.search(state.records,$("hypothesis-query").value,$("conclusion-query").value);
+    const hits=core.search(state.records,queryFor("hypotheses"),queryFor("conclusions"));
     $("result-count").textContent=hits.length+" result"+(hits.length===1?"":"s");
     const mode=core.modeFor(state.mode,hits.length);
     $("results-summary").textContent=(hits.length===state.records.length?"All catalog results":"Filtered results")+
@@ -195,13 +197,24 @@
       render();loadMathDef();
     }catch(e){$("error").hidden=false;$("error").textContent="Could not load theorem records: "+e.message;}
   }
-  for(const key of ["hypothesis-query","conclusion-query"])$(key).addEventListener("input",()=>{state.expanded.clear();state.visibleLimit=50;render()});
+  function queryChanged(){state.expanded.clear();state.visibleLimit=50;render();}
+  if(window.MathThmQueryEditor && $("hypothesis-builder") && $("conclusion-builder")){
+    editors={
+      hypotheses:window.MathThmQueryEditor.create($("hypothesis-builder"),"hypotheses",queryChanged),
+      conclusions:window.MathThmQueryEditor.create($("conclusion-builder"),"conclusions",queryChanged)
+    };
+  }else{
+    // Keep single-field behavior when the standalone query editor is unavailable.
+    for(const key of ["hypothesis-query","conclusion-query"])$(key).addEventListener("input",queryChanged);
+  }
   document.querySelectorAll("[data-view]").forEach(button=>button.addEventListener("click",()=>{
     state.mode=button.dataset.view;state.expanded.clear();
     document.querySelectorAll("[data-view]").forEach(b=>{b.classList.toggle("active",b===button);b.setAttribute("aria-pressed",String(b===button));});render();
   }));
   $("clear-search").addEventListener("click",()=>{
-    $("hypothesis-query").value="";$("conclusion-query").value="";state.expanded.clear();state.visibleLimit=50;render();$("hypothesis-query").focus();
+    if(editors){editors.hypotheses.clear(false);editors.conclusions.clear(false);}
+    else{$("hypothesis-query").value="";$("conclusion-query").value="";}
+    queryChanged();$("hypothesis-query").focus();
   });
   $("results").addEventListener("click",event=>{
     if(event.target.closest("[data-show-more]")){state.visibleLimit+=50;render();return;}
