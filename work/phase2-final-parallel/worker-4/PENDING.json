@@ -11,44 +11,6 @@
   "initial_batches": 32,
   "pending": [
     {
-      "batch_id": "p2f-w4-b004",
-      "chapter": "categories",
-      "candidate_count": 6,
-      "sections": [
-        {
-          "chapter": "categories",
-          "section_start_line": 8654,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/categories/section-8654.jsonl",
-          "stage_b_blob_sha": "d6bffa80977791d31fca2554fc461e5428f806b9",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/categories/section-8654.jsonl",
-          "phase3_review_blob_sha": "7860f6910358bf8c5d65cdab4597ef258e1f9580",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/categories/section-8654.jsonl",
-          "phase2_proposal_blob_sha": "bc3896a3ef29cdcf479c09bac69d59a575864bb3",
-          "candidate_ids": [
-            "candidate.stacks.540fda1ffbcd6dc06a8c6d79",
-            "candidate.stacks.4a7d541bb453fd68ab68747b",
-            "candidate.stacks.fff12d2a16e483b8964803a0",
-            "candidate.stacks.7446ff81261fe1c845e6b4bc"
-          ]
-        },
-        {
-          "chapter": "categories",
-          "section_start_line": 8914,
-          "stage_b_file": "work/stageb-parallel/worker-4/results/categories/section-8914.jsonl",
-          "stage_b_blob_sha": "2df7d23d65399d85a461aee0a3e72d52477ed835",
-          "phase3_review_file": "work/phase3-parallel/worker-4/proof_reviews/categories/section-8914.jsonl",
-          "phase3_review_blob_sha": "399eca57d1548522a71722653c144c731c04557f",
-          "phase2_proposal_file": "work/phase3-parallel/worker-4/phase2_proposals/categories/section-8914.jsonl",
-          "phase2_proposal_blob_sha": "bdea81f5e8781ba76a437d8b72090ad77959af97",
-          "candidate_ids": [
-            "candidate.stacks.72a453d45804068fca24030f",
-            "candidate.stacks.d7bf17d71c757a0c9bd8e4a8"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w4-b005",
       "chapter": "chow",
       "candidate_count": 14,
