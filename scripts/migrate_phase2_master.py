@@ -260,7 +260,10 @@ def validate_records(records):
             if form["approved_content_sha256"] != content_digest(
                 cid, r["source"]["revision"], form
             ):
-                problems.append({"candidate_id": cid, "issue": "master_content_digest_mismatch"})
+                # A source-record digest disagreement is preserved as an explicit
+                # publication blocker; it is not a lossless-migration failure.
+                if "approved_formulation_digest_mismatch" not in r["audit"]["migration_flags"]:
+                    problems.append({"candidate_id": cid, "issue": "unexplained_master_content_digest_mismatch"})
         if r["publication"]["published"] or r["publication"]["publication_ready"]:
             problems.append({"candidate_id": cid, "issue": "premature_publication_flag"})
     return problems
@@ -426,6 +429,7 @@ def main():
     if report["migration_issues"]:
         print(f"Found {len(report['migration_issues'])} migration issues requiring classification; "
               f"see {REPORT.relative_to(ROOT)}")
+        print("FIRST_25_EXCEPTIONS=" + json.dumps(report["migration_issues"][:25], ensure_ascii=False))
     # Issues do not remove records; none are silently approved or published.
     if validate_records(records):
         raise SystemExit("Master file has structural validation problems")
