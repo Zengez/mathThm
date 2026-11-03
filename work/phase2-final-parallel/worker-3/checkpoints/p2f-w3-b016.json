@@ -1,0 +1,113 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 3,
+  "branch": "work/phase2-final/chat-3",
+  "batch_id": "p2f-w3-b016",
+  "chapter": "relative-cycles",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "chatgpt-gpt6-final-phase2-worker-3-resumption-2026-11-03",
+  "status": "complete_pending_central_registration",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "candidate_ids": [
+    "candidate.stacks.d8161efc87d5bcd35e5c939b",
+    "candidate.stacks.0f196b29204ca3491c2ee827",
+    "candidate.stacks.cb343f9d34262e34a36eae56",
+    "candidate.stacks.c60ba698708ce5c9213cb20e",
+    "candidate.stacks.0dca36203e19d21c9dfd8d8e",
+    "candidate.stacks.5a223fd6fcb2af2ce0385d3a",
+    "candidate.stacks.d843586ef624df4329ec908a",
+    "candidate.stacks.3b6c113b5d1e94db4cb67e46",
+    "candidate.stacks.5a4243f933410c5bcb764ca8",
+    "candidate.stacks.e48d43f7914d4777383b6c52",
+    "candidate.stacks.51e3c1793feb0b2fb834e117",
+    "candidate.stacks.0e176b192558d9e510dc64e7",
+    "candidate.stacks.4234b2936dc105968e73e336",
+    "candidate.stacks.aca2eb5814de9a426e7589e3",
+    "candidate.stacks.184214d0af60ae5fdf68b6f5"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.d8161efc87d5bcd35e5c939b",
+    "candidate.stacks.0f196b29204ca3491c2ee827",
+    "candidate.stacks.cb343f9d34262e34a36eae56",
+    "candidate.stacks.c60ba698708ce5c9213cb20e",
+    "candidate.stacks.0dca36203e19d21c9dfd8d8e",
+    "candidate.stacks.5a223fd6fcb2af2ce0385d3a",
+    "candidate.stacks.d843586ef624df4329ec908a",
+    "candidate.stacks.5a4243f933410c5bcb764ca8",
+    "candidate.stacks.e48d43f7914d4777383b6c52",
+    "candidate.stacks.51e3c1793feb0b2fb834e117",
+    "candidate.stacks.0e176b192558d9e510dc64e7",
+    "candidate.stacks.4234b2936dc105968e73e336",
+    "candidate.stacks.aca2eb5814de9a426e7589e3",
+    "candidate.stacks.184214d0af60ae5fdf68b6f5"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.3b6c113b5d1e94db4cb67e46"
+  ],
+  "candidate_count": 15,
+  "approved_count": 14,
+  "held_count": 1,
+  "section_count": 5,
+  "sections": [
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/relative-cycles/section-68.jsonl",
+      "source_section_start_line": 68,
+      "candidate_ids": [
+        "candidate.stacks.d8161efc87d5bcd35e5c939b",
+        "candidate.stacks.0f196b29204ca3491c2ee827"
+      ],
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/relative-cycles/section-724.jsonl",
+      "source_section_start_line": 724,
+      "candidate_ids": [
+        "candidate.stacks.cb343f9d34262e34a36eae56",
+        "candidate.stacks.c60ba698708ce5c9213cb20e",
+        "candidate.stacks.0dca36203e19d21c9dfd8d8e",
+        "candidate.stacks.5a223fd6fcb2af2ce0385d3a",
+        "candidate.stacks.d843586ef624df4329ec908a",
+        "candidate.stacks.3b6c113b5d1e94db4cb67e46",
+        "candidate.stacks.5a4243f933410c5bcb764ca8",
+        "candidate.stacks.e48d43f7914d4777383b6c52",
+        "candidate.stacks.51e3c1793feb0b2fb834e117"
+      ],
+      "approvals": 8,
+      "holds": 1
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/relative-cycles/section-1314.jsonl",
+      "source_section_start_line": 1314,
+      "candidate_ids": [
+        "candidate.stacks.0e176b192558d9e510dc64e7"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/relative-cycles/section-1644.jsonl",
+      "source_section_start_line": 1644,
+      "candidate_ids": [
+        "candidate.stacks.4234b2936dc105968e73e336",
+        "candidate.stacks.aca2eb5814de9a426e7589e3"
+      ],
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/relative-cycles/section-1873.jsonl",
+      "source_section_start_line": 1873,
+      "candidate_ids": [
+        "candidate.stacks.184214d0af60ae5fdf68b6f5"
+      ],
+      "approvals": 1,
+      "holds": 0
+    }
+  ],
+  "immutable_input_sha_check": "pass",
+  "exact_id_order_check": "pass",
+  "pinned_source_context_check": "pass",
+  "stage_a_and_stage_b_reviewer_chain_checked": "pass"
+}
