@@ -1,5 +1,5 @@
 name: Triage Wikipedia theorem URLs
-# Acceptance refinement: exclude theorem-proving tools and proof-list categories.
+# Acceptance refinement: also guard against games, biographies, and software articles.
 
 on:
   push:
