@@ -110,7 +110,8 @@ def frozen_inventory():
                             failure(f"reviewed content differs in proof: {cid} / {key}")
                         if key in proposal_content and proposal_content[key] != r.get(key):
                             failure(f"reviewed content differs in proposal: {cid} / {key}")
-                    if proposal.get("source_identity", {}).get("original_source_statement_tex") != r.get("original_source_statement_tex"):
+                    prop_source = proposal.get("source_identity") or {}
+                    if "original_source_statement_tex" in prop_source and prop_source["original_source_statement_tex"] != r.get("original_source_statement_tex"):
                         failure(f"original source text differs: {cid}")
                     if r.get("decision") != POSITIVE or not r.get("review_note") or r.get("source_first_review") is not True:
                         failure(f"missing Stage B review: {cid}")
