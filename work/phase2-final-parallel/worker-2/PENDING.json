@@ -11,55 +11,6 @@
   "initial_batches": 33,
   "pending": [
     {
-      "batch_id": "p2f-w2-b022",
-      "chapter": "examples-defos",
-      "candidate_count": 5,
-      "sections": [
-        {
-          "chapter": "examples-defos",
-          "section_start_line": 1944,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/examples-defos/section-1944.jsonl",
-          "stage_b_blob_sha": "d5c813222b54c9e55573151952655473fe1a62b5",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/examples-defos/section-1944.jsonl",
-          "phase3_review_blob_sha": "7d6e3626427cea92f9af20ac88ad9f3126359ec4",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/examples-defos/section-1944.jsonl",
-          "phase2_proposal_blob_sha": "756590a750cca09d3f15b97ef26ce2815d2abf7b",
-          "candidate_ids": [
-            "candidate.stacks.b39c49a657e30dc6fccae2d4",
-            "candidate.stacks.f08d1e53306486687f12c468"
-          ]
-        },
-        {
-          "chapter": "examples-defos",
-          "section_start_line": 2467,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/examples-defos/section-2467.jsonl",
-          "stage_b_blob_sha": "9f647d1cc1fa011d90a9944ce69dce3e2ba116c9",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/examples-defos/section-2467.jsonl",
-          "phase3_review_blob_sha": "0b11a1a130dd299c797586f2f1850746efee4bd2",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/examples-defos/section-2467.jsonl",
-          "phase2_proposal_blob_sha": "d88ea03dd12f47df3beeb578a4eafcb7b9484618",
-          "candidate_ids": [
-            "candidate.stacks.fd57da4fc2ab6f2e53bd40e0"
-          ]
-        },
-        {
-          "chapter": "examples-defos",
-          "section_start_line": 2888,
-          "stage_b_file": "work/stageb-parallel/worker-2/results/examples-defos/section-2888.jsonl",
-          "stage_b_blob_sha": "785aac16e5bd9e4835e00c8f09812375975b7e4a",
-          "phase3_review_file": "work/phase3-parallel/worker-2/proof_reviews/examples-defos/section-2888.jsonl",
-          "phase3_review_blob_sha": "5ce905001928eb02d42b1bc06264fd1031ba1ba8",
-          "phase2_proposal_file": "work/phase3-parallel/worker-2/phase2_proposals/examples-defos/section-2888.jsonl",
-          "phase2_proposal_blob_sha": "07a2daad0d157ec5551395ab1e47f875cc496010",
-          "candidate_ids": [
-            "candidate.stacks.182d33350b93913eeaaaf71e",
-            "candidate.stacks.10b226c351b939c521817e44"
-          ]
-        }
-      ],
-      "status": "pending"
-    },
-    {
       "batch_id": "p2f-w2-b023",
       "chapter": "examples-stacks",
       "candidate_count": 3,
