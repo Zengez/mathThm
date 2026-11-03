@@ -71,3 +71,14 @@ test("removing, ungrouping, and clear do not leave stale conditions",()=>{
   assert.equal(core.hasTerms(a.editor.expression()),false);
   assert.match(a.logic.textContent,/No filters/);
 });
+
+// The resolved expression is intentionally visually prominent beneath each column.
+test("the query interpretation has dedicated high-contrast output markup",()=>{
+  const html=fs.readFileSync(path.join(__dirname,"../web/index.html"),"utf8");
+  const css=fs.readFileSync(path.join(__dirname,"../web/query-editor.css"),"utf8");
+  assert.match(html,/<output class="query-logic-expression" id="hypotheses-logic">/);
+  assert.match(html,/<output class="query-logic-expression" id="conclusions-logic">/);
+  assert.equal((html.match(/class="query-logic-label">Search logic/g)||[]).length,2);
+  assert.match(css,/\.query-logic-expression\{[^}]*font-size:15px;[^}]*font-weight:700;/);
+  assert.match(css,/\.query-logic\{[^}]*border-left:3px solid/);
+});

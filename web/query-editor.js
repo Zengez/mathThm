@@ -82,7 +82,11 @@
       return html;
     }
     function preview() {
-      if (logic) logic.textContent="Interpreted: "+(root?.MathThmSearch?.describeExpression(tree)||"No filters (all theorems)");
+      if (logic) {
+        const expression=root?.MathThmSearch?.describeExpression(tree)||"";
+        logic.textContent=expression||"No filters (all theorems)";
+        if (logic.parentElement) logic.parentElement.dataset.empty=String(!expression);
+      }
     }
     function render() {
       usedPrimary=false;

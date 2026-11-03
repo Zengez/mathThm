@@ -18,7 +18,11 @@
 .query-add [data-action="add-group"]:hover{background:#dceafd;border-color:#97b5d7}
 .query-nested{min-width:0;border:1px solid #c8d8e9;background:#f8fbff;border-radius:10px;padding:8px 6px 8px 3px}
 .query-group-label{font-size:11px;font-weight:750;color:#587899;padding:3px 5px 1px;letter-spacing:.02em}
-.query-logic{font-size:11px;color:#64819e;line-height:1.5;overflow-wrap:anywhere;margin:10px 0 0!important;min-height:0!important}
+/* Query interpretation is a readable result, not tiny helper text. */
+.query-logic{display:grid;gap:4px;min-width:0;margin:14px 0 0;padding:11px 13px;background:#f0f5fb;border:1px solid #ccdaeb;border-left:3px solid #4778ad;border-radius:9px}
+.query-logic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#365d87}
+.query-logic-expression{display:block;color:#203650;font-size:15px;font-weight:700;line-height:1.55;overflow-wrap:anywhere;white-space:normal}
+.query-logic[data-empty="true"] .query-logic-expression{color:#61758d;font-weight:500}
 @media(max-width:1060px){
   .query-group{--query-gutter:62px;--query-gap:5px}
   .query-action{padding:7px 6px}

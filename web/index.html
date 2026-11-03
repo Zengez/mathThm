@@ -30,13 +30,13 @@
       <div class="search-box">
         <label for="hypothesis-query">⌕ &nbsp; Hypotheses</label><p>What do I know? Searches assumptions and hypothesis tags.</p>
         <div id="hypothesis-builder" class="query-builder"><input id="hypothesis-query" type="search" placeholder="e.g. compactness" autocomplete="off" spellcheck="false"></div>
-        <p class="query-logic" id="hypotheses-logic">Interpreted: No filters (all theorems)</p>
+        <div class="query-logic" data-empty="true"><span class="query-logic-label">Search logic</span><output class="query-logic-expression" id="hypotheses-logic">No filters (all theorems)</output></div>
       </div>
       <div class="column-join" aria-label="Both searches must match"><span>AND</span></div>
       <div class="search-box">
         <label for="conclusion-query">⌕ &nbsp; Conclusions</label><p>What do I want to establish? Searches results and conclusion tags.</p>
         <div id="conclusion-builder" class="query-builder"><input id="conclusion-query" type="search" placeholder="e.g. orbit, maximum, unique" autocomplete="off" spellcheck="false"></div>
-        <p class="query-logic" id="conclusions-logic">Interpreted: No filters (all theorems)</p>
+        <div class="query-logic" data-empty="true"><span class="query-logic-label">Search logic</span><output class="query-logic-expression" id="conclusions-logic">No filters (all theorems)</output></div>
       </div>
     </section>
     <div class="toolbar">
