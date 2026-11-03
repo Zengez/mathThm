@@ -1,0 +1,102 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b030",
+  "chapter": "simplicial",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-chat-continuation",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 13,
+  "approved_count": 12,
+  "held_count": 1,
+  "section_count": 5,
+  "candidate_ids": [
+    "candidate.stacks.0328cae4f9a8822b31cb4636",
+    "candidate.stacks.a5170302732bd9dfacdf0595",
+    "candidate.stacks.0b0ff987be48da4f9f3b4097",
+    "candidate.stacks.4f6881696aab991efa2d8687",
+    "candidate.stacks.7cbfa5bea71a15ed0ec2765c",
+    "candidate.stacks.4828f1c922a68b6a2d3a4e22",
+    "candidate.stacks.477d88fce1db787108da8baf",
+    "candidate.stacks.d33d7bf128aa4841c6985ca3",
+    "candidate.stacks.a4c0df2286db9091d35779fa",
+    "candidate.stacks.b4c1a87d338025b32c2dd1e4",
+    "candidate.stacks.a70577198af7295b8dd4ede6",
+    "candidate.stacks.5e27c5760c4c01908e03f9f8",
+    "candidate.stacks.4e2ca1a1b815d54f07956728"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.a5170302732bd9dfacdf0595"
+  ],
+  "decision_files": [
+    {
+      "chapter": "simplicial",
+      "section_start_line": 4737,
+      "candidate_ids": [
+        "candidate.stacks.0328cae4f9a8822b31cb4636"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/simplicial/section-4737.jsonl",
+      "decision_blob_sha": "0ed3d3c81dffbc5f295317a0a7861520373d42e7",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "simplicial",
+      "section_start_line": 4867,
+      "candidate_ids": [
+        "candidate.stacks.a5170302732bd9dfacdf0595"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/simplicial/section-4867.jsonl",
+      "decision_blob_sha": "fb0b2db1863d095d2497d39f919b1957f2eed148",
+      "approvals": 0,
+      "holds": 1
+    },
+    {
+      "chapter": "simplicial",
+      "section_start_line": 5510,
+      "candidate_ids": [
+        "candidate.stacks.0b0ff987be48da4f9f3b4097",
+        "candidate.stacks.4f6881696aab991efa2d8687",
+        "candidate.stacks.7cbfa5bea71a15ed0ec2765c"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/simplicial/section-5510.jsonl",
+      "decision_blob_sha": "b76e4af8bfe3763efd1c2438dbbccf22ea1bafaa",
+      "approvals": 3,
+      "holds": 0
+    },
+    {
+      "chapter": "simplicial",
+      "section_start_line": 5670,
+      "candidate_ids": [
+        "candidate.stacks.4828f1c922a68b6a2d3a4e22",
+        "candidate.stacks.477d88fce1db787108da8baf",
+        "candidate.stacks.d33d7bf128aa4841c6985ca3",
+        "candidate.stacks.a4c0df2286db9091d35779fa",
+        "candidate.stacks.b4c1a87d338025b32c2dd1e4"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/simplicial/section-5670.jsonl",
+      "decision_blob_sha": "1017778ccdf45231ba34a39a43fc54459a2c6d2e",
+      "approvals": 5,
+      "holds": 0
+    },
+    {
+      "chapter": "simplicial",
+      "section_start_line": 5957,
+      "candidate_ids": [
+        "candidate.stacks.a70577198af7295b8dd4ede6",
+        "candidate.stacks.5e27c5760c4c01908e03f9f8",
+        "candidate.stacks.4e2ca1a1b815d54f07956728"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/simplicial/section-5957.jsonl",
+      "decision_blob_sha": "48ce77d4ababf892efd467eff394ff21032b6f62",
+      "approvals": 3,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "c19cfaae8b46d4aa44883dcceafdabeb4dd58c19",
+  "validation": "Pinned simplicial.tex originals inspected source first, source definitions of boundary/trivial Kan, cosimplicial and chain-context expansion checked, immutable Stage B/Phase 3/proposal SHA verified. One held for unclean source slogan and two conditional scopes. Full five sections reviewed; no proof audit or central authoritative registry changes."
+}
