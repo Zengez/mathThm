@@ -1,0 +1,94 @@
+name: Wikipedia proof-heading URL harvest (enwiki dumps)
+
+on:
+  workflow_dispatch:
+    inputs:
+      snapshot:
+        description: 'Pinned, complete English Wikipedia dump date (YYYYMMDD)'
+        type: string
+        required: true
+        default: '20261001'
+      max_shards:
+        description: 'Number of compressed article chunks to scan this run'
+        type: number
+        required: true
+        default: 4
+  schedule:
+    - cron: '43 4 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wikipedia-proof-dump-harvest
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      SNAPSHOT: ${{ inputs.snapshot || '20261001' }}
+      MAX_SHARDS: ${{ inputs.max_shards || 4 }}
+    steps:
+      - name: Checkout isolated crawler branch (read-only)
+        uses: actions/checkout@v4
+        with:
+          ref: work/wikipedia-theorem-harvest
+          path: source
+          persist-credentials: false
+
+      - name: Checkout persistent results branch
+        id: results
+        uses: actions/checkout@v4
+        with:
+          ref: data/wikipedia-proof-dump
+          path: results
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Offline scanner tests
+        working-directory: source
+        run: python -m unittest discover -s tests -p "test_wikipedia_dump_actions.py" -v
+
+      - name: Stream the next completed Wikipedia dump shards
+        run: |
+          python source/scripts/wikipedia_dump_actions.py \
+            --snapshot "$SNAPSHOT" \
+            --max-shards "$MAX_SHARDS" \
+            --max-minutes 245 \
+            --results-dir results/harvest/wikipedia_dump \
+            --github-summary
+
+      - name: Commit completed shard results even after interrupted scan
+        if: ${{ always() && steps.results.outcome == 'success' }}
+        env:
+          BRANCH: data/wikipedia-proof-dump
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -d results/harvest/wikipedia_dump ]; then
+            find results/harvest/wikipedia_dump -type f -name '*.tmp' -delete
+            git -C results add -- harvest/wikipedia_dump
+            if ! git -C results diff --cached --quiet; then
+              git -C results -c user.name='github-actions[bot]' \
+                -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+                commit -m "Harvest enwiki proof headings (snapshot $SNAPSHOT)"
+              git -C results push origin "HEAD:$BRANCH"
+            else
+              echo 'No new completed shards to persist.'
+            fi
+          fi
+
+      - name: Upload downloadable results and checkpoint
+        if: ${{ always() && steps.results.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: wikipedia-proof-heading-results
+          path: results/harvest/wikipedia_dump/
+          retention-days: 90
+          if-no-files-found: warn
