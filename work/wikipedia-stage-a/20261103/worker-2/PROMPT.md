@@ -4,7 +4,7 @@ Repository: Zengez/mathThm
 Base branch: work/wikipedia-stage-a-20261103
 Input: work/wikipedia-stage-a/20261103/worker-2/needs_interpretation.jsonl
 
-Review your entire *assigned* queue (currently 266 rows). Only split the
+Review your entire *assigned* queue (currently 273 rows). Only split the
 Wikipedia top excerpt into an accurate theorem statement, separate hypotheses
 and conclusions, and preserve quantified conditions and scope.
 Use `source_excerpt`, `source_statement_excerpt`, `source_section`, and the
@@ -22,7 +22,7 @@ files. Each decision must retain `candidate_id`, `url`, `source_statement_excerp
 (`standalone_prepared` or `held_for_source_clarity`) with a concise reason.
 Work in batches; save results incrementally, resuming by candidate ID only.
 
-The 14 mechanically split cases for this lane are separate in
+The 7 mechanically split cases for this lane are separate in
 `mechanical_suggestions.jsonl`. These are **draft suggestions, not verified
 mathematical formulations**. Do not promote them automatically to the public
 catalog. This work is statement preparation only, not a proof review.
