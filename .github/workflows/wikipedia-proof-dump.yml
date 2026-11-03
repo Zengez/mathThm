@@ -1,10 +1,6 @@
 name: Wikipedia proof-heading URL harvest (enwiki dumps)
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/wikipedia-proof-dump.yml'
   workflow_dispatch:
     inputs:
       snapshot:
@@ -17,8 +13,6 @@ on:
         type: number
         required: true
         default: 0
-  schedule:
-    - cron: '43 */8 * * *'
 
 permissions:
   contents: write
