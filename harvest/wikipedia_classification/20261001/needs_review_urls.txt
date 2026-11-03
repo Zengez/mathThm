@@ -121,6 +121,7 @@ https://en.wikipedia.org/wiki/Blackwell-Girshick_equation
 https://en.wikipedia.org/wiki/Block-stacking_problem
 https://en.wikipedia.org/wiki/Block_walking
 https://en.wikipedia.org/wiki/Blockchain_privacy
+https://en.wikipedia.org/wiki/Blue_Planet_Software
 https://en.wikipedia.org/wiki/Bluetooth_Low_Energy_denial_of_service_attacks
 https://en.wikipedia.org/wiki/Blum%E2%80%93Goldwasser_cryptosystem
 https://en.wikipedia.org/wiki/Boole's_inequality
@@ -133,6 +134,7 @@ https://en.wikipedia.org/wiki/Bregman_divergence
 https://en.wikipedia.org/wiki/Bretagnolle%E2%80%93Huber_inequality
 https://en.wikipedia.org/wiki/Brickley_Engine
 https://en.wikipedia.org/wiki/Brickwork
+https://en.wikipedia.org/wiki/Bride's_Chair
 https://en.wikipedia.org/wiki/British_Entomology
 https://en.wikipedia.org/wiki/Brocard's_conjecture
 https://en.wikipedia.org/wiki/Brooks_v_Armstrong
@@ -174,6 +176,7 @@ https://en.wikipedia.org/wiki/Ceramic_capacitor
 https://en.wikipedia.org/wiki/Chain_mail
 https://en.wikipedia.org/wiki/Chain_rule_for_Kolmogorov_complexity
 https://en.wikipedia.org/wiki/Chakmas_of_Arunachal_Pradesh
+https://en.wikipedia.org/wiki/Chandler_Leighton
 https://en.wikipedia.org/wiki/Chandra%E2%80%93Toueg_consensus_algorithm
 https://en.wikipedia.org/wiki/Chandrasekhar_potential_energy_tensor
 https://en.wikipedia.org/wiki/Chapman%E2%80%93Robbins_bound
@@ -245,6 +248,7 @@ https://en.wikipedia.org/wiki/Cram%C3%A9r%E2%80%93Rao_bound
 https://en.wikipedia.org/wiki/Criminal_Procedure_Act_1865
 https://en.wikipedia.org/wiki/Criminal_law_of_the_United_States
 https://en.wikipedia.org/wiki/Criminal_procedure_in_South_Africa
+https://en.wikipedia.org/wiki/Critique_of_Pure_Reason
 https://en.wikipedia.org/wiki/Crofton_formula
 https://en.wikipedia.org/wiki/Crossing_number_inequality
 https://en.wikipedia.org/wiki/Crouzeix's_conjecture
@@ -400,6 +404,7 @@ https://en.wikipedia.org/wiki/Forward_price
 https://en.wikipedia.org/wiki/Fr%C3%A9chet_inequalities
 https://en.wikipedia.org/wiki/Fradkin_tensor
 https://en.wikipedia.org/wiki/Francis_Whyte_Ellis
+https://en.wikipedia.org/wiki/Frank_LaRose
 https://en.wikipedia.org/wiki/Free_variables_and_bound_variables
 https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas
 https://en.wikipedia.org/wiki/Frobenius_formula
@@ -474,6 +479,7 @@ https://en.wikipedia.org/wiki/Heap's_algorithm
 https://en.wikipedia.org/wiki/Helmholtz_free_energy
 https://en.wikipedia.org/wiki/Hermes_(Greek_stamp)
 https://en.wikipedia.org/wiki/Hermite_interpolation
+https://en.wikipedia.org/wiki/Hex_(board_game)
 https://en.wikipedia.org/wiki/Heyting_arithmetic
 https://en.wikipedia.org/wiki/Hidden-variable_theory
 https://en.wikipedia.org/wiki/Hilbert's_fourth_problem
@@ -579,10 +585,12 @@ https://en.wikipedia.org/wiki/Kolmogorov_complexity
 https://en.wikipedia.org/wiki/Kraft%E2%80%93McMillan_inequality
 https://en.wikipedia.org/wiki/Kramers%E2%80%93Kronig_relations
 https://en.wikipedia.org/wiki/Kramers%E2%80%93Moyal_expansion
+https://en.wikipedia.org/wiki/Kris_Kobach
 https://en.wikipedia.org/wiki/Krugerrand
 https://en.wikipedia.org/wiki/Kruskal's_algorithm
 https://en.wikipedia.org/wiki/Kullback's_inequality
 https://en.wikipedia.org/wiki/Kuratowski's_closure-complement_problem
+https://en.wikipedia.org/wiki/Kurt_Baker_(musician)
 https://en.wikipedia.org/wiki/Ky_Fan_inequality
 https://en.wikipedia.org/wiki/L%C3%A9vy's_constant
 https://en.wikipedia.org/wiki/L-reduction
@@ -595,6 +603,7 @@ https://en.wikipedia.org/wiki/Laplace's_method
 https://en.wikipedia.org/wiki/Laplace_expansion
 https://en.wikipedia.org/wiki/Laplacian_of_the_indicator
 https://en.wikipedia.org/wiki/Larch_Prover
+https://en.wikipedia.org/wiki/Larry_Bryggman
 https://en.wikipedia.org/wiki/Lattice_path
 https://en.wikipedia.org/wiki/Law_of_evidence_in_South_Africa
 https://en.wikipedia.org/wiki/Law_of_total_expectation
@@ -798,6 +807,7 @@ https://en.wikipedia.org/wiki/Partial_fraction_decomposition
 https://en.wikipedia.org/wiki/Partition_of_sums_of_squares
 https://en.wikipedia.org/wiki/Pascal's_rule
 https://en.wikipedia.org/wiki/Password
+https://en.wikipedia.org/wiki/Paul_Feyerabend
 https://en.wikipedia.org/wiki/Peaucellier%E2%80%93Lipkin_linkage
 https://en.wikipedia.org/wiki/Permanent_residency
 https://en.wikipedia.org/wiki/Permanent_residency_in_Singapore
@@ -837,6 +847,7 @@ https://en.wikipedia.org/wiki/Project_Superpowers
 https://en.wikipedia.org/wiki/Projects_of_DRDO
 https://en.wikipedia.org/wiki/Proof-theoretic_semantics
 https://en.wikipedia.org/wiki/Proof_(truth)
+https://en.wikipedia.org/wiki/Proof_Positive_(TV_series)
 https://en.wikipedia.org/wiki/Proof_assistant
 https://en.wikipedia.org/wiki/Proof_by_example
 https://en.wikipedia.org/wiki/Proof_calculus
@@ -919,6 +930,7 @@ https://en.wikipedia.org/wiki/Right_of_abode_in_the_United_Kingdom
 https://en.wikipedia.org/wiki/Right_of_self-defense_in_Maryland
 https://en.wikipedia.org/wiki/Rigour
 https://en.wikipedia.org/wiki/Robbins_algebra
+https://en.wikipedia.org/wiki/Robert_Spaemann
 https://en.wikipedia.org/wiki/Rome_I_Regulation
 https://en.wikipedia.org/wiki/Root_test
 https://en.wikipedia.org/wiki/Rota's_conjecture
@@ -1108,6 +1120,7 @@ https://en.wikipedia.org/wiki/Wald's_equation
 https://en.wikipedia.org/wiki/Wallis_product
 https://en.wikipedia.org/wiki/Warming-pan_scandal
 https://en.wikipedia.org/wiki/Wasserstein_metric
+https://en.wikipedia.org/wiki/Way_of_the_Samurai_4
 https://en.wikipedia.org/wiki/Weatherby_Mark_V
 https://en.wikipedia.org/wiki/Weierstrass_M-test
 https://en.wikipedia.org/wiki/Weierstrass_Nullstellensatz
@@ -1121,6 +1134,7 @@ https://en.wikipedia.org/wiki/Whitney_inequality
 https://en.wikipedia.org/wiki/Wiener's_attack
 https://en.wikipedia.org/wiki/Wildtype_(company)
 https://en.wikipedia.org/wiki/William_Brocius
+https://en.wikipedia.org/wiki/William_of_Soissons
 https://en.wikipedia.org/wiki/Witches_of_Warboys
 https://en.wikipedia.org/wiki/Witten_conjecture
 https://en.wikipedia.org/wiki/Wolfram's_2-state_3-symbol_Turing_machine

@@ -80,7 +80,6 @@ https://en.wikipedia.org/wiki/Brauer's_theorem_on_induced_characters
 https://en.wikipedia.org/wiki/Bretschneider's_formula
 https://en.wikipedia.org/wiki/Brezis%E2%80%93Lieb_lemma
 https://en.wikipedia.org/wiki/Brianchon's_theorem
-https://en.wikipedia.org/wiki/Bride's_Chair
 https://en.wikipedia.org/wiki/Brillouin's_theorem
 https://en.wikipedia.org/wiki/British_flag_theorem
 https://en.wikipedia.org/wiki/Brooks'_theorem
@@ -352,7 +351,6 @@ https://en.wikipedia.org/wiki/Herbrand%E2%80%93Ribet_theorem
 https://en.wikipedia.org/wiki/Herbrand's_theorem
 https://en.wikipedia.org/wiki/Hermite's_identity
 https://en.wikipedia.org/wiki/Heron's_formula
-https://en.wikipedia.org/wiki/Hex_(board_game)
 https://en.wikipedia.org/wiki/Higman's_lemma
 https://en.wikipedia.org/wiki/Hilbert's_Nullstellensatz
 https://en.wikipedia.org/wiki/Hilbert's_Theorem_90
@@ -827,7 +825,6 @@ https://en.wikipedia.org/wiki/Wick's_theorem
 https://en.wikipedia.org/wiki/Wiener's_lemma
 https://en.wikipedia.org/wiki/Wigner%E2%80%93Eckart_theorem
 https://en.wikipedia.org/wiki/Wiles's_proof_of_Fermat's_Last_Theorem
-https://en.wikipedia.org/wiki/William_of_Soissons
 https://en.wikipedia.org/wiki/Williamson_theorem
 https://en.wikipedia.org/wiki/Wilson's_theorem
 https://en.wikipedia.org/wiki/Wirtinger's_inequality_for_functions
