@@ -1,0 +1,75 @@
+name: Generate reviewed Phase 2 theorem publication
+on:
+  push:
+    branches:
+      - work/phase2-final-publication-main
+    paths:
+      - '.github/workflows/phase2-publication.yml'
+      - 'scripts/publish_phase2_catalog.py'
+      - 'scripts/theorem_schema.py'
+      - 'web/app.js'
+      - 'tests/test_data.py'
+      - 'tests/test_search.cjs'
+      - 'tests/test_ui_smoke.cjs'
+      - 'tests/test_v2_browser.cjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: maththm-phase2-publication
+  cancel-in-progress: false
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: One-pass publication of authoritative approved Phase 2 decisions
+        run: |
+          python -m py_compile scripts/publish_phase2_catalog.py
+          python scripts/publish_phase2_catalog.py --all
+          python -m scripts.theorem_schema data/theorems.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('work/phase2-final-publication/REPORT.json').read_text())
+          assert p['canonical_records_accounted_for'] == 4132
+          assert p['held'] == 189
+          assert p['phase2_approved'] == 3943
+          assert p['publishable_approved_records'] + p['blocked_approved_records'] == 3943
+          print('PUBLICATION_COUNTS=' + json.dumps(p,sort_keys=True))
+          PY
+      - name: Test original and enlarged two-column search and mathDef linking
+        run: |
+          python -m unittest discover -s tests -v
+          node --check web/app.js
+          node --check web/search-core.js
+          node --test tests/test_search.cjs tests/test_ui_smoke.cjs tests/test_mathdef_v2.cjs tests/test_definition_links.cjs
+      - name: Build real site preview against verified mathDef feed
+        run: python scripts/build_site.py
+      - name: Commit ready-to-deploy catalog and four complete shards
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/theorems.json \
+            work/phase2-final-publication/shards/worker-1.json \
+            work/phase2-final-publication/shards/worker-2.json \
+            work/phase2-final-publication/shards/worker-3.json \
+            work/phase2-final-publication/shards/worker-4.json \
+            work/phase2-final-publication/REPORT.json \
+            work/phase2-final-publication/BLOCKERS.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Materialize approved Phase 2 theorems into website catalog'
+            git push origin HEAD:work/phase2-final-publication-main
+          fi

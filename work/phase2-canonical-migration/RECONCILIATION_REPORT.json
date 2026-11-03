@@ -1,0 +1,20 @@
+{
+  "legacy_phase3_fingerprints_retained": true,
+  "legacy_source_snapshots_retained": true,
+  "master_records": 4132,
+  "master_schema": "maththm.master.v1",
+  "mathematical_statements_changed": 0,
+  "phase2_approved": 3943,
+  "phase2_decisions_changed": 0,
+  "phase2_held": 189,
+  "publication_ready": 0,
+  "resolved_issue_occurrences": {
+    "approved_formulation_digest_mismatch": 65,
+    "original_source_digest_mismatch": 7,
+    "phase3_reviewed_content_digest_mismatch": 5
+  },
+  "schema": "maththm.master-reconciliation-report.v1",
+  "status": "mechanical_reconciliation_complete_not_publication_approval",
+  "unresolved_migration_flags": 0,
+  "verified_exception_ids": 70
+}

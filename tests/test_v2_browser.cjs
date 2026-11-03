@@ -23,6 +23,9 @@ assert(chromiumPath,"Chromium is required to verify real theorem definition expa
   await page.locator("#definitions-status").filter({hasText:"mathDef v2 definitions loaded ("+snapshot.definitions.length+" terms"}).waitFor();
   await page.locator("#hypothesis-query").fill("compactness");
   await page.locator("#conclusion-query").fill("maximum");
+  // Large catalogs may default to compact results; request full statements
+  // explicitly before inspecting the live definition links.
+  await page.locator('[data-view="full"]').click();
   await page.locator("#results .definition-link").first().waitFor();
   const oldId=await page.locator("#results .definition-link").first().getAttribute("data-def-id");
   assert(snapshot.definitions.some(x=>x.id===oldId),"Theorem link must resolve to a canonical v2 term ID");

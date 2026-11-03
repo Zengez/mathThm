@@ -15,14 +15,14 @@ from urllib.parse import urlsplit
 SCHEMA = "maththm.theorems.v1"
 CONTRACT_REVISION = 2
 KINDS = {"theorem", "lemma", "proposition", "corollary", "other_result"}
-INTAKE = {"cursory_screened"}
+INTAKE = {"cursory_screened", "phase2_approved"}
 AUDIT = {"not_audited", "under_review", "reviewed_with_findings", "verified", "rejected"}
 STATEMENT_BASIS = {
     "source_transcription", "editorial_restatement_unverified",
     "editorial_restatement_reviewed",
 }
 TRANSCRIPTION = {"preserved", "not_transcribed", "not_permitted"}
-PROOF_SCREENING = {"cursory_screened", "audited", "verified"}
+PROOF_SCREENING = {"cursory_screened", "audited", "verified", "source_reference_only"}
 SOURCE_TAGS = {"initial_editorial", "source_literal", "editor_approved"}
 ID = re.compile(r"^[a-z][a-z0-9_.-]{2,199}$")
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -76,11 +76,20 @@ def validate(corpus: dict) -> dict:
         https(r.get("source_url"), prefix+".source_url")
         for field in ("hypotheses","conclusions","hypothesis_tags","conclusion_tags"):
             words(r.get(field),prefix+"."+field)
-        if not r["hypotheses"] or not r["conclusions"]:
-            bad(prefix, "both structured search sides must be populated")
-        if r.get("review_status") != "cursory_screened_unverified":
-            # Historical display field kept for compatibility; audit is separate.
-            bad(prefix+".review_status", "expected legacy draft display status")
+        phase2 = r.get("phase2_approval")
+        approved = (isinstance(phase2, dict) and
+                    phase2.get("decision") == "source_equivalence_approved" and
+                    isinstance(phase2.get("reviewer"), str) and bool(phase2["reviewer"]))
+        if not r["conclusions"] or (not r["hypotheses"] and not approved):
+            bad(prefix, "missing required structured search side")
+        if r.get("review_status") not in (
+            "cursory_screened_unverified",
+            "phase2_approved_phase3_screened",
+            "phase2_approved_source_reference_only",
+        ):
+            bad(prefix+".review_status", "unsupported review display status")
+        if r["review_status"].startswith("phase2_approved_") and not approved:
+            bad(prefix+".review_status", "Phase 2 status without approval evidence")
         audit = r.get("mathematical_audit")
         if not isinstance(audit, dict) or audit.get("status") not in AUDIT:
             bad(prefix+".mathematical_audit", "expected explicit audit state")
@@ -89,6 +98,8 @@ def validate(corpus: dict) -> dict:
         acquisition = r.get("acquisition")
         if not isinstance(acquisition, dict) or acquisition.get("status") not in INTAKE:
             bad(prefix+".acquisition", "accepted records require cursory proof screening")
+        if acquisition.get("status") == "phase2_approved" and not approved:
+            bad(prefix+".acquisition", "Phase 2 intake requires approved provenance")
         required_text(acquisition.get("batch_id"), prefix+".acquisition.batch_id")
         if not DATE.fullmatch(required_text(acquisition.get("collected_on"),prefix+".acquisition.collected_on")):
             bad(prefix+".acquisition.collected_on", "expected YYYY-MM-DD")
@@ -136,7 +147,10 @@ def validate(corpus: dict) -> dict:
                 bad(label, "proof must be at least cursory screened")
             https(p.get("url"),label+".url")
             required_text(p.get("locator"),label+".locator")
-            if not DATE.fullmatch(required_text(p.get("accessed_on"),label+".accessed_on")):
+            if p["screening"] == "source_reference_only":
+                if not approved or p["url"] != r["source_url"]:
+                    bad(label, "unscreened source reference requires approved Phase 2 and matching source URL")
+            elif not DATE.fullmatch(required_text(p.get("accessed_on"),label+".accessed_on")):
                 bad(label+".accessed_on", "expected YYYY-MM-DD")
         proof_candidates = r.get("proof_candidates", [])
         if not isinstance(proof_candidates,list):
