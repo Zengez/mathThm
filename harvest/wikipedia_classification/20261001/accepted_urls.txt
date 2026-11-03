@@ -3,7 +3,6 @@ https://en.wikipedia.org/wiki/%C5%9Aleszy%C5%84ski%E2%80%93Pringsheim_theorem
 https://en.wikipedia.org/wiki/%C5%A0varc%E2%80%93Milnor_lemma
 https://en.wikipedia.org/wiki/2-Yoneda_lemma
 https://en.wikipedia.org/wiki/2-factor_theorem
-https://en.wikipedia.org/wiki/ACL2
 https://en.wikipedia.org/wiki/Abel%E2%80%93Ruffini_theorem
 https://en.wikipedia.org/wiki/Abel's_identity
 https://en.wikipedia.org/wiki/Abel's_theorem
@@ -15,7 +14,6 @@ https://en.wikipedia.org/wiki/Alexander's_subbase_lemma
 https://en.wikipedia.org/wiki/Amitsur%E2%80%93Levitzki_theorem
 https://en.wikipedia.org/wiki/Analyticity_of_holomorphic_functions
 https://en.wikipedia.org/wiki/Anderson%E2%80%93Kadec_theorem
-https://en.wikipedia.org/wiki/Andrew_Wiles
 https://en.wikipedia.org/wiki/Angle_bisector_theorem
 https://en.wikipedia.org/wiki/Annulus_theorem
 https://en.wikipedia.org/wiki/Ap%C3%A9ry's_theorem
@@ -31,7 +29,6 @@ https://en.wikipedia.org/wiki/Atiyah%E2%80%93Bott_fixed-point_theorem
 https://en.wikipedia.org/wiki/Atiyah%E2%80%93Singer_index_theorem
 https://en.wikipedia.org/wiki/Atkinson's_theorem
 https://en.wikipedia.org/wiki/Auerbach's_lemma
-https://en.wikipedia.org/wiki/Automated_reasoning
 https://en.wikipedia.org/wiki/Ax%E2%80%93Grothendieck_theorem
 https://en.wikipedia.org/wiki/Ax%E2%80%93Kochen_theorem
 https://en.wikipedia.org/wiki/B%C3%A9zout's_identity
@@ -362,7 +359,6 @@ https://en.wikipedia.org/wiki/Hilbert's_Theorem_90
 https://en.wikipedia.org/wiki/Hilbert's_basis_theorem
 https://en.wikipedia.org/wiki/Hilbert's_theorem_(differential_geometry)
 https://en.wikipedia.org/wiki/Hilbert_projection_theorem
-https://en.wikipedia.org/wiki/Hilbert_system
 https://en.wikipedia.org/wiki/Hinge_theorem
 https://en.wikipedia.org/wiki/Hirzebruch_signature_theorem
 https://en.wikipedia.org/wiki/Hockey-stick_identity
@@ -396,7 +392,6 @@ https://en.wikipedia.org/wiki/Intermediate_value_theorem
 https://en.wikipedia.org/wiki/Intersecting_chords_theorem
 https://en.wikipedia.org/wiki/Inverse_Pythagorean_theorem
 https://en.wikipedia.org/wiki/Inverse_function_theorem
-https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)
 https://en.wikipedia.org/wiki/Isolation_lemma
 https://en.wikipedia.org/wiki/Isserlis's_theorem
 https://en.wikipedia.org/wiki/Jacobi's_four-square_theorem
@@ -462,7 +457,6 @@ https://en.wikipedia.org/wiki/Lam%C3%A9's_theorem
 https://en.wikipedia.org/wiki/Lambek%E2%80%93Moser_theorem
 https://en.wikipedia.org/wiki/Lami's_theorem
 https://en.wikipedia.org/wiki/Lang's_theorem
-https://en.wikipedia.org/wiki/Larch_Prover
 https://en.wikipedia.org/wiki/Law_of_cosines
 https://en.wikipedia.org/wiki/Law_of_cotangents
 https://en.wikipedia.org/wiki/Law_of_excluded_middle
@@ -494,8 +488,6 @@ https://en.wikipedia.org/wiki/Linear_speedup_theorem
 https://en.wikipedia.org/wiki/Linearity_of_differentiation
 https://en.wikipedia.org/wiki/Liouville's_formula
 https://en.wikipedia.org/wiki/Liouville's_theorem_(complex_analysis)
-https://en.wikipedia.org/wiki/List_of_logarithmic_identities
-https://en.wikipedia.org/wiki/List_of_long_mathematical_proofs
 https://en.wikipedia.org/wiki/Littlewood_subordination_theorem
 https://en.wikipedia.org/wiki/Local_criterion_for_flatness
 https://en.wikipedia.org/wiki/Lochs's_theorem
@@ -533,8 +525,6 @@ https://en.wikipedia.org/wiki/Median_voter_theorem
 https://en.wikipedia.org/wiki/Menelaus's_theorem
 https://en.wikipedia.org/wiki/Menger's_theorem
 https://en.wikipedia.org/wiki/Mertens'_theorems
-https://en.wikipedia.org/wiki/Metamath
-https://en.wikipedia.org/wiki/Method_of_analytic_tableaux
 https://en.wikipedia.org/wiki/Michael's_theorem_on_paracompact_spaces
 https://en.wikipedia.org/wiki/Midpoint_theorem_(triangle)
 https://en.wikipedia.org/wiki/Midy's_theorem
@@ -577,7 +567,6 @@ https://en.wikipedia.org/wiki/Noether's_theorem
 https://en.wikipedia.org/wiki/Noether_normalization_lemma
 https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem
 https://en.wikipedia.org/wiki/Norm_residue_isomorphism_theorem
-https://en.wikipedia.org/wiki/Nqthm
 https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem
 https://en.wikipedia.org/wiki/Open_mapping_theorem_(complex_analysis)
 https://en.wikipedia.org/wiki/Open_mapping_theorem_(functional_analysis)
@@ -635,21 +624,13 @@ https://en.wikipedia.org/wiki/Principle_of_explosion
 https://en.wikipedia.org/wiki/Product_rule
 https://en.wikipedia.org/wiki/Proizvolov's_identity
 https://en.wikipedia.org/wiki/Projection-slice_theorem
-https://en.wikipedia.org/wiki/Proof_(truth)
-https://en.wikipedia.org/wiki/Proof_assistant
-https://en.wikipedia.org/wiki/Proof_complexity
-https://en.wikipedia.org/wiki/Proof_of_Bertrand's_postulate
-https://en.wikipedia.org/wiki/Proof_of_Fermat's_Last_Theorem_for_specific_exponents
 https://en.wikipedia.org/wiki/Proof_sketch_for_G%C3%B6del's_first_incompleteness_theorem
-https://en.wikipedia.org/wiki/Proofs_of_Fermat's_little_theorem
-https://en.wikipedia.org/wiki/Propositional_proof_system
 https://en.wikipedia.org/wiki/Proth's_theorem
 https://en.wikipedia.org/wiki/Pseudorandom_generator_theorem
 https://en.wikipedia.org/wiki/Ptolemy's_theorem
 https://en.wikipedia.org/wiki/Pumping_lemma_for_regular_languages
 https://en.wikipedia.org/wiki/Pythagorean_theorem
 https://en.wikipedia.org/wiki/Pythagorean_trigonometric_identity
-https://en.wikipedia.org/wiki/Pythagorean_triple
 https://en.wikipedia.org/wiki/Q-Vandermonde_identity
 https://en.wikipedia.org/wiki/Quadratic_reciprocity
 https://en.wikipedia.org/wiki/Quotient_rule
@@ -741,7 +722,6 @@ https://en.wikipedia.org/wiki/Spin%E2%80%93statistics_theorem
 https://en.wikipedia.org/wiki/Spitzer's_formula
 https://en.wikipedia.org/wiki/Splitting_lemma
 https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem
-https://en.wikipedia.org/wiki/Square_root_of_2
 https://en.wikipedia.org/wiki/Squeeze_theorem
 https://en.wikipedia.org/wiki/Stechkin's_lemma
 https://en.wikipedia.org/wiki/Stein's_lemma
@@ -760,7 +740,6 @@ https://en.wikipedia.org/wiki/Stromquist%E2%80%93Woodall_theorem
 https://en.wikipedia.org/wiki/Strong_perfect_graph_theorem
 https://en.wikipedia.org/wiki/Structure_theorem_for_finitely_generated_modules_over_a_principal_ideal_domain
 https://en.wikipedia.org/wiki/Sturm_separation_theorem
-https://en.wikipedia.org/wiki/Substitution_(logic)
 https://en.wikipedia.org/wiki/Switching_lemma
 https://en.wikipedia.org/wiki/Sylow_theorems
 https://en.wikipedia.org/wiki/Sylvester%E2%80%93Gallai_theorem
@@ -806,7 +785,6 @@ https://en.wikipedia.org/wiki/Tverberg's_theorem
 https://en.wikipedia.org/wiki/Two_ears_theorem
 https://en.wikipedia.org/wiki/Tychonoff's_theorem
 https://en.wikipedia.org/wiki/Ultraparallel_theorem
-https://en.wikipedia.org/wiki/Unification_(computer_science)
 https://en.wikipedia.org/wiki/Uniform_convergence_in_probability
 https://en.wikipedia.org/wiki/Uniform_limit_theorem
 https://en.wikipedia.org/wiki/Uniformization_theorem
