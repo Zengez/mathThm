@@ -342,10 +342,10 @@ def run_dump(args, store: Store):
                         store.add_pages([(pageid, title.text or "")])
                         store.record_page(pageid, wikitext_has_proof(txt), title.text)
                     processed += 1
+                    if processed % 10000 == 0:
+                        store.export(args.output)
+                        logging.info("Dump scan: new pages=%d %s", processed, store.counts())
             root.clear()
-            if processed and processed % 10000 == 0:
-                store.export(args.output)
-                logging.info("Dump scan: new pages=%d %s", processed, store.counts())
     store.export(args.output)
     logging.info("Dump completed: new pages=%d %s", processed, store.counts())
 
