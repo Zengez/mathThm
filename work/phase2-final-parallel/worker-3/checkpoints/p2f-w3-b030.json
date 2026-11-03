@@ -1,0 +1,193 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 3,
+  "branch": "work/phase2-final/chat-3",
+  "batch_id": "p2f-w3-b030",
+  "chapter": "topology",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "chatgpt-gpt6-final-phase2-worker-3-2026-11-03-continuation-3b",
+  "status": "complete_pending_central_registration",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "candidate_ids": [
+    "candidate.stacks.99b0ce33c4e040505f648993",
+    "candidate.stacks.ae4bb0249ff769f251a512aa",
+    "candidate.stacks.d4d541eae7a13258f4cc10ff",
+    "candidate.stacks.f873d81ff2c735749787557d",
+    "candidate.stacks.f2df6275f41ea52b755c8bcc",
+    "candidate.stacks.b2d0cf807e6f537cde5a7ee1",
+    "candidate.stacks.3f70e6a16b6f717b051a42f9",
+    "candidate.stacks.ed337fee50c9dd968af1a82c",
+    "candidate.stacks.c15578994631eedbee659f9c",
+    "candidate.stacks.bb8e77961385967d018d9ee4",
+    "candidate.stacks.cfe1de07bd1275eaf1795652",
+    "candidate.stacks.537f9df552690ac4c11ee0c3",
+    "candidate.stacks.d4ee95bbbb8b741b30e51bfc",
+    "candidate.stacks.ad98274708835212ffb11598",
+    "candidate.stacks.f6285ba88a3fc10bc32ab69d",
+    "candidate.stacks.0c01358ea03796c2cd8a0dfc",
+    "candidate.stacks.96f510fd311d8b199145762e",
+    "candidate.stacks.c3c6c4adcf2471148b70dfcc",
+    "candidate.stacks.5c8e59a1c255aa6d274c574b",
+    "candidate.stacks.395f424704232f5c18ccbdd2",
+    "candidate.stacks.2cc3a532797198b1caac2ff4",
+    "candidate.stacks.7945f3e5d103a9eaf0b91833",
+    "candidate.stacks.05219b0bcd9d810b58ebe2b9",
+    "candidate.stacks.9280aeb47c8d94d6954ff8dd",
+    "candidate.stacks.21106e85b98882347611993f",
+    "candidate.stacks.3cb82248ac0f2074c7800052",
+    "candidate.stacks.a21f778df0355bff7976f9ab",
+    "candidate.stacks.564a3296f0da2a84b411bbda",
+    "candidate.stacks.ba13d48b207a9dadd3561861",
+    "candidate.stacks.510b7247341cb8ab9c137fe2",
+    "candidate.stacks.37ef785fd6d66520974589c9",
+    "candidate.stacks.ef27a830144dcdcc902cb083",
+    "candidate.stacks.0cd037db31a339feab25314f",
+    "candidate.stacks.45d4bf0c8bb1c2f0fd9d7064",
+    "candidate.stacks.315155c7f48d82dfce92022e",
+    "candidate.stacks.76b6946d8bd835eb52d2dbcb"
+  ],
+  "approved_candidate_ids": [
+    "candidate.stacks.99b0ce33c4e040505f648993",
+    "candidate.stacks.d4d541eae7a13258f4cc10ff",
+    "candidate.stacks.f873d81ff2c735749787557d",
+    "candidate.stacks.b2d0cf807e6f537cde5a7ee1",
+    "candidate.stacks.3f70e6a16b6f717b051a42f9",
+    "candidate.stacks.ed337fee50c9dd968af1a82c",
+    "candidate.stacks.c15578994631eedbee659f9c",
+    "candidate.stacks.bb8e77961385967d018d9ee4",
+    "candidate.stacks.cfe1de07bd1275eaf1795652",
+    "candidate.stacks.f6285ba88a3fc10bc32ab69d",
+    "candidate.stacks.0c01358ea03796c2cd8a0dfc",
+    "candidate.stacks.96f510fd311d8b199145762e",
+    "candidate.stacks.c3c6c4adcf2471148b70dfcc",
+    "candidate.stacks.5c8e59a1c255aa6d274c574b",
+    "candidate.stacks.395f424704232f5c18ccbdd2",
+    "candidate.stacks.2cc3a532797198b1caac2ff4",
+    "candidate.stacks.7945f3e5d103a9eaf0b91833",
+    "candidate.stacks.05219b0bcd9d810b58ebe2b9",
+    "candidate.stacks.9280aeb47c8d94d6954ff8dd",
+    "candidate.stacks.21106e85b98882347611993f",
+    "candidate.stacks.3cb82248ac0f2074c7800052",
+    "candidate.stacks.a21f778df0355bff7976f9ab",
+    "candidate.stacks.564a3296f0da2a84b411bbda",
+    "candidate.stacks.ba13d48b207a9dadd3561861",
+    "candidate.stacks.510b7247341cb8ab9c137fe2",
+    "candidate.stacks.37ef785fd6d66520974589c9",
+    "candidate.stacks.ef27a830144dcdcc902cb083",
+    "candidate.stacks.0cd037db31a339feab25314f",
+    "candidate.stacks.45d4bf0c8bb1c2f0fd9d7064",
+    "candidate.stacks.315155c7f48d82dfce92022e",
+    "candidate.stacks.76b6946d8bd835eb52d2dbcb"
+  ],
+  "held_candidate_ids": [
+    "candidate.stacks.ae4bb0249ff769f251a512aa",
+    "candidate.stacks.f2df6275f41ea52b755c8bcc",
+    "candidate.stacks.537f9df552690ac4c11ee0c3",
+    "candidate.stacks.d4ee95bbbb8b741b30e51bfc",
+    "candidate.stacks.ad98274708835212ffb11598"
+  ],
+  "candidate_count": 36,
+  "approved_count": 31,
+  "held_count": 5,
+  "section_count": 7,
+  "sections": [
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-4266.jsonl",
+      "source_section_start_line": 4266,
+      "candidate_ids": [
+        "candidate.stacks.99b0ce33c4e040505f648993",
+        "candidate.stacks.ae4bb0249ff769f251a512aa",
+        "candidate.stacks.d4d541eae7a13258f4cc10ff",
+        "candidate.stacks.f873d81ff2c735749787557d",
+        "candidate.stacks.f2df6275f41ea52b755c8bcc",
+        "candidate.stacks.b2d0cf807e6f537cde5a7ee1",
+        "candidate.stacks.3f70e6a16b6f717b051a42f9",
+        "candidate.stacks.ed337fee50c9dd968af1a82c",
+        "candidate.stacks.c15578994631eedbee659f9c",
+        "candidate.stacks.bb8e77961385967d018d9ee4",
+        "candidate.stacks.cfe1de07bd1275eaf1795652",
+        "candidate.stacks.537f9df552690ac4c11ee0c3"
+      ],
+      "approvals": 9,
+      "holds": 3
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-4767.jsonl",
+      "source_section_start_line": 4767,
+      "candidate_ids": [
+        "candidate.stacks.d4ee95bbbb8b741b30e51bfc",
+        "candidate.stacks.ad98274708835212ffb11598",
+        "candidate.stacks.f6285ba88a3fc10bc32ab69d",
+        "candidate.stacks.0c01358ea03796c2cd8a0dfc",
+        "candidate.stacks.96f510fd311d8b199145762e",
+        "candidate.stacks.c3c6c4adcf2471148b70dfcc",
+        "candidate.stacks.5c8e59a1c255aa6d274c574b"
+      ],
+      "approvals": 5,
+      "holds": 2
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-5096.jsonl",
+      "source_section_start_line": 5096,
+      "candidate_ids": [
+        "candidate.stacks.395f424704232f5c18ccbdd2",
+        "candidate.stacks.2cc3a532797198b1caac2ff4"
+      ],
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-5204.jsonl",
+      "source_section_start_line": 5204,
+      "candidate_ids": [
+        "candidate.stacks.7945f3e5d103a9eaf0b91833",
+        "candidate.stacks.05219b0bcd9d810b58ebe2b9",
+        "candidate.stacks.9280aeb47c8d94d6954ff8dd",
+        "candidate.stacks.21106e85b98882347611993f",
+        "candidate.stacks.3cb82248ac0f2074c7800052",
+        "candidate.stacks.a21f778df0355bff7976f9ab"
+      ],
+      "approvals": 6,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-5500.jsonl",
+      "source_section_start_line": 5500,
+      "candidate_ids": [
+        "candidate.stacks.564a3296f0da2a84b411bbda"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-5668.jsonl",
+      "source_section_start_line": 5668,
+      "candidate_ids": [
+        "candidate.stacks.ba13d48b207a9dadd3561861"
+      ],
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "path": "work/phase2-final-parallel/worker-3/decisions/topology/section-5706.jsonl",
+      "source_section_start_line": 5706,
+      "candidate_ids": [
+        "candidate.stacks.510b7247341cb8ab9c137fe2",
+        "candidate.stacks.37ef785fd6d66520974589c9",
+        "candidate.stacks.ef27a830144dcdcc902cb083",
+        "candidate.stacks.0cd037db31a339feab25314f",
+        "candidate.stacks.45d4bf0c8bb1c2f0fd9d7064",
+        "candidate.stacks.315155c7f48d82dfce92022e",
+        "candidate.stacks.76b6946d8bd835eb52d2dbcb"
+      ],
+      "approvals": 7,
+      "holds": 0
+    }
+  ],
+  "immutable_input_sha_check": "pass",
+  "exact_id_order_check": "pass",
+  "pinned_source_context_check": "pass",
+  "stage_a_and_stage_b_reviewer_chain_checked": "pass",
+  "source_and_approved_sha256_recheck": "pass"
+}
