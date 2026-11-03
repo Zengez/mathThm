@@ -14,11 +14,11 @@ Run on the coordinator branch:
 
 ```sh
 python -m unittest tests.test_phase2_master_migration tests.test_phase2_master_reconciliation -v
-python scripts/reconcile_phase2_master.py --check
+python -m scripts.reconcile_phase2_master --check
 python scripts/migrate_phase2_master.py --validate
 ```
 
-The one-time coordinator integration command is `python scripts/reconcile_phase2_master.py --apply`; it is idempotent, fails closed on any differing statement/digest/ID, and preserves the original evidence. The isolated GitHub Actions workflow runs this integration and commits only the canonical master and reconciliation report. **It does not run the old `--write` migration or reconstruct the file from the worker corpus.** No routine site reader should run either command. `--validate` reads the permanent master *only*, without any legacy-format adapter.
+The one-time coordinator integration command is `python -m scripts.reconcile_phase2_master --apply`; it is idempotent, fails closed on any differing statement/digest/ID, and preserves the original evidence. The isolated GitHub Actions workflow runs this integration and commits only the canonical master and reconciliation report. **It does not run the old `--write` migration or reconstruct the file from the worker corpus.** No routine site reader should run either command. `--validate` reads the permanent master *only*, without any legacy-format adapter.
 
 ## Distinct publication gate
 
