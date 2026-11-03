@@ -58,6 +58,18 @@ class ClassifierTests(unittest.TestCase):
             "Theorem of fiction", ["Novels"], "A novel.")[0], "needs_review")
         self.assertEqual(classify(
             "No longer here", [], "", missing=True)[0], "needs_review")
+        self.assertEqual(classify(
+            "ACL2", ["Automated theorem proving", "Proof assistants"],
+            "ACL2 is an automated theorem prover.")[0], "needs_review")
+        self.assertEqual(classify(
+            "Proof of Bertrand's postulate", ["Proofs of theorems", "Number theory"],
+            "This page describes a proof.")[0], "needs_review")
+        self.assertEqual(classify(
+            "List of long mathematical proofs", ["Mathematical theorems"],
+            "A list of proofs.")[0], "needs_review")
+        self.assertEqual(classify(
+            "Proof assistant", ["Theorems in logic"], "Software")[0], "needs_review")
+
 
     def test_url_validation_and_pagination(self):
         url = "https://en.wikipedia.org/wiki/Math_theorem_redirect"
