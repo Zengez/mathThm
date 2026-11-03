@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           persist-credentials: true
       - uses: actions/setup-python@v5
         with:
@@ -32,11 +32,11 @@ jobs:
       - name: Verify canonical migration and reconciliation regression tests
         run: python -m unittest tests.test_phase2_master_migration tests.test_phase2_master_reconciliation -v
       - name: Integrate only verified mechanical exception metadata into permanent master
-        run: python scripts/reconcile_phase2_master.py --apply
+        run: python -m scripts.reconcile_phase2_master --apply
       - name: Validate permanent canonical file, without legacy compatibility loaders
         run: |
           python scripts/migrate_phase2_master.py --validate
-          python scripts/reconcile_phase2_master.py --check
+          python -m scripts.reconcile_phase2_master --check
       - name: Ensure live site, authority and mathematical evidence are unchanged
         shell: bash
         run: |
