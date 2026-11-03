@@ -1,0 +1,38 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b028",
+  "chapter": "modules",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-chat-continuation",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 2,
+  "approved_count": 2,
+  "held_count": 0,
+  "section_count": 1,
+  "candidate_ids": [
+    "candidate.stacks.b19f5a1c66ff7eaacfba8278",
+    "candidate.stacks.046db0558cc473fb6efc30a3"
+  ],
+  "held_candidate_ids": [],
+  "decision_files": [
+    {
+      "chapter": "modules",
+      "section_start_line": 5413,
+      "candidate_ids": [
+        "candidate.stacks.b19f5a1c66ff7eaacfba8278",
+        "candidate.stacks.046db0558cc473fb6efc30a3"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/modules/section-5413.jsonl",
+      "decision_blob_sha": "144320c1ef465d8cbe9766ad47d8a09192130a10",
+      "approvals": 2,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "c4013bc8854492e94e3e8cfa4e60031ac725adb0",
+  "validation": "Both independent relative de Rham differential-order results source first checked against pinned modules.tex, immutable Stage A/B/Phase 3/proposal hashes and exact structured content verified; one complete section, no proof review or central registration."
+}
