@@ -6,6 +6,7 @@ on:
       - work/wikipedia-obvious-proof-matches-20261103
     paths:
       - '.github/workflows/wiki-obvious-matches.yml'
+      - 'scripts/wiki_obvious_matches.py'
   workflow_dispatch:
 
 permissions:
