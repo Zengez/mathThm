@@ -32,6 +32,40 @@ class WikipediaStageAPrepTests(unittest.TestCase):
         self.assertEqual(section, "Statement")
         self.assertIn("[Statement]", excerpt)
 
+    def test_display_math_and_bulleted_equivalences(self):
+        html = """
+        <p>The next two assertions are equivalent:</p>
+        <ul><li>Every substructure preserves the formula.</li>
+            <li>There is an equivalent universal formula.</li></ul>
+        <div><math display="block" alttext="{\\displaystyle a+b=c}">MathML</math>
+             <img class="mwe-math-fallback-image-inline" alt="{\\displaystyle a+b=c}"></div>
+        <h2>Proofs of the theorem</h2>
+        <p>This proof should not be included.</p>
+        """
+        parser = TopText()
+        parser.feed(html)
+        texts = [b["text"] for b in parser.blocks]
+        self.assertEqual(sum("a+b=c" in x for x in texts), 1)
+        self.assertTrue(any("Every substructure" in x for x in texts))
+        self.assertTrue(any("equivalent universal" in x for x in texts))
+        self.assertFalse(any("should not be included" in x for x in texts))
+
+    def test_explicit_result_outscores_intro_description(self):
+        blocks = [
+            {"section": "Lead", "kind": "p",
+             "text": "In graph theory, the 2-factor theorem can be stated as follows:"},
+            {"section": "Lead", "kind": "p",
+             "text": "Let G be an even-regular graph. Then its edge set can be decomposed into two-factors."},
+        ]
+        excerpt, statement, section = snippet(blocks)
+        self.assertTrue(statement.startswith("Let G be"))
+        self.assertIn("2-factor theorem", excerpt)
+
+    def test_no_vague_mechanical_split(self):
+        hyp, con, status = mechanical_split(
+            "Let n be a positive integer. Then the following inequality holds:")
+        self.assertEqual((hyp, con, status), ([], [], "needs_interpretation"))
+
     def test_mechanical_if_then(self):
         text = "If every point of X has an open neighbourhood, then X is a topological space."
         hyp, con, state = mechanical_split(text)
