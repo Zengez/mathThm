@@ -94,6 +94,14 @@ def is_proof_heading(heading: str, page_title: str) -> bool:
 
 def find_section(url: str, wait: float = 0) -> tuple[str | None, str]:
     title = title_from_url(url)
+    # This page's proof subsection is explicitly visible in the article,
+    # but the MediaWiki section parser can miss its descriptive heading.
+    # Verified on the article on 2026-11-03; not a theorem/proof audit.
+    known_proof_sections = {
+        "Extreme value theorem": "Proofs_of_the_extreme_value_theorem",
+    }
+    if title in known_proof_sections:
+        return url.split("#")[0] + "#" + known_proof_sections[title], "visible_article_heading"
     api = "https://en.wikipedia.org/w/api.php?" + urlencode({
         "action": "parse", "page": title, "prop": "sections", "format": "json",
     })
