@@ -1,0 +1,204 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 2,
+  "branch": "work/phase2-final/chat-2",
+  "batch_id": "p2f-w2-b007",
+  "chapter": "curves",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-2-2026-11-03-independent-chat",
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "review_date": "2026-11-03",
+  "status": "completed_review_awaiting_central_registration",
+  "candidate_count": 35,
+  "approved_count": 35,
+  "held_count": 0,
+  "section_count": 11,
+  "candidate_ids": [
+    "candidate.stacks.e1e4d1ef141eb7ab30e172ec",
+    "candidate.stacks.ff9ad6f552eaf03acc2c6e26",
+    "candidate.stacks.5d31e0fa32c52596cc6c944a",
+    "candidate.stacks.4bca3563b403a8238c337f97",
+    "candidate.stacks.5b2adf01cf3cf4cd01df59ea",
+    "candidate.stacks.4f7cf574dd7fa3733b503dfb",
+    "candidate.stacks.ef35a17757d6dc60986ea42f",
+    "candidate.stacks.156ed32fa3122cdbea8d612b",
+    "candidate.stacks.ff0b7d1b5a8396596ab049a9",
+    "candidate.stacks.a033e6aecec6682ab3bd0669",
+    "candidate.stacks.8e225c2741797b2cd58f1eef",
+    "candidate.stacks.9240b30a7d89d9ae157ecbc6",
+    "candidate.stacks.f39555a1d41f48fbe7adc12e",
+    "candidate.stacks.e15fa880e43ee1477e31aee7",
+    "candidate.stacks.81808926536fff1332a0cd06",
+    "candidate.stacks.631018c97c657f9702c70a48",
+    "candidate.stacks.ebef01df0f3b1829a7bbdf85",
+    "candidate.stacks.69fdfa6825abde5d906a605a",
+    "candidate.stacks.071434df9b27c31b48fa1188",
+    "candidate.stacks.37edf935c08434f2fe63ffe5",
+    "candidate.stacks.1540e2b85511c4c321a547fb",
+    "candidate.stacks.ffe4e8d04e608467ea08c879",
+    "candidate.stacks.d79d71b9b1e0df6cd7cfb779",
+    "candidate.stacks.167f60cdd7edd5432a2834d2",
+    "candidate.stacks.147299932ff2ef136bfff9aa",
+    "candidate.stacks.dd807cb435af77aeb1af2c1a",
+    "candidate.stacks.76c91f7c0f1bab0d829e0853",
+    "candidate.stacks.61ac5f624f13098821284831",
+    "candidate.stacks.fcad2800f60597b9456930b4",
+    "candidate.stacks.60120bc77849e87965ad05fe",
+    "candidate.stacks.ef77ff7e5960b1931832029d",
+    "candidate.stacks.6d2d23e0b576a02f8b0ce434",
+    "candidate.stacks.b5ffe130aab506871e326f36",
+    "candidate.stacks.4802d0a1af6c20cf4f057e1d",
+    "candidate.stacks.fff882bccd97a962480d9980"
+  ],
+  "held_candidate_ids": [],
+  "decision_files": [
+    {
+      "chapter": "curves",
+      "section_start_line": 46,
+      "candidate_ids": [
+        "candidate.stacks.e1e4d1ef141eb7ab30e172ec",
+        "candidate.stacks.ff9ad6f552eaf03acc2c6e26",
+        "candidate.stacks.5d31e0fa32c52596cc6c944a",
+        "candidate.stacks.4bca3563b403a8238c337f97",
+        "candidate.stacks.5b2adf01cf3cf4cd01df59ea",
+        "candidate.stacks.4f7cf574dd7fa3733b503dfb"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-46.jsonl",
+      "decision_blob_sha": "a06cb803fbd468633e95f6c9dbead05c6780f0e5",
+      "approvals": 6,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 330,
+      "candidate_ids": [
+        "candidate.stacks.ef35a17757d6dc60986ea42f",
+        "candidate.stacks.156ed32fa3122cdbea8d612b",
+        "candidate.stacks.ff0b7d1b5a8396596ab049a9"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-330.jsonl",
+      "decision_blob_sha": "97c74f7825a62de7d27d672472af290d8651d95f",
+      "approvals": 3,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 568,
+      "candidate_ids": [
+        "candidate.stacks.a033e6aecec6682ab3bd0669"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-568.jsonl",
+      "decision_blob_sha": "3446c99d32b0860cb82cb0019dd71c78536430cb",
+      "approvals": 1,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 1051,
+      "candidate_ids": [
+        "candidate.stacks.8e225c2741797b2cd58f1eef",
+        "candidate.stacks.9240b30a7d89d9ae157ecbc6",
+        "candidate.stacks.f39555a1d41f48fbe7adc12e",
+        "candidate.stacks.e15fa880e43ee1477e31aee7"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-1051.jsonl",
+      "decision_blob_sha": "90c91e72e5153d782137b1177daeae35d57117f8",
+      "approvals": 4,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 1276,
+      "candidate_ids": [
+        "candidate.stacks.81808926536fff1332a0cd06",
+        "candidate.stacks.631018c97c657f9702c70a48"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-1276.jsonl",
+      "decision_blob_sha": "62b3c8ae72e387fd17ed56ccf3f33dd4b21e48d4",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 1447,
+      "candidate_ids": [
+        "candidate.stacks.ebef01df0f3b1829a7bbdf85",
+        "candidate.stacks.69fdfa6825abde5d906a605a",
+        "candidate.stacks.071434df9b27c31b48fa1188"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-1447.jsonl",
+      "decision_blob_sha": "140d4433753e53c3f1c1dc3caa353273b8c44106",
+      "approvals": 3,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 1565,
+      "candidate_ids": [
+        "candidate.stacks.37edf935c08434f2fe63ffe5",
+        "candidate.stacks.1540e2b85511c4c321a547fb"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-1565.jsonl",
+      "decision_blob_sha": "91c41195908757e667027b652e58997f1b7e2d3d",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 1774,
+      "candidate_ids": [
+        "candidate.stacks.ffe4e8d04e608467ea08c879",
+        "candidate.stacks.d79d71b9b1e0df6cd7cfb779",
+        "candidate.stacks.167f60cdd7edd5432a2834d2"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-1774.jsonl",
+      "decision_blob_sha": "66915d1e93b6a8a4dbd81192a0fad5779267ed33",
+      "approvals": 3,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 2206,
+      "candidate_ids": [
+        "candidate.stacks.147299932ff2ef136bfff9aa",
+        "candidate.stacks.dd807cb435af77aeb1af2c1a"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-2206.jsonl",
+      "decision_blob_sha": "81459e54131a80aa5064e189b51c7ad8ec291cb6",
+      "approvals": 2,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 2530,
+      "candidate_ids": [
+        "candidate.stacks.76c91f7c0f1bab0d829e0853",
+        "candidate.stacks.61ac5f624f13098821284831",
+        "candidate.stacks.fcad2800f60597b9456930b4",
+        "candidate.stacks.60120bc77849e87965ad05fe",
+        "candidate.stacks.ef77ff7e5960b1931832029d",
+        "candidate.stacks.6d2d23e0b576a02f8b0ce434",
+        "candidate.stacks.b5ffe130aab506871e326f36",
+        "candidate.stacks.4802d0a1af6c20cf4f057e1d"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-2530.jsonl",
+      "decision_blob_sha": "807e4a7a8ba36d37604b51671ea72401474fdc84",
+      "approvals": 8,
+      "holds": 0
+    },
+    {
+      "chapter": "curves",
+      "section_start_line": 2957,
+      "candidate_ids": [
+        "candidate.stacks.fff882bccd97a962480d9980"
+      ],
+      "decision_file": "work/phase2-final-parallel/worker-2/decisions/curves/section-2957.jsonl",
+      "decision_blob_sha": "91d8498186b8e5f54bbcc56da39a8e9376e4062a",
+      "approvals": 1,
+      "holds": 0
+    }
+  ],
+  "decision_files_verified_at_commit": "d119db3c1114de2a7cbb1e7a03af7088ba8d6b97",
+  "validation": "Exactly one ordered source-first decision per frozen candidate in every complete Curves section; independently compared all mathematical implications, hypotheses, conventions, and quantifiers to pinned original and checked input blob hashes/reviewer provenance."
+}
