@@ -77,8 +77,8 @@
           (isRoot && node.clauses.length===1?"":action("remove",sub.id,"×","Remove this clause"))+
           '</div></div>';
       }
-      html+='<div class="query-add">'+action("add-term",node.id,"+ Term","Add a term to this group")+
-        action("add-group",node.id,"+ Group","Add a nested group to this group")+'</div></div>';
+      html+='<div class="query-add">'+action("add-group",node.id,"+ Group","Add a nested group to this group")+
+        action("add-term",node.id,"+ Term","Add a term to this group")+'</div></div>';
       return html;
     }
     function preview() {
