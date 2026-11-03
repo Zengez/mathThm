@@ -1,0 +1,87 @@
+{
+  "schema": "maththm.phase2-final.worker-checkpoint.v1",
+  "worker": 1,
+  "branch": "work/phase2-final/chat-1",
+  "batch_id": "p2f-w1-b018",
+  "chapter": "moduli-curves",
+  "source_revision": "a04446e57ec1fbc252a871afcec7752fb2807b14",
+  "reviewer": "gpt-6-final-phase2-worker-1-2026-11-03-resume",
+  "completed_on": "2026-11-03",
+  "candidate_count": 4,
+  "approved_count": 4,
+  "held_count": 0,
+  "complete_section_count": 4,
+  "candidate_ids": [
+    "candidate.stacks.2f878b339eea2b6b567b0106",
+    "candidate.stacks.eb2cf3933d334aa7ec2764c5",
+    "candidate.stacks.88ea35b12544ac7b5c13144a",
+    "candidate.stacks.2daf93682e3dba7a09ae2368"
+  ],
+  "sections": [
+    {
+      "chapter": "moduli-curves",
+      "section_start_line": 152,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/moduli-curves/section-152.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.2f878b339eea2b6b567b0106"
+      ],
+      "approved_count": 1,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "00e0e3df28003aee8c0931481a4b1fa7c18fb774",
+        "phase3_review": "aa8f3348afd0f8fc6802b54e86f26bf24e214023",
+        "phase2_proposal": "ee69d2d2947ac0e7a6c1fdf852f3644b2e3712c1"
+      }
+    },
+    {
+      "chapter": "moduli-curves",
+      "section_start_line": 1513,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/moduli-curves/section-1513.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.eb2cf3933d334aa7ec2764c5"
+      ],
+      "approved_count": 1,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "6e5b533a2ed8b518a1b59345c36af30373978c89",
+        "phase3_review": "cd86d618a49656558e44f766d93a496fbdc2aeda",
+        "phase2_proposal": "25d73b8926fe322925e314498b3662e19a5378c8"
+      }
+    },
+    {
+      "chapter": "moduli-curves",
+      "section_start_line": 2391,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/moduli-curves/section-2391.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.88ea35b12544ac7b5c13144a"
+      ],
+      "approved_count": 1,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "b30621702a3f66d9eb7c7ace94ab5ee0c116c13b",
+        "phase3_review": "d325559425bf187e1d5d387d9369fd8b14c48696",
+        "phase2_proposal": "8116e4f054884643477603a6bd4e55c2c815fdc8"
+      }
+    },
+    {
+      "chapter": "moduli-curves",
+      "section_start_line": 2625,
+      "decision_file": "work/phase2-final-parallel/worker-1/decisions/moduli-curves/section-2625.jsonl",
+      "candidate_ids": [
+        "candidate.stacks.2daf93682e3dba7a09ae2368"
+      ],
+      "approved_count": 1,
+      "held_count": 0,
+      "frozen_input_blob_shas": {
+        "stage_b": "aa89e83a515fe8f543b01d15bb25dcdf9d128522",
+        "phase3_review": "575c99d0b408a402b6b3a04f603c298fafb9d02e",
+        "phase2_proposal": "7fdb99901ab492846b5a08dcb163df722d7379f3"
+      }
+    }
+  ],
+  "complete_sections": true,
+  "source_first_review": true,
+  "proof_reviewed": false,
+  "source_equivalence_status": "awaiting_central_registration",
+  "input_blob_hashes_verified": true
+}
