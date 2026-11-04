@@ -30,7 +30,7 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_retry_wikipedia_inconclusive.py' -v
       - name: One throttled access retry for inconclusive pages only
         run: |
-          python scripts/retry_wikipedia_inconclusive.py \
+          python -m scripts.retry_wikipedia_inconclusive \
             --delay 1.5 --stop-after-429 4
           cat work/wikipedia-proof-screen/20261104/one-time-retry/REPORT.json
       - name: Save retry outcomes and leave nontried cases deferred
