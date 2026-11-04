@@ -1,0 +1,70 @@
+name: Fast Wikipedia structured-statement overlap (existing mathThm)
+
+on:
+  push:
+    branches: [work/wikipedia-existing-match-20261104]
+    paths:
+      - '.github/workflows/wiki-structured-overlap.yml'
+      - 'scripts/match_wikipedia_prepared_to_existing.py'
+      - 'tests/test_match_wikipedia_prepared_to_existing.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wiki-structured-overlap-20261104
+  cancel-in-progress: false
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/wikipedia-existing-match-20261104
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run targeted offline matching tests
+        run: python -m unittest discover -s tests -p 'test_match_wikipedia_prepared_to_existing.py' -v
+      - name: Compare all 984 Wikipedia formulations against all published theorems
+        run: python -m scripts.match_wikipedia_prepared_to_existing
+      - name: Apply verified external proof links without touching canonical Stacks master
+        run: |
+          cp work/wikipedia-existing-match/20261104/wikipedia_proof_links.json data/wikipedia_proof_links.json
+          python scripts/publish_phase2_catalog.py --all
+          python -m scripts.theorem_schema data/theorems.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path('work/wikipedia-existing-match/20261104/REPORT.json').read_text())
+          overlay=json.loads(Path('data/wikipedia_proof_links.json').read_text())
+          catalog=json.loads(Path('data/theorems.json').read_text())
+          assert report['prepared_compared']==984
+          assert report['matched_existing']+report['unmatched_prepared']==984
+          assert report['held_untouched']==137
+          ids={r['id'] for r in catalog['records']}
+          assert set(overlay['links_by_theorem_id'])<=ids
+          links=sum(len(t.get('proof_links',[])) for t in catalog['records'])
+          expected=sum(len(group) for group in overlay['links_by_theorem_id'].values())
+          assert links==expected
+          print(f"Validated {links} external Wikipedia links on {len(ids)} published theorems")
+          PY
+      - name: Commit only durable link overlay and match decisions
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/wikipedia_proof_links.json work/wikipedia-existing-match/20261104/
+          if ! git diff --cached --quiet; then
+            git commit -m "Record conservative overlaps of 984 Wikipedia statements and retain unmatched queue"
+            git push origin HEAD:work/wikipedia-existing-match-20261104
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wiki-structured-overlap-results
+          path: work/wikipedia-existing-match/20261104
+          retention-days: 30
+          if-no-files-found: error
