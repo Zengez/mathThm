@@ -80,7 +80,7 @@ def vectorize(candidates: list[dict], existing: list[dict], field: str):
     for bag in docs + queries:
         df.update(bag.keys())
     n = len(docs) + len(queries)
-    idf = {t: math.log((n+1)/(freq+1))+1 for t,freq in df.items() if freq <= n*0.32}
+    idf = {t: math.log((n+1)/(freq+1))+1 for t,freq in df.items() if freq <= max(2,n*0.32)}
     def make_vec(bag):
         d = {t: (1 + math.log(count)) * idf[t] for t,count in bag.items() if t in idf}
         norm = math.sqrt(sum(x*x for x in d.values()))
