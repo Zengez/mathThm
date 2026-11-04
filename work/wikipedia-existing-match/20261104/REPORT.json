@@ -1,0 +1,15 @@
+{
+  "candidate_shortlist": 11,
+  "held_untouched": 137,
+  "matched_existing": 0,
+  "mathematical_equivalence_audit": "not_performed",
+  "new_wikipedia_links": 0,
+  "prepared_compared": 984,
+  "previous_wikipedia_links_preserved": 13,
+  "proof_validation": "not_performed",
+  "published_theorems_compared": 3963,
+  "schema": "maththm.wikipedia-existing-overlap.v1",
+  "scope": "one-pass high precision; uncertain matches remain candidates",
+  "text_matches_missing_proof_anchor": 0,
+  "unmatched_prepared": 984
+}

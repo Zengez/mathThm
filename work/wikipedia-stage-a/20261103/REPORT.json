@@ -1,0 +1,37 @@
+{
+  "manual_items": 1081,
+  "note": "Machine extraction and syntax splits are not authoritative Phase 2 reviews.",
+  "processed": 1121,
+  "proofs_reviewed": 0,
+  "published": 0,
+  "schema": "maththm.wikipedia-stage-a-prep.v1",
+  "source": "work/wikipedia-obvious-match-pass/unmatched_urls.txt",
+  "split_counts": {
+    "mechanical_suggestion": 40,
+    "needs_interpretation": 1081
+  },
+  "suggested_items": 40,
+  "total_source_urls": 1121,
+  "worker_counts": {
+    "1": {
+      "manual": 268,
+      "suggested": 13,
+      "total": 281
+    },
+    "2": {
+      "manual": 273,
+      "suggested": 7,
+      "total": 280
+    },
+    "3": {
+      "manual": 273,
+      "suggested": 7,
+      "total": 280
+    },
+    "4": {
+      "manual": 267,
+      "suggested": 13,
+      "total": 280
+    }
+  }
+}
