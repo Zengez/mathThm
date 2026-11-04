@@ -1,0 +1,111 @@
+name: Wikipedia proof section presence screen (one-shot)
+
+on:
+  push:
+    branches: [work/wikipedia-proof-structure-20261104]
+    paths:
+      - '.github/workflows/wiki-proof-presence-20261104.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wiki-proof-presence-20261104
+  cancel-in-progress: false
+
+jobs:
+  pilot:
+    name: Structural tests and live proof-section pilot
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/wikipedia-proof-structure-20261104
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check structural screening rules
+        run: python -m unittest discover -s tests -p 'test_screen_wikipedia_proof_sections.py' -v
+      - name: Try eight real proof-section fetches
+        run: |
+          python scripts/screen_wikipedia_proof_sections.py \
+            --lane 1 --limit 8 --output scratch/pilot --delay 0.12
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          rows=[json.loads(x) for x in Path("scratch/pilot/lane-1.jsonl").read_text().splitlines() if x]
+          print("Pilot:")
+          for row in rows:
+            print(row["title"],row["status"],row["reason"],row["proof_url"])
+          assert len(rows)==8
+          assert sum(r["status"]=="inconclusive" for r in rows)<8, "Wikipedia inaccessible to runner"
+          PY
+
+  fetch:
+    name: Inspect proof sections for lane ${{ matrix.lane }}
+    needs: [pilot]
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        lane: [1, 2, 3, 4]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/wikipedia-proof-structure-20261104
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check Wikipedia sections for argument-like content
+        run: |
+          python scripts/screen_wikipedia_proof_sections.py \
+            --lane ${{ matrix.lane }} --output scratch/lanes --delay 0.10
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wikipedia-proof-screen-lane-${{ matrix.lane }}
+          path: scratch/lanes/lane-${{ matrix.lane }}.jsonl
+          if-no-files-found: error
+          retention-days: 30
+
+  combine:
+    name: Reconcile 984 proof-screen results and retain holds
+    needs: [fetch]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/wikipedia-proof-structure-20261104
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: wikipedia-proof-screen-lane-*
+          path: scratch/lanes
+          merge-multiple: true
+      - name: Produce final durable candidate and held queues
+        run: |
+          python scripts/screen_wikipedia_proof_sections.py \
+            --combine --lane-dir scratch/lanes \
+            --output work/wikipedia-proof-screen/20261104
+          cat work/wikipedia-proof-screen/20261104/REPORT.json
+      - name: Persist screenings without publishing new theorems
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/wikipedia-proof-screen/20261104
+          if ! git diff --cached --quiet; then
+            git commit -m "Complete permissive structural proof screen for 984 Wikipedia candidates"
+            git push origin HEAD:work/wikipedia-proof-structure-20261104
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wikipedia-structural-proof-screen-results
+          path: work/wikipedia-proof-screen/20261104
+          retention-days: 30
+          if-no-files-found: error
