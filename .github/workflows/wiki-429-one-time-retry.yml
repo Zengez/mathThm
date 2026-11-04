@@ -1,0 +1,50 @@
+name: Retry 224 inconclusive Wikipedia proof pages once (rate-limit aware)
+
+on:
+  push:
+    branches: [work/wikipedia-proof-429-retry-20261104]
+    paths:
+      - '.github/workflows/wiki-429-one-time-retry.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wikipedia-224-inconclusive-one-time-retry
+  cancel-in-progress: false
+
+jobs:
+  retry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/wikipedia-proof-429-retry-20261104
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify the 224-only selection and rate-limit safeguards
+        run: python -m unittest discover -s tests -p 'test_retry_wikipedia_inconclusive.py' -v
+      - name: One throttled access retry for inconclusive pages only
+        run: |
+          python scripts/retry_wikipedia_inconclusive.py \
+            --delay 1.5 --stop-after-429 4
+          cat work/wikipedia-proof-screen/20261104/one-time-retry/REPORT.json
+      - name: Save retry outcomes and leave nontried cases deferred
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add work/wikipedia-proof-screen/20261104/one-time-retry/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record one controlled retry of 224 inconclusive Wikipedia proof pages'
+            git push origin HEAD:work/wikipedia-proof-429-retry-20261104
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wikipedia-224-proof-retry-one-shot-results
+          path: work/wikipedia-proof-screen/20261104/one-time-retry/
+          if-no-files-found: error
+          retention-days: 30
