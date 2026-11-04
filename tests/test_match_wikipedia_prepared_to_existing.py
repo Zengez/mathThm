@@ -35,7 +35,7 @@ class WikipediaMatchTests(unittest.TestCase):
                     ["X is a topological space"],["X admits a neighborhood basis"])]
         ranks=combined_ranking(candidates,existing)[0]
         self.assertEqual(ranks[0][1],0)
-        self.assertGreater(ranks[0][0],ranks[-1][0])
+        self.assertGreater(ranks[0][0], .95)
 
     def test_strict_math_key(self):
         self.assertEqual(strict_key(["$A$ is compact."]),strict_key(["A  is compact"]))
