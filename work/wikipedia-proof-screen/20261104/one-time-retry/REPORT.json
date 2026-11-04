@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-04",
+  "followup": "Leave unresolved cases for a future manual retry, not a recurring job",
+  "original_inconclusive": 224,
+  "original_no_visible_proof": 54,
+  "original_screened": 706,
+  "original_total": 984,
+  "previous_source_clarity_holds_untouched": 137,
+  "proof_completeness_checked": false,
+  "proof_validity_checked": false,
+  "rate_limit_stop_triggered": false,
+  "retry_attempted": 224,
+  "retry_no_visible_proof": 10,
+  "retry_proof_looking_content_found": 214,
+  "retry_reasons": {
+    "argument_like_prose": 212,
+    "no_proof_labeled_section": 1,
+    "section_too_thin_or_uninformative": 9,
+    "substantive_proof_section_prose": 2
+  },
+  "retry_skipped_due_to_rate_limit": 0,
+  "retry_still_inconclusive_attempted": 0,
+  "scheduled": false,
+  "schema": "maththm.wikipedia-proof-presence-one-time-retry.v1",
+  "theorems_published": 0,
+  "updated_total_inconclusive_or_deferred": 0,
+  "updated_total_no_visible_proof": 64,
+  "updated_total_screened": 920
+}
