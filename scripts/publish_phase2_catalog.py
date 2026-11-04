@@ -276,6 +276,13 @@ def integrate(all_rows=None):
     statuses = Counter(d["status"] for d in decisions)
     blockers = [{"candidate_id": d["candidate_id"], "reason": d["reason"]}
                 for d in decisions if d["status"] == "blocked"]
+    # Append the frozen, already-proof-presence-screened Wikipedia corpus.
+    # The Stacks canonical master and its approval accounting remain unchanged.
+    if __package__:
+        from .publish_wikipedia_catalog import append_wikipedia
+    else:
+        from publish_wikipedia_catalog import append_wikipedia
+    wikipedia_stats = append_wikipedia(output)
     report = {
         "schema": "maththm.publication-report.v1",
         "canonical_master_records": len(rows),
@@ -285,6 +292,7 @@ def integrate(all_rows=None):
         "blocked_approved_records": statuses["blocked"],
         "canonical_records_accounted_for": len(decisions),
         "prototype_records_preserved": len(previous),
+        **wikipedia_stats,
         "mechanically_consolidated_duplicates": len(duplicates),
         "duplicate_pairs": duplicates,
         "published_new_catalog_entries": len(output) - len(previous),
@@ -325,7 +333,7 @@ def integrate(all_rows=None):
                 theorem["proof_links"] = extras
 
     dump_json(CATALOG, {"schema": "maththm.theorems.v1", "contract_revision": 2,
-                        "scope": "20 prototypes plus approved Phase 2 Stacks source-equivalence decisions; proof audit separate",
+                        "scope": "20 prototypes, approved Phase 2 Stacks decisions, and 920 structurally proof-screened Wikipedia results; mathematical proof audits separate",
                         "total": len(output), "records": output})
     dump_json(OUT / "REPORT.json", report)
     dump_json(OUT / "BLOCKERS.json", blockers)

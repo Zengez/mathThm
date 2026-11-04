@@ -80,7 +80,18 @@ def validate(corpus: dict) -> dict:
         approved = (isinstance(phase2, dict) and
                     phase2.get("decision") == "source_equivalence_approved" and
                     isinstance(phase2.get("reviewer"), str) and bool(phase2["reviewer"]))
-        if not r["conclusions"] or (not r["hypotheses"] and not approved):
+        # A Wikipedia editorially prepared statement may be unconditional.
+        # Preserve its actual empty assumption list; never invent a fake
+        # hypothesis just to satisfy the search schema.
+        wikipedia_unconditional = (
+            ident.startswith("candidate.wikipedia.") and
+            r.get("source_url", "").startswith("https://en.wikipedia.org/wiki/") and
+            isinstance(r.get("wikipedia_provenance"), dict) and
+            r["wikipedia_provenance"].get("candidate_id") == ident and
+            isinstance(r.get("acquisition"), dict) and
+            r["acquisition"].get("status") == "cursory_screened")
+        if not r["conclusions"] or (
+                not r["hypotheses"] and not approved and not wikipedia_unconditional):
             bad(prefix, "missing required structured search side")
         if r.get("review_status") not in (
             "cursory_screened_unverified",
