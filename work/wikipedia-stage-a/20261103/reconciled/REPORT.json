@@ -1,0 +1,32 @@
+{
+  "duplicate_candidate_ids": 0,
+  "foreign_candidate_ids": 0,
+  "held_for_source_clarity": 137,
+  "missing_candidate_ids": 0,
+  "next_stage": "cursory proof accessibility/completion screening; no proof correctness audit",
+  "original_unmatched_urls": 1121,
+  "prepared_statements": 984,
+  "proofs_screened": 0,
+  "published": 0,
+  "reconciled_decisions": 1121,
+  "schema": "maththm.wikipedia-stage-a-reconciliation.v1",
+  "sources": "four independently completed Stage A worker branches",
+  "worker_counts": {
+    "1": {
+      "held_for_source_clarity": 31,
+      "standalone_prepared": 250
+    },
+    "2": {
+      "held_for_source_clarity": 28,
+      "standalone_prepared": 252
+    },
+    "3": {
+      "held_for_source_clarity": 30,
+      "standalone_prepared": 250
+    },
+    "4": {
+      "held_for_source_clarity": 48,
+      "standalone_prepared": 232
+    }
+  }
+}
