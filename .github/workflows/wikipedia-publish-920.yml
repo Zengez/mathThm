@@ -1,0 +1,81 @@
+name: Publish 920 structurally screened Wikipedia results (one-shot)
+
+on:
+  push:
+    branches: [work/wikipedia-publication-20261104]
+    paths:
+      - '.github/workflows/wikipedia-publish-920.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wikipedia-publish-920-once
+  cancel-in-progress: false
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: work/wikipedia-publication-20261104
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Materialize frozen 920 Wikipedia results and inspect proof links
+        run: |
+          python -m scripts.publish_wikipedia_catalog --materialize --validate
+          git status --short
+      - name: Build integrated catalog without changing the Stacks master
+        run: |
+          sha256sum data/maththm_master.jsonl > /tmp/stacks-master-original.sha256
+          python scripts/publish_phase2_catalog.py --all
+          sha256sum -c /tmp/stacks-master-original.sha256
+          python -m scripts.theorem_schema data/theorems.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path('work/phase2-final-publication/REPORT.json').read_text())
+          corpus=json.loads(Path('data/theorems.json').read_text())
+          assert report['canonical_master_records']==4132
+          assert report['phase2_approved']==3943
+          assert report['held']==189
+          assert report['wikipedia_published']==920
+          assert report['catalog_before_wikipedia']==3963
+          assert report['catalog_after_wikipedia']==4883
+          assert corpus['total']==4883==len(corpus['records'])
+          assert len([x for x in corpus['records'] if x['id'].startswith('candidate.wikipedia.')])==920
+          assert len([x for x in corpus['records'] if x['id'].startswith('candidate.stacks.')])==3943
+          assert all(x['proofs'][0]['url'].startswith(x['source_url']+'#') for x in corpus['records'] if x['id'].startswith('candidate.wikipedia.'))
+          assert all(x['mathematical_audit']['status']=='not_audited' for x in corpus['records'] if x['id'].startswith('candidate.wikipedia.'))
+          print('Validated exact published total: 3963 existing + 920 Wikipedia = 4883')
+          PY
+      - name: Full Python structural regressions
+        run: python -m unittest discover -s tests -v
+      - name: Search and interface regression checks
+        run: |
+          node --check web/search-core.js
+          node --check web/app.js
+          node --test tests/test_search.cjs tests/test_boolean_queries.cjs tests/test_query_editor.cjs tests/test_query_builder_integration.cjs tests/test_ui_smoke.cjs tests/test_mathdef_v2.cjs tests/test_definition_links.cjs
+      - name: Commit durable 920-record Wikipedia source and derived live catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/wikipedia_theorems.jsonl data/theorems.json work/phase2-final-publication/REPORT.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish 920 proof-presence-screened Wikipedia results with proof links"
+            git push origin HEAD:work/wikipedia-publication-20261104
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wikipedia-published-920-report
+          path: work/phase2-final-publication/REPORT.json
+          if-no-files-found: error
+          retention-days: 30
