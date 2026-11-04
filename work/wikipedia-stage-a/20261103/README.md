@@ -1,6 +1,6 @@
 # Wikipedia result statements — Stage A preparation (November 3, 2026)
 
-**Status:** Automated source-intake complete. Semantic splitting by four human/Chat workers is **not yet done**. Nothing here has been admitted to the public theorem catalog.
+**Status (2026-11-04):** Automated source intake and all four independent editorial workers are **complete and reconciled**. There are 984 prepared standalone statements and 137 held records, all with preserved candidate IDs and provenance. These are in `reconciled/`. Nothing here has been admitted to the public theorem catalog; the conservative comparison to existing theorems is in `work/wikipedia-existing-match/20261104/`.
 
 ## Scope
 
