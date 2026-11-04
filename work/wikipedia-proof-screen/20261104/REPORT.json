@@ -1,0 +1,25 @@
+{
+  "actual_proof_validity_checked": false,
+  "held_without_visible_proof": 278,
+  "new_theorems_published": 0,
+  "prepared_candidates_checked": 984,
+  "previous_source_clarity_holds_unchanged": 137,
+  "proof_completeness_checked": false,
+  "reason_counts": {
+    "argument_like_prose": 691,
+    "no_proof_labeled_section": 9,
+    "page_or_section_fetch_failure": 222,
+    "proof_refers_elsewhere_or_is_omitted": 1,
+    "section_too_thin_or_uninformative": 44,
+    "substantive_proof_section_prose": 15,
+    "unable_to_read_proof_section": 2
+  },
+  "schema": "maththm.wikipedia-structural-proof-screen.v1",
+  "scope": "Visible proof-labeled section with mathematical/argument-like content, not proof verification",
+  "screened_with_proof_looking_content": 706,
+  "status_counts": {
+    "appears_to_contain_proof": 706,
+    "inconclusive": 224,
+    "no_visible_proof": 54
+  }
+}
